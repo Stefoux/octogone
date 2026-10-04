@@ -43,7 +43,9 @@ Aucun fait n'est inventé : chaque combattant garde ses sources (`sources`, `cha
 | `distinctions.py` | distinctions courtes (6 lignes max) en français et en anglais, tirées des « Championships and accomplishments » de Wikipedia ; l'app affiche la langue du téléphone (repli : français) |
 | `fetch_images.py` | photos libres Wikimedia Commons, auteur et licence, recadrage visage/buste |
 | `build_original_editions.py` | éditions originales « Saison AAAA » (combattants ayant combattu cette année-là) |
-| `import_to_supabase.py` | envoi idempotent des JSON et des images vers Supabase |
+| `import_to_supabase.py` | envoi idempotent des JSON, des images et des boosters vers Supabase |
+| `make_sounds.py` | sons de l'app (déchirure, retournement, révélation par rareté), générés sans fichier externe |
+| `test_boosters_load.py` | simulation de boosters (probabilités) et ouvertures simultanées (numérotation) |
 | `packages/game_core/bin/compute_stats.dart` | stats de jeu 0-99 (formule documentée dans `lib/src/stats/stat_formula.dart`) |
 
 Ajouter une édition réelle :
@@ -55,6 +57,33 @@ cd data/scripts
   --source https://www.checklistinsider.com/2025-topps-chrome-ufc \
   --verif https://www.checklistcenter.com/2025-topps-chrome-ufc-card-checklist/
 .venv/bin/python fetch_fighters.py --edition 2025-topps-chrome-ufc
+```
+
+## Boosters
+
+Les types de boosters sont dans `data/boosters.json` (importés dans la table `booster_types`) : nombre de cartes, prix en pièces, visuel (couleurs, accent) et composition. Chaque emplacement tire une rareté selon ses poids, puis une variante (les petits tirages sortent moins), puis une carte éligible. L'app calcule les probabilités affichées à partir de ces mêmes poids.
+
+L'ouverture se fait uniquement côté serveur (`open_booster`, migration `20261005000100_boosters.sql`) dans une transaction : paiement, anti-malchance, numéro de série unique pour tous les joueurs (verrou sur `print_runs`), cartes ajoutées à la collection.
+
+Réglages dans la table `economy_config` :
+
+| Colonne | Défaut | Rôle |
+|---|---|---|
+| `mode_test` | `true` | boosters illimités et gratuits pendant les tests |
+| `intervalle_gratuit` | `12 hours` | délai entre deux boosters gratuits |
+| `capacite_gratuite` | `2` | boosters gratuits mis de côté au maximum |
+| `pity_legendaire` | `40` | Légendaire garantie au plus tard tous les N boosters |
+
+Fin des tests (éditeur SQL de Supabase, en attendant l'écran admin de la phase 6) :
+
+```sql
+update public.economy_config set mode_test = false;
+```
+
+Vérifier les probabilités et la concurrence sur le Supabase local :
+
+```bash
+cd data/scripts && .venv/bin/python test_boosters_load.py --n 100000
 ```
 
 ## Versions
@@ -82,9 +111,10 @@ Limites d'un Apple ID gratuit : 3 apps installées de cette façon en même temp
 ```bash
 cd packages/game_core && dart test        # formule des stats
 cd app && flutter analyze && flutter test  # analyse + widget tests
-supabase start && supabase test db         # policies RLS (Supabase local dans Docker)
+supabase start && supabase test db         # policies RLS, boosters (Supabase local dans Docker)
+cd data/scripts && .venv/bin/python -m unittest test_scripts  # scripts de données
 ```
 
 ## Mentions
 
-Projet non officiel et non commercial. Aucun logo officiel : les noms d'éditions apparaissent en texte et les cadres de cartes sont des créations originales. Les photos proviennent de Wikimedia Commons sous licence libre ; les attributions sont affichées dans l'écran « Crédits » de l'app.
+Projet non officiel et non commercial. Aucun logo officiel : les noms d'éditions apparaissent en texte et les cadres de cartes sont des créations originales. Les photos proviennent de Wikimedia Commons sous licence libre ; les attributions sont affichées dans l'écran « Crédits » de l'app. Les sachets de boosters sont des visuels graphiques originaux (aucune photo de vrai paquet) et les sons sont synthétisés par `data/scripts/make_sounds.py`.

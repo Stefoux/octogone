@@ -58,11 +58,11 @@ def expected(composition: dict) -> dict[str, tuple[float, float]]:
 def check_probabilities(api: str, key: str, n: int) -> bool:
     ok = True
     for b in load_json(DATA / "boosters.json")["boosters"]:
-        # Par lots de 4 000 (délai maximal d'une requête de l'API)
+        # Par lots de 1 000 (délai maximal d’une requête de l’API)
         got: dict[str, dict] = {}
         done = 0
         while done < n:
-            batch = min(4_000, n - done)
+            batch = min(1_000, n - done)
             r = requests.post(f"{api}/rest/v1/rpc/simulate_booster_tiers", json={"p_type": b["id"], "p_n": batch},
                               headers={"apikey": key, "Content-Type": "application/json"}, timeout=600)
             r.raise_for_status()

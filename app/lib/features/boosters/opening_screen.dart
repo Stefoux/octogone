@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:math' as math;
 
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -8,9 +9,11 @@ import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../core/config.dart';
 import '../../core/l10n.dart';
 import '../../core/sounds.dart';
 import '../../core/theme.dart';
+import '../../data/repositories/content_providers.dart';
 import '../../domain/models.dart';
 import '../../widgets/tilt_builder.dart';
 import '../cards/card_backside.dart';
@@ -48,6 +51,8 @@ class _BoosterOpeningScreenState extends ConsumerState<BoosterOpeningScreen> wit
   late final AnimationController _flip = AnimationController(vsync: this, duration: const Duration(milliseconds: 520));
   late final AnimationController _out = AnimationController(vsync: this, duration: const Duration(milliseconds: 260));
   late final AnimationController _burst = AnimationController(vsync: this, duration: const Duration(milliseconds: 1100));
+  late final AnimationController _pulse =
+      AnimationController(vsync: this, duration: const Duration(milliseconds: 1100))..repeat(reverse: true);
   List<PulledCard> _cards = const [];
   int _index = 0;
   bool _busy = false;
@@ -60,6 +65,7 @@ class _BoosterOpeningScreenState extends ConsumerState<BoosterOpeningScreen> wit
     _flip.dispose();
     _out.dispose();
     _burst.dispose();
+    _pulse.dispose();
     super.dispose();
   }
 
@@ -92,6 +98,12 @@ class _BoosterOpeningScreenState extends ConsumerState<BoosterOpeningScreen> wit
     try {
       final cards = await pending;
       if (!mounted) return;
+      // Photos téléchargées pendant la révélation (la première est attendue un instant)
+      final photos = _precachePhotos(cards);
+      if (photos.isNotEmpty) {
+        await photos.first.timeout(const Duration(milliseconds: 1500), onTimeout: () {});
+      }
+      if (!mounted) return;
       ref
         ..invalidate(boosterStatusProvider)
         ..invalidate(walletProvider);
@@ -112,6 +124,20 @@ class _BoosterOpeningScreenState extends ConsumerState<BoosterOpeningScreen> wit
     } finally {
       _busy = false;
     }
+  }
+
+  List<Future<void>> _precachePhotos(List<PulledCard> cards) {
+    final images = ref.read(imagesProvider).value ?? const <String, ImageRef>{};
+    final futures = <Future<void>>[];
+    for (final c in cards) {
+      final view = buildCardView(ref, cardId: c.cardId, owned: c.toOwned());
+      for (final f in view?.fighters ?? const <Fighter>[]) {
+        final img = images[f.imageId];
+        if (img == null) continue;
+        futures.add(precacheImage(CachedNetworkImageProvider(AppConfig.publicImageUrl(img.storagePath)), context));
+      }
+    }
+    return futures;
   }
 
   // --- Révélation ------------------------------------------------------------
@@ -368,11 +394,17 @@ class _BoosterOpeningScreenState extends ConsumerState<BoosterOpeningScreen> wit
                   // Lueur de rareté (avant et pendant la révélation)
                   Positioned.fill(
                     child: AnimatedBuilder(
-                      animation: Listenable.merge([_flip, _burst]),
+                      animation: Listenable.merge([_flip, _burst, _pulse]),
                       builder: (context, _) => CustomPaint(
                         painter: _GlowPainter(
                           color: rarityColor,
-                          strength: _suspense ? 1.0 : (_rank(card.rarete) <= 0 ? 0.25 : 0.55),
+                          strength: _suspense
+                              ? 1.0
+                              : switch (_rank(card.rarete)) {
+                                  <= 0 => 0.0,
+                                  1 => 0.3,
+                                  _ => 0.45 + 0.25 * _pulse.value,
+                                },
                           burst: _burst.value,
                           rank: _rank(card.rarete),
                         ),
@@ -548,14 +580,18 @@ class _GlowPainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     final c = size.center(Offset.zero);
-    final r = size.longestSide * (0.62 + 0.1 * strength);
-    canvas.drawCircle(
-      c,
-      r,
-      Paint()
-        ..shader = RadialGradient(colors: [color.withValues(alpha: 0.55 * strength), color.withValues(alpha: 0)])
-            .createShader(Rect.fromCircle(center: c, radius: r)),
-    );
+    if (strength > 0) {
+      final r = size.longestSide * (0.7 + 0.12 * strength);
+      canvas.drawCircle(
+        c,
+        r,
+        Paint()
+          ..shader = RadialGradient(
+            colors: [color.withValues(alpha: 0.75 * strength), color.withValues(alpha: 0.35 * strength), color.withValues(alpha: 0)],
+            stops: const [0.45, 0.7, 1],
+          ).createShader(Rect.fromCircle(center: c, radius: r)),
+      );
+    }
     if (burst > 0 && burst < 1) {
       final rays = 10 + rank * 4;
       final len = size.longestSide * (0.4 + burst * 0.7);

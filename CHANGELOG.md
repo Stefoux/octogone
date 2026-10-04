@@ -3,7 +3,17 @@
 Chaque version publiée a sa release GitHub avec les APK Android (`scripts/release_android.sh`).
 Le texte d'une section sert de notes à la release correspondante.
 
-## 0.2.0
+## 0.3.0
+
+Boosters (phase 3)
+- Nouvel accueil : le booster de la collection du moment occupe l'écran (Saison 2026 en vedette), Standard et Premium côte à côte, bouton « Choisir d'autres collections » en bas à droite (2024 Topps Chrome UFC disponible aussi).
+- Sachets au visuel graphique original (motif octogone), qui flottent et s'inclinent avec le téléphone.
+- Ouverture : on glisse le doigt le long du haut pour déchirer, puis les cartes sont révélées une par une, les plus rares en dernier. Lueur de la couleur de la rareté, gerbe de lumière dès Rare, suspense et confettis pour les Légendaires et Mythiques, sons et vibrations. Bouton « Tout révéler » et résumé avec les cartes nouvelles.
+- Boosters gratuits : illimités pendant les tests, ensuite 1 toutes les 12 h (réserve de 2). Premium et boosters supplémentaires en pièces.
+- Probabilités affichées pour chaque booster (« 1 sur 25 boosters »), Légendaire garantie au moins tous les 40 boosters.
+- Tirage côté serveur : numérotation unique pour tous les joueurs (un /5 n'existe qu'en 5 exemplaires), jamais deux fois la même carte dans un booster.
+- Réglage pour couper les sons.
+
 
 Cartes et album (phase 2)
 - Cartes au style premium : photo en grand, plaque du nom, note globale, numéro dans la série (45/200), numérotation des tirages limités (12/50).

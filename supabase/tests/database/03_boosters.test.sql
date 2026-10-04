@@ -2,7 +2,7 @@
 -- numérotation globale, éligibilité, recharges gratuites, pièces, sécurité.
 begin;
 create extension if not exists pgtap with schema extensions;
-select plan(26);
+select plan(28);
 
 insert into auth.users (id, instance_id, aud, role, email, raw_user_meta_data)
 values ('55555555-5555-5555-5555-555555555555', '00000000-0000-0000-0000-000000000000', 'authenticated',
@@ -55,8 +55,8 @@ create temp table b1 as select * from public.open_booster('bt-std');
 select is((select count(*)::int from b1), 6, 'booster standard : 6 cartes');
 select is((select array_agg(rarete) from b1)::text,
           '{commune,commune,commune,commune,peu_commune,rare}', 'les plus rares sont révélées en dernier');
-select ok((select bool_and(nouvelle) from b1 where card_id not in (select card_id from b1 group by card_id having count(*) > 1)),
-          'premières cartes marquées nouvelles');
+select is((select count(distinct card_id)::int from b1), 6, 'pas deux fois la même carte dans un booster');
+select ok((select bool_and(nouvelle) from b1), 'premières cartes marquées nouvelles');
 select is((select count(*)::int from public.owned_cards where owner_id = '55555555-5555-5555-5555-555555555555'),
           6, 'cartes ajoutées à la collection');
 select is((select paiement from public.booster_openings where cartes @> array[(select owned_id from b1 limit 1)]),
@@ -70,6 +70,7 @@ select ok((select max(public.rarity_rank(rarete)) from b2) >= public.rarity_rank
 create temp table b3 as select * from public.open_booster('bt-leg');
 select is((select count(*)::int from b3 where variant_id = 'bt-ed:BASE:ceinture' and card_id <> 'bt-ed:1'), 0,
           'Ceinture d''Or réservée aux champions');
+select ok((select count(*) filter (where nouvelle) from b3) <= 1, 'un doublon forcé n''est « nouvelle » qu''une fois');
 
 -- Numérotation globale : Octogone Noir /2 par carte, jamais plus
 create temp table myth as select * from public.open_booster('bt-myth');

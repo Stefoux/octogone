@@ -34,8 +34,8 @@ class CardBackside extends StatelessWidget {
                 child: Text('OCTOGONE',
                     style: TextStyle(
                         fontFamily: 'Oswald',
-                        fontSize: 30,
-                        letterSpacing: 8,
+                        fontSize: 22,
+                        letterSpacing: 5,
                         fontWeight: FontWeight.w700,
                         color: AppColors.gold)),
               ),
