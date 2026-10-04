@@ -57,6 +57,14 @@ cd data/scripts
 .venv/bin/python fetch_fighters.py --edition 2025-topps-chrome-ufc
 ```
 
+## Versions
+
+Chaque version de l'app est publiée dans les [releases GitHub](https://github.com/Stefoux/octogone/releases) avec ses APK. Pour publier : augmenter `version` dans `app/pubspec.yaml`, décrire la version dans [CHANGELOG.md](CHANGELOG.md), commiter, puis :
+
+```bash
+scripts/release_android.sh
+```
+
 ## Tests
 
 ```bash
