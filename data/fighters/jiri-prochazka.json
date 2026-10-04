@@ -1,0 +1,200 @@
+{
+  "id": "jiri-prochazka",
+  "nom": "Jiří Procházka",
+  "ufc_slug": "jiri-prochazka",
+  "wikipedia_titre": "Jiří Procházka",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "CZ",
+  "categorie": "mi_lourds",
+  "statut": "actif",
+  "date_naissance": "1992-10-14",
+  "taille_cm": 190,
+  "allonge_cm": 203,
+  "style": "Karaté",
+  "lieu_naissance": "Hostěradice, Tchéquie",
+  "palmares": {
+    "victoires_ko": 28,
+    "victoires_soumission": 3,
+    "victoires_decision": 1,
+    "defaites_ko": 5,
+    "defaites_soumission": 1,
+    "defaites_decision": 0,
+    "nuls": 1,
+    "sans_decision": 0,
+    "victoires": 32,
+    "defaites": 6
+  },
+  "stats_ufc": {
+    "frappes_par_min": 5.61,
+    "precision_frappe_pct": 56,
+    "frappes_encaissees_par_min": 5.67,
+    "defense_frappe_pct": 45.0,
+    "takedowns_par_15min": 0.49,
+    "precision_takedown_pct": 20,
+    "defense_takedown_pct": 68.0,
+    "soumissions_par_15min": 0.16,
+    "knockdowns_par_15min": 0.81,
+    "duree_moyenne_combat_s": 615,
+    "frappes_reussies": 518.0,
+    "takedowns_reussis": 1.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 31,
+      "defaites": 6,
+      "nuls": 1,
+      "sans_decision": 0,
+      "v": {
+        "ko": 27,
+        "soumission": 3,
+        "decision": 1,
+        "autre": 0
+      },
+      "d": {
+        "ko": 5,
+        "soumission": 1,
+        "decision": 0,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2020": 1,
+      "2021": 1,
+      "2022": 1,
+      "2023": 1,
+      "2024": 2,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Carlos Ulberg",
+      "evenement": "UFC 327",
+      "date": "April 11, 2026",
+      "resultat": "Loss",
+      "methode": "KO (punches)"
+    },
+    "combats_ufc": 9,
+    "victoires_ufc": 6,
+    "defaites_ufc": 3,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 3,
+    "bonus_potn": 5,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Khalil Rountree Jr.",
+        "evenement": "UFC 320",
+        "date": "October 4, 2025"
+      },
+      {
+        "adversaire": "Glover Teixeira",
+        "evenement": "UFC 275",
+        "date": "June 12, 2022"
+      },
+      {
+        "adversaire": "Dominick Reyes",
+        "evenement": "UFC on ESPN: Reyes vs. Procházka",
+        "date": "May 1, 2021"
+      }
+    ],
+    "titres": [
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 275",
+        "date": "June 12, 2022"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 20
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Volkan Oezdemir",
+      "evenement": "UFC 251",
+      "date": "July 12, 2020",
+      "resultat": "Win",
+      "methode": "KO (punch)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "UFC Light Heavyweight Championship (One time) First Czech champion in UFC history",
+    "First Czech champion in UFC history",
+    "Fight of the Night (Three times) vs. Dominick Reyes , Glover Teixeira and Khalil Rountree Jr.",
+    "Performance of the Night (Five times) vs. Volkan Oezdemir , Dominick Reyes , Aleksandar Rakić . Jamahal Hill and Khalil Rountree Jr.",
+    "2020: Fan's Choice Debut of the Year Nominee vs. Volkan Oezdemir",
+    "2021: President's Choice Fight of the Year Nominee vs. Dominick Reyes  & Fan's Choice Knockout of the Year Nominee vs. Dominick Reyes",
+    "2022: President's Choice Fight of the Year Nominee vs. Glover Teixeira  & Fan's Choice Submission of the Year Nominee vs. Glover Teixeira",
+    "2025: Fan's Choice Comeback of the Year Winner  & President's Choice Fight of the Year Nominee vs. Khalil Rountree Jr.",
+    "2020: Ranked #5 Newcomer of the Year",
+    "2021: Half-Year Awards: Best Fight of the 1HY,  Ranked #2 Knockout of the Year vs. Dominick Reyes  & Ranked #5 Fight of the Year vs. Dominick Reyes",
+    "2022: Fight of the Year vs. Glover Teixeira ,  Ranked #2 Submission of the Year vs. Glover Teixeira  & Ranked #9 Fighter of the Year",
+    "2025: Ranked #5 Fighter of the Year (Tied with Valentina Shevchenko )  & Ranked #2 Fight of the Year vs. Khalil Rountree Jr.",
+    "Rizin Fighting Federation RIZIN Light Heavyweight Championship (Inaugural; former) One successful title defense 2015 RIZIN World Grand Prix Runner Up",
+    "RIZIN Light Heavyweight Championship (Inaugural; former) One successful title defense",
+    "One successful title defense",
+    "2015 RIZIN World Grand Prix Runner Up",
+    "Gladiator Championship Fighting GCF Light Heavyweight Championship (Inaugural) One successful title defense",
+    "GCF Light Heavyweight Championship (Inaugural) One successful title defense",
+    "One successful title defense",
+    "The Sporting News 2022 Fight of the Year vs. Glover Teixeira at UFC 275",
+    "2022 Fight of the Year vs. Glover Teixeira at UFC 275",
+    "Cageside Press 2022 Fight of the Year vs. Glover Teixeira at UFC 275  2025 Comeback of the Year vs. Khalil Rountree Jr.  2025 Fight of the Year vs. Khalil Rountree Jr. , tied with Van vs. Royval",
+    "2022 Fight of the Year vs. Glover Teixeira at UFC 275",
+    "2025 Comeback of the Year vs. Khalil Rountree Jr.",
+    "2025 Fight of the Year vs. Khalil Rountree Jr. , tied with Van vs. Royval",
+    "Combat Press 2022 Fight of the Year vs. Glover Teixeira at UFC 275  2025 Fight of the Year vs. Khalil Rountree Jr. at UFC 320",
+    "2022 Fight of the Year vs. Glover Teixeira at UFC 275",
+    "2025 Fight of the Year vs. Khalil Rountree Jr. at UFC 320",
+    "ESPN 2021 Midyear MMA Awards: Best Finish of the 1HY vs. Dominick Reyes at UFC on ESPN: Reyes vs. Procházka  2022 Fight of the Year vs. Glover Teixeira at UFC 275",
+    "2021 Midyear MMA Awards: Best Finish of the 1HY vs. Dominick Reyes at UFC on ESPN: Reyes vs. Procházka",
+    "2022 Fight of the Year vs. Glover Teixeira at UFC 275",
+    "Bleacher Report 2022 UFC Fight of the Year vs. Glover Teixeira at UFC 275",
+    "2022 UFC Fight of the Year vs. Glover Teixeira at UFC 275",
+    "Fight Club News Awards 2013 Czech Fight of the Year vs. Martin Šolc on December 7",
+    "2013 Czech Fight of the Year vs. Martin Šolc on December 7",
+    "2021 May Knockout of the Month vs. Dominick Reyes at UFC on ESPN: Reyes vs. Procházka",
+    "2022 June Fight of the Month vs. Glover Teixeira at UFC 275",
+    "2022 Fight of the Year vs. Glover Teixeira at UFC 275",
+    "MMA Fighting 2022 Fight of the Year vs. Glover Teixeira at UFC 275  2025 Comeback of the Year vs. Khalil Rountree Jr. at UFC 320  2025 First Team MMA All-Star",
+    "2022 Fight of the Year vs. Glover Teixeira at UFC 275"
+  ],
+  "image_commons": "JiriProchazka2022.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Jiří_Procházka",
+    "wikidata": "https://www.wikidata.org/wiki/Q27917811",
+    "ufc_com": "https://www.ufc.com/athlete/jiri-prochazka"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_infobox",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 31-6, wikipedia_infobox 32-6, ufc_com 32-6"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 76,
+    "puissance": 85,
+    "lutte": 50,
+    "soumission": 45,
+    "defense": 45,
+    "cardio": 56,
+    "menton": 53,
+    "globale": 59,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

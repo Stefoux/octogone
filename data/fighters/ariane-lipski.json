@@ -1,0 +1,158 @@
+{
+  "id": "ariane-lipski",
+  "nom": "Ariane Lipski",
+  "ufc_slug": "ariane-lipski",
+  "wikipedia_titre": "Ariane Lipski da Silva",
+  "surnom": "The Queen",
+  "sexe": "F",
+  "pays": "BR",
+  "categorie": "mouche_f",
+  "statut": "inactif",
+  "date_naissance": "1994-01-26",
+  "taille_cm": 168,
+  "allonge_cm": 170,
+  "style": "Striker",
+  "lieu_naissance": "Curitiba, Brazil",
+  "palmares": {
+    "victoires": 18,
+    "defaites": 12,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 6,
+    "victoires_soumission": 4,
+    "victoires_decision": 8,
+    "defaites_ko": 4,
+    "defaites_soumission": 2,
+    "defaites_decision": 6
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.05,
+    "precision_frappe_pct": 41,
+    "frappes_encaissees_par_min": 4.4,
+    "defense_frappe_pct": 51.0,
+    "takedowns_par_15min": 0.47,
+    "precision_takedown_pct": 8,
+    "defense_takedown_pct": 68.0,
+    "soumissions_par_15min": 0.28,
+    "knockdowns_par_15min": 0.28,
+    "duree_moyenne_combat_s": 687,
+    "frappes_reussies": 650.0,
+    "takedowns_reussis": 1.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 18,
+      "defaites": 12,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 6,
+        "soumission": 4,
+        "decision": 8,
+        "autre": 0
+      },
+      "d": {
+        "ko": 4,
+        "soumission": 2,
+        "decision": 6,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2019": 3,
+      "2020": 2,
+      "2021": 2,
+      "2022": 1,
+      "2023": 3,
+      "2024": 2,
+      "2025": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Jena Bishop",
+      "evenement": "PFL San Diego: McKee vs. Isbulaev",
+      "date": "27 June 2026",
+      "resultat": "Loss",
+      "methode": "Submission (armbar)"
+    },
+    "combats_ufc": 14,
+    "victoires_ufc": 6,
+    "defaites_ufc": 8,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 1,
+    "bonus_potn": 2,
+    "bonus_kotn": 0,
+    "bonus_sotn": 1,
+    "combats_fotn": [
+      {
+        "adversaire": "Sheila Gaff",
+        "evenement": "KSW 36",
+        "date": "1 October 2016"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 5
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Joanne Calderwood",
+      "evenement": "UFC Fight Night: Cejudo vs. Dillashaw",
+      "date": "19 January 2019",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Performance of the Night (Two times) vs. Luana Carolina and Casey O'Neill",
+    "Tied ( Taila Santos ) for most knockdowns in UFC Women's Flyweight division history (3)",
+    "Tied ( Gillian Robertson ) for fourth most bouts in UFC Women's Flyweight division history (13)",
+    "UFC Honors Awards 2020: Fan's Choice Submission of the Year Nominee vs. Luana Carolina",
+    "2020: Fan's Choice Submission of the Year Nominee vs. Luana Carolina",
+    "UFC.com Awards 2020: Submission of the Year vs. Luana Carolina  2023: Ranked #7 Upset of the Year  & Ranked #5 Submission of the Year vs. Casey O'Neill",
+    "2020: Submission of the Year vs. Luana Carolina",
+    "2023: Ranked #7 Upset of the Year  & Ranked #5 Submission of the Year vs. Casey O'Neill",
+    "Konfrontacja Sztuk Walki KSW Women's Flyweight Championship (one time; former) Two successful title defenses vs. Mariana Morais and Silvana Gómez Juárez .",
+    "KSW Women's Flyweight Championship (one time; former) Two successful title defenses vs. Mariana Morais and Silvana Gómez Juárez .",
+    "Two successful title defenses vs. Mariana Morais and Silvana Gómez Juárez .",
+    "LowKick MMA 2020 Submission of the Year vs. Luana Carolina at UFC Fight Night: Figueiredo vs. Benavidez 2",
+    "2020 Submission of the Year vs. Luana Carolina at UFC Fight Night: Figueiredo vs. Benavidez 2",
+    "MMA Junkie 2020 July Submission of the Month vs. Luana Carolina",
+    "2020 July Submission of the Month vs. Luana Carolina"
+  ],
+  "image_commons": "Ariane Lipski.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Ariane_Lipski_da_Silva",
+    "wikidata": "https://www.wikidata.org/wiki/Q26251018",
+    "ufc_com": "https://www.ufc.com/athlete/ariane-lipski"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 18-12, wikipedia_infobox 18-12, ufc_com 17-11"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 55,
+    "puissance": 53,
+    "lutte": 48,
+    "soumission": 51,
+    "defense": 57,
+    "cardio": 67,
+    "menton": 58,
+    "globale": 56,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

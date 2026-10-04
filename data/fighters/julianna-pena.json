@@ -1,0 +1,188 @@
+{
+  "id": "julianna-pena",
+  "nom": "Julianna Peña",
+  "ufc_slug": "julianna-pena",
+  "wikipedia_titre": "Julianna Peña",
+  "surnom": "The Venezuelan Vixen",
+  "sexe": "F",
+  "pays": "US",
+  "categorie": "coq_f",
+  "statut": "actif",
+  "date_naissance": "1989-08-19",
+  "taille_cm": 168,
+  "allonge_cm": 175,
+  "style": null,
+  "lieu_naissance": "Spokane, États-Unis",
+  "palmares": {
+    "victoires": 12,
+    "defaites": 6,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 3,
+    "victoires_soumission": 5,
+    "victoires_decision": 4,
+    "defaites_ko": 1,
+    "defaites_soumission": 3,
+    "defaites_decision": 2
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.1,
+    "precision_frappe_pct": 44,
+    "frappes_encaissees_par_min": 2.56,
+    "defense_frappe_pct": 57.0,
+    "takedowns_par_15min": 1.7,
+    "precision_takedown_pct": 27,
+    "defense_takedown_pct": 24.0,
+    "soumissions_par_15min": 0.76,
+    "knockdowns_par_15min": 0.0,
+    "duree_moyenne_combat_s": 794,
+    "frappes_reussies": 493.0,
+    "takedowns_reussis": 9.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 12,
+      "defaites": 6,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 3,
+        "soumission": 5,
+        "decision": 4,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 3,
+        "decision": 2,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2013": 1,
+      "2015": 2,
+      "2016": 1,
+      "2017": 1,
+      "2019": 1,
+      "2020": 1,
+      "2021": 2,
+      "2022": 1,
+      "2024": 1,
+      "2025": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Kayla Harrison",
+      "evenement": "UFC 316",
+      "date": "June 7, 2025",
+      "resultat": "Loss",
+      "methode": "Submission (kimura)"
+    },
+    "combats_ufc": 12,
+    "victoires_ufc": 8,
+    "defaites_ufc": 4,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 0,
+    "bonus_potn": 2,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Women's Bantamweight Championship",
+        "evenement": "UFC 307",
+        "date": "October 5, 2024"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Women's Bantamweight Championship",
+        "evenement": "UFC 269",
+        "date": "December 11, 2021"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "rear-naked choke",
+      "finitions": 3
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Jessica Rakoczy",
+      "evenement": "The Ultimate Fighter: Team Rousey vs. Team Tate Finale",
+      "date": "November 30, 2013",
+      "resultat": "Win",
+      "methode": "TKO (punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "UFC Women's Bantamweight Championship (Two times)",
+    "The Ultimate Fighter: Team Rousey vs. Team Tate bantamweight tournament Winner",
+    "Performance of the Night (Two times) vs. Milana Dudieva and Amanda Nunes 1",
+    "Fifth most total strikes landed in UFC Women's Bantamweight division history (1102)",
+    "Sixth most takedowns landed in UFC Women's Bantamweight division history (18)",
+    "UFC Honors Awards 2021: President's Choice Performance of the Year Winner vs. Amanda Nunes 1",
+    "2021: President's Choice Performance of the Year Winner vs. Amanda Nunes 1",
+    "UFC.com Awards 2021: Upset of the Year vs. Amanda Nunes 1  & Ranked #10 Fighter of the Year",
+    "2021: Upset of the Year vs. Amanda Nunes 1  & Ranked #10 Fighter of the Year",
+    "MMA Junkie 2021 Female Fighter of the Year  2021 January Submission of the Month vs. Sara McMann  2021 December Submission of the Month vs. Amanda Nunes  2021 Upset of the Year vs. Amanda Nunes",
+    "2021 Female Fighter of the Year",
+    "2021 January Submission of the Month vs. Sara McMann",
+    "2021 December Submission of the Month vs. Amanda Nunes",
+    "2021 Upset of the Year vs. Amanda Nunes",
+    "Cageside Press 2021 Upset of the Year vs. Amanda Nunes",
+    "2021 Upset of the Year vs. Amanda Nunes",
+    "LowKick MMA 2021 Upset of the Year vs. Amanda Nunes",
+    "2021 Upset of the Year vs. Amanda Nunes",
+    "Sherdog 2021 Upset of the Year vs. Amanda Nunes",
+    "2021 Upset of the Year vs. Amanda Nunes",
+    "ESPN 2021 Female Fighter of the Year",
+    "2021 Female Fighter of the Year",
+    "Bleacher Report 2013 Female Breakthrough Fighter of the Year  2021 Upset of the Year vs. Amanda Nunes",
+    "2013 Female Breakthrough Fighter of the Year",
+    "2021 Upset of the Year vs. Amanda Nunes",
+    "MMA Sucka 2021 Upset of the Year vs. Amanda Nunes",
+    "2021 Upset of the Year vs. Amanda Nunes",
+    "Yahoo! Sports 2021 Submission of the Year vs. Amanda Nunes",
+    "2021 Submission of the Year vs. Amanda Nunes",
+    "Daily Mirror 2021 Upset of the Year vs. Amanda Nunes",
+    "2021 Upset of the Year vs. Amanda Nunes",
+    "World MMA Awards 2022 Upset of the Year vs. Amanda Nunes at UFC 269",
+    "2022 Upset of the Year vs. Amanda Nunes at UFC 269"
+  ],
+  "image_commons": "Ceremonial weigh ins - Amanda Nunes vs Julianna Peña UFC 269 - YouTube - 0 23 (cropped).jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Julianna_Peña",
+    "wikidata": "https://www.wikidata.org/wiki/Q15987784",
+    "ufc_com": "https://www.ufc.com/athlete/julianna-pena"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 12-6, wikipedia_infobox 12-6, ufc_com 13-6"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 53,
+    "puissance": 45,
+    "lutte": 47,
+    "soumission": 67,
+    "defense": 74,
+    "cardio": 72,
+    "menton": 86,
+    "globale": 63,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

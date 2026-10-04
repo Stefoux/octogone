@@ -1,0 +1,144 @@
+{
+  "id": "manuel-torres",
+  "nom": "Manuel Torres",
+  "ufc_slug": "manuel-torres",
+  "wikipedia_titre": "Manuel Torres (fighter)",
+  "surnom": "El Loco",
+  "sexe": "M",
+  "pays": "MX",
+  "categorie": "legers",
+  "statut": "actif",
+  "date_naissance": "1995-05-25",
+  "taille_cm": 178,
+  "allonge_cm": 187,
+  "style": "AMM",
+  "lieu_naissance": "Chihuahua, Mexique",
+  "palmares": {
+    "victoires_ko": 9,
+    "victoires_soumission": 7,
+    "victoires_decision": 1,
+    "defaites_ko": 2,
+    "defaites_soumission": 2,
+    "defaites_decision": 0,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires": 17,
+    "defaites": 4
+  },
+  "stats_ufc": {
+    "frappes_par_min": 6.57,
+    "precision_frappe_pct": 56,
+    "frappes_encaissees_par_min": 4.24,
+    "defense_frappe_pct": 51.0,
+    "takedowns_par_15min": 1.32,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 77.0,
+    "soumissions_par_15min": 0.66,
+    "knockdowns_par_15min": 3.31,
+    "duree_moyenne_combat_s": 170,
+    "frappes_reussies": 149.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 16,
+      "defaites": 4,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 9,
+        "soumission": 7,
+        "decision": 0,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 2,
+        "decision": 0,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2021": 1,
+      "2022": 1,
+      "2023": 1,
+      "2024": 2,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Rafael Fiziev",
+      "evenement": "UFC Fight Night: Fiziev vs. Torres",
+      "date": "June 27, 2026",
+      "resultat": "Loss",
+      "methode": "KO (spinning wheel kick and punches)"
+    },
+    "combats_ufc": 8,
+    "victoires_ufc": 6,
+    "defaites_ufc": 2,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 5,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 7
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Kolton Englund",
+      "evenement": "Dana White's Contender Series 45",
+      "date": "October 26, 2021",
+      "resultat": "Win",
+      "methode": "TKO (punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Performance of the Night (Five times) vs. Frank Camacho , Nikolas Motta, Chris Duncan, Drew Dober and Grant Dawson",
+    "Second shortest average time in UFC Lightweight division history (2:34)",
+    "Most knockdowns-per-fifteen minutes in UFC Lightweight division history (3.51)",
+    "Third most significant strikes landed per minute in UFC Lightweight division history (7.25)",
+    "Fourth highest striking differential in UFC Lightweight division history (2.73)",
+    "Beat Down MMA BDMMA Featherweight Championship (One time) BDMMA Featherweight Grand Prix winner",
+    "BDMMA Featherweight Championship (One time)",
+    "BDMMA Featherweight Grand Prix winner"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Manuel_Torres_(fighter)",
+    "wikidata": "https://www.wikidata.org/wiki/Q125164131",
+    "ufc_com": "https://www.ufc.com/athlete/manuel-torres"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_infobox",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 16-4, wikipedia_infobox 17-4, ufc_com 17-4"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 80,
+    "puissance": 76,
+    "lutte": 57,
+    "soumission": 65,
+    "defense": 58,
+    "cardio": 39,
+    "menton": 74,
+    "globale": 64,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

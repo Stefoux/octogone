@@ -1,0 +1,167 @@
+{
+  "id": "gilbert-burns",
+  "nom": "Gilbert Burns",
+  "ufc_slug": "gilbert-burns",
+  "wikipedia_titre": "Gilbert Burns",
+  "surnom": "Durinho",
+  "sexe": "M",
+  "pays": "BR",
+  "categorie": "mi_moyens",
+  "statut": "retraite",
+  "date_naissance": "1986-07-20",
+  "taille_cm": 178,
+  "allonge_cm": 180,
+  "style": "Brazilian Jiu-Jitsu",
+  "lieu_naissance": "Niterói, Brazil",
+  "palmares": {
+    "victoires": 22,
+    "defaites": 10,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 6,
+    "victoires_soumission": 9,
+    "victoires_decision": 7,
+    "defaites_ko": 5,
+    "defaites_soumission": 0,
+    "defaites_decision": 5
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.16,
+    "precision_frappe_pct": 48,
+    "frappes_encaissees_par_min": 3.68,
+    "defense_frappe_pct": 53.0,
+    "takedowns_par_15min": 2.04,
+    "precision_takedown_pct": 11,
+    "defense_takedown_pct": 54.0,
+    "soumissions_par_15min": 0.44,
+    "knockdowns_par_15min": 0.19,
+    "duree_moyenne_combat_s": 741,
+    "frappes_reussies": 974.0,
+    "takedowns_reussis": 13.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 22,
+      "defaites": 10,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 6,
+        "soumission": 9,
+        "decision": 7,
+        "autre": 0
+      },
+      "d": {
+        "ko": 5,
+        "soumission": 0,
+        "decision": 5,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2014": 2,
+      "2015": 2,
+      "2016": 2,
+      "2017": 1,
+      "2018": 3,
+      "2019": 3,
+      "2020": 2,
+      "2021": 2,
+      "2022": 1,
+      "2023": 3,
+      "2024": 2,
+      "2025": 1,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Mike Malott",
+      "evenement": "UFC Fight Night: Burns vs. Malott",
+      "date": "18 April 2026",
+      "resultat": "Loss",
+      "methode": "TKO (punches)"
+    },
+    "combats_ufc": 25,
+    "victoires_ufc": 15,
+    "defaites_ufc": 10,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 1,
+    "bonus_potn": 4,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Khamzat Chimaev",
+        "evenement": "UFC 273",
+        "date": "9 April 2022"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 6
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Andreas Ståhl",
+      "evenement": "UFC on Fox: Lawler vs. Brown",
+      "date": "26 July 2014",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "3rd Place ADCC Submission Fighting World Championship (2015  )",
+    "IBJJF World Champion (2011  )",
+    "IBJJF World No-Gi Champion (2010, 2013   )",
+    "CBJJ Brazilian Nationals Champion (2010  )",
+    "UAEJJF Abu Dhabi World Pro Champion (2010)",
+    "2nd place IBJJF World Championship (2009  )",
+    "3rd Place IBJJF European Open (2009  )",
+    "2nd place IBJJF World Championship (2007/2006 brown)",
+    "2nd place CBJJ Brazilian Nationals (2007 brown)",
+    "Performance of the Night (Four times) vs. Christos Giagos , Alex Oliveira , Demian Maia and Tyron Woodley",
+    "Fight of the Night (One time) vs. Khamzat Chimaev",
+    "Third most armbar submission wins in UFC history (3)",
+    "UFC Honors Awards 2022: President's Choice Fight of the Year Winner vs. Khamzat Chimaev",
+    "2022: President's Choice Fight of the Year Winner vs. Khamzat Chimaev",
+    "2015: Ranked #3 Submission of the Year vs. Alex Oliveira",
+    "2020: Half-Year Awards: Best Fighter of the 1HY  & Ranked #4 Fighter of the Year",
+    "2022: Ranked #2 Fight of the Year vs. Khamzat Chimaev",
+    "MMAjunkie.com 2021 February Fight of the Month vs. Kamaru Usman  2022 April Fight of the Month vs. Khamzat Chimaev",
+    "2021 February Fight of the Month vs. Kamaru Usman",
+    "2022 April Fight of the Month vs. Khamzat Chimaev"
+  ],
+  "image_commons": "GilbertBurns.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Gilbert_Burns",
+    "wikidata": "https://www.wikidata.org/wiki/Q5560829",
+    "ufc_com": "https://www.ufc.com/athlete/gilbert-burns"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 56,
+    "puissance": 47,
+    "lutte": 49,
+    "soumission": 61,
+    "defense": 63,
+    "cardio": 70,
+    "menton": 49,
+    "globale": 56,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "id": "khamzat-chimaev",
+  "nom": "Khamzat Chimaev",
+  "ufc_slug": "khamzat-chimaev",
+  "wikipedia_titre": "Khamzat Chimaev",
+  "surnom": "Borz",
+  "sexe": "M",
+  "pays": "AE",
+  "autres_pays": [
+    "RU"
+  ],
+  "categorie": "moyens",
+  "statut": "actif",
+  "date_naissance": "1994-05-01",
+  "taille_cm": 188,
+  "allonge_cm": 190,
+  "style": "Lutte",
+  "lieu_naissance": null,
+  "palmares": {
+    "victoires": 15,
+    "defaites": 1,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 6,
+    "victoires_soumission": 6,
+    "victoires_decision": 3,
+    "defaites_ko": 0,
+    "defaites_soumission": 0,
+    "defaites_decision": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.01,
+    "precision_frappe_pct": 54,
+    "frappes_encaissees_par_min": 2.98,
+    "defense_frappe_pct": 52.0,
+    "takedowns_par_15min": 5.32,
+    "precision_takedown_pct": 7,
+    "defense_takedown_pct": 88.0,
+    "soumissions_par_15min": 1.37,
+    "knockdowns_par_15min": 0.3,
+    "duree_moyenne_combat_s": 592,
+    "frappes_reussies": 396.0,
+    "takedowns_reussis": 4.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 15,
+      "defaites": 1,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 6,
+        "soumission": 6,
+        "decision": 3,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 0,
+        "decision": 1,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2020": 3,
+      "2021": 1,
+      "2022": 2,
+      "2023": 1,
+      "2024": 1,
+      "2025": 1,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Sean Strickland",
+      "evenement": "UFC 328",
+      "date": "9 May 2026",
+      "resultat": "Loss",
+      "methode": "Decision (split)"
+    },
+    "combats_ufc": 10,
+    "victoires_ufc": 9,
+    "defaites_ufc": 1,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 1,
+    "bonus_potn": 6,
+    "bonus_kotn": 1,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Gilbert Burns",
+        "evenement": "UFC 273",
+        "date": "9 April 2022"
+      }
+    ],
+    "titres": [
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Middleweight Championship",
+        "evenement": "UFC 319",
+        "date": "16 August 2025"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 5
+    },
+    "premier_combat_ufc": {
+      "adversaire": "John Phillips",
+      "evenement": "UFC on ESPN: Kattar vs. Ige",
+      "date": "16 July 2020",
+      "resultat": "Win",
+      "methode": "Submission (brabo choke)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "Tied ( Demetrious Johnson ) for fourth most takedowns landed in a UFC title fight (12 vs. Dricus du Plessis )",
+    "First Chechen-born fighter to win a UFC championship",
+    "Fight of the Night (One time) vs. Gilbert Burns",
+    "Performance of the Night (Six times) vs. John Phillips , Rhys McKee , Gerald Meerschaert , Li Jingliang , Robert Whittaker and Dricus du Plessis",
+    "Record for fastest consecutive wins in Modern UFC history (10 days)",
+    "Record for quickest three fight win streak in Modern UFC history (66 days)",
+    "Second most control time in a UFC fight (21:40 vs. Dricus du Plessis )",
+    "Third highest control time percentage in UFC Middleweight division history (60.6%)",
+    "Second highest top-position percentage in UFC Middleweight division history (57.6%)",
+    "Second highest takedown accuracy percentage in UFC Middleweight division history (60.4%)",
+    "Second most takedowns landed in a UFC middleweight fight (12 vs. Dricus du Plessis )",
+    "Holds wins over three former UFC champions — vs. Kamaru Usman , Robert Whittaker & Dricus du Plessis",
+    "Most total strikes landed in a UFC fight (529 vs. Dricus du Plessis )  [ c ]",
+    "Most total ground strikes landed in a UFC fight (517 vs. Dricus du Plessis )",
+    "Most total head strikes landed in a UFC fight (411 vs. Dricus du Plessis )",
+    "Second most total strikes attempted in a UFC fight (567 vs. Dricus du Plessis )",
+    "2020: Fan's Choice Debut of the Year Winner vs. John Phillips",
+    "2021: Fan's Choice Submission of the Year Nominee vs. Li Jingliang",
+    "2022: President's Choice Fight of the Year Winner vs. Gilbert Burns",
+    "2024: President's Choice Performance of the Year Nominee vs. Robert Whittaker",
+    "2020: Newcomer of the Year ,  Ranked #5 Fighter of the Year  & Ranked #5 Knockout of the Year vs. Gerald Meerschaert",
+    "2021: Ranked #9 Submission of the Year vs. Li Jingliang",
+    "2022: Ranked #2 Fight of the Year vs. Gilbert Burns",
+    "2024: Submission of the Year vs. Robert Whittaker",
+    "Crypto.com Fan Bonus of the Night vs. Gilbert Burns",
+    "Fan Bonus of the Night vs. Gilbert Burns",
+    "Brave Combat Federation Knockout of the Night (One time) vs. Ikram Aliskerov",
+    "Knockout of the Night (One time) vs. Ikram Aliskerov",
+    "Nordic MMA Awards – MMAviking.com 2018 Prospect of the Year  2020 Male fighter of the Year",
+    "2018 Prospect of the Year",
+    "2020 Male fighter of the Year",
+    "ESPN 2020 Breakout Fighter of the Year",
+    "2020 Breakout Fighter of the Year",
+    "2020 September Knockout of the Month vs. Gerald Meerschaert",
+    "2020 Newcomer of the Year",
+    "2024 Submission of the Year vs. Robert Whittaker at UFC 308",
+    "2024 October Submission of the Month vs. Robert Whittaker at UFC 308",
+    "MMA Fighting 2020 Breakout Fighter of the Year",
+    "2020 Breakout Fighter of the Year",
+    "Combat Press 2020 Breakthrough Fighter of the Year  2024 Submission of the Year vs. Robert Whittaker at UFC 308"
+  ],
+  "image_commons": "Khamzat Chimaev 2022.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Khamzat_Chimaev",
+    "wikidata": "https://www.wikidata.org/wiki/Q76476288",
+    "ufc_com": "https://www.ufc.com/athlete/khamzat-chimaev"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 67,
+    "puissance": 58,
+    "lutte": 75,
+    "soumission": 74,
+    "defense": 66,
+    "cardio": 62,
+    "menton": 99,
+    "globale": 72,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

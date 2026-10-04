@@ -1,0 +1,160 @@
+{
+  "id": "jailton-almeida",
+  "nom": "Jailton Almeida",
+  "ufc_slug": "jailton-almeida",
+  "wikipedia_titre": "Jailton Almeida",
+  "surnom": "Malhadinho",
+  "sexe": "M",
+  "pays": "BR",
+  "categorie": "lourds",
+  "statut": "inactif",
+  "date_naissance": "1991-06-28",
+  "taille_cm": 190,
+  "allonge_cm": 201,
+  "style": "Wrestler",
+  "lieu_naissance": "Brazil",
+  "palmares": {
+    "victoires": 22,
+    "defaites": 6,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 8,
+    "victoires_soumission": 13,
+    "victoires_decision": 1,
+    "defaites_ko": 2,
+    "defaites_soumission": 0,
+    "defaites_decision": 4
+  },
+  "stats_ufc": {
+    "frappes_par_min": 2.23,
+    "precision_frappe_pct": 63,
+    "frappes_encaissees_par_min": 1.3,
+    "defense_frappe_pct": 43.0,
+    "takedowns_par_15min": 5.64,
+    "precision_takedown_pct": 3,
+    "defense_takedown_pct": 60.0,
+    "soumissions_par_15min": 1.68,
+    "knockdowns_par_15min": 0.0,
+    "duree_moyenne_combat_s": 492,
+    "frappes_reussies": 219.0,
+    "takedowns_reussis": 2.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 22,
+      "defaites": 6,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 8,
+        "soumission": 13,
+        "decision": 1,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 0,
+        "decision": 4,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2021": 1,
+      "2022": 3,
+      "2023": 3,
+      "2024": 2,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Evgeniy Goncharov",
+      "evenement": "ACA 207",
+      "date": "September 12, 2026",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 12,
+    "victoires_ufc": 9,
+    "defaites_ufc": 3,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 0,
+    "bonus_potn": 4,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "rear-naked choke",
+      "finitions": 11
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Nasrudin Nasrudinov",
+      "evenement": "Dana White's Contender Series 39",
+      "date": "September 14, 2021",
+      "resultat": "Win",
+      "methode": "Submission (rear-naked choke)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Performance of the Night (Four times) vs. Anton Turkalj, Shamil Abdurakhimov , Jairzinho Rozenstruik and Serghei Spivac",
+    "Fourth highest control time percentage in UFC history (69.9%)  Highest control time percentage in UFC Heavyweight division history (67.7%)",
+    "Highest control time percentage in UFC Heavyweight division history (67.7%)",
+    "Third most top position time in UFC Heavyweight division history (51:51)",
+    "Highest top-position percentage in UFC history (63.7%)  Highest top-position percentage in UFC Heavyweight division history (61.6%)",
+    "Highest top-position percentage in UFC Heavyweight division history (61.6%)",
+    "Fourth fewest strikes absorbed-per-minute in UFC Heavyweight division history (2.22)",
+    "Fourth most takedowns landed in UFC Heavyweight division history (29)",
+    "Most ground control time in a UFC heavyweight bout (21:10) vs. Derrick Lewis   Fourth-most ground control time in a UFC bout (21:10) vs. Derrick Lewis",
+    "Fourth-most ground control time in a UFC bout (21:10) vs. Derrick Lewis",
+    "Most takedowns landed in a UFC Heavyweight round (9 in Round 1) vs. Curtis Blaydes",
+    "UFC.com Awards 2022: Ranked #2 Newcomer of the Year",
+    "2022: Ranked #2 Newcomer of the Year",
+    "Fight On MMA FON Light Heavyweight Championship (one time)",
+    "FON Light Heavyweight Championship (one time)",
+    "Thunder Fight Thunder Fight Light Heavyweight Championship (one time)",
+    "Thunder Fight Light Heavyweight Championship (one time)",
+    "Cageside Press 2022 Newcomer of the Year tied with Jack Della Maddalena",
+    "2022 Newcomer of the Year tied with Jack Della Maddalena",
+    "MMA Junkie 2023 Breakout Fighter of the Year",
+    "2023 Breakout Fighter of the Year",
+    "MMA Fighting 2022 Second Team MMA All-Star  2023 Second Team MMA All-Star",
+    "2022 Second Team MMA All-Star",
+    "2023 Second Team MMA All-Star"
+  ],
+  "image_commons": "Almeida 2023.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Jailton_Almeida",
+    "wikidata": "https://www.wikidata.org/wiki/Q116258683",
+    "ufc_com": "https://www.ufc.com/athlete/jailton-almeida"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 22-6, wikipedia_infobox 22-6, ufc_com 22-5"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 66,
+    "puissance": 51,
+    "lutte": 66,
+    "soumission": 87,
+    "defense": 67,
+    "cardio": 57,
+    "menton": 78,
+    "globale": 67,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

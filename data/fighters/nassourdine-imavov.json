@@ -1,0 +1,151 @@
+{
+  "id": "nassourdine-imavov",
+  "nom": "Nassourdine Imavov",
+  "ufc_slug": "nassourdine-imavov",
+  "wikipedia_titre": "Nassourdine Imavov",
+  "surnom": "The Sniper",
+  "sexe": "M",
+  "pays": "RU",
+  "autres_pays": [
+    "FR"
+  ],
+  "categorie": "moyens",
+  "statut": "actif",
+  "date_naissance": "1995-03-01",
+  "taille_cm": 190,
+  "allonge_cm": 190,
+  "style": "Cogneur",
+  "lieu_naissance": "Russie",
+  "palmares": {
+    "victoires": 17,
+    "defaites": 4,
+    "nuls": 0,
+    "sans_decision": 1,
+    "victoires_ko": 7,
+    "victoires_soumission": 4,
+    "victoires_decision": 6,
+    "defaites_ko": 0,
+    "defaites_soumission": 1,
+    "defaites_decision": 3
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.28,
+    "precision_frappe_pct": 55,
+    "frappes_encaissees_par_min": 3.17,
+    "defense_frappe_pct": 59.0,
+    "takedowns_par_15min": 0.74,
+    "precision_takedown_pct": 7,
+    "defense_takedown_pct": 81.0,
+    "soumissions_par_15min": 0.98,
+    "knockdowns_par_15min": 0.16,
+    "duree_moyenne_combat_s": 916,
+    "frappes_reussies": 784.0,
+    "takedowns_reussis": 2.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 17,
+      "defaites": 4,
+      "nuls": 0,
+      "sans_decision": 1,
+      "v": {
+        "ko": 7,
+        "soumission": 4,
+        "decision": 6,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 1,
+        "decision": 3,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2020": 1,
+      "2021": 3,
+      "2022": 1,
+      "2023": 2,
+      "2024": 3,
+      "2025": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Caio Borralho",
+      "evenement": "UFC Fight Night: Imavov vs. Borralho",
+      "date": "6 September 2025",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 12,
+    "victoires_ufc": 9,
+    "defaites_ufc": 2,
+    "victoires_decision_5_rounds": 2,
+    "combats_5_rounds_gagnes": 3,
+    "bonus_fotn": 1,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Michał Michalski",
+        "evenement": "Fight Exclusive Night 19",
+        "date": "October 14, 2017"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 5
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Jordan Williams",
+      "evenement": "UFC on ESPN: Holm vs. Aldana",
+      "date": "4 October 2020",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Ultimate Fighting Championship Performance of the Night (One time) vs. Israel Adesanya",
+    "Performance of the Night (One time) vs. Israel Adesanya",
+    "MMA Mania 2025 Fighter of the Year - Honorable Mention",
+    "2025 Fighter of the Year - Honorable Mention",
+    "Fight Exclusive Night Fight of the Night (One time) vs. Michał Michalski",
+    "Fight of the Night (One time) vs. Michał Michalski",
+    "Thunderstrike Fight League TFL Welterweight Championship (One time; former)",
+    "TFL Welterweight Championship (One time; former)"
+  ],
+  "image_commons": "Nassourdine Imavov.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Nassourdine_Imavov",
+    "wikidata": "https://www.wikidata.org/wiki/Q107641405",
+    "ufc_com": "https://www.ufc.com/athlete/nassourdine-imavov"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 69,
+    "puissance": 56,
+    "lutte": 55,
+    "soumission": 61,
+    "defense": 72,
+    "cardio": 85,
+    "menton": 99,
+    "globale": 71,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

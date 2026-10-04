@@ -1,0 +1,193 @@
+{
+  "id": "matt-serra",
+  "nom": "Matt Serra",
+  "ufc_slug": "matt-serra",
+  "wikipedia_titre": "Matt Serra",
+  "surnom": "The Terror",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "mi_moyens",
+  "statut": "retraite",
+  "date_naissance": "1974-06-02",
+  "taille_cm": 168,
+  "allonge_cm": null,
+  "style": "Brazilian jiu-jitsu",
+  "lieu_naissance": "East Meadow, États-Unis",
+  "palmares": {
+    "victoires": 11,
+    "defaites": 7,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 2,
+    "victoires_soumission": 5,
+    "victoires_decision": 4,
+    "defaites_ko": 2,
+    "defaites_soumission": 0,
+    "defaites_decision": 5
+  },
+  "stats_ufc": {
+    "frappes_par_min": null,
+    "precision_frappe_pct": null,
+    "frappes_encaissees_par_min": null,
+    "defense_frappe_pct": null,
+    "takedowns_par_15min": null,
+    "precision_takedown_pct": null,
+    "defense_takedown_pct": null,
+    "soumissions_par_15min": null,
+    "knockdowns_par_15min": null,
+    "duree_moyenne_combat_s": null,
+    "frappes_reussies": null,
+    "takedowns_reussis": null
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 11,
+      "defaites": 7,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 2,
+        "soumission": 5,
+        "decision": 4,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 0,
+        "decision": 5,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2001": 2,
+      "2002": 2,
+      "2003": 1,
+      "2004": 2,
+      "2005": 1,
+      "2006": 1,
+      "2007": 1,
+      "2008": 1,
+      "2009": 1,
+      "2010": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Chris Lytle",
+      "evenement": "UFC 119",
+      "date": "September 25, 2010",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 14,
+    "victoires_ufc": 7,
+    "defaites_ufc": 7,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 1,
+    "bonus_potn": 0,
+    "bonus_kotn": 2,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Matt Hughes",
+        "evenement": "UFC 98",
+        "date": "May 23, 2009"
+      }
+    ],
+    "titres": [
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Welterweight Championship",
+        "evenement": "UFC 69",
+        "date": "April 7, 2007"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 2
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Shonie Carter",
+      "evenement": "UFC 31",
+      "date": "May 4, 2001",
+      "resultat": "Loss",
+      "methode": "KO (spinning back fist)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "UFC Hall of Fame (Pioneer wing, Class of 2018)",
+    "UFC Welterweight Championship (One time) First fighter to win both a The Ultimate Fighter Tournament and UFC Championship",
+    "First fighter to win both a The Ultimate Fighter Tournament and UFC Championship",
+    "The Ultimate Fighter 4 Welterweight Tournament Winner",
+    "Fight of the Night (One time) vs. Matt Hughes",
+    "Knockout of the Night (Two times) vs. Georges St-Pierre 1 and Frank Trigg",
+    "UFC Encyclopedia Awards Fight of the Night (One time) vs. Yves Edwards",
+    "Fight of the Night (One time) vs. Yves Edwards",
+    "UFC.com Awards 2007: Upset of the Year vs. Georges St-Pierre 1 ,  Ranked #5 Knockout of the Year vs. Georges St-Pierre 1  & Ranked #9 Fighter of the Year",
+    "2007: Upset of the Year vs. Georges St-Pierre 1 ,  Ranked #5 Knockout of the Year vs. Georges St-Pierre 1  & Ranked #9 Fighter of the Year",
+    "Sports Illustrated 2000s Upset of the Decade vs. Georges St-Pierre  2000s Cinderella Story of the Decade vs. Georges St-Pierre",
+    "2000s Upset of the Decade vs. Georges St-Pierre",
+    "2000s Cinderella Story of the Decade vs. Georges St-Pierre",
+    "Bleacher Report 2000s Upset of the Decade vs. Georges St-Pierre",
+    "2000s Upset of the Decade vs. Georges St-Pierre",
+    "Fight Matrix Most Noteworthy Match of Year (2007) vs. Georges St-Pierre  Most Noteworthy Upset of Year (2007) vs. Georges St-Pierre",
+    "Most Noteworthy Match of Year (2007) vs. Georges St-Pierre",
+    "Most Noteworthy Upset of Year (2007) vs. Georges St-Pierre",
+    "Yahoo! Sports Upset of the Decade Runner-up vs. Georges St-Pierre",
+    "Upset of the Decade Runner-up vs. Georges St-Pierre",
+    "FIGHT! Magazine 2007 Upset of the Year vs. Georges St-Pierre at UFC 69",
+    "2007 Upset of the Year vs. Georges St-Pierre at UFC 69",
+    "2000 ADCC Tournament Trials: Champion",
+    "2001 ADCC 77 kg: Silver Medalist  Record of opponents: Won: Takanori Gomi (sub), Jean Jacques Machado (pts), Leonardo Silva Dos Santos (sub) Lost: Marcio Feitosa (forfeit)",
+    "Record of opponents:",
+    "Won: Takanori Gomi (sub), Jean Jacques Machado (pts), Leonardo Silva Dos Santos (sub)",
+    "Lost: Marcio Feitosa (forfeit)",
+    "International Pro-Ams 2000 Black Belt 77 kg (No-Gi): Silver Medalist",
+    "2000 Black Belt 77 kg (No-Gi): Silver Medalist",
+    "World Jiu-Jitsu Championship 2000 Brown Belt Medio: Bronze Medalist",
+    "2000 Brown Belt Medio: Bronze Medalist",
+    "Pan-American Championships 1999 Purple Belt Medio: Gold Medalist",
+    "1999 Purple Belt Medio: Gold Medalist"
+  ],
+  "image_commons": "Matt Serra 2007.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Matt_Serra",
+    "wikidata": "https://www.wikidata.org/wiki/Q968201",
+    "ufc_com": "https://www.ufc.com/athlete/matt-serra"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "allonge_cm",
+    "stats_ufc (absentes de la fiche ufc.com)"
+  ],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 11-7, wikipedia_infobox 11-7, ufc_com 17-7"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 65,
+    "puissance": 43,
+    "lutte": 65,
+    "soumission": 79,
+    "defense": 65,
+    "cardio": 36,
+    "menton": 72,
+    "globale": 61,
+    "style": "grappler",
+    "estimees": [
+      "frappe",
+      "lutte",
+      "defense"
+    ],
+    "formule_version": 1
+  }
+}

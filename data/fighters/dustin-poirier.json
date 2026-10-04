@@ -1,0 +1,247 @@
+{
+  "id": "dustin-poirier",
+  "nom": "Dustin Poirier",
+  "ufc_slug": "dustin-poirier",
+  "wikipedia_titre": "Dustin Poirier",
+  "surnom": "The Diamond",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "legers",
+  "statut": "actif",
+  "date_naissance": "1989-01-19",
+  "taille_cm": 175,
+  "allonge_cm": 183,
+  "style": "Jiu-Jitsu",
+  "lieu_naissance": "Lafayette, États-Unis",
+  "palmares": {
+    "victoires": 30,
+    "defaites": 10,
+    "nuls": 0,
+    "sans_decision": 1,
+    "victoires_ko": 15,
+    "victoires_soumission": 8,
+    "victoires_decision": 7,
+    "defaites_ko": 3,
+    "defaites_soumission": 4,
+    "defaites_decision": 3
+  },
+  "stats_ufc": {
+    "frappes_par_min": null,
+    "precision_frappe_pct": null,
+    "frappes_encaissees_par_min": null,
+    "defense_frappe_pct": null,
+    "takedowns_par_15min": null,
+    "precision_takedown_pct": null,
+    "defense_takedown_pct": null,
+    "soumissions_par_15min": null,
+    "knockdowns_par_15min": null,
+    "duree_moyenne_combat_s": null,
+    "frappes_reussies": null,
+    "takedowns_reussis": null
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 30,
+      "defaites": 10,
+      "nuls": 0,
+      "sans_decision": 1,
+      "v": {
+        "ko": 15,
+        "soumission": 8,
+        "decision": 7,
+        "autre": 0
+      },
+      "d": {
+        "ko": 3,
+        "soumission": 4,
+        "decision": 3,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2011": 3,
+      "2012": 3,
+      "2013": 3,
+      "2014": 2,
+      "2015": 2,
+      "2016": 3,
+      "2017": 3,
+      "2018": 2,
+      "2019": 2,
+      "2020": 1,
+      "2021": 3,
+      "2022": 1,
+      "2023": 1,
+      "2024": 2,
+      "2025": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Max Holloway",
+      "evenement": "UFC 318",
+      "date": "July 19, 2025",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 32,
+    "victoires_ufc": 22,
+    "defaites_ufc": 9,
+    "victoires_decision_5_rounds": 2,
+    "combats_5_rounds_gagnes": 3,
+    "bonus_fotn": 10,
+    "bonus_potn": 4,
+    "bonus_kotn": 0,
+    "bonus_sotn": 1,
+    "combats_fotn": [
+      {
+        "adversaire": "Islam Makhachev",
+        "evenement": "UFC 302",
+        "date": "June 1, 2024"
+      },
+      {
+        "adversaire": "Benoît Saint Denis",
+        "evenement": "UFC 299",
+        "date": "March 9, 2024"
+      },
+      {
+        "adversaire": "Michael Chandler",
+        "evenement": "UFC 281",
+        "date": "November 12, 2022"
+      },
+      {
+        "adversaire": "Dan Hooker",
+        "evenement": "UFC on ESPN: Poirier vs. Hooker",
+        "date": "June 27, 2020"
+      },
+      {
+        "adversaire": "Max Holloway",
+        "evenement": "UFC 236",
+        "date": "April 13, 2019"
+      },
+      {
+        "adversaire": "Justin Gaethje",
+        "evenement": "UFC on Fox: Poirier vs. Gaethje",
+        "date": "April 14, 2018"
+      },
+      {
+        "adversaire": "Anthony Pettis",
+        "evenement": "UFC Fight Night: Poirier vs. Pettis",
+        "date": "November 11, 2017"
+      },
+      {
+        "adversaire": "Jim Miller",
+        "evenement": "UFC 208",
+        "date": "February 11, 2017"
+      },
+      {
+        "adversaire": "Akira Corassani",
+        "evenement": "The Ultimate Fighter Nations Finale: Bisping vs. Kennedy",
+        "date": "April 16, 2014"
+      },
+      {
+        "adversaire": "Jung Chan-sung",
+        "evenement": "UFC on Fuel TV: The Korean Zombie vs. Poirier",
+        "date": "May 15, 2012"
+      }
+    ],
+    "titres": [
+      {
+        "action": "won",
+        "interim": true,
+        "titre": "UFC Lightweight Championship",
+        "evenement": "UFC 236",
+        "date": "April 13, 2019"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 14
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Josh Grispi",
+      "evenement": "UFC 125",
+      "date": "January 1, 2011",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "Interim UFC Lightweight Championship (One time)",
+    "Tied ( Edson Barboza ) for second most Fight of the Night bonuses in UFC history (10)",
+    "Submission of the Night (One time) vs. Max Holloway 1",
+    "Tied ( Joe Lauzon ) for sixth most Post-Fight night bonuses in UFC history (15)",
+    "Sixth most Post-Fight bonuses in UFC Lightweight division history (12)",
+    "Tied ( Vitor Belfort ) for the 3rd longest fight streak against former UFC Champions (6)",
+    "Tied ( Jon Jones ) for the 2nd longest unbeaten streak against former UFC Champions (5)",
+    "Tied ( Alex Pereira , Islam Makhachev and Merab Dvalishvili ) for the 3rd longest win streak against former UFC Champions (4)",
+    "Tied ( Anthony Johnson , Thiago Santos , Anderson Silva & Drew Dober ) for fifth most knockouts in modern UFC history (11)",
+    "Tied ( Demian Maia & Jon Jones ) for seventh most wins in UFC history (22)",
+    "Tied ( Donald Cerrone , Tony Ferguson & Islam Makhachev ) for fifth most finishes in UFC Lightweight division history (10)",
+    "Fifth most knockdowns landed in UFC history (15)",
+    "Tied ( Donald Cerrone ) for third most knockdowns landed in UFC Lightweight division history (11)",
+    "Second most significant strikes landed in UFC Lightweight division history (1308)  Fifth most significant strikes landed in UFC history (1861)",
+    "Fifth most significant strikes landed in UFC history (1861)",
+    "Fourth most total strikes landed in UFC Lightweight division history (1631)",
+    "Holds wins over five former UFC Champions - Max Holloway (twice), Conor McGregor (twice), Eddie Alvarez , Anthony Pettis , and Justin Gaethje",
+    "The only fighter to win the UFC interim belt defeating a current UFC undisputed Champion",
+    "2020 Forrest Griffin Community Award",
+    "2019: President's Choice Fight of the Year Nominee vs. Max Holloway 2",
+    "2020: President's Choice Fight of the Year Nominee vs. Dan Hooker",
+    "2022: President's Choice Fight of the Year Nominee vs. Michael Chandler",
+    "2024: President's Choice Fight of the Year Nominee vs. Benoît Saint Denis",
+    "2011: Ranked #7 Import of the Year  & Ranked #10 Upset of the Year vs. Josh Grispi",
+    "2012: Half-Year Awards: Best Fight of the 1HY  & Ranked #2 Fight of the Year vs. Jung Chan-sung",
+    "2017: Ranked #8 Fighter of the Year  & Ranked #4 Fight of the Year vs. Anthony Pettis",
+    "2018: Ranked #2 Fight of the Year vs. Justin Gaethje 1  & Ranked #9 Fighter of the Year",
+    "2019: Ranked #4 Fight of the Year vs. Max Holloway 2",
+    "2020: Ranked #3 Fight of the Year vs. Dan Hooker",
+    "2021: Ranked #6 Upset of the Year vs. Conor McGregor 2  & Ranked #10 Knockout of the Year vs. Conor McGregor 2",
+    "2022: Ranked #3 Fight of the Year vs. Michael Chandler",
+    "2024: Ranked #5 Fight of the Year vs. Benoît Saint Denis ,  Ranked #4 Fight of the Year vs. Islam Makhachev  & Half-Year Awards: Best Fight of the 1HY vs. Islam Makhachev",
+    "International Sport Combat Federation ISCF Amateur Lightweight Tournament Championship (One time)",
+    "ISCF Amateur Lightweight Tournament Championship (One time)",
+    "2014 April Fight of the Month vs. Akira Corassani at The Ultimate Fighter Nations Finale: Bisping vs. Kennedy",
+    "2018 Fight of the Year vs. Justin Gaethje at UFC on Fox: Poirier vs. Gaethje",
+    "2018 April Fight of the Month vs. Justin Gaethje at UFC on Fox: Poirier vs. Gaethje",
+    "2020 June Fight of the Month vs. Dan Hooker at UFC on ESPN: Poirier vs. Hooker",
+    "2021 January Fight of the Month vs. Conor McGregor at UFC 257",
+    "2022 November Fight of the Month vs. Michael Chandler at UFC 281"
+  ],
+  "image_commons": "DustinPoirier.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Dustin_Poirier",
+    "wikidata": "https://www.wikidata.org/wiki/Q2060146",
+    "ufc_com": "https://www.ufc.com/athlete/dustin-poirier"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "stats_ufc (absentes de la fiche ufc.com)"
+  ],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 65,
+    "puissance": 69,
+    "lutte": 65,
+    "soumission": 61,
+    "defense": 65,
+    "cardio": 75,
+    "menton": 71,
+    "globale": 67,
+    "style": "complet",
+    "estimees": [
+      "frappe",
+      "lutte",
+      "defense"
+    ],
+    "formule_version": 1
+  }
+}

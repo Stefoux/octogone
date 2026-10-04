@@ -1,0 +1,152 @@
+{
+  "id": "alonzo-menifield",
+  "nom": "Alonzo Menifield",
+  "ufc_slug": "alonzo-menifield",
+  "wikipedia_titre": "Alonzo Menifield",
+  "surnom": "Atomic",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "mi_lourds",
+  "statut": "actif",
+  "date_naissance": "1987-10-18",
+  "taille_cm": 183,
+  "allonge_cm": 193,
+  "style": "Style libre",
+  "lieu_naissance": "Los Angeles, États-Unis",
+  "palmares": {
+    "victoires": 19,
+    "defaites": 6,
+    "nuls": 1,
+    "sans_decision": 0,
+    "victoires_ko": 11,
+    "victoires_soumission": 3,
+    "victoires_decision": 5,
+    "defaites_ko": 4,
+    "defaites_soumission": 0,
+    "defaites_decision": 2
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.87,
+    "precision_frappe_pct": 51,
+    "frappes_encaissees_par_min": 3.86,
+    "defense_frappe_pct": 51.0,
+    "takedowns_par_15min": 0.53,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 78.0,
+    "soumissions_par_15min": 0.18,
+    "knockdowns_par_15min": 0.7,
+    "duree_moyenne_combat_s": 465,
+    "frappes_reussies": 660.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 19,
+      "defaites": 6,
+      "nuls": 1,
+      "sans_decision": 0,
+      "v": {
+        "ko": 11,
+        "soumission": 3,
+        "decision": 5,
+        "autre": 0
+      },
+      "d": {
+        "ko": 4,
+        "soumission": 0,
+        "decision": 2,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2017": 1,
+      "2018": 1,
+      "2019": 2,
+      "2020": 2,
+      "2021": 3,
+      "2022": 2,
+      "2023": 3,
+      "2024": 2,
+      "2025": 3,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Iwo Baraniewski",
+      "evenement": "UFC 331",
+      "date": "September 19, 2026",
+      "resultat": "Win",
+      "methode": "Decision (split)"
+    },
+    "combats_ufc": 21,
+    "victoires_ufc": 14,
+    "defaites_ufc": 6,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 2,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Zhang Mingyang",
+        "evenement": "UFC Fight Night: Song vs. Figueiredo",
+        "date": "May 30, 2026"
+      },
+      {
+        "adversaire": "Julius Walker",
+        "evenement": "UFC Fight Night: Cejudo vs. Song",
+        "date": "February 22, 2025"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 8
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Daniel Jolly",
+      "evenement": "Dana White's Contender Series 3",
+      "date": "July 25, 2017",
+      "resultat": "Win",
+      "methode": "TKO (eye injury)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Ultimate Fighting Championship Fight of the Night (Two times) vs. Julius Walker and Zhang Mingyang   Performance of the Night (One time) vs. Paul Craig",
+    "Fight of the Night (Two times) vs. Julius Walker and Zhang Mingyang",
+    "Performance of the Night (One time) vs. Paul Craig"
+  ],
+  "image_commons": "Alonzo Menifield Jan 20, 2019.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Alonzo_Menifield",
+    "wikidata": "https://www.wikidata.org/wiki/Q96103548",
+    "ufc_com": "https://www.ufc.com/athlete/alonzo-menifield"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 63,
+    "puissance": 74,
+    "lutte": 51,
+    "soumission": 45,
+    "defense": 60,
+    "cardio": 47,
+    "menton": 55,
+    "globale": 56,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "id": "valentina-shevchenko",
+  "nom": "Valentina Shevchenko",
+  "ufc_slug": "valentina-shevchenko",
+  "wikipedia_titre": "Valentina Shevchenko",
+  "surnom": "Bullet",
+  "sexe": "F",
+  "pays": "SU",
+  "autres_pays": [
+    "PE",
+    "KG",
+    "RU"
+  ],
+  "categorie": "mouche_f",
+  "statut": "actif",
+  "date_naissance": "1988-03-07",
+  "taille_cm": 165,
+  "allonge_cm": 170,
+  "style": "Muay Thaï",
+  "lieu_naissance": "Bishkek, Kirghizstan",
+  "palmares": {
+    "victoires": 26,
+    "defaites": 4,
+    "nuls": 1,
+    "sans_decision": 0,
+    "victoires_ko": 8,
+    "victoires_soumission": 7,
+    "victoires_decision": 11,
+    "defaites_ko": 1,
+    "defaites_soumission": 1,
+    "defaites_decision": 2
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.04,
+    "precision_frappe_pct": 53,
+    "frappes_encaissees_par_min": 2.0,
+    "defense_frappe_pct": 64.0,
+    "takedowns_par_15min": 2.65,
+    "precision_takedown_pct": 12,
+    "defense_takedown_pct": 76.0,
+    "soumissions_par_15min": 0.29,
+    "knockdowns_par_15min": 0.08,
+    "duree_moyenne_combat_s": 1144,
+    "frappes_reussies": 1100.0,
+    "takedowns_reussis": 12.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 26,
+      "defaites": 4,
+      "nuls": 1,
+      "sans_decision": 0,
+      "v": {
+        "ko": 8,
+        "soumission": 7,
+        "decision": 11,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 1,
+        "decision": 2,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2015": 1,
+      "2016": 2,
+      "2017": 2,
+      "2018": 2,
+      "2019": 2,
+      "2020": 2,
+      "2021": 2,
+      "2022": 1,
+      "2023": 2,
+      "2024": 1,
+      "2025": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Zhang Weili",
+      "evenement": "UFC 322",
+      "date": "November 15, 2025",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 19,
+    "victoires_ufc": 15,
+    "defaites_ufc": 3,
+    "victoires_decision_5_rounds": 8,
+    "combats_5_rounds_gagnes": 9,
+    "bonus_fotn": 0,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Women's Flyweight Championship",
+        "evenement": "UFC 322",
+        "date": "November 15, 2025"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Women's Flyweight Championship",
+        "evenement": "UFC 315",
+        "date": "May 10, 2025"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Women's Flyweight Championship",
+        "evenement": "UFC 306",
+        "date": "September 14, 2024"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Women's Flyweight Championship",
+        "evenement": "UFC 275",
+        "date": "June 12, 2022"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Women's Flyweight Championship",
+        "evenement": "UFC 266",
+        "date": "September 25, 2021"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Women's Flyweight Championship",
+        "evenement": "UFC 261",
+        "date": "April 24, 2021"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Women's Flyweight Championship",
+        "evenement": "UFC 255",
+        "date": "November 21, 2020"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Women's Flyweight Championship",
+        "evenement": "UFC 247",
+        "date": "February 8, 2020"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Women's Flyweight Championship",
+        "evenement": "UFC Fight Night: Shevchenko vs. Carmouche 2",
+        "date": "August 10, 2019"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Women's Flyweight Championship",
+        "evenement": "UFC 238",
+        "date": "June 8, 2019"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 6
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Sarah Kaufman",
+      "evenement": "UFC on Fox: dos Anjos vs. Cowboy 2",
+      "date": "December 19, 2015",
+      "resultat": "Win",
+      "methode": "Decision (split)"
+    }
+  },
+  "champion_actuel": true,
+  "champion_division": "Poids mouche féminins",
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "First Kyrgyzstani UFC champion",
+    "Nine successful title defenses (Overall) Seven successful title defenses (First reign) Two successful title defenses (Second reign)",
+    "Seven successful title defenses (First reign)",
+    "Two successful title defenses (Second reign)",
+    "Tied ( Amanda Nunes ) for most title fight wins in UFC Women's history (11)",
+    "Most combined title defenses by a woman in UFC history (9)",
+    "Most consecutive title defenses in the UFC Women's Flyweight division history (7)",
+    "Most consecutive single title defenses by a woman in UFC history (7)",
+    "Tied ( Georges St-Pierre ) for fourth most combined title defenses in UFC history (9)",
+    "First woman to defend the UFC Women's Flyweight Championship",
+    "First and only two-time UFC Women's Flyweight Champion",
+    "Performance of the Night (Three times) vs. Julianna Peña , Priscila Cachoeira , and Jessica Eye",
+    "Most wins in UFC Women's Flyweight division history (12)  Third most wins in UFC Women's history (15)",
+    "Third most wins in UFC Women's history (15)",
+    "Most consecutive wins in UFC Women's Flyweight division history (9)",
+    "Most knockout wins in UFC Women's Flyweight division history (4)",
+    "Tied ( Casey O'Neill ) for second most finishes in UFC Women's Flyweight division history (5)  (behind Gillian Robertson )",
+    "Most total fight time in UFC Women's Flyweight division history (4:32:47)  Second most total fight time in title fights (4:48:22) (behind Jon Jones )",
+    "Second most total fight time in title fights (4:48:22) (behind Jon Jones )",
+    "Second longest average fight time in UFC Women's Flyweight division history (19:29) (behind Rose Namajunas )",
+    "Tied ( Katlyn Cerminara & Andrea Lee ) for most bouts in UFC Flyweight division history (14)",
+    "Most takedowns landed in UFC Women's history (64)",
+    "Most takedowns landed in UFC Women's Flyweight division history (54)  Third most takedowns landed in UFC title fights (52)",
+    "Third most takedowns landed in UFC title fights (52)",
+    "Most control time in UFC Women's Flyweight division history (1:27:25)",
+    "Most top position time in UFC Women's Flyweight division history (1:15:53)  Fourth highest top position percentage in UFC Women's Flyweight division history (30.6%)",
+    "Fourth highest top position percentage in UFC Women's Flyweight division history (30.6%)",
+    "Second highest significant strike accuracy in UFC Women's Flyweight division history (54.8%)",
+    "Fewest strikes absorbed per minute in UFC Women's Flyweight division history (1.81)",
+    "Fourth most significant strikes landed in UFC Women's Flyweight division history (868)  Most total strikes landed in UFC Women's Flyweight division history (2100)",
+    "Most total strikes landed in UFC Women's Flyweight division history (2100)",
+    "Second highest takedown accuracy percentage in UFC Women's Flyweight division history (64.3%)",
+    "Fifth highest significant strike defense percentage in UFC Women's Flyweight division history (65.9)",
+    "Fifth highest takedown defense percentage in UFC Women's Flyweight division history (78.1)",
+    "Holds wins over six former UFC champions — vs. Holly Holm , Julianna Peña , Joanna Jędrzejczyk , Jéssica Andrade , Alexa Grasso and Zhang Weili",
+    "UFC Honors Awards 2019: Fan's Choice Knockout of the Year Nominee vs. Jessica Eye",
+    "2019: Fan's Choice Knockout of the Year Nominee vs. Jessica Eye",
+    "2016: Ranked #10 Upset of the Year vs. Holly Holm",
+    "2017: Ranked #5 Submission of the Year vs. Julianna Peña",
+    "2018: Ranked #5 Fighter of the Year"
+  ],
+  "image_commons": "Valentina Shevchenko 2020.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Valentina_Shevchenko",
+    "wikidata": "https://www.wikidata.org/wiki/Q4522047",
+    "ufc_com": "https://www.ufc.com/athlete/valentina-shevchenko"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "champion_actuel": "ufc_com_rankings",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 61,
+    "puissance": 48,
+    "lutte": 61,
+    "soumission": 52,
+    "defense": 85,
+    "cardio": 94,
+    "menton": 89,
+    "globale": 70,
+    "style": "lutteur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

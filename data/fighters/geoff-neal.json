@@ -1,0 +1,154 @@
+{
+  "id": "geoff-neal",
+  "nom": "Geoff Neal",
+  "ufc_slug": "geoff-neal",
+  "wikipedia_titre": "Geoff Neal",
+  "surnom": "Handz of Steel",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "mi_moyens",
+  "statut": "actif",
+  "date_naissance": "1990-08-28",
+  "taille_cm": 180,
+  "allonge_cm": 190,
+  "style": "Striker",
+  "lieu_naissance": "Austin, United States",
+  "palmares": {
+    "victoires": 16,
+    "defaites": 8,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 10,
+    "victoires_soumission": 2,
+    "victoires_decision": 4,
+    "defaites_ko": 3,
+    "defaites_soumission": 2,
+    "defaites_decision": 3
+  },
+  "stats_ufc": {
+    "frappes_par_min": 5.02,
+    "precision_frappe_pct": 51,
+    "frappes_encaissees_par_min": 5.5,
+    "defense_frappe_pct": 57.0,
+    "takedowns_par_15min": 0.54,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 88.0,
+    "soumissions_par_15min": 0.11,
+    "knockdowns_par_15min": 0.97,
+    "duree_moyenne_combat_s": 557,
+    "frappes_reussies": 700.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 16,
+      "defaites": 8,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 10,
+        "soumission": 2,
+        "decision": 4,
+        "autre": 0
+      },
+      "d": {
+        "ko": 3,
+        "soumission": 2,
+        "decision": 3,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2017": 1,
+      "2018": 2,
+      "2019": 3,
+      "2020": 1,
+      "2021": 2,
+      "2022": 1,
+      "2023": 1,
+      "2024": 2,
+      "2025": 1,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Uroš Medić",
+      "evenement": "UFC Fight Night: Strickland vs. Hernandez",
+      "date": "February 21, 2026",
+      "resultat": "Loss",
+      "methode": "KO (punches)"
+    },
+    "combats_ufc": 15,
+    "victoires_ufc": 9,
+    "defaites_ufc": 6,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 1,
+    "bonus_potn": 2,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Shavkat Rakhmonov",
+        "evenement": "UFC 285",
+        "date": "March 4, 2023"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 7
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Chase Waldon",
+      "evenement": "Dana White's Contender Series 3",
+      "date": "July 25, 2017",
+      "resultat": "Win",
+      "methode": "TKO (punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Performance of the Night (Two times) vs. Niko Price and Vicente Luque",
+    "Fight of the Night (One time) vs. Shavkat Rakhmonov",
+    "UFC Honors Awards 2023: President's Choice Fight of the Year Nominee vs. Shavkat Rakhmonov",
+    "2023: President's Choice Fight of the Year Nominee vs. Shavkat Rakhmonov",
+    "UFC.com Awards 2023: Ranked #4 Fight of the Year vs. Shavkat Rakhmonov",
+    "2023: Ranked #4 Fight of the Year vs. Shavkat Rakhmonov",
+    "MMA Junkie 2019 Under-the-Radar Fighter of the Year",
+    "2019 Under-the-Radar Fighter of the Year",
+    "Bleacher Report 2023 #4 Ranked UFC Fight of the Year vs. Shavkat Rakhmonov at UFC 285",
+    "2023 #4 Ranked UFC Fight of the Year vs. Shavkat Rakhmonov at UFC 285"
+  ],
+  "image_commons": "Geoff Neal at UFC 228.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Geoff_Neal",
+    "wikidata": "https://www.wikidata.org/wiki/Q61046269",
+    "ufc_com": "https://www.ufc.com/athlete/geoff-neal"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 69,
+    "puissance": 80,
+    "lutte": 56,
+    "soumission": 43,
+    "defense": 55,
+    "cardio": 52,
+    "menton": 65,
+    "globale": 60,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

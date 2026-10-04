@@ -1,0 +1,234 @@
+{
+  "id": "joanna-jedrzejczyk",
+  "nom": "Joanna Jędrzejczyk",
+  "ufc_slug": "joanna-jedrzejczyk",
+  "wikipedia_titre": "Joanna Jędrzejczyk",
+  "surnom": null,
+  "sexe": "F",
+  "pays": "PL",
+  "categorie": "paille_f",
+  "statut": "retraite",
+  "date_naissance": "1987-08-18",
+  "taille_cm": 168,
+  "allonge_cm": 166,
+  "style": "Striker",
+  "lieu_naissance": "Olsztyn, Poland",
+  "palmares": {
+    "victoires": 16,
+    "defaites": 5,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 4,
+    "victoires_soumission": 1,
+    "victoires_decision": 11,
+    "defaites_ko": 2,
+    "defaites_soumission": 0,
+    "defaites_decision": 3
+  },
+  "stats_ufc": {
+    "frappes_par_min": 6.28,
+    "precision_frappe_pct": 48,
+    "frappes_encaissees_par_min": 3.25,
+    "defense_frappe_pct": 63.0,
+    "takedowns_par_15min": 0.27,
+    "precision_takedown_pct": 25,
+    "defense_takedown_pct": 80.0,
+    "soumissions_par_15min": 0.05,
+    "knockdowns_par_15min": 0.05,
+    "duree_moyenne_combat_s": 1117,
+    "frappes_reussies": 1754.0,
+    "takedowns_reussis": 2.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 16,
+      "defaites": 5,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 4,
+        "soumission": 1,
+        "decision": 11,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 0,
+        "decision": 3,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2014": 2,
+      "2015": 3,
+      "2016": 2,
+      "2017": 2,
+      "2018": 3,
+      "2019": 1,
+      "2020": 1,
+      "2022": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Zhang Weili",
+      "evenement": "UFC 275",
+      "date": "June 11, 2022",
+      "resultat": "Loss",
+      "methode": "KO (spinning backfist)"
+    },
+    "combats_ufc": 15,
+    "victoires_ufc": 10,
+    "defaites_ufc": 5,
+    "victoires_decision_5_rounds": 5,
+    "combats_5_rounds_gagnes": 5,
+    "bonus_fotn": 3,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Zhang Weili",
+        "evenement": "UFC 248",
+        "date": "March 7, 2020"
+      },
+      {
+        "adversaire": "Cláudia Gadelha",
+        "evenement": "The Ultimate Fighter: Team Joanna vs. Team Cláudia Finale",
+        "date": "July 8, 2016"
+      },
+      {
+        "adversaire": "Jessica Penne",
+        "evenement": "UFC Fight Night: Jędrzejczyk vs. Penne",
+        "date": "June 20, 2015"
+      }
+    ],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Women's Strawweight Championship",
+        "evenement": "UFC 211",
+        "date": "May 13, 2017"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Women's Strawweight Championship",
+        "evenement": "UFC 205",
+        "date": "November 12, 2016"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Women's Strawweight Championship",
+        "evenement": "The Ultimate Fighter: Team Joanna vs. Team Cláudia Finale",
+        "date": "July 8, 2016"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Women's Strawweight Championship",
+        "evenement": "UFC 193",
+        "date": "November 15, 2015"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Women's Strawweight Championship",
+        "evenement": "UFC Fight Night: Jędrzejczyk vs. Penne",
+        "date": "June 20, 2015"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Women's Strawweight Championship",
+        "evenement": "UFC 185",
+        "date": "March 14, 2015"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 3
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Juliana Lima",
+      "evenement": "UFC on Fox: Lawler vs. Brown",
+      "date": "July 26, 2014",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "UFC Hall of Fame ( Modern Wing , Class of 2024)",
+    "UFC Hall of Fame ( Fight Wing , Class of 2026) vs. Zhang Weili 1 at UFC 248",
+    "Five successful title defenses",
+    "Third most title fights in UFC Women's history (10)",
+    "Most title bouts in UFC Women's Strawweight history (9)",
+    "Tied ( Zhang Weili ) for most title fight wins in UFC Women's Strawweight history (6)",
+    "First Polish-born champion in UFC history",
+    "Performance of the Night (one time) vs. Carla Esparza",
+    "Tied ( Carla Esparza & Zhang Weili ) for fourth most Post-Fight bonuses in UFC Strawweight division history (4)",
+    "Tied ( Carla Esparza , Jéssica Andrade , & Zhang Weili ) for fourth most wins in UFC Women's Strawweight division history (10)",
+    "Longest win streak in UFC Women's Strawweight division history (8)",
+    "Tied ( Carla Esparza ) for most decision wins in UFC Women's Strawweight division history (8)",
+    "Second most significant strikes landed in UFC Women's Strawweight division history (1676)",
+    "Second most total strikes landed in UFC Women's Strawweight division history (1863)",
+    "Longest average fight time in UFC Women's Strawweight division history (18:09)",
+    "Second most total fight time in UFC Women's Strawweight division history (4:14:10)",
+    "Most significant strikes landed-per-minute in UFC Women's Strawweight division history (6:59)",
+    "Highest striking differential in UFC Women's Strawweight division history (3.37)",
+    "Second highest takedown defense percentage in UFC Women's Strawweight division history (89.3%)",
+    "Third highest significant strike differential in UFC championship history (+142 vs. Jéssica Andrade )",
+    "Tied ( Alexander Volkanovski ) for third-most leg kicks in a fight in UFC history (+75 vs Jéssica Andrade )",
+    "First Polish UFC Champion",
+    "First female European UFC Champion",
+    "Third European UFC Champion",
+    "UFC Honors Awards 2020: President's Choice Fight of the Year Winner vs. Zhang Weili 1",
+    "2020: President's Choice Fight of the Year Winner vs. Zhang Weili 1",
+    "2014: Ranked #9 Newcomer of the Year",
+    "2015: Half-Year Awards: Best Fighter of the 1HY  & Ranked #3 Fighter of the Year",
+    "2016: Ranked #5 Fighter of the Year  & Ranked #6 Fight of the Year vs. Cláudia Gadelha 2",
+    "2020: Fight of the Year vs. Zhang Weili 1",
+    "Bloody Elbow 2010s Women's Strawweight Fighter of the Decade",
+    "2010s Women's Strawweight Fighter of the Decade",
+    "Women's MMA Press Awards 2014 Strawweight of the Year",
+    "2014 Strawweight of the Year",
+    "Yahoo! Sports 2015 Best Fighter of the Half-Year  2020 Fight of the Year vs. Zhang Weili at UFC 248",
+    "2015 Best Fighter of the Half-Year",
+    "2020 Fight of the Year vs. Zhang Weili at UFC 248",
+    "Fight Matrix 2015 Female Fighter of the Year",
+    "2015 Female Fighter of the Year",
+    "MMA Junkie 2015 Female Fighter of the Year  2016 July Fight of the Month vs. Cláudia Gadelha  2020 March Fight of the Month vs. Zhang Weili  2020 Fight of the Year vs. Zhang Weili"
+  ],
+  "image_commons": "Joanna Jędrzejczyk.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Joanna_Jędrzejczyk",
+    "wikidata": "https://www.wikidata.org/wiki/Q14436702",
+    "ufc_com": "https://www.ufc.com/athlete/joanna-jedrzejczyk"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 73,
+    "puissance": 45,
+    "lutte": 53,
+    "soumission": 39,
+    "defense": 75,
+    "cardio": 93,
+    "menton": 74,
+    "globale": 65,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

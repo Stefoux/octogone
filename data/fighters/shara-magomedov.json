@@ -1,0 +1,155 @@
+{
+  "id": "shara-magomedov",
+  "nom": "Shara Magomedov",
+  "ufc_slug": "shara-magomedov",
+  "wikipedia_titre": "Sharabutdin Magomedov",
+  "surnom": "Bullet",
+  "sexe": "M",
+  "pays": "RU",
+  "categorie": "moyens",
+  "statut": "actif",
+  "date_naissance": "1994-05-16",
+  "taille_cm": 188,
+  "allonge_cm": 185,
+  "style": null,
+  "lieu_naissance": "Republic of Dagestan, Russie",
+  "palmares": {
+    "victoires": 17,
+    "defaites": 1,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 12,
+    "victoires_soumission": 0,
+    "victoires_decision": 5,
+    "defaites_ko": 0,
+    "defaites_soumission": 0,
+    "defaites_decision": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": 5.55,
+    "precision_frappe_pct": 63,
+    "frappes_encaissees_par_min": 3.62,
+    "defense_frappe_pct": 45.0,
+    "takedowns_par_15min": 0.0,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 73.0,
+    "soumissions_par_15min": 0.0,
+    "knockdowns_par_15min": 0.31,
+    "duree_moyenne_combat_s": 834,
+    "frappes_reussies": 540.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 17,
+      "defaites": 1,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 12,
+        "soumission": 0,
+        "decision": 5,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 0,
+        "decision": 1,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2023": 1,
+      "2024": 3,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Michel Pereira",
+      "evenement": "UFC Fight Night: Fiziev vs. Torres",
+      "date": "June 27, 2026",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 7,
+    "victoires_ufc": 6,
+    "defaites_ufc": 1,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 2,
+    "bonus_potn": 2,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Marc-André Barriault",
+        "evenement": "UFC on ABC: Whittaker vs. de Ridder",
+        "date": "July 26, 2025"
+      },
+      {
+        "adversaire": "Michał Oleksiejczuk",
+        "evenement": "UFC on ABC: Sandhagen vs. Nurmagomedov",
+        "date": "August 3, 2024"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 3
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Bruno Silva",
+      "evenement": "UFC 294",
+      "date": "October 21, 2023",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Arena Global AG Light Heavyweight Championship (One time)",
+    "AG Light Heavyweight Championship (One time)",
+    "Fight of the Night (Two times) vs. Michał Oleksiejczuk and Marc-André Barriault",
+    "Performance of the Night (Two times) vs. Antonio Trócoli and Armen Petrosyan",
+    "UFC Honors Awards 2024: Fan's Choice Knockout of the Year Nominee vs. Armen Petrosyan",
+    "2024: Fan's Choice Knockout of the Year Nominee vs. Armen Petrosyan",
+    "UFC.com Awards 2024: Ranked #7 Knockout of the Year vs. Armen Petrosyan",
+    "2024: Ranked #7 Knockout of the Year vs. Armen Petrosyan",
+    "MMA Fighting 2024 Second Team MMA All-Star",
+    "2024 Second Team MMA All-Star",
+    "Russian Muay Thai Champion.",
+    "Eurasia Lethwei Champion"
+  ],
+  "image_commons": "Sharabutdin Magomedov 2024.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Sharabutdin_Magomedov",
+    "wikidata": "https://www.wikidata.org/wiki/Q123384660",
+    "ufc_com": "https://www.ufc.com/athlete/shara-magomedov"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 81,
+    "puissance": 73,
+    "lutte": 50,
+    "soumission": 40,
+    "defense": 57,
+    "cardio": 66,
+    "menton": 99,
+    "globale": 67,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "id": "islam-makhachev",
+  "nom": "Islam Makhachev",
+  "ufc_slug": "islam-makhachev",
+  "wikipedia_titre": "Islam Makhachev",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "RU",
+  "categorie": "mi_moyens",
+  "statut": "actif",
+  "date_naissance": "1991-10-27",
+  "taille_cm": 178,
+  "allonge_cm": 179,
+  "style": "Sambo",
+  "lieu_naissance": "Dagestan, Russie",
+  "palmares": {
+    "victoires": 29,
+    "defaites": 1,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 5,
+    "victoires_soumission": 13,
+    "victoires_decision": 11,
+    "defaites_ko": 1,
+    "defaites_soumission": 0,
+    "defaites_decision": 0
+  },
+  "stats_ufc": {
+    "frappes_par_min": 2.27,
+    "precision_frappe_pct": 58,
+    "frappes_encaissees_par_min": 1.42,
+    "defense_frappe_pct": 61.0,
+    "takedowns_par_15min": 3.22,
+    "precision_takedown_pct": 15,
+    "defense_takedown_pct": 91.0,
+    "soumissions_par_15min": 0.87,
+    "knockdowns_par_15min": 0.34,
+    "duree_moyenne_combat_s": 705,
+    "frappes_reussies": 507.0,
+    "takedowns_reussis": 13.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 29,
+      "defaites": 1,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 5,
+        "soumission": 13,
+        "decision": 11,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 0,
+        "decision": 0,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2015": 2,
+      "2016": 1,
+      "2017": 1,
+      "2018": 2,
+      "2019": 2,
+      "2021": 3,
+      "2022": 2,
+      "2023": 2,
+      "2024": 1,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Ian Machado Garry",
+      "evenement": "UFC 330",
+      "date": "15 August 2026",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 19,
+    "victoires_ufc": 18,
+    "defaites_ufc": 1,
+    "victoires_decision_5_rounds": 3,
+    "combats_5_rounds_gagnes": 5,
+    "bonus_fotn": 3,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Dustin Poirier",
+        "evenement": "UFC 302",
+        "date": "1 June 2024"
+      },
+      {
+        "adversaire": "Alexander Volkanovski",
+        "evenement": "UFC 284",
+        "date": "12 February 2023"
+      },
+      {
+        "adversaire": "Arman Tsarukyan",
+        "evenement": "UFC Fight Night: Overeem vs. Oleinik",
+        "date": "20 April 2019"
+      }
+    ],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Welterweight Championship",
+        "evenement": "UFC 330",
+        "date": "15 August 2026"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Welterweight Championship",
+        "evenement": "UFC 322",
+        "date": "15 November 2025"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Lightweight Championship",
+        "evenement": "UFC 311",
+        "date": "18 January 2025"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Lightweight Championship",
+        "evenement": "UFC 302",
+        "date": "1 June 2024"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Lightweight Championship",
+        "evenement": "UFC 294",
+        "date": "21 October 2023"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Lightweight Championship",
+        "evenement": "UFC 284",
+        "date": "12 February 2023"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 4
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Leo Kuntz",
+      "evenement": "UFC 187",
+      "date": "23 May 2015",
+      "resultat": "Win",
+      "methode": "Submission (rear-naked choke)"
+    }
+  },
+  "champion_actuel": true,
+  "champion_division": "Poids mi-moyens",
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "Order \"For Merit to the Republic of Dagestan\" (2022)",
+    "Sali Suleiman medal, Ministry of Physical Fitness and Sports of the Republic of Dagestan (2023)",
+    "Order of Honor of the Republic of Dagestan III Degree (2024)",
+    "Order of Merit for achievements in physical culture and sports in the Republic of Dagestan (2025)",
+    "UFC Welterweight Championship (One time, current) One successful title defense Eleventh multi-division champion in UFC history",
+    "One successful title defense",
+    "Eleventh multi-division champion in UFC history",
+    "Most UFC lightweight title wins (5)",
+    "Most consecutive UFC lightweight title defenses (4)",
+    "Most total UFC lightweight title defenses (4)",
+    "Tied ( B.J. Penn ) for most finishes in UFC Lightweight title fights (4)",
+    "Tied ( Khabib Nurmagomedov ) for most submissions in UFC Lightweight title fights (3)",
+    "Fight of the Night (Three times) vs. Arman Tsarukyan , Alexander Volkanovski 1 and Dustin Poirier",
+    "Performance of the Night (Three times) vs. Charles Oliveira , Alexander Volkanovski 2 and Dustin Poirier",
+    "Longest win streak in UFC history (17)  Longest win streak in UFC Lightweight division history (14)",
+    "Longest win streak in UFC Lightweight division history (14)",
+    "Fifth fewest significant strikes absorbed per minute in UFC Lightweight division history (1.53)",
+    "Second highest significant strike accuracy in UFC Lightweight division history (59.5%)",
+    "Second highest takedown defense percentage in UFC Lightweight division history (90.9%)",
+    "Third highest win percentage in UFC history (94.7% - 18 wins / 1 loss)",
+    "Third most submissions in UFC Lightweight division history (8)",
+    "Third highest takedown defense percentage in UFC Lightweight division history (90.9%)",
+    "Fourth most top position time in UFC Lightweight division history (1:08:42)",
+    "Tied ( Tony Ferguson , Donald Cerrone & Dustin Poirier ) for fifth most finishes in UFC Lightweight division history (10)",
+    "Holds wins over four former UFC champions (3 undisputed) — vs. Charles Oliveira , Alexander Volkanovski (x2), Jack Della Maddalena and Dustin Poirier (interim)",
+    "UFC Men's Pound-For-Pound No. 1 in 2023–2026",
+    "2022: Fan's Choice Submission of the Year Winner vs. Charles Oliveira",
+    "2023: President's Choice Fight of the Year Winner vs. Alexander Volkanovski 1  & Fan's Choice Knockout of the Year Nominee vs. Alexander Volkanovski 2",
+    "2024: Fan's Choice Submission of the Year Winner vs. Dustin Poirier",
+    "2025: Fan's Choice Submission of the Year Winner vs. Renato Moicano  Winner of the most Honors Awards in UFC history (4)",
+    "Winner of the most Honors Awards in UFC history (4)",
+    "2021: Ranked #5 Fighter of the Year  & Ranked #7 Submission of the Year vs. Drew Dober",
+    "2022: Ranked #3 Fighter of the Year  & Ranked #4 Submission of the Year vs. Charles Oliveira",
+    "2023: Fighter of the Year ,  Fight of the Year vs. Alexander Volkanovski 1  & Ranked #4 Knockout of the Year vs. Alexander Volkanovski 2",
+    "2024: Half-Year Awards: Best Fight of the 1HY,  Ranked #3 Submission of the Year  & Ranked #4 Fight of the Year vs. Dustin Poirier",
+    "2025: Ranked #3 Fighter of the Year",
+    "2021 March Submission of the Month vs. Drew Dober",
+    "2021 October Submission of the Month vs. Dan Hooker",
+    "2022 October Submission of the Month vs. Charles Oliveira",
+    "2022 Submission of the year vs. Charles Oliveira"
+  ],
+  "image_commons": "Islam Makhachev 2022 UFC belt.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Islam_Makhachev",
+    "wikidata": "https://www.wikidata.org/wiki/Q18637676",
+    "ufc_com": "https://www.ufc.com/athlete/islam-makhachev"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "champion_actuel": "ufc_com_rankings",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 62,
+    "puissance": 44,
+    "lutte": 69,
+    "soumission": 70,
+    "defense": 85,
+    "cardio": 84,
+    "menton": 89,
+    "globale": 72,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

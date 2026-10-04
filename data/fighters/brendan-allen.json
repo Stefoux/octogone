@@ -1,0 +1,163 @@
+{
+  "id": "brendan-allen",
+  "nom": "Brendan Allen",
+  "ufc_slug": "brendan-allen",
+  "wikipedia_titre": "Brendan Allen",
+  "surnom": "All In",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "moyens",
+  "statut": "actif",
+  "date_naissance": "1995-12-28",
+  "taille_cm": 188,
+  "allonge_cm": 190,
+  "style": "AMM",
+  "lieu_naissance": "Beaufort, États-Unis",
+  "palmares": {
+    "victoires": 27,
+    "defaites": 7,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 6,
+    "victoires_soumission": 14,
+    "victoires_decision": 7,
+    "defaites_ko": 2,
+    "defaites_soumission": 1,
+    "defaites_decision": 4
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.75,
+    "precision_frappe_pct": 52,
+    "frappes_encaissees_par_min": 3.78,
+    "defense_frappe_pct": 48.0,
+    "takedowns_par_15min": 1.52,
+    "precision_takedown_pct": 4,
+    "defense_takedown_pct": 58.0,
+    "soumissions_par_15min": 1.06,
+    "knockdowns_par_15min": 0.27,
+    "duree_moyenne_combat_s": 679,
+    "frappes_reussies": 848.0,
+    "takedowns_reussis": 2.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 27,
+      "defaites": 7,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 6,
+        "soumission": 14,
+        "decision": 7,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 1,
+        "decision": 4,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2019": 2,
+      "2020": 3,
+      "2021": 3,
+      "2022": 3,
+      "2023": 3,
+      "2024": 2,
+      "2025": 3,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Edmen Shahbazyan",
+      "evenement": "UFC Fight Night: Muhammad vs. Bonfim",
+      "date": "June 6, 2026",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 20,
+    "victoires_ufc": 16,
+    "defaites_ufc": 4,
+    "victoires_decision_5_rounds": 2,
+    "combats_5_rounds_gagnes": 3,
+    "bonus_fotn": 2,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Edmen Shahbazyan",
+        "evenement": "UFC Fight Night: Muhammad vs. Bonfim",
+        "date": "June 6, 2026"
+      },
+      {
+        "adversaire": "Marvin Vettori",
+        "evenement": "UFC 318",
+        "date": "July 19, 2025"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "rear-naked choke",
+      "finitions": 11
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Aaron Jeffery",
+      "evenement": "Dana White's Contender Series 20",
+      "date": "July 16, 2019",
+      "resultat": "Win",
+      "methode": "Submission (rear-naked choke)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Fight of the Night (Two times) vs. Marvin Vettori and Edmen Shahbazyan",
+    "Performance of the Night (Three times) vs. Krzysztof Jotko , André Muniz & Paul Craig",
+    "Second most submissions in UFC Middleweight division history (6) (behind Gerald Meerschaert )",
+    "Tied ( Derek Brunson , Nate Marquardt & Chris Leben ) for third most finishes in UFC Middleweight division history (9)",
+    "Tied ( Anderson Silva , Derek Brunson & Robert Whittaker ) for third most wins in UFC Middleweight division history (14)",
+    "Tied ( Charles Oliveira ) for the fourth longest submission streak in UFC history (4)",
+    "Tied ( Charles Oliveira ) for fifth most rear-naked choke submissions in UFC history (6)",
+    "Legacy Fighting Alliance LFA Middleweight Championship (One time) vs. Tim Hiley and Moses Murrietta .   One successful defense",
+    "LFA Middleweight Championship (One time) vs. Tim Hiley and Moses Murrietta .   One successful defense",
+    "One successful defense",
+    "International Mixed Martial Arts Federation IMMAF 2015 Amateur Middleweight Championship",
+    "IMMAF 2015 Amateur Middleweight Championship",
+    "Valor Fights Valor Fights Middleweight Championship",
+    "Valor Fights Middleweight Championship",
+    "MMA Fighting 2023 Third Team MMA All-Star",
+    "2023 Third Team MMA All-Star"
+  ],
+  "image_commons": "BrendanAllen.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Brendan_Allen",
+    "wikidata": "https://www.wikidata.org/wiki/Q96694248",
+    "ufc_com": "https://www.ufc.com/athlete/brendan-allen"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 64,
+    "puissance": 46,
+    "lutte": 49,
+    "soumission": 76,
+    "defense": 57,
+    "cardio": 74,
+    "menton": 79,
+    "globale": 64,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

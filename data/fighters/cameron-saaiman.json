@@ -1,0 +1,136 @@
+{
+  "id": "cameron-saaiman",
+  "nom": "Cameron Saaiman",
+  "ufc_slug": "cameron-saaiman",
+  "wikipedia_titre": "Cameron Saaiman",
+  "surnom": "MSP",
+  "sexe": "M",
+  "pays": "ZA",
+  "categorie": "coq",
+  "statut": "actif",
+  "date_naissance": "2000-12-20",
+  "taille_cm": 173,
+  "allonge_cm": 170,
+  "style": "MMA",
+  "lieu_naissance": "Pretoria, Gauteng, South Africa",
+  "palmares": {
+    "victoires": 9,
+    "defaites": 3,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 6,
+    "victoires_soumission": 1,
+    "victoires_decision": 2,
+    "defaites_ko": 2,
+    "defaites_soumission": 0,
+    "defaites_decision": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": 5.3,
+    "precision_frappe_pct": 47,
+    "frappes_encaissees_par_min": 4.14,
+    "defense_frappe_pct": 52.0,
+    "takedowns_par_15min": 0.89,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 47.0,
+    "soumissions_par_15min": 0.67,
+    "knockdowns_par_15min": 0.44,
+    "duree_moyenne_combat_s": 579,
+    "frappes_reussies": 358.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 9,
+      "defaites": 3,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 6,
+        "soumission": 1,
+        "decision": 2,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 0,
+        "decision": 1,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2022": 2,
+      "2023": 3,
+      "2024": 1,
+      "2025": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Malcolm Wellmaker",
+      "evenement": "UFC on ESPN: Machado Garry vs. Prates",
+      "date": "April 26, 2025",
+      "resultat": "Loss",
+      "methode": "KO (punch)"
+    },
+    "combats_ufc": 7,
+    "victoires_ufc": 4,
+    "defaites_ufc": 3,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 0,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 5
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Josh Wang-Kim",
+      "evenement": "Dana White's Contender Series 51",
+      "date": "August 23, 2022",
+      "resultat": "Win",
+      "methode": "KO (punch)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Ultimate Fighting Championship Performance of the Night (One time) vs. Steven Koslow",
+    "Performance of the Night (One time) vs. Steven Koslow",
+    "Extreme Fighting Championship EFC Bantamweight Championship (One time)",
+    "EFC Bantamweight Championship (One time)"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Cameron_Saaiman",
+    "wikidata": "https://www.wikidata.org/wiki/Q120514794",
+    "ufc_com": "https://www.ufc.com/athlete/cameron-saaiman"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 67,
+    "puissance": 73,
+    "lutte": 46,
+    "soumission": 53,
+    "defense": 60,
+    "cardio": 62,
+    "menton": 65,
+    "globale": 61,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "id": "serghei-spivac",
+  "nom": "Serghei Spivac",
+  "ufc_slug": "serghei-spivac",
+  "wikipedia_titre": "Serghei Spivac",
+  "surnom": "Polar Bear",
+  "sexe": "M",
+  "pays": "MD",
+  "categorie": "lourds",
+  "statut": "actif",
+  "date_naissance": "1995-01-24",
+  "taille_cm": 190,
+  "allonge_cm": 198,
+  "style": "Sambo",
+  "lieu_naissance": "Moldavie",
+  "palmares": {
+    "victoires": 18,
+    "defaites": 7,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 7,
+    "victoires_soumission": 8,
+    "victoires_decision": 3,
+    "defaites_ko": 4,
+    "defaites_soumission": 0,
+    "defaites_decision": 3
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.35,
+    "precision_frappe_pct": 47,
+    "frappes_encaissees_par_min": 4.23,
+    "defense_frappe_pct": 51.0,
+    "takedowns_par_15min": 3.42,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 53.0,
+    "soumissions_par_15min": 0.43,
+    "knockdowns_par_15min": 0.0,
+    "duree_moyenne_combat_s": 527,
+    "frappes_reussies": 471.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 18,
+      "defaites": 7,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 7,
+        "soumission": 8,
+        "decision": 3,
+        "autre": 0
+      },
+      "d": {
+        "ko": 4,
+        "soumission": 0,
+        "decision": 3,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2019": 2,
+      "2020": 2,
+      "2021": 3,
+      "2022": 2,
+      "2023": 2,
+      "2024": 1,
+      "2025": 2,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Vitor Petrino",
+      "evenement": "UFC Fight Night: Hernandez vs. Rodrigues",
+      "date": "August 22, 2026",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 16,
+    "victoires_ufc": 9,
+    "defaites_ufc": 7,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 2,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 6
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Walt Harris",
+      "evenement": "UFC Fight Night: Iaquinta vs. Cowboy",
+      "date": "May 4, 2019",
+      "resultat": "Loss",
+      "methode": "TKO (punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Performance of the Night (Two times) vs. Derrick Lewis and Marcin Tybura",
+    "Third most takedowns landed in UFC Heavyweight division history (32)",
+    "Second highest takedown accuracy percentage in UFC Heavyweight division history (59.3%)",
+    "World Warriors Fighting Championship WWFC Heavyweight Championship (One time)  Two successful title defenses",
+    "WWFC Heavyweight Championship (One time)  Two successful title defenses",
+    "Two successful title defenses"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Serghei_Spivac",
+    "wikidata": "https://www.wikidata.org/wiki/Q74099016",
+    "ufc_com": "https://www.ufc.com/athlete/serghei-spivac"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 57,
+    "puissance": 52,
+    "lutte": 56,
+    "soumission": 63,
+    "defense": 58,
+    "cardio": 51,
+    "menton": 54,
+    "globale": 56,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "id": "kevin-holland",
+  "nom": "Kevin Holland",
+  "ufc_slug": "kevin-holland",
+  "wikipedia_titre": "Kevin Holland",
+  "surnom": "Trailblazer",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "mi_moyens",
+  "statut": "actif",
+  "date_naissance": "1992-11-05",
+  "taille_cm": 190,
+  "allonge_cm": 206,
+  "style": "Kung Fu",
+  "lieu_naissance": "Riverside, United States",
+  "palmares": {
+    "victoires": 29,
+    "defaites": 15,
+    "nuls": 0,
+    "sans_decision": 1,
+    "victoires_ko": 14,
+    "victoires_soumission": 9,
+    "victoires_decision": 6,
+    "defaites_ko": 2,
+    "defaites_soumission": 4,
+    "defaites_decision": 9
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.24,
+    "precision_frappe_pct": 50,
+    "frappes_encaissees_par_min": 3.21,
+    "defense_frappe_pct": 50.0,
+    "takedowns_par_15min": 0.79,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 58.0,
+    "soumissions_par_15min": 0.6,
+    "knockdowns_par_15min": 0.32,
+    "duree_moyenne_combat_s": 647,
+    "frappes_reussies": 1371.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 29,
+      "defaites": 15,
+      "nuls": 0,
+      "sans_decision": 1,
+      "v": {
+        "ko": 14,
+        "soumission": 9,
+        "decision": 6,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 4,
+        "decision": 9,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2018": 3,
+      "2019": 3,
+      "2020": 5,
+      "2021": 3,
+      "2022": 4,
+      "2023": 3,
+      "2024": 3,
+      "2025": 5,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Randy Brown",
+      "evenement": "UFC 327",
+      "date": "April 11, 2026",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 30,
+    "victoires_ufc": 17,
+    "defaites_ufc": 12,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 1,
+    "bonus_potn": 9,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Stephen Thompson",
+        "evenement": "UFC on ESPN: Thompson vs. Holland",
+        "date": "December 3, 2022"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 9
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Will Santiago Jr.",
+      "evenement": "Dana White's Contender Series 9",
+      "date": "June 12, 2018",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Fight of the Night (One time) vs. Stephen Thompson",
+    "Second most Performance of the Night bonuses in UFC history (9) (behind Charles Oliveira )",
+    "Fastest to win five UFC fights in a calendar year (210 days in 2020)",
+    "Tied ( Neil Magny ) for the only fighters in UFC history to have 5 bouts-per-calendar year twice (2020 & 2025)",
+    "Most wins in a calendar year in UFC Middleweight division history (5)",
+    "Most bouts in a 12-month period in UFC history (7) from May 2020 to April 2021",
+    "UFC Honors Awards 2020: President's Choice Performance of the Year Nominee vs. Ronaldo Souza  & Fan's Choice Knockout of the Year Nominee vs. Ronaldo Souza",
+    "2020: President's Choice Performance of the Year Nominee vs. Ronaldo Souza  & Fan's Choice Knockout of the Year Nominee vs. Ronaldo Souza",
+    "UFC.com Awards 2020: Ranked #3 Fighter of the Year  & Ranked #4 Knockout of the Year vs. Ronaldo Souza  2022: Ranked #4 Fight of the Year vs. Stephen Thompson",
+    "2020: Ranked #3 Fighter of the Year  & Ranked #4 Knockout of the Year vs. Ronaldo Souza",
+    "2022: Ranked #4 Fight of the Year vs. Stephen Thompson",
+    "Xtreme Knockout XKO Welterweight Championship XKO Middleweight Championship One successful title defense",
+    "XKO Welterweight Championship",
+    "XKO Middleweight Championship One successful title defense",
+    "One successful title defense",
+    "BT Sport 2020 Male fighter of the year.",
+    "2020 Male fighter of the year.",
+    "Cageside Press 2020 Male Fighter of the Year",
+    "2020 Male Fighter of the Year",
+    "MMA Sucka 2020 UFC Breakout Star of the Year",
+    "2020 UFC Breakout Star of the Year",
+    "MMA Junkie 2020 December Knockout of the Month vs. Ronaldo Souza  2020 Breakout Fighter of the Year  2020 Male Fighter of the Year  2022 December Fight of the Month vs. Stephen Thompson",
+    "2020 December Knockout of the Month vs. Ronaldo Souza",
+    "2020 Breakout Fighter of the Year",
+    "2020 Male Fighter of the Year",
+    "2022 December Fight of the Month vs. Stephen Thompson",
+    "ESPN 2020 Most Improved Fighter of the Year",
+    "2020 Most Improved Fighter of the Year",
+    "MMA Weekly 2020 Breakout Fighter of the Year",
+    "2020 Breakout Fighter of the Year",
+    "The Athletic 2020 Breakthrough Fighter of the Year",
+    "2020 Breakthrough Fighter of the Year",
+    "Sherdog 2020 Breakthrough Fighter of the Year",
+    "2020 Breakthrough Fighter of the Year",
+    "World MMA Awards 2022 Fighting Spirit of the Year for bravery - in and out of the cage, helping his community in the face of danger on several occasions",
+    "2022 Fighting Spirit of the Year for bravery - in and out of the cage, helping his community in the face of danger on several occasions",
+    "MMA Fighting 2022 Second Team MMA All-Star",
+    "2022 Second Team MMA All-Star",
+    "CBS Sports 2020 #3 Ranked UFC Knockout of the Year vs. Ronaldo Souza",
+    "2020 #3 Ranked UFC Knockout of the Year vs. Ronaldo Souza"
+  ],
+  "image_commons": "Kevin Holland at UFC 316 (54576727207).jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Kevin_Holland",
+    "wikidata": "https://www.wikidata.org/wiki/Q62788166",
+    "ufc_com": "https://www.ufc.com/athlete/kevin-holland"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 64,
+    "puissance": 62,
+    "lutte": 44,
+    "soumission": 59,
+    "defense": 63,
+    "cardio": 56,
+    "menton": 81,
+    "globale": 61,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "id": "rose-namajunas",
+  "nom": "Rose Namajunas",
+  "ufc_slug": "rose-namajunas",
+  "wikipedia_titre": "Rose Namajunas",
+  "surnom": "Thug",
+  "sexe": "F",
+  "pays": "US",
+  "categorie": "mouche_f",
+  "statut": "actif",
+  "date_naissance": "1992-06-29",
+  "taille_cm": 165,
+  "allonge_cm": 165,
+  "style": "AMM",
+  "lieu_naissance": "Milwaukee, États-Unis",
+  "palmares": {
+    "victoires": 14,
+    "defaites": 8,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 2,
+    "victoires_soumission": 5,
+    "victoires_decision": 7,
+    "defaites_ko": 1,
+    "defaites_soumission": 1,
+    "defaites_decision": 6
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.5,
+    "precision_frappe_pct": 41,
+    "frappes_encaissees_par_min": 3.38,
+    "defense_frappe_pct": 64.0,
+    "takedowns_par_15min": 1.47,
+    "precision_takedown_pct": 27,
+    "defense_takedown_pct": 62.0,
+    "soumissions_par_15min": 0.35,
+    "knockdowns_par_15min": 0.3,
+    "duree_moyenne_combat_s": 937,
+    "frappes_reussies": 1040.0,
+    "takedowns_reussis": 16.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 14,
+      "defaites": 8,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 2,
+        "soumission": 5,
+        "decision": 7,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 1,
+        "decision": 6,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2014": 1,
+      "2015": 2,
+      "2016": 2,
+      "2017": 2,
+      "2018": 1,
+      "2019": 1,
+      "2020": 1,
+      "2021": 2,
+      "2022": 1,
+      "2023": 1,
+      "2024": 3,
+      "2025": 1,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Natália Silva",
+      "evenement": "UFC 324",
+      "date": "January 24, 2026",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 19,
+    "victoires_ufc": 12,
+    "defaites_ufc": 7,
+    "victoires_decision_5_rounds": 4,
+    "combats_5_rounds_gagnes": 5,
+    "bonus_fotn": 3,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 2,
+    "combats_fotn": [
+      {
+        "adversaire": "Jéssica Andrade",
+        "evenement": "UFC 251",
+        "date": "July 12, 2020"
+      },
+      {
+        "adversaire": "Jéssica Andrade",
+        "evenement": "UFC 237",
+        "date": "May 11, 2019"
+      },
+      {
+        "adversaire": "Karolina Kowalkiewicz",
+        "evenement": "UFC 201",
+        "date": "July 30, 2016"
+      }
+    ],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Women's Strawweight Championship",
+        "evenement": "UFC 268",
+        "date": "November 6, 2021"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Women's Strawweight Championship",
+        "evenement": "UFC 261",
+        "date": "April 24, 2021"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Women's Strawweight Championship",
+        "evenement": "UFC 223",
+        "date": "April 7, 2018"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Women's Strawweight Championship",
+        "evenement": "UFC 217",
+        "date": "November 4, 2017"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "rear-naked choke",
+      "finitions": 4
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Carla Esparza",
+      "evenement": "The Ultimate Fighter: A Champion Will Be Crowned Finale",
+      "date": "December 12, 2014",
+      "resultat": "Loss",
+      "methode": "Submission (rear-naked choke)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "Lithuanian American National Hall of Fame - Class of 2019",
+    "ESPY Award nominee ( 2018 for Best Fighter  and 2021 for Best MMA Fighter  )",
+    "Kids' Choice Sports 2018 Award for Biggest Powerhouse (nominee)",
+    "Eighth Annual Real Women Awards - 2017 Woman of the Year",
+    "Two successful title defenses (overall) One successful title defense (first reign) One successful title defense (second reign)",
+    "One successful title defense (first reign)",
+    "One successful title defense (second reign)",
+    "Third most title fight wins in UFC Women's Strawweight division history (4)",
+    "Performance of the Night (Three times) vs. Paige VanZant , Joanna Jędrzejczyk 1, and Zhang Weili",
+    "Fight of the Night (Three times) vs. Karolina Kowalkiewicz and Jéssica Andrade (x2)    Third most Post-Fight bonuses in UFC Women's Strawweight division history (6)",
+    "Third most Post-Fight bonuses in UFC Women's Strawweight division history (6)",
+    "Tied ( Amanda Lemos , Mackenzie Dern & Tatiana Suarez ) for second most finishes in UFC Women's Strawweight division history (5)",
+    "First woman in UFC history to regain a championship title after losing it",
+    "Holds victories over three former UFC Women's Strawweight Champions - Joanna Jędrzejczyk , Jéssica Andrade , and Zhang Weili",
+    "Latest finish in a UFC Women's Strawweight division bout (2:25 at R5)",
+    "The Ultimate Fighter 20 (Runner-Up) TUF 20 Fight of the Season vs. Joanne Calderwood TUF 20 Performance of the Season vs. Joanne Calderwood",
+    "TUF 20 Fight of the Season vs. Joanne Calderwood",
+    "TUF 20 Performance of the Season vs. Joanne Calderwood",
+    "UFC Honors Awards 2021: President's Choice Performance of the Year Nominee vs. Zhang Weili 1  & Fan's Choice Knockout of the Year Nominee vs. Zhang Weili 1",
+    "2021: President's Choice Performance of the Year Nominee vs. Zhang Weili 1  & Fan's Choice Knockout of the Year Nominee vs. Zhang Weili 1",
+    "2017: Upset of the Year vs. Joanna Jędrzejczyk 1  & Ranked #2 Fighter of the Year",
+    "2020: Ranked #7 Fight of the Year vs. Jéssica Andrade 2",
+    "2021: Ranked #4 Fighter of the Year  & #4 Knockout of the Year vs. Zhang Weili 1",
+    "Invicta FC Submission of the Night (Two times) vs. Emily Kagan , Kathina Catron",
+    "Submission of the Night (Two times) vs. Emily Kagan , Kathina Catron",
+    "Crypto.com Fan Bonus of the Night vs. Carla Esparza",
+    "Fan Bonus of the Night vs. Carla Esparza",
+    "Slacky Awards 2015 Technical Turn-Around of the Year  2017 Gameplan of the Year vs. Joanna Jędrzejczyk at UFC 217",
+    "2015 Technical Turn-Around of the Year",
+    "2017 Gameplan of the Year vs. Joanna Jędrzejczyk at UFC 217",
+    "2017 MMA Fighter of the Year ESPN ,  MMASucka,  MMA Fighting (Top 5: #4),  MMA Mania (Top 5: #4),  RealSport (Top 5: #3)  MMADNA",
+    "ESPN ,  MMASucka,  MMA Fighting (Top 5: #4),  MMA Mania (Top 5: #4),  RealSport (Top 5: #3)  MMADNA",
+    "2017 UFC Fighter of the Year CBS Sports (Top 5: #3)",
+    "CBS Sports (Top 5: #3)",
+    "2017 MMA Female Fighter of the Year World MMA Awards ,  Yahoo Sports ,  MMAjunkie ,  Cageside Press,  Combat Press,  SevereMMA,  MMA Today (Top 50: #1),  Awakening Fighters,  Promoting Real Women",
+    "World MMA Awards ,  Yahoo Sports ,  MMAjunkie ,  Cageside Press,  Combat Press,  SevereMMA,  MMA Today (Top 50: #1),  Awakening Fighters,  Promoting Real Women",
+    "2021 MMA Female Fighter of the Year World MMA Awards (July 1, 2020 – June 30, 2021) ,  Cageside Press,  Combat Press,  MMA Sucka",
+    "World MMA Awards (July 1, 2020 – June 30, 2021) ,  Cageside Press,  Combat Press,  MMA Sucka",
+    "2021 Women's MMA MVP/UFC Fighter of the Year Wrestling Observer Newsletter ,  CBS Sports (Top 3: #3)",
+    "Wrestling Observer Newsletter ,  CBS Sports (Top 3: #3)"
+  ],
+  "image_commons": "Rose Namajunas.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Rose_Namajunas",
+    "wikidata": "https://www.wikidata.org/wiki/Q16226725",
+    "ufc_com": "https://www.ufc.com/athlete/rose-namajunas"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 14-8, wikipedia_infobox 14-8, ufc_com 15-8"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 51,
+    "puissance": 42,
+    "lutte": 53,
+    "soumission": 58,
+    "defense": 76,
+    "cardio": 94,
+    "menton": 87,
+    "globale": 66,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

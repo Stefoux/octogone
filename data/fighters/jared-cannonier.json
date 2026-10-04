@@ -1,0 +1,172 @@
+{
+  "id": "jared-cannonier",
+  "nom": "Jared Cannonier",
+  "ufc_slug": "jared-cannonier",
+  "wikipedia_titre": "Jared Cannonier",
+  "surnom": "Tha Killa Gorilla",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "moyens",
+  "statut": "actif",
+  "date_naissance": "1984-03-16",
+  "taille_cm": 180,
+  "allonge_cm": 197,
+  "style": "Cogneur",
+  "lieu_naissance": "Dallas, États-Unis",
+  "palmares": {
+    "victoires": 18,
+    "defaites": 10,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 11,
+    "victoires_soumission": 2,
+    "victoires_decision": 5,
+    "defaites_ko": 3,
+    "defaites_soumission": 0,
+    "defaites_decision": 7
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.25,
+    "precision_frappe_pct": 49,
+    "frappes_encaissees_par_min": 4.36,
+    "defense_frappe_pct": 56.0,
+    "takedowns_par_15min": 0.77,
+    "precision_takedown_pct": 3,
+    "defense_takedown_pct": 65.0,
+    "soumissions_par_15min": 0.0,
+    "knockdowns_par_15min": 0.36,
+    "duree_moyenne_combat_s": 837,
+    "frappes_reussies": 1245.0,
+    "takedowns_reussis": 1.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 18,
+      "defaites": 10,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 11,
+        "soumission": 2,
+        "decision": 5,
+        "autre": 0
+      },
+      "d": {
+        "ko": 3,
+        "soumission": 0,
+        "decision": 7,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2015": 1,
+      "2016": 2,
+      "2017": 3,
+      "2018": 2,
+      "2019": 2,
+      "2020": 1,
+      "2021": 1,
+      "2022": 3,
+      "2023": 1,
+      "2024": 2,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Christian Leroy Duncan",
+      "evenement": "UFC Fight Night: du Plessis vs. Usman",
+      "date": "July 18, 2026",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 21,
+    "victoires_ufc": 11,
+    "defaites_ufc": 10,
+    "victoires_decision_5_rounds": 4,
+    "combats_5_rounds_gagnes": 5,
+    "bonus_fotn": 4,
+    "bonus_potn": 4,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Gregory Rodrigues",
+        "evenement": "UFC Fight Night: Cannonier vs. Rodrigues",
+        "date": "February 15, 2025"
+      },
+      {
+        "adversaire": "Caio Borralho",
+        "evenement": "UFC on ESPN: Cannonier vs. Borralho",
+        "date": "August 24, 2024"
+      },
+      {
+        "adversaire": "Marvin Vettori",
+        "evenement": "UFC on ESPN: Vettori vs. Cannonier",
+        "date": "June 17, 2023"
+      },
+      {
+        "adversaire": "Ion Cuțelaba",
+        "evenement": "The Ultimate Fighter: Tournament of Champions Finale",
+        "date": "December 3, 2016"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 7
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Shawn Jordan",
+      "evenement": "UFC 182",
+      "date": "January 3, 2015",
+      "resultat": "Loss",
+      "methode": "KO (punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Fight of the Night (Four times) vs. Ion Cuțelaba , Marvin Vettori , Caio Borralho and Gregory Rodrigues",
+    "Performance of the Night (Four times) vs. Cyril Asker , David Branch , Jack Hermansson , and Derek Brunson",
+    "Most significant strikes landed in a UFC Middleweight bout (+241 vs. Marvin Vettori )",
+    "Fourth most significant strikes landed in a fight in UFC history (+241 vs. Marvin Vettori )",
+    "One of five fighters ( Conor McGregor , Vitor Belfort , Robert Whittaker & Max Holloway ) to have knockout victories in three different weight classes",
+    "UFC.com Awards 2018: Ranked #3 Upset of the Year vs. David Branch",
+    "2018: Ranked #3 Upset of the Year vs. David Branch",
+    "Alaska Fighting Championship AFC Heavyweight Championship (One time)",
+    "AFC Heavyweight Championship (One time)",
+    "MMAjunkie.com 2023 June Fight of the Month vs. Marvin Vettori",
+    "2023 June Fight of the Month vs. Marvin Vettori"
+  ],
+  "image_commons": "Jared Cannonier at UFC Fight Night 160 in Copenhagen.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Jared_Cannonier",
+    "wikidata": "https://www.wikidata.org/wiki/Q27957217",
+    "ufc_com": "https://www.ufc.com/athlete/jared-cannonier"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 63,
+    "puissance": 71,
+    "lutte": 48,
+    "soumission": 40,
+    "defense": 61,
+    "cardio": 91,
+    "menton": 67,
+    "globale": 63,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

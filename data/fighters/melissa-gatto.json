@@ -1,0 +1,134 @@
+{
+  "id": "melissa-gatto",
+  "nom": "Melissa Gatto",
+  "ufc_slug": "melissa-gatto",
+  "wikipedia_titre": "Melissa Gatto",
+  "surnom": null,
+  "sexe": "F",
+  "pays": "BR",
+  "categorie": "mouche_f",
+  "statut": "actif",
+  "date_naissance": "1996-05-02",
+  "taille_cm": 165,
+  "allonge_cm": 175,
+  "style": "Jiu-Jitsu",
+  "lieu_naissance": "State of São Paulo, Brazil",
+  "palmares": {
+    "victoires": 9,
+    "defaites": 3,
+    "nuls": 2,
+    "sans_decision": 0,
+    "victoires_ko": 3,
+    "victoires_soumission": 4,
+    "victoires_decision": 2,
+    "defaites_ko": 0,
+    "defaites_soumission": 0,
+    "defaites_decision": 3
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.47,
+    "precision_frappe_pct": 50,
+    "frappes_encaissees_par_min": 2.67,
+    "defense_frappe_pct": 54.0,
+    "takedowns_par_15min": 1.77,
+    "precision_takedown_pct": 3,
+    "defense_takedown_pct": 59.0,
+    "soumissions_par_15min": 0.39,
+    "knockdowns_par_15min": 0.2,
+    "duree_moyenne_combat_s": 764,
+    "frappes_reussies": 265.0,
+    "takedowns_reussis": 1.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 9,
+      "defaites": 3,
+      "nuls": 2,
+      "sans_decision": 0,
+      "v": {
+        "ko": 3,
+        "soumission": 4,
+        "decision": 2,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 0,
+        "decision": 3,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2021": 2,
+      "2022": 1,
+      "2023": 1,
+      "2024": 1,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Dione Barbosa",
+      "evenement": "UFC Fight Night: Moicano vs. Duncan",
+      "date": "April 4, 2026",
+      "resultat": "Loss",
+      "methode": "Decision (majority)"
+    },
+    "combats_ufc": 6,
+    "victoires_ufc": 3,
+    "defaites_ufc": 3,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "armbar",
+      "finitions": 2
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Victoria Leonardo",
+      "evenement": "UFC 265",
+      "date": "August 7, 2021",
+      "resultat": "Win",
+      "methode": "TKO (doctor stoppage)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Ultimate Fighting Championship Performance of the Night (One time) vs. Sijara Eubanks",
+    "Performance of the Night (One time) vs. Sijara Eubanks"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Melissa_Gatto",
+    "wikidata": "https://www.wikidata.org/wiki/Q111905660",
+    "ufc_com": "https://www.ufc.com/athlete/melissa-gatto"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 61,
+    "puissance": 55,
+    "lutte": 54,
+    "soumission": 63,
+    "defense": 69,
+    "cardio": 63,
+    "menton": 99,
+    "globale": 66,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

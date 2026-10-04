@@ -1,0 +1,161 @@
+{
+  "id": "raquel-pennington",
+  "nom": "Raquel Pennington",
+  "ufc_slug": "raquel-pennington",
+  "wikipedia_titre": "Raquel Pennington",
+  "surnom": "Rocky",
+  "sexe": "F",
+  "pays": "US",
+  "categorie": "coq_f",
+  "statut": "actif",
+  "date_naissance": "1988-09-05",
+  "taille_cm": 170,
+  "allonge_cm": 171,
+  "style": "Style libre",
+  "lieu_naissance": "Colorado Springs, États-Unis",
+  "palmares": {
+    "victoires": 16,
+    "defaites": 9,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 1,
+    "victoires_soumission": 4,
+    "victoires_decision": 11,
+    "defaites_ko": 1,
+    "defaites_soumission": 1,
+    "defaites_decision": 7
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.1,
+    "precision_frappe_pct": 49,
+    "frappes_encaissees_par_min": 3.32,
+    "defense_frappe_pct": 61.0,
+    "takedowns_par_15min": 0.83,
+    "precision_takedown_pct": 19,
+    "defense_takedown_pct": 63.0,
+    "soumissions_par_15min": 0.62,
+    "knockdowns_par_15min": 0.05,
+    "duree_moyenne_combat_s": 918,
+    "frappes_reussies": 1193.0,
+    "takedowns_reussis": 11.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 16,
+      "defaites": 9,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 1,
+        "soumission": 4,
+        "decision": 11,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 1,
+        "decision": 7,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2013": 1,
+      "2014": 2,
+      "2015": 2,
+      "2016": 3,
+      "2018": 2,
+      "2019": 1,
+      "2020": 2,
+      "2021": 2,
+      "2022": 1,
+      "2023": 1,
+      "2024": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Julianna Peña",
+      "evenement": "UFC 307",
+      "date": "October 5, 2024",
+      "resultat": "Loss",
+      "methode": "Decision (split)"
+    },
+    "combats_ufc": 19,
+    "victoires_ufc": 13,
+    "defaites_ufc": 6,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 0,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "guillotine choke",
+      "finitions": 2
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Roxanne Modafferi",
+      "evenement": "The Ultimate Fighter: Team Rousey vs. Team Tate Finale",
+      "date": "November 30, 2013",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "UFC Women's Bantamweight Championship (One time)",
+    "The Ultimate Fighter 18 Fight of the Season vs. Jessamyn Duke",
+    "Performance of the Night (One time) vs. Jéssica Andrade",
+    "Most bouts in UFC Women's Bantamweight division history (18)",
+    "Most total fight time in UFC Women's Bantamweight division history (4:42:33)  Second longest average fight time in UFC Women's Bantamweight division history (15:42) (behind Valentina Shevchenko )",
+    "Second longest average fight time in UFC Women's Bantamweight division history (15:42) (behind Valentina Shevchenko )",
+    "Second most wins in UFC Women's Bantamweight division history (12) (behind Amanda Nunes )",
+    "Most significant strikes landed in UFC Women's Bantamweight division history (1148)",
+    "Most total strikes landed in UFC Women's Bantamweight division history (1687)",
+    "Tied ( Miesha Tate ) for fourth longest win streak in UFC Women's Bantamweight division history (5)",
+    "Second most control time in UFC Women's Bantamweight division history (1:05:12)",
+    "Third highest significant strike defense in UFC Women's Bantamweight division history (60.8%)",
+    "Second most submission attempts in UFC Women's Bantamweight division history (11) (behind Miesha Tate )",
+    "Most decision bouts in UFC Women's Bantamweight division history (14)",
+    "Most unanimous decision wins in UFC Women's Bantamweight division history (7)",
+    "Tied ( Ketlen Vieira ) for most split decision wins in UFC Women's Bantamweight division history (3)",
+    "UFC.com Awards 2014: Ranked #7 Submission of the Year vs. Ashlee Evans-Smith",
+    "2014: Ranked #7 Submission of the Year vs. Ashlee Evans-Smith",
+    "MMA Fighting 2024 Third Team MMA All-Star",
+    "2024 Third Team MMA All-Star"
+  ],
+  "image_commons": "Raquel Pennington UFC (29214885452) (cropped).jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Raquel_Pennington",
+    "wikidata": "https://www.wikidata.org/wiki/Q15987788",
+    "ufc_com": "https://www.ufc.com/athlete/raquel-pennington"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 16-9, wikipedia_infobox 16-9, ufc_com 16-10"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 63,
+    "puissance": 35,
+    "lutte": 47,
+    "soumission": 56,
+    "defense": 73,
+    "cardio": 78,
+    "menton": 88,
+    "globale": 63,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

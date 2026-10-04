@@ -1,0 +1,136 @@
+{
+  "id": "anshul-jubli",
+  "nom": "Anshul Jubli",
+  "ufc_slug": "anshul-jubli",
+  "wikipedia_titre": "Anshul Jubli",
+  "surnom": "King of Lions",
+  "sexe": "M",
+  "pays": "IN",
+  "categorie": "legers",
+  "statut": "actif",
+  "date_naissance": "1995-01-13",
+  "taille_cm": 183,
+  "allonge_cm": 175,
+  "style": "MMA",
+  "lieu_naissance": "Uttarkashi, India",
+  "palmares": {
+    "victoires": 7,
+    "defaites": 2,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 2,
+    "victoires_soumission": 1,
+    "victoires_decision": 4,
+    "defaites_ko": 2,
+    "defaites_soumission": 0,
+    "defaites_decision": 0
+  },
+  "stats_ufc": {
+    "frappes_par_min": 6.42,
+    "precision_frappe_pct": 46,
+    "frappes_encaissees_par_min": 5.72,
+    "defense_frappe_pct": 50.0,
+    "takedowns_par_15min": 0.81,
+    "precision_takedown_pct": 18,
+    "defense_takedown_pct": 64.0,
+    "soumissions_par_15min": 0.4,
+    "knockdowns_par_15min": 0.4,
+    "duree_moyenne_combat_s": 556,
+    "frappes_reussies": 238.0,
+    "takedowns_reussis": 2.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 7,
+      "defaites": 2,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 2,
+        "soumission": 1,
+        "decision": 4,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 0,
+        "decision": 0,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2022": 1,
+      "2023": 2,
+      "2025": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Quillan Salkilld",
+      "evenement": "UFC 312",
+      "date": "9 February 2025",
+      "resultat": "Loss",
+      "methode": "TKO (punch)"
+    },
+    "combats_ufc": 4,
+    "victoires_ufc": 2,
+    "defaites_ufc": 2,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 2
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Kim Kyung-pyo",
+      "evenement": "Road to UFC Season 1: Episode 6",
+      "date": "23 October 2022",
+      "resultat": "Win",
+      "methode": "Decision (split)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Ultimate Fighting Championship Performance of the Night (One time) vs. Jeka Saragih  Road to UFC Season 1 Lightweight Tournament Winner",
+    "Performance of the Night (One time) vs. Jeka Saragih",
+    "Road to UFC Season 1 Lightweight Tournament Winner",
+    "BodyPower India Open MMA Tournament BodyPower Light Heavyweight Tournament Winner (2016)",
+    "BodyPower Light Heavyweight Tournament Winner (2016)"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Anshul_Jubli",
+    "wikidata": "https://www.wikidata.org/wiki/Q116741335",
+    "ufc_com": "https://www.ufc.com/athlete/anshul-jubli"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 70,
+    "puissance": 56,
+    "lutte": 53,
+    "soumission": 53,
+    "defense": 53,
+    "cardio": 56,
+    "menton": 57,
+    "globale": 57,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

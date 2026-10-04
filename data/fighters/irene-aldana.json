@@ -1,0 +1,170 @@
+{
+  "id": "irene-aldana",
+  "nom": "Irene Aldana",
+  "ufc_slug": "irene-aldana",
+  "wikipedia_titre": "Irene Aldana",
+  "surnom": null,
+  "sexe": "F",
+  "pays": "MX",
+  "categorie": "coq_f",
+  "statut": "inactif",
+  "date_naissance": "1988-03-26",
+  "taille_cm": 175,
+  "allonge_cm": 174,
+  "style": "Cogneur",
+  "lieu_naissance": "Culiacán, Mexique",
+  "palmares": {
+    "victoires_ko": 8,
+    "victoires_soumission": 3,
+    "victoires_decision": 4,
+    "defaites_ko": 2,
+    "defaites_soumission": 0,
+    "defaites_decision": 6,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires": 15,
+    "defaites": 8
+  },
+  "stats_ufc": {
+    "frappes_par_min": 5.19,
+    "precision_frappe_pct": 40,
+    "frappes_encaissees_par_min": 6.64,
+    "defense_frappe_pct": 56.0,
+    "takedowns_par_15min": 0.15,
+    "precision_takedown_pct": 50,
+    "defense_takedown_pct": 78.0,
+    "soumissions_par_15min": 0.22,
+    "knockdowns_par_15min": 0.22,
+    "duree_moyenne_combat_s": 879,
+    "frappes_reussies": 1065.0,
+    "takedowns_reussis": 2.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 14,
+      "defaites": 8,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 7,
+        "soumission": 3,
+        "decision": 4,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 0,
+        "decision": 6,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2016": 1,
+      "2017": 1,
+      "2018": 2,
+      "2019": 4,
+      "2020": 1,
+      "2021": 1,
+      "2022": 1,
+      "2023": 2,
+      "2024": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Norma Dumont",
+      "evenement": "UFC 306",
+      "date": "September 14, 2024",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 14,
+    "victoires_ufc": 8,
+    "defaites_ufc": 6,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 3,
+    "bonus_potn": 5,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Karol Rosa",
+        "evenement": "UFC 296",
+        "date": "December 16, 2023"
+      },
+      {
+        "adversaire": "Lucie Pudilová",
+        "evenement": "UFC 228",
+        "date": "September 8, 2018"
+      },
+      {
+        "adversaire": "Leslie Smith",
+        "evenement": "UFC on Fox: VanZant vs. Waterson",
+        "date": "December 17, 2016"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 4
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Leslie Smith",
+      "evenement": "UFC on Fox: VanZant vs. Waterson",
+      "date": "December 17, 2016",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Fight of the Night (Three times) vs. Leslie Smith , Lucie Pudilová and Karol Rosa",
+    "Performance of the Night (Two times) vs. Ketlen Vieira and Macy Chiasson   Tied ( Amanda Nunes ) for third most Post-Fight bonuses in UFC Women's Bantamweight division history (4)",
+    "Tied ( Amanda Nunes ) for third most Post-Fight bonuses in UFC Women's Bantamweight division history (4)",
+    "Second most total fight time in UFC Women's Bantamweight division history (3:12:50)",
+    "Second most significant strikes landed in UFC Women's Bantamweight division history (1028)",
+    "Third most total strikes landed in UFC Women's Bantamweight division history (1174)",
+    "UFC.com Awards 2023: Ranked #3 Fight of the Year vs. Karol Rosa",
+    "2023: Ranked #3 Fight of the Year vs. Karol Rosa",
+    "Invicta Fighting Championships Performance of the Night (three times) vs. Peggy Morgan , Colleen Schneider , and Faith Van Duin",
+    "Performance of the Night (three times) vs. Peggy Morgan , Colleen Schneider , and Faith Van Duin",
+    "MMA Junkie 2019 December Knockout of the Month vs. Ketlen Vieira",
+    "2019 December Knockout of the Month vs. Ketlen Vieira",
+    "MMA Fighting 2023 Second Team MMA All-Star",
+    "2023 Second Team MMA All-Star",
+    "Bleacher Report 2023 #5 Ranked UFC Fight of the Year vs. Karol Rosa at UFC 296",
+    "2023 #5 Ranked UFC Fight of the Year vs. Karol Rosa at UFC 296"
+  ],
+  "image_commons": "Irene Aldana UFC 2023 02.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Irene_Aldana",
+    "wikidata": "https://www.wikidata.org/wiki/Q19559930",
+    "ufc_com": "https://www.ufc.com/athlete/irene-aldana"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_infobox",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 14-8, wikipedia_infobox 15-8, ufc_com 15-8"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 60,
+    "puissance": 64,
+    "lutte": 61,
+    "soumission": 49,
+    "defense": 51,
+    "cardio": 69,
+    "menton": 76,
+    "globale": 61,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

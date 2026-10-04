@@ -1,0 +1,182 @@
+{
+  "id": "jens-pulver",
+  "nom": "Jens Pulver",
+  "ufc_slug": "jens-pulver",
+  "wikipedia_titre": "Jens Pulver",
+  "surnom": "Lil' Evil",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "legers",
+  "statut": "inactif",
+  "date_naissance": "1974-12-06",
+  "taille_cm": 170,
+  "allonge_cm": null,
+  "style": null,
+  "lieu_naissance": "États-Unis",
+  "palmares": {
+    "victoires": 27,
+    "defaites": 19,
+    "nuls": 1,
+    "sans_decision": 0,
+    "victoires_ko": 14,
+    "victoires_soumission": 4,
+    "victoires_decision": 8,
+    "defaites_ko": 8,
+    "defaites_soumission": 9,
+    "defaites_decision": 2
+  },
+  "stats_ufc": {
+    "frappes_par_min": null,
+    "precision_frappe_pct": null,
+    "frappes_encaissees_par_min": null,
+    "defense_frappe_pct": null,
+    "takedowns_par_15min": null,
+    "precision_takedown_pct": null,
+    "defense_takedown_pct": null,
+    "soumissions_par_15min": null,
+    "knockdowns_par_15min": null,
+    "duree_moyenne_combat_s": null,
+    "frappes_reussies": null,
+    "takedowns_reussis": null
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 27,
+      "defaites": 19,
+      "nuls": 1,
+      "sans_decision": 0,
+      "v": {
+        "ko": 14,
+        "soumission": 4,
+        "decision": 8,
+        "autre": 1
+      },
+      "d": {
+        "ko": 8,
+        "soumission": 9,
+        "decision": 2,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "1999": 1,
+      "2000": 3,
+      "2001": 2,
+      "2002": 1,
+      "2006": 1,
+      "2007": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Sami Aziz",
+      "evenement": "Superior Challenge 9: Gothenburg",
+      "date": "November 23, 2013",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 9,
+    "victoires_ufc": 6,
+    "defaites_ufc": 2,
+    "victoires_decision_5_rounds": 3,
+    "combats_5_rounds_gagnes": 3,
+    "bonus_fotn": 1,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Urijah Faber",
+        "evenement": "WEC 34: Faber vs. Pulver",
+        "date": "June 1, 2008"
+      }
+    ],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Lightweight Championship",
+        "evenement": "UFC 35",
+        "date": "January 11, 2002"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Lightweight Championship",
+        "evenement": "UFC 33",
+        "date": "September 28, 2001"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 10
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Alcarez Alfonso Alcarez",
+      "evenement": "UFC 22",
+      "date": "September 24, 1999",
+      "resultat": "Draw",
+      "methode": "Draw"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "UFC Hall of Fame (Pioneer wing, Class of 2023)",
+    "Two successful title defenses",
+    "First UFC Lightweight Champion to defend the title in UFC History",
+    "Tied ( Frankie Edgar & Justin Gaethje ) for third most UFC lightweight title fight wins (5)",
+    "First Lightweight to headline a UFC Event vs. B.J. Penn",
+    "UFC Encyclopedia Awards Fight of the Night (One time) vs. B.J. Penn  Knockout of the Night (One time) vs. John Lewis",
+    "Fight of the Night (One time) vs. B.J. Penn",
+    "Knockout of the Night (One time) vs. John Lewis",
+    "PRIDE Fighting Championship PRIDE 2005 Lightweight Grand Prix Quarterfinalist One of only two UFC Lightweight Champions to compete in PRIDE FC",
+    "PRIDE 2005 Lightweight Grand Prix Quarterfinalist",
+    "One of only two UFC Lightweight Champions to compete in PRIDE FC",
+    "World Extreme Cagefighting Fight of the Night (One time)",
+    "Fight of the Night (One time)",
+    "ONE Fighting Championship ONE FC Bantamweight Grand Prix Semifinalist",
+    "ONE FC Bantamweight Grand Prix Semifinalist",
+    "MMA Fighting 2002 Lightweight Fighter of the Year",
+    "2002 Lightweight Fighter of the Year",
+    "Fight Matrix 2002 Most Noteworthy Match of Year vs. B.J. Penn on January 11, 2002",
+    "2002 Most Noteworthy Match of Year vs. B.J. Penn on January 11, 2002"
+  ],
+  "image_commons": "Jens Pulver at UFC - Neer vs Diaz 2013-12-03 22-51.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Jens_Pulver",
+    "wikidata": "https://www.wikidata.org/wiki/Q2526857",
+    "ufc_com": "https://www.ufc.com/athlete/jens-pulver"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "allonge_cm",
+    "stats_ufc (absentes de la fiche ufc.com)"
+  ],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 27-19, wikipedia_infobox 27-19, ufc_com 22-13"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 65,
+    "puissance": 70,
+    "lutte": 65,
+    "soumission": 51,
+    "defense": 65,
+    "cardio": 90,
+    "menton": 41,
+    "globale": 64,
+    "style": "complet",
+    "estimees": [
+      "frappe",
+      "lutte",
+      "defense"
+    ],
+    "formule_version": 1
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "id": "alex-perez",
+  "nom": "Alex Perez",
+  "ufc_slug": "alex-perez",
+  "wikipedia_titre": "Alex Perez (fighter)",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "mouche",
+  "statut": "actif",
+  "date_naissance": "1992-03-21",
+  "taille_cm": 168,
+  "allonge_cm": 166,
+  "style": "Style libre",
+  "lieu_naissance": "Hanford, États-Unis",
+  "palmares": {
+    "victoires": 26,
+    "defaites": 11,
+    "nuls": 0,
+    "sans_decision": 1,
+    "victoires_ko": 7,
+    "victoires_soumission": 7,
+    "victoires_decision": 12,
+    "defaites_ko": 2,
+    "defaites_soumission": 6,
+    "defaites_decision": 3
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.79,
+    "precision_frappe_pct": 44,
+    "frappes_encaissees_par_min": 3.18,
+    "defense_frappe_pct": 58.0,
+    "takedowns_par_15min": 2.31,
+    "precision_takedown_pct": 17,
+    "defense_takedown_pct": 76.0,
+    "soumissions_par_15min": 0.73,
+    "knockdowns_par_15min": 0.73,
+    "duree_moyenne_combat_s": 436,
+    "frappes_reussies": 468.0,
+    "takedowns_reussis": 7.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 26,
+      "defaites": 11,
+      "nuls": 0,
+      "sans_decision": 1,
+      "v": {
+        "ko": 7,
+        "soumission": 7,
+        "decision": 12,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 6,
+        "decision": 3,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2017": 2,
+      "2018": 3,
+      "2019": 1,
+      "2020": 3,
+      "2022": 1,
+      "2024": 3,
+      "2025": 1,
+      "2026": 3
+    },
+    "dernier_combat": {
+      "adversaire": "Su Mudaerji",
+      "evenement": "UFC Fight Night: Nurmagomedov vs. Song",
+      "date": "August 29, 2026",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 17,
+    "victoires_ufc": 9,
+    "defaites_ufc": 7,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 0,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 6
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Kevin Gray",
+      "evenement": "Dana White's Contender Series 5",
+      "date": "August 8, 2017",
+      "resultat": "Win",
+      "methode": "Technical Submission (anaconda choke)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Performance of the Night (Three times) vs. Jordan Espinosa , Jussier Formiga and Matheus Nicolau",
+    "Tied ( Deiveson Figueiredo , John Lineker , Dustin Ortiz & Joshua Van ) for third most knockouts in UFC Flyweight division history (4)",
+    "Second shortest average fight time in UFC Flyweight division history (6:25)",
+    "Third most knockdowns-per-15 minutes in UFC Flyweight division history (1.17)",
+    "Tachi Palace Fights TPC Flyweight Champion (One time; former)",
+    "TPC Flyweight Champion (One time; former)"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Alex_Perez_(fighter)",
+    "wikidata": "https://www.wikidata.org/wiki/Q48471390",
+    "ufc_com": "https://www.ufc.com/athlete/alex-perez"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 56,
+    "puissance": 56,
+    "lutte": 59,
+    "soumission": 59,
+    "defense": 71,
+    "cardio": 53,
+    "menton": 80,
+    "globale": 62,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "id": "robert-whittaker",
+  "nom": "Robert Whittaker",
+  "ufc_slug": "robert-whittaker",
+  "wikipedia_titre": "Robert Whittaker (fighter)",
+  "surnom": "The Reaper",
+  "sexe": "M",
+  "pays": "NZ",
+  "categorie": "mi_lourds",
+  "statut": "actif",
+  "date_naissance": "1990-12-20",
+  "taille_cm": 183,
+  "allonge_cm": 187,
+  "style": "Jiu-jitsu brésilien",
+  "lieu_naissance": "Otahuhu, Australie",
+  "palmares": {
+    "victoires": 27,
+    "defaites": 9,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 11,
+    "victoires_soumission": 5,
+    "victoires_decision": 11,
+    "defaites_ko": 3,
+    "defaites_soumission": 2,
+    "defaites_decision": 4
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.41,
+    "precision_frappe_pct": 43,
+    "frappes_encaissees_par_min": 3.4,
+    "defense_frappe_pct": 59.0,
+    "takedowns_par_15min": 0.71,
+    "precision_takedown_pct": 10,
+    "defense_takedown_pct": 80.0,
+    "soumissions_par_15min": 0.0,
+    "knockdowns_par_15min": 0.53,
+    "duree_moyenne_combat_s": 811,
+    "frappes_reussies": 1489.0,
+    "takedowns_reussis": 4.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 27,
+      "defaites": 9,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 11,
+        "soumission": 5,
+        "decision": 11,
+        "autre": 0
+      },
+      "d": {
+        "ko": 3,
+        "soumission": 2,
+        "decision": 4,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2012": 1,
+      "2013": 2,
+      "2014": 3,
+      "2015": 2,
+      "2016": 2,
+      "2017": 2,
+      "2018": 1,
+      "2019": 1,
+      "2020": 2,
+      "2021": 1,
+      "2022": 2,
+      "2023": 1,
+      "2024": 3,
+      "2025": 1,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Nikita Krylov",
+      "evenement": "UFC 329",
+      "date": "11 July 2026",
+      "resultat": "Win",
+      "methode": "TKO (jaw injury)"
+    },
+    "combats_ufc": 25,
+    "victoires_ufc": 18,
+    "defaites_ufc": 7,
+    "victoires_decision_5_rounds": 4,
+    "combats_5_rounds_gagnes": 4,
+    "bonus_fotn": 5,
+    "bonus_potn": 4,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Kelvin Gastelum",
+        "evenement": "UFC on ESPN: Whittaker vs. Gastelum",
+        "date": "17 April 2021"
+      },
+      {
+        "adversaire": "Yoel Romero",
+        "evenement": "UFC 225",
+        "date": "9 June 2018"
+      },
+      {
+        "adversaire": "Yoel Romero",
+        "evenement": "UFC 213",
+        "date": "8 July 2017"
+      },
+      {
+        "adversaire": "Derek Brunson",
+        "evenement": "UFC Fight Night: Whittaker vs. Brunson",
+        "date": "27 November 2016"
+      },
+      {
+        "adversaire": "Clint Hester",
+        "evenement": "UFC Fight Night: Rockhold vs. Bisping",
+        "date": "8 November 2014"
+      }
+    ],
+    "titres": [
+      {
+        "action": "won",
+        "interim": true,
+        "titre": "UFC Middleweight Championship",
+        "evenement": "UFC 213",
+        "date": "8 July 2017"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 7
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Brad Scott",
+      "evenement": "UFC on FX: Sotiropoulos vs. Pearson",
+      "date": "15 December 2012",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "GQ Australia 2018 Sportsman of the Year",
+    "2018 Sportsman of the Year",
+    "UFC Middleweight Championship (One time)",
+    "Interim UFC Middleweight Championship (One time) First Australian to win a UFC championship First New Zealand-born UFC champion",
+    "First Australian to win a UFC championship",
+    "First New Zealand-born UFC champion",
+    "The Ultimate Fighter: The Smashes Welterweight Tournament Winner The Ultimate Fighter: The Smashes Knockout of the Season",
+    "The Ultimate Fighter: The Smashes Knockout of the Season",
+    "Fight of the Night (Five times) vs. Clint Hester , Derek Brunson , Yoel Romero (2), and Kelvin Gastelum",
+    "Second most Post-Fight bonuses in UFC Middleweight division history (9) (behind Anderson Silva )",
+    "Tied ( Yoel Romero & Anthony Hernandez ) for fifth longest win streak in UFC Middleweight division history (8)",
+    "Tied ( Anderson Silva , Derek Brunson & Brendan Allen ) for third most wins in UFC Middleweight division history (14)",
+    "Tied for sixth most unanimous decision wins in UFC history (10) Tied ( Michael Bisping ) for third most decision wins in UFC Middleweight division history (9)",
+    "Tied ( Michael Bisping ) for third most decision wins in UFC Middleweight division history (9)",
+    "Sixth most significant strikes landed in UFC Middleweight division history (1166)",
+    "UFC.com Awards 2016: Ranked #10 Fight of the Year vs. Derek Brunson  2017: Ranked #4 Fighter of the Year  2018: Fight of the Year vs. Yoel Romero 2",
+    "2016: Ranked #10 Fight of the Year vs. Derek Brunson",
+    "2017: Ranked #4 Fighter of the Year",
+    "2018: Fight of the Year vs. Yoel Romero 2",
+    "Superfight Australia SFA Welterweight Championship (one time)",
+    "SFA Welterweight Championship (one time)",
+    "ESPN 2020 Comeback Fighter of the Year",
+    "2020 Comeback Fighter of the Year",
+    "MMA Mania UFC/MMA 'Fighter of the Year' 2017 – Top 5 List No. 2",
+    "UFC/MMA 'Fighter of the Year' 2017 – Top 5 List No. 2",
+    "MMA Junkie 2024 February Fight of the Month vs. Paulo Costa at UFC 298",
+    "2024 February Fight of the Month vs. Paulo Costa at UFC 298",
+    "Sherdog 2017 Fighter of the Year",
+    "2017 Fighter of the Year",
+    "MMA DNA.nl 2017 Fighter of the Year  2018 Fight of the Year vs. Yoel Romero 2 at UFC 225",
+    "2017 Fighter of the Year",
+    "2018 Fight of the Year vs. Yoel Romero 2 at UFC 225",
+    "BJPENN.COM June 2018 Scrap of the Month vs. Yoel Romero 2 at UFC 225",
+    "June 2018 Scrap of the Month vs. Yoel Romero 2 at UFC 225",
+    "World MMA Awards 2017 International Fighter of the Year",
+    "2017 International Fighter of the Year",
+    "CBS Sports 2017 #4 Ranked UFC Fighter of the Year  2017 #5 Ranked UFC Fight of the Year vs. Yoel Romero at UFC 213  2018 #5 Ranked UFC Fight of the Year vs. Yoel Romero 2 at UFC 225",
+    "2017 #4 Ranked UFC Fighter of the Year",
+    "2017 #5 Ranked UFC Fight of the Year vs. Yoel Romero at UFC 213",
+    "2018 #5 Ranked UFC Fight of the Year vs. Yoel Romero 2 at UFC 225"
+  ],
+  "image_commons": "Robert whittaker.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Robert_Whittaker_(fighter)",
+    "wikidata": "https://www.wikidata.org/wiki/Q4845777",
+    "ufc_com": "https://www.ufc.com/athlete/robert-whittaker"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 27-9, wikipedia_infobox 27-9, ufc_com 28-9"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 58,
+    "puissance": 61,
+    "lutte": 53,
+    "soumission": 43,
+    "defense": 71,
+    "cardio": 90,
+    "menton": 70,
+    "globale": 64,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "id": "mackenzie-dern",
+  "nom": "Mackenzie Dern",
+  "ufc_slug": "mackenzie-dern",
+  "wikipedia_titre": "Mackenzie Dern",
+  "surnom": null,
+  "sexe": "F",
+  "pays": "US",
+  "autres_pays": [
+    "BR"
+  ],
+  "categorie": "paille_f",
+  "statut": "actif",
+  "date_naissance": "1993-03-24",
+  "taille_cm": 163,
+  "allonge_cm": 160,
+  "style": "Jiu-jitsu brésilien",
+  "lieu_naissance": "États-Unis",
+  "palmares": {
+    "victoires": 17,
+    "defaites": 5,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 0,
+    "victoires_soumission": 8,
+    "victoires_decision": 9,
+    "defaites_ko": 1,
+    "defaites_soumission": 0,
+    "defaites_decision": 4
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.38,
+    "precision_frappe_pct": 41,
+    "frappes_encaissees_par_min": 3.74,
+    "defense_frappe_pct": 53.0,
+    "takedowns_par_15min": 1.07,
+    "precision_takedown_pct": 1,
+    "defense_takedown_pct": 41.0,
+    "soumissions_par_15min": 1.01,
+    "knockdowns_par_15min": 0.12,
+    "duree_moyenne_combat_s": 889,
+    "frappes_reussies": 851.0,
+    "takedowns_reussis": 1.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 17,
+      "defaites": 5,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 0,
+        "soumission": 8,
+        "decision": 9,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 0,
+        "decision": 4,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2018": 2,
+      "2019": 1,
+      "2020": 3,
+      "2021": 2,
+      "2022": 2,
+      "2023": 2,
+      "2024": 2,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Gillian Robertson",
+      "evenement": "UFC 330",
+      "date": "August 15, 2026",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 17,
+    "victoires_ufc": 12,
+    "defaites_ufc": 5,
+    "victoires_decision_5_rounds": 3,
+    "combats_5_rounds_gagnes": 3,
+    "bonus_fotn": 3,
+    "bonus_potn": 5,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Amanda Lemos",
+        "evenement": "UFC 298",
+        "date": "February 17, 2024"
+      },
+      {
+        "adversaire": "Angela Hill",
+        "evenement": "UFC Fight Night: Dern vs. Hill",
+        "date": "May 20, 2023"
+      },
+      {
+        "adversaire": "Marina Rodriguez",
+        "evenement": "UFC Fight Night: Dern vs. Rodriguez",
+        "date": "October 9, 2021"
+      }
+    ],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Women's Strawweight Championship",
+        "evenement": "UFC 330",
+        "date": "August 15, 2026"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "armbar",
+      "finitions": 4
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Ashley Yoder",
+      "evenement": "UFC 222",
+      "date": "March 3, 2018",
+      "resultat": "Win",
+      "methode": "Decision (split)"
+    }
+  },
+  "champion_actuel": true,
+  "champion_division": "Poids paille féminins",
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "UFC Women's Strawweight Championship (One time, Current) One successful title defense",
+    "One successful title defense",
+    "Performance of the Night (Four times) vs. Hannah Cifers , Randa Markos , Nina Ansaroff and Amanda Ribas 2",
+    "Second most Post-Fight bonuses in UFC Women's Strawweight division history (7)",
+    "Tied ( Ronda Rousey ) for second most Post-Fight bonuses in UFC Women's history (7) (behind Jéssica Andrade )",
+    "Tied ( Virna Jandiroba ) for most submission attempts in UFC Women's Strawweight division history (16)",
+    "Second most submission wins in UFC Women's history (5)  (behind Gillian Robertson )",
+    "Second most wins in UFC Women's Strawweight division history (12)",
+    "Tied ( Rose Namajunas , Amanda Lemos & Tatiana Suarez ) for second most finishes in UFC Women's Strawweight division history (5)",
+    "UFC Honors Awards 2020: Fan's Choice Submission of the Year Nominee vs. Hannah Cifers",
+    "2020: Fan's Choice Submission of the Year Nominee vs. Hannah Cifers",
+    "UFC.com Awards 2018: Ranked #3 Newcomer of the Year  2020: Ranked #2 Submission of the Year vs. Hannah Cifers",
+    "2018: Ranked #3 Newcomer of the Year",
+    "2020: Ranked #2 Submission of the Year vs. Hannah Cifers",
+    "MMA Fighting 2025 Second Team MMA All-Star",
+    "2025 Second Team MMA All-Star",
+    "Uncrowned 2025 #3 Ranked Women's Fighter of the Year",
+    "2025 #3 Ranked Women's Fighter of the Year"
+  ],
+  "image_commons": "Mackenzie Dern.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Mackenzie_Dern",
+    "wikidata": "https://www.wikidata.org/wiki/Q21005601",
+    "ufc_com": "https://www.ufc.com/athlete/mackenzie-dern"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "champion_actuel": "ufc_com_rankings",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 51,
+    "puissance": 37,
+    "lutte": 41,
+    "soumission": 73,
+    "defense": 63,
+    "cardio": 93,
+    "menton": 87,
+    "globale": 64,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

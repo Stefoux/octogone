@@ -1,0 +1,178 @@
+{
+  "id": "neil-magny",
+  "nom": "Neil Magny",
+  "ufc_slug": "neil-magny",
+  "wikipedia_titre": "Neil Magny",
+  "surnom": "The Haitian Sensation",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "mi_moyens",
+  "statut": "actif",
+  "date_naissance": "1987-08-03",
+  "taille_cm": 190,
+  "allonge_cm": 203,
+  "style": null,
+  "lieu_naissance": "Brooklyn, United States",
+  "palmares": {
+    "victoires": 32,
+    "defaites": 14,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 10,
+    "victoires_soumission": 5,
+    "victoires_decision": 17,
+    "defaites_ko": 4,
+    "defaites_soumission": 7,
+    "defaites_decision": 3
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.39,
+    "precision_frappe_pct": 47,
+    "frappes_encaissees_par_min": 2.41,
+    "defense_frappe_pct": 52.0,
+    "takedowns_par_15min": 2.13,
+    "precision_takedown_pct": 25,
+    "defense_takedown_pct": 56.0,
+    "soumissions_par_15min": 0.3,
+    "knockdowns_par_15min": 0.07,
+    "duree_moyenne_combat_s": 712,
+    "frappes_reussies": 1530.0,
+    "takedowns_reussis": 41.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 32,
+      "defaites": 14,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 10,
+        "soumission": 5,
+        "decision": 17,
+        "autre": 0
+      },
+      "d": {
+        "ko": 4,
+        "soumission": 7,
+        "decision": 3,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2013": 3,
+      "2014": 5,
+      "2015": 5,
+      "2016": 3,
+      "2017": 2,
+      "2018": 2,
+      "2020": 3,
+      "2021": 2,
+      "2022": 3,
+      "2023": 3,
+      "2024": 3,
+      "2025": 3,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Ramiz Brahimaj",
+      "evenement": "UFC 330",
+      "date": "August 15, 2026",
+      "resultat": "Win",
+      "methode": "TKO (punches)"
+    },
+    "combats_ufc": 38,
+    "victoires_ufc": 25,
+    "defaites_ufc": 13,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 1,
+    "bonus_potn": 4,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Kelvin Gastelum",
+        "evenement": "The Ultimate Fighter Latin America 2 Finale: Magny vs. Gastelum",
+        "date": "November 21, 2015"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 9
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Jon Manley",
+      "evenement": "UFC 157",
+      "date": "February 23, 2013",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Fight of the Night (One time) vs. Kelvin Gastelum",
+    "Performance of the Night (Four times) vs. Kiichi Kunimoto , Hyun Gyu Lim , Hector Lombard , and Daniel Rodriguez",
+    "Tied ( Charles Oliveira ) for second most wins in UFC history (25) (behind Jim Miller )",
+    "Tied ( Charles Oliveira & Dan Henderson ) for fourth most wins in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (25)",
+    "Most fight time in UFC Welterweight division history (7:31:09)  Fifth most total fight time in UFC history (7:31:09)",
+    "Fifth most total fight time in UFC history (7:31:09)",
+    "Most bouts in UFC Welterweight division history (38)  Tied ( Donald Cerrone ) for third most bouts in UFC history (38)",
+    "Tied ( Donald Cerrone ) for third most bouts in UFC history (38)",
+    "Tied ( Kevin Holland ) for the only fighters in UFC history to have 5 bouts-per-calendar year twice (2014 & 2015 - 9 wins)",
+    "Tied ( Georges St-Pierre ) for third most unanimous decision wins in UFC Welterweight division history (10)",
+    "Tied for sixth most unanimous decision wins in UFC history (10)",
+    "Most decision bouts in UFC Welterweight division history (17)",
+    "Most split decision wins in UFC Welterweight division history (4)",
+    "Tied for fourth most split decision wins in UFC history (4)",
+    "Most total strikes landed in UFC Welterweight division history (2790)",
+    "Second most total strikes landed in UFC history (2790) (behind Max Holloway )",
+    "Tied ( Thiago Alves , Li Jingliang & Vicente Luque ) for second most knockouts in UFC Welterweight division history (8) (behind Matt Brown )",
+    "Tied ( Matt Hughes ) for third most finishes in UFC Welterweight division history (11)",
+    "Third most takedowns landed in UFC Welterweight division history (64)",
+    "Holds wins over three former UFC champions — Johny Hendricks , Robbie Lawler & Carlos Condit (interim)",
+    "UFC Honors Awards 2024: Fan's Choice Comeback of the Year Nominee vs. Mike Malott",
+    "2024: Fan's Choice Comeback of the Year Nominee vs. Mike Malott",
+    "UFC.com Awards 2014: Ranked #10 Fighter of the Year  2015: Ranked #10 Fighter of the Year",
+    "2014: Ranked #10 Fighter of the Year",
+    "2015: Ranked #10 Fighter of the Year",
+    "Combat Press 2016 Comeback of the Year vs. Héctor Lombard at UFC Fight Night: Hunt vs. Mir",
+    "2016 Comeback of the Year vs. Héctor Lombard at UFC Fight Night: Hunt vs. Mir",
+    "MMA Junkie 2024 Comeback of the Year vs. Mike Malott at UFC 297",
+    "2024 Comeback of the Year vs. Mike Malott at UFC 297"
+  ],
+  "image_commons": "Neil Magny.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Neil_Magny",
+    "wikidata": "https://www.wikidata.org/wiki/Q15987654",
+    "ufc_com": "https://www.ufc.com/athlete/neil-magny"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 32-14, wikipedia_infobox 32-14, ufc_com 32-15"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 56,
+    "puissance": 47,
+    "lutte": 52,
+    "soumission": 46,
+    "defense": 71,
+    "cardio": 68,
+    "menton": 64,
+    "globale": 58,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

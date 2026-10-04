@@ -1,0 +1,216 @@
+{
+  "id": "mauricio-rua",
+  "nom": "Maurício Rua",
+  "ufc_slug": "mauricio-rua",
+  "wikipedia_titre": "Maurício Rua",
+  "surnom": "Shogun",
+  "sexe": "M",
+  "pays": "BR",
+  "categorie": "mi_lourds",
+  "statut": "inactif",
+  "date_naissance": "1981-11-25",
+  "taille_cm": 185,
+  "allonge_cm": 193,
+  "style": "Muay Thaï",
+  "lieu_naissance": "Curitiba, Brésil",
+  "palmares": {
+    "victoires_ko": 21,
+    "victoires_soumission": 1,
+    "victoires_decision": 5,
+    "defaites_ko": 7,
+    "defaites_soumission": 3,
+    "defaites_decision": 4,
+    "nuls": 1,
+    "sans_decision": 0,
+    "victoires": 27,
+    "defaites": 14
+  },
+  "stats_ufc": {
+    "frappes_par_min": null,
+    "precision_frappe_pct": null,
+    "frappes_encaissees_par_min": null,
+    "defense_frappe_pct": null,
+    "takedowns_par_15min": null,
+    "precision_takedown_pct": null,
+    "defense_takedown_pct": null,
+    "soumissions_par_15min": null,
+    "knockdowns_par_15min": null,
+    "duree_moyenne_combat_s": null,
+    "frappes_reussies": null,
+    "takedowns_reussis": null
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 25,
+      "defaites": 14,
+      "nuls": 1,
+      "sans_decision": 0,
+      "v": {
+        "ko": 19,
+        "soumission": 1,
+        "decision": 5,
+        "autre": 0
+      },
+      "d": {
+        "ko": 7,
+        "soumission": 3,
+        "decision": 4,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2007": 1,
+      "2009": 3,
+      "2010": 1,
+      "2011": 3,
+      "2012": 2,
+      "2013": 2,
+      "2014": 2,
+      "2015": 1,
+      "2016": 1,
+      "2017": 1,
+      "2018": 2,
+      "2019": 1,
+      "2020": 2,
+      "2022": 1,
+      "2023": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Ihor Potieria",
+      "evenement": "UFC 283",
+      "date": "21 January 2023",
+      "resultat": "Loss",
+      "methode": "TKO (punches)"
+    },
+    "combats_ufc": 24,
+    "victoires_ufc": 11,
+    "defaites_ufc": 12,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 4,
+    "bonus_potn": 1,
+    "bonus_kotn": 3,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Antônio Rogério Nogueira",
+        "evenement": "UFC 190",
+        "date": "1 August 2015"
+      },
+      {
+        "adversaire": "Dan Henderson",
+        "evenement": "UFC Fight Night: Shogun vs. Henderson 2",
+        "date": "23 March 2014"
+      },
+      {
+        "adversaire": "Dan Henderson",
+        "evenement": "UFC 139",
+        "date": "19 November 2011"
+      },
+      {
+        "adversaire": "Mark Coleman",
+        "evenement": "UFC 93",
+        "date": "17 January 2009"
+      }
+    ],
+    "titres": [
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 113",
+        "date": "8 May 2010"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 13
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Forrest Griffin",
+      "evenement": "UFC 76",
+      "date": "22 September 2007",
+      "resultat": "Loss",
+      "methode": "Submission (rear-naked choke)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "PRIDE Fighting Championships 2005 PRIDE Middleweight Grand Prix Champion",
+    "2005 PRIDE Middleweight Grand Prix Champion",
+    "UFC Light Heavyweight Championship (One time)",
+    "UFC Hall of Fame (Fight Wing, Class of 2018) vs. Dan Henderson 1 at UFC 139",
+    "UFC Hall of Fame ( Modern Wing , Class of 2024)",
+    "Knockout of the Night ( Three times ) vs. Chuck Liddell , Lyoto Machida 2 and James Te Huna",
+    "Fight of the Night ( Four times ) vs. Mark Coleman , Dan Henderson (x2), Antônio Rogério Nogueira",
+    "Performance of the Night ( One time ) vs. Tyson Pedro",
+    "Tied ( Jon Jones & Ovince Saint Preux ) for second most fight-night bonuses in UFC Light Heavyweight division history (8)",
+    "Second most knockouts in UFC Light Heavyweight division history (8)  Third most knockouts in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (17) (behind Wanderlei Silva and Mirko Cro Cop )",
+    "Third most knockouts in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (17) (behind Wanderlei Silva and Mirko Cro Cop )",
+    "Second most bouts in modern UFC Light Heavyweight division history (24)",
+    "Tied ( Chuck Liddell , Lyoto Machida , Junior dos Santos , Thiago Santos & Khalil Rountree Jr. ) for sixth most knockdowns landed in UFC history (14)",
+    "Fourth most significant strikes landed in UFC Light Heavyweight division history (888)",
+    "Tied ( Anderson Silva ) for fourth most knockdowns landed in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (19)",
+    "Tied ( Paul Craig , Anthony Smith & Nikita Krylov ) for fifth most finishes in UFC Light Heavyweight division history (8)",
+    "Holds wins over six former UFC champions — Quinton Jackson , Mark Coleman , Kevin Randleman , Chuck Liddell , Lyoto Machida and Forest Griffin .",
+    "2009: Ranked #5 Fighter of the Year ,  Loss of the Year vs. Lyoto Machida 1  & Ranked #9 Fight of the Year vs. Lyoto Machida 1",
+    "2010 Half-Year Awards: Best Fighter of the 1HY,  Ranked #2 Knockout of the Year vs. Lyoto Machida ,  Ranked #7 Knockout of the Year vs. Chuck Liddell  & Ranked #3 Fighter of the Year",
+    "2011: Fight of the Year vs. Dan Henderson 1",
+    "2013: Ranked #3 Knockout of the Year vs. James Te Huna",
+    "2014: Ranked #9 Fight of the Year vs. Dan Henderson 2",
+    "FanSided 2000s #6 Ranked MMA Fighter of the Decade",
+    "2000s #6 Ranked MMA Fighter of the Decade",
+    "World MMA Awards 2010 Knockout of the Year vs. Lyoto Machida at UFC 113",
+    "2010 Knockout of the Year vs. Lyoto Machida at UFC 113",
+    "Sherdog 2005 Fighter of the Year  2005 Fight of the Year versus Antônio Rogério Nogueira on 26 June  2009 Comeback Fighter of the Year  Mixed Martial Arts Hall of Fame",
+    "2005 Fighter of the Year",
+    "2005 Fight of the Year versus Antônio Rogério Nogueira on 26 June",
+    "2009 Comeback Fighter of the Year",
+    "Mixed Martial Arts Hall of Fame",
+    "Wrestling Observer Newsletter awards 2011 Fight of the Year versus Dan Henderson on 19 November",
+    "2011 Fight of the Year versus Dan Henderson on 19 November",
+    "Inside MMA 2011 Fight of the Year Bazzie Award vs. Dan Henderson",
+    "2011 Fight of the Year Bazzie Award vs. Dan Henderson",
+    "MMA Fighting 2005 Light Heavyweight Fighter of the Year",
+    "2005 Light Heavyweight Fighter of the Year"
+  ],
+  "image_commons": "MauricioRua.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Maurício_Rua",
+    "wikidata": "https://www.wikidata.org/wiki/Q447881",
+    "ufc_com": "https://www.ufc.com/athlete/mauricio-rua"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_infobox",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "stats_ufc (absentes de la fiche ufc.com)"
+  ],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 25-14, wikipedia_infobox 27-14, ufc_com 27-14"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 65,
+    "puissance": 93,
+    "lutte": 65,
+    "soumission": 38,
+    "defense": 65,
+    "cardio": 34,
+    "menton": 42,
+    "globale": 57,
+    "style": "frappeur",
+    "estimees": [
+      "frappe",
+      "lutte",
+      "defense"
+    ],
+    "formule_version": 1
+  }
+}

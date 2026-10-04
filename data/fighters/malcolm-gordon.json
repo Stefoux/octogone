@@ -1,0 +1,143 @@
+{
+  "id": "malcolm-gordon",
+  "nom": "Malcolm Gordon",
+  "ufc_slug": "malcolm-gordon",
+  "wikipedia_titre": "Malcolm Gordon (fighter)",
+  "surnom": "X",
+  "sexe": "M",
+  "pays": "CA",
+  "categorie": "mouche",
+  "statut": "inactif",
+  "date_naissance": "1990-05-19",
+  "taille_cm": 170,
+  "allonge_cm": 180,
+  "style": "Jiu-Jitsu",
+  "lieu_naissance": "Calgary, Canada",
+  "palmares": {
+    "victoires": 14,
+    "defaites": 8,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 5,
+    "victoires_soumission": 6,
+    "victoires_decision": 3,
+    "defaites_ko": 5,
+    "defaites_soumission": 3,
+    "defaites_decision": 0
+  },
+  "stats_ufc": {
+    "frappes_par_min": 2.5,
+    "precision_frappe_pct": 45,
+    "frappes_encaissees_par_min": 2.0,
+    "defense_frappe_pct": 44.0,
+    "takedowns_par_15min": 1.72,
+    "precision_takedown_pct": 21,
+    "defense_takedown_pct": 27.0,
+    "soumissions_par_15min": 1.03,
+    "knockdowns_par_15min": 0.0,
+    "duree_moyenne_combat_s": 373,
+    "frappes_reussies": 109.0,
+    "takedowns_reussis": 3.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 14,
+      "defaites": 8,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 5,
+        "soumission": 6,
+        "decision": 3,
+        "autre": 0
+      },
+      "d": {
+        "ko": 5,
+        "soumission": 3,
+        "decision": 0,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2020": 2,
+      "2021": 1,
+      "2022": 2,
+      "2023": 1,
+      "2024": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Jimmy Flick",
+      "evenement": "UFC 297",
+      "date": "January 20, 2024",
+      "resultat": "Loss",
+      "methode": "Submission (arm-triangle choke)"
+    },
+    "combats_ufc": 7,
+    "victoires_ufc": 2,
+    "defaites_ufc": 5,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 4
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Amir Albazi",
+      "evenement": "UFC Fight Night: Figueiredo vs. Benavidez 2",
+      "date": "July 18, 2020",
+      "resultat": "Loss",
+      "methode": "Submission (triangle choke)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "TKO Major League MMA TKO Flyweight Championship (One time)  Two Successful Defenses",
+    "TKO Flyweight Championship (One time)  Two Successful Defenses",
+    "Two Successful Defenses",
+    "Warrior Xtreme Cagefighting WXC Flyweight Championship (One time)  One Successful Defense",
+    "WXC Flyweight Championship (One time)  One Successful Defense",
+    "One Successful Defense",
+    "Prodigy MMA PMMA Bantamweight Championship (One time)",
+    "PMMA Bantamweight Championship (One time)",
+    "Havoc Fighting Championship HFC Flyweight Championship (One time)",
+    "HFC Flyweight Championship (One time)"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Malcolm_Gordon_(fighter)",
+    "wikidata": "https://www.wikidata.org/wiki/Q104830422",
+    "ufc_com": "https://www.ufc.com/athlete/malcolm-gordon"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 53,
+    "puissance": 53,
+    "lutte": 47,
+    "soumission": 70,
+    "defense": 65,
+    "cardio": 46,
+    "menton": 39,
+    "globale": 53,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

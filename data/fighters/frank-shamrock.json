@@ -1,0 +1,198 @@
+{
+  "id": "frank-shamrock",
+  "nom": "Frank Shamrock",
+  "ufc_slug": "frank-shamrock",
+  "wikipedia_titre": "Frank Shamrock",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "moyens",
+  "statut": "inactif",
+  "date_naissance": "1972-12-08",
+  "taille_cm": 178,
+  "allonge_cm": null,
+  "style": null,
+  "lieu_naissance": "Santa Monica, United States",
+  "palmares": {
+    "victoires": 22,
+    "defaites": 10,
+    "nuls": 2,
+    "sans_decision": 0,
+    "victoires_ko": 4,
+    "victoires_soumission": 12,
+    "victoires_decision": 4,
+    "defaites_ko": 4,
+    "defaites_soumission": 2,
+    "defaites_decision": 2
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.75,
+    "precision_frappe_pct": 53,
+    "frappes_encaissees_par_min": 4.66,
+    "defense_frappe_pct": 58.0,
+    "takedowns_par_15min": 0.35,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 38.0,
+    "soumissions_par_15min": 1.06,
+    "knockdowns_par_15min": 0.71,
+    "duree_moyenne_combat_s": 423,
+    "frappes_reussies": 201.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 22,
+      "defaites": 10,
+      "nuls": 2,
+      "sans_decision": 0,
+      "v": {
+        "ko": 4,
+        "soumission": 12,
+        "decision": 4,
+        "autre": 2
+      },
+      "d": {
+        "ko": 4,
+        "soumission": 2,
+        "decision": 2,
+        "autre": 2
+      }
+    },
+    "combats_ufc_par_annee": {
+      "1997": 1,
+      "1998": 3,
+      "1999": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Nick Diaz",
+      "evenement": "Strikeforce: Shamrock vs. Diaz",
+      "date": "April 11, 2009",
+      "resultat": "Loss",
+      "methode": "TKO (punches)"
+    },
+    "combats_ufc": 5,
+    "victoires_ufc": 5,
+    "defaites_ufc": 0,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 2,
+    "bonus_fotn": 0,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 22",
+        "date": "September 24, 1999"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC Brazil",
+        "date": "October 16, 1998"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 17",
+        "date": "May 15, 1998"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 16",
+        "date": "March 13, 1998"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "rear-naked choke",
+      "finitions": 5
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Kevin Jackson",
+      "evenement": "UFC Japan",
+      "date": "December 21, 1997",
+      "resultat": "Win",
+      "methode": "Submission (armbar)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Pancrase Hybrid Wrestling Interim King of Pancrase (One time)",
+    "Interim King of Pancrase (One time)",
+    "UFC Light Heavyweight Championship (One time; first) Four successful title defenses",
+    "Four successful title defenses",
+    "UFC Encyclopedia Awards Fight of the Night (Two times) vs. John Lober and Tito Ortiz   Knockout of the Night (One time) vs. Igor Zinoviev  Submission of the Night (One time) vs. Kevin Jackson",
+    "Fight of the Night (Two times) vs. John Lober and Tito Ortiz",
+    "Knockout of the Night (One time) vs. Igor Zinoviev",
+    "Submission of the Night (One time) vs. Kevin Jackson",
+    "Headlined the first UFC event in Brazil",
+    "Fastest submission in the history of the UFC Light Heavyweight division (0:16)",
+    "Undefeated in the UFC (5–0)",
+    "Strikeforce First MMA fighter to win championships in UFC , WEC & Strikeforce Strikeforce Middleweight Championship (One time, first) Fastest knockout in Strikeforce history (0:20)",
+    "First MMA fighter to win championships in UFC , WEC & Strikeforce",
+    "Strikeforce Middleweight Championship (One time, first)",
+    "Fastest knockout in Strikeforce history (0:20)",
+    "World Extreme Cagefighting WEC Light Heavyweight Championship (One time, first)",
+    "WEC Light Heavyweight Championship (One time, first)",
+    "Sherdog Mixed Martial Arts Hall of Fame",
+    "Mixed Martial Arts Hall of Fame",
+    "International Sports Hall of Fame Class of 2022",
+    "Class of 2022",
+    "Black Belt Magazine 1998 Full-Contact Fighter of the Year",
+    "1998 Full-Contact Fighter of the Year",
+    "Wrestling Observer Newsletter 1998 Most Outstanding Fighter 1999 Most Outstanding Fighter 1999 Fight of the Year vs. Tito Ortiz on September 24, 1999 1990s Fighter of the Decade",
+    "1998 Most Outstanding Fighter",
+    "1999 Most Outstanding Fighter",
+    "1999 Fight of the Year vs. Tito Ortiz on September 24, 1999",
+    "1990s Fighter of the Decade",
+    "Inside MMA 2008 Fight of the Year Bazzie Award vs. Cung Le on March 29",
+    "2008 Fight of the Year Bazzie Award vs. Cung Le on March 29",
+    "Fight Matrix 1998 Fighter of the Year",
+    "1998 Fighter of the Year",
+    "Martial Arts History Museum Hall of Fame Class of 2015",
+    "Class of 2015"
+  ],
+  "image_commons": "Frank Shamrock.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Frank_Shamrock",
+    "wikidata": "https://www.wikidata.org/wiki/Q2554576",
+    "ufc_com": "https://www.ufc.com/athlete/frank-shamrock"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "allonge_cm",
+    "palmares (wikipedia_tableau 22-10, wikipedia_infobox 23-10, ufc_com 0-0)"
+  ],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 22-10, wikipedia_infobox 23-10, ufc_com 0-0"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 69,
+    "puissance": 54,
+    "lutte": 44,
+    "soumission": 74,
+    "defense": 62,
+    "cardio": 56,
+    "menton": 60,
+    "globale": 60,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

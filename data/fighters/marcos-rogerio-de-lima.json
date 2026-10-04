@@ -1,0 +1,141 @@
+{
+  "id": "marcos-rogerio-de-lima",
+  "nom": "Marcos Rogério de Lima",
+  "ufc_slug": "alexandr-romanov",
+  "wikipedia_titre": "Alexander Romanov (fighter)",
+  "surnom": "King Kong",
+  "sexe": "M",
+  "pays": "MD",
+  "categorie": "lourds",
+  "statut": "inactif",
+  "date_naissance": "1990-12-11",
+  "taille_cm": 188,
+  "allonge_cm": 190,
+  "style": "Wrestler",
+  "lieu_naissance": "Comrat City, Moldova",
+  "palmares": {
+    "victoires": 22,
+    "defaites": 4,
+    "nuls": 0,
+    "sans_decision": 1,
+    "victoires_ko": 6,
+    "victoires_soumission": 13,
+    "victoires_decision": 2,
+    "defaites_ko": 1,
+    "defaites_soumission": 1,
+    "defaites_decision": 2
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.78,
+    "precision_frappe_pct": 52,
+    "frappes_encaissees_par_min": 2.13,
+    "defense_frappe_pct": 54.0,
+    "takedowns_par_15min": 4.49,
+    "precision_takedown_pct": 28,
+    "defense_takedown_pct": 29.0,
+    "soumissions_par_15min": 0.86,
+    "knockdowns_par_15min": 0.0,
+    "duree_moyenne_combat_s": 521,
+    "frappes_reussies": 328.0,
+    "takedowns_reussis": 13.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 22,
+      "defaites": 4,
+      "nuls": 0,
+      "sans_decision": 1,
+      "v": {
+        "ko": 6,
+        "soumission": 13,
+        "decision": 2,
+        "autre": 1
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 1,
+        "decision": 2,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2020": 2,
+      "2021": 2,
+      "2022": 2,
+      "2023": 2,
+      "2024": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Rodrigo Nascimento",
+      "evenement": "PFL Chicago: Pettis vs. McKee",
+      "date": "April 11, 2026",
+      "resultat": "Win",
+      "methode": "Submission (guillotine choke)"
+    },
+    "combats_ufc": 10,
+    "victoires_ufc": 7,
+    "defaites_ufc": 3,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 5
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Roque Martinez",
+      "evenement": "UFC Fight Night: Waterson vs. Hill",
+      "date": "September 12, 2020",
+      "resultat": "Win",
+      "methode": "Submission (arm-triangle choke)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Ultimate Fighting Championship Performance of the Night (One time) vs. Marcos Rogério de Lima",
+    "Performance of the Night (One time) vs. Marcos Rogério de Lima",
+    "Eagles Fighting Championship Eagles FC Heavyweight Championship (One time)",
+    "Eagles FC Heavyweight Championship (One time)",
+    "Shogun Fights Shogun Fights Heavyweight Championship (One time)",
+    "Shogun Fights Heavyweight Championship (One time)"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Alexander_Romanov_(fighter)",
+    "wikidata": "https://www.wikidata.org/wiki/Q30231442",
+    "ufc_com": "https://www.ufc.com/athlete/alexandr-romanov"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 22-4, wikipedia_infobox 22-4, ufc_com 18-3"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 64,
+    "puissance": 47,
+    "lutte": 60,
+    "soumission": 76,
+    "defense": 73,
+    "cardio": 52,
+    "menton": 88,
+    "globale": 66,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

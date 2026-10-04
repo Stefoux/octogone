@@ -1,0 +1,196 @@
+{
+  "id": "holly-holm",
+  "nom": "Holly Holm",
+  "ufc_slug": "holly-holm",
+  "wikipedia_titre": "Holly Holm",
+  "surnom": "The Preacher's Daughter",
+  "sexe": "F",
+  "pays": "US",
+  "categorie": "coq_f",
+  "statut": "inactif",
+  "date_naissance": "1981-10-17",
+  "taille_cm": 173,
+  "allonge_cm": 175,
+  "style": "Kickboxer",
+  "lieu_naissance": "Albuquerque, United States",
+  "palmares": {
+    "victoires": 15,
+    "defaites": 7,
+    "nuls": 0,
+    "sans_decision": 1,
+    "victoires_ko": 8,
+    "victoires_soumission": 0,
+    "victoires_decision": 7,
+    "defaites_ko": 1,
+    "defaites_soumission": 2,
+    "defaites_decision": 4
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.13,
+    "precision_frappe_pct": 41,
+    "frappes_encaissees_par_min": 2.92,
+    "defense_frappe_pct": 55.0,
+    "takedowns_par_15min": 0.87,
+    "precision_takedown_pct": 12,
+    "defense_takedown_pct": 76.0,
+    "soumissions_par_15min": 0.06,
+    "knockdowns_par_15min": 0.12,
+    "duree_moyenne_combat_s": 965,
+    "frappes_reussies": 805.0,
+    "takedowns_reussis": 6.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 15,
+      "defaites": 7,
+      "nuls": 0,
+      "sans_decision": 1,
+      "v": {
+        "ko": 8,
+        "soumission": 0,
+        "decision": 7,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 2,
+        "decision": 4,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2015": 3,
+      "2016": 2,
+      "2017": 3,
+      "2018": 1,
+      "2019": 1,
+      "2020": 2,
+      "2022": 1,
+      "2023": 2,
+      "2024": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Kayla Harrison",
+      "evenement": "UFC 300",
+      "date": "April 13, 2024",
+      "resultat": "Loss",
+      "methode": "Submission (rear-naked choke)"
+    },
+    "combats_ufc": 16,
+    "victoires_ufc": 8,
+    "defaites_ufc": 7,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 2,
+    "bonus_fotn": 2,
+    "bonus_potn": 2,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Cris Cyborg",
+        "evenement": "UFC 219",
+        "date": "December 30, 2017"
+      },
+      {
+        "adversaire": "Ronda Rousey",
+        "evenement": "UFC 193",
+        "date": "November 15, 2015"
+      }
+    ],
+    "titres": [
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Women's Bantamweight Championship",
+        "evenement": "UFC 193",
+        "date": "November 15, 2015"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "head kick and punches",
+      "finitions": 2
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Raquel Pennington",
+      "evenement": "UFC 184",
+      "date": "February 28, 2015",
+      "resultat": "Win",
+      "methode": "Decision (split)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "Overall 16 title defenses won at three different weight classes",
+    "16 title defenses won at three different weight classes",
+    "WBF Female World Light Welterweight Championship (One time)",
+    "WBF Female World Welterweight Championship (One time)",
+    "2012 Female Fighter of the Year",
+    "2012 Female Fight of the Year vs. Anne Sophie Mathis on June 15",
+    "WBAN World Welterweight Championship (One time)",
+    "WBAN World Junior Welterweight Championship (One time)",
+    "WBAN World Junior Middleweight Championship (One time; First)",
+    "2012 Biggest Comeback of the Year",
+    "2011 Fight of the Year vs. Anne Sophie Mathis on December 2",
+    "2010 Fighter of the Year",
+    "2009 Most Accomplished of the Year",
+    "2008 Highest Achievements of the Year",
+    "2007 Fighter of the Year",
+    "2007 Most Improved Boxer of the Year",
+    "2006 Most Improved Boxer of the Year",
+    "2005 Hottest Rising Star of the Year",
+    "2005 Upset of the Year vs. Christy Martin on September 16",
+    "World Boxing Council WBC Female World Welterweight Championship (One time)  NABF Female Light Welterweight Championship (One time)",
+    "WBC Female World Welterweight Championship (One time)",
+    "NABF Female Light Welterweight Championship (One time)",
+    "Global Boxing Union Global Boxing Union (GBU) World Welterweight Championship (One time)",
+    "Global Boxing Union (GBU) World Welterweight Championship (One time)",
+    "Women's International Boxing Association WIBA World Light Welterweight Championship (One time)  WIBA World Welterweight Championship (One time)",
+    "WIBA World Light Welterweight Championship (One time)",
+    "WIBA World Welterweight Championship (One time)",
+    "International Female Boxers Association IFBA World Welterweight Championship (One time)  IFBA World Light Middleweight Championship (One time)  2006 Fighter of the Year",
+    "IFBA World Welterweight Championship (One time)",
+    "IFBA World Light Middleweight Championship (One time)",
+    "2006 Fighter of the Year",
+    "World Boxing Association WBA Female World Welterweight Championship (One time; First)",
+    "WBA Female World Welterweight Championship (One time; First)",
+    "International Boxing Association IBA Female World Welterweight Championship (Three times)   IBA Female World Light Welterweight Championship (Three times; First)",
+    "IBA Female World Welterweight Championship (Three times)",
+    "IBA Female World Light Welterweight Championship (Three times; First)",
+    "BadLeftHook.com 2012 Female Comeback Fighter of the Year",
+    "2012 Female Comeback Fighter of the Year",
+    "The Ring 2006 Female Fighter of the Year  2005 Female Fighter of the Year",
+    "2006 Female Fighter of the Year"
+  ],
+  "image_commons": "Holly Holm at UFC 246.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Holly_Holm",
+    "wikidata": "https://www.wikidata.org/wiki/Q2414305",
+    "ufc_com": "https://www.ufc.com/athlete/holly-holm"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 50,
+    "puissance": 62,
+    "lutte": 53,
+    "soumission": 36,
+    "defense": 70,
+    "cardio": 78,
+    "menton": 87,
+    "globale": 62,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

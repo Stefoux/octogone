@@ -1,0 +1,190 @@
+{
+  "id": "angela-hill",
+  "nom": "Angela Hill",
+  "ufc_slug": "angela-hill",
+  "wikipedia_titre": "Angela Hill",
+  "surnom": "Overkill",
+  "sexe": "F",
+  "pays": "US",
+  "categorie": "paille_f",
+  "statut": "actif",
+  "date_naissance": "1988-01-12",
+  "taille_cm": 160,
+  "allonge_cm": 164,
+  "style": "Muay Thaï",
+  "lieu_naissance": "Clinton, États-Unis",
+  "palmares": {
+    "victoires": 19,
+    "defaites": 16,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 5,
+    "victoires_soumission": 1,
+    "victoires_decision": 13,
+    "defaites_ko": 0,
+    "defaites_soumission": 2,
+    "defaites_decision": 14
+  },
+  "stats_ufc": {
+    "frappes_par_min": 5.46,
+    "precision_frappe_pct": 51,
+    "frappes_encaissees_par_min": 5.0,
+    "defense_frappe_pct": 60.0,
+    "takedowns_par_15min": 0.76,
+    "precision_takedown_pct": 4,
+    "defense_takedown_pct": 73.0,
+    "soumissions_par_15min": 0.17,
+    "knockdowns_par_15min": 0.1,
+    "duree_moyenne_combat_s": 866,
+    "frappes_reussies": 2364.0,
+    "takedowns_reussis": 3.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 19,
+      "defaites": 16,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 5,
+        "soumission": 1,
+        "decision": 13,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 2,
+        "decision": 14,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2014": 1,
+      "2015": 2,
+      "2017": 3,
+      "2018": 2,
+      "2019": 4,
+      "2020": 4,
+      "2021": 3,
+      "2022": 3,
+      "2023": 2,
+      "2024": 2,
+      "2025": 3,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Xiong Jingnan",
+      "evenement": "UFC Fight Night: Song vs. Figueiredo",
+      "date": "May 30, 2026",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 30,
+    "victoires_ufc": 14,
+    "defaites_ufc": 16,
+    "victoires_decision_5_rounds": 2,
+    "combats_5_rounds_gagnes": 2,
+    "bonus_fotn": 4,
+    "bonus_potn": 4,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Mackenzie Dern",
+        "evenement": "UFC Fight Night: Dern vs. Hill",
+        "date": "May 20, 2023"
+      },
+      {
+        "adversaire": "Amanda Lemos",
+        "evenement": "UFC Fight Night: Lewis vs. Daukaus",
+        "date": "December 18, 2021"
+      },
+      {
+        "adversaire": "Michelle Waterson",
+        "evenement": "UFC Fight Night: Waterson vs. Hill",
+        "date": "September 12, 2020"
+      },
+      {
+        "adversaire": "Jéssica Andrade",
+        "evenement": "UFC Fight Night: Bermudez vs. The Korean Zombie",
+        "date": "February 4, 2017"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 3
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Emily Kagan",
+      "evenement": "The Ultimate Fighter: A Champion Will Be Crowned Finale",
+      "date": "December 12, 2014",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Second most Fight of the Night bonuses in UFC Women's history (4) (behind Jéssica Andrade )",
+    "Performance of the Night (One time) vs. Luana Pinheiro  Tied ( Zhang Weili ) for fourth most Post-Fight bonuses in UFC Women's Strawweight division history (5)",
+    "Tied ( Zhang Weili ) for fourth most Post-Fight bonuses in UFC Women's Strawweight division history (5)",
+    "Most bouts in UFC Women's Strawweight division history (29)  Tied ( Jéssica Andrade ) for most bouts in UFC Women's history (30)",
+    "Tied ( Jéssica Andrade ) for most bouts in UFC Women's history (30)",
+    "Most wins in UFC Women's Strawweight division history (13)",
+    "Most losses in UFC Women's history (16)",
+    "Most total fight time in UFC Women's Strawweight division history (6:57:45)  Most total fight time in UFC Women's history (7:12:45)  Sixth longest fight time in UFC history (7:12:45)",
+    "Most total fight time in UFC Women's history (7:12:45)",
+    "Sixth longest fight time in UFC history (7:12:45)",
+    "Most significant strikes landed in UFC Women's history (2364)",
+    "Third most significant strikes landed in UFC history (2364)",
+    "Most total strikes landed in UFC Women's Strawweight division history (2675)  Fourth most total strikes landed in UFC history (2763)",
+    "Fourth most total strikes landed in UFC history (2763)",
+    "Most unanimous decision wins in UFC Women's Strawweight division history (9) Most decision wins in UFC Women's Strawweight division history (10)",
+    "Most decision wins in UFC Women's Strawweight division history (10)",
+    "Most decision bouts in UFC Women's Strawweight division history (24) Most decision bouts in UFC history (25)",
+    "Most decision bouts in UFC history (25)",
+    "Fourth most control time in UFC Women's Strawweight division history (1:01:33)",
+    "Tied ( Jorge Masvidal , Clay Guida , Paul Felder , Cortney Casey & Andrea Lee ) for most split decision losses in UFC history (4)",
+    "UFC.com Awards 2017: Ranked #8 Fight of the Year vs. Jéssica Andrade",
+    "2017: Ranked #8 Fight of the Year vs. Jéssica Andrade",
+    "Won the Invicta FC Strawweight Championship (One time) One successful title defense",
+    "One successful title defense",
+    "Performance of the Night (Three times) vs. Alida Gray , Stephanie Eggink and Lívia Renata Souza",
+    "MMA Junkie 2020 September Fight of the Month vs. Michelle Waterson",
+    "2020 September Fight of the Month vs. Michelle Waterson",
+    "MMA Fighting 2022 Third Team MMA All-Star",
+    "2022 Third Team MMA All-Star"
+  ],
+  "image_commons": "Angela Hill victorious at Friday Night Fights.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Angela_Hill",
+    "wikidata": "https://www.wikidata.org/wiki/Q20979276",
+    "ufc_com": "https://www.ufc.com/athlete/angela-hill"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 72,
+    "puissance": 45,
+    "lutte": 50,
+    "soumission": 39,
+    "defense": 61,
+    "cardio": 86,
+    "menton": 99,
+    "globale": 65,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

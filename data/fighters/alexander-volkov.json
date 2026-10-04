@@ -1,0 +1,164 @@
+{
+  "id": "alexander-volkov",
+  "nom": "Alexander Volkov",
+  "ufc_slug": "alexander-volkov",
+  "wikipedia_titre": "Alexander Volkov (fighter)",
+  "surnom": "Drago",
+  "sexe": "M",
+  "pays": "RU",
+  "categorie": "lourds",
+  "statut": "actif",
+  "date_naissance": "1988-10-24",
+  "taille_cm": 201,
+  "allonge_cm": 203,
+  "style": "Jiu-jitsu brésilien",
+  "lieu_naissance": "Moscow, Russie",
+  "palmares": {
+    "victoires": 40,
+    "defaites": 11,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 24,
+    "victoires_soumission": 4,
+    "victoires_decision": 12,
+    "defaites_ko": 2,
+    "defaites_soumission": 3,
+    "defaites_decision": 6
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.84,
+    "precision_frappe_pct": 58,
+    "frappes_encaissees_par_min": 2.9,
+    "defense_frappe_pct": 54.0,
+    "takedowns_par_15min": 0.54,
+    "precision_takedown_pct": 31,
+    "defense_takedown_pct": 69.0,
+    "soumissions_par_15min": 0.22,
+    "knockdowns_par_15min": 0.22,
+    "duree_moyenne_combat_s": 789,
+    "frappes_reussies": 1336.0,
+    "takedowns_reussis": 5.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 40,
+      "defaites": 11,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 24,
+        "soumission": 4,
+        "decision": 12,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 3,
+        "decision": 6,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2016": 1,
+      "2017": 2,
+      "2018": 2,
+      "2019": 1,
+      "2020": 2,
+      "2021": 3,
+      "2022": 2,
+      "2023": 2,
+      "2024": 2,
+      "2025": 1,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Waldo Cortes-Acosta",
+      "evenement": "UFC 328",
+      "date": "May 9, 2026",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 19,
+    "victoires_ufc": 14,
+    "defaites_ufc": 5,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 2,
+    "bonus_fotn": 1,
+    "bonus_potn": 2,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Stefan Struve",
+        "evenement": "UFC Fight Night: Volkov vs. Struve",
+        "date": "September 2, 2017"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 22
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Timothy Johnson",
+      "evenement": "UFC Fight Night: Mousasi vs. Hall 2",
+      "date": "November 19, 2016",
+      "resultat": "Win",
+      "methode": "Decision (split)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Bellator Fighting Championships Bellator Heavyweight World Championship (One time) Bellator Season Ten Heavyweight Tournament Championship Bellator Season Seven Heavyweight Tournament Championship",
+    "Bellator Heavyweight World Championship (One time)",
+    "Bellator Season Ten Heavyweight Tournament Championship",
+    "Bellator Season Seven Heavyweight Tournament Championship",
+    "M-1 Global M-1 Global Heavyweight Championship (One time) One successful title defence M-1 Eastern European Tournament Runner-Up",
+    "M-1 Global Heavyweight Championship (One time) One successful title defence",
+    "One successful title defence",
+    "M-1 Eastern European Tournament Runner-Up",
+    "Fight of the Night (One time) vs. Stefan Struve",
+    "Performance of the Night (Two times) vs. Fabrício Werdum and Alistair Overeem",
+    "Second most significant strikes landed in UFC Heavyweight division history (1250) (behind Andrei Arlovski )  Third most total strikes landed in UFC Heavyweight division history (1672)",
+    "Third most total strikes landed in UFC Heavyweight division history (1672)",
+    "Tied ( Stipe Miocic & Marcin Tybura ) for sixth most wins in UFC Heavyweight division history (14)",
+    "Third most decision wins in UFC Heavyweight division history (7)",
+    "Fifth most total fight time in UFC Heavyweight division history (4:06:08)",
+    "UFC Honors Awards 2023: Fan's Choice Submission of the Year Nominee vs. Tai Tuivasa",
+    "2023: Fan's Choice Submission of the Year Nominee vs. Tai Tuivasa",
+    "MMA Fighting 2023 Third Team MMA All-Star",
+    "2023 Third Team MMA All-Star"
+  ],
+  "image_commons": "Alexander Volkov in M-1.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Alexander_Volkov_(fighter)",
+    "wikidata": "https://www.wikidata.org/wiki/Q4123254",
+    "ufc_com": "https://www.ufc.com/athlete/alexander-volkov"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 76,
+    "puissance": 68,
+    "lutte": 52,
+    "soumission": 43,
+    "defense": 69,
+    "cardio": 72,
+    "menton": 82,
+    "globale": 66,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

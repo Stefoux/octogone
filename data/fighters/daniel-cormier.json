@@ -1,0 +1,223 @@
+{
+  "id": "daniel-cormier",
+  "nom": "Daniel Cormier",
+  "ufc_slug": "daniel-cormier",
+  "wikipedia_titre": "Daniel Cormier",
+  "surnom": "DC",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "lourds",
+  "statut": "retraite",
+  "date_naissance": "1979-03-20",
+  "taille_cm": 180,
+  "allonge_cm": 184,
+  "style": "Wrestling",
+  "lieu_naissance": "Lafayette, United States",
+  "palmares": {
+    "victoires": 22,
+    "defaites": 3,
+    "nuls": 0,
+    "sans_decision": 1,
+    "victoires_ko": 10,
+    "victoires_soumission": 5,
+    "victoires_decision": 7,
+    "defaites_ko": 1,
+    "defaites_soumission": 0,
+    "defaites_decision": 2
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.25,
+    "precision_frappe_pct": 53,
+    "frappes_encaissees_par_min": 2.92,
+    "defense_frappe_pct": 55.0,
+    "takedowns_par_15min": 1.83,
+    "precision_takedown_pct": 22,
+    "defense_takedown_pct": 80.0,
+    "soumissions_par_15min": 0.42,
+    "knockdowns_par_15min": 0.26,
+    "duree_moyenne_combat_s": 747,
+    "frappes_reussies": 1216.0,
+    "takedowns_reussis": 17.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 22,
+      "defaites": 3,
+      "nuls": 0,
+      "sans_decision": 1,
+      "v": {
+        "ko": 10,
+        "soumission": 5,
+        "decision": 7,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 0,
+        "decision": 2,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2013": 2,
+      "2014": 2,
+      "2015": 3,
+      "2016": 1,
+      "2017": 2,
+      "2018": 3,
+      "2019": 1,
+      "2020": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Stipe Miocic",
+      "evenement": "UFC 252",
+      "date": "August 15, 2020",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 15,
+    "victoires_ufc": 11,
+    "defaites_ufc": 3,
+    "victoires_decision_5_rounds": 2,
+    "combats_5_rounds_gagnes": 2,
+    "bonus_fotn": 2,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Alexander Gustafsson",
+        "evenement": "UFC 192",
+        "date": "October 3, 2015"
+      },
+      {
+        "adversaire": "Jon Jones",
+        "evenement": "UFC 182",
+        "date": "January 3, 2015"
+      }
+    ],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Heavyweight Championship",
+        "evenement": "UFC 230",
+        "date": "November 3, 2018"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Heavyweight Championship",
+        "evenement": "UFC 226",
+        "date": "July 7, 2018"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 220",
+        "date": "January 20, 2018"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 210",
+        "date": "April 8, 2017"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 192",
+        "date": "October 3, 2015"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 8
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Frank Mir",
+      "evenement": "UFC on Fox: Henderson vs. Melendez",
+      "date": "April 20, 2013",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "UFC Hall of Fame ( Modern Wing , Class of 2022)",
+    "One successful title defense",
+    "Tied ( Jon Jones , Francis Ngannou , Tom Aspinall , Frank Mir , Junior dos Santos , and Fabrício Werdum ) for seventh most title fight wins in UFC Heavyweight division history (2)",
+    "Three successful title defenses",
+    "Fourth most title fight wins in UFC Light Heavyweight division history (4)",
+    "Most significant strikes landed in a UFC Light Heavyweight title fight (140)",
+    "Fight of the Night (Two times) vs. Jon Jones and Alexander Gustafsson",
+    "Performance of the Night (Three times) vs. Anthony Johnson 1, Volkan Oezdemir and Stipe Miocic 1",
+    "Most significant strikes landed in a UFC Heavyweight fight (181)",
+    "Most strikes landed per minute in UFC Heavyweight division history (5.39)",
+    "Fourth highest significant strike accuracy in UFC Heavyweight division history (61.6%)",
+    "Third lowest bottom percentage in UFC Heavyweight division history (0.41%)",
+    "Tied ( Mick Parkin ) for sixth lowest bottom position time in UFC Heavyweight division history (0:21)",
+    "Fifth longest average fight time in UFC Heavyweight division history (14:19)",
+    "Tied ( Anthony Perosh , Wilson Gouveia , Phil Davis , and Ryan Spann ) for tenth most submissions wins in UFC Light Heavyweight division history (3)",
+    "Ninth lowest bottom position percentage in UFC Light Heavyweight division history (1.32%)",
+    "Fifth longest average fight time in UFC Light Heavyweight division history (13:30)",
+    "First fighter successfully to defend titles in two weight classes",
+    "Fifth multi-divisional champion in UFC history",
+    "Second simultaneous multi-divisional champion",
+    "2013: Ranked #2 Import of the Year",
+    "2014: Ranked #9 Submission of the Year vs. Dan Henderson",
+    "2015: Ranked #5 Fighter of the Year  & Ranked #2 Fight of the Year vs. Alexander Gustafsson",
+    "2018: Fighter of the Year  & Ranked #8 Knockout of the Year vs. Stipe Miocic 1",
+    "Strikeforce Strikeforce Heavyweight Grand Prix Champion",
+    "Strikeforce Heavyweight Grand Prix Champion",
+    "King of the Cage KOTC Heavyweight Championship (One time)",
+    "KOTC Heavyweight Championship (One time)",
+    "Xtreme MMA XMMA Heavyweight Championship (One time)  One successful title defense",
+    "XMMA Heavyweight Championship (One time)  One successful title defense",
+    "One successful title defense",
+    "BJPenn.com 2010s #4 Ranked Fighter of the Decade",
+    "2010s #4 Ranked Fighter of the Decade",
+    "ESPN Upset of the Month (2011) vs. Antônio Silva on September 10 Fighter of the Year (2018)",
+    "Upset of the Month (2011) vs. Antônio Silva on September 10",
+    "Fighter of the Year (2018)",
+    "Cageside Press 2018 Fighter of the Year",
+    "2018 Fighter of the Year",
+    "Combat Press 2018 Male Fighter of the Year",
+    "2018 Male Fighter of the Year"
+  ],
+  "image_commons": "Daniel Cormier taking a picture with a fan..jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Daniel_Cormier",
+    "wikidata": "https://www.wikidata.org/wiki/Q644831",
+    "ufc_com": "https://www.ufc.com/athlete/daniel-cormier"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 67,
+    "puissance": 60,
+    "lutte": 60,
+    "soumission": 53,
+    "defense": 70,
+    "cardio": 78,
+    "menton": 88,
+    "globale": 68,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

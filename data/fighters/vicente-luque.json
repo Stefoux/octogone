@@ -1,0 +1,185 @@
+{
+  "id": "vicente-luque",
+  "nom": "Vicente Luque",
+  "ufc_slug": "vicente-luque",
+  "wikipedia_titre": "Vicente Luque",
+  "surnom": "The Silent Assassin",
+  "sexe": "M",
+  "pays": "BR",
+  "categorie": "moyens",
+  "statut": "actif",
+  "date_naissance": "1991-11-27",
+  "taille_cm": 180,
+  "allonge_cm": 192,
+  "style": "Muay Thai",
+  "lieu_naissance": "Westwood, United States",
+  "palmares": {
+    "victoires": 24,
+    "defaites": 13,
+    "nuls": 1,
+    "sans_decision": 0,
+    "victoires_ko": 11,
+    "victoires_soumission": 10,
+    "victoires_decision": 3,
+    "defaites_ko": 2,
+    "defaites_soumission": 3,
+    "defaites_decision": 8
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.69,
+    "precision_frappe_pct": 50,
+    "frappes_encaissees_par_min": 5.19,
+    "defense_frappe_pct": 52.0,
+    "takedowns_par_15min": 0.83,
+    "precision_takedown_pct": 20,
+    "defense_takedown_pct": 61.0,
+    "soumissions_par_15min": 0.72,
+    "knockdowns_par_15min": 0.66,
+    "duree_moyenne_combat_s": 581,
+    "frappes_reussies": 1181.0,
+    "takedowns_reussis": 6.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 24,
+      "defaites": 13,
+      "nuls": 1,
+      "sans_decision": 0,
+      "v": {
+        "ko": 11,
+        "soumission": 10,
+        "decision": 3,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 3,
+        "decision": 8,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2015": 2,
+      "2016": 3,
+      "2017": 2,
+      "2018": 2,
+      "2019": 4,
+      "2020": 2,
+      "2021": 2,
+      "2022": 2,
+      "2023": 1,
+      "2024": 2,
+      "2025": 2,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Tresean Gore",
+      "evenement": "UFC 330",
+      "date": "August 15, 2026",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 26,
+    "victoires_ufc": 17,
+    "defaites_ufc": 9,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 4,
+    "bonus_potn": 5,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Tyron Woodley",
+        "evenement": "UFC 260",
+        "date": "March 27, 2021"
+      },
+      {
+        "adversaire": "Stephen Thompson",
+        "evenement": "UFC 244",
+        "date": "November 2, 2019"
+      },
+      {
+        "adversaire": "Mike Perry",
+        "evenement": "UFC Fight Night: Shevchenko vs. Carmouche 2",
+        "date": "August 10, 2019"
+      },
+      {
+        "adversaire": "Bryan Barberena",
+        "evenement": "UFC on ESPN: Ngannou vs. Velasquez",
+        "date": "February 17, 2019"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 9
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Michael Graves",
+      "evenement": "The Ultimate Fighter: American Top Team vs. Blackzilians Finale",
+      "date": "July 12, 2015",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Performance of the Night (Five times) vs. Hayder Hassan , Héctor Urbina , Randy Brown , Michael Chiesa and Themba Gorimbo",
+    "Tied ( Matt Brown ) for second most Post-Fight bonuses in UFC Welterweight division history (9)  (behind Chris Lytle )",
+    "Tied ( Thiago Alves , Li Jingliang & Neil Magny ) for second most knockouts in UFC Welterweight division history (8) (behind Matt Brown )",
+    "Most brabo/D'arce choke submission wins in UFC history (4)",
+    "Tied ( Makwan Amirkhani & Charles Oliveira ) for most anaconda choke submission wins in UFC history (3)",
+    "Second most finishes in UFC Welterweight division history (14)  (behind Matt Brown ) Fourth most first-round finishes in UFC history (10)",
+    "Fourth most first-round finishes in UFC history (10)",
+    "Tied ( Josh Koscheck ) for fifth most bouts in UFC Welterweight division history (24)  Tied ( Matt Brown , Dustin Poirier & Max Holloway ) for fifth most finishes in UFC history (15)",
+    "Tied ( Matt Brown , Dustin Poirier & Max Holloway ) for fifth most finishes in UFC history (15)",
+    "Tied ( Demian Maia & Chris Lytle ) for second most submissions in UFC Welterweight division history (6)",
+    "Tied ( Uroš Medić & Anthony Johnson ) for most first-round knockouts in UFC Welterweight division history (5)",
+    "Tied ( Kamaru Usman ) for fourth most wins in UFC Welterweight division history (16)",
+    "Fastest anaconda choke submission in UFC history (0:52)  (vs. Themba Gorimbo )",
+    "UFC Honors Awards 2021: Fan's Choice Submission of the Year Nominee vs. Tyron Woodley",
+    "2021: Fan's Choice Submission of the Year Nominee vs. Tyron Woodley",
+    "2019: Ranked #5 Fight of the Year vs. Bryan Barberena",
+    "2020: Ranked #10 Fight of the Year vs. Niko Price 2",
+    "2021: Ranked #3 Submission of the Year vs. Tyron Woodley  & Ranked #6 Submission of the Year vs. Michael Chiesa",
+    "2019 February Fight of the Month vs. Bryan Barberena",
+    "2020 May Fight of the Month vs. Niko Price",
+    "2021 March Fight of the Month vs. Tyron Woodley",
+    "2021 August Submission of the Month vs. Michael Chiesa",
+    "CBS Sports 2019 #3 Ranked UFC Fight of the Year vs. Bryan Barberena",
+    "2019 #3 Ranked UFC Fight of the Year vs. Bryan Barberena"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Vicente_Luque",
+    "wikidata": "https://www.wikidata.org/wiki/Q24053947",
+    "ufc_com": "https://www.ufc.com/athlete/vicente-luque"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 67,
+    "puissance": 66,
+    "lutte": 46,
+    "soumission": 66,
+    "defense": 52,
+    "cardio": 61,
+    "menton": 80,
+    "globale": 63,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "id": "josh-emmett",
+  "nom": "Josh Emmett",
+  "ufc_slug": "josh-emmett",
+  "wikipedia_titre": "Josh Emmett",
+  "surnom": "CC0 (C-C-OH)",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "plume",
+  "statut": "actif",
+  "date_naissance": "1985-03-04",
+  "taille_cm": 169,
+  "allonge_cm": 178,
+  "style": "Style libre",
+  "lieu_naissance": "Phoenix, États-Unis",
+  "palmares": {
+    "victoires": 19,
+    "defaites": 7,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 7,
+    "victoires_soumission": 2,
+    "victoires_decision": 9,
+    "defaites_ko": 2,
+    "defaites_soumission": 2,
+    "defaites_decision": 3
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.67,
+    "precision_frappe_pct": 36,
+    "frappes_encaissees_par_min": 4.52,
+    "defense_frappe_pct": 60.0,
+    "takedowns_par_15min": 1.07,
+    "precision_takedown_pct": 22,
+    "defense_takedown_pct": 44.0,
+    "soumissions_par_15min": 0.07,
+    "knockdowns_par_15min": 0.85,
+    "duree_moyenne_combat_s": 746,
+    "frappes_reussies": 775.0,
+    "takedowns_reussis": 9.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 19,
+      "defaites": 7,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 7,
+        "soumission": 2,
+        "decision": 9,
+        "autre": 1
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 2,
+        "decision": 3,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2016": 2,
+      "2017": 3,
+      "2018": 1,
+      "2019": 2,
+      "2020": 1,
+      "2021": 1,
+      "2022": 1,
+      "2023": 3,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Kevin Vallejos",
+      "evenement": "UFC Fight Night: Emmett vs. Vallejos",
+      "date": "March 14, 2026",
+      "resultat": "Loss",
+      "methode": "TKO (knees and punches)"
+    },
+    "combats_ufc": 17,
+    "victoires_ufc": 10,
+    "defaites_ufc": 7,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 2,
+    "bonus_fotn": 3,
+    "bonus_potn": 2,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Ilia Topuria",
+        "evenement": "UFC on ABC: Emmett vs. Topuria",
+        "date": "June 24, 2023"
+      },
+      {
+        "adversaire": "Calvin Kattar",
+        "evenement": "UFC on ESPN: Kattar vs. Emmett",
+        "date": "June 18, 2022"
+      },
+      {
+        "adversaire": "Shane Burgos",
+        "evenement": "UFC on ESPN: Blaydes vs. Volkov",
+        "date": "June 20, 2020"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 7
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Jon Tuck",
+      "evenement": "UFC Fight Night: Overeem vs. Arlovski",
+      "date": "May 8, 2016",
+      "resultat": "Win",
+      "methode": "Decision (split)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Performance of the Night (Two times) vs. Mirsad Bektić and Bryce Mitchell",
+    "Fight of the Night (Three times) vs. Shane Burgos , Calvin Kattar & Ilia Topuria",
+    "Tied ( Chuck Liddell , Quinton Jackson , Cody Garbrandt , Montel Jackson & Ilia Topuria ) for most consecutive fights with a knockdown landed in UFC history (7)",
+    "UFC Honors Awards 2020: President's Choice Fight of the Year Nominee vs. Shane Burgos",
+    "2020: President's Choice Fight of the Year Nominee vs. Shane Burgos",
+    "2016: Ranked #8 Newcomer of the Year",
+    "2017: Ranked #2 Upset of the Year vs. Ricardo Lamas",
+    "2019: Ranked #10 Knockout of the Year vs. Michael Johnson",
+    "2020: Ranked #4 Fight of the Year vs. Shane Burgos",
+    "2023: Knockout of the Year vs. Bryce Mitchell",
+    "West Coast Fighting Championship WCFC Lightweight Champion (One time)  ISCF Pro California Lightweight Champion (One time)",
+    "WCFC Lightweight Champion (One time)",
+    "ISCF Pro California Lightweight Champion (One time)",
+    "Sportsnaut 2023 UFC Knockout of the Year vs. Bryce Mitchell at UFC 296",
+    "2023 UFC Knockout of the Year vs. Bryce Mitchell at UFC 296"
+  ],
+  "image_commons": "In Their Corner UFC Visits Walter Reed Warriors (7) (cropped).jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Josh_Emmett",
+    "wikidata": "https://www.wikidata.org/wiki/Q30070477",
+    "ufc_com": "https://www.ufc.com/athlete/josh-emmett"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 48,
+    "puissance": 63,
+    "lutte": 42,
+    "soumission": 41,
+    "defense": 64,
+    "cardio": 70,
+    "menton": 77,
+    "globale": 58,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

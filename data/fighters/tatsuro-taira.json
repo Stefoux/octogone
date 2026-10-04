@@ -1,0 +1,162 @@
+{
+  "id": "tatsuro-taira",
+  "nom": "Tatsuro Taira",
+  "ufc_slug": "tatsuro-taira",
+  "wikipedia_titre": "Tatsuro Taira",
+  "surnom": "The Best",
+  "sexe": "M",
+  "pays": "JP",
+  "categorie": "mouche",
+  "statut": "actif",
+  "date_naissance": "2000-01-27",
+  "taille_cm": 170,
+  "allonge_cm": 178,
+  "style": null,
+  "lieu_naissance": "Japon",
+  "palmares": {
+    "victoires": 18,
+    "defaites": 2,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 6,
+    "victoires_soumission": 8,
+    "victoires_decision": 4,
+    "defaites_ko": 1,
+    "defaites_soumission": 0,
+    "defaites_decision": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": 2.87,
+    "precision_frappe_pct": 54,
+    "frappes_encaissees_par_min": 3.1,
+    "defense_frappe_pct": 44.0,
+    "takedowns_par_15min": 3.57,
+    "precision_takedown_pct": 2,
+    "defense_takedown_pct": 46.0,
+    "soumissions_par_15min": 1.28,
+    "knockdowns_par_15min": 0.38,
+    "duree_moyenne_combat_s": 706,
+    "frappes_reussies": 337.0,
+    "takedowns_reussis": 1.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 18,
+      "defaites": 2,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 6,
+        "soumission": 8,
+        "decision": 4,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 0,
+        "decision": 1,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2022": 2,
+      "2023": 3,
+      "2024": 2,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Joshua Van",
+      "evenement": "UFC 328",
+      "date": "May 9, 2026",
+      "resultat": "Loss",
+      "methode": "TKO (front kick to the body and punches)"
+    },
+    "combats_ufc": 10,
+    "victoires_ufc": 8,
+    "defaites_ufc": 2,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 2,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Joshua Van",
+        "evenement": "UFC 328",
+        "date": "May 9, 2026"
+      },
+      {
+        "adversaire": "Brandon Royval",
+        "evenement": "UFC Fight Night: Royval vs. Taira",
+        "date": "October 12, 2024"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 5
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Carlos Candelario",
+      "evenement": "UFC on ESPN: Błachowicz vs. Rakić",
+      "date": "May 14, 2022",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Fight of the Night (Two times) vs. Brandon Royval and Joshua Van",
+    "Performance of the Night (Three times) vs. C.J. Vergara , Jesús Santos Aguilar and Alex Perez    Sixth most Post-Fight bonuses in UFC Flyweight division history (5)",
+    "Sixth most Post-Fight bonuses in UFC Flyweight division history (5)",
+    "First fighter born in the 2000s to win a UFC main event",
+    "Second most control time percentage in UFC Flyweight division history (52.1%)",
+    "Second most top-position percentage in UFC Flyweight division history (45.7%)  Fifth most top-position time in UFC Flyweight division history (46:51)",
+    "Fifth most top-position time in UFC Flyweight division history (46:51)",
+    "Tied ( Joseph Benavidez , Brandon Moreno & Manel Kape ) for fourth most finishes in UFC Flyweight division history (6)",
+    "Tied ( Deiveson Figueiredo & Kyoji Horiguchi ) for the sixth longest win streak in UFC Flyweight division history (5)",
+    "UFC.com Awards 2022: Ranked #4 Newcomer of the Year  2024: Ranked #7 Fight of the Year vs. Brandon Royval  2026: Half-Year Awards: Best Fight of the 1HY vs. Joshua Van",
+    "2022: Ranked #4 Newcomer of the Year",
+    "2024: Ranked #7 Fight of the Year vs. Brandon Royval",
+    "2026: Half-Year Awards: Best Fight of the 1HY vs. Joshua Van",
+    "Shooto Shooto Flyweight Championship (One time)",
+    "Shooto Flyweight Championship (One time)",
+    "MMA Fighting 2023 Second Team MMA All-Star  2025 Third Team MMA All-Star",
+    "2023 Second Team MMA All-Star",
+    "2025 Third Team MMA All-Star"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Tatsuro_Taira",
+    "wikidata": "https://www.wikidata.org/wiki/Q108109936",
+    "ufc_com": "https://www.ufc.com/athlete/tatsuro-taira"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 61,
+    "puissance": 55,
+    "lutte": 55,
+    "soumission": 75,
+    "defense": 59,
+    "cardio": 60,
+    "menton": 86,
+    "globale": 64,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

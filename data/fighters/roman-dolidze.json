@@ -1,0 +1,146 @@
+{
+  "id": "roman-dolidze",
+  "nom": "Roman Dolidze",
+  "ufc_slug": "roman-dolidze",
+  "wikipedia_titre": "Roman Dolidze",
+  "surnom": "The Caucasian",
+  "sexe": "M",
+  "pays": "GE",
+  "categorie": "mi_lourds",
+  "statut": "actif",
+  "date_naissance": "1988-07-15",
+  "taille_cm": 188,
+  "allonge_cm": 193,
+  "style": "AMM",
+  "lieu_naissance": "Batumi, Géorgie",
+  "palmares": {
+    "victoires": 15,
+    "defaites": 6,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 8,
+    "victoires_soumission": 3,
+    "victoires_decision": 4,
+    "defaites_ko": 1,
+    "defaites_soumission": 1,
+    "defaites_decision": 4
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.12,
+    "precision_frappe_pct": 42,
+    "frappes_encaissees_par_min": 4.02,
+    "defense_frappe_pct": 46.0,
+    "takedowns_par_15min": 1.13,
+    "precision_takedown_pct": 28,
+    "defense_takedown_pct": 32.0,
+    "soumissions_par_15min": 0.73,
+    "knockdowns_par_15min": 0.32,
+    "duree_moyenne_combat_s": 742,
+    "frappes_reussies": 579.0,
+    "takedowns_reussis": 9.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 15,
+      "defaites": 6,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 8,
+        "soumission": 3,
+        "decision": 4,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 1,
+        "decision": 4,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2020": 2,
+      "2021": 2,
+      "2022": 3,
+      "2023": 1,
+      "2024": 3,
+      "2025": 2,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Reinier de Ridder",
+      "evenement": "UFC Fight Night: Hernandez vs. Rodrigues",
+      "date": "August 22, 2026",
+      "resultat": "Loss",
+      "methode": "TKO (punches)"
+    },
+    "combats_ufc": 15,
+    "victoires_ufc": 9,
+    "defaites_ufc": 6,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 0,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 6
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Khadis Ibragimov",
+      "evenement": "UFC Fight Night: Figueiredo vs. Benavidez 2",
+      "date": "19 July 2020",
+      "resultat": "Win",
+      "methode": "TKO (knee and punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Performance of the Night (Three times) vs. Kyle Daukaus , Phil Hawes and Jack Hermansson",
+    "UFC.com Awards 2022: Ranked #10 Fighter of the Year  & Ranked #9 Upset of the Year vs. Jack Hermansson",
+    "2022: Ranked #10 Fighter of the Year  & Ranked #9 Upset of the Year vs. Jack Hermansson",
+    "World Warriors Fight Championship WWFC Light Heavyweight Championship  One successful title defense",
+    "WWFC Light Heavyweight Championship  One successful title defense",
+    "One successful title defense",
+    "MMA Fighting 2022 Second Team MMA All-Star",
+    "2022 Second Team MMA All-Star",
+    "ADCC Asia & Oceania Champion 2016 ADCC Asia trials (99 kg)",
+    "2016 ADCC Asia trials (99 kg)",
+    "Grappling World Champion FILA"
+  ],
+  "image_commons": "Dolidze 2019.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Roman_Dolidze",
+    "wikidata": "https://www.wikidata.org/wiki/Q64861182",
+    "ufc_com": "https://www.ufc.com/athlete/roman-dolidze"
+  },
+  "champs_sources": {
+    "surnom": "wikipedia",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 51,
+    "puissance": 65,
+    "lutte": 44,
+    "soumission": 56,
+    "defense": 54,
+    "cardio": 70,
+    "menton": 87,
+    "globale": 61,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

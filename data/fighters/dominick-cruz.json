@@ -1,0 +1,228 @@
+{
+  "id": "dominick-cruz",
+  "nom": "Dominick Cruz",
+  "ufc_slug": "dominick-cruz",
+  "wikipedia_titre": "Dominick Cruz",
+  "surnom": "The Dominator",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "coq",
+  "statut": "retraite",
+  "date_naissance": "1985-03-09",
+  "taille_cm": 173,
+  "allonge_cm": 173,
+  "style": "Lutte",
+  "lieu_naissance": "États-Unis",
+  "palmares": {
+    "victoires": 24,
+    "defaites": 4,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 7,
+    "victoires_soumission": 1,
+    "victoires_decision": 15,
+    "defaites_ko": 2,
+    "defaites_soumission": 1,
+    "defaites_decision": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": null,
+    "precision_frappe_pct": null,
+    "frappes_encaissees_par_min": null,
+    "defense_frappe_pct": null,
+    "takedowns_par_15min": null,
+    "precision_takedown_pct": null,
+    "defense_takedown_pct": null,
+    "soumissions_par_15min": null,
+    "knockdowns_par_15min": null,
+    "duree_moyenne_combat_s": null,
+    "frappes_reussies": null,
+    "takedowns_reussis": null
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 24,
+      "defaites": 4,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 7,
+        "soumission": 1,
+        "decision": 15,
+        "autre": 1
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 1,
+        "decision": 1,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2011": 2,
+      "2014": 1,
+      "2016": 3,
+      "2020": 1,
+      "2021": 2,
+      "2022": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Marlon Vera",
+      "evenement": "UFC on ESPN: Vera vs. Cruz",
+      "date": "August 13, 2022",
+      "resultat": "Loss",
+      "methode": "KO (head kick)"
+    },
+    "combats_ufc": 10,
+    "victoires_ufc": 7,
+    "defaites_ufc": 3,
+    "victoires_decision_5_rounds": 6,
+    "combats_5_rounds_gagnes": 6,
+    "bonus_fotn": 5,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Pedro Munhoz",
+        "evenement": "UFC 269",
+        "date": "December 11, 2021"
+      },
+      {
+        "adversaire": "Cody Garbrandt",
+        "evenement": "UFC 207",
+        "date": "December 30, 2016"
+      },
+      {
+        "adversaire": "T.J. Dillashaw",
+        "evenement": "UFC Fight Night: Dillashaw vs. Cruz",
+        "date": "January 17, 2016"
+      },
+      {
+        "adversaire": "Urijah Faber",
+        "evenement": "UFC 132",
+        "date": "July 2, 2011"
+      },
+      {
+        "adversaire": "Joseph Benavidez",
+        "evenement": "WEC 42",
+        "date": "August 9, 2009"
+      }
+    ],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Bantamweight Championship",
+        "evenement": "UFC 199",
+        "date": "June 4, 2016"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Bantamweight Championship",
+        "evenement": "UFC Fight Night: Dillashaw vs. Cruz",
+        "date": "January 17, 2016"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Bantamweight Championship",
+        "evenement": "UFC Live: Cruz vs. Johnson",
+        "date": "October 1, 2011"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Bantamweight Championship",
+        "evenement": "UFC 132",
+        "date": "July 2, 2011"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 7
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Urijah Faber",
+      "evenement": "UFC 132",
+      "date": "July 2, 2011",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "UFC Hall of Fame ( Modern Wing , Class of 2026)",
+    "Three successful title defenses (two during first reign, one during second reign)",
+    "Tied ( Aljamain Sterling , T.J. Dillashaw , Merab Dvalishvili ) for most title defenses in UFC Bantamweight division history (3)",
+    "Tied (Aljamain Sterling & Renan Barao ) for second most title fight wins in UFC Bantamweight division history (4)",
+    "Fight of the Night (Four times) vs. Urijah Faber , T.J. Dillashaw , Cody Garbrandt and Pedro Munhoz .",
+    "Performance of the Night (One time) vs. Takeya Mizugaki",
+    "Longest single title reign in UFC Bantamweight division history by number of days (1,117)",
+    "Longest combined title reign in UFC Bantamweight division history by number of days (1,465)",
+    "Most title wins in UFC/WEC Bantamweight division history (7)",
+    "Tied ( Aljamain Sterling & Marlon Vera ) for most wins in UFC/WEC Bantamweight division history (14)",
+    "Most takedowns landed in UFC/WEC Bantamweight division history (55)",
+    "UFC.com Awards 2011: Import of the Year ,  Ranked #10 Fighter of the Year  & Ranked #4 Fight of the Year vs. Urijah Faber 2  2016: Ranked #4 Fighter of the Year",
+    "2011: Import of the Year ,  Ranked #10 Fighter of the Year  & Ranked #4 Fight of the Year vs. Urijah Faber 2",
+    "2016: Ranked #4 Fighter of the Year",
+    "World Extreme Cagefighting WEC Bantamweight Championship (One time, final) Two successful title defenses Fight of the Night (One time) vs. Joseph Benavidez",
+    "WEC Bantamweight Championship (One time, final) Two successful title defenses",
+    "Two successful title defenses",
+    "Fight of the Night (One time) vs. Joseph Benavidez",
+    "Total Combat Total Combat Lightweight Championship (One time)  Total Combat Featherweight Championship (One time)",
+    "Total Combat Lightweight Championship (One time)",
+    "Total Combat Featherweight Championship (One time)",
+    "The Athletic 2010s Men's Bantamweight Fighter of the Decade",
+    "2010s Men's Bantamweight Fighter of the Decade",
+    "USA Today 2010 Fighter of the Year",
+    "2010 Fighter of the Year",
+    "Fight Matrix 2016 Comeback Fighter of the Year",
+    "2016 Comeback Fighter of the Year",
+    "World MMA Awards 2014 Comeback Fighter of the Year  2015 Analyst of the Year  2016 Analyst of the Year  2017 Analyst of the Year",
+    "2014 Comeback Fighter of the Year",
+    "2015 Analyst of the Year",
+    "2016 Analyst of the Year",
+    "2017 Analyst of the Year",
+    "CBS Sports 2016 #9 Ranked UFC Fight of the Year vs. T.J. Dillashaw",
+    "2016 #9 Ranked UFC Fight of the Year vs. T.J. Dillashaw"
+  ],
+  "image_commons": "Dom Cruz 2.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Dominick_Cruz",
+    "wikidata": "https://www.wikidata.org/wiki/Q713618",
+    "ufc_com": "https://www.ufc.com/athlete/dominick-cruz"
+  },
+  "champs_sources": {
+    "surnom": "wikipedia",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "stats_ufc (absentes de la fiche ufc.com)"
+  ],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 65,
+    "puissance": 52,
+    "lutte": 65,
+    "soumission": 42,
+    "defense": 65,
+    "cardio": 91,
+    "menton": 78,
+    "globale": 65,
+    "style": "lutteur",
+    "estimees": [
+      "frappe",
+      "lutte",
+      "defense"
+    ],
+    "formule_version": 1
+  }
+}

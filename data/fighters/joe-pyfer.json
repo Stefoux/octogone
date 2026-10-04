@@ -1,0 +1,142 @@
+{
+  "id": "joe-pyfer",
+  "nom": "Joe Pyfer",
+  "ufc_slug": "joe-pyfer",
+  "wikipedia_titre": "Joe Pyfer",
+  "surnom": "Bodybagz",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "moyens",
+  "statut": "actif",
+  "date_naissance": "1996-09-17",
+  "taille_cm": 188,
+  "allonge_cm": 190,
+  "style": "Boxe",
+  "lieu_naissance": "Vineland, États-Unis",
+  "palmares": {
+    "victoires": 16,
+    "defaites": 3,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 10,
+    "victoires_soumission": 4,
+    "victoires_decision": 2,
+    "defaites_ko": 1,
+    "defaites_soumission": 1,
+    "defaites_decision": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.52,
+    "precision_frappe_pct": 44,
+    "frappes_encaissees_par_min": 3.22,
+    "defense_frappe_pct": 53.0,
+    "takedowns_par_15min": 1.45,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 63.0,
+    "soumissions_par_15min": 0.91,
+    "knockdowns_par_15min": 1.09,
+    "duree_moyenne_combat_s": 496,
+    "frappes_reussies": 291.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 16,
+      "defaites": 3,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 10,
+        "soumission": 4,
+        "decision": 2,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 1,
+        "decision": 1,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2020": 1,
+      "2022": 2,
+      "2023": 2,
+      "2024": 2,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Israel Adesanya",
+      "evenement": "UFC Fight Night: Adesanya vs. Pyfer",
+      "date": "March 28, 2026",
+      "resultat": "Win",
+      "methode": "TKO (punches)"
+    },
+    "combats_ufc": 10,
+    "victoires_ufc": 8,
+    "defaites_ufc": 2,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 5,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 9
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Dustin Stoltzfus",
+      "evenement": "Dana White's Contender Series 28",
+      "date": "August 11, 2020",
+      "resultat": "Loss",
+      "methode": "TKO (elbow injury)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Performance of the Night (Five times) vs. Alen Amedovski , Abdul Razak Alhassan , Marc-André Barriault , Abusupiyan Magomedov and Israel Adesanya",
+    "UFC Honors Awards 2022: Fan's Choice Debut of the Year Nominee vs. Alen Amedovski  2025: President's Choice Performance of the Year Nominee vs. Abusupiyan Magomedov",
+    "2022: Fan's Choice Debut of the Year Nominee vs. Alen Amedovski",
+    "2025: President's Choice Performance of the Year Nominee vs. Abusupiyan Magomedov",
+    "Art of War Cage Fighting AOWCF Middleweight Championship (One time)",
+    "AOWCF Middleweight Championship (One time)",
+    "Ring of Combat ROC Middleweight Championship (One time)",
+    "ROC Middleweight Championship (One time)"
+  ],
+  "image_commons": "JoePyfer.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Joe_Pyfer",
+    "wikidata": "https://www.wikidata.org/wiki/Q124447415",
+    "ufc_com": "https://www.ufc.com/athlete/joe-pyfer"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 56,
+    "puissance": 80,
+    "lutte": 52,
+    "soumission": 61,
+    "defense": 66,
+    "cardio": 50,
+    "menton": 86,
+    "globale": 64,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

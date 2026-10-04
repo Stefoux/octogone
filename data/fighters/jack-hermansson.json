@@ -1,0 +1,174 @@
+{
+  "id": "jack-hermansson",
+  "nom": "Jack Hermansson",
+  "ufc_slug": "jack-hermansson",
+  "wikipedia_titre": "Jack Hermansson",
+  "surnom": "The Joker",
+  "sexe": "M",
+  "pays": "SE",
+  "autres_pays": [
+    "NO"
+  ],
+  "categorie": "mi_moyens",
+  "statut": "actif",
+  "date_naissance": "1988-06-10",
+  "taille_cm": 185,
+  "allonge_cm": 197,
+  "style": "MMA",
+  "lieu_naissance": "Uddevalla, Sweden",
+  "palmares": {
+    "victoires": 24,
+    "defaites": 10,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 11,
+    "victoires_soumission": 6,
+    "victoires_decision": 7,
+    "defaites_ko": 5,
+    "defaites_soumission": 2,
+    "defaites_decision": 3
+  },
+  "stats_ufc": {
+    "frappes_par_min": 5.15,
+    "precision_frappe_pct": 45,
+    "frappes_encaissees_par_min": 3.72,
+    "defense_frappe_pct": 57.0,
+    "takedowns_par_15min": 1.48,
+    "precision_takedown_pct": 9,
+    "defense_takedown_pct": 81.0,
+    "soumissions_par_15min": 0.37,
+    "knockdowns_par_15min": 0.0,
+    "duree_moyenne_combat_s": 642,
+    "frappes_reussies": 1048.0,
+    "takedowns_reussis": 6.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 24,
+      "defaites": 10,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 11,
+        "soumission": 6,
+        "decision": 7,
+        "autre": 0
+      },
+      "d": {
+        "ko": 5,
+        "soumission": 2,
+        "decision": 3,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2016": 2,
+      "2017": 3,
+      "2018": 2,
+      "2019": 3,
+      "2020": 2,
+      "2021": 1,
+      "2022": 3,
+      "2024": 1,
+      "2025": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Myktybek Orolbai",
+      "evenement": "UFC Fight Night: Tsarukyan vs. Hooker",
+      "date": "22 November 2025",
+      "resultat": "Loss",
+      "methode": "KO (punch)"
+    },
+    "combats_ufc": 19,
+    "victoires_ufc": 11,
+    "defaites_ufc": 8,
+    "victoires_decision_5_rounds": 2,
+    "combats_5_rounds_gagnes": 3,
+    "bonus_fotn": 1,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Marvin Vettori",
+        "evenement": "UFC on ESPN: Hermansson vs. Vettori",
+        "date": "5 December 2020"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 9
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Scott Askham",
+      "evenement": "UFC Fight Night: Arlovski vs. Barnett",
+      "date": "3 September 2016",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Fight of the Night (One time) vs. Marvin Vettori",
+    "Performance of the Night (One time) vs. David Branch",
+    "Most significant body strikes landed in a UFC middleweight bout (64) vs. Sean Strickland",
+    "Most total strikes attempted in a UFC middleweight bout (496) vs. Ronaldo Souza",
+    "Fifth most significant strikes landed in UFC Middleweight division history (999)  Fourth most total strikes landed in UFC Middleweight division history (1366)",
+    "Fourth most total strikes landed in UFC Middleweight division history (1366)",
+    "UFC.com Awards 2020: Ranked #7 Submission of the Year vs. Kelvin Gastelum",
+    "2020: Ranked #7 Submission of the Year vs. Kelvin Gastelum",
+    "Cage Warriors Fighting Championship CWFC Middleweight Championship (One time)  Two successful title defenses  Undefeated in the CWFC (7–0)",
+    "CWFC Middleweight Championship (One time)",
+    "Two successful title defenses",
+    "Undefeated in the CWFC (7–0)",
+    "Warrior Fight Series WFS Middleweight Championship (One time)",
+    "WFS Middleweight Championship (One time)",
+    "East Coast Fight Factory ECFF Middleweight Championship (One time)",
+    "ECFF Middleweight Championship (One time)",
+    "2014 Breakthrough Fighter of the Year",
+    "2018 Nordic Fighter of the Year",
+    "2018 Comeback of the Year vs. Thales Leites",
+    "2019 Submission of the Year vs. David Branch",
+    "2019 Fighter of the Year",
+    "2020 Submission of the Year vs. Kelvin Gastelum",
+    "CombatPress.com 2019 Upset of the Year vs. Ronaldo Souza",
+    "2019 Upset of the Year vs. Ronaldo Souza",
+    "Oslo Submission Series OSS 2 (2016) Super Fight Winner",
+    "OSS 2 (2016) Super Fight Winner"
+  ],
+  "image_commons": "Jack Hermansson on MMAnytt.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Jack_Hermansson",
+    "wikidata": "https://www.wikidata.org/wiki/Q26844722",
+    "ufc_com": "https://www.ufc.com/athlete/jack-hermansson"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 24-10, wikipedia_infobox 24-9, ufc_com 24-10"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 64,
+    "puissance": 56,
+    "lutte": 57,
+    "soumission": 53,
+    "defense": 67,
+    "cardio": 72,
+    "menton": 50,
+    "globale": 60,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

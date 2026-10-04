@@ -1,0 +1,212 @@
+{
+  "id": "joshua-van",
+  "nom": "Joshua Van",
+  "ufc_slug": "joshua-van",
+  "wikipedia_titre": "Joshua Van",
+  "surnom": "The Fearless",
+  "sexe": "M",
+  "pays": "MM",
+  "categorie": "mouche",
+  "statut": "actif",
+  "date_naissance": "2001-10-10",
+  "taille_cm": 165,
+  "allonge_cm": 165,
+  "style": "Style libre",
+  "lieu_naissance": "Hakha , Myanmar",
+  "palmares": {
+    "victoires": 18,
+    "defaites": 2,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 9,
+    "victoires_soumission": 2,
+    "victoires_decision": 7,
+    "defaites_ko": 1,
+    "defaites_soumission": 1,
+    "defaites_decision": 0
+  },
+  "stats_ufc": {
+    "frappes_par_min": 8.26,
+    "precision_frappe_pct": 58,
+    "frappes_encaissees_par_min": 5.83,
+    "defense_frappe_pct": 57.0,
+    "takedowns_par_15min": 0.7,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 75.0,
+    "soumissions_par_15min": 0.26,
+    "knockdowns_par_15min": 0.7,
+    "duree_moyenne_combat_s": 854,
+    "frappes_reussies": 1411.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 18,
+      "defaites": 2,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 9,
+        "soumission": 2,
+        "decision": 7,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 1,
+        "decision": 0,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2023": 2,
+      "2024": 4,
+      "2025": 4,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Alexandre Pantoja",
+      "evenement": "UFC 331",
+      "date": "September 19, 2026",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 12,
+    "victoires_ufc": 11,
+    "defaites_ufc": 1,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 2,
+    "bonus_fotn": 3,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Alexandre Pantoja",
+        "evenement": "UFC 331",
+        "date": "September 19, 2026"
+      },
+      {
+        "adversaire": "Tatsuro Taira",
+        "evenement": "UFC 328",
+        "date": "May 9, 2026"
+      },
+      {
+        "adversaire": "Brandon Royval",
+        "evenement": "UFC 317",
+        "date": "June 28, 2025"
+      }
+    ],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Flyweight Championship",
+        "evenement": "UFC 331",
+        "date": "September 19, 2026"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Flyweight Championship",
+        "evenement": "UFC 328",
+        "date": "May 9, 2026"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Flyweight Championship",
+        "evenement": "UFC 323",
+        "date": "December 6, 2025"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 5
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Zhalgas Zhumagulov",
+      "evenement": "UFC on ABC: Emmett vs. Topuria",
+      "date": "June 24, 2023",
+      "resultat": "Win",
+      "methode": "Decision (split)"
+    }
+  },
+  "champion_actuel": true,
+  "champion_division": "Poids mouche",
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "Two successful title defenses",
+    "Tied ( Deiveson Figueiredo & Brandon Moreno ) for third most title fight wins in UFC Flyweight division history (3)",
+    "Second youngest champion in UFC history (24 years, 57 days)  First Burmese-born champion in UFC history  First UFC champion born in the 2000s  Second Asian-born male champion in UFC history",
+    "First Burmese-born champion in UFC history",
+    "First UFC champion born in the 2000s",
+    "Second Asian-born male champion in UFC history",
+    "Fight of the Night (Three times) vs. Brandon Royval , Tatsuro Taira and Alexandre Pantoja 2",
+    "Second highest significant strikes landed per minute in UFC history (8.26) (behind Carli Judice)  Highest significant strikes landed-per-minute in UFC Flyweight division history (8.26)",
+    "Highest significant strikes landed-per-minute in UFC Flyweight division history (8.26)",
+    "Highest striking differential in UFC Flyweight division history (2.43)",
+    "Most significant strikes landed in UFC Flyweight division history (1411)  Second most total strikes landed in UFC Flyweight division history (1825) (behind Tim Elliott )",
+    "Second most total strikes landed in UFC Flyweight division history (1825) (behind Tim Elliott )",
+    "Highest significant strike accuracy in UFC Flyweight division history (57.6%)",
+    "Tied ( Alexandre Pantoja ) for the second longest win streak in UFC Flyweight division history (8) (behind Demetrious Johnson )",
+    "Fifth most wins in UFC Flyweight division history (10)",
+    "Tied ( Tim Elliott & Joseph Benavidez ) for most decision wins in UFC Flyweight division history (7)",
+    "Tied ( Deiveson Figueiredo , Dustin Ortiz , Alex Perez & John Lineker ) for third most knockouts in UFC Flyweight division history (4)",
+    "Tied ( Kai Kara-France & Manel Kape ) for second most knockdowns in UFC Flyweight division history (8) (behind Deiveson Figueiredo )",
+    "UFC Honors Awards 2025: President's Choice Fight of the Year Winner vs. Brandon Royval",
+    "2025: President's Choice Fight of the Year Winner vs. Brandon Royval",
+    "2025: Ranked #2 Fighter of the Year ,  Fight of the Year vs. Brandon Royval  & Half-Year Awards: Best Fight of the 1HY vs. Brandon Royval",
+    "2026: Half-Year Awards: Best Fight of the 1HY vs. Tatsuro Taira",
+    "Fury Fighting Championship Fury FC Flyweight Championship (One time; former)",
+    "Fury FC Flyweight Championship (One time; former)",
+    "ESPN 2025 Breakout Fighter of the Year  2025 Fight of the Year vs. Brandon Royval at UFC 317",
+    "2025 Breakout Fighter of the Year",
+    "2025 Fight of the Year vs. Brandon Royval at UFC 317",
+    "Sherdog 2025 Male Fighter of the Year  2025 Breakthrough Fighter of the Year  2025 Fight of the Year vs. Brandon Royval at UFC 317",
+    "2025 Male Fighter of the Year",
+    "2025 Breakthrough Fighter of the Year",
+    "2025 Fight of the Year vs. Brandon Royval at UFC 317",
+    "Fight Matrix 2025 Most Improved Fighter of the Year",
+    "2025 Most Improved Fighter of the Year",
+    "MMA Junkie 2025 Breakout Fighter of the Year  2025 Fight of the Year vs. Brandon Royval at UFC 317",
+    "2025 Breakout Fighter of the Year",
+    "2025 Fight of the Year vs. Brandon Royval at UFC 317",
+    "CBS Sports 2025 UFC Fight of the Year vs. Brandon Royval",
+    "2025 UFC Fight of the Year vs. Brandon Royval",
+    "theScore 2025 Breakout Fighter of the Year  2025 Fight of the Year vs. Brandon Royval",
+    "2025 Breakout Fighter of the Year"
+  ],
+  "image_commons": "Joshua Van 1.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Joshua_Van",
+    "wikidata": "https://www.wikidata.org/wiki/Q131411649",
+    "ufc_com": "https://www.ufc.com/athlete/joshua-van"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "champion_actuel": "ufc_com_rankings",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 86,
+    "puissance": 69,
+    "lutte": 52,
+    "soumission": 46,
+    "defense": 54,
+    "cardio": 75,
+    "menton": 86,
+    "globale": 67,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

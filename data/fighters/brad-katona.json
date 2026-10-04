@@ -1,0 +1,150 @@
+{
+  "id": "brad-katona",
+  "nom": "Brad Katona",
+  "ufc_slug": "brad-katona",
+  "wikipedia_titre": "Brad Katona",
+  "surnom": "Superman",
+  "sexe": "M",
+  "pays": "CA",
+  "categorie": "coq",
+  "statut": "inactif",
+  "date_naissance": "1991-12-19",
+  "taille_cm": 168,
+  "allonge_cm": 164,
+  "style": "MMA",
+  "lieu_naissance": "Winnipeg, Canada",
+  "palmares": {
+    "victoires": 14,
+    "defaites": 5,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 1,
+    "victoires_soumission": 3,
+    "victoires_decision": 10,
+    "defaites_ko": 1,
+    "defaites_soumission": 0,
+    "defaites_decision": 4
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.81,
+    "precision_frappe_pct": 52,
+    "frappes_encaissees_par_min": 4.75,
+    "defense_frappe_pct": 50.0,
+    "takedowns_par_15min": 1.86,
+    "precision_takedown_pct": 5,
+    "defense_takedown_pct": 62.0,
+    "soumissions_par_15min": 0.0,
+    "knockdowns_par_15min": 0.0,
+    "duree_moyenne_combat_s": 807,
+    "frappes_reussies": 582.0,
+    "takedowns_reussis": 2.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 14,
+      "defaites": 5,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 1,
+        "soumission": 3,
+        "decision": 10,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 0,
+        "decision": 4,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2018": 2,
+      "2019": 2,
+      "2023": 1,
+      "2024": 3,
+      "2025": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Bekzat Almakhan",
+      "evenement": "UFC 315",
+      "date": "May 10, 2025",
+      "resultat": "Loss",
+      "methode": "KO (punches)"
+    },
+    "combats_ufc": 9,
+    "victoires_ufc": 4,
+    "defaites_ufc": 5,
+    "victoires_decision_5_rounds": 2,
+    "combats_5_rounds_gagnes": 2,
+    "bonus_fotn": 1,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Cody Gibson",
+        "evenement": "UFC 292",
+        "date": "August 19, 2023"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "guillotine choke",
+      "finitions": 2
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Jay Cucciniello",
+      "evenement": "The Ultimate Fighter: Undefeated Finale",
+      "date": "July 6, 2018",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "The Ultimate Fighter 27 Featherweight Tournament Winner",
+    "The Ultimate Fighter 31 Bantamweight Tournament Winner First and only 2-time winner of The Ultimate Fighter",
+    "First and only 2-time winner of The Ultimate Fighter",
+    "Fight of the Night (One time) vs. Cody Gibson",
+    "UFC.com Awards 2018: Ranked #6 Newcomer of the Year",
+    "2018: Ranked #6 Newcomer of the Year",
+    "Brave Combat Federation BRAVE CF Bantamweight Championship (One time) One successful title defense",
+    "BRAVE CF Bantamweight Championship (One time) One successful title defense",
+    "One successful title defense"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Brad_Katona",
+    "wikidata": "https://www.wikidata.org/wiki/Q47523142",
+    "ufc_com": "https://www.ufc.com/athlete/brad-katona"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 14-5, wikipedia_infobox 14-5, ufc_com 16-5"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 69,
+    "puissance": 39,
+    "lutte": 54,
+    "soumission": 48,
+    "defense": 54,
+    "cardio": 79,
+    "menton": 86,
+    "globale": 61,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

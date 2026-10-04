@@ -1,0 +1,179 @@
+{
+  "id": "belal-muhammad",
+  "nom": "Belal Muhammad",
+  "ufc_slug": "belal-muhammad",
+  "wikipedia_titre": "Belal Muhammad",
+  "surnom": "Remember The Name",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "mi_moyens",
+  "statut": "actif",
+  "date_naissance": "1988-07-09",
+  "taille_cm": 180,
+  "allonge_cm": 183,
+  "style": null,
+  "lieu_naissance": "Chicago, États-Unis",
+  "palmares": {
+    "victoires": 24,
+    "defaites": 6,
+    "nuls": 0,
+    "sans_decision": 1,
+    "victoires_ko": 5,
+    "victoires_soumission": 1,
+    "victoires_decision": 18,
+    "defaites_ko": 1,
+    "defaites_soumission": 0,
+    "defaites_decision": 5
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.36,
+    "precision_frappe_pct": 42,
+    "frappes_encaissees_par_min": 3.92,
+    "defense_frappe_pct": 55.0,
+    "takedowns_par_15min": 1.98,
+    "precision_takedown_pct": 12,
+    "defense_takedown_pct": 91.0,
+    "soumissions_par_15min": 0.13,
+    "knockdowns_par_15min": 0.0,
+    "duree_moyenne_combat_s": 948,
+    "frappes_reussies": 1515.0,
+    "takedowns_reussis": 15.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 24,
+      "defaites": 6,
+      "nuls": 0,
+      "sans_decision": 1,
+      "v": {
+        "ko": 5,
+        "soumission": 1,
+        "decision": 18,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 0,
+        "decision": 5,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2016": 3,
+      "2017": 3,
+      "2018": 1,
+      "2019": 3,
+      "2020": 1,
+      "2021": 4,
+      "2022": 2,
+      "2023": 1,
+      "2024": 1,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Gabriel Bonfim",
+      "evenement": "UFC Fight Night: Muhammad vs. Bonfim",
+      "date": "June 6, 2026",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 22,
+    "victoires_ufc": 15,
+    "defaites_ufc": 6,
+    "victoires_decision_5_rounds": 3,
+    "combats_5_rounds_gagnes": 4,
+    "bonus_fotn": 2,
+    "bonus_potn": 2,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Jack Della Maddalena",
+        "evenement": "UFC 315",
+        "date": "May 10, 2025"
+      },
+      {
+        "adversaire": "Alan Jouban",
+        "evenement": "UFC Fight Night: dos Anjos vs. Alvarez",
+        "date": "July 7, 2016"
+      }
+    ],
+    "titres": [
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Welterweight Championship",
+        "evenement": "UFC 304",
+        "date": "July 27, 2024"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 5
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Alan Jouban",
+      "evenement": "UFC Fight Night: dos Anjos vs. Alvarez",
+      "date": "July 7, 2016",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "UFC Welterweight Championship (One time) First UFC champion of Palestinian descent",
+    "First UFC champion of Palestinian descent",
+    "Performance of the Night (Two times) vs. Takashi Sato and Sean Brady",
+    "Fight of the Night (Two times) vs. Alan Jouban and Jack Della Maddalena",
+    "Tied ( Rafael dos Anjos , Brad Tavares & Kamaru Usman ) for second most unanimous decision wins in UFC history (11)",
+    "Tied ( Georges St-Pierre ) for second most decision wins in UFC Welterweight division history (12)",
+    "Tied ( Diego Sanchez , Georges St-Pierre , Rafael dos Anjos , Andrei Arlovski ) for third most decision wins in UFC history (12)",
+    "Second highest takedown defense percentage in UFC Welterweight division history (90.6%)",
+    "Fourth most total strikes landed in UFC Welterweight division history (2303)",
+    "Second most total fight time in UFC Welterweight division history (5:47:38) (behind Neil Magny )",
+    "UFC.com Awards 2024: Ranked #10 Fighter of the Year  2025: Ranked #4 Fight of the Year vs. Jack Della Maddalena",
+    "2024: Ranked #10 Fighter of the Year",
+    "2025: Ranked #4 Fight of the Year vs. Jack Della Maddalena",
+    "Titan Fighting Championship Titan FC Welterweight Championship (One time)",
+    "Titan FC Welterweight Championship (One time)",
+    "MMA Junkie 2019 January Fight of the Month vs. Geoff Neal",
+    "2019 January Fight of the Month vs. Geoff Neal",
+    "Slacky Awards 2024 Gameplan of the Year vs. Leon Edwards at UFC 304",
+    "2024 Gameplan of the Year vs. Leon Edwards at UFC 304",
+    "Real American Freestyle Match of the Night (One time) vs. Ben Askren",
+    "Match of the Night (One time) vs. Ben Askren"
+  ],
+  "image_commons": "Belal Muhammad UFC.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Belal_Muhammad",
+    "wikidata": "https://www.wikidata.org/wiki/Q27068531",
+    "ufc_com": "https://www.ufc.com/athlete/belal-muhammad"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 57,
+    "puissance": 41,
+    "lutte": 63,
+    "soumission": 38,
+    "defense": 63,
+    "cardio": 95,
+    "menton": 89,
+    "globale": 64,
+    "style": "lutteur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

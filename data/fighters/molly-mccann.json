@@ -1,0 +1,155 @@
+{
+  "id": "molly-mccann",
+  "nom": "Molly McCann",
+  "ufc_slug": "molly-mccann",
+  "wikipedia_titre": "Molly McCann",
+  "surnom": "Meatball",
+  "sexe": "F",
+  "pays": "GB",
+  "categorie": "paille_f",
+  "statut": "inactif",
+  "date_naissance": "1990-05-04",
+  "taille_cm": 163,
+  "allonge_cm": 157,
+  "style": "Boxer",
+  "lieu_naissance": "England, United Kingdom",
+  "palmares": {
+    "victoires": 14,
+    "defaites": 8,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 6,
+    "victoires_soumission": 1,
+    "victoires_decision": 7,
+    "defaites_ko": 0,
+    "defaites_soumission": 4,
+    "defaites_decision": 4
+  },
+  "stats_ufc": {
+    "frappes_par_min": 5.28,
+    "precision_frappe_pct": 50,
+    "frappes_encaissees_par_min": 4.65,
+    "defense_frappe_pct": 63.0,
+    "takedowns_par_15min": 1.78,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 38.0,
+    "soumissions_par_15min": 0.53,
+    "knockdowns_par_15min": 0.21,
+    "duree_moyenne_combat_s": 612,
+    "frappes_reussies": 755.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 14,
+      "defaites": 8,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 6,
+        "soumission": 1,
+        "decision": 7,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 4,
+        "decision": 4,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2018": 1,
+      "2019": 3,
+      "2020": 1,
+      "2021": 2,
+      "2022": 3,
+      "2023": 1,
+      "2024": 2,
+      "2025": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Alexia Thainara",
+      "evenement": "UFC Fight Night: Edwards vs. Brady",
+      "date": "March 22, 2025",
+      "resultat": "Loss",
+      "methode": "Submission (rear-naked choke)"
+    },
+    "combats_ufc": 14,
+    "victoires_ufc": 7,
+    "defaites_ufc": 7,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 1,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Kim Ji-yeon",
+        "evenement": "UFC Fight Night: Brunson vs. Till",
+        "date": "September 4, 2021"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 3
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Gillian Robertson",
+      "evenement": "UFC Fight Night: Thompson vs. Till",
+      "date": "May 27, 2018",
+      "resultat": "Loss",
+      "methode": "Technical Submission (rear-naked choke)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Fight of the Night (One time) vs. Ji Yeon Kim",
+    "Performance of the Night (Three times) Luana Carolina , Hannah Goldy , and Diana Belbiţă    Tied (Carli Judice) for most Post-Fight bonuses in UFC Women's Flyweight division history (3)",
+    "Tied (Carli Judice) for most Post-Fight bonuses in UFC Women's Flyweight division history (3)",
+    "UFC Honors Awards 2022: President's Choice Performance of the Year Nominee vs. Luana Carolina  & Fan's Choice Knockout of the Year Nominee vs. Luana Carolina",
+    "2022: President's Choice Performance of the Year Nominee vs. Luana Carolina  & Fan's Choice Knockout of the Year Nominee vs. Luana Carolina",
+    "UFC.com Awards 2022: Ranked #3 Knockout of the Year vs. Luana Carolina",
+    "2022: Ranked #3 Knockout of the Year vs. Luana Carolina",
+    "Cage Warriors Fighting Championship Cage Warriors Fighting Championship Women's Flyweight Champion (One time)",
+    "Cage Warriors Fighting Championship Women's Flyweight Champion (One time)",
+    "MMA Junkie 2022 March Knockout of the Month vs. Luana Carolina",
+    "2022 March Knockout of the Month vs. Luana Carolina",
+    "MMA Fighting 2022 First Team MMA All-Star",
+    "2022 First Team MMA All-Star"
+  ],
+  "image_commons": "Molly McCann 2018.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Molly_McCann",
+    "wikidata": "https://www.wikidata.org/wiki/Q64875539",
+    "ufc_com": "https://www.ufc.com/athlete/molly-mccann"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 70,
+    "puissance": 58,
+    "lutte": 44,
+    "soumission": 47,
+    "defense": 66,
+    "cardio": 55,
+    "menton": 99,
+    "globale": 63,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

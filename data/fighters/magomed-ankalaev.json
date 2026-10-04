@@ -1,0 +1,173 @@
+{
+  "id": "magomed-ankalaev",
+  "nom": "Magomed Ankalaev",
+  "ufc_slug": "magomed-ankalaev",
+  "wikipedia_titre": "Magomed Ankalaev",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "RU",
+  "categorie": "mi_lourds",
+  "statut": "actif",
+  "date_naissance": "1992-06-02",
+  "taille_cm": 190,
+  "allonge_cm": 190,
+  "style": "AMM",
+  "lieu_naissance": "Russie",
+  "palmares": {
+    "victoires": 21,
+    "defaites": 2,
+    "nuls": 1,
+    "sans_decision": 1,
+    "victoires_ko": 11,
+    "victoires_soumission": 0,
+    "victoires_decision": 10,
+    "defaites_ko": 1,
+    "defaites_soumission": 1,
+    "defaites_decision": 0
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.52,
+    "precision_frappe_pct": 52,
+    "frappes_encaissees_par_min": 2.49,
+    "defense_frappe_pct": 55.0,
+    "takedowns_par_15min": 0.85,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 88.0,
+    "soumissions_par_15min": 0.21,
+    "knockdowns_par_15min": 0.5,
+    "duree_moyenne_combat_s": 747,
+    "frappes_reussies": 744.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 21,
+      "defaites": 2,
+      "nuls": 1,
+      "sans_decision": 1,
+      "v": {
+        "ko": 11,
+        "soumission": 0,
+        "decision": 10,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 1,
+        "decision": 0,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2018": 2,
+      "2019": 2,
+      "2020": 2,
+      "2021": 2,
+      "2022": 3,
+      "2023": 1,
+      "2024": 2,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Bogdan Guskov",
+      "evenement": "UFC Fight Night: Ankalaev vs. Guskov",
+      "date": "July 25, 2026",
+      "resultat": "Win",
+      "methode": "TKO (punches)"
+    },
+    "combats_ufc": 17,
+    "victoires_ufc": 13,
+    "defaites_ufc": 2,
+    "victoires_decision_5_rounds": 2,
+    "combats_5_rounds_gagnes": 4,
+    "bonus_fotn": 0,
+    "bonus_potn": 4,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 313",
+        "date": "March 8, 2025"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 7
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Paul Craig",
+      "evenement": "UFC Fight Night: Werdum vs. Volkov",
+      "date": "March 17, 2018",
+      "resultat": "Loss",
+      "methode": "Submission (triangle choke)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "UFC Light Heavyweight Championship (One time, former) First Russian UFC Light Heavyweight Champion",
+    "First Russian UFC Light Heavyweight Champion",
+    "Performance of the Night (Four times) vs. Marcin Prachnio , Dalcha Lungiambula , Ion Cuțelaba , and Johnny Walker",
+    "Third longest win streak in UFC Light Heavyweight division history (9)",
+    "Second longest unbeaten streak in UFC Light Heavyweight division history (14) (behind Jon Jones )  Fifth longest unbeaten streak in UFC history (14)",
+    "Fifth longest unbeaten streak in UFC history (14)",
+    "Tied ( Rashad Evans & Chuck Liddell ) for fifth most wins in UFC Light Heavyweight division history (13)",
+    "Tied ( Khalil Rountree Jr. & Dustin Jacoby ) for third most knockouts in UFC Light Heavyweight division history (7)",
+    "World Fighting Championship Akhmat WFCA Light Heavyweight Champion (One time) One successful title defense 2016 Akhmat FC Light Heavyweight World Grand Prix Tournament Winner",
+    "WFCA Light Heavyweight Champion (One time) One successful title defense",
+    "One successful title defense",
+    "2016 Akhmat FC Light Heavyweight World Grand Prix Tournament Winner",
+    "Russian MMA Union MMA Super Cup of Russia 2015",
+    "MMA Super Cup of Russia 2015",
+    "World Cup at Light Heavyweight (2013)",
+    "World Championship at Light Heavyweight (2014)",
+    "World Championship at Light Heavyweight (2015)",
+    "World Championship at Light Heavyweight (2016)",
+    "Russian MMA Championship at Light Heavyweight (2014)",
+    "Moscow Open Cup at Light Heavyweight (2014)",
+    "Super Cup of Russia at Light Heavyweight (2014)",
+    "MMA Cup of Dagestan at Light Heavyweight (2015)",
+    "Russian Cup: North Caucasian Federal District at Light Heavyweight (2015)",
+    "Russian MMA Championship at Light Heavyweight (2015)",
+    "Russian MMA Championship at Light Heavyweight (2016)",
+    "Combat Sambo Combat Sambo Cup of Dagestan at Light Heavyweight (2016)",
+    "Combat Sambo Cup of Dagestan at Light Heavyweight (2016)"
+  ],
+  "image_commons": "Magomed Ankalaev at UFC Fight Night 136 in Moscow, Russia.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Magomed_Ankalaev",
+    "wikidata": "https://www.wikidata.org/wiki/Q50278013",
+    "ufc_com": "https://www.ufc.com/athlete/magomed-ankalaev"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 21-2, wikipedia_infobox 21-2, ufc_com 22-2"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 63,
+    "puissance": 67,
+    "lutte": 57,
+    "soumission": 38,
+    "defense": 73,
+    "cardio": 78,
+    "menton": 88,
+    "globale": 66,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

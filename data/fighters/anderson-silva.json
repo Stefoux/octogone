@@ -1,0 +1,296 @@
+{
+  "id": "anderson-silva",
+  "nom": "Anderson Silva",
+  "ufc_slug": "anderson-silva",
+  "wikipedia_titre": "Anderson Silva",
+  "surnom": "The Spider",
+  "sexe": "M",
+  "pays": "BR",
+  "autres_pays": [
+    "US"
+  ],
+  "categorie": "moyens",
+  "statut": null,
+  "date_naissance": "1975-04-14",
+  "taille_cm": 188,
+  "allonge_cm": 196,
+  "style": null,
+  "lieu_naissance": "State of Sao Paulo, Brésil",
+  "palmares": {
+    "victoires_ko": 23,
+    "victoires_soumission": 3,
+    "victoires_decision": 8,
+    "defaites_ko": 4,
+    "defaites_soumission": 2,
+    "defaites_decision": 4,
+    "nuls": 0,
+    "sans_decision": 1,
+    "victoires": 34,
+    "defaites": 11
+  },
+  "stats_ufc": {
+    "frappes_par_min": null,
+    "precision_frappe_pct": null,
+    "frappes_encaissees_par_min": null,
+    "defense_frappe_pct": null,
+    "takedowns_par_15min": null,
+    "precision_takedown_pct": null,
+    "defense_takedown_pct": null,
+    "soumissions_par_15min": null,
+    "knockdowns_par_15min": null,
+    "duree_moyenne_combat_s": null,
+    "frappes_reussies": null,
+    "takedowns_reussis": null
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 33,
+      "defaites": 11,
+      "nuls": 0,
+      "sans_decision": 1,
+      "v": {
+        "ko": 23,
+        "soumission": 2,
+        "decision": 8,
+        "autre": 0
+      },
+      "d": {
+        "ko": 4,
+        "soumission": 2,
+        "decision": 4,
+        "autre": 1
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2006": 2,
+      "2007": 3,
+      "2008": 3,
+      "2009": 2,
+      "2010": 2,
+      "2011": 2,
+      "2012": 2,
+      "2013": 2,
+      "2015": 1,
+      "2016": 2,
+      "2017": 1,
+      "2019": 2,
+      "2020": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Uriah Hall",
+      "evenement": "UFC Fight Night: Hall vs. Silva",
+      "date": "31 October 2020",
+      "resultat": "Loss",
+      "methode": "TKO (punches)"
+    },
+    "combats_ufc": 25,
+    "victoires_ufc": 17,
+    "defaites_ufc": 7,
+    "victoires_decision_5_rounds": 2,
+    "combats_5_rounds_gagnes": 3,
+    "bonus_fotn": 5,
+    "bonus_potn": 0,
+    "bonus_kotn": 7,
+    "bonus_sotn": 2,
+    "combats_fotn": [
+      {
+        "adversaire": "Israel Adesanya",
+        "evenement": "UFC 234",
+        "date": "10 February 2019"
+      },
+      {
+        "adversaire": "Michael Bisping",
+        "evenement": "UFC Fight Night: Silva vs. Bisping",
+        "date": "27 February 2016"
+      },
+      {
+        "adversaire": "Chael Sonnen",
+        "evenement": "UFC 117",
+        "date": "7 August 2010"
+      },
+      {
+        "adversaire": "Forrest Griffin",
+        "evenement": "UFC 101",
+        "date": "8 August 2009"
+      },
+      {
+        "adversaire": "Dan Henderson",
+        "evenement": "UFC 82",
+        "date": "1 March 2008"
+      }
+    ],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Middleweight Championship",
+        "evenement": "UFC 148",
+        "date": "7 July 2012"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Middleweight Championship",
+        "evenement": "UFC 134",
+        "date": "27 August 2011"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Middleweight Championship",
+        "evenement": "UFC 126",
+        "date": "5 February 2011"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Middleweight Championship",
+        "evenement": "UFC 117",
+        "date": "7 August 2010"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Middleweight Championship",
+        "evenement": "UFC 112",
+        "date": "10 April 2010"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Middleweight Championship",
+        "evenement": "UFC 97",
+        "date": "18 April 2009"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Middleweight Championship",
+        "evenement": "UFC 90",
+        "date": "25 October 2008"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Middleweight Championship",
+        "evenement": "UFC 82",
+        "date": "1 March 2008"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Middleweight Championship",
+        "evenement": "UFC 77",
+        "date": "20 October 2007"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Middleweight Championship",
+        "evenement": "UFC 73",
+        "date": "7 July 2007"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Middleweight Championship",
+        "evenement": "UFC 64",
+        "date": "14 October 2006"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 8
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Chris Leben",
+      "evenement": "UFC Fight Night 5",
+      "date": "28 June 2006",
+      "resultat": "Win",
+      "methode": "KO (knee)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "Cage Rage Championships Cage Rage Middleweight Championship (One time, Final) Three successful title defenses",
+    "Cage Rage Middleweight Championship (One time, Final)",
+    "Three successful title defenses",
+    "Shooto Shooto Middleweight Championship (One time)",
+    "Shooto Middleweight Championship (One time)",
+    "UFC Hall of Fame ( Pioneer wing , Class of 2023)",
+    "UFC Hall of Fame ( Fight wing , Class of 2024) vs. Chael Sonnen 1 at UFC 117",
+    "Most successful title defenses in UFC Middleweight division history (10)",
+    "Second most consecutive title defenses in UFC history (10) (behind Demetrious Johnson )",
+    "Third most combined title defenses in UFC history (10)",
+    "Longest title reign in UFC history (2457 days)",
+    "Most wins in UFC Middleweight title fights (11) Tied ( Amanda Nunes & Valentina Shevchenko ) for fourth most wins in UFC title fights (11)",
+    "Tied ( Amanda Nunes & Valentina Shevchenko ) for fourth most wins in UFC title fights (11)",
+    "Most finishes in UFC title fights (9)",
+    "Most knockouts in UFC title fights (7)",
+    "Most knockdowns in UFC title fights (10)",
+    "Most UFC Middleweight title fights (13) Fifth most UFC title fights (13)",
+    "Fifth most UFC title fights (13)",
+    "Unified the UFC Middleweight and Pride World Welterweight Championships",
+    "Fight of the Night (Five times) vs. Dan Henderson , Forrest Griffin , Chael Sonnen 1, Michael Bisping , and Israel Adesanya",
+    "Most \"Knockout of the Night\" awards in UFC history (7)",
+    "Most Post-Fight bonuses in UFC Middleweight division history (12)",
+    "Tied ( Justin Gaethje ) for seventh most Post-Fight bonuses in UFC history (14)",
+    "Second longest win streak in UFC history (16) (behind Islam Makhachev )  Longest win streak in UFC Middleweight division history (13)  Longest finish streak in modern UFC history (8)",
+    "Longest win streak in UFC Middleweight division history (13)",
+    "Longest finish streak in modern UFC history (8)",
+    "Second most finishes in UFC Middleweight division history (11)  (behind Gerald Meerschaert )",
+    "Tied ( Anthony Johnson , Thiago Santos , Dustin Poirier & Drew Dober ) for fourth most knockouts in modern UFC history (11)",
+    "Tied ( Jeremy Stephens ) for second most knockdowns in UFC history (18)",
+    "Tied ( Maurício Rua ) for fourth most knockdowns landed in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (19)",
+    "Most main events in UFC history (21)",
+    "Tied ( Derek Brunson , Robert Whittaker & Brendan Allen ) for third most wins in UFC Middleweight division history (14)",
+    "Largest striking deficit in a comeback finish in a UFC Middleweight division bout (-60) (vs. Chael Sonnen 1)",
+    "Most leg kicks landed in a UFC Middleweight division bout (57) (vs. Thales Leites )",
+    "2006: Knockout of the Year vs. Rich Franklin 1  & Ranked #6 Knockout of the Year vs. Chris Leben",
+    "2007: Ranked #2 Fighter of the Year  & Ranked #9 Knockout of the Year vs. Rich Franklin 2",
+    "2008: Ranked #4 Fighter of the Year  & Ranked #3 Submission of the Year vs. Dan Henderson",
+    "2009: Knockout of the Year vs. Forrest Griffin  & Ranked #3 Fighter of the Year",
+    "2010: Submission of the Year  & Fight of the Year vs. Chael Sonnen 1",
+    "2011: Ranked #3 Fighter of the Year  & Ranked #5 Knockout of the Year vs. Vitor Belfort"
+  ],
+  "image_commons": "Anderson Silva.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Anderson_Silva",
+    "wikidata": "https://www.wikidata.org/wiki/Q356871",
+    "ufc_com": "https://www.ufc.com/athlete/anderson-silva"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_infobox",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "stats_ufc (absentes de la fiche ufc.com)",
+    "statut"
+  ],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 33-11, wikipedia_infobox 34-11, ufc_com 34-11"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 65,
+    "puissance": 84,
+    "lutte": 65,
+    "soumission": 43,
+    "defense": 65,
+    "cardio": 75,
+    "menton": 64,
+    "globale": 66,
+    "style": "frappeur",
+    "estimees": [
+      "frappe",
+      "lutte",
+      "defense"
+    ],
+    "formule_version": 1
+  }
+}

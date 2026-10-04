@@ -1,0 +1,160 @@
+{
+  "id": "tai-tuivasa",
+  "nom": "Tai Tuivasa",
+  "ufc_slug": "tai-tuivasa",
+  "wikipedia_titre": "Tai Tuivasa",
+  "surnom": "Bam Bam",
+  "sexe": "M",
+  "pays": "AU",
+  "categorie": "lourds",
+  "statut": "actif",
+  "date_naissance": "1993-03-16",
+  "taille_cm": 188,
+  "allonge_cm": 190,
+  "style": null,
+  "lieu_naissance": "Kingswood, Australia",
+  "palmares": {
+    "victoires": 14,
+    "defaites": 11,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 13,
+    "victoires_soumission": 0,
+    "victoires_decision": 1,
+    "defaites_ko": 3,
+    "defaites_soumission": 3,
+    "defaites_decision": 5
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.25,
+    "precision_frappe_pct": 48,
+    "frappes_encaissees_par_min": 4.36,
+    "defense_frappe_pct": 44.0,
+    "takedowns_par_15min": 0.09,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 56.0,
+    "soumissions_par_15min": 0.0,
+    "knockdowns_par_15min": 0.75,
+    "duree_moyenne_combat_s": 507,
+    "frappes_reussies": 522.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 14,
+      "defaites": 11,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 13,
+        "soumission": 0,
+        "decision": 1,
+        "autre": 0
+      },
+      "d": {
+        "ko": 3,
+        "soumission": 3,
+        "decision": 5,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2017": 1,
+      "2018": 3,
+      "2019": 2,
+      "2020": 1,
+      "2021": 3,
+      "2022": 3,
+      "2023": 1,
+      "2024": 2,
+      "2026": 3
+    },
+    "dernier_combat": {
+      "adversaire": "Robelis Despaigne",
+      "evenement": "UFC 331",
+      "date": "19 September 2026",
+      "resultat": "Loss",
+      "methode": "Decision (split)"
+    },
+    "combats_ufc": 19,
+    "victoires_ufc": 8,
+    "defaites_ufc": 11,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 1,
+    "bonus_potn": 4,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Ciryl Gane",
+        "evenement": "UFC Fight Night: Gane vs. Tuivasa",
+        "date": "3 September 2022"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 10
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Rashad Coulter",
+      "evenement": "UFC Fight Night: Werdum vs. Tybura",
+      "date": "19 November 2017",
+      "resultat": "Win",
+      "methode": "KO (flying knee)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Performance of the Night (Four times) vs. Rashad Coulter , Greg Hardy , Augusto Sakai and Derrick Lewis",
+    "Fight of the Night (One time) vs. Ciryl Gane",
+    "Tied for fourth most consecutive knockouts in UFC history (5)",
+    "Longest losing streak in UFC Heavyweight division history (8)  Tied ( Tony Ferguson ) for the longest losing streak in UFC history (8)",
+    "Tied ( Tony Ferguson ) for the longest losing streak in UFC history (8)",
+    "UFC.com Awards 2022: Ranked #7 Fight of the Year vs. Ciryl Gane  & Ranked #8 Upset of the Year vs. Derrick Lewis",
+    "2022: Ranked #7 Fight of the Year vs. Ciryl Gane  & Ranked #8 Upset of the Year vs. Derrick Lewis",
+    "Australian Fighting Championship AFC Heavyweight Champion (One time)",
+    "AFC Heavyweight Champion (One time)",
+    "National Dreamtime Awards 2018 International Sportsperson of the Year",
+    "2018 International Sportsperson of the Year",
+    "MMAjunkie.com 2021 July Knockout of the Month vs. Greg Hardy",
+    "2021 July Knockout of the Month vs. Greg Hardy",
+    "MMA Fighting 2022 Third Team MMA All-Star",
+    "2022 Third Team MMA All-Star"
+  ],
+  "image_commons": "Tai Tuivasa at UFC 234.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Tai_Tuivasa",
+    "wikidata": "https://www.wikidata.org/wiki/Q30675529",
+    "ufc_com": "https://www.ufc.com/athlete/tai-tuivasa"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 14-11, wikipedia_infobox 14-11, ufc_com 15-11"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 57,
+    "puissance": 88,
+    "lutte": 41,
+    "soumission": 35,
+    "defense": 50,
+    "cardio": 49,
+    "menton": 65,
+    "globale": 55,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

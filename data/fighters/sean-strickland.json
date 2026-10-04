@@ -1,0 +1,202 @@
+{
+  "id": "sean-strickland",
+  "nom": "Sean Strickland",
+  "ufc_slug": "sean-strickland",
+  "wikipedia_titre": "Sean Strickland",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "moyens",
+  "statut": "actif",
+  "date_naissance": "1991-02-27",
+  "taille_cm": 185,
+  "allonge_cm": 193,
+  "style": "AMM",
+  "lieu_naissance": "États-Unis",
+  "palmares": {
+    "victoires": 31,
+    "defaites": 7,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 12,
+    "victoires_soumission": 4,
+    "victoires_decision": 15,
+    "defaites_ko": 2,
+    "defaites_soumission": 0,
+    "defaites_decision": 5
+  },
+  "stats_ufc": {
+    "frappes_par_min": 5.98,
+    "precision_frappe_pct": 43,
+    "frappes_encaissees_par_min": 4.53,
+    "defense_frappe_pct": 61.0,
+    "takedowns_par_15min": 0.66,
+    "precision_takedown_pct": 38,
+    "defense_takedown_pct": 69.0,
+    "soumissions_par_15min": 0.15,
+    "knockdowns_par_15min": 0.26,
+    "duree_moyenne_combat_s": 976,
+    "frappes_reussies": 2430.0,
+    "takedowns_reussis": 11.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 31,
+      "defaites": 7,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 12,
+        "soumission": 4,
+        "decision": 15,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 0,
+        "decision": 5,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2014": 2,
+      "2015": 2,
+      "2016": 2,
+      "2017": 2,
+      "2018": 2,
+      "2020": 2,
+      "2021": 2,
+      "2022": 3,
+      "2023": 3,
+      "2024": 2,
+      "2025": 1,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Khamzat Chimaev",
+      "evenement": "UFC 328",
+      "date": "May 9, 2026",
+      "resultat": "Win",
+      "methode": "Decision (split)"
+    },
+    "combats_ufc": 25,
+    "victoires_ufc": 18,
+    "defaites_ufc": 7,
+    "victoires_decision_5_rounds": 7,
+    "combats_5_rounds_gagnes": 7,
+    "bonus_fotn": 1,
+    "bonus_potn": 4,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Dricus du Plessis",
+        "evenement": "UFC 297",
+        "date": "January 20, 2024"
+      }
+    ],
+    "titres": [
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Middleweight Championship",
+        "evenement": "UFC 328",
+        "date": "May 9, 2026"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Middleweight Championship",
+        "evenement": "UFC 293",
+        "date": "September 10, 2023"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 12
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Bubba McDaniel",
+      "evenement": "UFC 171",
+      "date": "March 15, 2014",
+      "resultat": "Win",
+      "methode": "Submission (rear-naked choke)"
+    }
+  },
+  "champion_actuel": true,
+  "champion_division": "Poids moyens",
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "UFC Middleweight Championship (Two times, current)  The second two-time UFC Middleweight Champion (after Israel Adesanya )",
+    "The second two-time UFC Middleweight Champion (after Israel Adesanya )",
+    "Fight of the Night (One time) vs. Dricus du Plessis 1",
+    "Performance of the Night (Four times) vs. Brendan Allen , Abusupiyan Magomedov , Israel Adesanya and Anthony Hernandez",
+    "Second most significant strikes landed in UFC history (2430)",
+    "Most total strikes landed in UFC Middleweight division history (1799)",
+    "Fourth most total strikes landed in UFC history (2627)",
+    "Fourth most strikes landed-per-minute in UFC Middleweight division history (6.2)",
+    "Longest average fight time in UFC Middleweight division history (18:15)",
+    "Fifth most total fight time in UFC Middleweight division history (4:33:52)",
+    "Tied ( Gleison Tibau ) for second most split decision bouts in UFC history (7) (behind Clay Guida )",
+    "Tied ( Krzysztof Jotko & Brad Tavares ) for most split decision wins in UFC Middleweight division history (3)",
+    "Tied ( Chris Leben & Jean Silva ) for third fastest turnaround to win two fights (14 days in 2020)",
+    "Most significant strikes attempted (428) (vs. Uriah Hall )",
+    "Third most significant strikes attempted (400) (vs. Jared Cannonier )",
+    "Most significant strikes landed in a UFC Middleweight title bout (173) (vs. Dricus du Plessis 1)",
+    "Most significant head strikes landed (173) (vs. Uriah Hall )",
+    "Light Heavyweight Most significant strikes attempted (405) (vs. Nassourdine Imavov )  Most total strikes attempted (420) (vs. Nassourdine Imavov )",
+    "Most significant strikes attempted (405) (vs. Nassourdine Imavov )",
+    "Most total strikes attempted (420) (vs. Nassourdine Imavov )",
+    "UFC Honors Awards 2023: President's Choice Performance of the Year Nominee vs. Israel Adesanya",
+    "2023: President's Choice Performance of the Year Nominee vs. Israel Adesanya",
+    "UFC.com Awards 2023: Ranked No. 4 Fighter of the Year  & Ranked No. 2 Upset of the Year vs. Israel Adesanya",
+    "2023: Ranked No. 4 Fighter of the Year  & Ranked No. 2 Upset of the Year vs. Israel Adesanya",
+    "King of the Cage KOTC Middleweight Championship (One time) Five successful title defenses",
+    "KOTC Middleweight Championship (One time) Five successful title defenses",
+    "Five successful title defenses",
+    "The Sporting News 2023 Men's Fighter of the Year  2023 Upset of the Year vs. Israel Adesanya at UFC 293",
+    "2023 Men's Fighter of the Year",
+    "2023 Upset of the Year vs. Israel Adesanya at UFC 293",
+    "New York Post 2023 Upset of the Year vs. Israel Adesanya at UFC 293",
+    "2023 Upset of the Year vs. Israel Adesanya at UFC 293",
+    "MMA Junkie 2020 Comeback Fighter of the Year  2023 Male Fighter of the Year",
+    "2020 Comeback Fighter of the Year",
+    "2023 Male Fighter of the Year",
+    "Sherdog 2020 Comeback Fighter of the Year",
+    "2020 Comeback Fighter of the Year",
+    "World MMA Awards 2024 Upset of the Year vs. Israel Adesanya at UFC 293",
+    "2024 Upset of the Year vs. Israel Adesanya at UFC 293",
+    "MMA Fighting 2023 First Team MMA All-Star"
+  ],
+  "image_commons": "Sean Strickland at UFN 200.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Sean_Strickland",
+    "wikidata": "https://www.wikidata.org/wiki/Q17180973",
+    "ufc_com": "https://www.ufc.com/athlete/sean-strickland"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "champion_actuel": "ufc_com_rankings",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 67,
+    "puissance": 55,
+    "lutte": 55,
+    "soumission": 43,
+    "defense": 65,
+    "cardio": 95,
+    "menton": 80,
+    "globale": 66,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

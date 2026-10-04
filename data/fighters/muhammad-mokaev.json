@@ -1,0 +1,151 @@
+{
+  "id": "muhammad-mokaev",
+  "nom": "Muhammad Mokaev",
+  "ufc_slug": "muhammad-mokaev",
+  "wikipedia_titre": "Muhammad Mokaev",
+  "surnom": "The Punisher",
+  "sexe": "M",
+  "pays": "RU",
+  "autres_pays": [
+    "GB"
+  ],
+  "categorie": "mouche",
+  "statut": "inactif",
+  "date_naissance": "2000-07-30",
+  "taille_cm": 170,
+  "allonge_cm": 178,
+  "style": "Wrestler",
+  "lieu_naissance": null,
+  "palmares": {
+    "victoires": 17,
+    "defaites": 0,
+    "nuls": 0,
+    "sans_decision": 1,
+    "victoires_ko": 4,
+    "victoires_soumission": 7,
+    "victoires_decision": 6,
+    "defaites_ko": 0,
+    "defaites_soumission": 0,
+    "defaites_decision": 0
+  },
+  "stats_ufc": {
+    "frappes_par_min": 1.61,
+    "precision_frappe_pct": 45,
+    "frappes_encaissees_par_min": 1.35,
+    "defense_frappe_pct": 58.0,
+    "takedowns_par_15min": 5.29,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 25.0,
+    "soumissions_par_15min": 0.85,
+    "knockdowns_par_15min": 0.17,
+    "duree_moyenne_combat_s": 754,
+    "frappes_reussies": 142.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 17,
+      "defaites": 0,
+      "nuls": 0,
+      "sans_decision": 1,
+      "v": {
+        "ko": 4,
+        "soumission": 7,
+        "decision": 6,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 0,
+        "decision": 0,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2022": 3,
+      "2023": 2,
+      "2024": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Jorge Calvo",
+      "evenement": "WOW 31",
+      "date": "June 6, 2026",
+      "resultat": "Win",
+      "methode": "TKO (punches and elbows)"
+    },
+    "combats_ufc": 7,
+    "victoires_ufc": 7,
+    "defaites_ufc": 0,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 2,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "rear-naked choke",
+      "finitions": 2
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Cody Durden",
+      "evenement": "UFC Fight Night: Volkov vs. Aspinall",
+      "date": "March 19, 2022",
+      "resultat": "Win",
+      "methode": "Submission (guillotine choke)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Performance of the Night (Two times) vs. Cody Durden and Tim Elliott",
+    "Tied ( Joshua Van ) for third longest win streak in UFC Flyweight division history (7)",
+    "Tied ( Brandon Royval ) for third most submissions in UFC Flyweight division history (4)",
+    "Third highest control time percentage in UFC Flyweight division history (51.8%)",
+    "Fifth highest top-position percentage in UFC Flyweight division history (37.9%)",
+    "Third fewest strikes absorbed-per-minute in UFC Flyweight division history (1.35)",
+    "UFC Honors Awards 2022: Fan's Choice Debut of the Year Nominee vs. Cody Durden",
+    "2022: Fan's Choice Debut of the Year Nominee vs. Cody Durden",
+    "UFC.com Awards 2022: Ranked #3 Newcomer of the Year",
+    "2022: Ranked #3 Newcomer of the Year",
+    "LowKick MMA 2021 #3 Ranked Prospect of the Year",
+    "2021 #3 Ranked Prospect of the Year",
+    "MMA Fighting 2022 Third Team MMA All-Star  2023 Third Team MMA All-Star",
+    "2022 Third Team MMA All-Star",
+    "2023 Third Team MMA All-Star"
+  ],
+  "image_commons": "Возвращение на родину Мухаммад Мокаев ЛЮДИ СПОРТА 1-20.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Muhammad_Mokaev",
+    "wikidata": "https://www.wikidata.org/wiki/Q109492182",
+    "ufc_com": "https://www.ufc.com/athlete/muhammad-mokaev"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 17-0, wikipedia_infobox 17-0, ufc_com 13-0"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 49,
+    "puissance": 49,
+    "lutte": 60,
+    "soumission": 67,
+    "defense": 79,
+    "cardio": 63,
+    "menton": 99,
+    "globale": 67,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

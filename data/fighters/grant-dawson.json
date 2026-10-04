@@ -1,0 +1,145 @@
+{
+  "id": "grant-dawson",
+  "nom": "Grant Dawson",
+  "ufc_slug": "grant-dawson",
+  "wikipedia_titre": "Grant Dawson",
+  "surnom": "KGD",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "legers",
+  "statut": "actif",
+  "date_naissance": "1994-02-20",
+  "taille_cm": 178,
+  "allonge_cm": 183,
+  "style": "Wrestling",
+  "lieu_naissance": "Cambria, États-Unis",
+  "palmares": {
+    "victoires_ko": 5,
+    "victoires_soumission": 14,
+    "victoires_decision": 5,
+    "defaites_ko": 3,
+    "defaites_soumission": 0,
+    "defaites_decision": 0,
+    "nuls": 1,
+    "sans_decision": 0,
+    "victoires": 24,
+    "defaites": 3
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.14,
+    "precision_frappe_pct": 51,
+    "frappes_encaissees_par_min": 2.14,
+    "defense_frappe_pct": 45.0,
+    "takedowns_par_15min": 3.58,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 67.0,
+    "soumissions_par_15min": 1.36,
+    "knockdowns_par_15min": 0.09,
+    "duree_moyenne_combat_s": 660,
+    "frappes_reussies": 552.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 23,
+      "defaites": 3,
+      "nuls": 1,
+      "sans_decision": 0,
+      "v": {
+        "ko": 5,
+        "soumission": 13,
+        "decision": 5,
+        "autre": 0
+      },
+      "d": {
+        "ko": 3,
+        "soumission": 0,
+        "decision": 0,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2017": 1,
+      "2019": 2,
+      "2020": 2,
+      "2021": 2,
+      "2022": 2,
+      "2023": 2,
+      "2024": 2,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Mateusz Rębecki",
+      "evenement": "UFC 328",
+      "date": "May 9, 2026",
+      "resultat": "Win",
+      "methode": "Submission (rear-naked choke)"
+    },
+    "combats_ufc": 16,
+    "victoires_ufc": 13,
+    "defaites_ufc": 2,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 2,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "rear-naked choke",
+      "finitions": 11
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Adrian Diaz",
+      "evenement": "Dana White's Contender Series 1",
+      "date": "August 17, 2017",
+      "resultat": "Win",
+      "methode": "Submission (rear-naked choke)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Performance of the Night (Two times) vs. Michael Trizano and Leonardo Santos",
+    "Second highest control time percentage in UFC Lightweight division history (69.7%)",
+    "Highest top-position percentage in UFC Lightweight division history (62.3%)",
+    "Fifth most top-position time in UFC Lightweight division history (1:07:38)",
+    "UFC.com Awards 2019: Ranked #4 Newcomer of the Year",
+    "2019: Ranked #4 Newcomer of the Year"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Grant_Dawson",
+    "wikidata": "https://www.wikidata.org/wiki/Q86883135",
+    "ufc_com": "https://www.ufc.com/athlete/grant-dawson"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_infobox",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 23-3, wikipedia_infobox 24-3, ufc_com 24-3"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 60,
+    "puissance": 43,
+    "lutte": 62,
+    "soumission": 83,
+    "defense": 65,
+    "cardio": 58,
+    "menton": 67,
+    "globale": 63,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

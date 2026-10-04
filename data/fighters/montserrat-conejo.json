@@ -1,0 +1,79 @@
+{
+  "id": "montserrat-conejo",
+  "nom": "Montserrat Conejo",
+  "ufc_slug": "montserrat-conejo",
+  "surnom": null,
+  "sexe": null,
+  "pays": null,
+  "categorie": "paille_f",
+  "statut": "actif",
+  "date_naissance": null,
+  "taille_cm": 152,
+  "allonge_cm": 155,
+  "style": "MMA",
+  "lieu_naissance": "Leon, Mexico",
+  "palmares": {
+    "victoires": 10,
+    "defaites": 5,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 3,
+    "victoires_soumission": 2,
+    "victoires_decision": 5,
+    "defaites_ko": null,
+    "defaites_soumission": null,
+    "defaites_decision": null
+  },
+  "stats_ufc": {
+    "frappes_par_min": 2.21,
+    "precision_frappe_pct": 29,
+    "frappes_encaissees_par_min": 6.19,
+    "defense_frappe_pct": 44.0,
+    "takedowns_par_15min": 1.75,
+    "precision_takedown_pct": 33,
+    "defense_takedown_pct": 44.0,
+    "soumissions_par_15min": 0.58,
+    "knockdowns_par_15min": 0.0,
+    "duree_moyenne_combat_s": 618,
+    "frappes_reussies": 114.0,
+    "takedowns_reussis": 4.0
+  },
+  "ufc": {},
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [],
+  "image_commons": null,
+  "sources": {
+    "ufc_com": "https://www.ufc.com/athlete/montserrat-conejo"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "ufc_com",
+    "stats_ufc": "ufc_com"
+  },
+  "a_verifier": [
+    "palmares.defaites_decision",
+    "palmares.defaites_ko",
+    "palmares.defaites_soumission",
+    "pays",
+    "sexe"
+  ],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 65,
+    "puissance": 65,
+    "lutte": 65,
+    "soumission": 65,
+    "defense": 65,
+    "cardio": 65,
+    "menton": 65,
+    "globale": 65,
+    "style": "complet",
+    "estimees": [
+      "menton"
+    ],
+    "formule_version": 1
+  }
+}

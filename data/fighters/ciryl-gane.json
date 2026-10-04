@@ -1,0 +1,186 @@
+{
+  "id": "ciryl-gane",
+  "nom": "Ciryl Gane",
+  "ufc_slug": "ciryl-gane",
+  "wikipedia_titre": "Ciryl Gane",
+  "surnom": "Bon Gamin",
+  "surnom_wikipedia": "Bon Gamin (Good Kid)",
+  "sexe": "M",
+  "pays": "FR",
+  "categorie": "lourds",
+  "statut": "actif",
+  "date_naissance": "1990-04-12",
+  "taille_cm": 193,
+  "allonge_cm": 206,
+  "style": "Muay Thaï",
+  "lieu_naissance": "La Roche-sur-Yon, Vendée, France",
+  "palmares": {
+    "victoires": 14,
+    "defaites": 2,
+    "nuls": 0,
+    "sans_decision": 1,
+    "victoires_ko": 7,
+    "victoires_soumission": 3,
+    "victoires_decision": 4,
+    "defaites_ko": 0,
+    "defaites_soumission": 1,
+    "defaites_decision": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": 5.4,
+    "precision_frappe_pct": 62,
+    "frappes_encaissees_par_min": 2.31,
+    "defense_frappe_pct": 61.0,
+    "takedowns_par_15min": 0.66,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 47.0,
+    "soumissions_par_15min": 0.58,
+    "knockdowns_par_15min": 0.33,
+    "duree_moyenne_combat_s": 780,
+    "frappes_reussies": 983.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 14,
+      "defaites": 2,
+      "nuls": 0,
+      "sans_decision": 1,
+      "v": {
+        "ko": 7,
+        "soumission": 3,
+        "decision": 4,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 1,
+        "decision": 1,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2019": 3,
+      "2020": 1,
+      "2021": 3,
+      "2022": 2,
+      "2023": 2,
+      "2024": 1,
+      "2025": 1,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Alex Pereira",
+      "evenement": "UFC Freedom 250",
+      "date": "June 14, 2026",
+      "resultat": "Win",
+      "methode": "TKO (punches)"
+    },
+    "combats_ufc": 14,
+    "victoires_ufc": 11,
+    "defaites_ufc": 2,
+    "victoires_decision_5_rounds": 2,
+    "combats_5_rounds_gagnes": 2,
+    "bonus_fotn": 1,
+    "bonus_potn": 4,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Tai Tuivasa",
+        "evenement": "UFC Fight Night: Gane vs. Tuivasa",
+        "date": "September 3, 2022"
+      }
+    ],
+    "titres": [
+      {
+        "action": "won",
+        "interim": true,
+        "titre": "UFC Heavyweight Championship",
+        "evenement": "UFC Freedom 250",
+        "date": "June 14, 2026"
+      },
+      {
+        "action": "won",
+        "interim": true,
+        "titre": "UFC Heavyweight Championship",
+        "evenement": "UFC 265",
+        "date": "August 7, 2021"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 6
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Raphael Pessoa",
+      "evenement": "UFC Fight Night: Shevchenko vs. Carmouche 2",
+      "date": "August 10, 2019",
+      "resultat": "Win",
+      "methode": "Submission (arm-triangle choke)"
+    }
+  },
+  "champion_actuel": true,
+  "champion_division": "Heavyweight",
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "Académie Française de Muay Thai AFMT National Title +91 kg (+201 lb) (One time) One successful title defense",
+    "AFMT National Title +91 kg (+201 lb) (One time) One successful title defense",
+    "One successful title defense",
+    "UFC Heavyweight Champion (One time, current)  First French fighter to become an undisputed UFC champion",
+    "First French fighter to become an undisputed UFC champion",
+    "Interim UFC Heavyweight Championship  (Two times) First French fighter to win an interim UFC title  Second ever UFC fighter to win an Interim Championship twice (after Justin Gaethje )",
+    "First French fighter to win an interim UFC title",
+    "Second ever UFC fighter to win an Interim Championship twice (after Justin Gaethje )",
+    "Performance of the Night (Four times) vs. Don'Tale Mayes , Derrick Lewis , Serghei Spivac and Alex Pereira",
+    "Fight of the Night (One time) vs. Tai Tuivasa",
+    "Tied ( Andrei Arlovski & Cain Velasquez ) for second longest win streak in UFC Heavyweight division history (7)",
+    "Fifth most significant strikes landed in UFC Heavyweight division history (983)",
+    "Second highest significant strike accuracy in UFC Heavyweight division history (61.7%) (behind Alistair Overeem )",
+    "Fourth highest striking differential in UFC Heavyweight division history (3.09)",
+    "Fourth highest significant strike defense in UFC Heavyweight division history (60.9%)",
+    "UFC.com Awards 2019: Ranked #2 Newcomer of the Year  2021: Ranked #3 Fighter of the Year  2022: Ranked #7 Fight of the Year vs. Tai Tuivasa",
+    "2019: Ranked #2 Newcomer of the Year",
+    "2021: Ranked #3 Fighter of the Year",
+    "2022: Ranked #7 Fight of the Year vs. Tai Tuivasa",
+    "TKO Major League MMA TKO World Heavyweight Championship (One time) Two successful title defenses",
+    "TKO World Heavyweight Championship (One time) Two successful title defenses",
+    "Two successful title defenses",
+    "Sherdog 2021 Breakthrough Fighter of the Year",
+    "2021 Breakthrough Fighter of the Year",
+    "MMA Sucka 2021 Breakout Fighter of the Year",
+    "2021 Breakout Fighter of the Year"
+  ],
+  "image_commons": "Ciryl Gane in the Oval Office (while President Donald J. Trump is holding a meeting with UFC fighters).jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Ciryl_Gane",
+    "wikidata": "https://www.wikidata.org/wiki/Q79372882",
+    "ufc_com": "https://www.ufc.com/athlete/ciryl-gane"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "champion_actuel": "ufc_com_rankings",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 82,
+    "puissance": 64,
+    "lutte": 42,
+    "soumission": 54,
+    "defense": 79,
+    "cardio": 79,
+    "menton": 99,
+    "globale": 71,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

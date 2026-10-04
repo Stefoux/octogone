@@ -1,0 +1,211 @@
+{
+  "id": "deiveson-figueiredo",
+  "nom": "Deiveson Figueiredo",
+  "ufc_slug": "deiveson-figueiredo",
+  "wikipedia_titre": "Deiveson Figueiredo",
+  "surnom": "Deus da Guerra",
+  "sexe": "M",
+  "pays": "BR",
+  "categorie": "coq",
+  "statut": "actif",
+  "date_naissance": "1987-12-18",
+  "taille_cm": 165,
+  "allonge_cm": 173,
+  "style": "Boxe",
+  "lieu_naissance": "Soure, Brésil",
+  "palmares": {
+    "victoires": 25,
+    "defaites": 8,
+    "nuls": 1,
+    "sans_decision": 0,
+    "victoires_ko": 9,
+    "victoires_soumission": 9,
+    "victoires_decision": 7,
+    "defaites_ko": 3,
+    "defaites_soumission": 2,
+    "defaites_decision": 3
+  },
+  "stats_ufc": {
+    "frappes_par_min": 2.57,
+    "precision_frappe_pct": 54,
+    "frappes_encaissees_par_min": 3.43,
+    "defense_frappe_pct": 50.0,
+    "takedowns_par_15min": 1.61,
+    "precision_takedown_pct": 8,
+    "defense_takedown_pct": 57.0,
+    "soumissions_par_15min": 1.18,
+    "knockdowns_par_15min": 0.64,
+    "duree_moyenne_combat_s": 763,
+    "frappes_reussies": 718.0,
+    "takedowns_reussis": 7.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 25,
+      "defaites": 8,
+      "nuls": 1,
+      "sans_decision": 0,
+      "v": {
+        "ko": 9,
+        "soumission": 9,
+        "decision": 7,
+        "autre": 0
+      },
+      "d": {
+        "ko": 3,
+        "soumission": 2,
+        "decision": 3,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2017": 2,
+      "2018": 2,
+      "2019": 3,
+      "2020": 4,
+      "2021": 1,
+      "2022": 1,
+      "2023": 2,
+      "2024": 3,
+      "2025": 2,
+      "2026": 3
+    },
+    "dernier_combat": {
+      "adversaire": "Payton Talbott",
+      "evenement": "UFC 332",
+      "date": "October 3, 2026",
+      "resultat": "Loss",
+      "methode": "TKO (punches)"
+    },
+    "combats_ufc": 23,
+    "victoires_ufc": 14,
+    "defaites_ufc": 8,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 3,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Brandon Moreno",
+        "evenement": "UFC 270",
+        "date": "January 22, 2022"
+      },
+      {
+        "adversaire": "Brandon Moreno",
+        "evenement": "UFC 256",
+        "date": "December 12, 2020"
+      },
+      {
+        "adversaire": "Alexandre Pantoja",
+        "evenement": "UFC 240",
+        "date": "July 27, 2019"
+      }
+    ],
+    "titres": [
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Flyweight Championship",
+        "evenement": "UFC 270",
+        "date": "January 22, 2022"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Flyweight Championship",
+        "evenement": "UFC 255",
+        "date": "November 21, 2020"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 9
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Marco Beltrán",
+      "evenement": "UFC 212",
+      "date": "June 3, 2017",
+      "resultat": "Win",
+      "methode": "TKO (corner stoppage)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "Two successful title defenses (first reign)",
+    "The fastest title-fight turnaround in UFC history (21 days in 2020)",
+    "Tied ( Brandon Moreno ) for third most title fight wins in UFC Flyweight division history (3)",
+    "Fight of the Night (Three times) vs. Alexandre Pantoja and Brandon Moreno 1 & 3",
+    "Performance of the Night (One time) vs. Joseph Benavidez",
+    "Tied ( Demetrious Johnson ) for second most finishes in UFC Flyweight division history (7) (behind Alexandre Pantoja )",
+    "Fastest submission in UFC Flyweight division history (1:57) (vs. Alex Perez )",
+    "Most knockdowns landed in UFC Flyweight division history (11)",
+    "Most submission attempts in UFC Flyweight division history (20)",
+    "Sixth most wins in UFC Flyweight division history (10)",
+    "Tied ( Tatsuro Taira & Kyoji Horiguchi ) for the sixth longest win streak in UFC Flyweight division history (5)",
+    "Tied ( John Lineker , Dustin Ortiz , Alex Perez & Joshua Van ) for third most knockouts in UFC Flyweight division history (4)",
+    "Shortest span between a trilogy in UFC history (406 days)",
+    "First trilogy in UFC history consisting of both fighters' three consecutive bouts",
+    "UFC Honors Awards 2020: President's Choice Fight of the Year Nominee vs. Brandon Moreno 1",
+    "2020: President's Choice Fight of the Year Nominee vs. Brandon Moreno 1",
+    "2020: Fighter of the Year ,  Ranked #2 Fight of the Year vs. Brandon Moreno 1  & Ranked #9 Submission of the Year vs. Joseph Benavidez 2",
+    "2022: Ranked #6 Fight of the Year vs. Brandon Moreno 3",
+    "MMA Junkie 2019 July Fight of the Month vs. Alexandre Pantoja  2020 December Fight of the Month vs. Brandon Moreno  2022 January Fight of the Month vs. Brandon Moreno",
+    "2019 July Fight of the Month vs. Alexandre Pantoja",
+    "2020 December Fight of the Month vs. Brandon Moreno",
+    "2022 January Fight of the Month vs. Brandon Moreno",
+    "MMA Mania 2020 Fight of the Year vs. Brandon Moreno  2020 Fighter of the Year",
+    "2020 Fight of the Year vs. Brandon Moreno",
+    "2020 Fighter of the Year",
+    "ESPN 2020 Male Fighter of the Year",
+    "2020 Male Fighter of the Year",
+    "The Athletic 2020 Fighter of the Year",
+    "2020 Fighter of the Year",
+    "MMA Fighting 2020 Fighter of the Year  2024 Second Team MMA All-Star",
+    "2020 Fighter of the Year",
+    "2024 Second Team MMA All-Star",
+    "Combat Press 2020 Male Fighter of the Year",
+    "2020 Male Fighter of the Year",
+    "Sherdog 2020 Fighter of the Year",
+    "2020 Fighter of the Year",
+    "The Body Lock MMA 2020 Male Fighter of the Year",
+    "2020 Male Fighter of the Year",
+    "World MMA Awards 2021 Fight of the Year vs. Brandon Moreno at UFC 256",
+    "2021 Fight of the Year vs. Brandon Moreno at UFC 256"
+  ],
+  "image_commons": "Deiveson Figueiredo 2024.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Deiveson_Figueiredo",
+    "wikidata": "https://www.wikidata.org/wiki/Q48122905",
+    "ufc_com": "https://www.ufc.com/athlete/deiveson-figueiredo"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 25-8, wikipedia_infobox 25-8, ufc_com 25-7"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 59,
+    "puissance": 60,
+    "lutte": 48,
+    "soumission": 70,
+    "defense": 62,
+    "cardio": 71,
+    "menton": 70,
+    "globale": 63,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

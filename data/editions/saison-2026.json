@@ -1,0 +1,1242 @@
+{
+  "id": "saison-2026",
+  "nom": "Saison 2026",
+  "annee": 2026,
+  "type": "originale",
+  "famille_cadre": "original",
+  "date_sortie": null,
+  "description": "Édition originale : tous les combattants de la base qui ont combattu à l'UFC en 2026 (source : palmarès Wikipedia de chaque combattant).",
+  "sources": [],
+  "a_verifier": [],
+  "series": [
+    {
+      "code": "BASE",
+      "nom": "Base",
+      "type": "base",
+      "nb_cartes": 135,
+      "cote": null,
+      "exclusivite": null,
+      "tirage": null,
+      "paralleles": [],
+      "notes": [],
+      "cartes": [
+        {
+          "numero": "1",
+          "nom_imprime": "Ciryl Gane",
+          "combattants": [
+            "ciryl-gane"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "2",
+          "nom_imprime": "Carlos Ulberg",
+          "combattants": [
+            "carlos-ulberg"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "3",
+          "nom_imprime": "Sean Strickland",
+          "combattants": [
+            "sean-strickland"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "4",
+          "nom_imprime": "Islam Makhachev",
+          "combattants": [
+            "islam-makhachev"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "5",
+          "nom_imprime": "Justin Gaethje",
+          "combattants": [
+            "justin-gaethje"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "6",
+          "nom_imprime": "Alexander Volkanovski",
+          "combattants": [
+            "alexander-volkanovski"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "7",
+          "nom_imprime": "Joshua Van",
+          "combattants": [
+            "joshua-van"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "8",
+          "nom_imprime": "Mackenzie Dern",
+          "combattants": [
+            "mackenzie-dern"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "9",
+          "nom_imprime": "Aleksandar Rakić",
+          "combattants": [
+            "aleksandar-rakic"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "10",
+          "nom_imprime": "Alex Pereira",
+          "combattants": [
+            "alex-pereira"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "11",
+          "nom_imprime": "Alexander Volkov",
+          "combattants": [
+            "alexander-volkov"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "12",
+          "nom_imprime": "Curtis Blaydes",
+          "combattants": [
+            "curtis-blaydes"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "13",
+          "nom_imprime": "Derrick Lewis",
+          "combattants": [
+            "derrick-lewis"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "14",
+          "nom_imprime": "Jailton Almeida",
+          "combattants": [
+            "jailton-almeida"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "15",
+          "nom_imprime": "Johnny Walker",
+          "combattants": [
+            "johnny-walker"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "16",
+          "nom_imprime": "Marcin Tybura",
+          "combattants": [
+            "marcin-tybura"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "17",
+          "nom_imprime": "Ryan Spann",
+          "combattants": [
+            "ryan-spann"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "18",
+          "nom_imprime": "Sergei Pavlovich",
+          "combattants": [
+            "sergei-pavlovich"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "19",
+          "nom_imprime": "Serghei Spivac",
+          "combattants": [
+            "serghei-spivac"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "20",
+          "nom_imprime": "Tai Tuivasa",
+          "combattants": [
+            "tai-tuivasa"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "21",
+          "nom_imprime": "Alonzo Menifield",
+          "combattants": [
+            "alonzo-menifield"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "22",
+          "nom_imprime": "Azamat Murzakanov",
+          "combattants": [
+            "azamat-murzakanov"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "23",
+          "nom_imprime": "Dominick Reyes",
+          "combattants": [
+            "dominick-reyes"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "24",
+          "nom_imprime": "Jan Błachowicz",
+          "combattants": [
+            "jan-blachowicz"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "25",
+          "nom_imprime": "Jiří Procházka",
+          "combattants": [
+            "jiri-prochazka"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "26",
+          "nom_imprime": "Junior Tafa",
+          "combattants": [
+            "junior-tafa"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "27",
+          "nom_imprime": "Magomed Ankalaev",
+          "combattants": [
+            "magomed-ankalaev"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "28",
+          "nom_imprime": "Nikita Krylov",
+          "combattants": [
+            "nikita-krylov"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "29",
+          "nom_imprime": "Paulo Costa",
+          "combattants": [
+            "paulo-costa"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "30",
+          "nom_imprime": "Robert Whittaker",
+          "combattants": [
+            "robert-whittaker"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "31",
+          "nom_imprime": "Roman Dolidze",
+          "combattants": [
+            "roman-dolidze"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "32",
+          "nom_imprime": "Bo Nickal",
+          "combattants": [
+            "bo-nickal"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "33",
+          "nom_imprime": "Brendan Allen",
+          "combattants": [
+            "brendan-allen"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "34",
+          "nom_imprime": "Brunno Ferreira",
+          "combattants": [
+            "brunno-ferreira"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "35",
+          "nom_imprime": "Caio Borralho",
+          "combattants": [
+            "caio-borralho"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "36",
+          "nom_imprime": "Dricus du Plessis",
+          "combattants": [
+            "dricus-du-plessis"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "37",
+          "nom_imprime": "Duško Todorović",
+          "combattants": [
+            "dusko-todorovic"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "38",
+          "nom_imprime": "Israel Adesanya",
+          "combattants": [
+            "israel-adesanya"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "39",
+          "nom_imprime": "Jacob Malkoun",
+          "combattants": [
+            "jacob-malkoun"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "40",
+          "nom_imprime": "Jared Cannonier",
+          "combattants": [
+            "jared-cannonier"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "41",
+          "nom_imprime": "Joe Pyfer",
+          "combattants": [
+            "joe-pyfer"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "42",
+          "nom_imprime": "Kamaru Usman",
+          "combattants": [
+            "kamaru-usman"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "43",
+          "nom_imprime": "Kelvin Gastelum",
+          "combattants": [
+            "kelvin-gastelum"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "44",
+          "nom_imprime": "Khamzat Chimaev",
+          "combattants": [
+            "khamzat-chimaev"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "45",
+          "nom_imprime": "Marvin Vettori",
+          "combattants": [
+            "marvin-vettori"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "46",
+          "nom_imprime": "Michel Pereira",
+          "combattants": [
+            "michel-pereira"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "47",
+          "nom_imprime": "Shara Magomedov",
+          "combattants": [
+            "shara-magomedov"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "48",
+          "nom_imprime": "Val Woodburn",
+          "combattants": [
+            "val-woodburn"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "49",
+          "nom_imprime": "Vicente Luque",
+          "combattants": [
+            "vicente-luque"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "50",
+          "nom_imprime": "Belal Muhammad",
+          "combattants": [
+            "belal-muhammad"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "51",
+          "nom_imprime": "Carlston Harris",
+          "combattants": [
+            "carlston-harris"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "52",
+          "nom_imprime": "Conor McGregor",
+          "combattants": [
+            "conor-mcgregor"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "53",
+          "nom_imprime": "Elves Brener",
+          "combattants": [
+            "elves-brener"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "54",
+          "nom_imprime": "Geoff Neal",
+          "combattants": [
+            "geoff-neal"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "55",
+          "nom_imprime": "Gilbert Burns",
+          "combattants": [
+            "gilbert-burns"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "56",
+          "nom_imprime": "Ian Machado Garry",
+          "combattants": [
+            "ian-machado-garry"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "57",
+          "nom_imprime": "Jack Della Maddalena",
+          "combattants": [
+            "jack-della-maddalena"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "58",
+          "nom_imprime": "Jonny Parsons",
+          "combattants": [
+            "jonny-parsons"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "59",
+          "nom_imprime": "Josh Quinlan",
+          "combattants": [
+            "josh-quinlan"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "60",
+          "nom_imprime": "Kevin Holland",
+          "combattants": [
+            "kevin-holland"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "61",
+          "nom_imprime": "Michael Chiesa",
+          "combattants": [
+            "michael-chiesa"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "62",
+          "nom_imprime": "Mike Malott",
+          "combattants": [
+            "mike-malott"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "63",
+          "nom_imprime": "Neil Magny",
+          "combattants": [
+            "neil-magny"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "64",
+          "nom_imprime": "Sean Brady",
+          "combattants": [
+            "sean-brady"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "65",
+          "nom_imprime": "Themba Gorimbo",
+          "combattants": [
+            "themba-gorimbo"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "66",
+          "nom_imprime": "Arman Tsarukyan",
+          "combattants": [
+            "arman-tsarukyan"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "67",
+          "nom_imprime": "Beneil Dariush",
+          "combattants": [
+            "beneil-dariush"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "68",
+          "nom_imprime": "Charles Oliveira",
+          "combattants": [
+            "charles-oliveira"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "69",
+          "nom_imprime": "Dan Hooker",
+          "combattants": [
+            "dan-hooker"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "70",
+          "nom_imprime": "Grant Dawson",
+          "combattants": [
+            "grant-dawson"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "71",
+          "nom_imprime": "Ilia Topuria",
+          "combattants": [
+            "ilia-topuria"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "72",
+          "nom_imprime": "Jalin Turner",
+          "combattants": [
+            "jalin-turner"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "73",
+          "nom_imprime": "Manuel Torres",
+          "combattants": [
+            "manuel-torres"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "74",
+          "nom_imprime": "Mateusz Gamrot",
+          "combattants": [
+            "mateusz-gamrot"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "75",
+          "nom_imprime": "Mateusz Rebecki",
+          "combattants": [
+            "mateusz-rebecki"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "76",
+          "nom_imprime": "Max Holloway",
+          "combattants": [
+            "max-holloway"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "77",
+          "nom_imprime": "Michael Chandler",
+          "combattants": [
+            "michael-chandler"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "78",
+          "nom_imprime": "Mike Davis",
+          "combattants": [
+            "mike-davis"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "79",
+          "nom_imprime": "Paddy Pimblett",
+          "combattants": [
+            "paddy-pimblett"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "80",
+          "nom_imprime": "Rafael Fiziev",
+          "combattants": [
+            "rafael-fiziev"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "81",
+          "nom_imprime": "Rafael dos Anjos",
+          "combattants": [
+            "rafael-dos-anjos"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "82",
+          "nom_imprime": "Renato Moicano",
+          "combattants": [
+            "renato-moicano"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "83",
+          "nom_imprime": "Ľudovít Klein",
+          "combattants": [
+            "ludovit-klein"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "84",
+          "nom_imprime": "Aljamain Sterling",
+          "combattants": [
+            "aljamain-sterling"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "85",
+          "nom_imprime": "Arnold Allen",
+          "combattants": [
+            "arnold-allen"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "86",
+          "nom_imprime": "Dan Ige",
+          "combattants": [
+            "dan-ige"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "87",
+          "nom_imprime": "Diego Lopes",
+          "combattants": [
+            "diego-lopes"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "88",
+          "nom_imprime": "Giga Chikadze",
+          "combattants": [
+            "giga-chikadze"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "89",
+          "nom_imprime": "Jamall Emmers",
+          "combattants": [
+            "jamall-emmers"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "90",
+          "nom_imprime": "Josh Emmett",
+          "combattants": [
+            "josh-emmett"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "91",
+          "nom_imprime": "Miles Johns",
+          "combattants": [
+            "miles-johns"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "92",
+          "nom_imprime": "Movsar Evloev",
+          "combattants": [
+            "movsar-evloev"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "93",
+          "nom_imprime": "William Gomis",
+          "combattants": [
+            "william-gomis"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "94",
+          "nom_imprime": "Adrian Yanez",
+          "combattants": [
+            "adrian-yanez"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "95",
+          "nom_imprime": "Bryce Mitchell",
+          "combattants": [
+            "bryce-mitchell"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "96",
+          "nom_imprime": "Cody Garbrandt",
+          "combattants": [
+            "cody-garbrandt"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "97",
+          "nom_imprime": "Cory Sandhagen",
+          "combattants": [
+            "cory-sandhagen"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "98",
+          "nom_imprime": "Da'Mon Blackshear",
+          "combattants": [
+            "da-mon-blackshear"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "99",
+          "nom_imprime": "Deiveson Figueiredo",
+          "combattants": [
+            "deiveson-figueiredo"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "100",
+          "nom_imprime": "Jake Hadley",
+          "combattants": [
+            "jake-hadley"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "101",
+          "nom_imprime": "Marlon Vera",
+          "combattants": [
+            "marlon-vera"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "102",
+          "nom_imprime": "Raul Rosas",
+          "combattants": [
+            "raul-rosas"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "103",
+          "nom_imprime": "Ricky Simon",
+          "combattants": [
+            "ricky-simon"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "104",
+          "nom_imprime": "Rob Font",
+          "combattants": [
+            "rob-font"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "105",
+          "nom_imprime": "Sean O'Malley",
+          "combattants": [
+            "sean-o-malley"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "106",
+          "nom_imprime": "Song Yadong",
+          "combattants": [
+            "song-yadong"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "107",
+          "nom_imprime": "Umar Nurmagomedov",
+          "combattants": [
+            "umar-nurmagomedov"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "108",
+          "nom_imprime": "Alex Perez",
+          "combattants": [
+            "alex-perez"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "109",
+          "nom_imprime": "Alexandre Pantoja",
+          "combattants": [
+            "alexandre-pantoja"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "110",
+          "nom_imprime": "Allan Nascimento",
+          "combattants": [
+            "allan-nascimento"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "111",
+          "nom_imprime": "Amir Albazi",
+          "combattants": [
+            "amir-albazi"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "112",
+          "nom_imprime": "Brandon Moreno",
+          "combattants": [
+            "brandon-moreno"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "113",
+          "nom_imprime": "Brandon Royval",
+          "combattants": [
+            "brandon-royval"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "114",
+          "nom_imprime": "Manel Kape",
+          "combattants": [
+            "manel-kape"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "115",
+          "nom_imprime": "Matt Schnell",
+          "combattants": [
+            "matt-schnell"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "116",
+          "nom_imprime": "Ode Osbourne",
+          "combattants": [
+            "ode-osbourne"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "117",
+          "nom_imprime": "Tatsuro Taira",
+          "combattants": [
+            "tatsuro-taira"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "118",
+          "nom_imprime": "Tim Elliott",
+          "combattants": [
+            "tim-elliott"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "119",
+          "nom_imprime": "Joselyne Edwards",
+          "combattants": [
+            "joselyne-edwards"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "120",
+          "nom_imprime": "Ketlen Vieira",
+          "combattants": [
+            "ketlen-vieira"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "121",
+          "nom_imprime": "Alexa Grasso",
+          "combattants": [
+            "alexa-grasso"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "122",
+          "nom_imprime": "Casey O'Neill",
+          "combattants": [
+            "casey-o-neill"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "123",
+          "nom_imprime": "Manon Fiorot",
+          "combattants": [
+            "manon-fiorot"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "124",
+          "nom_imprime": "Maycee Barber",
+          "combattants": [
+            "maycee-barber"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "125",
+          "nom_imprime": "Mayra Bueno",
+          "combattants": [
+            "mayra-bueno"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "126",
+          "nom_imprime": "Melissa Gatto",
+          "combattants": [
+            "melissa-gatto"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "127",
+          "nom_imprime": "Natália Silva",
+          "combattants": [
+            "natalia-silva"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "128",
+          "nom_imprime": "Rose Namajunas",
+          "combattants": [
+            "rose-namajunas"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "129",
+          "nom_imprime": "Amanda Lemos",
+          "combattants": [
+            "amanda-lemos"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "130",
+          "nom_imprime": "Angela Hill",
+          "combattants": [
+            "angela-hill"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "131",
+          "nom_imprime": "Tabatha Ricci",
+          "combattants": [
+            "tabatha-ricci"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "132",
+          "nom_imprime": "Tatiana Suarez",
+          "combattants": [
+            "tatiana-suarez"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "133",
+          "nom_imprime": "Vanessa Demopoulos",
+          "combattants": [
+            "vanessa-demopoulos"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "134",
+          "nom_imprime": "Virna Jandiroba",
+          "combattants": [
+            "virna-jandiroba"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "135",
+          "nom_imprime": "Yan Xiaonan",
+          "combattants": [
+            "yan-xiaonan"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        }
+      ],
+      "source": null
+    }
+  ]
+}

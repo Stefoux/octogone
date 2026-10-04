@@ -1,0 +1,140 @@
+{
+  "id": "ottman-azaitar",
+  "nom": "Ottman Azaitar",
+  "ufc_slug": "ottman-azaitar",
+  "wikipedia_titre": "Ottman Azaitar",
+  "surnom": "Bulldozer",
+  "sexe": "M",
+  "pays": "MA",
+  "autres_pays": [
+    "DE"
+  ],
+  "categorie": "legers",
+  "statut": "actif",
+  "date_naissance": "1990-02-20",
+  "taille_cm": 173,
+  "allonge_cm": 180,
+  "style": "Freestyle",
+  "lieu_naissance": "Rabat, Morocco",
+  "palmares": {
+    "victoires": 13,
+    "defaites": 3,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 10,
+    "victoires_soumission": 2,
+    "victoires_decision": 1,
+    "defaites_ko": 3,
+    "defaites_soumission": 0,
+    "defaites_decision": 0
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.43,
+    "precision_frappe_pct": 45,
+    "frappes_encaissees_par_min": 4.11,
+    "defense_frappe_pct": 52.0,
+    "takedowns_par_15min": 0.0,
+    "precision_takedown_pct": null,
+    "defense_takedown_pct": 100.0,
+    "soumissions_par_15min": 0.0,
+    "knockdowns_par_15min": 0.8,
+    "duree_moyenne_combat_s": 225,
+    "frappes_reussies": 83.0,
+    "takedowns_reussis": null
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 13,
+      "defaites": 3,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 10,
+        "soumission": 2,
+        "decision": 1,
+        "autre": 0
+      },
+      "d": {
+        "ko": 3,
+        "soumission": 0,
+        "decision": 0,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2019": 1,
+      "2020": 1,
+      "2022": 1,
+      "2023": 1,
+      "2024": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Michael Johnson",
+      "evenement": "UFC on ESPN: Covington vs. Buckley",
+      "date": "December 14, 2024",
+      "resultat": "Loss",
+      "methode": "KO (punch)"
+    },
+    "combats_ufc": 5,
+    "victoires_ufc": 2,
+    "defaites_ufc": 3,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 2,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 9
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Teemu Packalén",
+      "evenement": "UFC 242",
+      "date": "September 7, 2019",
+      "resultat": "Win",
+      "methode": "KO (punch)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Ultimate Fighting Championship Performance of the Night (Two time) vs. Teemu Packalén and Khama Worthy",
+    "Performance of the Night (Two time) vs. Teemu Packalén and Khama Worthy",
+    "Brave Combat Federation BRAVE Combat Federation Lightweight Championship (One time)",
+    "BRAVE Combat Federation Lightweight Championship (One time)"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Ottman_Azaitar",
+    "wikidata": "https://www.wikidata.org/wiki/Q28329588",
+    "ufc_com": "https://www.ufc.com/athlete/ottman-azaitar"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 62,
+    "puissance": 80,
+    "lutte": 63,
+    "soumission": 48,
+    "defense": 61,
+    "cardio": 43,
+    "menton": 56,
+    "globale": 59,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

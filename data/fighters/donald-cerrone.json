@@ -1,0 +1,241 @@
+{
+  "id": "donald-cerrone",
+  "nom": "Donald Cerrone",
+  "ufc_slug": "donald-cerrone",
+  "wikipedia_titre": "Donald Cerrone",
+  "surnom": "Cowboy",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "mi_moyens",
+  "statut": "retraite",
+  "date_naissance": "1983-03-29",
+  "taille_cm": 185,
+  "allonge_cm": 185,
+  "style": "Muay Thaï",
+  "lieu_naissance": "Denver, États-Unis",
+  "palmares": {
+    "victoires": 36,
+    "defaites": 17,
+    "nuls": 0,
+    "sans_decision": 2,
+    "victoires_ko": 10,
+    "victoires_soumission": 17,
+    "victoires_decision": 9,
+    "defaites_ko": 8,
+    "defaites_soumission": 2,
+    "defaites_decision": 6
+  },
+  "stats_ufc": {
+    "frappes_par_min": null,
+    "precision_frappe_pct": null,
+    "frappes_encaissees_par_min": null,
+    "defense_frappe_pct": null,
+    "takedowns_par_15min": null,
+    "precision_takedown_pct": null,
+    "defense_takedown_pct": null,
+    "soumissions_par_15min": null,
+    "knockdowns_par_15min": null,
+    "duree_moyenne_combat_s": null,
+    "frappes_reussies": null,
+    "takedowns_reussis": null
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 36,
+      "defaites": 17,
+      "nuls": 0,
+      "sans_decision": 2,
+      "v": {
+        "ko": 10,
+        "soumission": 17,
+        "decision": 9,
+        "autre": 0
+      },
+      "d": {
+        "ko": 8,
+        "soumission": 2,
+        "decision": 6,
+        "autre": 1
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2011": 5,
+      "2012": 2,
+      "2013": 4,
+      "2014": 4,
+      "2015": 4,
+      "2016": 4,
+      "2017": 3,
+      "2018": 3,
+      "2019": 4,
+      "2020": 3,
+      "2021": 1,
+      "2022": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Jim Miller",
+      "evenement": "UFC 276",
+      "date": "July 2, 2022",
+      "resultat": "Loss",
+      "methode": "Submission (guillotine choke)"
+    },
+    "combats_ufc": 38,
+    "victoires_ufc": 23,
+    "defaites_ufc": 14,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 11,
+    "bonus_potn": 7,
+    "bonus_kotn": 3,
+    "bonus_sotn": 2,
+    "combats_fotn": [
+      {
+        "adversaire": "Tony Ferguson",
+        "evenement": "UFC 238",
+        "date": "June 8, 2019"
+      },
+      {
+        "adversaire": "Al Iaquinta",
+        "evenement": "UFC Fight Night: Iaquinta vs. Cowboy",
+        "date": "May 4, 2019"
+      },
+      {
+        "adversaire": "Alexander Hernandez",
+        "evenement": "UFC Fight Night: Cejudo vs. Dillashaw",
+        "date": "January 19, 2019"
+      },
+      {
+        "adversaire": "Melvin Guillard",
+        "evenement": "UFC 150",
+        "date": "August 11, 2012"
+      },
+      {
+        "adversaire": "Nate Diaz",
+        "evenement": "UFC 141",
+        "date": "December 30, 2011"
+      },
+      {
+        "adversaire": "Paul Kelly",
+        "evenement": "UFC 126",
+        "date": "February 5, 2011"
+      },
+      {
+        "adversaire": "Jamie Varner",
+        "evenement": "WEC 51",
+        "date": "September 30, 2010"
+      },
+      {
+        "adversaire": "Ed Ratcliff",
+        "evenement": "WEC 45",
+        "date": "December 19, 2009"
+      },
+      {
+        "adversaire": "Benson Henderson",
+        "evenement": "WEC 43",
+        "date": "October 10, 2009"
+      },
+      {
+        "adversaire": "Jamie Varner",
+        "evenement": "WEC 38",
+        "date": "January 25, 2009"
+      },
+      {
+        "adversaire": "Rob McCullough",
+        "evenement": "WEC 36",
+        "date": "November 5, 2008"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "triangle choke",
+      "finitions": 8
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Paul Kelly",
+      "evenement": "UFC 126",
+      "date": "February 5, 2011",
+      "resultat": "Win",
+      "methode": "Submission (rear-naked choke)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Dominion Warrior Inc Dominion Warrior Muay Thai World Lightweight (-73.4 kg/162 lb) Championship (One time)",
+    "Dominion Warrior Muay Thai World Lightweight (-73.4 kg/162 lb) Championship (One time)",
+    "International Sport Karate Association ISKA Amateur Colorado State Middleweight (-75 kg/165 lb) Oriental Championship (One time)",
+    "ISKA Amateur Colorado State Middleweight (-75 kg/165 lb) Oriental Championship (One time)",
+    "Kickdown Classic KDC Amateur Welterweight Championship (One time)",
+    "KDC Amateur Welterweight Championship (One time)",
+    "S-1 2006 S-1 Muay Thai U.S. Lightweight (-73.4 kg/162 lb) Tournament Championship 270",
+    "2006 S-1 Muay Thai U.S. Lightweight (-73.4 kg/162 lb) Tournament Championship 270",
+    "UFC Hall of Fame (Modern wing, Class of 2023)",
+    "Tied ( Justin Gaethje ) for second most Fight of the Night bonuses in UFC/WEC history (11) (behind Cub Swanson )",
+    "Knockout of the Night (Three times) vs. Charles Oliveira , Melvin Guillard , & Adriano Martins",
+    "Submission of the Night (Two times) vs. Dennis Siver & Evan Dunham",
+    "Most Post-Fight bonuses in UFC/WEC combined history (23)",
+    "Second most Post-Fight bonus awards in UFC history (18)",
+    "Tied ( Conor McGregor , Ovince Saint Preux , Tom Aspinall , Carlos Prates & Song Yadong ) for fourth most Performance of the Night bonuses in UFC history (7)",
+    "Fifth most Post-Fight bonuses in UFC Lightweight division history (14)",
+    "Tied ( Beneil Dariush ) for third most wins in UFC Lightweight division history (17)",
+    "Most wins in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (29)",
+    "Tied ( Neil Magny ) for third most bouts in UFC history (38)  Most bouts in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (48)",
+    "Most bouts in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (48)",
+    "Tied ( Tony Ferguson , Islam Makhachev & Dustin Poirier ) for fifth most finishes in UFC Lightweight division history (10)",
+    "Tied ( Wanderlei Silva & Jim Miller ) for third most finishes in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (20) (behind Mirko Cro Cop & Charles Oliveira )",
+    "Tied ( Michał Oleksiejczuk , Francis Ngannou , Joe Lauzon and Terrance McKinney ) for sixth most first-round finishes in UFC history (8)",
+    "Most knockdowns in UFC history (20)  Tied ( Dustin Poirier ) for third most knockdowns landed in UFC Lightweight division history (11)",
+    "Tied ( Dustin Poirier ) for third most knockdowns landed in UFC Lightweight division history (11)",
+    "Most head kick knockouts in UFC and Zuffa, LLC history (6)  Second most knockdowns in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (25)",
+    "Second most knockdowns in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (25)",
+    "2011: Ranked No. 4 Import of the Year ,  Ranked No. 9 Fighter of the Year  & Ranked No. 6 Fight of the Year vs. Nate Diaz",
+    "2012: Ranked No. 7 Knockout of the Year vs. Melvin Guillard",
+    "2014: Ranked No. 4 Fighter of the Year",
+    "2016: Ranked No. 9 Fighter of the Year ,  Ranked No. 8 Fight of the Year  & Ranked No. 6 Knockout of the Year vs. Matt Brown",
+    "2018: Ranked No. 10 Submission of the Year vs. Mike Perry",
+    "2019: Ranked No. 9 Fight of the Year vs. Tony Ferguson",
+    "World Extreme Cagefighting Fight of the Night (Five times) vs. Rob McCullough , Jamie Varner (2), Benson Henderson , & Ed Ratcliff      Most Fight of the Night awards in WEC history (5)",
+    "Fight of the Night (Five times) vs. Rob McCullough , Jamie Varner (2), Benson Henderson , & Ed Ratcliff",
+    "Most Fight of the Night awards in WEC history (5)",
+    "Ring of Fire Ring of Fire Lightweight Champion (one time; former)",
+    "Ring of Fire Lightweight Champion (one time; former)",
+    "ESPN 2018 Submission of the Year vs. Mike Perry at UFC Fight Night: The Korean Zombie vs. Rodríguez",
+    "2018 Submission of the Year vs. Mike Perry at UFC Fight Night: The Korean Zombie vs. Rodríguez"
+  ],
+  "image_commons": "Donald \"Cowboy\" Cerrone.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Donald_Cerrone",
+    "wikidata": "https://www.wikidata.org/wiki/Q2057895",
+    "ufc_com": "https://www.ufc.com/athlete/donald-cerrone"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "stats_ufc (absentes de la fiche ufc.com)"
+  ],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 65,
+    "puissance": 49,
+    "lutte": 65,
+    "soumission": 83,
+    "defense": 65,
+    "cardio": 54,
+    "menton": 44,
+    "globale": 61,
+    "style": "grappler",
+    "estimees": [
+      "frappe",
+      "lutte",
+      "defense"
+    ],
+    "formule_version": 1
+  }
+}

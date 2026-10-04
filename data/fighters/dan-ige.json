@@ -1,0 +1,144 @@
+{
+  "id": "dan-ige",
+  "nom": "Dan Ige",
+  "ufc_slug": "dan-ige",
+  "wikipedia_titre": "Dan Ige",
+  "surnom": "100 Grand",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "plume",
+  "statut": "actif",
+  "date_naissance": "1991-08-06",
+  "taille_cm": 170,
+  "allonge_cm": 180,
+  "style": "Jiu-Jitsu",
+  "lieu_naissance": "San Clemente, United States",
+  "palmares": {
+    "victoires": 19,
+    "defaites": 12,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 7,
+    "victoires_soumission": 5,
+    "victoires_decision": 7,
+    "defaites_ko": 1,
+    "defaites_soumission": 0,
+    "defaites_decision": 11
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.51,
+    "precision_frappe_pct": 44,
+    "frappes_encaissees_par_min": 3.56,
+    "defense_frappe_pct": 57.0,
+    "takedowns_par_15min": 0.88,
+    "precision_takedown_pct": 3,
+    "defense_takedown_pct": 55.0,
+    "soumissions_par_15min": 0.21,
+    "knockdowns_par_15min": 0.42,
+    "duree_moyenne_combat_s": 754,
+    "frappes_reussies": 1014.0,
+    "takedowns_reussis": 2.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 19,
+      "defaites": 12,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 7,
+        "soumission": 5,
+        "decision": 7,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 0,
+        "decision": 11,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2017": 1,
+      "2018": 3,
+      "2019": 2,
+      "2020": 3,
+      "2021": 3,
+      "2022": 1,
+      "2023": 3,
+      "2024": 3,
+      "2025": 2,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "David Martínez",
+      "evenement": "UFC Fight Night: Silva vs. Delgado",
+      "date": "September 12, 2026",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 23,
+    "victoires_ufc": 12,
+    "defaites_ufc": 11,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 4,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 7
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Luis Gomez",
+      "evenement": "Dana White's Contender Series 3",
+      "date": "July 25, 2017",
+      "resultat": "Win",
+      "methode": "Submission (rear-naked choke)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Performance of the Night (Four times) vs. Danny Henry , Gavin Tucker , Damon Jackson and Andre Fili",
+    "Tied ( Choi Doo-ho ) for fifth most knockouts in UFC Featherweight division history (5)",
+    "BodySlam.net 2024 Moment of the Year Fought on just hours notice at UFC 303",
+    "2024 Moment of the Year Fought on just hours notice at UFC 303"
+  ],
+  "image_commons": "Dan Ige at UFC Fight Night 147 in London.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Dan_Ige",
+    "wikidata": "https://www.wikidata.org/wiki/Q48226886",
+    "ufc_com": "https://www.ufc.com/athlete/dan-ige"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 19-12, wikipedia_infobox 19-12, ufc_com 19-10"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 54,
+    "puissance": 57,
+    "lutte": 44,
+    "soumission": 51,
+    "defense": 68,
+    "cardio": 63,
+    "menton": 89,
+    "globale": 61,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

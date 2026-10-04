@@ -1,0 +1,213 @@
+{
+  "id": "dricus-du-plessis",
+  "nom": "Dricus du Plessis",
+  "ufc_slug": "dricus-du-plessis",
+  "wikipedia_titre": "Dricus du Plessis",
+  "surnom": "Stillknocks",
+  "sexe": "M",
+  "pays": "ZA",
+  "categorie": "moyens",
+  "statut": "actif",
+  "date_naissance": "1994-01-14",
+  "taille_cm": 185,
+  "allonge_cm": 193,
+  "style": "AMM",
+  "lieu_naissance": "Welkom, Afrique du Sud",
+  "palmares": {
+    "victoires": 24,
+    "defaites": 3,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 9,
+    "victoires_soumission": 11,
+    "victoires_decision": 4,
+    "defaites_ko": 1,
+    "defaites_soumission": 1,
+    "defaites_decision": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": 5.21,
+    "precision_frappe_pct": 49,
+    "frappes_encaissees_par_min": 4.24,
+    "defense_frappe_pct": 54.0,
+    "takedowns_par_15min": 1.9,
+    "precision_takedown_pct": 4,
+    "defense_takedown_pct": 50.0,
+    "soumissions_par_15min": 0.6,
+    "knockdowns_par_15min": 0.35,
+    "duree_moyenne_combat_s": 948,
+    "frappes_reussies": 906.0,
+    "takedowns_reussis": 2.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 24,
+      "defaites": 3,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 9,
+        "soumission": 11,
+        "decision": 4,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 1,
+        "decision": 1,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2020": 1,
+      "2021": 1,
+      "2022": 2,
+      "2023": 2,
+      "2024": 2,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Kamaru Usman",
+      "evenement": "UFC Fight Night: du Plessis vs. Usman",
+      "date": "18 July 2026",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 11,
+    "victoires_ufc": 10,
+    "defaites_ufc": 1,
+    "victoires_decision_5_rounds": 3,
+    "combats_5_rounds_gagnes": 4,
+    "bonus_fotn": 4,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Kamaru Usman",
+        "evenement": "UFC Fight Night: du Plessis vs. Usman",
+        "date": "18 July 2026"
+      },
+      {
+        "adversaire": "Sean Strickland",
+        "evenement": "UFC 297",
+        "date": "20 January 2024"
+      },
+      {
+        "adversaire": "Darren Till",
+        "evenement": "UFC 282",
+        "date": "10 December 2022"
+      },
+      {
+        "adversaire": "Roberto Soldić",
+        "evenement": "KSW 45",
+        "date": "6 October 2018"
+      }
+    ],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Middleweight Championship",
+        "evenement": "UFC 312",
+        "date": "9 February 2025"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Middleweight Championship",
+        "evenement": "UFC 305",
+        "date": "18 August 2024"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Middleweight Championship",
+        "evenement": "UFC 297",
+        "date": "20 January 2024"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 8
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Markus Perez",
+      "evenement": "UFC Fight Night: Moraes vs. Sandhagen",
+      "date": "11 October 2020",
+      "resultat": "Win",
+      "methode": "KO (punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "World Association of Kickboxing Organizations 2012 Junior World Championships - 1st place, -86 kg (K-1 rules)",
+    "2012 Junior World Championships - 1st place, -86 kg (K-1 rules)",
+    "Two successful title defences",
+    "First South African fighter to win a UFC championship",
+    "Tied ( Rich Franklin ) for fourth most UFC middleweight title wins (3)",
+    "Fight of the Night (Three times) vs. Darren Till , Sean Strickland 1 and Kamaru Usman",
+    "Performance of the Night (Two times) vs. Trevin Giles and Robert Whittaker",
+    "Tied ( Chris Weidman ) for third longest win streak in UFC Middleweight division history (9)",
+    "Holds wins over four former UFC champions — vs. Robert Whittaker , Israel Adesanya , Sean Strickland (x2) and Kamaru Usman",
+    "UFC Honors Awards 2024: Fan's Choice Submission of the Year Nominee vs. Israel Adesanya",
+    "2024: Fan's Choice Submission of the Year Nominee vs. Israel Adesanya",
+    "2023: Ranked #9 Upset of the Year vs. Robert Whittaker",
+    "2024: Ranked #5 Fighter of the Year ,  Ranked #4 Submission of the Year vs. Israel Adesanya  & Ranked #10 Fight of the Year vs. Israel Adesanya",
+    "Extreme Fighting Championship EFC Middleweight Champion (One time; former) One title defence EFC Welterweight Champion (One time; former) One title defence",
+    "EFC Middleweight Champion (One time; former) One title defence",
+    "One title defence",
+    "EFC Welterweight Champion (One time; former) One title defence",
+    "One title defence",
+    "Konfrontacja Sztuk Walki KSW Welterweight Champion (One time; former) Fight of the Night (One time) vs. Roberto Soldić Performance of the Night (One time) vs. Roberto Soldić",
+    "KSW Welterweight Champion (One time; former)",
+    "Fight of the Night (One time) vs. Roberto Soldić",
+    "Performance of the Night (One time) vs. Roberto Soldić",
+    "World MMA Awards 2024 International Fighter of the Year",
+    "2024 International Fighter of the Year",
+    "Combat Press 2023 Breakout Fighter of the Year",
+    "2023 Breakout Fighter of the Year",
+    "ESPN 2024 Submission of the Year vs. Israel Adesanya",
+    "2024 Submission of the Year vs. Israel Adesanya",
+    "MMA Fighting 2023 Second Team MMA All-Star  2024 First Team MMA All-Star",
+    "2023 Second Team MMA All-Star",
+    "2024 First Team MMA All-Star",
+    "MMA Mania 2024 #3 Ranked Fighter of the Year",
+    "2024 #3 Ranked Fighter of the Year",
+    "Sportsnaut 2023 UFC Breakout Fighter of the Year",
+    "2023 UFC Breakout Fighter of the Year"
+  ],
+  "image_commons": "IMG-Dricus-Duplessis(cropped).jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Dricus_du_Plessis",
+    "wikidata": "https://www.wikidata.org/wiki/Q48870794",
+    "ufc_com": "https://www.ufc.com/athlete/dricus-du-plessis"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 68,
+    "puissance": 57,
+    "lutte": 49,
+    "soumission": 66,
+    "defense": 61,
+    "cardio": 92,
+    "menton": 88,
+    "globale": 69,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

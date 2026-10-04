@@ -1,0 +1,201 @@
+{
+  "id": "leon-edwards",
+  "nom": "Leon Edwards",
+  "ufc_slug": "leon-edwards",
+  "wikipedia_titre": "Leon Edwards",
+  "surnom": "Rocky",
+  "sexe": "M",
+  "pays": "GB",
+  "categorie": "mi_moyens",
+  "statut": "actif",
+  "date_naissance": "1991-08-25",
+  "taille_cm": 183,
+  "allonge_cm": 188,
+  "style": "AMM",
+  "lieu_naissance": "Kingston, Jamaïque",
+  "palmares": {
+    "victoires": 22,
+    "defaites": 6,
+    "nuls": 0,
+    "sans_decision": 1,
+    "victoires_ko": 7,
+    "victoires_soumission": 3,
+    "victoires_decision": 11,
+    "defaites_ko": 1,
+    "defaites_soumission": 1,
+    "defaites_decision": 3
+  },
+  "stats_ufc": {
+    "frappes_par_min": 2.6,
+    "precision_frappe_pct": 54,
+    "frappes_encaissees_par_min": 2.44,
+    "defense_frappe_pct": 53.0,
+    "takedowns_par_15min": 1.25,
+    "precision_takedown_pct": 16,
+    "defense_takedown_pct": 64.0,
+    "soumissions_par_15min": 0.36,
+    "knockdowns_par_15min": 0.22,
+    "duree_moyenne_combat_s": 1007,
+    "frappes_reussies": 873.0,
+    "takedowns_reussis": 12.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 22,
+      "defaites": 6,
+      "nuls": 0,
+      "sans_decision": 1,
+      "v": {
+        "ko": 7,
+        "soumission": 3,
+        "decision": 11,
+        "autre": 1
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 1,
+        "decision": 3,
+        "autre": 1
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2014": 1,
+      "2015": 3,
+      "2016": 2,
+      "2017": 2,
+      "2018": 2,
+      "2019": 2,
+      "2021": 2,
+      "2022": 1,
+      "2023": 2,
+      "2024": 1,
+      "2025": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Carlos Prates",
+      "evenement": "UFC 322",
+      "date": "15 November 2025",
+      "resultat": "Loss",
+      "methode": "KO (punches)"
+    },
+    "combats_ufc": 20,
+    "victoires_ufc": 14,
+    "defaites_ufc": 5,
+    "victoires_decision_5_rounds": 5,
+    "combats_5_rounds_gagnes": 6,
+    "bonus_fotn": 0,
+    "bonus_potn": 2,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Welterweight Championship",
+        "evenement": "UFC 296",
+        "date": "16 December 2023"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Welterweight Championship",
+        "evenement": "UFC 286",
+        "date": "18 March 2023"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Welterweight Championship",
+        "evenement": "UFC 278",
+        "date": "20 August 2022"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 5
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Cláudio Silva",
+      "evenement": "UFC Fight Night: Shogun vs. Saint Preux",
+      "date": "8 November 2014",
+      "resultat": "Loss",
+      "methode": "Decision (split)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "Two successful title defenses",
+    "First Jamaican-born champion in UFC history",
+    "One of three undisputed British champions in UFC history (with Michael Bisping and Tom Aspinall )",
+    "Performance of the Night (Two Times) vs. Seth Baczynski and Kamaru Usman 2",
+    "Sixth-fastest finish in UFC history vs. Seth Baczynski (8 seconds)",
+    "Second longest unbeaten streak in UFC Welterweight Division history (13) (behind Kamaru Usman )",
+    "Tied ( Kamaru Usman ) for fourth most decision wins in UFC Welterweight division history (10)",
+    "Tied ( Ian Machado Garry & Jack Della Maddalena ) for the third longest win streak in UFC Welterweight division history (8)",
+    "Latest knockout & finish in UFC Welterweight division history (0:01 remaining vs. Peter Sobotta )",
+    "UFC Honors Awards 2022: Fan's Choice Knockout of the Year Winner vs. Kamaru Usman 2  & Fan's Choice Comeback of the Year Winner vs. Kamaru Usman 2",
+    "2022: Fan's Choice Knockout of the Year Winner vs. Kamaru Usman 2  & Fan's Choice Comeback of the Year Winner vs. Kamaru Usman 2",
+    "2022: Ranked #5 Fighter of the Year ,  Upset of the Year  & Knockout of the Year vs. Kamaru Usman 2",
+    "2023: Ranked #3 Fighter of the Year  & Ranked #6 Upset of the Year vs. Kamaru Usman 3",
+    "BAMMA BAMMA RDX Welterweight Championship (One time, former) One successful title defence",
+    "BAMMA RDX Welterweight Championship (One time, former) One successful title defence",
+    "One successful title defence",
+    "MMA Junkie 2022 Knockout of the Year vs. Kamaru Usman 2 at UFC 278  2022 August Knockout of the Month vs. Kamaru Usman 2 at UFC 278",
+    "2022 Knockout of the Year vs. Kamaru Usman 2 at UFC 278",
+    "2022 August Knockout of the Month vs. Kamaru Usman 2 at UFC 278",
+    "ESPN 2022 Knockout of the Year vs. Kamaru Usman 2 at UFC 278",
+    "2022 Knockout of the Year vs. Kamaru Usman 2 at UFC 278",
+    "Bleacher Report 2022 UFC Knockout of the Year vs. Kamaru Usman 2 at UFC 278  2022 Upset of the Year vs. Kamaru Usman 2 at UFC 278",
+    "2022 UFC Knockout of the Year vs. Kamaru Usman 2 at UFC 278",
+    "2022 Upset of the Year vs. Kamaru Usman 2 at UFC 278",
+    "CBS Sports 2022 UFC Knockout of the Year vs. Kamaru Usman 2 at UFC 278",
+    "2022 UFC Knockout of the Year vs. Kamaru Usman 2 at UFC 278",
+    "Cageside Press 2022 Comeback of the Year vs. Kamaru Usman 2 at UFC 278  2022 Knockout of the Year vs. Kamaru Usman 2 at UFC 278 , tied with Michael Chandler",
+    "2022 Comeback of the Year vs. Kamaru Usman 2 at UFC 278",
+    "2022 Knockout of the Year vs. Kamaru Usman 2 at UFC 278 , tied with Michael Chandler",
+    "Combat Press 2022 Comeback of the Year vs. Kamaru Usman 2 at UFC 278",
+    "2022 Comeback of the Year vs. Kamaru Usman 2 at UFC 278",
+    "Violent Money TV VMTV UK MMA Knockout of the Year 2022 vs. Kamaru Usman 2 at UFC 278  VMTV UK MMA Male Fighter of the Year 2023",
+    "VMTV UK MMA Knockout of the Year 2022 vs. Kamaru Usman 2 at UFC 278",
+    "VMTV UK MMA Male Fighter of the Year 2023",
+    "2023 Charles 'Mask' Lewis Fighter of the Year",
+    "2023 International Fighter of the Year",
+    "2023 Knockout of the Year vs. Kamaru Usman 2 at UFC 278",
+    "2023 Comeback of the Year vs. Kamaru Usman 2 at UFC 278",
+    "Sportsnaut 2023 UFC Fighter of the Year",
+    "2023 UFC Fighter of the Year"
+  ],
+  "image_commons": "Leon Edwards 2021.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Leon_Edwards",
+    "wikidata": "https://www.wikidata.org/wiki/Q19872938",
+    "ufc_com": "https://www.ufc.com/athlete/leon-edwards"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 60,
+    "puissance": 51,
+    "lutte": 50,
+    "soumission": 47,
+    "defense": 71,
+    "cardio": 95,
+    "menton": 88,
+    "globale": 66,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

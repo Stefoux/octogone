@@ -1,0 +1,222 @@
+{
+  "id": "charles-oliveira",
+  "nom": "Charles Oliveira",
+  "ufc_slug": "charles-oliveira",
+  "wikipedia_titre": "Charles Oliveira",
+  "surnom": "Do Bronx",
+  "surnom_wikipedia": "do Bronxs",
+  "sexe": "M",
+  "pays": "BR",
+  "categorie": "legers",
+  "statut": "actif",
+  "date_naissance": "1989-10-17",
+  "taille_cm": 178,
+  "allonge_cm": 188,
+  "style": "Jiu-Jitsu",
+  "lieu_naissance": "State of São Paulo, Brésil",
+  "palmares": {
+    "victoires_ko": 10,
+    "victoires_soumission": 22,
+    "victoires_decision": 5,
+    "defaites_ko": 5,
+    "defaites_soumission": 4,
+    "defaites_decision": 2,
+    "nuls": 0,
+    "sans_decision": 1,
+    "victoires": 37,
+    "defaites": 11
+  },
+  "stats_ufc": {
+    "frappes_par_min": null,
+    "precision_frappe_pct": null,
+    "frappes_encaissees_par_min": null,
+    "defense_frappe_pct": null,
+    "takedowns_par_15min": null,
+    "precision_takedown_pct": null,
+    "defense_takedown_pct": null,
+    "soumissions_par_15min": null,
+    "knockdowns_par_15min": null,
+    "duree_moyenne_combat_s": null,
+    "frappes_reussies": null,
+    "takedowns_reussis": null
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 33,
+      "defaites": 11,
+      "nuls": 0,
+      "sans_decision": 1,
+      "v": {
+        "ko": 8,
+        "soumission": 20,
+        "decision": 5,
+        "autre": 0
+      },
+      "d": {
+        "ko": 5,
+        "soumission": 4,
+        "decision": 2,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2010": 3,
+      "2011": 2,
+      "2012": 3,
+      "2013": 1,
+      "2014": 3,
+      "2015": 3,
+      "2016": 2,
+      "2017": 2,
+      "2018": 3,
+      "2019": 3,
+      "2020": 2,
+      "2021": 2,
+      "2022": 2,
+      "2023": 1,
+      "2024": 2,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Max Holloway",
+      "evenement": "UFC 326",
+      "date": "March 7, 2026",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 37,
+    "victoires_ufc": 25,
+    "defaites_ufc": 11,
+    "victoires_decision_5_rounds": 2,
+    "combats_5_rounds_gagnes": 2,
+    "bonus_fotn": 4,
+    "bonus_potn": 14,
+    "bonus_kotn": 0,
+    "bonus_sotn": 3,
+    "combats_fotn": [
+      {
+        "adversaire": "Michael Chandler",
+        "evenement": "UFC 309",
+        "date": "November 16, 2024"
+      },
+      {
+        "adversaire": "Nik Lentz",
+        "evenement": "UFC Fight Night: Condit vs. Alves",
+        "date": "May 30, 2015"
+      },
+      {
+        "adversaire": "Frankie Edgar",
+        "evenement": "UFC 162",
+        "date": "July 6, 2013"
+      },
+      {
+        "adversaire": "Nik Lentz",
+        "evenement": "UFC Live: Kongo vs. Barry",
+        "date": "June 26, 2011"
+      }
+    ],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Lightweight Championship",
+        "evenement": "UFC 269",
+        "date": "December 11, 2021"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "rear-naked choke",
+      "finitions": 7
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Darren Elkins",
+      "evenement": "UFC Live: Jones vs. Matyushenko",
+      "date": "August 1, 2010",
+      "resultat": "Win",
+      "methode": "Submission (triangle armbar)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "CBJJE South American Champion (2008 purple belt)",
+    "CBJJE World Champion (2007 blue belt [ c ] )",
+    "FPJJ São Paulo State Champion (2007 blue belt)",
+    "2nd place CBJJE World Cup (2008 purple belt)",
+    "UFC Lightweight Championship (One time) One successful title defense",
+    "One successful title defense",
+    "UFC 'BMF' title (One time, current)",
+    "Fight of the Night (Four times) vs. Nik Lentz 1 & 2, Frankie Edgar and Michael Chandler 2",
+    "Most Performance of the Night bonuses in UFC history (14)",
+    "Most Post-Fight bonuses in UFC history (21)",
+    "Tied ( Joe Lauzon & Jim Miller ) for second most Post-Fight bonuses in UFC Lightweight division history (15) (behind Justin Gaethje )",
+    "Second most Post-Fight bonuses in UFC/WEC combined history (21) (behind Donald Cerrone )",
+    "Tied ( Mirko Cro Cop ) for most finishes in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (21)",
+    "Second most finishes in UFC Lightweight division history (15) (behind Jim Miller )",
+    "Tied ( Chuck Liddell ) for the third longest finish streak in UFC history (7)",
+    "Most submission wins in UFC Featherweight division history (6)",
+    "Second most submission wins in UFC Lightweight division history (11) (behind Jim Miller )",
+    "Second most submission attempts in UFC history (51) (behind Jim Miller )  Second most submission attempts in UFC Lightweight division history (35) (behind Jim Miller )",
+    "Second most submission attempts in UFC Lightweight division history (35) (behind Jim Miller )",
+    "Tied ( Brendan Allen ) for fourth longest submission streak in UFC History (4)",
+    "Tied ( Brendan Allen ) for fifth most rear-naked choke submissions in UFC history (6)",
+    "Second most guillotine-choke submissions in UFC history (4) (behind Nate Diaz & Jim Miller )",
+    "Tied ( Makwan Amirkhani & Vicente Luque ) for most anaconda-choke submissions in UFC history (3)",
+    "Tied ( Neil Magny ) for second most wins in UFC history (25) (behind Jim Miller )  Second most wins in UFC Lightweight division history (18) (behind Jim Miller )",
+    "Second most wins in UFC Lightweight division history (18) (behind Jim Miller )",
+    "Tied ( Dan Henderson & Neil Magny ) for fourth most wins in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (25)",
+    "Fourth longest win streak in UFC Lightweight division history (11)",
+    "Tied ( Clay Guida ) for the fifth most bouts in UFC history (37)  Tied ( Beneil Dariush & Drew Dober ) for seventh most bouts in UFC Lightweight division history (25)",
+    "Tied ( Beneil Dariush & Drew Dober ) for seventh most bouts in UFC Lightweight division history (25)",
+    "Sixth most top position time in UFC Lightweight division history (1:06:05)",
+    "Fourth highest significant strike accuracy percentage in UFC Lightweight division history (57.5%)",
+    "Sixth most control time in a UFC bout (20:49) (vs. Max Holloway 2)",
+    "Holds wins over four former UFC champions — vs. Justin Gaethje , Max Holloway , Tony Ferguson (interim) & Dustin Poirier (interim)",
+    "2025 Forrest Griffin Community Award",
+    "2020: President's Choice Performance of the Year Nominee vs. Kevin Lee",
+    "2021: Fan's Choice Comeback of the Year Winner vs. Michael Chandler 1  & President's Choice Performance of the Year Nominee vs. Michael Chandler 1",
+    "2010: Ranked #3 Newcomer of the Year",
+    "2012: Ranked #3 Submission of the Year vs. Eric Wisely",
+    "2014: Submission of the Year vs. Hatsu Hioki",
+    "2018: Ranked #5 Submission of the Year vs. Christos Giagos"
+  ],
+  "image_commons": "Charles Oliveira do Bronxs.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Charles_Oliveira",
+    "wikidata": "https://www.wikidata.org/wiki/Q5081361",
+    "ufc_com": "https://www.ufc.com/athlete/charles-oliveira"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_infobox",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "stats_ufc (absentes de la fiche ufc.com)"
+  ],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 33-11, wikipedia_infobox 37-11, ufc_com 37-11"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 65,
+    "puissance": 48,
+    "lutte": 65,
+    "soumission": 96,
+    "defense": 65,
+    "cardio": 75,
+    "menton": 56,
+    "globale": 67,
+    "style": "grappler",
+    "estimees": [
+      "frappe",
+      "lutte",
+      "defense"
+    ],
+    "formule_version": 1
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "id": "junior-dos-santos",
+  "nom": "Junior dos Santos",
+  "ufc_slug": null,
+  "wikipedia_titre": "Junior dos Santos",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "BR",
+  "categorie": "mi_lourds",
+  "statut": null,
+  "date_naissance": "1984-01-30",
+  "taille_cm": 190,
+  "allonge_cm": null,
+  "style": null,
+  "lieu_naissance": null,
+  "palmares": {
+    "victoires": 22,
+    "defaites": 11,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 15,
+    "victoires_soumission": 1,
+    "victoires_decision": 6,
+    "defaites_ko": 9,
+    "defaites_soumission": 1,
+    "defaites_decision": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": null,
+    "precision_frappe_pct": null,
+    "frappes_encaissees_par_min": null,
+    "defense_frappe_pct": null,
+    "takedowns_par_15min": null,
+    "precision_takedown_pct": null,
+    "defense_takedown_pct": null,
+    "soumissions_par_15min": null,
+    "knockdowns_par_15min": null,
+    "duree_moyenne_combat_s": null,
+    "frappes_reussies": null,
+    "takedowns_reussis": null
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 22,
+      "defaites": 11,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 15,
+        "soumission": 1,
+        "decision": 6,
+        "autre": 0
+      },
+      "d": {
+        "ko": 9,
+        "soumission": 1,
+        "decision": 1,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2008": 1,
+      "2009": 2,
+      "2010": 3,
+      "2011": 2,
+      "2012": 2,
+      "2013": 2,
+      "2014": 1,
+      "2015": 1,
+      "2016": 1,
+      "2017": 1,
+      "2018": 2,
+      "2019": 2,
+      "2020": 3
+    },
+    "dernier_combat": {
+      "adversaire": "Robelis Despaigne",
+      "evenement": "MVP MMA: Rousey vs. Carano",
+      "date": "16 May 2026",
+      "resultat": "Loss",
+      "methode": "KO (punches)"
+    },
+    "combats_ufc": 23,
+    "victoires_ufc": 15,
+    "defaites_ufc": 8,
+    "victoires_decision_5_rounds": 3,
+    "combats_5_rounds_gagnes": 3,
+    "bonus_fotn": 3,
+    "bonus_potn": 0,
+    "bonus_kotn": 3,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Derrick Lewis",
+        "evenement": "UFC Fight Night: Lewis vs. dos Santos",
+        "date": "9 March 2019"
+      },
+      {
+        "adversaire": "Stipe Miocic",
+        "evenement": "UFC on Fox: dos Santos vs. Miocic",
+        "date": "13 December 2014"
+      },
+      {
+        "adversaire": "Mark Hunt",
+        "evenement": "UFC 160",
+        "date": "25 May 2013"
+      }
+    ],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Heavyweight Championship",
+        "evenement": "UFC 146",
+        "date": "26 May 2012"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Heavyweight Championship",
+        "evenement": "UFC on Fox: Velasquez vs. dos Santos",
+        "date": "12 November 2011"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 12
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Fabrício Werdum",
+      "evenement": "UFC 90",
+      "date": "25 October 2008",
+      "resultat": "Win",
+      "methode": "TKO (punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "UFC Heavyweight Championship (One time)",
+    "One successful title defense",
+    "Knockout of the Night (Three times) vs. Fabrício Werdum , Gabriel Gonzaga and Cain Velasquez",
+    "Fight of the Night (Three times) vs. Mark Hunt , Stipe Miocic and Derrick Lewis",
+    "Longest winning streak in UFC Heavyweight division history (9)",
+    "Tied ( Chuck Liddell , Lyoto Machida , Thiago Santos , Maurício Rua & Khalil Rountree Jr. ) for sixth most knockdowns landed in UFC history (14)",
+    "Tied ( Cain Velasquez & Francis Ngannou ) for second most knockouts in UFC Heavyweight division history (10) (behind Derrick Lewis )",
+    "Sixth most bouts in UFC Heavyweight division history (23)",
+    "Tied ( Curtis Blaydes ) for fourth most wins in UFC Heavyweight division history (15)",
+    "Fourth most total fight time in UFC Heavyweight division history (4:07:01)",
+    "Third most significant strikes landed in UFC Heavyweight division history (1109)",
+    "Sixth most total strikes landed in UFC Heavyweight division history (1217)",
+    "Highest takedown defense percentage in UFC Heavyweight division history (81.8%)",
+    "Tied for fourth most consecutive knockouts in UFC history (5)",
+    "Holds wins over five former UFC champions (4 undisputed) — vs. Fabrício Werdum , Cain Velasquez 1, Frank Mir , Stipe Miocic 1 and Shane Carwin (interim)",
+    "2008: Ranked #5 Newcomer of the Year  Ranked #2 Knockout of the Year vs. Fabricio Werdum  & Ranked #2 Upset of the Year vs. Fabricio Werdum",
+    "2010: Ranked #6 Fighter of the Year",
+    "2011: Ranked #2 Fighter of the Year  & Ranked #9 Knockout of the Year vs. Cain Velasquez 1",
+    "2013 Half-Year Awards: Best Knockout of the 1HY  & Ranked #5 Knockout of the Year vs. Mark Hunt",
+    "2014: Ranked #3 Fight of the Year vs. Stipe Miocic 1",
+    "Gamebred Bareknuckle MMA Gamebred Bareknuckle MMA Heavyweight Champion (Inaugural; One time; current)",
+    "Gamebred Bareknuckle MMA Heavyweight Champion (Inaugural; One time; current)",
+    "FIGHT! Magazine 2008 Upset of the Year vs. Fabrício Werdum at UFC 90",
+    "2008 Upset of the Year vs. Fabrício Werdum at UFC 90",
+    "MMA Junkie 2014 December Fight of the Month vs. Stipe Miocic",
+    "2014 December Fight of the Month vs. Stipe Miocic",
+    "Sherdog 2010 All-Violence Third Team  2011 All-Violence First Team",
+    "2010 All-Violence Third Team",
+    "2011 All-Violence First Team",
+    "MMA Fighting 2008 #8 Ranked UFC Knockout of the Year vs. Fabrício Werdum at UFC 90",
+    "2008 #8 Ranked UFC Knockout of the Year vs. Fabrício Werdum at UFC 90",
+    "Bleacher Report 2014 #7 Ranked Fight of the Year vs. Stipe Miocic at UFC on Fox: dos Santos vs. Miocic",
+    "2014 #7 Ranked Fight of the Year vs. Stipe Miocic at UFC on Fox: dos Santos vs. Miocic"
+  ],
+  "image_commons": "Junior dos Santos.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Junior_dos_Santos",
+    "wikidata": "https://www.wikidata.org/wiki/Q437577"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "wikipedia",
+    "palmares": "wikipedia_tableau",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "allonge_cm",
+    "fiche ufc.com introuvable",
+    "palmares (wikipedia_tableau 22-11, wikipedia_infobox 23-11)",
+    "stats_ufc (absentes de la fiche ufc.com)",
+    "statut"
+  ],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 22-11, wikipedia_infobox 23-11"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 65,
+    "puissance": 85,
+    "lutte": 65,
+    "soumission": 39,
+    "defense": 65,
+    "cardio": 95,
+    "menton": 30,
+    "globale": 63,
+    "style": "frappeur",
+    "estimees": [
+      "frappe",
+      "lutte",
+      "defense"
+    ],
+    "formule_version": 1
+  }
+}

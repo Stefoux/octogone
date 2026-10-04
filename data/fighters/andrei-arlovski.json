@@ -1,0 +1,228 @@
+{
+  "id": "andrei-arlovski",
+  "nom": "Andrei Arlovski",
+  "ufc_slug": "andrei-arlovski",
+  "wikipedia_titre": "Andrei Arlovski",
+  "surnom": "Pit Bull",
+  "sexe": "M",
+  "pays": "BY",
+  "categorie": "lourds",
+  "statut": "inactif",
+  "date_naissance": "1979-02-04",
+  "taille_cm": 190,
+  "allonge_cm": 196,
+  "style": "Kickboxing",
+  "lieu_naissance": "États-Unis",
+  "palmares": {
+    "victoires_ko": 17,
+    "victoires_soumission": 3,
+    "victoires_decision": 14,
+    "defaites_ko": 12,
+    "defaites_soumission": 3,
+    "defaites_decision": 9,
+    "nuls": 0,
+    "sans_decision": 2,
+    "victoires": 34,
+    "defaites": 24
+  },
+  "stats_ufc": {
+    "frappes_par_min": null,
+    "precision_frappe_pct": null,
+    "frappes_encaissees_par_min": null,
+    "defense_frappe_pct": null,
+    "takedowns_par_15min": null,
+    "precision_takedown_pct": null,
+    "defense_takedown_pct": null,
+    "soumissions_par_15min": null,
+    "knockdowns_par_15min": null,
+    "duree_moyenne_combat_s": null,
+    "frappes_reussies": null,
+    "takedowns_reussis": null
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 33,
+      "defaites": 24,
+      "nuls": 0,
+      "sans_decision": 2,
+      "v": {
+        "ko": 17,
+        "soumission": 2,
+        "decision": 14,
+        "autre": 0
+      },
+      "d": {
+        "ko": 12,
+        "soumission": 3,
+        "decision": 9,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2000": 1,
+      "2001": 1,
+      "2002": 2,
+      "2003": 1,
+      "2004": 1,
+      "2005": 3,
+      "2006": 3,
+      "2007": 1,
+      "2008": 1,
+      "2014": 2,
+      "2015": 2,
+      "2016": 3,
+      "2017": 3,
+      "2018": 4,
+      "2019": 3,
+      "2020": 2,
+      "2021": 3,
+      "2022": 3,
+      "2023": 1,
+      "2024": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Martin Buday",
+      "evenement": "UFC 303",
+      "date": "29 June 2024",
+      "resultat": "Loss",
+      "methode": "Decision (split)"
+    },
+    "combats_ufc": 42,
+    "victoires_ufc": 23,
+    "defaites_ufc": 18,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 2,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Josh Barnett",
+        "evenement": "UFC Fight Night: Arlovski vs. Barnett",
+        "date": "3 September 2016"
+      },
+      {
+        "adversaire": "Travis Browne",
+        "evenement": "UFC 187",
+        "date": "23 May 2015"
+      }
+    ],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Heavyweight Championship",
+        "evenement": "UFC 55",
+        "date": "7 October 2005"
+      },
+      {
+        "action": "defended",
+        "interim": true,
+        "titre": "UFC Heavyweight Championship",
+        "evenement": "UFC 53",
+        "date": "4 June 2005"
+      },
+      {
+        "action": "won",
+        "interim": true,
+        "titre": "UFC Heavyweight Championship",
+        "evenement": "UFC 51",
+        "date": "5 February 2005"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 16
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Aaron Brink",
+      "evenement": "UFC 28",
+      "date": "17 November 2000",
+      "resultat": "Win",
+      "methode": "Submission (armbar)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "UFC Heavyweight Championship (One time; former) One successful title defense First Belarusian champion in UFC history",
+    "One successful title defense",
+    "First Belarusian champion in UFC history",
+    "Interim UFC Heavyweight Championship (One time; first; former) One successful title defense",
+    "One successful title defense",
+    "Fight of the Night (Two times) vs. Josh Barnett and Travis Browne",
+    "Performance of the Night (One time) vs. Antônio Silva",
+    "Fight of the Night (One time) vs. Ricco Rodriguez",
+    "Knockout of the Night (Two times) vs. Vladimir Matyushenko and Paul Buentello",
+    "Submission of the Night (Two times) vs. Aaron Brink and Tim Sylvia",
+    "Tied ( Donald Cerrone ) for fifth most wins in UFC history (23)  Most wins in UFC heavyweight history (23)",
+    "Most wins in UFC heavyweight history (23)",
+    "Most bouts in UFC heavyweight history (42)",
+    "Third most bouts in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (45) (behind Donald Cerrone & Jim Miller )",
+    "Most total fight time in UFC heavyweight history (6:49:58)",
+    "Most decision bouts in UFC Heavyweight history (19)",
+    "Tied ( Georges St-Pierre , Rafael dos Anjos , Diego Sanchez & Belal Muhammad ) for third most wins by decision in UFC history (12)",
+    "Most significant strikes landed in UFC heavyweight history (1585)  Most strikes landed in UFC heavyweight history (1907)",
+    "Most strikes landed in UFC heavyweight history (1907)",
+    "Tied ( Gabriel Gonzaga , Stefan Struve & Francis Ngannou ) for third most finishes in UFC Heavyweight division history (11)",
+    "Tied ( Cain Velasquez & Ciryl Gane ) for second longest win streak in UFC Heavyweight division history (7)",
+    "Tied ( Cain Velasquez & Alistair Overeem ) for third most knockdowns landed in UFC Heavyweight division history (10)",
+    "Second most knockout losses in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (10)  (behind Alistair Overeem )",
+    "Tied ( Amanda Nunes , Charles Oliveira and Anthony Johnson ) for fifth most first-round finishes in UFC history (9)",
+    "Tied ( Jim Miller ) for third most losses in UFC history (18)  (behind Clay Guida & Jeremy Stephens )",
+    "2005: Ranked #4 Submission of the Year vs. Tim Sylvia  & Ranked #3 Knockout of the Year vs. Paul Buentello",
+    "2006: Ranked #4 Fight of the Year vs. Tim Sylvia 1",
+    "2015: Ranked #7 Knockout of the Year vs. Travis Browne ,  Ranked #4 Fight of the Year vs. Travis Browne  & Half-Year Awards: Best Fight of the 1HY vs. Travis Browne",
+    "Combat Press 2015 Comeback Fighter of the Year",
+    "2015 Comeback Fighter of the Year",
+    "MMA Junkie 2015 May Fight of the Month vs. Travis Browne",
+    "2015 May Fight of the Month vs. Travis Browne",
+    "Sherdog 2015 Round of the Year vs. Travis Browne , round 1",
+    "2015 Round of the Year vs. Travis Browne , round 1",
+    "Bare Knuckle Fighting Championship BKFC Heavyweight Championship (One time, current)  Oldest fighter in history to win a BKFC Championship (47 years, 3 days)",
+    "BKFC Heavyweight Championship (One time, current)  Oldest fighter in history to win a BKFC Championship (47 years, 3 days)",
+    "Oldest fighter in history to win a BKFC Championship (47 years, 3 days)",
+    "European Youth Sambo European Youth Sambo Champion",
+    "European Youth Sambo Champion",
+    "World Cup 2nd place in the World Cup in Sambo"
+  ],
+  "image_commons": "Arlovski.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Andrei_Arlovski",
+    "wikidata": "https://www.wikidata.org/wiki/Q2072192",
+    "ufc_com": "https://www.ufc.com/athlete/andrei-arlovski"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_infobox",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "stats_ufc (absentes de la fiche ufc.com)"
+  ],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 33-24, wikipedia_infobox 34-24, ufc_com 34-24"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 65,
+    "puissance": 69,
+    "lutte": 65,
+    "soumission": 42,
+    "defense": 65,
+    "cardio": 32,
+    "menton": 36,
+    "globale": 53,
+    "style": "complet",
+    "estimees": [
+      "frappe",
+      "lutte",
+      "defense"
+    ],
+    "formule_version": 1
+  }
+}

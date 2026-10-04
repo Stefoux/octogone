@@ -1,0 +1,178 @@
+{
+  "id": "carla-esparza",
+  "nom": "Carla Esparza",
+  "ufc_slug": "carla-esparza",
+  "wikipedia_titre": "Carla Esparza",
+  "surnom": "Cookie Monster",
+  "sexe": "F",
+  "pays": "US",
+  "autres_pays": [
+    "EC"
+  ],
+  "categorie": "paille_f",
+  "statut": "inactif",
+  "date_naissance": "1987-10-10",
+  "taille_cm": 155,
+  "allonge_cm": 160,
+  "style": "Wrestling",
+  "lieu_naissance": "Los Angeles, United States",
+  "palmares": {
+    "victoires": 19,
+    "defaites": 8,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 4,
+    "victoires_soumission": 4,
+    "victoires_decision": 11,
+    "defaites_ko": 2,
+    "defaites_soumission": 2,
+    "defaites_decision": 4
+  },
+  "stats_ufc": {
+    "frappes_par_min": 2.19,
+    "precision_frappe_pct": 39,
+    "frappes_encaissees_par_min": 2.87,
+    "defense_frappe_pct": 54.0,
+    "takedowns_par_15min": 3.28,
+    "precision_takedown_pct": 19,
+    "defense_takedown_pct": 47.0,
+    "soumissions_par_15min": 0.27,
+    "knockdowns_par_15min": 0.0,
+    "duree_moyenne_combat_s": 841,
+    "frappes_reussies": 492.0,
+    "takedowns_reussis": 25.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 19,
+      "defaites": 8,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 4,
+        "soumission": 4,
+        "decision": 11,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 2,
+        "decision": 4,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2014": 1,
+      "2015": 1,
+      "2016": 1,
+      "2017": 3,
+      "2018": 2,
+      "2019": 2,
+      "2020": 2,
+      "2021": 1,
+      "2022": 2,
+      "2024": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Tecia Pennington",
+      "evenement": "UFC 307",
+      "date": "October 5, 2024",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 16,
+    "victoires_ufc": 10,
+    "defaites_ufc": 6,
+    "victoires_decision_5_rounds": 2,
+    "combats_5_rounds_gagnes": 2,
+    "bonus_fotn": 1,
+    "bonus_potn": 2,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Alexa Grasso",
+        "evenement": "UFC Fight Night: Rodríguez vs. Stephens",
+        "date": "September 21, 2019"
+      }
+    ],
+    "titres": [
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Women's Strawweight Championship",
+        "evenement": "UFC 274",
+        "date": "May 7, 2022"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 4
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Rose Namajunas",
+      "evenement": "The Ultimate Fighter: A Champion Will Be Crowned Finale",
+      "date": "December 12, 2014",
+      "resultat": "Win",
+      "methode": "Submission (rear-naked choke)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "UFC Women's Strawweight Championship (Two times; first) Longest time between title reigns in UFC history (2,612 days)",
+    "Longest time between title reigns in UFC history (2,612 days)",
+    "The Ultimate Fighter 20 Tournament Winner",
+    "Fight of the Night (One time) vs. Alexa Grasso",
+    "Performance of the Night (Two times) vs. Rose Namajunas 1 and Yan Xiaonan",
+    "Tied ( Joanna Jedrzejczyk , Jéssica Andrade & Zhang Weili ) for fourth most wins in the UFC Women's Strawweight division history (10)",
+    "Fifth most bouts in UFC Women's Strawweight division history (16)",
+    "Most takedowns landed in the UFC Women's Strawweight division history (48)",
+    "Tied ( Yan Xiaonan , Tatiana Suarez & Loopy Godinez ) for the second longest win streak in UFC Women's Strawweight division history (6)",
+    "Most split decision wins in the UFC Women's Strawweight division history (3)",
+    "2014: Ranked #10 Newcomer of the Year (Tied with Paige VanZant & Henry Cejudo )",
+    "2017: Ranked #9 Upset of the Year vs. Cynthia Calvillo",
+    "2022: Half-Year Awards: Biggest Upset of the 1HY  & Ranked #2 Upset of the Year vs. Rose Namajunas 2",
+    "Invicta FC Invicta FC Strawweight Championship (One time; first)",
+    "Invicta FC Strawweight Championship (One time; first)",
+    "Combat Press 2014 Female Fighter of the Year",
+    "2014 Female Fighter of the Year",
+    "MMAWeekly.com 2014 Female Fighter of the Year",
+    "2014 Female Fighter of the Year",
+    "Pan-American Championship 2013 Pan-American Jiu-Jitsu Championship - Silver medalist, female blue belt featherweight",
+    "2013 Pan-American Jiu-Jitsu Championship - Silver medalist, female blue belt featherweight"
+  ],
+  "image_commons": "Carla Esparza 2022 01.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Carla_Esparza",
+    "wikidata": "https://www.wikidata.org/wiki/Q2679034",
+    "ufc_com": "https://www.ufc.com/athlete/carla-esparza"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 19-8, wikipedia_infobox 19-8, ufc_com 20-8"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 43,
+    "puissance": 42,
+    "lutte": 53,
+    "soumission": 50,
+    "defense": 69,
+    "cardio": 83,
+    "menton": 77,
+    "globale": 60,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

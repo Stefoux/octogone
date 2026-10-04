@@ -1,0 +1,303 @@
+{
+  "id": "jon-jones",
+  "nom": "Jon Jones",
+  "ufc_slug": "jon-jones",
+  "wikipedia_titre": "Jon Jones",
+  "surnom": "Bones",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "lourds",
+  "statut": "actif",
+  "date_naissance": "1987-07-19",
+  "taille_cm": 193,
+  "allonge_cm": 215,
+  "style": null,
+  "lieu_naissance": "Rochester, United States",
+  "palmares": {
+    "victoires": 28,
+    "defaites": 1,
+    "nuls": 0,
+    "sans_decision": 1,
+    "victoires_ko": 11,
+    "victoires_soumission": 7,
+    "victoires_decision": 10,
+    "defaites_ko": 0,
+    "defaites_soumission": 0,
+    "defaites_decision": 0
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.38,
+    "precision_frappe_pct": 59,
+    "frappes_encaissees_par_min": 2.24,
+    "defense_frappe_pct": 64.0,
+    "takedowns_par_15min": 1.89,
+    "precision_takedown_pct": 37,
+    "defense_takedown_pct": 95.0,
+    "soumissions_par_15min": 0.46,
+    "knockdowns_par_15min": 0.25,
+    "duree_moyenne_combat_s": 892,
+    "frappes_reussies": 1564.0,
+    "takedowns_reussis": 36.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 28,
+      "defaites": 1,
+      "nuls": 0,
+      "sans_decision": 1,
+      "v": {
+        "ko": 11,
+        "soumission": 7,
+        "decision": 10,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 0,
+        "decision": 0,
+        "autre": 1
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2008": 1,
+      "2009": 3,
+      "2010": 2,
+      "2011": 4,
+      "2012": 2,
+      "2013": 2,
+      "2014": 1,
+      "2015": 1,
+      "2016": 1,
+      "2017": 1,
+      "2018": 1,
+      "2019": 2,
+      "2020": 1,
+      "2023": 1,
+      "2024": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Stipe Miocic",
+      "evenement": "UFC 309",
+      "date": "November 16, 2024",
+      "resultat": "Win",
+      "methode": "TKO (spinning back kick and punches)"
+    },
+    "combats_ufc": 24,
+    "victoires_ufc": 22,
+    "defaites_ufc": 1,
+    "victoires_decision_5_rounds": 8,
+    "combats_5_rounds_gagnes": 10,
+    "bonus_fotn": 4,
+    "bonus_potn": 3,
+    "bonus_kotn": 1,
+    "bonus_sotn": 2,
+    "combats_fotn": [
+      {
+        "adversaire": "Daniel Cormier",
+        "evenement": "UFC 182",
+        "date": "January 3, 2015"
+      },
+      {
+        "adversaire": "Alexander Gustafsson",
+        "evenement": "UFC 165",
+        "date": "September 21, 2013"
+      },
+      {
+        "adversaire": "Lyoto Machida",
+        "evenement": "UFC 140",
+        "date": "December 10, 2011"
+      },
+      {
+        "adversaire": "Quinton Jackson",
+        "evenement": "UFC 135",
+        "date": "September 24, 2011"
+      }
+    ],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Heavyweight Championship",
+        "evenement": "UFC 309",
+        "date": "November 16, 2024"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 247",
+        "date": "February 8, 2020"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 239",
+        "date": "July 6, 2019"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 235",
+        "date": "March 2, 2019"
+      },
+      {
+        "action": "won",
+        "interim": true,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 197",
+        "date": "April 23, 2016"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 182",
+        "date": "January 3, 2015"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 172",
+        "date": "April 26, 2014"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 165",
+        "date": "September 21, 2013"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 159",
+        "date": "April 27, 2013"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 152",
+        "date": "September 22, 2012"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 145",
+        "date": "April 21, 2012"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 140",
+        "date": "December 10, 2011"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 135",
+        "date": "September 24, 2011"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 128",
+        "date": "March 19, 2011"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 8
+    },
+    "premier_combat_ufc": {
+      "adversaire": "André Gusmão",
+      "evenement": "UFC 87",
+      "date": "August 9, 2008",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "UFC Hall of Fame ( Fight Wing , Class of 2021) vs. Alexander Gustafsson 1 at UFC 165",
+    "One successful title defense",
+    "Second longest Heavyweight champion reign in UFC history (840 days)",
+    "Most wins in UFC title fights (16)",
+    "Most successful title defenses in UFC history (12)",
+    "Most UFC title fights (17) Second most submissions in UFC title fights (4) Tied ( Matt Hughes ) for second most finishes in UFC title fights (8)",
+    "Second most submissions in UFC title fights (4)",
+    "Tied ( Matt Hughes ) for second most finishes in UFC title fights (8)",
+    "Eight successful title defenses (First reign)",
+    "Most successful title defenses in UFC Light Heavyweight division history (11)",
+    "Most consecutive title defenses in UFC Light Heavyweight division history (8)",
+    "Most successful title defenses in a 12-month period in UFC history (4)",
+    "Fourth most consecutive title defenses in UFC history (8)",
+    "Second most significant strikes landed in a UFC Light Heavyweight title fight (138)",
+    "Longest Light Heavyweight champion reign in UFC history (1,501 days)",
+    "Most wins in UFC Light Heavyweight title fights (14)",
+    "Most UFC Light Heavyweight title fights (15)",
+    "Most finishes in UFC Light Heavyweight title fights (6)",
+    "Youngest fighter to defend a UFC championship (24 years, 67 days)",
+    "Eighth multi-divisional champion in UFC history",
+    "Fourth fighter to defend the title in two weight divisions in UFC history",
+    "Most total fight time in UFC title fights (4:56:20)",
+    "Fight of the Night (Four times) vs. Quinton Jackson , Lyoto Machida , Alexander Gustafsson and Daniel Cormier 1",
+    "Knockout of the Night (One time) vs. Brandon Vera",
+    "Tied ( Ovince Saint Preux , Anthony Smith & Misha Cirkunov ) for third most submissions in UFC Light Heavyweight division history (5)",
+    "Tied ( Mauricio Rua & Ovince Saint Preux ) for second most Post-Fight bonuses in UFC Light Heavyweight division history (8)",
+    "Longest unbeaten streak in UFC history (20)",
+    "Tied ( Demetrious Johnson , Georges St-Pierre , Max Holloway & Khabib Nurmagomedov ) for fifth longest win streak in UFC history (13)",
+    "Second most main events in UFC history (20) (behind Anderson Silva )",
+    "Most wins in UFC Light Heavyweight division history (20)  Tied ( Demian Maia & Dustin Poirier ) for seventh most wins in UFC history (22)",
+    "Tied ( Demian Maia & Dustin Poirier ) for seventh most wins in UFC history (22)",
+    "Most decision wins in UFC Light Heavyweight division history (10)  Most unanimous decision wins in UFC Light Heavyweight division history (9)",
+    "Most unanimous decision wins in UFC Light Heavyweight division history (9)",
+    "Most total fight time in UFC Light Heavyweight division history (5:40:15)  Second longest average fight time in UFC Light Heavyweight division history (15:28)",
+    "Second longest average fight time in UFC Light Heavyweight division history (15:28)",
+    "Most significant strikes landed in UFC Light Heavyweight division history (1,463)  Most total strikes landed in UFC Light Heavyweight division history (1,835)",
+    "Most total strikes landed in UFC Light Heavyweight division history (1,835)",
+    "Highest takedown defense percentage in UFC Light Heavyweight division history (95.0%)  Second highest takedown defense percentage in UFC history (95.0%)",
+    "Second highest takedown defense percentage in UFC history (95.0%)",
+    "Third most finishes in UFC Light Heavyweight division history (10)"
+  ],
+  "image_commons": "Jon Jones in 2014 (cropped).jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Jon_Jones",
+    "wikidata": "https://www.wikidata.org/wiki/Q285450",
+    "ufc_com": "https://www.ufc.com/athlete/jon-jones"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 74,
+    "puissance": 56,
+    "lutte": 71,
+    "soumission": 54,
+    "defense": 84,
+    "cardio": 95,
+    "menton": 99,
+    "globale": 76,
+    "style": "lutteur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "id": "alexa-grasso",
+  "nom": "Alexa Grasso",
+  "ufc_slug": "alexa-grasso",
+  "wikipedia_titre": "Alexa Grasso",
+  "surnom": null,
+  "sexe": "F",
+  "pays": "MX",
+  "categorie": "mouche_f",
+  "statut": "actif",
+  "date_naissance": "1993-08-09",
+  "taille_cm": 165,
+  "allonge_cm": 168,
+  "style": "AMM",
+  "lieu_naissance": "Guadalajara, Mexique",
+  "palmares": {
+    "victoires": 17,
+    "defaites": 5,
+    "nuls": 1,
+    "sans_decision": 0,
+    "victoires_ko": 4,
+    "victoires_soumission": 2,
+    "victoires_decision": 11,
+    "defaites_ko": 0,
+    "defaites_soumission": 1,
+    "defaites_decision": 4
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.19,
+    "precision_frappe_pct": 41,
+    "frappes_encaissees_par_min": 3.78,
+    "defense_frappe_pct": 60.0,
+    "takedowns_par_15min": 0.38,
+    "precision_takedown_pct": 6,
+    "defense_takedown_pct": 55.0,
+    "soumissions_par_15min": 0.63,
+    "knockdowns_par_15min": 0.19,
+    "duree_moyenne_combat_s": 896,
+    "frappes_reussies": 1001.0,
+    "takedowns_reussis": 1.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 17,
+      "defaites": 5,
+      "nuls": 1,
+      "sans_decision": 0,
+      "v": {
+        "ko": 4,
+        "soumission": 2,
+        "decision": 11,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 1,
+        "decision": 4,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2016": 1,
+      "2017": 2,
+      "2018": 1,
+      "2019": 2,
+      "2020": 1,
+      "2021": 1,
+      "2022": 2,
+      "2023": 2,
+      "2024": 1,
+      "2025": 1,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Manon Fiorot",
+      "evenement": "UFC Fight Night: Silva vs. Delgado",
+      "date": "September 12, 2026",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 16,
+    "victoires_ufc": 10,
+    "defaites_ufc": 5,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 2,
+    "bonus_fotn": 2,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Carla Esparza",
+        "evenement": "UFC Fight Night: Rodríguez vs. Stephens",
+        "date": "September 21, 2019"
+      },
+      {
+        "adversaire": "Mizuki Inoue",
+        "evenement": "Invicta FC 11",
+        "date": "February 27, 2015"
+      }
+    ],
+    "titres": [
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Women's Flyweight Championship",
+        "evenement": "UFC 285",
+        "date": "March 4, 2023"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 4
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Heather Jo Clark",
+      "evenement": "The Ultimate Fighter Latin America 3 Finale: dos Anjos vs. Ferguson",
+      "date": "November 5, 2016",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "UFC Women's Flyweight Championship (One time) One successful title defense First Mexican woman to win a UFC championship",
+    "One successful title defense",
+    "First Mexican woman to win a UFC championship",
+    "Fight of the Night (One time) vs. Carla Esparza",
+    "Performance of the Night (Two times) vs. Valentina Shevchenko 1 and Maycee Barber 2",
+    "Third most total strikes landed in UFC Women's Flyweight division history (1220)",
+    "Third most significant strikes thrown in a 3-round fight (369) vs. Karolina Kowalkiewicz",
+    "UFC Honors Awards 2023: President's Choice Performance of the Year Nominee vs. Valentina Shevchenko 1",
+    "2023: President's Choice Performance of the Year Nominee vs. Valentina Shevchenko 1",
+    "2026: Half-Year Awards: Best Knockout of the 1HY vs. Maycee Barber",
+    "Invicta Fighting Championships Fight of the Night (one time) vs. Mizuki Inoue Performance of the Night (one time) vs. Jodie Esquibel",
+    "Fight of the Night (one time) vs. Mizuki Inoue",
+    "Performance of the Night (one time) vs. Jodie Esquibel",
+    "New York Post 2023 Female Fighter of the Year  2023 Upset of the Year vs. Valentina Shevchenko at UFC 285 (tied with Sean Strickland )",
+    "2023 Female Fighter of the Year",
+    "2023 Upset of the Year vs. Valentina Shevchenko at UFC 285 (tied with Sean Strickland )",
+    "Sherdog 2023 Submission of the Year vs. Valentina Shevchenko",
+    "2023 Submission of the Year vs. Valentina Shevchenko",
+    "The Sporting News 2023 Submission of the Year vs. Valentina Shevchenko 1 at UFC 285",
+    "2023 Submission of the Year vs. Valentina Shevchenko 1 at UFC 285",
+    "MMA Junkie 2015 February Fight of the Month vs. Mizuki Inoue  2023 Female Fighter of the Year  2023 Submission of the Year vs. Valentina Shevchenko at UFC 285",
+    "2015 February Fight of the Month vs. Mizuki Inoue",
+    "2023 Female Fighter of the Year",
+    "2023 Submission of the Year vs. Valentina Shevchenko at UFC 285",
+    "MMA Fighting 2023 Submission of the Year vs. Valentina Shevchenko  2023 First Team MMA All-Star",
+    "2023 Submission of the Year vs. Valentina Shevchenko",
+    "2023 First Team MMA All-Star",
+    "Cageside Press 2023 Female Fighter of the Year  2023 Submission of the Year vs. Valentina Shevchenko",
+    "2023 Female Fighter of the Year",
+    "2023 Submission of the Year vs. Valentina Shevchenko",
+    "World MMA Awards 2023 Female Fighter of the Year  2023 Submission of the Year vs. Valentina Shevchenko at UFC 285  2023 Upset of the Year vs. Valentina Shevchenko at UFC 285",
+    "2023 Female Fighter of the Year",
+    "2023 Submission of the Year vs. Valentina Shevchenko at UFC 285",
+    "2023 Upset of the Year vs. Valentina Shevchenko at UFC 285",
+    "Wrestling Observer Newsletter Women's MMA MVP (2023)",
+    "Women's MMA MVP (2023)",
+    "ESPN 2023 Female UFC Fighter of the Year  2023 Submission of the Year vs. Valentina Shevchenko at UFC 285",
+    "2023 Female UFC Fighter of the Year",
+    "2023 Submission of the Year vs. Valentina Shevchenko at UFC 285",
+    "Fight Matrix 2023 Female Fighter of the Year"
+  ],
+  "image_commons": "Alexa Grasso 2023 03.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Alexa_Grasso",
+    "wikidata": "https://www.wikidata.org/wiki/Q19560601",
+    "ufc_com": "https://www.ufc.com/athlete/alexa-grasso"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 17-5, wikipedia_infobox 17-5, ufc_com 18-5"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 55,
+    "puissance": 46,
+    "lutte": 43,
+    "soumission": 50,
+    "defense": 69,
+    "cardio": 78,
+    "menton": 99,
+    "globale": 63,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

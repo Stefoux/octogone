@@ -1,0 +1,152 @@
+{
+  "id": "mizuki-inoue",
+  "nom": "Mizuki Inoue",
+  "ufc_slug": "mizuki-inoue",
+  "wikipedia_titre": "Mizuki Inoue",
+  "surnom": null,
+  "sexe": "F",
+  "pays": "JP",
+  "categorie": "paille_f",
+  "statut": "actif",
+  "date_naissance": "1994-08-19",
+  "taille_cm": 160,
+  "allonge_cm": 166,
+  "style": "Karaté",
+  "lieu_naissance": "Fukuoka, Japon",
+  "palmares": {
+    "victoires": 16,
+    "defaites": 6,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 0,
+    "victoires_soumission": 9,
+    "victoires_decision": 7,
+    "defaites_ko": 0,
+    "defaites_soumission": 0,
+    "defaites_decision": 5
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.45,
+    "precision_frappe_pct": 53,
+    "frappes_encaissees_par_min": 4.65,
+    "defense_frappe_pct": 50.0,
+    "takedowns_par_15min": 0.75,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 81.0,
+    "soumissions_par_15min": 0.0,
+    "knockdowns_par_15min": 0.25,
+    "duree_moyenne_combat_s": 900,
+    "frappes_reussies": 267.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 16,
+      "defaites": 6,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 0,
+        "soumission": 9,
+        "decision": 7,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 0,
+        "decision": 5,
+        "autre": 1
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2019": 1,
+      "2020": 1,
+      "2023": 1,
+      "2025": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Jaqueline Amorim",
+      "evenement": "UFC 321",
+      "date": "October 25, 2025",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 4,
+    "victoires_ufc": 3,
+    "defaites_ufc": 1,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 2,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Alexa Grasso",
+        "evenement": "Invicta FC 11",
+        "date": "February 27, 2015"
+      },
+      {
+        "adversaire": "Karolina Kowalkiewicz",
+        "evenement": "Invicta FC 9",
+        "date": "November 1, 2014"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "armbar",
+      "finitions": 8
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Wu Yanan",
+      "evenement": "UFC Fight Night: Andrade vs. Zhang",
+      "date": "August 31, 2019",
+      "resultat": "Win",
+      "methode": "Decision (split)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Invicta Fighting Championships Fight of the Night (Two times) vs. Karolina Kowalkiewicz and Alexa Grasso",
+    "Fight of the Night (Two times) vs. Karolina Kowalkiewicz and Alexa Grasso",
+    "DEEP Jewels Strawweight Champion (One time; current) 2010 Jewels Rough Stone Grand Prix 56 kg tournament winner",
+    "Strawweight Champion (One time; current)",
+    "2010 Jewels Rough Stone Grand Prix 56 kg tournament winner",
+    "MMAJunkie.com 2015 February Fight of the Month vs. Alexa Grasso",
+    "2015 February Fight of the Month vs. Alexa Grasso",
+    "Girls S-Cup 2012 Shoot Boxing Girls S-Cup 53.5 kg tournament winner 2013 Shoot Boxing Girls S-Cup 53.5 kg tournament winner",
+    "2012 Shoot Boxing Girls S-Cup 53.5 kg tournament winner",
+    "2013 Shoot Boxing Girls S-Cup 53.5 kg tournament winner"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Mizuki_Inoue",
+    "wikidata": "https://www.wikidata.org/wiki/Q6884821",
+    "ufc_com": "https://www.ufc.com/athlete/mizuki-inoue"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 67,
+    "puissance": 47,
+    "lutte": 57,
+    "soumission": 63,
+    "defense": 57,
+    "cardio": 68,
+    "menton": 99,
+    "globale": 65,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

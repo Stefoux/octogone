@@ -1,0 +1,144 @@
+{
+  "id": "ian-machado-garry",
+  "nom": "Ian Machado Garry",
+  "ufc_slug": "ian-garry",
+  "wikipedia_titre": "Ian Machado Garry",
+  "surnom": "The Future",
+  "sexe": "M",
+  "pays": "IE",
+  "categorie": "mi_moyens",
+  "statut": "actif",
+  "date_naissance": "1997-11-17",
+  "taille_cm": 190,
+  "allonge_cm": 189,
+  "style": null,
+  "lieu_naissance": "Dublin, Irlande",
+  "palmares": {
+    "victoires": 17,
+    "defaites": 2,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 7,
+    "victoires_soumission": 1,
+    "victoires_decision": 9,
+    "defaites_ko": 0,
+    "defaites_soumission": 0,
+    "defaites_decision": 2
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.29,
+    "precision_frappe_pct": 54,
+    "frappes_encaissees_par_min": 2.59,
+    "defense_frappe_pct": 53.0,
+    "takedowns_par_15min": 0.8,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 71.0,
+    "soumissions_par_15min": 0.32,
+    "knockdowns_par_15min": 0.32,
+    "duree_moyenne_combat_s": 937,
+    "frappes_reussies": 804.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 17,
+      "defaites": 2,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 7,
+        "soumission": 1,
+        "decision": 9,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 0,
+        "decision": 2,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2021": 1,
+      "2022": 2,
+      "2023": 3,
+      "2024": 3,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Islam Makhachev",
+      "evenement": "UFC 330",
+      "date": "15 August 2026",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 12,
+    "victoires_ufc": 10,
+    "defaites_ufc": 2,
+    "victoires_decision_5_rounds": 2,
+    "combats_5_rounds_gagnes": 2,
+    "bonus_fotn": 0,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 3
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Jordan Williams",
+      "evenement": "UFC 268",
+      "date": "November 6, 2021",
+      "resultat": "Win",
+      "methode": "KO (punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Performance of the Night (One time) vs. Daniel Rodriguez",
+    "Tied ( Leon Edwards & Jack Della Maddalena ) for the third longest win streak in UFC Welterweight division history (8)",
+    "Cage Warriors Fighting Championship CWFC Welterweight Championship (One time; former)",
+    "CWFC Welterweight Championship (One time; former)",
+    "LowKick MMA 2021 #2 Ranked Prospect of the Year",
+    "2021 #2 Ranked Prospect of the Year",
+    "MMA Fighting 2023 Second Team MMA All-Star",
+    "2023 Second Team MMA All-Star",
+    "Slacky Awards 2025 Gameplan of the Year vs. Carlos Prates at UFC on ESPN: Machado Garry vs. Prates",
+    "2025 Gameplan of the Year vs. Carlos Prates at UFC on ESPN: Machado Garry vs. Prates"
+  ],
+  "image_commons": "IanGarry.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Ian_Machado_Garry",
+    "wikidata": "https://www.wikidata.org/wiki/Q109657967",
+    "ufc_com": "https://www.ufc.com/athlete/ian-garry"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 68,
+    "puissance": 59,
+    "lutte": 51,
+    "soumission": 44,
+    "defense": 70,
+    "cardio": 85,
+    "menton": 99,
+    "globale": 68,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "id": "brian-ortega",
+  "nom": "Brian Ortega",
+  "ufc_slug": "brian-ortega",
+  "wikipedia_titre": "Brian Ortega",
+  "surnom": "T-City",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "legers",
+  "statut": "actif",
+  "date_naissance": "1991-02-21",
+  "taille_cm": 173,
+  "allonge_cm": 175,
+  "style": "Jiu-Jitsu",
+  "lieu_naissance": "Carson, États-Unis",
+  "palmares": {
+    "victoires": 16,
+    "defaites": 5,
+    "nuls": 0,
+    "sans_decision": 1,
+    "victoires_ko": 3,
+    "victoires_soumission": 8,
+    "victoires_decision": 5,
+    "defaites_ko": 2,
+    "defaites_soumission": 0,
+    "defaites_decision": 3
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.84,
+    "precision_frappe_pct": 37,
+    "frappes_encaissees_par_min": 6.38,
+    "defense_frappe_pct": 49.0,
+    "takedowns_par_15min": 0.93,
+    "precision_takedown_pct": 2,
+    "defense_takedown_pct": 55.0,
+    "soumissions_par_15min": 0.93,
+    "knockdowns_par_15min": 0.39,
+    "duree_moyenne_combat_s": 829,
+    "frappes_reussies": 742.0,
+    "takedowns_reussis": 1.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 16,
+      "defaites": 5,
+      "nuls": 0,
+      "sans_decision": 1,
+      "v": {
+        "ko": 3,
+        "soumission": 8,
+        "decision": 5,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 0,
+        "decision": 3,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2014": 1,
+      "2015": 1,
+      "2016": 2,
+      "2017": 2,
+      "2018": 2,
+      "2020": 1,
+      "2021": 1,
+      "2022": 1,
+      "2024": 2,
+      "2025": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Aljamain Sterling",
+      "evenement": "UFC Fight Night: Walker vs. Zhang",
+      "date": "August 23, 2025",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 14,
+    "victoires_ufc": 8,
+    "defaites_ufc": 5,
+    "victoires_decision_5_rounds": 3,
+    "combats_5_rounds_gagnes": 3,
+    "bonus_fotn": 5,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Alexander Volkanovski",
+        "evenement": "UFC 266",
+        "date": "September 25, 2021"
+      },
+      {
+        "adversaire": "Max Holloway",
+        "evenement": "UFC 231",
+        "date": "December 8, 2018"
+      },
+      {
+        "adversaire": "Cub Swanson",
+        "evenement": "UFC Fight Night: Swanson vs. Ortega",
+        "date": "December 9, 2017"
+      },
+      {
+        "adversaire": "Renato Moicano",
+        "evenement": "UFC 214",
+        "date": "July 29, 2017"
+      },
+      {
+        "adversaire": "Thiago Tavares",
+        "evenement": "UFC Fight Night: Boetsch vs. Henderson",
+        "date": "June 6, 2015"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "triangle choke",
+      "finitions": 4
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Mike De La Torre",
+      "evenement": "UFC on Fox: Lawler vs. Brown",
+      "date": "July 26, 2014",
+      "resultat": "NC",
+      "methode": "NC (overturned)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Fight of the Night (Five times) vs. Thiago Tavares , Renato Moicano , Cub Swanson , Max Holloway and Alexander Volkanovski",
+    "Performance of the Night (Three times) vs. Cub Swanson , Frankie Edgar and Yair Rodriguez 2    Fifth most Post-Fight bonuses in UFC Featherweight division history (8)",
+    "Fifth most Post-Fight bonuses in UFC Featherweight division history (8)",
+    "Tied ( Ricardo Lamas & Joanderson Brito ) for third most finishes in UFC Featherweight division history (7)",
+    "Tied ( Daniel Pineda , Chas Skelly , Makwan Amirkhani & Youssef Zalal ) for second most submissions in UFC Featherweight division history (4)",
+    "Tied ( Dennis Bermudez ) for fifth most submission attempts in UFC Featherweight division history (12)",
+    "UFC Honors Awards 2021: President's Choice Fight of the Year Nominee vs. Alexander Volkanovski",
+    "2021: President's Choice Fight of the Year Nominee vs. Alexander Volkanovski",
+    "2015: Ranked #6 Fight of the Year vs. Thiago Tavares",
+    "2016: Ranked #3 Submission of the Year vs. Diego Brandao",
+    "2017: Ranked #10 Fighter of the Year  & Ranked #4 Submission of the Year vs. Cub Swanson",
+    "2018: Ranked #4 Fight of the Year vs. Max Holloway ,  Best Knockout of the 1HY  & Ranked #2 Knockout of the Year vs. Frankie Edgar",
+    "2021: Ranked #2 Fight of the Year vs. Alexander Volkanovski",
+    "2024: Best Submission of the 1HY  & Ranked #5 Submission of the Year vs. Yair Rodriguez 2",
+    "Resurrection Fighting Alliance RFA Featherweight Champion (one time)",
+    "RFA Featherweight Champion (one time)",
+    "World MMA Awards 2017 Breakthrough Fighter of the Year",
+    "2017 Breakthrough Fighter of the Year",
+    "2015 June Fight of the Month vs. Thiago Tavares",
+    "2017 #3 Ranked Submission of the Year vs. Cub Swanson at UFC Fight Night: Swanson vs. Ortega",
+    "2021 September Fight of the Month vs. Alexander Volkanovski",
+    "ESPN 2021 Fight of the Year vs. Alexander Volkanovski",
+    "2021 Fight of the Year vs. Alexander Volkanovski",
+    "MMA Mania 2021 Fight of the Year vs. Alexander Volkanovski",
+    "2021 Fight of the Year vs. Alexander Volkanovski",
+    "MMA Sucka 2021 Fight of the Year vs. Alexander Volkanovski",
+    "2021 Fight of the Year vs. Alexander Volkanovski",
+    "CBS Sports 2018 #4 Ranked UFC Fight of the Year vs. Max Holloway  2021 #2 Ranked UFC Fight of the Year vs. Alexander Volkanovski",
+    "2018 #4 Ranked UFC Fight of the Year vs. Max Holloway",
+    "2021 #2 Ranked UFC Fight of the Year vs. Alexander Volkanovski",
+    "Combat Press 2024 Comeback of the Year vs. Yair Rodríguez 2 at UFC Fight Night: Moreno vs. Royval 2",
+    "2024 Comeback of the Year vs. Yair Rodríguez 2 at UFC Fight Night: Moreno vs. Royval 2",
+    "Cageside Press 2024 Comeback of the Year vs. Yair Rodríguez at UFC Fight Night: Moreno vs. Royval 2",
+    "2024 Comeback of the Year vs. Yair Rodríguez at UFC Fight Night: Moreno vs. Royval 2"
+  ],
+  "image_commons": "Brian Ortega on MMAnytt.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Brian_Ortega",
+    "wikidata": "https://www.wikidata.org/wiki/Q4964959",
+    "ufc_com": "https://www.ufc.com/athlete/brian-ortega"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 50,
+    "puissance": 47,
+    "lutte": 46,
+    "soumission": 73,
+    "defense": 45,
+    "cardio": 89,
+    "menton": 74,
+    "globale": 61,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

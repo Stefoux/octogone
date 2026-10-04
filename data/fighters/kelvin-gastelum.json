@@ -1,0 +1,204 @@
+{
+  "id": "kelvin-gastelum",
+  "nom": "Kelvin Gastelum",
+  "ufc_slug": "kelvin-gastelum",
+  "wikipedia_titre": "Kelvin Gastelum",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "moyens",
+  "statut": "actif",
+  "date_naissance": "1991-10-24",
+  "taille_cm": 175,
+  "allonge_cm": 182,
+  "style": "Boxing",
+  "lieu_naissance": "San Jose, United States",
+  "palmares": {
+    "victoires": 20,
+    "defaites": 11,
+    "nuls": 0,
+    "sans_decision": 1,
+    "victoires_ko": 6,
+    "victoires_soumission": 5,
+    "victoires_decision": 9,
+    "defaites_ko": 0,
+    "defaites_soumission": 4,
+    "defaites_decision": 7
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.65,
+    "precision_frappe_pct": 42,
+    "frappes_encaissees_par_min": 3.52,
+    "defense_frappe_pct": 57.0,
+    "takedowns_par_15min": 1.04,
+    "precision_takedown_pct": 13,
+    "defense_takedown_pct": 60.0,
+    "soumissions_par_15min": 0.09,
+    "knockdowns_par_15min": 0.43,
+    "duree_moyenne_combat_s": 801,
+    "frappes_reussies": 1269.0,
+    "takedowns_reussis": 9.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 20,
+      "defaites": 11,
+      "nuls": 0,
+      "sans_decision": 1,
+      "v": {
+        "ko": 6,
+        "soumission": 5,
+        "decision": 9,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 4,
+        "decision": 7,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2013": 2,
+      "2014": 3,
+      "2015": 3,
+      "2016": 2,
+      "2017": 3,
+      "2018": 1,
+      "2019": 2,
+      "2020": 1,
+      "2021": 3,
+      "2023": 2,
+      "2024": 1,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Vicente Luque",
+      "evenement": "UFC 327",
+      "date": "April 11, 2026",
+      "resultat": "Loss",
+      "methode": "Submission (anaconda choke)"
+    },
+    "combats_ufc": 26,
+    "victoires_ufc": 14,
+    "defaites_ufc": 11,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 5,
+    "bonus_potn": 2,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Chris Curtis",
+        "evenement": "UFC 287",
+        "date": "April 8, 2023"
+      },
+      {
+        "adversaire": "Robert Whittaker",
+        "evenement": "UFC on ESPN: Whittaker vs. Gastelum",
+        "date": "April 17, 2021"
+      },
+      {
+        "adversaire": "Israel Adesanya",
+        "evenement": "UFC 236",
+        "date": "April 13, 2019"
+      },
+      {
+        "adversaire": "Ronaldo Souza",
+        "evenement": "UFC 224",
+        "date": "May 12, 2018"
+      },
+      {
+        "adversaire": "Neil Magny",
+        "evenement": "The Ultimate Fighter Latin America 2 Finale: Magny vs. Gastelum",
+        "date": "November 21, 2015"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 5
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Uriah Hall",
+      "evenement": "The Ultimate Fighter: Team Jones vs. Team Sonnen Finale",
+      "date": "April 13, 2013",
+      "resultat": "Win",
+      "methode": "Decision (split)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "UFC Hall of Fame ( Fight Wing , Class of 2025) vs. Israel Adesanya at UFC 236",
+    "The Ultimate Fighter 17 Winner",
+    "Fight of the Night (Five times) vs. Neil Magny , Ronaldo Souza , Israel Adesanya , Robert Whittaker , and Chris Curtis",
+    "Performance of the Night (Three times) vs. Jake Ellenberger , Vitor Belfort and Michael Bisping",
+    "UFC Honors Awards 2019: President's Choice Fight of the Year Winner vs. Israel Adesanya",
+    "2019: President's Choice Fight of the Year Winner vs. Israel Adesanya",
+    "2013: Ranked #3 Newcomer of the Year  & Ranked #7 Upset of the Year vs. Uriah Hall",
+    "2017: Ranked #10 Knockout of the Year vs. Michael Bisping",
+    "2019: Fight of the Year vs. Israel Adesanya",
+    "World MMA Awards 2014 Breakthrough Fighter of the Year",
+    "2014 Breakthrough Fighter of the Year",
+    "Wrestling Observer Newsletter 2019 MMA Match of the Year vs. Israel Adesanya at UFC 236",
+    "2019 MMA Match of the Year vs. Israel Adesanya at UFC 236",
+    "ESPN 2019 Fight of the Year vs. Israel Adesanya at UFC 236",
+    "2019 Fight of the Year vs. Israel Adesanya at UFC 236",
+    "MMA Junkie 2019 April Fight of the Month vs. Israel Adesanya at UFC 236  2019 Fight of the Year vs. Israel Adesanya at UFC 236",
+    "2019 April Fight of the Month vs. Israel Adesanya at UFC 236",
+    "2019 Fight of the Year vs. Israel Adesanya at UFC 236",
+    "MMA Fighting 2019 Fight of the Year vs. Israel Adesanya at UFC 236",
+    "2019 Fight of the Year vs. Israel Adesanya at UFC 236",
+    "Yahoo Sports 2019 Fight of the Year vs. Israel Adesanya at UFC 236",
+    "2019 Fight of the Year vs. Israel Adesanya at UFC 236",
+    "Cageside Press 2019 Fight of the Year vs. Israel Adesanya at UFC 236",
+    "2019 Fight of the Year vs. Israel Adesanya at UFC 236",
+    "Bleacher Report 2019 Fight of the Year vs. Israel Adesanya at UFC 236",
+    "2019 Fight of the Year vs. Israel Adesanya at UFC 236",
+    "Bloody Elbow 2019 Fight of the Year vs. Israel Adesanya at UFC 236",
+    "2019 Fight of the Year vs. Israel Adesanya at UFC 236",
+    "CBS Sports 2019 UFC Fight of the Year vs. Israel Adesanya at UFC 236",
+    "2019 UFC Fight of the Year vs. Israel Adesanya at UFC 236",
+    "MMA Mania 2019 Fight of the Year vs. Israel Adesanya at UFC 236",
+    "2019 Fight of the Year vs. Israel Adesanya at UFC 236",
+    "MMA Sucka 2019 Fight of the Year vs. Israel Adesanya at UFC 236",
+    "2019 Fight of the Year vs. Israel Adesanya at UFC 236",
+    "LowKick MMA 2019 Fight of the Year vs. Israel Adesanya at UFC 236",
+    "2019 Fight of the Year vs. Israel Adesanya at UFC 236"
+  ],
+  "image_commons": "Kelvin Gastelum.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Kelvin_Gastelum",
+    "wikidata": "https://www.wikidata.org/wiki/Q10863578",
+    "ufc_com": "https://www.ufc.com/athlete/kelvin-gastelum"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 20-11, wikipedia_infobox 20-11, ufc_com 21-11"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 53,
+    "puissance": 53,
+    "lutte": 47,
+    "soumission": 48,
+    "defense": 68,
+    "cardio": 65,
+    "menton": 99,
+    "globale": 62,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

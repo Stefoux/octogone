@@ -1,0 +1,230 @@
+{
+  "id": "alexandre-pantoja",
+  "nom": "Alexandre Pantoja",
+  "ufc_slug": "alexandre-pantoja",
+  "wikipedia_titre": "Alexandre Pantoja",
+  "surnom": "The Cannibal",
+  "sexe": "M",
+  "pays": "BR",
+  "categorie": "mouche",
+  "statut": "actif",
+  "date_naissance": "1990-04-16",
+  "taille_cm": 165,
+  "allonge_cm": 170,
+  "style": "AMM",
+  "lieu_naissance": "Brésil",
+  "palmares": {
+    "victoires": 30,
+    "defaites": 7,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 8,
+    "victoires_soumission": 12,
+    "victoires_decision": 10,
+    "defaites_ko": 1,
+    "defaites_soumission": 0,
+    "defaites_decision": 6
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.54,
+    "precision_frappe_pct": 51,
+    "frappes_encaissees_par_min": 4.23,
+    "defense_frappe_pct": 48.0,
+    "takedowns_par_15min": 2.82,
+    "precision_takedown_pct": 3,
+    "defense_takedown_pct": 69.0,
+    "soumissions_par_15min": 0.88,
+    "knockdowns_par_15min": 0.25,
+    "duree_moyenne_combat_s": 757,
+    "frappes_reussies": 1088.0,
+    "takedowns_reussis": 3.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 30,
+      "defaites": 7,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 8,
+        "soumission": 12,
+        "decision": 10,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 0,
+        "decision": 6,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2017": 2,
+      "2018": 3,
+      "2019": 3,
+      "2020": 1,
+      "2021": 2,
+      "2022": 1,
+      "2023": 2,
+      "2024": 2,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Joshua Van",
+      "evenement": "UFC 331",
+      "date": "September 19, 2026",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 19,
+    "victoires_ufc": 14,
+    "defaites_ufc": 5,
+    "victoires_decision_5_rounds": 3,
+    "combats_5_rounds_gagnes": 3,
+    "bonus_fotn": 3,
+    "bonus_potn": 4,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Joshua Van",
+        "evenement": "UFC 331",
+        "date": "September 19, 2026"
+      },
+      {
+        "adversaire": "Brandon Moreno",
+        "evenement": "UFC 290",
+        "date": "July 8, 2023"
+      },
+      {
+        "adversaire": "Deiveson Figueiredo",
+        "evenement": "UFC 240",
+        "date": "July 27, 2019"
+      }
+    ],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Flyweight Championship",
+        "evenement": "UFC 317",
+        "date": "June 28, 2025"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Flyweight Championship",
+        "evenement": "UFC 310",
+        "date": "December 7, 2024"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Flyweight Championship",
+        "evenement": "UFC 301",
+        "date": "May 4, 2024"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Flyweight Championship",
+        "evenement": "UFC 296",
+        "date": "December 16, 2023"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Flyweight Championship",
+        "evenement": "UFC 290",
+        "date": "July 8, 2023"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "rear-naked choke",
+      "finitions": 9
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Eric Shelton",
+      "evenement": "UFC on Fox: Shevchenko vs. Peña",
+      "date": "January 28, 2017",
+      "resultat": "Win",
+      "methode": "Decision (split)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "Four successful title defenses",
+    "Second most title fight wins in UFC Flyweight division history (5) (behind Demetrious Johnson )",
+    "Oldest fighter in history to win a UFC Flyweight title fight (35 years, 73 days)",
+    "Fight of the Night (Three times) vs. Deiveson Figueiredo , Brandon Moreno 2 and Joshua Van 2",
+    "Tied ( Brandon Moreno & Brandon Royval ) for second most Post-Fight bonuses in UFC Flyweight division history (7) (behind Demetrious Johnson )",
+    "Most wins in UFC Flyweight division history (14)",
+    "Most finishes in UFC Flyweight division history (8)",
+    "Most submissions in UFC Flyweight division history (6)  Fourth most submission attempts in UFC Flyweight division history (14)",
+    "Fourth most submission attempts in UFC Flyweight division history (14)",
+    "Tied ( Joshua Van ) for the second longest win streak in UFC Flyweight division history (8) (behind Demetrious Johnson )",
+    "Tied ( Joseph Benavidez ) for third most bouts in UFC Flyweight division history (19)",
+    "Third most takedowns landed in UFC Flyweight division history (45)",
+    "Third most significant strikes in UFC Flyweight division history (1088)  Fifth most total strikes in UFC Flyweight division history (1326)",
+    "Fifth most total strikes in UFC Flyweight division history (1326)",
+    "Fourth most total fight time in UFC Flyweight division history (3:59:47)",
+    "Second most control time in UFC Flyweight division history (1:18:30) (behind Demetrious Johnson )",
+    "Third most top position time in UFC Flyweight division history (1:01:02)",
+    "UFC Honors Awards 2023: President's Choice Fight of the Year Nominee vs. Brandon Moreno 2",
+    "2023: President's Choice Fight of the Year Nominee vs. Brandon Moreno 2",
+    "UFC.com Awards 2023: Ranked #5 Fighter of the Year  & Ranked #2 Fight of the Year vs. Brandon Moreno 2  2024: Ranked #8 Fighter of the Year  & Ranked #7 Submission of the Year vs. Kai Asakura",
+    "2023: Ranked #5 Fighter of the Year  & Ranked #2 Fight of the Year vs. Brandon Moreno 2",
+    "2024: Ranked #8 Fighter of the Year  & Ranked #7 Submission of the Year vs. Kai Asakura",
+    "Resurrection Fighting Alliance RFA Flyweight Championship (One time) AXS TV Flyweight Superfight Championship (One time)",
+    "RFA Flyweight Championship (One time)",
+    "AXS TV Flyweight Superfight Championship (One time)",
+    "New York Post 2023 Fight of the Year vs. Brandon Moreno 2 at UFC 290",
+    "2023 Fight of the Year vs. Brandon Moreno 2 at UFC 290",
+    "MMA Junkie 2019 July Fight of the Month vs. Deiveson Figueiredo  2026 September Fight of the Month vs. Joshua Van",
+    "2019 July Fight of the Month vs. Deiveson Figueiredo",
+    "2026 September Fight of the Month vs. Joshua Van",
+    "Combat Press 2023 Fight of the Year vs. Brandon Moreno 2 at UFC 290",
+    "2023 Fight of the Year vs. Brandon Moreno 2 at UFC 290",
+    "World MMA Awards 2024 Nomination – Charles Lewis Fighter of the Year  2024 Nomination – Fight of the Year vs. Brandon Moreno 2 at UFC 290",
+    "2024 Nomination – Charles Lewis Fighter of the Year",
+    "2024 Nomination – Fight of the Year vs. Brandon Moreno 2 at UFC 290",
+    "MMA Fighting 2023 First Team MMA All-Star  2024 First Team MMA All-Star",
+    "2023 First Team MMA All-Star",
+    "2024 First Team MMA All-Star",
+    "MMA Mania 2023 Fighter of the Year  2024 #4 Ranked Submission of the Year vs. Kai Asakura at UFC 310",
+    "2023 Fighter of the Year"
+  ],
+  "image_commons": "Alexandre Pantoja.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Alexandre_Pantoja",
+    "wikidata": "https://www.wikidata.org/wiki/Q27999203",
+    "ufc_com": "https://www.ufc.com/athlete/alexandre-pantoja"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 67,
+    "puissance": 48,
+    "lutte": 59,
+    "soumission": 68,
+    "defense": 54,
+    "cardio": 87,
+    "menton": 90,
+    "globale": 68,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "id": "umar-nurmagomedov",
+  "nom": "Umar Nurmagomedov",
+  "ufc_slug": "umar-nurmagomedov",
+  "wikipedia_titre": "Umar Nurmagomedov",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "RU",
+  "categorie": "coq",
+  "statut": "actif",
+  "date_naissance": "1996-01-03",
+  "taille_cm": 173,
+  "allonge_cm": 175,
+  "style": "AMM",
+  "lieu_naissance": "Republic of Dagestan, Russie",
+  "palmares": {
+    "victoires": 20,
+    "defaites": 2,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 2,
+    "victoires_soumission": 7,
+    "victoires_decision": 11,
+    "defaites_ko": 1,
+    "defaites_soumission": 0,
+    "defaites_decision": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.76,
+    "precision_frappe_pct": 57,
+    "frappes_encaissees_par_min": 1.85,
+    "defense_frappe_pct": 61.0,
+    "takedowns_par_15min": 3.94,
+    "precision_takedown_pct": 8,
+    "defense_takedown_pct": 79.0,
+    "soumissions_par_15min": 0.22,
+    "knockdowns_par_15min": 0.11,
+    "duree_moyenne_combat_s": 800,
+    "frappes_reussies": 502.0,
+    "takedowns_reussis": 6.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 20,
+      "defaites": 2,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 2,
+        "soumission": 7,
+        "decision": 11,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 0,
+        "decision": 1,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2021": 1,
+      "2022": 2,
+      "2023": 1,
+      "2024": 2,
+      "2025": 2,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Song Yadong",
+      "evenement": "UFC Fight Night: Nurmagomedov vs. Song",
+      "date": "August 29, 2026",
+      "resultat": "Loss",
+      "methode": "KO (punch)"
+    },
+    "combats_ufc": 10,
+    "victoires_ufc": 8,
+    "defaites_ufc": 2,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 1,
+    "bonus_potn": 2,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Merab Dvalishvili",
+        "evenement": "UFC 311",
+        "date": "January 18, 2025"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "rear-naked choke",
+      "finitions": 6
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Sergey Morozov",
+      "evenement": "UFC on ESPN: Chiesa vs. Magny",
+      "date": "January 20, 2021",
+      "resultat": "Win",
+      "methode": "Technical Submission (rear-naked choke)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "World Mixed Martial Arts Association (WMMAA) World Champion (2016 at bantamweight )",
+    "World Champion (2016 at bantamweight )",
+    "Fight of the Night (One time) vs Merab Dvalishvili",
+    "Performance of the Night (Two times) vs Sergey Morozov and Raoni Barcelos",
+    "Fifth highest significant strike accuracy percentage in UFC Bantamweight division history (56.1%)",
+    "Tied ( Tony Gravely ) for third most takedowns landed in UFC Bantamweight division history (33)",
+    "FIfth highest top position time in UFC Bantamweight division history (42:48)",
+    "Sixth most average longest fight time in UFC Bantamweight division history (15:25)",
+    "Fourth most significant strikes landed in a UFC Bantamweight match (61) (vs. Bekzat Almakhan )",
+    "Third most takedowns landed in a UFC Bantamweight match (11) (vs. Mario Bautista )",
+    "Highest takedown accuracy in a UFC Bantamweight match (78.6%) (Min. 10 takedown attempts) (vs. Mario Bautista )",
+    "UFC Honors Awards 2025: President's Choice Fight of the Year Nominee vs. Merab Dvalishvili",
+    "2025: President's Choice Fight of the Year Nominee vs. Merab Dvalishvili",
+    "Eagle Fighting Championship [ a ] GF Bantamweight Championship (One time) Three successful title defences",
+    "GF Bantamweight Championship (One time) Three successful title defences",
+    "Three successful title defences",
+    "MMA Mania 2025 #3 Ranked Fight of the Year vs. Merab Dvalishvili at UFC 311",
+    "2025 #3 Ranked Fight of the Year vs. Merab Dvalishvili at UFC 311",
+    "World Combat Sambo Federation World Champion (2015 at -62 kg)",
+    "World Champion (2015 at -62 kg)"
+  ],
+  "image_commons": "UmarNurmagomedov.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Umar_Nurmagomedov",
+    "wikidata": "https://www.wikidata.org/wiki/Q56315142",
+    "ufc_com": "https://www.ufc.com/athlete/umar-nurmagomedov"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 68,
+    "puissance": 39,
+    "lutte": 68,
+    "soumission": 56,
+    "defense": 81,
+    "cardio": 72,
+    "menton": 87,
+    "globale": 67,
+    "style": "lutteur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "id": "bill-algeo",
+  "nom": "Bill Algeo",
+  "ufc_slug": "bill-algeo",
+  "wikipedia_titre": "Bill Algeo",
+  "surnom": "Senor Perfecto",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "plume",
+  "statut": "inactif",
+  "date_naissance": "1989-06-09",
+  "taille_cm": 183,
+  "allonge_cm": 185,
+  "style": null,
+  "lieu_naissance": "Boothwyn, United States",
+  "palmares": {
+    "victoires": 18,
+    "defaites": 9,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 4,
+    "victoires_soumission": 7,
+    "victoires_decision": 7,
+    "defaites_ko": 2,
+    "defaites_soumission": 2,
+    "defaites_decision": 5
+  },
+  "stats_ufc": {
+    "frappes_par_min": 5.88,
+    "precision_frappe_pct": 52,
+    "frappes_encaissees_par_min": 4.38,
+    "defense_frappe_pct": 47.0,
+    "takedowns_par_15min": 1.03,
+    "precision_takedown_pct": 22,
+    "defense_takedown_pct": 55.0,
+    "soumissions_par_15min": 0.11,
+    "knockdowns_par_15min": 0.23,
+    "duree_moyenne_combat_s": 715,
+    "frappes_reussies": 771.0,
+    "takedowns_reussis": 4.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 18,
+      "defaites": 9,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 4,
+        "soumission": 7,
+        "decision": 7,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 2,
+        "decision": 5,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2019": 1,
+      "2020": 2,
+      "2021": 1,
+      "2022": 3,
+      "2023": 2,
+      "2024": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Choi Doo-ho",
+      "evenement": "UFC on ESPN: Lemos vs. Jandiroba",
+      "date": "July 20, 2024",
+      "resultat": "Loss",
+      "methode": "TKO (submission to punch)"
+    },
+    "combats_ufc": 11,
+    "victoires_ufc": 5,
+    "defaites_ufc": 6,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 2,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "T.J. Brown",
+        "evenement": "UFC on ESPN: Holloway vs. Allen",
+        "date": "April 15, 2023"
+      },
+      {
+        "adversaire": "Ricardo Lamas",
+        "evenement": "UFC Fight Night: Smith vs. Rakić",
+        "date": "August 29, 2020"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "rear-naked choke",
+      "finitions": 6
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Brendan Loughnane",
+      "evenement": "Dana White's Contender Series 17",
+      "date": "June 18, 2019",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Ultimate Fighting Championship Fight of the Night (Two times) vs. Ricardo Lamas & T.J. Brown   Performance of the Night (One time) vs. Herbert Burns",
+    "Fight of the Night (Two times) vs. Ricardo Lamas & T.J. Brown",
+    "Performance of the Night (One time) vs. Herbert Burns",
+    "Ring of Combat ROC Featherweight Champion (One time) 3 successful title defenses",
+    "ROC Featherweight Champion (One time) 3 successful title defenses",
+    "3 successful title defenses"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Bill_Algeo",
+    "wikidata": "https://www.wikidata.org/wiki/Q106950041",
+    "ufc_com": "https://www.ufc.com/athlete/bill-algeo"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 74,
+    "puissance": 47,
+    "lutte": 48,
+    "soumission": 56,
+    "defense": 53,
+    "cardio": 68,
+    "menton": 77,
+    "globale": 60,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

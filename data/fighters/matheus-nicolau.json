@@ -1,0 +1,135 @@
+{
+  "id": "matheus-nicolau",
+  "nom": "Matheus Nicolau",
+  "ufc_slug": "matheus-nicolau",
+  "wikipedia_titre": "Matheus Nicolau",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "BR",
+  "categorie": "mouche",
+  "statut": "inactif",
+  "date_naissance": "1993-01-06",
+  "taille_cm": 168,
+  "allonge_cm": 168,
+  "style": "Boxing",
+  "lieu_naissance": "Belo Horizonte, Brazil",
+  "palmares": {
+    "victoires": 19,
+    "defaites": 5,
+    "nuls": 1,
+    "sans_decision": 0,
+    "victoires_ko": 5,
+    "victoires_soumission": 5,
+    "victoires_decision": 9,
+    "defaites_ko": 4,
+    "defaites_soumission": 0,
+    "defaites_decision": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.31,
+    "precision_frappe_pct": 52,
+    "frappes_encaissees_par_min": 2.98,
+    "defense_frappe_pct": 66.0,
+    "takedowns_par_15min": 1.22,
+    "precision_takedown_pct": 26,
+    "defense_takedown_pct": 90.0,
+    "soumissions_par_15min": 0.85,
+    "knockdowns_par_15min": 0.97,
+    "duree_moyenne_combat_s": 673,
+    "frappes_reussies": 408.0,
+    "takedowns_reussis": 6.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 19,
+      "defaites": 5,
+      "nuls": 1,
+      "sans_decision": 0,
+      "v": {
+        "ko": 5,
+        "soumission": 5,
+        "decision": 9,
+        "autre": 0
+      },
+      "d": {
+        "ko": 4,
+        "soumission": 0,
+        "decision": 1,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2015": 1,
+      "2016": 1,
+      "2017": 1,
+      "2018": 1,
+      "2021": 2,
+      "2022": 2,
+      "2023": 1,
+      "2024": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Asu Almabayev",
+      "evenement": "UFC Fight Night: Hernandez vs. Pereira",
+      "date": "October 19, 2024",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 11,
+    "victoires_ufc": 7,
+    "defaites_ufc": 4,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 5
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Bruno Mesquita",
+      "evenement": "UFC Fight Night: Belfort vs. Henderson 3",
+      "date": "November 7, 2015",
+      "resultat": "Win",
+      "methode": "Submission (Japanese necktie)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Matheus_Nicolau",
+    "wikidata": "https://www.wikidata.org/wiki/Q25894208",
+    "ufc_com": "https://www.ufc.com/athlete/matheus-nicolau"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 19-5, wikipedia_infobox 19-5, ufc_com 19-6"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 62,
+    "puissance": 59,
+    "lutte": 62,
+    "soumission": 61,
+    "defense": 79,
+    "cardio": 59,
+    "menton": 54,
+    "globale": 62,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

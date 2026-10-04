@@ -1,0 +1,148 @@
+{
+  "id": "sergei-pavlovich",
+  "nom": "Sergei Pavlovich",
+  "ufc_slug": "sergei-pavlovich",
+  "wikipedia_titre": "Sergei Pavlovich",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "RU",
+  "categorie": "lourds",
+  "statut": "actif",
+  "date_naissance": "1992-05-13",
+  "taille_cm": 190,
+  "allonge_cm": 213,
+  "style": "AMM",
+  "lieu_naissance": "Russie",
+  "palmares": {
+    "victoires": 21,
+    "defaites": 3,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 16,
+    "victoires_soumission": 0,
+    "victoires_decision": 5,
+    "defaites_ko": 2,
+    "defaites_soumission": 0,
+    "defaites_decision": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.49,
+    "precision_frappe_pct": 45,
+    "frappes_encaissees_par_min": 3.58,
+    "defense_frappe_pct": 56.0,
+    "takedowns_par_15min": 0.47,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 75.0,
+    "soumissions_par_15min": 0.0,
+    "knockdowns_par_15min": 1.89,
+    "duree_moyenne_combat_s": 317,
+    "frappes_reussies": 285.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 21,
+      "defaites": 3,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 16,
+        "soumission": 0,
+        "decision": 5,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 0,
+        "decision": 1,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2018": 1,
+      "2019": 2,
+      "2022": 3,
+      "2023": 2,
+      "2024": 1,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Tallison Teixeira",
+      "evenement": "UFC Fight Night: Song vs. Figueiredo",
+      "date": "May 30, 2026",
+      "resultat": "Win",
+      "methode": "KO (punches)"
+    },
+    "combats_ufc": 12,
+    "victoires_ufc": 9,
+    "defaites_ufc": 3,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 0,
+    "bonus_potn": 4,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 15
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Alistair Overeem",
+      "evenement": "UFC Fight Night: Blaydes vs. Ngannou 2",
+      "date": "November 24, 2018",
+      "resultat": "Loss",
+      "methode": "TKO (punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Performance of the Night (Four times) vs. Marcelo Golm , Shamil Abdurakhimov , Tai Tuivasa , and Curtis Blaydes",
+    "Longest first-round knockout win streak in UFC history (6)",
+    "Tied ( Don Frye ) for the second longest knockout win streak in UFC history (6) (behind Chuck Liddell )",
+    "Fight Nights Global Fight Nights Global Heavyweight Champion (One time)   One successful title defense",
+    "Fight Nights Global Heavyweight Champion (One time)   One successful title defense",
+    "One successful title defense",
+    "MMAjunkie.com 2022 December Knockout of the Month vs. Tai Tuivasa",
+    "2022 December Knockout of the Month vs. Tai Tuivasa",
+    "Fight Matrix 2015 Male Rookie of the Year  2022 Comeback Fighter of the Year",
+    "2015 Male Rookie of the Year",
+    "2022 Comeback Fighter of the Year",
+    "MMA Fighting 2022 First Team MMA All-Star",
+    "2022 First Team MMA All-Star",
+    "Russian Championship (Above 90 kg)"
+  ],
+  "image_commons": "SergeiPavlovich2018.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Sergei_Pavlovich",
+    "wikidata": "https://www.wikidata.org/wiki/Q72386202",
+    "ufc_com": "https://www.ufc.com/athlete/sergei-pavlovich"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 61,
+    "puissance": 90,
+    "lutte": 51,
+    "soumission": 37,
+    "defense": 66,
+    "cardio": 48,
+    "menton": 76,
+    "globale": 61,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

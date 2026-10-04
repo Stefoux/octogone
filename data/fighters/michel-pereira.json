@@ -1,0 +1,145 @@
+{
+  "id": "michel-pereira",
+  "nom": "Michel Pereira",
+  "ufc_slug": "michel-pereira",
+  "wikipedia_titre": "Michel Pereira",
+  "surnom": "Demolidor",
+  "sexe": "M",
+  "pays": "BR",
+  "categorie": "moyens",
+  "statut": "inactif",
+  "date_naissance": "1993-06-10",
+  "taille_cm": 185,
+  "allonge_cm": 185,
+  "style": "Cogneur",
+  "lieu_naissance": "Marabá, Brésil",
+  "palmares": {
+    "victoires": 32,
+    "defaites": 15,
+    "nuls": 0,
+    "sans_decision": 2,
+    "victoires_ko": 11,
+    "victoires_soumission": 9,
+    "victoires_decision": 12,
+    "defaites_ko": 3,
+    "defaites_soumission": 1,
+    "defaites_decision": 10
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.28,
+    "precision_frappe_pct": 51,
+    "frappes_encaissees_par_min": 4.32,
+    "defense_frappe_pct": 51.0,
+    "takedowns_par_15min": 1.11,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 76.0,
+    "soumissions_par_15min": 0.6,
+    "knockdowns_par_15min": 0.34,
+    "duree_moyenne_combat_s": 659,
+    "frappes_reussies": 752.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 32,
+      "defaites": 15,
+      "nuls": 0,
+      "sans_decision": 2,
+      "v": {
+        "ko": 11,
+        "soumission": 9,
+        "decision": 12,
+        "autre": 0
+      },
+      "d": {
+        "ko": 3,
+        "soumission": 1,
+        "decision": 10,
+        "autre": 1
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2019": 2,
+      "2020": 3,
+      "2021": 1,
+      "2022": 2,
+      "2023": 1,
+      "2024": 3,
+      "2025": 2,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Sharabutdin Magomedov",
+      "evenement": "UFC Fight Night: Fiziev vs. Torres",
+      "date": "27 June 2026",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 16,
+    "victoires_ufc": 10,
+    "defaites_ufc": 6,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 2,
+    "bonus_potn": 5,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Santiago Ponzinibbio",
+        "evenement": "UFC Fight Night: Holm vs. Vieira",
+        "date": "21 May 2022"
+      },
+      {
+        "adversaire": "Tristan Connelly",
+        "evenement": "UFC Fight Night: Cowboy vs. Gaethje",
+        "date": "14 September 2019"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 8
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Danny Roberts",
+      "evenement": "UFC Fight Night: dos Anjos vs. Lee",
+      "date": "18 May 2019",
+      "resultat": "Win",
+      "methode": "KO (flying knee and punch)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Michel_Pereira",
+    "wikidata": "https://www.wikidata.org/wiki/Q89157549",
+    "ufc_com": "https://www.ufc.com/athlete/michel-pereira"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 66,
+    "puissance": 55,
+    "lutte": 54,
+    "soumission": 58,
+    "defense": 57,
+    "cardio": 65,
+    "menton": 73,
+    "globale": 61,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

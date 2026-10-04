@@ -1,0 +1,143 @@
+{
+  "id": "mayra-bueno",
+  "nom": "Mayra Bueno",
+  "ufc_slug": "manon-fiorot",
+  "wikipedia_titre": "Manon Fiorot",
+  "surnom": "The Beast",
+  "sexe": "F",
+  "pays": "FR",
+  "categorie": "mouche_f",
+  "statut": "actif",
+  "date_naissance": "1990-02-17",
+  "taille_cm": 170,
+  "allonge_cm": 165,
+  "style": "Karaté",
+  "lieu_naissance": "Nice, France",
+  "palmares": {
+    "victoires": 13,
+    "defaites": 3,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 7,
+    "victoires_soumission": 0,
+    "victoires_decision": 6,
+    "defaites_ko": 0,
+    "defaites_soumission": 0,
+    "defaites_decision": 3
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.61,
+    "precision_frappe_pct": 53,
+    "frappes_encaissees_par_min": 3.26,
+    "defense_frappe_pct": 50.0,
+    "takedowns_par_15min": 1.29,
+    "precision_takedown_pct": 3,
+    "defense_takedown_pct": 62.0,
+    "soumissions_par_15min": 0.55,
+    "knockdowns_par_15min": 0.09,
+    "duree_moyenne_combat_s": 749,
+    "frappes_reussies": 748.0,
+    "takedowns_reussis": 1.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 13,
+      "defaites": 3,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 7,
+        "soumission": 0,
+        "decision": 6,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 0,
+        "decision": 3,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2021": 3,
+      "2022": 2,
+      "2023": 1,
+      "2024": 1,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Alexa Grasso",
+      "evenement": "UFC Fight Night: Silva vs. Delgado",
+      "date": "September 12, 2026",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 10,
+    "victoires_ufc": 8,
+    "defaites_ufc": 2,
+    "victoires_decision_5_rounds": 2,
+    "combats_5_rounds_gagnes": 2,
+    "bonus_fotn": 0,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 6
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Victoria Leonardo",
+      "evenement": "UFC on ESPN: Chiesa vs. Magny",
+      "date": "January 20, 2021",
+      "resultat": "Win",
+      "methode": "TKO (head kick and punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Tied ( Maycee Barber ) for the third longest win streak in UFC Women's Flyweight division history (7) (behind Valentina Shevchenko )",
+    "Tied ( Maycee Barber , Carli Judice & Casey O'Neill ) for second most knockouts in UFC Women's Flyweight division history (3) (behind Valentina Shevchenko )",
+    "Second highest takedown defense percentage in UFC Women's Flyweight division history (87.5%) (behind Natália Silva )",
+    "UFC.com Awards 2021: Ranked #2 Newcomer of the Year",
+    "2021: Ranked #2 Newcomer of the Year",
+    "Extreme Fighting Championship EFC Women's Flyweight World Championship (One time)",
+    "EFC Women's Flyweight World Championship (One time)",
+    "UAE Warriors UAEW Flyweight Championship (One time)",
+    "UAEW Flyweight Championship (One time)"
+  ],
+  "image_commons": "MANON FIOROT ET ALDRIC CASSATA, LE COUPLE GOAL DU MMA - MMA EXTRA ROUND -22 - YouTube - 0-28-31 (cropped).jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Manon_Fiorot",
+    "wikidata": "https://www.wikidata.org/wiki/Q106358942",
+    "ufc_com": "https://www.ufc.com/athlete/manon-fiorot"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 69,
+    "puissance": 62,
+    "lutte": 51,
+    "soumission": 45,
+    "defense": 63,
+    "cardio": 77,
+    "menton": 99,
+    "globale": 67,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

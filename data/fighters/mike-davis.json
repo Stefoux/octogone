@@ -1,0 +1,152 @@
+{
+  "id": "mike-davis",
+  "nom": "Mike Davis",
+  "ufc_slug": "mike-davis",
+  "wikipedia_titre": "Mike Davis (fighter)",
+  "surnom": "Beast Boy",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "legers",
+  "statut": "actif",
+  "date_naissance": "1992-10-07",
+  "taille_cm": 183,
+  "allonge_cm": 184,
+  "style": "MMA",
+  "lieu_naissance": "Hudson, United States",
+  "palmares": {
+    "victoires": 12,
+    "defaites": 4,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 8,
+    "victoires_soumission": 2,
+    "victoires_decision": 2,
+    "defaites_ko": 0,
+    "defaites_soumission": 1,
+    "defaites_decision": 3
+  },
+  "stats_ufc": {
+    "frappes_par_min": null,
+    "precision_frappe_pct": null,
+    "frappes_encaissees_par_min": null,
+    "defense_frappe_pct": null,
+    "takedowns_par_15min": null,
+    "precision_takedown_pct": null,
+    "defense_takedown_pct": null,
+    "soumissions_par_15min": null,
+    "knockdowns_par_15min": null,
+    "duree_moyenne_combat_s": null,
+    "frappes_reussies": null,
+    "takedowns_reussis": null
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 12,
+      "defaites": 4,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 8,
+        "soumission": 2,
+        "decision": 2,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 1,
+        "decision": 3,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2018": 1,
+      "2019": 2,
+      "2021": 1,
+      "2022": 1,
+      "2024": 1,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Nurullo Aliev",
+      "evenement": "UFC Fight Night: Ankalaev vs. Guskov",
+      "date": "July 25, 2026",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 9,
+    "victoires_ufc": 5,
+    "defaites_ufc": 4,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 1,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Mason Jones",
+        "evenement": "UFC on ESPN: Chiesa vs. Magny",
+        "date": "January 20, 2021"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 7
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Sodiq Yusuff",
+      "evenement": "Dana White's Contender Series 14",
+      "date": "July 24, 2018",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Island Fights Island Fights Lightweight Champion (one time; former)",
+    "Island Fights Lightweight Champion (one time; former)",
+    "Ultimate Fighting Championship Fight of the Night (One time) vs. Mason Jones",
+    "Fight of the Night (One time) vs. Mason Jones",
+    "MMAjunkie.com 2021 January Fight of the Month vs. Mason Jones",
+    "2021 January Fight of the Month vs. Mason Jones"
+  ],
+  "image_commons": "Mike Davis at Vyralcon 2022 (3) (cropped).jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Mike_Davis_(fighter)",
+    "wikidata": "https://www.wikidata.org/wiki/Q97186201",
+    "ufc_com": "https://www.ufc.com/athlete/mike-davis"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "stats_ufc (absentes de la fiche ufc.com)"
+  ],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 65,
+    "puissance": 81,
+    "lutte": 65,
+    "soumission": 53,
+    "defense": 65,
+    "cardio": 39,
+    "menton": 99,
+    "globale": 67,
+    "style": "frappeur",
+    "estimees": [
+      "frappe",
+      "lutte",
+      "defense"
+    ],
+    "formule_version": 1
+  }
+}

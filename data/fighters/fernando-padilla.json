@@ -1,0 +1,134 @@
+{
+  "id": "fernando-padilla",
+  "nom": "Fernando Padilla",
+  "ufc_slug": "fernando-padilla",
+  "wikipedia_titre": "Fernando Padilla",
+  "surnom": "El Valiente",
+  "sexe": "M",
+  "pays": "MX",
+  "categorie": "plume",
+  "statut": "actif",
+  "date_naissance": "1996-12-15",
+  "taille_cm": 185,
+  "allonge_cm": 193,
+  "style": "MMA",
+  "lieu_naissance": "Chihuahua, Mexico",
+  "palmares": {
+    "victoires": 16,
+    "defaites": 6,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 5,
+    "victoires_soumission": 9,
+    "victoires_decision": 2,
+    "defaites_ko": 1,
+    "defaites_soumission": 0,
+    "defaites_decision": 5
+  },
+  "stats_ufc": {
+    "frappes_par_min": 6.07,
+    "precision_frappe_pct": 40,
+    "frappes_encaissees_par_min": 5.74,
+    "defense_frappe_pct": 52.0,
+    "takedowns_par_15min": 0.0,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 100.0,
+    "soumissions_par_15min": 0.61,
+    "knockdowns_par_15min": 1.23,
+    "duree_moyenne_combat_s": 366,
+    "frappes_reussies": 148.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 16,
+      "defaites": 6,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 5,
+        "soumission": 9,
+        "decision": 2,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 0,
+        "decision": 5,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2023": 2,
+      "2024": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Sean Woodson",
+      "evenement": "UFC on ESPN: Covington vs. Buckley",
+      "date": "December 14, 2024",
+      "resultat": "Loss",
+      "methode": "TKO (punches)"
+    },
+    "combats_ufc": 4,
+    "victoires_ufc": 2,
+    "defaites_ufc": 2,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 4
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Julian Erosa",
+      "evenement": "UFC on ESPN: Song vs. Simón",
+      "date": "April 29, 2023",
+      "resultat": "Win",
+      "methode": "TKO (punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Ultimate Fighting Championship Performance of the Night (One time) vs. Luis Pajuelo",
+    "Performance of the Night (One time) vs. Luis Pajuelo",
+    "Fury Fighting Championship Fury FC Featherweight Championship (One time)",
+    "Fury FC Featherweight Championship (One time)"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Fernando_Padilla",
+    "wikidata": "https://www.wikidata.org/wiki/Q125127273",
+    "ufc_com": "https://www.ufc.com/athlete/fernando-padilla"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 64,
+    "puissance": 65,
+    "lutte": 59,
+    "soumission": 69,
+    "defense": 54,
+    "cardio": 49,
+    "menton": 87,
+    "globale": 64,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

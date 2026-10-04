@@ -1,0 +1,5882 @@
+{
+  "id": "2024-topps-chrome-ufc",
+  "nom": "2024 Topps Chrome UFC",
+  "annee": 2024,
+  "marque": "Topps",
+  "gamme": "Chrome",
+  "type": "reelle",
+  "famille_cadre": "chrome",
+  "date_sortie": "March 20, 2024",
+  "sources": [
+    "https://www.checklistinsider.com/2024-topps-chrome-ufc",
+    "https://www.checklistcenter.com/2024-topps-chrome-ufc-card-checklist/"
+  ],
+  "a_verifier": [
+    "serie Hidden Gems: tirage « 50 copies » ambigu (par carte ou total ?)"
+  ],
+  "verification": {
+    "source": "https://www.checklistcenter.com/2024-topps-chrome-ufc-card-checklist/",
+    "cartes_trouvees": 770,
+    "ecarts": []
+  },
+  "series": [
+    {
+      "code": "BASE",
+      "nom": "Base",
+      "type": "base",
+      "nb_cartes": 200,
+      "cartes": [
+        {
+          "numero": "1",
+          "nom_imprime": "Brad Katona",
+          "mentions": [
+            "RC"
+          ],
+          "sous_titre": null
+        },
+        {
+          "numero": "2",
+          "nom_imprime": "Adrian Yanez",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "3",
+          "nom_imprime": "Brunno Ferreira",
+          "mentions": [
+            "RC"
+          ],
+          "sous_titre": null
+        },
+        {
+          "numero": "4",
+          "nom_imprime": "Alex Pereira",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "5",
+          "nom_imprime": "Alex Perez",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "6",
+          "nom_imprime": "Alexa Grasso",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "7",
+          "nom_imprime": "Alexander Volkanovski",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "8",
+          "nom_imprime": "Alexander Volkov",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "9",
+          "nom_imprime": "Alexandr Romanov",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "10",
+          "nom_imprime": "Alexandre Pantoja",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "11",
+          "nom_imprime": "Alexsandar Rakic",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "12",
+          "nom_imprime": "Aljamain Sterling",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "13",
+          "nom_imprime": "Allan Nascimento",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "14",
+          "nom_imprime": "Amanda Lemos",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "15",
+          "nom_imprime": "Amanda Nunes",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "16",
+          "nom_imprime": "Amir Albazi",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "17",
+          "nom_imprime": "Anderson Silva",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "18",
+          "nom_imprime": "Anshul Jubli",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "19",
+          "nom_imprime": "Anthony Smith",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "20",
+          "nom_imprime": "Arman Tsarukyan",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "21",
+          "nom_imprime": "Da'Mon Blackshear",
+          "mentions": [
+            "RC"
+          ],
+          "sous_titre": null
+        },
+        {
+          "numero": "22",
+          "nom_imprime": "Arnold Allen",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "23",
+          "nom_imprime": "Azamat Murzakanov",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "24",
+          "nom_imprime": "Belal Muhammad",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "25",
+          "nom_imprime": "Beneil Dariush",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "26",
+          "nom_imprime": "Diego Lopes",
+          "mentions": [
+            "RC"
+          ],
+          "sous_titre": null
+        },
+        {
+          "numero": "27",
+          "nom_imprime": "Bill Algeo",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "28",
+          "nom_imprime": "Blagoy Ivanov",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "29",
+          "nom_imprime": "Elves Brener",
+          "mentions": [
+            "RC"
+          ],
+          "sous_titre": null
+        },
+        {
+          "numero": "30",
+          "nom_imprime": "Brandon Moreno",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "31",
+          "nom_imprime": "Brandon Royval",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "32",
+          "nom_imprime": "Brendan Allen",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "33",
+          "nom_imprime": "Brian Ortega",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "34",
+          "nom_imprime": "Jamie Pickett",
+          "mentions": [
+            "RC"
+          ],
+          "sous_titre": null
+        },
+        {
+          "numero": "35",
+          "nom_imprime": "Fernando Padilla",
+          "mentions": [
+            "RC"
+          ],
+          "sous_titre": null
+        },
+        {
+          "numero": "36",
+          "nom_imprime": "Bryce Mitchell",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "37",
+          "nom_imprime": "Calvin Kattar",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "38",
+          "nom_imprime": "Gabriel Miranda",
+          "mentions": [
+            "RC"
+          ],
+          "sous_titre": null
+        },
+        {
+          "numero": "39",
+          "nom_imprime": "Carla Esparza",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "40",
+          "nom_imprime": "Carlston Harris",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "41",
+          "nom_imprime": "Chan Sung Jung",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "42",
+          "nom_imprime": "Charles Oliveira",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "43",
+          "nom_imprime": "Iasmin Lucindo",
+          "mentions": [
+            "RC"
+          ],
+          "sous_titre": null
+        },
+        {
+          "numero": "44",
+          "nom_imprime": "Chris Gutierrez",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "45",
+          "nom_imprime": "Jake Hadley",
+          "mentions": [
+            "RC"
+          ],
+          "sous_titre": null
+        },
+        {
+          "numero": "46",
+          "nom_imprime": "Chuck Liddell",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "47",
+          "nom_imprime": "Ciryl Gane",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "48",
+          "nom_imprime": "Colby Covington",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "49",
+          "nom_imprime": "Conor McGregor",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "50",
+          "nom_imprime": "Cory Sandhagen",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "51",
+          "nom_imprime": "Curtis Blaydes",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "52",
+          "nom_imprime": "Damir Ismagulov",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "53",
+          "nom_imprime": "Ludovit Klein",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "54",
+          "nom_imprime": "Dan Hooker",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "55",
+          "nom_imprime": "Dan Ige",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "56",
+          "nom_imprime": "Daniel Cormier",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "57",
+          "nom_imprime": "Deiveson Figueiredo",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "58",
+          "nom_imprime": "Cody Garbrandt",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "59",
+          "nom_imprime": "Derrick Lewis",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "60",
+          "nom_imprime": "Dominick Cruz",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "61",
+          "nom_imprime": "Dominick Reyes",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "62",
+          "nom_imprime": "Dricus Du Plessis",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "63",
+          "nom_imprime": "Dusko Todorovic",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "64",
+          "nom_imprime": "Dustin Poirier",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "65",
+          "nom_imprime": "Erin Blanchfield",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "66",
+          "nom_imprime": "Montserrat Conejo",
+          "mentions": [
+            "RC"
+          ],
+          "sous_titre": null
+        },
+        {
+          "numero": "67",
+          "nom_imprime": "Geoff Neal",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "68",
+          "nom_imprime": "Georges St-Pierre",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "69",
+          "nom_imprime": "Giga Chikadze",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "70",
+          "nom_imprime": "Gilbert Burns",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "71",
+          "nom_imprime": "Grant Dawson",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "72",
+          "nom_imprime": "Jonny Parsons",
+          "mentions": [
+            "RC"
+          ],
+          "sous_titre": null
+        },
+        {
+          "numero": "73",
+          "nom_imprime": "Henry Cejudo",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "74",
+          "nom_imprime": "Holly Holm",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "75",
+          "nom_imprime": "Ian Machado Garry",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "76",
+          "nom_imprime": "Josh Quinlan",
+          "mentions": [
+            "RC"
+          ],
+          "sous_titre": null
+        },
+        {
+          "numero": "77",
+          "nom_imprime": "Ilia Topuria",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "78",
+          "nom_imprime": "Irene Aldana",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "79",
+          "nom_imprime": "Irina Alekseeva",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "80",
+          "nom_imprime": "Islam Makhachev",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "81",
+          "nom_imprime": "Israel Adesanya",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "82",
+          "nom_imprime": "Jack Della Maddalena",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "83",
+          "nom_imprime": "Jack Hermansson",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "84",
+          "nom_imprime": "Jack Jenkins",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "85",
+          "nom_imprime": "Jacob Malkoun",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "86",
+          "nom_imprime": "Jailton Almeida",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "87",
+          "nom_imprime": "Jair Rozenstruik",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "88",
+          "nom_imprime": "Jalin Turner",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "89",
+          "nom_imprime": "Jamahal Hill",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "90",
+          "nom_imprime": "Jamall Emmers",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "91",
+          "nom_imprime": "Jan Błachowicz",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "92",
+          "nom_imprime": "Jared Cannonier",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "93",
+          "nom_imprime": "Luana Carolina",
+          "mentions": [
+            "RC"
+          ],
+          "sous_titre": null
+        },
+        {
+          "numero": "94",
+          "nom_imprime": "Jessica Andrade",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "95",
+          "nom_imprime": "Jiri Prochazka",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "96",
+          "nom_imprime": "Johnny Walker",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "97",
+          "nom_imprime": "Jon Jones",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "98",
+          "nom_imprime": "Melquizael Conceição",
+          "mentions": [
+            "RC"
+          ],
+          "sous_titre": null
+        },
+        {
+          "numero": "99",
+          "nom_imprime": "Joselyne Edwards",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "100",
+          "nom_imprime": "Josh Emmett",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "101",
+          "nom_imprime": "Joshua Culibao",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "102",
+          "nom_imprime": "Julianna Peña",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "103",
+          "nom_imprime": "Ariane Lipski",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "104",
+          "nom_imprime": "Justin Gaethje",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "105",
+          "nom_imprime": "Justin Tafa",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "106",
+          "nom_imprime": "Kai Kara-France",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "107",
+          "nom_imprime": "Katlyn Cerminara",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "108",
+          "nom_imprime": "Kamaru Usman",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "109",
+          "nom_imprime": "Ottman Azaitar",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "110",
+          "nom_imprime": "Kelvin Gastelum",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "111",
+          "nom_imprime": "Ketlen Vieira",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "112",
+          "nom_imprime": "Khabib Nurmagomedov",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "113",
+          "nom_imprime": "Khalil Rountree Jr.",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "114",
+          "nom_imprime": "Khamzat Chimaev",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "115",
+          "nom_imprime": "Leon Edwards",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "116",
+          "nom_imprime": "Inoue Mizuki",
+          "mentions": [
+            "RC"
+          ],
+          "sous_titre": null
+        },
+        {
+          "numero": "117",
+          "nom_imprime": "Mackenzie Dern",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "118",
+          "nom_imprime": "Magomed Ankalaev",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "119",
+          "nom_imprime": "Manel Kape",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "120",
+          "nom_imprime": "Manon Fiorot",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "121",
+          "nom_imprime": "Manuel Torres",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "122",
+          "nom_imprime": "Marcin Tybura",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "123",
+          "nom_imprime": "Marcos Rogério De Lima",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "124",
+          "nom_imprime": "Marlon Vera",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "125",
+          "nom_imprime": "Marvin Vettori",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "126",
+          "nom_imprime": "Mateusz Gamrot",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "127",
+          "nom_imprime": "Mateusz Rebecki",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "128",
+          "nom_imprime": "Matheus Nicolau",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "129",
+          "nom_imprime": "Matt Schnell",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "130",
+          "nom_imprime": "Shogun Rua",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "131",
+          "nom_imprime": "Max Holloway",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "132",
+          "nom_imprime": "Maycee Barber",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "133",
+          "nom_imprime": "Ode Osbourne",
+          "mentions": [
+            "RC"
+          ],
+          "sous_titre": null
+        },
+        {
+          "numero": "134",
+          "nom_imprime": "Melissa Gatto",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "135",
+          "nom_imprime": "Merab Dvalishvili",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "136",
+          "nom_imprime": "Michael Chandler",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "137",
+          "nom_imprime": "Michael Chiesa",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "138",
+          "nom_imprime": "Michel Pereira",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "139",
+          "nom_imprime": "Mike Davis",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "140",
+          "nom_imprime": "Miles Johns",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "141",
+          "nom_imprime": "Shara Magomedov",
+          "mentions": [
+            "RC"
+          ],
+          "sous_titre": null
+        },
+        {
+          "numero": "142",
+          "nom_imprime": "Parker Porter",
+          "mentions": [
+            "RC"
+          ],
+          "sous_titre": null
+        },
+        {
+          "numero": "143",
+          "nom_imprime": "Movsar Evloev",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "144",
+          "nom_imprime": "Muhammad Mokaev",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "145",
+          "nom_imprime": "Nassourdine Imavov",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "146",
+          "nom_imprime": "Natalia Cristina da Silva",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "147",
+          "nom_imprime": "Choi SeungWoo",
+          "mentions": [
+            "RC"
+          ],
+          "sous_titre": null
+        },
+        {
+          "numero": "148",
+          "nom_imprime": "Neil Magny",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "149",
+          "nom_imprime": "Nicolas Dalby",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "150",
+          "nom_imprime": "Nikita Krylov",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "151",
+          "nom_imprime": "Paddy Pimblett",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "152",
+          "nom_imprime": "Pannie Kianzad",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "153",
+          "nom_imprime": "Paul Craig",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "154",
+          "nom_imprime": "Paulo Costa",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "155",
+          "nom_imprime": "Pedro Munhoz",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "156",
+          "nom_imprime": "Petr Yan",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "157",
+          "nom_imprime": "Rafa Garcia",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "158",
+          "nom_imprime": "Rafael Dos Anjos",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "159",
+          "nom_imprime": "Rafael Fiziev",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "160",
+          "nom_imprime": "Raquel Pennington",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "161",
+          "nom_imprime": "Raul Rosas",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "162",
+          "nom_imprime": "Renato Moicano",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "163",
+          "nom_imprime": "Ricky Simon",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "164",
+          "nom_imprime": "Rob Font",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "165",
+          "nom_imprime": "Robbie Lawler",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "166",
+          "nom_imprime": "Rodrigo Nascimento",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "167",
+          "nom_imprime": "Roman Dolidze",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "168",
+          "nom_imprime": "Alonzo Menifield",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "169",
+          "nom_imprime": "Rose Namajunas",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "170",
+          "nom_imprime": "Royce Gracie",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "171",
+          "nom_imprime": "Ryan Spann",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "172",
+          "nom_imprime": "Sean Brady",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "173",
+          "nom_imprime": "Sean O'Malley",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "174",
+          "nom_imprime": "Sean Strickland",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "175",
+          "nom_imprime": "Sergei Pavlovich",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "176",
+          "nom_imprime": "Serghei Spivac",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "177",
+          "nom_imprime": "Shavkat Rakhmonov",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "178",
+          "nom_imprime": "Sodiq Yusuff",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "179",
+          "nom_imprime": "Yadong Song",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "180",
+          "nom_imprime": "Stephen Thompson",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "181",
+          "nom_imprime": "Stipe Miocic",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "182",
+          "nom_imprime": "Shayilan Nuerdanbieke",
+          "mentions": [
+            "RC"
+          ],
+          "sous_titre": null
+        },
+        {
+          "numero": "183",
+          "nom_imprime": "Tai Tuivasa",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "184",
+          "nom_imprime": "Taila Santos",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "185",
+          "nom_imprime": "Tim Elliott",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "186",
+          "nom_imprime": "Tito Ortiz",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "187",
+          "nom_imprime": "Tom Aspinall",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "188",
+          "nom_imprime": "Themba Gorimbo",
+          "mentions": [
+            "RC"
+          ],
+          "sous_titre": null
+        },
+        {
+          "numero": "189",
+          "nom_imprime": "Umar Nurmagomedov",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "190",
+          "nom_imprime": "Valentina Shevchenko",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "191",
+          "nom_imprime": "Vanessa Demopoulos",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "192",
+          "nom_imprime": "Vicente Luque",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "193",
+          "nom_imprime": "Val Woodburn",
+          "mentions": [
+            "RC"
+          ],
+          "sous_titre": null
+        },
+        {
+          "numero": "194",
+          "nom_imprime": "Virna Jandiroba",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "195",
+          "nom_imprime": "Volkan Oezdemir",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "196",
+          "nom_imprime": "Malcolm Gordon",
+          "mentions": [
+            "RC"
+          ],
+          "sous_titre": null
+        },
+        {
+          "numero": "197",
+          "nom_imprime": "Yair Rodríguez",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "198",
+          "nom_imprime": "Yan Xiaonan",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "199",
+          "nom_imprime": "William Gomis",
+          "mentions": [
+            "RC"
+          ],
+          "sous_titre": null
+        },
+        {
+          "numero": "200",
+          "nom_imprime": "Zhang Weili",
+          "mentions": [],
+          "sous_titre": null
+        }
+      ],
+      "cote": null,
+      "exclusivite": null,
+      "tirage": null,
+      "paralleles": [
+        {
+          "nom": "Refractor",
+          "tirage": null,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "X-Fractor",
+          "tirage": null,
+          "cote": "1 per Mega Box",
+          "exclusivite": null
+        },
+        {
+          "nom": "Sepia Refractor",
+          "tirage": null,
+          "cote": "1:2 Blaster",
+          "exclusivite": null
+        },
+        {
+          "nom": "Negative Refractor",
+          "tirage": null,
+          "cote": "1:3 Hobby",
+          "exclusivite": null
+        },
+        {
+          "nom": "Magenta Refractor",
+          "tirage": null,
+          "cote": "1:3 Hobby",
+          "exclusivite": null
+        },
+        {
+          "nom": "Purple Refractor",
+          "tirage": null,
+          "cote": "1:4 Hobby",
+          "exclusivite": null
+        },
+        {
+          "nom": "Prism Refractor",
+          "tirage": null,
+          "cote": "1:6",
+          "exclusivite": null
+        },
+        {
+          "nom": "Speckle Refractor",
+          "tirage": 299,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Aqua Refractor",
+          "tirage": 199,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Blue Refractor",
+          "tirage": 150,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Green Refractor",
+          "tirage": 99,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Blue Wave Refractor",
+          "tirage": 75,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Gold Refractor",
+          "tirage": 50,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Orange Refractor",
+          "tirage": 25,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Black Refractor",
+          "tirage": 10,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Red Refractor",
+          "tirage": 5,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "SuperFractor",
+          "tirage": 1,
+          "cote": null,
+          "exclusivite": null
+        }
+      ],
+      "notes": [],
+      "source": "https://www.checklistinsider.com/2024-topps-chrome-ufc"
+    },
+    {
+      "code": "CRA",
+      "nom": "Chrome Rookie Autographs",
+      "type": "autographe",
+      "nb_cartes": 24,
+      "cartes": [
+        {
+          "numero": "CRA-BKA",
+          "nom_imprime": "Brad Katona",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CRA-DLO",
+          "nom_imprime": "Diego Lopes",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CRA-DMB",
+          "nom_imprime": "Da'Mon Blackshear",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CRA-EBR",
+          "nom_imprime": "Elves Brener",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CRA-FPA",
+          "nom_imprime": "Fernando Padilla",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CRA-GMI",
+          "nom_imprime": "Gabriel Miranda",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CRA-ILU",
+          "nom_imprime": "Iasmin Lucindo",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CRA-JHA",
+          "nom_imprime": "Jake Hadley",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CRA-JJE",
+          "nom_imprime": "Jack Jenkins",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CRA-JPA",
+          "nom_imprime": "Jonny Parsons",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CRA-JQU",
+          "nom_imprime": "Josh Quinlan",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CRA-JTA",
+          "nom_imprime": "Junior Tafa",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CRA-LCA",
+          "nom_imprime": "Luana Carolina",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CRA-MCO",
+          "nom_imprime": "Melquizael Conceição",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CRA-MIN",
+          "nom_imprime": "Inoue Mizuki",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CRA-MKA",
+          "nom_imprime": "Manel Kape",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CRA-NSI",
+          "nom_imprime": "Natalia Cristina da Silva",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CRA-OOS",
+          "nom_imprime": "Ode Osbourne",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CRA-PPO",
+          "nom_imprime": "Parker Porter",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CRA-SNU",
+          "nom_imprime": "Nuerdanbieke Shayilan",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CRA-SWC",
+          "nom_imprime": "Choi SeungWoo",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CRA-TGO",
+          "nom_imprime": "Themba Gorimbo",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CRA-VWO",
+          "nom_imprime": "Val Woodburn",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CRA-WGO",
+          "nom_imprime": "William Gomis",
+          "mentions": [],
+          "sous_titre": null
+        }
+      ],
+      "cote": "1:97 Hobby; 1:4 Breaker Delight; 1:44 Mega Box Hobby; 1:176 Value Blaster EA; 1:176 Value Blaster SE; 1:45 Mega Box EA; 1:45 Mega Box SE",
+      "exclusivite": null,
+      "tirage": null,
+      "paralleles": [
+        {
+          "nom": "Refractor",
+          "tirage": 150,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Gold Refractor",
+          "tirage": 50,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Orange Refractor",
+          "tirage": 25,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Black Refractor",
+          "tirage": 10,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Red Refractor",
+          "tirage": 5,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "SuperFractor",
+          "tirage": 1,
+          "cote": null,
+          "exclusivite": null
+        }
+      ],
+      "notes": [],
+      "source": "https://www.checklistinsider.com/2024-topps-chrome-ufc"
+    },
+    {
+      "code": "CVA",
+      "nom": "Chrome Veteran Autographs",
+      "type": "autographe",
+      "nb_cartes": 38,
+      "cartes": [
+        {
+          "numero": "CVA-ARA",
+          "nom_imprime": "Aleksandar Rakic",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CVA-AVO",
+          "nom_imprime": "Alexander Volkov",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CVA-BAL",
+          "nom_imprime": "Brendan Allen",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CVA-BBA",
+          "nom_imprime": "Bryan Battle",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CVA-BDA",
+          "nom_imprime": "Beneil Dariush",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CVA-BOR",
+          "nom_imprime": "Brian Ortega",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CVA-BRO",
+          "nom_imprime": "Brandon Royval",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CVA-CBO",
+          "nom_imprime": "Caio Borralho",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CVA-CES",
+          "nom_imprime": "Carla Esparza",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CVA-CSA",
+          "nom_imprime": "Cory Sandhagen",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CVA-CUL",
+          "nom_imprime": "Carlos Ulberg",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CVA-DBR",
+          "nom_imprime": "Derek Brunson",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CVA-DRE",
+          "nom_imprime": "Dominick Reyes",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CVA-GNE",
+          "nom_imprime": "Geoff Neal",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CVA-IAL",
+          "nom_imprime": "Irene Aldana",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CVA-JAN",
+          "nom_imprime": "Jessica Andrade",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CVA-JHI",
+          "nom_imprime": "Jamahal Hill",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CVA-JJE",
+          "nom_imprime": "Joanna Jędrzejczyk",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CVA-JPE",
+          "nom_imprime": "Julianna Peña",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CVA-JPY",
+          "nom_imprime": "Joe Pyfer",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CVA-JWA",
+          "nom_imprime": "Johnny Walker",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CVA-KCH",
+          "nom_imprime": "Katlyn Cerminara",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CVA-MBA",
+          "nom_imprime": "Maycee Barber",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CVA-MCH",
+          "nom_imprime": "Michael Chandler",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CVA-MDV",
+          "nom_imprime": "Merab Dvalishvili",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CVA-MMA",
+          "nom_imprime": "Mike Malott",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CVA-MMO",
+          "nom_imprime": "Michael Morales",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CVA-MTY",
+          "nom_imprime": "Marcin Tybura",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CVA-MVE",
+          "nom_imprime": "Marlon Vera",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CVA-NLE",
+          "nom_imprime": "Natan Levy",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CVA-PYA",
+          "nom_imprime": "Petr Yan",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CVA-RDA",
+          "nom_imprime": "Rafael Dos Anjos",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CVA-RFO",
+          "nom_imprime": "Rob Font",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CVA-RPE",
+          "nom_imprime": "Raquel Pennington",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CVA-RSP",
+          "nom_imprime": "Ryan Spann",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CVA-SSP",
+          "nom_imprime": "Serghei Spivac",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CVA-VLU",
+          "nom_imprime": "Vicente Luque",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "CVA-VOE",
+          "nom_imprime": "Volkan Oezdemir",
+          "mentions": [],
+          "sous_titre": null
+        }
+      ],
+      "cote": "1:61 Hobby; 1:3 Breaker Delight; 1:28 Mega Box Hobby; 1:110 Value Blaster EA; 1:110 Value Blaster SE; 1:28 Mega Box EA; 1:28 Mega Box SE",
+      "exclusivite": null,
+      "tirage": null,
+      "paralleles": [
+        {
+          "nom": "Refractor",
+          "tirage": 150,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Gold Refractor",
+          "tirage": 50,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Orange Refractor",
+          "tirage": 25,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Black Refractor",
+          "tirage": 10,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Red Refractor",
+          "tirage": 5,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "SuperFractor",
+          "tirage": 1,
+          "cote": null,
+          "exclusivite": null
+        }
+      ],
+      "notes": [],
+      "source": "https://www.checklistinsider.com/2024-topps-chrome-ufc"
+    },
+    {
+      "code": "FSA",
+      "nom": "Future Stars Autographs",
+      "type": "autographe",
+      "nb_cartes": 20,
+      "cartes": [
+        {
+          "numero": "FSA-AAL",
+          "nom_imprime": "Arnold Allen",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FSA-APE",
+          "nom_imprime": "Alex Pereira",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FSA-DDP",
+          "nom_imprime": "Dricus Du Plessis",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FSA-EBL",
+          "nom_imprime": "Erin Blanchfield",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FSA-IGA",
+          "nom_imprime": "Ian Machado Garry",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FSA-JAL",
+          "nom_imprime": "Jailton Almeida",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FSA-JDM",
+          "nom_imprime": "Jack Della Maddalena",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FSA-JSH",
+          "nom_imprime": "Jack Shore",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FSA-KCH",
+          "nom_imprime": "Khamzat Chimaev",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FSA-MAN",
+          "nom_imprime": "Magomed Ankalaev",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FSA-MEV",
+          "nom_imprime": "Movsar Evloev",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FSA-MMO",
+          "nom_imprime": "Muhammad Mokaev",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FSA-PPI",
+          "nom_imprime": "Paddy Pimblett",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FSA-RRO",
+          "nom_imprime": "Raul Rosas",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FSA-SRA",
+          "nom_imprime": "Shavkat Rakhmonov",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FSA-TAS",
+          "nom_imprime": "Tom Aspinall",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FSA-TRI",
+          "nom_imprime": "Tabatha Ricci",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FSA-TSU",
+          "nom_imprime": "Tatiana Suarez",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FSA-TTA",
+          "nom_imprime": "Tatsuro Taira",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FSA-UNU",
+          "nom_imprime": "Umar Nurmagomedov",
+          "mentions": [],
+          "sous_titre": null
+        }
+      ],
+      "cote": "1:116 Hobby; 1:5 Breaker Delight; 1:53 Mega Box Hobby; 1:211 Value Blaster EA; 1:211 Value Blaster SE; 1:53 Mega Box EA; 1:53 Mega Box SE",
+      "exclusivite": null,
+      "tirage": null,
+      "paralleles": [
+        {
+          "nom": "Refractor",
+          "tirage": 150,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Gold Refractor",
+          "tirage": 50,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Orange Refractor",
+          "tirage": 25,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Black Refractor",
+          "tirage": 10,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Red Refractor",
+          "tirage": 5,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "SuperFractor",
+          "tirage": 1,
+          "cote": null,
+          "exclusivite": null
+        }
+      ],
+      "notes": [],
+      "source": "https://www.checklistinsider.com/2024-topps-chrome-ufc"
+    },
+    {
+      "code": "HFA",
+      "nom": "Hall of Fame Autographs",
+      "type": "autographe",
+      "nb_cartes": 13,
+      "cartes": [
+        {
+          "numero": "HFA-BRU",
+          "nom_imprime": "Bas Rutten",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "HFA-CLI",
+          "nom_imprime": "Chuck Liddell",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "HFA-DCE",
+          "nom_imprime": "Donald Cerrone",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "HFA-FGR",
+          "nom_imprime": "Forrest Griffin",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "HFA-KSH",
+          "nom_imprime": "Ken Shamrock",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "HFA-MBI",
+          "nom_imprime": "Michael Bisping",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "HFA-MCO",
+          "nom_imprime": "Mark Coleman",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "HFA-MHU",
+          "nom_imprime": "Matt Hughes",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "HFA-MSE",
+          "nom_imprime": "Matt Serra",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "HFA-RFR",
+          "nom_imprime": "Rich Franklin",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "HFA-RGR",
+          "nom_imprime": "Royce Gracie",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "HFA-TOR",
+          "nom_imprime": "Tito Ortiz",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "HFA-UFA",
+          "nom_imprime": "Urijah Faber",
+          "mentions": [],
+          "sous_titre": null
+        }
+      ],
+      "cote": "1:50 packs",
+      "exclusivite": "Hobby exclusive",
+      "tirage": null,
+      "paralleles": [
+        {
+          "nom": "Refractor",
+          "tirage": 150,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Gold Refractor",
+          "tirage": 50,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Orange Refractor",
+          "tirage": 25,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Black Refractor",
+          "tirage": 10,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Red Refractor",
+          "tirage": 5,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "SuperFractor",
+          "tirage": 1,
+          "cote": null,
+          "exclusivite": null
+        }
+      ],
+      "notes": [],
+      "source": "https://www.checklistinsider.com/2024-topps-chrome-ufc"
+    },
+    {
+      "code": "MEA",
+      "nom": "Main Event Autographs",
+      "type": "autographe",
+      "nb_cartes": 18,
+      "cartes": [
+        {
+          "numero": "MEA-AGR",
+          "nom_imprime": "Alexa Grasso",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "MEA-APA",
+          "nom_imprime": "Alexandre Pantoja",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "MEA-AST",
+          "nom_imprime": "Aljamain Sterling",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "MEA-AVO",
+          "nom_imprime": "Alexander Volkanovski",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "MEA-BLE",
+          "nom_imprime": "Brock Lesnar",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "MEA-CCO",
+          "nom_imprime": "Colby Covington",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "MEA-COL",
+          "nom_imprime": "Charles Oliveira",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "MEA-DPO",
+          "nom_imprime": "Dustin Poirier",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "MEA-GBU",
+          "nom_imprime": "Gilbert Burns",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "MEA-GTE",
+          "nom_imprime": "Glover Teixeira",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "MEA-JBL",
+          "nom_imprime": "Jan Błachowicz",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "MEA-JGA",
+          "nom_imprime": "Justin Gaethje",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "MEA-JPR",
+          "nom_imprime": "Jiri Prochazka",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "MEA-MHO",
+          "nom_imprime": "Max Holloway",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "MEA-RNA",
+          "nom_imprime": "Rose Namajunas",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "MEA-RWH",
+          "nom_imprime": "Robert Whittaker",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "MEA-SOM",
+          "nom_imprime": "Sean O'Malley",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "MEA-VSH",
+          "nom_imprime": "Valentina Shevchenko",
+          "mentions": [],
+          "sous_titre": null
+        }
+      ],
+      "cote": "1:39 packs",
+      "exclusivite": "Hobby exclusive",
+      "tirage": null,
+      "paralleles": [
+        {
+          "nom": "Refractor",
+          "tirage": 150,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Gold Refractor",
+          "tirage": 50,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Orange Refractor",
+          "tirage": 25,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Black Refractor",
+          "tirage": 10,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Red Refractor",
+          "tirage": 5,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "SuperFractor",
+          "tirage": 1,
+          "cote": null,
+          "exclusivite": null
+        }
+      ],
+      "notes": [],
+      "source": "https://www.checklistinsider.com/2024-topps-chrome-ufc"
+    },
+    {
+      "code": "MOC",
+      "nom": "Marks of Champions",
+      "type": "autographe",
+      "nb_cartes": 12,
+      "cartes": [
+        {
+          "numero": "MOC-ANU",
+          "nom_imprime": "Amanda Nunes",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "MOC-AST",
+          "nom_imprime": "Aljamain Sterling",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "MOC-BMO",
+          "nom_imprime": "Brandon Moreno",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "MOC-DCO",
+          "nom_imprime": "Daniel Cormier",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "MOC-GSP",
+          "nom_imprime": "Georges St-Pierre",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "MOC-HCE",
+          "nom_imprime": "Henry Cejudo",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "MOC-IAD",
+          "nom_imprime": "Israel Adesanya",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "MOC-IMA",
+          "nom_imprime": "Islam Makhachev",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "MOC-KNU",
+          "nom_imprime": "Khabib Nurmagomedov",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "MOC-LED",
+          "nom_imprime": "Leon Edwards",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "MOC-SMI",
+          "nom_imprime": "Stipe Miocic",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "MOC-ZWE",
+          "nom_imprime": "Zhang Weili",
+          "mentions": [],
+          "sous_titre": null
+        }
+      ],
+      "cote": "1:62 packs",
+      "exclusivite": "Hobby exclusive",
+      "tirage": null,
+      "paralleles": [
+        {
+          "nom": "Refractor",
+          "tirage": 150,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Gold Refractor",
+          "tirage": 50,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Orange Refractor",
+          "tirage": 25,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Black Refractor",
+          "tirage": 10,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Red Refractor",
+          "tirage": 5,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "SuperFractor",
+          "tirage": 1,
+          "cote": null,
+          "exclusivite": null
+        }
+      ],
+      "notes": [],
+      "source": "https://www.checklistinsider.com/2024-topps-chrome-ufc"
+    },
+    {
+      "code": "OLA",
+      "nom": "Octagon Legends Autographs",
+      "type": "autographe",
+      "nb_cartes": 17,
+      "cartes": [
+        {
+          "numero": "OLA-AAR",
+          "nom_imprime": "Andrei Arlovski",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "OLA-ARN",
+          "nom_imprime": "Antonio Rodrigo Nogueira",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "OLA-BRU",
+          "nom_imprime": "Bas Rutten",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "OLA-CSO",
+          "nom_imprime": "Chael Sonnen",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "OLA-CWE",
+          "nom_imprime": "Chris Weidman",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "OLA-DCR",
+          "nom_imprime": "Dominick Cruz",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "OLA-DHE",
+          "nom_imprime": "Dan Henderson",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "OLA-FED",
+          "nom_imprime": "Frankie Edgar",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "OLA-FMI",
+          "nom_imprime": "Frank Mir",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "OLA-FSH",
+          "nom_imprime": "Frank Shamrock",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "OLA-JDS",
+          "nom_imprime": "Junior dos Santos",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "OLA-JPU",
+          "nom_imprime": "Jens Pulver",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "OLA-LMA",
+          "nom_imprime": "Lyoto Machida",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "OLA-REV",
+          "nom_imprime": "Rashad Evans",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "OLA-RLA",
+          "nom_imprime": "Robbie Lawler",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "OLA-TFE",
+          "nom_imprime": "Tony Ferguson",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "OLA-TWO",
+          "nom_imprime": "Tyron Woodley",
+          "mentions": [],
+          "sous_titre": null
+        }
+      ],
+      "cote": "1:118 Hobby; 1:5 Breaker Delight; 1:54 Mega Box Hobby; 1:214 Value Blaster EA; 1:214 Value Blaster SE; 1:54 Mega Box EA; 1:54 Mega Box SE",
+      "exclusivite": null,
+      "tirage": null,
+      "paralleles": [
+        {
+          "nom": "Refractor",
+          "tirage": 150,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Gold Refractor",
+          "tirage": 50,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Orange Refractor",
+          "tirage": 25,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Black Refractor",
+          "tirage": 10,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Red Refractor",
+          "tirage": 5,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "SuperFractor",
+          "tirage": 1,
+          "cote": null,
+          "exclusivite": null
+        }
+      ],
+      "notes": [],
+      "source": "https://www.checklistinsider.com/2024-topps-chrome-ufc"
+    },
+    {
+      "code": "FNA",
+      "nom": "UFC Signatures",
+      "type": "autographe",
+      "nb_cartes": 29,
+      "cartes": [
+        {
+          "numero": "FNA-AAL",
+          "nom_imprime": "Amir Albazi",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FNA-ASM",
+          "nom_imprime": "Anthony Smith",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FNA-BMU",
+          "nom_imprime": "Belal Muhammad",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FNA-CBL",
+          "nom_imprime": "Curtis Blaydes",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FNA-CGA",
+          "nom_imprime": "Ciryl Gane",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FNA-CKA",
+          "nom_imprime": "Calvin Kattar",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FNA-CSJ",
+          "nom_imprime": "Chan Sung Jung",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FNA-DHO",
+          "nom_imprime": "Dan Hooker",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FNA-DIG",
+          "nom_imprime": "Dan Ige",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FNA-GCH",
+          "nom_imprime": "Giga Chikadze",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FNA-HHO",
+          "nom_imprime": "Holly Holm",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FNA-JEM",
+          "nom_imprime": "Josh Emmett",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FNA-JTU",
+          "nom_imprime": "Jalin Turner",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FNA-KHO",
+          "nom_imprime": "Kevin Holland",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FNA-KKF",
+          "nom_imprime": "Kai Kara-France",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FNA-MDE",
+          "nom_imprime": "Mackenzie Dern",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FNA-MGA",
+          "nom_imprime": "Mateusz Gamrot",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FNA-MMC",
+          "nom_imprime": "Molly McCann",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FNA-MNI",
+          "nom_imprime": "Matheus Nicolau",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FNA-MVE",
+          "nom_imprime": "Marvin Vettori",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FNA-NMA",
+          "nom_imprime": "Neil Magny",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FNA-PMU",
+          "nom_imprime": "Pedro Munhoz",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FNA-RFI",
+          "nom_imprime": "Rafael Fiziev",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FNA-STH",
+          "nom_imprime": "Stephen Thompson",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FNA-SYA",
+          "nom_imprime": "Yadong Song",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FNA-TSA",
+          "nom_imprime": "Taila Santos",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FNA-TTU",
+          "nom_imprime": "Tai Tuivasa",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FNA-YRO",
+          "nom_imprime": "Yair Rodríguez",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FNA-YXI",
+          "nom_imprime": "Yan Xiaonan",
+          "mentions": [],
+          "sous_titre": null
+        }
+      ],
+      "cote": "1:81 Hobby; 1:3 Breaker Delight; 1:37 Mega Box Hobby; 1:147 Value Blaster EA; 1:147 Value Blaster SE; 1:37 Mega Box EA; 1:37 Mega Box SE",
+      "exclusivite": null,
+      "tirage": null,
+      "paralleles": [
+        {
+          "nom": "Refractor",
+          "tirage": 150,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Gold Refractor",
+          "tirage": 50,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Orange Refractor",
+          "tirage": 25,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Black Refractor",
+          "tirage": 10,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Red Refractor",
+          "tirage": 5,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "SuperFractor",
+          "tirage": 1,
+          "cote": null,
+          "exclusivite": null
+        }
+      ],
+      "notes": [],
+      "source": "https://www.checklistinsider.com/2024-topps-chrome-ufc"
+    },
+    {
+      "code": "YQS",
+      "nom": "Youthquake Signatures",
+      "type": "autographe",
+      "nb_cartes": 8,
+      "cartes": [
+        {
+          "numero": "YQS-AAL",
+          "nom_imprime": "Arnold Allen",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "YQS-DDP",
+          "nom_imprime": "Dricus Du Plessis",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "YQS-EBL",
+          "nom_imprime": "Erin Blanchfield",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "YQS-JDM",
+          "nom_imprime": "Jack Della Maddalena",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "YQS-MMO",
+          "nom_imprime": "Muhammad Mokaev",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "YQS-RRO",
+          "nom_imprime": "Raul Rosas",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "YQS-SRA",
+          "nom_imprime": "Shavkat Rakhmonov",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "YQS-TTA",
+          "nom_imprime": "Tatsuro Taira",
+          "mentions": [],
+          "sous_titre": null
+        }
+      ],
+      "cote": "1:4,030 packs",
+      "exclusivite": "Hobby exclusive",
+      "tirage": 10,
+      "paralleles": [],
+      "notes": [],
+      "source": "https://www.checklistinsider.com/2024-topps-chrome-ufc"
+    },
+    {
+      "code": "FFT",
+      "nom": "1954 Topps",
+      "type": "insert",
+      "nb_cartes": 25,
+      "cartes": [
+        {
+          "numero": "FFT-1",
+          "nom_imprime": "Georges St-Pierre",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FFT-2",
+          "nom_imprime": "Royce Gracie",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FFT-3",
+          "nom_imprime": "Valentina Shevchenko",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FFT-4",
+          "nom_imprime": "Donald Cerrone",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FFT-5",
+          "nom_imprime": "Tito Ortiz",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FFT-6",
+          "nom_imprime": "Don Frye",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FFT-7",
+          "nom_imprime": "Stipe Miocic",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FFT-8",
+          "nom_imprime": "Islam Makhachev",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FFT-9",
+          "nom_imprime": "Max Holloway",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FFT-10",
+          "nom_imprime": "Forrest Griffin",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FFT-11",
+          "nom_imprime": "Tony Ferguson",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FFT-12",
+          "nom_imprime": "Lyoto Machida",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FFT-13",
+          "nom_imprime": "Michael Bisping",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FFT-14",
+          "nom_imprime": "Dominick Cruz",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FFT-15",
+          "nom_imprime": "Chael Sonnen",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FFT-16",
+          "nom_imprime": "Robbie Lawler",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FFT-17",
+          "nom_imprime": "Rich Franklin",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FFT-18",
+          "nom_imprime": "Dan Henderson",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FFT-19",
+          "nom_imprime": "Angela Hill",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FFT-20",
+          "nom_imprime": "Amanda Nunes",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FFT-21",
+          "nom_imprime": "Khabib Nurmagomedov",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FFT-22",
+          "nom_imprime": "Rashad Evans",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FFT-23",
+          "nom_imprime": "Charles Oliveira",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FFT-24",
+          "nom_imprime": "Joanna Jędrzejczyk",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FFT-25",
+          "nom_imprime": "Henry Cejudo",
+          "mentions": [],
+          "sous_titre": null
+        }
+      ],
+      "cote": "1:3 Hobby; 1:11 Breaker Delight",
+      "exclusivite": null,
+      "tirage": null,
+      "paralleles": [
+        {
+          "nom": "Refractor",
+          "tirage": null,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Gold Refractor",
+          "tirage": 50,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Black Refractor",
+          "tirage": 10,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Red Refractor",
+          "tirage": 5,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "SuperFractor",
+          "tirage": 1,
+          "cote": null,
+          "exclusivite": null
+        }
+      ],
+      "notes": [],
+      "source": "https://www.checklistinsider.com/2024-topps-chrome-ufc"
+    },
+    {
+      "code": "AKA",
+      "nom": "AKA",
+      "type": "insert",
+      "nb_cartes": 20,
+      "cartes": [
+        {
+          "numero": "AKA-1",
+          "nom_imprime": "Deiveson Figueiredo",
+          "mentions": [],
+          "sous_titre": "Deus da Guerra"
+        },
+        {
+          "numero": "AKA-2",
+          "nom_imprime": "Chuck Liddell",
+          "mentions": [],
+          "sous_titre": "The Iceman"
+        },
+        {
+          "numero": "AKA-3",
+          "nom_imprime": "Lyoto Machida",
+          "mentions": [],
+          "sous_titre": "The Dragon"
+        },
+        {
+          "numero": "AKA-4",
+          "nom_imprime": "Shogun Rua",
+          "mentions": [],
+          "sous_titre": "Shogun"
+        },
+        {
+          "numero": "AKA-5",
+          "nom_imprime": "Rose Namajunas",
+          "mentions": [],
+          "sous_titre": "Thug"
+        },
+        {
+          "numero": "AKA-6",
+          "nom_imprime": "Israel Adesanya",
+          "mentions": [],
+          "sous_titre": "The Last Stylebender"
+        },
+        {
+          "numero": "AKA-7",
+          "nom_imprime": "Robert Whittaker",
+          "mentions": [],
+          "sous_titre": "The Reaper"
+        },
+        {
+          "numero": "AKA-8",
+          "nom_imprime": "Conor McGregor",
+          "mentions": [],
+          "sous_titre": "The Notorious"
+        },
+        {
+          "numero": "AKA-9",
+          "nom_imprime": "Robbie Lawler",
+          "mentions": [],
+          "sous_titre": "Ruthless"
+        },
+        {
+          "numero": "AKA-10",
+          "nom_imprime": "Kamaru Usman",
+          "mentions": [],
+          "sous_titre": "Nigerian Nightmare"
+        },
+        {
+          "numero": "AKA-11",
+          "nom_imprime": "Jon Jones",
+          "mentions": [],
+          "sous_titre": "Bones"
+        },
+        {
+          "numero": "AKA-12",
+          "nom_imprime": "Stephen Thompson",
+          "mentions": [],
+          "sous_titre": "Wonderboy"
+        },
+        {
+          "numero": "AKA-13",
+          "nom_imprime": "Chan Sung Jung",
+          "mentions": [],
+          "sous_titre": "The Korean Zombie"
+        },
+        {
+          "numero": "AKA-14",
+          "nom_imprime": "Donald Cerrone",
+          "mentions": [],
+          "sous_titre": "Cowboy"
+        },
+        {
+          "numero": "AKA-15",
+          "nom_imprime": "Alexander Volkanovksi",
+          "mentions": [],
+          "sous_titre": "The Great"
+        },
+        {
+          "numero": "AKA-16",
+          "nom_imprime": "Paddy Pimblett",
+          "mentions": [],
+          "sous_titre": "The Baddy"
+        },
+        {
+          "numero": "AKA-17",
+          "nom_imprime": "Valentina Shevchenko",
+          "mentions": [],
+          "sous_titre": "Bullet"
+        },
+        {
+          "numero": "AKA-18",
+          "nom_imprime": "Tai Tuivasa",
+          "mentions": [],
+          "sous_titre": "Bam Bam"
+        },
+        {
+          "numero": "AKA-19",
+          "nom_imprime": "Anderson Silva",
+          "mentions": [],
+          "sous_titre": "The Spider"
+        },
+        {
+          "numero": "AKA-20",
+          "nom_imprime": "Urijah Faber",
+          "mentions": [],
+          "sous_titre": "The California Kid"
+        }
+      ],
+      "cote": "1:4 Hobby; 1:13 Breaker Delight",
+      "exclusivite": null,
+      "tirage": null,
+      "paralleles": [
+        {
+          "nom": "Refractor",
+          "tirage": null,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Gold Refractor",
+          "tirage": 50,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Black Refractor",
+          "tirage": 10,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Red Refractor",
+          "tirage": 5,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "SuperFractor",
+          "tirage": 1,
+          "cote": null,
+          "exclusivite": null
+        }
+      ],
+      "notes": [],
+      "source": "https://www.checklistinsider.com/2024-topps-chrome-ufc"
+    },
+    {
+      "code": "ATG",
+      "nom": "All the Glory",
+      "type": "insert",
+      "nb_cartes": 15,
+      "cartes": [
+        {
+          "numero": "ATG-1",
+          "nom_imprime": "Michael Chandler",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "ATG-2",
+          "nom_imprime": "Bo Nickal",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "ATG-3",
+          "nom_imprime": "Alexa Grasso",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "ATG-4",
+          "nom_imprime": "Jon Jones",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "ATG-5",
+          "nom_imprime": "Israel Adesanya",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "ATG-6",
+          "nom_imprime": "Amanda Nunes",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "ATG-7",
+          "nom_imprime": "Joanna Jędrzejczyk",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "ATG-8",
+          "nom_imprime": "Ilia Topuria",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "ATG-9",
+          "nom_imprime": "Khabib Nurmagomedov",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "ATG-10",
+          "nom_imprime": "Robbie Lawler",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "ATG-11",
+          "nom_imprime": "Robert Whittaker",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "ATG-12",
+          "nom_imprime": "Jake Hadley",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "ATG-13",
+          "nom_imprime": "Conor McGregor",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "ATG-14",
+          "nom_imprime": "Islam Makhachev",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "ATG-15",
+          "nom_imprime": "Urijah Faber",
+          "mentions": [],
+          "sous_titre": null
+        }
+      ],
+      "cote": "1:121 Mega Box Hobby; 1:481 Value Blaster EA; 1:481 Value Blaster SE; 1:121 Mega Box EA; 1:120 Mega Box SE",
+      "exclusivite": null,
+      "tirage": null,
+      "paralleles": [],
+      "notes": [],
+      "source": "https://www.checklistinsider.com/2024-topps-chrome-ufc"
+    },
+    {
+      "code": "AAG",
+      "nom": "Allen & Ginter",
+      "type": "insert",
+      "nb_cartes": 30,
+      "cartes": [
+        {
+          "numero": "AAG-1",
+          "nom_imprime": "Alexandre Pantoja",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "AAG-2",
+          "nom_imprime": "Jon Jones",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "AAG-3",
+          "nom_imprime": "Khabib Nurmagomedov",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "AAG-4",
+          "nom_imprime": "Alexander Volkanovski",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "AAG-5",
+          "nom_imprime": "Aljamain Sterling",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "AAG-6",
+          "nom_imprime": "Glover Teixeira",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "AAG-7",
+          "nom_imprime": "Israel Adesanya",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "AAG-8",
+          "nom_imprime": "Amanda Nunes",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "AAG-9",
+          "nom_imprime": "Conor McGregor",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "AAG-10",
+          "nom_imprime": "Robert Whittaker",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "AAG-11",
+          "nom_imprime": "Islam Makhachev",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "AAG-12",
+          "nom_imprime": "Roman Dolidze",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "AAG-13",
+          "nom_imprime": "Donald Cerrone",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "AAG-14",
+          "nom_imprime": "Elves Brener",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "AAG-15",
+          "nom_imprime": "Alex Pereira",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "AAG-16",
+          "nom_imprime": "Max Holloway",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "AAG-17",
+          "nom_imprime": "Georges St-Pierre",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "AAG-18",
+          "nom_imprime": "Colby Covington",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "AAG-19",
+          "nom_imprime": "Mackenzie Dern",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "AAG-20",
+          "nom_imprime": "Dominick Cruz",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "AAG-21",
+          "nom_imprime": "Chuck Liddell",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "AAG-22",
+          "nom_imprime": "Khamzat Chimaev",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "AAG-23",
+          "nom_imprime": "Sean O'Malley",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "AAG-24",
+          "nom_imprime": "Tatiana Suarez",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "AAG-25",
+          "nom_imprime": "Anderson Silva",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "AAG-26",
+          "nom_imprime": "Stipe Miocic",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "AAG-27",
+          "nom_imprime": "Kamaru Usman",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "AAG-28",
+          "nom_imprime": "Iasmin Lucindo",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "AAG-29",
+          "nom_imprime": "Daniel Cormier",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "AAG-30",
+          "nom_imprime": "Valentina Shevchenko",
+          "mentions": [],
+          "sous_titre": null
+        }
+      ],
+      "cote": "1:4 Mega Box Hobby; 1:8 Value Blaster EA; 1:8 Value Blaster SE; 1:4 Mega Box EA; 1:4 Mega Box SE",
+      "exclusivite": null,
+      "tirage": null,
+      "paralleles": [
+        {
+          "nom": "Refractor",
+          "tirage": null,
+          "cote": "1:72",
+          "exclusivite": null
+        },
+        {
+          "nom": "Gold Refractor",
+          "tirage": 50,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Black Refractor",
+          "tirage": 10,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Red Refractor",
+          "tirage": 5,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "SuperFractor",
+          "tirage": 1,
+          "cote": null,
+          "exclusivite": null
+        }
+      ],
+      "notes": [],
+      "source": "https://www.checklistinsider.com/2024-topps-chrome-ufc"
+    },
+    {
+      "code": "BYB",
+      "nom": "Brick by Brick",
+      "type": "insert",
+      "nb_cartes": 20,
+      "cartes": [
+        {
+          "numero": "BYB-1",
+          "nom_imprime": "Tom Aspinall",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "BYB-2",
+          "nom_imprime": "Ilia Topuria",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "BYB-3",
+          "nom_imprime": "Rafael Fiziev",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "BYB-4",
+          "nom_imprime": "Muhammad Mokaev",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "BYB-5",
+          "nom_imprime": "Maycee Barber",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "BYB-6",
+          "nom_imprime": "Umar Nurmagomedov",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "BYB-7",
+          "nom_imprime": "Ian Machado Garry",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "BYB-8",
+          "nom_imprime": "Movsar Evloev",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "BYB-9",
+          "nom_imprime": "Arnold Allen",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "BYB-10",
+          "nom_imprime": "Jailton Almeida",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "BYB-11",
+          "nom_imprime": "Shavkat Rakhmonov",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "BYB-12",
+          "nom_imprime": "Bo Nickal",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "BYB-13",
+          "nom_imprime": "Paddy Pimblett",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "BYB-14",
+          "nom_imprime": "Arman Tsarukyan",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "BYB-15",
+          "nom_imprime": "Manon Fiorot",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "BYB-16",
+          "nom_imprime": "Khamzat Chimaev",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "BYB-17",
+          "nom_imprime": "Dricus Du Plessis",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "BYB-18",
+          "nom_imprime": "Erin Blanchfield",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "BYB-19",
+          "nom_imprime": "Grant Dawson",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "BYB-20",
+          "nom_imprime": "Sean O'Malley",
+          "mentions": [],
+          "sous_titre": null
+        }
+      ],
+      "cote": "1:6 Mega Box Hobby; 1:12 Value Blaster EA; 1:12 Value Blaster SE; 1:6 Mega Box EA; 1:6 Mega Box SE",
+      "exclusivite": null,
+      "tirage": null,
+      "paralleles": [
+        {
+          "nom": "Refractor",
+          "tirage": null,
+          "cote": "1:107",
+          "exclusivite": null
+        },
+        {
+          "nom": "Gold Refractor",
+          "tirage": 50,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Black Refractor",
+          "tirage": 10,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Red Refractor",
+          "tirage": 5,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "SuperFractor",
+          "tirage": 1,
+          "cote": null,
+          "exclusivite": null
+        }
+      ],
+      "notes": [],
+      "source": "https://www.checklistinsider.com/2024-topps-chrome-ufc"
+    },
+    {
+      "code": "COU",
+      "nom": "Countdown",
+      "type": "insert",
+      "nb_cartes": 30,
+      "cartes": [
+        {
+          "numero": "COU-1",
+          "nom_imprime": "Kamaru Usman",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "COU-2",
+          "nom_imprime": "Shavkat Rakhmonov",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "COU-3",
+          "nom_imprime": "Paul Craig",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "COU-4",
+          "nom_imprime": "Islam Makhachev",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "COU-5",
+          "nom_imprime": "Gilbert Burns",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "COU-6",
+          "nom_imprime": "Sean O'Malley",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "COU-7",
+          "nom_imprime": "Jared Cannonier",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "COU-8",
+          "nom_imprime": "Robbie Lawler",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "COU-9",
+          "nom_imprime": "Colby Covington",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "COU-10",
+          "nom_imprime": "Ciryl Gane",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "COU-11",
+          "nom_imprime": "Derrick Lewis",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "COU-12",
+          "nom_imprime": "Sean Strickland",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "COU-13",
+          "nom_imprime": "Johnny Walker",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "COU-14",
+          "nom_imprime": "Amanda Nunes",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "COU-15",
+          "nom_imprime": "Robert Whittaker",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "COU-16",
+          "nom_imprime": "Tito Ortiz",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "COU-17",
+          "nom_imprime": "Valentina Shevchenko",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "COU-18",
+          "nom_imprime": "Conor McGregor",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "COU-19",
+          "nom_imprime": "Ken Shamrock",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "COU-20",
+          "nom_imprime": "Dan Henderson",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "COU-21",
+          "nom_imprime": "Forrest Griffin",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "COU-22",
+          "nom_imprime": "Brandon Moreno",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "COU-23",
+          "nom_imprime": "Israel Adesanya",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "COU-24",
+          "nom_imprime": "Max Holloway",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "COU-25",
+          "nom_imprime": "Brian Ortega",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "COU-26",
+          "nom_imprime": "Mackenzie Dern",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "COU-27",
+          "nom_imprime": "Rafael Fiziev",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "COU-28",
+          "nom_imprime": "Khabib Nurmagomedov",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "COU-29",
+          "nom_imprime": "Tom Aspinall",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "COU-30",
+          "nom_imprime": "Charles Oliveira",
+          "mentions": [],
+          "sous_titre": null
+        }
+      ],
+      "cote": "1:40 packs",
+      "exclusivite": "Hobby exclusive",
+      "tirage": null,
+      "paralleles": [
+        {
+          "nom": "SuperFractor",
+          "tirage": 1,
+          "cote": null,
+          "exclusivite": null
+        }
+      ],
+      "notes": [],
+      "source": "https://www.checklistinsider.com/2024-topps-chrome-ufc"
+    },
+    {
+      "code": "EMB",
+      "nom": "Embedded",
+      "type": "insert",
+      "nb_cartes": 10,
+      "cartes": [
+        {
+          "numero": "EMB-1",
+          "nom_imprime": "Daniel Cormier",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "EMB-2",
+          "nom_imprime": "Khabib Nurmagomedov",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "EMB-3",
+          "nom_imprime": "Tito Ortiz",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "EMB-4",
+          "nom_imprime": "Georges St-Pierre",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "EMB-5",
+          "nom_imprime": "Donald Cerrone",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "EMB-6",
+          "nom_imprime": "Jens Pulver",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "EMB-7",
+          "nom_imprime": "Michael Bisping",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "EMB-8",
+          "nom_imprime": "Anderson Silva",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "EMB-9",
+          "nom_imprime": "Forrest Griffin",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "EMB-10",
+          "nom_imprime": "Chuck Liddell",
+          "mentions": [],
+          "sous_titre": null
+        }
+      ],
+      "cote": "1:11 Mega Box Hobby; 1:23 Value Blaster EA; 1:23 Value Blaster SE; 1:11 Mega Box EA; 1:11 Mega Box SE",
+      "exclusivite": null,
+      "tirage": null,
+      "paralleles": [
+        {
+          "nom": "Refractor",
+          "tirage": null,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Gold Refractor",
+          "tirage": 50,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Black Refractor",
+          "tirage": 10,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Red Refractor",
+          "tirage": 5,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "SuperFractor",
+          "tirage": 1,
+          "cote": null,
+          "exclusivite": null
+        }
+      ],
+      "notes": [],
+      "source": "https://www.checklistinsider.com/2024-topps-chrome-ufc"
+    },
+    {
+      "code": "TME",
+      "nom": "Energized",
+      "type": "insert",
+      "nb_cartes": 15,
+      "cartes": [
+        {
+          "numero": "TME-1",
+          "nom_imprime": "Aljamain Sterling",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TME-2",
+          "nom_imprime": "Raul Rosas",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TME-3",
+          "nom_imprime": "Da'Mon Blackshear",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TME-4",
+          "nom_imprime": "Erin Blanchfield",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TME-5",
+          "nom_imprime": "Alexandre Pantoja",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TME-6",
+          "nom_imprime": "Raquel Pennington",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TME-7",
+          "nom_imprime": "Max Holloway",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TME-8",
+          "nom_imprime": "Tatsuro Taira",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TME-9",
+          "nom_imprime": "Jamahal Hill",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TME-10",
+          "nom_imprime": "Michael Morales",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TME-11",
+          "nom_imprime": "Bo Nickal",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TME-12",
+          "nom_imprime": "Maycee Barber",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TME-13",
+          "nom_imprime": "Muhammad Mokaev",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TME-14",
+          "nom_imprime": "Dricus Du Plessis",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TME-15",
+          "nom_imprime": "Roman Dolidze",
+          "mentions": [],
+          "sous_titre": null
+        }
+      ],
+      "cote": "1:289 Hobby; 1:24 Breaker Delight",
+      "exclusivite": null,
+      "tirage": null,
+      "paralleles": [],
+      "notes": [],
+      "source": "https://www.checklistinsider.com/2024-topps-chrome-ufc"
+    },
+    {
+      "code": "FDP",
+      "nom": "Fired Up",
+      "type": "insert",
+      "nb_cartes": 25,
+      "cartes": [
+        {
+          "numero": "FDP-1",
+          "nom_imprime": "Julianna Peña",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FDP-2",
+          "nom_imprime": "Miesha Tate",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FDP-3",
+          "nom_imprime": "Alexa Grasso",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FDP-4",
+          "nom_imprime": "Maycee Barber",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FDP-5",
+          "nom_imprime": "Zhang Weili",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FDP-6",
+          "nom_imprime": "Rose Namajunas",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FDP-7",
+          "nom_imprime": "Jailton Almeida",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FDP-8",
+          "nom_imprime": "Derrick Lewis",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FDP-9",
+          "nom_imprime": "Jiri Prochazka",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FDP-10",
+          "nom_imprime": "Carlos Ulberg",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FDP-11",
+          "nom_imprime": "Justin Tafa",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FDP-12",
+          "nom_imprime": "Dricus Du Plessis",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FDP-13",
+          "nom_imprime": "Leon Edwards",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FDP-14",
+          "nom_imprime": "Gilbert Burns",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FDP-15",
+          "nom_imprime": "Ian Machado Garry",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FDP-16",
+          "nom_imprime": "Charles Oliveira",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FDP-17",
+          "nom_imprime": "Jamahal Hill",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FDP-18",
+          "nom_imprime": "Paul Craig",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FDP-19",
+          "nom_imprime": "Dan Hooker",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FDP-20",
+          "nom_imprime": "Justin Gaethje",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FDP-21",
+          "nom_imprime": "Dustin Poirier",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FDP-22",
+          "nom_imprime": "Ilia Topuria",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FDP-23",
+          "nom_imprime": "Paddy Pimblett",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FDP-24",
+          "nom_imprime": "Bo Nickal",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FDP-25",
+          "nom_imprime": "Aljamain Sterling",
+          "mentions": [],
+          "sous_titre": null
+        }
+      ],
+      "cote": "1:5 Mega Box Hobby; 1:9 Value Blaster EA; 1:9 Value Blaster SE; 1:5 Mega Box EA; 1:5 Mega Box SE",
+      "exclusivite": null,
+      "tirage": null,
+      "paralleles": [
+        {
+          "nom": "Refractor",
+          "tirage": null,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Gold Refractor",
+          "tirage": 50,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Black Refractor",
+          "tirage": 10,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Red Refractor",
+          "tirage": 5,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "SuperFractor",
+          "tirage": 1,
+          "cote": null,
+          "exclusivite": null
+        }
+      ],
+      "notes": [],
+      "source": "https://www.checklistinsider.com/2024-topps-chrome-ufc"
+    },
+    {
+      "code": "FOF",
+      "nom": "Fists of Fury",
+      "type": "insert",
+      "nb_cartes": 15,
+      "cartes": [
+        {
+          "numero": "FOF-1",
+          "nom_imprime": "Max Holloway",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FOF-2",
+          "nom_imprime": "Angela Hill",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FOF-3",
+          "nom_imprime": "Frankie Edgar",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FOF-4",
+          "nom_imprime": "Dustin Poirier",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FOF-5",
+          "nom_imprime": "Sean Strickland",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FOF-6",
+          "nom_imprime": "Casey O'Neill",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FOF-7",
+          "nom_imprime": "Sergei Pavlovich",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FOF-8",
+          "nom_imprime": "Sean O'Malley",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FOF-9",
+          "nom_imprime": "Georges St-Pierre",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FOF-10",
+          "nom_imprime": "Kamaru Usman",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FOF-11",
+          "nom_imprime": "Israel Adesanya",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FOF-12",
+          "nom_imprime": "Anderson Silva",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FOF-13",
+          "nom_imprime": "Lyoto Machida",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FOF-14",
+          "nom_imprime": "Conor McGregor",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "FOF-15",
+          "nom_imprime": "Derrick Lewis",
+          "mentions": [],
+          "sous_titre": null
+        }
+      ],
+      "cote": "1:81 packs",
+      "exclusivite": "Hobby exclusive",
+      "tirage": null,
+      "paralleles": [
+        {
+          "nom": "SuperFractor",
+          "tirage": 1,
+          "cote": null,
+          "exclusivite": null
+        }
+      ],
+      "notes": [],
+      "source": "https://www.checklistinsider.com/2024-topps-chrome-ufc"
+    },
+    {
+      "code": "GNW",
+      "nom": "Generation Now",
+      "type": "insert",
+      "nb_cartes": 25,
+      "cartes": [
+        {
+          "numero": "GNW-1",
+          "nom_imprime": "Alexander Volkanovski",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "GNW-2",
+          "nom_imprime": "Jon Jones",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "GNW-3",
+          "nom_imprime": "Islam Makhachev",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "GNW-4",
+          "nom_imprime": "Leon Edwards",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "GNW-5",
+          "nom_imprime": "Israel Adesanya",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "GNW-6",
+          "nom_imprime": "Aljamain Sterling",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "GNW-7",
+          "nom_imprime": "Charles Oliveira",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "GNW-8",
+          "nom_imprime": "Kamaru Usman",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "GNW-9",
+          "nom_imprime": "Alexandre Pantoja",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "GNW-10",
+          "nom_imprime": "Jiri Prochazka",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "GNW-11",
+          "nom_imprime": "Alex Pereira",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "GNW-12",
+          "nom_imprime": "Max Holloway",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "GNW-13",
+          "nom_imprime": "Dustin Poirier",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "GNW-14",
+          "nom_imprime": "Jamahal Hill",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "GNW-15",
+          "nom_imprime": "Brandon Moreno",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "GNW-16",
+          "nom_imprime": "Alexa Grasso",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "GNW-17",
+          "nom_imprime": "Valentina Shevchenko",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "GNW-18",
+          "nom_imprime": "Zhang Weili",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "GNW-19",
+          "nom_imprime": "Rose Namajunas",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "GNW-20",
+          "nom_imprime": "Julianna Peña",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "GNW-21",
+          "nom_imprime": "Carla Esparza",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "GNW-22",
+          "nom_imprime": "Gilbert Burns",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "GNW-23",
+          "nom_imprime": "Justin Gaethje",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "GNW-24",
+          "nom_imprime": "Colby Covington",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "GNW-25",
+          "nom_imprime": "Belal Muhammad",
+          "mentions": [],
+          "sous_titre": null
+        }
+      ],
+      "cote": "1:49 packs",
+      "exclusivite": "Hobby exclusive",
+      "tirage": null,
+      "paralleles": [
+        {
+          "nom": "SuperFractor",
+          "tirage": 1,
+          "cote": null,
+          "exclusivite": null
+        }
+      ],
+      "notes": [],
+      "source": "https://www.checklistinsider.com/2024-topps-chrome-ufc"
+    },
+    {
+      "code": "HG",
+      "nom": "Hidden Gems",
+      "type": "insert",
+      "nb_cartes": 5,
+      "cartes": [
+        {
+          "numero": "HG-1",
+          "nom_imprime": "Conor McGregor",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "HG-2",
+          "nom_imprime": "Jon Jones",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "HG-3",
+          "nom_imprime": "Sean O'Malley",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "HG-4",
+          "nom_imprime": "Georges St-Pierre",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "HG-5",
+          "nom_imprime": "Khabib Nurmagomedov",
+          "mentions": [],
+          "sous_titre": null
+        }
+      ],
+      "cote": "1:2,705 Hobby; 1:123 Breaker Delight; 1:15,066 Mega Box Hobby; 1:34,293 Value Blaster EA; 1:31,800 Value Blaster SE; 1:12,004 Mega Box EA; 1:12,476 Mega Box SE",
+      "exclusivite": null,
+      "tirage": null,
+      "paralleles": [],
+      "notes": [
+        "50 copies"
+      ],
+      "source": "https://www.checklistinsider.com/2024-topps-chrome-ufc"
+    },
+    {
+      "code": "IFL",
+      "nom": "International Flair",
+      "type": "insert",
+      "nb_cartes": 10,
+      "cartes": [
+        {
+          "numero": "IFL-1",
+          "nom_imprime": "Amir Albazi",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "IFL-2",
+          "nom_imprime": "Umar Nurmagomedov",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "IFL-3",
+          "nom_imprime": "Movsar Evolev",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "IFL-4",
+          "nom_imprime": "Rafael Fiziev",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "IFL-5",
+          "nom_imprime": "Shavkat Rakhmonov",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "IFL-6",
+          "nom_imprime": "Marvin Vettori",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "IFL-7",
+          "nom_imprime": "Jan Błachowicz",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "IFL-8",
+          "nom_imprime": "Tom Aspinall",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "IFL-9",
+          "nom_imprime": "Yan Xiaonan",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "IFL-10",
+          "nom_imprime": "Manon Fiorot",
+          "mentions": [],
+          "sous_titre": null
+        }
+      ],
+      "cote": "1:8 Hobby; 1:26 Breaker Delight",
+      "exclusivite": null,
+      "tirage": null,
+      "paralleles": [
+        {
+          "nom": "Refractor",
+          "tirage": null,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Gold Refractor",
+          "tirage": 50,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Black Refractor",
+          "tirage": 10,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Red Refractor",
+          "tirage": 5,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "SuperFractor",
+          "tirage": 1,
+          "cote": null,
+          "exclusivite": null
+        }
+      ],
+      "notes": [],
+      "source": "https://www.checklistinsider.com/2024-topps-chrome-ufc"
+    },
+    {
+      "code": "KAQ",
+      "nom": "Kings & Queens",
+      "type": "insert",
+      "nb_cartes": 15,
+      "cartes": [
+        {
+          "numero": "KAQ-1",
+          "nom_imprime": "Amanda Nunes",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "KAQ-2",
+          "nom_imprime": "Conor McGregor",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "KAQ-3",
+          "nom_imprime": "Khabib Nurmagomedov",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "KAQ-4",
+          "nom_imprime": "Israel Adesanya",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "KAQ-5",
+          "nom_imprime": "Alexa Grasso",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "KAQ-6",
+          "nom_imprime": "Georges St-Pierre",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "KAQ-7",
+          "nom_imprime": "Miesha Tate",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "KAQ-8",
+          "nom_imprime": "Jon Jones",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "KAQ-9",
+          "nom_imprime": "Chuck Liddell",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "KAQ-10",
+          "nom_imprime": "Zhang Weili",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "KAQ-11",
+          "nom_imprime": "Alexander Volkanovski",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "KAQ-12",
+          "nom_imprime": "Holly Holm",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "KAQ-13",
+          "nom_imprime": "Islam Makhachev",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "KAQ-14",
+          "nom_imprime": "Royce Gracie",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "KAQ-15",
+          "nom_imprime": "Valentina Shevchenko",
+          "mentions": [],
+          "sous_titre": null
+        }
+      ],
+      "cote": "1:72 Hobby; 1:7 Breaker Delight",
+      "exclusivite": null,
+      "tirage": null,
+      "paralleles": [],
+      "notes": [],
+      "source": "https://www.checklistinsider.com/2024-topps-chrome-ufc"
+    },
+    {
+      "code": "LGO",
+      "nom": "Let's Go",
+      "type": "insert",
+      "nb_cartes": 15,
+      "cartes": [
+        {
+          "numero": "LGO-1",
+          "nom_imprime": "Jon Jones",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "LGO-2",
+          "nom_imprime": "Yair Rodríguez",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "LGO-3",
+          "nom_imprime": "Mayra Bueno",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "LGO-4",
+          "nom_imprime": "Dricus DU Plessis",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "LGO-5",
+          "nom_imprime": "Israel Adesanya",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "LGO-6",
+          "nom_imprime": "Conor McGregor",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "LGO-7",
+          "nom_imprime": "Brandon Moreno",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "LGO-8",
+          "nom_imprime": "Michael Chandler",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "LGO-9",
+          "nom_imprime": "Khamzat Chimaev",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "LGO-10",
+          "nom_imprime": "Sean Strickland",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "LGO-11",
+          "nom_imprime": "Robert Whittaker",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "LGO-12",
+          "nom_imprime": "Jiri Prochazka",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "LGO-13",
+          "nom_imprime": "Valentina Shevchenko",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "LGO-14",
+          "nom_imprime": "Ilia Topuria",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "LGO-15",
+          "nom_imprime": "Tai Tuivasa",
+          "mentions": [],
+          "sous_titre": null
+        }
+      ],
+      "cote": "1:433 Hobby; 1:37 Breaker Delight",
+      "exclusivite": null,
+      "tirage": null,
+      "paralleles": [],
+      "notes": [],
+      "source": "https://www.checklistinsider.com/2024-topps-chrome-ufc"
+    },
+    {
+      "code": "PTH",
+      "nom": "Pathblazers",
+      "type": "insert",
+      "nb_cartes": 15,
+      "cartes": [
+        {
+          "numero": "PTH-1",
+          "nom_imprime": "Forrest Griffin",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "PTH-2",
+          "nom_imprime": "Alexander Volkanovski",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "PTH-3",
+          "nom_imprime": "Georges St-Pierre",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "PTH-4",
+          "nom_imprime": "Conor McGregor",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "PTH-5",
+          "nom_imprime": "Colby Covington",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "PTH-6",
+          "nom_imprime": "Israel Adesanya",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "PTH-7",
+          "nom_imprime": "Tai Tuivasa",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "PTH-8",
+          "nom_imprime": "Chuck Liddell",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "PTH-9",
+          "nom_imprime": "Royce Gracie",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "PTH-10",
+          "nom_imprime": "Donald Cerrone",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "PTH-11",
+          "nom_imprime": "Anderson Silva",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "PTH-12",
+          "nom_imprime": "Urijah Faber",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "PTH-13",
+          "nom_imprime": "Dan Henderson",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "PTH-14",
+          "nom_imprime": "Michel Pereira",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "PTH-15",
+          "nom_imprime": "Jon Jones",
+          "mentions": [],
+          "sous_titre": null
+        }
+      ],
+      "cote": "1:8 Mega Box Hobby; 1:15 Value Blaster EA; 1:15 Value Blaster SE; 1:8 Mega Box EA; 1:8 Mega Box SE",
+      "exclusivite": null,
+      "tirage": null,
+      "paralleles": [
+        {
+          "nom": "Refractor",
+          "tirage": null,
+          "cote": "1:143",
+          "exclusivite": null
+        },
+        {
+          "nom": "Gold Refractor",
+          "tirage": 50,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Black Refractor",
+          "tirage": 10,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Red Refractor",
+          "tirage": 5,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "SuperFractor",
+          "tirage": 1,
+          "cote": null,
+          "exclusivite": null
+        }
+      ],
+      "notes": [],
+      "source": "https://www.checklistinsider.com/2024-topps-chrome-ufc"
+    },
+    {
+      "code": "REP",
+      "nom": "Representing",
+      "type": "insert",
+      "nb_cartes": 20,
+      "cartes": [
+        {
+          "numero": "REP-1",
+          "nom_imprime": "Royce Gracie",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "REP-2",
+          "nom_imprime": "Zhang Weili",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "REP-3",
+          "nom_imprime": "Raul Rosas",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "REP-4",
+          "nom_imprime": "Henry Cejudo",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "REP-5",
+          "nom_imprime": "Anderson Silva",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "REP-6",
+          "nom_imprime": "Conor McGregor",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "REP-7",
+          "nom_imprime": "Georges St-Pierre",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "REP-8",
+          "nom_imprime": "Dominick Cruz",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "REP-9",
+          "nom_imprime": "Michael Bisping",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "REP-10",
+          "nom_imprime": "Amanda Nunes",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "REP-11",
+          "nom_imprime": "Valentina Shevchenko",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "REP-12",
+          "nom_imprime": "Alexander Volkanovski",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "REP-13",
+          "nom_imprime": "Khamzat Chimaev",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "REP-14",
+          "nom_imprime": "Jon Jones",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "REP-15",
+          "nom_imprime": "Daniel Cormier",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "REP-16",
+          "nom_imprime": "Max Holloway",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "REP-17",
+          "nom_imprime": "Cameron Saaiman",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "REP-18",
+          "nom_imprime": "Khabib Nurmagomedov",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "REP-19",
+          "nom_imprime": "Dustin Poirier",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "REP-20",
+          "nom_imprime": "Themba Gorimbo",
+          "mentions": [],
+          "sous_titre": null
+        }
+      ],
+      "cote": "1:60 packs",
+      "exclusivite": "Hobby exclusive",
+      "tirage": null,
+      "paralleles": [
+        {
+          "nom": "SuperFractor",
+          "tirage": 1,
+          "cote": null,
+          "exclusivite": null
+        }
+      ],
+      "notes": [],
+      "source": "https://www.checklistinsider.com/2024-topps-chrome-ufc"
+    },
+    {
+      "code": "SPV",
+      "nom": "Spitting Venom",
+      "type": "insert",
+      "nb_cartes": 10,
+      "cartes": [
+        {
+          "numero": "SPV-1",
+          "nom_imprime": "Sean O'Malley",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "SPV-2",
+          "nom_imprime": "Israel Adesanya",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "SPV-3",
+          "nom_imprime": "Colby Covington",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "SPV-4",
+          "nom_imprime": "Sean Strickland",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "SPV-5",
+          "nom_imprime": "Kevin Holland",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "SPV-6",
+          "nom_imprime": "Conor McGregor",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "SPV-7",
+          "nom_imprime": "Paddy Pimblett",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "SPV-8",
+          "nom_imprime": "Khamzat Chimaev",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "SPV-9",
+          "nom_imprime": "Jon Jones",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "SPV-10",
+          "nom_imprime": "Alex Pereira",
+          "mentions": [],
+          "sous_titre": null
+        }
+      ],
+      "cote": "1:1,442 Hobby; 1:121 Breaker Delight",
+      "exclusivite": null,
+      "tirage": null,
+      "paralleles": [],
+      "notes": [],
+      "source": "https://www.checklistinsider.com/2024-topps-chrome-ufc"
+    },
+    {
+      "code": "SUG",
+      "nom": "Supergiant",
+      "type": "insert",
+      "nb_cartes": 15,
+      "cartes": [
+        {
+          "numero": "SUG-1",
+          "nom_imprime": "Jon Jones",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "SUG-2",
+          "nom_imprime": "Israel Adesanya",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "SUG-3",
+          "nom_imprime": "Georges St-Pierre",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "SUG-4",
+          "nom_imprime": "Khabib Nurmagomedov",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "SUG-5",
+          "nom_imprime": "Alexander Volkanovski",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "SUG-6",
+          "nom_imprime": "Amanda Nunes",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "SUG-7",
+          "nom_imprime": "Khamzat Chimaev",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "SUG-8",
+          "nom_imprime": "Conor McGregor",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "SUG-9",
+          "nom_imprime": "Chuck Liddell",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "SUG-10",
+          "nom_imprime": "Valentina Shevchenko",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "SUG-11",
+          "nom_imprime": "Jiri Prochazka",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "SUG-12",
+          "nom_imprime": "Sean O'Malley",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "SUG-13",
+          "nom_imprime": "Anderson Silva",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "SUG-14",
+          "nom_imprime": "Kamaru Usman",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "SUG-15",
+          "nom_imprime": "Zhang Weili",
+          "mentions": [],
+          "sous_titre": null
+        }
+      ],
+      "cote": "1:5 Hobby; 1:17 Breaker Delight",
+      "exclusivite": null,
+      "tirage": null,
+      "paralleles": [
+        {
+          "nom": "Refractor",
+          "tirage": null,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Gold Refractor",
+          "tirage": 50,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Black Refractor",
+          "tirage": 10,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Red Refractor",
+          "tirage": 5,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "SuperFractor",
+          "tirage": 1,
+          "cote": null,
+          "exclusivite": null
+        }
+      ],
+      "notes": [],
+      "source": "https://www.checklistinsider.com/2024-topps-chrome-ufc"
+    },
+    {
+      "code": "TFT",
+      "nom": "Tale of the Tape",
+      "type": "insert",
+      "nb_cartes": 30,
+      "cartes": [
+        {
+          "numero": "TFT-1",
+          "nom_imprime": "Brandon Moreno",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TFT-2",
+          "nom_imprime": "Deiveson Figueiredo",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TFT-3",
+          "nom_imprime": "Kai Kara-France",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TFT-4",
+          "nom_imprime": "Merab Dvalishvili",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TFT-5",
+          "nom_imprime": "Sean O'Malley",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TFT-6",
+          "nom_imprime": "Henry Cejudo",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TFT-7",
+          "nom_imprime": "Alexander Volkanovski",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TFT-8",
+          "nom_imprime": "Brian Ortega",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TFT-9",
+          "nom_imprime": "Yair Rodríguez",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TFT-10",
+          "nom_imprime": "Islam Makhachev",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TFT-11",
+          "nom_imprime": "Beneil Dariush",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TFT-12",
+          "nom_imprime": "Michael Chandler",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TFT-13",
+          "nom_imprime": "Kamaru Usman",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TFT-14",
+          "nom_imprime": "Gilbert Burns",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TFT-15",
+          "nom_imprime": "Belal Muhammad",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TFT-16",
+          "nom_imprime": "Khamzat Chimaev",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TFT-17",
+          "nom_imprime": "Conor McGregor",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TFT-18",
+          "nom_imprime": "Israel Adesanya",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TFT-19",
+          "nom_imprime": "Jared Cannonier",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TFT-20",
+          "nom_imprime": "Jiri Prochazka",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TFT-21",
+          "nom_imprime": "Magomed Ankalaev",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TFT-22",
+          "nom_imprime": "Johnny Walker",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TFT-23",
+          "nom_imprime": "Jon Jones",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TFT-24",
+          "nom_imprime": "Stipe Miocic",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TFT-25",
+          "nom_imprime": "Tai Tuivasa",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TFT-26",
+          "nom_imprime": "Carla Esparza",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TFT-27",
+          "nom_imprime": "Jessica Andrade",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TFT-28",
+          "nom_imprime": "Angela Hill",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TFT-29",
+          "nom_imprime": "Valentina Shevchenko",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "TFT-30",
+          "nom_imprime": "Holly Holm",
+          "mentions": [],
+          "sous_titre": null
+        }
+      ],
+      "cote": "1:3 Hobby; 1:9 Breaker Delight",
+      "exclusivite": null,
+      "tirage": null,
+      "paralleles": [
+        {
+          "nom": "Refractor",
+          "tirage": null,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Gold Refractor",
+          "tirage": 50,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Black Refractor",
+          "tirage": 10,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "Red Refractor",
+          "tirage": 5,
+          "cote": null,
+          "exclusivite": null
+        },
+        {
+          "nom": "SuperFractor",
+          "tirage": 1,
+          "cote": null,
+          "exclusivite": null
+        }
+      ],
+      "notes": [],
+      "source": "https://www.checklistinsider.com/2024-topps-chrome-ufc"
+    },
+    {
+      "code": "UFN",
+      "nom": "UFC Fight Night",
+      "type": "insert",
+      "nb_cartes": 15,
+      "cartes": [
+        {
+          "numero": "UFN-1",
+          "nom_imprime": "Tom Aspinall",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "UFN-2",
+          "nom_imprime": "Jack Della Maddalena",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "UFN-3",
+          "nom_imprime": "Sean Strickland",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "UFN-4",
+          "nom_imprime": "Ilia Topuria",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "UFN-5",
+          "nom_imprime": "Jailton Almeida",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "UFN-6",
+          "nom_imprime": "Ian Machado Garry",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "UFN-7",
+          "nom_imprime": "Carlos Ulberg",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "UFN-8",
+          "nom_imprime": "Sergei Pavlovich",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "UFN-9",
+          "nom_imprime": "Max Holloway",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "UFN-10",
+          "nom_imprime": "Islam Makhachev",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "UFN-11",
+          "nom_imprime": "Merab Dvalishvili",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "UFN-12",
+          "nom_imprime": "Mike Malott",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "UFN-13",
+          "nom_imprime": "Tatiana Suarez",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "UFN-14",
+          "nom_imprime": "Erin Blanchfield",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "UFN-15",
+          "nom_imprime": "Umar Nurmagomedov",
+          "mentions": [],
+          "sous_titre": null
+        }
+      ],
+      "cote": "1:145 Hobby; 1:13 Breaker Delight",
+      "exclusivite": null,
+      "tirage": null,
+      "paralleles": [],
+      "notes": [],
+      "source": "https://www.checklistinsider.com/2024-topps-chrome-ufc"
+    },
+    {
+      "code": "YQK",
+      "nom": "Youthquake",
+      "type": "insert",
+      "nb_cartes": 10,
+      "cartes": [
+        {
+          "numero": "YQK-1",
+          "nom_imprime": "Erin Blanchfield",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "YQK-2",
+          "nom_imprime": "Tatsuro Taira",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "YQK-3",
+          "nom_imprime": "Muhammad Mokaev",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "YQK-4",
+          "nom_imprime": "Bo Nickal",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "YQK-5",
+          "nom_imprime": "Raul Rosas",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "YQK-6",
+          "nom_imprime": "Ian Machado Garry",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "YQK-7",
+          "nom_imprime": "Brad Katona",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "YQK-8",
+          "nom_imprime": "Shavkat Rakhmonov",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "YQK-9",
+          "nom_imprime": "Ilia Topuria",
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "YQK-10",
+          "nom_imprime": "Michael Morales",
+          "mentions": [],
+          "sous_titre": null
+        }
+      ],
+      "cote": "1:120 packs",
+      "exclusivite": "Hobby exclusive",
+      "tirage": null,
+      "paralleles": [
+        {
+          "nom": "SuperFractor",
+          "tirage": 1,
+          "cote": null,
+          "exclusivite": null
+        }
+      ],
+      "notes": [],
+      "source": "https://www.checklistinsider.com/2024-topps-chrome-ufc"
+    }
+  ]
+}

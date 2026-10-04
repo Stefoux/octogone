@@ -1,0 +1,183 @@
+{
+  "id": "marlon-vera",
+  "nom": "Marlon Vera",
+  "ufc_slug": "marlon-vera",
+  "wikipedia_titre": "Marlon Vera",
+  "surnom": "Chito",
+  "sexe": "M",
+  "pays": "EC",
+  "categorie": "coq",
+  "statut": "actif",
+  "date_naissance": "1992-12-02",
+  "taille_cm": 173,
+  "allonge_cm": 179,
+  "style": "Grappling",
+  "lieu_naissance": "Chone, Équateur",
+  "palmares": {
+    "victoires": 24,
+    "defaites": 12,
+    "nuls": 1,
+    "sans_decision": 0,
+    "victoires_ko": 9,
+    "victoires_soumission": 10,
+    "victoires_decision": 5,
+    "defaites_ko": 0,
+    "defaites_soumission": 0,
+    "defaites_decision": 12
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.24,
+    "precision_frappe_pct": 48,
+    "frappes_encaissees_par_min": 5.39,
+    "defense_frappe_pct": 50.0,
+    "takedowns_par_15min": 0.57,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 72.0,
+    "soumissions_par_15min": 0.74,
+    "knockdowns_par_15min": 0.66,
+    "duree_moyenne_combat_s": 813,
+    "frappes_reussies": 1552.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 24,
+      "defaites": 12,
+      "nuls": 1,
+      "sans_decision": 0,
+      "v": {
+        "ko": 9,
+        "soumission": 10,
+        "decision": 5,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 0,
+        "decision": 12,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2014": 1,
+      "2015": 1,
+      "2016": 2,
+      "2017": 3,
+      "2018": 3,
+      "2019": 3,
+      "2020": 3,
+      "2021": 2,
+      "2022": 2,
+      "2023": 2,
+      "2024": 2,
+      "2025": 1,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Charles Jourdain",
+      "evenement": "UFC 331",
+      "date": "September 19, 2026",
+      "resultat": "Win",
+      "methode": "TKO (submission to punch)"
+    },
+    "combats_ufc": 27,
+    "victoires_ufc": 16,
+    "defaites_ufc": 11,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 2,
+    "bonus_fotn": 3,
+    "bonus_potn": 5,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Rob Font",
+        "evenement": "UFC on ESPN: Font vs. Vera",
+        "date": "April 30, 2022"
+      },
+      {
+        "adversaire": "Davey Grant",
+        "evenement": "UFC on ESPN: The Korean Zombie vs. Ige",
+        "date": "June 19, 2021"
+      },
+      {
+        "adversaire": "Song Yadong",
+        "evenement": "UFC on ESPN: Overeem vs. Harris",
+        "date": "May 16, 2020"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 3
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Marco Beltrán",
+      "evenement": "UFC 180",
+      "date": "November 15, 2014",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Performance of the Night (Five times) vs. Roman Salazar , Brad Pickett , Andre Ewell , Frankie Edgar , and Dominick Cruz",
+    "Tied ( Rob Font , Davey Grant & Song Yadong ) for fourth most Post-Fight bonuses in UFC Bantamweight division history (6)",
+    "Most finishes in UFC Bantamweight division history (11)",
+    "Tied ( Montel Jackson ) for most knockdowns in UFC Bantamweight division history (14)  Tied ( Edson Barboza ) for fourth most knockdowns in UFC history (16)",
+    "Tied ( Edson Barboza ) for fourth most knockdowns in UFC history (16)",
+    "Most bouts in UFC Bantamweight division history (24)  Most decision bouts in UFC Bantamweight division history (15)",
+    "Most decision bouts in UFC Bantamweight division history (15)",
+    "Most total fight time in UFC Bantamweight division history (5:21:53)",
+    "Tied ( Aljamain Sterling ) for most wins in UFC Bantamweight division history (14)  Tied ( Dominick Cruz & Aljamain Sterling ) for most wins in UFC/WEC Bantamweight division history (14)",
+    "Tied ( Dominick Cruz & Aljamain Sterling ) for most wins in UFC/WEC Bantamweight division history (14)",
+    "Tied ( Sean O'Malley & T.J. Dillashaw ) for most knockouts in UFC Bantamweight division history (7)",
+    "Most submission attempts in UFC Bantamweight division history (16)",
+    "Tied ( Kyung Ho Kang , Mario Bautista & Aljamain Sterling ) for third most submissions in UFC Bantamweight division history (4)",
+    "Third most significant strikes landed in UFC Bantamweight division history (1357)  Fourth most total strikes landed in UFC Bantamweight division history (1555)",
+    "Fourth most total strikes landed in UFC Bantamweight division history (1555)",
+    "First and only fighter to land three knockdowns in three separate UFC bouts (vs. Rob Font , Dominick Cruz & Charles Jourdain )",
+    "Holds wins over three former UFC champions — Sean O'Malley 1, Frankie Edgar and Dominick Cruz",
+    "UFC Honors Awards 2022: President's Choice Performance of the Year Nominee vs. Rob Font",
+    "2022: President's Choice Performance of the Year Nominee vs. Rob Font",
+    "UFC.com Awards 2020: Ranked #6 Upset of the Year vs. Sean O'Malley 1  2022: Ranked #6 Fighter of the Year  & Ranked #5 Knockout of the Year vs. Dominick Cruz",
+    "2020: Ranked #6 Upset of the Year vs. Sean O'Malley 1",
+    "2022: Ranked #6 Fighter of the Year  & Ranked #5 Knockout of the Year vs. Dominick Cruz",
+    "ESPN 2022 Most Improved Fighter of the Year",
+    "2022 Most Improved Fighter of the Year",
+    "MMA Fighting 2022 First Team MMA All-Star",
+    "2022 First Team MMA All-Star"
+  ],
+  "image_commons": "Marlon \"Chito\" Vera 2019.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Marlon_Vera",
+    "wikidata": "https://www.wikidata.org/wiki/Q18704247",
+    "ufc_com": "https://www.ufc.com/athlete/marlon-vera"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 62,
+    "puissance": 61,
+    "lutte": 49,
+    "soumission": 67,
+    "defense": 48,
+    "cardio": 74,
+    "menton": 99,
+    "globale": 66,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "id": "joshua-culibao",
+  "nom": "Joshua Culibao",
+  "ufc_slug": "joshua-culibao",
+  "wikipedia_titre": "Joshua Culibao",
+  "surnom": "Kuya",
+  "sexe": "M",
+  "pays": "AU",
+  "categorie": "plume",
+  "statut": "inactif",
+  "date_naissance": "1994-05-24",
+  "taille_cm": 178,
+  "allonge_cm": 185,
+  "style": "Freestyle",
+  "lieu_naissance": "Camperdown, Australia",
+  "palmares": {
+    "victoires": 11,
+    "defaites": 4,
+    "nuls": 1,
+    "sans_decision": 0,
+    "victoires_ko": 5,
+    "victoires_soumission": 1,
+    "victoires_decision": 5,
+    "defaites_ko": 1,
+    "defaites_soumission": 0,
+    "defaites_decision": 3
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.41,
+    "precision_frappe_pct": 45,
+    "frappes_encaissees_par_min": 3.04,
+    "defense_frappe_pct": 60.0,
+    "takedowns_par_15min": 0.0,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 66.0,
+    "soumissions_par_15min": 0.29,
+    "knockdowns_par_15min": 0.57,
+    "duree_moyenne_combat_s": 788,
+    "frappes_reussies": 358.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 11,
+      "defaites": 4,
+      "nuls": 1,
+      "sans_decision": 0,
+      "v": {
+        "ko": 5,
+        "soumission": 1,
+        "decision": 5,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 0,
+        "decision": 3,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2020": 2,
+      "2021": 1,
+      "2022": 1,
+      "2023": 2,
+      "2024": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Ricardo Ramos",
+      "evenement": "UFC 305",
+      "date": "August 18, 2024",
+      "resultat": "Loss",
+      "methode": "Decision (split)"
+    },
+    "combats_ufc": 8,
+    "victoires_ufc": 3,
+    "defaites_ufc": 4,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 3,
+    "bonus_fotn": 0,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 3
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Jalin Turner",
+      "evenement": "UFC Fight Night: Felder vs. Hooker",
+      "date": "February 23, 2020",
+      "resultat": "Loss",
+      "methode": "TKO (punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Hex Fight Series HEX Featherweight Championship (one time; former)  One successful title defense",
+    "HEX Featherweight Championship (one time; former)  One successful title defense",
+    "One successful title defense",
+    "Diamondback FC DFC Featherweight Championship (one time; former)",
+    "DFC Featherweight Championship (one time; former)",
+    "Superfight MMA Superfight MMA Featherweight Championship (one time; former)",
+    "Superfight MMA Featherweight Championship (one time; former)"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Joshua_Culibao",
+    "wikidata": "https://www.wikidata.org/wiki/Q106950054",
+    "ufc_com": "https://www.ufc.com/athlete/joshua-culibao"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 56,
+    "puissance": 64,
+    "lutte": 48,
+    "soumission": 47,
+    "defense": 73,
+    "cardio": 71,
+    "menton": 85,
+    "globale": 63,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

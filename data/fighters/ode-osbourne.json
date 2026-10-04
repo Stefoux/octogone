@@ -1,0 +1,141 @@
+{
+  "id": "ode-osbourne",
+  "nom": "Ode Osbourne",
+  "ufc_slug": "ode-osbourne",
+  "wikipedia_titre": "Ode' Osbourne",
+  "surnom": "The Jamaican Sensation",
+  "sexe": "M",
+  "pays": "US",
+  "autres_pays": [
+    "JM"
+  ],
+  "categorie": "mouche",
+  "statut": "actif",
+  "date_naissance": "1992-01-09",
+  "taille_cm": 170,
+  "allonge_cm": 185,
+  "style": "Striker",
+  "lieu_naissance": "Kingston, Jamaica",
+  "palmares": {
+    "victoires": 13,
+    "defaites": 9,
+    "nuls": 0,
+    "sans_decision": 2,
+    "victoires_ko": 6,
+    "victoires_soumission": 4,
+    "victoires_decision": 3,
+    "defaites_ko": 2,
+    "defaites_soumission": 4,
+    "defaites_decision": 3
+  },
+  "stats_ufc": {
+    "frappes_par_min": 2.94,
+    "precision_frappe_pct": 41,
+    "frappes_encaissees_par_min": 3.24,
+    "defense_frappe_pct": 49.0,
+    "takedowns_par_15min": 0.94,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 67.0,
+    "soumissions_par_15min": 0.4,
+    "knockdowns_par_15min": 0.54,
+    "duree_moyenne_combat_s": 476,
+    "frappes_reussies": 327.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 13,
+      "defaites": 9,
+      "nuls": 0,
+      "sans_decision": 2,
+      "v": {
+        "ko": 6,
+        "soumission": 4,
+        "decision": 3,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 4,
+        "decision": 3,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2019": 1,
+      "2020": 1,
+      "2021": 3,
+      "2022": 2,
+      "2023": 2,
+      "2024": 2,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Alibi Idiris",
+      "evenement": "UFC Fight Night: Strickland vs. Hernandez",
+      "date": "February 21, 2026",
+      "resultat": "NC",
+      "methode": "NC (overturned)"
+    },
+    "combats_ufc": 14,
+    "victoires_ufc": 6,
+    "defaites_ufc": 7,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 2,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 5
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Armando Villarreal",
+      "evenement": "Dana White's Contender Series 20",
+      "date": "July 16, 2019",
+      "resultat": "Win",
+      "methode": "Submission (armbar)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Ultimate Fighting Championship Performance of the Night (Two times) vs. Zarrukh Adashev and Luis Gurule",
+    "Performance of the Night (Two times) vs. Zarrukh Adashev and Luis Gurule"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Ode'_Osbourne",
+    "wikidata": "https://www.wikidata.org/wiki/Q83093836",
+    "ufc_com": "https://www.ufc.com/athlete/ode-osbourne"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 49,
+    "puissance": 64,
+    "lutte": 50,
+    "soumission": 56,
+    "defense": 62,
+    "cardio": 48,
+    "menton": 75,
+    "globale": 58,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

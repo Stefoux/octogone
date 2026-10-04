@@ -1,0 +1,141 @@
+{
+  "id": "jamall-emmers",
+  "nom": "Jamall Emmers",
+  "ufc_slug": "jamall-emmers",
+  "wikipedia_titre": "Jamall Emmers",
+  "surnom": "Pretty Boy",
+  "surnom_wikipedia": "Prettyboy",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "plume",
+  "statut": "actif",
+  "date_naissance": "1989-07-24",
+  "taille_cm": 178,
+  "allonge_cm": 188,
+  "style": "Kickboxer",
+  "lieu_naissance": "Miami, United States",
+  "palmares": {
+    "victoires": 23,
+    "defaites": 8,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 10,
+    "victoires_soumission": 3,
+    "victoires_decision": 10,
+    "defaites_ko": 3,
+    "defaites_soumission": 2,
+    "defaites_decision": 3
+  },
+  "stats_ufc": {
+    "frappes_par_min": 5.09,
+    "precision_frappe_pct": 49,
+    "frappes_encaissees_par_min": 3.91,
+    "defense_frappe_pct": 57.0,
+    "takedowns_par_15min": 2.49,
+    "precision_takedown_pct": 23,
+    "defense_takedown_pct": 81.0,
+    "soumissions_par_15min": 0.31,
+    "knockdowns_par_15min": 0.78,
+    "duree_moyenne_combat_s": 525,
+    "frappes_reussies": 490.0,
+    "takedowns_reussis": 7.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 23,
+      "defaites": 8,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 10,
+        "soumission": 3,
+        "decision": 10,
+        "autre": 0
+      },
+      "d": {
+        "ko": 3,
+        "soumission": 2,
+        "decision": 3,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2018": 1,
+      "2020": 2,
+      "2021": 1,
+      "2023": 3,
+      "2024": 1,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Lerryan Douglas",
+      "evenement": "UFC Fight Night: Hernandez vs. Rodrigues",
+      "date": "August 22, 2026",
+      "resultat": "Win",
+      "methode": "TKO (punches)"
+    },
+    "combats_ufc": 11,
+    "victoires_ufc": 6,
+    "defaites_ufc": 5,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 9
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Julian Erosa",
+      "evenement": "Dana White's Contender Series 11",
+      "date": "June 26, 2018",
+      "resultat": "Loss",
+      "methode": "KO (head kick and punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Hero FC Hero FC Featherweight Championship (one time; former) Two successful title defenses",
+    "Hero FC Featherweight Championship (one time; former) Two successful title defenses",
+    "Two successful title defenses",
+    "SMASH Global SMASH Global Featherweight Championship (one time; former)",
+    "SMASH Global Featherweight Championship (one time; former)"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Jamall_Emmers",
+    "wikidata": "https://www.wikidata.org/wiki/Q108312230",
+    "ufc_com": "https://www.ufc.com/athlete/jamall-emmers"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 68,
+    "puissance": 66,
+    "lutte": 63,
+    "soumission": 47,
+    "defense": 65,
+    "cardio": 51,
+    "menton": 68,
+    "globale": 61,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

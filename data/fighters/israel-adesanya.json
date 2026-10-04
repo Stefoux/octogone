@@ -1,0 +1,241 @@
+{
+  "id": "israel-adesanya",
+  "nom": "Israel Adesanya",
+  "ufc_slug": "israel-adesanya",
+  "wikipedia_titre": "Israel Adesanya",
+  "surnom": "The Last Stylebender",
+  "sexe": "M",
+  "pays": "NZ",
+  "autres_pays": [
+    "NG"
+  ],
+  "categorie": "moyens",
+  "statut": "actif",
+  "date_naissance": "1989-07-22",
+  "taille_cm": 193,
+  "allonge_cm": 203,
+  "style": "Style libre",
+  "lieu_naissance": "Lagos, Nigeria",
+  "palmares": {
+    "victoires": 24,
+    "defaites": 6,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 16,
+    "victoires_soumission": 0,
+    "victoires_decision": 8,
+    "defaites_ko": 3,
+    "defaites_soumission": 1,
+    "defaites_decision": 2
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.03,
+    "precision_frappe_pct": 48,
+    "frappes_encaissees_par_min": 3.22,
+    "defense_frappe_pct": 56.0,
+    "takedowns_par_15min": 0.05,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 76.0,
+    "soumissions_par_15min": 0.14,
+    "knockdowns_par_15min": 0.6,
+    "duree_moyenne_combat_s": 1029,
+    "frappes_reussies": 1313.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 24,
+      "defaites": 6,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 16,
+        "soumission": 0,
+        "decision": 8,
+        "autre": 0
+      },
+      "d": {
+        "ko": 3,
+        "soumission": 1,
+        "decision": 2,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2018": 4,
+      "2019": 3,
+      "2020": 2,
+      "2021": 2,
+      "2022": 3,
+      "2023": 2,
+      "2024": 1,
+      "2025": 1,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Joe Pyfer",
+      "evenement": "UFC Fight Night: Adesanya vs. Pyfer",
+      "date": "28 March 2026",
+      "resultat": "Loss",
+      "methode": "TKO (punches)"
+    },
+    "combats_ufc": 19,
+    "victoires_ufc": 13,
+    "defaites_ufc": 6,
+    "victoires_decision_5_rounds": 6,
+    "combats_5_rounds_gagnes": 6,
+    "bonus_fotn": 2,
+    "bonus_potn": 6,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Kelvin Gastelum",
+        "evenement": "UFC 236",
+        "date": "13 April 2019"
+      },
+      {
+        "adversaire": "Anderson Silva",
+        "evenement": "UFC 234",
+        "date": "10 February 2019"
+      }
+    ],
+    "titres": [
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Middleweight Championship",
+        "evenement": "UFC 287",
+        "date": "8 April 2023"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Middleweight Championship",
+        "evenement": "UFC 276",
+        "date": "2 July 2022"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Middleweight Championship",
+        "evenement": "UFC 271",
+        "date": "12 February 2022"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Middleweight Championship",
+        "evenement": "UFC 263",
+        "date": "12 June 2021"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Middleweight Championship",
+        "evenement": "UFC 253",
+        "date": "27 September 2020"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Middleweight Championship",
+        "evenement": "UFC 248",
+        "date": "7 March 2020"
+      },
+      {
+        "action": "won",
+        "interim": true,
+        "titre": "UFC Middleweight Championship",
+        "evenement": "UFC 236",
+        "date": "13 April 2019"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 10
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Rob Wilkinson",
+      "evenement": "UFC 221",
+      "date": "11 February 2018",
+      "resultat": "Win",
+      "methode": "TKO (knees and punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "Super 8 Boxing Tournament Super 8 III Cruiserweight Champion (eight man tournament)  Super 8 IV Cruiserweight Champion (four man tournament)",
+    "Super 8 III Cruiserweight Champion (eight man tournament)",
+    "Super 8 IV Cruiserweight Champion (four man tournament)",
+    "World Muaythai Council 2014 WMC Ocenia Cruiserweight Championship",
+    "2014 WMC Ocenia Cruiserweight Championship",
+    "World Boxing Council Muay Thai 2014 WBC Muay Thai International Cruiserweight Championship",
+    "2014 WBC Muay Thai International Cruiserweight Championship",
+    "World Kickboxing Federation 2011 WKBF Muay Thai New Zealand Cruiserweight Championship",
+    "2011 WKBF Muay Thai New Zealand Cruiserweight Championship",
+    "2014 King in the Ring 86 kg II Champion (eight man tournament)",
+    "2015 King in the Ring 86 kg III Champion (eight man tournament)",
+    "2015 King in the Ring 100kgs II Champion (eight man tournament)",
+    "Glory 2016 Glory Middleweight Contender Tournament Winner (four man tournament)",
+    "2016 Glory Middleweight Contender Tournament Winner (four man tournament)",
+    "Combat Press 2017 Fight of the Year (vs. Alex Pereira )",
+    "2017 Fight of the Year (vs. Alex Pereira )",
+    "UFC Hall of Fame ( Fight Wing , Class of 2025) vs. Kelvin Gastelum at UFC 236",
+    "UFC Middleweight Championship (two times) Five successful title defenses (first reign)  The first two-time UFC Middleweight champion",
+    "Five successful title defenses (first reign)",
+    "The first two-time UFC Middleweight champion",
+    "Most knockdowns in a UFC title fight (4) vs Kelvin Gastelum",
+    "Second most title fight wins in UFC Middleweight division history (8) (behind Anderson Silva )",
+    "Second most knockdowns in UFC title fights (9)",
+    "Performance of the Night (Six times) vs. Rob Wilkinson , Brad Tavares , Derek Brunson , Robert Whittaker 1, Paulo Costa and Alex Pereira 2",
+    "Fight of the Night (two times) vs. Anderson Silva and Kelvin Gastelum   Tied ( Yoel Romero ) for the third most post-fight bonuses in UFC Middleweight division history (8)",
+    "Tied ( Yoel Romero ) for the third most post-fight bonuses in UFC Middleweight division history (8)",
+    "Tied ( Anderson Silva ) for most knockdowns in UFC Middleweight division history (13)",
+    "Second longest winning streak in UFC Middleweight division history (12) (behind Anderson Silva )",
+    "Second longest average fight time in UFC Middleweight division history (16:43) (behind Sean Strickland )",
+    "Third most total fight time in UFC Middleweight division history (5:00:48)",
+    "Fifth most significant strikes landed in UFC Middleweight division history (1235)  Sixth most total strikes landed in UFC Middleweight division history (1438)",
+    "Sixth most total strikes landed in UFC Middleweight division history (1438)",
+    "Quickest fighter in history to achieve their first eight UFC wins (755 days)",
+    "2019: President's Choice Fight of the Year Winner vs. Kelvin Gastelum  & President's Choice Performance of the Year Nominee vs. Robert Whittaker 1",
+    "2023: Fan's Choice Knockout of the Year Winner vs. Alex Pereira 2  & President's Choice Performance of the Year Nominee vs. Alex Pereira 2",
+    "2018: Newcomer of the Year  & Ranked #7 Fighter of the Year",
+    "2019: Fight of the Year vs. Kelvin Gastelum  & Top 10 Fighter of the Year",
+    "2020: Ranked #10 Fighter of the Year",
+    "2023: Half-Year Awards: Best Fighter of the 1HY,  Half-Year Awards: Best Knockout of the 1HY & Ranked #2 Knockout of the Year  vs. Alex Pereira 2",
+    "2024: Ranked #10 Fight of the Year vs. Dricus Du Plessis"
+  ],
+  "image_commons": "Israel Adesanya 2014.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Israel_Adesanya",
+    "wikidata": "https://www.wikidata.org/wiki/Q27050195",
+    "ufc_com": "https://www.ufc.com/athlete/israel-adesanya"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 61,
+    "puissance": 77,
+    "lutte": 49,
+    "soumission": 37,
+    "defense": 69,
+    "cardio": 94,
+    "menton": 68,
+    "globale": 65,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

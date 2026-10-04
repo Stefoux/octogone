@@ -1,0 +1,170 @@
+{
+  "id": "calvin-kattar",
+  "nom": "Calvin Kattar",
+  "ufc_slug": "calvin-kattar",
+  "wikipedia_titre": "Calvin Kattar",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "plume",
+  "statut": "actif",
+  "date_naissance": "1988-03-26",
+  "taille_cm": 180,
+  "allonge_cm": 183,
+  "style": "Freestyle",
+  "lieu_naissance": "Methuen, United States",
+  "palmares": {
+    "victoires": 23,
+    "defaites": 10,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 11,
+    "victoires_soumission": 2,
+    "victoires_decision": 10,
+    "defaites_ko": 1,
+    "defaites_soumission": 1,
+    "defaites_decision": 8
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.41,
+    "precision_frappe_pct": 38,
+    "frappes_encaissees_par_min": 6.55,
+    "defense_frappe_pct": 55.0,
+    "takedowns_par_15min": 0.34,
+    "precision_takedown_pct": 12,
+    "defense_takedown_pct": 77.0,
+    "soumissions_par_15min": 0.07,
+    "knockdowns_par_15min": 0.34,
+    "duree_moyenne_combat_s": 887,
+    "frappes_reussies": 977.0,
+    "takedowns_reussis": 2.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 23,
+      "defaites": 10,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 11,
+        "soumission": 2,
+        "decision": 10,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 1,
+        "decision": 8,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2017": 1,
+      "2018": 3,
+      "2019": 2,
+      "2020": 2,
+      "2021": 1,
+      "2022": 3,
+      "2024": 1,
+      "2025": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Steve Garcia",
+      "evenement": "UFC on ESPN: Lewis vs. Teixeira",
+      "date": "July 12, 2025",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 15,
+    "victoires_ufc": 7,
+    "defaites_ufc": 8,
+    "victoires_decision_5_rounds": 3,
+    "combats_5_rounds_gagnes": 3,
+    "bonus_fotn": 5,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Josh Emmett",
+        "evenement": "UFC on ESPN: Kattar vs. Emmett",
+        "date": "June 18, 2022"
+      },
+      {
+        "adversaire": "Giga Chikadze",
+        "evenement": "UFC on ESPN: Kattar vs. Chikadze",
+        "date": "January 15, 2022"
+      },
+      {
+        "adversaire": "Max Holloway",
+        "evenement": "UFC on ABC: Holloway vs. Kattar",
+        "date": "January 16, 2021"
+      },
+      {
+        "adversaire": "Zabit Magomedsharipov",
+        "evenement": "UFC Fight Night: Magomedsharipov vs. Kattar",
+        "date": "November 9, 2019"
+      },
+      {
+        "adversaire": "Shane Burgos",
+        "evenement": "UFC 220",
+        "date": "January 20, 2018"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 9
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Andre Fili",
+      "evenement": "UFC 214",
+      "date": "July 29, 2017",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Fight of the Night (Five times) vs. Shane Burgos , Zabit Magomedsharipov , Max Holloway , Giga Chikadze and Josh Emmett",
+    "UFC.com Awards 2018: Ranked #8 Fight of the Year vs. Shane Burgos  2020: Ranked #9 Knockout of the Year vs. Jeremy Stephens  2022: Ranked #8 Fight of the Year vs. Giga Chikadze",
+    "2018: Ranked #8 Fight of the Year vs. Shane Burgos",
+    "2020: Ranked #9 Knockout of the Year vs. Jeremy Stephens",
+    "2022: Ranked #8 Fight of the Year vs. Giga Chikadze",
+    "MMA Junkie 2020 May Knockout of the Month vs. Jeremy Stephens",
+    "2020 May Knockout of the Month vs. Jeremy Stephens",
+    "Slacky Awards 2022 Gameplan of the Year vs. Giga Chikadze at UFC on ESPN: Kattar vs. Chikadze",
+    "2022 Gameplan of the Year vs. Giga Chikadze at UFC on ESPN: Kattar vs. Chikadze"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Calvin_Kattar",
+    "wikidata": "https://www.wikidata.org/wiki/Q47539972",
+    "ufc_com": "https://www.ufc.com/athlete/calvin-kattar"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 54,
+    "puissance": 62,
+    "lutte": 51,
+    "soumission": 41,
+    "defense": 50,
+    "cardio": 93,
+    "menton": 89,
+    "globale": 63,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

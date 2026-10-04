@@ -1,0 +1,214 @@
+{
+  "id": "yair-rodriguez",
+  "nom": "Yair Rodríguez",
+  "ufc_slug": "yair-rodriguez",
+  "wikipedia_titre": "Yair Rodríguez",
+  "surnom": "El Pantera",
+  "sexe": "M",
+  "pays": "MX",
+  "categorie": "plume",
+  "statut": "actif",
+  "date_naissance": "1992-10-06",
+  "taille_cm": 180,
+  "allonge_cm": 180,
+  "style": "Style libre",
+  "lieu_naissance": "Hidalgo Del Parral, Mexique",
+  "palmares": {
+    "victoires": 20,
+    "defaites": 5,
+    "nuls": 0,
+    "sans_decision": 1,
+    "victoires_ko": 8,
+    "victoires_soumission": 5,
+    "victoires_decision": 7,
+    "defaites_ko": 3,
+    "defaites_soumission": 1,
+    "defaites_decision": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.65,
+    "precision_frappe_pct": 47,
+    "frappes_encaissees_par_min": 3.78,
+    "defense_frappe_pct": 53.0,
+    "takedowns_par_15min": 0.71,
+    "precision_takedown_pct": 24,
+    "defense_takedown_pct": 59.0,
+    "soumissions_par_15min": 0.64,
+    "knockdowns_par_15min": 0.35,
+    "duree_moyenne_combat_s": 794,
+    "frappes_reussies": 984.0,
+    "takedowns_reussis": 8.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 20,
+      "defaites": 5,
+      "nuls": 0,
+      "sans_decision": 1,
+      "v": {
+        "ko": 8,
+        "soumission": 5,
+        "decision": 7,
+        "autre": 0
+      },
+      "d": {
+        "ko": 3,
+        "soumission": 1,
+        "decision": 1,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2014": 1,
+      "2015": 2,
+      "2016": 2,
+      "2017": 2,
+      "2018": 1,
+      "2019": 2,
+      "2021": 1,
+      "2022": 1,
+      "2023": 2,
+      "2024": 1,
+      "2025": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Patrício Pitbull",
+      "evenement": "UFC 314",
+      "date": "April 12, 2025",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 16,
+    "victoires_ufc": 11,
+    "defaites_ufc": 4,
+    "victoires_decision_5_rounds": 2,
+    "combats_5_rounds_gagnes": 3,
+    "bonus_fotn": 5,
+    "bonus_potn": 4,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Max Holloway",
+        "evenement": "UFC Fight Night: Holloway vs. Rodríguez",
+        "date": "November 13, 2021"
+      },
+      {
+        "adversaire": "Jeremy Stephens",
+        "evenement": "UFC on ESPN: Reyes vs. Weidman",
+        "date": "October 18, 2019"
+      },
+      {
+        "adversaire": "Jung Chan-sung",
+        "evenement": "UFC Fight Night: The Korean Zombie vs. Rodríguez",
+        "date": "November 10, 2018"
+      },
+      {
+        "adversaire": "Alex Caceres",
+        "evenement": "UFC Fight Night: Rodríguez vs. Caceres",
+        "date": "August 6, 2016"
+      },
+      {
+        "adversaire": "Charles Rosa",
+        "evenement": "UFC 188",
+        "date": "June 13, 2015"
+      }
+    ],
+    "titres": [
+      {
+        "action": "won",
+        "interim": true,
+        "titre": "UFC Featherweight Championship",
+        "evenement": "UFC 284",
+        "date": "February 12, 2023"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "triangle choke",
+      "finitions": 2
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Leonardo Morales",
+      "evenement": "UFC 180",
+      "date": "November 15, 2014",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "UFC Interim Featherweight Champion (One time)",
+    "The Ultimate Fighter: Latin America Tournament Winner",
+    "Fight of the Night (Five times) vs. Charles Rosa , Alex Caceres , Chan Sung Jung , Jeremy Stephens and Max Holloway",
+    "Tied ( Jung Chan-sung ) for third most post-fight bonuses in UFC Featherweight division history (9)",
+    "Latest knockout in UFC history (4:59 in Round 5) vs. Chan Sung Jung",
+    "UFC Honors Awards 2021: President's Choice Fight of the Year Nominee vs. Max Holloway",
+    "2021: President's Choice Fight of the Year Nominee vs. Max Holloway",
+    "2015: Ranked #7 Fight of the Year vs. Charles Rosa",
+    "2016: Ranked #4 Knockout of the Year vs. Andre Fili",
+    "2018: Knockout of the Year  & Ranked #3 Fight of the Year vs. Jung Chan-sung",
+    "2019: Ranked #10 Fight of the Year vs. Jeremy Stephens 2",
+    "2021: Ranked #3 Fight of the Year vs. Max Holloway",
+    "2023: Ranked #7 Submission of the Year vs. Josh Emmett",
+    "Mexican Fighters Promotions FMP Featherweight Championship (One time)",
+    "FMP Featherweight Championship (One time)",
+    "ESPN 2018 Knockout of the Year vs. Jung Chan-sung at UFC Fight Night: The Korean Zombie vs. Rodríguez",
+    "2018 Knockout of the Year vs. Jung Chan-sung at UFC Fight Night: The Korean Zombie vs. Rodríguez",
+    "Sherdog 2018 Knockout of the Year vs. Jung Chan-sung",
+    "2018 Knockout of the Year vs. Jung Chan-sung",
+    "MMA Fighting 2018 Knockout of the Year vs. Jung Chan-sung",
+    "2018 Knockout of the Year vs. Jung Chan-sung",
+    "MMA Junkie 2016 #3 Ranked Knockout of the Year vs. Andre Fili at UFC 197  2018 Knockout of the Year vs. Jung Chan-sung  2019 October Fight of the Month vs. Jeremy Stephens",
+    "2016 #3 Ranked Knockout of the Year vs. Andre Fili at UFC 197",
+    "2018 Knockout of the Year vs. Jung Chan-sung",
+    "2019 October Fight of the Month vs. Jeremy Stephens",
+    "Combat Press 2018 Knockout of the Year vs. Jung Chan-sung",
+    "2018 Knockout of the Year vs. Jung Chan-sung",
+    "Cageside Press 2018 Knockout of the Year vs. Jung Chan-sung at UFC Fight Night 139",
+    "2018 Knockout of the Year vs. Jung Chan-sung at UFC Fight Night 139",
+    "MMADNA.nl 2018 Knockout of the Year vs. Jung Chan-sung",
+    "2018 Knockout of the Year vs. Jung Chan-sung",
+    "Bleacher Report 2018 Fight of the Year vs. Jung Chan-sung at UFC Fight Night 139  2018 Knockout of the Year vs. Jung Chan-sung at UFC Fight Night 139",
+    "2018 Fight of the Year vs. Jung Chan-sung at UFC Fight Night 139",
+    "2018 Knockout of the Year vs. Jung Chan-sung at UFC Fight Night 139",
+    "CBS Sports 2018 #3 Ranked UFC Fight of the Year vs. Jung Chan-sung  2018 UFC Knockout of the Year vs. Jung Chan-sung",
+    "2018 #3 Ranked UFC Fight of the Year vs. Jung Chan-sung",
+    "2018 UFC Knockout of the Year vs. Jung Chan-sung",
+    "MMA Sucka 2018 Knockout of the Year vs. Jung Chan-sung at UFC Fight Night: The Korean Zombie vs. Rodríguez",
+    "2018 Knockout of the Year vs. Jung Chan-sung at UFC Fight Night: The Korean Zombie vs. Rodríguez"
+  ],
+  "image_commons": "Carrera con Yair \"Pantera\" Rodríguez -i---i- (30657689682) cropped.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Yair_Rodríguez",
+    "wikidata": "https://www.wikidata.org/wiki/Q19668247",
+    "ufc_com": "https://www.ufc.com/athlete/yair-rodriguez"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 20-5, wikipedia_infobox 20-5, ufc_com 21-5"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 64,
+    "puissance": 58,
+    "lutte": 47,
+    "soumission": 57,
+    "defense": 62,
+    "cardio": 80,
+    "menton": 65,
+    "globale": 62,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

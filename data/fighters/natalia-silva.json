@@ -1,0 +1,155 @@
+{
+  "id": "natalia-silva",
+  "nom": "Natália Silva",
+  "ufc_slug": "natalia-silva",
+  "wikipedia_titre": "Natália Silva (fighter)",
+  "surnom": null,
+  "sexe": "F",
+  "pays": "BR",
+  "categorie": "mouche_f",
+  "statut": "actif",
+  "date_naissance": "1997-02-03",
+  "taille_cm": 163,
+  "allonge_cm": 165,
+  "style": "Taekwondo",
+  "lieu_naissance": "Timóteo, Brésil",
+  "palmares": {
+    "victoires": 21,
+    "defaites": 5,
+    "nuls": 1,
+    "sans_decision": 0,
+    "victoires_ko": 5,
+    "victoires_soumission": 7,
+    "victoires_decision": 8,
+    "defaites_ko": 1,
+    "defaites_soumission": 2,
+    "defaites_decision": 2
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.81,
+    "precision_frappe_pct": 45,
+    "frappes_encaissees_par_min": 2.36,
+    "defense_frappe_pct": 66.0,
+    "takedowns_par_15min": 0.43,
+    "precision_takedown_pct": 20,
+    "defense_takedown_pct": 90.0,
+    "soumissions_par_15min": 0.0,
+    "knockdowns_par_15min": 0.29,
+    "duree_moyenne_combat_s": 783,
+    "frappes_reussies": 502.0,
+    "takedowns_reussis": 2.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 21,
+      "defaites": 5,
+      "nuls": 1,
+      "sans_decision": 0,
+      "v": {
+        "ko": 5,
+        "soumission": 7,
+        "decision": 8,
+        "autre": 1
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 2,
+        "decision": 2,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2022": 2,
+      "2023": 2,
+      "2024": 2,
+      "2025": 1,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Wang Cong",
+      "evenement": "UFC 332",
+      "date": "October 3, 2026",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 9,
+    "victoires_ufc": 9,
+    "defaites_ufc": 0,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 2,
+    "bonus_fotn": 1,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Jéssica Andrade",
+        "evenement": "UFC Fight Night: Burns vs. Brady",
+        "date": "September 7, 2024"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "armbar",
+      "finitions": 6
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Jasmine Jasudavicius",
+      "evenement": "UFC on ESPN: Kattar vs. Emmett",
+      "date": "June 18, 2022",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "UFC Women's Flyweight Championship (One time, current)",
+    "Fight of the Night (One time) vs. Jéssica Andrade",
+    "Performance of the Night (One time) vs. Tereza Bledá",
+    "Second longest win streak in UFC Women's Flyweight division history (9) (behind Valentina Shevchenko )",
+    "Highest striking differential in UFC Women's Flyweight division history (2.45)",
+    "Highest takedown defense percentage in UFC Women's Flyweight division history (90.3%)",
+    "Third most knockdowns-per-fifteen minutes in UFC Women's Flyweight division history (0.29)",
+    "Fifth highest significant strike defense percentage in UFC Women's Flyweight division history (66.3%)",
+    "Fifth lowest strikes absorbed-per-minute in UFC Women's Flyweight division history (2.36)",
+    "Holds wins over three former UFC champions — Jéssica Andrade , Alexa Grasso & Rose Namajunas",
+    "UFC.com Awards 2022: Ranked #7 Newcomer of the Year",
+    "2022: Ranked #7 Newcomer of the Year",
+    "Jungle Fight Jungle Fight Women's Flyweight Championship (One time) One successful title defense",
+    "Jungle Fight Women's Flyweight Championship (One time) One successful title defense",
+    "One successful title defense"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Natália_Silva_(fighter)",
+    "wikidata": "https://www.wikidata.org/wiki/Q121898011",
+    "ufc_com": "https://www.ufc.com/athlete/natalia-silva"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 21-5, wikipedia_infobox 21-5, ufc_com 20-5"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 63,
+    "puissance": 50,
+    "lutte": 57,
+    "soumission": 53,
+    "defense": 82,
+    "cardio": 71,
+    "menton": 88,
+    "globale": 66,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

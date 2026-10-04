@@ -1,0 +1,251 @@
+{
+  "id": "alexander-volkanovski",
+  "nom": "Alexander Volkanovski",
+  "ufc_slug": "alexander-volkanovski",
+  "wikipedia_titre": "Alexander Volkanovski",
+  "surnom": "The Great",
+  "surnom_wikipedia": "The Hulk (formerly) The Great",
+  "sexe": "M",
+  "pays": "AU",
+  "categorie": "plume",
+  "statut": "actif",
+  "date_naissance": "1988-09-29",
+  "taille_cm": 168,
+  "allonge_cm": 182,
+  "style": null,
+  "lieu_naissance": "Wollongong, Australie",
+  "palmares": {
+    "victoires": 28,
+    "defaites": 4,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 13,
+    "victoires_soumission": 3,
+    "victoires_decision": 12,
+    "defaites_ko": 3,
+    "defaites_soumission": 0,
+    "defaites_decision": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": 5.99,
+    "precision_frappe_pct": 57,
+    "frappes_encaissees_par_min": 3.31,
+    "defense_frappe_pct": 59.0,
+    "takedowns_par_15min": 1.63,
+    "precision_takedown_pct": 16,
+    "defense_takedown_pct": 69.0,
+    "soumissions_par_15min": 0.2,
+    "knockdowns_par_15min": 0.3,
+    "duree_moyenne_combat_s": 1010,
+    "frappes_reussies": 1815.0,
+    "takedowns_reussis": 16.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 28,
+      "defaites": 4,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 13,
+        "soumission": 3,
+        "decision": 12,
+        "autre": 0
+      },
+      "d": {
+        "ko": 3,
+        "soumission": 0,
+        "decision": 1,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2016": 1,
+      "2017": 2,
+      "2018": 3,
+      "2019": 2,
+      "2020": 1,
+      "2021": 1,
+      "2022": 2,
+      "2023": 3,
+      "2024": 1,
+      "2025": 1,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Diego Lopes",
+      "evenement": "UFC 325",
+      "date": "1 February 2026",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 18,
+    "victoires_ufc": 15,
+    "defaites_ufc": 3,
+    "victoires_decision_5_rounds": 6,
+    "combats_5_rounds_gagnes": 9,
+    "bonus_fotn": 5,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Diego Lopes",
+        "evenement": "UFC 325",
+        "date": "1 February 2026"
+      },
+      {
+        "adversaire": "Diego Lopes",
+        "evenement": "UFC 314",
+        "date": "12 April 2025"
+      },
+      {
+        "adversaire": "Islam Makhachev",
+        "evenement": "UFC 284",
+        "date": "12 February 2023"
+      },
+      {
+        "adversaire": "Brian Ortega",
+        "evenement": "UFC 266",
+        "date": "25 September 2021"
+      },
+      {
+        "adversaire": "Chad Mendes",
+        "evenement": "UFC 232",
+        "date": "29 December 2018"
+      }
+    ],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Featherweight Championship",
+        "evenement": "UFC 325",
+        "date": "1 February 2026"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Featherweight Championship",
+        "evenement": "UFC 276",
+        "date": "2 July 2022"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Featherweight Championship",
+        "evenement": "UFC 273",
+        "date": "9 April 2022"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Featherweight Championship",
+        "evenement": "UFC 266",
+        "date": "25 September 2021"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Featherweight Championship",
+        "evenement": "UFC 251",
+        "date": "12 July 2020"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Featherweight Championship",
+        "evenement": "UFC 245",
+        "date": "14 December 2019"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 13
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Yusuke Kasuya",
+      "evenement": "UFC Fight Night: Whittaker vs. Brunson",
+      "date": "26 November 2016",
+      "resultat": "Win",
+      "methode": "TKO (punches)"
+    }
+  },
+  "champion_actuel": true,
+  "champion_division": "Poids plume",
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "Five successful title defenses (first reign)",
+    "One successful title defense (second reign)",
+    "Tied ( José Aldo ) for most title fight wins in UFC Featherweight division history (8)",
+    "First Australian-born fighter to win a UFC championship",
+    "Oldest fighter in history to win the UFC Featherweight Championship (36 years, 195 days)",
+    "Oldest fighter in history to defend the UFC Featherweight Championship (37 years, 125 days)",
+    "Fight of the Night (Five times) vs. Chad Mendes , Brian Ortega , Islam Makhachev 1 and Diego Lopes (x2)",
+    "Performance of the Night (One time) vs. Chan Sung Jung",
+    "Second longest win streak in UFC Featherweight division history (11) (behind Max Holloway )",
+    "Second highest striking differential in UFC Featherweight division history (2.86)",
+    "Longest average fight time in UFC Featherweight division history (18:03)",
+    "Second most significant strikes landed in UFC Featherweight division history (1623)",
+    "Fourth most total strikes landed in UFC Featherweight division history (1838)",
+    "Fourth lowest bottom position percentage in UFC Featherweight division history (1.08%)",
+    "Sixth highest significant strike accuracy percentage in UFC Featherweight division history (57.2%)",
+    "Sixth most strikes landed per minute in UFC Featherweight division history (6.42)",
+    "Tied ( Andre Fili ) for fourth most wins in UFC Featherweight division history (13)",
+    "Tied ( Andre Fili , Max Holloway & Movsar Evloev ) for second most decision wins in UFC Featherweight division history (9)",
+    "Fifth most total fight time in UFC Featherweight division history (4:12:47)",
+    "Most leg kicks landed in a fight in UFC Featherweight division history (75 vs Max Holloway 1)  Second most leg kicks landed in a fight in UFC Featherweight division history (67 vs Max Holloway 2)",
+    "Second most leg kicks landed in a fight in UFC Featherweight division history (67 vs Max Holloway 2)",
+    "Second most total leg strikes landed in a fight in UFC Featherweight division history (75 vs Max Holloway 1)",
+    "Third most total leg strikes landed in a fight in UFC Featherweight division history (67 vs Max Holloway 2)",
+    "UFC Men's Pound-For-Pound No. 1 in 2022 & 2023",
+    "UFC Honors Awards 2021: President's Choice Fight of the Year Nominee vs. Brian Ortega  2023: President's Choice Fight of the Year Winner vs. Islam Makhachev 1",
+    "2021: President's Choice Fight of the Year Nominee vs. Brian Ortega",
+    "2023: President's Choice Fight of the Year Winner vs. Islam Makhachev 1",
+    "UFC.com Awards 2019: Top 10 Fighter of the Year  2021: Ranked #2 Fight of the Year vs. Brian Ortega  2022: Fighter of the Year  2023: Fight of the Year vs. Islam Makhachev 1",
+    "2019: Top 10 Fighter of the Year",
+    "2021: Ranked #2 Fight of the Year vs. Brian Ortega",
+    "2022: Fighter of the Year",
+    "2023: Fight of the Year vs. Islam Makhachev 1",
+    "Crypto.com Fan Bonus of the Night vs. Chan Sung Jung",
+    "Fan Bonus of the Night vs. Chan Sung Jung",
+    "Australian Fighting Championship Australian Fighting Championship Featherweight Champion (one time; former) One successful title defense",
+    "Australian Fighting Championship Featherweight Champion (one time; former) One successful title defense",
+    "One successful title defense",
+    "Cage Conquest Cage Conquest Welterweight Champion",
+    "Cage Conquest Welterweight Champion",
+    "Pacific Xtreme Combat PXC Featherweight Champion"
+  ],
+  "image_commons": "Alexander Volkanovski at UFC 232.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Alexander_Volkanovski",
+    "wikidata": "https://www.wikidata.org/wiki/Q30123133",
+    "ufc_com": "https://www.ufc.com/athlete/alexander-volkanovski"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "champion_actuel": "ufc_com_rankings",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 81,
+    "puissance": 61,
+    "lutte": 54,
+    "soumission": 43,
+    "defense": 71,
+    "cardio": 94,
+    "menton": 69,
+    "globale": 68,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

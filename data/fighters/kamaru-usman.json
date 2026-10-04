@@ -1,0 +1,239 @@
+{
+  "id": "kamaru-usman",
+  "nom": "Kamaru Usman",
+  "ufc_slug": "kamaru-usman",
+  "wikipedia_titre": "Kamaru Usman",
+  "surnom": "Nigerian Nightmare",
+  "surnom_wikipedia": "The Nigerian Nightmare",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "moyens",
+  "statut": "actif",
+  "date_naissance": "1987-05-11",
+  "taille_cm": 183,
+  "allonge_cm": 193,
+  "style": "Style libre",
+  "lieu_naissance": "Auchi, Nigeria",
+  "palmares": {
+    "victoires": 21,
+    "defaites": 5,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 9,
+    "victoires_soumission": 1,
+    "victoires_decision": 11,
+    "defaites_ko": 1,
+    "defaites_soumission": 1,
+    "defaites_decision": 3
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.13,
+    "precision_frappe_pct": 51,
+    "frappes_encaissees_par_min": 2.86,
+    "defense_frappe_pct": 55.0,
+    "takedowns_par_15min": 2.6,
+    "precision_takedown_pct": 19,
+    "defense_takedown_pct": 90.0,
+    "soumissions_par_15min": 0.08,
+    "knockdowns_par_15min": 0.41,
+    "duree_moyenne_combat_s": 1092,
+    "frappes_reussies": 1503.0,
+    "takedowns_reussis": 28.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 21,
+      "defaites": 5,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 9,
+        "soumission": 1,
+        "decision": 11,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 1,
+        "decision": 3,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2015": 2,
+      "2016": 2,
+      "2017": 2,
+      "2018": 3,
+      "2019": 2,
+      "2020": 1,
+      "2021": 3,
+      "2022": 1,
+      "2023": 2,
+      "2025": 1,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Dricus du Plessis",
+      "evenement": "UFC Fight Night: du Plessis vs. Usman",
+      "date": "July 18, 2026",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 20,
+    "victoires_ufc": 16,
+    "defaites_ufc": 4,
+    "victoires_decision_5_rounds": 6,
+    "combats_5_rounds_gagnes": 7,
+    "bonus_fotn": 3,
+    "bonus_potn": 4,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Dricus du Plessis",
+        "evenement": "UFC Fight Night: du Plessis vs. Usman",
+        "date": "July 18, 2026"
+      },
+      {
+        "adversaire": "Joaquin Buckley",
+        "evenement": "UFC on ESPN: Usman vs. Buckley",
+        "date": "June 14, 2025"
+      },
+      {
+        "adversaire": "Colby Covington",
+        "evenement": "UFC 245",
+        "date": "December 14, 2019"
+      }
+    ],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Welterweight Championship",
+        "evenement": "UFC 268",
+        "date": "November 6, 2021"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Welterweight Championship",
+        "evenement": "UFC 261",
+        "date": "April 24, 2021"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Welterweight Championship",
+        "evenement": "UFC 258",
+        "date": "February 13, 2021"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Welterweight Championship",
+        "evenement": "UFC 251",
+        "date": "July 12, 2020"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Welterweight Championship",
+        "evenement": "UFC 245",
+        "date": "December 14, 2019"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Welterweight Championship",
+        "evenement": "UFC 235",
+        "date": "March 2, 2019"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 9
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Hayder Hassan",
+      "evenement": "The Ultimate Fighter: American Top Team vs. Blackzilians Finale",
+      "date": "July 12, 2015",
+      "resultat": "Win",
+      "methode": "Submission (arm-triangle choke)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "National Collegiate Athletic Association NCAA Division II National Championship (174 lbs, 2010)  NCAA Division II All-American (174 lbs, 2008, 2009, 2010)",
+    "NCAA Division II National Championship (174 lbs, 2010)",
+    "NCAA Division II All-American (174 lbs, 2008, 2009, 2010)",
+    "National Association of Intercollegiate Athletics NAIA National Qualifier (165 lbs, 2007)",
+    "NAIA National Qualifier (165 lbs, 2007)",
+    "University Interscholastic League UIL All-State out of Bowie High School (145 lbs, 2005)",
+    "UIL All-State out of Bowie High School (145 lbs, 2005)",
+    "National Wrestling Coaches Association Jim Koch Division II Hall of Fame, 2022 Class",
+    "Jim Koch Division II Hall of Fame, 2022 Class",
+    "Five successful title defenses",
+    "Third most title fight wins in UFC Welterweight division history (6)",
+    "Latest knockout in UFC title fight history vs. Colby Covington",
+    "First Nigerian-born UFC champion",
+    "The Ultimate Fighter 21 tournament winner",
+    "Fight of the Night (Three times) vs. Colby Covington 1, Joaquin Buckley and Dricus du Plessis",
+    "Performance of the Night (Four times) vs. Hayder Hassan , Rafael dos Anjos , Gilbert Burns , and Jorge Masvidal 2",
+    "Latest finish in UFC Welterweight history vs. Colby Covington",
+    "Most consecutive wins in UFC Welterweight history (15)  Third most consecutive wins in UFC History (15)",
+    "Third most consecutive wins in UFC History (15)",
+    "Tied ( Rafael dos Anjos , Brad Tavares & Belal Muhammad ) for second most unanimous decision wins in UFC history (11)",
+    "Fourth most decision wins in UFC Welterweight division history (11)",
+    "Tied ( Vicente Luque ) for fourth most wins in UFC Welterweight division history (16)",
+    "Second most total strikes landed in a UFC title fight (336 vs. Tyron Woodley )",
+    "Third most significant strikes landed in UFC Welterweight division history (1375)",
+    "Third most total strikes landed in UFC Welterweight division history (2506)",
+    "Longest average fight time in UFC Welterweight division history (18:00)",
+    "Fourth most total fight time in UFC Welterweight division history (5:23:57)",
+    "Second longest control time in UFC Welterweight division history (2:26:48) (behind Georges St-Pierre )  Fifth most control time in UFC history (2:13:51)",
+    "Fifth most control time in UFC history (2:13:51)",
+    "Fourth most top-position time in UFC Welterweight division history (1:37:26)",
+    "Fourth most takedowns landed in UFC Welterweight division history (63)",
+    "Highest takedown defense percentage in UFC Welterweight division history (97.3%)",
+    "Holds wins over five former UFC champions (4 undisputed) — vs. Leon Edwards , Sean Strickland , Rafael dos Anjos , Tyron Woodley and Colby Covington (interim) (x2)",
+    "UFC Honors Awards 2021: Fan's Choice Knockout of the Year Winner vs. Jorge Masvidal 2  & President's Choice Performance of the Year Nominee vs. Jorge Masvidal 2",
+    "2021: Fan's Choice Knockout of the Year Winner vs. Jorge Masvidal 2  & President's Choice Performance of the Year Nominee vs. Jorge Masvidal 2",
+    "2015: Ranked #6 Newcomer of the Year",
+    "2018: Ranked #10 Fighter of the Year (Tied with Corey Anderson & Thiago Santos )",
+    "2019: Top 10 Fighter of the Year ,  Ranked #2 Fight of the Year vs. Colby Covington 1  & Ranked #8 Upset of the Year vs. Tyron Woodley",
+    "2021: Fighter of the Year  & Knockout of the Year vs. Jorge Masvidal 2",
+    "MMA Junkie 2019 December Fight of the Month vs. Colby Covington  2021 Male Fighter of the Year  2021 February Fight of the Month vs. Gilbert Burns  2021 April Knockout of the Month vs. Jorge Masvidal"
+  ],
+  "image_commons": "KamaruUsmanPress2018.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Kamaru_Usman",
+    "wikidata": "https://www.wikidata.org/wiki/Q21290332",
+    "ufc_com": "https://www.ufc.com/athlete/kamaru-usman"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 65,
+    "puissance": 60,
+    "lutte": 66,
+    "soumission": 38,
+    "defense": 70,
+    "cardio": 95,
+    "menton": 88,
+    "globale": 69,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

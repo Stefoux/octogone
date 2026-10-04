@@ -1,0 +1,182 @@
+{
+  "id": "diego-lopes",
+  "nom": "Diego Lopes",
+  "ufc_slug": "diego-lopes",
+  "wikipedia_titre": "Diego Lopes (fighter)",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "BR",
+  "categorie": "plume",
+  "statut": "actif",
+  "date_naissance": "1994-12-30",
+  "taille_cm": 180,
+  "allonge_cm": 184,
+  "style": "Jiu-Jitsu",
+  "lieu_naissance": "Manaus, Brésil",
+  "palmares": {
+    "victoires": 28,
+    "defaites": 8,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 12,
+    "victoires_soumission": 12,
+    "victoires_decision": 4,
+    "defaites_ko": 2,
+    "defaites_soumission": 0,
+    "defaites_decision": 5
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.79,
+    "precision_frappe_pct": 47,
+    "frappes_encaissees_par_min": 4.65,
+    "defense_frappe_pct": 47.0,
+    "takedowns_par_15min": 0.82,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 69.0,
+    "soumissions_par_15min": 1.3,
+    "knockdowns_par_15min": 0.71,
+    "duree_moyenne_combat_s": 694,
+    "frappes_reussies": 482.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 28,
+      "defaites": 8,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 12,
+        "soumission": 12,
+        "decision": 4,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 0,
+        "decision": 5,
+        "autre": 1
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2021": 1,
+      "2023": 3,
+      "2024": 3,
+      "2025": 2,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Steve Garcia",
+      "evenement": "UFC Freedom 250",
+      "date": "14 June 2026",
+      "resultat": "Win",
+      "methode": "KO (punches)"
+    },
+    "combats_ufc": 11,
+    "victoires_ufc": 7,
+    "defaites_ufc": 4,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 4,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Alexander Volkanovski",
+        "evenement": "UFC 325",
+        "date": "1 February 2026"
+      },
+      {
+        "adversaire": "Jean Silva",
+        "evenement": "UFC Fight Night: Lopes vs. Silva",
+        "date": "13 September 2025"
+      },
+      {
+        "adversaire": "Alexander Volkanovski",
+        "evenement": "UFC 314",
+        "date": "12 April 2025"
+      },
+      {
+        "adversaire": "Movsar Evloev",
+        "evenement": "UFC 288",
+        "date": "6 May 2023"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 11
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Joanderson Brito",
+      "evenement": "Dana White's Contender Series 37",
+      "date": "31 August 2021",
+      "resultat": "Loss",
+      "methode": "Technical Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Fight of the Night (Four times) vs. Movsar Evloev , Alexander Volkanovski (x2) and Jean Silva",
+    "Performance of the Night (Three times) vs. Gavin Tucker , Pat Sabatini and Jean Silva    Sixth most Post-Fight bonuses in UFC Featherweight division history (7)",
+    "Sixth most Post-Fight bonuses in UFC Featherweight division history (7)",
+    "UFC Honors Awards 2025: President's Choice Fight of the Year Nominee vs. Jean Silva",
+    "2025: President's Choice Fight of the Year Nominee vs. Jean Silva",
+    "UFC.com Awards 2023: Newcomer of the Year  & Ranked #8 Submission of the Year vs. Gavin Tucker  2024: Ranked #4 Fighter of the Year",
+    "2023: Newcomer of the Year  & Ranked #8 Submission of the Year vs. Gavin Tucker",
+    "2024: Ranked #4 Fighter of the Year",
+    "LUX Fight League LUX Featherweight Championship (one time)",
+    "LUX Featherweight Championship (one time)",
+    "Jasaji Fighting League JFL Featherweight Championship (one time)",
+    "JFL Featherweight Championship (one time)",
+    "Xtreme Fighters Latino XFL Featherweight Championship (one time)",
+    "XFL Featherweight Championship (one time)",
+    "World MMA Awards 2024 Submission of the Year vs. Gavin Tucker at UFC on ESPN: Sandhagen vs. Font",
+    "2024 Submission of the Year vs. Gavin Tucker at UFC on ESPN: Sandhagen vs. Font",
+    "ESPN 2024 Breakout Fighter of the Year",
+    "2024 Breakout Fighter of the Year",
+    "MMA Junkie 2023 Newcomer of the Year",
+    "2023 Newcomer of the Year",
+    "Cageside Press 2023 Newcomer of the Year",
+    "2023 Newcomer of the Year",
+    "MMA Fighting 2023 First Team MMA All-Star  2024 Second Team MMA All-Star",
+    "2023 First Team MMA All-Star",
+    "2024 Second Team MMA All-Star",
+    "BodySlam.net 2024 Breakout Fighter of the Year",
+    "2024 Breakout Fighter of the Year",
+    "MMA Mania 2025 #2 Ranked Fight of the Year vs. Jean Silva at UFC Fight Night: Lopes vs. Silva",
+    "2025 #2 Ranked Fight of the Year vs. Jean Silva at UFC Fight Night: Lopes vs. Silva"
+  ],
+  "image_commons": "Diego Lopes 2025.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Diego_Lopes_(fighter)",
+    "wikidata": "https://www.wikidata.org/wiki/Q124217612",
+    "ufc_com": "https://www.ufc.com/athlete/diego-lopes"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 60,
+    "puissance": 65,
+    "lutte": 51,
+    "soumission": 74,
+    "defense": 52,
+    "cardio": 67,
+    "menton": 80,
+    "globale": 64,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

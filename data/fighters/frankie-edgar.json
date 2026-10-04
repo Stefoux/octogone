@@ -1,0 +1,244 @@
+{
+  "id": "frankie-edgar",
+  "nom": "Frankie Edgar",
+  "ufc_slug": "frankie-edgar",
+  "wikipedia_titre": "Frankie Edgar",
+  "surnom": "The Answer",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "coq",
+  "statut": "retraite",
+  "date_naissance": "1981-10-16",
+  "taille_cm": 168,
+  "allonge_cm": 173,
+  "style": "Freestyle",
+  "lieu_naissance": "Toms River, United States",
+  "palmares": {
+    "victoires": 24,
+    "defaites": 11,
+    "nuls": 1,
+    "sans_decision": 0,
+    "victoires_ko": 7,
+    "victoires_soumission": 4,
+    "victoires_decision": 13,
+    "defaites_ko": 5,
+    "defaites_soumission": 0,
+    "defaites_decision": 6
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.77,
+    "precision_frappe_pct": 40,
+    "frappes_encaissees_par_min": 2.82,
+    "defense_frappe_pct": 66.0,
+    "takedowns_par_15min": 2.29,
+    "precision_takedown_pct": 29,
+    "defense_takedown_pct": 66.0,
+    "soumissions_par_15min": 0.31,
+    "knockdowns_par_15min": 0.09,
+    "duree_moyenne_combat_s": 954,
+    "frappes_reussies": 1801.0,
+    "takedowns_reussis": 67.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 24,
+      "defaites": 11,
+      "nuls": 1,
+      "sans_decision": 0,
+      "v": {
+        "ko": 7,
+        "soumission": 4,
+        "decision": 13,
+        "autre": 0
+      },
+      "d": {
+        "ko": 5,
+        "soumission": 0,
+        "decision": 6,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2007": 3,
+      "2008": 2,
+      "2009": 2,
+      "2010": 2,
+      "2011": 2,
+      "2012": 2,
+      "2013": 2,
+      "2014": 2,
+      "2015": 2,
+      "2016": 2,
+      "2017": 1,
+      "2018": 2,
+      "2019": 2,
+      "2020": 1,
+      "2021": 2,
+      "2022": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Chris Gutiérrez",
+      "evenement": "UFC 281",
+      "date": "November 12, 2022",
+      "resultat": "Loss",
+      "methode": "KO (knee)"
+    },
+    "combats_ufc": 30,
+    "victoires_ufc": 18,
+    "defaites_ufc": 11,
+    "victoires_decision_5_rounds": 4,
+    "combats_5_rounds_gagnes": 6,
+    "bonus_fotn": 8,
+    "bonus_potn": 2,
+    "bonus_kotn": 1,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Pedro Munhoz",
+        "evenement": "UFC on ESPN: Munhoz vs. Edgar",
+        "date": "August 22, 2020"
+      },
+      {
+        "adversaire": "Charles Oliveira",
+        "evenement": "UFC 162",
+        "date": "July 6, 2013"
+      },
+      {
+        "adversaire": "José Aldo",
+        "evenement": "UFC 156",
+        "date": "February 2, 2013"
+      },
+      {
+        "adversaire": "Benson Henderson",
+        "evenement": "UFC 144",
+        "date": "February 26, 2012"
+      },
+      {
+        "adversaire": "Gray Maynard",
+        "evenement": "UFC 125",
+        "date": "January 1, 2011"
+      },
+      {
+        "adversaire": "Matt Veach",
+        "evenement": "The Ultimate Fighter: Heavyweights Finale",
+        "date": "December 5, 2009"
+      },
+      {
+        "adversaire": "Hermes França",
+        "evenement": "UFC Fight Night: Silva vs. Irvin",
+        "date": "July 19, 2008"
+      },
+      {
+        "adversaire": "Tyson Griffin",
+        "evenement": "UFC 67",
+        "date": "February 3, 2007"
+      }
+    ],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Lightweight Championship",
+        "evenement": "UFC 136",
+        "date": "October 8, 2011"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Lightweight Championship",
+        "evenement": "UFC 118",
+        "date": "August 28, 2010"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Lightweight Championship",
+        "evenement": "UFC 112",
+        "date": "April 10, 2010"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 7
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Tyson Griffin",
+      "evenement": "UFC 67",
+      "date": "February 3, 2007",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "UFC Hall of Fame ( Modern Wing , Class of 2024)",
+    "Three successful title defenses",
+    "Tied ( B.J. Penn , Benson Henderson & Khabib Nurmagomedov ) for the second most consecutive UFC lightweight title defenses (3) (behind Islam Makhachev )",
+    "Tied ( Nate Diaz & Cub Swanson ) for fourth most Fight of the Night bonuses in UFC history (8)",
+    "Knockout of the Night (One time) vs. Gray Maynard 3",
+    "Performance of the Night (Two times) vs. Cub Swanson 1 and Chad Mendes",
+    "Third longest total fight time in UFC history (7:57:10)",
+    "Tied for sixth most unanimous decision wins in UFC history (10)",
+    "2007: Ranked No. 4 Fighter of the Year  & Ranked No. 2 Fight of the Year vs. Tyson Griffin",
+    "2010: Fighter of the Year  & Upset of the Year vs. B.J. Penn 1",
+    "2012: Ranked No. 4 Fight of the Year vs. Benson Henderson 1",
+    "2015: Ranked No. 5 Knockout of the Year vs. Chad Mendes",
+    "2020: Ranked No. 8 Fight of the Year vs. Pedro Munhoz",
+    "Reality Fighting Reality Fighting Lightweight Championship (One time) One successful title defense",
+    "Reality Fighting Lightweight Championship (One time) One successful title defense",
+    "One successful title defense",
+    "Sherdog Fight of the Year (2011) vs. Gray Maynard on January 1 2011 All-Violence Second Team  2014 All-Violence First Team  2017 Beatdown of the Year vs. Yair Rodríguez",
+    "Fight of the Year (2011) vs. Gray Maynard on January 1",
+    "2011 All-Violence Second Team",
+    "2014 All-Violence First Team",
+    "2017 Beatdown of the Year vs. Yair Rodríguez",
+    "World MMA Awards 2011 Fight of the Year vs. Gray Maynard at UFC 125",
+    "2011 Fight of the Year vs. Gray Maynard at UFC 125",
+    "ESPN 2012 Fight of the Year vs. Benson Henderson at UFC 144",
+    "2012 Fight of the Year vs. Benson Henderson at UFC 144",
+    "MMA Fighting 2010 #2 Ranked Fighter of the Year",
+    "2010 #2 Ranked Fighter of the Year",
+    "Bloody Elbow 2010 Performance of the Year vs. B.J. Penn 2 at UFC 118",
+    "2010 Performance of the Year vs. B.J. Penn 2 at UFC 118",
+    "Bleacher Report 2012 #2 Ranked Fight of the Year vs. Benson Henderson",
+    "2012 #2 Ranked Fight of the Year vs. Benson Henderson",
+    "Inside MMA 2011 Comeback of the Year Bazzie Award vs. Gray Maynard",
+    "2011 Comeback of the Year Bazzie Award vs. Gray Maynard",
+    "FIGHT! Magazine 2007 Newcomer of the Year",
+    "2007 Newcomer of the Year"
+  ],
+  "image_commons": "Frankie Edgar.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Frankie_Edgar",
+    "wikidata": "https://www.wikidata.org/wiki/Q552182",
+    "ufc_com": "https://www.ufc.com/athlete/frankie-edgar"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 24-11, wikipedia_infobox 24-11, ufc_com 23-11"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 51,
+    "puissance": 47,
+    "lutte": 59,
+    "soumission": 47,
+    "defense": 82,
+    "cardio": 96,
+    "menton": 51,
+    "globale": 62,
+    "style": "lutteur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

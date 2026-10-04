@@ -1,0 +1,172 @@
+{
+  "id": "bryce-mitchell",
+  "nom": "Bryce Mitchell",
+  "ufc_slug": "bryce-mitchell",
+  "wikipedia_titre": "Bryce Mitchell",
+  "surnom": "Thug Nasty",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "coq",
+  "statut": "actif",
+  "date_naissance": "1994-10-04",
+  "taille_cm": 178,
+  "allonge_cm": 178,
+  "style": "AMM",
+  "lieu_naissance": "Texarkana, États-Unis",
+  "palmares": {
+    "victoires": 19,
+    "defaites": 3,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 1,
+    "victoires_soumission": 10,
+    "victoires_decision": 8,
+    "defaites_ko": 1,
+    "defaites_soumission": 2,
+    "defaites_decision": 0
+  },
+  "stats_ufc": {
+    "frappes_par_min": 2.19,
+    "precision_frappe_pct": 59,
+    "frappes_encaissees_par_min": 1.51,
+    "defense_frappe_pct": 59.0,
+    "takedowns_par_15min": 3.12,
+    "precision_takedown_pct": 3,
+    "defense_takedown_pct": 38.0,
+    "soumissions_par_15min": 1.27,
+    "knockdowns_par_15min": 0.1,
+    "duree_moyenne_combat_s": 710,
+    "frappes_reussies": 337.0,
+    "takedowns_reussis": 3.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 19,
+      "defaites": 3,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 1,
+        "soumission": 10,
+        "decision": 8,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 2,
+        "decision": 0,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2018": 1,
+      "2019": 2,
+      "2020": 2,
+      "2022": 2,
+      "2023": 2,
+      "2024": 1,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Santiago Luna",
+      "evenement": "UFC Fight Night: Muhammad vs. Bonfim",
+      "date": "June 6, 2026",
+      "resultat": "Win",
+      "methode": "Submission (arm-triangle choke)"
+    },
+    "combats_ufc": 13,
+    "victoires_ufc": 10,
+    "defaites_ufc": 3,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 1,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Bobby Moffett",
+        "evenement": "UFC Fight Night: Thompson vs. Pettis",
+        "date": "March 23, 2019"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "rear-naked choke",
+      "finitions": 5
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Tyler Diamond",
+      "evenement": "The Ultimate Fighter: Undefeated Finale",
+      "date": "July 6, 2018",
+      "resultat": "Win",
+      "methode": "Decision (majority)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Performance of the Night (One time) vs. Matt Sayles",
+    "Fight of the Night (One time) vs. Bobby Moffett",
+    "UFC Honors Awards 2019: Fan's Choice Submission of the Year Winner vs. Matt Sayles  & President's Choice Performance of the Year Nominee vs. Matt Sayles",
+    "2019: Fan's Choice Submission of the Year Winner vs. Matt Sayles  & President's Choice Performance of the Year Nominee vs. Matt Sayles",
+    "UFC.com Awards 2019: Submission of the Year vs. Matt Sayles",
+    "2019: Submission of the Year vs. Matt Sayles",
+    "V3 Fights V3 Featherweight Champion (one time)  One successful title defense",
+    "V3 Featherweight Champion (one time)",
+    "One successful title defense",
+    "ESPN 2019 Submission of the Year vs. Matt Sayles at UFC on ESPN: Overeem vs. Rozenstruik",
+    "2019 Submission of the Year vs. Matt Sayles at UFC on ESPN: Overeem vs. Rozenstruik",
+    "Bloody Elbow 2019 Submission of the Year vs. Matt Sayles at UFC on ESPN: Overeem vs. Rozenstruik",
+    "2019 Submission of the Year vs. Matt Sayles at UFC on ESPN: Overeem vs. Rozenstruik",
+    "Cageside Press 2019 Submission of the Year vs. Matt Sayles at UFC on ESPN: Overeem vs. Rozenstruik",
+    "2019 Submission of the Year vs. Matt Sayles at UFC on ESPN: Overeem vs. Rozenstruik",
+    "Combat Press 2019 Submission of the Year vs. Matt Sayles at UFC on ESPN: Overeem vs. Rozenstruik",
+    "2019 Submission of the Year vs. Matt Sayles at UFC on ESPN: Overeem vs. Rozenstruik",
+    "MMA Junkie 2019 December Submission of the Month vs. Matt Sayles at UFC on ESPN: Overeem vs. Rozenstruik  2019 Submission of the Year vs. Matt Sayles at UFC on ESPN: Overeem vs. Rozenstruik",
+    "2019 December Submission of the Month vs. Matt Sayles at UFC on ESPN: Overeem vs. Rozenstruik",
+    "2019 Submission of the Year vs. Matt Sayles at UFC on ESPN: Overeem vs. Rozenstruik",
+    "MMA Fighting 2019 Submission of the Year vs. Matt Sayles at UFC on ESPN: Overeem vs. Rozenstruik",
+    "2019 Submission of the Year vs. Matt Sayles at UFC on ESPN: Overeem vs. Rozenstruik",
+    "Sherdog 2019 Submission of the Year vs. Matt Sayles at UFC on ESPN: Overeem vs. Rozenstruik",
+    "2019 Submission of the Year vs. Matt Sayles at UFC on ESPN: Overeem vs. Rozenstruik",
+    "LowKick MMA 2019 Submission of the Year vs. Matt Sayles at UFC on ESPN: Overeem vs. Rozenstruik",
+    "2019 Submission of the Year vs. Matt Sayles at UFC on ESPN: Overeem vs. Rozenstruik",
+    "MMA Sucka 2019 Submission of the Year vs. Matt Sayles at UFC on ESPN: Overeem vs. Rozenstruik",
+    "2019 Submission of the Year vs. Matt Sayles at UFC on ESPN: Overeem vs. Rozenstruik"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Bryce_Mitchell",
+    "wikidata": "https://www.wikidata.org/wiki/Q47523144",
+    "ufc_com": "https://www.ufc.com/athlete/bryce-mitchell"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 19-3, wikipedia_infobox 19-3, ufc_com 19-4"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 62,
+    "puissance": 38,
+    "lutte": 50,
+    "soumission": 79,
+    "defense": 82,
+    "cardio": 60,
+    "menton": 87,
+    "globale": 65,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

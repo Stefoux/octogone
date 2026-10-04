@@ -1,0 +1,251 @@
+{
+  "id": "justin-gaethje",
+  "nom": "Justin Gaethje",
+  "ufc_slug": "justin-gaethje",
+  "wikipedia_titre": "Justin Gaethje",
+  "surnom": "The Highlight",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "legers",
+  "statut": "actif",
+  "date_naissance": "1988-11-14",
+  "taille_cm": 180,
+  "allonge_cm": 178,
+  "style": "AMM",
+  "lieu_naissance": "Tucson, États-Unis",
+  "palmares": {
+    "victoires": 28,
+    "defaites": 5,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 21,
+    "victoires_soumission": 1,
+    "victoires_decision": 6,
+    "defaites_ko": 3,
+    "defaites_soumission": 2,
+    "defaites_decision": 0
+  },
+  "stats_ufc": {
+    "frappes_par_min": 6.29,
+    "precision_frappe_pct": 58,
+    "frappes_encaissees_par_min": 6.83,
+    "defense_frappe_pct": 51.0,
+    "takedowns_par_15min": 0.3,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 73.0,
+    "soumissions_par_15min": 0.0,
+    "knockdowns_par_15min": 0.67,
+    "duree_moyenne_combat_s": 758,
+    "frappes_reussies": 1271.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 28,
+      "defaites": 5,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 21,
+        "soumission": 1,
+        "decision": 6,
+        "autre": 0
+      },
+      "d": {
+        "ko": 3,
+        "soumission": 2,
+        "decision": 0,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2017": 2,
+      "2018": 2,
+      "2019": 2,
+      "2020": 2,
+      "2021": 1,
+      "2022": 1,
+      "2023": 2,
+      "2024": 1,
+      "2025": 1,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Ilia Topuria",
+      "evenement": "UFC Freedom 250",
+      "date": "June 14, 2026",
+      "resultat": "Win",
+      "methode": "TKO (corner stoppage)"
+    },
+    "combats_ufc": 16,
+    "victoires_ufc": 11,
+    "defaites_ufc": 5,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 3,
+    "bonus_fotn": 11,
+    "bonus_potn": 6,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Ilia Topuria",
+        "evenement": "UFC Freedom 250",
+        "date": "June 14, 2026"
+      },
+      {
+        "adversaire": "Paddy Pimblett",
+        "evenement": "UFC 324",
+        "date": "January 24, 2026"
+      },
+      {
+        "adversaire": "Rafael Fiziev",
+        "evenement": "UFC 313",
+        "date": "March 8, 2025"
+      },
+      {
+        "adversaire": "Max Holloway",
+        "evenement": "UFC 300",
+        "date": "April 13, 2024"
+      },
+      {
+        "adversaire": "Rafael Fiziev",
+        "evenement": "UFC 286",
+        "date": "March 18, 2023"
+      },
+      {
+        "adversaire": "Michael Chandler",
+        "evenement": "UFC 268",
+        "date": "November 6, 2021"
+      },
+      {
+        "adversaire": "Tony Ferguson",
+        "evenement": "UFC 249",
+        "date": "May 9, 2020"
+      },
+      {
+        "adversaire": "Edson Barboza",
+        "evenement": "UFC on ESPN: Barboza vs. Gaethje",
+        "date": "March 30, 2019"
+      },
+      {
+        "adversaire": "Dustin Poirier",
+        "evenement": "UFC on Fox: Poirier vs. Gaethje",
+        "date": "April 14, 2018"
+      },
+      {
+        "adversaire": "Eddie Alvarez",
+        "evenement": "UFC 218",
+        "date": "December 2, 2017"
+      },
+      {
+        "adversaire": "Michael Johnson",
+        "evenement": "The Ultimate Fighter: Redemption Finale",
+        "date": "July 7, 2017"
+      }
+    ],
+    "titres": [
+      {
+        "action": "won",
+        "interim": true,
+        "titre": "UFC Lightweight Championship",
+        "evenement": "UFC 324",
+        "date": "January 24, 2026"
+      },
+      {
+        "action": "won",
+        "interim": true,
+        "titre": "UFC Lightweight Championship",
+        "evenement": "UFC 249",
+        "date": "May 9, 2020"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 15
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Michael Johnson",
+      "evenement": "The Ultimate Fighter: Redemption Finale",
+      "date": "July 7, 2017",
+      "resultat": "Win",
+      "methode": "TKO (punches and knees)"
+    }
+  },
+  "champion_actuel": true,
+  "champion_division": "Poids légers",
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "National Collegiate Athletic Association NCAA Division I All-American out of the University of Northern Colorado (2010)  NCAA Division I 157 lb (2010) Championship – 7th Place",
+    "NCAA Division I All-American out of the University of Northern Colorado (2010)",
+    "NCAA Division I 157 lb (2010) Championship – 7th Place",
+    "University of Northern Colorado Athletics Hall of Fame – Class of 2020",
+    "UFC Lightweight Championship (One time, Current)",
+    "Oldest fighter in history to win a UFC Lightweight title (37 years, 71 days)",
+    "First two-time UFC Interim Champion",
+    "Tied ( Jens Pulver & Frankie Edgar ) for third most UFC lightweight title fight wins (3)",
+    "Tied ( B.J. Penn ) for most knockouts in UFC Lightweight title bouts (2)",
+    "UFC 'BMF' title (One time) Second UFC fighter to win an Interim, Undisputed and BMF title",
+    "Second UFC fighter to win an Interim, Undisputed and BMF title",
+    "Most Fight of the Night bonuses in UFC history (11)",
+    "First fighter to receive Fight of the Night bonuses in four consecutive bouts",
+    "Tied ( Donald Cerrone ) for second most Fight of the Night bonuses in UFC/WEC combined history (11) (behind Cub Swanson )",
+    "Most Post-Fight bonuses in UFC Lightweight division history (17)",
+    "Third most Post-Fight bonuses in UFC history (17)",
+    "Most Post-Fight bonuses-per-bout in UFC history (17 bonuses in 16 bouts) (for fighters with 4+ UFC fights)",
+    "Only fighter in UFC history to win a Post-Fight bonus in each of his first 7 UFC bouts",
+    "Only fighter in UFC history to earn multiple Post‑Fight bonuses in three separate bouts vs. Michael Johnson , Tony Ferguson and Ilia Topuria",
+    "$500,000 CRO Crypto.com UFC Freedom 250 bonus winner",
+    "Third highest significant strike accuracy percentage in UFC Lightweight division history (57.6%)",
+    "Tied ( Melvin Guillard & Edson Barboza ) for third most knockouts in UFC Lightweight division history (7)",
+    "Tied ( Drew Dober & Edson Barboza ) for fifth most knockdowns landed in UFC Lightweight division history (10)",
+    "Fifth most significant strikes landed in UFC Lightweight division history (1271)",
+    "Holds wins over three former UFC champions — vs. Ilia Topuria , Tony Ferguson (interim) and Dustin Poirier (interim)",
+    "2019: President's Choice Fight of the Year Nominee vs. Edson Barboza",
+    "2021: President's Choice Fight of the Year Winner vs. Michael Chandler",
+    "2023: President's Choice Fight of the Year Nominee vs. Rafael Fiziev 1  & Fan's Choice Knockout of the Year Nominee vs. Dustin Poirier 2",
+    "2024: President's Choice Fight of the Year Winner vs. Max Holloway",
+    "2017: Fight of the Year vs. Michael Johnson ,  Ranked #2 Fight of the Year vs. Eddie Alvarez  & Ranked #3 Newcomer of the Year",
+    "2018: Ranked #2 Fight of the Year vs. Dustin Poirier 1",
+    "2019: Top 10 Fighter of the Year  & Ranked #7 Fight of the Year vs. Edson Barboza",
+    "2020: Ranked #6 Fight of the Year vs. Tony Ferguson",
+    "2021: Fight of the Year vs. Michael Chandler",
+    "2023: Ranked #8 Fighter of the Year ,  Ranked #3 Knockout of the Year vs. Dustin Poirier 2  & Ranked #7 Fight of the Year vs. Rafael Fiziev 1",
+    "2024: Ranked #3 Fight of the Year vs. Max Holloway",
+    "2026: Half-Year Awards: Best Fighter of the 1HY",
+    "WSOF Lightweight Championship (One time; first; only) Five successful title defenses",
+    "Five successful title defenses",
+    "Most consecutive title defenses (five)"
+  ],
+  "image_commons": "Justin Gaethje in the Oval Office (while President Donald J. Trump is holding a meeting with UFC fighters).jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Justin_Gaethje",
+    "wikidata": "https://www.wikidata.org/wiki/Q15634226",
+    "ufc_com": "https://www.ufc.com/athlete/justin-gaethje"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "champion_actuel": "ufc_com_rankings",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 83,
+    "puissance": 83,
+    "lutte": 49,
+    "soumission": 37,
+    "defense": 46,
+    "cardio": 71,
+    "menton": 69,
+    "globale": 63,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

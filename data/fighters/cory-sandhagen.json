@@ -1,0 +1,167 @@
+{
+  "id": "cory-sandhagen",
+  "nom": "Cory Sandhagen",
+  "ufc_slug": "cory-sandhagen",
+  "wikipedia_titre": "Cory Sandhagen",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "coq",
+  "statut": "actif",
+  "date_naissance": "1992-04-20",
+  "taille_cm": 180,
+  "allonge_cm": 178,
+  "style": "AMM",
+  "lieu_naissance": "Aurora, États-Unis",
+  "palmares": {
+    "victoires": 18,
+    "defaites": 7,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 8,
+    "victoires_soumission": 3,
+    "victoires_decision": 7,
+    "defaites_ko": 0,
+    "defaites_soumission": 1,
+    "defaites_decision": 6
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.92,
+    "precision_frappe_pct": 45,
+    "frappes_encaissees_par_min": 3.72,
+    "defense_frappe_pct": 55.0,
+    "takedowns_par_15min": 1.14,
+    "precision_takedown_pct": 2,
+    "defense_takedown_pct": 57.0,
+    "soumissions_par_15min": 0.24,
+    "knockdowns_par_15min": 0.24,
+    "duree_moyenne_combat_s": 884,
+    "frappes_reussies": 1233.0,
+    "takedowns_reussis": 1.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 18,
+      "defaites": 7,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 8,
+        "soumission": 3,
+        "decision": 7,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 1,
+        "decision": 6,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2018": 2,
+      "2019": 3,
+      "2020": 2,
+      "2021": 3,
+      "2022": 1,
+      "2023": 2,
+      "2024": 1,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Mario Bautista",
+      "evenement": "UFC 329",
+      "date": "July 11, 2026",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 17,
+    "victoires_ufc": 11,
+    "defaites_ufc": 6,
+    "victoires_decision_5_rounds": 2,
+    "combats_5_rounds_gagnes": 3,
+    "bonus_fotn": 2,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Petr Yan",
+        "evenement": "UFC 267",
+        "date": "October 30, 2021"
+      },
+      {
+        "adversaire": "Iuri Alcântara",
+        "evenement": "UFC Fight Night: Gaethje vs. Vick",
+        "date": "August 25, 2018"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 4
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Austin Arnett",
+      "evenement": "UFC on Fox: Jacaré vs. Brunson 2",
+      "date": "January 27, 2018",
+      "resultat": "Win",
+      "methode": "TKO (punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Fight of the Night (Two times) vs. Iuri Alcantara and Petr Yan",
+    "Performance of the Night (Three times) vs. Marlon Moraes , Frankie Edgar and Deiveson Figueiredo",
+    "Second fastest flying-knee finish in UFC history (0:28) vs. Frankie Edgar",
+    "UFC Honors Awards 2021: President's Choice Fight of the Year Nominee vs. Petr Yan",
+    "2021: President's Choice Fight of the Year Nominee vs. Petr Yan",
+    "2019: Ranked #6 Submission of the Year vs. Mario Bautista",
+    "2021: Ranked #4 Fight of the Year vs. Petr Yan ,  Ranked #3 Knockout of the Year vs. Frankie Edgar  & Ranked #9 Fight of the Year vs. T.J. Dillashaw",
+    "Sparta Combat League SCL Featherweight Championship (one time; former)",
+    "SCL Featherweight Championship (one time; former)",
+    "MMA Junkie 2021 February Knockout of the Month vs. Frankie Edgar  2021 July Fight of the Month vs. TJ Dillashaw",
+    "2021 February Knockout of the Month vs. Frankie Edgar",
+    "2021 July Fight of the Month vs. TJ Dillashaw",
+    "Cageside Press 2021 Knockout of the Year vs. Frankie Edgar",
+    "2021 Knockout of the Year vs. Frankie Edgar",
+    "Combat Press 2021 Knockout of the Year vs. Frankie Edgar",
+    "2021 Knockout of the Year vs. Frankie Edgar",
+    "Bleacher Report 2019 Submission of the Year vs. Mario Bautista at UFC Fight Night 143",
+    "2019 Submission of the Year vs. Mario Bautista at UFC Fight Night 143",
+    "CBS Sports 2021 #3 Ranked UFC Knockout of the Year vs. Frankie Edgar",
+    "2021 #3 Ranked UFC Knockout of the Year vs. Frankie Edgar"
+  ],
+  "image_commons": "UFC's Corey Sandhagen brings his fighting spirit to the 1st SOW (1) (cropped).jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Cory_Sandhagen",
+    "wikidata": "https://www.wikidata.org/wiki/Q60769310",
+    "ufc_com": "https://www.ufc.com/athlete/cory-sandhagen"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 63,
+    "puissance": 59,
+    "lutte": 47,
+    "soumission": 47,
+    "defense": 65,
+    "cardio": 85,
+    "menton": 99,
+    "globale": 66,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

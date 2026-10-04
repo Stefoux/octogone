@@ -1,0 +1,175 @@
+{
+  "id": "khalil-rountree-jr",
+  "nom": "Khalil Rountree Jr.",
+  "ufc_slug": "khalil-rountree-jr",
+  "wikipedia_titre": "Khalil Rountree Jr.",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "mi_lourds",
+  "statut": "actif",
+  "date_naissance": "1990-02-26",
+  "taille_cm": 185,
+  "allonge_cm": 194,
+  "style": "AMM",
+  "lieu_naissance": "Los Angeles, États-Unis",
+  "palmares": {
+    "victoires": 14,
+    "defaites": 7,
+    "nuls": 0,
+    "sans_decision": 1,
+    "victoires_ko": 9,
+    "victoires_soumission": 0,
+    "victoires_decision": 5,
+    "defaites_ko": 4,
+    "defaites_soumission": 1,
+    "defaites_decision": 2
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.88,
+    "precision_frappe_pct": 41,
+    "frappes_encaissees_par_min": 4.33,
+    "defense_frappe_pct": 50.0,
+    "takedowns_par_15min": 0.0,
+    "precision_takedown_pct": null,
+    "defense_takedown_pct": 59.0,
+    "soumissions_par_15min": 0.09,
+    "knockdowns_par_15min": 1.2,
+    "duree_moyenne_combat_s": 584,
+    "frappes_reussies": 680.0,
+    "takedowns_reussis": null
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 14,
+      "defaites": 7,
+      "nuls": 0,
+      "sans_decision": 1,
+      "v": {
+        "ko": 9,
+        "soumission": 0,
+        "decision": 5,
+        "autre": 0
+      },
+      "d": {
+        "ko": 4,
+        "soumission": 1,
+        "decision": 2,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2016": 2,
+      "2017": 3,
+      "2018": 2,
+      "2019": 2,
+      "2021": 2,
+      "2022": 2,
+      "2023": 2,
+      "2024": 1,
+      "2025": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Jiří Procházka",
+      "evenement": "UFC 320",
+      "date": "October 4, 2025",
+      "resultat": "Loss",
+      "methode": "KO (punches)"
+    },
+    "combats_ufc": 18,
+    "victoires_ufc": 10,
+    "defaites_ufc": 7,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 2,
+    "bonus_potn": 4,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Jiří Procházka",
+        "evenement": "UFC 320",
+        "date": "October 4, 2025"
+      },
+      {
+        "adversaire": "Alex Pereira",
+        "evenement": "UFC 307",
+        "date": "October 5, 2024"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 6
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Andrew Sanchez",
+      "evenement": "The Ultimate Fighter: Team Joanna vs. Team Cláudia Finale",
+      "date": "July 8, 2016",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Performance of the Night (Four times) vs. Gökhan Saki , Karl Roberson , Chris Daukaus , Anthony Smith",
+    "Fight of the Night (Two times) vs. Alex Pereira and Jiří Procházka",
+    "Tied ( Dustin Jacoby & Magomed Ankalaev ) for third most knockouts in UFC Light Heavyweight division history (7)",
+    "Tied ( Chuck Liddell & Maurício Rua ) for most knockdowns landed in UFC Light Heavyweight division history (14)",
+    "Tied ( Chuck Liddell , Lyoto Machida , Junior dos Santos , Thiago Santos & Maurício Rua ) for sixth most knockdowns landed in UFC history (14)",
+    "Most knockdowns landed in a UFC Light Heavyweight division bout (4) (vs. Eryk Anders )",
+    "UFC Honors Awards 2024: President's Choice Fight of the Year Nominee vs. Alex Pereira  2025: President's Choice Fight of the Year Nominee vs. Jiří Procházka",
+    "2024: President's Choice Fight of the Year Nominee vs. Alex Pereira",
+    "2025: President's Choice Fight of the Year Nominee vs. Jiří Procházka",
+    "UFC.com Awards 2018: Ranked #7 Upset of the Year vs. Gökhan Saki  2024: Ranked #2 Fight of the Year vs. Alex Pereira  2025: Ranked #2 Fight of the Year vs. Jiří Procházka",
+    "2018: Ranked #7 Upset of the Year vs. Gökhan Saki",
+    "2024: Ranked #2 Fight of the Year vs. Alex Pereira",
+    "2025: Ranked #2 Fight of the Year vs. Jiří Procházka",
+    "MMA Mania 2024 #5 Ranked Fight of the Year vs. Alex Pereira at UFC 307  2025 Fight of the Year vs. Jiří Procházka at UFC 320",
+    "2024 #5 Ranked Fight of the Year vs. Alex Pereira at UFC 307",
+    "2025 Fight of the Year vs. Jiří Procházka at UFC 320",
+    "Cageside Press 2025 Fight of the Year vs. Jiri Prochazka , tied with Van vs. Royval",
+    "2025 Fight of the Year vs. Jiri Prochazka , tied with Van vs. Royval",
+    "Combat Press 2025 Fight of the Year vs. Jiří Procházka at UFC 320",
+    "2025 Fight of the Year vs. Jiří Procházka at UFC 320",
+    "LowKick MMA 2025 Fight of the Year vs. Jiří Procházka at UFC 320",
+    "2025 Fight of the Year vs. Jiří Procházka at UFC 320",
+    "MMA Fighting 2023 Third Team MMA All-Star",
+    "2023 Third Team MMA All-Star",
+    "Slacky Awards 2023 Technical Turn-Around of the Year",
+    "2023 Technical Turn-Around of the Year"
+  ],
+  "image_commons": "Khalil Rountree, Jr.. (cropped).jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Khalil_Rountree_Jr.",
+    "wikidata": "https://www.wikidata.org/wiki/Q31270277",
+    "ufc_com": "https://www.ufc.com/athlete/khalil-rountree-jr"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 14-7, wikipedia_infobox 14-7, ufc_com 15-7"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 54,
+    "puissance": 85,
+    "lutte": 44,
+    "soumission": 36,
+    "defense": 56,
+    "cardio": 61,
+    "menton": 50,
+    "globale": 55,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

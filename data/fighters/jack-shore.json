@@ -1,0 +1,143 @@
+{
+  "id": "jack-shore",
+  "nom": "Jack Shore",
+  "ufc_slug": "jack-shore",
+  "wikipedia_titre": "Jack Shore",
+  "surnom": "Tank",
+  "sexe": "M",
+  "pays": null,
+  "categorie": "plume",
+  "statut": "inactif",
+  "date_naissance": "1995-02-06",
+  "taille_cm": 173,
+  "allonge_cm": 180,
+  "style": "MMA",
+  "lieu_naissance": "Abertillery, Wales",
+  "palmares": {
+    "victoires": 17,
+    "defaites": 3,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 4,
+    "victoires_soumission": 9,
+    "victoires_decision": 4,
+    "defaites_ko": 1,
+    "defaites_soumission": 2,
+    "defaites_decision": 0
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.6,
+    "precision_frappe_pct": 58,
+    "frappes_encaissees_par_min": 2.31,
+    "defense_frappe_pct": 56.0,
+    "takedowns_par_15min": 3.22,
+    "precision_takedown_pct": 8,
+    "defense_takedown_pct": 74.0,
+    "soumissions_par_15min": 0.61,
+    "knockdowns_par_15min": 0.31,
+    "duree_moyenne_combat_s": 652,
+    "frappes_reussies": 352.0,
+    "takedowns_reussis": 4.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 17,
+      "defaites": 3,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 4,
+        "soumission": 9,
+        "decision": 4,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 2,
+        "decision": 0,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2019": 1,
+      "2020": 1,
+      "2021": 2,
+      "2022": 2,
+      "2023": 1,
+      "2024": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Youssef Zalal",
+      "evenement": "UFC Fight Night: Moreno vs. Albazi",
+      "date": "November 2, 2024",
+      "resultat": "Loss",
+      "methode": "Submission (arm-triangle choke)"
+    },
+    "combats_ufc": 9,
+    "victoires_ufc": 6,
+    "defaites_ufc": 3,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "rear-naked choke",
+      "finitions": 8
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Nohelin Hernandez",
+      "evenement": "UFC Fight Night: Hermansson vs. Cannonier",
+      "date": "September 28, 2019",
+      "resultat": "Win",
+      "methode": "Submission (rear-naked choke)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Ultimate Fighting Championship Performance of the Night (one time) vs. Nohelin Hernandez",
+    "Performance of the Night (one time) vs. Nohelin Hernandez",
+    "Cage Warriors CWFC Bantamweight Championship (one time; former)  One successful title defense",
+    "CWFC Bantamweight Championship (one time; former)  One successful title defense",
+    "One successful title defense",
+    "LowKick MMA 2021 Prospect of the Year",
+    "2021 Prospect of the Year"
+  ],
+  "image_commons": "Jack Shore at CAGE Warrior 100.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Jack_Shore",
+    "wikidata": "https://www.wikidata.org/wiki/Q106459264",
+    "ufc_com": "https://www.ufc.com/athlete/jack-shore"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "pays"
+  ],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 68,
+    "puissance": 50,
+    "lutte": 63,
+    "soumission": 69,
+    "defense": 74,
+    "cardio": 58,
+    "menton": 86,
+    "globale": 67,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

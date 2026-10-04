@@ -1,0 +1,193 @@
+{
+  "id": "ken-shamrock",
+  "nom": "Ken Shamrock",
+  "ufc_slug": "ken-shamrock",
+  "wikipedia_titre": "Ken Shamrock",
+  "surnom": "The World's Most Dangerous Man",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "mi_lourds",
+  "statut": "inactif",
+  "date_naissance": "1964-02-11",
+  "taille_cm": 185,
+  "allonge_cm": null,
+  "style": "Shootfighting",
+  "lieu_naissance": "États-Unis",
+  "palmares": {
+    "victoires": 24,
+    "defaites": 17,
+    "nuls": 2,
+    "sans_decision": 0,
+    "victoires_ko": 2,
+    "victoires_soumission": 19,
+    "victoires_decision": 3,
+    "defaites_ko": 11,
+    "defaites_soumission": 4,
+    "defaites_decision": 2
+  },
+  "stats_ufc": {
+    "frappes_par_min": null,
+    "precision_frappe_pct": null,
+    "frappes_encaissees_par_min": null,
+    "defense_frappe_pct": null,
+    "takedowns_par_15min": null,
+    "precision_takedown_pct": null,
+    "defense_takedown_pct": null,
+    "soumissions_par_15min": null,
+    "knockdowns_par_15min": null,
+    "duree_moyenne_combat_s": null,
+    "frappes_reussies": null,
+    "takedowns_reussis": null
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 24,
+      "defaites": 17,
+      "nuls": 2,
+      "sans_decision": 0,
+      "v": {
+        "ko": 2,
+        "soumission": 19,
+        "decision": 3,
+        "autre": 0
+      },
+      "d": {
+        "ko": 11,
+        "soumission": 4,
+        "decision": 2,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "1993": 1,
+      "1994": 1,
+      "1995": 3,
+      "1996": 2,
+      "2002": 1,
+      "2004": 1,
+      "2005": 1,
+      "2006": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Royce Gracie",
+      "evenement": "Bellator 149",
+      "date": "February 19, 2016",
+      "resultat": "Loss",
+      "methode": "TKO (knee and punches)"
+    },
+    "combats_ufc": 12,
+    "victoires_ufc": 4,
+    "defaites_ufc": 6,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Superfight Championship",
+        "evenement": "UFC 8",
+        "date": "February 16, 1996"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "rear-naked choke",
+      "finitions": 4
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Royce Gracie",
+      "evenement": "UFC 1",
+      "date": "November 12, 1993",
+      "resultat": "Loss",
+      "methode": "Submission (rear-naked choke)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "George Tragos/Lou Thesz Professional Wrestling Hall of Fame George Tragos Award (2020)",
+    "George Tragos Award (2020)",
+    "Martial Arts History Museum Hall of Fame Class of 2012",
+    "Class of 2012",
+    "UFC Hall of Fame (Inaugural inductee, Pioneer wing, class of 2003)",
+    "UFC Superfight Championship (one time, inaugural) Two successful title defenses",
+    "Two successful title defenses",
+    "UFC 3 Tournament Finalist [ a ]",
+    "UFC 1 Tournament Semifinalist",
+    "Ultimate Ultimate 1996 Semifinalist [ a ]",
+    "UFC Encyclopedia Awards Fight of the Night (Two times) vs. Royce Gracie 1 and Tito Ortiz 1   Submission of the Night (One time) vs. Dan Severn 1",
+    "Fight of the Night (Two times) vs. Royce Gracie 1 and Tito Ortiz 1",
+    "Submission of the Night (One time) vs. Dan Severn 1",
+    "Longest fight in UFC history (36 minutes) - with Royce Gracie at UFC 5",
+    "UFC Viewer's Choice Award",
+    "Pancrase Hybrid Wrestling King of Pancrase Tournament winner (1994) First ever champion of Pancrase King of Pancrase One successful title defense",
+    "King of Pancrase Tournament winner (1994) First ever champion of Pancrase",
+    "First ever champion of Pancrase",
+    "King of Pancrase One successful title defense",
+    "One successful title defense",
+    "Pride Fighting Championships Pride Grand Prix 2000 Finals Superfight Winner",
+    "Pride Grand Prix 2000 Finals Superfight Winner",
+    "World Mixed Martial Arts Association WMMAA Heavyweight Championship (1 time)",
+    "WMMAA Heavyweight Championship (1 time)",
+    "Fight Matrix 1994 Fighter of the Year  1995 Fighter of the Year",
+    "1994 Fighter of the Year",
+    "1995 Fighter of the Year",
+    "Black Belt Magazine 2000 Full-Contact Fighter of the Year",
+    "2000 Full-Contact Fighter of the Year",
+    "Wrestling Observer Newsletter 2002 Feud of the Year vs. Tito Ortiz 2006 Feud of the Year vs. Tito Ortiz",
+    "2002 Feud of the Year vs. Tito Ortiz",
+    "2006 Feud of the Year vs. Tito Ortiz",
+    "World MMA Awards 2023 Lifetime Achievement Award",
+    "2023 Lifetime Achievement Award",
+    "Battle Championship Wrestling BCW Tag Team Championship (1 time) – with Carlo Cannon",
+    "BCW Tag Team Championship (1 time) – with Carlo Cannon",
+    "NWA: Total Nonstop Action/Impact Wrestling NWA World Heavyweight Championship ( 1 time )  Gauntlet for the Gold ( 2002 – Heavyweight)  Impact Hall of Fame ( 2020 )",
+    "NWA World Heavyweight Championship ( 1 time )",
+    "Gauntlet for the Gold ( 2002 – Heavyweight)",
+    "Impact Hall of Fame ( 2020 )"
+  ],
+  "image_commons": "Ken Shamrock marines 2005 crop.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Ken_Shamrock",
+    "wikidata": "https://www.wikidata.org/wiki/Q380834",
+    "ufc_com": "https://www.ufc.com/athlete/ken-shamrock"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "allonge_cm",
+    "palmares (wikipedia_tableau 24-17, wikipedia_infobox 28-17, ufc_com 26-11)",
+    "stats_ufc (absentes de la fiche ufc.com)"
+  ],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 24-17, wikipedia_infobox 28-17, ufc_com 26-11"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 65,
+    "puissance": 37,
+    "lutte": 65,
+    "soumission": 92,
+    "defense": 65,
+    "cardio": 37,
+    "menton": 30,
+    "globale": 56,
+    "style": "grappler",
+    "estimees": [
+      "frappe",
+      "lutte",
+      "defense"
+    ],
+    "formule_version": 1
+  }
+}

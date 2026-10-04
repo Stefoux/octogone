@@ -1,0 +1,153 @@
+{
+  "id": "dominick-reyes",
+  "nom": "Dominick Reyes",
+  "ufc_slug": "dominick-reyes",
+  "wikipedia_titre": "Dominick Reyes",
+  "surnom": "The Devastator",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "mi_lourds",
+  "statut": "actif",
+  "date_naissance": "1989-12-26",
+  "taille_cm": 193,
+  "allonge_cm": 196,
+  "style": "Kickboxing",
+  "lieu_naissance": "Apple Valley, États-Unis",
+  "palmares": {
+    "victoires": 16,
+    "defaites": 5,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 10,
+    "victoires_soumission": 2,
+    "victoires_decision": 4,
+    "defaites_ko": 4,
+    "defaites_soumission": 0,
+    "defaites_decision": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.99,
+    "precision_frappe_pct": 54,
+    "frappes_encaissees_par_min": 3.4,
+    "defense_frappe_pct": 50.0,
+    "takedowns_par_15min": 0.25,
+    "precision_takedown_pct": 14,
+    "defense_takedown_pct": 83.0,
+    "soumissions_par_15min": 0.25,
+    "knockdowns_par_15min": 0.89,
+    "duree_moyenne_combat_s": 471,
+    "frappes_reussies": 588.0,
+    "takedowns_reussis": 1.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 16,
+      "defaites": 5,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 10,
+        "soumission": 2,
+        "decision": 4,
+        "autre": 0
+      },
+      "d": {
+        "ko": 4,
+        "soumission": 0,
+        "decision": 1,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2017": 2,
+      "2018": 2,
+      "2019": 2,
+      "2020": 2,
+      "2021": 1,
+      "2022": 1,
+      "2024": 2,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Johnny Walker",
+      "evenement": "UFC 327",
+      "date": "April 11, 2026",
+      "resultat": "Win",
+      "methode": "Decision (split)"
+    },
+    "combats_ufc": 15,
+    "victoires_ufc": 10,
+    "defaites_ufc": 5,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 1,
+    "bonus_potn": 2,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Jiří Procházka",
+        "evenement": "UFC on ESPN: Reyes vs. Procházka",
+        "date": "May 1, 2021"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 8
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Joachim Christensen",
+      "evenement": "UFC Fight Night: Chiesa vs. Lee",
+      "date": "June 25, 2017",
+      "resultat": "Win",
+      "methode": "TKO (punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Performance of the Night (Two times) vs. Joachim Christensen and Chris Weidman",
+    "Fight of the Night (One time) vs. Jiří Procházka",
+    "Third largest strike differential in a UFC Light Heavyweight bout (+100) (vs. Anthony Smith )",
+    "UFC Honors Awards 2021: President's Choice Fight of the Year Nominee vs. Jiří Procházka",
+    "2021: President's Choice Fight of the Year Nominee vs. Jiří Procházka",
+    "2017: Ranked #9 Newcomer of the Year",
+    "2020: Ranked #9 Fight of the Year vs. Jon Jones",
+    "2021: Half-Year Awards: Best Fight of the 1HY vs. Jiří Procházka  & Ranked #5 Fight of the Year vs. Jiří Procházka",
+    "MMA Fighting 2024 Third Team MMA All-Star",
+    "2024 Third Team MMA All-Star"
+  ],
+  "image_commons": "Dominick Reyes 2024.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Dominick_Reyes",
+    "wikidata": "https://www.wikidata.org/wiki/Q30323656",
+    "ufc_com": "https://www.ufc.com/athlete/dominick-reyes"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 72,
+    "puissance": 79,
+    "lutte": 53,
+    "soumission": 45,
+    "defense": 62,
+    "cardio": 48,
+    "menton": 50,
+    "globale": 58,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

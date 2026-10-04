@@ -1,0 +1,145 @@
+{
+  "id": "maycee-barber",
+  "nom": "Maycee Barber",
+  "ufc_slug": "maycee-barber",
+  "wikipedia_titre": "Maycee Barber",
+  "surnom": "The Future",
+  "sexe": "F",
+  "pays": "US",
+  "categorie": "mouche_f",
+  "statut": "actif",
+  "date_naissance": "1998-05-18",
+  "taille_cm": 165,
+  "allonge_cm": 165,
+  "style": "Style libre",
+  "lieu_naissance": "Greeley, États-Unis",
+  "palmares": {
+    "victoires": 15,
+    "defaites": 3,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 6,
+    "victoires_soumission": 2,
+    "victoires_decision": 7,
+    "defaites_ko": 1,
+    "defaites_soumission": 0,
+    "defaites_decision": 2
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.56,
+    "precision_frappe_pct": 53,
+    "frappes_encaissees_par_min": 2.78,
+    "defense_frappe_pct": 55.0,
+    "takedowns_par_15min": 1.56,
+    "precision_takedown_pct": 3,
+    "defense_takedown_pct": 52.0,
+    "soumissions_par_15min": 0.09,
+    "knockdowns_par_15min": 0.0,
+    "duree_moyenne_combat_s": 702,
+    "frappes_reussies": 747.0,
+    "takedowns_reussis": 1.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 15,
+      "defaites": 3,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 6,
+        "soumission": 2,
+        "decision": 7,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 0,
+        "decision": 2,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2018": 2,
+      "2019": 2,
+      "2020": 1,
+      "2021": 2,
+      "2022": 2,
+      "2023": 2,
+      "2024": 1,
+      "2025": 1,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Alexa Grasso",
+      "evenement": "UFC Fight Night: Adesanya vs. Pyfer",
+      "date": "March 28, 2026",
+      "resultat": "Loss",
+      "methode": "KO (punch)"
+    },
+    "combats_ufc": 14,
+    "victoires_ufc": 11,
+    "defaites_ufc": 3,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 4
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Jamie Colleen",
+      "evenement": "Dana White's Contender Series 13",
+      "date": "July 13, 2018",
+      "resultat": "Win",
+      "methode": "TKO (elbows)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Performance of the Night (One time) vs. Amanda Ribas",
+    "Tied ( Manon Fiorot , Carli Judice & Casey O'Neill ) for second most knockouts in UFC Women's Flyweight division history (3) (behind Valentina Shevchenko )",
+    "Tied ( Katlyn Cerminara ) for second most wins in UFC Women's Flyweight division history (9)",
+    "Tied ( Manon Fiorot ) for the third longest win streak in UFC Women's Flyweight division history (7)",
+    "UFC.com Awards 2018: Ranked #4 Newcomer of the Year",
+    "2018: Ranked #4 Newcomer of the Year",
+    "MMA Junkie 2025 Comeback Fighter of the Year",
+    "2025 Comeback Fighter of the Year"
+  ],
+  "image_commons": "Maycee Barber (cropped).png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Maycee_Barber",
+    "wikidata": "https://www.wikidata.org/wiki/Q58454724",
+    "ufc_com": "https://www.ufc.com/athlete/maycee-barber"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 69,
+    "puissance": 53,
+    "lutte": 48,
+    "soumission": 44,
+    "defense": 71,
+    "cardio": 60,
+    "menton": 86,
+    "globale": 62,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "id": "bryan-battle",
+  "nom": "Bryan Battle",
+  "ufc_slug": "bryan-battle",
+  "wikipedia_titre": "Bryan Battle",
+  "surnom": "The Butcher",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "mi_moyens",
+  "statut": "inactif",
+  "date_naissance": "1994-09-21",
+  "taille_cm": 185,
+  "allonge_cm": 196,
+  "style": "Freestyle",
+  "lieu_naissance": "United States",
+  "palmares": {
+    "victoires": 13,
+    "defaites": 3,
+    "nuls": 0,
+    "sans_decision": 1,
+    "victoires_ko": 4,
+    "victoires_soumission": 5,
+    "victoires_decision": 4,
+    "defaites_ko": 0,
+    "defaites_soumission": 2,
+    "defaites_decision": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": 5.12,
+    "precision_frappe_pct": 53,
+    "frappes_encaissees_par_min": 4.11,
+    "defense_frappe_pct": 44.0,
+    "takedowns_par_15min": 0.77,
+    "precision_takedown_pct": 9,
+    "defense_takedown_pct": 54.0,
+    "soumissions_par_15min": 0.39,
+    "knockdowns_par_15min": 0.39,
+    "duree_moyenne_combat_s": 517,
+    "frappes_reussies": 397.0,
+    "takedowns_reussis": 2.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 13,
+      "defaites": 3,
+      "nuls": 0,
+      "sans_decision": 1,
+      "v": {
+        "ko": 4,
+        "soumission": 5,
+        "decision": 4,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 2,
+        "decision": 1,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2021": 1,
+      "2022": 3,
+      "2023": 2,
+      "2024": 3
+    },
+    "dernier_combat": {
+      "adversaire": "Dalton Rosta",
+      "evenement": "PFL Charlotte: Battle vs. Rosta",
+      "date": "August 7, 2026",
+      "resultat": "Win",
+      "methode": "Decision (split)"
+    },
+    "combats_ufc": 9,
+    "victoires_ufc": 7,
+    "defaites_ufc": 1,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 3
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Gilbert Urbina",
+      "evenement": "UFC on ESPN: Barboza vs. Chikadze",
+      "date": "August 28, 2021",
+      "resultat": "Win",
+      "methode": "Submission (rear naked choke)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Ultimate Fighting Championship The Ultimate Fighter 29 Middleweight Tournament Winner  Performance of the Night (Three times) vs. Takashi Sato , Gabriel Green , and Kevin Jousset",
+    "The Ultimate Fighter 29 Middleweight Tournament Winner",
+    "Performance of the Night (Three times) vs. Takashi Sato , Gabriel Green , and Kevin Jousset",
+    "Fight Lab Fight Lab Light Heavyweight Championship (One time; former)",
+    "Fight Lab Light Heavyweight Championship (One time; former)",
+    "BodySlam.net 2024 Promo of the Year after knocking out Kevin Jousset",
+    "2024 Promo of the Year after knocking out Kevin Jousset"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Bryan_Battle",
+    "wikidata": "https://www.wikidata.org/wiki/Q131305383",
+    "ufc_com": "https://www.ufc.com/athlete/bryan-battle"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 13-3, wikipedia_infobox 13-3, ufc_com 13-2"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 71,
+    "puissance": 54,
+    "lutte": 46,
+    "soumission": 60,
+    "defense": 53,
+    "cardio": 52,
+    "menton": 99,
+    "globale": 62,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

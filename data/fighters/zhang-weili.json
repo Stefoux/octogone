@@ -1,0 +1,225 @@
+{
+  "id": "zhang-weili",
+  "nom": "Zhang Weili",
+  "ufc_slug": "zhang-weili",
+  "wikipedia_titre": "Zhang Weili",
+  "surnom": "Magnum",
+  "sexe": "F",
+  "pays": "CN",
+  "categorie": "mouche_f",
+  "statut": "actif",
+  "date_naissance": "1989-08-13",
+  "taille_cm": 163,
+  "allonge_cm": 160,
+  "style": "Muay Thaï",
+  "lieu_naissance": "Hebei, Chine",
+  "palmares": {
+    "victoires": 26,
+    "defaites": 4,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 11,
+    "victoires_soumission": 8,
+    "victoires_decision": 7,
+    "defaites_ko": 1,
+    "defaites_soumission": 0,
+    "defaites_decision": 3
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.66,
+    "precision_frappe_pct": 53,
+    "frappes_encaissees_par_min": 2.63,
+    "defense_frappe_pct": 53.0,
+    "takedowns_par_15min": 1.96,
+    "precision_takedown_pct": 2,
+    "defense_takedown_pct": 64.0,
+    "soumissions_par_15min": 0.45,
+    "knockdowns_par_15min": 0.23,
+    "duree_moyenne_combat_s": 920,
+    "frappes_reussies": 929.0,
+    "takedowns_reussis": 1.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 26,
+      "defaites": 4,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 11,
+        "soumission": 8,
+        "decision": 7,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 0,
+        "decision": 3,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2018": 2,
+      "2019": 2,
+      "2020": 1,
+      "2021": 2,
+      "2022": 2,
+      "2023": 1,
+      "2024": 1,
+      "2025": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Valentina Shevchenko",
+      "evenement": "UFC 322",
+      "date": "November 15, 2025",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 13,
+    "victoires_ufc": 10,
+    "defaites_ufc": 3,
+    "victoires_decision_5_rounds": 4,
+    "combats_5_rounds_gagnes": 4,
+    "bonus_fotn": 1,
+    "bonus_potn": 4,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Joanna Jędrzejczyk",
+        "evenement": "UFC 248",
+        "date": "March 7, 2020"
+      }
+    ],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Women's Strawweight Championship",
+        "evenement": "UFC 312",
+        "date": "February 9, 2025"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Women's Strawweight Championship",
+        "evenement": "UFC 300",
+        "date": "April 13, 2024"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Women's Strawweight Championship",
+        "evenement": "UFC 292",
+        "date": "August 19, 2023"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Women's Strawweight Championship",
+        "evenement": "UFC 281",
+        "date": "November 12, 2022"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Women's Strawweight Championship",
+        "evenement": "UFC 248",
+        "date": "March 7, 2020"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Women's Strawweight Championship",
+        "evenement": "UFC Fight Night: Andrade vs. Zhang",
+        "date": "August 31, 2019"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 5
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Danielle Taylor",
+      "evenement": "UFC 227",
+      "date": "August 4, 2018",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "UFC Hall of Fame ( Fight Wing , Class of 2026) vs. Joanna Jędrzejczyk 1 at UFC 248",
+    "Four successful title defenses (Overall) One successful title defense (First reign) Three successful title defenses (Second reign)",
+    "One successful title defense (First reign)",
+    "Three successful title defenses (Second reign)",
+    "Tied ( Joanna Jędrzejczyk ) for most title fight wins in UFC Women's Strawweight division history (6)",
+    "Second most UFC Women's Strawweight title bouts (8) (behind Joanna Jędrzejczyk )",
+    "First Chinese champion in UFC history",
+    "First Asian champion in UFC history",
+    "Fight of the Night (One time) vs. Joanna Jędrzejczyk 1",
+    "Tied ( Angela Hill ) for fourth most Post-Fight bonuses in UFC Women's Strawweight division history (5)",
+    "Tied for second most wins in UFC Women's Strawweight division history (10)",
+    "Largest striking differential in a bout in UFC Women's history (288:21) (vs. Amanda Lemos )",
+    "Most significant ground strikes landed in a UFC Women's Strawweight bout (96) (vs. Amanda Lemos )  Most total ground strikes landed in a UFC Women's Strawweight bout (225) (vs. Amanda Lemos )",
+    "Most total ground strikes landed in a UFC Women's Strawweight bout (225) (vs. Amanda Lemos )",
+    "Most total strikes landed in a UFC Women's Strawweight bout (296) (vs. Amanda Lemos )",
+    "Fourth most control time in UFC Women's Strawweight division history (56:56)",
+    "Second most top position time in UFC Women's Strawweight division history (51:54)",
+    "Fourth most top position percentage in UFC Women's Strawweight division history (29.8%)",
+    "Tied ( Angela Hill ) for fourth most knockdowns in UFC Women's Strawweight division history (3)",
+    "Third highest significant strike accuracy in UFC Women's Strawweight division history (53.4%)",
+    "Second highest striking differential in UFC Women's Strawweight division history (2.38)",
+    "Fifth most takedowns landed in UFC Women's Strawweight division history (26)  Fourth most strikes landed in UFC Women's Strawweight division history (1552)",
+    "Fourth most strikes landed in UFC Women's Strawweight division history (1552)",
+    "Fifth most strikes landed-per-minute in UFC Women's Strawweight division history (5.66)",
+    "2019: President's Choice Performance of the Year Nominee vs. Jéssica Andrade",
+    "2020: President's Choice Fight of the Year Winner vs. Joanna Jędrzejczyk 1",
+    "2018: Ranked #7 Newcomer of the Year",
+    "2019: Top 10 Fighter of the Year",
+    "2020: Fight of the Year vs. Joanna Jędrzejczyk 1",
+    "2022: Ranked #4 Fighter of the Year ,  Half-Year Awards: Best Knockout of the 1HY  & Ranked #4 Knockout of the Year vs. Joanna Jędrzejczyk 2",
+    "2024: Ranked #9 Fight of the Year vs. Yan Xiaonan",
+    "Kunlun Fight KLF Female Strawweight Champion (One time)  Two successful title defenses",
+    "KLF Female Strawweight Champion (One time)  Two successful title defenses",
+    "Two successful title defenses",
+    "Top Fighting Championship Top FC Strawweight Champion (One time)",
+    "Top FC Strawweight Champion (One time)",
+    "2020 March Fight of the Month vs. Joanna Jędrzejczyk at UFC 248",
+    "2020 Female Fighter of the Year",
+    "2020 Fight of the Year vs. Joanna Jędrzejczyk at UFC 248",
+    "June 2022 Knockout of the Month vs. Joanna Jędrzejczyk at UFC 248"
+  ],
+  "image_commons": "张伟丽.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Zhang_Weili",
+    "wikidata": "https://www.wikidata.org/wiki/Q61949317",
+    "ufc_com": "https://www.ufc.com/athlete/zhang-weili"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 69,
+    "puissance": 58,
+    "lutte": 54,
+    "soumission": 57,
+    "defense": 70,
+    "cardio": 93,
+    "menton": 89,
+    "globale": 70,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

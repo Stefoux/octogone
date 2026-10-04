@@ -1,0 +1,165 @@
+{
+  "id": "paddy-pimblett",
+  "nom": "Paddy Pimblett",
+  "ufc_slug": "paddy-pimblett",
+  "wikipedia_titre": "Paddy Pimblett",
+  "surnom": "The Baddy",
+  "sexe": "M",
+  "pays": "GB",
+  "categorie": "legers",
+  "statut": "actif",
+  "date_naissance": "1995-01-03",
+  "taille_cm": 178,
+  "allonge_cm": 185,
+  "style": null,
+  "lieu_naissance": "Liverpool, England",
+  "palmares": {
+    "victoires": 24,
+    "defaites": 4,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 7,
+    "victoires_soumission": 11,
+    "victoires_decision": 6,
+    "defaites_ko": 0,
+    "defaites_soumission": 1,
+    "defaites_decision": 3
+  },
+  "stats_ufc": {
+    "frappes_par_min": 5.48,
+    "precision_frappe_pct": 53,
+    "frappes_encaissees_par_min": 3.86,
+    "defense_frappe_pct": 43.0,
+    "takedowns_par_15min": 0.68,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 46.0,
+    "soumissions_par_15min": 1.36,
+    "knockdowns_par_15min": 0.34,
+    "duree_moyenne_combat_s": 589,
+    "frappes_reussies": 484.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 24,
+      "defaites": 4,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 7,
+        "soumission": 11,
+        "decision": 6,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 1,
+        "decision": 3,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2021": 1,
+      "2022": 3,
+      "2023": 1,
+      "2024": 1,
+      "2025": 1,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Benoît Saint Denis",
+      "evenement": "UFC 329",
+      "date": "11 July 2026",
+      "resultat": "Win",
+      "methode": "Technical Submission (Peruvian necktie)"
+    },
+    "combats_ufc": 9,
+    "victoires_ufc": 8,
+    "defaites_ufc": 1,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 1,
+    "bonus_potn": 6,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Justin Gaethje",
+        "evenement": "UFC 324",
+        "date": "24 January 2026"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 6
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Luigi Vendramini",
+      "evenement": "UFC Fight Night: Brunson vs. Till",
+      "date": "4 September 2021",
+      "resultat": "Win",
+      "methode": "KO (punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Fight of the Night (One time) vs. Justin Gaethje",
+    "Performance of the Night (Six times) vs. Luigi Vendramini , Rodrigo Vargas , Jordan Leavitt , King Green , Michael Chandler and Benoît Saint Denis",
+    "Second fastest D'Arche choke submission victory in UFC history (0:52) (vs. Benoît Saint Denis )",
+    "UFC Honors Awards 2021: Fan's Choice Debut of the Year Nominee vs. Luigi Vendramini  2024: Fan's Choice Submission of the Year Nominee vs. King Green",
+    "2021: Fan's Choice Debut of the Year Nominee vs. Luigi Vendramini",
+    "2024: Fan's Choice Submission of the Year Nominee vs. King Green",
+    "UFC.com Awards 2021: Ranked #9 Newcomer of the Year  2024: Ranked #2 Submission of the Year vs. King Green",
+    "2021: Ranked #9 Newcomer of the Year",
+    "2024: Ranked #2 Submission of the Year vs. King Green",
+    "Cage Warriors Fighting Championship CWFC Featherweight Championship (One time) One successful title defence",
+    "CWFC Featherweight Championship (One time) One successful title defence",
+    "One successful title defence",
+    "Full Contact Contender FCC Featherweight Championship (One time) One successful title defence",
+    "FCC Featherweight Championship (One time) One successful title defence",
+    "One successful title defence",
+    "World MMA Awards 2022 Breakthrough Fighter of the Year",
+    "2022 Breakthrough Fighter of the Year",
+    "Combat Press 2022 Breakout Fighter of the Year",
+    "2022 Breakout Fighter of the Year",
+    "MMA Mania 2024 #3 Ranked Submission of the Year vs. King Green at UFC 304",
+    "2024 #3 Ranked Submission of the Year vs. King Green at UFC 304",
+    "Bloody Elbow 2018 Submission of the Year vs. Alexis Savvidis at Cage Warriors 90",
+    "2018 Submission of the Year vs. Alexis Savvidis at Cage Warriors 90",
+    "MMA Junkie 2026 January Fight of the Month vs. Justin Gaethje",
+    "2026 January Fight of the Month vs. Justin Gaethje"
+  ],
+  "image_commons": "UFC Star Paddy The Baddy Pimblett tells his story (cropped).jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Paddy_Pimblett",
+    "wikidata": "https://www.wikidata.org/wiki/Q57409501",
+    "ufc_com": "https://www.ufc.com/athlete/paddy-pimblett"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 73,
+    "puissance": 53,
+    "lutte": 43,
+    "soumission": 76,
+    "defense": 54,
+    "cardio": 62,
+    "menton": 99,
+    "globale": 66,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

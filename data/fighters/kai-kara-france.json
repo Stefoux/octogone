@@ -1,0 +1,159 @@
+{
+  "id": "kai-kara-france",
+  "nom": "Kai Kara-France",
+  "ufc_slug": "kai-kara-france",
+  "wikipedia_titre": "Kai Kara-France",
+  "surnom": "Don't Blink",
+  "sexe": "M",
+  "pays": "NZ",
+  "categorie": "mouche",
+  "statut": "actif",
+  "date_naissance": "1993-03-26",
+  "taille_cm": 163,
+  "allonge_cm": 175,
+  "style": "Kickboxer",
+  "lieu_naissance": "Auckland, New Zealand",
+  "palmares": {
+    "victoires": 25,
+    "defaites": 12,
+    "nuls": 0,
+    "sans_decision": 1,
+    "victoires_ko": 12,
+    "victoires_soumission": 3,
+    "victoires_decision": 10,
+    "defaites_ko": 3,
+    "defaites_soumission": 4,
+    "defaites_decision": 5
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.46,
+    "precision_frappe_pct": 40,
+    "frappes_encaissees_par_min": 3.24,
+    "defense_frappe_pct": 64.0,
+    "takedowns_par_15min": 0.56,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 84.0,
+    "soumissions_par_15min": 0.0,
+    "knockdowns_par_15min": 0.75,
+    "duree_moyenne_combat_s": 737,
+    "frappes_reussies": 712.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 25,
+      "defaites": 12,
+      "nuls": 0,
+      "sans_decision": 1,
+      "v": {
+        "ko": 12,
+        "soumission": 3,
+        "decision": 10,
+        "autre": 0
+      },
+      "d": {
+        "ko": 3,
+        "soumission": 4,
+        "decision": 5,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2018": 1,
+      "2019": 3,
+      "2020": 2,
+      "2021": 2,
+      "2022": 2,
+      "2023": 1,
+      "2024": 1,
+      "2025": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Alexandre Pantoja",
+      "evenement": "UFC 317",
+      "date": "28 June 2025",
+      "resultat": "Loss",
+      "methode": "Submission (rear-naked choke)"
+    },
+    "combats_ufc": 13,
+    "victoires_ufc": 8,
+    "defaites_ufc": 5,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 3,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Brandon Moreno",
+        "evenement": "UFC 277",
+        "date": "30 July 2022"
+      },
+      {
+        "adversaire": "Brandon Royval",
+        "evenement": "UFC 253",
+        "date": "27 September 2020"
+      },
+      {
+        "adversaire": "Elias Garcia",
+        "evenement": "UFC Fight Night: dos Santos vs. Tuivasa",
+        "date": "2 December 2018"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 10
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Elias Garcia",
+      "evenement": "UFC Fight Night: dos Santos vs. Tuivasa",
+      "date": "2 December 2018",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Fight of the Night (Three times) vs. Elias Garcia, Brandon Moreno 2, and Brandon Royval",
+    "Performance of the Night (Three times) vs. Rogério Bontorin , Cody Garbrandt , and Steve Erceg    Fifth most Post-Fight bonuses in UFC Flyweight division history (6)",
+    "Fifth most Post-Fight bonuses in UFC Flyweight division history (6)",
+    "Tied ( Manel Kape & Joshua Van ) for second most knockdowns landed in UFC Flyweight division history (8) (behind Deiveson Figueiredo )",
+    "Third highest takedown defense percentage in UFC Flyweight division history (88.0%)",
+    "UFC.com Awards 2022: Ranked #4 Upset of the Year vs. Askar Askarov",
+    "2022: Ranked #4 Upset of the Year vs. Askar Askarov"
+  ],
+  "image_commons": "Kaikarafrance.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Kai_Kara-France",
+    "wikidata": "https://www.wikidata.org/wiki/Q27999448",
+    "ufc_com": "https://www.ufc.com/athlete/kai-kara-france"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 56,
+    "puissance": 68,
+    "lutte": 55,
+    "soumission": 42,
+    "defense": 76,
+    "cardio": 62,
+    "menton": 71,
+    "globale": 61,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

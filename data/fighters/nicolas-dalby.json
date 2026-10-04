@@ -1,0 +1,170 @@
+{
+  "id": "nicolas-dalby",
+  "nom": "Nicolas Dalby",
+  "ufc_slug": "nicolas-dalby",
+  "wikipedia_titre": "Nicolas Dalby",
+  "surnom": "Danish Dynamite",
+  "sexe": "M",
+  "pays": "DK",
+  "categorie": "mi_moyens",
+  "statut": "actif",
+  "date_naissance": "1984-11-16",
+  "taille_cm": 178,
+  "allonge_cm": 189,
+  "style": "MMA",
+  "lieu_naissance": "Fr. Vaerk Hundested, Denmark",
+  "palmares": {
+    "victoires": 24,
+    "defaites": 6,
+    "nuls": 1,
+    "sans_decision": 2,
+    "victoires_ko": 7,
+    "victoires_soumission": 4,
+    "victoires_decision": 13,
+    "defaites_ko": 1,
+    "defaites_soumission": 0,
+    "defaites_decision": 5
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.88,
+    "precision_frappe_pct": 44,
+    "frappes_encaissees_par_min": 3.51,
+    "defense_frappe_pct": 52.0,
+    "takedowns_par_15min": 0.9,
+    "precision_takedown_pct": 18,
+    "defense_takedown_pct": 59.0,
+    "soumissions_par_15min": 0.08,
+    "knockdowns_par_15min": 0.15,
+    "duree_moyenne_combat_s": 796,
+    "frappes_reussies": 772.0,
+    "takedowns_reussis": 8.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 24,
+      "defaites": 6,
+      "nuls": 1,
+      "sans_decision": 2,
+      "v": {
+        "ko": 7,
+        "soumission": 4,
+        "decision": 13,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 0,
+        "decision": 5,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2015": 2,
+      "2016": 2,
+      "2019": 1,
+      "2020": 2,
+      "2021": 1,
+      "2022": 1,
+      "2023": 3,
+      "2024": 1,
+      "2025": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Saygid Izagakhmaev",
+      "evenement": "UFC Fight Night: Tsarukyan vs. Hooker",
+      "date": "22 November 2025",
+      "resultat": "Win",
+      "methode": "Decision (split)"
+    },
+    "combats_ufc": 15,
+    "victoires_ufc": 8,
+    "defaites_ufc": 5,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 3,
+    "bonus_fotn": 3,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Randy Brown",
+        "evenement": "UFC on ESPN: Machado Garry vs. Prates",
+        "date": "26 April 2025"
+      },
+      {
+        "adversaire": "Gabriel Bonfim",
+        "evenement": "UFC Fight Night: Almeida vs. Lewis",
+        "date": "4 November 2023"
+      },
+      {
+        "adversaire": "Darren Till",
+        "evenement": "UFC Fight Night: Holohan vs. Smolka",
+        "date": "24 October 2015"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 5
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Elizeu Zaleski dos Santos",
+      "evenement": "UFC Fight Night: Condit vs. Alves",
+      "date": "30 May 2015",
+      "resultat": "Win",
+      "methode": "Decision (split)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Ultimate Fighting Championship Fight of the Night (Three times) vs. Darren Till , Gabriel Bonfim and Randy Brown    UFC.com Awards 2015: Ranked #9 Fight of the Year vs. Darren Till",
+    "Fight of the Night (Three times) vs. Darren Till , Gabriel Bonfim and Randy Brown",
+    "UFC.com Awards 2015: Ranked #9 Fight of the Year vs. Darren Till",
+    "2015: Ranked #9 Fight of the Year vs. Darren Till",
+    "Cage Warriors Fighting Championship CWFC Welterweight Championship (One time) One successful title defense Interim CWFC Welterweight Championship (One time)",
+    "CWFC Welterweight Championship (One time) One successful title defense",
+    "One successful title defense",
+    "Interim CWFC Welterweight Championship (One time)",
+    "European MMA EMMA Welterweight Championship (One time)",
+    "EMMA Welterweight Championship (One time)",
+    "Fighter Gala FG Welterweight Championship (One time) One successful title defense",
+    "FG Welterweight Championship (One time)",
+    "One successful title defense",
+    "Nordic MMA Awards - MMAviking.com 2014 Knockout of the Year vs. Sergei Churilov on 22 March  2015 Comeback of the Year vs. Darren Till on 24 October  2019 Comeback Fighter of the Year",
+    "2014 Knockout of the Year vs. Sergei Churilov on 22 March",
+    "2015 Comeback of the Year vs. Darren Till on 24 October",
+    "2019 Comeback Fighter of the Year"
+  ],
+  "image_commons": "Nicolas Dalby at UFC Fight Night 160 in Copenhagen.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Nicolas_Dalby",
+    "wikidata": "https://www.wikidata.org/wiki/Q20080409",
+    "ufc_com": "https://www.ufc.com/athlete/nicolas-dalby"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 57,
+    "puissance": 49,
+    "lutte": 47,
+    "soumission": 45,
+    "defense": 63,
+    "cardio": 72,
+    "menton": 89,
+    "globale": 60,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

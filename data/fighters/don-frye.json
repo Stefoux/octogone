@@ -1,0 +1,159 @@
+{
+  "id": "don-frye",
+  "nom": "Don Frye",
+  "ufc_slug": "don-frye",
+  "wikipedia_titre": "Don Frye",
+  "surnom": "The Predator",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "lourds",
+  "statut": "retraite",
+  "date_naissance": "1965-11-23",
+  "taille_cm": 185,
+  "allonge_cm": null,
+  "style": null,
+  "lieu_naissance": "Sierra Vista, United States",
+  "palmares": {
+    "victoires": 14,
+    "defaites": 9,
+    "nuls": 1,
+    "sans_decision": 1,
+    "victoires_ko": 4,
+    "victoires_soumission": 8,
+    "victoires_decision": 1,
+    "defaites_ko": 5,
+    "defaites_soumission": 2,
+    "defaites_decision": 2
+  },
+  "stats_ufc": {
+    "frappes_par_min": 2.87,
+    "precision_frappe_pct": 65,
+    "frappes_encaissees_par_min": 3.57,
+    "defense_frappe_pct": 37.0,
+    "takedowns_par_15min": 0.91,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 45.0,
+    "soumissions_par_15min": 0.68,
+    "knockdowns_par_15min": 0.45,
+    "duree_moyenne_combat_s": 567,
+    "frappes_reussies": 190.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 14,
+      "defaites": 9,
+      "nuls": 1,
+      "sans_decision": 1,
+      "v": {
+        "ko": 4,
+        "soumission": 8,
+        "decision": 1,
+        "autre": 1
+      },
+      "d": {
+        "ko": 5,
+        "soumission": 2,
+        "decision": 2,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "1996": 3
+    },
+    "dernier_combat": {
+      "adversaire": "Ruben Villareal",
+      "evenement": "Gladiator Challenge: Mega Stars",
+      "date": "December 11, 2011",
+      "resultat": "Loss",
+      "methode": "KO (punch)"
+    },
+    "combats_ufc": 3,
+    "victoires_ufc": 2,
+    "defaites_ufc": 1,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "rear–naked choke",
+      "finitions": 4
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Gary Goodridge",
+      "evenement": "UFC 8",
+      "date": "February 16, 1996",
+      "resultat": "Win",
+      "methode": "Submission (position)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Martial Arts History Museum Hall of Fame Class of 2023",
+    "Class of 2023",
+    "George Tragos/Lou Thesz Professional Wrestling Hall of Fame George Tragos Award (2024)",
+    "George Tragos Award (2024)",
+    "UFC Hall of Fame (Pioneer Wing, Class of 2016)",
+    "UFC 8 Tournament Winner",
+    "UFC Ultimate Ultimate 1996 Tournament Winner",
+    "UFC 10 Tournament Runner-Up",
+    "UFC Viewer's Choice Award",
+    "UFC Encyclopedia Awards Fight of the Night (Three times) vs. Amaury Bitetti , Mark Coleman and Tank Abbott    Submission of the Night (One time) vs. Mark Hall",
+    "Fight of the Night (Three times) vs. Amaury Bitetti , Mark Coleman and Tank Abbott",
+    "Submission of the Night (One time) vs. Mark Hall",
+    "One of only two fighters to win a UFC Tournament and Ultimate Ultimate Tournament ( Dan Severn )",
+    "Wrestling Observer Newsletter Fight of the Year (2002) vs. Yoshihiro Takayama on June 23",
+    "Fight of the Year (2002) vs. Yoshihiro Takayama on June 23",
+    "#4 Ranked MMA Fight of All Time vs. Yoshihiro Takayama at Pride 21",
+    "#72 Ranked MMA Fight of All Time vs. Mark Coleman at UFC 10",
+    "#75 Ranked MMA Fight of All Time vs. Ken Shamrock at Pride 19",
+    "New Japan Pro-Wrestling Antonio Inoki Final Opponent Tournament Winner (1998)  G-1 World League (2001)  Greatest Gaijin Grapple Section (2002)",
+    "Antonio Inoki Final Opponent Tournament Winner (1998)",
+    "G-1 World League (2001)",
+    "Greatest Gaijin Grapple Section (2002)",
+    "Pro Wrestling Illustrated Ranked No. 175 of the top 500 singles wrestlers in the PWI 500 in 1999  Ranked No. 247 of the top 500 singles wrestlers in the \"PWI Years\" in 2003",
+    "Ranked No. 175 of the top 500 singles wrestlers in the PWI 500 in 1999",
+    "Ranked No. 247 of the top 500 singles wrestlers in the \"PWI Years\" in 2003"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Don_Frye",
+    "wikidata": "https://www.wikidata.org/wiki/Q1239160",
+    "ufc_com": "https://www.ufc.com/athlete/don-frye"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "allonge_cm",
+    "palmares (wikipedia_tableau 14-9, wikipedia_infobox 20-9, ufc_com 11-1)"
+  ],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 14-9, wikipedia_infobox 20-9, ufc_com 11-1"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 69,
+    "puissance": 58,
+    "lutte": 51,
+    "soumission": 70,
+    "defense": 57,
+    "cardio": 58,
+    "menton": 42,
+    "globale": 58,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

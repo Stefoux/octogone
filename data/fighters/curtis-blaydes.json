@@ -1,0 +1,165 @@
+{
+  "id": "curtis-blaydes",
+  "nom": "Curtis Blaydes",
+  "ufc_slug": "curtis-blaydes",
+  "wikipedia_titre": "Curtis Blaydes",
+  "surnom": "Razor",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "lourds",
+  "statut": "actif",
+  "date_naissance": "1991-02-18",
+  "taille_cm": 193,
+  "allonge_cm": 203,
+  "style": "AMM",
+  "lieu_naissance": "Naperville, États-Unis",
+  "palmares": {
+    "victoires": 20,
+    "defaites": 6,
+    "nuls": 0,
+    "sans_decision": 1,
+    "victoires_ko": 13,
+    "victoires_soumission": 0,
+    "victoires_decision": 7,
+    "defaites_ko": 5,
+    "defaites_soumission": 0,
+    "defaites_decision": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.99,
+    "precision_frappe_pct": 51,
+    "frappes_encaissees_par_min": 2.7,
+    "defense_frappe_pct": 55.0,
+    "takedowns_par_15min": 5.04,
+    "precision_takedown_pct": 22,
+    "defense_takedown_pct": 35.0,
+    "soumissions_par_15min": 0.0,
+    "knockdowns_par_15min": 0.14,
+    "duree_moyenne_combat_s": 569,
+    "frappes_reussies": 833.0,
+    "takedowns_reussis": 33.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 20,
+      "defaites": 6,
+      "nuls": 0,
+      "sans_decision": 1,
+      "v": {
+        "ko": 13,
+        "soumission": 0,
+        "decision": 7,
+        "autre": 0
+      },
+      "d": {
+        "ko": 5,
+        "soumission": 0,
+        "decision": 1,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2016": 2,
+      "2017": 3,
+      "2018": 3,
+      "2019": 2,
+      "2020": 2,
+      "2021": 2,
+      "2022": 2,
+      "2023": 1,
+      "2024": 2,
+      "2025": 1,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Waldo Cortes-Acosta",
+      "evenement": "UFC Fight Night: Silva vs. Delgado",
+      "date": "September 12, 2026",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 22,
+    "victoires_ufc": 15,
+    "defaites_ufc": 6,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 1,
+    "bonus_potn": 4,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Josh Hokit",
+        "evenement": "UFC 327",
+        "date": "April 11, 2026"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 9
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Francis Ngannou",
+      "evenement": "UFC Fight Night: Rothwell vs. dos Santos",
+      "date": "April 10, 2016",
+      "resultat": "Loss",
+      "methode": "TKO (doctor stoppage)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Fight of the Night (One time) vs. Josh Hokit",
+    "Performance of the Night (Four times) vs. Cody East, Alistair Overeem , Chris Daukaus and Jailton Almeida",
+    "Most takedowns landed in UFC Heavyweight division history (70)",
+    "Most control time in UFC Heavyweight division history (1:31:19)",
+    "Most top position time in UFC Heavyweight division history (1:08:36)",
+    "Tied ( Junior dos Santos ) for fourth most wins in UFC Heavyweight division history (14)",
+    "UFC Heavyweight Bout Records",
+    "Second most takedowns attempted (25) (vs. Alexander Volkov )",
+    "Tied ( Jake O'Brien ) for third most takedowns landed (10) (vs. Mark Hunt )",
+    "Highest takedown accuracy percentage (80%) (vs. Adam Milstead . Min. 10 takedown attempts)",
+    "Fourth highest takedown accuracy percentage (71.4%) (vs. Mark Hunt . Min. 10 takedown attempts)",
+    "Third most significant strikes landed in any UFC Heavyweight bout (174) (vs. Josh Hokit )",
+    "Third most significant strikes attempted (302) (vs. Josh Hokit )",
+    "Third most significant clinch strikes landed (60) (vs. Josh Hokit )",
+    "Fourth most significant head strikes landed (151) (vs. Josh Hokit )",
+    "Third most total strikes attempted (60) (vs. Josh Hokit )",
+    "Fifth most total head strikes landed (180) (vs. Josh Hokit )",
+    "National Junior College Athletic Association NJCAA Heavyweight National Championship out of Harper College (2012)  NJCAA All-American out of Harper College (2012)",
+    "NJCAA Heavyweight National Championship out of Harper College (2012)",
+    "NJCAA All-American out of Harper College (2012)"
+  ],
+  "image_commons": "Curtis Blaydes at UFC 221.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Curtis_Blaydes",
+    "wikidata": "https://www.wikidata.org/wiki/Q28709155",
+    "ufc_com": "https://www.ufc.com/athlete/curtis-blaydes"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 64,
+    "puissance": 70,
+    "lutte": 59,
+    "soumission": 34,
+    "defense": 72,
+    "cardio": 60,
+    "menton": 44,
+    "globale": 58,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

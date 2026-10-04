@@ -1,0 +1,206 @@
+{
+  "id": "henry-cejudo",
+  "nom": "Henry Cejudo",
+  "ufc_slug": "henry-cejudo",
+  "wikipedia_titre": "Henry Cejudo",
+  "surnom": "Triple C",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "coq",
+  "statut": "inactif",
+  "date_naissance": "1987-02-09",
+  "taille_cm": 163,
+  "allonge_cm": 163,
+  "style": "Wrestling",
+  "lieu_naissance": "Los Angeles, United States",
+  "palmares": {
+    "victoires": 16,
+    "defaites": 6,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 8,
+    "victoires_soumission": 0,
+    "victoires_decision": 8,
+    "defaites_ko": 1,
+    "defaites_soumission": 0,
+    "defaites_decision": 4
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.83,
+    "precision_frappe_pct": 47,
+    "frappes_encaissees_par_min": 3.84,
+    "defense_frappe_pct": 57.0,
+    "takedowns_par_15min": 1.78,
+    "precision_takedown_pct": 22,
+    "defense_takedown_pct": 72.0,
+    "soumissions_par_15min": 0.14,
+    "knockdowns_par_15min": 0.34,
+    "duree_moyenne_combat_s": 820,
+    "frappes_reussies": 838.0,
+    "takedowns_reussis": 19.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 16,
+      "defaites": 6,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 8,
+        "soumission": 0,
+        "decision": 8,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 0,
+        "decision": 4,
+        "autre": 1
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2014": 1,
+      "2015": 3,
+      "2016": 2,
+      "2017": 2,
+      "2018": 1,
+      "2019": 2,
+      "2020": 1,
+      "2023": 1,
+      "2024": 1,
+      "2025": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Payton Talbott",
+      "evenement": "UFC 323",
+      "date": "December 6, 2025",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 16,
+    "victoires_ufc": 10,
+    "defaites_ufc": 6,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 1,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Demetrious Johnson",
+        "evenement": "UFC 227",
+        "date": "August 4, 2018"
+      }
+    ],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Bantamweight Championship",
+        "evenement": "UFC 249",
+        "date": "May 9, 2020"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Flyweight Championship",
+        "evenement": "UFC Fight Night: Cejudo vs. Dillashaw",
+        "date": "January 19, 2019"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Flyweight Championship",
+        "evenement": "UFC 227",
+        "date": "August 4, 2018"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 6
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Dustin Kimura",
+      "evenement": "UFC on Fox: dos Santos vs. Miocic",
+      "date": "December 13, 2014",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "UFC Bantamweight Championship (One time) One successful title defense",
+    "One successful title defense",
+    "UFC Flyweight Championship (One time) One successful title defense Seventh two-division champion in UFC history Fourth simultaneous two-divisional champion",
+    "One successful title defense",
+    "Seventh two-division champion in UFC history",
+    "Fourth simultaneous two-divisional champion",
+    "Fight of the Night (One time) vs. Demetrious Johnson 1",
+    "Performance of the Night (Three times) vs. Wilson Reis , T.J. Dillashaw , and Marlon Moraes",
+    "Holds wins over three former UFC champions — vs. Demetrious Johnson 2, T.J. Dillashaw , and Dominick Cruz",
+    "2014: Ranked #10 Newcomer of the Year (Tied with Paige VanZant & Carla Esparza )",
+    "2018: Ranked #4 Fighter of the Year  & Ranked #4 Upset of the Year vs. Demetrious Johnson",
+    "2019: Top 10 Fighter of the Year ,  Ranked #3 Upset of the Year vs. T.J. Dillashaw  & Ranked #6 Fight of the Year vs. Marlon Moraes",
+    "MMA Junkie 2018 Upset of the Year vs. Demetrious Johnson  2019 June Fight of the Month vs. Marlon Moraes",
+    "2018 Upset of the Year vs. Demetrious Johnson",
+    "2019 June Fight of the Month vs. Marlon Moraes",
+    "MMA Fighting 2018 Upset of the Year vs. Demetrious Johnson  2010s #8 Ranked Fighter of the Decade",
+    "2018 Upset of the Year vs. Demetrious Johnson",
+    "2010s #8 Ranked Fighter of the Decade",
+    "MMA Weekly 2018 Upset of the Year vs. Demetrious Johnson",
+    "2018 Upset of the Year vs. Demetrious Johnson",
+    "CBS Sports 2018 #4 Ranked UFC Fighter of the Year  2019 #3 Ranked UFC Fighter of the Year",
+    "2018 #4 Ranked UFC Fighter of the Year",
+    "2019 #3 Ranked UFC Fighter of the Year",
+    "Slacky Awards 2018 Technical Turn-Around of the Year tied with Dustin Poirier and Jan Błachowicz",
+    "2018 Technical Turn-Around of the Year tied with Dustin Poirier and Jan Błachowicz",
+    "National Wrestling Hall Of Fame 2018 inductee, distinguished member",
+    "2018 inductee, distinguished member",
+    "Henri Deglane Challenge",
+    "Sunkist Kids International Open",
+    "Summer Olympics ( 55 kg )",
+    "Pan American Championships (55 kg)",
+    "U.S. Olympic Team Trials (55 kg)",
+    "U.S. Senior National Championship (55 kg)",
+    "John Smith Award winner",
+    "World Cup",
+    "Pan American Games (55 kg)",
+    "Pan American Championships",
+    "U.S. World Team Trials (55 kg)",
+    "U.S. Senior National Championship (55 kg)",
+    "Pan American Championships"
+  ],
+  "image_commons": "Henry Cejudo (54235464255) (cropped).jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Henry_Cejudo",
+    "wikidata": "https://www.wikidata.org/wiki/Q933481",
+    "ufc_com": "https://www.ufc.com/athlete/henry-cejudo"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 59,
+    "puissance": 64,
+    "lutte": 56,
+    "soumission": 37,
+    "defense": 66,
+    "cardio": 74,
+    "menton": 87,
+    "globale": 63,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

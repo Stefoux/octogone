@@ -1,0 +1,158 @@
+{
+  "id": "arman-tsarukyan",
+  "nom": "Arman Tsarukyan",
+  "ufc_slug": "arman-tsarukyan",
+  "wikipedia_titre": "Arman Tsarukyan",
+  "surnom": "Ahalkalakets",
+  "surnom_wikipedia": "Akhalkalakets (formerly)The Batman",
+  "sexe": "M",
+  "pays": "AM",
+  "categorie": "legers",
+  "statut": "actif",
+  "date_naissance": "1996-10-11",
+  "taille_cm": 170,
+  "allonge_cm": 184,
+  "style": "Kickboxing",
+  "lieu_naissance": "Géorgie",
+  "palmares": {
+    "victoires": 24,
+    "defaites": 3,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 10,
+    "victoires_soumission": 6,
+    "victoires_decision": 8,
+    "defaites_ko": 1,
+    "defaites_soumission": 0,
+    "defaites_decision": 2
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.78,
+    "precision_frappe_pct": 50,
+    "frappes_encaissees_par_min": 1.77,
+    "defense_frappe_pct": 55.0,
+    "takedowns_par_15min": 3.25,
+    "precision_takedown_pct": 3,
+    "defense_takedown_pct": 75.0,
+    "soumissions_par_15min": 0.1,
+    "knockdowns_par_15min": 0.39,
+    "duree_moyenne_combat_s": 702,
+    "frappes_reussies": 575.0,
+    "takedowns_reussis": 3.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 24,
+      "defaites": 3,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 10,
+        "soumission": 6,
+        "decision": 8,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 0,
+        "decision": 2,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2019": 2,
+      "2020": 1,
+      "2021": 2,
+      "2022": 3,
+      "2023": 2,
+      "2024": 1,
+      "2025": 1,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Maurício Ruffy",
+      "evenement": "UFC 331",
+      "date": "September 19, 2026",
+      "resultat": "Win",
+      "methode": "KO (elbow)"
+    },
+    "combats_ufc": 13,
+    "victoires_ufc": 11,
+    "defaites_ufc": 2,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 2,
+    "bonus_potn": 5,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Mateusz Gamrot",
+        "evenement": "UFC on ESPN: Tsarukyan vs. Gamrot",
+        "date": "June 25, 2022"
+      },
+      {
+        "adversaire": "Islam Makhachev",
+        "evenement": "UFC Fight Night: Overeem vs. Oleinik",
+        "date": "April 20, 2019"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 6
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Islam Makhachev",
+      "evenement": "UFC Fight Night: Overeem vs. Oleinik",
+      "date": "April 20, 2019",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Fight of the Night (Two times) vs. Islam Makhachev and Mateusz Gamrot",
+    "Performance of the Night (Five times) vs. Christos Giagos , Joel Álvarez , Beneil Dariush , Dan Hooker and Maurício Ruffy",
+    "UFC.com Awards 2022: Ranked #9 Fight of the Year vs. Mateusz Gamrot",
+    "2022: Ranked #9 Fight of the Year vs. Mateusz Gamrot",
+    "MMA Fighting 2022 Third Team MMA All-Star",
+    "2022 Third Team MMA All-Star",
+    "Absolute Championship Akhmat ACBJJ \"All-Star Title\" (one time)",
+    "ACBJJ \"All-Star Title\" (one time)",
+    "Real American Freestyle Match of the Night (One time) vs. Colby Covington",
+    "Match of the Night (One time) vs. Colby Covington"
+  ],
+  "image_commons": "Arman Tsarukyan 2024.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Arman_Tsarukyan",
+    "wikidata": "https://www.wikidata.org/wiki/Q61996306",
+    "ufc_com": "https://www.ufc.com/athlete/arman-tsarukyan"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 62,
+    "puissance": 60,
+    "lutte": 64,
+    "soumission": 50,
+    "defense": 77,
+    "cardio": 60,
+    "menton": 88,
+    "globale": 66,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

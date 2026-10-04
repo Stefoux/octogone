@@ -1,0 +1,192 @@
+{
+  "id": "colby-covington",
+  "nom": "Colby Covington",
+  "ufc_slug": "colby-covington",
+  "wikipedia_titre": "Colby Covington",
+  "surnom": "Chaos",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "mi_moyens",
+  "statut": "retraite",
+  "date_naissance": "1988-02-22",
+  "taille_cm": 180,
+  "allonge_cm": 183,
+  "style": "Wrestling",
+  "lieu_naissance": "United States",
+  "palmares": {
+    "victoires": 17,
+    "defaites": 5,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 4,
+    "victoires_soumission": 4,
+    "victoires_decision": 9,
+    "defaites_ko": 2,
+    "defaites_soumission": 1,
+    "defaites_decision": 2
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.81,
+    "precision_frappe_pct": 38,
+    "frappes_encaissees_par_min": 3.09,
+    "defense_frappe_pct": 55.0,
+    "takedowns_par_15min": 3.64,
+    "precision_takedown_pct": 29,
+    "defense_takedown_pct": 69.0,
+    "soumissions_par_15min": 0.16,
+    "knockdowns_par_15min": 0.05,
+    "duree_moyenne_combat_s": 1017,
+    "frappes_reussies": 1099.0,
+    "takedowns_reussis": 48.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 17,
+      "defaites": 5,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 4,
+        "soumission": 4,
+        "decision": 9,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 1,
+        "decision": 2,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2014": 2,
+      "2015": 2,
+      "2016": 3,
+      "2017": 2,
+      "2018": 1,
+      "2019": 2,
+      "2020": 1,
+      "2021": 1,
+      "2022": 1,
+      "2023": 1,
+      "2024": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Joaquin Buckley",
+      "evenement": "UFC on ESPN: Covington vs. Buckley",
+      "date": "December 14, 2024",
+      "resultat": "Loss",
+      "methode": "TKO (doctor stoppage)"
+    },
+    "combats_ufc": 17,
+    "victoires_ufc": 12,
+    "defaites_ufc": 5,
+    "victoires_decision_5_rounds": 3,
+    "combats_5_rounds_gagnes": 4,
+    "bonus_fotn": 2,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Jorge Masvidal",
+        "evenement": "UFC 272",
+        "date": "March 5, 2022"
+      },
+      {
+        "adversaire": "Kamaru Usman",
+        "evenement": "UFC 245",
+        "date": "December 14, 2019"
+      }
+    ],
+    "titres": [
+      {
+        "action": "won",
+        "interim": true,
+        "titre": "UFC Welterweight Championship",
+        "evenement": "UFC 225",
+        "date": "June 9, 2018"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "rear-naked choke",
+      "finitions": 2
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Wang Anying",
+      "evenement": "UFC Fight Night: Bisping vs. Le",
+      "date": "August 23, 2014",
+      "resultat": "Win",
+      "methode": "TKO (submission to punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "National Collegiate Athletic Association NCAA Division I All-American out of Oregon State University (2011)  Pac-10 174 lb Conference Championship out of Oregon State University (2010, 2011)",
+    "NCAA Division I All-American out of Oregon State University (2011)",
+    "Pac-10 174 lb Conference Championship out of Oregon State University (2010, 2011)",
+    "National Junior College Athletic Association NJCAA 165 lb National Championship out of Iowa Central Community College (2007)  NJCAA All-American out of Iowa Central Community College (2007)",
+    "NJCAA 165 lb National Championship out of Iowa Central Community College (2007)",
+    "NJCAA All-American out of Iowa Central Community College (2007)",
+    "Oregon State Activities Association OSAA 171 lb State Championship out of Thurston High School (2006)",
+    "OSAA 171 lb State Championship out of Thurston High School (2006)",
+    "National High School Coaches Association 2006 NHSCA Senior Nationals- 3rd Place",
+    "2006 NHSCA Senior Nationals- 3rd Place",
+    "Real American Freestyle RAF Cruiserweight Crossover Champion (One time, Inaugural, current) One successful title defense Match of the Night (One time) vs. Arman Tsarukyan",
+    "RAF Cruiserweight Crossover Champion (One time, Inaugural, current) One successful title defense",
+    "One successful title defense",
+    "Match of the Night (One time) vs. Arman Tsarukyan",
+    "2006 Freestyle Junior Nationals - 4th place",
+    "2005 Greco-Roman Junior Nationals - 5th Place",
+    "FILA 2013 FILA No-Gi Grappling World Championship – 1st place, 77 kg",
+    "2013 FILA No-Gi Grappling World Championship – 1st place, 77 kg",
+    "Interim UFC Welterweight Championship (One time)",
+    "Fight of the Night (Two times) vs. Kamaru Usman 1 and Jorge Masvidal  '",
+    "Most significant strikes attempted in a UFC Welterweight bout (515) (vs. Robbie Lawler )",
+    "Most total strikes attempted in a UFC Welterweight bout (541) (vs. Robbie Lawler )",
+    "Second most takedowns landed in UFC Welterweight division history (70)",
+    "Third most control time in UFC Welterweight division history (2:05:05)",
+    "Fifth most total strikes landed in UFC Welterweight division history (2043)",
+    "UFC.com Awards 2014: Ranked #5 Newcomer of the Year  2019: Ranked #2 Fight of the Year vs. Kamaru Usman 1",
+    "2014: Ranked #5 Newcomer of the Year",
+    "2019: Ranked #2 Fight of the Year vs. Kamaru Usman 1",
+    "MMA Weekly 2017 Breakout Fighter of the Year",
+    "2017 Breakout Fighter of the Year",
+    "CBS Sports 2019 #5 Ranked UFC Fight of the Year vs. Kamaru Usman at UFC 245",
+    "2019 #5 Ranked UFC Fight of the Year vs. Kamaru Usman at UFC 245",
+    "ESPN 2019 Rivalry of the Year vs. Kamaru Usman",
+    "2019 Rivalry of the Year vs. Kamaru Usman"
+  ],
+  "image_commons": "ColbyCovingtonFortJackson2022(cropped).jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Colby_Covington",
+    "wikidata": "https://www.wikidata.org/wiki/Q19668838",
+    "ufc_com": "https://www.ufc.com/athlete/colby-covington"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 50,
+    "puissance": 44,
+    "lutte": 66,
+    "soumission": 49,
+    "defense": 69,
+    "cardio": 94,
+    "menton": 75,
+    "globale": 64,
+    "style": "lutteur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

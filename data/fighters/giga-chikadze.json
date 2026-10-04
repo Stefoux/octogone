@@ -1,0 +1,151 @@
+{
+  "id": "giga-chikadze",
+  "nom": "Giga Chikadze",
+  "ufc_slug": "giga-chikadze",
+  "wikipedia_titre": "Giga Chikadze",
+  "surnom": "Ninja",
+  "sexe": "M",
+  "pays": "GE",
+  "categorie": "plume",
+  "statut": "actif",
+  "date_naissance": "1988-08-25",
+  "taille_cm": 183,
+  "allonge_cm": 188,
+  "style": "Karate",
+  "lieu_naissance": "Tbilisi, Georgia",
+  "palmares": {
+    "victoires": 15,
+    "defaites": 7,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 9,
+    "victoires_soumission": 1,
+    "victoires_decision": 5,
+    "defaites_ko": 2,
+    "defaites_soumission": 1,
+    "defaites_decision": 4
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.75,
+    "precision_frappe_pct": 43,
+    "frappes_encaissees_par_min": 3.55,
+    "defense_frappe_pct": 59.0,
+    "takedowns_par_15min": 0.18,
+    "precision_takedown_pct": 17,
+    "defense_takedown_pct": 66.0,
+    "soumissions_par_15min": 0.18,
+    "knockdowns_par_15min": 0.53,
+    "duree_moyenne_combat_s": 725,
+    "frappes_reussies": 634.0,
+    "takedowns_reussis": 1.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 15,
+      "defaites": 7,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 9,
+        "soumission": 1,
+        "decision": 5,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 1,
+        "decision": 4,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2018": 1,
+      "2019": 1,
+      "2020": 4,
+      "2021": 2,
+      "2022": 1,
+      "2023": 1,
+      "2024": 1,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Joanderson Brito",
+      "evenement": "UFC 331",
+      "date": "19 September 2026",
+      "resultat": "Loss",
+      "methode": "KO (punches)"
+    },
+    "combats_ufc": 14,
+    "victoires_ufc": 8,
+    "defaites_ufc": 6,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 1,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Calvin Kattar",
+        "evenement": "UFC on ESPN: Kattar vs. Chikadze",
+        "date": "15 January 2022"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 6
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Austin Springer",
+      "evenement": "Dana White's Contender Series 10",
+      "date": "19 June 2018",
+      "resultat": "Loss",
+      "methode": "Submission (rear-naked choke)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Performance of the Night (Three times) vs. Jamey Simmons, Cub Swanson and Edson Barboza",
+    "Fight of the Night (One time) vs. Calvin Kattar",
+    "2022 Forrest Griffin Community Award",
+    "UFC.com Awards 2022: Ranked #8 Fight of the Year vs. Calvin Kattar",
+    "2022: Ranked #8 Fight of the Year vs. Calvin Kattar",
+    "MMA Junkie 2020 Under-the-Radar Fighter of the Year  2021 Breakout Fighter of the Year",
+    "2020 Under-the-Radar Fighter of the Year",
+    "2021 Breakout Fighter of the Year"
+  ],
+  "image_commons": "Giga Chikadze post fight interview at UFC Fight Night 160 in Copenhagen.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Giga_Chikadze",
+    "wikidata": "https://www.wikidata.org/wiki/Q95453345",
+    "ufc_com": "https://www.ufc.com/athlete/giga-chikadze"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 55,
+    "puissance": 72,
+    "lutte": 46,
+    "soumission": 42,
+    "defense": 70,
+    "cardio": 61,
+    "menton": 75,
+    "globale": 60,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

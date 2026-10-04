@@ -1,0 +1,192 @@
+{
+  "id": "sean-o-malley",
+  "nom": "Sean O'Malley",
+  "ufc_slug": "sean-omalley",
+  "wikipedia_titre": "Sean O'Malley (fighter)",
+  "surnom": "Suga",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "coq",
+  "statut": "actif",
+  "date_naissance": "1994-10-24",
+  "taille_cm": 180,
+  "allonge_cm": 183,
+  "style": null,
+  "lieu_naissance": "Helena, États-Unis",
+  "palmares": {
+    "victoires": 20,
+    "defaites": 3,
+    "nuls": 0,
+    "sans_decision": 1,
+    "victoires_ko": 13,
+    "victoires_soumission": 1,
+    "victoires_decision": 6,
+    "defaites_ko": 1,
+    "defaites_soumission": 1,
+    "defaites_decision": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": 5.98,
+    "precision_frappe_pct": 60,
+    "frappes_encaissees_par_min": 3.4,
+    "defense_frappe_pct": 60.0,
+    "takedowns_par_15min": 0.23,
+    "precision_takedown_pct": 43,
+    "defense_takedown_pct": 61.0,
+    "soumissions_par_15min": 0.23,
+    "knockdowns_par_15min": 0.7,
+    "duree_moyenne_combat_s": 684,
+    "frappes_reussies": 1158.0,
+    "takedowns_reussis": 3.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 20,
+      "defaites": 3,
+      "nuls": 0,
+      "sans_decision": 1,
+      "v": {
+        "ko": 13,
+        "soumission": 1,
+        "decision": 6,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 1,
+        "decision": 1,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2017": 2,
+      "2018": 1,
+      "2020": 3,
+      "2021": 3,
+      "2022": 2,
+      "2023": 1,
+      "2024": 2,
+      "2025": 1,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Aiemann Zahabi",
+      "evenement": "UFC Freedom 250",
+      "date": "June 14, 2026",
+      "resultat": "Win",
+      "methode": "TKO (punches)"
+    },
+    "combats_ufc": 17,
+    "victoires_ufc": 13,
+    "defaites_ufc": 3,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 3,
+    "bonus_potn": 6,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Petr Yan",
+        "evenement": "UFC 280",
+        "date": "October 22, 2022"
+      },
+      {
+        "adversaire": "Kris Moutinho",
+        "evenement": "UFC 264",
+        "date": "July 10, 2021"
+      },
+      {
+        "adversaire": "Andre Soukhamthath",
+        "evenement": "UFC 222",
+        "date": "March 3, 2018"
+      }
+    ],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Bantamweight Championship",
+        "evenement": "UFC 299",
+        "date": "March 9, 2024"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Bantamweight Championship",
+        "evenement": "UFC 292",
+        "date": "August 19, 2023"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 10
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Alfred Khashakyan",
+      "evenement": "Dana White's Contender Series 2",
+      "date": "July 18, 2017",
+      "resultat": "Win",
+      "methode": "KO (punch)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "One successful title defense",
+    "Most significant strikes landed in a UFC Bantamweight title fight (230) vs Marlon Vera 2",
+    "Fourth highest striking differential in a UFC title fight (141) vs Marlon Vera 2",
+    "Fight of the Night (Three times) vs. Andre Soukhamthath , Kris Moutinho, and Petr Yan",
+    "Most Post-Fight bonuses in UFC Bantamweight division history (9)",
+    "Tied ( T.J. Dillashaw & Marlon Vera ) for most knockouts in UFC Bantamweight division history (7)",
+    "Tied ( Urijah Faber , Rob Font & Song Yadong ) for third most finishes in UFC Bantamweight division history (7)",
+    "Highest significant strike accuracy percentage in UFC Bantamweight division history (60.3%)",
+    "Fourth most strikes landed-per-minute in UFC Bantamweight division history (5.97)",
+    "Tied ( Raphael Assunção , Petr Yan & Mario Bautista ) for fifth most wins in UFC Bantamweight division history (12)",
+    "Third highest significant strike differential in UFC Bantamweight division history (2.63)",
+    "Highest striking differential in a UFC Bantamweight bout (160) vs Kris Moutinho",
+    "Second highest striking differential in a UFC Bantamweight bout (141) vs Marlon Vera 2",
+    "UFC Honors Awards 2023: President's Choice Performance of the Year Winner vs. Aljamain Sterling  & Fan's Choice Knockout of the Year Nominee vs. Aljamain Sterling",
+    "2023: President's Choice Performance of the Year Winner vs. Aljamain Sterling  & Fan's Choice Knockout of the Year Nominee vs. Aljamain Sterling",
+    "UFC.com Awards 2020: Ranked #3 Knockout of the Year vs. Eddie Wineland  2022: Ranked #2 Upset of the Year  & Ranked #10 Fight of the Year vs. Petr Yan",
+    "2020: Ranked #3 Knockout of the Year vs. Eddie Wineland",
+    "2022: Ranked #2 Upset of the Year  & Ranked #10 Fight of the Year vs. Petr Yan",
+    "Intense Championship Fighting ICF Bantamweight Championship (One time)",
+    "ICF Bantamweight Championship (One time)",
+    "Sherdog.com Sherdog's 2022 Robbery of the Year",
+    "Sherdog's 2022 Robbery of the Year",
+    "ESPYs Best MMA Fighter ESPY Award (2024)",
+    "Best MMA Fighter ESPY Award (2024)"
+  ],
+  "image_commons": "Sean O'Malley in 2024.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Sean_O'Malley_(fighter)",
+    "wikidata": "https://www.wikidata.org/wiki/Q45189135",
+    "ufc_com": "https://www.ufc.com/athlete/sean-omalley"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 83,
+    "puissance": 78,
+    "lutte": 53,
+    "soumission": 41,
+    "defense": 72,
+    "cardio": 67,
+    "menton": 87,
+    "globale": 69,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

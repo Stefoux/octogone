@@ -1,0 +1,171 @@
+{
+  "id": "jamahal-hill",
+  "nom": "Jamahal Hill",
+  "ufc_slug": "jamahal-hill",
+  "wikipedia_titre": "Jamahal Hill",
+  "surnom": "Sweet Dreams",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "mi_lourds",
+  "statut": "actif",
+  "date_naissance": "1991-05-19",
+  "taille_cm": 193,
+  "allonge_cm": 201,
+  "style": "AMM",
+  "lieu_naissance": "Chicago, États-Unis",
+  "palmares": {
+    "victoires": 12,
+    "defaites": 4,
+    "nuls": 0,
+    "sans_decision": 1,
+    "victoires_ko": 7,
+    "victoires_soumission": 0,
+    "victoires_decision": 5,
+    "defaites_ko": 3,
+    "defaites_soumission": 0,
+    "defaites_decision": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": 6.19,
+    "precision_frappe_pct": 52,
+    "frappes_encaissees_par_min": 4.03,
+    "defense_frappe_pct": 45.0,
+    "takedowns_par_15min": 0.0,
+    "precision_takedown_pct": null,
+    "defense_takedown_pct": 73.0,
+    "soumissions_par_15min": 0.0,
+    "knockdowns_par_15min": 0.48,
+    "duree_moyenne_combat_s": 622,
+    "frappes_reussies": 770.0,
+    "takedowns_reussis": null
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 12,
+      "defaites": 4,
+      "nuls": 0,
+      "sans_decision": 1,
+      "v": {
+        "ko": 7,
+        "soumission": 0,
+        "decision": 5,
+        "autre": 0
+      },
+      "d": {
+        "ko": 3,
+        "soumission": 0,
+        "decision": 1,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2019": 1,
+      "2020": 3,
+      "2021": 2,
+      "2022": 2,
+      "2023": 1,
+      "2024": 1,
+      "2025": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Khalil Rountree Jr.",
+      "evenement": "UFC on ABC: Hill vs. Rountree Jr.",
+      "date": "June 21, 2025",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 12,
+    "victoires_ufc": 7,
+    "defaites_ufc": 4,
+    "victoires_decision_5_rounds": 2,
+    "combats_5_rounds_gagnes": 3,
+    "bonus_fotn": 2,
+    "bonus_potn": 2,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Glover Teixeira",
+        "evenement": "UFC 283",
+        "date": "January 21, 2023"
+      },
+      {
+        "adversaire": "Thiago Santos",
+        "evenement": "UFC on ESPN: Santos vs. Hill",
+        "date": "August 6, 2022"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 7
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Alexander Poppeck",
+      "evenement": "Dana White's Contender Series 21",
+      "date": "July 23, 2019",
+      "resultat": "Win",
+      "methode": "TKO (punches and elbows)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Second highest significant strike differential in UFC championship history (+157 vs. Glover Teixeira )",
+    "Second most significant strikes landed in a title fight (232 vs. Glover Teixeira )",
+    "The first Dana White's Contender Series alum to become a UFC champion",
+    "Fight of the Night (Two times) vs. Thiago Santos and Glover Teixeira",
+    "Performance of the Night (Two times) vs. Jimmy Crute and Johnny Walker",
+    "Second most significant strikes landed-per-minute in UFC Light Heavyweight division history (6.85)",
+    "Second highest striking differential in UFC Light Heavyweight division history (3.4)",
+    "Most distant strikes landed in a UFC Light Heavyweight bout (188) vs. Glover Teixeira",
+    "Most significant head strikes landed in a UFC Light Heavyweight bout (180) vs. Glover Teixeira",
+    "Second most significant strikes attempted in a UFC Light Heavyweight bout (402) vs. Glover Teixeira",
+    "Second most total strikes attempted in a UFC Light Heavyweight bout (419) vs. Glover Teixeira",
+    "Second most total head strikes landed in a UFC Light Heavyweight bout (190) vs. Glover Teixeira",
+    "UFC Honors Awards 2023: President's Choice Fight of the Year Nominee vs. Glover Teixeira",
+    "2023: President's Choice Fight of the Year Nominee vs. Glover Teixeira",
+    "UFC.com Awards 2020: Ranked #6 Newcomer of the Year  2022: Ranked #8 Fighter of the Year  2023: Ranked #5 Fight of the Year vs. Glover Teixeira",
+    "2020: Ranked #6 Newcomer of the Year",
+    "2022: Ranked #8 Fighter of the Year",
+    "2023: Ranked #5 Fight of the Year vs. Glover Teixeira",
+    "KnockOut Promotions KOP Light Heavyweight Championship (One time)",
+    "KOP Light Heavyweight Championship (One time)",
+    "MMAjunkie.com 2022 February Knockout of the Month vs. Johnny Walker  2023 January Fight of the Month vs. Glover Teixeira",
+    "2022 February Knockout of the Month vs. Johnny Walker",
+    "2023 January Fight of the Month vs. Glover Teixeira",
+    "MMA Fighting 2022 Third Team MMA All-Star",
+    "2022 Third Team MMA All-Star"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Jamahal_Hill",
+    "wikidata": "https://www.wikidata.org/wiki/Q97171293",
+    "ufc_com": "https://www.ufc.com/athlete/jamahal-hill"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 76,
+    "puissance": 70,
+    "lutte": 52,
+    "soumission": 37,
+    "defense": 54,
+    "cardio": 71,
+    "menton": 56,
+    "globale": 59,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

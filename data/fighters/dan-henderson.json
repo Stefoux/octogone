@@ -1,0 +1,205 @@
+{
+  "id": "dan-henderson",
+  "nom": "Dan Henderson",
+  "ufc_slug": "dan-henderson",
+  "wikipedia_titre": "Dan Henderson",
+  "surnom": "Hendo",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "moyens",
+  "statut": "retraite",
+  "date_naissance": "1970-08-24",
+  "taille_cm": 180,
+  "allonge_cm": 188,
+  "style": "Greco-Roman wrestling",
+  "lieu_naissance": "Downey, États-Unis",
+  "palmares": {
+    "victoires_ko": 17,
+    "victoires_soumission": 1,
+    "victoires_decision": 14,
+    "defaites_ko": 3,
+    "defaites_soumission": 4,
+    "defaites_decision": 8,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires": 32,
+    "defaites": 15
+  },
+  "stats_ufc": {
+    "frappes_par_min": null,
+    "precision_frappe_pct": null,
+    "frappes_encaissees_par_min": null,
+    "defense_frappe_pct": null,
+    "takedowns_par_15min": null,
+    "precision_takedown_pct": null,
+    "defense_takedown_pct": null,
+    "soumissions_par_15min": null,
+    "knockdowns_par_15min": null,
+    "duree_moyenne_combat_s": null,
+    "frappes_reussies": null,
+    "takedowns_reussis": null
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 26,
+      "defaites": 15,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 14,
+        "soumission": 1,
+        "decision": 11,
+        "autre": 0
+      },
+      "d": {
+        "ko": 3,
+        "soumission": 4,
+        "decision": 8,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "1998": 1,
+      "2007": 1,
+      "2008": 2,
+      "2009": 2,
+      "2011": 1,
+      "2013": 3,
+      "2014": 2,
+      "2015": 3,
+      "2016": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Michael Bisping",
+      "evenement": "UFC 204",
+      "date": "October 8, 2016",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 17,
+    "victoires_ufc": 8,
+    "defaites_ufc": 9,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 4,
+    "bonus_potn": 2,
+    "bonus_kotn": 1,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Michael Bisping",
+        "evenement": "UFC 204",
+        "date": "October 8, 2016"
+      },
+      {
+        "adversaire": "Maurício Rua",
+        "evenement": "UFC Fight Night: Shogun vs. Henderson 2",
+        "date": "March 23, 2014"
+      },
+      {
+        "adversaire": "Maurício Rua",
+        "evenement": "UFC 139",
+        "date": "November 19, 2011"
+      },
+      {
+        "adversaire": "Anderson Silva",
+        "evenement": "UFC 82",
+        "date": "March 1, 2008"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 11
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Carlos Newton",
+      "evenement": "UFC 17",
+      "date": "May 15, 1998",
+      "resultat": "Win",
+      "methode": "Decision (split)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "UFC Hall of Fame (Fight Wing, Class of 2018) vs. Maurício Rua 1 at UFC 139",
+    "UFC 17 Middleweight Tournament Championship",
+    "Fight of the Night (Four times) vs. Anderson Silva , Maurício Rua 1, Maurício Rua 2 and Michael Bisping 2",
+    "Knockout of the Night (One time) vs. Michael Bisping 1",
+    "Performance of the Night (Two times) vs. Maurício Rua 2 and Héctor Lombard",
+    "UFC Encyclopedia Awards Fight of the Night (One time) vs. Carlos Newton",
+    "Fight of the Night (One time) vs. Carlos Newton",
+    "Tied ( Charles Oliveira & Neil Magny ) for fourth most wins in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (25)",
+    "Thrid most knockdowns in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (20)",
+    "Oldest combatant to fight for a UFC championship (46 years)",
+    "2009: Ranked #8 Fighter of the Year  & Ranked #4 Knockout of the Year vs. Michael Bisping 1",
+    "2011: Fight of the Year vs. Maurício Rua 1  & Ranked #6 Fighter of the Year (Tied with Nate Diaz )",
+    "2014: Ranked #6 Knockout of the Year  & Ranked #9 Fight of the Year vs. Maurício Rua 2",
+    "2016: Ranked #9 Knockout of the Year vs. Héctor Lombard",
+    "Pride Middleweight Championship (One time; Last)",
+    "Pride Welterweight Championship (One time; First; Last)",
+    "2005 Pride Welterweight Grand Prix Champion",
+    "First combatant to win Pride championships in multiple weight classes",
+    "First combatant to simultaneously hold multiple Pride championships",
+    "One of only two fighters to win Tournaments in both Pride FC and UFC",
+    "Strikeforce Strikeforce Light Heavyweight Championship (One time, Last) Oldest combatant to win a Strikeforce championship (40 years, 194 days)",
+    "Strikeforce Light Heavyweight Championship (One time, Last)",
+    "Oldest combatant to win a Strikeforce championship (40 years, 194 days)",
+    "Fighting Network RINGS RINGS King of Kings 1999 Tournament Winner",
+    "RINGS King of Kings 1999 Tournament Winner",
+    "Brazil Open Fight Brazil Open 1997 Lightweight Tournament Winner",
+    "Brazil Open 1997 Lightweight Tournament Winner",
+    "World MMA Awards 2009 Knockout of the Year vs. Michael Bisping at UFC 100",
+    "2009 Knockout of the Year vs. Michael Bisping at UFC 100",
+    "ESPN 2011 Fight of the Year vs. Maurício Rua on November 19 2011 Round of the Year vs. Maurício Rua on November 19; Round 1",
+    "2011 Fight of the Year vs. Maurício Rua on November 19",
+    "2011 Round of the Year vs. Maurício Rua on November 19; Round 1",
+    "Sherdog 2011 All-Violence Second Team",
+    "2011 All-Violence Second Team",
+    "Inside MMA 2011 Fight of the Year Bazzie Award vs. Maurício Rua on November 19",
+    "2011 Fight of the Year Bazzie Award vs. Maurício Rua on November 19",
+    "Inside Fights 2009 Knockout of the Year vs. Michael Bisping on July 11",
+    "2009 Knockout of the Year vs. Michael Bisping on July 11",
+    "Cagewriters 2009 Knockout of the Year vs. Michael Bisping at UFC 100",
+    "2009 Knockout of the Year vs. Michael Bisping at UFC 100"
+  ],
+  "image_commons": "DanHenderson.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Dan_Henderson",
+    "wikidata": "https://www.wikidata.org/wiki/Q548861",
+    "ufc_com": "https://www.ufc.com/athlete/dan-henderson"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_infobox",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "stats_ufc (absentes de la fiche ufc.com)"
+  ],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 26-15, wikipedia_infobox 32-15, ufc_com 32-15"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 65,
+    "puissance": 71,
+    "lutte": 65,
+    "soumission": 38,
+    "defense": 65,
+    "cardio": 55,
+    "menton": 73,
+    "globale": 62,
+    "style": "complet",
+    "estimees": [
+      "frappe",
+      "lutte",
+      "defense"
+    ],
+    "formule_version": 1
+  }
+}

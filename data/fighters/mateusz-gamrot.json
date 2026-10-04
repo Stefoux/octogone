@@ -1,0 +1,190 @@
+{
+  "id": "mateusz-gamrot",
+  "nom": "Mateusz Gamrot",
+  "ufc_slug": "dan-hooker",
+  "wikipedia_titre": "Dan Hooker",
+  "surnom": "The Hangman",
+  "sexe": "M",
+  "pays": "NZ",
+  "categorie": "legers",
+  "statut": "actif",
+  "date_naissance": "1990-02-13",
+  "taille_cm": 183,
+  "allonge_cm": 190,
+  "style": "AMM",
+  "lieu_naissance": "Aukland, Nouvelle-Zélande",
+  "palmares": {
+    "victoires": 24,
+    "defaites": 15,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 11,
+    "victoires_soumission": 7,
+    "victoires_decision": 6,
+    "defaites_ko": 5,
+    "defaites_soumission": 4,
+    "defaites_decision": 6
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.82,
+    "precision_frappe_pct": 49,
+    "frappes_encaissees_par_min": 4.94,
+    "defense_frappe_pct": 49.0,
+    "takedowns_par_15min": 0.67,
+    "precision_takedown_pct": 9,
+    "defense_takedown_pct": 77.0,
+    "soumissions_par_15min": 0.55,
+    "knockdowns_par_15min": 0.55,
+    "duree_moyenne_combat_s": 590,
+    "frappes_reussies": 1185.0,
+    "takedowns_reussis": 3.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 24,
+      "defaites": 15,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 11,
+        "soumission": 7,
+        "decision": 6,
+        "autre": 0
+      },
+      "d": {
+        "ko": 5,
+        "soumission": 4,
+        "decision": 6,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2014": 2,
+      "2015": 2,
+      "2016": 2,
+      "2017": 2,
+      "2018": 3,
+      "2019": 2,
+      "2020": 2,
+      "2021": 3,
+      "2022": 2,
+      "2023": 1,
+      "2024": 1,
+      "2025": 1,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Salahdine Parnasse",
+      "evenement": "UFC Fight Night: Hooker vs. Parnasse",
+      "date": "5 September 2026",
+      "resultat": "Loss",
+      "methode": "TKO (body kick and punches)"
+    },
+    "combats_ufc": 25,
+    "victoires_ufc": 14,
+    "defaites_ufc": 11,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 3,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Mateusz Gamrot",
+        "evenement": "UFC 305",
+        "date": "18 August 2024"
+      },
+      {
+        "adversaire": "Dustin Poirier",
+        "evenement": "UFC on ESPN: Poirier vs. Hooker",
+        "date": "27 June 2020"
+      },
+      {
+        "adversaire": "Paul Felder",
+        "evenement": "UFC Fight Night: Felder vs. Hooker",
+        "date": "23 February 2020"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 5
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Ian Entwistle",
+      "evenement": "UFC Fight Night: Te Huna vs. Marquardt",
+      "date": "28 June 2014",
+      "resultat": "Win",
+      "methode": "TKO (elbows)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Performance of the Night (Three times) vs. Hatsu Hioki , Ross Pearson and James Vick",
+    "Fight of the Night (Three times) vs. Paul Felder , Dustin Poirier and Mateusz Gamrot",
+    "UFC Honors Awards 2020: President's Choice Fight of the Year Nominee vs. Dustin Poirier  2024: President's Choice Fight of the Year Nominee vs. Mateusz Gamrot",
+    "2020: President's Choice Fight of the Year Nominee vs. Dustin Poirier",
+    "2024: President's Choice Fight of the Year Nominee vs. Mateusz Gamrot",
+    "2015: Ranked #8 Upset of the Year vs. Hatsu Hioki",
+    "2020: Ranked #3 Fight of the Year vs. Dustin Poirier  & Ranked #5 Fight of the Year vs. Paul Felder",
+    "2023: Ranked #6 Fight of the Year vs. Jalin Turner",
+    "2024: Ranked #8 Fight of the Year vs. Mateusz Gamrot",
+    "Australian Fighting Championship AFC Lightweight Championship (One time)  Two successful title defenses",
+    "AFC Lightweight Championship (One time)  Two successful title defenses",
+    "Two successful title defenses",
+    "Supremacy Fighting Championships New Zealand Lightweight Championship",
+    "New Zealand Lightweight Championship",
+    "MMA Junkie 2015 May Knockout of the Month vs. Hatsu Hioki  2020 February Fight of the Month vs. Paul Felder  2020 June Fight of the Month vs. Dustin Poirier",
+    "2015 May Knockout of the Month vs. Hatsu Hioki",
+    "2020 February Fight of the Month vs. Paul Felder",
+    "2020 June Fight of the Month vs. Dustin Poirier",
+    "ESPN 2020 Round of the Year Round 2 vs. Dustin Poirier at UFC on ESPN: Poirier vs. Hooker  2024 Most improved",
+    "2020 Round of the Year Round 2 vs. Dustin Poirier at UFC on ESPN: Poirier vs. Hooker",
+    "2024 Most improved",
+    "MMA Mania 2024 #3 Ranked Fight of the Year vs. Mateusz Gamrot at UFC 305",
+    "2024 #3 Ranked Fight of the Year vs. Mateusz Gamrot at UFC 305",
+    "CBS Sports 2020 #3 Ranked UFC Fight of the Year vs. Dustin Poirier",
+    "2020 #3 Ranked UFC Fight of the Year vs. Dustin Poirier",
+    "LowKick MMA 2023 Comeback of the Year vs. Jalin Turner at UFC 290",
+    "2023 Comeback of the Year vs. Jalin Turner at UFC 290",
+    "Combat Press 2024 Fight of the Year vs. Mateusz Gamrot at UFC 305",
+    "2024 Fight of the Year vs. Mateusz Gamrot at UFC 305",
+    "World Kickboxing Federation WKBF X-Rules Welterweight Championship",
+    "WKBF X-Rules Welterweight Championship",
+    "King in the Ring King in the Ring Middleweight Championship",
+    "King in the Ring Middleweight Championship"
+  ],
+  "image_commons": "DanHooker2016.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Dan_Hooker",
+    "wikidata": "https://www.wikidata.org/wiki/Q19946041",
+    "ufc_com": "https://www.ufc.com/athlete/dan-hooker"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 67,
+    "puissance": 64,
+    "lutte": 52,
+    "soumission": 57,
+    "defense": 50,
+    "cardio": 62,
+    "menton": 53,
+    "globale": 58,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

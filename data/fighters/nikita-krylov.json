@@ -1,0 +1,147 @@
+{
+  "id": "nikita-krylov",
+  "nom": "Nikita Krylov",
+  "ufc_slug": "nikita-krylov",
+  "wikipedia_titre": "Nikita Krylov",
+  "surnom": "The Miner",
+  "sexe": "M",
+  "pays": "UA",
+  "categorie": "mi_lourds",
+  "statut": "actif",
+  "date_naissance": "1992-03-07",
+  "taille_cm": 190,
+  "allonge_cm": 197,
+  "style": "Karaté",
+  "lieu_naissance": "Donetsk, Ukraine",
+  "palmares": {
+    "victoires": 31,
+    "defaites": 12,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 13,
+    "victoires_soumission": 16,
+    "victoires_decision": 2,
+    "defaites_ko": 4,
+    "defaites_soumission": 6,
+    "defaites_decision": 2
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.38,
+    "precision_frappe_pct": 54,
+    "frappes_encaissees_par_min": 2.75,
+    "defense_frappe_pct": 48.0,
+    "takedowns_par_15min": 2.19,
+    "precision_takedown_pct": 2,
+    "defense_takedown_pct": 53.0,
+    "soumissions_par_15min": 1.14,
+    "knockdowns_par_15min": 0.57,
+    "duree_moyenne_combat_s": 429,
+    "frappes_reussies": 689.0,
+    "takedowns_reussis": 1.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 31,
+      "defaites": 12,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 13,
+        "soumission": 16,
+        "decision": 2,
+        "autre": 0
+      },
+      "d": {
+        "ko": 4,
+        "soumission": 6,
+        "decision": 2,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2013": 1,
+      "2014": 3,
+      "2015": 2,
+      "2016": 3,
+      "2018": 1,
+      "2019": 2,
+      "2020": 1,
+      "2021": 1,
+      "2022": 3,
+      "2023": 1,
+      "2025": 2,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Robert Whittaker",
+      "evenement": "UFC 329",
+      "date": "July 11, 2026",
+      "resultat": "Loss",
+      "methode": "TKO (jaw injury)"
+    },
+    "combats_ufc": 22,
+    "victoires_ufc": 12,
+    "defaites_ufc": 10,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 10
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Soa Palelei",
+      "evenement": "UFC 164",
+      "date": "August 31, 2013",
+      "resultat": "Loss",
+      "methode": "TKO (punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Performance of the Night (One time) vs. Alexander Gustafsson",
+    "Tied ( Mauricio Rua , Paul Craig & Anthony Smith ) for fifth most finishes in UFC Light Heavyweight division history (8)",
+    "Second latest knockout/finish in a three-round Light Heavyweight bout (4:57 in R3) (vs. Modestas Bukauskas )",
+    "Fight Nights Global FNG Light heavyweight Championship (One time)",
+    "FNG Light heavyweight Championship (One time)",
+    "Gladiators FC GFC 2 Heavyweight Tournament Winner",
+    "GFC 2 Heavyweight Tournament Winner"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Nikita_Krylov",
+    "wikidata": "https://www.wikidata.org/wiki/Q15710959",
+    "ufc_com": "https://www.ufc.com/athlete/nikita-krylov"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 69,
+    "puissance": 62,
+    "lutte": 50,
+    "soumission": 78,
+    "defense": 64,
+    "cardio": 45,
+    "menton": 63,
+    "globale": 62,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

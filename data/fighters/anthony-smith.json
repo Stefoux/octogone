@@ -1,0 +1,156 @@
+{
+  "id": "anthony-smith",
+  "nom": "Anthony Smith",
+  "ufc_slug": "anthony-smith",
+  "wikipedia_titre": "Anthony Smith (fighter)",
+  "surnom": "Lionheart",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "mi_lourds",
+  "statut": "retraite",
+  "date_naissance": "1988-07-26",
+  "taille_cm": 193,
+  "allonge_cm": 193,
+  "style": "Freestyle",
+  "lieu_naissance": "Corpus Christi, United States",
+  "palmares": {
+    "victoires": 39,
+    "defaites": 23,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 20,
+    "victoires_soumission": 16,
+    "victoires_decision": 3,
+    "defaites_ko": 14,
+    "defaites_soumission": 4,
+    "defaites_decision": 5
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.19,
+    "precision_frappe_pct": 49,
+    "frappes_encaissees_par_min": 5.04,
+    "defense_frappe_pct": 45.0,
+    "takedowns_par_15min": 0.44,
+    "precision_takedown_pct": 9,
+    "defense_takedown_pct": 50.0,
+    "soumissions_par_15min": 0.6,
+    "knockdowns_par_15min": 0.38,
+    "duree_moyenne_combat_s": 579,
+    "frappes_reussies": 875.0,
+    "takedowns_reussis": 3.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 39,
+      "defaites": 23,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 20,
+        "soumission": 16,
+        "decision": 3,
+        "autre": 0
+      },
+      "d": {
+        "ko": 14,
+        "soumission": 4,
+        "decision": 5,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2013": 1,
+      "2016": 3,
+      "2017": 2,
+      "2018": 4,
+      "2019": 2,
+      "2020": 3,
+      "2021": 2,
+      "2022": 1,
+      "2023": 3,
+      "2024": 3,
+      "2025": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Jordan Heiderman",
+      "evenement": "Gamebred Bareknuckle MMA 12",
+      "date": "October 2, 2026",
+      "resultat": "Loss",
+      "methode": "TKO (punches)"
+    },
+    "combats_ufc": 25,
+    "victoires_ufc": 13,
+    "defaites_ufc": 12,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 1,
+    "bonus_potn": 6,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Thiago Santos",
+        "evenement": "UFC Fight Night: Machida vs. Anders",
+        "date": "February 3, 2018"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 14
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Antônio Braga Neto",
+      "evenement": "UFC on Fuel TV: Nogueira vs. Werdum",
+      "date": "June 8, 2013",
+      "resultat": "Loss",
+      "methode": "Submission (kneebar)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Performance of the Night (Six times) vs. Elvis Mutapčić , Maurício Rua , Volkan Oezdemir , Alexander Gustafsson , Devin Clark and Ryan Spann",
+    "Fight of the Night (One time) vs. Thiago Santos",
+    "Tied ( Mauricio Rua , Paul Craig & Nikita Krylov ) for fifth most finishes in UFC Light Heavyweight division history (8)",
+    "UFC.com Awards 2018: Ranked #6 Fighter of the Year",
+    "2018: Ranked #6 Fighter of the Year",
+    "Cage Fury Fighting Championships CFFC Middleweight Championship (One time)",
+    "CFFC Middleweight Championship (One time)",
+    "Victory Fighting Championships Victory FC Middleweight Championship (One time)",
+    "Victory FC Middleweight Championship (One time)"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Anthony_Smith_(fighter)",
+    "wikidata": "https://www.wikidata.org/wiki/Q4773486",
+    "ufc_com": "https://www.ufc.com/athlete/anthony-smith"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 39-23, wikipedia_infobox 39-23, ufc_com 38-22"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 58,
+    "puissance": 65,
+    "lutte": 40,
+    "soumission": 64,
+    "defense": 45,
+    "cardio": 53,
+    "menton": 33,
+    "globale": 51,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

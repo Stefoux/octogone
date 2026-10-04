@@ -1,0 +1,228 @@
+{
+  "id": "michael-bisping",
+  "nom": "Michael Bisping",
+  "ufc_slug": "michael-bisping",
+  "wikipedia_titre": "Michael Bisping",
+  "surnom": "The Count",
+  "sexe": "M",
+  "pays": "GB",
+  "categorie": "moyens",
+  "statut": "retraite",
+  "date_naissance": "1979-02-28",
+  "taille_cm": 185,
+  "allonge_cm": 192,
+  "style": null,
+  "lieu_naissance": "England, Royaume-Uni",
+  "palmares": {
+    "victoires": 30,
+    "defaites": 9,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 18,
+    "victoires_soumission": 2,
+    "victoires_decision": 9,
+    "defaites_ko": 3,
+    "defaites_soumission": 2,
+    "defaites_decision": 4
+  },
+  "stats_ufc": {
+    "frappes_par_min": null,
+    "precision_frappe_pct": null,
+    "frappes_encaissees_par_min": null,
+    "defense_frappe_pct": null,
+    "takedowns_par_15min": null,
+    "precision_takedown_pct": null,
+    "defense_takedown_pct": null,
+    "soumissions_par_15min": null,
+    "knockdowns_par_15min": null,
+    "duree_moyenne_combat_s": null,
+    "frappes_reussies": null,
+    "takedowns_reussis": null
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 30,
+      "defaites": 9,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 18,
+        "soumission": 2,
+        "decision": 9,
+        "autre": 1
+      },
+      "d": {
+        "ko": 3,
+        "soumission": 2,
+        "decision": 4,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2006": 2,
+      "2007": 3,
+      "2008": 3,
+      "2009": 2,
+      "2010": 3,
+      "2011": 2,
+      "2012": 2,
+      "2013": 2,
+      "2014": 3,
+      "2015": 2,
+      "2016": 3,
+      "2017": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Kelvin Gastelum",
+      "evenement": "UFC Fight Night: Bisping vs. Gastelum",
+      "date": "25 November 2017",
+      "resultat": "Loss",
+      "methode": "KO (punch)"
+    },
+    "combats_ufc": 29,
+    "victoires_ufc": 20,
+    "defaites_ufc": 9,
+    "victoires_decision_5_rounds": 3,
+    "combats_5_rounds_gagnes": 4,
+    "bonus_fotn": 5,
+    "bonus_potn": 2,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Dan Henderson",
+        "evenement": "UFC 204",
+        "date": "8 October 2016"
+      },
+      {
+        "adversaire": "Anderson Silva",
+        "evenement": "UFC Fight Night: Silva vs. Bisping",
+        "date": "27 February 2016"
+      },
+      {
+        "adversaire": "Yoshihiro Akiyama",
+        "evenement": "UFC 120",
+        "date": "16 October 2010"
+      },
+      {
+        "adversaire": "Denis Kang",
+        "evenement": "UFC 105",
+        "date": "14 November 2009"
+      },
+      {
+        "adversaire": "Elvis Sinosic",
+        "evenement": "UFC 70",
+        "date": "21 April 2007"
+      }
+    ],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Middleweight Championship",
+        "evenement": "UFC 204",
+        "date": "8 October 2016"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Middleweight Championship",
+        "evenement": "UFC 199",
+        "date": "4 June 2016"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 11
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Josh Haynes",
+      "evenement": "The Ultimate Fighter: Team Ortiz vs. Team Shamrock Finale",
+      "date": "24 June 2006",
+      "resultat": "Win",
+      "methode": "TKO (punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "UFC Hall of Fame ( Modern wing , Class of 2019)",
+    "UFC Middleweight Championship (one time) One successful title defence vs. Dan Henderson First British champion in UFC history",
+    "One successful title defence vs. Dan Henderson",
+    "First British champion in UFC history",
+    "The Ultimate Fighter 3 Light Heavyweight Tournament Winner",
+    "Fight of the Night (Five times) vs. Elvis Sinosic , Denis Kang , Yoshihiro Akiyama , Anderson Silva and Dan Henderson 1",
+    "Performance of the Night (Two times) vs. Cung Le and Luke Rockhold 2",
+    "UFC Encyclopedia Awards Knockout of the Night (One time) vs. Josh Haynes",
+    "Knockout of the Night (One time) vs. Josh Haynes",
+    "Most wins in UFC Middleweight division history (16)",
+    "Third most bouts in UFC Middleweight division history (24) (behind Brad Tavares )",
+    "Second most total fight time in UFC Middleweight division history (5:15:15) (behind Brad Tavares )",
+    "Second most significant strikes landed in UFC Middleweight division history (1384) (behind Sean Strickland )  Fourth most total strikes landed in UFC Middleweight division history (1654)",
+    "Fourth most total strikes landed in UFC Middleweight division history (1654)",
+    "Tied ( Robert Whittaker ) for third most decision wins in UFC Middleweight division history (9)",
+    "Retired with most fights in UFC history (29);  since surpassed by Jim Miller",
+    "2008: Ranked #10 Fighter of the Year",
+    "2009: Ranked #10 Upset of the Year vs. Denis Kang",
+    "2016: Fighter of the Year ,  Ranked #7 Knockout of the Year  & Upset of the Year  vs. Luke Rockhold 2",
+    "2017: Ranked #9 Fight of the Year vs. Georges St-Pierre",
+    "Cage Rage Championships Cage Rage Light Heavyweight Championship (one time) One successful title defence",
+    "Cage Rage Light Heavyweight Championship (one time) One successful title defence",
+    "One successful title defence",
+    "Cage Warriors Fighting Championship CWFC Light Heavyweight Championship (one time) Three successful title defences",
+    "CWFC Light Heavyweight Championship (one time) Three successful title defences",
+    "Three successful title defences",
+    "FX3 FX3 Light Heavyweight Championship (one time)",
+    "FX3 Light Heavyweight Championship (one time)",
+    "The Athletic 2010s Middleweight Fighter of the Decade",
+    "2010s Middleweight Fighter of the Decade",
+    "2008 International Fighter of the Year",
+    "2012 International Fighter of the Year",
+    "2016 Upset of the Year vs. Luke Rockhold at UFC 199",
+    "2021 Analyst of the Year",
+    "2022 Analyst of the Year",
+    "2023 Analyst of the Year",
+    "2024 Analyst of the Year",
+    "ESPN 2016 Fighter of the Year",
+    "2016 Fighter of the Year",
+    "Combat Press 2016 Male Fighter of the Year  2016 Upset of the Year vs. Luke Rockhold at UFC 199"
+  ],
+  "image_commons": "Michael Bisping.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Michael_Bisping",
+    "wikidata": "https://www.wikidata.org/wiki/Q973762",
+    "ufc_com": "https://www.ufc.com/athlete/michael-bisping"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "stats_ufc (absentes de la fiche ufc.com)"
+  ],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 30-9, wikipedia_infobox 30-9, ufc_com 31-9"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 65,
+    "puissance": 78,
+    "lutte": 65,
+    "soumission": 40,
+    "defense": 65,
+    "cardio": 96,
+    "menton": 71,
+    "globale": 69,
+    "style": "frappeur",
+    "estimees": [
+      "frappe",
+      "lutte",
+      "defense"
+    ],
+    "formule_version": 1
+  }
+}

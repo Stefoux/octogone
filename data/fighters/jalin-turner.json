@@ -1,0 +1,135 @@
+{
+  "id": "jalin-turner",
+  "nom": "Jalin Turner",
+  "ufc_slug": "jalin-turner",
+  "wikipedia_titre": "Jalin Turner",
+  "surnom": "The Tarantula",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "legers",
+  "statut": "actif",
+  "date_naissance": "1995-05-18",
+  "taille_cm": 190,
+  "allonge_cm": 196,
+  "style": "MMA",
+  "lieu_naissance": "Los Angeles, United States",
+  "palmares": {
+    "victoires": 16,
+    "defaites": 9,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 12,
+    "victoires_soumission": 4,
+    "victoires_decision": 0,
+    "defaites_ko": 4,
+    "defaites_soumission": 1,
+    "defaites_decision": 4
+  },
+  "stats_ufc": {
+    "frappes_par_min": 5.84,
+    "precision_frappe_pct": 49,
+    "frappes_encaissees_par_min": 4.53,
+    "defense_frappe_pct": 42.0,
+    "takedowns_par_15min": 0.75,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 75.0,
+    "soumissions_par_15min": 1.05,
+    "knockdowns_par_15min": 1.65,
+    "duree_moyenne_combat_s": 376,
+    "frappes_reussies": 585.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 16,
+      "defaites": 9,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 12,
+        "soumission": 4,
+        "decision": 0,
+        "autre": 0
+      },
+      "d": {
+        "ko": 4,
+        "soumission": 1,
+        "decision": 4,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2018": 2,
+      "2019": 2,
+      "2020": 2,
+      "2021": 1,
+      "2022": 2,
+      "2023": 3,
+      "2024": 1,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Kauê Fernandes",
+      "evenement": "UFC 330",
+      "date": "August 15, 2026",
+      "resultat": "Win",
+      "methode": "KO (punches)"
+    },
+    "combats_ufc": 16,
+    "victoires_ufc": 10,
+    "defaites_ufc": 6,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 10
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Max Mustaki",
+      "evenement": "Dana White's Contender Series 12",
+      "date": "July 10, 2018",
+      "resultat": "Win",
+      "methode": "TKO (doctor stoppage)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [],
+  "image_commons": "Jalin Turner at UFC 234.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Jalin_Turner",
+    "wikidata": "https://www.wikidata.org/wiki/Q59660366",
+    "ufc_com": "https://www.ufc.com/athlete/jalin-turner"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 72,
+    "puissance": 91,
+    "lutte": 52,
+    "soumission": 63,
+    "defense": 47,
+    "cardio": 43,
+    "menton": 54,
+    "globale": 60,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

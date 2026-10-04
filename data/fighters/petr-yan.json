@@ -1,0 +1,214 @@
+{
+  "id": "petr-yan",
+  "nom": "Petr Yan",
+  "ufc_slug": "petr-yan",
+  "wikipedia_titre": "Petr Yan",
+  "surnom": "No Mercy",
+  "sexe": "M",
+  "pays": "RU",
+  "categorie": "coq",
+  "statut": "actif",
+  "date_naissance": "1993-02-11",
+  "taille_cm": 171,
+  "allonge_cm": 170,
+  "style": "Boxe",
+  "lieu_naissance": "Krasnoyarsk Krai, Russie",
+  "palmares": {
+    "victoires": 20,
+    "defaites": 5,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 7,
+    "victoires_soumission": 1,
+    "victoires_decision": 12,
+    "defaites_ko": 0,
+    "defaites_soumission": 0,
+    "defaites_decision": 4
+  },
+  "stats_ufc": {
+    "frappes_par_min": 5.16,
+    "precision_frappe_pct": 55,
+    "frappes_encaissees_par_min": 4.24,
+    "defense_frappe_pct": 60.0,
+    "takedowns_par_15min": 1.7,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 86.0,
+    "soumissions_par_15min": 0.11,
+    "knockdowns_par_15min": 0.53,
+    "duree_moyenne_combat_s": 1058,
+    "frappes_reussies": 1456.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 20,
+      "defaites": 5,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 7,
+        "soumission": 1,
+        "decision": 12,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 0,
+        "decision": 4,
+        "autre": 1
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2018": 3,
+      "2019": 3,
+      "2020": 1,
+      "2021": 2,
+      "2022": 2,
+      "2023": 1,
+      "2024": 2,
+      "2025": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Merab Dvalishvili",
+      "evenement": "UFC 323",
+      "date": "6 December 2025",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 16,
+    "victoires_ufc": 12,
+    "defaites_ufc": 4,
+    "victoires_decision_5_rounds": 4,
+    "combats_5_rounds_gagnes": 5,
+    "bonus_fotn": 4,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Merab Dvalishvili",
+        "evenement": "UFC 323",
+        "date": "6 December 2025"
+      },
+      {
+        "adversaire": "Sean O'Malley",
+        "evenement": "UFC 280",
+        "date": "22 October 2022"
+      },
+      {
+        "adversaire": "Cory Sandhagen",
+        "evenement": "UFC 267",
+        "date": "30 October 2021"
+      },
+      {
+        "adversaire": "Son Jin-soo",
+        "evenement": "UFC Fight Night: Hunt vs. Oleinik",
+        "date": "15 September 2018"
+      }
+    ],
+    "titres": [
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Bantamweight Championship",
+        "evenement": "UFC 323",
+        "date": "6 December 2025"
+      },
+      {
+        "action": "won",
+        "interim": true,
+        "titre": "UFC Bantamweight Championship",
+        "evenement": "UFC 267",
+        "date": "30 October 2021"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 6
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Teruto Ishihara",
+      "evenement": "UFC Fight Night: Cowboy vs. Edwards",
+      "date": "23 June 2018",
+      "resultat": "Win",
+      "methode": "KO (punches)"
+    }
+  },
+  "champion_actuel": true,
+  "champion_division": "Poids coq",
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "UFC Bantamweight Championship (Two times, current)",
+    "Interim UFC Bantamweight Championship (One time)",
+    "Fight of the Night (Four times) vs. Jin Soo Son, Cory Sandhagen , Sean O'Malley & Merab Dvalishvili 2",
+    "Performance of the Night (One time) vs. Urijah Faber",
+    "Tied ( Raphael Assunção & Renan Barão ) for the fourth longest win streak in UFC Bantamweight division history (7)",
+    "Tied ( Cody Garbrandt ) for third most knockdowns in UFC Bantamweight division history (10)",
+    "Most significant strikes landed in UFC Bantamweight division history (1456)",
+    "Third most total fight time in UFC Bantamweight division history (4:42:04)  Second most total strikes landed in UFC Bantamweight division history (1917)",
+    "Second most total strikes landed in UFC Bantamweight division history (1917)",
+    "Third longest average fight time in UFC Bantamweight division history (17:38)",
+    "Tied ( Raphael Assunção , Sean O'Malley & Mario Bautista ) for fifth most wins in UFC Bantamweight division history (12)",
+    "Third most decision wins in UFC Bantamweight division history (8)",
+    "Tied ( Aljamain Sterling ) for seventh most takedowns landed in UFC Bantamweight division history (32)",
+    "Holds wins over three former UFC champions — José Aldo , Deiveson Figueiredo & Merab Dvalishvili",
+    "UFC Honors Awards 2021: President's Choice Fight of the Year Nominee vs. Cory Sandhagen",
+    "2021: President's Choice Fight of the Year Nominee vs. Cory Sandhagen",
+    "2018: Ranked #5 Newcomer of the Year (Tied with Sodiq Yusuff )",
+    "2019: Top 10 Fighter of the Year",
+    "2021: Ranked #4 Fight of the Year vs. Cory Sandhagen",
+    "2022: Ranked #10 Fight of the Year vs. Sean O'Malley",
+    "Crypto.com Fan Bonus of the Night vs. Aljamain Sterling",
+    "Fan Bonus of the Night vs. Aljamain Sterling",
+    "Absolute Championship Berkut ACB Bantamweight Championship (One time) One successful title defense ACB Bantamweight Grand Prix 2015 Champion",
+    "ACB Bantamweight Championship (One time) One successful title defense",
+    "One successful title defense",
+    "ACB Bantamweight Grand Prix 2015 Champion",
+    "Fight Matrix 2025 Most Noteworthy Match of the Year vs. Merab Dvalishvili 2 at UFC 323",
+    "2025 Most Noteworthy Match of the Year vs. Merab Dvalishvili 2 at UFC 323",
+    "MMADNA.nl 2018 European Newcomer of the Year",
+    "2018 European Newcomer of the Year",
+    "MMA Sucka 2019 UFC Breakout Star of the Year",
+    "2019 UFC Breakout Star of the Year",
+    "Sherdog 2022 Robbery of the Year  2025 Comeback Fighter of the Year  2025 Upset of the Year vs. Merab Dvalishvili 2 at UFC 323",
+    "2022 Robbery of the Year",
+    "2025 Comeback Fighter of the Year",
+    "2025 Upset of the Year vs. Merab Dvalishvili 2 at UFC 323",
+    "MMA Mania 2025 #5 Ranked Fighter of the Year",
+    "2025 #5 Ranked Fighter of the Year",
+    "2025 #3 Ranked Fighter of the Year",
+    "2025 #5 Ranked Fight of the Year vs. Merab Dvalishvili 2 at UFC 323"
+  ],
+  "image_commons": "Petr Yan at Kremlin award ceremonies with president Putin.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Petr_Yan",
+    "wikidata": "https://www.wikidata.org/wiki/Q54218657",
+    "ufc_com": "https://www.ufc.com/athlete/petr-yan"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "champion_actuel": "ufc_com_rankings",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 74,
+    "puissance": 58,
+    "lutte": 60,
+    "soumission": 39,
+    "defense": 66,
+    "cardio": 94,
+    "menton": 99,
+    "globale": 70,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

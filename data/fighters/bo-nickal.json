@@ -1,0 +1,141 @@
+{
+  "id": "bo-nickal",
+  "nom": "Bo Nickal",
+  "ufc_slug": "bo-nickal",
+  "wikipedia_titre": "Bo Nickal",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "moyens",
+  "statut": "actif",
+  "date_naissance": "1996-01-14",
+  "taille_cm": 185,
+  "allonge_cm": 193,
+  "style": "Lutte",
+  "lieu_naissance": "Rifle, États-Unis",
+  "palmares": {
+    "victoires": 9,
+    "defaites": 1,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 4,
+    "victoires_soumission": 4,
+    "victoires_decision": 1,
+    "defaites_ko": 1,
+    "defaites_soumission": 0,
+    "defaites_decision": 0
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.36,
+    "precision_frappe_pct": 62,
+    "frappes_encaissees_par_min": 1.93,
+    "defense_frappe_pct": 60.0,
+    "takedowns_par_15min": 3.12,
+    "precision_takedown_pct": 5,
+    "defense_takedown_pct": 100.0,
+    "soumissions_par_15min": 2.27,
+    "knockdowns_par_15min": 0.85,
+    "duree_moyenne_combat_s": 353,
+    "frappes_reussies": 178.0,
+    "takedowns_reussis": 1.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 9,
+      "defaites": 1,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 4,
+        "soumission": 4,
+        "decision": 1,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 0,
+        "decision": 0,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2022": 2,
+      "2023": 2,
+      "2024": 2,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Kyle Daukaus",
+      "evenement": "UFC Freedom 250",
+      "date": "June 14, 2026",
+      "resultat": "Win",
+      "methode": "TKO (punches and elbows)"
+    },
+    "combats_ufc": 9,
+    "victoires_ufc": 8,
+    "defaites_ufc": 1,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 2,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 3
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Zachary Borrego",
+      "evenement": "Dana White's Contender Series 49",
+      "date": "August 9, 2022",
+      "resultat": "Win",
+      "methode": "Submission (rear-naked choke)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Performance of the Night (Two times) vs. Jamie Pickett and Rodolfo Vieira",
+    "UFC Honors Awards 2023: Fan's Choice Debut of the Year Winner vs. Jamie Pickett",
+    "2023: Fan's Choice Debut of the Year Winner vs. Jamie Pickett",
+    "UFC.com Awards 2023: Ranked #2 Newcomer of the Year",
+    "2023: Ranked #2 Newcomer of the Year",
+    "ESPN 2023 Rookie of the Year",
+    "2023 Rookie of the Year",
+    "GiveMeSport 2023 UFC Debut Fighter of the Year",
+    "2023 UFC Debut Fighter of the Year"
+  ],
+  "image_commons": "Bo Nickal (52791819473).jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Bo_Nickal",
+    "wikidata": "https://www.wikidata.org/wiki/Q86752584",
+    "ufc_com": "https://www.ufc.com/athlete/bo-nickal"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 71,
+    "puissance": 67,
+    "lutte": 70,
+    "soumission": 84,
+    "defense": 79,
+    "cardio": 44,
+    "menton": 79,
+    "globale": 71,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "id": "josh-quinlan",
+  "nom": "Josh Quinlan",
+  "ufc_slug": "josh-quinlan",
+  "wikipedia_titre": "Adam Fugitt",
+  "surnom": "Bushido",
+  "sexe": "M",
+  "pays": null,
+  "categorie": "mi_moyens",
+  "statut": null,
+  "date_naissance": "1989-01-06",
+  "taille_cm": 183,
+  "allonge_cm": 183,
+  "style": "Brazilian Jiu-Jitsu",
+  "lieu_naissance": "United States",
+  "palmares": {
+    "victoires": 10,
+    "defaites": 6,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 5,
+    "victoires_soumission": 3,
+    "victoires_decision": 2,
+    "defaites_ko": 4,
+    "defaites_soumission": 1,
+    "defaites_decision": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.57,
+    "precision_frappe_pct": 42,
+    "frappes_encaissees_par_min": 6.38,
+    "defense_frappe_pct": 54.0,
+    "takedowns_par_15min": 0.34,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 71.0,
+    "soumissions_par_15min": 0.0,
+    "knockdowns_par_15min": 0.68,
+    "duree_moyenne_combat_s": 531,
+    "frappes_reussies": 158.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 10,
+      "defaites": 6,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 5,
+        "soumission": 3,
+        "decision": 2,
+        "autre": 0
+      },
+      "d": {
+        "ko": 4,
+        "soumission": 1,
+        "decision": 1,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2023": 3,
+      "2024": 1,
+      "2025": 1,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Ty Miller",
+      "evenement": "UFC 324",
+      "date": "January 24, 2026",
+      "resultat": "Loss",
+      "methode": "TKO (knee and punches)"
+    },
+    "combats_ufc": 6,
+    "victoires_ufc": 2,
+    "defaites_ufc": 4,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 3
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Michael Morales",
+      "evenement": "UFC 277",
+      "date": "July 30, 2023",
+      "resultat": "Loss",
+      "methode": "TKO (punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Adam_Fugitt",
+    "wikidata": "https://www.wikidata.org/wiki/Q139806554",
+    "ufc_com": "https://www.ufc.com/athlete/josh-quinlan"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau"
+  },
+  "a_verifier": [
+    "palmares (wikipedia_tableau 10-6, wikipedia_infobox 9-4, ufc_com 6-3)",
+    "pays",
+    "statut"
+  ],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 10-6, wikipedia_infobox 9-4, ufc_com 6-3"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 56,
+    "puissance": 68,
+    "lutte": 52,
+    "soumission": 53,
+    "defense": 52,
+    "cardio": 54,
+    "menton": 42,
+    "globale": 54,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

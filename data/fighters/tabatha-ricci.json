@@ -1,0 +1,132 @@
+{
+  "id": "tabatha-ricci",
+  "nom": "Tabatha Ricci",
+  "ufc_slug": "tabatha-ricci",
+  "wikipedia_titre": "Tabatha Ricci",
+  "surnom": "Baby Shark",
+  "sexe": "F",
+  "pays": "BR",
+  "categorie": "paille_f",
+  "statut": "actif",
+  "date_naissance": "1995-02-21",
+  "taille_cm": 155,
+  "allonge_cm": 155,
+  "style": "Judo",
+  "lieu_naissance": "State of São Paulo, Brésil",
+  "palmares": {
+    "victoires": 12,
+    "defaites": 5,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 2,
+    "victoires_soumission": 3,
+    "victoires_decision": 7,
+    "defaites_ko": 1,
+    "defaites_soumission": 0,
+    "defaites_decision": 4
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.77,
+    "precision_frappe_pct": 36,
+    "frappes_encaissees_par_min": 4.79,
+    "defense_frappe_pct": 58.0,
+    "takedowns_par_15min": 2.37,
+    "precision_takedown_pct": 7,
+    "defense_takedown_pct": 54.0,
+    "soumissions_par_15min": 0.09,
+    "knockdowns_par_15min": 0.0,
+    "duree_moyenne_combat_s": 791,
+    "frappes_reussies": 597.0,
+    "takedowns_reussis": 5.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 12,
+      "defaites": 5,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 2,
+        "soumission": 3,
+        "decision": 7,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 0,
+        "decision": 4,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2021": 2,
+      "2022": 1,
+      "2023": 3,
+      "2024": 3,
+      "2025": 1,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Fatima Kline",
+      "evenement": "UFC Fight Night: du Plessis vs. Usman",
+      "date": "July 18, 2026",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 12,
+    "victoires_ufc": 7,
+    "defaites_ufc": 5,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "armbar",
+      "finitions": 3
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Manon Fiorot",
+      "evenement": "UFC Fight Night: Rozenstruik vs. Sakai",
+      "date": "June 5, 2021",
+      "resultat": "Loss",
+      "methode": "TKO (punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Tabatha_Ricci",
+    "wikidata": "https://www.wikidata.org/wiki/Q112110663",
+    "ufc_com": "https://www.ufc.com/athlete/tabatha-ricci"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 49,
+    "puissance": 41,
+    "lutte": 52,
+    "soumission": 50,
+    "defense": 61,
+    "cardio": 65,
+    "menton": 85,
+    "globale": 58,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

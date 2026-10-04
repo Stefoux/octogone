@@ -1,0 +1,215 @@
+{
+  "id": "brandon-moreno",
+  "nom": "Brandon Moreno",
+  "ufc_slug": "brandon-moreno",
+  "wikipedia_titre": "Brandon Moreno",
+  "surnom": "The Assassin Baby",
+  "sexe": "M",
+  "pays": "MX",
+  "categorie": "mouche",
+  "statut": "actif",
+  "date_naissance": "1993-12-07",
+  "taille_cm": 170,
+  "allonge_cm": 178,
+  "style": "Jiu-Jitsu",
+  "lieu_naissance": "Tijuana, Mexique",
+  "palmares": {
+    "victoires": 24,
+    "defaites": 10,
+    "nuls": 2,
+    "sans_decision": 0,
+    "victoires_ko": 5,
+    "victoires_soumission": 11,
+    "victoires_decision": 8,
+    "defaites_ko": 1,
+    "defaites_soumission": 0,
+    "defaites_decision": 9
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.86,
+    "precision_frappe_pct": 44,
+    "frappes_encaissees_par_min": 3.69,
+    "defense_frappe_pct": 60.0,
+    "takedowns_par_15min": 1.39,
+    "precision_takedown_pct": 15,
+    "defense_takedown_pct": 67.0,
+    "soumissions_par_15min": 0.38,
+    "knockdowns_par_15min": 0.17,
+    "duree_moyenne_combat_s": 1017,
+    "frappes_reussies": 1375.0,
+    "takedowns_reussis": 12.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 24,
+      "defaites": 10,
+      "nuls": 2,
+      "sans_decision": 0,
+      "v": {
+        "ko": 5,
+        "soumission": 11,
+        "decision": 8,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 0,
+        "decision": 9,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2016": 2,
+      "2017": 2,
+      "2018": 1,
+      "2019": 2,
+      "2020": 3,
+      "2021": 1,
+      "2022": 2,
+      "2023": 2,
+      "2024": 2,
+      "2025": 2,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Joseph Morales",
+      "evenement": "UFC Fight Night: Silva vs. Delgado",
+      "date": "September 12, 2026",
+      "resultat": "Win",
+      "methode": "Decision (split)"
+    },
+    "combats_ufc": 21,
+    "victoires_ufc": 12,
+    "defaites_ufc": 7,
+    "victoires_decision_5_rounds": 2,
+    "combats_5_rounds_gagnes": 3,
+    "bonus_fotn": 4,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Alexandre Pantoja",
+        "evenement": "UFC 290",
+        "date": "July 8, 2023"
+      },
+      {
+        "adversaire": "Kai Kara-France",
+        "evenement": "UFC 277",
+        "date": "July 30, 2022"
+      },
+      {
+        "adversaire": "Deiveson Figueiredo",
+        "evenement": "UFC 270",
+        "date": "January 22, 2022"
+      },
+      {
+        "adversaire": "Deiveson Figueiredo",
+        "evenement": "UFC 256",
+        "date": "December 12, 2020"
+      }
+    ],
+    "titres": [
+      {
+        "action": "won",
+        "interim": true,
+        "titre": "UFC Flyweight Championship",
+        "evenement": "UFC 277",
+        "date": "July 30, 2022"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Flyweight Championship",
+        "evenement": "UFC 263",
+        "date": "June 12, 2021"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "rear-naked choke",
+      "finitions": 6
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Louis Smolka",
+      "evenement": "UFC Fight Night: Lineker vs. Dodson",
+      "date": "October 1, 2016",
+      "resultat": "Win",
+      "methode": "Submission (guillotine choke)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "UFC Flyweight Championship (Two times) First Mexican champion in UFC history",
+    "First Mexican champion in UFC history",
+    "Interim UFC Flyweight Championship (One time) Tied ( Deiveson Figueiredo & Joshua Van ) for third most title fight wins in UFC Flyweight division history (3)",
+    "Tied ( Deiveson Figueiredo & Joshua Van ) for third most title fight wins in UFC Flyweight division history (3)",
+    "Second most Fight of the Night bonuses in UFC Flyweight division history (5) (behind Brandon Royval )",
+    "Tied ( Brandon Royval & Alexandre Pantoja ) for second most Post-Fight bonuses in UFC Flyweight division history (7) (behind Demetrious Johnson )",
+    "Tied ( Joseph Benavidez , Tatsuro Taira & Manel Kape ) for fourth most finishes in UFC Flyweight division history (6)",
+    "Most bouts in UFC Flyweight division history (21)",
+    "Most total fight time in UFC Flyweight division history (5:55:52)",
+    "Second longest average fight time in UFC Flyweight division history (16:57)",
+    "Fourth most wins in UFC Flyweight division history (12)",
+    "Second most significant strikes landed in UFC Flyweight division history (1375) (behind Joshua Van )  Third most total strikes landed in UFC Flyweight division history (1748)",
+    "Third most total strikes landed in UFC Flyweight division history (1748)",
+    "Fifth most top position time in UFC Flyweight division history (47:07)",
+    "Fourth most control time in UFC Flyweight division history (1:04:15)",
+    "2020: President's Choice Fight of the Year Nominee vs. Deiveson Figueiredo 1",
+    "2021: Fan's Choice Submission of the Year Winner vs. Deiveson Figueiredo 2  & President's Choice Performance of the Year Nominee vs. Deiveson Figueiredo 2",
+    "2023: President's Choice Fight of the Year Nominee vs. Alexandre Pantoja 2",
+    "2016: Ranked #5 Newcomer of the Year  & Ranked #4 Upset of the Year vs. Louis Smolka",
+    "2020: Ranked #7 Fighter of the Year  & Ranked #2 Fight of the Year vs. Deiveson Figueiredo 1",
+    "2021: Ranked #7 Fighter of the Year  & Ranked #4 Submission of the Year vs. Deiveson Figueiredo 2",
+    "2022: Ranked #6 Fight of the Year vs. Deiveson Figueiredo 3",
+    "2023: Ranked #2 Fight of the Year vs. Alexandre Pantoja 2",
+    "World Fighting Federation WFF Flyweight Champion (One time)",
+    "WFF Flyweight Champion (One time)",
+    "Legacy Fighting Alliance LFA Flyweight Championship (One time)",
+    "LFA Flyweight Championship (One time)",
+    "New York Post 2023 Fight of the Year vs. Alexandre Pantoja 2 at UFC 290",
+    "2023 Fight of the Year vs. Alexandre Pantoja 2 at UFC 290",
+    "MMA Junkie 2020 December Fight of the Month vs. Deiveson Figueiredo  2021 June Submission of the Month vs. Deiveson Figueiredo  2022 January Fight of the Month vs. Deiveson Figueiredo",
+    "2020 December Fight of the Month vs. Deiveson Figueiredo",
+    "2021 June Submission of the Month vs. Deiveson Figueiredo",
+    "2022 January Fight of the Month vs. Deiveson Figueiredo",
+    "2021 Breakthrough Fighter of the Year  ^",
+    "2021 Fight of the Year vs. Deiveson Figueiredo at UFC 256  ^",
+    "2021 Fighting Spirit of the Year for perseverance - from being cut, to fighting back and becoming the first Mexican UFC champion  ^",
+    "MMA Fighting 2022 First Team MMA All-Star",
+    "2022 First Team MMA All-Star",
+    "CBS Sports 2020 #2 Ranked UFC Fight of the Year vs. Deiveson Figueiredo",
+    "2020 #2 Ranked UFC Fight of the Year vs. Deiveson Figueiredo"
+  ],
+  "image_commons": "Brandon Moreno February 2021.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Brandon_Moreno",
+    "wikidata": "https://www.wikidata.org/wiki/Q27957350",
+    "ufc_com": "https://www.ufc.com/athlete/brandon-moreno"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 56,
+    "puissance": 43,
+    "lutte": 51,
+    "soumission": 63,
+    "defense": 70,
+    "cardio": 87,
+    "menton": 89,
+    "globale": 66,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

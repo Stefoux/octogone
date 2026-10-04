@@ -1,0 +1,153 @@
+{
+  "id": "bas-rutten",
+  "nom": "Bas Rutten",
+  "ufc_slug": "bas-rutten",
+  "wikipedia_titre": "Bas Rutten",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "NL",
+  "autres_pays": [
+    "US"
+  ],
+  "categorie": "lourds",
+  "statut": "retraite",
+  "date_naissance": "1965-02-24",
+  "taille_cm": 185,
+  "allonge_cm": null,
+  "style": null,
+  "lieu_naissance": "Netherlands",
+  "palmares": {
+    "victoires": 28,
+    "defaites": 4,
+    "nuls": 1,
+    "sans_decision": 0,
+    "victoires_ko": 11,
+    "victoires_soumission": 14,
+    "victoires_decision": 3,
+    "defaites_ko": 0,
+    "defaites_soumission": 3,
+    "defaites_decision": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": 5.59,
+    "precision_frappe_pct": 61,
+    "frappes_encaissees_par_min": 2.06,
+    "defense_frappe_pct": 79.0,
+    "takedowns_par_15min": 0.0,
+    "precision_takedown_pct": null,
+    "defense_takedown_pct": null,
+    "soumissions_par_15min": 0.0,
+    "knockdowns_par_15min": 4.41,
+    "duree_moyenne_combat_s": 204,
+    "frappes_reussies": 19.0,
+    "takedowns_reussis": null
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 28,
+      "defaites": 4,
+      "nuls": 1,
+      "sans_decision": 0,
+      "v": {
+        "ko": 11,
+        "soumission": 14,
+        "decision": 3,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 3,
+        "decision": 1,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "1999": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Ruben Villareal",
+      "evenement": "WFA: King of the Streets",
+      "date": "22 July 2006",
+      "resultat": "Win",
+      "methode": "TKO (leg kicks)"
+    },
+    "combats_ufc": 2,
+    "victoires_ufc": 2,
+    "defaites_ufc": 0,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "rear-naked choke",
+      "finitions": 3
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Tsuyoshi Kohsaka",
+      "evenement": "UFC 18",
+      "date": "8 January 1999",
+      "resultat": "Win",
+      "methode": "TKO (punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "UFC Hall of Fame (Pioneer wing, Class of 2015)",
+    "UFC Heavyweight Championship (One time) First Dutch champion in UFC history",
+    "First Dutch champion in UFC history",
+    "UFC Encyclopedia Awards Fight of the Night (One time) vs. Tsuyoshi Kohsaka",
+    "Fight of the Night (One time) vs. Tsuyoshi Kohsaka",
+    "Undefeated in the UFC (2–0)",
+    "Pancrase King of Pancrase Openweight Championship (One time) Two successful title defenses Unified the King of Pancrase Openweight Championship",
+    "King of Pancrase Openweight Championship (One time) Two successful title defenses",
+    "Two successful title defenses",
+    "Unified the King of Pancrase Openweight Championship",
+    "Sherdog Mixed Martial Arts Hall of Fame (2014 inductee)",
+    "Mixed Martial Arts Hall of Fame (2014 inductee)",
+    "Fight Matrix 1996 Fighter of the Year",
+    "1996 Fighter of the Year",
+    "International Sports Hall of Fame Class of 2018",
+    "Class of 2018",
+    "Martial Arts History Museum Hall of Fame Class of 2022",
+    "Class of 2022"
+  ],
+  "image_commons": "Bas Rutten Strikeforce weign in, better resolution, 25 December 2009.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Bas_Rutten",
+    "wikidata": "https://www.wikidata.org/wiki/Q704832",
+    "ufc_com": "https://www.ufc.com/athlete/bas-rutten"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "allonge_cm"
+  ],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 28-4, wikipedia_infobox 28-4, ufc_com 0-0"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 73,
+    "puissance": 67,
+    "lutte": 51,
+    "soumission": 62,
+    "defense": 77,
+    "cardio": 51,
+    "menton": 99,
+    "globale": 69,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

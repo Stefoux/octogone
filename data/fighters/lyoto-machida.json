@@ -1,0 +1,207 @@
+{
+  "id": "lyoto-machida",
+  "nom": "Lyoto Machida",
+  "ufc_slug": "lyoto-machida",
+  "wikipedia_titre": "Lyoto Machida",
+  "surnom": "The Dragon",
+  "sexe": "M",
+  "pays": "BR",
+  "categorie": "moyens",
+  "statut": "inactif",
+  "date_naissance": "1978-05-30",
+  "taille_cm": 185,
+  "allonge_cm": 188,
+  "style": null,
+  "lieu_naissance": "Salvador, Brésil",
+  "palmares": {
+    "victoires": 26,
+    "defaites": 12,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 11,
+    "victoires_soumission": 2,
+    "victoires_decision": 13,
+    "defaites_ko": 4,
+    "defaites_soumission": 2,
+    "defaites_decision": 6
+  },
+  "stats_ufc": {
+    "frappes_par_min": null,
+    "precision_frappe_pct": null,
+    "frappes_encaissees_par_min": null,
+    "defense_frappe_pct": null,
+    "takedowns_par_15min": null,
+    "precision_takedown_pct": null,
+    "defense_takedown_pct": null,
+    "soumissions_par_15min": null,
+    "knockdowns_par_15min": null,
+    "duree_moyenne_combat_s": null,
+    "frappes_reussies": null,
+    "takedowns_reussis": null
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 26,
+      "defaites": 12,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 11,
+        "soumission": 2,
+        "decision": 13,
+        "autre": 0
+      },
+      "d": {
+        "ko": 4,
+        "soumission": 2,
+        "decision": 6,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2007": 4,
+      "2008": 1,
+      "2009": 3,
+      "2010": 2,
+      "2011": 2,
+      "2012": 1,
+      "2013": 3,
+      "2014": 3,
+      "2015": 2,
+      "2017": 1,
+      "2018": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Fabian Edwards",
+      "evenement": "Bellator 281",
+      "date": "13 May 2022",
+      "resultat": "Loss",
+      "methode": "KO (elbow and punches)"
+    },
+    "combats_ufc": 24,
+    "victoires_ufc": 16,
+    "defaites_ufc": 8,
+    "victoires_decision_5_rounds": 3,
+    "combats_5_rounds_gagnes": 3,
+    "bonus_fotn": 3,
+    "bonus_potn": 2,
+    "bonus_kotn": 4,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Chris Weidman",
+        "evenement": "UFC 175",
+        "date": "5 July 2014"
+      },
+      {
+        "adversaire": "Gegard Mousasi",
+        "evenement": "UFC Fight Night: Machida vs. Mousasi",
+        "date": "15 February 2014"
+      },
+      {
+        "adversaire": "Jon Jones",
+        "evenement": "UFC 140",
+        "date": "10 December 2011"
+      }
+    ],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 104",
+        "date": "24 October 2009"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 98",
+        "date": "23 May 2009"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 4
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Sam Hoger",
+      "evenement": "UFC 67",
+      "date": "3 February 2007",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "UFC Light Heavyweight Championship (One time) One successful title defense vs. Maurício Rua",
+    "One successful title defense vs. Maurício Rua",
+    "Knockout of the Night (Four times) vs. Thiago Silva , Rashad Evans , Randy Couture and Mark Muñoz",
+    "Fight of the Night (Three times) vs. Jon Jones , Gegard Mousasi and Chris Weidman",
+    "Performance of the Night (Two times) vs. C.B. Dollaway and Vitor Belfort",
+    "Highest takedown accuracy percentage in UFC Light Heavyweight division history (65.0%)",
+    "Fourth longest win streak in UFC Light Heavyweight division history (8)",
+    "Tied ( Chuck Liddell , Junior dos Santos , Thiago Santos , Maurício Rua & Khalil Rountree Jr. ) for sixth most knockdowns landed in UFC history (14)",
+    "2009: Half-Year Awards: Best Knockout of the 1HY vs. Rashad Evans ,  Ranked #2 Knockout of the Year vs. Rashad Evans ,  Ranked #2 Fighter of the Year  & Ranked #9 Fight of the Year vs. Maurício Rua",
+    "2011: Ranked #6 Knockout of the Year vs. Randy Couture",
+    "2013: Ranked #9 Knockout of the Year vs. Mark Munoz",
+    "2018: Ranked #3 Knockout of the Year vs. Vitor Belfort",
+    "Sherdog 2011 Knockout of the Year vs. Randy Couture  Mixed Martial Arts Hall of Fame",
+    "2011 Knockout of the Year vs. Randy Couture",
+    "Mixed Martial Arts Hall of Fame",
+    "Black Belt Magazine 2009 Fighter of the Year",
+    "2009 Fighter of the Year",
+    "MMA Fighting 2009 #5 Ranked Fighter of the Year",
+    "2009 #5 Ranked Fighter of the Year",
+    "MMA Torch 2014 Fight of the Year vs. Chris Weidman at UFC 175",
+    "2014 Fight of the Year vs. Chris Weidman at UFC 175",
+    "Fight Matrix 2014 Most Noteworthy Match of the Year vs. Chris Weidman on 5 July 2014",
+    "2014 Most Noteworthy Match of the Year vs. Chris Weidman on 5 July 2014",
+    "MMA Junkie 2014 July Fight of the Month vs. Chris Weidman  2018 May Knockout of the Month vs. Vitor Belfort",
+    "2014 July Fight of the Month vs. Chris Weidman",
+    "2018 May Knockout of the Month vs. Vitor Belfort",
+    "CBS Sports 2018 #2 Ranked UFC Knockout of the Year vs. Vitor Belfort",
+    "2018 #2 Ranked UFC Knockout of the Year vs. Vitor Belfort",
+    "Bleacher Report 2014 #3 Ranked Fight of the Year vs. Chris Weidman",
+    "2014 #3 Ranked Fight of the Year vs. Chris Weidman"
+  ],
+  "image_commons": "Lyoto Machida by Marcos Joel Reis.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Lyoto_Machida",
+    "wikidata": "https://www.wikidata.org/wiki/Q369167",
+    "ufc_com": "https://www.ufc.com/athlete/lyoto-machida"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "stats_ufc (absentes de la fiche ufc.com)"
+  ],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 26-12, wikipedia_infobox 26-12, ufc_com 24-8"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 65,
+    "puissance": 62,
+    "lutte": 65,
+    "soumission": 42,
+    "defense": 65,
+    "cardio": 95,
+    "menton": 61,
+    "globale": 65,
+    "style": "complet",
+    "estimees": [
+      "frappe",
+      "lutte",
+      "defense"
+    ],
+    "formule_version": 1
+  }
+}

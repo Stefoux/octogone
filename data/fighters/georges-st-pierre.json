@@ -1,0 +1,278 @@
+{
+  "id": "georges-st-pierre",
+  "nom": "Georges St-Pierre",
+  "ufc_slug": "georges-st-pierre",
+  "wikipedia_titre": "Georges St-Pierre",
+  "surnom": "Rush",
+  "sexe": "M",
+  "pays": "CA",
+  "categorie": "moyens",
+  "statut": "retraite",
+  "date_naissance": "1981-05-19",
+  "taille_cm": 179,
+  "allonge_cm": 193,
+  "style": "Karate",
+  "lieu_naissance": "Montreal, Canada",
+  "palmares": {
+    "victoires": 26,
+    "defaites": 2,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 8,
+    "victoires_soumission": 6,
+    "victoires_decision": 12,
+    "defaites_ko": 1,
+    "defaites_soumission": 1,
+    "defaites_decision": 0
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.78,
+    "precision_frappe_pct": 54,
+    "frappes_encaissees_par_min": 1.4,
+    "defense_frappe_pct": 73.0,
+    "takedowns_par_15min": 4.16,
+    "precision_takedown_pct": 66,
+    "defense_takedown_pct": 84.0,
+    "soumissions_par_15min": 1.1,
+    "knockdowns_par_15min": 0.37,
+    "duree_moyenne_combat_s": 789,
+    "frappes_reussies": 1393.0,
+    "takedowns_reussis": 90.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 26,
+      "defaites": 2,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 8,
+        "soumission": 6,
+        "decision": 12,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 1,
+        "decision": 0,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2004": 3,
+      "2005": 3,
+      "2006": 2,
+      "2007": 3,
+      "2008": 2,
+      "2009": 2,
+      "2010": 2,
+      "2011": 1,
+      "2012": 1,
+      "2013": 2,
+      "2017": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Michael Bisping",
+      "evenement": "UFC 217",
+      "date": "November 4, 2017",
+      "resultat": "Win",
+      "methode": "Technical submission (rear-naked choke)"
+    },
+    "combats_ufc": 22,
+    "victoires_ufc": 20,
+    "defaites_ufc": 2,
+    "victoires_decision_5_rounds": 8,
+    "combats_5_rounds_gagnes": 9,
+    "bonus_fotn": 4,
+    "bonus_potn": 1,
+    "bonus_kotn": 1,
+    "bonus_sotn": 1,
+    "combats_fotn": [
+      {
+        "adversaire": "Johny Hendricks",
+        "evenement": "UFC 167",
+        "date": "November 16, 2013"
+      },
+      {
+        "adversaire": "Carlos Condit",
+        "evenement": "UFC 154",
+        "date": "November 17, 2012"
+      },
+      {
+        "adversaire": "Josh Koscheck",
+        "evenement": "UFC 124",
+        "date": "December 11, 2010"
+      },
+      {
+        "adversaire": "Jon Fitch",
+        "evenement": "UFC 87",
+        "date": "August 9, 2008"
+      }
+    ],
+    "titres": [
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Middleweight Championship",
+        "evenement": "UFC 217",
+        "date": "November 4, 2017"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Welterweight Championship",
+        "evenement": "UFC 167",
+        "date": "November 16, 2013"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Welterweight Championship",
+        "evenement": "UFC 158",
+        "date": "March 16, 2013"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Welterweight Championship",
+        "evenement": "UFC 129",
+        "date": "April 30, 2011"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Welterweight Championship",
+        "evenement": "UFC 124",
+        "date": "December 11, 2010"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Welterweight Championship",
+        "evenement": "UFC 111",
+        "date": "March 27, 2010"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Welterweight Championship",
+        "evenement": "UFC 100",
+        "date": "July 11, 2009"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Welterweight Championship",
+        "evenement": "UFC 94",
+        "date": "January 31, 2009"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Welterweight Championship",
+        "evenement": "UFC 87",
+        "date": "August 9, 2008"
+      },
+      {
+        "action": "won",
+        "interim": true,
+        "titre": "UFC Welterweight Championship",
+        "evenement": "UFC 79",
+        "date": "December 29, 2007"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Welterweight Championship",
+        "evenement": "UFC 65",
+        "date": "November 18, 2006"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 4
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Karo Parisyan",
+      "evenement": "UFC 46",
+      "date": "January 31, 2004",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "UFC Hall of Fame (Modern Wing, Class of 2020)",
+    "UFC Middleweight Championship (one time)  Fourth Multi-Divisional Champion in UFC History",
+    "Fourth Multi-Divisional Champion in UFC History",
+    "Nine successful title defenses",
+    "Third most consecutive title defenses in the UFC history (9)",
+    "Most successful title defenses in UFC Welterweight division history (9)",
+    "Most consecutive title defenses in UFC Welterweight division history (9)",
+    "Most wins in UFC welterweight title fights (12)",
+    "Most UFC Welterweight title fights (14)",
+    "Second most wins in UFC title fights (13) (behind Jon Jones )",
+    "Tied ( Valentina Shevchenko ) for fourth most combined title defenses in UFC history (9)",
+    "Fight of the Night (Four times) vs. Jon Fitch , Josh Koscheck , Carlos Condit , Johny Hendricks",
+    "Knockout of the Night (one time) vs. Matt Hughes 2",
+    "Submission of the Night (one time) vs. Matt Hughes 3",
+    "Performance of the Night (one time) vs. Michael Bisping",
+    "UFC Encyclopedia Awards Fight of the Night (Two times) vs. Karo Parisyan and B.J. Penn 1   Knockout of the Night (one time) vs. Jay Hieron",
+    "Fight of the Night (Two times) vs. Karo Parisyan and B.J. Penn 1",
+    "Knockout of the Night (one time) vs. Jay Hieron",
+    "Tied ( Jon Jones , Khabib Nurmagomedov , Demetrious Johnson & Max Holloway ) for the fifth longest win streak in UFC history (13)  Second longest win streak in UFC Welterweight division history (12)",
+    "Second longest win streak in UFC Welterweight division history (12)",
+    "Second most wins in UFC Welterweight division history (19)",
+    "Tied for sixth most unanimous decision wins in UFC history (10)",
+    "Tied ( Neil Magny ) for third most unanimous decision wins in UFC Welterweight division history (10)",
+    "Tied ( Belal Muhammad ) for second most decision wins in UFC Welterweight division history (12)",
+    "Second most takedowns landed in UFC history (90)  (behind Merab Dvalishvili ) Most takedowns landed in UFC Welterweight division history (87)",
+    "Most takedowns landed in UFC Welterweight division history (87)",
+    "Second most total strikes landed in UFC Welterweight division history (2523)  (behind Neil Magny )",
+    "Most control time in UFC history (2:42:04)  Most control time in UFC Welterweight division history (2:38:49)",
+    "Most control time in UFC Welterweight division history (2:38:49)",
+    "Most top position time in UFC history (2:22:05)  Most top position time in UFC Welterweight division history (2:18:53)",
+    "Most top position time in UFC Welterweight division history (2:18:53)",
+    "Second highest significant strike defense percentage in UFC history (73.1%)  Highest significant strike defense percentage in UFC Welterweight division history (73.0%)",
+    "Highest significant strike defense percentage in UFC Welterweight division history (73.0%)",
+    "Tied ( Rafael dos Anjos ) for fourth most total strikes landed in UFC history (2591)",
+    "Fourth highest takedown accuracy percentage in UFC history (73.8%)",
+    "Tied ( Jake Ellenberger ) for eighth most bouts in UFC Welterweight division history (21)",
+    "Highest takedown accuracy percentage in UFC Welterweight division history (73.7%)  \"",
+    "Fourth most total fight time in UFC Welterweight division history (5:28:12)",
+    "Third most submission attempts in UFC Welterweight division history (23)",
+    "Holds wins over seven former UFC champions (6 undisputed) — vs. Matt Hughes (x2), B.J. Penn (x2), Matt Serra , Sean Sherk , Johny Hendricks , Michael Bisping and Carlos Condit (interim)"
+  ],
+  "image_commons": "Georges St-Pierre crop.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Georges_St-Pierre",
+    "wikidata": "https://www.wikidata.org/wiki/Q356271",
+    "ufc_com": "https://www.ufc.com/athlete/georges-st-pierre"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 66,
+    "puissance": 52,
+    "lutte": 87,
+    "soumission": 63,
+    "defense": 95,
+    "cardio": 89,
+    "menton": 88,
+    "globale": 77,
+    "style": "lutteur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "id": "volkan-oezdemir",
+  "nom": "Volkan Oezdemir",
+  "ufc_slug": "volkan-oezdemir",
+  "wikipedia_titre": "Volkan Oezdemir",
+  "surnom": "No Time",
+  "sexe": "M",
+  "pays": "CH",
+  "autres_pays": [
+    "TR"
+  ],
+  "categorie": "mi_lourds",
+  "statut": "actif",
+  "date_naissance": "1989-09-19",
+  "taille_cm": 188,
+  "allonge_cm": 190,
+  "style": "Cogneur",
+  "lieu_naissance": "Fribourg, Suisse",
+  "palmares": {
+    "victoires_ko": 14,
+    "victoires_soumission": 2,
+    "victoires_decision": 5,
+    "defaites_ko": 2,
+    "defaites_soumission": 2,
+    "defaites_decision": 4,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires": 21,
+    "defaites": 8
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.99,
+    "precision_frappe_pct": 48,
+    "frappes_encaissees_par_min": 4.19,
+    "defense_frappe_pct": 55.0,
+    "takedowns_par_15min": 0.5,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 80.0,
+    "soumissions_par_15min": 0.1,
+    "knockdowns_par_15min": 0.7,
+    "duree_moyenne_combat_s": 565,
+    "frappes_reussies": 751.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 19,
+      "defaites": 8,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 12,
+        "soumission": 2,
+        "decision": 5,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 2,
+        "decision": 4,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2017": 3,
+      "2018": 2,
+      "2019": 3,
+      "2020": 1,
+      "2021": 1,
+      "2022": 2,
+      "2023": 1,
+      "2024": 2,
+      "2025": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Alonzo Menifield",
+      "evenement": "UFC Fight Night: Tsarukyan vs. Hooker",
+      "date": "22 November 2025",
+      "resultat": "Win",
+      "methode": "KO (knee and punches)"
+    },
+    "combats_ufc": 16,
+    "victoires_ufc": 9,
+    "defaites_ufc": 7,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 11
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Ovince Saint Preux",
+      "evenement": "UFC Fight Night: Bermudez vs. The Korean Zombie",
+      "date": "4 February 2017",
+      "resultat": "Win",
+      "methode": "Decision (split)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Ultimate Fighting Championship Performance of the Night (Three times) vs. Jimi Manuwa , Ilir Latifi and Johnny Walker    UFC.com Awards 2017: Newcomer of the Year  & Ranked #6 Fighter of the Year",
+    "Performance of the Night (Three times) vs. Jimi Manuwa , Ilir Latifi and Johnny Walker",
+    "UFC.com Awards 2017: Newcomer of the Year  & Ranked #6 Fighter of the Year",
+    "2017: Newcomer of the Year  & Ranked #6 Fighter of the Year",
+    "World Kickboxing Network Valhalla: Battle of the Vikings Tournament Winner",
+    "Valhalla: Battle of the Vikings Tournament Winner",
+    "MMA Mania 2017 #5 Ranked Fighter of the Year",
+    "2017 #5 Ranked Fighter of the Year",
+    "Sherdog 2017 Breakthrough Fighter of the Year",
+    "2017 Breakthrough Fighter of the Year",
+    "MMA Junkie 2017 Breakout Fighter of the Year",
+    "2017 Breakout Fighter of the Year",
+    "Bloody Elbow 2017 Newcomer of the Year",
+    "2017 Newcomer of the Year",
+    "MMA Sucka 2017 Best UFC Breakout Star",
+    "2017 Best UFC Breakout Star",
+    "Fight Matrix 2017 Most Improved Fighter of the Year  2017 Most Lopsided Upset of the Year vs. Ovince Saint Preux at UFC Fight Night 104",
+    "2017 Most Improved Fighter of the Year",
+    "2017 Most Lopsided Upset of the Year vs. Ovince Saint Preux at UFC Fight Night 104",
+    "CBS Sports 2017 #4 Ranked UFC Knockout of the Year vs. Jimi Manuwa",
+    "2017 #4 Ranked UFC Knockout of the Year vs. Jimi Manuwa",
+    "Combat Press 2017 Breakout Fighter of the Year",
+    "2017 Breakout Fighter of the Year"
+  ],
+  "image_commons": "Volkan Oezdemir at UFC Fight Night 153 in Stockholm, Sweden.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Volkan_Oezdemir",
+    "wikidata": "https://www.wikidata.org/wiki/Q28758684",
+    "ufc_com": "https://www.ufc.com/athlete/volkan-oezdemir"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_infobox",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 19-8, wikipedia_infobox 21-8, ufc_com 21-8"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 66,
+    "puissance": 79,
+    "lutte": 53,
+    "soumission": 42,
+    "defense": 62,
+    "cardio": 53,
+    "menton": 78,
+    "globale": 62,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

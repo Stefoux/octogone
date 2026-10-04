@@ -1,0 +1,148 @@
+{
+  "id": "michael-morales",
+  "nom": "Michael Morales",
+  "ufc_slug": "michael-morales",
+  "wikipedia_titre": "Michael Morales (fighter)",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "EC",
+  "categorie": "mi_moyens",
+  "statut": "actif",
+  "date_naissance": "1999-06-24",
+  "taille_cm": 183,
+  "allonge_cm": 201,
+  "style": "Cogneur",
+  "lieu_naissance": "Pasaje, Équateur",
+  "palmares": {
+    "victoires": 19,
+    "defaites": 0,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 14,
+    "victoires_soumission": 1,
+    "victoires_decision": 4,
+    "defaites_ko": 0,
+    "defaites_soumission": 0,
+    "defaites_decision": 0
+  },
+  "stats_ufc": {
+    "frappes_par_min": 5.68,
+    "precision_frappe_pct": 49,
+    "frappes_encaissees_par_min": 3.26,
+    "defense_frappe_pct": 54.0,
+    "takedowns_par_15min": 1.04,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 90.0,
+    "soumissions_par_15min": 0.0,
+    "knockdowns_par_15min": 1.46,
+    "duree_moyenne_combat_s": 540,
+    "frappes_reussies": 409.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 19,
+      "defaites": 0,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 14,
+        "soumission": 1,
+        "decision": 4,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 0,
+        "decision": 0,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2021": 1,
+      "2022": 2,
+      "2023": 2,
+      "2024": 1,
+      "2025": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Sean Brady",
+      "evenement": "UFC 322",
+      "date": "November 15, 2025",
+      "resultat": "Win",
+      "methode": "TKO (punches)"
+    },
+    "combats_ufc": 8,
+    "victoires_ufc": 8,
+    "defaites_ufc": 0,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 14
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Nikolay Veretennikov",
+      "evenement": "Dana White's Contender Series 40",
+      "date": "September 21, 2021",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Performance of the Night (Three times) vs. Neil Magny , Gilbert Burns and Sean Brady",
+    "UFC Honors Awards 2025: President's Choice Performance of the Year Nominee vs. Sean Brady",
+    "2025: President's Choice Performance of the Year Nominee vs. Sean Brady",
+    "UFC.com Awards 2022: Ranked #8 Newcomer of the Year",
+    "2022: Ranked #8 Newcomer of the Year",
+    "Oro Fighting Championship OFC Welterweight Champion (One time)",
+    "OFC Welterweight Champion (One time)",
+    "Extreme MMA Extreme MMA Welterweight Champion (One time)",
+    "Extreme MMA Welterweight Champion (One time)",
+    "Sportsnaut 2025 UFC Fighter of the Year",
+    "2025 UFC Fighter of the Year",
+    "MMA Fighting 2025 First Team MMA All-Star",
+    "2025 First Team MMA All-Star",
+    "Uncrowned 2025 #5 Ranked Male Fighter of the Year  2025 #2 Ranked Breakthrough Fighter of the Year",
+    "2025 #5 Ranked Male Fighter of the Year",
+    "2025 #2 Ranked Breakthrough Fighter of the Year"
+  ],
+  "image_commons": "Michael Morales. QUITO, 27 DE MAYO DEL 2025 (cropped).jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Michael_Morales_(fighter)",
+    "wikidata": "https://www.wikidata.org/wiki/Q115298767",
+    "ufc_com": "https://www.ufc.com/athlete/michael-morales"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 70,
+    "puissance": 86,
+    "lutte": 60,
+    "soumission": 42,
+    "defense": 66,
+    "cardio": 53,
+    "menton": 99,
+    "globale": 68,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

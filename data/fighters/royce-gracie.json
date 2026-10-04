@@ -1,0 +1,174 @@
+{
+  "id": "royce-gracie",
+  "nom": "Royce Gracie",
+  "ufc_slug": "royce-gracie",
+  "wikipedia_titre": "Royce Gracie",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "BR",
+  "categorie": "moyens",
+  "statut": "retraite",
+  "date_naissance": "1966-12-12",
+  "taille_cm": 185,
+  "allonge_cm": null,
+  "style": "Gracie jiu-jitsu",
+  "lieu_naissance": "Rio de Janeiro, Brésil",
+  "palmares": {
+    "victoires": 8,
+    "defaites": 2,
+    "nuls": 3,
+    "sans_decision": 0,
+    "victoires_ko": 2,
+    "victoires_soumission": 4,
+    "victoires_decision": 2,
+    "defaites_ko": 2,
+    "defaites_soumission": 0,
+    "defaites_decision": 0
+  },
+  "stats_ufc": {
+    "frappes_par_min": null,
+    "precision_frappe_pct": null,
+    "frappes_encaissees_par_min": null,
+    "defense_frappe_pct": null,
+    "takedowns_par_15min": null,
+    "precision_takedown_pct": null,
+    "defense_takedown_pct": null,
+    "soumissions_par_15min": null,
+    "knockdowns_par_15min": null,
+    "duree_moyenne_combat_s": null,
+    "frappes_reussies": null,
+    "takedowns_reussis": null
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 8,
+      "defaites": 2,
+      "nuls": 3,
+      "sans_decision": 0,
+      "v": {
+        "ko": 2,
+        "soumission": 4,
+        "decision": 2,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 0,
+        "decision": 0,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "1993": 1,
+      "1994": 3,
+      "1995": 1,
+      "2006": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Ken Shamrock",
+      "evenement": "Bellator 149",
+      "date": "February 19, 2016",
+      "resultat": "Win",
+      "methode": "TKO (knee and punches)"
+    },
+    "combats_ufc": 6,
+    "victoires_ufc": 4,
+    "defaites_ufc": 1,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "knee and punches",
+      "finitions": 1
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Gerard Gordeau",
+      "evenement": "UFC 1",
+      "date": "November 12, 1993",
+      "resultat": "Win",
+      "methode": "Submission (rear-naked choke)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "UFC Hall of Fame (Inaugural inductee, Pioneer Wing, class of 2003)",
+    "UFC 1 Tournament Championship",
+    "UFC 2 Tournament Championship",
+    "UFC 4 Tournament Championship",
+    "UFC 3 Tournament semi-finalist [ a ]",
+    "UFC Viewer's Choice Award",
+    "Fight of the Night (Four times) vs. Ken Shamrock 1, Minoki Ichihara, Kimo Leopoldo and Dan Severn",
+    "Submission of the Night (Four times) vs. Gerard Gordeau , Remco Pardoel , Kimo Leopoldo and Dan Severn",
+    "First tournament champion in UFC history",
+    "Longest finish streak in UFC history (11)",
+    "Most bouts won in tournaments in UFC history (11)",
+    "Most tournaments won in UFC history (3)",
+    "Most fights in a single night in UFC history (4) (tied with Patrick Smith )",
+    "Longest fight in UFC history (36 minutes) - vs. Ken Shamrock 2 at UFC 5",
+    "Longest submission streak in UFC history (6)",
+    "Tied ( Gilbert Burns ) for most armbar submission wins in UFC history (4)",
+    "Second highest submission finish rate in UFC history (10 submissions / 11 wins - 90.91%)",
+    "Greatest Submission in UFC's first 25 Years  - vs. Ken Shamrock 1",
+    "PRIDE Fighting Championships Longest fight in PRIDE history (90 minutes) - vs. Kazushi Sakuraba at PRIDE Grand Prix 2000 Finals",
+    "Longest fight in PRIDE history (90 minutes) - vs. Kazushi Sakuraba at PRIDE Grand Prix 2000 Finals",
+    "Fight Matrix Fighter of the Year (1993)",
+    "Fighter of the Year (1993)",
+    "Black Belt Magazine Competitor of the Year (1994)",
+    "Competitor of the Year (1994)",
+    "Wrestling Observer Newsletter Fight of the Year (2000) - vs. Kazushi Sakuraba on May 1",
+    "Fight of the Year (2000) - vs. Kazushi Sakuraba on May 1",
+    "World MMA Awards 2013 Lifetime Achievement",
+    "2013 Lifetime Achievement",
+    "Beckett Media Ranked #44 Greatest Athlete of All Time (2014)",
+    "Ranked #44 Greatest Athlete of All Time (2014)",
+    "International Sports Hall of Fame Class of 2016",
+    "Class of 2016",
+    "Martial Arts History Museum Hall of Fame Class of 2007",
+    "Class of 2007"
+  ],
+  "image_commons": "With Royce Gracie (cropped).jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Royce_Gracie",
+    "wikidata": "https://www.wikidata.org/wiki/Q553469",
+    "ufc_com": "https://www.ufc.com/athlete/royce-gracie"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "allonge_cm",
+    "palmares (wikipedia_tableau 8-2, wikipedia_infobox 15-2, ufc_com 13-2)",
+    "stats_ufc (absentes de la fiche ufc.com)"
+  ],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 8-2, wikipedia_infobox 15-2, ufc_com 13-2"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 65,
+    "puissance": 51,
+    "lutte": 65,
+    "soumission": 80,
+    "defense": 65,
+    "cardio": 42,
+    "menton": 66,
+    "globale": 62,
+    "style": "grappler",
+    "estimees": [
+      "frappe",
+      "lutte",
+      "defense"
+    ],
+    "formule_version": 1
+  }
+}

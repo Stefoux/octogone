@@ -1,0 +1,177 @@
+{
+  "id": "tom-aspinall",
+  "nom": "Tom Aspinall",
+  "ufc_slug": "tom-aspinall",
+  "wikipedia_titre": "Tom Aspinall",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "GB",
+  "categorie": "lourds",
+  "statut": "actif",
+  "date_naissance": "1993-04-11",
+  "taille_cm": 196,
+  "allonge_cm": 198,
+  "style": "Style libre",
+  "lieu_naissance": "Salford, England",
+  "palmares": {
+    "victoires": 15,
+    "defaites": 3,
+    "nuls": 0,
+    "sans_decision": 1,
+    "victoires_ko": 12,
+    "victoires_soumission": 3,
+    "victoires_decision": 0,
+    "defaites_ko": 1,
+    "defaites_soumission": 1,
+    "defaites_decision": 0
+  },
+  "stats_ufc": {
+    "frappes_par_min": 7.63,
+    "precision_frappe_pct": 68,
+    "frappes_encaissees_par_min": 3.62,
+    "defense_frappe_pct": 57.0,
+    "takedowns_par_15min": 2.62,
+    "precision_takedown_pct": 40,
+    "defense_takedown_pct": 100.0,
+    "soumissions_par_15min": 1.31,
+    "knockdowns_par_15min": 3.27,
+    "duree_moyenne_combat_s": 138,
+    "frappes_reussies": 175.0,
+    "takedowns_reussis": 2.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 15,
+      "defaites": 3,
+      "nuls": 0,
+      "sans_decision": 1,
+      "v": {
+        "ko": 12,
+        "soumission": 3,
+        "decision": 0,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 1,
+        "decision": 0,
+        "autre": 1
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2020": 2,
+      "2021": 2,
+      "2022": 2,
+      "2023": 2,
+      "2024": 1,
+      "2025": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Ciryl Gane",
+      "evenement": "UFC 321",
+      "date": "25 October 2025",
+      "resultat": "NC",
+      "methode": "NC (accidental eye poke)"
+    },
+    "combats_ufc": 10,
+    "victoires_ufc": 8,
+    "defaites_ufc": 1,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 7,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": true,
+        "titre": "UFC Heavyweight Championship",
+        "evenement": "UFC 304",
+        "date": "27 July 2024"
+      },
+      {
+        "action": "won",
+        "interim": true,
+        "titre": "UFC Heavyweight Championship",
+        "evenement": "UFC 295",
+        "date": "11 November 2023"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 7
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Jake Collier",
+      "evenement": "UFC on ESPN: Whittaker vs. Till",
+      "date": "26 July 2020",
+      "resultat": "Win",
+      "methode": "TKO (knee and punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "UFC Heavyweight Champion (One time)",
+    "Interim UFC Heavyweight Champion (One time)  One successful title defence",
+    "One successful title defence",
+    "Tied ( Donald Cerrone , Ovince Saint Preux , Conor McGregor , Carlos Prates & Song Yadong ) for fourth most Performance of the Night awards in UFC history (7)",
+    "Tied ( Mark Hunt & Travis Browne ) for fourth-most post-fight bonuses in UFC Heavyweight division history (7)",
+    "Second shortest average fight time in UFC history (2:18) (behind Terrance McKinney )",
+    "Fourth most knockdowns per 15 minutes in UFC history (3.27)",
+    "Fourth highest number of significant strikes landed per minute in UFC history (7.63)  Highest number of significant strikes landed per minute in UFC Heavyweight division history (7.63)",
+    "Highest number of significant strikes landed per minute in UFC Heavyweight division history (7.63)",
+    "Third largest striking differential in UFC history (4.01)",
+    "Least bottom position time in UFC history (0:01)",
+    "Lowest bottom position percentage in UFC history (0.07%)",
+    "2020: Ranked #9 Newcomer of the Year",
+    "2022: Ranked #3 Submission of the Year vs. Alexander Volkov",
+    "2023: Ranked #6 Fighter of the Year ,  Ranked #8 Upset of the Year  & Ranked #6 Knockout of the Year  vs. Sergei Pavlovich",
+    "Sherdog 2023 Breakthrough Fighter of the Year",
+    "2023 Breakthrough Fighter of the Year",
+    "Violent Money TV VMTV UK MMA Male Knockout of the Year 2023  VMTV UK MMA Fighter of the Year 2024",
+    "VMTV UK MMA Male Knockout of the Year 2023",
+    "VMTV UK MMA Fighter of the Year 2024",
+    "World MMA Awards 2024 Breakthrough Fighter of the Year  2024 Comeback of the Year",
+    "2024 Breakthrough Fighter of the Year",
+    "2024 Comeback of the Year",
+    "MMA Junkie 2023 Comeback Fighter of the Year",
+    "2023 Comeback Fighter of the Year",
+    "MMA Fighting 2023 First Team MMA All-Star",
+    "2023 First Team MMA All-Star",
+    "MMA Mania 2023 #3 Ranked Fighter of the Year",
+    "2023 #3 Ranked Fighter of the Year"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Tom_Aspinall",
+    "wikidata": "https://www.wikidata.org/wiki/Q105612429",
+    "ufc_com": "https://www.ufc.com/athlete/tom-aspinall"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 91,
+    "puissance": 91,
+    "lutte": 74,
+    "soumission": 64,
+    "defense": 67,
+    "cardio": 38,
+    "menton": 86,
+    "globale": 73,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

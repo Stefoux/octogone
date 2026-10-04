@@ -1,0 +1,197 @@
+{
+  "id": "frank-mir",
+  "nom": "Frank Mir",
+  "ufc_slug": "frank-mir",
+  "wikipedia_titre": "Frank Mir",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "lourds",
+  "statut": "inactif",
+  "date_naissance": "1979-05-24",
+  "taille_cm": 190,
+  "allonge_cm": 201,
+  "style": "Brazilian Jiu-Jitsu",
+  "lieu_naissance": "Las Vegas, États-Unis",
+  "palmares": {
+    "victoires": 19,
+    "defaites": 13,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 5,
+    "victoires_soumission": 9,
+    "victoires_decision": 4,
+    "defaites_ko": 10,
+    "defaites_soumission": 0,
+    "defaites_decision": 3
+  },
+  "stats_ufc": {
+    "frappes_par_min": null,
+    "precision_frappe_pct": null,
+    "frappes_encaissees_par_min": null,
+    "defense_frappe_pct": null,
+    "takedowns_par_15min": null,
+    "precision_takedown_pct": null,
+    "defense_takedown_pct": null,
+    "soumissions_par_15min": null,
+    "knockdowns_par_15min": null,
+    "duree_moyenne_combat_s": null,
+    "frappes_reussies": null,
+    "takedowns_reussis": null
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 19,
+      "defaites": 13,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 5,
+        "soumission": 9,
+        "decision": 4,
+        "autre": 1
+      },
+      "d": {
+        "ko": 10,
+        "soumission": 0,
+        "decision": 3,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2001": 1,
+      "2002": 2,
+      "2003": 2,
+      "2004": 2,
+      "2006": 3,
+      "2007": 1,
+      "2008": 2,
+      "2009": 2,
+      "2010": 2,
+      "2011": 2,
+      "2012": 1,
+      "2013": 2,
+      "2014": 1,
+      "2015": 3,
+      "2016": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Roy Nelson",
+      "evenement": "Bellator 231",
+      "date": "October 25, 2019",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 27,
+    "victoires_ufc": 16,
+    "defaites_ufc": 11,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 2,
+    "bonus_kotn": 0,
+    "bonus_sotn": 2,
+    "combats_fotn": [],
+    "titres": [
+      {
+        "action": "won",
+        "interim": true,
+        "titre": "UFC Heavyweight Championship",
+        "evenement": "UFC 92",
+        "date": "December 27, 2008"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 3
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Roberto Traven",
+      "evenement": "UFC 34",
+      "date": "November 2, 2001",
+      "resultat": "Win",
+      "methode": "Submission (armbar)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "UFC Heavyweight Championship (One time)",
+    "Interim UFC Heavyweight Championship (One time)",
+    "Submission of the Night (Two times) vs. Brock Lesnar and Antônio Rodrigo Nogueira",
+    "Performance of the Night (Two times) vs. Antônio Silva and Todd Duffee",
+    "Fight of the Night (One time) vs. Ian Freeman",
+    "Knockout of the Night (One time) vs. Wes Sims 2",
+    "Submission of the Night (Four times) vs. Roberto Traven , Pete Williams , Tank Abbott and Tim Sylvia",
+    "Third most wins in UFC Heavyweight division history (16)",
+    "Third most fights in UFC Heavyweight division history (27)",
+    "Second most finishes in UFC heavyweight division history (13)  Third most first-round finishes in UFC history (11) (behind Jim Miller & Vitor Belfort )",
+    "Third most first-round finishes in UFC history (11) (behind Jim Miller & Vitor Belfort )",
+    "Most submission attempts in UFC Heavyweight division history (21)",
+    "Most submissions per 15 minute average in UFC Heavyweight division history (2.02)",
+    "Fastest submission in UFC Heavyweight division (45 seconds)",
+    "Tied ( Gunnar Nelson & Islam Makhachev ) for eighth most submission wins in UFC history (8)",
+    "First and only toe hold finish in UFC history",
+    "Fought five different UFC Heavyweight Champions",
+    "Defeated three different UFC Heavyweight Champions",
+    "2008: Upset of the Year vs. Antônio Rodrigo Nogueira 1 ,  Ranked #5 Fighter of the Year  & Ranked #2 Submission of the Year vs. Brock Lesnar",
+    "2009: Ranked #3 Submission of the Year vs. Cheick Kongo",
+    "2011: Submission of the Year vs. Antônio Rodrigo Nogueira 2",
+    "FIGHT! Magazine 2008 Submission of the Year vs. Brock Lesnar on February 2",
+    "2008 Submission of the Year vs. Brock Lesnar on February 2",
+    "Sherdog 2008 Comeback Fighter of the Year  2011 Submission of the Year vs. Antônio Rodrigo Nogueira on December 10  2011 All-Violence Second Team  Mixed Martial Arts Hall of Fame",
+    "2008 Comeback Fighter of the Year",
+    "2011 Submission of the Year vs. Antônio Rodrigo Nogueira on December 10",
+    "2011 All-Violence Second Team",
+    "Mixed Martial Arts Hall of Fame",
+    "ESPN 2011 Submission of the Year vs. Antônio Rodrigo Nogueira on December 10",
+    "2011 Submission of the Year vs. Antônio Rodrigo Nogueira on December 10",
+    "World MMA Awards 2011 Submission of the Year vs. Antônio Rodrigo Nogueira at UFC 140  2011 Comeback of the Year vs. Antônio Rodrigo Nogueira at UFC 140",
+    "2011 Submission of the Year vs. Antônio Rodrigo Nogueira at UFC 140",
+    "2011 Comeback of the Year vs. Antônio Rodrigo Nogueira at UFC 140",
+    "Rear Naked News 2008 Comeback of the Year",
+    "2008 Comeback of the Year",
+    "MMA Fighting 2008 #6 Ranked UFC Submission of the Year vs. Brock Lesnar at UFC 81",
+    "2008 #6 Ranked UFC Submission of the Year vs. Brock Lesnar at UFC 81",
+    "Pan American Championships Blue Belt Pesadissimo: 1st place (2001)",
+    "Blue Belt Pesadissimo: 1st place (2001)",
+    "North American Grappling Association NAGA Absolute Division Champion (2007)"
+  ],
+  "image_commons": "Frank Mir.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Frank_Mir",
+    "wikidata": "https://www.wikidata.org/wiki/Q459362",
+    "ufc_com": "https://www.ufc.com/athlete/frank-mir"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "stats_ufc (absentes de la fiche ufc.com)"
+  ],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 19-13, wikipedia_infobox 19-13, ufc_com 18-11"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 65,
+    "puissance": 48,
+    "lutte": 65,
+    "soumission": 82,
+    "defense": 65,
+    "cardio": 33,
+    "menton": 30,
+    "globale": 55,
+    "style": "grappler",
+    "estimees": [
+      "frappe",
+      "lutte",
+      "defense"
+    ],
+    "formule_version": 1
+  }
+}

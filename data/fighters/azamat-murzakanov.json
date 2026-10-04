@@ -1,0 +1,140 @@
+{
+  "id": "azamat-murzakanov",
+  "nom": "Azamat Murzakanov",
+  "ufc_slug": "azamat-murzakanov",
+  "wikipedia_titre": "Azamat Murzakanov",
+  "surnom": "Professional",
+  "sexe": "M",
+  "pays": "RU",
+  "categorie": "mi_lourds",
+  "statut": "actif",
+  "date_naissance": "1989-04-12",
+  "taille_cm": 178,
+  "allonge_cm": 182,
+  "style": "AMM",
+  "lieu_naissance": "Nalchik, Russie",
+  "palmares": {
+    "victoires_ko": 12,
+    "victoires_soumission": 1,
+    "victoires_decision": 3,
+    "defaites_ko": 1,
+    "defaites_soumission": 0,
+    "defaites_decision": 0,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires": 16,
+    "defaites": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.4,
+    "precision_frappe_pct": 56,
+    "frappes_encaissees_par_min": 3.2,
+    "defense_frappe_pct": 56.0,
+    "takedowns_par_15min": 0.68,
+    "precision_takedown_pct": 7,
+    "defense_takedown_pct": 89.0,
+    "soumissions_par_15min": 0.23,
+    "knockdowns_par_15min": 1.58,
+    "duree_moyenne_combat_s": 497,
+    "frappes_reussies": 292.0,
+    "takedowns_reussis": 1.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 15,
+      "defaites": 1,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 12,
+        "soumission": 1,
+        "decision": 2,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 0,
+        "decision": 0,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2021": 1,
+      "2022": 2,
+      "2023": 1,
+      "2024": 1,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Paulo Costa",
+      "evenement": "UFC 327",
+      "date": "April 11, 2026",
+      "resultat": "Loss",
+      "methode": "TKO (head kick)"
+    },
+    "combats_ufc": 8,
+    "victoires_ufc": 7,
+    "defaites_ufc": 1,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 2,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 10
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Matheus Scheffel",
+      "evenement": "Dana White's Contender Series 37",
+      "date": "August 31, 2021",
+      "resultat": "Win",
+      "methode": "TKO (punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Ultimate Fighting Championship Performance of the Night (Two times) vs. Tafon Nchukwi and Alonzo Menifield",
+    "Performance of the Night (Two times) vs. Tafon Nchukwi and Alonzo Menifield",
+    "Brave Combat Federation Brave CF Openweight Tournament",
+    "Brave CF Openweight Tournament"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Azamat_Murzakanov",
+    "wikidata": "https://www.wikidata.org/wiki/Q56000949",
+    "ufc_com": "https://www.ufc.com/athlete/azamat-murzakanov"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_infobox",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 15-1, wikipedia_infobox 16-1, ufc_com 16-1"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 70,
+    "puissance": 87,
+    "lutte": 58,
+    "soumission": 45,
+    "defense": 68,
+    "cardio": 51,
+    "menton": 85,
+    "globale": 66,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

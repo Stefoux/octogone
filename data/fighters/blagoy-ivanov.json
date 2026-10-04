@@ -1,0 +1,143 @@
+{
+  "id": "blagoy-ivanov",
+  "nom": "Blagoy Ivanov",
+  "ufc_slug": "blagoy-ivanov",
+  "wikipedia_titre": "Blagoy Ivanov",
+  "surnom": "Baga",
+  "sexe": "M",
+  "pays": "BG",
+  "categorie": "lourds",
+  "statut": "inactif",
+  "date_naissance": "1986-10-09",
+  "taille_cm": 180,
+  "allonge_cm": 185,
+  "style": "MMA",
+  "lieu_naissance": "Sofia, Bulgaria",
+  "palmares": {
+    "victoires": 19,
+    "defaites": 7,
+    "nuls": 0,
+    "sans_decision": 1,
+    "victoires_ko": 6,
+    "victoires_soumission": 6,
+    "victoires_decision": 7,
+    "defaites_ko": 0,
+    "defaites_soumission": 1,
+    "defaites_decision": 6
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.25,
+    "precision_frappe_pct": 40,
+    "frappes_encaissees_par_min": 4.2,
+    "defense_frappe_pct": 53.0,
+    "takedowns_par_15min": 0.69,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 62.0,
+    "soumissions_par_15min": 0.12,
+    "knockdowns_par_15min": 0.12,
+    "duree_moyenne_combat_s": 975,
+    "frappes_reussies": 422.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 19,
+      "defaites": 7,
+      "nuls": 0,
+      "sans_decision": 1,
+      "v": {
+        "ko": 6,
+        "soumission": 6,
+        "decision": 7,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 1,
+        "decision": 6,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2018": 1,
+      "2019": 3,
+      "2020": 1,
+      "2022": 1,
+      "2023": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Sergei Bilostenniy",
+      "evenement": "PFL 1 (2024)",
+      "date": "April 4, 2024",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 8,
+    "victoires_ufc": 3,
+    "defaites_ufc": 5,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 0,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 6
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Junior dos Santos",
+      "evenement": "UFC Fight Night: dos Santos vs. Ivanov",
+      "date": "July 14, 2018",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Bellator MMA Bellator Season 10 Heavyweight Tournament: Runner-Up",
+    "Bellator Season 10 Heavyweight Tournament: Runner-Up",
+    "World Series of Fighting WSOF Heavyweight Championship (1 time) Four successful title defenses",
+    "WSOF Heavyweight Championship (1 time) Four successful title defenses",
+    "Four successful title defenses",
+    "Fédération Internationale de Sambo (FIAS) 2008 World Championships - Gold Medalist in combat sambo at +100 kg  2006 World Championships - Bronze Medalist in sambo wrestling at 100 kg",
+    "2008 World Championships - Gold Medalist in combat sambo at +100 kg",
+    "2006 World Championships - Bronze Medalist in sambo wrestling at 100 kg"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Blagoy_Ivanov",
+    "wikidata": "https://www.wikidata.org/wiki/Q4923861",
+    "ufc_com": "https://www.ufc.com/athlete/blagoy-ivanov"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 19-7, wikipedia_infobox 19-7, ufc_com 19-6"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 52,
+    "puissance": 52,
+    "lutte": 49,
+    "soumission": 54,
+    "defense": 60,
+    "cardio": 76,
+    "menton": 99,
+    "globale": 63,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

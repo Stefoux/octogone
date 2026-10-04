@@ -1,0 +1,27 @@
+{
+  "_doc": "noms : nom imprimé sur une carte -> nom canonique. wikipedia / ufc : forcer le titre Wikipedia ou l'identifiant ufc.com quand la recherche automatique se trompe.",
+  "noms": {
+    "Alexander Volkanovksi": "Alexander Volkanovski",
+    "Alexsandar Rakic": "Aleksandar Rakić",
+    "Aleksandar Rakic": "Aleksandar Rakić",
+    "Dricus DU Plessis": "Dricus du Plessis",
+    "Dricus Du Plessis": "Dricus du Plessis",
+    "Movsar Evolev": "Movsar Evloev",
+    "Nuerdanbieke Shayilan": "Shayilan Nuerdanbieke",
+    "Shogun Rua": "Maurício Rua",
+    "Inoue Mizuki": "Mizuki Inoue",
+    "Choi SeungWoo": "Seungwoo Choi",
+    "Yadong Song": "Song Yadong",
+    "Antonio Rodrigo Nogueira": "Antônio Rodrigo Nogueira",
+    "Jiri Prochazka": "Jiří Procházka",
+    "Dusko Todorovic": "Duško Todorović",
+    "Ludovit Klein": "Ľudovít Klein",
+    "Marcos Rogério De Lima": "Marcos Rogério de Lima",
+    "Rafael Dos Anjos": "Rafael dos Anjos",
+    "Natalia Cristina da Silva": "Natália Silva"
+  },
+  "wikipedia": {
+    "Natália Silva": "Natália Silva (fighter)"
+  },
+  "ufc": {}
+}

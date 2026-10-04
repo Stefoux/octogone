@@ -1,0 +1,202 @@
+{
+  "id": "antonio-rodrigo-nogueira",
+  "nom": "Antônio Rodrigo Nogueira",
+  "ufc_slug": "minotauro-nogueira",
+  "wikipedia_titre": "Antônio Rodrigo Nogueira",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "BR",
+  "categorie": "lourds",
+  "statut": "retraite",
+  "date_naissance": "1976-06-02",
+  "taille_cm": 190,
+  "allonge_cm": 196,
+  "style": null,
+  "lieu_naissance": "États-Unis",
+  "palmares": {
+    "victoires_ko": 3,
+    "victoires_soumission": 21,
+    "victoires_decision": 10,
+    "defaites_ko": 3,
+    "defaites_soumission": 2,
+    "defaites_decision": 5,
+    "nuls": 1,
+    "sans_decision": 1,
+    "victoires": 34,
+    "defaites": 10
+  },
+  "stats_ufc": {
+    "frappes_par_min": null,
+    "precision_frappe_pct": null,
+    "frappes_encaissees_par_min": null,
+    "defense_frappe_pct": null,
+    "takedowns_par_15min": null,
+    "precision_takedown_pct": null,
+    "defense_takedown_pct": null,
+    "soumissions_par_15min": null,
+    "knockdowns_par_15min": null,
+    "duree_moyenne_combat_s": null,
+    "frappes_reussies": null,
+    "takedowns_reussis": null
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 28,
+      "defaites": 10,
+      "nuls": 1,
+      "sans_decision": 1,
+      "v": {
+        "ko": 3,
+        "soumission": 18,
+        "decision": 7,
+        "autre": 0
+      },
+      "d": {
+        "ko": 3,
+        "soumission": 2,
+        "decision": 5,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2007": 1,
+      "2008": 2,
+      "2009": 1,
+      "2010": 1,
+      "2011": 2,
+      "2012": 1,
+      "2013": 1,
+      "2014": 1,
+      "2015": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Stefan Struve",
+      "evenement": "UFC 190",
+      "date": "1 August 2015",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 11,
+    "victoires_ufc": 5,
+    "defaites_ufc": 6,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 2,
+    "bonus_potn": 0,
+    "bonus_kotn": 1,
+    "bonus_sotn": 1,
+    "combats_fotn": [
+      {
+        "adversaire": "Randy Couture",
+        "evenement": "UFC 102",
+        "date": "29 August 2009"
+      },
+      {
+        "adversaire": "Tim Sylvia",
+        "evenement": "UFC 81",
+        "date": "2 February 2008"
+      }
+    ],
+    "titres": [
+      {
+        "action": "won",
+        "interim": true,
+        "titre": "UFC Heavyweight Championship",
+        "evenement": "UFC 81",
+        "date": "2 February 2008"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "armbar",
+      "finitions": 9
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Heath Herring",
+      "evenement": "UFC 73",
+      "date": "7 July 2007",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "Fighting Network RINGS 2000 RINGS King of Kings Tournament Winner",
+    "2000 RINGS King of Kings Tournament Winner",
+    "Pride Heavyweight Championship ( One time, first )",
+    "Interim Pride Heavyweight Championship ( One time )",
+    "2004 PRIDE Heavyweight Grand Prix Runner-Up",
+    "2006 PRIDE Open-Weight Grand Prix Semi-Finalist",
+    "Tied with Kazushi Sakuraba for the most submission wins (11) in Pride FC history",
+    "UFC Hall of Fame ( Pioneer Wing , Class of 2016)",
+    "Interim UFC Heavyweight Championship ( One time )",
+    "Fight of the Night (Two times)",
+    "Knockout of the Night (One time)",
+    "2023 UFC Forrest Griffin Community Award",
+    "UFC.com Awards 2008: Ranked #5 Submission of the Year vs. Tim Sylvia  2009: Ranked #2 Fight of the Year vs. Randy Couture",
+    "2008: Ranked #5 Submission of the Year vs. Tim Sylvia",
+    "2009: Ranked #2 Fight of the Year vs. Randy Couture",
+    "World Extreme Fighting WEF Heavyweight Superfight Champion (One Time)",
+    "WEF Heavyweight Superfight Champion (One Time)",
+    "FanSided 2000s #10 Ranked MMA Fighter of the Decade",
+    "2000s #10 Ranked MMA Fighter of the Decade",
+    "Sports Illustrated 2008 Comeback of the Year vs. Tim Sylvia at UFC 81",
+    "2008 Comeback of the Year vs. Tim Sylvia at UFC 81",
+    "Sherdog Mixed Martial Arts Hall of Fame",
+    "Mixed Martial Arts Hall of Fame",
+    "Wrestling Observer Newsletter 2002 Fighter of the Year",
+    "2002 Fighter of the Year",
+    "Black Belt Magazine 2002 NHB Fighter of the Year",
+    "2002 NHB Fighter of the Year",
+    "Inside Fights 2009 Fight of the Year - vs. Randy Couture on 29 August",
+    "2009 Fight of the Year - vs. Randy Couture on 29 August",
+    "2002 Heavyweight Fighter of the Year",
+    "2002 Fight of the Year vs. Bob Sapp at Pride Shockwave",
+    "2003 Fight of the Year vs. Mirko Cro Cop on 9 November",
+    "2006 Fight of the Year vs. Josh Barnett at Pride Shockwave 2006",
+    "2008 #3 Ranked UFC Fight of the Year vs. Tim Sylvia at UFC 81",
+    "Fight Matrix 2001 Fighter of the Year  2003 Most Noteworthy Match of the Year vs. Fedor Emelianenko on 16 March  2004 Most Noteworthy Match of the Year vs. Fedor Emelianenko on 31 December",
+    "2001 Fighter of the Year",
+    "2003 Most Noteworthy Match of the Year vs. Fedor Emelianenko on 16 March",
+    "2004 Most Noteworthy Match of the Year vs. Fedor Emelianenko on 31 December",
+    "ADCC World Submission Wrestling Championships 2000 ADCC – 99 kg+: Quarter finals",
+    "2000 ADCC – 99 kg+: Quarter finals"
+  ],
+  "image_commons": "Sessão Solene em homenagem ao Dia Estadual do MMA - 12.11.2015 (22957902296) CROPPED.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Antônio_Rodrigo_Nogueira",
+    "wikidata": "https://www.wikidata.org/wiki/Q549014",
+    "ufc_com": "https://www.ufc.com/athlete/minotauro-nogueira"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_infobox",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "stats_ufc (absentes de la fiche ufc.com)"
+  ],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 28-10, wikipedia_infobox 34-10, ufc_com 34-10"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 65,
+    "puissance": 37,
+    "lutte": 65,
+    "soumission": 92,
+    "defense": 65,
+    "cardio": 37,
+    "menton": 73,
+    "globale": 62,
+    "style": "grappler",
+    "estimees": [
+      "frappe",
+      "lutte",
+      "defense"
+    ],
+    "formule_version": 1
+  }
+}

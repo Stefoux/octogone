@@ -1,0 +1,208 @@
+{
+  "id": "glover-teixeira",
+  "nom": "Glover Teixeira",
+  "ufc_slug": "glover-teixeira",
+  "wikipedia_titre": "Glover Teixeira",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "BR",
+  "categorie": "mi_lourds",
+  "statut": "retraite",
+  "date_naissance": "1979-10-28",
+  "taille_cm": 188,
+  "allonge_cm": 193,
+  "style": "Jiu-Jitsu",
+  "lieu_naissance": "Gover Nador Valadares, Brazil",
+  "palmares": {
+    "victoires": 33,
+    "defaites": 9,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 18,
+    "victoires_soumission": 10,
+    "victoires_decision": 5,
+    "defaites_ko": 3,
+    "defaites_soumission": 1,
+    "defaites_decision": 5
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.73,
+    "precision_frappe_pct": 50,
+    "frappes_encaissees_par_min": 4.43,
+    "defense_frappe_pct": 51.0,
+    "takedowns_par_15min": 2.11,
+    "precision_takedown_pct": 18,
+    "defense_takedown_pct": 60.0,
+    "soumissions_par_15min": 0.94,
+    "knockdowns_par_15min": 0.33,
+    "duree_moyenne_combat_s": 620,
+    "frappes_reussies": 1007.0,
+    "takedowns_reussis": 20.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 33,
+      "defaites": 9,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 18,
+        "soumission": 10,
+        "decision": 5,
+        "autre": 0
+      },
+      "d": {
+        "ko": 3,
+        "soumission": 1,
+        "decision": 5,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2012": 2,
+      "2013": 3,
+      "2014": 2,
+      "2015": 2,
+      "2016": 2,
+      "2017": 3,
+      "2018": 1,
+      "2019": 3,
+      "2020": 2,
+      "2021": 1,
+      "2022": 1,
+      "2023": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Jamahal Hill",
+      "evenement": "UFC 283",
+      "date": "21 January 2023",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 23,
+    "victoires_ufc": 16,
+    "defaites_ufc": 7,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 4,
+    "bonus_potn": 4,
+    "bonus_kotn": 1,
+    "bonus_sotn": 1,
+    "combats_fotn": [
+      {
+        "adversaire": "Jamahal Hill",
+        "evenement": "UFC 283",
+        "date": "21 January 2023"
+      },
+      {
+        "adversaire": "Jiří Procházka",
+        "evenement": "UFC 275",
+        "date": "11 June 2022"
+      },
+      {
+        "adversaire": "Alexander Gustafsson",
+        "evenement": "UFC Fight Night: Gustafsson vs. Teixeira",
+        "date": "28 May 2017"
+      },
+      {
+        "adversaire": "Ovince Saint Preux",
+        "evenement": "UFC Fight Night: Teixeira vs. Saint Preux",
+        "date": "8 August 2015"
+      }
+    ],
+    "titres": [
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 267",
+        "date": "30 October 2021"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 17
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Kyle Kingsbury",
+      "evenement": "UFC 146",
+      "date": "26 May 2012",
+      "resultat": "Win",
+      "methode": "Submission (arm-triangle choke)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "UFC Light Heavyweight Championship (One time) Oldest first-time champion in UFC history (42 years, 2 days)  Oldest fighter in history to win the UFC Light Heavyweight Championship",
+    "Oldest first-time champion in UFC history (42 years, 2 days)  Oldest fighter in history to win the UFC Light Heavyweight Championship",
+    "Oldest fighter in history to win the UFC Light Heavyweight Championship",
+    "Performance of the Night (Four times) vs. Rashad Evans , Ion Cuțelaba , Anthony Smith , and Jan Błachowicz",
+    "Knockout of the Night (One time) vs. Ryan Bader",
+    "Submission of the Night (One time) vs. James Te-Huna",
+    "Fight of the Night (Four times) vs. Ovince Saint Preux , Alexander Gustafsson , Jiří Procházka , and Jamahal Hill     Most Post-Fight bonuses in UFC Light Heavyweight division history (10)",
+    "Most Post-Fight bonuses in UFC Light Heavyweight division history (10)",
+    "Most finishes in UFC Light Heavyweight division history (13)",
+    "Most submissions in UFC Light Heavyweight division history (7)",
+    "Second most wins in UFC Light Heavyweight division history (16)",
+    "Most submission attempts in UFC Light Heavyweight division history (16)",
+    "Most top position time in UFC Light Heavyweight division history (1:12:16)",
+    "Third most bouts in UFC Light Heavyweight division history (23)",
+    "Third most total fight time in UFC Light Heavyweight division history (4:25:06)",
+    "Third most control time in UFC Light Heavyweight division history (1:18:33)",
+    "Third most significant strikes landed in UFC Light Heavyweight division history (953)",
+    "Second most total strikes landed in UFC Light Heavyweight division history (1609)",
+    "Fifth most takedowns landed in UFC Light Heavyweight division history (36)",
+    "2021: Fan's Choice Submission of the Year Nominee vs. Jan Błachowicz",
+    "2022: President's Choice Fight of the Year Nominee vs. Jiří Procházka",
+    "2023: President's Choice Fight of the Year Nominee vs. Jamahal Hill",
+    "2012: Newcomer of the Year",
+    "2020: Ranked #8 Fighter of the Year",
+    "2021: Ranked #8 Fighter of the Year",
+    "2022: Fight of the Year vs. Jiří Procházka",
+    "2023: Ranked #5 Fight of the Year vs. Jamahal Hill",
+    "Shooto South America 220-pound Championship (One time)",
+    "South America 220-pound Championship (One time)",
+    "2012 Beatdown of the Year vs. Fábio Maldonado",
+    "2012 All-Violence Second Team",
+    "2013 All-Violence Third Team",
+    "2020 Beatdown of the Year vs. Anthony Smith",
+    "2022 Fight of the Year vs. Jiří Procházka",
+    "The Athletic 2020 Comeback Fighter of the Year",
+    "2020 Comeback Fighter of the Year",
+    "BT Sport 2020 Comeback of the Year",
+    "2020 Comeback of the Year",
+    "Combat Press 2020 Comeback of the Year vs. Thiago Santos  2020 Comeback Fighter of the Year  2021 Comeback Fighter of the Year  2022 Fight of the Year vs. Jiří Procházka at UFC 275",
+    "2020 Comeback of the Year vs. Thiago Santos"
+  ],
+  "image_commons": "Glover Teixeira.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Glover_Teixeira",
+    "wikidata": "https://www.wikidata.org/wiki/Q3788849",
+    "ufc_com": "https://www.ufc.com/athlete/glover-teixeira"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 62,
+    "puissance": 66,
+    "lutte": 52,
+    "soumission": 64,
+    "defense": 56,
+    "cardio": 55,
+    "menton": 72,
+    "globale": 61,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

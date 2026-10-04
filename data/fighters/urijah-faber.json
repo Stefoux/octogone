@@ -1,0 +1,195 @@
+{
+  "id": "urijah-faber",
+  "nom": "Urijah Faber",
+  "ufc_slug": "urijah-faber",
+  "wikipedia_titre": "Urijah Faber",
+  "surnom": "The California Kid",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "coq",
+  "statut": "inactif",
+  "date_naissance": "1979-05-14",
+  "taille_cm": 168,
+  "allonge_cm": 170,
+  "style": "AMM",
+  "lieu_naissance": "Isla Vista, États-Unis",
+  "palmares": {
+    "victoires": 35,
+    "defaites": 11,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 10,
+    "victoires_soumission": 17,
+    "victoires_decision": 7,
+    "defaites_ko": 4,
+    "defaites_soumission": 0,
+    "defaites_decision": 7
+  },
+  "stats_ufc": {
+    "frappes_par_min": null,
+    "precision_frappe_pct": null,
+    "frappes_encaissees_par_min": null,
+    "defense_frappe_pct": null,
+    "takedowns_par_15min": null,
+    "precision_takedown_pct": null,
+    "defense_takedown_pct": null,
+    "soumissions_par_15min": null,
+    "knockdowns_par_15min": null,
+    "duree_moyenne_combat_s": null,
+    "frappes_reussies": null,
+    "takedowns_reussis": null
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 35,
+      "defaites": 11,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 10,
+        "soumission": 17,
+        "decision": 7,
+        "autre": 1
+      },
+      "d": {
+        "ko": 4,
+        "soumission": 0,
+        "decision": 7,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2011": 3,
+      "2012": 1,
+      "2013": 4,
+      "2014": 3,
+      "2015": 2,
+      "2016": 3,
+      "2019": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Petr Yan",
+      "evenement": "UFC 245",
+      "date": "December 14, 2019",
+      "resultat": "Loss",
+      "methode": "KO (head kick)"
+    },
+    "combats_ufc": 18,
+    "victoires_ufc": 11,
+    "defaites_ufc": 7,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 2,
+    "bonus_fotn": 4,
+    "bonus_potn": 1,
+    "bonus_kotn": 1,
+    "bonus_sotn": 6,
+    "combats_fotn": [
+      {
+        "adversaire": "Dominick Cruz",
+        "evenement": "UFC 132",
+        "date": "July 2, 2011"
+      },
+      {
+        "adversaire": "Mike Brown",
+        "evenement": "WEC 41",
+        "date": "June 7, 2009"
+      },
+      {
+        "adversaire": "Jens Pulver",
+        "evenement": "WEC 34",
+        "date": "June 1, 2008"
+      },
+      {
+        "adversaire": "Jeff Curran",
+        "evenement": "WEC 31",
+        "date": "December 12, 2007"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 10
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Eddie Wineland",
+      "evenement": "UFC 128",
+      "date": "March 19, 2011",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "UFC Hall of Fame ( Modern Wing , Class of 2017)",
+    "Fight of the Night (One time) vs. Dominick Cruz",
+    "Performance of the Night (One time) vs. Ricky Simón",
+    "Submission of the Night (Two times) vs. Brian Bowles and Michael McDonald",
+    "Tied ( Rob Font , Sean O'Malley & Song Yadong ) for third most finishes in UFC Bantamweight division history (7)",
+    "Tied ( Rani Yahya ) for most submissions in UFC Bantamweight division history (6)",
+    "Tied ( Rob Font ) for sixth most wins in UFC Bantamweight division history (11)",
+    "Tied ( T.J. Dillashaw ) for sixth most bouts in UFC Bantamweight division history (17)",
+    "2011: Ranked #5 Import of the Year  & Ranked #4 Fight of the Year vs. Dominick Cruz 2",
+    "2013: Ranked #4 Fighter of the Year  & Ranked #7 Submissions of the Year vs. Ivan Menjivar , Scott Jorgensen & Michael McDonald",
+    "WEC Featherweight Championship (One time) Five successful title defenses",
+    "Five successful title defenses",
+    "Fight of the Night (three times) vs. Jeff Curran , Jens Pulver , and Mike Brown",
+    "Knockout of the Night (one time) vs. Joe Pearson",
+    "Submission of the Night (four times) vs. Dominick Cruz , Jens Pulver , Raphael Assunção , and Takeya Mizugaki",
+    "Most Post-Fight bonuses in WEC History (8)",
+    "Most consecutive title defenses in WEC history (five)",
+    "Most successful title defenses in WEC history (five)",
+    "King of the Cage KOTC Bantamweight Championship (One time) Five successful title defenses",
+    "KOTC Bantamweight Championship (One time)",
+    "Five successful title defenses",
+    "Gladiator Challenge GC Bantamweight Championship (Two Times)",
+    "GC Bantamweight Championship (Two Times)",
+    "MMA Insider 2013 Fight Camp of the Year (Team Alpha Male)",
+    "2013 Fight Camp of the Year (Team Alpha Male)",
+    "World MMA Awards 2013 Submission of the Year vs. Ivan Menjivar at UFC 157",
+    "2013 Submission of the Year vs. Ivan Menjivar at UFC 157",
+    "Sherdog 2011 All-Violence First Team  2013 All-Violence First Team",
+    "2011 All-Violence First Team",
+    "2013 All-Violence First Team",
+    "Bleacher Report 2013 #4 Ranked Fighter of the Year",
+    "2013 #4 Ranked Fighter of the Year"
+  ],
+  "image_commons": "Urijah Faber 24 July 2009.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Urijah_Faber",
+    "wikidata": "https://www.wikidata.org/wiki/Q2704462",
+    "ufc_com": "https://www.ufc.com/athlete/urijah-faber"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "stats_ufc (absentes de la fiche ufc.com)"
+  ],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 35-11, wikipedia_infobox 34-11, ufc_com 35-11"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 65,
+    "puissance": 51,
+    "lutte": 65,
+    "soumission": 83,
+    "defense": 65,
+    "cardio": 55,
+    "menton": 64,
+    "globale": 64,
+    "style": "grappler",
+    "estimees": [
+      "frappe",
+      "lutte",
+      "defense"
+    ],
+    "formule_version": 1
+  }
+}

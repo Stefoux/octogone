@@ -1,0 +1,149 @@
+{
+  "id": "dusko-todorovic",
+  "nom": "Duško Todorović",
+  "ufc_slug": "dusko-todorovic",
+  "wikipedia_titre": "Duško Todorović",
+  "surnom": "Thunder",
+  "sexe": "M",
+  "pays": "RS",
+  "categorie": "moyens",
+  "statut": "actif",
+  "date_naissance": "1994-05-19",
+  "taille_cm": 185,
+  "allonge_cm": 188,
+  "style": "MMA",
+  "lieu_naissance": "Kotor, Montenegro",
+  "palmares": {
+    "victoires": 13,
+    "defaites": 7,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 8,
+    "victoires_soumission": 4,
+    "victoires_decision": 1,
+    "defaites_ko": 4,
+    "defaites_soumission": 1,
+    "defaites_decision": 2
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.52,
+    "precision_frappe_pct": 58,
+    "frappes_encaissees_par_min": 4.2,
+    "defense_frappe_pct": 48.0,
+    "takedowns_par_15min": 2.03,
+    "precision_takedown_pct": 4,
+    "defense_takedown_pct": 40.0,
+    "soumissions_par_15min": 0.34,
+    "knockdowns_par_15min": 0.0,
+    "duree_moyenne_combat_s": 444,
+    "frappes_reussies": 401.0,
+    "takedowns_reussis": 2.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 13,
+      "defaites": 7,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 8,
+        "soumission": 4,
+        "decision": 1,
+        "autre": 0
+      },
+      "d": {
+        "ko": 4,
+        "soumission": 1,
+        "decision": 2,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2019": 1,
+      "2020": 1,
+      "2021": 3,
+      "2022": 2,
+      "2023": 1,
+      "2024": 1,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Robert Valentin",
+      "evenement": "UFC Fight Night: Medić vs. Rodriguez",
+      "date": "August 1, 2026",
+      "resultat": "Loss",
+      "methode": "Submission (guillotine choke)"
+    },
+    "combats_ufc": 12,
+    "victoires_ufc": 5,
+    "defaites_ufc": 7,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 1,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Jordan Wright",
+        "evenement": "UFC Fight Night: Grasso vs. Araújo",
+        "date": "October 15, 2022"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 7
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Teddy Ash",
+      "evenement": "Dana White's Contender Series 26",
+      "date": "August 27, 2019",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Ultimate Fighting Championship Performance of the Night (One time) vs. Dequan Townsend  Fight of the Night (One time) vs. Jordan Wright",
+    "Performance of the Night (One time) vs. Dequan Townsend",
+    "Fight of the Night (One time) vs. Jordan Wright",
+    "Serbian Battle Championship SBC Middleweight Championship (One time)",
+    "SBC Middleweight Championship (One time)"
+  ],
+  "image_commons": "Duško Todorović (1).jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Duško_Todorović",
+    "wikidata": "https://www.wikidata.org/wiki/Q107124934",
+    "ufc_com": "https://www.ufc.com/athlete/dusko-todorovic"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 13-7, wikipedia_infobox 94-1, ufc_com 13-7"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 73,
+    "puissance": 65,
+    "lutte": 46,
+    "soumission": 56,
+    "defense": 55,
+    "cardio": 47,
+    "menton": 48,
+    "globale": 56,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

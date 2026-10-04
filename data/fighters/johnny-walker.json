@@ -1,0 +1,145 @@
+{
+  "id": "johnny-walker",
+  "nom": "Johnny Walker",
+  "ufc_slug": "johnny-walker",
+  "wikipedia_titre": "Johnny Walker (fighter)",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "BR",
+  "categorie": "lourds",
+  "statut": "actif",
+  "date_naissance": "1992-03-30",
+  "taille_cm": 198,
+  "allonge_cm": 208,
+  "style": "AMM",
+  "lieu_naissance": "Belford Roxo, Brésil",
+  "palmares": {
+    "victoires": 23,
+    "defaites": 10,
+    "nuls": 0,
+    "sans_decision": 1,
+    "victoires_ko": 18,
+    "victoires_soumission": 3,
+    "victoires_decision": 2,
+    "defaites_ko": 6,
+    "defaites_soumission": 1,
+    "defaites_decision": 3
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.9,
+    "precision_frappe_pct": 55,
+    "frappes_encaissees_par_min": 2.99,
+    "defense_frappe_pct": 46.0,
+    "takedowns_par_15min": 0.36,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 57.0,
+    "soumissions_par_15min": 0.73,
+    "knockdowns_par_15min": 0.61,
+    "duree_moyenne_combat_s": 436,
+    "frappes_reussies": 482.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 23,
+      "defaites": 10,
+      "nuls": 0,
+      "sans_decision": 1,
+      "v": {
+        "ko": 18,
+        "soumission": 3,
+        "decision": 2,
+        "autre": 0
+      },
+      "d": {
+        "ko": 6,
+        "soumission": 1,
+        "decision": 3,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2018": 2,
+      "2019": 3,
+      "2020": 2,
+      "2021": 1,
+      "2022": 2,
+      "2023": 3,
+      "2024": 2,
+      "2025": 1,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Mick Parkin",
+      "evenement": "UFC 332",
+      "date": "October 3, 2026",
+      "resultat": "Win",
+      "methode": "KO (knee)"
+    },
+    "combats_ufc": 18,
+    "victoires_ufc": 10,
+    "defaites_ufc": 7,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 5,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 10
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Henrique da Silva",
+      "evenement": "Dana White's Contender Series Brazil 2",
+      "date": "August 11, 2018",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Performance of the Night (Five times) vs. Khalil Rountree Jr. , Justin Ledet , Misha Cirkunov , Ion Cuțelaba and Zhang Mingyang",
+    "UFC.com Awards 2018: Ranked #8 Newcomer of the Year",
+    "2018: Ranked #8 Newcomer of the Year",
+    "MMAJunkie.com 2019 February Knockout of the Month vs. Justin Ledet",
+    "2019 February Knockout of the Month vs. Justin Ledet",
+    "European Beatdown 2018 EBD Light Heavyweight Championship (One time)",
+    "2018 EBD Light Heavyweight Championship (One time)",
+    "Ultimate Challenge MMA 2018 UCMMA Light Heavyweight Championship (One time)",
+    "2018 UCMMA Light Heavyweight Championship (One time)"
+  ],
+  "image_commons": "AFSOC celebrates Outstanding Airmen of the Year (5).jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Johnny_Walker_(fighter)",
+    "wikidata": "https://www.wikidata.org/wiki/Q61478503",
+    "ufc_com": "https://www.ufc.com/athlete/johnny-walker"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 68,
+    "puissance": 84,
+    "lutte": 43,
+    "soumission": 52,
+    "defense": 61,
+    "cardio": 45,
+    "menton": 39,
+    "globale": 56,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

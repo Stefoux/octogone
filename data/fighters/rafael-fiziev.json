@@ -1,0 +1,182 @@
+{
+  "id": "rafael-fiziev",
+  "nom": "Rafael Fiziev",
+  "ufc_slug": "rafael-fiziev",
+  "wikipedia_titre": "Rafael Fiziev",
+  "surnom": "Ataman",
+  "sexe": "M",
+  "pays": "KG",
+  "autres_pays": [
+    "AZ"
+  ],
+  "categorie": "legers",
+  "statut": "actif",
+  "date_naissance": "1993-03-05",
+  "taille_cm": 173,
+  "allonge_cm": 182,
+  "style": "Muay Thaï",
+  "lieu_naissance": "Kirghizstan",
+  "palmares": {
+    "victoires": 14,
+    "defaites": 5,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 9,
+    "victoires_soumission": 1,
+    "victoires_decision": 4,
+    "defaites_ko": 3,
+    "defaites_soumission": 0,
+    "defaites_decision": 2
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.71,
+    "precision_frappe_pct": 53,
+    "frappes_encaissees_par_min": 4.81,
+    "defense_frappe_pct": 50.0,
+    "takedowns_par_15min": 1.0,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 90.0,
+    "soumissions_par_15min": 0.0,
+    "knockdowns_par_15min": 0.3,
+    "duree_moyenne_combat_s": 692,
+    "frappes_reussies": 706.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 14,
+      "defaites": 5,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 9,
+        "soumission": 1,
+        "decision": 4,
+        "autre": 0
+      },
+      "d": {
+        "ko": 3,
+        "soumission": 0,
+        "decision": 2,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2019": 2,
+      "2020": 2,
+      "2021": 2,
+      "2022": 1,
+      "2023": 2,
+      "2025": 2,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Manuel Torres",
+      "evenement": "UFC Fight Night: Fiziev vs. Torres",
+      "date": "June 27, 2026",
+      "resultat": "Win",
+      "methode": "KO (spinning wheel kick and punches)"
+    },
+    "combats_ufc": 13,
+    "victoires_ufc": 8,
+    "defaites_ufc": 5,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 4,
+    "bonus_potn": 4,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Justin Gaethje",
+        "evenement": "UFC 313",
+        "date": "March 8, 2025"
+      },
+      {
+        "adversaire": "Justin Gaethje",
+        "evenement": "UFC 286",
+        "date": "March 18, 2023"
+      },
+      {
+        "adversaire": "Bobby Green",
+        "evenement": "UFC 265",
+        "date": "August 7, 2021"
+      },
+      {
+        "adversaire": "Marc Diakiese",
+        "evenement": "UFC Fight Night: Figueiredo vs. Benavidez 2",
+        "date": "July 18, 2020"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 3
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Magomed Mustafaev",
+      "evenement": "UFC Fight Night: Overeem vs. Oleinik",
+      "date": "April 20, 2019",
+      "resultat": "Loss",
+      "methode": "TKO (spinning back kick and punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Fight of the Night (Four times) vs. Marc Diakiese , Bobby Green , and Justin Gaethje (x2)",
+    "Performance of the Night (Four times) vs. Renato Moicano , Brad Riddell , Rafael dos Anjos and Manuel Torres",
+    "UFC Honors Awards 2023: President's Choice Fight of the Year Nominee vs. Justin Gaethje 1",
+    "2023: President's Choice Fight of the Year Nominee vs. Justin Gaethje 1",
+    "UFC.com Awards 2023: Ranked #7 Fight of the Year vs. Justin Gaethje 1",
+    "2023: Ranked #7 Fight of the Year vs. Justin Gaethje 1",
+    "Combat Press 2021 Breakout Fighter of the Year",
+    "2021 Breakout Fighter of the Year",
+    "MMA Junkie 2023 March Fight of the Month vs. Justin Gaethje  2025 March Fight of the Month vs. Justin Gaethje",
+    "2023 March Fight of the Month vs. Justin Gaethje",
+    "2025 March Fight of the Month vs. Justin Gaethje",
+    "Sherdog 2023 Round of the Year vs. Justin Gaethje",
+    "2023 Round of the Year vs. Justin Gaethje",
+    "Bleacher Report 2023 #3 Ranked UFC Fight of the Year vs. Justin Gaethje at UFC 286",
+    "2023 #3 Ranked UFC Fight of the Year vs. Justin Gaethje at UFC 286",
+    "Kyrgyz Muaythai Federation 3x Kyrgyzstan Muay Thai Champion (2007, 2008, and 2009)",
+    "3x Kyrgyzstan Muay Thai Champion (2007, 2008, and 2009)",
+    "International Federation of Muaythai Associations 2009 IFMA World Championships Junior 2011 Kazakhstan National Champion 2016 IFMA World Championships (B-class) -71 kg",
+    "2009 IFMA World Championships Junior",
+    "2011 Kazakhstan National Champion",
+    "2016 IFMA World Championships (B-class) -71 kg",
+    "World Muaythai Federation 2010 WMF Intercontinental -63.5 kg Champion",
+    "2010 WMF Intercontinental -63.5 kg Champion"
+  ],
+  "image_commons": "Fiziev 2023.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Rafael_Fiziev",
+    "wikidata": "https://www.wikidata.org/wiki/Q75012682",
+    "ufc_com": "https://www.ufc.com/athlete/rafael-fiziev"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 70,
+    "puissance": 71,
+    "lutte": 59,
+    "soumission": 40,
+    "defense": 53,
+    "cardio": 60,
+    "menton": 60,
+    "globale": 59,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

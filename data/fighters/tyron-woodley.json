@@ -1,0 +1,203 @@
+{
+  "id": "tyron-woodley",
+  "nom": "Tyron Woodley",
+  "ufc_slug": "tyron-woodley",
+  "wikipedia_titre": "Tyron Woodley",
+  "surnom": "The Chosen One",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "mi_moyens",
+  "statut": "inactif",
+  "date_naissance": "1982-04-07",
+  "taille_cm": 175,
+  "allonge_cm": 188,
+  "style": "Freestyle",
+  "lieu_naissance": "St. Louis, United States",
+  "palmares": {
+    "victoires": 19,
+    "defaites": 7,
+    "nuls": 1,
+    "sans_decision": 0,
+    "victoires_ko": 7,
+    "victoires_soumission": 5,
+    "victoires_decision": 7,
+    "defaites_ko": 2,
+    "defaites_soumission": 1,
+    "defaites_decision": 4
+  },
+  "stats_ufc": {
+    "frappes_par_min": 2.36,
+    "precision_frappe_pct": 49,
+    "frappes_encaissees_par_min": 2.76,
+    "defense_frappe_pct": 55.0,
+    "takedowns_par_15min": 1.06,
+    "precision_takedown_pct": 9,
+    "defense_takedown_pct": 88.0,
+    "soumissions_par_15min": 0.39,
+    "knockdowns_par_15min": 0.58,
+    "duree_moyenne_combat_s": 754,
+    "frappes_reussies": 730.0,
+    "takedowns_reussis": 5.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 19,
+      "defaites": 7,
+      "nuls": 1,
+      "sans_decision": 0,
+      "v": {
+        "ko": 7,
+        "soumission": 5,
+        "decision": 7,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 1,
+        "decision": 4,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2013": 3,
+      "2014": 3,
+      "2015": 1,
+      "2016": 2,
+      "2017": 2,
+      "2018": 1,
+      "2019": 1,
+      "2020": 2,
+      "2021": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Vicente Luque",
+      "evenement": "UFC 260",
+      "date": "March 27, 2021",
+      "resultat": "Loss",
+      "methode": "Submission (brabo choke)"
+    },
+    "combats_ufc": 16,
+    "victoires_ufc": 9,
+    "defaites_ufc": 6,
+    "victoires_decision_5_rounds": 2,
+    "combats_5_rounds_gagnes": 2,
+    "bonus_fotn": 2,
+    "bonus_potn": 3,
+    "bonus_kotn": 1,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Vicente Luque",
+        "evenement": "UFC 260",
+        "date": "March 27, 2021"
+      },
+      {
+        "adversaire": "Stephen Thompson",
+        "evenement": "UFC 205",
+        "date": "November 12, 2016"
+      }
+    ],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Welterweight Championship",
+        "evenement": "UFC 228",
+        "date": "September 8, 2018"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Welterweight Championship",
+        "evenement": "UFC 214",
+        "date": "July 29, 2017"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Welterweight Championship",
+        "evenement": "UFC 209",
+        "date": "March 4, 2017"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Welterweight Championship",
+        "evenement": "UFC 201",
+        "date": "July 30, 2016"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 5
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Jay Hieron",
+      "evenement": "UFC 156",
+      "date": "February 2, 2013",
+      "resultat": "Win",
+      "methode": "KO (punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "UFC Welterweight Championship (One time) Four successful title defenses",
+    "Four successful title defenses",
+    "Knockout of the Night (One time) vs. Josh Koscheck",
+    "Performance of the Night (Three times) vs. Dong Hyun Kim , Robbie Lawler and Darren Till",
+    "Fight of the Night (Two times) vs. Stephen Thompson 1 and Vicente Luque",
+    "UFC.com Awards 2013: Ranked #5 Import of the Year  2016: Ranked #6 Fighter of the Year ,  Ranked #8 Knockout of the Year vs. Robbie Lawler  & Ranked #5 Fight of the Year vs. Stephen Thompson 1",
+    "2013: Ranked #5 Import of the Year",
+    "2016: Ranked #6 Fighter of the Year ,  Ranked #8 Knockout of the Year vs. Robbie Lawler  & Ranked #5 Fight of the Year vs. Stephen Thompson 1",
+    "Strikeforce 2010 Rising Star of the Year",
+    "2010 Rising Star of the Year",
+    "CBS Sports 2016 #5 Ranked UFC Fight of the Year vs. Stephen Thompson  2017 #5 Ranked UFC Fighter of the Year",
+    "2016 #5 Ranked UFC Fight of the Year vs. Stephen Thompson",
+    "2017 #5 Ranked UFC Fighter of the Year",
+    "Missouri State High School Activities Association MSHSAA All-State (1999, 2000)",
+    "MSHSAA All-State (1999, 2000)",
+    "National Collegiate Athletic Association NCAA Division I All-American (2003, 2005) Big 12 Conference Champion (2003)",
+    "NCAA Division I All-American (2003, 2005)",
+    "Big 12 Conference Champion (2003)",
+    "National High School Coaches Association NHSCA Senior All-American (2000)",
+    "NHSCA Senior All-American (2000)",
+    "Real Pro Wrestling RPW 84 kg Northern Regional Championship (2006)",
+    "RPW 84 kg Northern Regional Championship (2006)",
+    "USA Wrestling United States University Freestyle National Championship Runner-up (2006)",
+    "United States University Freestyle National Championship Runner-up (2006)",
+    "Real American Freestyle Match of the Night (One time) vs. Joaquin Buckley",
+    "Match of the Night (One time) vs. Joaquin Buckley"
+  ],
+  "image_commons": "Tyron Woodley.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Tyron_Woodley",
+    "wikidata": "https://www.wikidata.org/wiki/Q2075426",
+    "ufc_com": "https://www.ufc.com/athlete/tyron-woodley"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 54,
+    "puissance": 59,
+    "lutte": 58,
+    "soumission": 54,
+    "defense": 71,
+    "cardio": 78,
+    "menton": 77,
+    "globale": 64,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "id": "merab-dvalishvili",
+  "nom": "Merab Dvalishvili",
+  "ufc_slug": "merab-dvalishvili",
+  "wikipedia_titre": "Merab Dvalishvili",
+  "surnom": "The Machine",
+  "sexe": "M",
+  "pays": "GE",
+  "categorie": "coq",
+  "statut": "actif",
+  "date_naissance": "1991-01-10",
+  "taille_cm": 168,
+  "allonge_cm": 173,
+  "style": "Style libre",
+  "lieu_naissance": "Tbilisi, Géorgie",
+  "palmares": {
+    "victoires": 21,
+    "defaites": 5,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 3,
+    "victoires_soumission": 2,
+    "victoires_decision": 16,
+    "defaites_ko": 0,
+    "defaites_soumission": 1,
+    "defaites_decision": 4
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.42,
+    "precision_frappe_pct": 42,
+    "frappes_encaissees_par_min": 2.8,
+    "defense_frappe_pct": 54.0,
+    "takedowns_par_15min": 5.97,
+    "precision_takedown_pct": 5,
+    "defense_takedown_pct": 76.0,
+    "soumissions_par_15min": 0.35,
+    "knockdowns_par_15min": 0.05,
+    "duree_moyenne_combat_s": 1056,
+    "frappes_reussies": 1322.0,
+    "takedowns_reussis": 17.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 21,
+      "defaites": 5,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 3,
+        "soumission": 2,
+        "decision": 16,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 1,
+        "decision": 4,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2017": 1,
+      "2018": 2,
+      "2019": 1,
+      "2020": 3,
+      "2021": 2,
+      "2022": 1,
+      "2023": 1,
+      "2024": 2,
+      "2025": 4
+    },
+    "dernier_combat": {
+      "adversaire": "Petr Yan",
+      "evenement": "UFC 323",
+      "date": "December 6, 2025",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 17,
+    "victoires_ufc": 14,
+    "defaites_ufc": 3,
+    "victoires_decision_5_rounds": 4,
+    "combats_5_rounds_gagnes": 4,
+    "bonus_fotn": 3,
+    "bonus_potn": 2,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Petr Yan",
+        "evenement": "UFC 323",
+        "date": "December 6, 2025"
+      },
+      {
+        "adversaire": "Umar Nurmagomedov",
+        "evenement": "UFC 311",
+        "date": "January 18, 2025"
+      },
+      {
+        "adversaire": "Ricky Simón",
+        "evenement": "UFC Fight Night: Barboza vs. Lee",
+        "date": "April 21, 2018"
+      }
+    ],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Bantamweight Championship",
+        "evenement": "UFC 320",
+        "date": "October 4, 2025"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Bantamweight Championship",
+        "evenement": "UFC 316",
+        "date": "June 7, 2025"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Bantamweight Championship",
+        "evenement": "UFC 311",
+        "date": "January 18, 2025"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Bantamweight Championship",
+        "evenement": "UFC 306",
+        "date": "September 14, 2024"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 2
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Frankie Saenz",
+      "evenement": "UFC Fight Night: Swanson vs. Ortega",
+      "date": "December 9, 2017",
+      "resultat": "Loss",
+      "methode": "Decision (split)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "Tied ( Aljamain Sterling ) for the most consecutive title defenses in UFC Bantamweight division history (3)",
+    "Tied ( Dominick Cruz , Renan Barão & Aljamain Sterling ) for second most UFC Bantamweight title fight wins (4)",
+    "First Georgian-born champion in UFC history",
+    "Most takedowns landed in a UFC title fight (20) (vs. Cory Sandhagen )",
+    "Performance of the Night (Two times) vs. Marlon Moraes and Sean O'Malley 2",
+    "Fight of the Night (Three times) vs. Ricky Simón , Umar Nurmagomedov & Petr Yan 2",
+    "Most unanimous decision wins in UFC Bantamweight division history (11)",
+    "Most decision wins in UFC Bantamweight division history (11)",
+    "Fifth highest decision-wins-per-win percentage in UFC history (12 decision wins / 14 wins: 85.7%)",
+    "Longest win streak in UFC Bantamweight division history (13)  Fourth longest win streak in UFC history (14)",
+    "Fourth longest win streak in UFC history (14)",
+    "First and only fighter to have over 100 takedowns in UFC history",
+    "Most takedowns landed in UFC Bantamweight division history (106)",
+    "Most takedowns attempted in a bout in UFC history (49) (vs. Petr Yan 1)  Second most takedowns attempted in a bout in UFC history (37) (vs. Cory Sandhagen )",
+    "Second most takedowns attempted in a bout in UFC history (37) (vs. Cory Sandhagen )",
+    "Second most takedowns landed in a UFC bout (20) (vs. Cory Sandhagen )",
+    "Only UFC fighter to land 10 or more takedowns in five separate bouts",
+    "Most total strikes landed in UFC Bantamweight division history (2672)  Third most total strikes landed in UFC history (2782)",
+    "Third most total strikes landed in UFC history (2782)",
+    "Fourth most significant strikes landed in UFC Bantamweight division history (1249)",
+    "Most control time in UFC Bantamweight division history (1:38:10)",
+    "Tied ( T.J. Dillashaw & Marlon Vera ) for second most wins in UFC Bantamweight division history (13)",
+    "Second most total fight time in UFC Bantamweight division history (4:44:07)",
+    "Second most top position time in UFC Bantamweight division history (54:50)",
+    "Second longest average fight time in UFC Bantamweight division history (17:45)",
+    "Most total body strikes landed in a UFC Bantamweight match (127) (vs. Brad Katona )",
+    "Most total leg strikes landed in a UFC Bantamweight match (95) (vs. Jose Aldo )",
+    "Sixth most significant strikes landed in a UFC Bantamweight match (57) (vs. Marlon Moraes )",
+    "Holds wins over four former UFC champions — José Aldo , Petr Yan , Henry Cejudo and Sean O'Malley x2",
+    "2021: Fan's Choice Comeback of the Year Nominee vs. Marlon Moraes",
+    "2025: President's Choice Fight of the Year Nominee vs. Umar Nurmagomedov  & Fan's Choice Submission of the Year Nominee vs. Sean O'Malley 2",
+    "2024: Ranked #6 Fighter of the Year",
+    "2025: Fighter of the Year ,  Submission of the Year vs. Sean O'Malley 2  & Half-Year Awards: Best Fighter of the 1HY  & Best Submission of the 1HY vs. Sean O'Malley",
+    "Ring of Combat ROC Bantamweight Championship (one time) One successful title defense",
+    "ROC Bantamweight Championship (one time) One successful title defense",
+    "One successful title defense",
+    "ESPY Awards 2025 Best MMA Fighter ESPY Award",
+    "2025 Best MMA Fighter ESPY Award",
+    "ESPN 2025 Men's Fighter of the Year",
+    "2025 Men's Fighter of the Year"
+  ],
+  "image_commons": "Merab Dvalishvili at UFC 316 (cropped).jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Merab_Dvalishvili",
+    "wikidata": "https://www.wikidata.org/wiki/Q48471377",
+    "ufc_com": "https://www.ufc.com/athlete/merab-dvalishvili"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 58,
+    "puissance": 38,
+    "lutte": 72,
+    "soumission": 45,
+    "defense": 70,
+    "cardio": 94,
+    "menton": 99,
+    "globale": 68,
+    "style": "lutteur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

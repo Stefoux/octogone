@@ -1,0 +1,200 @@
+{
+  "id": "aljamain-sterling",
+  "nom": "Aljamain Sterling",
+  "ufc_slug": "aljamain-sterling",
+  "wikipedia_titre": "Aljamain Sterling",
+  "surnom": "Funk Master",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "plume",
+  "statut": "actif",
+  "date_naissance": "1989-07-31",
+  "taille_cm": 170,
+  "allonge_cm": 180,
+  "style": "Kickboxing",
+  "lieu_naissance": "États-Unis",
+  "palmares": {
+    "victoires": 26,
+    "defaites": 5,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 3,
+    "victoires_soumission": 8,
+    "victoires_decision": 14,
+    "defaites_ko": 2,
+    "defaites_soumission": 0,
+    "defaites_decision": 3
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.26,
+    "precision_frappe_pct": 53,
+    "frappes_encaissees_par_min": 2.15,
+    "defense_frappe_pct": 59.0,
+    "takedowns_par_15min": 2.54,
+    "precision_takedown_pct": 12,
+    "defense_takedown_pct": 45.0,
+    "soumissions_par_15min": 0.64,
+    "knockdowns_par_15min": 0.0,
+    "duree_moyenne_combat_s": 863,
+    "frappes_reussies": 1407.0,
+    "takedowns_reussis": 21.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 26,
+      "defaites": 5,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 3,
+        "soumission": 8,
+        "decision": 14,
+        "autre": 1
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 0,
+        "decision": 3,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2014": 2,
+      "2015": 2,
+      "2016": 1,
+      "2017": 4,
+      "2018": 2,
+      "2019": 2,
+      "2020": 1,
+      "2021": 1,
+      "2022": 2,
+      "2023": 2,
+      "2024": 2,
+      "2025": 1,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Youssef Zalal",
+      "evenement": "UFC Fight Night: Sterling vs. Zalal",
+      "date": "April 25, 2026",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 23,
+    "victoires_ufc": 18,
+    "defaites_ufc": 5,
+    "victoires_decision_5_rounds": 5,
+    "combats_5_rounds_gagnes": 6,
+    "bonus_fotn": 0,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Bantamweight Championship",
+        "evenement": "UFC 288",
+        "date": "May 6, 2023"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Bantamweight Championship",
+        "evenement": "UFC 280",
+        "date": "October 22, 2022"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Bantamweight Championship",
+        "evenement": "UFC 259",
+        "date": "March 6, 2021"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "rear-naked choke",
+      "finitions": 5
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Cody Gibson",
+      "evenement": "UFC 170",
+      "date": "February 22, 2014",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "First UFC champion to win a title by disqualification",
+    "Three successful title defenses",
+    "Tied ( Merab Dvalishvili ) for the most consecutive title defenses in UFC Bantamweight division history (3)",
+    "Tied ( Dominick Cruz , Renan Barão & Merab Dvalishvili ) for second most title fight wins in UFC Bantamweight division history (4)",
+    "Performance of the Night (One time) vs. Cory Sandhagen",
+    "Tied ( Marlon Vera ) for most wins in UFC Bantamweight division history (14)  Tied ( Dominick Cruz & Marlon Vera ) for most wins in UFC/WEC Bantamweight division history (14)",
+    "Tied ( Dominick Cruz & Marlon Vera ) for most wins in UFC/WEC Bantamweight division history (14)",
+    "Second longest win streak in UFC Bantamweight division history (9)",
+    "Sixth most total fight time in UFC Bantamweight division history (3:55:40)",
+    "Second most control time in UFC Bantamweight division history (1:09:10) (behind Merab Dvalishvili )",
+    "Third most total strikes landed in UFC Bantamweight division history (1670)",
+    "Tied ( Raphael Assunção ) for fourth most bouts in UFC Bantamweight division history (18)",
+    "Tied ( Kyung Ho Kang , Mario Bautista & Marlon Vera ) for third most submissions in UFC Bantamweight division history (4)",
+    "Tied ( Takeya Mizugaki ) for third most decision wins in UFC Bantamweight division history (7)",
+    "Fourth longest top-position time in UFC Bantamweight division history (46:36)",
+    "Fourth highest striking differential in UFC Bantamweight division history (2.25)",
+    "Third most submission attempts in UFC Bantamweight division history (13)",
+    "Tied ( Petr Yan ) for seventh most takedowns landed in UFC Bantamweight division history (32)",
+    "Holds wins over four former UFC champions — vs. Renan Barão , Petr Yan (twice), T.J. Dillashaw and Henry Cejudo",
+    "2015: Ranked #10 Submission of the Year vs. Takeya Mizugaki",
+    "2018: Ranked #3 Submission of the Year vs. Cody Stamann (Tied with Zabit Magomedsharipov )",
+    "2020: Half-Year Awards: Best Submission of the 1HY  & Ranked #3 Submission of the Year vs. Cory Sandhagen",
+    "2022: Ranked #7 Fighter of the Year  & Ranked #7 Upset of the Year vs. Petr Yan 2",
+    "Cage Fury Fighting Championships CFFC Bantamweight Championship (One time) Three successful title defenses",
+    "CFFC Bantamweight Championship (One time) Three successful title defenses",
+    "Three successful title defenses",
+    "Ring of Combat ROC Bantamweight Championship (One time)",
+    "ROC Bantamweight Championship (One time)",
+    "MMAJunkie.com 2018 Submission of the Year vs. Cody Stamann  2020 June Submission of the Month vs. Cory Sandhagen",
+    "2018 Submission of the Year vs. Cody Stamann",
+    "2020 June Submission of the Month vs. Cory Sandhagen",
+    "Cageside Press 2020 \"Submission of the Year\" vs. Cory Sandhagen , tied with Khabib Nurmagomedov and A.J. McKee",
+    "2020 \"Submission of the Year\" vs. Cory Sandhagen , tied with Khabib Nurmagomedov and A.J. McKee",
+    "World MMA Awards 2022 Comeback of the Year",
+    "2022 Comeback of the Year",
+    "MMA Fighting 2022 Second Team MMA All-Star",
+    "2022 Second Team MMA All-Star"
+  ],
+  "image_commons": "Alijamain Sterling at UFC 228.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Aljamain_Sterling",
+    "wikidata": "https://www.wikidata.org/wiki/Q17403242",
+    "ufc_com": "https://www.ufc.com/athlete/aljamain-sterling"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 68,
+    "puissance": 35,
+    "lutte": 48,
+    "soumission": 59,
+    "defense": 79,
+    "cardio": 93,
+    "menton": 79,
+    "globale": 66,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

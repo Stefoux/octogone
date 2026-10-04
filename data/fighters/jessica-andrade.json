@@ -1,0 +1,215 @@
+{
+  "id": "jessica-andrade",
+  "nom": "Jessica Andrade",
+  "ufc_slug": "jessica-andrade",
+  "wikipedia_titre": "Jéssica Andrade",
+  "surnom": "Bate Estaca",
+  "sexe": "F",
+  "pays": "BR",
+  "categorie": "paille_f",
+  "statut": "actif",
+  "date_naissance": "1991-09-25",
+  "taille_cm": 156,
+  "allonge_cm": 157,
+  "style": "Muay Thaï",
+  "lieu_naissance": "Umuarama, Brésil",
+  "palmares": {
+    "victoires": 26,
+    "defaites": 15,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 10,
+    "victoires_soumission": 8,
+    "victoires_decision": 8,
+    "defaites_ko": 5,
+    "defaites_soumission": 5,
+    "defaites_decision": 5
+  },
+  "stats_ufc": {
+    "frappes_par_min": 6.37,
+    "precision_frappe_pct": 49,
+    "frappes_encaissees_par_min": 5.58,
+    "defense_frappe_pct": 54.0,
+    "takedowns_par_15min": 2.1,
+    "precision_takedown_pct": 45,
+    "defense_takedown_pct": 75.0,
+    "soumissions_par_15min": 0.31,
+    "knockdowns_par_15min": 0.37,
+    "duree_moyenne_combat_s": 573,
+    "frappes_reussies": 1824.0,
+    "takedowns_reussis": 33.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 26,
+      "defaites": 15,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 10,
+        "soumission": 8,
+        "decision": 8,
+        "autre": 0
+      },
+      "d": {
+        "ko": 5,
+        "soumission": 5,
+        "decision": 5,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2013": 2,
+      "2014": 2,
+      "2015": 3,
+      "2016": 2,
+      "2017": 3,
+      "2018": 2,
+      "2019": 2,
+      "2020": 2,
+      "2021": 2,
+      "2022": 1,
+      "2023": 5,
+      "2024": 2,
+      "2025": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Loopy Godinez",
+      "evenement": "UFC 319",
+      "date": "August 16, 2025",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 30,
+    "victoires_ufc": 17,
+    "defaites_ufc": 13,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 5,
+    "bonus_potn": 6,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Natália Silva",
+        "evenement": "UFC Fight Night: Burns vs. Brady",
+        "date": "September 7, 2024"
+      },
+      {
+        "adversaire": "Rose Namajunas",
+        "evenement": "UFC 251",
+        "date": "July 12, 2020"
+      },
+      {
+        "adversaire": "Rose Namajunas",
+        "evenement": "UFC 237",
+        "date": "May 11, 2019"
+      },
+      {
+        "adversaire": "Cláudia Gadelha",
+        "evenement": "UFC Fight Night: Saint Preux vs. Okami",
+        "date": "September 23, 2017"
+      },
+      {
+        "adversaire": "Angela Hill",
+        "evenement": "UFC Fight Night: Bermudez vs. The Korean Zombie",
+        "date": "February 4, 2017"
+      }
+    ],
+    "titres": [
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Women's Strawweight Championship",
+        "evenement": "UFC 237",
+        "date": "May 11, 2019"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 7
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Liz Carmouche",
+      "evenement": "UFC on Fox: Johnson vs. Moraga",
+      "date": "July 27, 2013",
+      "resultat": "Loss",
+      "methode": "TKO (punches and elbows)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "UFC Women's Strawweight Championship (One time; former)",
+    "Most Performance of the Night bonuses in UFC Women's history (6)",
+    "Most Fight of the Night bonuses in UFC Women's history (5)",
+    "Most Post-Fight bonuses in UFC Women's history (11)",
+    "Most Post-Fight bonuses in UFC Women's Strawweight division history (9)",
+    "Most wins in UFC Women's history (17)",
+    "Tied ( Angela Hill ) for the most bouts in UFC Women's history (30)",
+    "Third most finishes in UFC Women's history (9) (behind Amanda Nunes & Gillian Robertson )",
+    "Tied ( Joanna Jędrzejczyk , Carla Esparza & Zhang Weili ) for fourth most wins in UFC Women's Strawweight division history (10)",
+    "Most finishes in UFC Women's Strawweight division history (6)",
+    "Tied ( Denise Gomes ) for most knockouts in UFC Women's Strawweight division history (4)",
+    "Most knockdowns landed in a fight in UFC Women's Strawweight division and UFC Women's history (4) (vs. Mackenzie Dern )",
+    "Tied for third most knockdowns landed in a fight in UFC history (4)",
+    "Tied ( Ailín Pérez ) for most takedowns landed in a UFC Women's bout (10) (vs. Tecia Torres )",
+    "Tied ( Carla Esparza ) for fifth most bouts in UFC Women's Strawweight division history (15)",
+    "Sixth most takedowns landed in UFC Women's Strawweight division history (24)",
+    "Fourth least bottom position time in UFC Women's Strawweight division history (2:28)",
+    "Fourth lowest bottom position percentage in UFC Women's Strawweight division history (1.72%)",
+    "Fifth most significant strikes landed in UFC Women's Strawweight division history (912)",
+    "Third most strikes landed-per-minute in UFC Women's Strawweight division history (6.35)",
+    "Fourth highest takedown percentage in UFC Women's Strawweight division history (54.6%)",
+    "Fifth highest takedown defense percentage in UFC Women's Strawweight division history (80.0%)",
+    "Only woman in UFC history to win a fight in three weight classes",
+    "Most bouts by a woman in a calendar year in UFC history (5 in 2023) Tied for most bouts in a calendar year in UFC history (5 in 2023)",
+    "Tied for most bouts in a calendar year in UFC history (5 in 2023)",
+    "Most significant strikes landed in a UFC Women's Flyweight bout (231) vs Lauren Murphy",
+    "First standing arm-triangle choke finish in UFC History",
+    "2019: Fan's Choice Comeback of the Year Nominee vs. Rose Namajunas 1",
+    "2022: President's Choice Performance of the Year Nominee vs. Amanda Lemos  & Fan's Choice Submission of the Year Nominee vs. Amanda Lemos",
+    "2017: Ranked #8 Fight of the Year vs. Angela Hill",
+    "2018: Ranked #7 Knockout of the Year vs. Karolina Kowalkiewicz",
+    "2019: Ranked #8 Knockout of the Year vs. Rose Namajunas 1  & Ranked #6 Upset of the Year vs. Rose Namajunas 1",
+    "2020: Ranked #7 Fight of the Year vs. Rose Namajunas 2",
+    "2022: Submission of the Year vs. Amanda Lemos",
+    "2017 #5 Ranked Fight of the Year vs. Cláudia Gadelha at UFC Fight Night: Saint Preux vs. Okami",
+    "2017 September Fight of the Month vs. Cláudia Gadelha",
+    "2019 May Fight of the Month vs. Rose Namajunas",
+    "2020 July Fight of the Month vs. Rose Namajunas",
+    "2022 April Submission of the Month vs. Amanda Lemos",
+    "LowKick MMA 2022 Submission of the Year vs. Amanda Lemos at UFC Fight Night: Lemos vs. Andrade"
+  ],
+  "image_commons": "Jessica Andrade at UFC 228.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Jéssica_Andrade",
+    "wikidata": "https://www.wikidata.org/wiki/Q15131640",
+    "ufc_com": "https://www.ufc.com/athlete/jessica-andrade"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 76,
+    "puissance": 57,
+    "lutte": 67,
+    "soumission": 54,
+    "defense": 51,
+    "cardio": 52,
+    "menton": 53,
+    "globale": 59,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "id": "derek-brunson",
+  "nom": "Derek Brunson",
+  "ufc_slug": "derek-brunson",
+  "wikipedia_titre": "Derek Brunson",
+  "surnom": "The 1",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "moyens",
+  "statut": "inactif",
+  "date_naissance": "1984-01-04",
+  "taille_cm": 185,
+  "allonge_cm": 196,
+  "style": "Wrestling, BJJ",
+  "lieu_naissance": "Wilmington, United States",
+  "palmares": {
+    "victoires": 24,
+    "defaites": 9,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 12,
+    "victoires_soumission": 4,
+    "victoires_decision": 8,
+    "defaites_ko": 7,
+    "defaites_soumission": 0,
+    "defaites_decision": 2
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.51,
+    "precision_frappe_pct": 47,
+    "frappes_encaissees_par_min": 3.05,
+    "defense_frappe_pct": 51.0,
+    "takedowns_par_15min": 3.14,
+    "precision_takedown_pct": 11,
+    "defense_takedown_pct": 86.0,
+    "soumissions_par_15min": 0.61,
+    "knockdowns_par_15min": 0.54,
+    "duree_moyenne_combat_s": 517,
+    "frappes_reussies": 688.0,
+    "takedowns_reussis": 13.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 24,
+      "defaites": 9,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 12,
+        "soumission": 4,
+        "decision": 8,
+        "autre": 0
+      },
+      "d": {
+        "ko": 7,
+        "soumission": 0,
+        "decision": 2,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2012": 1,
+      "2013": 1,
+      "2014": 2,
+      "2015": 2,
+      "2016": 3,
+      "2017": 3,
+      "2018": 2,
+      "2019": 2,
+      "2020": 1,
+      "2021": 2,
+      "2022": 1,
+      "2023": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Ray Cooper III",
+      "evenement": "PFL 10 (2023)",
+      "date": "November 24, 2023",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 21,
+    "victoires_ufc": 14,
+    "defaites_ufc": 7,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 2,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Robert Whittaker",
+        "evenement": "UFC Fight Night: Whittaker vs. Brunson",
+        "date": "November 27, 2016"
+      },
+      {
+        "adversaire": "Yoel Romero",
+        "evenement": "UFC Fight Night: Rockhold vs. Philippou",
+        "date": "January 15, 2014"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 11
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Chris Leben",
+      "evenement": "UFC 155",
+      "date": "December 29, 2012",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Fight of the Night (Two times) vs. Yoel Romero and Robert Whittaker",
+    "Performance of the Night (One time) vs. Lyoto Machida",
+    "Tied ( Anderson Silva , Robert Whittaker & Brendan Allen ) for third most wins in UFC Middleweight division history (14)",
+    "Tied ( Nate Marquardt , Chris Leben & Brendan Allen ) for third most finishes in UFC Middleweight division history (9)",
+    "Tied ( Anderson Silva & Thales Leites ) for fifth most bouts in UFC Middleweight division history (21)",
+    "Tied ( Michael Bisping , Yoel Romero , Gregory Rodrigues & Chris Leben ) for fourth most knockouts in UFC Middleweight division history (7)",
+    "Tied ( Rafael Natal ) for third most takedowns in UFC Middleweight division history (36)",
+    "Fifth most control time in UFC Middleweight division history (1:09:34)",
+    "Fifth most top position time in UFC Middleweight division history (50:33)",
+    "UFC.com Awards 2016: Ranked #10 Fight of the Year vs. Robert Whittaker",
+    "2016: Ranked #10 Fight of the Year vs. Robert Whittaker",
+    "Sherdog 2017 Robbery of the Year vs. Anderson Silva",
+    "2017 Robbery of the Year vs. Anderson Silva",
+    "MMAJunkie.com 2017 Robbery of the Year vs. Anderson Silva",
+    "2017 Robbery of the Year vs. Anderson Silva",
+    "MMADNA.nl 2017 Robbery of the Year vs. Anderson Silva",
+    "2017 Robbery of the Year vs. Anderson Silva",
+    "National Collegiate Athletic Association NCAA Division II All-American out of University of North Carolina at Pembroke (2003, 2005, 2007)",
+    "NCAA Division II All-American out of University of North Carolina at Pembroke (2003, 2005, 2007)",
+    "North Carolina High School Athletic Association North Carolina 4A 215 lb 3rd place out of John T. Hoggard High School (2002)",
+    "North Carolina 4A 215 lb 3rd place out of John T. Hoggard High School (2002)",
+    "Young Alumnus of the Year 2014 ( UNC Pembroke )",
+    "UNC Pembroke Athletics Hall of Fame, Inducted 2016"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Derek_Brunson",
+    "wikidata": "https://www.wikidata.org/wiki/Q5261851",
+    "ufc_com": "https://www.ufc.com/athlete/derek-brunson"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 24-9, wikipedia_infobox 24-9, ufc_com 23-9"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 57,
+    "puissance": 67,
+    "lutte": 67,
+    "soumission": 52,
+    "defense": 65,
+    "cardio": 58,
+    "menton": 35,
+    "globale": 57,
+    "style": "lutteur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "id": "rodrigo-nascimento",
+  "nom": "Rodrigo Nascimento",
+  "ufc_slug": "rodrigo-nascimento-ferreira",
+  "wikipedia_titre": "Rodrigo Nascimento",
+  "surnom": "Ze' Colmeia",
+  "sexe": "M",
+  "pays": "BR",
+  "categorie": "lourds",
+  "statut": "inactif",
+  "date_naissance": "1992-11-26",
+  "taille_cm": 188,
+  "allonge_cm": 203,
+  "style": "Jiu-Jitsu",
+  "lieu_naissance": "Brazil",
+  "palmares": {
+    "victoires": 12,
+    "defaites": 5,
+    "nuls": 0,
+    "sans_decision": 1,
+    "victoires_ko": 2,
+    "victoires_soumission": 6,
+    "victoires_decision": 4,
+    "defaites_ko": 2,
+    "defaites_soumission": 1,
+    "defaites_decision": 2
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.71,
+    "precision_frappe_pct": 47,
+    "frappes_encaissees_par_min": 4.34,
+    "defense_frappe_pct": 45.0,
+    "takedowns_par_15min": 1.02,
+    "precision_takedown_pct": 12,
+    "defense_takedown_pct": 61.0,
+    "soumissions_par_15min": 0.51,
+    "knockdowns_par_15min": 0.0,
+    "duree_moyenne_combat_s": 589,
+    "frappes_reussies": 328.0,
+    "takedowns_reussis": 2.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 12,
+      "defaites": 5,
+      "nuls": 0,
+      "sans_decision": 1,
+      "v": {
+        "ko": 2,
+        "soumission": 6,
+        "decision": 4,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 1,
+        "decision": 2,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2019": 1,
+      "2020": 2,
+      "2021": 1,
+      "2022": 1,
+      "2023": 2,
+      "2024": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Alexander Romanov",
+      "evenement": "PFL Chicago: Pettis vs. McKee",
+      "date": "April 11, 2026",
+      "resultat": "Loss",
+      "methode": "Submission (guillotine choke)"
+    },
+    "combats_ufc": 9,
+    "victoires_ufc": 5,
+    "defaites_ufc": 3,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "rear-naked choke",
+      "finitions": 2
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Michal Martinek",
+      "evenement": "Dana White's Contender Series 22",
+      "date": "July 30, 2019",
+      "resultat": "Win",
+      "methode": "Submission (arm-triangle choke)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Ultimate Fighting Championship Performance of the Night (One Time) vs. Alan Baudot",
+    "Performance of the Night (One Time) vs. Alan Baudot"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Rodrigo_Nascimento",
+    "wikidata": "https://www.wikidata.org/wiki/Q97164717",
+    "ufc_com": "https://www.ufc.com/athlete/rodrigo-nascimento-ferreira"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 12-5, wikipedia_infobox 12-5, ufc_com 11-3"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 59,
+    "puissance": 42,
+    "lutte": 50,
+    "soumission": 67,
+    "defense": 52,
+    "cardio": 55,
+    "menton": 71,
+    "globale": 57,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

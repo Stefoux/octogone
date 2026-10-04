@@ -1,0 +1,138 @@
+{
+  "id": "justin-tafa",
+  "nom": "Justin Tafa",
+  "ufc_slug": "justin-tafa",
+  "wikipedia_titre": "Justin Tafa",
+  "surnom": "Bad Man",
+  "sexe": "M",
+  "pays": "NZ",
+  "categorie": "lourds",
+  "statut": "inactif",
+  "date_naissance": "1993-12-13",
+  "taille_cm": 183,
+  "allonge_cm": 188,
+  "style": "Striker",
+  "lieu_naissance": "West Auckland, New Zealand",
+  "palmares": {
+    "victoires": 7,
+    "defaites": 5,
+    "nuls": 0,
+    "sans_decision": 1,
+    "victoires_ko": 7,
+    "victoires_soumission": 0,
+    "victoires_decision": 0,
+    "defaites_ko": 2,
+    "defaites_soumission": 0,
+    "defaites_decision": 3
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.05,
+    "precision_frappe_pct": 54,
+    "frappes_encaissees_par_min": 5.11,
+    "defense_frappe_pct": 47.0,
+    "takedowns_par_15min": 0.0,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 53.0,
+    "soumissions_par_15min": 0.0,
+    "knockdowns_par_15min": 1.1,
+    "duree_moyenne_combat_s": 327,
+    "frappes_reussies": 221.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 7,
+      "defaites": 5,
+      "nuls": 0,
+      "sans_decision": 1,
+      "v": {
+        "ko": 7,
+        "soumission": 0,
+        "decision": 0,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 0,
+        "decision": 3,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2019": 1,
+      "2020": 1,
+      "2021": 3,
+      "2023": 3,
+      "2024": 1,
+      "2025": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Tallison Teixeira",
+      "evenement": "UFC 312",
+      "date": "9 February 2025",
+      "resultat": "Loss",
+      "methode": "TKO (knee to the body and elbows)"
+    },
+    "combats_ufc": 10,
+    "victoires_ufc": 4,
+    "defaites_ufc": 5,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 1,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Jared Vanderaa",
+        "evenement": "UFC Fight Night: Font vs. Garbrandt",
+        "date": "22 May 2021"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 6
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Yorgan De Castro",
+      "evenement": "UFC 243",
+      "date": "6 October 2019",
+      "resultat": "Loss",
+      "methode": "KO (punch)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Justin_Tafa",
+    "wikidata": "https://www.wikidata.org/wiki/Q84625825",
+    "ufc_com": "https://www.ufc.com/athlete/justin-tafa"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 67,
+    "puissance": 90,
+    "lutte": 42,
+    "soumission": 38,
+    "defense": 49,
+    "cardio": 42,
+    "menton": 65,
+    "globale": 56,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

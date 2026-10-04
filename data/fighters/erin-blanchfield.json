@@ -1,0 +1,150 @@
+{
+  "id": "erin-blanchfield",
+  "nom": "Erin Blanchfield",
+  "ufc_slug": "erin-blanchfield",
+  "wikipedia_titre": "Erin Blanchfield",
+  "surnom": "Cold Blooded",
+  "sexe": "F",
+  "pays": "US",
+  "categorie": "mouche_f",
+  "statut": "actif",
+  "date_naissance": "1999-05-04",
+  "taille_cm": 163,
+  "allonge_cm": 168,
+  "style": "Jiu-Jitsu",
+  "lieu_naissance": "États-Unis",
+  "palmares": {
+    "victoires": 14,
+    "defaites": 2,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 2,
+    "victoires_soumission": 5,
+    "victoires_decision": 7,
+    "defaites_ko": 0,
+    "defaites_soumission": 0,
+    "defaites_decision": 2
+  },
+  "stats_ufc": {
+    "frappes_par_min": 5.24,
+    "precision_frappe_pct": 44,
+    "frappes_encaissees_par_min": 4.25,
+    "defense_frappe_pct": 59.0,
+    "takedowns_par_15min": 1.96,
+    "precision_takedown_pct": 21,
+    "defense_takedown_pct": 78.0,
+    "soumissions_par_15min": 0.86,
+    "knockdowns_par_15min": 0.0,
+    "duree_moyenne_combat_s": 817,
+    "frappes_reussies": 643.0,
+    "takedowns_reussis": 10.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 14,
+      "defaites": 2,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 2,
+        "soumission": 5,
+        "decision": 7,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 0,
+        "decision": 2,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2021": 2,
+      "2022": 2,
+      "2023": 2,
+      "2024": 2,
+      "2025": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Tracy Cortez",
+      "evenement": "UFC 322",
+      "date": "November 15, 2025",
+      "resultat": "Win",
+      "methode": "Submission (rear-naked choke)"
+    },
+    "combats_ufc": 9,
+    "victoires_ufc": 8,
+    "defaites_ufc": 1,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 0,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "rear-naked choke",
+      "finitions": 2
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Sarah Alpar",
+      "evenement": "UFC Fight Night: Smith vs. Spann",
+      "date": "September 18, 2021",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Eddie Bravo Invitational Eddie Bravo Invitational Champion (One time)",
+    "Eddie Bravo Invitational Champion (One time)",
+    "Performance of the Night (One time) vs. Jéssica Andrade",
+    "Fifth longest win streak in UFC Women's Flyweight division history (6)",
+    "Second most submissions in UFC Women's Flyweight division history (4) (behind Gillian Robertson )",
+    "Tied ( Montana De La Rosa ) for fourth most finishes in UFC Women's Flyweight division history (4)",
+    "Second lowest bottom position time in UFC Women's Flyweight division history (0.30)",
+    "Second lowest bottom position percentage in UFC Women's Flyweight division history (0.44%)",
+    "UFC.com Awards 2021: Ranked #5 Newcomer of the Year  2023: Ranked #6 Submission of the Year vs. Jéssica Andrade",
+    "2021: Ranked #5 Newcomer of the Year",
+    "2023: Ranked #6 Submission of the Year vs. Jéssica Andrade",
+    "Invicta Fighting Championships Performance of the Night (Two times) vs. Victoria Leonardo , Brogan Walker-Sanchez",
+    "Performance of the Night (Two times) vs. Victoria Leonardo , Brogan Walker-Sanchez",
+    "Yahoo Sports 2021 MMA Prospect of the Year",
+    "2021 MMA Prospect of the Year",
+    "MMA Fighting 2022 Second Team MMA All-Star",
+    "2022 Second Team MMA All-Star"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Erin_Blanchfield",
+    "wikidata": "https://www.wikidata.org/wiki/Q72704755",
+    "ufc_com": "https://www.ufc.com/athlete/erin-blanchfield"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 64,
+    "puissance": 41,
+    "lutte": 60,
+    "soumission": 65,
+    "defense": 65,
+    "cardio": 73,
+    "menton": 99,
+    "globale": 67,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

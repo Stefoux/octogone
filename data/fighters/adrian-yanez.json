@@ -1,0 +1,137 @@
+{
+  "id": "adrian-yanez",
+  "nom": "Adrian Yanez",
+  "ufc_slug": "adrian-yanez",
+  "wikipedia_titre": "Adrian Yañez",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "coq",
+  "statut": "actif",
+  "date_naissance": "1993-11-29",
+  "taille_cm": 170,
+  "allonge_cm": 178,
+  "style": "Boxer",
+  "lieu_naissance": "Galveston, United States",
+  "palmares": {
+    "victoires": 18,
+    "defaites": 6,
+    "nuls": 1,
+    "sans_decision": 0,
+    "victoires_ko": 12,
+    "victoires_soumission": 2,
+    "victoires_decision": 4,
+    "defaites_ko": 2,
+    "defaites_soumission": 0,
+    "defaites_decision": 4
+  },
+  "stats_ufc": {
+    "frappes_par_min": 5.95,
+    "precision_frappe_pct": 42,
+    "frappes_encaissees_par_min": 5.22,
+    "defense_frappe_pct": 57.0,
+    "takedowns_par_15min": 0.0,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 76.0,
+    "soumissions_par_15min": 0.0,
+    "knockdowns_par_15min": 1.57,
+    "duree_moyenne_combat_s": 429,
+    "frappes_reussies": 511.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 18,
+      "defaites": 6,
+      "nuls": 1,
+      "sans_decision": 0,
+      "v": {
+        "ko": 12,
+        "soumission": 2,
+        "decision": 4,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 0,
+        "decision": 4,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2020": 2,
+      "2021": 3,
+      "2022": 1,
+      "2023": 2,
+      "2024": 2,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Cody Garbrandt",
+      "evenement": "UFC 329",
+      "date": "July 11, 2026",
+      "resultat": "Win",
+      "methode": "TKO (punches)"
+    },
+    "combats_ufc": 12,
+    "victoires_ufc": 8,
+    "defaites_ufc": 3,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 1,
+    "bonus_potn": 4,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Davey Grant",
+        "evenement": "UFC Fight Night: Vieira vs. Tate",
+        "date": "November 20, 2021"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 11
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Brady Huang",
+      "evenement": "Dana White's Contender Series 28",
+      "date": "August 11, 2020",
+      "resultat": "Win",
+      "methode": "TKO (punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Adrian_Yañez",
+    "wikidata": "https://www.wikidata.org/wiki/Q107638714",
+    "ufc_com": "https://www.ufc.com/athlete/adrian-yanez"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 66,
+    "puissance": 85,
+    "lutte": 50,
+    "soumission": 42,
+    "defense": 57,
+    "cardio": 46,
+    "menton": 76,
+    "globale": 60,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

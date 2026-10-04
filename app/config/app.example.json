@@ -1,0 +1,4 @@
+{
+  "SUPABASE_URL": "https://<REF>.supabase.co",
+  "SUPABASE_PUBLISHABLE_KEY": "<clé publishable ou anon : rempli par scripts/supabase_setup.sh>"
+}

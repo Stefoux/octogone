@@ -1,0 +1,219 @@
+{
+  "id": "rafael-dos-anjos",
+  "nom": "Rafael dos Anjos",
+  "ufc_slug": "rafael-dos-anjos",
+  "wikipedia_titre": "Rafael dos Anjos",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "BR",
+  "categorie": "legers",
+  "statut": "actif",
+  "date_naissance": "1984-10-26",
+  "taille_cm": 173,
+  "allonge_cm": 178,
+  "style": "Grappling",
+  "lieu_naissance": "Brésil",
+  "palmares": {
+    "victoires_ko": 5,
+    "victoires_soumission": 11,
+    "victoires_decision": 16,
+    "defaites_ko": 6,
+    "defaites_soumission": 0,
+    "defaites_decision": 12,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires": 32,
+    "defaites": 18
+  },
+  "stats_ufc": {
+    "frappes_par_min": null,
+    "precision_frappe_pct": null,
+    "frappes_encaissees_par_min": null,
+    "defense_frappe_pct": null,
+    "takedowns_par_15min": null,
+    "precision_takedown_pct": null,
+    "defense_takedown_pct": null,
+    "soumissions_par_15min": null,
+    "knockdowns_par_15min": null,
+    "duree_moyenne_combat_s": null,
+    "frappes_reussies": null,
+    "takedowns_reussis": null
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 31,
+      "defaites": 18,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 5,
+        "soumission": 10,
+        "decision": 16,
+        "autre": 0
+      },
+      "d": {
+        "ko": 6,
+        "soumission": 0,
+        "decision": 12,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2008": 1,
+      "2009": 2,
+      "2010": 3,
+      "2011": 2,
+      "2012": 3,
+      "2013": 2,
+      "2014": 4,
+      "2015": 2,
+      "2016": 2,
+      "2017": 3,
+      "2018": 2,
+      "2019": 2,
+      "2020": 2,
+      "2022": 3,
+      "2023": 1,
+      "2024": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Alexander Hernandez",
+      "evenement": "UFC 332",
+      "date": "3 October 2026",
+      "resultat": "Loss",
+      "methode": "TKO (punches)"
+    },
+    "combats_ufc": 37,
+    "victoires_ufc": 21,
+    "defaites_ufc": 16,
+    "victoires_decision_5_rounds": 4,
+    "combats_5_rounds_gagnes": 5,
+    "bonus_fotn": 3,
+    "bonus_potn": 4,
+    "bonus_kotn": 0,
+    "bonus_sotn": 1,
+    "combats_fotn": [
+      {
+        "adversaire": "Paul Felder",
+        "evenement": "UFC Fight Night: Felder vs. dos Anjos",
+        "date": "14 November 2020"
+      },
+      {
+        "adversaire": "Tony Ferguson",
+        "evenement": "The Ultimate Fighter Latin America 3 Finale: dos Anjos vs. Ferguson",
+        "date": "5 November 2016"
+      },
+      {
+        "adversaire": "Tyson Griffin",
+        "evenement": "UFC Fight Night: Condit vs. Kampmann",
+        "date": "1 April 2009"
+      }
+    ],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Lightweight Championship",
+        "evenement": "UFC on Fox: dos Anjos vs. Cowboy 2",
+        "date": "19 December 2015"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Lightweight Championship",
+        "evenement": "UFC 185",
+        "date": "14 March 2015"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 5
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Jeremy Stephens",
+      "evenement": "UFC 91",
+      "date": "15 November 2008",
+      "resultat": "Loss",
+      "methode": "KO (punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "UFC Lightweight Championship (One time) One successful title defense",
+    "One successful title defense",
+    "Fight of the Night (Three times) vs. Tyson Griffin , Tony Ferguson , and Paul Felder",
+    "Submission of the Night (One time) vs. Terry Etim",
+    "Performance of the Night (Four times) vs. Donald Cerrone , Anthony Pettis , Benson Henderson , and Neil Magny",
+    "Second total fight time in UFC history (8:43:19) (behind Max Holloway )  First fighter to reach 8 hours of fight time in UFC history",
+    "First fighter to reach 8 hours of fight time in UFC history",
+    "Tied ( Jon Jones ) for ninth most wins in UFC history (21)",
+    "Tied ( Jeremy Stephens ) for seventh most bouts in UFC history (36)",
+    "Tied ( Georges St-Pierre , Diego Sanchez , Andrei Arlovski & Belal Muhammad ) for third most wins by decision in UFC history (12)",
+    "Tied ( Francisco Trinaldo ) for most unanimous decision wins in UFC Lightweight history (7)",
+    "Second most decision bouts in UFC history (22) (behind Angela Hill )",
+    "Sixth most significant strikes landed in UFC history (1822)",
+    "Tied ( Georges St-Pierre ) for fourth most total strikes landed in UFC history (2591)",
+    "Fifth most control time in UFC history (2:16:43)",
+    "2009: Ranked #8 Fight of the Year vs. Tyson Griffin",
+    "2010: Ranked #8 Upset of the Year vs. Terry Etim",
+    "2011: Ranked #3 Upset of the Year vs. George Sotiropoulos (Tied with Dennis Siver )",
+    "2014: Ranked #8 Fighter of the Year  & Ranked #2 Upset of the Year vs. Benson Henderson",
+    "2015: Ranked #2 Fighter of the Year ,  Half-Year Awards: Biggest Upset of the 1HY vs. Anthony Pettis  & Ranked #2 Upset of the Year vs. Anthony Pettis",
+    "2016: Ranked #9 Fight of the Year vs. Tony Ferguson",
+    "2017: Ranked #7 Fighter of the Year",
+    "Fight Matrix Lineal MMA Lightweight Champion (One time, Former)",
+    "Lineal MMA Lightweight Champion (One time, Former)",
+    "Combat Press 2017 Comeback Fighter of the Year",
+    "2017 Comeback Fighter of the Year",
+    "MMA Weekly 2017 Comeback Fighter of the Year",
+    "2017 Comeback Fighter of the Year",
+    "Slacky Awards 2015 Gameplan of the Year vs. Anthony Pettis at UFC 185",
+    "2015 Gameplan of the Year vs. Anthony Pettis at UFC 185",
+    "World Jiu-Jitsu Championship 2003 Purple Belt Peso Leve: 1st Place",
+    "2003 Purple Belt Peso Leve: 1st Place",
+    "Brazilian National Jiu-Jitsu Championship 2004 Brown Belt Peso Leve: 3rd Place 2005 Brown Belt Peso Leve: 3rd place",
+    "2004 Brown Belt Peso Leve: 3rd Place",
+    "2005 Brown Belt Peso Leve: 3rd place",
+    "European Championship 2006 Black Belt Peso Leve: 3rd place",
+    "2006 Black Belt Peso Leve: 3rd place"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Rafael_dos_Anjos",
+    "wikidata": "https://www.wikidata.org/wiki/Q5961540",
+    "ufc_com": "https://www.ufc.com/athlete/rafael-dos-anjos"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_infobox",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "stats_ufc (absentes de la fiche ufc.com)"
+  ],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 31-18, wikipedia_infobox 32-18, ufc_com 32-18"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 65,
+    "puissance": 38,
+    "lutte": 65,
+    "soumission": 69,
+    "defense": 65,
+    "cardio": 96,
+    "menton": 48,
+    "globale": 64,
+    "style": "complet",
+    "estimees": [
+      "frappe",
+      "lutte",
+      "defense"
+    ],
+    "formule_version": 1
+  }
+}

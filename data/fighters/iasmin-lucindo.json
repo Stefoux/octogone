@@ -1,0 +1,135 @@
+{
+  "id": "iasmin-lucindo",
+  "nom": "Iasmin Lucindo",
+  "ufc_slug": "iasmin-lucindo",
+  "wikipedia_titre": "Iasmin Lucindo",
+  "surnom": null,
+  "sexe": "F",
+  "pays": "BR",
+  "categorie": "paille_f",
+  "statut": "actif",
+  "date_naissance": "2002-01-08",
+  "taille_cm": 160,
+  "allonge_cm": 168,
+  "style": "Striker",
+  "lieu_naissance": "Fortaleza, Brazil",
+  "palmares": {
+    "victoires": 18,
+    "defaites": 6,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 8,
+    "victoires_soumission": 3,
+    "victoires_decision": 7,
+    "defaites_ko": 1,
+    "defaites_soumission": 2,
+    "defaites_decision": 3
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.22,
+    "precision_frappe_pct": 45,
+    "frappes_encaissees_par_min": 2.8,
+    "defense_frappe_pct": 62.0,
+    "takedowns_par_15min": 2.28,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 69.0,
+    "soumissions_par_15min": 0.15,
+    "knockdowns_par_15min": 0.0,
+    "duree_moyenne_combat_s": 846,
+    "frappes_reussies": 318.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 18,
+      "defaites": 6,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 8,
+        "soumission": 3,
+        "decision": 7,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 2,
+        "decision": 3,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2022": 1,
+      "2023": 2,
+      "2024": 2,
+      "2025": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Angela Hill",
+      "evenement": "UFC on ESPN: Dolidze vs. Hernandez",
+      "date": "August 9, 2025",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 7,
+    "victoires_ufc": 5,
+    "defaites_ufc": 2,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 8
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Yazmin Jauregui",
+      "evenement": "UFC on ESPN: Vera vs. Cruz",
+      "date": "August 13, 2022",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Ultimate Fighting Championship Performance of the Night (One time) vs. Polyana Viana",
+    "Performance of the Night (One time) vs. Polyana Viana",
+    "Samurai Fight House Samurai Fight House Women's Flyweight Champion (One time)",
+    "Samurai Fight House Women's Flyweight Champion (One time)"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Iasmin_Lucindo",
+    "wikidata": "https://www.wikidata.org/wiki/Q136898149",
+    "ufc_com": "https://www.ufc.com/athlete/iasmin-lucindo"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 56,
+    "puissance": 57,
+    "lutte": 58,
+    "soumission": 49,
+    "defense": 75,
+    "cardio": 67,
+    "menton": 88,
+    "globale": 64,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

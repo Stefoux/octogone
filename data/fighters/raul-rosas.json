@@ -1,0 +1,159 @@
+{
+  "id": "raul-rosas",
+  "nom": "Raul Rosas",
+  "ufc_slug": "raul-rosas-jr",
+  "wikipedia_titre": "Raul Rosas Jr.",
+  "surnom": "El Nino Problema",
+  "sexe": "M",
+  "pays": "MX",
+  "autres_pays": [
+    "US"
+  ],
+  "categorie": "coq",
+  "statut": "actif",
+  "date_naissance": "2004-10-08",
+  "taille_cm": 175,
+  "allonge_cm": 170,
+  "style": "Style libre",
+  "lieu_naissance": "Clovis, États-Unis",
+  "palmares": {
+    "victoires": 13,
+    "defaites": 1,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 3,
+    "victoires_soumission": 6,
+    "victoires_decision": 4,
+    "defaites_ko": 0,
+    "defaites_soumission": 0,
+    "defaites_decision": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": 2.12,
+    "precision_frappe_pct": 44,
+    "frappes_encaissees_par_min": 2.17,
+    "defense_frappe_pct": 48.0,
+    "takedowns_par_15min": 5.02,
+    "precision_takedown_pct": 3,
+    "defense_takedown_pct": 54.0,
+    "soumissions_par_15min": 0.7,
+    "knockdowns_par_15min": 0.14,
+    "duree_moyenne_combat_s": 718,
+    "frappes_reussies": 228.0,
+    "takedowns_reussis": 2.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 13,
+      "defaites": 1,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 3,
+        "soumission": 6,
+        "decision": 4,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 0,
+        "decision": 1,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2022": 2,
+      "2023": 2,
+      "2024": 2,
+      "2025": 1,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Raoni Barcelos",
+      "evenement": "UFC Fight Night: Rosas Jr. vs. Barcelos",
+      "date": "September 26, 2026",
+      "resultat": "Win",
+      "methode": "KO (slam)"
+    },
+    "combats_ufc": 9,
+    "victoires_ufc": 8,
+    "defaites_ufc": 1,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 1,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Raoni Barcelos",
+        "evenement": "UFC Fight Night: Rosas Jr. vs. Barcelos",
+        "date": "September 26, 2026"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "rear-naked choke",
+      "finitions": 3
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Mando Gutierrez",
+      "evenement": "Dana White's Contender Series 55",
+      "date": "September 20, 2022",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Fight of the Night (One time) vs. Raoni Barcelos",
+    "Performance of the Night (Three times) vs. Jay Perrin, Terence Mitchell and Ricky Turcios",
+    "Youngest fighter to win a UFC bout (18 years, 2 months)",
+    "Youngest fighter to win five UFC bouts (20 years, 5 months)",
+    "Youngest fighter to headline a UFC Fight Night card (21 years, 11 months)",
+    "Third highest control time percentage in UFC Bantamweight division history (37.6%)",
+    "Fourth highest top position percentage in UFC Bantamweight division history (47.7%)",
+    "Tied ( Tony Gravely ) for fifth most takedowns landed in UFC Bantamweight division history (33)",
+    "Tied ( Sean Sherk ) for fourth most takedowns landed in a bout (16) (vs. Rob Font )",
+    "Third most takedowns landed in a three round bout (16) (vs. Rob Font )",
+    "Highest takedown accuracy percentage in a UFC Bantamweight bout (88.9%) (vs. Rob Font )",
+    "UFC.com Awards 2022: Ranked #9 Newcomer of the Year",
+    "2022: Ranked #9 Newcomer of the Year",
+    "MMA Junkie 2022 Newcomer of the Year",
+    "2022 Newcomer of the Year",
+    "MMA Fighting 2022 Third Team MMA All-Star",
+    "2022 Third Team MMA All-Star"
+  ],
+  "image_commons": "Raúl Rosas Jr. 2024.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Raul_Rosas_Jr.",
+    "wikidata": "https://www.wikidata.org/wiki/Q124527491",
+    "ufc_com": "https://www.ufc.com/athlete/raul-rosas-jr"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 49,
+    "puissance": 47,
+    "lutte": 64,
+    "soumission": 68,
+    "defense": 68,
+    "cardio": 61,
+    "menton": 99,
+    "globale": 65,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

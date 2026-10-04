@@ -1,0 +1,147 @@
+{
+  "id": "gabriel-miranda",
+  "nom": "Gabriel Miranda",
+  "ufc_slug": "shane-young",
+  "wikipedia_titre": "Shane Young",
+  "surnom": "Maraenui",
+  "sexe": "M",
+  "pays": "NZ",
+  "categorie": "plume",
+  "statut": "actif",
+  "date_naissance": "1993-07-07",
+  "taille_cm": 173,
+  "allonge_cm": 184,
+  "style": "MMA",
+  "lieu_naissance": "Hawke&#039;s Bay, New Zealand",
+  "palmares": {
+    "victoires": 13,
+    "defaites": 8,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 6,
+    "victoires_soumission": 4,
+    "victoires_decision": 3,
+    "defaites_ko": 1,
+    "defaites_soumission": 1,
+    "defaites_decision": 6
+  },
+  "stats_ufc": {
+    "frappes_par_min": 5.19,
+    "precision_frappe_pct": 41,
+    "frappes_encaissees_par_min": 5.46,
+    "defense_frappe_pct": 53.0,
+    "takedowns_par_15min": 0.63,
+    "precision_takedown_pct": 12,
+    "defense_takedown_pct": 64.0,
+    "soumissions_par_15min": 0.0,
+    "knockdowns_par_15min": 0.21,
+    "duree_moyenne_combat_s": 616,
+    "frappes_reussies": 373.0,
+    "takedowns_reussis": 2.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 13,
+      "defaites": 8,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 6,
+        "soumission": 4,
+        "decision": 3,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 1,
+        "decision": 6,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2017": 1,
+      "2018": 1,
+      "2019": 1,
+      "2020": 1,
+      "2021": 1,
+      "2023": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Gabriel Miranda",
+      "evenement": "UFC 293",
+      "date": "September 10, 2023",
+      "resultat": "Loss",
+      "methode": "Technical Submission (rear-naked choke)"
+    },
+    "combats_ufc": 7,
+    "victoires_ufc": 2,
+    "defaites_ufc": 5,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 2,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Rolando Dy",
+        "evenement": "UFC Fight Night: Cowboy vs. Edwards",
+        "date": "June 23, 2018"
+      },
+      {
+        "adversaire": "Adrian Rodriguez",
+        "evenement": "Xtreme Fighting Championship 20",
+        "date": "February 15, 2014"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 5
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Alexander Volkanovski",
+      "evenement": "UFC Fight Night: Werdum vs. Tybura",
+      "date": "November 19, 2017",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Ultimate Fighting Championship Fight of the Night (One time) vs. Rolando Dy",
+    "Fight of the Night (One time) vs. Rolando Dy"
+  ],
+  "image_commons": "Shane Young post fight interview at UFC 234.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Shane_Young",
+    "wikidata": "https://www.wikidata.org/wiki/Q61663569",
+    "ufc_com": "https://www.ufc.com/athlete/shane-young"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 61,
+    "puissance": 60,
+    "lutte": 50,
+    "soumission": 53,
+    "defense": 54,
+    "cardio": 57,
+    "menton": 87,
+    "globale": 60,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

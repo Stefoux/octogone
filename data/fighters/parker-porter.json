@@ -1,0 +1,149 @@
+{
+  "id": "parker-porter",
+  "nom": "Parker Porter",
+  "ufc_slug": "chase-sherman",
+  "wikipedia_titre": "Chase Sherman",
+  "surnom": "The Vanilla Gorilla",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "lourds",
+  "statut": "inactif",
+  "date_naissance": "1989-11-16",
+  "taille_cm": 193,
+  "allonge_cm": 198,
+  "style": "MMA",
+  "lieu_naissance": "Biloxi, United States",
+  "palmares": {
+    "victoires": 18,
+    "defaites": 14,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 17,
+    "victoires_soumission": 0,
+    "victoires_decision": 1,
+    "defaites_ko": 4,
+    "defaites_soumission": 4,
+    "defaites_decision": 6
+  },
+  "stats_ufc": {
+    "frappes_par_min": 6.04,
+    "precision_frappe_pct": 45,
+    "frappes_encaissees_par_min": 6.65,
+    "defense_frappe_pct": 52.0,
+    "takedowns_par_15min": 0.09,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 74.0,
+    "soumissions_par_15min": 0.0,
+    "knockdowns_par_15min": 0.28,
+    "duree_moyenne_combat_s": 641,
+    "frappes_reussies": 969.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 18,
+      "defaites": 14,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 17,
+        "soumission": 0,
+        "decision": 1,
+        "autre": 0
+      },
+      "d": {
+        "ko": 4,
+        "soumission": 4,
+        "decision": 6,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2016": 1,
+      "2017": 4,
+      "2018": 2,
+      "2020": 1,
+      "2021": 2,
+      "2022": 4,
+      "2023": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Anthony Smith",
+      "evenement": "Gamebred Bareknuckle MMA 9",
+      "date": "April 10, 2026",
+      "resultat": "Loss",
+      "methode": "Submission (rear-naked choke)"
+    },
+    "combats_ufc": 15,
+    "victoires_ufc": 4,
+    "defaites_ufc": 11,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 1,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Rashad Coulter",
+        "evenement": "UFC 211",
+        "date": "May 13, 2017"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 11
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Justin Ledet",
+      "evenement": "UFC Fight Night: Rodríguez vs. Caceres",
+      "date": "August 6, 2016",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Ultimate Fighting Championship Fight of the Night (One time) vs. Rashad Coulter  Performance of the Night (One time) vs. Jared Vanderaa",
+    "Fight of the Night (One time) vs. Rashad Coulter",
+    "Performance of the Night (One time) vs. Jared Vanderaa",
+    "Bare Knuckle Fighting Championship BKFC Heavyweight Championship (one time; former) Police Gazette Heavyweight American Championship (one time; former)",
+    "BKFC Heavyweight Championship (one time; former)",
+    "Police Gazette Heavyweight American Championship (one time; former)"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Chase_Sherman",
+    "wikidata": "https://www.wikidata.org/wiki/Q30323445",
+    "ufc_com": "https://www.ufc.com/athlete/chase-sherman"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 18-14, wikipedia_infobox 18-14, ufc_com 16-12"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 69,
+    "puissance": 80,
+    "lutte": 49,
+    "soumission": 36,
+    "defense": 47,
+    "cardio": 57,
+    "menton": 59,
+    "globale": 57,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

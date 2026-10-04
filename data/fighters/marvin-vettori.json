@@ -1,0 +1,164 @@
+{
+  "id": "marvin-vettori",
+  "nom": "Marvin Vettori",
+  "ufc_slug": "marvin-vettori",
+  "wikipedia_titre": "Marvin Vettori",
+  "surnom": "The Italian Dream",
+  "sexe": "M",
+  "pays": "IT",
+  "categorie": "moyens",
+  "statut": "actif",
+  "date_naissance": "1993-09-20",
+  "taille_cm": 183,
+  "allonge_cm": 188,
+  "style": "MMA",
+  "lieu_naissance": "Trento, Italy",
+  "palmares": {
+    "victoires": 19,
+    "defaites": 11,
+    "nuls": 1,
+    "sans_decision": 0,
+    "victoires_ko": 2,
+    "victoires_soumission": 9,
+    "victoires_decision": 8,
+    "defaites_ko": 0,
+    "defaites_soumission": 0,
+    "defaites_decision": 11
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.74,
+    "precision_frappe_pct": 46,
+    "frappes_encaissees_par_min": 4.55,
+    "defense_frappe_pct": 56.0,
+    "takedowns_par_15min": 1.41,
+    "precision_takedown_pct": 11,
+    "defense_takedown_pct": 69.0,
+    "soumissions_par_15min": 0.39,
+    "knockdowns_par_15min": 0.05,
+    "duree_moyenne_combat_s": 1029,
+    "frappes_reussies": 1464.0,
+    "takedowns_reussis": 7.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 19,
+      "defaites": 11,
+      "nuls": 1,
+      "sans_decision": 0,
+      "v": {
+        "ko": 2,
+        "soumission": 9,
+        "decision": 8,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 0,
+        "decision": 11,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2016": 2,
+      "2017": 2,
+      "2018": 1,
+      "2019": 2,
+      "2020": 2,
+      "2021": 3,
+      "2022": 1,
+      "2023": 2,
+      "2025": 3,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Ismail Naurdiev",
+      "evenement": "UFC 332",
+      "date": "October 3, 2026",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 19,
+    "victoires_ufc": 9,
+    "defaites_ufc": 9,
+    "victoires_decision_5_rounds": 3,
+    "combats_5_rounds_gagnes": 3,
+    "bonus_fotn": 3,
+    "bonus_potn": 2,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Brendan Allen",
+        "evenement": "UFC 318",
+        "date": "July 19, 2025"
+      },
+      {
+        "adversaire": "Jared Cannonier",
+        "evenement": "UFC on ESPN: Vettori vs. Cannonier",
+        "date": "June 17, 2023"
+      },
+      {
+        "adversaire": "Jack Hermansson",
+        "evenement": "UFC on ESPN: Hermansson vs. Vettori",
+        "date": "December 5, 2020"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "rear-naked choke",
+      "finitions": 4
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Alberto Uda",
+      "evenement": "UFC 202",
+      "date": "August 20, 2016",
+      "resultat": "Win",
+      "methode": "Submission (guillotine choke)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Fight of the Night (Three times) vs. Jack Hermansson , Jared Cannonier and Brendan Allen",
+    "Performance of the Night (Two times) vs. Karl Roberson and Paulo Costa",
+    "Third most total strikes landed in UFC Middleweight division history (1687)  Third most significant strikes landed in UFC Middleweight division history (1274)",
+    "Third most significant strikes landed in UFC Middleweight division history (1274)",
+    "Third longest average fight time in UFC Middleweight division history (16:42)",
+    "Fourth most total fight time in UFC Middleweight division history (4:43:47)",
+    "Venator Fighting Championship VFC Welterweight Championship (One time)",
+    "VFC Welterweight Championship (One time)",
+    "MMAjunkie.com 2023 June Fight of the Month vs. Jared Cannonier",
+    "2023 June Fight of the Month vs. Jared Cannonier"
+  ],
+  "image_commons": "Marvin Vettori La Gazzetta dello Sport 2025.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Marvin_Vettori",
+    "wikidata": "https://www.wikidata.org/wiki/Q26509559",
+    "ufc_com": "https://www.ufc.com/athlete/marvin-vettori"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 63,
+    "puissance": 36,
+    "lutte": 52,
+    "soumission": 64,
+    "defense": 60,
+    "cardio": 94,
+    "menton": 99,
+    "globale": 67,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

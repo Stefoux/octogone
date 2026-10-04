@@ -1,0 +1,190 @@
+{
+  "id": "brock-lesnar",
+  "nom": "Brock Lesnar",
+  "ufc_slug": "brock-lesnar",
+  "wikipedia_titre": "Brock Lesnar",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "CA",
+  "autres_pays": [
+    "US"
+  ],
+  "categorie": "lourds",
+  "statut": "retraite",
+  "date_naissance": "1977-07-12",
+  "taille_cm": 190,
+  "allonge_cm": 206,
+  "style": "Wrestling",
+  "lieu_naissance": "Webster, États-Unis",
+  "palmares": {
+    "victoires": 5,
+    "defaites": 3,
+    "nuls": 0,
+    "sans_decision": 1,
+    "victoires_ko": 3,
+    "victoires_soumission": 1,
+    "victoires_decision": 1,
+    "defaites_ko": 2,
+    "defaites_soumission": 1,
+    "defaites_decision": 0
+  },
+  "stats_ufc": {
+    "frappes_par_min": null,
+    "precision_frappe_pct": null,
+    "frappes_encaissees_par_min": null,
+    "defense_frappe_pct": null,
+    "takedowns_par_15min": null,
+    "precision_takedown_pct": null,
+    "defense_takedown_pct": null,
+    "soumissions_par_15min": null,
+    "knockdowns_par_15min": null,
+    "duree_moyenne_combat_s": null,
+    "frappes_reussies": null,
+    "takedowns_reussis": null
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 5,
+      "defaites": 3,
+      "nuls": 0,
+      "sans_decision": 1,
+      "v": {
+        "ko": 3,
+        "soumission": 1,
+        "decision": 1,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 1,
+        "decision": 0,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2008": 3,
+      "2009": 1,
+      "2010": 2,
+      "2011": 1,
+      "2016": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Mark Hunt",
+      "evenement": "UFC 200",
+      "date": "July 9, 2016",
+      "resultat": "NC",
+      "methode": "NC (overturned)"
+    },
+    "combats_ufc": 8,
+    "victoires_ufc": 4,
+    "defaites_ufc": 3,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 1,
+    "combats_fotn": [],
+    "titres": [
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Heavyweight Championship",
+        "evenement": "UFC 91",
+        "date": "November 15, 2008"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 2
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Frank Mir",
+      "evenement": "UFC 81",
+      "date": "February 2, 2008",
+      "resultat": "Loss",
+      "methode": "Submission (kneebar)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "NCAA Division I All-American (1999, 2000)",
+    "NCAA Division I Heavyweight National Runner-Up (1999)",
+    "NCAA Division I Heavyweight Champion (2000)",
+    "Big Ten Conference Champion (1999, 2000)",
+    "National Junior College Athletic Association NJCAA All-American (1997, 1998) NJCAA Heavyweight Champion (1998) North Dakota State University Bison Tournament Champion (1997–1999)",
+    "NJCAA All-American (1997, 1998)",
+    "NJCAA Heavyweight Champion (1998)",
+    "North Dakota State University Bison Tournament Champion (1997–1999)",
+    "Bismarck State College Bismarck Athletics Hall of Fame (2005)",
+    "Bismarck Athletics Hall of Fame (2005)",
+    "University of Minnesota M Club Hall of Fame (2026)",
+    "M Club Hall of Fame (2026)",
+    "UFC Heavyweight Championship (1 time) Two successful title defenses",
+    "Two successful title defenses",
+    "Submission of the Night (One time) vs. Shane Carwin  Fewest MMA bouts to become a UFC champion (4)",
+    "Fewest MMA bouts to become a UFC champion (4)",
+    "UFC.com Awards 2008: Newcomer of the Year ,  Ranked #7 Fighter of the Year  & Ranked #8 Upset of the Year vs. Randy Couture  2010: Ranked #4 Fight of the Year vs. Shane Carwin",
+    "2008: Newcomer of the Year ,  Ranked #7 Fighter of the Year  & Ranked #8 Upset of the Year vs. Randy Couture",
+    "2010: Ranked #4 Fight of the Year vs. Shane Carwin",
+    "Inside Fights Biggest Draw (2008)  Rookie of the Year (2008)",
+    "Biggest Draw (2008)",
+    "Rookie of the Year (2008)",
+    "Sherdog Beatdown of the Year (2009)",
+    "Beatdown of the Year (2009)",
+    "Sports Illustrated Top Newcomer of the Year (2008)",
+    "Top Newcomer of the Year (2008)",
+    "World MMA Awards Breakthrough Fighter of the Year (2009)",
+    "Breakthrough Fighter of the Year (2009)",
+    "Wrestling Observer Newsletter Best Box Office Draw (2008–2010)  MMA Most Valuable Fighter (2008–2010)",
+    "Best Box Office Draw (2008–2010)",
+    "MMA Most Valuable Fighter (2008–2010)",
+    "Bloody Elbow Breakout Fighter of the Year (2008)",
+    "Breakout Fighter of the Year (2008)",
+    "MMA HQ Breakout Fighter of the Year (2008)",
+    "Breakout Fighter of the Year (2008)",
+    "MMA Fighting 2008 #10 Ranked UFC Knockout of the Year vs. Randy Couture at UFC 91",
+    "2008 #10 Ranked UFC Knockout of the Year vs. Randy Couture at UFC 91",
+    "Guinness World Records World record : Youngest person to win the WWE Championship ( aged 25 years, 44 days )",
+    "World record : Youngest person to win the WWE Championship ( aged 25 years, 44 days )",
+    "Inoki Genome Federation IWGP Heavyweight Championship ( 1 time ) [ a ]"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Brock_Lesnar",
+    "wikidata": "https://www.wikidata.org/wiki/Q220556",
+    "ufc_com": "https://www.ufc.com/athlete/brock-lesnar"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "stats_ufc (absentes de la fiche ufc.com)"
+  ],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 5-3, wikipedia_infobox 5-3, ufc_com 6-3"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 65,
+    "puissance": 75,
+    "lutte": 65,
+    "soumission": 56,
+    "defense": 65,
+    "cardio": 39,
+    "menton": 53,
+    "globale": 60,
+    "style": "frappeur",
+    "estimees": [
+      "frappe",
+      "lutte",
+      "defense"
+    ],
+    "formule_version": 1
+  }
+}

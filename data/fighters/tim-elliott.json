@@ -1,0 +1,179 @@
+{
+  "id": "tim-elliott",
+  "nom": "Tim Elliott",
+  "ufc_slug": "tim-elliott",
+  "wikipedia_titre": "Tim Elliott",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "mouche",
+  "statut": "actif",
+  "date_naissance": "1986-12-24",
+  "taille_cm": 170,
+  "allonge_cm": 168,
+  "style": "Style libre",
+  "lieu_naissance": "États-Unis",
+  "palmares": {
+    "victoires": 22,
+    "defaites": 14,
+    "nuls": 1,
+    "sans_decision": 0,
+    "victoires_ko": 3,
+    "victoires_soumission": 8,
+    "victoires_decision": 11,
+    "defaites_ko": 1,
+    "defaites_soumission": 6,
+    "defaites_decision": 7
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.55,
+    "precision_frappe_pct": 42,
+    "frappes_encaissees_par_min": 3.05,
+    "defense_frappe_pct": 56.0,
+    "takedowns_par_15min": 3.69,
+    "precision_takedown_pct": 23,
+    "defense_takedown_pct": 59.0,
+    "soumissions_par_15min": 1.0,
+    "knockdowns_par_15min": 0.11,
+    "duree_moyenne_combat_s": 743,
+    "frappes_reussies": 1012.0,
+    "takedowns_reussis": 36.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 22,
+      "defaites": 14,
+      "nuls": 1,
+      "sans_decision": 0,
+      "v": {
+        "ko": 3,
+        "soumission": 8,
+        "decision": 11,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 6,
+        "decision": 7,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2012": 2,
+      "2013": 2,
+      "2014": 1,
+      "2015": 1,
+      "2016": 1,
+      "2017": 3,
+      "2019": 1,
+      "2020": 3,
+      "2021": 2,
+      "2022": 1,
+      "2023": 3,
+      "2025": 1,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Édgar Cháirez",
+      "evenement": "UFC Fight Night: Silva vs. Delgado",
+      "date": "September 12, 2026",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 23,
+    "victoires_ufc": 11,
+    "defaites_ufc": 12,
+    "victoires_decision_5_rounds": 2,
+    "combats_5_rounds_gagnes": 2,
+    "bonus_fotn": 3,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Brandon Royval",
+        "evenement": "UFC on ESPN: Woodley vs. Burns",
+        "date": "May 30, 2020"
+      },
+      {
+        "adversaire": "Louis Smolka",
+        "evenement": "UFC on Fox: Johnson vs. Reis",
+        "date": "April 15, 2017"
+      },
+      {
+        "adversaire": "Jared Papazian",
+        "evenement": "The Ultimate Fighter: Team Carwin vs. Team Nelson Finale",
+        "date": "December 15, 2012"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "guillotine choke",
+      "finitions": 3
+    },
+    "premier_combat_ufc": {
+      "adversaire": "John Dodson",
+      "evenement": "UFC on Fox: Diaz vs. Miller",
+      "date": "May 5, 2012",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "The Ultimate Fighter: Tournament of Champions Winner",
+    "Fight of the Night (Three times) vs. Jared Papazian, Louis Smolka and Brandon Royval",
+    "Performance of the Night (Three times) vs. Mark De La Rosa , Su Mudaerji and Kai Asakura",
+    "Most takedowns landed in UFC Flyweight division history (63)",
+    "Most total strikes landed in UFC Flyweight division history (1921)",
+    "Second most bouts in UFC Flyweight division history (20) (behind Brandon Moreno )",
+    "Tied ( Joseph Benavidez & Joshua Van ) for most decision wins in UFC Flyweight division history (7)",
+    "Most decision bouts in UFC Flyweight division history (14)",
+    "Most unanimous decision wins in UFC Flyweight division history (7)",
+    "Third most total fight time in UFC Flyweight division history (4:19:05)",
+    "Second most control time in UFC Flyweight division history (1:13:07) (behind Demetrious Johnson )",
+    "Second most top position time in UFC Flyweight division history (1:03:39) (behind Demetrious Johnson )",
+    "Fifth most significant strikes in UFC Flyweight division history (926)",
+    "Third most submission attempts in UFC Flyweight division history (16)",
+    "UFC.com Awards 2017: Ranked #6 Fight of the Year vs. Louis Smolka",
+    "2017: Ranked #6 Fight of the Year vs. Louis Smolka",
+    "Titan FC Titan FC Flyweight Championship (One time; first, former) Two successful title defenses",
+    "Titan FC Flyweight Championship (One time; first, former) Two successful title defenses",
+    "Two successful title defenses",
+    "Combat Press 2016 Comeback Fighter of the Year",
+    "2016 Comeback Fighter of the Year"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Tim_Elliott",
+    "wikidata": "https://www.wikidata.org/wiki/Q7803464",
+    "ufc_com": "https://www.ufc.com/athlete/tim-elliott"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 22-14, wikipedia_infobox 22-14, ufc_com 23-14"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 52,
+    "puissance": 38,
+    "lutte": 61,
+    "soumission": 68,
+    "defense": 70,
+    "cardio": 78,
+    "menton": 90,
+    "globale": 65,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

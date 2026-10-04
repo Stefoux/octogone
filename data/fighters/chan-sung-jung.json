@@ -1,0 +1,205 @@
+{
+  "id": "chan-sung-jung",
+  "nom": "Chan Sung Jung",
+  "ufc_slug": "chan-sung-jung",
+  "wikipedia_titre": "The Korean Zombie",
+  "surnom": "The Korean Zombie",
+  "sexe": "M",
+  "pays": "KR",
+  "categorie": "plume",
+  "statut": "actif",
+  "date_naissance": "1987-03-17",
+  "taille_cm": 170,
+  "allonge_cm": 183,
+  "style": "Kickboxing",
+  "lieu_naissance": "Corée du Sud",
+  "palmares": {
+    "victoires_ko": 6,
+    "victoires_soumission": 8,
+    "victoires_decision": 3,
+    "defaites_ko": 5,
+    "defaites_soumission": 0,
+    "defaites_decision": 3,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires": 17,
+    "defaites": 8
+  },
+  "stats_ufc": {
+    "frappes_par_min": null,
+    "precision_frappe_pct": null,
+    "frappes_encaissees_par_min": null,
+    "defense_frappe_pct": null,
+    "takedowns_par_15min": null,
+    "precision_takedown_pct": null,
+    "defense_takedown_pct": null,
+    "soumissions_par_15min": null,
+    "knockdowns_par_15min": null,
+    "duree_moyenne_combat_s": null,
+    "frappes_reussies": null,
+    "takedowns_reussis": null
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 14,
+      "defaites": 8,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 6,
+        "soumission": 5,
+        "decision": 3,
+        "autre": 0
+      },
+      "d": {
+        "ko": 5,
+        "soumission": 0,
+        "decision": 3,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2011": 2,
+      "2012": 1,
+      "2013": 1,
+      "2017": 1,
+      "2018": 1,
+      "2019": 2,
+      "2020": 1,
+      "2021": 1,
+      "2022": 1,
+      "2023": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Max Holloway",
+      "evenement": "UFC Fight Night: Holloway vs. The Korean Zombie",
+      "date": "August 26, 2023",
+      "resultat": "Loss",
+      "methode": "KO (punch)"
+    },
+    "combats_ufc": 12,
+    "victoires_ufc": 7,
+    "defaites_ufc": 5,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 2,
+    "bonus_fotn": 4,
+    "bonus_potn": 3,
+    "bonus_kotn": 1,
+    "bonus_sotn": 2,
+    "combats_fotn": [
+      {
+        "adversaire": "Max Holloway",
+        "evenement": "UFC Fight Night: Holloway vs. The Korean Zombie",
+        "date": "August 26, 2023"
+      },
+      {
+        "adversaire": "Yair Rodríguez",
+        "evenement": "UFC Fight Night: The Korean Zombie vs. Rodríguez",
+        "date": "November 10, 2018"
+      },
+      {
+        "adversaire": "Dustin Poirier",
+        "evenement": "UFC on Fuel TV: The Korean Zombie vs. Poirier",
+        "date": "May 15, 2012"
+      },
+      {
+        "adversaire": "Leonard Garcia",
+        "evenement": "WEC 48",
+        "date": "April 24, 2010"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 6
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Leonard Garcia",
+      "evenement": "UFC Fight Night: Nogueira vs. Davis",
+      "date": "March 26, 2011",
+      "resultat": "Win",
+      "methode": "Submission (twister)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Submission of the Night (Two times) vs. Leonard Garcia and Dustin Poirier",
+    "Knockout of the Night (One time) vs. Mark Hominick",
+    "Fight of the Night (Three times) vs. Dustin Poirier , Yair Rodríguez and Max Holloway",
+    "Tied ( Yair Rodriguez ) for third most Post-Fight bonuses in the UFC Featherweight division history (9)",
+    "Fastest finish in UFC Featherweight division history (0:07 vs Mark Hominick )  Fastest knockout in UFC Featherweight division history (0:07 vs Mark Hominick )",
+    "Fastest knockout in UFC Featherweight division history (0:07 vs Mark Hominick )",
+    "First fighter in UFC history to finish with a Twister submission.",
+    "2012: Submission of the Year vs. Dustin Poirier ,  Half-Year Awards: Best Fight of the 1HY  & Ranked #2 Fight of the Year vs. Dustin Poirier",
+    "2018: Ranked #3 Fight of the Year vs. Yair Rodriguez",
+    "World Extreme Cagefighting Fight of the Night (One time) vs. Leonard Garcia",
+    "Fight of the Night (One time) vs. Leonard Garcia",
+    "KoreaFC Korea FC 65 kg Tournament Winner",
+    "Korea FC 65 kg Tournament Winner",
+    "Pancrase Pancrase Korea Neo-Blood Lightweight Tournament Winner",
+    "Pancrase Korea Neo-Blood Lightweight Tournament Winner",
+    "Wrestling Observer Newsletter 2010 Fight of the Year vs. Leonard Garcia at WEC 48  2012 Fight of the Year vs. Dustin Poirier at UFC on Fuel TV 3",
+    "2010 Fight of the Year vs. Leonard Garcia at WEC 48",
+    "2012 Fight of the Year vs. Dustin Poirier at UFC on Fuel TV 3",
+    "World MMA Awards 2011 Submission of the Year vs. Leonard Garcia 2 at UFC Fight Night: Nogueira vs. Davis",
+    "2011 Submission of the Year vs. Leonard Garcia 2 at UFC Fight Night: Nogueira vs. Davis",
+    "MMA Fighting 2012 Fight of the Year vs. Dustin Poirier at UFC on Fuel TV 3",
+    "2012 Fight of the Year vs. Dustin Poirier at UFC on Fuel TV 3",
+    "ESPN 2012 Fight of the Year vs. Dustin Poirier at UFC on Fuel TV 3 2023 Best Non-Fight Moment: Korean Zombie's Last Walkout at UFC Singapore",
+    "2012 Fight of the Year vs. Dustin Poirier at UFC on Fuel TV 3",
+    "2023 Best Non-Fight Moment: Korean Zombie's Last Walkout at UFC Singapore",
+    "Bleacher Report 2012 Fight of the Year vs. Dustin Poirier at UFC on Fuel TV 3  2018 Fight of the Year vs. Yair Rodríguez at UFC Fight Night 139",
+    "2012 Fight of the Year vs. Dustin Poirier at UFC on Fuel TV 3",
+    "2018 Fight of the Year vs. Yair Rodríguez at UFC Fight Night 139",
+    "Sherdog 2012 Fight of the Year vs. Dustin Poirier at UFC on Fuel TV 3 2011 All-Violence First Team",
+    "2012 Fight of the Year vs. Dustin Poirier at UFC on Fuel TV 3",
+    "2011 All-Violence First Team",
+    "Inside MMA 2011 Submission of the Year Bazzie Award vs. Leonard Garcia 2 at UFC Fight Night: Nogueira vs. Davis",
+    "2011 Submission of the Year Bazzie Award vs. Leonard Garcia 2 at UFC Fight Night: Nogueira vs. Davis",
+    "Bloody Elbow 2012 Fight of the Year vs. Dustin Poirier at UFC on Fuel TV 3",
+    "2012 Fight of the Year vs. Dustin Poirier at UFC on Fuel TV 3",
+    "FIGHT! Magazine 2012 Fight of the Year vs. Dustin Poirier at UFC on Fuel TV 3",
+    "2012 Fight of the Year vs. Dustin Poirier at UFC on Fuel TV 3",
+    "CBS Sports 2018 #3 Ranked UFC Fight of the Year vs. Yair Rodríguez at UFC Fight Night: The Korean Zombie vs. Rodríguez",
+    "2018 #3 Ranked UFC Fight of the Year vs. Yair Rodríguez at UFC Fight Night: The Korean Zombie vs. Rodríguez"
+  ],
+  "image_commons": "Jung Chan-Sung from acrofan (2).jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Korean_Zombie",
+    "wikidata": "https://www.wikidata.org/wiki/Q498065",
+    "ufc_com": "https://www.ufc.com/athlete/chan-sung-jung"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_infobox",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "stats_ufc (absentes de la fiche ufc.com)"
+  ],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 14-8, wikipedia_infobox 17-8, ufc_com 17-8"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 65,
+    "puissance": 57,
+    "lutte": 65,
+    "soumission": 80,
+    "defense": 65,
+    "cardio": 55,
+    "menton": 43,
+    "globale": 61,
+    "style": "grappler",
+    "estimees": [
+      "frappe",
+      "lutte",
+      "defense"
+    ],
+    "formule_version": 1
+  }
+}

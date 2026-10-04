@@ -1,0 +1,189 @@
+{
+  "id": "michael-chandler",
+  "nom": "Michael Chandler",
+  "ufc_slug": "michael-chandler",
+  "wikipedia_titre": "Michael Chandler",
+  "surnom": "Iron",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "legers",
+  "statut": "actif",
+  "date_naissance": "1986-04-24",
+  "taille_cm": 173,
+  "allonge_cm": 182,
+  "style": "Wrestler",
+  "lieu_naissance": "High Ridge, United States",
+  "palmares": {
+    "victoires": 23,
+    "defaites": 11,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 11,
+    "victoires_soumission": 7,
+    "victoires_decision": 5,
+    "defaites_ko": 6,
+    "defaites_soumission": 1,
+    "defaites_decision": 4
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.91,
+    "precision_frappe_pct": 49,
+    "frappes_encaissees_par_min": 4.51,
+    "defense_frappe_pct": 44.0,
+    "takedowns_par_15min": 1.88,
+    "precision_takedown_pct": 3,
+    "defense_takedown_pct": 62.0,
+    "soumissions_par_15min": 0.54,
+    "knockdowns_par_15min": 0.4,
+    "duree_moyenne_combat_s": 554,
+    "frappes_reussies": 437.0,
+    "takedowns_reussis": 1.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 23,
+      "defaites": 11,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 11,
+        "soumission": 7,
+        "decision": 5,
+        "autre": 0
+      },
+      "d": {
+        "ko": 6,
+        "soumission": 1,
+        "decision": 4,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2021": 3,
+      "2022": 2,
+      "2024": 1,
+      "2025": 1,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Maurício Ruffy",
+      "evenement": "UFC Freedom 250",
+      "date": "June 14, 2026",
+      "resultat": "Loss",
+      "methode": "TKO (spinning wheel kick and punches)"
+    },
+    "combats_ufc": 8,
+    "victoires_ufc": 2,
+    "defaites_ufc": 6,
+    "victoires_decision_5_rounds": 2,
+    "combats_5_rounds_gagnes": 3,
+    "bonus_fotn": 3,
+    "bonus_potn": 2,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Charles Oliveira",
+        "evenement": "UFC 309",
+        "date": "November 16, 2024"
+      },
+      {
+        "adversaire": "Dustin Poirier",
+        "evenement": "UFC 281",
+        "date": "November 12, 2022"
+      },
+      {
+        "adversaire": "Justin Gaethje",
+        "evenement": "UFC 268",
+        "date": "November 6, 2021"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 10
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Dan Hooker",
+      "evenement": "UFC 257",
+      "date": "January 24, 2021",
+      "resultat": "Win",
+      "methode": "TKO (punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Performance of the Night (Two times) vs. Dan Hooker and Tony Ferguson",
+    "Fight of the Night (Three times) vs. Justin Gaethje , Dustin Poirier and Charles Oliveira 2",
+    "2021: President's Choice Fight of the Year Winner vs. Justin Gaethje  & Fan's Choice Debut of the Year Winner vs. vs. Dan Hooker",
+    "2021: Fight of the Year vs. Justin Gaethje ,  Half-Year Awards: Best Newcomer of the 1HY,  Ranked #3 Newcomer of the Year  & Ranked #10 Fight of the Year vs. Charles Oliveira 1",
+    "2022: Ranked #3 Fight of the Year vs. Dustin Poirier  & Ranked #2 Knockout of the Year vs. Tony Ferguson",
+    "Crypto.com Fan Bonus of the Night vs. Tony Ferguson",
+    "Fan Bonus of the Night vs. Tony Ferguson",
+    "Bellator Lightweight World Championship (Three times) Two successful title defenses (first reign) One successful title defense (second reign) Three successful title defenses (overall)",
+    "Two successful title defenses (first reign)",
+    "One successful title defense (second reign)",
+    "Three successful title defenses (overall)",
+    "Bellator Season 4 Lightweight Tournament Championship",
+    "Most submission victories in Bellator Lightweight division (6)",
+    "Tied (with David Rickels ) for fourth most fights in Bellator history (23)",
+    "Tied (with A. J. McKee ) for second most stoppage wins in Bellator MMA history (13)",
+    "Second most stoppage wins in Bellator Lightweight division history (10) (behind Patricky Pitbull )",
+    "Second most title bouts in Bellator MMA history (11)",
+    "Second most wins in Bellator Lightweight division history (15) (behind Patricky Pitbull )",
+    "Third most wins in Bellator MMA history (18)",
+    "Tied (with Ilima-Lei Macfarlane and Neiman Gracie ) for second most submission wins in Bellator MMA history (6)",
+    "2016 June Knockout of the Month vs. Patricky Freire on June 24",
+    "2021 May Fight of the Month vs. Charles Oliveira",
+    "2021 November Fight of the Month vs. Justin Gaethje",
+    "2021 Fight of the Year vs. Justin Gaethje",
+    "2022 May Knockout of the Month vs. Tony Ferguson",
+    "MMA Fighting 2021 Fight of the Year vs. Justin Gaethje",
+    "2021 Fight of the Year vs. Justin Gaethje",
+    "Sherdog 2011 Breakthrough Fighter of the Year  2021 Fight of the Year vs. Justin Gaethje  2021 Round of the Year vs. Justin Gaethje  2022 Knockout of the year",
+    "2011 Breakthrough Fighter of the Year",
+    "2021 Fight of the Year vs. Justin Gaethje",
+    "2021 Round of the Year vs. Justin Gaethje",
+    "2022 Knockout of the year",
+    "Yahoo! Sports 2011 Fight of the Year vs. Eddie Alvarez on November 19 2021 Fight of the Year vs. Justin Gaethje",
+    "2011 Fight of the Year vs. Eddie Alvarez on November 19",
+    "2021 Fight of the Year vs. Justin Gaethje",
+    "Cageside Press 2021 Fight of the Year vs. Justin Gaethje  2022 Knockout of the Year vs. Tony Ferguson , tied with Leon Edwards",
+    "2021 Fight of the Year vs. Justin Gaethje",
+    "2022 Knockout of the Year vs. Tony Ferguson , tied with Leon Edwards",
+    "Lowkick MMA 2021 Fight of the Year vs. Justin Gaethje",
+    "2021 Fight of the Year vs. Justin Gaethje"
+  ],
+  "image_commons": "MichaelChandler0523 (cropped).jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Michael_Chandler",
+    "wikidata": "https://www.wikidata.org/wiki/Q614630",
+    "ufc_com": "https://www.ufc.com/athlete/michael-chandler"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 62,
+    "puissance": 63,
+    "lutte": 54,
+    "soumission": 59,
+    "defense": 51,
+    "cardio": 67,
+    "menton": 40,
+    "globale": 57,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

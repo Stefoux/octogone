@@ -1,0 +1,132 @@
+{
+  "id": "rafa-garcia",
+  "nom": "Rafa Garcia",
+  "ufc_slug": "humberto-bandenay",
+  "wikipedia_titre": "Humberto Bandenay",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "PE",
+  "categorie": "plume",
+  "statut": "inactif",
+  "date_naissance": "1994-09-04",
+  "taille_cm": 180,
+  "allonge_cm": 182,
+  "style": null,
+  "lieu_naissance": "Peru",
+  "palmares": {
+    "victoires": 25,
+    "defaites": 10,
+    "nuls": 0,
+    "sans_decision": 2,
+    "victoires_ko": 9,
+    "victoires_soumission": 11,
+    "victoires_decision": 5,
+    "defaites_ko": 3,
+    "defaites_soumission": 4,
+    "defaites_decision": 3
+  },
+  "stats_ufc": {
+    "frappes_par_min": 2.22,
+    "precision_frappe_pct": 42,
+    "frappes_encaissees_par_min": 4.79,
+    "defense_frappe_pct": 41.0,
+    "takedowns_par_15min": 2.9,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 63.0,
+    "soumissions_par_15min": 0.48,
+    "knockdowns_par_15min": 0.48,
+    "duree_moyenne_combat_s": 466,
+    "frappes_reussies": 69.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 25,
+      "defaites": 10,
+      "nuls": 0,
+      "sans_decision": 2,
+      "v": {
+        "ko": 9,
+        "soumission": 11,
+        "decision": 5,
+        "autre": 0
+      },
+      "d": {
+        "ko": 3,
+        "soumission": 4,
+        "decision": 3,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2017": 1,
+      "2018": 2,
+      "2019": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Kim Sang-won",
+      "evenement": "PFL Sioux Falls: Storley vs. Zendeli",
+      "date": "May 2, 2026",
+      "resultat": "Loss",
+      "methode": "TKO (elbows)"
+    },
+    "combats_ufc": 4,
+    "victoires_ufc": 1,
+    "defaites_ufc": 3,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "rear-naked choke",
+      "finitions": 5
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Martin Bravo",
+      "evenement": "UFC Fight Night: Pettis vs. Moreno",
+      "date": "August 5, 2017",
+      "resultat": "Win",
+      "methode": "KO (knee)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Humberto_Bandenay",
+    "wikidata": "https://www.wikidata.org/wiki/Q58836929",
+    "ufc_com": "https://www.ufc.com/athlete/humberto-bandenay"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau"
+  },
+  "a_verifier": [
+    "palmares (wikipedia_tableau 25-10, wikipedia_infobox 27-10, ufc_com 14-7)"
+  ],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 25-10, wikipedia_infobox 27-10, ufc_com 14-7"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 52,
+    "puissance": 60,
+    "lutte": 60,
+    "soumission": 64,
+    "defense": 51,
+    "cardio": 53,
+    "menton": 70,
+    "globale": 59,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "id": "rob-font",
+  "nom": "Rob Font",
+  "ufc_slug": "rob-font",
+  "wikipedia_titre": "Rob Font",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "coq",
+  "statut": "actif",
+  "date_naissance": "1987-06-25",
+  "taille_cm": 173,
+  "allonge_cm": 182,
+  "style": "Striker",
+  "lieu_naissance": "Leominster, United States",
+  "palmares": {
+    "victoires": 22,
+    "defaites": 10,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 9,
+    "victoires_soumission": 4,
+    "victoires_decision": 9,
+    "defaites_ko": 0,
+    "defaites_soumission": 1,
+    "defaites_decision": 9
+  },
+  "stats_ufc": {
+    "frappes_par_min": 5.11,
+    "precision_frappe_pct": 45,
+    "frappes_encaissees_par_min": 3.53,
+    "defense_frappe_pct": 58.0,
+    "takedowns_par_15min": 0.7,
+    "precision_takedown_pct": 11,
+    "defense_takedown_pct": 37.0,
+    "soumissions_par_15min": 0.32,
+    "knockdowns_par_15min": 0.38,
+    "duree_moyenne_combat_s": 795,
+    "frappes_reussies": 1421.0,
+    "takedowns_reussis": 5.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 22,
+      "defaites": 10,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 9,
+        "soumission": 4,
+        "decision": 9,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 1,
+        "decision": 9,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2014": 1,
+      "2016": 3,
+      "2017": 2,
+      "2018": 3,
+      "2019": 1,
+      "2020": 1,
+      "2021": 2,
+      "2022": 1,
+      "2023": 3,
+      "2024": 1,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Raul Rosas Jr.",
+      "evenement": "UFC 326",
+      "date": "March 7, 2026",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 21,
+    "victoires_ufc": 12,
+    "defaites_ufc": 9,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 2,
+    "bonus_potn": 4,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Marlon Vera",
+        "evenement": "UFC on ESPN: Font vs. Vera",
+        "date": "April 30, 2022"
+      },
+      {
+        "adversaire": "Ricky Simón",
+        "evenement": "UFC on ESPN: Overeem vs. Rozenstruik",
+        "date": "December 7, 2019"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 6
+    },
+    "premier_combat_ufc": {
+      "adversaire": "George Roop",
+      "evenement": "UFC 175",
+      "date": "July 5, 2014",
+      "resultat": "Win",
+      "methode": "KO (punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Performance of the Night (Four times) vs. George Roop , Douglas Silva de Andrade , Marlon Moraes , and Adrian Yañez",
+    "Fight of the Night (Two times) vs. Ricky Simón and Marlon Vera   Tied ( Marlon Vera , Davey Grant & Song Yadong ) for fourth most Post-Fight bonuses in UFC Bantamweight division history (6)",
+    "Tied ( Marlon Vera , Davey Grant & Song Yadong ) for fourth most Post-Fight bonuses in UFC Bantamweight division history (6)",
+    "Tied ( Marlon Vera , Adrian Yañez & Song Yadong ) for third most knockouts in UFC Bantamweight division history (6)",
+    "Tied ( Urijah Faber , Sean O'Malley & Song Yadong ) for third most finishes in UFC Bantamweight division history (7)",
+    "Tied ( Urijah Faber ) for sixth most wins in UFC Bantamweight division history (11)",
+    "Third most bouts in UFC Bantamweight division history (19)",
+    "Fourth most significant strikes landed in UFC Bantamweight division history (1317)",
+    "Fifth most total fight time in UFC Bantamweight division history (3:58:06)",
+    "CES MMA Featherweight Championship (One time; former) One successful title defense",
+    "Featherweight Championship (One time; former) One successful title defense",
+    "One successful title defense"
+  ],
+  "image_commons": "FONT.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Rob_Font",
+    "wikidata": "https://www.wikidata.org/wiki/Q17466006",
+    "ufc_com": "https://www.ufc.com/athlete/rob-font"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 64,
+    "puissance": 59,
+    "lutte": 38,
+    "soumission": 48,
+    "defense": 69,
+    "cardio": 73,
+    "menton": 99,
+    "globale": 64,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

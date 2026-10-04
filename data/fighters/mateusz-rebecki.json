@@ -1,0 +1,162 @@
+{
+  "id": "mateusz-rebecki",
+  "nom": "Mateusz Rebecki",
+  "ufc_slug": "mateusz-rebecki",
+  "wikipedia_titre": "Mateusz Rębecki",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "PL",
+  "categorie": "legers",
+  "statut": "actif",
+  "date_naissance": "1992-11-03",
+  "taille_cm": 170,
+  "allonge_cm": 168,
+  "style": "Brazilian Jiu-Jitsu",
+  "lieu_naissance": "Gryfice, Poland",
+  "palmares": {
+    "victoires": 21,
+    "defaites": 5,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 10,
+    "victoires_soumission": 7,
+    "victoires_decision": 4,
+    "defaites_ko": 2,
+    "defaites_soumission": 1,
+    "defaites_decision": 2
+  },
+  "stats_ufc": {
+    "frappes_par_min": 5.28,
+    "precision_frappe_pct": 49,
+    "frappes_encaissees_par_min": 4.19,
+    "defense_frappe_pct": 55.0,
+    "takedowns_par_15min": 3.05,
+    "precision_takedown_pct": 7,
+    "defense_takedown_pct": 53.0,
+    "soumissions_par_15min": 0.42,
+    "knockdowns_par_15min": 0.69,
+    "duree_moyenne_combat_s": 648,
+    "frappes_reussies": 570.0,
+    "takedowns_reussis": 3.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 21,
+      "defaites": 5,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 10,
+        "soumission": 7,
+        "decision": 4,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 1,
+        "decision": 2,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2022": 1,
+      "2023": 3,
+      "2024": 2,
+      "2025": 2,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Kyle Prepolec",
+      "evenement": "UFC Fight Night: Medić vs. Rodriguez",
+      "date": "August 1, 2026",
+      "resultat": "Win",
+      "methode": "TKO (punches)"
+    },
+    "combats_ufc": 10,
+    "victoires_ufc": 6,
+    "defaites_ufc": 4,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 2,
+    "bonus_fotn": 4,
+    "bonus_potn": 0,
+    "bonus_kotn": 2,
+    "bonus_sotn": 1,
+    "combats_fotn": [
+      {
+        "adversaire": "Ľudovít Klein",
+        "evenement": "UFC 321",
+        "date": "October 25, 2025"
+      },
+      {
+        "adversaire": "Chris Duncan",
+        "evenement": "UFC on ESPN: Taira vs. Park",
+        "date": "August 2, 2025"
+      },
+      {
+        "adversaire": "Myktybek Orolbai",
+        "evenement": "UFC 308",
+        "date": "October 26, 2024"
+      },
+      {
+        "adversaire": "Łukasz Kopera",
+        "evenement": "Fight Exclusive Night 22",
+        "date": "October 20, 2018"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 8
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Rodrigo Lídio",
+      "evenement": "Dana White's Contender Series 52",
+      "date": "August 30, 2022",
+      "resultat": "Win",
+      "methode": "Submission (rear-naked choke)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Ultimate Fighting Championship Fight of the Night (Three times) vs. Myktybek Orolbai, Chris Duncan and Ľudovít Klein",
+    "Fight of the Night (Three times) vs. Myktybek Orolbai, Chris Duncan and Ľudovít Klein",
+    "FEN Lightweight championship (One time; former)  Seven successful title defenses",
+    "Seven successful title defenses",
+    "Knockout of the Night (Two times)",
+    "Submission of the Night (One time)",
+    "Fight of the Night (One time)",
+    "MMA Mania 2024 Fight of the Year vs. Myktybek Orolbai at UFC 308",
+    "2024 Fight of the Year vs. Myktybek Orolbai at UFC 308"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Mateusz_Rębecki",
+    "wikidata": "https://www.wikidata.org/wiki/Q60837162",
+    "ufc_com": "https://www.ufc.com/athlete/mateusz-rebecki"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 69,
+    "puissance": 67,
+    "lutte": 55,
+    "soumission": 58,
+    "defense": 62,
+    "cardio": 65,
+    "menton": 77,
+    "globale": 65,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

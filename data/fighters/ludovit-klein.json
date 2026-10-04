@@ -1,0 +1,143 @@
+{
+  "id": "ludovit-klein",
+  "nom": "Ľudovít Klein",
+  "ufc_slug": "ludovit-klein",
+  "wikipedia_titre": "Ľudovít Klein",
+  "surnom": "Mr. Highlight",
+  "sexe": "M",
+  "pays": "SK",
+  "categorie": "legers",
+  "statut": "actif",
+  "date_naissance": "1995-02-22",
+  "taille_cm": 170,
+  "allonge_cm": 184,
+  "style": "Boxing",
+  "lieu_naissance": "Slovakia",
+  "palmares": {
+    "victoires": 24,
+    "defaites": 6,
+    "nuls": 1,
+    "sans_decision": 0,
+    "victoires_ko": 9,
+    "victoires_soumission": 8,
+    "victoires_decision": 7,
+    "defaites_ko": 2,
+    "defaites_soumission": 2,
+    "defaites_decision": 2
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.83,
+    "precision_frappe_pct": 54,
+    "frappes_encaissees_par_min": 3.57,
+    "defense_frappe_pct": 53.0,
+    "takedowns_par_15min": 1.29,
+    "precision_takedown_pct": 14,
+    "defense_takedown_pct": 77.0,
+    "soumissions_par_15min": 0.0,
+    "knockdowns_par_15min": 0.46,
+    "duree_moyenne_combat_s": 749,
+    "frappes_reussies": 622.0,
+    "takedowns_reussis": 4.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 24,
+      "defaites": 6,
+      "nuls": 1,
+      "sans_decision": 0,
+      "v": {
+        "ko": 9,
+        "soumission": 8,
+        "decision": 7,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 2,
+        "decision": 2,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2020": 1,
+      "2021": 2,
+      "2022": 2,
+      "2023": 2,
+      "2024": 3,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Tofiq Musayev",
+      "evenement": "UFC Fight Night: Medić vs. Rodriguez",
+      "date": "August 1, 2026",
+      "resultat": "Loss",
+      "methode": "TKO (punches)"
+    },
+    "combats_ufc": 13,
+    "victoires_ufc": 8,
+    "defaites_ufc": 4,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 1,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Mateusz Rębecki",
+        "evenement": "UFC 321",
+        "date": "October 25, 2025"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 4
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Shane Young",
+      "evenement": "UFC 253",
+      "date": "September 27, 2020",
+      "resultat": "Win",
+      "methode": "KO (head kick and punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Ultimate Fighting Championship Fight of the Night (One time) vs. Mateusz Rębecki",
+    "Fight of the Night (One time) vs. Mateusz Rębecki"
+  ],
+  "image_commons": "Ludovit Klein.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Ľudovít_Klein",
+    "wikidata": "https://www.wikidata.org/wiki/Q100396352",
+    "ufc_com": "https://www.ufc.com/athlete/ludovit-klein"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 66,
+    "puissance": 58,
+    "lutte": 55,
+    "soumission": 52,
+    "defense": 64,
+    "cardio": 62,
+    "menton": 79,
+    "globale": 62,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

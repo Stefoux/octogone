@@ -1,0 +1,257 @@
+{
+  "id": "amanda-nunes",
+  "nom": "Amanda Nunes",
+  "ufc_slug": "amanda-nunes",
+  "wikipedia_titre": "Amanda Nunes",
+  "surnom": "The Lioness",
+  "sexe": "F",
+  "pays": "BR",
+  "categorie": "coq_f",
+  "statut": "actif",
+  "date_naissance": "1988-05-30",
+  "taille_cm": 173,
+  "allonge_cm": 175,
+  "style": "Striker",
+  "lieu_naissance": "Brazil",
+  "palmares": {
+    "victoires": 23,
+    "defaites": 5,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 13,
+    "victoires_soumission": 4,
+    "victoires_decision": 6,
+    "defaites_ko": 2,
+    "defaites_soumission": 2,
+    "defaites_decision": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.55,
+    "precision_frappe_pct": 52,
+    "frappes_encaissees_par_min": 2.62,
+    "defense_frappe_pct": 58.0,
+    "takedowns_par_15min": 2.73,
+    "precision_takedown_pct": 15,
+    "defense_takedown_pct": 82.0,
+    "soumissions_par_15min": 0.7,
+    "knockdowns_par_15min": 0.63,
+    "duree_moyenne_combat_s": 644,
+    "frappes_reussies": 975.0,
+    "takedowns_reussis": 11.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 23,
+      "defaites": 5,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 13,
+        "soumission": 4,
+        "decision": 6,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 2,
+        "decision": 1,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2013": 2,
+      "2014": 1,
+      "2015": 2,
+      "2016": 3,
+      "2017": 1,
+      "2018": 2,
+      "2019": 2,
+      "2020": 1,
+      "2021": 2,
+      "2022": 1,
+      "2023": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Irene Aldana",
+      "evenement": "UFC 289",
+      "date": "June 10, 2023",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 18,
+    "victoires_ufc": 16,
+    "defaites_ufc": 2,
+    "victoires_decision_5_rounds": 5,
+    "combats_5_rounds_gagnes": 6,
+    "bonus_fotn": 0,
+    "bonus_potn": 5,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Women's Bantamweight Championship",
+        "evenement": "UFC 289",
+        "date": "June 10, 2023"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Women's Bantamweight Championship",
+        "evenement": "UFC 277",
+        "date": "July 30, 2022"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Women's Featherweight Championship",
+        "evenement": "UFC 259",
+        "date": "March 6, 2021"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Women's Featherweight Championship",
+        "evenement": "UFC 250",
+        "date": "June 6, 2020"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Women's Bantamweight Championship",
+        "evenement": "UFC 245",
+        "date": "December 14, 2019"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Women's Bantamweight Championship",
+        "evenement": "UFC 239",
+        "date": "July 6, 2019"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Women's Featherweight Championship",
+        "evenement": "UFC 232",
+        "date": "December 29, 2018"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Women's Bantamweight Championship",
+        "evenement": "UFC 224",
+        "date": "May 12, 2018"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Women's Bantamweight Championship",
+        "evenement": "UFC 215",
+        "date": "September 9, 2017"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Women's Bantamweight Championship",
+        "evenement": "UFC 207",
+        "date": "December 30, 2016"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Women's Bantamweight Championship",
+        "evenement": "UFC 200",
+        "date": "July 9, 2016"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 10
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Sheila Gaff",
+      "evenement": "UFC 163",
+      "date": "August 3, 2013",
+      "resultat": "Win",
+      "methode": "TKO (punches and elbows)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "UFC Hall of Fame ( Modern wing , Class of 2025)",
+    "Six successful title defenses (overall) Five successful title defenses (first reign) One successful title defense (second reign)",
+    "Five successful title defenses (first reign)",
+    "One successful title defense (second reign)",
+    "Tied ( Valentina Shevchenko ) for most wins in UFC title fights amongst women (11)",
+    "Most wins in UFC Women's Bantamweight Championship fights (8)",
+    "Most bouts in UFC Women's Bantamweight Championship fights (9)",
+    "First woman in UFC to win two titles (bantamweight and featherweight) and to also hold them simultaneously",
+    "First and only UFC fighter to defend titles in two divisions while holding both titles simultaneously",
+    "Sixth multi-divisional champion in UFC and third to hold two titles simultaneously (after Daniel Cormier and Conor McGregor )",
+    "First and only fighter to retire as multi-division champion in UFC history",
+    "Fourth longest single UFC title reign of all time (1981 days) (behind Demetrious Johnson , Georges St-Pierre and Anderson Silva )",
+    "Two successful title defenses",
+    "Tied ( Cris Cyborg ) for most wins in UFC Women's Featherweight Championship fights (3)",
+    "Longest combined UFC title reign of all time (3940 days)",
+    "Second most combined title defenses by a woman in UFC history (8) (behind Valentina Shevchenko )",
+    "Tied ( Anderson Silva & Valentina Shevchenko ) for fourth most title fight wins in UFC history (11)",
+    "Tied ( Ronda Rousey ) for the second most Performance of the Night bonuses in UFC Women's history (5)",
+    "Tied ( Irene Aldana ) for third most Post-Fight bonuses in UFC Women's Bantamweight division history (4)",
+    "Second most wins in UFC Women's history (16)",
+    "Tied ( Gillian Robertson ) for most finishes in UFC Women's history (10)",
+    "Tied ( Anthony Johnson , Charles Oliveira and Andrei Arlovski ) for fifth most first-round finishes in UFC history (9)",
+    "Most knockouts in UFC Women's history (7)",
+    "Most consecutive wins in UFC Women's history (12)",
+    "Most knockout wins in UFC Women's Bantamweight division history (6)",
+    "Most finishes in UFC Women's Bantamweight division history (8)",
+    "Most wins in UFC Women's Bantamweight division history (13)",
+    "Most consecutive wins in UFC Women's Bantamweight division history (9)",
+    "Most knockdowns in UFC Women's Bantamweight division history (6)  Most knockdowns in a bout in UFC Women's Bantamweight division history (3 vs Julianna Peña 2)",
+    "Most knockdowns in a bout in UFC Women's Bantamweight division history (3 vs Julianna Peña 2)",
+    "Most takedowns in UFC Women's Bantamweight division history (32)  Most takedowns landed in a bout in UFC Women's Bantamweight division history (8 vs Germaine de Randamie )",
+    "Most takedowns landed in a bout in UFC Women's Bantamweight division history (8 vs Germaine de Randamie )",
+    "Longest win streak against (current, former or future) UFC Champions (8)",
+    "Tied ( Cris Cyborg ) for most consecutive wins in UFC Women's Featherweight division history (3)",
+    "Second most bouts in UFC Women's Bantamweight division history (15)",
+    "Second most top position time in UFC Women's Bantamweight division history (58:05)",
+    "Third most significant strikes landed in UFC Women's Bantamweight division history (773)  Third most total strikes landed in UFC Women's Bantamweight division history (1099)",
+    "Third most total strikes landed in UFC Women's Bantamweight division history (1099)",
+    "Fifth highest win percentage in UFC history (88.9% - 16 wins / 2 losses)",
+    "UFC.com Awards 2013: Ranked #9 Import of the Year  2018: Ranked #2 Fighter of the Year  & Ranked #4 Knockout of the Year vs. Cris Cyborg  2021: Ranked #5 Submission of the Year vs. Megan Anderson"
+  ],
+  "image_commons": "Ceremonial weigh ins - Amanda Nunes vs Julianna Peña UFC 269 (cropped).jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Amanda_Nunes",
+    "wikidata": "https://www.wikidata.org/wiki/Q4739716",
+    "ufc_com": "https://www.ufc.com/athlete/amanda-nunes"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 68,
+    "puissance": 72,
+    "lutte": 64,
+    "soumission": 54,
+    "defense": 75,
+    "cardio": 80,
+    "menton": 78,
+    "globale": 70,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

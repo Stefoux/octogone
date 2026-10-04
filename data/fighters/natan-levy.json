@@ -1,0 +1,132 @@
+{
+  "id": "natan-levy",
+  "nom": "Natan Levy",
+  "ufc_slug": "natan-levy",
+  "wikipedia_titre": "Natan Levy",
+  "surnom": "Lethal",
+  "sexe": "M",
+  "pays": "IL",
+  "categorie": "legers",
+  "statut": "actif",
+  "date_naissance": "1991-09-30",
+  "taille_cm": 175,
+  "allonge_cm": 180,
+  "style": "Striker",
+  "lieu_naissance": "Israel",
+  "palmares": {
+    "victoires": 9,
+    "defaites": 2,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 1,
+    "victoires_soumission": 3,
+    "victoires_decision": 5,
+    "defaites_ko": 0,
+    "defaites_soumission": 1,
+    "defaites_decision": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.7,
+    "precision_frappe_pct": 52,
+    "frappes_encaissees_par_min": 3.19,
+    "defense_frappe_pct": 59.0,
+    "takedowns_par_15min": 5.03,
+    "precision_takedown_pct": 8,
+    "defense_takedown_pct": 41.0,
+    "soumissions_par_15min": 0.48,
+    "knockdowns_par_15min": 0.0,
+    "duree_moyenne_combat_s": 752,
+    "frappes_reussies": 232.0,
+    "takedowns_reussis": 3.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 9,
+      "defaites": 2,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 1,
+        "soumission": 3,
+        "decision": 5,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 1,
+        "decision": 1,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2020": 1,
+      "2021": 1,
+      "2022": 2,
+      "2024": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Zhang Kui",
+      "evenement": "World X-Impact Federation: APEC 2025 Korea Summit Commemorative World MMA Competition",
+      "date": "October 30, 2025",
+      "resultat": "Win",
+      "methode": "TKO (punches)"
+    },
+    "combats_ufc": 5,
+    "victoires_ufc": 3,
+    "defaites_ufc": 2,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 1
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Shaheen Santana",
+      "evenement": "Dana White's Contender Series 35",
+      "date": "November 10, 2020",
+      "resultat": "Win",
+      "methode": "Submission (arm-triangle choke)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [],
+  "image_commons": "P1940546-2 (cropped).jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Natan_Levy",
+    "wikidata": "https://www.wikidata.org/wiki/Q101460620",
+    "ufc_com": "https://www.ufc.com/athlete/natan-levy"
+  },
+  "champs_sources": {
+    "surnom": "wikipedia",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 9-2, wikipedia_infobox 9-2, ufc_com 8-2"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 64,
+    "puissance": 43,
+    "lutte": 60,
+    "soumission": 60,
+    "defense": 70,
+    "cardio": 63,
+    "menton": 99,
+    "globale": 66,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

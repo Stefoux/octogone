@@ -1,0 +1,144 @@
+{
+  "id": "seungwoo-choi",
+  "nom": "Seungwoo Choi",
+  "ufc_slug": "seungwoo-choi",
+  "wikipedia_titre": "Seung Woo Choi",
+  "surnom": "Sting",
+  "sexe": "M",
+  "pays": null,
+  "categorie": "plume",
+  "statut": null,
+  "date_naissance": "1992-06-06",
+  "taille_cm": 183,
+  "allonge_cm": 189,
+  "style": "MMA",
+  "lieu_naissance": "Gangneung, South Korea",
+  "palmares": {
+    "victoires": 11,
+    "defaites": 8,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 6,
+    "victoires_soumission": 0,
+    "victoires_decision": 5,
+    "defaites_ko": 4,
+    "defaites_soumission": 2,
+    "defaites_decision": 2
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.56,
+    "precision_frappe_pct": 39,
+    "frappes_encaissees_par_min": 3.16,
+    "defense_frappe_pct": 47.0,
+    "takedowns_par_15min": 0.83,
+    "precision_takedown_pct": 18,
+    "defense_takedown_pct": 70.0,
+    "soumissions_par_15min": 0.0,
+    "knockdowns_par_15min": 0.69,
+    "duree_moyenne_combat_s": 589,
+    "frappes_reussies": 384.0,
+    "takedowns_reussis": 2.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 11,
+      "defaites": 8,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 6,
+        "soumission": 0,
+        "decision": 5,
+        "autre": 0
+      },
+      "d": {
+        "ko": 4,
+        "soumission": 2,
+        "decision": 2,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2019": 3,
+      "2021": 3,
+      "2022": 2,
+      "2023": 1,
+      "2024": 1,
+      "2025": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Kevin Vallejos",
+      "evenement": "UFC Fight Night: Vettori vs. Dolidze 2",
+      "date": "March 15, 2025",
+      "resultat": "Loss",
+      "methode": "TKO (punches)"
+    },
+    "combats_ufc": 11,
+    "victoires_ufc": 4,
+    "defaites_ufc": 7,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 0,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 4
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Movsar Evloev",
+      "evenement": "UFC Fight Night: Overeem vs. Oleinik",
+      "date": "April 20, 2019",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Ultimate Fighting Championship Performance of the Night (One time) vs. Julian Erosa",
+    "Performance of the Night (One time) vs. Julian Erosa",
+    "Top Fighting Championship Top Fighting Championship Featherweight Champion (Two times) vs. Min Gu Lee and Jae Woong Kim",
+    "Top Fighting Championship Featherweight Champion (Two times) vs. Min Gu Lee and Jae Woong Kim",
+    "South Korea Muay Thai national team fighter",
+    "Muay Thai World Championships 2010 Bronze medal at Muay Thai World Championships",
+    "2010 Bronze medal at Muay Thai World Championships"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Seung_Woo_Choi",
+    "wikidata": "https://www.wikidata.org/wiki/Q79965224",
+    "ufc_com": "https://www.ufc.com/athlete/seungwoo-choi"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "pays",
+    "statut"
+  ],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 51,
+    "puissance": 71,
+    "lutte": 51,
+    "soumission": 37,
+    "defense": 61,
+    "cardio": 55,
+    "menton": 47,
+    "globale": 53,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

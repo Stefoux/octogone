@@ -1,0 +1,155 @@
+{
+  "id": "ketlen-vieira",
+  "nom": "Ketlen Vieira",
+  "ufc_slug": "ketlen-vieira",
+  "wikipedia_titre": "Ketlen Vieira",
+  "surnom": "Fenomeno",
+  "sexe": "F",
+  "pays": "BR",
+  "categorie": "coq_f",
+  "statut": "inactif",
+  "date_naissance": "1991-08-26",
+  "taille_cm": 173,
+  "allonge_cm": 173,
+  "style": "Judo",
+  "lieu_naissance": "State of Amazonas, Brazil",
+  "palmares": {
+    "victoires": 16,
+    "defaites": 6,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 2,
+    "victoires_soumission": 4,
+    "victoires_decision": 10,
+    "defaites_ko": 1,
+    "defaites_soumission": 0,
+    "defaites_decision": 5
+  },
+  "stats_ufc": {
+    "frappes_par_min": 2.71,
+    "precision_frappe_pct": 40,
+    "frappes_encaissees_par_min": 3.73,
+    "defense_frappe_pct": 51.0,
+    "takedowns_par_15min": 1.31,
+    "precision_takedown_pct": 17,
+    "defense_takedown_pct": 90.0,
+    "soumissions_par_15min": 0.52,
+    "knockdowns_par_15min": 0.0,
+    "duree_moyenne_combat_s": 916,
+    "frappes_reussies": 621.0,
+    "takedowns_reussis": 8.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 16,
+      "defaites": 6,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 2,
+        "soumission": 4,
+        "decision": 10,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 0,
+        "decision": 5,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2016": 1,
+      "2017": 2,
+      "2018": 1,
+      "2019": 1,
+      "2020": 1,
+      "2021": 2,
+      "2022": 1,
+      "2023": 2,
+      "2024": 1,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Cris Cyborg",
+      "evenement": "PFL Tampa: Cyborg vs. Vieira",
+      "date": "22 August 2026",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 15,
+    "victoires_ufc": 10,
+    "defaites_ufc": 5,
+    "victoires_decision_5_rounds": 2,
+    "combats_5_rounds_gagnes": 2,
+    "bonus_fotn": 0,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 2
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Kelly Faszholz",
+      "evenement": "UFC Fight Night: Lineker vs. Dodson",
+      "date": "1 October 2016",
+      "resultat": "Win",
+      "methode": "Decision (split)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Highest takedown defense percentage in UFC Women's Bantamweight division history (88.9%)",
+    "Third most bouts in UFC Women's Bantamweight division history (14)",
+    "Third most wins in UFC Women's Bantamweight division history (9)",
+    "Second most total fight time in UFC Women's Bantamweight division history (3:34:07) (behind Raquel Pennington )",
+    "Third longest average fight time in UFC Women's Bantamweight division history (15:18)",
+    "Third most total control time in UFC Women's Bantamweight division history (1:02:25)",
+    "Fourth most top-position time in UFC Women's Bantamweight division history (45:08)",
+    "Third longest average fight time in UFC Women's Bantamweight division history (15:21)",
+    "Fourth most takedowns landed in UFC Women's Bantamweight division history (20)",
+    "Fifth most total strikes landed in UFC Women's Bantamweight division history (1107)",
+    "Tied ( Julianna Peña & Mayra Bueno Silva ) for fourth most submission attempts in UFC Women's Bantamweight division history (8)",
+    "Second most decision wins in UFC Women's Bantamweight division history (8) (behind Raquel Pennington )",
+    "Mr. Cage Mr. Cage Women's Bantamweight Champion",
+    "Mr. Cage Women's Bantamweight Champion"
+  ],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Ketlen_Vieira",
+    "wikidata": "https://www.wikidata.org/wiki/Q31966537",
+    "ufc_com": "https://www.ufc.com/athlete/ketlen-vieira"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 16-6, wikipedia_infobox 16-6, ufc_com 16-5"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 47,
+    "puissance": 37,
+    "lutte": 60,
+    "soumission": 55,
+    "defense": 61,
+    "cardio": 86,
+    "menton": 87,
+    "globale": 62,
+    "style": "lutteur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

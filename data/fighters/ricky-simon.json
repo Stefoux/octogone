@@ -1,0 +1,155 @@
+{
+  "id": "ricky-simon",
+  "nom": "Ricky Simon",
+  "ufc_slug": "ricky-simon",
+  "wikipedia_titre": "Ricky Simón",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "coq",
+  "statut": "actif",
+  "date_naissance": "1992-08-31",
+  "taille_cm": 168,
+  "allonge_cm": 175,
+  "style": "Wrestling",
+  "lieu_naissance": "Pendleton, United States",
+  "palmares": {
+    "victoires": 22,
+    "defaites": 8,
+    "nuls": 1,
+    "sans_decision": 0,
+    "victoires_ko": 7,
+    "victoires_soumission": 4,
+    "victoires_decision": 11,
+    "defaites_ko": 3,
+    "defaites_soumission": 1,
+    "defaites_decision": 4
+  },
+  "stats_ufc": {
+    "frappes_par_min": 2.99,
+    "precision_frappe_pct": 42,
+    "frappes_encaissees_par_min": 3.91,
+    "defense_frappe_pct": 61.0,
+    "takedowns_par_15min": 4.47,
+    "precision_takedown_pct": 5,
+    "defense_takedown_pct": 77.0,
+    "soumissions_par_15min": 0.25,
+    "knockdowns_par_15min": 0.31,
+    "duree_moyenne_combat_s": 752,
+    "frappes_reussies": 712.0,
+    "takedowns_reussis": 9.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 22,
+      "defaites": 8,
+      "nuls": 1,
+      "sans_decision": 0,
+      "v": {
+        "ko": 7,
+        "soumission": 4,
+        "decision": 11,
+        "autre": 0
+      },
+      "d": {
+        "ko": 3,
+        "soumission": 1,
+        "decision": 4,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2017": 1,
+      "2018": 2,
+      "2019": 3,
+      "2020": 1,
+      "2021": 3,
+      "2022": 1,
+      "2023": 1,
+      "2024": 2,
+      "2025": 3,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Montel Jackson",
+      "evenement": "UFC Fight Night: Rosas Jr. vs. Barcelos",
+      "date": "September 26, 2026",
+      "resultat": "Loss",
+      "methode": "TKO (punches)"
+    },
+    "combats_ufc": 19,
+    "victoires_ufc": 11,
+    "defaites_ufc": 7,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 2,
+    "bonus_potn": 2,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Rob Font",
+        "evenement": "UFC on ESPN: Overeem vs. Rozenstruik",
+        "date": "December 7, 2019"
+      },
+      {
+        "adversaire": "Merab Dvalishvili",
+        "evenement": "UFC Fight Night: Barboza vs. Lee",
+        "date": "April 21, 2018"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 7
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Donavon Frelow",
+      "evenement": "Dana White's Contender Series 5",
+      "date": "August 8, 2017",
+      "resultat": "Win",
+      "methode": "Decision (split)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "Fight of the Night (Two times) vs. Merab Dvalishvili and Rob Font",
+    "Performance of the Night (Two times) vs. Jack Shore and Javid Basharat",
+    "Second most takedowns landed in UFC Bantamweight division history (44) (behind Merab Dvalishvili )",
+    "Latest finish in a UFC three-round bout (5:00 in R3) (vs. Merab Dvalishvili )",
+    "Legacy Fighting Alliance LFA Bantamweight Championship (One time)  One successful title defense vs. Vinicius Zani",
+    "LFA Bantamweight Championship (One time)  One successful title defense vs. Vinicius Zani",
+    "One successful title defense vs. Vinicius Zani"
+  ],
+  "image_commons": "Ricky Simón 2019.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Ricky_Simón",
+    "wikidata": "https://www.wikidata.org/wiki/Q61663571",
+    "ufc_com": "https://www.ufc.com/athlete/ricky-simon"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 50,
+    "puissance": 52,
+    "lutte": 70,
+    "soumission": 47,
+    "defense": 69,
+    "cardio": 70,
+    "menton": 68,
+    "globale": 61,
+    "style": "lutteur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

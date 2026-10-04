@@ -1,0 +1,190 @@
+{
+  "id": "khabib-nurmagomedov",
+  "nom": "Khabib Nurmagomedov",
+  "ufc_slug": "khabib-nurmagomedov",
+  "wikipedia_titre": "Khabib Nurmagomedov",
+  "surnom": "The Eagle",
+  "sexe": "M",
+  "pays": "RU",
+  "autres_pays": [
+    "SU",
+    "AE"
+  ],
+  "categorie": "legers",
+  "statut": "retraite",
+  "date_naissance": "1988-09-20",
+  "taille_cm": 178,
+  "allonge_cm": 178,
+  "style": "Combat Sambo",
+  "lieu_naissance": "Dagestan Republic, Russia",
+  "palmares": {
+    "victoires_ko": 8,
+    "victoires_soumission": 11,
+    "victoires_decision": 10,
+    "defaites_ko": 0,
+    "defaites_soumission": 0,
+    "defaites_decision": 0,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires": 29,
+    "defaites": 0
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.1,
+    "precision_frappe_pct": 49,
+    "frappes_encaissees_par_min": 1.75,
+    "defense_frappe_pct": 65.0,
+    "takedowns_par_15min": 5.32,
+    "precision_takedown_pct": 39,
+    "defense_takedown_pct": 85.0,
+    "soumissions_par_15min": 0.79,
+    "knockdowns_par_15min": 0.17,
+    "duree_moyenne_combat_s": 793,
+    "frappes_reussies": 705.0,
+    "takedowns_reussis": 49.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 26,
+      "defaites": 0,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 7,
+        "soumission": 11,
+        "decision": 8,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 0,
+        "decision": 0,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2012": 2,
+      "2013": 3,
+      "2014": 1,
+      "2016": 2,
+      "2017": 1,
+      "2018": 2,
+      "2019": 1,
+      "2020": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Justin Gaethje",
+      "evenement": "UFC 254",
+      "date": "24 October 2020",
+      "resultat": "Win",
+      "methode": "Technical Submission (triangle choke)"
+    },
+    "combats_ufc": 13,
+    "victoires_ufc": 13,
+    "defaites_ufc": 0,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 2,
+    "bonus_fotn": 0,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Lightweight Championship",
+        "evenement": "UFC 229",
+        "date": "6 October 2018"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 7
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Kamal Shalorus",
+      "evenement": "UFC on FX: Guillard vs. Miller",
+      "date": "20 January 2012",
+      "resultat": "Win",
+      "methode": "Submission (rear-naked choke)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "UFC Hall of Fame (Modern Wing, Class of 2022)",
+    "Tied for the second most title defenses in UFC Lightweight division history (3) (w. B.J. Penn , Frankie Edgar and Benson Henderson )",
+    "Tied for the second most consecutive title defenses in UFC Lightweight division history (3) (w. B.J. Penn , Frankie Edgar and Benson Henderson )",
+    "Tied for the second most title wins in UFC Lightweight division history (4) (w. B.J. Penn and Benson Henderson )",
+    "Longest Lightweight champion reign in UFC history (1077 days)",
+    "Tied ( Islam Makhachev ) for most submissions wins in UFC Lightweight division title fights (3)",
+    "Tied for third most submissions wins in title fights in UFC history (3) (w. Ronda Rousey , Matt Hughes , B.J. Penn & Islam Makhachev )",
+    "Tied for the fifth longest win streak in UFC history (13) w. Georges St-Pierre , Max Holloway , Jon Jones & Demetrious Johnson",
+    "Performance of the Night (Three times) vs. Edson Barboza , Dustin Poirier and Justin Gaethje",
+    "Most takedowns in a single UFC fight ( UFC 160 : 21 takedowns on 28 attempts; 3 rounds) vs. Abel Trujillo",
+    "Tied for second most consecutive wins in UFC Lightweight division history (12) (w. Tony Ferguson )",
+    "Second Russian UFC champion (after Oleg Taktarov )",
+    "First Muslim UFC champion",
+    "Third most control time in UFC Lightweight division history (1:29:08)",
+    "Fifth highest control time percentage in UFC Lightweight division history (54.6%)",
+    "Fourth most top position time in UFC Lightweight division history (1:04:28)",
+    "Third most takedowns landed in UFC Lightweight division history (59)",
+    "Holds wins over four former UFC champions (3 undisputed) — vs. Rafael dos Anjos , Conor McGregor , Justin Gaethje & Dustin Poirier (interim)",
+    "UFC Honors Awards 2019: Fan's Choice Submission of the Year Nominee vs. Dustin Poirier  2020: Fan's Choice Submission of the Year Winner vs. Justin Gaethje",
+    "2019: Fan's Choice Submission of the Year Nominee vs. Dustin Poirier",
+    "2020: Fan's Choice Submission of the Year Winner vs. Justin Gaethje",
+    "UFC.com Awards 2018: Ranked #3 Fighter of the Year  2019: Ranked #2 Submission of the Year vs. Dustin Poirier  2020: Ranked #4 Submission of the Year vs. Justin Gaethje",
+    "2018: Ranked #3 Fighter of the Year",
+    "2019: Ranked #2 Submission of the Year vs. Dustin Poirier",
+    "2020: Ranked #4 Submission of the Year vs. Justin Gaethje",
+    "M-1 Global M-1 Challenge: 2009 Selections",
+    "M-1 Challenge: 2009 Selections",
+    "Atrium Cup Pankration Atrium Cup 2008 tournament winner",
+    "Pankration Atrium Cup 2008 tournament winner",
+    "MMA Fighting 2010s #2 Ranked Fighter of the Decade",
+    "2010s #2 Ranked Fighter of the Decade",
+    "BJPenn.com 2010s #5 Ranked Fighter of the Decade",
+    "2010s #5 Ranked Fighter of the Decade",
+    "The Athletic 2010s Lightweight Fighter of the Decade",
+    "2010s Lightweight Fighter of the Decade",
+    "Bloody Elbow 2010s Lightweight Fighter of the Decade",
+    "2010s Lightweight Fighter of the Decade",
+    "Sherdog 2013 Breakthrough Fighter of the Year.  2016 Beatdown of the Year ( UFC 205 : vs. Michael Johnson ) .  2016 Comeback Fighter of the Year",
+    "2013 Breakthrough Fighter of the Year.",
+    "2016 Beatdown of the Year ( UFC 205 : vs. Michael Johnson ) ."
+  ],
+  "image_commons": "Khabib nurmagomedov.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Khabib_Nurmagomedov",
+    "wikidata": "https://www.wikidata.org/wiki/Q3526023",
+    "ufc_com": "https://www.ufc.com/athlete/khabib-nurmagomedov"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_infobox",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 26-0, wikipedia_infobox 29-0, ufc_com 29-0"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 63,
+    "puissance": 49,
+    "lutte": 82,
+    "soumission": 65,
+    "defense": 86,
+    "cardio": 72,
+    "menton": 99,
+    "globale": 74,
+    "style": "lutteur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

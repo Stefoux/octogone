@@ -1,0 +1,194 @@
+{
+  "id": "miesha-tate",
+  "nom": "Miesha Tate",
+  "ufc_slug": "miesha-tate",
+  "wikipedia_titre": "Miesha Tate",
+  "surnom": "Cupcake",
+  "sexe": "F",
+  "pays": "US",
+  "categorie": "coq_f",
+  "statut": "actif",
+  "date_naissance": "1986-08-18",
+  "taille_cm": 168,
+  "allonge_cm": 165,
+  "style": "Grappling",
+  "lieu_naissance": "Tacoma, États-Unis",
+  "palmares": {
+    "victoires_ko": 4,
+    "victoires_soumission": 8,
+    "victoires_decision": 8,
+    "defaites_ko": 2,
+    "defaites_soumission": 3,
+    "defaites_decision": 5,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires": 20,
+    "defaites": 10
+  },
+  "stats_ufc": {
+    "frappes_par_min": 2.62,
+    "precision_frappe_pct": 44,
+    "frappes_encaissees_par_min": 3.05,
+    "defense_frappe_pct": 51.0,
+    "takedowns_par_15min": 1.97,
+    "precision_takedown_pct": 12,
+    "defense_takedown_pct": 56.0,
+    "soumissions_par_15min": 1.22,
+    "knockdowns_par_15min": 0.05,
+    "duree_moyenne_combat_s": 769,
+    "frappes_reussies": 738.0,
+    "takedowns_reussis": 14.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 18,
+      "defaites": 10,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 4,
+        "soumission": 8,
+        "decision": 6,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 3,
+        "decision": 5,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2013": 2,
+      "2014": 2,
+      "2015": 2,
+      "2016": 3,
+      "2021": 2,
+      "2022": 1,
+      "2023": 1,
+      "2025": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Yana Santos",
+      "evenement": "UFC on ESPN: Sandhagen vs. Figueiredo",
+      "date": "May 3, 2025",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 14,
+    "victoires_ufc": 7,
+    "defaites_ufc": 7,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 2,
+    "bonus_fotn": 2,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Ronda Rousey",
+        "evenement": "UFC 168",
+        "date": "December 28, 2013"
+      },
+      {
+        "adversaire": "Cat Zingano",
+        "evenement": "The Ultimate Fighter: Team Jones vs. Team Sonnen Finale",
+        "date": "April 13, 2013"
+      }
+    ],
+    "titres": [
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Women's Bantamweight Championship",
+        "evenement": "UFC 196",
+        "date": "March 5, 2016"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 3
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Cat Zingano",
+      "evenement": "The Ultimate Fighter: Team Jones vs. Team Sonnen Finale",
+      "date": "April 13, 2013",
+      "resultat": "Loss",
+      "methode": "TKO (knees and elbow)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "International Sports Hall of Fame Class of 2024",
+    "Class of 2024",
+    "UFC Women's Bantamweight Championship (One time)",
+    "Fight of the Night (Two times) vs. Cat Zingano and Ronda Rousey",
+    "Performance of the Night (Three times) vs. Holly Holm , Marion Reneau and Julia Avila    Second most Post-Fight bonuses in UFC Women's Bantamweight division history (5)",
+    "Second most Post-Fight bonuses in UFC Women's Bantamweight division history (5)",
+    "Most submission attempts in UFC Women's Bantamweight division history (12)",
+    "Tied ( Raquel Pennington ) for the fourth longest win streak in UFC Women's Bantamweight division history (5)",
+    "Third most control time in UFC Women's Bantamweight division history (1:01:50)",
+    "Third most top position time in UFC Women's Bantamweight division history (48:00)",
+    "Tied ( Ketlen Vieira ) for fourth most takedowns landed in UFC Women's Bantamweight division history (18)",
+    "UFC.com Awards 2013: Ranked #9 Fight of the Year vs. Ronda Rousey  2016: Ranked #2 Submission of the Year  & Ranked #3 Upset of the Year vs. Holly Holm",
+    "2013: Ranked #9 Fight of the Year vs. Ronda Rousey",
+    "2016: Ranked #2 Submission of the Year  & Ranked #3 Upset of the Year vs. Holly Holm",
+    "Strikeforce Strikeforce Women's Bantamweight Championship  Strikeforce 2010 Women's Bantamweight Tournament Winner",
+    "Strikeforce Women's Bantamweight Championship",
+    "Strikeforce 2010 Women's Bantamweight Tournament Winner",
+    "Freestyle Cage Fighting FCF Women's Bantamweight Championship",
+    "FCF Women's Bantamweight Championship",
+    "World MMA Awards 2011 Female Fighter of the Year  2016 Comeback of the Year vs. Holly Holm at UFC 196",
+    "2011 Female Fighter of the Year",
+    "2016 Comeback of the Year vs. Holly Holm at UFC 196",
+    "ESPN 2016 Submission of the Year vs. Holly Holm at UFC 196",
+    "2016 Submission of the Year vs. Holly Holm at UFC 196",
+    "Bloody Elbow 2013 WMMA Fight of the Year vs. Ronda Rousey on December 28",
+    "2013 WMMA Fight of the Year vs. Ronda Rousey on December 28",
+    "MMADNA.nl 2016 Comeback of the Year vs. Holly Holm",
+    "2016 Comeback of the Year vs. Holly Holm",
+    "Bleacher Report 2016 Submission of the Year vs. Holly Holm at UFC 196",
+    "2016 Submission of the Year vs. Holly Holm at UFC 196",
+    "MMA Sucka 2016 March Submission of the Month vs. Holly Holm at UFC 196",
+    "2016 March Submission of the Month vs. Holly Holm at UFC 196",
+    "CBS Sports 2016 #3 Ranked UFC Fight of the Year vs. Holly Holm",
+    "2016 #3 Ranked UFC Fight of the Year vs. Holly Holm",
+    "2009 World Team Trials Silver Medalist",
+    "2008 FILA Grappling World Championships Senior Women' No-Gi Silver Medalist",
+    "2008 World Team Trials National Grappling Champion"
+  ],
+  "image_commons": "MIESHA TATE BREAKS DOWN CONOR MCGREGOR VS KHABIB NURMAGOMEDOV UFC 229 - YouTube - 0-46 (cropped).jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Miesha_Tate",
+    "wikidata": "https://www.wikidata.org/wiki/Q1138101",
+    "ufc_com": "https://www.ufc.com/athlete/miesha-tate"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_infobox",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 18-10, wikipedia_infobox 20-10, ufc_com 20-10"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 50,
+    "puissance": 42,
+    "lutte": 51,
+    "soumission": 72,
+    "defense": 65,
+    "cardio": 63,
+    "menton": 78,
+    "globale": 60,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

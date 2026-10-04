@@ -1,0 +1,162 @@
+{
+  "id": "tatiana-suarez",
+  "nom": "Tatiana Suarez",
+  "ufc_slug": "tatiana-suarez",
+  "wikipedia_titre": "Tatiana Suarez",
+  "surnom": null,
+  "sexe": "F",
+  "pays": "US",
+  "categorie": "paille_f",
+  "statut": "actif",
+  "date_naissance": "1990-12-19",
+  "taille_cm": 165,
+  "allonge_cm": 168,
+  "style": "AMM",
+  "lieu_naissance": "Bellflower, États-Unis",
+  "palmares": {
+    "victoires": 12,
+    "defaites": 1,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 2,
+    "victoires_soumission": 6,
+    "victoires_decision": 4,
+    "defaites_ko": 0,
+    "defaites_soumission": 0,
+    "defaites_decision": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": 2.86,
+    "precision_frappe_pct": 60,
+    "frappes_encaissees_par_min": 1.63,
+    "defense_frappe_pct": 44.0,
+    "takedowns_par_15min": 4.52,
+    "precision_takedown_pct": 24,
+    "defense_takedown_pct": 57.0,
+    "soumissions_par_15min": 0.66,
+    "knockdowns_par_15min": 0.0,
+    "duree_moyenne_combat_s": 677,
+    "frappes_reussies": 323.0,
+    "takedowns_reussis": 18.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 12,
+      "defaites": 1,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 2,
+        "soumission": 6,
+        "decision": 4,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 0,
+        "decision": 1,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2016": 1,
+      "2017": 1,
+      "2018": 2,
+      "2019": 1,
+      "2023": 2,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Loopy Godinez",
+      "evenement": "UFC 327",
+      "date": "April 11, 2026",
+      "resultat": "Win",
+      "methode": "Submission (rear-naked choke)"
+    },
+    "combats_ufc": 10,
+    "victoires_ufc": 9,
+    "defaites_ufc": 1,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "rear-naked choke",
+      "finitions": 2
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Amanda Cooper",
+      "evenement": "The Ultimate Fighter: Team Joanna vs. Team Cláudia Finale",
+      "date": "July 8, 2016",
+      "resultat": "Win",
+      "methode": "Submission (brabo choke)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    "World Wrestling Championships 2008 bronze medalist, 55 kg  2010 bronze medalist, 55 kg",
+    "2008 bronze medalist, 55 kg",
+    "2010 bronze medalist, 55 kg",
+    "World Junior Wrestling Championships 2007 silver medalist, 59 kg  2008 bronze medalist, 59 kg",
+    "2007 silver medalist, 59 kg",
+    "2008 bronze medalist, 59 kg",
+    "World Cup - 2010 silver medalist, 55 kg",
+    "Pan American Wrestling Championships - 2008 gold medalist, 59 kg",
+    "The Ultimate Fighter: Team Joanna vs. Team Cláudia Strawweight winner",
+    "Performance of the Night (Three times) vs. Amanda Cooper , Montana De La Rosa , and Jéssica Andrade",
+    "Tied ( Amanda Lemos , Mackenzie Dern & Rose Namajunas ) for second most finishes in UFC Women's Strawweight division history (5)",
+    "Second most submissions in UFC Women's Strawweight division history (4) (behind Mackenzie Dern )",
+    "Tied ( Carla Esparza , Yan Xiaonan & Loopy Godinez ) for the second longest win streak in UFC Women's Strawweight division history (6)",
+    "Highest significant strike accuracy percentage in UFC Women's Strawweight division history (59.7%)",
+    "Fewest strikes absorbed-per-minute in UFC Women's Strawweight division history (1.7)",
+    "Highest control time percentage in UFC Women's Strawweight division history (58.6%)  Fourth most control time in UFC Women's Strawweight division history (1:01:28)",
+    "Fourth most control time in UFC Women's Strawweight division history (1:01:28)",
+    "Second highest top position percentage in UFC Women's Strawweight division history (43.1%)  Fourth most top position time in UFC Women's Strawweight division history (45:12)",
+    "Fourth most top position time in UFC Women's Strawweight division history (45:12)",
+    "Fifth most takedowns landed in UFC Women's Strawweight division history (32)",
+    "Gladiator Challenge Gladiator Challenge Flyweight Champion (one time)",
+    "Gladiator Challenge Flyweight Champion (one time)",
+    "MMA Fighting 2023 First Team MMA All-Star",
+    "2023 First Team MMA All-Star",
+    "GiveMeSport 2023 UFC Comeback Fighter of the Year",
+    "2023 UFC Comeback Fighter of the Year"
+  ],
+  "image_commons": "Tatiana Suarez at UFC 228.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Tatiana_Suarez",
+    "wikidata": "https://www.wikidata.org/wiki/Q7688105",
+    "ufc_com": "https://www.ufc.com/athlete/tatiana-suarez"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 12-1, wikipedia_infobox 12-1, ufc_com 13-1"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 67,
+    "puissance": 42,
+    "lutte": 64,
+    "soumission": 69,
+    "defense": 67,
+    "cardio": 59,
+    "menton": 99,
+    "globale": 67,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

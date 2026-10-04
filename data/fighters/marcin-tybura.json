@@ -1,0 +1,139 @@
+{
+  "id": "marcin-tybura",
+  "nom": "Marcin Tybura",
+  "ufc_slug": "marcin-tybura",
+  "wikipedia_titre": "Marcin Tybura",
+  "surnom": "Tybur",
+  "sexe": "M",
+  "pays": "PL",
+  "categorie": "lourds",
+  "statut": "actif",
+  "date_naissance": "1985-11-09",
+  "taille_cm": 190,
+  "allonge_cm": 198,
+  "style": "AMM",
+  "lieu_naissance": "Uniejow, Pologne",
+  "palmares": {
+    "victoires_ko": 10,
+    "victoires_soumission": 7,
+    "victoires_decision": 10,
+    "defaites_ko": 6,
+    "defaites_soumission": 1,
+    "defaites_decision": 5,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires": 27,
+    "defaites": 12
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.49,
+    "precision_frappe_pct": 47,
+    "frappes_encaissees_par_min": 3.34,
+    "defense_frappe_pct": 55.0,
+    "takedowns_par_15min": 1.23,
+    "precision_takedown_pct": 15,
+    "defense_takedown_pct": 71.0,
+    "soumissions_par_15min": 0.11,
+    "knockdowns_par_15min": 0.05,
+    "duree_moyenne_combat_s": 671,
+    "frappes_reussies": 975.0,
+    "takedowns_reussis": 11.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 26,
+      "defaites": 12,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 10,
+        "soumission": 6,
+        "decision": 10,
+        "autre": 0
+      },
+      "d": {
+        "ko": 6,
+        "soumission": 1,
+        "decision": 5,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2016": 2,
+      "2017": 3,
+      "2018": 2,
+      "2019": 2,
+      "2020": 4,
+      "2021": 2,
+      "2022": 1,
+      "2023": 2,
+      "2024": 3,
+      "2025": 2,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Aleksandar Rakić",
+      "evenement": "UFC Fight Night: Medić vs. Rodriguez",
+      "date": "August 1, 2026",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 25,
+    "victoires_ufc": 14,
+    "defaites_ufc": 11,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 4,
+    "bonus_kotn": 0,
+    "bonus_sotn": 1,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 8
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Timothy Johnson",
+      "evenement": "UFC Fight Night: Rothwell vs. dos Santos",
+      "date": "April 10, 2016",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Marcin_Tybura",
+    "wikidata": "https://www.wikidata.org/wiki/Q16574553",
+    "ufc_com": "https://www.ufc.com/athlete/marcin-tybura"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_infobox",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 26-12, wikipedia_infobox 27-12, ufc_com 27-12"
+  },
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 57,
+    "puissance": 51,
+    "lutte": 52,
+    "soumission": 49,
+    "defense": 67,
+    "cardio": 58,
+    "menton": 43,
+    "globale": 54,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "id": "shayilan-nuerdanbieke",
+  "nom": "Shayilan Nuerdanbieke",
+  "ufc_slug": "shayilan-nuerdanbieke",
+  "wikipedia_titre": "Shayilan Nuerdanbieke",
+  "surnom": "Wolverine",
+  "sexe": "M",
+  "pays": "CN",
+  "categorie": "plume",
+  "statut": "inactif",
+  "date_naissance": "1994-05-04",
+  "taille_cm": 173,
+  "allonge_cm": 175,
+  "style": "Wrestler",
+  "lieu_naissance": "Yili, China",
+  "palmares": {
+    "victoires": 39,
+    "defaites": 12,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 19,
+    "victoires_soumission": 10,
+    "victoires_decision": 10,
+    "defaites_ko": 3,
+    "defaites_soumission": 7,
+    "defaites_decision": 2
+  },
+  "stats_ufc": {
+    "frappes_par_min": 1.95,
+    "precision_frappe_pct": 46,
+    "frappes_encaissees_par_min": 2.64,
+    "defense_frappe_pct": 50.0,
+    "takedowns_par_15min": 3.3,
+    "precision_takedown_pct": 15,
+    "defense_takedown_pct": 29.0,
+    "soumissions_par_15min": 0.24,
+    "knockdowns_par_15min": 0.71,
+    "duree_moyenne_combat_s": 636,
+    "frappes_reussies": 124.0,
+    "takedowns_reussis": 6.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 39,
+      "defaites": 12,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 19,
+        "soumission": 10,
+        "decision": 10,
+        "autre": 0
+      },
+      "d": {
+        "ko": 3,
+        "soumission": 7,
+        "decision": 2,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2021": 2,
+      "2022": 2,
+      "2023": 1,
+      "2024": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Melquizael Costa",
+      "evenement": "UFC on ESPN: Perez vs. Taira",
+      "date": "15 June 2024",
+      "resultat": "Loss",
+      "methode": "Submission (face crank)"
+    },
+    "combats_ufc": 6,
+    "victoires_ufc": 3,
+    "defaites_ufc": 3,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 15
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Joshua Culibao",
+      "evenement": "UFC Fight Night: Font vs. Garbrandt",
+      "date": "22 May 2021",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [],
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Shayilan_Nuerdanbieke",
+    "wikidata": "https://www.wikidata.org/wiki/Q112729498",
+    "ufc_com": "https://www.ufc.com/athlete/shayilan-nuerdanbieke"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 52,
+    "puissance": 67,
+    "lutte": 54,
+    "soumission": 54,
+    "defense": 66,
+    "cardio": 58,
+    "menton": 74,
+    "globale": 61,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

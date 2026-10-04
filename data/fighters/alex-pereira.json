@@ -1,0 +1,216 @@
+{
+  "id": "alex-pereira",
+  "nom": "Alex Pereira",
+  "ufc_slug": "alex-pereira",
+  "wikipedia_titre": "Alex Pereira",
+  "surnom": "Poatan",
+  "sexe": "M",
+  "pays": "BR",
+  "categorie": "lourds",
+  "statut": "actif",
+  "date_naissance": "1987-07-07",
+  "taille_cm": 193,
+  "allonge_cm": 201,
+  "style": "Kickboxing",
+  "lieu_naissance": "São Bernardo do Campo, Brésil",
+  "palmares": {
+    "victoires": 13,
+    "defaites": 4,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 11,
+    "victoires_soumission": 0,
+    "victoires_decision": 2,
+    "defaites_ko": 2,
+    "defaites_soumission": 1,
+    "defaites_decision": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": 5.01,
+    "precision_frappe_pct": 61,
+    "frappes_encaissees_par_min": 3.72,
+    "defense_frappe_pct": 53.0,
+    "takedowns_par_15min": 0.11,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 80.0,
+    "soumissions_par_15min": 0.22,
+    "knockdowns_par_15min": 0.75,
+    "duree_moyenne_combat_s": 642,
+    "frappes_reussies": 697.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 13,
+      "defaites": 4,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 11,
+        "soumission": 0,
+        "decision": 2,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 1,
+        "decision": 1,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2021": 1,
+      "2022": 3,
+      "2023": 3,
+      "2024": 3,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Ciryl Gane",
+      "evenement": "UFC Freedom 250",
+      "date": "14 June 2026",
+      "resultat": "Loss",
+      "methode": "TKO (punches)"
+    },
+    "combats_ufc": 13,
+    "victoires_ufc": 10,
+    "defaites_ufc": 3,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 2,
+    "bonus_fotn": 1,
+    "bonus_potn": 6,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Khalil Rountree Jr.",
+        "evenement": "UFC 307",
+        "date": "5 October 2024"
+      }
+    ],
+    "titres": [
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 320",
+        "date": "4 October 2025"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 307",
+        "date": "5 October 2024"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 303",
+        "date": "29 June 2024"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 300",
+        "date": "13 April 2024"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Middleweight Championship",
+        "evenement": "UFC 281",
+        "date": "12 November 2022"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 8
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Andreas Michailidis",
+      "evenement": "UFC 268",
+      "date": "6 November 2021",
+      "resultat": "Win",
+      "methode": "TKO (flying knee and punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    "Three successful title defenses (first reign)",
+    "Shortest time and fewest bouts to win championships in two divisions in UFC history (736 days/7 bouts)",
+    "Shortest time for three consecutive title defenses in UFC history (175 days)",
+    "Tied ( Chuck Liddell ) for second most UFC Light Heavyweight title fight wins (5) (behind Jon Jones )",
+    "Tied ( Chuck Liddell ) for most knockouts in UFC Light Heavyweight title fights (5)",
+    "First and only fighter to win the UFC Middleweight and Light Heavyweight championships",
+    "Fewest MMA bouts to become a two-division UFC champion (11 bouts)",
+    "Second most knockouts in UFC title fights (6) (behind Anderson Silva )",
+    "Second fewest MMA bouts to become a UFC champion (8) (behind Brock Lesnar )",
+    "Performance of the Night (Six times) vs. Andreas Michailidis , Sean Strickland , Israel Adesanya 1, Jiří Procházka (x2) and Magomed Ankalaev",
+    "Fight of the Night (One time) vs. Khalil Rountree Jr.",
+    "Second highest significant strike percentage in UFC history (61.36%) (Over 1000 attempted significant strikes)  Highest significant strike percentage in UFC Light Heavyweight division history (64.3%)",
+    "Highest significant strike percentage in UFC Light Heavyweight division history (64.3%)",
+    "Latest knockout in a UFC Middleweight title fight (2:01 of R5 vs Israel Adesanya 1)",
+    "Holds wins over six former UFC champions — Israel Adesanya , Sean Strickland , Jan Błachowicz , Jiří Procházka (x2), Jamahal Hill and Magomed Ankalaev .",
+    "2026 Forrest Griffin Community Award",
+    "2021: Fan's Choice Debut of the Year Nominee vs. Andreas Michailidis",
+    "2022: Fan's Choice Comeback of the Year Nominee vs. Israel Adesanya 1",
+    "2022: Ranked #2 Fighter of the Year ,  Ranked #4 Upset of the Year vs. Israel Adesanya 1  & Ranked #6 Knockout of the Year vs. Sean Strickland",
+    "2023: Ranked #9 Fighter of the Year",
+    "MMA Junkie 2022 July Knockout of the Month vs. Sean Strickland  2022 Male Fighter of the Year  2022 Breakout Fighter of the Year",
+    "2022 July Knockout of the Month vs. Sean Strickland",
+    "2022 Male Fighter of the Year",
+    "2022 Breakout Fighter of the Year",
+    "ESPN 2022 Male Fighter of the Year  2024 Male Fighter of the Year  2024 Best Moment",
+    "2022 Male Fighter of the Year",
+    "2024 Male Fighter of the Year",
+    "2024 Best Moment",
+    "Sherdog 2022 Breakthrough Fighter of the Year  2022 Fighter of the Year",
+    "2022 Breakthrough Fighter of the Year",
+    "2022 Fighter of the Year",
+    "MMA Fighting 2022 Male Fighter of the Year  2022 First Team MMA All-Star  2024 First Team MMA All-Star",
+    "2022 Male Fighter of the Year",
+    "2022 First Team MMA All-Star",
+    "2024 First Team MMA All-Star",
+    "Sports Illustrated 2022 Breakout Fighter of the Year",
+    "2022 Breakout Fighter of the Year",
+    "Yahoo! Sports 2022 Male Fighter of the Year",
+    "2022 Male Fighter of the Year",
+    "MMA Mania 2022 Fighter of the Year  2024 #2 Ranked Fighter of the Year  2024 #5 Ranked Fight of the Year vs. Khalil Rountree Jr. at UFC 307"
+  ],
+  "image_commons": "Alex Pereira in the Oval Office (while President Donald J. Trump is holding a meeting with UFC fighters).jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Alex_Pereira",
+    "wikidata": "https://www.wikidata.org/wiki/Q15987809",
+    "ufc_com": "https://www.ufc.com/athlete/alex-pereira"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-04",
+  "stats_jeu": {
+    "frappe": 79,
+    "puissance": 86,
+    "lutte": 51,
+    "soumission": 40,
+    "defense": 63,
+    "cardio": 57,
+    "menton": 71,
+    "globale": 64,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}
