@@ -3,7 +3,13 @@
 Chaque version publiée a sa release GitHub avec les APK Android (`scripts/release_android.sh`).
 Le texte d'une section sert de notes à la release correspondante.
 
-## 0.3.1
+## 0.3.2
+
+Écran d'entrée et navigation
+- L'octogone multicolore est centré dans le grand octogone et tourne avec lui.
+- Les cartes flottantes ne « sautent » plus quand l'animation repart : mouvements raccordés sans à-coup (fumée, poussière et motif du fond aussi).
+- Barre de navigation en icônes seules.
+
 
 Direction artistique
 - Nouvel écran d'entrée à chaque lancement : l'octogone noir (motif de l'Octogone Noir) se trace puis tourne lentement, « OCTOGONE » apparaît lettre par lettre avec un reflet métallique, six cartes de prestige flottent autour (Ceinture d'Or, SuperFractor, Octogone Noir…) et s'inclinent avec le téléphone (ou la souris). Tout l'écran sert à entrer.

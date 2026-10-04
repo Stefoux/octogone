@@ -27,7 +27,7 @@ class OctagonEmblem extends StatelessWidget {
             ),
             RepaintBoundary(
               child: HoloLayer(
-                spec: const EffectSpec(mode: 9, blend: BlendMode.screen, animated: true, intensity: 0.8),
+                spec: const EffectSpec(mode: 14, blend: BlendMode.screen, animated: true, intensity: 0.8),
                 tilt: Offset.zero,
                 animate: animate && !(MediaQuery.maybeDisableAnimationsOf(context) ?? false),
               ),

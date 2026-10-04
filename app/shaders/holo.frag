@@ -16,6 +16,7 @@
 //  11 chrome      reflet discret de carte chrome de base
 //  12 tatami      tissage de tatami + étreinte qui se resserre (animé)
 //  13 arene       projecteurs d'arène dans le noir
+//  14 emblème     octogone holographique centré (écran d'entrée, emblème)
 #include <flutter/runtime_effect.glsl>
 
 precision mediump float;
@@ -140,6 +141,17 @@ void main() {
     float vign = smoothstep(0.32 - 0.06 * squeeze, 0.62, length(c));
     col = mix(vec3(0.72, 0.66, 0.42), vec3(0.08, 0.05, 0.02), vign);
     a = 0.1 + 0.12 * weave + 0.6 * vign;
+  } else if (uMode > 13.5) {
+    // Comme le mode 9 mais centré : les anneaux restent concentriques au
+    // grand octogone qui les contient.
+    vec2 p = (uv - vec2(0.5)) * vec2(1.0, aspect);
+    vec2 q = abs(p);
+    float oct = max(max(q.x, q.y), (q.x + q.y) * 0.7071);
+    float edge = 1.0 - smoothstep(0.0, 0.018, abs(oct - 0.33));
+    float inner = 1.0 - smoothstep(0.0, 0.011, abs(oct - 0.29));
+    float sparkle = step(0.985, hash(floor(uv * vec2(120.0, 120.0 * aspect)))) * (0.5 + 0.5 * sin(uTime * 3.0 + uv.x * 50.0));
+    col = hsv(fract(atan(p.y, p.x) / 6.2831 + t.x * 0.5 + t.y * 0.3 + uTime * 0.05), 0.7, 1.0);
+    a = 0.85 * max(edge, inner * 0.6) + 0.5 * sparkle;
   } else {
     vec2 p = uv - vec2(0.5, -0.1);
     float cone1 = 1.0 - smoothstep(0.0, 0.18, abs(p.x + 0.2 - p.y * 0.25));

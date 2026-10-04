@@ -49,6 +49,22 @@ const _landscapeSlots = [
   (Offset(1.58, 0.95), -0.14, 0.47),
 ];
 
+/// Flottement d'une carte à l'instant [t] (0..1) de la boucle : somme de
+/// sinusoïdes de fréquences entières (2, 3, 5 tours par boucle), propre à
+/// chaque carte via [phase]. t = 0 et t = 1 donnent la même position : la
+/// boucle repart sans que les cartes sautent.
+Offset cardFloat(double t, double phase) {
+  double wave(int f, double ph) => 2 * math.pi * (f * t + ph);
+  return Offset(
+    math.cos(wave(2, phase)) * 3 + math.sin(wave(3, phase * 1.7)) * 1.5,
+    math.sin(wave(2, phase)) * 7 + math.sin(wave(5, phase * 2.3)) * 2,
+  );
+}
+
+/// Léger balancement (radians), raccordé de la même façon.
+double cardWobble(double t, double phase) =>
+    math.sin(2 * math.pi * (t + phase)) * 0.022 + math.sin(2 * math.pi * (3 * t + phase * 1.3)) * 0.008;
+
 /// Écran d'ouverture affiché à chaque lancement, avant l'accueil. Tout l'écran
 /// est le bouton d'entrée.
 class EntryScreen extends ConsumerStatefulWidget {
@@ -67,7 +83,10 @@ class _EntryScreenState extends ConsumerState<EntryScreen> with TickerProviderSt
     vsync: this,
     duration: const Duration(milliseconds: 2800),
   );
-  late final AnimationController _loop = AnimationController(vsync: this, duration: const Duration(seconds: 9));
+  // Boucle lente commune. Tous les mouvements qui en dérivent utilisent des
+  // fréquences entières : la fin d'un tour raccorde exactement le début
+  // (aucun saut quand la boucle repart).
+  late final AnimationController _loop = AnimationController(vsync: this, duration: const Duration(seconds: 24));
   late final AnimationController _spin = AnimationController(vsync: this, duration: const Duration(seconds: 90));
   late final AnimationController _exit = AnimationController(vsync: this, duration: const Duration(milliseconds: 750));
   bool _reduce = false;
@@ -162,7 +181,7 @@ class _EntryScreenState extends ConsumerState<EntryScreen> with TickerProviderSt
                     ];
                     final holo = RepaintBoundary(
                       child: HoloLayer(
-                        spec: const EffectSpec(mode: 9, blend: BlendMode.screen, animated: true, intensity: 0.85),
+                        spec: const EffectSpec(mode: 14, blend: BlendMode.screen, animated: true, intensity: 0.85),
                         tilt: tilt,
                         animate: !_reduce,
                       ),
@@ -234,8 +253,8 @@ class _EntryScreenState extends ConsumerState<EntryScreen> with TickerProviderSt
     final (pos, rot, phase) = slot;
     final appear = _iv(0.42 + i * 0.05, 0.70 + i * 0.05, Curves.easeOutBack);
     final opacity = (_iv(0.42 + i * 0.05, 0.62 + i * 0.05) * (1 - e)).clamp(0.0, 1.0);
-    final v = (_loop.value + phase) * 2 * math.pi;
-    final float = _reduce ? Offset.zero : Offset(math.cos(v) * 3, math.sin(v) * 7);
+    final float = _reduce ? Offset.zero : cardFloat(_loop.value, phase);
+    final wobble = _reduce ? 0.0 : cardWobble(_loop.value, phase);
     // Glisse depuis le centre à l'apparition, s'écarte à la sortie
     final spread = (0.55 + 0.45 * appear) * (1 + e * 1.6);
     final c = center + pos * r * spread + float + tilt * 10 * (1 + i % 2 * 0.6);
@@ -245,7 +264,7 @@ class _EntryScreenState extends ConsumerState<EntryScreen> with TickerProviderSt
       ..setEntry(3, 2, 0.0012)
       ..rotateX(-tilt.dy * max)
       ..rotateY(tilt.dx * max)
-      ..rotateZ(rot + (_reduce ? 0 : math.sin(v * 0.5) * 0.025))
+      ..rotateZ(rot + wobble)
       ..scaleByDouble(0.85 + 0.15 * appear, 0.85 + 0.15 * appear, 1, 1);
     return Positioned(
       left: c.dx - w / 2,
@@ -296,7 +315,7 @@ class _EntryScreenState extends ConsumerState<EntryScreen> with TickerProviderSt
                 children: [
                   // Halo doré
                   Opacity(
-                    opacity: fill * (0.7 + 0.3 * math.sin(_loop.value * 2 * math.pi * 2)),
+                    opacity: fill * (0.7 + 0.3 * math.sin(_loop.value * 2 * math.pi * 6)),
                     child: Transform.scale(
                       scale: 1.45,
                       child: DecoratedBox(
@@ -348,7 +367,8 @@ class _EntryScreenState extends ConsumerState<EntryScreen> with TickerProviderSt
 
   Widget _title(Offset center, double r, double e) {
     final letters = _iv(0.42, 0.80, Curves.linear);
-    final sheen = _reduce ? -1.0 : ((_loop.value * 2) % 1.0) * 1.8 - 0.4;
+    // Reflet : 5 passages par boucle, hors champ au moment où il repart
+    final sheen = _reduce ? -1.0 : ((_loop.value * 5) % 1.0) * 1.8 - 0.4;
     final size = r * 0.36;
     return Positioned(
       left: 0,
@@ -392,7 +412,7 @@ class _EntryScreenState extends ConsumerState<EntryScreen> with TickerProviderSt
 
   Widget _cta(AppLocalizations l, BoxConstraints c, double e) {
     final appear = _iv(0.82, 1.0);
-    final pulse = _reduce ? 1.0 : 0.6 + 0.4 * (0.5 + 0.5 * math.sin(_loop.value * 2 * math.pi * 3));
+    final pulse = _reduce ? 1.0 : 0.6 + 0.4 * (0.5 + 0.5 * math.sin(_loop.value * 2 * math.pi * 8));
     return Positioned(
       left: 24,
       right: 24,
@@ -470,7 +490,7 @@ class _MetalTitle extends StatelessWidget {
   /// 0..1 : avancée de l'apparition lettre par lettre.
   final double progress;
 
-  /// Position du reflet (-0.4..1.4, hors champ en dehors de 0..1).
+  /// Position du reflet (-0.4..1.4 ; hors champ en dehors de -0.15..1.15).
   final double sheen;
 
   @override
@@ -507,19 +527,38 @@ class _MetalTitle extends StatelessWidget {
           ),
       ],
     );
-    return ShaderMask(
+    // Métal : dégradé doré fixe, puis bande de lumière par-dessus. Quand la
+    // bande est hors champ, la couche disparaît : aucun saut de couleur.
+    final metal = ShaderMask(
       blendMode: BlendMode.srcIn,
-      shaderCallback: (rect) {
-        final p = sheen;
-        List<double> clampStops(List<double> s) => [for (final x in s) x.clamp(0.0, 1.0)];
-        return LinearGradient(
-          begin: const Alignment(-1, -0.4),
-          end: const Alignment(1, 0.4),
-          colors: const [AppColors.goldDeep, AppColors.gold, Color(0xFFFFF4D6), AppColors.gold, Color(0xFFB7862F)],
-          stops: clampStops([0, p - 0.12, p, p + 0.12, 1]),
-        ).createShader(rect);
-      },
+      shaderCallback: (rect) => const LinearGradient(
+        begin: Alignment(-1, -0.4),
+        end: Alignment(1, 0.4),
+        colors: [AppColors.goldDeep, AppColors.gold, Color(0xFFF3D38A), AppColors.gold, Color(0xFFB7862F)],
+        stops: [0, 0.3, 0.5, 0.7, 1],
+      ).createShader(rect),
       child: letters,
+    );
+    final p = sheen;
+    if (p < -0.15 || p > 1.15) return metal;
+    return Stack(
+      children: [
+        metal,
+        ShaderMask(
+          blendMode: BlendMode.srcIn,
+          shaderCallback: (rect) => LinearGradient(
+            begin: const Alignment(-1, -0.4),
+            end: const Alignment(1, 0.4),
+            colors: [
+              Colors.white.withValues(alpha: 0),
+              const Color(0xFFFFF6DC).withValues(alpha: 0.9),
+              Colors.white.withValues(alpha: 0),
+            ],
+            stops: [(p - 0.12).clamp(0.0, 1.0), p.clamp(0.0, 1.0), (p + 0.12).clamp(0.0, 1.0)],
+          ).createShader(rect),
+          child: letters,
+        ),
+      ],
     );
   }
 }

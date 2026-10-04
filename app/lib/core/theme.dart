@@ -180,8 +180,9 @@ ThemeData buildTheme() {
       surfaceTintColor: Colors.transparent,
       indicatorColor: AppColors.gold.withValues(alpha: 0.16),
       indicatorShape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-      height: 68,
-      labelBehavior: NavigationDestinationLabelBehavior.alwaysShow,
+      // Icônes seules (le nom reste lu par l'accessibilité et en info-bulle)
+      height: 62,
+      labelBehavior: NavigationDestinationLabelBehavior.alwaysHide,
       iconTheme: WidgetStateProperty.resolveWith(
         (s) => IconThemeData(color: s.contains(WidgetState.selected) ? AppColors.gold : AppColors.textMuted, size: 24),
       ),

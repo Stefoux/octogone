@@ -27,7 +27,8 @@ class ArenaBackground extends StatefulWidget {
 }
 
 class _ArenaBackgroundState extends State<ArenaBackground> with SingleTickerProviderStateMixin {
-  // Une boucle lente commune : toutes les positions en dérivent (sinus).
+  // Une boucle lente commune : toutes les positions en dérivent, avec des
+  // fréquences entières pour raccorder sans saut d'un tour à l'autre.
   late final AnimationController _t = AnimationController(vsync: this, duration: const Duration(seconds: 40));
   bool _reduce = false;
 
@@ -62,7 +63,7 @@ class _ArenaBackgroundState extends State<ArenaBackground> with SingleTickerProv
           // Motif d'octogone qui glisse très lentement
           _Drift(
             t: _t,
-            builder: (v) => Matrix4.translationValues(math.sin(v * 2 * math.pi) * 14, v * 60 - 30, 0),
+            builder: (v) => Matrix4.translationValues(math.sin(v * 2 * math.pi) * 14, math.cos(v * 2 * math.pi) * 22, 0),
             child: Opacity(
               opacity: 0.35 + 0.35 * k,
               child: const RepaintBoundary(child: _OctagonPattern()),
@@ -75,8 +76,8 @@ class _ArenaBackgroundState extends State<ArenaBackground> with SingleTickerProv
               builder: (v) {
                 final a = (v * s.speed + s.phase) * 2 * math.pi;
                 return Matrix4.identity()
-                  ..translateByDouble(math.sin(a) * s.dx, math.cos(a * 0.7) * s.dy, 0, 1)
-                  ..scaleByDouble(1 + 0.08 * math.sin(a * 1.3), 1 + 0.08 * math.sin(a * 1.3), 1, 1);
+                  ..translateByDouble(math.sin(a) * s.dx, math.cos(a * 2) * s.dy, 0, 1)
+                  ..scaleByDouble(1 + 0.08 * math.sin(a + 1.3), 1 + 0.08 * math.sin(a + 1.3), 1, 1);
               },
               child: Align(
                 alignment: s.align,
@@ -293,7 +294,8 @@ class _DustPainter extends CustomPainter {
       final (x0, y0, radius, phase, speed) = _seeds[i];
       final v = (t.value * speed + phase) % 1.0;
       final x = (x0 + math.sin((v + phase) * 2 * math.pi) * 0.03) * size.width;
-      final y = (y0 - v * 0.35) % 1.0 * size.height;
+      // Vitesse entière : la poussière remonte sans saut quand la boucle repart
+      final y = (y0 - t.value * speed) % 1.0 * size.height;
       final twinkle = 0.5 + 0.5 * math.sin((v * 6 + phase) * 2 * math.pi);
       paint.color = Color.lerp(color, Colors.white, 0.5)!.withValues(alpha: 0.1 + 0.35 * twinkle * strength);
       canvas.drawCircle(Offset(x, y), radius, paint);

@@ -515,4 +515,20 @@ void main() {
     }
     await tester.pumpWidget(const SizedBox());
   });
+
+  test('Écran d’entrée : le flottement des cartes raccorde sans saut quand la boucle repart', () {
+    for (final phase in [0.0, 0.18, 0.35, 0.47, 0.62, 0.81]) {
+      expect((cardFloat(0, phase) - cardFloat(1, phase)).distance, lessThan(1e-9));
+      expect((cardWobble(0, phase) - cardWobble(1, phase)).abs(), lessThan(1e-9));
+      // Mouvement continu : pas de grand écart entre deux images (60 i/s, boucle de 24 s)
+      for (var k = 0; k < 1440; k++) {
+        final a = k / 1440, b = (k + 1) / 1440;
+        expect((cardFloat(a, phase) - cardFloat(b, phase)).distance, lessThan(0.2));
+      }
+    }
+  });
+
+  test('Barre de navigation : icônes seules', () {
+    expect(buildTheme().navigationBarTheme.labelBehavior, NavigationDestinationLabelBehavior.alwaysHide);
+  });
 }

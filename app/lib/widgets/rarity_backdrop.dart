@@ -108,8 +108,14 @@ class _RarityBackdropState extends State<RarityBackdrop> with SingleTickerProvid
         if (rank >= 2)
           _Anim(
             t: _t,
-            builder: (v, child) =>
-                FractionalTranslation(translation: Offset(((v * 4) % 1.0) * 3 - 1.5, 0), child: child),
+            builder: (v, child) {
+            // Le reflet s'efface aux extrémités : pas de saut quand il repart
+            final p = (v * 4) % 1.0;
+            return Opacity(
+              opacity: math.sin(p * math.pi),
+              child: FractionalTranslation(translation: Offset(p * 4 - 2, 0), child: child),
+            );
+          },
             child: RepaintBoundary(child: _Sweep(color: c)),
           ),
         // Épique et plus : rayons qui tournent lentement
@@ -135,7 +141,7 @@ class _RarityBackdropState extends State<RarityBackdrop> with SingleTickerProvid
             builder: (v, child) {
               final p = (v * 6) % 1.0;
               return Opacity(
-                opacity: (1 - p) * (rank >= 5 ? 0.6 : 0.4),
+                opacity: math.sin(p * math.pi) * (1 - p * 0.5) * (rank >= 5 ? 0.75 : 0.5),
                 child: Transform.scale(scale: 0.7 + p * 0.7, child: child),
               );
             },
