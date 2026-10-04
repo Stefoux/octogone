@@ -123,7 +123,7 @@ def fighter_row(f: dict, img: str | None) -> dict:
         "stats_jeu": f.get("stats_jeu") or {}, "accomplissements": f.get("accomplissements_en") or [],
         "distinctions": f.get("distinctions") or {},
         "image_id": img, "sources": f.get("sources") or {}, "champs_sources": f.get("champs_sources") or {},
-        "a_verifier": f.get("a_verifier") or [],
+        "a_verifier": f.get("a_verifier") or [], "deleted": False,
     }
 
 
@@ -211,6 +211,7 @@ def main() -> None:
             "licence_url": c.get("licence_url"), "source_url": c.get("source_url"),
             "largeur": c.get("largeur"), "hauteur": c.get("hauteur"),
             "focal_x": c.get("focal_x"), "focal_y": c.get("focal_y"), "visage": c.get("visage"),
+            "deleted": False,  # réactive une image retirée lors d'un import précédent
         })
     api.upsert("images", img_rows)
     # Images qui ne sont plus d'actualité (combattant sans photo libre, photo remplacée) :
