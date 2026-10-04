@@ -1,0 +1,96 @@
+# Construit l'IPA iOS NON SIGNÉE et la dépose dans la release GitHub.
+#
+# L'IPA s'installe sur iPhone avec un Apple ID gratuit via Sideloadly ou
+# AltStore (qui la signent au moment de l'installation). Aucun compte
+# développeur payant n'est nécessaire.
+#
+# Déclenchement :
+#   - automatiquement à chaque tag vX.Y.Z (poussé par scripts/release_android.sh) ;
+#   - à la main (onglet Actions > Build iOS > Run workflow) en indiquant le tag
+#     de la release où déposer l'IPA.
+#
+# Secret requis : APP_CONFIG_JSON (contenu de app/config/app.json : adresse
+# Supabase et clé publique « publishable », la même que dans l'APK).
+name: Build iOS (IPA non signée)
+
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: "Tag de la release où déposer l'IPA (ex. v0.2.0)"
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ios-${{ github.event.inputs.release_tag || github.ref_name }}
+  cancel-in-progress: true
+
+jobs:
+  ios:
+    runs-on: macos-15
+    timeout-minutes: 60
+    env:
+      FLUTTER_VERSION: '3.47.6'
+      TAG: ${{ github.event.inputs.release_tag || github.ref_name }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Installer Flutter ${{ env.FLUTTER_VERSION }}
+        run: |
+          git clone --depth 1 --branch "$FLUTTER_VERSION" https://github.com/flutter/flutter.git "$RUNNER_TEMP/flutter"
+          echo "$RUNNER_TEMP/flutter/bin" >> "$GITHUB_PATH"
+
+      - name: Vérifier les outils
+        run: |
+          flutter config --no-analytics >/dev/null
+          flutter --version
+          xcodebuild -version
+
+      - name: Configuration de l'app (secret)
+        env:
+          APP_CONFIG_JSON: ${{ secrets.APP_CONFIG_JSON }}
+        run: |
+          if [ -z "$APP_CONFIG_JSON" ]; then
+            echo "::error::Secret APP_CONFIG_JSON manquant (gh secret set APP_CONFIG_JSON < app/config/app.json)"
+            exit 1
+          fi
+          printf '%s' "$APP_CONFIG_JSON" > app/config/app.json
+
+      - name: Build iOS (sans signature)
+        working-directory: app
+        run: |
+          flutter pub get
+          flutter build ios --release --no-codesign --dart-define-from-file=config/app.json
+
+      - name: Empaqueter l'IPA
+        working-directory: app
+        run: |
+          VERSION=$(grep -E '^version:' pubspec.yaml | awk '{print $2}' | cut -d+ -f1)
+          rm -rf Payload && mkdir Payload
+          cp -R build/ios/iphoneos/Runner.app Payload/
+          zip -qry "Octogone-$VERSION.ipa" Payload
+          ls -lh "Octogone-$VERSION.ipa"
+          echo "IPA=app/Octogone-$VERSION.ipa" >> "$GITHUB_ENV"
+
+      - name: Garder l'IPA comme artefact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Octogone-ipa
+          path: ${{ env.IPA }}
+          retention-days: 30
+
+      - name: Déposer l'IPA dans la release ${{ env.TAG }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # La release est créée par scripts/release_android.sh juste après le tag : on l'attend.
+          for i in $(seq 1 30); do
+            gh release view "$TAG" >/dev/null 2>&1 && break
+            echo "Release $TAG pas encore créée, nouvel essai dans 20 s…"
+            sleep 20
+          done
+          gh release upload "$TAG" "$IPA" --clobber

@@ -65,6 +65,8 @@ gh release create "$TAG" "${ASSETS[@]}" \
   --notes "$NOTES
 
 ---
-**Installation** : télécharge \`Octogone-$VERSION-arm64.apk\` sur ton téléphone Android et ouvre-le (autorise l'installation depuis cette source). La version armv7 ne sert qu'aux téléphones anciens (avant 2017 environ). La mise à jour s'installe par-dessus la version précédente."
+**Installation** : télécharge \`Octogone-$VERSION-arm64.apk\` sur ton téléphone Android et ouvre-le (autorise l'installation depuis cette source). La version armv7 ne sert qu'aux téléphones anciens (avant 2017 environ). La mise à jour s'installe par-dessus la version précédente.
+
+**iPhone** : \`Octogone-$VERSION.ipa\` est ajoutée automatiquement par GitHub Actions une vingtaine de minutes après la publication ; installation avec Sideloadly ou AltStore (voir le README)."
 
 echo "✅ $(gh release view "$TAG" --json url --jq .url)"

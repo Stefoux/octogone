@@ -59,11 +59,23 @@ cd data/scripts
 
 ## Versions
 
-Chaque version de l'app est publiée dans les [releases GitHub](https://github.com/Stefoux/octogone/releases) avec ses APK. Pour publier : augmenter `version` dans `app/pubspec.yaml`, décrire la version dans [CHANGELOG.md](CHANGELOG.md), commiter, puis :
+Chaque version de l'app est publiée dans les [releases GitHub](https://github.com/Stefoux/octogone/releases) avec ses APK et son IPA (ajoutée par GitHub Actions une vingtaine de minutes après le tag). Pour publier : augmenter `version` dans `app/pubspec.yaml`, décrire la version dans [CHANGELOG.md](CHANGELOG.md), commiter, puis :
 
 ```bash
 scripts/release_android.sh
 ```
+
+## Installer sur iPhone (Apple ID gratuit)
+
+Chaque release contient aussi `Octogone-X.Y.Z.ipa`, une IPA **non signée** construite par GitHub Actions ([workflow](.github/workflows/ios.yml)) : elle est signée avec ton Apple ID au moment de l'installation.
+
+1. Télécharge l'IPA depuis la [page des releases](https://github.com/Stefoux/octogone/releases).
+2. Ouvre **Sideloadly** sur le Mac, branche l'iPhone en USB, glisse l'IPA dans la fenêtre, indique ton Apple ID (dans Sideloadly uniquement) et clique sur **Start**.
+3. Sur l'iPhone (iOS 16 ou plus récent) : **Réglages > Confidentialité et sécurité > Mode développeur** → activer, puis redémarrer.
+4. **Réglages > Général > VPN et gestion de l'appareil** → touche ton Apple ID → **Faire confiance**.
+5. Une app signée avec un Apple ID gratuit expire au bout de **7 jours** : relance l'installation avec Sideloadly (ou utilise AltStore, qui peut la rafraîchir automatiquement). Tes cartes ne sont pas perdues, elles sont sur le serveur.
+
+Limites d'un Apple ID gratuit : 3 apps installées de cette façon en même temps, 10 identifiants d'app par semaine.
 
 ## Tests
 
