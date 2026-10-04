@@ -324,17 +324,25 @@ def derive_from_record(fights: list[dict]) -> dict:
     def is_dec(f):
         return f["methode"].lower().startswith("decision")
 
+    # Techniques de finition des victoires (« KO (head kick) », « Submission (armbar) »…)
+    GENERIC = {"punches", "punch", "strikes", "elbows", "elbows and punches", "punches and elbows",
+               "doctor stoppage", "corner stoppage", "retirement", "injury", "slam", "ground and pound"}
+    def canonical_tech(raw: str) -> str | None:
+        t = raw.strip().lower().replace("–", "-").replace("arm-triangle-choke", "arm-triangle choke")
+        if "injury" in t or "broken" in t or t.startswith("submission to") or "stoppage" in t:
+            return None  # pas une technique (blessure, abandon sous les coups…)
+        t = re.sub(r"\s+and punches$|^punches and\s+", "", t)  # « head kick and punches » -> « head kick »
+        t = re.sub(r"\bknees\b", "knee", t)
+        t = re.sub(r"\bkicks\b", "kick", t)
+        return t
+
     tech: dict[str, int] = {}
     for f in wins:
         if is_ko(f) or is_sub(f):
             m = TECH_RE.search(f["methode"])
-            if m:
-                t = m.group(1).strip().lower()
-                if t not in ("punches", "punch", "elbows and punches", "punches and elbows", "doctor stoppage",
-                             "corner stoppage", "retirement", "injury"):
-                    tech[t] = tech.get(t, 0) + 1
-                else:
-                    tech["punches"] = tech.get("punches", 0) + 1
+            t = canonical_tech(m.group(1)) if m else None
+            if t:
+                tech[t] = tech.get(t, 0) + 1
 
     def notes_count(pattern, pool):
         return sum(1 for f in pool if re.search(pattern, f["notes"], re.I))
@@ -345,7 +353,13 @@ def derive_from_record(fights: list[dict]) -> dict:
         if m and f["resultat"].lower().startswith("win"):
             titles.append({"action": m.group(1).lower(), "interim": bool(m.group(2)), "titre": m.group(3).strip(),
                            "evenement": f["evenement"], "date": f["date"]})
-    signature = max(tech.items(), key=lambda kv: kv[1]) if tech else None
+    # Coup signature : la technique PRÉCISE la plus utilisée pour finir (coup de pied à la tête,
+    # étranglement arrière…) ; à défaut, la plus utilisée tout court (souvent les poings).
+    # Les poings (finition générique) comptent pour moitié : une technique précise l'emporte
+    # dès qu'elle est au moins à moitié aussi fréquente.
+    def weight(kv):
+        return (kv[1] * (0.5 if kv[0] in GENERIC else 1.0), kv[0] not in GENERIC)
+    signature = max(tech.items(), key=weight) if tech else None
     per_year: dict[str, int] = {}
     for f in ufc:
         m = re.search(r"\b(19|20)\d{2}\b", f["date"])

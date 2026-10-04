@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../core/config.dart';
+import '../core/l10n.dart';
 import '../core/theme.dart';
 import '../data/repositories/content_providers.dart';
 import '../domain/models.dart';
@@ -161,7 +162,7 @@ class ToVerifyBanner extends StatelessWidget {
         children: [
           const Icon(Icons.info_outline, color: AppColors.warning, size: 20),
           const SizedBox(width: 8),
-          Expanded(child: Text('À vérifier : ${fields.join(', ')}', style: const TextStyle(fontSize: 13))),
+          Expanded(child: Text(context.l10n.toVerify(fields.join(', ')), style: const TextStyle(fontSize: 13))),
         ],
       ),
     );

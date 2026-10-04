@@ -60,6 +60,25 @@ class Images extends Table with _SyncedRow {
 @DataClassName('EventRow')
 class Events extends Table with _SyncedRow {}
 
+@DataClassName('RivalryRow')
+class Rivalries extends Table with _SyncedRow {
+  TextColumn get fighterA => text()();
+  TextColumn get fighterB => text()();
+}
+
+/// Exemplaires possédés par le joueur connecté (copie locale pour le hors ligne).
+@DataClassName('OwnedCardRow')
+class OwnedCards extends Table {
+  TextColumn get id => text()();
+  TextColumn get ownerId => text()();
+  TextColumn get cardId => text()();
+  TextColumn get variantId => text()();
+  TextColumn get payload => text()();
+
+  @override
+  Set<Column<Object>> get primaryKey => {id};
+}
+
 /// Dernier `updated_at` reçu pour chaque table distante.
 @DataClassName('SyncStateRow')
 class SyncState extends Table {
@@ -70,12 +89,22 @@ class SyncState extends Table {
   Set<Column<Object>> get primaryKey => {remoteTable};
 }
 
-@DriftDatabase(tables: [Fighters, Editions, SeriesTable, Cards, Variants, Images, Events, SyncState])
+@DriftDatabase(tables: [Fighters, Editions, SeriesTable, Cards, Variants, Images, Events, Rivalries, OwnedCards, SyncState])
 class AppDatabase extends _$AppDatabase {
   AppDatabase([QueryExecutor? executor]) : super(executor ?? _openConnection());
 
   @override
-  int get schemaVersion => 1;
+  int get schemaVersion => 2;
+
+  @override
+  MigrationStrategy get migration => MigrationStrategy(
+        onUpgrade: (m, from, to) async {
+          if (from < 2) {
+            await m.createTable(rivalries);
+            await m.createTable(ownedCards);
+          }
+        },
+      );
 
   static QueryExecutor _openConnection() => driftDatabase(name: 'octogone');
 }

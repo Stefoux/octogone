@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../core/l10n.dart';
 import '../../core/theme.dart';
 import 'auth_providers.dart';
 
@@ -38,12 +39,12 @@ class _SignupScreenState extends ConsumerState<SignupScreen> {
     final auth = ref.read(authControllerProvider);
     try {
       if (!await auth.pseudoAvailable(_pseudo.text.trim())) {
-        setState(() => _error = 'Ce pseudo est déjà pris.');
+        setState(() => _error = context.l10n.pseudoTaken);
         return;
       }
       await auth.signUp(pseudo: _pseudo.text, email: _email.text, password: _password.text);
     } catch (e) {
-      setState(() => _error = authErrorMessage(e));
+      setState(() => _error = authErrorMessage(context.l10n, e));
     } finally {
       if (mounted) setState(() => _busy = false);
     }
@@ -51,9 +52,10 @@ class _SignupScreenState extends ConsumerState<SignupScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final l = context.l10n;
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Créer un compte'),
+        title: Text(l.signupTitle),
         leading: IconButton(icon: const Icon(Icons.arrow_back), onPressed: () => context.go('/connexion')),
       ),
       body: SafeArea(
@@ -71,12 +73,12 @@ class _SignupScreenState extends ConsumerState<SignupScreen> {
                       key: const Key('signup-pseudo'),
                       controller: _pseudo,
                       maxLength: 20,
-                      decoration: const InputDecoration(labelText: 'Pseudo', prefixIcon: Icon(Icons.badge_outlined)),
+                      decoration: InputDecoration(labelText: l.pseudo, prefixIcon: const Icon(Icons.badge_outlined)),
                       validator: (v) {
                         final t = v?.trim() ?? '';
-                        if (t.length < 3) return '3 caractères minimum';
+                        if (t.length < 3) return l.pseudoMin;
                         if (!RegExp(r'^[\p{L}\p{N}_ .-]+$', unicode: true).hasMatch(t)) {
-                          return 'Lettres, chiffres, espace, « _ », « - » ou « . »';
+                          return l.pseudoChars;
                         }
                         return null;
                       },
@@ -86,9 +88,9 @@ class _SignupScreenState extends ConsumerState<SignupScreen> {
                       key: const Key('signup-email'),
                       controller: _email,
                       keyboardType: TextInputType.emailAddress,
-                      decoration: const InputDecoration(labelText: 'Email', prefixIcon: Icon(Icons.mail_outline)),
+                      decoration: InputDecoration(labelText: l.email, prefixIcon: const Icon(Icons.mail_outline)),
                       validator: (v) => (v == null || !RegExp(r'^\S+@\S+\.\S+$').hasMatch(v.trim()))
-                          ? 'Email invalide'
+                          ? l.invalidEmail
                           : null,
                     ),
                     const SizedBox(height: 12),
@@ -96,18 +98,18 @@ class _SignupScreenState extends ConsumerState<SignupScreen> {
                       key: const Key('signup-password'),
                       controller: _password,
                       obscureText: true,
-                      decoration: const InputDecoration(
-                          labelText: 'Mot de passe (8 caractères min.)', prefixIcon: Icon(Icons.lock_outline)),
-                      validator: (v) => (v == null || v.length < 8) ? '8 caractères minimum' : null,
+                      decoration:
+                          InputDecoration(labelText: l.passwordMinLabel, prefixIcon: const Icon(Icons.lock_outline)),
+                      validator: (v) => (v == null || v.length < 8) ? l.passwordMin : null,
                     ),
                     const SizedBox(height: 12),
                     TextFormField(
                       key: const Key('signup-confirm'),
                       controller: _confirm,
                       obscureText: true,
-                      decoration: const InputDecoration(
-                          labelText: 'Confirme le mot de passe', prefixIcon: Icon(Icons.lock_outline)),
-                      validator: (v) => v != _password.text ? 'Les mots de passe diffèrent' : null,
+                      decoration:
+                          InputDecoration(labelText: l.confirmPassword, prefixIcon: const Icon(Icons.lock_outline)),
+                      validator: (v) => v != _password.text ? l.passwordsDiffer : null,
                       onFieldSubmitted: (_) => _submit(),
                     ),
                     if (_error != null) ...[
@@ -120,7 +122,7 @@ class _SignupScreenState extends ConsumerState<SignupScreen> {
                       style: FilledButton.styleFrom(minimumSize: const Size.fromHeight(52)),
                       child: _busy
                           ? const SizedBox(width: 22, height: 22, child: CircularProgressIndicator(strokeWidth: 2))
-                          : const Text('Créer mon compte'),
+                          : Text(l.createAccount),
                     ),
                   ],
                 ),

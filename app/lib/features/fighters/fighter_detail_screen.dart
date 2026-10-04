@@ -3,8 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:game_core/game_core.dart';
 import 'package:go_router/go_router.dart';
 
-import '../../core/countries.dart';
-import '../../core/device_language.dart';
+import '../../core/l10n.dart';
 import '../../core/theme.dart';
 import '../../data/repositories/content_providers.dart';
 import '../../domain/models.dart';
@@ -16,13 +15,14 @@ class FighterDetailScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final l = context.l10n;
     final async = ref.watch(fighterProvider(fighterId));
     return Scaffold(
       appBar: AppBar(),
       body: async.when(
         loading: () => const Center(child: CircularProgressIndicator()),
-        error: (e, _) => Center(child: Text('Erreur : $e')),
-        data: (f) => f == null ? const Center(child: Text('Combattant introuvable')) : _Body(fighter: f),
+        error: (e, _) => Center(child: Text(l.errorWithMessage('$e'))),
+        data: (f) => f == null ? Center(child: Text(l.fighterNotFound)) : _Body(fighter: f),
       ),
     );
   }
@@ -34,21 +34,24 @@ class _Body extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final l = context.l10n;
     final f = fighter;
+    final female = f.sexe == 'F';
     final stats = f.stats;
     final s = f.statsUfc;
     final p = f.palmares;
     final u = f.ufc;
-    final distinctions = f.distinctions(deviceLanguage(context));
+    final distinctions = f.distinctions(context.lang);
     final cards = ref.watch(cardsForFighterProvider(f.id)).value ?? const [];
     final editions = {for (final e in ref.watch(editionsProvider).value ?? const <Edition>[]) e.id: e};
 
-    String pct(Object? v) => v == null ? '—' : '${(v as num).round()} %';
-    String dec(Object? v) => v == null ? '—' : (v as num).toStringAsFixed(2);
-    String dur(Object? v) {
-      if (v == null) return '—';
-      final secs = (v as num).toInt();
-      return '${secs ~/ 60} min ${(secs % 60).toString().padLeft(2, '0')}';
+    String v(Object? x) => x == null ? '—' : '$x';
+    String pct(Object? x) => x == null ? '—' : (context.lang == 'en' ? '${(x as num).round()}%' : '${(x as num).round()} %');
+    String dec(Object? x) => x == null ? '—' : (x as num).toStringAsFixed(2);
+    String dur(Object? x) {
+      if (x == null) return '—';
+      final secs = (x as num).toInt();
+      return l.minutesSeconds(secs ~/ 60, (secs % 60).toString().padLeft(2, '0'));
     }
 
     return ListView(
@@ -67,15 +70,16 @@ class _Body extends ConsumerWidget {
                   if (f.surnom != null)
                     Text('« ${f.surnom} »', style: const TextStyle(color: AppColors.gold, fontStyle: FontStyle.italic)),
                   const SizedBox(height: 8),
-                  Text('${flagEmoji(f.pays)}  ${countryName(f.pays)}'),
-                  Text(f.categorie?.label ?? 'Catégorie à vérifier', style: const TextStyle(color: AppColors.textMuted)),
-                  Text('Palmarès ${f.record}', style: const TextStyle(color: AppColors.textMuted)),
+                  Text('${flagEmoji(f.pays)}  ${countryLabel(context, f.pays)}'),
+                  Text(weightClassLabel(l, f.categorie), style: const TextStyle(color: AppColors.textMuted)),
+                  Text(l.recordLabel(f.record), style: const TextStyle(color: AppColors.textMuted)),
                   const SizedBox(height: 6),
                   Wrap(spacing: 6, runSpacing: 6, children: [
-                    if (f.championActuel) const _Tag('Champion', AppColors.gold),
-                    if (!f.championActuel && f.ancienChampion) const _Tag('Ancien champion', AppColors.steel),
-                    if (f.retired) const _Tag('Retraité', AppColors.textMuted),
-                    _Tag(stats.style.label, AppColors.crimson),
+                    if (f.championActuel) _Tag(female ? l.tagChampionF : l.tagChampion, AppColors.gold),
+                    if (!f.championActuel && f.ancienChampion)
+                      _Tag(female ? l.tagFormerChampionF : l.tagFormerChampion, AppColors.steel),
+                    if (f.retired) _Tag(female ? l.tagRetiredF : l.tagRetired, AppColors.textMuted),
+                    _Tag(styleLabel(l, stats.style), AppColors.crimson),
                   ]),
                 ],
               ),
@@ -86,43 +90,43 @@ class _Body extends ConsumerWidget {
         ToVerifyBanner(fields: f.aVerifier),
         const SizedBox(height: 16),
         _Section(
-          title: 'Stats de jeu',
+          title: l.gameStats,
           trailing: OverallBadge(value: stats.overall, size: 36),
           children: [
             for (final k in StatKind.values)
-              StatBar(label: k.label, value: stats[k], estimated: stats.estimated.contains(k)),
+              StatBar(label: statLabel(l, k), value: stats[k], estimated: stats.estimated.contains(k)),
             const SizedBox(height: 6),
-            const Text(
-              'Calculées à partir des statistiques réelles ci-dessous (formule documentée dans game_core).',
-              style: TextStyle(color: AppColors.textMuted, fontSize: 12),
-            ),
+            Text(l.gameStatsNote, style: const TextStyle(color: AppColors.textMuted, fontSize: 12)),
           ],
         ),
-        _Section(title: 'Statistiques UFC', children: [
-          _Row('Frappes significatives / min', dec(s['frappes_par_min'])),
-          _Row('Précision de frappe', pct(s['precision_frappe_pct'])),
-          _Row('Frappes encaissées / min', dec(s['frappes_encaissees_par_min'])),
-          _Row('Défense de frappe', pct(s['defense_frappe_pct'])),
-          _Row('Takedowns / 15 min', dec(s['takedowns_par_15min'])),
-          _Row('Précision des takedowns', pct(s['precision_takedown_pct'])),
-          _Row('Défense de takedown', pct(s['defense_takedown_pct'])),
-          _Row('Tentatives de soumission / 15 min', dec(s['soumissions_par_15min'])),
-          _Row('Knockdowns / 15 min', dec(s['knockdowns_par_15min'])),
-          _Row('Durée moyenne d’un combat', dur(s['duree_moyenne_combat_s'])),
+        _Section(title: l.ufcStats, children: [
+          _Row(l.sigStrikesPerMin, dec(s['frappes_par_min'])),
+          _Row(l.strikeAccuracy, pct(s['precision_frappe_pct'])),
+          _Row(l.strikesAbsorbed, dec(s['frappes_encaissees_par_min'])),
+          _Row(l.strikeDefense, pct(s['defense_frappe_pct'])),
+          _Row(l.takedownsPer15, dec(s['takedowns_par_15min'])),
+          _Row(l.takedownAccuracy, pct(s['precision_takedown_pct'])),
+          _Row(l.takedownDefense, pct(s['defense_takedown_pct'])),
+          _Row(l.subsPer15, dec(s['soumissions_par_15min'])),
+          _Row(l.knockdownsPer15, dec(s['knockdowns_par_15min'])),
+          _Row(l.avgFightTime, dur(s['duree_moyenne_combat_s'])),
         ]),
-        _Section(title: 'Palmarès professionnel', children: [
-          _Row('Victoires', '${p['victoires'] ?? '—'}  (KO ${p['victoires_ko'] ?? '—'} · Sou. ${p['victoires_soumission'] ?? '—'} · Déc. ${p['victoires_decision'] ?? '—'})'),
-          _Row('Défaites', '${p['defaites'] ?? '—'}  (KO ${p['defaites_ko'] ?? '—'} · Sou. ${p['defaites_soumission'] ?? '—'} · Déc. ${p['defaites_decision'] ?? '—'})'),
-          if ((p['nuls'] ?? 0) != 0) _Row('Nuls', '${p['nuls']}'),
-          if ((p['sans_decision'] ?? 0) != 0) _Row('Sans décision', '${p['sans_decision']}'),
-          if (u['combats_ufc'] != null) _Row('Combats à l’UFC', '${u['combats_ufc']} (${u['victoires_ufc']} V – ${u['defaites_ufc']} D)'),
-          if ((u['bonus_fotn'] ?? 0) != 0) _Row('Bonus « Combat de la soirée »', '${u['bonus_fotn']}'),
-          if ((u['bonus_potn'] ?? 0) != 0) _Row('Bonus « Performance de la soirée »', '${u['bonus_potn']}'),
+        _Section(title: l.proRecord, children: [
+          _Row(l.wins, l.methodBreakdown(v(p['victoires']), v(p['victoires_ko']), v(p['victoires_soumission']),
+              v(p['victoires_decision']))),
+          _Row(l.losses, l.methodBreakdown(v(p['defaites']), v(p['defaites_ko']), v(p['defaites_soumission']),
+              v(p['defaites_decision']))),
+          if ((p['nuls'] ?? 0) != 0) _Row(l.draws, v(p['nuls'])),
+          if ((p['sans_decision'] ?? 0) != 0) _Row(l.noContests, v(p['sans_decision'])),
+          if (u['combats_ufc'] != null)
+            _Row(l.ufcFights, l.ufcFightsValue(v(u['combats_ufc']), v(u['victoires_ufc']), v(u['defaites_ufc']))),
+          if ((u['bonus_fotn'] ?? 0) != 0) _Row(l.bonusFotn, v(u['bonus_fotn'])),
+          if ((u['bonus_potn'] ?? 0) != 0) _Row(l.bonusPotn, v(u['bonus_potn'])),
           if ((u['victoires_decision_5_rounds'] ?? 0) != 0)
-            _Row('Victoires par décision en 5 rounds', '${u['victoires_decision_5_rounds']}'),
+            _Row(l.fiveRoundDecisions, v(u['victoires_decision_5_rounds'])),
         ]),
         if (distinctions.isNotEmpty)
-          _Section(title: 'Distinctions', children: [
+          _Section(title: l.distinctions, children: [
             for (final d in distinctions)
               Padding(
                 padding: const EdgeInsets.symmetric(vertical: 3),
@@ -139,7 +143,7 @@ class _Body extends ConsumerWidget {
               ),
           ]),
         if (cards.isNotEmpty)
-          _Section(title: 'Cartes (${cards.length})', children: [
+          _Section(title: l.cardsCount(cards.length), children: [
             for (final c in cards)
               ListTile(
                 dense: true,
@@ -147,7 +151,8 @@ class _Body extends ConsumerWidget {
                 leading: Text('#${c.numero}', style: const TextStyle(fontWeight: FontWeight.w700)),
                 title: Text(editions[c.editionId]?.nom ?? c.editionId),
                 subtitle: c.sousTitre != null ? Text(c.sousTitre!) : null,
-                onTap: () => context.go('/album/${c.editionId}'),
+                trailing: const Icon(Icons.chevron_right),
+                onTap: () => context.push('/carte/${Uri.encodeComponent(c.id)}'),
               ),
           ]),
       ],

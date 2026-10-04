@@ -1,0 +1,24 @@
+{
+  "id": "ufc-freedom-250",
+  "nom": "UFC Freedom 250",
+  "date": "2026-06-14",
+  "lieu": "Pelouse sud de la Maison-Blanche",
+  "ville": "Washington, D.C.",
+  "pays": "US",
+  "resultat": "Justin Gaethje bat Ilia Topuria par TKO (arrêt du coin) à la fin du 4e round et devient champion incontesté des poids légers.",
+  "contexte": "Gala organisé sur la pelouse sud de la Maison-Blanche ; les sept combats de la carte se sont terminés avant la limite.",
+  "contexte_en": "Event held on the South Lawn of the White House; all seven bouts on the card ended inside the distance.",
+  "resultat_en": "Justin Gaethje defeats Ilia Topuria by TKO (corner stoppage) at the end of round 4 to become undisputed lightweight champion.",
+  "tirage": 250,
+  "resultats": [
+    {"vainqueur": "Justin Gaethje", "perdant": "Ilia Topuria", "methode": "TKO (arrêt du coin)", "round": 4, "temps": "5:00", "enjeu": "Titre incontesté des poids légers"},
+    {"vainqueur": "Ciryl Gane", "perdant": "Alex Pereira", "methode": "TKO (coups)", "round": 2, "temps": "1:27", "enjeu": "Titre intérimaire des poids lourds"},
+    {"vainqueur": "Sean O'Malley", "perdant": "Aiemann Zahabi", "methode": "KO (droite)", "round": 2, "temps": "4:02"},
+    {"vainqueur": "Josh Hokit", "perdant": "Derrick Lewis", "methode": "TKO (coups)", "round": 2, "temps": "4:09"},
+    {"vainqueur": "Mauricio Ruffy", "perdant": "Michael Chandler", "methode": "TKO (coups)", "round": 1, "temps": "4:29"},
+    {"vainqueur": "Bo Nickal", "perdant": "Kyle Daukaus", "methode": "TKO (coups)", "round": 1, "temps": "4:34"},
+    {"vainqueur": "Diego Lopes", "perdant": "Steve Garcia", "methode": "KO (coups)", "round": 2, "temps": "2:42"}
+  ],
+  "sources": ["https://www.ufc.com/news/ufc-freedom-250-results-highlights-interviews"],
+  "a_verifier": []
+}

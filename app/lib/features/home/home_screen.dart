@@ -3,27 +3,30 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:intl/intl.dart';
 
+import '../../core/l10n.dart';
 import '../../core/theme.dart';
 import '../../data/repositories/content_providers.dart';
 import '../auth/auth_providers.dart';
+import 'welcome_pack.dart';
 
 class HomeScreen extends ConsumerWidget {
   const HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final l = context.l10n;
     final profile = ref.watch(profileProvider).value;
     final fighters = ref.watch(fightersProvider).value ?? const [];
-    final editions = ref.watch(editionsProvider).value ?? const [];
+    final owned = ref.watch(ownedCardsProvider).value ?? const [];
     final sync = ref.watch(syncControllerProvider);
     final champions = fighters.where((f) => f.championActuel).length;
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(profile == null ? 'Octogone' : 'Salut ${profile.pseudo} !'),
+        title: Text(profile == null ? l.appTitle : l.helloUser(profile.pseudo)),
         actions: [
           IconButton(
-            tooltip: 'Synchroniser',
+            tooltip: l.sync,
             onPressed: sync.running ? null : () => ref.read(syncControllerProvider.notifier).sync(),
             icon: sync.running
                 ? const SizedBox(width: 20, height: 20, child: CircularProgressIndicator(strokeWidth: 2))
@@ -37,36 +40,41 @@ class HomeScreen extends ConsumerWidget {
           padding: const EdgeInsets.all(16),
           children: [
             _SyncCard(status: sync),
+            if (profile != null && !profile.welcomePackReceived) ...[
+              const SizedBox(height: 12),
+              const WelcomePackCard(),
+            ],
             const SizedBox(height: 16),
             Row(children: [
-              Expanded(child: _StatTile(icon: Icons.people_alt, value: '${fighters.length}', label: 'combattants')),
+              Expanded(child: _StatTile(icon: Icons.style, value: '${owned.length}', label: l.statMyCards)),
               const SizedBox(width: 12),
-              Expanded(child: _StatTile(icon: Icons.emoji_events, value: '$champions', label: 'champions')),
+              Expanded(child: _StatTile(icon: Icons.people_alt, value: '${fighters.length}', label: l.statFighters)),
               const SizedBox(width: 12),
-              Expanded(
-                  child: _StatTile(icon: Icons.collections_bookmark, value: '${editions.length}', label: 'éditions')),
+              Expanded(child: _StatTile(icon: Icons.emoji_events, value: '$champions', label: l.statChampions)),
             ]),
             const SizedBox(height: 16),
             _ActionCard(
               icon: Icons.collections_bookmark,
-              title: 'Parcourir les éditions',
-              subtitle: 'Checklists réelles, inserts et parallèles',
+              title: l.browseEditions,
+              subtitle: l.browseEditionsSub,
               onTap: () => context.go('/album'),
             ),
             const SizedBox(height: 12),
             _ActionCard(
+              icon: Icons.auto_awesome,
+              title: l.effectsShowcase,
+              subtitle: l.effectsShowcaseSub,
+              onTap: () => context.push('/vitrine'),
+            ),
+            const SizedBox(height: 12),
+            _ActionCard(
               icon: Icons.people_alt,
-              title: 'Tous les combattants',
-              subtitle: 'Stats réelles et stats de jeu',
+              title: l.allFighters,
+              subtitle: l.allFightersSub,
               onTap: () => context.go('/combattants'),
             ),
             const SizedBox(height: 12),
-            const _ActionCard(
-              icon: Icons.card_giftcard,
-              title: 'Booster quotidien',
-              subtitle: 'Arrive avec la phase 3',
-              enabled: false,
-            ),
+            _ActionCard(icon: Icons.card_giftcard, title: l.dailyBooster, subtitle: l.comingPhase3, enabled: false),
           ],
         ),
       ),
@@ -80,15 +88,21 @@ class _SyncCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final fmt = DateFormat('d MMM à HH:mm', 'fr_FR');
+    final l = context.l10n;
+    final fmt = DateFormat.MMMd(Localizations.localeOf(context).toLanguageTag()).add_Hm();
     final (icon, color, text) = status.running
-        ? (Icons.sync, AppColors.steel, 'Synchronisation du contenu…')
+        ? (Icons.sync, AppColors.steel, l.syncRunning)
         : status.error != null
-            ? (Icons.cloud_off, AppColors.warning, 'Hors ligne : contenu en cache')
+            ? (Icons.cloud_off, AppColors.warning, l.syncOffline)
             : status.lastSync != null
-                ? (Icons.cloud_done, AppColors.success,
-                    'À jour (${fmt.format(status.lastSync!)})${status.received > 0 ? ' · ${status.received} éléments reçus' : ''}')
-                : (Icons.cloud_queue, AppColors.steel, 'En attente de synchronisation');
+                ? (
+                    Icons.cloud_done,
+                    AppColors.success,
+                    status.received > 0
+                        ? l.syncUpToDateReceived(fmt.format(status.lastSync!), status.received)
+                        : l.syncUpToDate(fmt.format(status.lastSync!)),
+                  )
+                : (Icons.cloud_queue, AppColors.steel, l.syncWaiting);
     return Card(
       child: ListTile(leading: Icon(icon, color: color), title: Text(text, style: const TextStyle(fontSize: 14))),
     );

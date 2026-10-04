@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../core/l10n.dart';
 import '../../data/repositories/content_providers.dart';
 
 /// Barre de navigation principale + synchronisation du contenu au démarrage.
@@ -22,22 +23,24 @@ class _MainShellState extends ConsumerState<MainShell> {
 
   @override
   Widget build(BuildContext context) {
+    final l = context.l10n;
     return Scaffold(
       body: widget.shell,
       bottomNavigationBar: NavigationBar(
         selectedIndex: widget.shell.currentIndex,
         onDestinationSelected: (i) => widget.shell.goBranch(i, initialLocation: i == widget.shell.currentIndex),
-        destinations: const [
-          NavigationDestination(icon: Icon(Icons.home_outlined), selectedIcon: Icon(Icons.home), label: 'Accueil'),
+        destinations: [
           NavigationDestination(
-              icon: Icon(Icons.collections_bookmark_outlined),
-              selectedIcon: Icon(Icons.collections_bookmark),
-              label: 'Album'),
+              icon: const Icon(Icons.home_outlined), selectedIcon: const Icon(Icons.home), label: l.navHome),
           NavigationDestination(
-              icon: Icon(Icons.people_alt_outlined), selectedIcon: Icon(Icons.people_alt), label: 'Combattants'),
+              icon: const Icon(Icons.collections_bookmark_outlined),
+              selectedIcon: const Icon(Icons.collections_bookmark),
+              label: l.navAlbum),
           NavigationDestination(
-              icon: Icon(Icons.sports_mma_outlined), selectedIcon: Icon(Icons.sports_mma), label: 'Combat'),
-          NavigationDestination(icon: Icon(Icons.person_outline), selectedIcon: Icon(Icons.person), label: 'Profil'),
+              icon: const Icon(Icons.people_alt_outlined), selectedIcon: const Icon(Icons.people_alt), label: l.navFighters),
+          NavigationDestination(
+              icon: const Icon(Icons.sports_mma_outlined), selectedIcon: const Icon(Icons.sports_mma), label: l.navFight),
+          NavigationDestination(icon: const Icon(Icons.person_outline), selectedIcon: const Icon(Icons.person), label: l.navProfile),
         ],
       ),
     );

@@ -2431,6 +2431,728 @@ class EventsCompanion extends UpdateCompanion<EventRow> {
   }
 }
 
+class $RivalriesTable extends Rivalries
+    with TableInfo<$RivalriesTable, RivalryRow> {
+  @override
+  final GeneratedDatabase attachedDatabase;
+  final String? _alias;
+  $RivalriesTable(this.attachedDatabase, [this._alias]);
+  static const VerificationMeta _idMeta = const VerificationMeta('id');
+  @override
+  late final GeneratedColumn<String> id = GeneratedColumn<String>(
+    'id',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _payloadMeta = const VerificationMeta(
+    'payload',
+  );
+  @override
+  late final GeneratedColumn<String> payload = GeneratedColumn<String>(
+    'payload',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _updatedAtMeta = const VerificationMeta(
+    'updatedAt',
+  );
+  @override
+  late final GeneratedColumn<DateTime> updatedAt = GeneratedColumn<DateTime>(
+    'updated_at',
+    aliasedName,
+    false,
+    type: DriftSqlType.dateTime,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _fighterAMeta = const VerificationMeta(
+    'fighterA',
+  );
+  @override
+  late final GeneratedColumn<String> fighterA = GeneratedColumn<String>(
+    'fighter_a',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _fighterBMeta = const VerificationMeta(
+    'fighterB',
+  );
+  @override
+  late final GeneratedColumn<String> fighterB = GeneratedColumn<String>(
+    'fighter_b',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  @override
+  List<GeneratedColumn> get $columns => [
+    id,
+    payload,
+    updatedAt,
+    fighterA,
+    fighterB,
+  ];
+  @override
+  String get aliasedName => _alias ?? actualTableName;
+  @override
+  String get actualTableName => $name;
+  static const String $name = 'rivalries';
+  @override
+  VerificationContext validateIntegrity(
+    Insertable<RivalryRow> instance, {
+    bool isInserting = false,
+  }) {
+    final context = VerificationContext();
+    final data = instance.toColumns(true);
+    if (data.containsKey('id')) {
+      context.handle(_idMeta, id.isAcceptableOrUnknown(data['id']!, _idMeta));
+    } else if (isInserting) {
+      context.missing(_idMeta);
+    }
+    if (data.containsKey('payload')) {
+      context.handle(
+        _payloadMeta,
+        payload.isAcceptableOrUnknown(data['payload']!, _payloadMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_payloadMeta);
+    }
+    if (data.containsKey('updated_at')) {
+      context.handle(
+        _updatedAtMeta,
+        updatedAt.isAcceptableOrUnknown(data['updated_at']!, _updatedAtMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_updatedAtMeta);
+    }
+    if (data.containsKey('fighter_a')) {
+      context.handle(
+        _fighterAMeta,
+        fighterA.isAcceptableOrUnknown(data['fighter_a']!, _fighterAMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_fighterAMeta);
+    }
+    if (data.containsKey('fighter_b')) {
+      context.handle(
+        _fighterBMeta,
+        fighterB.isAcceptableOrUnknown(data['fighter_b']!, _fighterBMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_fighterBMeta);
+    }
+    return context;
+  }
+
+  @override
+  Set<GeneratedColumn> get $primaryKey => {id};
+  @override
+  RivalryRow map(Map<String, dynamic> data, {String? tablePrefix}) {
+    final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
+    return RivalryRow(
+      id: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}id'],
+      )!,
+      payload: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}payload'],
+      )!,
+      updatedAt: attachedDatabase.typeMapping.read(
+        DriftSqlType.dateTime,
+        data['${effectivePrefix}updated_at'],
+      )!,
+      fighterA: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}fighter_a'],
+      )!,
+      fighterB: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}fighter_b'],
+      )!,
+    );
+  }
+
+  @override
+  $RivalriesTable createAlias(String alias) {
+    return $RivalriesTable(attachedDatabase, alias);
+  }
+}
+
+class RivalryRow extends DataClass implements Insertable<RivalryRow> {
+  final String id;
+  final String payload;
+  final DateTime updatedAt;
+  final String fighterA;
+  final String fighterB;
+  const RivalryRow({
+    required this.id,
+    required this.payload,
+    required this.updatedAt,
+    required this.fighterA,
+    required this.fighterB,
+  });
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    map['id'] = Variable<String>(id);
+    map['payload'] = Variable<String>(payload);
+    map['updated_at'] = Variable<DateTime>(updatedAt);
+    map['fighter_a'] = Variable<String>(fighterA);
+    map['fighter_b'] = Variable<String>(fighterB);
+    return map;
+  }
+
+  RivalriesCompanion toCompanion(bool nullToAbsent) {
+    return RivalriesCompanion(
+      id: Value(id),
+      payload: Value(payload),
+      updatedAt: Value(updatedAt),
+      fighterA: Value(fighterA),
+      fighterB: Value(fighterB),
+    );
+  }
+
+  factory RivalryRow.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return RivalryRow(
+      id: serializer.fromJson<String>(json['id']),
+      payload: serializer.fromJson<String>(json['payload']),
+      updatedAt: serializer.fromJson<DateTime>(json['updatedAt']),
+      fighterA: serializer.fromJson<String>(json['fighterA']),
+      fighterB: serializer.fromJson<String>(json['fighterB']),
+    );
+  }
+  @override
+  Map<String, dynamic> toJson({ValueSerializer? serializer}) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return <String, dynamic>{
+      'id': serializer.toJson<String>(id),
+      'payload': serializer.toJson<String>(payload),
+      'updatedAt': serializer.toJson<DateTime>(updatedAt),
+      'fighterA': serializer.toJson<String>(fighterA),
+      'fighterB': serializer.toJson<String>(fighterB),
+    };
+  }
+
+  RivalryRow copyWith({
+    String? id,
+    String? payload,
+    DateTime? updatedAt,
+    String? fighterA,
+    String? fighterB,
+  }) => RivalryRow(
+    id: id ?? this.id,
+    payload: payload ?? this.payload,
+    updatedAt: updatedAt ?? this.updatedAt,
+    fighterA: fighterA ?? this.fighterA,
+    fighterB: fighterB ?? this.fighterB,
+  );
+  RivalryRow copyWithCompanion(RivalriesCompanion data) {
+    return RivalryRow(
+      id: data.id.present ? data.id.value : this.id,
+      payload: data.payload.present ? data.payload.value : this.payload,
+      updatedAt: data.updatedAt.present ? data.updatedAt.value : this.updatedAt,
+      fighterA: data.fighterA.present ? data.fighterA.value : this.fighterA,
+      fighterB: data.fighterB.present ? data.fighterB.value : this.fighterB,
+    );
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('RivalryRow(')
+          ..write('id: $id, ')
+          ..write('payload: $payload, ')
+          ..write('updatedAt: $updatedAt, ')
+          ..write('fighterA: $fighterA, ')
+          ..write('fighterB: $fighterB')
+          ..write(')'))
+        .toString();
+  }
+
+  @override
+  int get hashCode => Object.hash(id, payload, updatedAt, fighterA, fighterB);
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      (other is RivalryRow &&
+          other.id == this.id &&
+          other.payload == this.payload &&
+          other.updatedAt == this.updatedAt &&
+          other.fighterA == this.fighterA &&
+          other.fighterB == this.fighterB);
+}
+
+class RivalriesCompanion extends UpdateCompanion<RivalryRow> {
+  final Value<String> id;
+  final Value<String> payload;
+  final Value<DateTime> updatedAt;
+  final Value<String> fighterA;
+  final Value<String> fighterB;
+  final Value<int> rowid;
+  const RivalriesCompanion({
+    this.id = const Value.absent(),
+    this.payload = const Value.absent(),
+    this.updatedAt = const Value.absent(),
+    this.fighterA = const Value.absent(),
+    this.fighterB = const Value.absent(),
+    this.rowid = const Value.absent(),
+  });
+  RivalriesCompanion.insert({
+    required String id,
+    required String payload,
+    required DateTime updatedAt,
+    required String fighterA,
+    required String fighterB,
+    this.rowid = const Value.absent(),
+  }) : id = Value(id),
+       payload = Value(payload),
+       updatedAt = Value(updatedAt),
+       fighterA = Value(fighterA),
+       fighterB = Value(fighterB);
+  static Insertable<RivalryRow> custom({
+    Expression<String>? id,
+    Expression<String>? payload,
+    Expression<DateTime>? updatedAt,
+    Expression<String>? fighterA,
+    Expression<String>? fighterB,
+    Expression<int>? rowid,
+  }) {
+    return RawValuesInsertable({
+      if (id != null) 'id': id,
+      if (payload != null) 'payload': payload,
+      if (updatedAt != null) 'updated_at': updatedAt,
+      if (fighterA != null) 'fighter_a': fighterA,
+      if (fighterB != null) 'fighter_b': fighterB,
+      if (rowid != null) 'rowid': rowid,
+    });
+  }
+
+  RivalriesCompanion copyWith({
+    Value<String>? id,
+    Value<String>? payload,
+    Value<DateTime>? updatedAt,
+    Value<String>? fighterA,
+    Value<String>? fighterB,
+    Value<int>? rowid,
+  }) {
+    return RivalriesCompanion(
+      id: id ?? this.id,
+      payload: payload ?? this.payload,
+      updatedAt: updatedAt ?? this.updatedAt,
+      fighterA: fighterA ?? this.fighterA,
+      fighterB: fighterB ?? this.fighterB,
+      rowid: rowid ?? this.rowid,
+    );
+  }
+
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    if (id.present) {
+      map['id'] = Variable<String>(id.value);
+    }
+    if (payload.present) {
+      map['payload'] = Variable<String>(payload.value);
+    }
+    if (updatedAt.present) {
+      map['updated_at'] = Variable<DateTime>(updatedAt.value);
+    }
+    if (fighterA.present) {
+      map['fighter_a'] = Variable<String>(fighterA.value);
+    }
+    if (fighterB.present) {
+      map['fighter_b'] = Variable<String>(fighterB.value);
+    }
+    if (rowid.present) {
+      map['rowid'] = Variable<int>(rowid.value);
+    }
+    return map;
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('RivalriesCompanion(')
+          ..write('id: $id, ')
+          ..write('payload: $payload, ')
+          ..write('updatedAt: $updatedAt, ')
+          ..write('fighterA: $fighterA, ')
+          ..write('fighterB: $fighterB, ')
+          ..write('rowid: $rowid')
+          ..write(')'))
+        .toString();
+  }
+}
+
+class $OwnedCardsTable extends OwnedCards
+    with TableInfo<$OwnedCardsTable, OwnedCardRow> {
+  @override
+  final GeneratedDatabase attachedDatabase;
+  final String? _alias;
+  $OwnedCardsTable(this.attachedDatabase, [this._alias]);
+  static const VerificationMeta _idMeta = const VerificationMeta('id');
+  @override
+  late final GeneratedColumn<String> id = GeneratedColumn<String>(
+    'id',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _ownerIdMeta = const VerificationMeta(
+    'ownerId',
+  );
+  @override
+  late final GeneratedColumn<String> ownerId = GeneratedColumn<String>(
+    'owner_id',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _cardIdMeta = const VerificationMeta('cardId');
+  @override
+  late final GeneratedColumn<String> cardId = GeneratedColumn<String>(
+    'card_id',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _variantIdMeta = const VerificationMeta(
+    'variantId',
+  );
+  @override
+  late final GeneratedColumn<String> variantId = GeneratedColumn<String>(
+    'variant_id',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _payloadMeta = const VerificationMeta(
+    'payload',
+  );
+  @override
+  late final GeneratedColumn<String> payload = GeneratedColumn<String>(
+    'payload',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  @override
+  List<GeneratedColumn> get $columns => [
+    id,
+    ownerId,
+    cardId,
+    variantId,
+    payload,
+  ];
+  @override
+  String get aliasedName => _alias ?? actualTableName;
+  @override
+  String get actualTableName => $name;
+  static const String $name = 'owned_cards';
+  @override
+  VerificationContext validateIntegrity(
+    Insertable<OwnedCardRow> instance, {
+    bool isInserting = false,
+  }) {
+    final context = VerificationContext();
+    final data = instance.toColumns(true);
+    if (data.containsKey('id')) {
+      context.handle(_idMeta, id.isAcceptableOrUnknown(data['id']!, _idMeta));
+    } else if (isInserting) {
+      context.missing(_idMeta);
+    }
+    if (data.containsKey('owner_id')) {
+      context.handle(
+        _ownerIdMeta,
+        ownerId.isAcceptableOrUnknown(data['owner_id']!, _ownerIdMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_ownerIdMeta);
+    }
+    if (data.containsKey('card_id')) {
+      context.handle(
+        _cardIdMeta,
+        cardId.isAcceptableOrUnknown(data['card_id']!, _cardIdMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_cardIdMeta);
+    }
+    if (data.containsKey('variant_id')) {
+      context.handle(
+        _variantIdMeta,
+        variantId.isAcceptableOrUnknown(data['variant_id']!, _variantIdMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_variantIdMeta);
+    }
+    if (data.containsKey('payload')) {
+      context.handle(
+        _payloadMeta,
+        payload.isAcceptableOrUnknown(data['payload']!, _payloadMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_payloadMeta);
+    }
+    return context;
+  }
+
+  @override
+  Set<GeneratedColumn> get $primaryKey => {id};
+  @override
+  OwnedCardRow map(Map<String, dynamic> data, {String? tablePrefix}) {
+    final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
+    return OwnedCardRow(
+      id: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}id'],
+      )!,
+      ownerId: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}owner_id'],
+      )!,
+      cardId: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}card_id'],
+      )!,
+      variantId: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}variant_id'],
+      )!,
+      payload: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}payload'],
+      )!,
+    );
+  }
+
+  @override
+  $OwnedCardsTable createAlias(String alias) {
+    return $OwnedCardsTable(attachedDatabase, alias);
+  }
+}
+
+class OwnedCardRow extends DataClass implements Insertable<OwnedCardRow> {
+  final String id;
+  final String ownerId;
+  final String cardId;
+  final String variantId;
+  final String payload;
+  const OwnedCardRow({
+    required this.id,
+    required this.ownerId,
+    required this.cardId,
+    required this.variantId,
+    required this.payload,
+  });
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    map['id'] = Variable<String>(id);
+    map['owner_id'] = Variable<String>(ownerId);
+    map['card_id'] = Variable<String>(cardId);
+    map['variant_id'] = Variable<String>(variantId);
+    map['payload'] = Variable<String>(payload);
+    return map;
+  }
+
+  OwnedCardsCompanion toCompanion(bool nullToAbsent) {
+    return OwnedCardsCompanion(
+      id: Value(id),
+      ownerId: Value(ownerId),
+      cardId: Value(cardId),
+      variantId: Value(variantId),
+      payload: Value(payload),
+    );
+  }
+
+  factory OwnedCardRow.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return OwnedCardRow(
+      id: serializer.fromJson<String>(json['id']),
+      ownerId: serializer.fromJson<String>(json['ownerId']),
+      cardId: serializer.fromJson<String>(json['cardId']),
+      variantId: serializer.fromJson<String>(json['variantId']),
+      payload: serializer.fromJson<String>(json['payload']),
+    );
+  }
+  @override
+  Map<String, dynamic> toJson({ValueSerializer? serializer}) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return <String, dynamic>{
+      'id': serializer.toJson<String>(id),
+      'ownerId': serializer.toJson<String>(ownerId),
+      'cardId': serializer.toJson<String>(cardId),
+      'variantId': serializer.toJson<String>(variantId),
+      'payload': serializer.toJson<String>(payload),
+    };
+  }
+
+  OwnedCardRow copyWith({
+    String? id,
+    String? ownerId,
+    String? cardId,
+    String? variantId,
+    String? payload,
+  }) => OwnedCardRow(
+    id: id ?? this.id,
+    ownerId: ownerId ?? this.ownerId,
+    cardId: cardId ?? this.cardId,
+    variantId: variantId ?? this.variantId,
+    payload: payload ?? this.payload,
+  );
+  OwnedCardRow copyWithCompanion(OwnedCardsCompanion data) {
+    return OwnedCardRow(
+      id: data.id.present ? data.id.value : this.id,
+      ownerId: data.ownerId.present ? data.ownerId.value : this.ownerId,
+      cardId: data.cardId.present ? data.cardId.value : this.cardId,
+      variantId: data.variantId.present ? data.variantId.value : this.variantId,
+      payload: data.payload.present ? data.payload.value : this.payload,
+    );
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('OwnedCardRow(')
+          ..write('id: $id, ')
+          ..write('ownerId: $ownerId, ')
+          ..write('cardId: $cardId, ')
+          ..write('variantId: $variantId, ')
+          ..write('payload: $payload')
+          ..write(')'))
+        .toString();
+  }
+
+  @override
+  int get hashCode => Object.hash(id, ownerId, cardId, variantId, payload);
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      (other is OwnedCardRow &&
+          other.id == this.id &&
+          other.ownerId == this.ownerId &&
+          other.cardId == this.cardId &&
+          other.variantId == this.variantId &&
+          other.payload == this.payload);
+}
+
+class OwnedCardsCompanion extends UpdateCompanion<OwnedCardRow> {
+  final Value<String> id;
+  final Value<String> ownerId;
+  final Value<String> cardId;
+  final Value<String> variantId;
+  final Value<String> payload;
+  final Value<int> rowid;
+  const OwnedCardsCompanion({
+    this.id = const Value.absent(),
+    this.ownerId = const Value.absent(),
+    this.cardId = const Value.absent(),
+    this.variantId = const Value.absent(),
+    this.payload = const Value.absent(),
+    this.rowid = const Value.absent(),
+  });
+  OwnedCardsCompanion.insert({
+    required String id,
+    required String ownerId,
+    required String cardId,
+    required String variantId,
+    required String payload,
+    this.rowid = const Value.absent(),
+  }) : id = Value(id),
+       ownerId = Value(ownerId),
+       cardId = Value(cardId),
+       variantId = Value(variantId),
+       payload = Value(payload);
+  static Insertable<OwnedCardRow> custom({
+    Expression<String>? id,
+    Expression<String>? ownerId,
+    Expression<String>? cardId,
+    Expression<String>? variantId,
+    Expression<String>? payload,
+    Expression<int>? rowid,
+  }) {
+    return RawValuesInsertable({
+      if (id != null) 'id': id,
+      if (ownerId != null) 'owner_id': ownerId,
+      if (cardId != null) 'card_id': cardId,
+      if (variantId != null) 'variant_id': variantId,
+      if (payload != null) 'payload': payload,
+      if (rowid != null) 'rowid': rowid,
+    });
+  }
+
+  OwnedCardsCompanion copyWith({
+    Value<String>? id,
+    Value<String>? ownerId,
+    Value<String>? cardId,
+    Value<String>? variantId,
+    Value<String>? payload,
+    Value<int>? rowid,
+  }) {
+    return OwnedCardsCompanion(
+      id: id ?? this.id,
+      ownerId: ownerId ?? this.ownerId,
+      cardId: cardId ?? this.cardId,
+      variantId: variantId ?? this.variantId,
+      payload: payload ?? this.payload,
+      rowid: rowid ?? this.rowid,
+    );
+  }
+
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    if (id.present) {
+      map['id'] = Variable<String>(id.value);
+    }
+    if (ownerId.present) {
+      map['owner_id'] = Variable<String>(ownerId.value);
+    }
+    if (cardId.present) {
+      map['card_id'] = Variable<String>(cardId.value);
+    }
+    if (variantId.present) {
+      map['variant_id'] = Variable<String>(variantId.value);
+    }
+    if (payload.present) {
+      map['payload'] = Variable<String>(payload.value);
+    }
+    if (rowid.present) {
+      map['rowid'] = Variable<int>(rowid.value);
+    }
+    return map;
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('OwnedCardsCompanion(')
+          ..write('id: $id, ')
+          ..write('ownerId: $ownerId, ')
+          ..write('cardId: $cardId, ')
+          ..write('variantId: $variantId, ')
+          ..write('payload: $payload, ')
+          ..write('rowid: $rowid')
+          ..write(')'))
+        .toString();
+  }
+}
+
 class $SyncStateTable extends SyncState
     with TableInfo<$SyncStateTable, SyncStateRow> {
   @override
@@ -2670,6 +3392,8 @@ abstract class _$AppDatabase extends GeneratedDatabase {
   late final $VariantsTable variants = $VariantsTable(this);
   late final $ImagesTable images = $ImagesTable(this);
   late final $EventsTable events = $EventsTable(this);
+  late final $RivalriesTable rivalries = $RivalriesTable(this);
+  late final $OwnedCardsTable ownedCards = $OwnedCardsTable(this);
   late final $SyncStateTable syncState = $SyncStateTable(this);
   @override
   Iterable<TableInfo<Table, Object?>> get allTables =>
@@ -2683,6 +3407,8 @@ abstract class _$AppDatabase extends GeneratedDatabase {
     variants,
     images,
     events,
+    rivalries,
+    ownedCards,
     syncState,
   ];
 }
@@ -4071,6 +4797,417 @@ typedef $$EventsTableProcessedTableManager =
       EventRow,
       PrefetchHooks Function()
     >;
+typedef $$RivalriesTableCreateCompanionBuilder = RivalriesCompanion Function({
+  required String id,
+  required String payload,
+  required DateTime updatedAt,
+  required String fighterA,
+  required String fighterB,
+  Value<int> rowid,
+});
+typedef $$RivalriesTableUpdateCompanionBuilder = RivalriesCompanion Function({
+  Value<String> id,
+  Value<String> payload,
+  Value<DateTime> updatedAt,
+  Value<String> fighterA,
+  Value<String> fighterB,
+  Value<int> rowid,
+});
+
+class $$RivalriesTableFilterComposer
+    extends Composer<_$AppDatabase, $RivalriesTable> {
+  $$RivalriesTableFilterComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnFilters<String> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get payload => $composableBuilder(
+    column: $table.payload,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<DateTime> get updatedAt => $composableBuilder(
+    column: $table.updatedAt,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get fighterA => $composableBuilder(
+    column: $table.fighterA,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get fighterB => $composableBuilder(
+    column: $table.fighterB,
+    builder: (column) => ColumnFilters(column),
+  );
+}
+
+class $$RivalriesTableOrderingComposer
+    extends Composer<_$AppDatabase, $RivalriesTable> {
+  $$RivalriesTableOrderingComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnOrderings<String> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get payload => $composableBuilder(
+    column: $table.payload,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<DateTime> get updatedAt => $composableBuilder(
+    column: $table.updatedAt,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get fighterA => $composableBuilder(
+    column: $table.fighterA,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get fighterB => $composableBuilder(
+    column: $table.fighterB,
+    builder: (column) => ColumnOrderings(column),
+  );
+}
+
+class $$RivalriesTableAnnotationComposer
+    extends Composer<_$AppDatabase, $RivalriesTable> {
+  $$RivalriesTableAnnotationComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  GeneratedColumn<String> get id =>
+      $composableBuilder(column: $table.id, builder: (column) => column);
+
+  GeneratedColumn<String> get payload =>
+      $composableBuilder(column: $table.payload, builder: (column) => column);
+
+  GeneratedColumn<DateTime> get updatedAt =>
+      $composableBuilder(column: $table.updatedAt, builder: (column) => column);
+
+  GeneratedColumn<String> get fighterA =>
+      $composableBuilder(column: $table.fighterA, builder: (column) => column);
+
+  GeneratedColumn<String> get fighterB =>
+      $composableBuilder(column: $table.fighterB, builder: (column) => column);
+}
+
+class $$RivalriesTableTableManager
+    extends
+        RootTableManager<
+          _$AppDatabase,
+          $RivalriesTable,
+          RivalryRow,
+          $$RivalriesTableFilterComposer,
+          $$RivalriesTableOrderingComposer,
+          $$RivalriesTableAnnotationComposer,
+          $$RivalriesTableCreateCompanionBuilder,
+          $$RivalriesTableUpdateCompanionBuilder,
+          (
+            RivalryRow,
+            BaseReferences<_$AppDatabase, $RivalriesTable, RivalryRow>,
+          ),
+          RivalryRow,
+          PrefetchHooks Function()
+        > {
+  $$RivalriesTableTableManager(_$AppDatabase db, $RivalriesTable table)
+    : super(
+        TableManagerState(
+          db: db,
+          table: table,
+          createFilteringComposer: () =>
+              $$RivalriesTableFilterComposer($db: db, $table: table),
+          createOrderingComposer: () =>
+              $$RivalriesTableOrderingComposer($db: db, $table: table),
+          createComputedFieldComposer: () =>
+              $$RivalriesTableAnnotationComposer($db: db, $table: table),
+          updateCompanionCallback:
+              ({
+                Value<String> id = const Value.absent(),
+                Value<String> payload = const Value.absent(),
+                Value<DateTime> updatedAt = const Value.absent(),
+                Value<String> fighterA = const Value.absent(),
+                Value<String> fighterB = const Value.absent(),
+                Value<int> rowid = const Value.absent(),
+              }) => RivalriesCompanion(
+                id: id,
+                payload: payload,
+                updatedAt: updatedAt,
+                fighterA: fighterA,
+                fighterB: fighterB,
+                rowid: rowid,
+              ),
+          createCompanionCallback:
+              ({
+                required String id,
+                required String payload,
+                required DateTime updatedAt,
+                required String fighterA,
+                required String fighterB,
+                Value<int> rowid = const Value.absent(),
+              }) => RivalriesCompanion.insert(
+                id: id,
+                payload: payload,
+                updatedAt: updatedAt,
+                fighterA: fighterA,
+                fighterB: fighterB,
+                rowid: rowid,
+              ),
+          withReferenceMapper: (p0) => p0
+              .map(
+                (e) => (
+                  e.readTable<$RivalriesTable, RivalryRow>(table),
+                  BaseReferences<_$AppDatabase, $RivalriesTable, RivalryRow>(
+                    db,
+                    table,
+                    e,
+                  ),
+                ),
+              )
+              .toList(),
+          prefetchHooksCallback: null,
+        ),
+      );
+}
+
+typedef $$RivalriesTableProcessedTableManager =
+    ProcessedTableManager<
+      _$AppDatabase,
+      $RivalriesTable,
+      RivalryRow,
+      $$RivalriesTableFilterComposer,
+      $$RivalriesTableOrderingComposer,
+      $$RivalriesTableAnnotationComposer,
+      $$RivalriesTableCreateCompanionBuilder,
+      $$RivalriesTableUpdateCompanionBuilder,
+      (RivalryRow, BaseReferences<_$AppDatabase, $RivalriesTable, RivalryRow>),
+      RivalryRow,
+      PrefetchHooks Function()
+    >;
+typedef $$OwnedCardsTableCreateCompanionBuilder = OwnedCardsCompanion Function({
+  required String id,
+  required String ownerId,
+  required String cardId,
+  required String variantId,
+  required String payload,
+  Value<int> rowid,
+});
+typedef $$OwnedCardsTableUpdateCompanionBuilder = OwnedCardsCompanion Function({
+  Value<String> id,
+  Value<String> ownerId,
+  Value<String> cardId,
+  Value<String> variantId,
+  Value<String> payload,
+  Value<int> rowid,
+});
+
+class $$OwnedCardsTableFilterComposer
+    extends Composer<_$AppDatabase, $OwnedCardsTable> {
+  $$OwnedCardsTableFilterComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnFilters<String> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get ownerId => $composableBuilder(
+    column: $table.ownerId,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get cardId => $composableBuilder(
+    column: $table.cardId,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get variantId => $composableBuilder(
+    column: $table.variantId,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get payload => $composableBuilder(
+    column: $table.payload,
+    builder: (column) => ColumnFilters(column),
+  );
+}
+
+class $$OwnedCardsTableOrderingComposer
+    extends Composer<_$AppDatabase, $OwnedCardsTable> {
+  $$OwnedCardsTableOrderingComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnOrderings<String> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get ownerId => $composableBuilder(
+    column: $table.ownerId,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get cardId => $composableBuilder(
+    column: $table.cardId,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get variantId => $composableBuilder(
+    column: $table.variantId,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get payload => $composableBuilder(
+    column: $table.payload,
+    builder: (column) => ColumnOrderings(column),
+  );
+}
+
+class $$OwnedCardsTableAnnotationComposer
+    extends Composer<_$AppDatabase, $OwnedCardsTable> {
+  $$OwnedCardsTableAnnotationComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  GeneratedColumn<String> get id =>
+      $composableBuilder(column: $table.id, builder: (column) => column);
+
+  GeneratedColumn<String> get ownerId =>
+      $composableBuilder(column: $table.ownerId, builder: (column) => column);
+
+  GeneratedColumn<String> get cardId =>
+      $composableBuilder(column: $table.cardId, builder: (column) => column);
+
+  GeneratedColumn<String> get variantId =>
+      $composableBuilder(column: $table.variantId, builder: (column) => column);
+
+  GeneratedColumn<String> get payload =>
+      $composableBuilder(column: $table.payload, builder: (column) => column);
+}
+
+class $$OwnedCardsTableTableManager
+    extends
+        RootTableManager<
+          _$AppDatabase,
+          $OwnedCardsTable,
+          OwnedCardRow,
+          $$OwnedCardsTableFilterComposer,
+          $$OwnedCardsTableOrderingComposer,
+          $$OwnedCardsTableAnnotationComposer,
+          $$OwnedCardsTableCreateCompanionBuilder,
+          $$OwnedCardsTableUpdateCompanionBuilder,
+          (
+            OwnedCardRow,
+            BaseReferences<_$AppDatabase, $OwnedCardsTable, OwnedCardRow>,
+          ),
+          OwnedCardRow,
+          PrefetchHooks Function()
+        > {
+  $$OwnedCardsTableTableManager(_$AppDatabase db, $OwnedCardsTable table)
+    : super(
+        TableManagerState(
+          db: db,
+          table: table,
+          createFilteringComposer: () =>
+              $$OwnedCardsTableFilterComposer($db: db, $table: table),
+          createOrderingComposer: () =>
+              $$OwnedCardsTableOrderingComposer($db: db, $table: table),
+          createComputedFieldComposer: () =>
+              $$OwnedCardsTableAnnotationComposer($db: db, $table: table),
+          updateCompanionCallback:
+              ({
+                Value<String> id = const Value.absent(),
+                Value<String> ownerId = const Value.absent(),
+                Value<String> cardId = const Value.absent(),
+                Value<String> variantId = const Value.absent(),
+                Value<String> payload = const Value.absent(),
+                Value<int> rowid = const Value.absent(),
+              }) => OwnedCardsCompanion(
+                id: id,
+                ownerId: ownerId,
+                cardId: cardId,
+                variantId: variantId,
+                payload: payload,
+                rowid: rowid,
+              ),
+          createCompanionCallback:
+              ({
+                required String id,
+                required String ownerId,
+                required String cardId,
+                required String variantId,
+                required String payload,
+                Value<int> rowid = const Value.absent(),
+              }) => OwnedCardsCompanion.insert(
+                id: id,
+                ownerId: ownerId,
+                cardId: cardId,
+                variantId: variantId,
+                payload: payload,
+                rowid: rowid,
+              ),
+          withReferenceMapper: (p0) => p0
+              .map(
+                (e) => (
+                  e.readTable<$OwnedCardsTable, OwnedCardRow>(table),
+                  BaseReferences<_$AppDatabase, $OwnedCardsTable, OwnedCardRow>(
+                    db,
+                    table,
+                    e,
+                  ),
+                ),
+              )
+              .toList(),
+          prefetchHooksCallback: null,
+        ),
+      );
+}
+
+typedef $$OwnedCardsTableProcessedTableManager =
+    ProcessedTableManager<
+      _$AppDatabase,
+      $OwnedCardsTable,
+      OwnedCardRow,
+      $$OwnedCardsTableFilterComposer,
+      $$OwnedCardsTableOrderingComposer,
+      $$OwnedCardsTableAnnotationComposer,
+      $$OwnedCardsTableCreateCompanionBuilder,
+      $$OwnedCardsTableUpdateCompanionBuilder,
+      (
+        OwnedCardRow,
+        BaseReferences<_$AppDatabase, $OwnedCardsTable, OwnedCardRow>,
+      ),
+      OwnedCardRow,
+      PrefetchHooks Function()
+    >;
 typedef $$SyncStateTableCreateCompanionBuilder = SyncStateCompanion Function({
   required String remoteTable,
   required DateTime lastUpdatedAt,
@@ -4243,6 +5380,10 @@ class $AppDatabaseManager {
       $$ImagesTableTableManager(_db, _db.images);
   $$EventsTableTableManager get events =>
       $$EventsTableTableManager(_db, _db.events);
+  $$RivalriesTableTableManager get rivalries =>
+      $$RivalriesTableTableManager(_db, _db.rivalries);
+  $$OwnedCardsTableTableManager get ownedCards =>
+      $$OwnedCardsTableTableManager(_db, _db.ownedCards);
   $$SyncStateTableTableManager get syncState =>
       $$SyncStateTableTableManager(_db, _db.syncState);
 }

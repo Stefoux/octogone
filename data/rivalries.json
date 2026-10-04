@@ -1,0 +1,2624 @@
+[
+  {
+    "id": "brandon-moreno--deiveson-figueiredo",
+    "a": "brandon-moreno",
+    "b": "deiveson-figueiredo",
+    "nb_combats": 4,
+    "bilan": {
+      "brandon-moreno": 2,
+      "deiveson-figueiredo": 1
+    },
+    "combats": [
+      {
+        "date": "2020-12-12",
+        "evenement": "UFC 256",
+        "vainqueur": null,
+        "methode": "Draw (majority)",
+        "round": 5,
+        "resultat": "nul"
+      },
+      {
+        "date": "2021-06-12",
+        "evenement": "UFC 263",
+        "vainqueur": "brandon-moreno",
+        "methode": "Submission (rear-naked choke)",
+        "round": 3,
+        "resultat": null
+      },
+      {
+        "date": "2022-01-22",
+        "evenement": "UFC 270",
+        "vainqueur": "deiveson-figueiredo",
+        "methode": "Decision (unanimous)",
+        "round": 5,
+        "resultat": null
+      },
+      {
+        "date": "2023-01-21",
+        "evenement": "UFC 283",
+        "vainqueur": "brandon-moreno",
+        "methode": "TKO (doctor stoppage)",
+        "round": 3,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brandon_Moreno",
+      "https://en.wikipedia.org/wiki/Deiveson_Figueiredo"
+    ]
+  },
+  {
+    "id": "alexa-grasso--valentina-shevchenko",
+    "a": "alexa-grasso",
+    "b": "valentina-shevchenko",
+    "nb_combats": 3,
+    "bilan": {
+      "alexa-grasso": 1,
+      "valentina-shevchenko": 1
+    },
+    "combats": [
+      {
+        "date": "2023-03-04",
+        "evenement": "UFC 285",
+        "vainqueur": "alexa-grasso",
+        "methode": "Submission (face crank)",
+        "round": 4,
+        "resultat": null
+      },
+      {
+        "date": "2023-09-16",
+        "evenement": "UFC Fight Night: Grasso vs. Shevchenko 2",
+        "vainqueur": null,
+        "methode": "Draw (split)",
+        "round": 5,
+        "resultat": "nul"
+      },
+      {
+        "date": "2024-09-14",
+        "evenement": "UFC 306",
+        "vainqueur": "valentina-shevchenko",
+        "methode": "Decision (unanimous)",
+        "round": 5,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Alexa_Grasso",
+      "https://en.wikipedia.org/wiki/Valentina_Shevchenko"
+    ]
+  },
+  {
+    "id": "alexander-volkanovski--max-holloway",
+    "a": "alexander-volkanovski",
+    "b": "max-holloway",
+    "nb_combats": 3,
+    "bilan": {
+      "alexander-volkanovski": 3,
+      "max-holloway": 0
+    },
+    "combats": [
+      {
+        "date": "2019-12-14",
+        "evenement": "UFC 245",
+        "vainqueur": "alexander-volkanovski",
+        "methode": "Decision (unanimous)",
+        "round": 5,
+        "resultat": null
+      },
+      {
+        "date": "2020-07-12",
+        "evenement": "UFC 251",
+        "vainqueur": "alexander-volkanovski",
+        "methode": "Decision (split)",
+        "round": 5,
+        "resultat": null
+      },
+      {
+        "date": "2022-07-02",
+        "evenement": "UFC 276",
+        "vainqueur": "alexander-volkanovski",
+        "methode": "Decision (unanimous)",
+        "round": 5,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Alexander_Volkanovski",
+      "https://en.wikipedia.org/wiki/Max_Holloway"
+    ]
+  },
+  {
+    "id": "antonio-rodrigo-nogueira--dan-henderson",
+    "a": "antonio-rodrigo-nogueira",
+    "b": "dan-henderson",
+    "nb_combats": 3,
+    "bilan": {
+      "antonio-rodrigo-nogueira": 2,
+      "dan-henderson": 1
+    },
+    "combats": [
+      {
+        "date": "2000-02-26",
+        "evenement": "Rings: King of Kings 1999 Final",
+        "vainqueur": "dan-henderson",
+        "methode": "Decision (split)",
+        "round": 3,
+        "resultat": null
+      },
+      {
+        "date": "2002-12-23",
+        "evenement": "Pride 24",
+        "vainqueur": "antonio-rodrigo-nogueira",
+        "methode": "Submission (armbar)",
+        "round": 3,
+        "resultat": null
+      },
+      {
+        "date": "2005-04-23",
+        "evenement": "Pride Total Elimination 2005",
+        "vainqueur": "antonio-rodrigo-nogueira",
+        "methode": "Submission (armbar)",
+        "round": 1,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Antônio_Rodrigo_Nogueira",
+      "https://en.wikipedia.org/wiki/Dan_Henderson"
+    ]
+  },
+  {
+    "id": "antonio-rodrigo-nogueira--mauricio-rua",
+    "a": "antonio-rodrigo-nogueira",
+    "b": "mauricio-rua",
+    "nb_combats": 3,
+    "bilan": {
+      "antonio-rodrigo-nogueira": 0,
+      "mauricio-rua": 3
+    },
+    "combats": [
+      {
+        "date": "2005-06-26",
+        "evenement": "PRIDE Critical Countdown 2005",
+        "vainqueur": "mauricio-rua",
+        "methode": "Decision (unanimous)",
+        "round": 3,
+        "resultat": null
+      },
+      {
+        "date": "2015-08-01",
+        "evenement": "UFC 190",
+        "vainqueur": "mauricio-rua",
+        "methode": "Decision (unanimous)",
+        "round": 3,
+        "resultat": null
+      },
+      {
+        "date": "2020-07-26",
+        "evenement": "UFC on ESPN: Whittaker vs. Till",
+        "vainqueur": "mauricio-rua",
+        "methode": "Decision (split)",
+        "round": 3,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Maurício_Rua"
+    ]
+  },
+  {
+    "id": "chuck-liddell--tito-ortiz",
+    "a": "chuck-liddell",
+    "b": "tito-ortiz",
+    "nb_combats": 3,
+    "bilan": {
+      "chuck-liddell": 2,
+      "tito-ortiz": 1
+    },
+    "combats": [
+      {
+        "date": "2004-04-02",
+        "evenement": "UFC 47",
+        "vainqueur": "chuck-liddell",
+        "methode": "KO (punches)",
+        "round": 2,
+        "resultat": null
+      },
+      {
+        "date": "2006-12-30",
+        "evenement": "UFC 66",
+        "vainqueur": "chuck-liddell",
+        "methode": "TKO (punches)",
+        "round": 3,
+        "resultat": null
+      },
+      {
+        "date": "2018-11-24",
+        "evenement": "Golden Boy Promotions: Liddell vs. Ortiz 3",
+        "vainqueur": "tito-ortiz",
+        "methode": "KO (punches)",
+        "round": 1,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chuck_Liddell",
+      "https://en.wikipedia.org/wiki/Tito_Ortiz"
+    ]
+  },
+  {
+    "id": "conor-mcgregor--dustin-poirier",
+    "a": "conor-mcgregor",
+    "b": "dustin-poirier",
+    "nb_combats": 3,
+    "bilan": {
+      "conor-mcgregor": 1,
+      "dustin-poirier": 2
+    },
+    "combats": [
+      {
+        "date": "2014-09-27",
+        "evenement": "UFC 178",
+        "vainqueur": "conor-mcgregor",
+        "methode": "TKO (punches)",
+        "round": 1,
+        "resultat": null
+      },
+      {
+        "date": "2021-01-24",
+        "evenement": "UFC 257",
+        "vainqueur": "dustin-poirier",
+        "methode": "TKO (punches)",
+        "round": 2,
+        "resultat": null
+      },
+      {
+        "date": "2021-07-10",
+        "evenement": "UFC 264",
+        "vainqueur": "dustin-poirier",
+        "methode": "TKO (doctor stoppage)",
+        "round": 1,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Conor_McGregor",
+      "https://en.wikipedia.org/wiki/Dustin_Poirier"
+    ]
+  },
+  {
+    "id": "daniel-cormier--stipe-miocic",
+    "a": "daniel-cormier",
+    "b": "stipe-miocic",
+    "nb_combats": 3,
+    "bilan": {
+      "daniel-cormier": 1,
+      "stipe-miocic": 2
+    },
+    "combats": [
+      {
+        "date": "2018-07-07",
+        "evenement": "UFC 226",
+        "vainqueur": "daniel-cormier",
+        "methode": "KO (punches)",
+        "round": 1,
+        "resultat": null
+      },
+      {
+        "date": "2019-08-17",
+        "evenement": "UFC 241",
+        "vainqueur": "stipe-miocic",
+        "methode": "TKO (punches)",
+        "round": 4,
+        "resultat": null
+      },
+      {
+        "date": "2020-08-15",
+        "evenement": "UFC 252",
+        "vainqueur": "stipe-miocic",
+        "methode": "Decision (unanimous)",
+        "round": 5,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Daniel_Cormier",
+      "https://en.wikipedia.org/wiki/Stipe_Miocic"
+    ]
+  },
+  {
+    "id": "dominick-cruz--urijah-faber",
+    "a": "dominick-cruz",
+    "b": "urijah-faber",
+    "nb_combats": 3,
+    "bilan": {
+      "dominick-cruz": 2,
+      "urijah-faber": 1
+    },
+    "combats": [
+      {
+        "date": "2007-03-24",
+        "evenement": "WEC 26",
+        "vainqueur": "urijah-faber",
+        "methode": "Submission (guillotine choke)",
+        "round": 1,
+        "resultat": null
+      },
+      {
+        "date": "2011-07-02",
+        "evenement": "UFC 132",
+        "vainqueur": "dominick-cruz",
+        "methode": "Decision (unanimous)",
+        "round": 5,
+        "resultat": null
+      },
+      {
+        "date": "2016-06-04",
+        "evenement": "UFC 199",
+        "vainqueur": "dominick-cruz",
+        "methode": "Decision (unanimous)",
+        "round": 5,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dominick_Cruz",
+      "https://en.wikipedia.org/wiki/Urijah_Faber"
+    ]
+  },
+  {
+    "id": "dustin-poirier--max-holloway",
+    "a": "dustin-poirier",
+    "b": "max-holloway",
+    "nb_combats": 3,
+    "bilan": {
+      "dustin-poirier": 2,
+      "max-holloway": 1
+    },
+    "combats": [
+      {
+        "date": "2012-02-04",
+        "evenement": "UFC 143",
+        "vainqueur": "dustin-poirier",
+        "methode": "Submission (triangle armbar)",
+        "round": 1,
+        "resultat": null
+      },
+      {
+        "date": "2019-04-13",
+        "evenement": "UFC 236",
+        "vainqueur": "dustin-poirier",
+        "methode": "Decision (unanimous)",
+        "round": 5,
+        "resultat": null
+      },
+      {
+        "date": "2025-07-19",
+        "evenement": "UFC 318",
+        "vainqueur": "max-holloway",
+        "methode": "Decision (unanimous)",
+        "round": 5,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dustin_Poirier",
+      "https://en.wikipedia.org/wiki/Max_Holloway"
+    ]
+  },
+  {
+    "id": "forrest-griffin--tito-ortiz",
+    "a": "forrest-griffin",
+    "b": "tito-ortiz",
+    "nb_combats": 3,
+    "bilan": {
+      "forrest-griffin": 2,
+      "tito-ortiz": 1
+    },
+    "combats": [
+      {
+        "date": "2006-04-15",
+        "evenement": "UFC 59",
+        "vainqueur": "tito-ortiz",
+        "methode": "Decision (split)",
+        "round": 3,
+        "resultat": null
+      },
+      {
+        "date": "2009-11-21",
+        "evenement": "UFC 106",
+        "vainqueur": "forrest-griffin",
+        "methode": "Decision (split)",
+        "round": 3,
+        "resultat": null
+      },
+      {
+        "date": "2012-07-07",
+        "evenement": "UFC 148",
+        "vainqueur": "forrest-griffin",
+        "methode": "Decision (unanimous)",
+        "round": 3,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Forrest_Griffin",
+      "https://en.wikipedia.org/wiki/Tito_Ortiz"
+    ]
+  },
+  {
+    "id": "georges-st-pierre--matt-hughes",
+    "a": "georges-st-pierre",
+    "b": "matt-hughes",
+    "nb_combats": 3,
+    "bilan": {
+      "georges-st-pierre": 2,
+      "matt-hughes": 1
+    },
+    "combats": [
+      {
+        "date": "2004-10-22",
+        "evenement": "UFC 50",
+        "vainqueur": "matt-hughes",
+        "methode": "Submission (armbar)",
+        "round": 1,
+        "resultat": null
+      },
+      {
+        "date": "2006-11-18",
+        "evenement": "UFC 65",
+        "vainqueur": "georges-st-pierre",
+        "methode": "TKO (head kick and punches)",
+        "round": 2,
+        "resultat": null
+      },
+      {
+        "date": "2007-12-29",
+        "evenement": "UFC 79",
+        "vainqueur": "georges-st-pierre",
+        "methode": "Submission (armbar)",
+        "round": 2,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Georges_St-Pierre",
+      "https://en.wikipedia.org/wiki/Matt_Hughes_(fighter)"
+    ]
+  },
+  {
+    "id": "kamaru-usman--leon-edwards",
+    "a": "kamaru-usman",
+    "b": "leon-edwards",
+    "nb_combats": 3,
+    "bilan": {
+      "kamaru-usman": 1,
+      "leon-edwards": 2
+    },
+    "combats": [
+      {
+        "date": "2015-12-19",
+        "evenement": "UFC on Fox: dos Anjos vs. Cowboy 2",
+        "vainqueur": "kamaru-usman",
+        "methode": "Decision (unanimous)",
+        "round": 3,
+        "resultat": null
+      },
+      {
+        "date": "2022-08-20",
+        "evenement": "UFC 278",
+        "vainqueur": "leon-edwards",
+        "methode": "KO (head kick)",
+        "round": 5,
+        "resultat": null
+      },
+      {
+        "date": "2023-03-18",
+        "evenement": "UFC 286",
+        "vainqueur": "leon-edwards",
+        "methode": "Decision (majority)",
+        "round": 5,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kamaru_Usman",
+      "https://en.wikipedia.org/wiki/Leon_Edwards"
+    ]
+  },
+  {
+    "id": "ken-shamrock--royce-gracie",
+    "a": "ken-shamrock",
+    "b": "royce-gracie",
+    "nb_combats": 3,
+    "bilan": {
+      "ken-shamrock": 0,
+      "royce-gracie": 2
+    },
+    "combats": [
+      {
+        "date": "1993-11-12",
+        "evenement": "UFC 1",
+        "vainqueur": "royce-gracie",
+        "methode": "Submission (rear-naked choke)",
+        "round": 1,
+        "resultat": null
+      },
+      {
+        "date": "1995-04-07",
+        "evenement": "UFC 5",
+        "vainqueur": null,
+        "methode": "Draw (time limit)",
+        "round": 1,
+        "resultat": "nul"
+      },
+      {
+        "date": "2016-02-19",
+        "evenement": "Bellator 149",
+        "vainqueur": "royce-gracie",
+        "methode": "TKO (knee and punches)",
+        "round": 1,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ken_Shamrock",
+      "https://en.wikipedia.org/wiki/Royce_Gracie"
+    ]
+  },
+  {
+    "id": "ken-shamrock--tito-ortiz",
+    "a": "ken-shamrock",
+    "b": "tito-ortiz",
+    "nb_combats": 3,
+    "bilan": {
+      "ken-shamrock": 0,
+      "tito-ortiz": 3
+    },
+    "combats": [
+      {
+        "date": "2002-11-22",
+        "evenement": "UFC 40",
+        "vainqueur": "tito-ortiz",
+        "methode": "TKO (corner stoppage)",
+        "round": 3,
+        "resultat": null
+      },
+      {
+        "date": "2006-07-08",
+        "evenement": "UFC 61: Bitter Rivals",
+        "vainqueur": "tito-ortiz",
+        "methode": "TKO (elbows)",
+        "round": 1,
+        "resultat": null
+      },
+      {
+        "date": "2006-10-10",
+        "evenement": "UFC: Ortiz vs. Shamrock 3: The Final Chapter",
+        "vainqueur": "tito-ortiz",
+        "methode": "TKO (punches)",
+        "round": 1,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ken_Shamrock",
+      "https://en.wikipedia.org/wiki/Tito_Ortiz"
+    ]
+  },
+  {
+    "id": "alex-pereira--israel-adesanya",
+    "a": "alex-pereira",
+    "b": "israel-adesanya",
+    "nb_combats": 2,
+    "bilan": {
+      "alex-pereira": 1,
+      "israel-adesanya": 1
+    },
+    "combats": [
+      {
+        "date": "2022-11-12",
+        "evenement": "UFC 281",
+        "vainqueur": "alex-pereira",
+        "methode": "TKO (punches)",
+        "round": 5,
+        "resultat": null
+      },
+      {
+        "date": "2023-04-08",
+        "evenement": "UFC 287",
+        "vainqueur": "israel-adesanya",
+        "methode": "KO (punches)",
+        "round": 2,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Alex_Pereira",
+      "https://en.wikipedia.org/wiki/Israel_Adesanya"
+    ]
+  },
+  {
+    "id": "alex-pereira--jiri-prochazka",
+    "a": "alex-pereira",
+    "b": "jiri-prochazka",
+    "nb_combats": 2,
+    "bilan": {
+      "alex-pereira": 2,
+      "jiri-prochazka": 0
+    },
+    "combats": [
+      {
+        "date": "2023-11-11",
+        "evenement": "UFC 295",
+        "vainqueur": "alex-pereira",
+        "methode": "TKO (elbows)",
+        "round": 2,
+        "resultat": null
+      },
+      {
+        "date": "2024-06-29",
+        "evenement": "UFC 303",
+        "vainqueur": "alex-pereira",
+        "methode": "TKO (head kick and punches)",
+        "round": 2,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Alex_Pereira",
+      "https://en.wikipedia.org/wiki/Jiří_Procházka"
+    ]
+  },
+  {
+    "id": "alex-pereira--magomed-ankalaev",
+    "a": "alex-pereira",
+    "b": "magomed-ankalaev",
+    "nb_combats": 2,
+    "bilan": {
+      "alex-pereira": 1,
+      "magomed-ankalaev": 1
+    },
+    "combats": [
+      {
+        "date": "2025-03-08",
+        "evenement": "UFC 313",
+        "vainqueur": "magomed-ankalaev",
+        "methode": "Decision (unanimous)",
+        "round": 5,
+        "resultat": null
+      },
+      {
+        "date": "2025-10-04",
+        "evenement": "UFC 320",
+        "vainqueur": "alex-pereira",
+        "methode": "TKO (punches and elbows)",
+        "round": 1,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Alex_Pereira",
+      "https://en.wikipedia.org/wiki/Magomed_Ankalaev"
+    ]
+  },
+  {
+    "id": "alexa-grasso--maycee-barber",
+    "a": "alexa-grasso",
+    "b": "maycee-barber",
+    "nb_combats": 2,
+    "bilan": {
+      "alexa-grasso": 2,
+      "maycee-barber": 0
+    },
+    "combats": [
+      {
+        "date": "2021-02-13",
+        "evenement": "UFC 258",
+        "vainqueur": "alexa-grasso",
+        "methode": "Decision (unanimous)",
+        "round": 3,
+        "resultat": null
+      },
+      {
+        "date": "2026-03-28",
+        "evenement": "UFC Fight Night: Adesanya vs. Pyfer",
+        "vainqueur": "alexa-grasso",
+        "methode": "KO (punch)",
+        "round": 1,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Alexa_Grasso",
+      "https://en.wikipedia.org/wiki/Maycee_Barber"
+    ]
+  },
+  {
+    "id": "alexander-volkanovski--diego-lopes",
+    "a": "alexander-volkanovski",
+    "b": "diego-lopes",
+    "nb_combats": 2,
+    "bilan": {
+      "alexander-volkanovski": 2,
+      "diego-lopes": 0
+    },
+    "combats": [
+      {
+        "date": "2025-04-12",
+        "evenement": "UFC 314",
+        "vainqueur": "alexander-volkanovski",
+        "methode": "Decision (unanimous)",
+        "round": 5,
+        "resultat": null
+      },
+      {
+        "date": "2026-02-01",
+        "evenement": "UFC 325",
+        "vainqueur": "alexander-volkanovski",
+        "methode": "Decision (unanimous)",
+        "round": 5,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Alexander_Volkanovski",
+      "https://en.wikipedia.org/wiki/Diego_Lopes_(fighter)"
+    ]
+  },
+  {
+    "id": "alexander-volkanovski--islam-makhachev",
+    "a": "alexander-volkanovski",
+    "b": "islam-makhachev",
+    "nb_combats": 2,
+    "bilan": {
+      "alexander-volkanovski": 0,
+      "islam-makhachev": 2
+    },
+    "combats": [
+      {
+        "date": "2023-02-12",
+        "evenement": "UFC 284",
+        "vainqueur": "islam-makhachev",
+        "methode": "Decision (unanimous)",
+        "round": 5,
+        "resultat": null
+      },
+      {
+        "date": "2023-10-21",
+        "evenement": "UFC 294",
+        "vainqueur": "islam-makhachev",
+        "methode": "KO (head kick and punches)",
+        "round": 1,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Alexander_Volkanovski",
+      "https://en.wikipedia.org/wiki/Islam_Makhachev"
+    ]
+  },
+  {
+    "id": "alexander-volkov--ciryl-gane",
+    "a": "alexander-volkov",
+    "b": "ciryl-gane",
+    "nb_combats": 2,
+    "bilan": {
+      "alexander-volkov": 0,
+      "ciryl-gane": 2
+    },
+    "combats": [
+      {
+        "date": "2021-06-26",
+        "evenement": "UFC Fight Night: Gane vs. Volkov",
+        "vainqueur": "ciryl-gane",
+        "methode": "Decision (unanimous)",
+        "round": 5,
+        "resultat": null
+      },
+      {
+        "date": "2024-12-07",
+        "evenement": "UFC 310",
+        "vainqueur": "ciryl-gane",
+        "methode": "Decision (split)",
+        "round": 3,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Alexander_Volkov_(fighter)",
+      "https://en.wikipedia.org/wiki/Ciryl_Gane"
+    ]
+  },
+  {
+    "id": "alexandr-romanov--rodrigo-nascimento",
+    "a": "alexandr-romanov",
+    "b": "rodrigo-nascimento",
+    "nb_combats": 2,
+    "bilan": {
+      "alexandr-romanov": 2,
+      "rodrigo-nascimento": 0
+    },
+    "combats": [
+      {
+        "date": "2024-11-02",
+        "evenement": "UFC Fight Night: Moreno vs. Albazi",
+        "vainqueur": "alexandr-romanov",
+        "methode": "Decision (unanimous)",
+        "round": 3,
+        "resultat": null
+      },
+      {
+        "date": "2026-04-11",
+        "evenement": "PFL Chicago: Pettis vs. McKee",
+        "vainqueur": "alexandr-romanov",
+        "methode": "Submission (guillotine choke)",
+        "round": 2,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Alexander_Romanov_(fighter)"
+    ]
+  },
+  {
+    "id": "alexandre-pantoja--brandon-moreno",
+    "a": "alexandre-pantoja",
+    "b": "brandon-moreno",
+    "nb_combats": 2,
+    "bilan": {
+      "alexandre-pantoja": 2,
+      "brandon-moreno": 0
+    },
+    "combats": [
+      {
+        "date": "2018-05-19",
+        "evenement": "UFC Fight Night: Maia vs. Usman",
+        "vainqueur": "alexandre-pantoja",
+        "methode": "Decision (unanimous)",
+        "round": 3,
+        "resultat": null
+      },
+      {
+        "date": "2023-07-08",
+        "evenement": "UFC 290",
+        "vainqueur": "alexandre-pantoja",
+        "methode": "Decision (split)",
+        "round": 5,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Alexandre_Pantoja",
+      "https://en.wikipedia.org/wiki/Brandon_Moreno"
+    ]
+  },
+  {
+    "id": "alexandre-pantoja--brandon-royval",
+    "a": "alexandre-pantoja",
+    "b": "brandon-royval",
+    "nb_combats": 2,
+    "bilan": {
+      "alexandre-pantoja": 2,
+      "brandon-royval": 0
+    },
+    "combats": [
+      {
+        "date": "2021-08-21",
+        "evenement": "UFC on ESPN: Cannonier vs. Gastelum",
+        "vainqueur": "alexandre-pantoja",
+        "methode": "Submission (rear-naked choke)",
+        "round": 2,
+        "resultat": null
+      },
+      {
+        "date": "2023-12-16",
+        "evenement": "UFC 296",
+        "vainqueur": "alexandre-pantoja",
+        "methode": "Decision (unanimous)",
+        "round": 5,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Alexandre_Pantoja",
+      "https://en.wikipedia.org/wiki/Brandon_Royval"
+    ]
+  },
+  {
+    "id": "alexandre-pantoja--joshua-van",
+    "a": "alexandre-pantoja",
+    "b": "joshua-van",
+    "nb_combats": 2,
+    "bilan": {
+      "alexandre-pantoja": 0,
+      "joshua-van": 2
+    },
+    "combats": [
+      {
+        "date": "2025-12-06",
+        "evenement": "UFC 323",
+        "vainqueur": "joshua-van",
+        "methode": "TKO (arm injury)",
+        "round": 1,
+        "resultat": null
+      },
+      {
+        "date": "2026-09-19",
+        "evenement": "UFC 331",
+        "vainqueur": "joshua-van",
+        "methode": "Decision (unanimous)",
+        "round": 5,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Alexandre_Pantoja",
+      "https://en.wikipedia.org/wiki/Joshua_Van"
+    ]
+  },
+  {
+    "id": "aljamain-sterling--petr-yan",
+    "a": "aljamain-sterling",
+    "b": "petr-yan",
+    "nb_combats": 2,
+    "bilan": {
+      "aljamain-sterling": 2,
+      "petr-yan": 0
+    },
+    "combats": [
+      {
+        "date": "2021-03-06",
+        "evenement": "UFC 259",
+        "vainqueur": "aljamain-sterling",
+        "methode": "DQ (illegal knee)",
+        "round": 4,
+        "resultat": null
+      },
+      {
+        "date": "2022-04-09",
+        "evenement": "UFC 273",
+        "vainqueur": "aljamain-sterling",
+        "methode": "Decision (split)",
+        "round": 5,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Aljamain_Sterling",
+      "https://en.wikipedia.org/wiki/Petr_Yan"
+    ]
+  },
+  {
+    "id": "amanda-nunes--julianna-pena",
+    "a": "amanda-nunes",
+    "b": "julianna-pena",
+    "nb_combats": 2,
+    "bilan": {
+      "amanda-nunes": 1,
+      "julianna-pena": 1
+    },
+    "combats": [
+      {
+        "date": "2021-12-11",
+        "evenement": "UFC 269",
+        "vainqueur": "julianna-pena",
+        "methode": "Submission (rear-naked choke)",
+        "round": 2,
+        "resultat": null
+      },
+      {
+        "date": "2022-07-30",
+        "evenement": "UFC 277",
+        "vainqueur": "amanda-nunes",
+        "methode": "Decision (unanimous)",
+        "round": 5,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Amanda_Nunes",
+      "https://en.wikipedia.org/wiki/Julianna_Peña"
+    ]
+  },
+  {
+    "id": "amanda-nunes--valentina-shevchenko",
+    "a": "amanda-nunes",
+    "b": "valentina-shevchenko",
+    "nb_combats": 2,
+    "bilan": {
+      "amanda-nunes": 2,
+      "valentina-shevchenko": 0
+    },
+    "combats": [
+      {
+        "date": "2016-03-05",
+        "evenement": "UFC 196",
+        "vainqueur": "amanda-nunes",
+        "methode": "Decision (unanimous)",
+        "round": 3,
+        "resultat": null
+      },
+      {
+        "date": "2017-09-09",
+        "evenement": "UFC 215",
+        "vainqueur": "amanda-nunes",
+        "methode": "Decision (split)",
+        "round": 5,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Amanda_Nunes",
+      "https://en.wikipedia.org/wiki/Valentina_Shevchenko"
+    ]
+  },
+  {
+    "id": "anderson-silva--chael-sonnen",
+    "a": "anderson-silva",
+    "b": "chael-sonnen",
+    "nb_combats": 2,
+    "bilan": {
+      "anderson-silva": 2,
+      "chael-sonnen": 0
+    },
+    "combats": [
+      {
+        "date": "2010-08-07",
+        "evenement": "UFC 117",
+        "vainqueur": "anderson-silva",
+        "methode": "Submission (triangle choke)",
+        "round": 5,
+        "resultat": null
+      },
+      {
+        "date": "2012-07-07",
+        "evenement": "UFC 148",
+        "vainqueur": "anderson-silva",
+        "methode": "TKO (knee to the body and punches)",
+        "round": 2,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Anderson_Silva",
+      "https://en.wikipedia.org/wiki/Chael_Sonnen"
+    ]
+  },
+  {
+    "id": "anderson-silva--chris-weidman",
+    "a": "anderson-silva",
+    "b": "chris-weidman",
+    "nb_combats": 2,
+    "bilan": {
+      "anderson-silva": 0,
+      "chris-weidman": 2
+    },
+    "combats": [
+      {
+        "date": "2013-07-06",
+        "evenement": "UFC 162",
+        "vainqueur": "chris-weidman",
+        "methode": "KO (punches)",
+        "round": 2,
+        "resultat": null
+      },
+      {
+        "date": "2013-12-28",
+        "evenement": "UFC 168",
+        "vainqueur": "chris-weidman",
+        "methode": "TKO (leg injury)",
+        "round": 2,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Anderson_Silva",
+      "https://en.wikipedia.org/wiki/Chris_Weidman"
+    ]
+  },
+  {
+    "id": "anderson-silva--rich-franklin",
+    "a": "anderson-silva",
+    "b": "rich-franklin",
+    "nb_combats": 2,
+    "bilan": {
+      "anderson-silva": 2,
+      "rich-franklin": 0
+    },
+    "combats": [
+      {
+        "date": "2006-10-14",
+        "evenement": "UFC 64",
+        "vainqueur": "anderson-silva",
+        "methode": "KO (knee)",
+        "round": 1,
+        "resultat": null
+      },
+      {
+        "date": "2007-10-20",
+        "evenement": "UFC 77",
+        "vainqueur": "anderson-silva",
+        "methode": "TKO (knees)",
+        "round": 2,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Anderson_Silva",
+      "https://en.wikipedia.org/wiki/Rich_Franklin"
+    ]
+  },
+  {
+    "id": "antonio-rodrigo-nogueira--frank-mir",
+    "a": "antonio-rodrigo-nogueira",
+    "b": "frank-mir",
+    "nb_combats": 2,
+    "bilan": {
+      "antonio-rodrigo-nogueira": 0,
+      "frank-mir": 2
+    },
+    "combats": [
+      {
+        "date": "2008-12-27",
+        "evenement": "UFC 92",
+        "vainqueur": "frank-mir",
+        "methode": "TKO (punches)",
+        "round": 2,
+        "resultat": null
+      },
+      {
+        "date": "2011-12-10",
+        "evenement": "UFC 140",
+        "vainqueur": "frank-mir",
+        "methode": "Technical Submission (kimura)",
+        "round": 1,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Antônio_Rodrigo_Nogueira",
+      "https://en.wikipedia.org/wiki/Frank_Mir"
+    ]
+  },
+  {
+    "id": "bas-rutten--frank-shamrock",
+    "a": "bas-rutten",
+    "b": "frank-shamrock",
+    "nb_combats": 2,
+    "bilan": {
+      "bas-rutten": 1,
+      "frank-shamrock": 1
+    },
+    "combats": [
+      {
+        "date": "1994-12-16",
+        "evenement": "King of Pancrase tournament opening round",
+        "vainqueur": "frank-shamrock",
+        "methode": "Decision (majority)",
+        "round": 1,
+        "resultat": null
+      },
+      {
+        "date": "1996-05-16",
+        "evenement": "Pancrase: Truth 5",
+        "vainqueur": "bas-rutten",
+        "methode": "TKO (doctor stoppage)",
+        "round": 1,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bas_Rutten",
+      "https://en.wikipedia.org/wiki/Frank_Shamrock"
+    ]
+  },
+  {
+    "id": "belal-muhammad--leon-edwards",
+    "a": "belal-muhammad",
+    "b": "leon-edwards",
+    "nb_combats": 2,
+    "bilan": {
+      "belal-muhammad": 1,
+      "leon-edwards": 0
+    },
+    "combats": [
+      {
+        "date": "2021-03-13",
+        "evenement": "UFC Fight Night: Edwards vs. Muhammad",
+        "vainqueur": null,
+        "methode": "NC (accidental eye poke)",
+        "round": 2,
+        "resultat": "sans_decision"
+      },
+      {
+        "date": "2024-07-27",
+        "evenement": "UFC 304",
+        "vainqueur": "belal-muhammad",
+        "methode": "Decision (unanimous)",
+        "round": 5,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Belal_Muhammad",
+      "https://en.wikipedia.org/wiki/Leon_Edwards"
+    ]
+  },
+  {
+    "id": "belal-muhammad--vicente-luque",
+    "a": "belal-muhammad",
+    "b": "vicente-luque",
+    "nb_combats": 2,
+    "bilan": {
+      "belal-muhammad": 1,
+      "vicente-luque": 1
+    },
+    "combats": [
+      {
+        "date": "2016-11-12",
+        "evenement": "UFC 205",
+        "vainqueur": "vicente-luque",
+        "methode": "KO (punches)",
+        "round": 1,
+        "resultat": null
+      },
+      {
+        "date": "2022-04-16",
+        "evenement": "UFC on ESPN: Luque vs. Muhammad 2",
+        "vainqueur": "belal-muhammad",
+        "methode": "Decision (unanimous)",
+        "round": 5,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Belal_Muhammad",
+      "https://en.wikipedia.org/wiki/Vicente_Luque"
+    ]
+  },
+  {
+    "id": "brandon-moreno--brandon-royval",
+    "a": "brandon-moreno",
+    "b": "brandon-royval",
+    "nb_combats": 2,
+    "bilan": {
+      "brandon-moreno": 1,
+      "brandon-royval": 1
+    },
+    "combats": [
+      {
+        "date": "2020-11-21",
+        "evenement": "UFC 255",
+        "vainqueur": "brandon-moreno",
+        "methode": "TKO (punches)",
+        "round": 1,
+        "resultat": null
+      },
+      {
+        "date": "2024-02-24",
+        "evenement": "UFC Fight Night: Moreno vs. Royval 2",
+        "vainqueur": "brandon-royval",
+        "methode": "Decision (split)",
+        "round": 5,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brandon_Moreno",
+      "https://en.wikipedia.org/wiki/Brandon_Royval"
+    ]
+  },
+  {
+    "id": "brandon-moreno--kai-kara-france",
+    "a": "brandon-moreno",
+    "b": "kai-kara-france",
+    "nb_combats": 2,
+    "bilan": {
+      "brandon-moreno": 2,
+      "kai-kara-france": 0
+    },
+    "combats": [
+      {
+        "date": "2019-12-14",
+        "evenement": "UFC 245",
+        "vainqueur": "brandon-moreno",
+        "methode": "Decision (unanimous)",
+        "round": 3,
+        "resultat": null
+      },
+      {
+        "date": "2022-07-30",
+        "evenement": "UFC 277",
+        "vainqueur": "brandon-moreno",
+        "methode": "TKO (body kick and punches)",
+        "round": 3,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brandon_Moreno",
+      "https://en.wikipedia.org/wiki/Kai_Kara-France"
+    ]
+  },
+  {
+    "id": "brian-ortega--yair-rodriguez",
+    "a": "brian-ortega",
+    "b": "yair-rodriguez",
+    "nb_combats": 2,
+    "bilan": {
+      "brian-ortega": 1,
+      "yair-rodriguez": 1
+    },
+    "combats": [
+      {
+        "date": "2022-07-16",
+        "evenement": "UFC on ABC: Ortega vs. Rodríguez",
+        "vainqueur": "yair-rodriguez",
+        "methode": "TKO (shoulder injury)",
+        "round": 1,
+        "resultat": null
+      },
+      {
+        "date": "2024-02-24",
+        "evenement": "UFC Fight Night: Moreno vs. Royval 2",
+        "vainqueur": "brian-ortega",
+        "methode": "Submission (arm-triangle choke)",
+        "round": 3,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brian_Ortega",
+      "https://en.wikipedia.org/wiki/Yair_Rodríguez"
+    ]
+  },
+  {
+    "id": "brock-lesnar--frank-mir",
+    "a": "brock-lesnar",
+    "b": "frank-mir",
+    "nb_combats": 2,
+    "bilan": {
+      "brock-lesnar": 1,
+      "frank-mir": 1
+    },
+    "combats": [
+      {
+        "date": "2008-02-02",
+        "evenement": "UFC 81",
+        "vainqueur": "frank-mir",
+        "methode": "Submission (kneebar)",
+        "round": 1,
+        "resultat": null
+      },
+      {
+        "date": "2009-07-11",
+        "evenement": "UFC 100",
+        "vainqueur": "brock-lesnar",
+        "methode": "TKO (punches)",
+        "round": 2,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brock_Lesnar",
+      "https://en.wikipedia.org/wiki/Frank_Mir"
+    ]
+  },
+  {
+    "id": "carla-esparza--rose-namajunas",
+    "a": "carla-esparza",
+    "b": "rose-namajunas",
+    "nb_combats": 2,
+    "bilan": {
+      "carla-esparza": 2,
+      "rose-namajunas": 0
+    },
+    "combats": [
+      {
+        "date": "2014-12-12",
+        "evenement": "The Ultimate Fighter: A Champion Will Be Crowned Finale",
+        "vainqueur": "carla-esparza",
+        "methode": "Submission (rear-naked choke)",
+        "round": 3,
+        "resultat": null
+      },
+      {
+        "date": "2022-05-07",
+        "evenement": "UFC 274",
+        "vainqueur": "carla-esparza",
+        "methode": "Decision (split)",
+        "round": 5,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Carla_Esparza",
+      "https://en.wikipedia.org/wiki/Rose_Namajunas"
+    ]
+  },
+  {
+    "id": "charles-oliveira--max-holloway",
+    "a": "charles-oliveira",
+    "b": "max-holloway",
+    "nb_combats": 2,
+    "bilan": {
+      "charles-oliveira": 1,
+      "max-holloway": 1
+    },
+    "combats": [
+      {
+        "date": "2015-08-23",
+        "evenement": "UFC Fight Night: Holloway vs. Oliveira",
+        "vainqueur": "max-holloway",
+        "methode": "TKO (neck injury)",
+        "round": 1,
+        "resultat": null
+      },
+      {
+        "date": "2026-03-07",
+        "evenement": "UFC 326",
+        "vainqueur": "charles-oliveira",
+        "methode": "Decision (unanimous)",
+        "round": 5,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Charles_Oliveira",
+      "https://en.wikipedia.org/wiki/Max_Holloway"
+    ]
+  },
+  {
+    "id": "charles-oliveira--michael-chandler",
+    "a": "charles-oliveira",
+    "b": "michael-chandler",
+    "nb_combats": 2,
+    "bilan": {
+      "charles-oliveira": 2,
+      "michael-chandler": 0
+    },
+    "combats": [
+      {
+        "date": "2021-05-15",
+        "evenement": "UFC 262",
+        "vainqueur": "charles-oliveira",
+        "methode": "TKO (punches)",
+        "round": 2,
+        "resultat": null
+      },
+      {
+        "date": "2024-11-16",
+        "evenement": "UFC 309",
+        "vainqueur": "charles-oliveira",
+        "methode": "Decision (unanimous)",
+        "round": 5,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Charles_Oliveira",
+      "https://en.wikipedia.org/wiki/Michael_Chandler"
+    ]
+  },
+  {
+    "id": "colby-covington--kamaru-usman",
+    "a": "colby-covington",
+    "b": "kamaru-usman",
+    "nb_combats": 2,
+    "bilan": {
+      "colby-covington": 0,
+      "kamaru-usman": 2
+    },
+    "combats": [
+      {
+        "date": "2019-12-14",
+        "evenement": "UFC 245",
+        "vainqueur": "kamaru-usman",
+        "methode": "TKO (punches)",
+        "round": 5,
+        "resultat": null
+      },
+      {
+        "date": "2021-11-06",
+        "evenement": "UFC 268",
+        "vainqueur": "kamaru-usman",
+        "methode": "Decision (unanimous)",
+        "round": 5,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Colby_Covington",
+      "https://en.wikipedia.org/wiki/Kamaru_Usman"
+    ]
+  },
+  {
+    "id": "conor-mcgregor--max-holloway",
+    "a": "conor-mcgregor",
+    "b": "max-holloway",
+    "nb_combats": 2,
+    "bilan": {
+      "conor-mcgregor": 1,
+      "max-holloway": 1
+    },
+    "combats": [
+      {
+        "date": "2013-08-17",
+        "evenement": "UFC Fight Night: Shogun vs. Sonnen",
+        "vainqueur": "conor-mcgregor",
+        "methode": "Decision (unanimous)",
+        "round": 3,
+        "resultat": null
+      },
+      {
+        "date": "2026-07-11",
+        "evenement": "UFC 329",
+        "vainqueur": "max-holloway",
+        "methode": "TKO (knee injury)",
+        "round": 1,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Conor_McGregor",
+      "https://en.wikipedia.org/wiki/Max_Holloway"
+    ]
+  },
+  {
+    "id": "curtis-blaydes--tom-aspinall",
+    "a": "curtis-blaydes",
+    "b": "tom-aspinall",
+    "nb_combats": 2,
+    "bilan": {
+      "curtis-blaydes": 1,
+      "tom-aspinall": 1
+    },
+    "combats": [
+      {
+        "date": "2022-07-23",
+        "evenement": "UFC Fight Night: Blaydes vs. Aspinall",
+        "vainqueur": "curtis-blaydes",
+        "methode": "TKO (knee injury)",
+        "round": 1,
+        "resultat": null
+      },
+      {
+        "date": "2024-07-27",
+        "evenement": "UFC 304",
+        "vainqueur": "tom-aspinall",
+        "methode": "KO (punches)",
+        "round": 1,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Curtis_Blaydes",
+      "https://en.wikipedia.org/wiki/Tom_Aspinall"
+    ]
+  },
+  {
+    "id": "dan-henderson--mauricio-rua",
+    "a": "dan-henderson",
+    "b": "mauricio-rua",
+    "nb_combats": 2,
+    "bilan": {
+      "dan-henderson": 2,
+      "mauricio-rua": 0
+    },
+    "combats": [
+      {
+        "date": "2011-11-19",
+        "evenement": "UFC 139",
+        "vainqueur": "dan-henderson",
+        "methode": "Decision (unanimous)",
+        "round": 5,
+        "resultat": null
+      },
+      {
+        "date": "2014-03-23",
+        "evenement": "UFC Fight Night: Shogun vs. Henderson 2",
+        "vainqueur": "dan-henderson",
+        "methode": "TKO (punches)",
+        "round": 3,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dan_Henderson",
+      "https://en.wikipedia.org/wiki/Maurício_Rua"
+    ]
+  },
+  {
+    "id": "dan-henderson--michael-bisping",
+    "a": "dan-henderson",
+    "b": "michael-bisping",
+    "nb_combats": 2,
+    "bilan": {
+      "dan-henderson": 1,
+      "michael-bisping": 1
+    },
+    "combats": [
+      {
+        "date": "2009-07-11",
+        "evenement": "UFC 100",
+        "vainqueur": "dan-henderson",
+        "methode": "KO (punch)",
+        "round": 2,
+        "resultat": null
+      },
+      {
+        "date": "2016-10-08",
+        "evenement": "UFC 204",
+        "vainqueur": "michael-bisping",
+        "methode": "Decision (unanimous)",
+        "round": 5,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dan_Henderson",
+      "https://en.wikipedia.org/wiki/Michael_Bisping"
+    ]
+  },
+  {
+    "id": "daniel-cormier--jon-jones",
+    "a": "daniel-cormier",
+    "b": "jon-jones",
+    "nb_combats": 2,
+    "bilan": {
+      "daniel-cormier": 0,
+      "jon-jones": 1
+    },
+    "combats": [
+      {
+        "date": "2015-01-03",
+        "evenement": "UFC 182",
+        "vainqueur": "jon-jones",
+        "methode": "Decision (unanimous)",
+        "round": 5,
+        "resultat": null
+      },
+      {
+        "date": "2017-07-29",
+        "evenement": "UFC 214",
+        "vainqueur": null,
+        "methode": "NC (overturned by CSAC)",
+        "round": 3,
+        "resultat": "sans_decision"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Daniel_Cormier",
+      "https://en.wikipedia.org/wiki/Jon_Jones"
+    ]
+  },
+  {
+    "id": "don-frye--mark-coleman",
+    "a": "don-frye",
+    "b": "mark-coleman",
+    "nb_combats": 2,
+    "bilan": {
+      "don-frye": 0,
+      "mark-coleman": 2
+    },
+    "combats": [
+      {
+        "date": "1996-07-12",
+        "evenement": "UFC 10",
+        "vainqueur": "mark-coleman",
+        "methode": "TKO (punches)",
+        "round": 1,
+        "resultat": null
+      },
+      {
+        "date": "2003-06-08",
+        "evenement": "Pride 26",
+        "vainqueur": "mark-coleman",
+        "methode": "Decision (unanimous)",
+        "round": 3,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Don_Frye",
+      "https://en.wikipedia.org/wiki/Mark_Coleman"
+    ]
+  },
+  {
+    "id": "donald-cerrone--rafael-dos-anjos",
+    "a": "donald-cerrone",
+    "b": "rafael-dos-anjos",
+    "nb_combats": 2,
+    "bilan": {
+      "donald-cerrone": 0,
+      "rafael-dos-anjos": 2
+    },
+    "combats": [
+      {
+        "date": "2013-08-28",
+        "evenement": "UFC Fight Night: Condit vs. Kampmann 2",
+        "vainqueur": "rafael-dos-anjos",
+        "methode": "Decision (unanimous)",
+        "round": 3,
+        "resultat": null
+      },
+      {
+        "date": "2015-12-19",
+        "evenement": "UFC on Fox: dos Anjos vs. Cowboy 2",
+        "vainqueur": "rafael-dos-anjos",
+        "methode": "TKO (punches)",
+        "round": 1,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Donald_Cerrone",
+      "https://en.wikipedia.org/wiki/Rafael_dos_Anjos"
+    ]
+  },
+  {
+    "id": "dricus-du-plessis--sean-strickland",
+    "a": "dricus-du-plessis",
+    "b": "sean-strickland",
+    "nb_combats": 2,
+    "bilan": {
+      "dricus-du-plessis": 2,
+      "sean-strickland": 0
+    },
+    "combats": [
+      {
+        "date": "2024-01-20",
+        "evenement": "UFC 297",
+        "vainqueur": "dricus-du-plessis",
+        "methode": "Decision (split)",
+        "round": 5,
+        "resultat": null
+      },
+      {
+        "date": "2025-02-09",
+        "evenement": "UFC 312",
+        "vainqueur": "dricus-du-plessis",
+        "methode": "Decision (unanimous)",
+        "round": 5,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dricus_du_Plessis",
+      "https://en.wikipedia.org/wiki/Sean_Strickland"
+    ]
+  },
+  {
+    "id": "dustin-poirier--justin-gaethje",
+    "a": "dustin-poirier",
+    "b": "justin-gaethje",
+    "nb_combats": 2,
+    "bilan": {
+      "dustin-poirier": 1,
+      "justin-gaethje": 1
+    },
+    "combats": [
+      {
+        "date": "2018-04-14",
+        "evenement": "UFC on Fox: Poirier vs. Gaethje",
+        "vainqueur": "dustin-poirier",
+        "methode": "TKO (punches)",
+        "round": 4,
+        "resultat": null
+      },
+      {
+        "date": "2023-07-29",
+        "evenement": "UFC 291",
+        "vainqueur": "justin-gaethje",
+        "methode": "KO (head kick)",
+        "round": 2,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dustin_Poirier",
+      "https://en.wikipedia.org/wiki/Justin_Gaethje"
+    ]
+  },
+  {
+    "id": "forrest-griffin--mauricio-rua",
+    "a": "forrest-griffin",
+    "b": "mauricio-rua",
+    "nb_combats": 2,
+    "bilan": {
+      "forrest-griffin": 1,
+      "mauricio-rua": 1
+    },
+    "combats": [
+      {
+        "date": "2007-09-22",
+        "evenement": "UFC 76",
+        "vainqueur": "forrest-griffin",
+        "methode": "Submission (rear-naked choke)",
+        "round": 3,
+        "resultat": null
+      },
+      {
+        "date": "2011-08-27",
+        "evenement": "UFC 134",
+        "vainqueur": "mauricio-rua",
+        "methode": "KO (punches)",
+        "round": 1,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Forrest_Griffin",
+      "https://en.wikipedia.org/wiki/Maurício_Rua"
+    ]
+  },
+  {
+    "id": "georges-st-pierre--matt-serra",
+    "a": "georges-st-pierre",
+    "b": "matt-serra",
+    "nb_combats": 2,
+    "bilan": {
+      "georges-st-pierre": 1,
+      "matt-serra": 1
+    },
+    "combats": [
+      {
+        "date": "2007-04-07",
+        "evenement": "UFC 69",
+        "vainqueur": "matt-serra",
+        "methode": "TKO (punches)",
+        "round": 1,
+        "resultat": null
+      },
+      {
+        "date": "2008-04-19",
+        "evenement": "UFC 83",
+        "vainqueur": "georges-st-pierre",
+        "methode": "TKO (knees to the body)",
+        "round": 2,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Georges_St-Pierre",
+      "https://en.wikipedia.org/wiki/Matt_Serra"
+    ]
+  },
+  {
+    "id": "holly-holm--raquel-pennington",
+    "a": "holly-holm",
+    "b": "raquel-pennington",
+    "nb_combats": 2,
+    "bilan": {
+      "holly-holm": 2,
+      "raquel-pennington": 0
+    },
+    "combats": [
+      {
+        "date": "2015-02-28",
+        "evenement": "UFC 184",
+        "vainqueur": "holly-holm",
+        "methode": "Decision (split)",
+        "round": 3,
+        "resultat": null
+      },
+      {
+        "date": "2020-01-18",
+        "evenement": "UFC 246",
+        "vainqueur": "holly-holm",
+        "methode": "Decision (unanimous)",
+        "round": 3,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Holly_Holm",
+      "https://en.wikipedia.org/wiki/Raquel_Pennington"
+    ]
+  },
+  {
+    "id": "israel-adesanya--marvin-vettori",
+    "a": "israel-adesanya",
+    "b": "marvin-vettori",
+    "nb_combats": 2,
+    "bilan": {
+      "israel-adesanya": 2,
+      "marvin-vettori": 0
+    },
+    "combats": [
+      {
+        "date": "2018-04-14",
+        "evenement": "UFC on Fox: Poirier vs. Gaethje",
+        "vainqueur": "israel-adesanya",
+        "methode": "Decision (split)",
+        "round": 3,
+        "resultat": null
+      },
+      {
+        "date": "2021-06-12",
+        "evenement": "UFC 263",
+        "vainqueur": "israel-adesanya",
+        "methode": "Decision (unanimous)",
+        "round": 5,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Israel_Adesanya",
+      "https://en.wikipedia.org/wiki/Marvin_Vettori"
+    ]
+  },
+  {
+    "id": "israel-adesanya--robert-whittaker",
+    "a": "israel-adesanya",
+    "b": "robert-whittaker",
+    "nb_combats": 2,
+    "bilan": {
+      "israel-adesanya": 2,
+      "robert-whittaker": 0
+    },
+    "combats": [
+      {
+        "date": "2019-10-06",
+        "evenement": "UFC 243",
+        "vainqueur": "israel-adesanya",
+        "methode": "KO (punches)",
+        "round": 2,
+        "resultat": null
+      },
+      {
+        "date": "2022-02-12",
+        "evenement": "UFC 271",
+        "vainqueur": "israel-adesanya",
+        "methode": "Decision (unanimous)",
+        "round": 5,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Israel_Adesanya",
+      "https://en.wikipedia.org/wiki/Robert_Whittaker_(fighter)"
+    ]
+  },
+  {
+    "id": "jens-pulver--urijah-faber",
+    "a": "jens-pulver",
+    "b": "urijah-faber",
+    "nb_combats": 2,
+    "bilan": {
+      "jens-pulver": 0,
+      "urijah-faber": 2
+    },
+    "combats": [
+      {
+        "date": "2008-06-01",
+        "evenement": "WEC 34: Faber vs. Pulver",
+        "vainqueur": "urijah-faber",
+        "methode": "Decision (unanimous)",
+        "round": 5,
+        "resultat": null
+      },
+      {
+        "date": "2009-01-25",
+        "evenement": "WEC 38",
+        "vainqueur": "urijah-faber",
+        "methode": "Submission (guillotine choke)",
+        "round": 1,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jens_Pulver",
+      "https://en.wikipedia.org/wiki/Urijah_Faber"
+    ]
+  },
+  {
+    "id": "jessica-andrade--raquel-pennington",
+    "a": "jessica-andrade",
+    "b": "raquel-pennington",
+    "nb_combats": 2,
+    "bilan": {
+      "jessica-andrade": 1,
+      "raquel-pennington": 1
+    },
+    "combats": [
+      {
+        "date": "2014-03-15",
+        "evenement": "UFC 171",
+        "vainqueur": "jessica-andrade",
+        "methode": "Decision (split)",
+        "round": 3,
+        "resultat": null
+      },
+      {
+        "date": "2015-09-05",
+        "evenement": "UFC 191",
+        "vainqueur": "raquel-pennington",
+        "methode": "Submission (rear-naked choke)",
+        "round": 2,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jéssica_Andrade",
+      "https://en.wikipedia.org/wiki/Raquel_Pennington"
+    ]
+  },
+  {
+    "id": "jessica-andrade--rose-namajunas",
+    "a": "jessica-andrade",
+    "b": "rose-namajunas",
+    "nb_combats": 2,
+    "bilan": {
+      "jessica-andrade": 1,
+      "rose-namajunas": 1
+    },
+    "combats": [
+      {
+        "date": "2019-05-11",
+        "evenement": "UFC 237",
+        "vainqueur": "jessica-andrade",
+        "methode": "KO (slam)",
+        "round": 2,
+        "resultat": null
+      },
+      {
+        "date": "2020-07-12",
+        "evenement": "UFC 251",
+        "vainqueur": "rose-namajunas",
+        "methode": "Decision (split)",
+        "round": 3,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jéssica_Andrade",
+      "https://en.wikipedia.org/wiki/Rose_Namajunas"
+    ]
+  },
+  {
+    "id": "joanna-jedrzejczyk--rose-namajunas",
+    "a": "joanna-jedrzejczyk",
+    "b": "rose-namajunas",
+    "nb_combats": 2,
+    "bilan": {
+      "joanna-jedrzejczyk": 0,
+      "rose-namajunas": 2
+    },
+    "combats": [
+      {
+        "date": "2017-11-04",
+        "evenement": "UFC 217",
+        "vainqueur": "rose-namajunas",
+        "methode": "TKO (punches)",
+        "round": 1,
+        "resultat": null
+      },
+      {
+        "date": "2018-04-07",
+        "evenement": "UFC 223",
+        "vainqueur": "rose-namajunas",
+        "methode": "Decision (unanimous)",
+        "round": 5,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Joanna_Jędrzejczyk",
+      "https://en.wikipedia.org/wiki/Rose_Namajunas"
+    ]
+  },
+  {
+    "id": "joanna-jedrzejczyk--zhang-weili",
+    "a": "joanna-jedrzejczyk",
+    "b": "zhang-weili",
+    "nb_combats": 2,
+    "bilan": {
+      "joanna-jedrzejczyk": 0,
+      "zhang-weili": 2
+    },
+    "combats": [
+      {
+        "date": "2020-03-07",
+        "evenement": "UFC 248",
+        "vainqueur": "zhang-weili",
+        "methode": "Decision (split)",
+        "round": 5,
+        "resultat": null
+      },
+      {
+        "date": "2022-06-11",
+        "evenement": "UFC 275",
+        "vainqueur": "zhang-weili",
+        "methode": "KO (spinning backfist)",
+        "round": 2,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Joanna_Jędrzejczyk",
+      "https://en.wikipedia.org/wiki/Zhang_Weili"
+    ]
+  },
+  {
+    "id": "johnny-walker--magomed-ankalaev",
+    "a": "johnny-walker",
+    "b": "magomed-ankalaev",
+    "nb_combats": 2,
+    "bilan": {
+      "johnny-walker": 0,
+      "magomed-ankalaev": 1
+    },
+    "combats": [
+      {
+        "date": "2023-10-21",
+        "evenement": "UFC 294",
+        "vainqueur": null,
+        "methode": "NC (illegal knee)",
+        "round": 1,
+        "resultat": "sans_decision"
+      },
+      {
+        "date": "2024-01-13",
+        "evenement": "UFC Fight Night: Ankalaev vs. Walker 2",
+        "vainqueur": "magomed-ankalaev",
+        "methode": "KO (punches)",
+        "round": 2,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Johnny_Walker_(fighter)",
+      "https://en.wikipedia.org/wiki/Magomed_Ankalaev"
+    ]
+  },
+  {
+    "id": "junior-dos-santos--stipe-miocic",
+    "a": "junior-dos-santos",
+    "b": "stipe-miocic",
+    "nb_combats": 2,
+    "bilan": {
+      "junior-dos-santos": 1,
+      "stipe-miocic": 1
+    },
+    "combats": [
+      {
+        "date": "2014-12-13",
+        "evenement": "UFC on Fox: dos Santos vs. Miocic",
+        "vainqueur": "junior-dos-santos",
+        "methode": "Decision (unanimous)",
+        "round": 5,
+        "resultat": null
+      },
+      {
+        "date": "2017-05-13",
+        "evenement": "UFC 211",
+        "vainqueur": "stipe-miocic",
+        "methode": "TKO (punches)",
+        "round": 1,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Junior_dos_Santos",
+      "https://en.wikipedia.org/wiki/Stipe_Miocic"
+    ]
+  },
+  {
+    "id": "justin-gaethje--rafael-fiziev",
+    "a": "justin-gaethje",
+    "b": "rafael-fiziev",
+    "nb_combats": 2,
+    "bilan": {
+      "justin-gaethje": 2,
+      "rafael-fiziev": 0
+    },
+    "combats": [
+      {
+        "date": "2023-03-18",
+        "evenement": "UFC 286",
+        "vainqueur": "justin-gaethje",
+        "methode": "Decision (majority)",
+        "round": 3,
+        "resultat": null
+      },
+      {
+        "date": "2025-03-08",
+        "evenement": "UFC 313",
+        "vainqueur": "justin-gaethje",
+        "methode": "Decision (unanimous)",
+        "round": 3,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Justin_Gaethje",
+      "https://en.wikipedia.org/wiki/Rafael_Fiziev"
+    ]
+  },
+  {
+    "id": "lyoto-machida--mauricio-rua",
+    "a": "lyoto-machida",
+    "b": "mauricio-rua",
+    "nb_combats": 2,
+    "bilan": {
+      "lyoto-machida": 1,
+      "mauricio-rua": 1
+    },
+    "combats": [
+      {
+        "date": "2009-10-24",
+        "evenement": "UFC 104",
+        "vainqueur": "lyoto-machida",
+        "methode": "Decision (unanimous)",
+        "round": 5,
+        "resultat": null
+      },
+      {
+        "date": "2010-05-08",
+        "evenement": "UFC 113",
+        "vainqueur": "mauricio-rua",
+        "methode": "KO (punches)",
+        "round": 1,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lyoto_Machida",
+      "https://en.wikipedia.org/wiki/Maurício_Rua"
+    ]
+  },
+  {
+    "id": "mackenzie-dern--virna-jandiroba",
+    "a": "mackenzie-dern",
+    "b": "virna-jandiroba",
+    "nb_combats": 2,
+    "bilan": {
+      "mackenzie-dern": 2,
+      "virna-jandiroba": 0
+    },
+    "combats": [
+      {
+        "date": "2020-12-12",
+        "evenement": "UFC 256",
+        "vainqueur": "mackenzie-dern",
+        "methode": "Decision (unanimous)",
+        "round": 3,
+        "resultat": null
+      },
+      {
+        "date": "2025-10-25",
+        "evenement": "UFC 321",
+        "vainqueur": "mackenzie-dern",
+        "methode": "Decision (unanimous)",
+        "round": 5,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mackenzie_Dern",
+      "https://en.wikipedia.org/wiki/Virna_Jandiroba"
+    ]
+  },
+  {
+    "id": "marcin-tybura--serghei-spivac",
+    "a": "marcin-tybura",
+    "b": "serghei-spivac",
+    "nb_combats": 2,
+    "bilan": {
+      "marcin-tybura": 1,
+      "serghei-spivac": 1
+    },
+    "combats": [
+      {
+        "date": "2020-02-29",
+        "evenement": "UFC Fight Night: Benavidez vs. Figueiredo",
+        "vainqueur": "marcin-tybura",
+        "methode": "Decision (unanimous)",
+        "round": 3,
+        "resultat": null
+      },
+      {
+        "date": "2024-08-10",
+        "evenement": "UFC on ESPN: Tybura vs. Spivac 2",
+        "vainqueur": "serghei-spivac",
+        "methode": "Submission (armbar)",
+        "round": 1,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Marcin_Tybura",
+      "https://en.wikipedia.org/wiki/Serghei_Spivac"
+    ]
+  },
+  {
+    "id": "mark-coleman--mauricio-rua",
+    "a": "mark-coleman",
+    "b": "mauricio-rua",
+    "nb_combats": 2,
+    "bilan": {
+      "mark-coleman": 1,
+      "mauricio-rua": 1
+    },
+    "combats": [
+      {
+        "date": "2006-02-26",
+        "evenement": "Pride 31 - Dreamers",
+        "vainqueur": "mark-coleman",
+        "methode": "TKO (broken arm)",
+        "round": 1,
+        "resultat": null
+      },
+      {
+        "date": "2009-01-17",
+        "evenement": "UFC 93",
+        "vainqueur": "mauricio-rua",
+        "methode": "TKO (punches)",
+        "round": 3,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mark_Coleman",
+      "https://en.wikipedia.org/wiki/Maurício_Rua"
+    ]
+  },
+  {
+    "id": "marlon-vera--sean-o-malley",
+    "a": "marlon-vera",
+    "b": "sean-o-malley",
+    "nb_combats": 2,
+    "bilan": {
+      "marlon-vera": 1,
+      "sean-o-malley": 1
+    },
+    "combats": [
+      {
+        "date": "2020-08-15",
+        "evenement": "UFC 252",
+        "vainqueur": "marlon-vera",
+        "methode": "TKO (elbows and punches)",
+        "round": 1,
+        "resultat": null
+      },
+      {
+        "date": "2024-03-09",
+        "evenement": "UFC 299",
+        "vainqueur": "sean-o-malley",
+        "methode": "Decision (unanimous)",
+        "round": 5,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Marlon_Vera",
+      "https://en.wikipedia.org/wiki/Sean_O'Malley_(fighter)"
+    ]
+  },
+  {
+    "id": "marvin-vettori--roman-dolidze",
+    "a": "marvin-vettori",
+    "b": "roman-dolidze",
+    "nb_combats": 2,
+    "bilan": {
+      "marvin-vettori": 1,
+      "roman-dolidze": 1
+    },
+    "combats": [
+      {
+        "date": "2023-03-18",
+        "evenement": "UFC 286",
+        "vainqueur": "marvin-vettori",
+        "methode": "Decision (unanimous)",
+        "round": 3,
+        "resultat": null
+      },
+      {
+        "date": "2025-03-15",
+        "evenement": "UFC Fight Night: Vettori vs. Dolidze 2",
+        "vainqueur": "roman-dolidze",
+        "methode": "Decision (unanimous)",
+        "round": 5,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Marvin_Vettori",
+      "https://en.wikipedia.org/wiki/Roman_Dolidze"
+    ]
+  },
+  {
+    "id": "mauricio-rua--paul-craig",
+    "a": "mauricio-rua",
+    "b": "paul-craig",
+    "nb_combats": 2,
+    "bilan": {
+      "mauricio-rua": 0,
+      "paul-craig": 1
+    },
+    "combats": [
+      {
+        "date": "2019-11-16",
+        "evenement": "UFC Fight Night: Błachowicz vs. Jacaré",
+        "vainqueur": null,
+        "methode": "Draw (split)",
+        "round": 3,
+        "resultat": "nul"
+      },
+      {
+        "date": "2020-11-21",
+        "evenement": "UFC 255",
+        "vainqueur": "paul-craig",
+        "methode": "TKO (submission to punches)",
+        "round": 2,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Maurício_Rua",
+      "https://en.wikipedia.org/wiki/Paul_Craig"
+    ]
+  },
+  {
+    "id": "merab-dvalishvili--petr-yan",
+    "a": "merab-dvalishvili",
+    "b": "petr-yan",
+    "nb_combats": 2,
+    "bilan": {
+      "merab-dvalishvili": 1,
+      "petr-yan": 1
+    },
+    "combats": [
+      {
+        "date": "2023-03-11",
+        "evenement": "UFC Fight Night: Yan vs. Dvalishvili",
+        "vainqueur": "merab-dvalishvili",
+        "methode": "Decision (unanimous)",
+        "round": 5,
+        "resultat": null
+      },
+      {
+        "date": "2025-12-06",
+        "evenement": "UFC 323",
+        "vainqueur": "petr-yan",
+        "methode": "Decision (unanimous)",
+        "round": 5,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Merab_Dvalishvili",
+      "https://en.wikipedia.org/wiki/Petr_Yan"
+    ]
+  },
+  {
+    "id": "merab-dvalishvili--sean-o-malley",
+    "a": "merab-dvalishvili",
+    "b": "sean-o-malley",
+    "nb_combats": 2,
+    "bilan": {
+      "merab-dvalishvili": 2,
+      "sean-o-malley": 0
+    },
+    "combats": [
+      {
+        "date": "2024-09-14",
+        "evenement": "UFC 306",
+        "vainqueur": "merab-dvalishvili",
+        "methode": "Decision (unanimous)",
+        "round": 5,
+        "resultat": null
+      },
+      {
+        "date": "2025-06-07",
+        "evenement": "UFC 316",
+        "vainqueur": "merab-dvalishvili",
+        "methode": "Submission (north-south choke)",
+        "round": 3,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Merab_Dvalishvili",
+      "https://en.wikipedia.org/wiki/Sean_O'Malley_(fighter)"
+    ]
+  },
+  {
+    "id": "rashad-evans--tito-ortiz",
+    "a": "rashad-evans",
+    "b": "tito-ortiz",
+    "nb_combats": 2,
+    "bilan": {
+      "rashad-evans": 1,
+      "tito-ortiz": 0
+    },
+    "combats": [
+      {
+        "date": "2007-07-07",
+        "evenement": "UFC 73",
+        "vainqueur": null,
+        "methode": "Draw (unanimous)",
+        "round": 3,
+        "resultat": "nul"
+      },
+      {
+        "date": "2011-08-06",
+        "evenement": "UFC 133",
+        "vainqueur": "rashad-evans",
+        "methode": "TKO (knee to the body and punches)",
+        "round": 2,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Rashad_Evans",
+      "https://en.wikipedia.org/wiki/Tito_Ortiz"
+    ]
+  },
+  {
+    "id": "rose-namajunas--zhang-weili",
+    "a": "rose-namajunas",
+    "b": "zhang-weili",
+    "nb_combats": 2,
+    "bilan": {
+      "rose-namajunas": 2,
+      "zhang-weili": 0
+    },
+    "combats": [
+      {
+        "date": "2021-04-24",
+        "evenement": "UFC 261",
+        "vainqueur": "rose-namajunas",
+        "methode": "KO (head kick)",
+        "round": 1,
+        "resultat": null
+      },
+      {
+        "date": "2021-11-06",
+        "evenement": "UFC 268",
+        "vainqueur": "rose-namajunas",
+        "methode": "Decision (split)",
+        "round": 5,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Rose_Namajunas",
+      "https://en.wikipedia.org/wiki/Zhang_Weili"
+    ]
+  },
+  {
+    "id": "stephen-thompson--tyron-woodley",
+    "a": "stephen-thompson",
+    "b": "tyron-woodley",
+    "nb_combats": 2,
+    "bilan": {
+      "stephen-thompson": 0,
+      "tyron-woodley": 1
+    },
+    "combats": [
+      {
+        "date": "2016-11-12",
+        "evenement": "UFC 205",
+        "vainqueur": null,
+        "methode": "Draw (majority)",
+        "round": 5,
+        "resultat": "nul"
+      },
+      {
+        "date": "2017-03-04",
+        "evenement": "UFC 209",
+        "vainqueur": "tyron-woodley",
+        "methode": "Decision (majority)",
+        "round": 5,
+        "resultat": null
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Stephen_Thompson_(fighter)",
+      "https://en.wikipedia.org/wiki/Tyron_Woodley"
+    ]
+  }
+]

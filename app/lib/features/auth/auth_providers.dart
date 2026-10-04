@@ -1,6 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
+import '../../core/l10n.dart';
 import '../../data/repositories/content_providers.dart';
 
 final authStateProvider = StreamProvider<AuthState>((ref) {
@@ -20,12 +21,14 @@ class Profile {
     required this.friendCode,
     required this.isAdmin,
     required this.adminMode,
+    required this.welcomePackReceived,
   });
   final String id;
   final String pseudo;
   final String friendCode;
   final bool isAdmin;
   final bool adminMode;
+  final bool welcomePackReceived;
 }
 
 final profileProvider = FutureProvider<Profile?>((ref) async {
@@ -33,7 +36,7 @@ final profileProvider = FutureProvider<Profile?>((ref) async {
   if (session == null) return null;
   final client = ref.watch(supabaseProvider);
   final uid = session.user.id;
-  final p = await client.from('profiles').select('id, pseudo, friend_code, admin_mode').eq('id', uid).single();
+  final p = await client.from('profiles').select('id, pseudo, friend_code, admin_mode, pack_bienvenue_le').eq('id', uid).single();
   final role = await client.from('user_roles').select('role').eq('user_id', uid).maybeSingle();
   return Profile(
     id: uid,
@@ -41,27 +44,28 @@ final profileProvider = FutureProvider<Profile?>((ref) async {
     friendCode: p['friend_code'] as String,
     adminMode: p['admin_mode'] == true,
     isAdmin: role?['role'] == 'admin',
+    welcomePackReceived: p['pack_bienvenue_le'] != null,
   );
 });
 
-/// Traduit les erreurs d'authentification Supabase en français.
-String authErrorMessage(Object e) {
+/// Traduit les erreurs d'authentification Supabase dans la langue de l'app.
+String authErrorMessage(AppLocalizations l, Object e) {
   if (e is AuthException) {
     final m = e.message.toLowerCase();
-    if (m.contains('invalid login credentials')) return 'Email ou mot de passe incorrect.';
+    if (m.contains('invalid login credentials')) return l.errInvalidCredentials;
     if (m.contains('already registered') || m.contains('already been registered')) {
-      return 'Un compte existe déjà avec cet email.';
+      return l.errAlreadyRegistered;
     }
-    if (m.contains('password should be at least')) return 'Mot de passe trop court (8 caractères minimum).';
-    if (m.contains('email not confirmed')) return 'Email non confirmé.';
-    if (m.contains('rate limit')) return 'Trop de tentatives : réessaie dans quelques minutes.';
-    if (m.contains('invalid') && m.contains('email')) return 'Adresse email invalide.';
+    if (m.contains('password should be at least')) return l.errPasswordShort;
+    if (m.contains('email not confirmed')) return l.errEmailNotConfirmed;
+    if (m.contains('rate limit')) return l.errRateLimit;
+    if (m.contains('invalid') && m.contains('email')) return l.invalidEmail;
     return e.message;
   }
   if ('$e'.contains('SocketException') || '$e'.contains('Failed host lookup')) {
-    return 'Pas de connexion internet.';
+    return l.errNoInternet;
   }
-  return 'Erreur inattendue : $e';
+  return l.errUnexpected('$e');
 }
 
 class AuthController {

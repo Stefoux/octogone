@@ -198,7 +198,8 @@ class Variant {
         exclusivite = j['exclusivite'] as String?,
         reel = j['reel'] == true,
         bonusStats = (j['bonus_stats'] as num?)?.toInt() ?? 0,
-        ordre = (j['ordre'] as num?)?.toInt() ?? 0;
+        ordre = (j['ordre'] as num?)?.toInt() ?? 0,
+        eligibilite = j['eligibilite'] is Map ? _map(j['eligibilite']) : null;
 
   final String id;
   final String? seriesId;
@@ -214,6 +215,9 @@ class Variant {
   final int bonusStats;
   final int ordre;
 
+  /// Règle d'attribution d'une rareté originale (voir game_core Eligibility).
+  final Json? eligibilite;
+
   String get tirageLabel => tirage == null ? '' : (tirage == 1 ? '1/1' : '/$tirage');
 }
 
@@ -225,3 +229,73 @@ const rarityLabels = {
   'legendaire': 'Légendaire',
   'mythique': 'Mythique',
 };
+
+class EventInfo {
+  EventInfo(Json j)
+      : id = j['id'] as String,
+        nom = j['nom'] as String,
+        date = j['date'] as String?,
+        lieu = j['lieu'] as String?,
+        ville = j['ville'] as String?,
+        tirage = (j['tirage'] as num?)?.toInt(),
+        _resultat = j['resultat'] as String?,
+        _contexte = j['contexte'] as String?,
+        _extra = _map(j['resultats']);
+
+  final String id;
+  final String nom;
+  final String? date;
+  final String? lieu;
+  final String? ville;
+  final int? tirage;
+  final String? _resultat;
+  final String? _contexte;
+  final Json _extra;
+
+  String? resultat(String lang) => lang == 'en' ? (_extra['resultat_en'] as String? ?? _resultat) : _resultat;
+  String? contexte(String lang) => lang == 'en' ? (_extra['contexte_en'] as String? ?? _contexte) : _contexte;
+}
+
+class Rivalry {
+  Rivalry(Json j)
+      : id = j['id'] as String,
+        fighterA = j['fighter_a'] as String,
+        fighterB = j['fighter_b'] as String,
+        nbCombats = (j['nb_combats'] as num).toInt(),
+        bilan = _map(j['bilan']).map((k, v) => MapEntry(k, (v as num).toInt())),
+        combats = [for (final c in (j['combats'] as List? ?? const [])) _map(c)];
+
+  final String id;
+  final String fighterA;
+  final String fighterB;
+  final int nbCombats;
+  final Map<String, int> bilan;
+  final List<Json> combats;
+
+  /// Bilan « 3-0 » vu du combattant [a].
+  String scoreFor(String a) {
+    final b = a == fighterA ? fighterB : fighterA;
+    return '${bilan[a] ?? 0}-${bilan[b] ?? 0}';
+  }
+}
+
+class OwnedCard {
+  OwnedCard(Json j)
+      : id = j['id'] as String,
+        cardId = j['card_id'] as String,
+        variantId = j['variant_id'] as String,
+        numeroSerie = (j['numero_serie'] as num?)?.toInt(),
+        tirage = (j['tirage'] as num?)?.toInt(),
+        copieAdmin = j['copie_admin'] == true,
+        origine = j['origine'] as String? ?? '',
+        obtenueLe = DateTime.tryParse(j['obtenue_le'] as String? ?? '');
+
+  final String id;
+  final String cardId;
+  final String variantId;
+  final int? numeroSerie;
+  final int? tirage;
+  final bool copieAdmin;
+  final String origine;
+  final DateTime? obtenueLe;
+}

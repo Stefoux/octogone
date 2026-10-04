@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:game_core/game_core.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../core/l10n.dart';
 import '../../core/theme.dart';
 import '../../data/repositories/content_providers.dart';
 import '../../domain/models.dart';
@@ -30,16 +31,17 @@ class _FightersScreenState extends ConsumerState<FightersScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final l = context.l10n;
     final fighters = ref.watch(fightersProvider);
     return Scaffold(
-      appBar: AppBar(title: const Text('Combattants')),
+      appBar: AppBar(title: Text(l.fightersTitle)),
       body: Column(
         children: [
           Padding(
             padding: const EdgeInsets.fromLTRB(16, 0, 16, 8),
             child: TextField(
               key: const Key('fighters-search'),
-              decoration: const InputDecoration(hintText: 'Rechercher un nom ou un surnom', prefixIcon: Icon(Icons.search)),
+              decoration: InputDecoration(hintText: l.searchFighters, prefixIcon: const Icon(Icons.search)),
               onChanged: (v) => setState(() => _query = v.trim()),
             ),
           ),
@@ -52,7 +54,7 @@ class _FightersScreenState extends ConsumerState<FightersScreen> {
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 4),
                   child: FilterChip(
-                    label: const Text('Champions'),
+                    label: Text(l.champions),
                     selected: _championsOnly,
                     onSelected: (v) => setState(() => _championsOnly = v),
                   ),
@@ -61,7 +63,7 @@ class _FightersScreenState extends ConsumerState<FightersScreen> {
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 4),
                     child: ChoiceChip(
-                      label: Text(w.label.replaceFirst('Poids ', '')),
+                      label: Text(weightClassShort(l, w)),
                       selected: _division == w,
                       onSelected: (v) => setState(() => _division = v ? w : null),
                     ),
@@ -72,7 +74,7 @@ class _FightersScreenState extends ConsumerState<FightersScreen> {
           Expanded(
             child: fighters.when(
               loading: () => const Center(child: CircularProgressIndicator()),
-              error: (e, _) => Center(child: Text('Erreur : $e')),
+              error: (e, _) => Center(child: Text(l.errorWithMessage('$e'))),
               data: (all) {
                 final list = all.where(_match).toList();
                 if (all.isEmpty) {
@@ -136,7 +138,7 @@ class _FighterTile extends StatelessWidget {
                     Text(
                       [
                         if (f.surnom != null) '« ${f.surnom} »',
-                        f.categorie?.label ?? 'Catégorie ?',
+                        weightClassLabel(context.l10n, f.categorie),
                         f.record,
                       ].join(' · '),
                       maxLines: 1,
@@ -161,6 +163,7 @@ class _EmptyCache extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final sync = ref.watch(syncControllerProvider);
+    final l = context.l10n;
     return Center(
       child: Padding(
         padding: const EdgeInsets.all(32),
@@ -171,17 +174,17 @@ class _EmptyCache extends ConsumerWidget {
             const SizedBox(height: 12),
             Text(
               sync.running
-                  ? 'Téléchargement des combattants…'
+                  ? l.downloadingFighters
                   : sync.error != null
-                      ? 'Impossible de télécharger le contenu. Vérifie ta connexion.'
-                      : 'Aucun combattant pour l’instant.',
+                      ? l.downloadFailed
+                      : l.noFighters,
               textAlign: TextAlign.center,
             ),
             const SizedBox(height: 12),
             if (!sync.running)
               OutlinedButton(
                 onPressed: () => ref.read(syncControllerProvider.notifier).sync(),
-                child: const Text('Réessayer'),
+                child: Text(l.retry),
               ),
           ],
         ),

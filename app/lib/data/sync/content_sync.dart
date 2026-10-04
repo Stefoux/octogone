@@ -20,14 +20,54 @@ class ContentSync {
   static const pageSize = 1000;
 
   /// Ordre : les images d'abord (référencées par combattants et cartes).
-  static const tables = ['images', 'events', 'fighters', 'editions', 'series', 'variants', 'cards'];
+  static const tables = ['images', 'events', 'fighters', 'rivalries', 'editions', 'series', 'variants', 'cards'];
 
   Future<Map<String, int>> syncAll() async {
     final report = <String, int>{};
     for (final t in tables) {
       report[t] = await _syncTable(t);
     }
+    report['owned_cards'] = await syncOwnedCards();
     return report;
+  }
+
+  /// Copie locale complète des cartes du joueur connecté (quelques centaines
+  /// de lignes au plus) : on remplace tout, c'est simple et toujours juste.
+  Future<int> syncOwnedCards() async {
+    final uid = client.auth.currentUser?.id;
+    if (uid == null) return 0;
+    final rows = <Map<String, dynamic>>[];
+    var offset = 0;
+    while (true) {
+      final page = await client
+          .from('owned_cards')
+          .select()
+          .eq('owner_id', uid)
+          .order('obtenue_le')
+          .order('id')
+          .range(offset, offset + pageSize - 1);
+      rows.addAll(page);
+      if (page.length < pageSize) break;
+      offset += pageSize;
+    }
+    await db.transaction(() async {
+      await db.delete(db.ownedCards).go();
+      await db.batch((b) {
+        for (final r in rows) {
+          b.insert(
+            db.ownedCards,
+            OwnedCardsCompanion.insert(
+              id: r['id'] as String,
+              ownerId: r['owner_id'] as String,
+              cardId: r['card_id'] as String,
+              variantId: r['variant_id'] as String,
+              payload: jsonEncode(r),
+            ),
+          );
+        }
+      });
+    });
+    return rows.length;
   }
 
   Future<int> _syncTable(String table) async {
@@ -156,6 +196,20 @@ class ContentSync {
                   payload: payload,
                   updatedAt: updated,
                   fighterId: Value(row['fighter_id'] as String?),
+                ),
+                mode: InsertMode.insertOrReplace,
+              );
+      case 'rivalries':
+        deleted
+            ? b.deleteWhere(db.rivalries, (t) => t.id.equals(id))
+            : b.insert(
+                db.rivalries,
+                RivalriesCompanion.insert(
+                  id: id,
+                  payload: payload,
+                  updatedAt: updated,
+                  fighterA: row['fighter_a'] as String,
+                  fighterB: row['fighter_b'] as String,
                 ),
                 mode: InsertMode.insertOrReplace,
               );

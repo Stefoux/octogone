@@ -28,6 +28,7 @@ from common import DATA, ROOT, canonical, load_aliases, load_json, slugify
 from rarity_rules import effect_for, max_rarity, parallel_rarity, series_rarity, stat_bonus
 
 BATCH = 500
+ORIGINAL_RARITIES = load_json(DATA / "editions" / "_raretes_originales.json", {"raretes": []})["raretes"]
 
 
 class Api:
@@ -163,6 +164,18 @@ def edition_rows(e: dict, known_fighters: set[str], aliases: dict, ordre: int):
                 "eligibilite": None, "bonus_stats": stat_bonus(r),
                 "coup_signature": r in ("epique", "legendaire", "mythique"), "ordre": pi,
             })
+        if not real and s["type"] == "base":
+            # Raretés originales (Acier d'Octogone… Octogone Noir) sur les cartes de base d'une saison.
+            for oi, r in enumerate(ORIGINAL_RARITIES, 1):
+                if r["eligibilite"].get("carte"):
+                    continue  # duel, événement, célébration : cartes spéciales (inserts)
+                variants.append({
+                    "id": f"{sid}:{r['effet']}", "edition_id": e["id"], "series_id": sid, "nom": r["nom"],
+                    "rarete": r["rarete"], "effet": r["effet"], "couleur": None, "tirage": r.get("tirage"),
+                    "cote": None, "exclusivite": None, "reel": False, "eligibilite": r["eligibilite"],
+                    "bonus_stats": r["bonus_stats"],
+                    "coup_signature": r["rarete"] in ("epique", "legendaire", "mythique"), "ordre": 100 + oi,
+                })
         for ci, c in enumerate(s["cartes"]):
             ids = c.get("combattants") or [slugify(canonical(c["nom_imprime"], aliases))]
             missing = [i for i in ids if i not in known_fighters]
@@ -228,7 +241,32 @@ def main() -> None:
     # 3. Combattants avec leur portrait
     api.upsert("fighters", [fighter_row(f, img_of.get(f["id"])) for f in fighters])
 
-    # 4. Éditions, séries, variantes, cartes
+    # 4. Événements (Moments Historiques)
+    ev_rows = []
+    for p in sorted((DATA / "events").glob("*.json")):
+        ev = json.loads(p.read_text(encoding="utf-8"))
+        ev_rows.append({
+            "id": ev["id"], "nom": ev["nom"], "date": ev.get("date"), "lieu": ev.get("lieu"), "ville": ev.get("ville"),
+            "pays": ev.get("pays"), "resultat": ev.get("resultat"), "contexte": ev.get("contexte"),
+            "resultats": {"fr": ev.get("resultats") or [], "contexte_en": ev.get("contexte_en"),
+                          "resultat_en": ev.get("resultat_en")},
+            "tirage": ev.get("tirage"), "sources": ev.get("sources") or [], "a_verifier": ev.get("a_verifier") or [],
+            "deleted": False,
+        })
+    if ev_rows:
+        api.upsert("events", ev_rows)
+    print(f"événements : {len(ev_rows)}")
+
+    # Rivalités réelles (2 combats ou plus)
+    rivals = load_json(DATA / "rivalries.json", [])
+    riv_rows = [{"id": r["id"], "fighter_a": r["a"], "fighter_b": r["b"], "nb_combats": r["nb_combats"],
+                 "bilan": r["bilan"], "combats": r["combats"], "sources": r["sources"], "deleted": False}
+                for r in rivals if r["a"] in known and r["b"] in known]
+    if riv_rows:
+        api.upsert("rivalries", riv_rows)
+    print(f"rivalités : {len(riv_rows)}")
+
+    # 5. Éditions, séries, variantes, cartes
     eds = sorted((DATA / "editions").glob("*.json"))
     for i, p in enumerate(eds):
         if p.name.startswith("_"):

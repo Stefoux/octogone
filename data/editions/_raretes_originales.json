@@ -1,0 +1,17 @@
+{
+  "_doc": "Raretés originales appliquées aux éditions originales (Saison AAAA). « eligibilite » : règle évaluée sur le combattant (game_core/lib/src/cards/eligibility.dart). « carte » : type de carte requis (duel = deux combattants, evenement, celebration) — ces raretés n'existent pas sur les cartes de base. Bonus de stats : +1 (peu commune) à +6 (mythique), coup signature dès épique.",
+  "raretes": [
+    {"effet": "acier", "nom": "Acier d'Octogone", "rarete": "peu_commune", "bonus_stats": 1, "eligibilite": {}},
+    {"effet": "neon", "nom": "Néon Main Event", "rarete": "rare", "bonus_stats": 2, "eligibilite": {}},
+    {"effet": "face_a_face", "nom": "Face-à-Face", "rarete": "rare", "bonus_stats": 2, "eligibilite": {"carte": "duel"}},
+    {"effet": "cicatrice", "nom": "Cicatrice", "rarete": "epique", "bonus_stats": 3, "eligibilite": {"fotn_min": 1}},
+    {"effet": "onde_de_choc", "nom": "Onde de Choc", "rarete": "epique", "bonus_stats": 3, "eligibilite": {"ko_min": 5}},
+    {"effet": "cle_fatale", "nom": "Clé Fatale", "rarete": "epique", "bonus_stats": 3, "eligibilite": {"sub_min": 5}},
+    {"effet": "main_levee", "nom": "Main Levée", "rarete": "epique", "bonus_stats": 4, "eligibilite": {"carte": "celebration"}},
+    {"effet": "ceinture_or", "nom": "Ceinture d'Or", "rarete": "legendaire", "bonus_stats": 5, "eligibilite": {"champion": true}},
+    {"effet": "heritage", "nom": "Héritage", "rarete": "legendaire", "bonus_stats": 5, "eligibilite": {"legende_retraitee": true}},
+    {"effet": "moment", "nom": "Moment Historique", "rarete": "legendaire", "bonus_stats": 5, "eligibilite": {"carte": "evenement"}},
+    {"effet": "trilogie", "nom": "Trilogie", "rarete": "mythique", "bonus_stats": 6, "tirage": 3, "eligibilite": {"carte": "duel", "combats_min": 3}},
+    {"effet": "octogone_noir", "nom": "Octogone Noir", "rarete": "mythique", "bonus_stats": 6, "tirage": 1, "eligibilite": {}}
+  ]
+}

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../core/l10n.dart';
 import '../../core/theme.dart';
 import 'auth_providers.dart';
 
@@ -35,7 +36,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
     try {
       await ref.read(authControllerProvider).signIn(_email.text, _password.text);
     } catch (e) {
-      setState(() => _error = authErrorMessage(e));
+      setState(() => _error = authErrorMessage(context.l10n, e));
     } finally {
       if (mounted) setState(() => _busy = false);
     }
@@ -43,6 +44,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final l = context.l10n;
     return Scaffold(
       body: SafeArea(
         child: Center(
@@ -62,8 +64,8 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                       controller: _email,
                       keyboardType: TextInputType.emailAddress,
                       autofillHints: const [AutofillHints.email],
-                      decoration: const InputDecoration(labelText: 'Email', prefixIcon: Icon(Icons.mail_outline)),
-                      validator: (v) => (v == null || !v.contains('@')) ? 'Email invalide' : null,
+                      decoration: InputDecoration(labelText: l.email, prefixIcon: const Icon(Icons.mail_outline)),
+                      validator: (v) => (v == null || !v.contains('@')) ? l.invalidEmail : null,
                     ),
                     const SizedBox(height: 12),
                     TextFormField(
@@ -71,8 +73,8 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                       controller: _password,
                       obscureText: true,
                       autofillHints: const [AutofillHints.password],
-                      decoration: const InputDecoration(labelText: 'Mot de passe', prefixIcon: Icon(Icons.lock_outline)),
-                      validator: (v) => (v == null || v.isEmpty) ? 'Mot de passe requis' : null,
+                      decoration: InputDecoration(labelText: l.password, prefixIcon: const Icon(Icons.lock_outline)),
+                      validator: (v) => (v == null || v.isEmpty) ? l.passwordRequired : null,
                       onFieldSubmitted: (_) => _submit(),
                     ),
                     if (_error != null) ...[
@@ -85,12 +87,12 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                       style: FilledButton.styleFrom(minimumSize: const Size.fromHeight(52)),
                       child: _busy
                           ? const SizedBox(width: 22, height: 22, child: CircularProgressIndicator(strokeWidth: 2))
-                          : const Text('Se connecter'),
+                          : Text(l.signIn),
                     ),
                     const SizedBox(height: 12),
                     TextButton(
                       onPressed: () => context.go('/inscription'),
-                      child: const Text('Pas encore de compte ? Créer un compte'),
+                      child: Text(l.noAccount),
                     ),
                   ],
                 ),
@@ -118,7 +120,7 @@ class _Brand extends StatelessWidget {
                   letterSpacing: 6,
                 )),
         const SizedBox(height: 4),
-        const Text('Cartes de combattants entre amis', style: TextStyle(color: AppColors.textMuted)),
+        Text(context.l10n.authTagline, style: const TextStyle(color: AppColors.textMuted)),
       ],
     );
   }

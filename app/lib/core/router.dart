@@ -6,9 +6,10 @@ import 'package:go_router/go_router.dart';
 
 import '../data/repositories/content_providers.dart';
 import '../features/album/album_screen.dart';
-import '../features/album/edition_screen.dart';
+import '../features/album/binder_screen.dart';
 import '../features/auth/login_screen.dart';
 import '../features/auth/signup_screen.dart';
+import '../features/cards/card_detail_screen.dart';
 import '../features/combat/combat_screen.dart';
 import '../features/credits/credits_screen.dart';
 import '../features/fighters/fighter_detail_screen.dart';
@@ -17,6 +18,7 @@ import '../features/home/home_screen.dart';
 import '../features/profile/profile_screen.dart';
 import '../features/settings/settings_screen.dart';
 import '../features/shell/main_shell.dart';
+import '../features/showcase/showcase_screen.dart';
 
 /// Rafraîchit go_router à chaque changement de session.
 class _AuthListenable extends ChangeNotifier {
@@ -52,6 +54,15 @@ final routerProvider = Provider<GoRouter>((ref) {
       GoRoute(path: '/inscription', builder: (_, _) => const SignupScreen()),
       GoRoute(path: '/reglages', builder: (_, _) => const SettingsScreen()),
       GoRoute(path: '/credits', builder: (_, _) => const CreditsScreen()),
+      GoRoute(path: '/vitrine', builder: (_, _) => const ShowcaseScreen()),
+      GoRoute(
+        path: '/carte/:cardId',
+        builder: (_, s) => CardDetailScreen(
+          cardId: Uri.decodeComponent(s.pathParameters['cardId']!),
+          variantId: s.uri.queryParameters['variant'],
+          ownedId: s.uri.queryParameters['owned'],
+        ),
+      ),
       StatefulShellRoute.indexedStack(
         builder: (_, _, shell) => MainShell(shell: shell),
         branches: [
@@ -65,7 +76,7 @@ final routerProvider = Provider<GoRouter>((ref) {
               routes: [
                 GoRoute(
                   path: ':editionId',
-                  builder: (_, s) => EditionScreen(editionId: s.pathParameters['editionId']!),
+                  builder: (_, s) => BinderScreen(editionId: s.pathParameters['editionId']!),
                 ),
               ],
             ),

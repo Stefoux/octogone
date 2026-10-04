@@ -1,0 +1,1478 @@
+import 'dart:async';
+
+import 'package:flutter/foundation.dart';
+import 'package:flutter/widgets.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:intl/intl.dart' as intl;
+
+import 'app_localizations_en.dart';
+import 'app_localizations_fr.dart';
+
+// ignore_for_file: type=lint
+
+/// Callers can lookup localized strings with an instance of AppLocalizations
+/// returned by `AppLocalizations.of(context)`.
+///
+/// Applications need to include `AppLocalizations.delegate()` in their app's
+/// `localizationDelegates` list, and the locales they support in the app's
+/// `supportedLocales` list. For example:
+///
+/// ```dart
+/// import 'l10n/app_localizations.dart';
+///
+/// return MaterialApp(
+///   localizationsDelegates: AppLocalizations.localizationsDelegates,
+///   supportedLocales: AppLocalizations.supportedLocales,
+///   home: MyApplicationHome(),
+/// );
+/// ```
+///
+/// ## Update pubspec.yaml
+///
+/// Please make sure to update your pubspec.yaml to include the following
+/// packages:
+///
+/// ```yaml
+/// dependencies:
+///   # Internationalization support.
+///   flutter_localizations:
+///     sdk: flutter
+///   intl: any # Use the pinned version from flutter_localizations
+///
+///   # Rest of dependencies
+/// ```
+///
+/// ## iOS Applications
+///
+/// iOS applications define key application metadata, including supported
+/// locales, in an Info.plist file that is built into the application bundle.
+/// To configure the locales supported by your app, you’ll need to edit this
+/// file.
+///
+/// First, open your project’s ios/Runner.xcworkspace Xcode workspace file.
+/// Then, in the Project Navigator, open the Info.plist file under the Runner
+/// project’s Runner folder.
+///
+/// Next, select the Information Property List item, select Add Item from the
+/// Editor menu, then select Localizations from the pop-up menu.
+///
+/// Select and expand the newly-created Localizations item then, for each
+/// locale your application supports, add a new item and select the locale
+/// you wish to add from the pop-up menu in the Value field. This list should
+/// be consistent with the languages listed in the AppLocalizations.supportedLocales
+/// property.
+abstract class AppLocalizations {
+  AppLocalizations(String locale)
+    : localeName = intl.Intl.canonicalizedLocale(locale.toString());
+
+  final String localeName;
+
+  static AppLocalizations of(BuildContext context) {
+    return Localizations.of<AppLocalizations>(context, AppLocalizations)!;
+  }
+
+  static const LocalizationsDelegate<AppLocalizations> delegate =
+      _AppLocalizationsDelegate();
+
+  /// A list of this localizations delegate along with the default localizations
+  /// delegates.
+  ///
+  /// Returns a list of localizations delegates containing this delegate along with
+  /// GlobalMaterialLocalizations.delegate, GlobalCupertinoLocalizations.delegate,
+  /// and GlobalWidgetsLocalizations.delegate.
+  ///
+  /// Additional delegates can be added by appending to this list in
+  /// MaterialApp. This list does not have to be used at all if a custom list
+  /// of delegates is preferred or required.
+  static const List<LocalizationsDelegate<dynamic>> localizationsDelegates =
+      <LocalizationsDelegate<dynamic>>[
+        delegate,
+        GlobalMaterialLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+      ];
+
+  /// A list of this localizations delegate's supported locales.
+  static const List<Locale> supportedLocales = <Locale>[
+    Locale('en'),
+    Locale('fr'),
+  ];
+
+  /// No description provided for @appTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Octogone'**
+  String get appTitle;
+
+  /// No description provided for @retry.
+  ///
+  /// In fr, this message translates to:
+  /// **'Réessayer'**
+  String get retry;
+
+  /// No description provided for @loading.
+  ///
+  /// In fr, this message translates to:
+  /// **'Chargement…'**
+  String get loading;
+
+  /// No description provided for @errorWithMessage.
+  ///
+  /// In fr, this message translates to:
+  /// **'Erreur : {message}'**
+  String errorWithMessage(String message);
+
+  /// No description provided for @toVerify.
+  ///
+  /// In fr, this message translates to:
+  /// **'À vérifier : {fields}'**
+  String toVerify(String fields);
+
+  /// No description provided for @missingConfig.
+  ///
+  /// In fr, this message translates to:
+  /// **'Configuration Supabase manquante.\n\nCompile avec :\nflutter run --dart-define-from-file=config/app.json\n\n(fichier généré par scripts/supabase_setup.sh)'**
+  String get missingConfig;
+
+  /// No description provided for @authTagline.
+  ///
+  /// In fr, this message translates to:
+  /// **'Cartes de combattants entre amis'**
+  String get authTagline;
+
+  /// No description provided for @email.
+  ///
+  /// In fr, this message translates to:
+  /// **'Email'**
+  String get email;
+
+  /// No description provided for @password.
+  ///
+  /// In fr, this message translates to:
+  /// **'Mot de passe'**
+  String get password;
+
+  /// No description provided for @signIn.
+  ///
+  /// In fr, this message translates to:
+  /// **'Se connecter'**
+  String get signIn;
+
+  /// No description provided for @noAccount.
+  ///
+  /// In fr, this message translates to:
+  /// **'Pas encore de compte ? Créer un compte'**
+  String get noAccount;
+
+  /// No description provided for @invalidEmail.
+  ///
+  /// In fr, this message translates to:
+  /// **'Email invalide'**
+  String get invalidEmail;
+
+  /// No description provided for @passwordRequired.
+  ///
+  /// In fr, this message translates to:
+  /// **'Mot de passe requis'**
+  String get passwordRequired;
+
+  /// No description provided for @signupTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Créer un compte'**
+  String get signupTitle;
+
+  /// No description provided for @pseudo.
+  ///
+  /// In fr, this message translates to:
+  /// **'Pseudo'**
+  String get pseudo;
+
+  /// No description provided for @pseudoMin.
+  ///
+  /// In fr, this message translates to:
+  /// **'3 caractères minimum'**
+  String get pseudoMin;
+
+  /// No description provided for @pseudoChars.
+  ///
+  /// In fr, this message translates to:
+  /// **'Lettres, chiffres, espace, « _ », « - » ou « . »'**
+  String get pseudoChars;
+
+  /// No description provided for @passwordMinLabel.
+  ///
+  /// In fr, this message translates to:
+  /// **'Mot de passe (8 caractères min.)'**
+  String get passwordMinLabel;
+
+  /// No description provided for @passwordMin.
+  ///
+  /// In fr, this message translates to:
+  /// **'8 caractères minimum'**
+  String get passwordMin;
+
+  /// No description provided for @confirmPassword.
+  ///
+  /// In fr, this message translates to:
+  /// **'Confirme le mot de passe'**
+  String get confirmPassword;
+
+  /// No description provided for @passwordsDiffer.
+  ///
+  /// In fr, this message translates to:
+  /// **'Les mots de passe diffèrent'**
+  String get passwordsDiffer;
+
+  /// No description provided for @createAccount.
+  ///
+  /// In fr, this message translates to:
+  /// **'Créer mon compte'**
+  String get createAccount;
+
+  /// No description provided for @pseudoTaken.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ce pseudo est déjà pris.'**
+  String get pseudoTaken;
+
+  /// No description provided for @errInvalidCredentials.
+  ///
+  /// In fr, this message translates to:
+  /// **'Email ou mot de passe incorrect.'**
+  String get errInvalidCredentials;
+
+  /// No description provided for @errAlreadyRegistered.
+  ///
+  /// In fr, this message translates to:
+  /// **'Un compte existe déjà avec cet email.'**
+  String get errAlreadyRegistered;
+
+  /// No description provided for @errPasswordShort.
+  ///
+  /// In fr, this message translates to:
+  /// **'Mot de passe trop court (8 caractères minimum).'**
+  String get errPasswordShort;
+
+  /// No description provided for @errEmailNotConfirmed.
+  ///
+  /// In fr, this message translates to:
+  /// **'Email non confirmé.'**
+  String get errEmailNotConfirmed;
+
+  /// No description provided for @errRateLimit.
+  ///
+  /// In fr, this message translates to:
+  /// **'Trop de tentatives : réessaie dans quelques minutes.'**
+  String get errRateLimit;
+
+  /// No description provided for @errNoInternet.
+  ///
+  /// In fr, this message translates to:
+  /// **'Pas de connexion internet.'**
+  String get errNoInternet;
+
+  /// No description provided for @errUnexpected.
+  ///
+  /// In fr, this message translates to:
+  /// **'Erreur inattendue : {message}'**
+  String errUnexpected(String message);
+
+  /// No description provided for @navHome.
+  ///
+  /// In fr, this message translates to:
+  /// **'Accueil'**
+  String get navHome;
+
+  /// No description provided for @navAlbum.
+  ///
+  /// In fr, this message translates to:
+  /// **'Album'**
+  String get navAlbum;
+
+  /// No description provided for @navFighters.
+  ///
+  /// In fr, this message translates to:
+  /// **'Combattants'**
+  String get navFighters;
+
+  /// No description provided for @navFight.
+  ///
+  /// In fr, this message translates to:
+  /// **'Combat'**
+  String get navFight;
+
+  /// No description provided for @navProfile.
+  ///
+  /// In fr, this message translates to:
+  /// **'Profil'**
+  String get navProfile;
+
+  /// No description provided for @helloUser.
+  ///
+  /// In fr, this message translates to:
+  /// **'Salut {pseudo} !'**
+  String helloUser(String pseudo);
+
+  /// No description provided for @sync.
+  ///
+  /// In fr, this message translates to:
+  /// **'Synchroniser'**
+  String get sync;
+
+  /// No description provided for @syncRunning.
+  ///
+  /// In fr, this message translates to:
+  /// **'Synchronisation du contenu…'**
+  String get syncRunning;
+
+  /// No description provided for @syncOffline.
+  ///
+  /// In fr, this message translates to:
+  /// **'Hors ligne : contenu en cache'**
+  String get syncOffline;
+
+  /// No description provided for @syncUpToDate.
+  ///
+  /// In fr, this message translates to:
+  /// **'À jour ({date})'**
+  String syncUpToDate(String date);
+
+  /// No description provided for @syncUpToDateReceived.
+  ///
+  /// In fr, this message translates to:
+  /// **'À jour ({date}) · {count} éléments reçus'**
+  String syncUpToDateReceived(String date, int count);
+
+  /// No description provided for @syncWaiting.
+  ///
+  /// In fr, this message translates to:
+  /// **'En attente de synchronisation'**
+  String get syncWaiting;
+
+  /// No description provided for @statFighters.
+  ///
+  /// In fr, this message translates to:
+  /// **'combattants'**
+  String get statFighters;
+
+  /// No description provided for @statChampions.
+  ///
+  /// In fr, this message translates to:
+  /// **'champions'**
+  String get statChampions;
+
+  /// No description provided for @statEditions.
+  ///
+  /// In fr, this message translates to:
+  /// **'éditions'**
+  String get statEditions;
+
+  /// No description provided for @statMyCards.
+  ///
+  /// In fr, this message translates to:
+  /// **'cartes'**
+  String get statMyCards;
+
+  /// No description provided for @browseEditions.
+  ///
+  /// In fr, this message translates to:
+  /// **'Mon album'**
+  String get browseEditions;
+
+  /// No description provided for @browseEditionsSub.
+  ///
+  /// In fr, this message translates to:
+  /// **'Classeurs par édition, complétion, filtres'**
+  String get browseEditionsSub;
+
+  /// No description provided for @allFighters.
+  ///
+  /// In fr, this message translates to:
+  /// **'Tous les combattants'**
+  String get allFighters;
+
+  /// No description provided for @allFightersSub.
+  ///
+  /// In fr, this message translates to:
+  /// **'Stats réelles et stats de jeu'**
+  String get allFightersSub;
+
+  /// No description provided for @dailyBooster.
+  ///
+  /// In fr, this message translates to:
+  /// **'Booster quotidien'**
+  String get dailyBooster;
+
+  /// No description provided for @comingPhase3.
+  ///
+  /// In fr, this message translates to:
+  /// **'Arrive avec la phase 3'**
+  String get comingPhase3;
+
+  /// No description provided for @welcomePack.
+  ///
+  /// In fr, this message translates to:
+  /// **'Pack de bienvenue'**
+  String get welcomePack;
+
+  /// No description provided for @welcomePackSub.
+  ///
+  /// In fr, this message translates to:
+  /// **'15 cartes offertes, dont des rares'**
+  String get welcomePackSub;
+
+  /// No description provided for @welcomePackOpen.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ouvrir'**
+  String get welcomePackOpen;
+
+  /// No description provided for @welcomePackReceived.
+  ///
+  /// In fr, this message translates to:
+  /// **'Tu as reçu {count} cartes !'**
+  String welcomePackReceived(int count);
+
+  /// No description provided for @welcomePackAlready.
+  ///
+  /// In fr, this message translates to:
+  /// **'Pack de bienvenue déjà reçu'**
+  String get welcomePackAlready;
+
+  /// No description provided for @effectsShowcase.
+  ///
+  /// In fr, this message translates to:
+  /// **'Vitrine des effets'**
+  String get effectsShowcase;
+
+  /// No description provided for @effectsShowcaseSub.
+  ///
+  /// In fr, this message translates to:
+  /// **'Toutes les raretés en aperçu'**
+  String get effectsShowcaseSub;
+
+  /// No description provided for @fightersTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Combattants'**
+  String get fightersTitle;
+
+  /// No description provided for @searchFighters.
+  ///
+  /// In fr, this message translates to:
+  /// **'Rechercher un nom ou un surnom'**
+  String get searchFighters;
+
+  /// No description provided for @champions.
+  ///
+  /// In fr, this message translates to:
+  /// **'Champions'**
+  String get champions;
+
+  /// No description provided for @downloadingFighters.
+  ///
+  /// In fr, this message translates to:
+  /// **'Téléchargement des combattants…'**
+  String get downloadingFighters;
+
+  /// No description provided for @downloadFailed.
+  ///
+  /// In fr, this message translates to:
+  /// **'Impossible de télécharger le contenu. Vérifie ta connexion.'**
+  String get downloadFailed;
+
+  /// No description provided for @noFighters.
+  ///
+  /// In fr, this message translates to:
+  /// **'Aucun combattant pour l’instant.'**
+  String get noFighters;
+
+  /// No description provided for @fighterNotFound.
+  ///
+  /// In fr, this message translates to:
+  /// **'Combattant introuvable'**
+  String get fighterNotFound;
+
+  /// No description provided for @unknownCountry.
+  ///
+  /// In fr, this message translates to:
+  /// **'Pays inconnu'**
+  String get unknownCountry;
+
+  /// No description provided for @categoryToVerify.
+  ///
+  /// In fr, this message translates to:
+  /// **'Catégorie à vérifier'**
+  String get categoryToVerify;
+
+  /// No description provided for @recordLabel.
+  ///
+  /// In fr, this message translates to:
+  /// **'Palmarès {record}'**
+  String recordLabel(String record);
+
+  /// No description provided for @tagChampion.
+  ///
+  /// In fr, this message translates to:
+  /// **'Champion'**
+  String get tagChampion;
+
+  /// No description provided for @tagChampionF.
+  ///
+  /// In fr, this message translates to:
+  /// **'Championne'**
+  String get tagChampionF;
+
+  /// No description provided for @tagFormerChampion.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ancien champion'**
+  String get tagFormerChampion;
+
+  /// No description provided for @tagFormerChampionF.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ancienne championne'**
+  String get tagFormerChampionF;
+
+  /// No description provided for @tagRetired.
+  ///
+  /// In fr, this message translates to:
+  /// **'Retraité'**
+  String get tagRetired;
+
+  /// No description provided for @tagRetiredF.
+  ///
+  /// In fr, this message translates to:
+  /// **'Retraitée'**
+  String get tagRetiredF;
+
+  /// No description provided for @gameStats.
+  ///
+  /// In fr, this message translates to:
+  /// **'Stats de jeu'**
+  String get gameStats;
+
+  /// No description provided for @gameStatsNote.
+  ///
+  /// In fr, this message translates to:
+  /// **'Calculées à partir des statistiques réelles ci-dessous.'**
+  String get gameStatsNote;
+
+  /// No description provided for @ufcStats.
+  ///
+  /// In fr, this message translates to:
+  /// **'Statistiques UFC'**
+  String get ufcStats;
+
+  /// No description provided for @sigStrikesPerMin.
+  ///
+  /// In fr, this message translates to:
+  /// **'Frappes significatives / min'**
+  String get sigStrikesPerMin;
+
+  /// No description provided for @strikeAccuracy.
+  ///
+  /// In fr, this message translates to:
+  /// **'Précision de frappe'**
+  String get strikeAccuracy;
+
+  /// No description provided for @strikesAbsorbed.
+  ///
+  /// In fr, this message translates to:
+  /// **'Frappes encaissées / min'**
+  String get strikesAbsorbed;
+
+  /// No description provided for @strikeDefense.
+  ///
+  /// In fr, this message translates to:
+  /// **'Défense de frappe'**
+  String get strikeDefense;
+
+  /// No description provided for @takedownsPer15.
+  ///
+  /// In fr, this message translates to:
+  /// **'Takedowns / 15 min'**
+  String get takedownsPer15;
+
+  /// No description provided for @takedownAccuracy.
+  ///
+  /// In fr, this message translates to:
+  /// **'Précision des takedowns'**
+  String get takedownAccuracy;
+
+  /// No description provided for @takedownDefense.
+  ///
+  /// In fr, this message translates to:
+  /// **'Défense de takedown'**
+  String get takedownDefense;
+
+  /// No description provided for @subsPer15.
+  ///
+  /// In fr, this message translates to:
+  /// **'Tentatives de soumission / 15 min'**
+  String get subsPer15;
+
+  /// No description provided for @knockdownsPer15.
+  ///
+  /// In fr, this message translates to:
+  /// **'Knockdowns / 15 min'**
+  String get knockdownsPer15;
+
+  /// No description provided for @avgFightTime.
+  ///
+  /// In fr, this message translates to:
+  /// **'Durée moyenne d’un combat'**
+  String get avgFightTime;
+
+  /// No description provided for @minutesSeconds.
+  ///
+  /// In fr, this message translates to:
+  /// **'{min} min {sec}'**
+  String minutesSeconds(int min, String sec);
+
+  /// No description provided for @proRecord.
+  ///
+  /// In fr, this message translates to:
+  /// **'Palmarès professionnel'**
+  String get proRecord;
+
+  /// No description provided for @wins.
+  ///
+  /// In fr, this message translates to:
+  /// **'Victoires'**
+  String get wins;
+
+  /// No description provided for @losses.
+  ///
+  /// In fr, this message translates to:
+  /// **'Défaites'**
+  String get losses;
+
+  /// No description provided for @draws.
+  ///
+  /// In fr, this message translates to:
+  /// **'Nuls'**
+  String get draws;
+
+  /// No description provided for @noContests.
+  ///
+  /// In fr, this message translates to:
+  /// **'Sans décision'**
+  String get noContests;
+
+  /// No description provided for @methodBreakdown.
+  ///
+  /// In fr, this message translates to:
+  /// **'{total}  (KO {ko} · Sou. {sub} · Déc. {dec})'**
+  String methodBreakdown(String total, String ko, String sub, String dec);
+
+  /// No description provided for @ufcFights.
+  ///
+  /// In fr, this message translates to:
+  /// **'Combats à l’UFC'**
+  String get ufcFights;
+
+  /// No description provided for @ufcFightsValue.
+  ///
+  /// In fr, this message translates to:
+  /// **'{total} ({wins} V – {losses} D)'**
+  String ufcFightsValue(String total, String wins, String losses);
+
+  /// No description provided for @bonusFotn.
+  ///
+  /// In fr, this message translates to:
+  /// **'Bonus « Combat de la soirée »'**
+  String get bonusFotn;
+
+  /// No description provided for @bonusPotn.
+  ///
+  /// In fr, this message translates to:
+  /// **'Bonus « Performance de la soirée »'**
+  String get bonusPotn;
+
+  /// No description provided for @fiveRoundDecisions.
+  ///
+  /// In fr, this message translates to:
+  /// **'Victoires par décision en 5 rounds'**
+  String get fiveRoundDecisions;
+
+  /// No description provided for @distinctions.
+  ///
+  /// In fr, this message translates to:
+  /// **'Distinctions'**
+  String get distinctions;
+
+  /// No description provided for @cardsCount.
+  ///
+  /// In fr, this message translates to:
+  /// **'Cartes ({count})'**
+  String cardsCount(int count);
+
+  /// No description provided for @albumTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Album'**
+  String get albumTitle;
+
+  /// No description provided for @realEditions.
+  ///
+  /// In fr, this message translates to:
+  /// **'Éditions réelles'**
+  String get realEditions;
+
+  /// No description provided for @originalEditions.
+  ///
+  /// In fr, this message translates to:
+  /// **'Éditions originales'**
+  String get originalEditions;
+
+  /// No description provided for @noEditions.
+  ///
+  /// In fr, this message translates to:
+  /// **'Aucune édition en cache pour l’instant.'**
+  String get noEditions;
+
+  /// No description provided for @editionCards.
+  ///
+  /// In fr, this message translates to:
+  /// **'{count} cartes'**
+  String editionCards(int count);
+
+  /// No description provided for @originalCreation.
+  ///
+  /// In fr, this message translates to:
+  /// **'création originale'**
+  String get originalCreation;
+
+  /// No description provided for @releaseDate.
+  ///
+  /// In fr, this message translates to:
+  /// **'Sortie : {date}'**
+  String releaseDate(String date);
+
+  /// No description provided for @seriesCount.
+  ///
+  /// In fr, this message translates to:
+  /// **'{count} séries'**
+  String seriesCount(int count);
+
+  /// No description provided for @parallels.
+  ///
+  /// In fr, this message translates to:
+  /// **'Parallèles'**
+  String get parallels;
+
+  /// No description provided for @numberedSeries.
+  ///
+  /// In fr, this message translates to:
+  /// **'numérotée /{n}'**
+  String numberedSeries(int n);
+
+  /// No description provided for @oddsLabel.
+  ///
+  /// In fr, this message translates to:
+  /// **'cote {odds}'**
+  String oddsLabel(String odds);
+
+  /// No description provided for @checklistSources.
+  ///
+  /// In fr, this message translates to:
+  /// **'Sources de la checklist'**
+  String get checklistSources;
+
+  /// No description provided for @seriesBase.
+  ///
+  /// In fr, this message translates to:
+  /// **'Base'**
+  String get seriesBase;
+
+  /// No description provided for @seriesAutographs.
+  ///
+  /// In fr, this message translates to:
+  /// **'Autographes'**
+  String get seriesAutographs;
+
+  /// No description provided for @seriesRelics.
+  ///
+  /// In fr, this message translates to:
+  /// **'Reliques'**
+  String get seriesRelics;
+
+  /// No description provided for @seriesMoments.
+  ///
+  /// In fr, this message translates to:
+  /// **'Moments Historiques'**
+  String get seriesMoments;
+
+  /// No description provided for @seriesCelebrations.
+  ///
+  /// In fr, this message translates to:
+  /// **'Célébrations'**
+  String get seriesCelebrations;
+
+  /// No description provided for @seriesInsert.
+  ///
+  /// In fr, this message translates to:
+  /// **'Insert'**
+  String get seriesInsert;
+
+  /// No description provided for @completion.
+  ///
+  /// In fr, this message translates to:
+  /// **'{owned}/{total} · {pct} %'**
+  String completion(int owned, int total, int pct);
+
+  /// No description provided for @pageOf.
+  ///
+  /// In fr, this message translates to:
+  /// **'Page {page}/{total}'**
+  String pageOf(int page, int total);
+
+  /// No description provided for @filterAllRarities.
+  ///
+  /// In fr, this message translates to:
+  /// **'Toutes les raretés'**
+  String get filterAllRarities;
+
+  /// No description provided for @filterAllCategories.
+  ///
+  /// In fr, this message translates to:
+  /// **'Toutes les catégories'**
+  String get filterAllCategories;
+
+  /// No description provided for @filterOwnedOnly.
+  ///
+  /// In fr, this message translates to:
+  /// **'Possédées'**
+  String get filterOwnedOnly;
+
+  /// No description provided for @filterSearchFighter.
+  ///
+  /// In fr, this message translates to:
+  /// **'Combattant…'**
+  String get filterSearchFighter;
+
+  /// No description provided for @checklistView.
+  ///
+  /// In fr, this message translates to:
+  /// **'Checklist'**
+  String get checklistView;
+
+  /// No description provided for @binderView.
+  ///
+  /// In fr, this message translates to:
+  /// **'Classeur'**
+  String get binderView;
+
+  /// No description provided for @notOwned.
+  ///
+  /// In fr, this message translates to:
+  /// **'Non possédée'**
+  String get notOwned;
+
+  /// No description provided for @ownedCopies.
+  ///
+  /// In fr, this message translates to:
+  /// **'{count, plural, =1{1 exemplaire} other{{count} exemplaires}}'**
+  String ownedCopies(int count);
+
+  /// No description provided for @emptySlot.
+  ///
+  /// In fr, this message translates to:
+  /// **'Emplacement vide'**
+  String get emptySlot;
+
+  /// No description provided for @cardFlipHint.
+  ///
+  /// In fr, this message translates to:
+  /// **'Touche la carte pour la retourner'**
+  String get cardFlipHint;
+
+  /// No description provided for @cardTiltHint.
+  ///
+  /// In fr, this message translates to:
+  /// **'Incline ton téléphone'**
+  String get cardTiltHint;
+
+  /// No description provided for @cardRecord.
+  ///
+  /// In fr, this message translates to:
+  /// **'Palmarès'**
+  String get cardRecord;
+
+  /// No description provided for @cardSignatureMove.
+  ///
+  /// In fr, this message translates to:
+  /// **'Coup signature'**
+  String get cardSignatureMove;
+
+  /// No description provided for @cardSignatureLocked.
+  ///
+  /// In fr, this message translates to:
+  /// **'Débloqué à partir d’Épique'**
+  String get cardSignatureLocked;
+
+  /// No description provided for @cardHighlights.
+  ///
+  /// In fr, this message translates to:
+  /// **'Faits marquants'**
+  String get cardHighlights;
+
+  /// No description provided for @cardStatBonus.
+  ///
+  /// In fr, this message translates to:
+  /// **'Bonus de rareté +{n}'**
+  String cardStatBonus(int n);
+
+  /// No description provided for @cardSerial.
+  ///
+  /// In fr, this message translates to:
+  /// **'{serial}/{run}'**
+  String cardSerial(int serial, int run);
+
+  /// No description provided for @cardPrintRun.
+  ///
+  /// In fr, this message translates to:
+  /// **'Tirage /{run}'**
+  String cardPrintRun(int run);
+
+  /// No description provided for @cardRookie.
+  ///
+  /// In fr, this message translates to:
+  /// **'Recrue'**
+  String get cardRookie;
+
+  /// No description provided for @cardNumberInSeries.
+  ///
+  /// In fr, this message translates to:
+  /// **'{number}/{total}'**
+  String cardNumberInSeries(String number, int total);
+
+  /// No description provided for @showcaseIntro.
+  ///
+  /// In fr, this message translates to:
+  /// **'Chaque rareté a son effet. Touche une carte pour l’ouvrir en grand, puis incline ton téléphone.'**
+  String get showcaseIntro;
+
+  /// No description provided for @showcasePreview.
+  ///
+  /// In fr, this message translates to:
+  /// **'Aperçu'**
+  String get showcasePreview;
+
+  /// No description provided for @profileTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Profil'**
+  String get profileTitle;
+
+  /// No description provided for @profileLoading.
+  ///
+  /// In fr, this message translates to:
+  /// **'Chargement du profil…'**
+  String get profileLoading;
+
+  /// No description provided for @profileOffline.
+  ///
+  /// In fr, this message translates to:
+  /// **'Profil indisponible hors ligne'**
+  String get profileOffline;
+
+  /// No description provided for @administrator.
+  ///
+  /// In fr, this message translates to:
+  /// **'Administrateur'**
+  String get administrator;
+
+  /// No description provided for @myFriendCode.
+  ///
+  /// In fr, this message translates to:
+  /// **'Mon code ami'**
+  String get myFriendCode;
+
+  /// No description provided for @copy.
+  ///
+  /// In fr, this message translates to:
+  /// **'Copier'**
+  String get copy;
+
+  /// No description provided for @friendCodeCopied.
+  ///
+  /// In fr, this message translates to:
+  /// **'Code ami copié'**
+  String get friendCodeCopied;
+
+  /// No description provided for @settings.
+  ///
+  /// In fr, this message translates to:
+  /// **'Réglages'**
+  String get settings;
+
+  /// No description provided for @creditsAndSources.
+  ///
+  /// In fr, this message translates to:
+  /// **'Crédits et sources'**
+  String get creditsAndSources;
+
+  /// No description provided for @settingsTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Réglages'**
+  String get settingsTitle;
+
+  /// No description provided for @account.
+  ///
+  /// In fr, this message translates to:
+  /// **'Compte'**
+  String get account;
+
+  /// No description provided for @syncContent.
+  ///
+  /// In fr, this message translates to:
+  /// **'Synchroniser le contenu'**
+  String get syncContent;
+
+  /// No description provided for @syncContentSub.
+  ///
+  /// In fr, this message translates to:
+  /// **'Combattants, éditions, images'**
+  String get syncContentSub;
+
+  /// No description provided for @syncFailed.
+  ///
+  /// In fr, this message translates to:
+  /// **'Dernière tentative échouée (hors ligne ?)'**
+  String get syncFailed;
+
+  /// No description provided for @signOut.
+  ///
+  /// In fr, this message translates to:
+  /// **'Se déconnecter'**
+  String get signOut;
+
+  /// No description provided for @versionLabel.
+  ///
+  /// In fr, this message translates to:
+  /// **'Octogone · version {version}'**
+  String versionLabel(String version);
+
+  /// No description provided for @creditsTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Crédits'**
+  String get creditsTitle;
+
+  /// No description provided for @creditsDisclaimer.
+  ///
+  /// In fr, this message translates to:
+  /// **'Application personnelle, non commerciale et non officielle. Aucun logo officiel : les noms d’éditions apparaissent en texte et les cadres des cartes sont des créations originales.'**
+  String get creditsDisclaimer;
+
+  /// No description provided for @dataSources.
+  ///
+  /// In fr, this message translates to:
+  /// **'Sources des données'**
+  String get dataSources;
+
+  /// No description provided for @srcStats.
+  ///
+  /// In fr, this message translates to:
+  /// **'Statistiques officielles des combattants'**
+  String get srcStats;
+
+  /// No description provided for @srcRecords.
+  ///
+  /// In fr, this message translates to:
+  /// **'Palmarès détaillés, distinctions'**
+  String get srcRecords;
+
+  /// No description provided for @srcNationality.
+  ///
+  /// In fr, this message translates to:
+  /// **'Nationalité, date de naissance'**
+  String get srcNationality;
+
+  /// No description provided for @srcChecklists.
+  ///
+  /// In fr, this message translates to:
+  /// **'Checklists des éditions réelles'**
+  String get srcChecklists;
+
+  /// No description provided for @srcChecklistCheck.
+  ///
+  /// In fr, this message translates to:
+  /// **'Recoupement des checklists'**
+  String get srcChecklistCheck;
+
+  /// No description provided for @srcPhotos.
+  ///
+  /// In fr, this message translates to:
+  /// **'Photos'**
+  String get srcPhotos;
+
+  /// No description provided for @srcPhotosWho.
+  ///
+  /// In fr, this message translates to:
+  /// **'Wikimedia Commons (licences libres)'**
+  String get srcPhotosWho;
+
+  /// No description provided for @srcFont.
+  ///
+  /// In fr, this message translates to:
+  /// **'Police Oswald (SIL Open Font License)'**
+  String get srcFont;
+
+  /// No description provided for @photosCount.
+  ///
+  /// In fr, this message translates to:
+  /// **'Photos ({count})'**
+  String photosCount(int count);
+
+  /// No description provided for @noPhotos.
+  ///
+  /// In fr, this message translates to:
+  /// **'Aucune photo synchronisée.'**
+  String get noPhotos;
+
+  /// No description provided for @photoAuthor.
+  ///
+  /// In fr, this message translates to:
+  /// **'Auteur : {name}'**
+  String photoAuthor(String name);
+
+  /// No description provided for @photoLicense.
+  ///
+  /// In fr, this message translates to:
+  /// **'Licence : {name}'**
+  String photoLicense(String name);
+
+  /// No description provided for @fightComing.
+  ///
+  /// In fr, this message translates to:
+  /// **'Le combat tactique arrive en phase 4.'**
+  String get fightComing;
+
+  /// No description provided for @rarityCommune.
+  ///
+  /// In fr, this message translates to:
+  /// **'Commune'**
+  String get rarityCommune;
+
+  /// No description provided for @rarityPeuCommune.
+  ///
+  /// In fr, this message translates to:
+  /// **'Peu commune'**
+  String get rarityPeuCommune;
+
+  /// No description provided for @rarityRare.
+  ///
+  /// In fr, this message translates to:
+  /// **'Rare'**
+  String get rarityRare;
+
+  /// No description provided for @rarityEpique.
+  ///
+  /// In fr, this message translates to:
+  /// **'Épique'**
+  String get rarityEpique;
+
+  /// No description provided for @rarityLegendaire.
+  ///
+  /// In fr, this message translates to:
+  /// **'Légendaire'**
+  String get rarityLegendaire;
+
+  /// No description provided for @rarityMythique.
+  ///
+  /// In fr, this message translates to:
+  /// **'Mythique'**
+  String get rarityMythique;
+
+  /// No description provided for @effectAcier.
+  ///
+  /// In fr, this message translates to:
+  /// **'Acier d’Octogone'**
+  String get effectAcier;
+
+  /// No description provided for @effectNeon.
+  ///
+  /// In fr, this message translates to:
+  /// **'Néon Main Event'**
+  String get effectNeon;
+
+  /// No description provided for @effectFaceAFace.
+  ///
+  /// In fr, this message translates to:
+  /// **'Face-à-Face'**
+  String get effectFaceAFace;
+
+  /// No description provided for @effectCicatrice.
+  ///
+  /// In fr, this message translates to:
+  /// **'Cicatrice'**
+  String get effectCicatrice;
+
+  /// No description provided for @effectOndeDeChoc.
+  ///
+  /// In fr, this message translates to:
+  /// **'Onde de Choc'**
+  String get effectOndeDeChoc;
+
+  /// No description provided for @effectCleFatale.
+  ///
+  /// In fr, this message translates to:
+  /// **'Clé Fatale'**
+  String get effectCleFatale;
+
+  /// No description provided for @effectCeintureOr.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ceinture d’Or'**
+  String get effectCeintureOr;
+
+  /// No description provided for @effectHeritage.
+  ///
+  /// In fr, this message translates to:
+  /// **'Héritage'**
+  String get effectHeritage;
+
+  /// No description provided for @effectMoment.
+  ///
+  /// In fr, this message translates to:
+  /// **'Moment Historique'**
+  String get effectMoment;
+
+  /// No description provided for @effectTrilogie.
+  ///
+  /// In fr, this message translates to:
+  /// **'Trilogie'**
+  String get effectTrilogie;
+
+  /// No description provided for @effectOctogoneNoir.
+  ///
+  /// In fr, this message translates to:
+  /// **'Octogone Noir'**
+  String get effectOctogoneNoir;
+
+  /// No description provided for @effectMainLevee.
+  ///
+  /// In fr, this message translates to:
+  /// **'Main Levée'**
+  String get effectMainLevee;
+
+  /// No description provided for @wcPailleF.
+  ///
+  /// In fr, this message translates to:
+  /// **'Poids paille (F)'**
+  String get wcPailleF;
+
+  /// No description provided for @wcMoucheF.
+  ///
+  /// In fr, this message translates to:
+  /// **'Poids mouche (F)'**
+  String get wcMoucheF;
+
+  /// No description provided for @wcCoqF.
+  ///
+  /// In fr, this message translates to:
+  /// **'Poids coq (F)'**
+  String get wcCoqF;
+
+  /// No description provided for @wcPlumeF.
+  ///
+  /// In fr, this message translates to:
+  /// **'Poids plume (F)'**
+  String get wcPlumeF;
+
+  /// No description provided for @wcMouche.
+  ///
+  /// In fr, this message translates to:
+  /// **'Poids mouche'**
+  String get wcMouche;
+
+  /// No description provided for @wcCoq.
+  ///
+  /// In fr, this message translates to:
+  /// **'Poids coq'**
+  String get wcCoq;
+
+  /// No description provided for @wcPlume.
+  ///
+  /// In fr, this message translates to:
+  /// **'Poids plume'**
+  String get wcPlume;
+
+  /// No description provided for @wcLegers.
+  ///
+  /// In fr, this message translates to:
+  /// **'Poids légers'**
+  String get wcLegers;
+
+  /// No description provided for @wcMiMoyens.
+  ///
+  /// In fr, this message translates to:
+  /// **'Poids mi-moyens'**
+  String get wcMiMoyens;
+
+  /// No description provided for @wcMoyens.
+  ///
+  /// In fr, this message translates to:
+  /// **'Poids moyens'**
+  String get wcMoyens;
+
+  /// No description provided for @wcMiLourds.
+  ///
+  /// In fr, this message translates to:
+  /// **'Poids mi-lourds'**
+  String get wcMiLourds;
+
+  /// No description provided for @wcLourds.
+  ///
+  /// In fr, this message translates to:
+  /// **'Poids lourds'**
+  String get wcLourds;
+
+  /// No description provided for @statFrappe.
+  ///
+  /// In fr, this message translates to:
+  /// **'Frappe'**
+  String get statFrappe;
+
+  /// No description provided for @statPuissance.
+  ///
+  /// In fr, this message translates to:
+  /// **'Puissance'**
+  String get statPuissance;
+
+  /// No description provided for @statLutte.
+  ///
+  /// In fr, this message translates to:
+  /// **'Lutte'**
+  String get statLutte;
+
+  /// No description provided for @statSoumission.
+  ///
+  /// In fr, this message translates to:
+  /// **'Soumission'**
+  String get statSoumission;
+
+  /// No description provided for @statDefense.
+  ///
+  /// In fr, this message translates to:
+  /// **'Défense'**
+  String get statDefense;
+
+  /// No description provided for @statCardio.
+  ///
+  /// In fr, this message translates to:
+  /// **'Cardio'**
+  String get statCardio;
+
+  /// No description provided for @statMenton.
+  ///
+  /// In fr, this message translates to:
+  /// **'Menton'**
+  String get statMenton;
+
+  /// No description provided for @statFrappeShort.
+  ///
+  /// In fr, this message translates to:
+  /// **'FRA'**
+  String get statFrappeShort;
+
+  /// No description provided for @statPuissanceShort.
+  ///
+  /// In fr, this message translates to:
+  /// **'PUI'**
+  String get statPuissanceShort;
+
+  /// No description provided for @statLutteShort.
+  ///
+  /// In fr, this message translates to:
+  /// **'LUT'**
+  String get statLutteShort;
+
+  /// No description provided for @statSoumissionShort.
+  ///
+  /// In fr, this message translates to:
+  /// **'SOU'**
+  String get statSoumissionShort;
+
+  /// No description provided for @statDefenseShort.
+  ///
+  /// In fr, this message translates to:
+  /// **'DÉF'**
+  String get statDefenseShort;
+
+  /// No description provided for @statCardioShort.
+  ///
+  /// In fr, this message translates to:
+  /// **'CAR'**
+  String get statCardioShort;
+
+  /// No description provided for @statMentonShort.
+  ///
+  /// In fr, this message translates to:
+  /// **'MEN'**
+  String get statMentonShort;
+
+  /// No description provided for @styleFrappeur.
+  ///
+  /// In fr, this message translates to:
+  /// **'Frappeur'**
+  String get styleFrappeur;
+
+  /// No description provided for @styleLutteur.
+  ///
+  /// In fr, this message translates to:
+  /// **'Lutteur'**
+  String get styleLutteur;
+
+  /// No description provided for @styleGrappler.
+  ///
+  /// In fr, this message translates to:
+  /// **'Grappler'**
+  String get styleGrappler;
+
+  /// No description provided for @styleComplet.
+  ///
+  /// In fr, this message translates to:
+  /// **'Complet'**
+  String get styleComplet;
+}
+
+class _AppLocalizationsDelegate
+    extends LocalizationsDelegate<AppLocalizations> {
+  const _AppLocalizationsDelegate();
+
+  @override
+  Future<AppLocalizations> load(Locale locale) {
+    return SynchronousFuture<AppLocalizations>(lookupAppLocalizations(locale));
+  }
+
+  @override
+  bool isSupported(Locale locale) =>
+      <String>['en', 'fr'].contains(locale.languageCode);
+
+  @override
+  bool shouldReload(_AppLocalizationsDelegate old) => false;
+}
+
+AppLocalizations lookupAppLocalizations(Locale locale) {
+  // Lookup logic when only language code is specified.
+  switch (locale.languageCode) {
+    case 'en':
+      return AppLocalizationsEn();
+    case 'fr':
+      return AppLocalizationsFr();
+  }
+
+  throw FlutterError(
+    'AppLocalizations.delegate failed to load unsupported locale "$locale". This is likely '
+    'an issue with the localizations generation tool. Please file an issue '
+    'on GitHub with a reproducible sample app and the gen-l10n configuration '
+    'that was used.',
+  );
+}

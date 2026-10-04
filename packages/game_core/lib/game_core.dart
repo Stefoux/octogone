@@ -2,6 +2,7 @@
 /// compilées en JavaScript, par les Edge Functions Supabase (arbitrage serveur).
 library;
 
+export 'src/cards/rarity.dart';
 export 'src/model/fighter_record.dart';
 export 'src/model/weight_class.dart';
 export 'src/stats/stat_formula.dart';

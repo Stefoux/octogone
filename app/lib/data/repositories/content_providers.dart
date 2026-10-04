@@ -110,3 +110,59 @@ final variantsForEditionProvider = StreamProvider.family<List<Variant>, String>(
         (rows) => [for (final r in rows) Variant(_decode(r.payload))]..sort((a, b) => a.ordre.compareTo(b.ordre)),
       );
 });
+
+// -----------------------------------------------------------------------------
+// Index en mémoire (quelques milliers de lignes au plus)
+// -----------------------------------------------------------------------------
+
+final allCardsProvider = StreamProvider<Map<String, CardDef>>((ref) {
+  final db = ref.watch(databaseProvider);
+  return db.select(db.cards).watch().map((rows) => {for (final r in rows) r.id: CardDef(_decode(r.payload))});
+});
+
+final allSeriesProvider = StreamProvider<Map<String, CardSeries>>((ref) {
+  final db = ref.watch(databaseProvider);
+  return db.select(db.seriesTable).watch().map((rows) => {for (final r in rows) r.id: CardSeries(_decode(r.payload))});
+});
+
+final allVariantsProvider = StreamProvider<Map<String, Variant>>((ref) {
+  final db = ref.watch(databaseProvider);
+  return db.select(db.variants).watch().map((rows) => {for (final r in rows) r.id: Variant(_decode(r.payload))});
+});
+
+final editionsByIdProvider = Provider<Map<String, Edition>>((ref) {
+  return {for (final e in ref.watch(editionsProvider).value ?? const <Edition>[]) e.id: e};
+});
+
+final fightersByIdProvider = Provider<Map<String, Fighter>>((ref) {
+  return {for (final f in ref.watch(fightersProvider).value ?? const <Fighter>[]) f.id: f};
+});
+
+final eventsProvider = StreamProvider<Map<String, EventInfo>>((ref) {
+  final db = ref.watch(databaseProvider);
+  return db.select(db.events).watch().map((rows) => {for (final r in rows) r.id: EventInfo(_decode(r.payload))});
+});
+
+final rivalriesProvider = StreamProvider<List<Rivalry>>((ref) {
+  final db = ref.watch(databaseProvider);
+  return db.select(db.rivalries).watch().map(
+        (rows) => [for (final r in rows) Rivalry(_decode(r.payload))]..sort((a, b) => b.nbCombats.compareTo(a.nbCombats)),
+      );
+});
+
+/// Cartes possédées par le joueur connecté.
+final ownedCardsProvider = StreamProvider<List<OwnedCard>>((ref) {
+  final db = ref.watch(databaseProvider);
+  final uid = ref.watch(supabaseProvider).auth.currentUser?.id;
+  final q = db.select(db.ownedCards)..where((t) => t.ownerId.equals(uid ?? ''));
+  return q.watch().map((rows) => [for (final r in rows) OwnedCard(_decode(r.payload))]);
+});
+
+/// Exemplaires possédés, regroupés par carte.
+final ownedByCardProvider = Provider<Map<String, List<OwnedCard>>>((ref) {
+  final out = <String, List<OwnedCard>>{};
+  for (final o in ref.watch(ownedCardsProvider).value ?? const <OwnedCard>[]) {
+    out.putIfAbsent(o.cardId, () => []).add(o);
+  }
+  return out;
+});

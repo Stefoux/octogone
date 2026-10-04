@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../core/l10n.dart';
 import '../../core/theme.dart';
 import '../auth/auth_providers.dart';
 
@@ -11,18 +12,19 @@ class ProfileScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final l = context.l10n;
     final profile = ref.watch(profileProvider);
     return Scaffold(
-      appBar: AppBar(title: const Text('Profil')),
+      appBar: AppBar(title: Text(l.profileTitle)),
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [
           profile.when(
-            loading: () => const Card(child: ListTile(title: Text('Chargement du profil…'))),
-            error: (e, _) => const Card(
+            loading: () => Card(child: ListTile(title: Text(l.profileLoading))),
+            error: (e, _) => Card(
               child: ListTile(
-                leading: Icon(Icons.cloud_off),
-                title: Text('Profil indisponible hors ligne'),
+                leading: const Icon(Icons.cloud_off),
+                title: Text(l.profileOffline),
               ),
             ),
             data: (p) => p == null
@@ -45,23 +47,23 @@ class ProfileScreen extends ConsumerWidget {
                               child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                                 Text(p.pseudo, style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w800)),
                                 if (p.isAdmin)
-                                  const Text('Administrateur', style: TextStyle(color: AppColors.gold)),
+                                  Text(l.administrator, style: const TextStyle(color: AppColors.gold)),
                               ]),
                             ),
                           ]),
                           const SizedBox(height: 16),
-                          const Text('Mon code ami', style: TextStyle(color: AppColors.textMuted)),
+                          Text(l.myFriendCode, style: const TextStyle(color: AppColors.textMuted)),
                           const SizedBox(height: 4),
                           Row(children: [
                             SelectableText(p.friendCode,
                                 style: const TextStyle(fontSize: 22, letterSpacing: 4, fontWeight: FontWeight.w900)),
                             IconButton(
-                              tooltip: 'Copier',
+                              tooltip: l.copy,
                               icon: const Icon(Icons.copy, size: 20),
                               onPressed: () {
                                 Clipboard.setData(ClipboardData(text: p.friendCode));
                                 ScaffoldMessenger.of(context)
-                                    .showSnackBar(const SnackBar(content: Text('Code ami copié')));
+                                    .showSnackBar(SnackBar(content: Text(l.friendCodeCopied)));
                               },
                             ),
                           ]),
@@ -75,14 +77,14 @@ class ProfileScreen extends ConsumerWidget {
             child: Column(children: [
               ListTile(
                 leading: const Icon(Icons.settings_outlined),
-                title: const Text('Réglages'),
+                title: Text(l.settings),
                 trailing: const Icon(Icons.chevron_right),
                 onTap: () => context.push('/reglages'),
               ),
               const Divider(height: 1),
               ListTile(
                 leading: const Icon(Icons.info_outline),
-                title: const Text('Crédits et sources'),
+                title: Text(l.creditsAndSources),
                 trailing: const Icon(Icons.chevron_right),
                 onTap: () => context.push('/credits'),
               ),

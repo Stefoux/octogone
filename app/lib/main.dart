@@ -1,16 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:intl/date_symbol_data_local.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
 import 'core/config.dart';
+import 'core/l10n.dart';
 import 'core/router.dart';
 import 'core/theme.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await initializeDateFormatting('fr_FR');
+  await initializeDateFormatting('en_US');
   if (!AppConfig.isConfigured) {
     runApp(const _MissingConfigApp());
     return;
@@ -30,9 +31,10 @@ class OctogoneApp extends ConsumerWidget {
       theme: buildTheme(),
       darkTheme: buildTheme(),
       themeMode: ThemeMode.dark,
-      locale: const Locale('fr', 'FR'),
-      supportedLocales: const [Locale('fr', 'FR')],
-      localizationsDelegates: GlobalMaterialLocalizations.delegates,
+      // Langue du téléphone : français ou anglais (repli sur le français).
+      supportedLocales: appLocales,
+      localizationsDelegates: AppLocalizations.localizationsDelegates,
+      localeListResolutionCallback: (locales, _) => resolveAppLocale(locales),
       routerConfig: ref.watch(routerProvider),
     );
   }
@@ -47,15 +49,15 @@ class _MissingConfigApp extends StatelessWidget {
     return MaterialApp(
       theme: buildTheme(),
       debugShowCheckedModeBanner: false,
-      home: const Scaffold(
-        body: Center(
-          child: Padding(
-            padding: EdgeInsets.all(32),
-            child: Text(
-              'Configuration Supabase manquante.\n\n'
-              'Compile avec :\nflutter run --dart-define-from-file=config/app.json\n\n'
-              '(fichier généré par scripts/supabase_setup.sh)',
-              textAlign: TextAlign.center,
+      supportedLocales: appLocales,
+      localizationsDelegates: AppLocalizations.localizationsDelegates,
+      localeListResolutionCallback: (locales, _) => resolveAppLocale(locales),
+      home: Builder(
+        builder: (context) => Scaffold(
+          body: Center(
+            child: Padding(
+              padding: const EdgeInsets.all(32),
+              child: Text(context.l10n.missingConfig, textAlign: TextAlign.center),
             ),
           ),
         ),
