@@ -110,7 +110,7 @@ class _Photo extends StatelessWidget {
     final fighters = view.fighters;
     Widget photo;
     if (view.effect == 'trilogie' && fighters.length >= 2) {
-      photo = Row(children: [
+      photo = Row(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
         Expanded(child: _portrait(fighters[0])),
         Container(
           width: 46,
@@ -127,7 +127,10 @@ class _Photo extends StatelessWidget {
       ]);
     } else if (fighters.length >= 2) {
       photo = Stack(fit: StackFit.expand, children: [
-        Row(children: [Expanded(child: _portrait(fighters[0])), Expanded(child: _portrait(fighters[1]))]),
+        Row(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+          Expanded(child: _portrait(fighters[0])),
+          Expanded(child: _portrait(fighters[1])),
+        ]),
         Center(
           child: Container(
             margin: const EdgeInsets.only(bottom: 110),
@@ -211,7 +214,7 @@ class _TopBadges extends StatelessWidget {
           const Spacer(),
           if (view.isRookie) const _Pill(text: 'RC', color: AppColors.crimson),
           if (view.isAutograph) const _Pill(text: 'AUTO', color: AppColors.gold, dark: true),
-          if (!view.isDuel && view.fighter != null)
+          if (!view.isDuel && view.fighter?.pays != null)
             Container(
               margin: const EdgeInsets.only(left: 6),
               padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),

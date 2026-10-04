@@ -4,8 +4,8 @@ Chaque phase se termine par : `flutter analyze` sans erreur, tests, build APK et
 
 | # | Phase | Contenu | État |
 |---|---|---|---|
-| 1 | Fondations | Monorepo, schéma Supabase + RLS, auth email/pseudo, données réelles (252 combattants, 2024 Topps Chrome UFC, Saison 2026), pipeline d'images Commons, cache Drift | terminée en local (cloud : en attente du .env) |
-| 2 | Cartes et album | Recto/verso, familles de cadres, raretés et parallèles en shaders, gyroscope, album à emplacements | à faire |
+| 1 | Fondations | Monorepo, schéma Supabase + RLS, auth email/pseudo, données réelles (252 combattants, 2024 Topps Chrome UFC, Saison 2026), pipeline d'images Commons, cache Drift | terminée (v0.1.1) |
+| 2 | Cartes et album | Recto/verso, familles de cadres, raretés et parallèles en shaders, inclinaison, classeur, vitrine, pack de bienvenue, FR/EN | terminée (v0.2.0) |
 | 3 | Boosters et économie | Ouverture serveur (Edge Function + transaction), numérotation globale, anti-malchance, animations, pièces, défis, fragments | à faire |
 | 4 | Combat contre l'IA | Moteur `game_core`, IA 3 niveaux, modes, hors ligne, équilibrage sur 10 000 combats | à faire |
 | 5 | En ligne | Amis, combats temps réel arbitrés serveur, défis asynchrones, échanges atomiques | à faire |

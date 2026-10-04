@@ -73,15 +73,15 @@ void main() {
     vec2 g = abs(sin((uv + t * 0.05) * vec2(90.0, 90.0 * aspect)));
     float grid = pow(max(g.x, g.y), 18.0);
     col = tinted(hsv(fract(diag + t.x * 0.6), 0.5, 1.0));
-    a = 0.12 + 0.55 * grid * (0.5 + sweep);
+    a = 0.04 + 0.35 * grid * (0.35 + sweep);
   } else if (uMode < 2.5) {
-    vec2 p = uv * vec2(7.0, 7.0 * aspect);
+    vec2 p = uv * vec2(11.0, 11.0 * aspect);
     vec2 cell = floor(p + vec2(floor(p.y) * 0.5, 0.0));
     float tri = step(fract(p.x), fract(p.y));
     float r = hash(cell + tri * 7.1);
     float facet = 0.5 + 0.5 * sin(r * 6.2831 + t.x * 4.0 + t.y * 3.0);
     col = tinted(hsv(fract(r + t.x * 0.3), 0.6, 1.0));
-    a = 0.12 + 0.5 * facet * facet;
+    a = 0.05 + 0.28 * facet * facet * (0.5 + sweep);
   } else if (uMode < 3.5) {
     vec2 p = uv * vec2(70.0, 70.0 * aspect);
     float r = hash(floor(p));
@@ -107,7 +107,7 @@ void main() {
     vec2 f = abs(fract(dd) - 0.5);
     float wire = 1.0 - smoothstep(0.03, 0.07, min(f.x, f.y));
     col = vec3(0.78, 0.82, 0.88) * (0.55 + 0.45 * brushed) + vec3(1.0) * sweep * 0.5;
-    a = 0.22 + 0.25 * sweep + 0.35 * wire;
+    a = 0.05 + 0.2 * sweep + 0.32 * wire * (0.6 + 0.4 * brushed);
   } else if (uMode < 8.5) {
     vec2 impact = vec2(0.5, 0.38);
     float r = length((uv - impact) * vec2(1.0, aspect));
@@ -125,10 +125,10 @@ void main() {
     col = hsv(fract(atan(p.y, p.x) / 6.2831 + t.x * 0.5 + t.y * 0.3 + uTime * 0.05), 0.7, 1.0);
     a = 0.85 * max(edge, inner * 0.6) + 0.5 * sparkle;
   } else if (uMode < 10.5) {
-    float n = noise(uv * vec2(18.0, 18.0 * aspect));
-    float flake = smoothstep(0.62, 0.8, n) * (0.5 + 0.5 * sin(n * 30.0 + t.x * 6.0 + t.y * 4.0));
-    col = mix(vec3(0.85, 0.6, 0.18), vec3(1.0, 0.93, 0.62), flake);
-    a = 0.1 + 0.55 * flake + 0.25 * sweep;
+    float r = hash(floor(uv * vec2(90.0, 90.0 * aspect)));
+    float sparkle = step(0.94, r) * (0.5 + 0.5 * sin(r * 50.0 + t.x * 8.0 + t.y * 6.0 + uTime * 2.0));
+    col = mix(vec3(0.95, 0.72, 0.28), vec3(1.0, 0.95, 0.72), sparkle);
+    a = 0.04 + 0.18 * sweep + 0.8 * sparkle;
   } else if (uMode < 11.5) {
     col = vec3(1.0);
     a = 0.22 * sweep;
@@ -146,7 +146,7 @@ void main() {
     float cone2 = 1.0 - smoothstep(0.0, 0.18, abs(p.x - 0.2 + p.y * 0.25));
     float dark = smoothstep(0.25, 0.8, length((uv - vec2(0.5, 0.45)) * vec2(1.0, aspect * 0.7)));
     col = mix(vec3(0.0), vec3(0.75, 0.85, 1.0), max(cone1, cone2) * (1.0 - uv.y));
-    a = 0.55 * dark + 0.18 * max(cone1, cone2) * (1.0 - uv.y);
+    a = 0.32 * dark + 0.15 * max(cone1, cone2) * (1.0 - uv.y);
   }
 
   a = clamp(a * uIntensity, 0.0, 1.0);

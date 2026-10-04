@@ -52,10 +52,10 @@ class Api:
             if r.status_code >= 300:
                 raise SystemExit(f"{table}: HTTP {r.status_code} {r.text[:500]}")
 
-    def select(self, table: str, columns: str) -> list[dict]:
+    def select(self, table: str, columns: str, filters: dict | None = None) -> list[dict]:
         out, offset = [], 0
         while True:
-            r = self.s.get(f"{self.url}/rest/v1/{table}", params={"select": columns},
+            r = self.s.get(f"{self.url}/rest/v1/{table}", params={"select": columns, **(filters or {})},
                            headers={"Range-Unit": "items", "Range": f"{offset}-{offset + 999}"}, timeout=60)
             if r.status_code >= 300:
                 raise SystemExit(f"{table}: HTTP {r.status_code} {r.text[:300]}")
@@ -68,7 +68,8 @@ class Api:
     def soft_delete(self, table: str, ids: list[str]) -> None:
         for i in range(0, len(ids), 100):
             chunk = ids[i:i + 100]
-            r = self.s.patch(f"{self.url}/rest/v1/{table}", params={"id": f"in.({','.join(chunk)})"},
+            quoted = ",".join('"' + i.replace('"', '') + '"' for i in chunk)
+            r = self.s.patch(f"{self.url}/rest/v1/{table}", params={"id": f"in.({quoted})"},
                              json={"deleted": True}, headers={"Prefer": "return=minimal"}, timeout=60)
             if r.status_code >= 300:
                 raise SystemExit(f"{table} (suppression): HTTP {r.status_code} {r.text[:300]}")
@@ -277,9 +278,20 @@ def main() -> None:
         api.upsert("series", series)
         api.upsert("variants", variants)
         api.upsert("cards", cards)
+        # Éléments retirés de l'édition (ex. carte d'un combattant qui n'a finalement pas combattu
+        # cette saison) : suppression douce, répercutée sur les téléphones à la synchro.
+        removed = 0
+        for table, rows in (("cards", cards), ("variants", variants), ("series", series)):
+            keep = {r["id"] for r in rows}
+            stale = [r["id"] for r in api.select(table, "id,deleted", {"edition_id": f"eq.{e['id']}"})
+                     if r["id"] not in keep and not r["deleted"]]
+            if stale:
+                api.soft_delete(table, stale)
+                removed += len(stale)
         missing = sum(1 for c in cards if c["a_verifier"])
         print(f"{e['nom']} : {len(series)} séries, {len(variants)} variantes, {len(cards)} cartes"
-              + (f" ({missing} sans fiche combattant)" if missing else ""))
+              + (f" ({missing} sans fiche combattant)" if missing else "")
+              + (f", {removed} élément(s) retiré(s)" if removed else ""))
 
 
 if __name__ == "__main__":

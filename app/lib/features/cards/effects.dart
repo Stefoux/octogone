@@ -71,7 +71,7 @@ EffectSpec effectFor(String effet, {String? couleur, String frameFamily = 'origi
       return const EffectSpec(mode: 0, intensity: 0.7, blend: BlendMode.screen, photo: PhotoFilter.negative);
     // --- raretés originales ---
     case 'acier':
-      return const EffectSpec(mode: 6, blend: BlendMode.srcOver, frame: _steel, intensity: 0.9);
+      return const EffectSpec(mode: 6, blend: BlendMode.screen, frame: _steel);
     case 'neon':
       return const EffectSpec(mode: 13, decoration: Decoration2.neon, animated: true);
     case 'face_a_face':
@@ -94,7 +94,7 @@ EffectSpec effectFor(String effet, {String? couleur, String frameFamily = 'origi
       return const EffectSpec(mode: 10, intensity: 0.45, blend: BlendMode.screen,
           decoration: Decoration2.museumPlaque, frame: _brass);
     case 'trilogie':
-      return const EffectSpec(mode: 2, blend: BlendMode.screen, frame: _gold);
+      return const EffectSpec(mode: 2, blend: BlendMode.screen, frame: _gold, intensity: 0.55);
     case 'octogone_noir':
       return const EffectSpec(mode: 9, blend: BlendMode.screen, animated: true, photo: PhotoFilter.noir, frame: _black);
     default:
