@@ -172,42 +172,145 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "UFC Hall of Fame ( Modern Wing , Class of 2024)",
-    "Three successful title defenses",
-    "Tied ( B.J. Penn , Benson Henderson & Khabib Nurmagomedov ) for the second most consecutive UFC lightweight title defenses (3) (behind Islam Makhachev )",
-    "Tied ( Nate Diaz & Cub Swanson ) for fourth most Fight of the Night bonuses in UFC history (8)",
-    "Knockout of the Night (One time) vs. Gray Maynard 3",
-    "Performance of the Night (Two times) vs. Cub Swanson 1 and Chad Mendes",
-    "Third longest total fight time in UFC history (7:57:10)",
-    "Tied for sixth most unanimous decision wins in UFC history (10)",
-    "2007: Ranked No. 4 Fighter of the Year  & Ranked No. 2 Fight of the Year vs. Tyson Griffin",
-    "2010: Fighter of the Year  & Upset of the Year vs. B.J. Penn 1",
-    "2012: Ranked No. 4 Fight of the Year vs. Benson Henderson 1",
-    "2015: Ranked No. 5 Knockout of the Year vs. Chad Mendes",
-    "2020: Ranked No. 8 Fight of the Year vs. Pedro Munhoz",
-    "Reality Fighting Reality Fighting Lightweight Championship (One time) One successful title defense",
-    "Reality Fighting Lightweight Championship (One time) One successful title defense",
-    "One successful title defense",
-    "Sherdog Fight of the Year (2011) vs. Gray Maynard on January 1 2011 All-Violence Second Team  2014 All-Violence First Team  2017 Beatdown of the Year vs. Yair Rodríguez",
-    "Fight of the Year (2011) vs. Gray Maynard on January 1",
-    "2011 All-Violence Second Team",
-    "2014 All-Violence First Team",
-    "2017 Beatdown of the Year vs. Yair Rodríguez",
-    "World MMA Awards 2011 Fight of the Year vs. Gray Maynard at UFC 125",
-    "2011 Fight of the Year vs. Gray Maynard at UFC 125",
-    "ESPN 2012 Fight of the Year vs. Benson Henderson at UFC 144",
-    "2012 Fight of the Year vs. Benson Henderson at UFC 144",
-    "MMA Fighting 2010 #2 Ranked Fighter of the Year",
-    "2010 #2 Ranked Fighter of the Year",
-    "Bloody Elbow 2010 Performance of the Year vs. B.J. Penn 2 at UFC 118",
-    "2010 Performance of the Year vs. B.J. Penn 2 at UFC 118",
-    "Bleacher Report 2012 #2 Ranked Fight of the Year vs. Benson Henderson",
-    "2012 #2 Ranked Fight of the Year vs. Benson Henderson",
-    "Inside MMA 2011 Comeback of the Year Bazzie Award vs. Gray Maynard",
-    "2011 Comeback of the Year Bazzie Award vs. Gray Maynard",
-    "FIGHT! Magazine 2007 Newcomer of the Year",
-    "2007 Newcomer of the Year"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame ( Modern Wing , Class of 2024)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Lightweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Three successful title defenses"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Jens Pulver & Justin Gaethje ) for third most UFC lightweight title fight wins (5)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( B.J. Penn , Benson Henderson & Khabib Nurmagomedov ) for the second most consecutive UFC lightweight title defenses (3) (behind Islam Makhachev )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Eight times) vs. Tyson Griffin , Hermes França , Matt Veach , Gray Maynard 2, Benson Henderson , José Aldo , Charles Oliveira and Pedro Munhoz"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Nate Diaz & Cub Swanson ) for fourth most Fight of the Night bonuses in UFC history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Knockout of the Night (One time) vs. Gray Maynard 3"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. Cub Swanson 1 and Chad Mendes"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third longest total fight time in UFC history (7:57:10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied for sixth most unanimous decision wins in UFC history (10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2007: Ranked No. 4 Fighter of the Year & Ranked No. 2 Fight of the Year vs. Tyson Griffin"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2010: Fighter of the Year & Upset of the Year vs. B.J. Penn 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2012: Ranked No. 4 Fight of the Year vs. Benson Henderson 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2015: Ranked No. 5 Knockout of the Year vs. Chad Mendes"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Ranked No. 8 Fight of the Year vs. Pedro Munhoz"
+    },
+    {
+      "org": "Reality Fighting",
+      "texte": "Reality Fighting Lightweight Championship (One time)"
+    },
+    {
+      "org": "Reality Fighting",
+      "texte": "One successful title defense"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "Fight of the Year (2011) vs. Gray Maynard on January 1"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2011 All-Violence Second Team"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2014 All-Violence First Team"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2017 Beatdown of the Year vs. Yair Rodríguez"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2011 Fight of the Year vs. Gray Maynard at UFC 125"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2012 Fight of the Year vs. Benson Henderson at UFC 144"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2010 #2 Ranked Fighter of the Year"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2010 Performance of the Year vs. B.J. Penn 2 at UFC 118"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2012 #2 Ranked Fight of the Year vs. Benson Henderson"
+    },
+    {
+      "org": "Inside MMA",
+      "texte": "2011 Comeback of the Year Bazzie Award vs. Gray Maynard"
+    },
+    {
+      "org": "FIGHT! Magazine",
+      "texte": "2007 Newcomer of the Year"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids légers",
+      "Hall of Fame de l'UFC (2024)",
+      "3 défenses de titre à l'UFC",
+      "Combattant de l'année (2010)",
+      "Combat de l'année (2011, 2012)",
+      "Bonus UFC : 2× Performance de la soirée, 8× Combat de la soirée, 1× KO de la soirée"
+    ],
+    "en": [
+      "UFC Lightweight Champion",
+      "UFC Hall of Fame (2024)",
+      "3 UFC title defenses",
+      "Fighter of the Year (2010)",
+      "Fight of the Year (2011, 2012)",
+      "UFC bonuses: 2× Performance of the Night, 8× Fight of the Night, 1× Knockout of the Night"
+    ]
+  },
   "image_commons": "Frankie Edgar.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Frankie_Edgar",

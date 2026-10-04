@@ -120,44 +120,133 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "International Sports Hall of Fame Class of 2024",
-    "Class of 2024",
-    "UFC Women's Bantamweight Championship (One time)",
-    "Fight of the Night (Two times) vs. Cat Zingano and Ronda Rousey",
-    "Performance of the Night (Three times) vs. Holly Holm , Marion Reneau and Julia Avila    Second most Post-Fight bonuses in UFC Women's Bantamweight division history (5)",
-    "Second most Post-Fight bonuses in UFC Women's Bantamweight division history (5)",
-    "Most submission attempts in UFC Women's Bantamweight division history (12)",
-    "Tied ( Raquel Pennington ) for the fourth longest win streak in UFC Women's Bantamweight division history (5)",
-    "Third most control time in UFC Women's Bantamweight division history (1:01:50)",
-    "Third most top position time in UFC Women's Bantamweight division history (48:00)",
-    "Tied ( Ketlen Vieira ) for fourth most takedowns landed in UFC Women's Bantamweight division history (18)",
-    "UFC.com Awards 2013: Ranked #9 Fight of the Year vs. Ronda Rousey  2016: Ranked #2 Submission of the Year  & Ranked #3 Upset of the Year vs. Holly Holm",
-    "2013: Ranked #9 Fight of the Year vs. Ronda Rousey",
-    "2016: Ranked #2 Submission of the Year  & Ranked #3 Upset of the Year vs. Holly Holm",
-    "Strikeforce Strikeforce Women's Bantamweight Championship  Strikeforce 2010 Women's Bantamweight Tournament Winner",
-    "Strikeforce Women's Bantamweight Championship",
-    "Strikeforce 2010 Women's Bantamweight Tournament Winner",
-    "Freestyle Cage Fighting FCF Women's Bantamweight Championship",
-    "FCF Women's Bantamweight Championship",
-    "World MMA Awards 2011 Female Fighter of the Year  2016 Comeback of the Year vs. Holly Holm at UFC 196",
-    "2011 Female Fighter of the Year",
-    "2016 Comeback of the Year vs. Holly Holm at UFC 196",
-    "ESPN 2016 Submission of the Year vs. Holly Holm at UFC 196",
-    "2016 Submission of the Year vs. Holly Holm at UFC 196",
-    "Bloody Elbow 2013 WMMA Fight of the Year vs. Ronda Rousey on December 28",
-    "2013 WMMA Fight of the Year vs. Ronda Rousey on December 28",
-    "MMADNA.nl 2016 Comeback of the Year vs. Holly Holm",
-    "2016 Comeback of the Year vs. Holly Holm",
-    "Bleacher Report 2016 Submission of the Year vs. Holly Holm at UFC 196",
-    "2016 Submission of the Year vs. Holly Holm at UFC 196",
-    "MMA Sucka 2016 March Submission of the Month vs. Holly Holm at UFC 196",
-    "2016 March Submission of the Month vs. Holly Holm at UFC 196",
-    "CBS Sports 2016 #3 Ranked UFC Fight of the Year vs. Holly Holm",
-    "2016 #3 Ranked UFC Fight of the Year vs. Holly Holm",
-    "2009 World Team Trials Silver Medalist",
-    "2008 FILA Grappling World Championships Senior Women' No-Gi Silver Medalist",
-    "2008 World Team Trials National Grappling Champion"
+    {
+      "org": "International Sports Hall of Fame",
+      "texte": "Class of 2024"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Women's Bantamweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Two times) vs. Cat Zingano and Ronda Rousey"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Three times) vs. Holly Holm , Marion Reneau and Julia Avila"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most Post-Fight bonuses in UFC Women's Bantamweight division history (5)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most submission attempts in UFC Women's Bantamweight division history (12)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Raquel Pennington ) for the fourth longest win streak in UFC Women's Bantamweight division history (5)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most control time in UFC Women's Bantamweight division history (1:01:50)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most top position time in UFC Women's Bantamweight division history (48:00)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Ketlen Vieira ) for fourth most takedowns landed in UFC Women's Bantamweight division history (18)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2013: Ranked #9 Fight of the Year vs. Ronda Rousey"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2016: Ranked #2 Submission of the Year & Ranked #3 Upset of the Year vs. Holly Holm"
+    },
+    {
+      "org": "Strikeforce",
+      "texte": "Strikeforce Women's Bantamweight Championship"
+    },
+    {
+      "org": "Strikeforce",
+      "texte": "Strikeforce 2010 Women's Bantamweight Tournament Winner"
+    },
+    {
+      "org": "Freestyle Cage Fighting",
+      "texte": "FCF Women's Bantamweight Championship"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2011 Female Fighter of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2016 Comeback of the Year vs. Holly Holm at UFC 196"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2016 Submission of the Year vs. Holly Holm at UFC 196"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2013 WMMA Fight of the Year vs. Ronda Rousey on December 28"
+    },
+    {
+      "org": "MMADNA.nl",
+      "texte": "2016 Comeback of the Year vs. Holly Holm"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2016 Submission of the Year vs. Holly Holm at UFC 196"
+    },
+    {
+      "org": "MMA Sucka",
+      "texte": "2016 March Submission of the Month vs. Holly Holm at UFC 196"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2016 #3 Ranked UFC Fight of the Year vs. Holly Holm"
+    },
+    {
+      "org": null,
+      "texte": "2009 World Team Trials Silver Medalist"
+    },
+    {
+      "org": null,
+      "texte": "2008 FILA Grappling World Championships Senior Women' No-Gi Silver Medalist"
+    },
+    {
+      "org": null,
+      "texte": "2008 World Team Trials National Grappling Champion"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Championne UFC des poids coq féminins",
+      "Championne Strikeforce des poids coq féminins",
+      "Combattante de l'année (2011)",
+      "Record UFC chez les poids coq féminins : tentatives de soumission (12)",
+      "Soumission de l'année (2016)",
+      "Bonus UFC : 3× Performance de la soirée, 2× Combat de la soirée"
+    ],
+    "en": [
+      "UFC Women's Bantamweight Champion",
+      "Strikeforce Women's Bantamweight Champion",
+      "Fighter of the Year (2011)",
+      "UFC Women's Bantamweight record: most submission attempts (12)",
+      "Submission of the Year (2016)",
+      "UFC bonuses: 3× Performance of the Night, 2× Fight of the Night"
+    ]
+  },
   "image_commons": "MIESHA TATE BREAKS DOWN CONOR MCGREGOR VS KHABIB NURMAGOMEDOV UFC 229 - YouTube - 0-46 (cropped).jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Miesha_Tate",

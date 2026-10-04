@@ -116,19 +116,59 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Performance of the Night (Four times) vs. George Roop , Douglas Silva de Andrade , Marlon Moraes , and Adrian Yañez",
-    "Fight of the Night (Two times) vs. Ricky Simón and Marlon Vera   Tied ( Marlon Vera , Davey Grant & Song Yadong ) for fourth most Post-Fight bonuses in UFC Bantamweight division history (6)",
-    "Tied ( Marlon Vera , Davey Grant & Song Yadong ) for fourth most Post-Fight bonuses in UFC Bantamweight division history (6)",
-    "Tied ( Marlon Vera , Adrian Yañez & Song Yadong ) for third most knockouts in UFC Bantamweight division history (6)",
-    "Tied ( Urijah Faber , Sean O'Malley & Song Yadong ) for third most finishes in UFC Bantamweight division history (7)",
-    "Tied ( Urijah Faber ) for sixth most wins in UFC Bantamweight division history (11)",
-    "Third most bouts in UFC Bantamweight division history (19)",
-    "Fourth most significant strikes landed in UFC Bantamweight division history (1317)",
-    "Fifth most total fight time in UFC Bantamweight division history (3:58:06)",
-    "CES MMA Featherweight Championship (One time; former) One successful title defense",
-    "Featherweight Championship (One time; former) One successful title defense",
-    "One successful title defense"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Four times) vs. George Roop , Douglas Silva de Andrade , Marlon Moraes , and Adrian Yañez"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Two times) vs. Ricky Simón and Marlon Vera"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Marlon Vera , Davey Grant & Song Yadong ) for fourth most Post-Fight bonuses in UFC Bantamweight division history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Marlon Vera , Adrian Yañez & Song Yadong ) for third most knockouts in UFC Bantamweight division history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Urijah Faber , Sean O'Malley & Song Yadong ) for third most finishes in UFC Bantamweight division history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Urijah Faber ) for sixth most wins in UFC Bantamweight division history (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most bouts in UFC Bantamweight division history (19)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most significant strikes landed in UFC Bantamweight division history (1317)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth most total fight time in UFC Bantamweight division history (3:58:06)"
+    },
+    {
+      "org": "CES MMA",
+      "texte": "Featherweight Championship (One time; former)"
+    },
+    {
+      "org": "CES MMA",
+      "texte": "One successful title defense"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 4× Performance de la soirée, 2× Combat de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 4× Performance of the Night, 2× Fight of the Night"
+    ]
+  },
   "image_commons": "FONT.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Rob_Font",

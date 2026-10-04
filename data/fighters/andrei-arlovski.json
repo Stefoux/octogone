@@ -146,47 +146,179 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "UFC Heavyweight Championship (One time; former) One successful title defense First Belarusian champion in UFC history",
-    "One successful title defense",
-    "First Belarusian champion in UFC history",
-    "Interim UFC Heavyweight Championship (One time; first; former) One successful title defense",
-    "One successful title defense",
-    "Fight of the Night (Two times) vs. Josh Barnett and Travis Browne",
-    "Performance of the Night (One time) vs. Antônio Silva",
-    "Fight of the Night (One time) vs. Ricco Rodriguez",
-    "Knockout of the Night (Two times) vs. Vladimir Matyushenko and Paul Buentello",
-    "Submission of the Night (Two times) vs. Aaron Brink and Tim Sylvia",
-    "Tied ( Donald Cerrone ) for fifth most wins in UFC history (23)  Most wins in UFC heavyweight history (23)",
-    "Most wins in UFC heavyweight history (23)",
-    "Most bouts in UFC heavyweight history (42)",
-    "Third most bouts in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (45) (behind Donald Cerrone & Jim Miller )",
-    "Most total fight time in UFC heavyweight history (6:49:58)",
-    "Most decision bouts in UFC Heavyweight history (19)",
-    "Tied ( Georges St-Pierre , Rafael dos Anjos , Diego Sanchez & Belal Muhammad ) for third most wins by decision in UFC history (12)",
-    "Most significant strikes landed in UFC heavyweight history (1585)  Most strikes landed in UFC heavyweight history (1907)",
-    "Most strikes landed in UFC heavyweight history (1907)",
-    "Tied ( Gabriel Gonzaga , Stefan Struve & Francis Ngannou ) for third most finishes in UFC Heavyweight division history (11)",
-    "Tied ( Cain Velasquez & Ciryl Gane ) for second longest win streak in UFC Heavyweight division history (7)",
-    "Tied ( Cain Velasquez & Alistair Overeem ) for third most knockdowns landed in UFC Heavyweight division history (10)",
-    "Second most knockout losses in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (10)  (behind Alistair Overeem )",
-    "Tied ( Amanda Nunes , Charles Oliveira and Anthony Johnson ) for fifth most first-round finishes in UFC history (9)",
-    "Tied ( Jim Miller ) for third most losses in UFC history (18)  (behind Clay Guida & Jeremy Stephens )",
-    "2005: Ranked #4 Submission of the Year vs. Tim Sylvia  & Ranked #3 Knockout of the Year vs. Paul Buentello",
-    "2006: Ranked #4 Fight of the Year vs. Tim Sylvia 1",
-    "2015: Ranked #7 Knockout of the Year vs. Travis Browne ,  Ranked #4 Fight of the Year vs. Travis Browne  & Half-Year Awards: Best Fight of the 1HY vs. Travis Browne",
-    "Combat Press 2015 Comeback Fighter of the Year",
-    "2015 Comeback Fighter of the Year",
-    "MMA Junkie 2015 May Fight of the Month vs. Travis Browne",
-    "2015 May Fight of the Month vs. Travis Browne",
-    "Sherdog 2015 Round of the Year vs. Travis Browne , round 1",
-    "2015 Round of the Year vs. Travis Browne , round 1",
-    "Bare Knuckle Fighting Championship BKFC Heavyweight Championship (One time, current)  Oldest fighter in history to win a BKFC Championship (47 years, 3 days)",
-    "BKFC Heavyweight Championship (One time, current)  Oldest fighter in history to win a BKFC Championship (47 years, 3 days)",
-    "Oldest fighter in history to win a BKFC Championship (47 years, 3 days)",
-    "European Youth Sambo European Youth Sambo Champion",
-    "European Youth Sambo Champion",
-    "World Cup 2nd place in the World Cup in Sambo"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Heavyweight Championship (One time; former)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "One successful title defense"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First Belarusian champion in UFC history"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Interim UFC Heavyweight Championship (One time; first; former)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "One successful title defense"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Two times) vs. Josh Barnett and Travis Browne"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Antônio Silva"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Encyclopedia Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Ricco Rodriguez"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Knockout of the Night (Two times) vs. Vladimir Matyushenko and Paul Buentello"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Submission of the Night (Two times) vs. Aaron Brink and Tim Sylvia"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Donald Cerrone ) for fifth most wins in UFC history (23)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most wins in UFC heavyweight history (23)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most bouts in UFC history (42)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most bouts in UFC heavyweight history (42)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most bouts in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (45) (behind Donald Cerrone & Jim Miller )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most total fight time in UFC heavyweight history (6:49:58)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most decision wins in UFC Heavyweight history (12)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most decision bouts in UFC Heavyweight history (19)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Georges St-Pierre , Rafael dos Anjos , Diego Sanchez & Belal Muhammad ) for third most wins by decision in UFC history (12)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most significant strikes landed in UFC heavyweight history (1585)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most strikes landed in UFC heavyweight history (1907)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Gabriel Gonzaga , Stefan Struve & Francis Ngannou ) for third most finishes in UFC Heavyweight division history (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Cain Velasquez & Ciryl Gane ) for second longest win streak in UFC Heavyweight division history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Cain Velasquez & Alistair Overeem ) for third most knockdowns landed in UFC Heavyweight division history (10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most knockout losses in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (10) (behind Alistair Overeem )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Amanda Nunes , Charles Oliveira and Anthony Johnson ) for fifth most first-round finishes in UFC history (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Jim Miller ) for third most losses in UFC history (18) (behind Clay Guida & Jeremy Stephens )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2005: Ranked #4 Submission of the Year vs. Tim Sylvia & Ranked #3 Knockout of the Year vs. Paul Buentello"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2006: Ranked #4 Fight of the Year vs. Tim Sylvia 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2015: Ranked #7 Knockout of the Year vs. Travis Browne , Ranked #4 Fight of the Year vs. Travis Browne & Half-Year Awards: Best Fight of the 1HY vs. Travis Browne"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2015 Comeback Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2015 May Fight of the Month vs. Travis Browne"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2015 Round of the Year vs. Travis Browne , round 1"
+    },
+    {
+      "org": "Bare Knuckle Fighting Championship",
+      "texte": "BKFC Heavyweight Championship (One time, current)"
+    },
+    {
+      "org": "Bare Knuckle Fighting Championship",
+      "texte": "Oldest fighter in history to win a BKFC Championship (47 years, 3 days)"
+    },
+    {
+      "org": "European Youth Sambo",
+      "texte": "European Youth Sambo Champion"
+    },
+    {
+      "org": "World Cup",
+      "texte": "2nd place in the World Cup in Sambo"
+    },
+    {
+      "org": "World Sambo Championship",
+      "texte": "2nd place at the World Sambo Championship"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids lourds",
+      "2 défenses de titre à l'UFC",
+      "Bonus UFC : 1× Performance de la soirée, 2× Combat de la soirée, 2× KO de la soirée, 2× Soumission de la soirée"
+    ],
+    "en": [
+      "UFC Heavyweight Champion",
+      "2 UFC title defenses",
+      "UFC bonuses: 1× Performance of the Night, 2× Fight of the Night, 2× Knockout of the Night, 2× Submission of the Night"
+    ]
+  },
   "image_commons": "Arlovski.png",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Andrei_Arlovski",

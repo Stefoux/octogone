@@ -34,12 +34,13 @@ scripts/             installation Supabase, puis keystore et builds
 
 ## Données
 
-Aucun fait n'est inventé : chaque combattant garde ses sources (`sources`, `champs_sources`) et ce qui n'a pas été trouvé est listé dans `a_verifier`.
+Aucun fait n'est inventé : chaque combattant garde ses sources (`sources`, `champs_sources`) et ce qui n'a pas été trouvé est listé dans `a_verifier`. Un article Wikipedia ou une fiche ufc.com n'est retenu que si le nom correspond (au moins deux mots communs, ou le libellé Wikidata) ; les correspondances particulières sont dans `data/fighters/aliases.json`.
 
 | Script (dans `data/scripts`) | Rôle |
 |---|---|
 | `import_checklist.py` | checklist d'une édition réelle (Checklist Insider), recoupée avec Checklist Center |
 | `fetch_fighters.py` | combattants : ufc.com (stats officielles), Wikipedia (palmarès, bonus, titres), Wikidata (nationalité…) |
+| `distinctions.py` | distinctions courtes (6 lignes max) en français et en anglais, tirées des « Championships and accomplishments » de Wikipedia ; l'app affiche la langue du téléphone (repli : français) |
 | `fetch_images.py` | photos libres Wikimedia Commons, auteur et licence, recadrage visage/buste |
 | `build_original_editions.py` | éditions originales « Saison AAAA » (combattants ayant combattu cette année-là) |
 | `import_to_supabase.py` | envoi idempotent des JSON et des images vers Supabase |

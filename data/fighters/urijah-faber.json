@@ -121,39 +121,129 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "UFC Hall of Fame ( Modern Wing , Class of 2017)",
-    "Fight of the Night (One time) vs. Dominick Cruz",
-    "Performance of the Night (One time) vs. Ricky Simón",
-    "Submission of the Night (Two times) vs. Brian Bowles and Michael McDonald",
-    "Tied ( Rob Font , Sean O'Malley & Song Yadong ) for third most finishes in UFC Bantamweight division history (7)",
-    "Tied ( Rani Yahya ) for most submissions in UFC Bantamweight division history (6)",
-    "Tied ( Rob Font ) for sixth most wins in UFC Bantamweight division history (11)",
-    "Tied ( T.J. Dillashaw ) for sixth most bouts in UFC Bantamweight division history (17)",
-    "2011: Ranked #5 Import of the Year  & Ranked #4 Fight of the Year vs. Dominick Cruz 2",
-    "2013: Ranked #4 Fighter of the Year  & Ranked #7 Submissions of the Year vs. Ivan Menjivar , Scott Jorgensen & Michael McDonald",
-    "WEC Featherweight Championship (One time) Five successful title defenses",
-    "Five successful title defenses",
-    "Fight of the Night (three times) vs. Jeff Curran , Jens Pulver , and Mike Brown",
-    "Knockout of the Night (one time) vs. Joe Pearson",
-    "Submission of the Night (four times) vs. Dominick Cruz , Jens Pulver , Raphael Assunção , and Takeya Mizugaki",
-    "Most Post-Fight bonuses in WEC History (8)",
-    "Most consecutive title defenses in WEC history (five)",
-    "Most successful title defenses in WEC history (five)",
-    "King of the Cage KOTC Bantamweight Championship (One time) Five successful title defenses",
-    "KOTC Bantamweight Championship (One time)",
-    "Five successful title defenses",
-    "Gladiator Challenge GC Bantamweight Championship (Two Times)",
-    "GC Bantamweight Championship (Two Times)",
-    "MMA Insider 2013 Fight Camp of the Year (Team Alpha Male)",
-    "2013 Fight Camp of the Year (Team Alpha Male)",
-    "World MMA Awards 2013 Submission of the Year vs. Ivan Menjivar at UFC 157",
-    "2013 Submission of the Year vs. Ivan Menjivar at UFC 157",
-    "Sherdog 2011 All-Violence First Team  2013 All-Violence First Team",
-    "2011 All-Violence First Team",
-    "2013 All-Violence First Team",
-    "Bleacher Report 2013 #4 Ranked Fighter of the Year",
-    "2013 #4 Ranked Fighter of the Year"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame ( Modern Wing , Class of 2017)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Dominick Cruz"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Ricky Simón"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Submission of the Night (Two times) vs. Brian Bowles and Michael McDonald"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Rob Font , Sean O'Malley & Song Yadong ) for third most finishes in UFC Bantamweight division history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Rani Yahya ) for most submissions in UFC Bantamweight division history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Rob Font ) for sixth most wins in UFC Bantamweight division history (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( T.J. Dillashaw ) for sixth most bouts in UFC Bantamweight division history (17)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2011: Ranked #5 Import of the Year & Ranked #4 Fight of the Year vs. Dominick Cruz 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2013: Ranked #4 Fighter of the Year & Ranked #7 Submissions of the Year vs. Ivan Menjivar , Scott Jorgensen & Michael McDonald"
+    },
+    {
+      "org": "World Extreme Cagefighting",
+      "texte": "WEC Featherweight Championship (One time)"
+    },
+    {
+      "org": "World Extreme Cagefighting",
+      "texte": "Five successful title defenses"
+    },
+    {
+      "org": "World Extreme Cagefighting",
+      "texte": "Fight of the Night (three times) vs. Jeff Curran , Jens Pulver , and Mike Brown"
+    },
+    {
+      "org": "World Extreme Cagefighting",
+      "texte": "Knockout of the Night (one time) vs. Joe Pearson"
+    },
+    {
+      "org": "World Extreme Cagefighting",
+      "texte": "Submission of the Night (four times) vs. Dominick Cruz , Jens Pulver , Raphael Assunção , and Takeya Mizugaki"
+    },
+    {
+      "org": "World Extreme Cagefighting",
+      "texte": "Most Post-Fight bonuses in WEC History (8)"
+    },
+    {
+      "org": "World Extreme Cagefighting",
+      "texte": "Most consecutive title defenses in WEC history (five)"
+    },
+    {
+      "org": "World Extreme Cagefighting",
+      "texte": "Most successful title defenses in WEC history (five)"
+    },
+    {
+      "org": "King of the Cage",
+      "texte": "KOTC Bantamweight Championship (One time)"
+    },
+    {
+      "org": "King of the Cage",
+      "texte": "Five successful title defenses"
+    },
+    {
+      "org": "Gladiator Challenge",
+      "texte": "GC Bantamweight Championship (Two Times)"
+    },
+    {
+      "org": "MMA Insider",
+      "texte": "2013 Fight Camp of the Year (Team Alpha Male)"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2013 Submission of the Year vs. Ivan Menjivar at UFC 157"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2011 All-Violence First Team"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2013 All-Violence First Team"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2013 #4 Ranked Fighter of the Year"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion WEC des poids plume",
+      "Hall of Fame de l'UFC (2017)",
+      "Soumission de l'année (2013)",
+      "Bonus UFC : 1× Performance de la soirée, 4× Combat de la soirée, 1× KO de la soirée, 6× Soumission de la soirée"
+    ],
+    "en": [
+      "WEC Featherweight Champion",
+      "UFC Hall of Fame (2017)",
+      "Submission of the Year (2013)",
+      "UFC bonuses: 1× Performance of the Night, 4× Fight of the Night, 1× Knockout of the Night, 6× Submission of the Night"
+    ]
+  },
   "image_commons": "Urijah Faber 24 July 2009.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Urijah_Faber",

@@ -110,16 +110,43 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Performance of the Night (Six times) vs. Elvis Mutapčić , Maurício Rua , Volkan Oezdemir , Alexander Gustafsson , Devin Clark and Ryan Spann",
-    "Fight of the Night (One time) vs. Thiago Santos",
-    "Tied ( Mauricio Rua , Paul Craig & Nikita Krylov ) for fifth most finishes in UFC Light Heavyweight division history (8)",
-    "UFC.com Awards 2018: Ranked #6 Fighter of the Year",
-    "2018: Ranked #6 Fighter of the Year",
-    "Cage Fury Fighting Championships CFFC Middleweight Championship (One time)",
-    "CFFC Middleweight Championship (One time)",
-    "Victory Fighting Championships Victory FC Middleweight Championship (One time)",
-    "Victory FC Middleweight Championship (One time)"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Six times) vs. Elvis Mutapčić , Maurício Rua , Volkan Oezdemir , Alexander Gustafsson , Devin Clark and Ryan Spann"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Thiago Santos"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Mauricio Rua , Paul Craig & Nikita Krylov ) for fifth most finishes in UFC Light Heavyweight division history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2018: Ranked #6 Fighter of the Year"
+    },
+    {
+      "org": "Cage Fury Fighting Championships",
+      "texte": "CFFC Middleweight Championship (One time)"
+    },
+    {
+      "org": "Victory Fighting Championships",
+      "texte": "Victory FC Middleweight Championship (One time)"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 6× Performance de la soirée, 1× Combat de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 6× Performance of the Night, 1× Fight of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Anthony_Smith_(fighter)",

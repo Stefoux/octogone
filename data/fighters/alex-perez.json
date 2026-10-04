@@ -101,13 +101,35 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Performance of the Night (Three times) vs. Jordan Espinosa , Jussier Formiga and Matheus Nicolau",
-    "Tied ( Deiveson Figueiredo , John Lineker , Dustin Ortiz & Joshua Van ) for third most knockouts in UFC Flyweight division history (4)",
-    "Second shortest average fight time in UFC Flyweight division history (6:25)",
-    "Third most knockdowns-per-15 minutes in UFC Flyweight division history (1.17)",
-    "Tachi Palace Fights TPC Flyweight Champion (One time; former)",
-    "TPC Flyweight Champion (One time; former)"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Three times) vs. Jordan Espinosa , Jussier Formiga and Matheus Nicolau"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Deiveson Figueiredo , John Lineker , Dustin Ortiz & Joshua Van ) for third most knockouts in UFC Flyweight division history (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second shortest average fight time in UFC Flyweight division history (6:25)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most knockdowns-per-15 minutes in UFC Flyweight division history (1.17)"
+    },
+    {
+      "org": "Tachi Palace Fights",
+      "texte": "TPC Flyweight Champion (One time; former)"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 3× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 3× Performance of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Alex_Perez_(fighter)",

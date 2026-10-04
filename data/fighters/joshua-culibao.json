@@ -1,18 +1,18 @@
 {
   "id": "joshua-culibao",
   "nom": "Joshua Culibao",
-  "ufc_slug": "joshua-culibao",
+  "ufc_slug": null,
   "wikipedia_titre": "Joshua Culibao",
-  "surnom": "Kuya",
+  "surnom": null,
   "sexe": "M",
   "pays": "AU",
   "categorie": "plume",
-  "statut": "inactif",
+  "statut": null,
   "date_naissance": "1994-05-24",
-  "taille_cm": 178,
-  "allonge_cm": 185,
-  "style": "Freestyle",
-  "lieu_naissance": "Camperdown, Australia",
+  "taille_cm": null,
+  "allonge_cm": null,
+  "style": null,
+  "lieu_naissance": null,
   "palmares": {
     "victoires": 11,
     "defaites": 4,
@@ -26,18 +26,18 @@
     "defaites_decision": 3
   },
   "stats_ufc": {
-    "frappes_par_min": 3.41,
-    "precision_frappe_pct": 45,
-    "frappes_encaissees_par_min": 3.04,
-    "defense_frappe_pct": 60.0,
-    "takedowns_par_15min": 0.0,
-    "precision_takedown_pct": 0,
-    "defense_takedown_pct": 66.0,
-    "soumissions_par_15min": 0.29,
-    "knockdowns_par_15min": 0.57,
-    "duree_moyenne_combat_s": 788,
-    "frappes_reussies": 358.0,
-    "takedowns_reussis": 0
+    "frappes_par_min": null,
+    "precision_frappe_pct": null,
+    "frappes_encaissees_par_min": null,
+    "defense_frappe_pct": null,
+    "takedowns_par_15min": null,
+    "precision_takedown_pct": null,
+    "defense_takedown_pct": null,
+    "soumissions_par_15min": null,
+    "knockdowns_par_15min": null,
+    "duree_moyenne_combat_s": null,
+    "frappes_reussies": null,
+    "takedowns_reussis": null
   },
   "ufc": {
     "palmares_tableau": {
@@ -98,43 +98,62 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Hex Fight Series HEX Featherweight Championship (one time; former)  One successful title defense",
-    "HEX Featherweight Championship (one time; former)  One successful title defense",
-    "One successful title defense",
-    "Diamondback FC DFC Featherweight Championship (one time; former)",
-    "DFC Featherweight Championship (one time; former)",
-    "Superfight MMA Superfight MMA Featherweight Championship (one time; former)",
-    "Superfight MMA Featherweight Championship (one time; former)"
+    {
+      "org": "Hex Fight Series",
+      "texte": "HEX Featherweight Championship (one time; former)"
+    },
+    {
+      "org": "Hex Fight Series",
+      "texte": "One successful title defense"
+    },
+    {
+      "org": "Diamondback FC",
+      "texte": "DFC Featherweight Championship (one time; former)"
+    },
+    {
+      "org": "Superfight MMA",
+      "texte": "Superfight MMA Featherweight Championship (one time; former)"
+    }
   ],
+  "distinctions": {
+    "fr": [],
+    "en": []
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Joshua_Culibao",
-    "wikidata": "https://www.wikidata.org/wiki/Q106950054",
-    "ufc_com": "https://www.ufc.com/athlete/joshua-culibao"
+    "wikidata": "https://www.wikidata.org/wiki/Q106950054"
   },
   "champs_sources": {
-    "surnom": "ufc_com",
     "pays": "wikidata",
-    "categorie": "ufc_com",
+    "categorie": "wikipedia",
     "palmares": "wikipedia_tableau",
-    "stats_ufc": "ufc_com",
     "ufc": "wikipedia_tableau",
     "accomplissements_en": "wikipedia"
   },
-  "a_verifier": [],
+  "a_verifier": [
+    "allonge_cm",
+    "fiche ufc.com introuvable",
+    "stats_ufc (absentes de la fiche ufc.com)",
+    "statut"
+  ],
   "ecarts_sources": {},
   "maj": "2026-10-04",
   "stats_jeu": {
-    "frappe": 56,
-    "puissance": 64,
-    "lutte": 48,
+    "frappe": 65,
+    "puissance": 65,
+    "lutte": 65,
     "soumission": 47,
-    "defense": 73,
-    "cardio": 71,
+    "defense": 65,
+    "cardio": 56,
     "menton": 85,
-    "globale": 63,
-    "style": "frappeur",
-    "estimees": [],
+    "globale": 64,
+    "style": "complet",
+    "estimees": [
+      "frappe",
+      "lutte",
+      "defense"
+    ],
     "formule_version": 1
   }
 }

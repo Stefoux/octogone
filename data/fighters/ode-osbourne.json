@@ -104,9 +104,19 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Ultimate Fighting Championship Performance of the Night (Two times) vs. Zarrukh Adashev and Luis Gurule",
-    "Performance of the Night (Two times) vs. Zarrukh Adashev and Luis Gurule"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. Zarrukh Adashev and Luis Gurule"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 2× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 2× Performance of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Ode'_Osbourne",

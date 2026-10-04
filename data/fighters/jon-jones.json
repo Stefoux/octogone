@@ -228,47 +228,505 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "UFC Hall of Fame ( Fight Wing , Class of 2021) vs. Alexander Gustafsson 1 at UFC 165",
-    "One successful title defense",
-    "Second longest Heavyweight champion reign in UFC history (840 days)",
-    "Most wins in UFC title fights (16)",
-    "Most successful title defenses in UFC history (12)",
-    "Most UFC title fights (17) Second most submissions in UFC title fights (4) Tied ( Matt Hughes ) for second most finishes in UFC title fights (8)",
-    "Second most submissions in UFC title fights (4)",
-    "Tied ( Matt Hughes ) for second most finishes in UFC title fights (8)",
-    "Eight successful title defenses (First reign)",
-    "Most successful title defenses in UFC Light Heavyweight division history (11)",
-    "Most consecutive title defenses in UFC Light Heavyweight division history (8)",
-    "Most successful title defenses in a 12-month period in UFC history (4)",
-    "Fourth most consecutive title defenses in UFC history (8)",
-    "Second most significant strikes landed in a UFC Light Heavyweight title fight (138)",
-    "Longest Light Heavyweight champion reign in UFC history (1,501 days)",
-    "Most wins in UFC Light Heavyweight title fights (14)",
-    "Most UFC Light Heavyweight title fights (15)",
-    "Most finishes in UFC Light Heavyweight title fights (6)",
-    "Youngest fighter to defend a UFC championship (24 years, 67 days)",
-    "Eighth multi-divisional champion in UFC history",
-    "Fourth fighter to defend the title in two weight divisions in UFC history",
-    "Most total fight time in UFC title fights (4:56:20)",
-    "Fight of the Night (Four times) vs. Quinton Jackson , Lyoto Machida , Alexander Gustafsson and Daniel Cormier 1",
-    "Knockout of the Night (One time) vs. Brandon Vera",
-    "Tied ( Ovince Saint Preux , Anthony Smith & Misha Cirkunov ) for third most submissions in UFC Light Heavyweight division history (5)",
-    "Tied ( Mauricio Rua & Ovince Saint Preux ) for second most Post-Fight bonuses in UFC Light Heavyweight division history (8)",
-    "Longest unbeaten streak in UFC history (20)",
-    "Tied ( Demetrious Johnson , Georges St-Pierre , Max Holloway & Khabib Nurmagomedov ) for fifth longest win streak in UFC history (13)",
-    "Second most main events in UFC history (20) (behind Anderson Silva )",
-    "Most wins in UFC Light Heavyweight division history (20)  Tied ( Demian Maia & Dustin Poirier ) for seventh most wins in UFC history (22)",
-    "Tied ( Demian Maia & Dustin Poirier ) for seventh most wins in UFC history (22)",
-    "Most decision wins in UFC Light Heavyweight division history (10)  Most unanimous decision wins in UFC Light Heavyweight division history (9)",
-    "Most unanimous decision wins in UFC Light Heavyweight division history (9)",
-    "Most total fight time in UFC Light Heavyweight division history (5:40:15)  Second longest average fight time in UFC Light Heavyweight division history (15:28)",
-    "Second longest average fight time in UFC Light Heavyweight division history (15:28)",
-    "Most significant strikes landed in UFC Light Heavyweight division history (1,463)  Most total strikes landed in UFC Light Heavyweight division history (1,835)",
-    "Most total strikes landed in UFC Light Heavyweight division history (1,835)",
-    "Highest takedown defense percentage in UFC Light Heavyweight division history (95.0%)  Second highest takedown defense percentage in UFC history (95.0%)",
-    "Second highest takedown defense percentage in UFC history (95.0%)",
-    "Third most finishes in UFC Light Heavyweight division history (10)"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame ( Fight Wing , Class of 2021) vs. Alexander Gustafsson 1 at UFC 165"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Heavyweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "One successful title defense"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second longest Heavyweight champion reign in UFC history (840 days)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most wins in UFC title fights (16)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most successful title defenses in UFC history (12)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most UFC title fights (17)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most submissions in UFC title fights (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Matt Hughes ) for second most finishes in UFC title fights (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Light Heavyweight Championship (Two times)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Eleven successful title defenses (Overall)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Eight successful title defenses (First reign)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Three successful title defenses (Second reign)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most successful title defenses in UFC Light Heavyweight division history (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most consecutive title defenses in UFC Light Heavyweight division history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most successful title defenses in a 12-month period in UFC history (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most consecutive title defenses in UFC history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most significant strikes landed in a UFC Light Heavyweight title fight (138)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Interim UFC Light Heavyweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Longest Light Heavyweight champion reign in UFC history (1,501 days)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most wins in UFC Light Heavyweight title fights (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most UFC Light Heavyweight title fights (15)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most finishes in UFC Light Heavyweight title fights (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Youngest champion in UFC history (23 years, 243 days)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Youngest fighter to defend a UFC championship (24 years, 67 days)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Eighth multi-divisional champion in UFC history"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth fighter to defend the title in two weight divisions in UFC history"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most total fight time in UFC title fights (4:56:20)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Four times) vs. Quinton Jackson , Lyoto Machida , Alexander Gustafsson and Daniel Cormier 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Knockout of the Night (One time) vs. Brandon Vera"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Submission of the Night (Two times) vs. Ryan Bader and Vitor Belfort"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Ovince Saint Preux , Anthony Smith & Misha Cirkunov ) for third most submissions in UFC Light Heavyweight division history (5)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Three times) vs. Daniel Cormier 2, Ciryl Gane and Stipe Miocic"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Mauricio Rua & Ovince Saint Preux ) for second most Post-Fight bonuses in UFC Light Heavyweight division history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Longest unbeaten streak in UFC history (20)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most consecutive wins in UFC Light Heavyweight division history (13)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Demetrious Johnson , Georges St-Pierre , Max Holloway & Khabib Nurmagomedov ) for fifth longest win streak in UFC history (13)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most main events in UFC history (20) (behind Anderson Silva )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most wins in UFC Light Heavyweight division history (20)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Demian Maia & Dustin Poirier ) for seventh most wins in UFC history (22)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most decision wins in UFC Light Heavyweight division history (10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most unanimous decision wins in UFC Light Heavyweight division history (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most total fight time in UFC Light Heavyweight division history (5:40:15)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second longest average fight time in UFC Light Heavyweight division history (15:28)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most significant strikes landed in UFC Light Heavyweight division history (1,463)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most total strikes landed in UFC Light Heavyweight division history (1,835)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Highest takedown defense percentage in UFC Light Heavyweight division history (95.0%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second highest takedown defense percentage in UFC history (95.0%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most finishes in UFC Light Heavyweight division history (10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Dustin Poirier , Georges St-Pierre , and Amanda Nunes ) for most finishes against former UFC champions (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most consecutive wins against former UFC champions (5)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth most takedowns landed in UFC Light Heavyweight division history (42)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most total leg strikes landed in a UFC Light Heavyweight bout (111) vs. Anthony Smith"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth lowest bottom position percentage in UFC history (0.19%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Lowest bottom position percentage in UFC Light Heavyweight division history (0.2%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Seventh lowest bottom position time in UFC Light Heavyweight division history (0:41)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most top position time in UFC Light Heavyweight division history (47:47)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most control time in UFC Light Heavyweight division history (1:19:42)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth highest significant strike accuracy in UFC Light Heavyweight division history (57.9%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Seventh highest striking differential in UFC Light Heavyweight division history (2.08)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Longest total reign as #1 pound for pound (1,743 days)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Holds wins over nine former UFC champions — Maurício Rua , Quinton Jackson , Lyoto Machida , Rashad Evans , Vitor Belfort , Glover Teixeira , Daniel Cormier , Stipe Miocic and Ciryl Gane"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: Fan's Choice Submission of the Year Winner vs. Ciryl Gane & President's Choice Performance of the Year Nominee vs. Ciryl Gane"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2009: Ranked #2 Loss of the Year vs. Matt Hamill , Ranked #10 Fighter of the Year , Ranked #9 Submission of the Year vs. Jake O'Brien & Ranked #4 Upset of the Year vs. Stephan Bonnar"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2011: Fighter of the Year & Ranked #7 Submission of the Year vs. Lyoto Machida"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2012: Ranked #2 Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2013: Fight of the Year vs. Alexander Gustafsson 1 & Ranked #10 Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2019: Top 10 Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Ranked #9 Fight of the Year vs. Dominick Reyes"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: Ranked #4 Submission of the Year vs. Ciryl Gane & Ranked #10 Fighter of the Year"
+    },
+    {
+      "org": "United States Kickboxing Association",
+      "texte": "USKBA Light Heavyweight Championship (one time)"
+    },
+    {
+      "org": "Business Insider",
+      "texte": "2012 #44 Ranked Most Dominant Athlete on the Planet"
+    },
+    {
+      "org": "Business Insider",
+      "texte": "2013 #39 Ranked Most Dominant Athlete Alive"
+    },
+    {
+      "org": "Business Insider",
+      "texte": "2014 #17 Ranked Most Dominant Athlete Alive"
+    },
+    {
+      "org": "Business Insider",
+      "texte": "2015 #18 Ranked Most Dominant Athlete Alive"
+    },
+    {
+      "org": "Business Insider",
+      "texte": "2015 Men's MMA Most Dominant Athlete"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2009 Breakthrough Fighter of the Year"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2010 All-Violence 1st Team"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2011 All-Violence 1st Team"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2011 Beatdown of the Year vs Maurício Rua at UFC 128"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2011 Fighter of the Year"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2012 All-Violence 1st Team"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2013 All-Violence 1st Team"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2013 Fight of the Year vs Alexander Gustafsson at UFC 165"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2023 Comeback Fighter of the Year"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2010s Fighter of the Decade"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "Greatest Light Heavyweight of All Time"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "Greatest Male Fighter Pound-for-Pound of All Time"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "Mixed Martial Arts Hall of Fame"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2010 Breakthrough Fighter of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2011 Fighter of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2012 Fighter of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2013 Fight of the Year vs. Alexander Gustafsson at UFC 165"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2018 Biggest Story of the Year (Jon Jones and the Move of UFC 232 )"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2023 Event of the Year ( UFC 285 )"
+    },
+    {
+      "org": "talkSPORT",
+      "texte": "Greatest UFC Fighter of All Time"
+    },
+    {
+      "org": "New York Post",
+      "texte": "2023 Comeback Fighter of the Year"
+    },
+    {
+      "org": "BodySlam.net",
+      "texte": "2024 Return of the Year"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2011 Fighter of the Year"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2012 #4 Ranked Fighter of the Year"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2013 #2 Ranked Fight of the Year vs. Alexander Gustafsson at UFC 165"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2019 #2 Ranked Event of the Year ( UFC 239 )"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2023 #5 Ranked Event of the Year ( UFC 285 )"
+    },
+    {
+      "org": "Inside MMA",
+      "texte": "2011 Fighter of the Year Bazzie Award"
+    },
+    {
+      "org": "MMA Sucka",
+      "texte": "2010s #4 Ranked Fighter of the Decade"
+    },
+    {
+      "org": "MMA Sucka",
+      "texte": "Greatest MMA Fighter of All Time"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2011 Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2013 Fighter of the Year Honorable Mention"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2013 Fight of the Year vs Alexander Gustafsson at UFC 165"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2017 Fight of the Year Honorable Mention vs. Daniel Cormier 2 at UFC 214"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2019 Fighter of the Year Honorable Mention"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2010s Fighter of the Decade"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2010s #3 Ranked Fight of the Decade vs. Alexander Gustafsson at UFC 165"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "#2 Ranked UFC Fighter of All Time (2018)"
+    },
+    {
+      "org": "MMA Insider",
+      "texte": "2013 Fight of the Year vs Alexander Gustafsson at UFC 165"
+    },
+    {
+      "org": "Yardbarker",
+      "texte": "2010s MMA Fighter of the Decade"
+    },
+    {
+      "org": "Yardbarker",
+      "texte": "Greatest MMA Fighter of All Time"
+    },
+    {
+      "org": "Fox Sports",
+      "texte": "2013 Fight of the Year vs Alexander Gustafsson at UFC 165"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids lourds",
+      "Champion UFC des poids mi-lourds (2 fois)",
+      "Hall of Fame de l'UFC, aile Combats (2021)",
+      "12 défenses de titre à l'UFC",
+      "Combattant de l'année (2011, 2012)",
+      "Bonus UFC : 3× Performance de la soirée, 4× Combat de la soirée, 1× KO de la soirée, 2× Soumission de la soirée"
+    ],
+    "en": [
+      "UFC Heavyweight Champion",
+      "UFC Light Heavyweight Champion (2×)",
+      "UFC Hall of Fame, Fight Wing (2021)",
+      "12 UFC title defenses",
+      "Fighter of the Year (2011, 2012)",
+      "UFC bonuses: 3× Performance of the Night, 4× Fight of the Night, 1× Knockout of the Night, 2× Submission of the Night"
+    ]
+  },
   "image_commons": "Jon Jones in 2014 (cropped).jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Jon_Jones",

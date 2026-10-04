@@ -173,47 +173,505 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "UFC Featherweight Championship (One time) Three successful title defenses Most finishes & most knockouts in UFC Featherweight title fights (4)",
-    "Three successful title defenses",
-    "Most finishes & most knockouts in UFC Featherweight title fights (4)",
-    "Interim UFC Featherweight Championship (One time) Third most title fight wins in UFC Featherweight division history (5)  First American to win the UFC Featherweight Championship",
-    "Third most title fight wins in UFC Featherweight division history (5)",
-    "First American to win the UFC Featherweight Championship",
-    "First fighter to win a UFC Interim, Undisputed and BMF title (later accomplished by Justin Gaethje )",
-    "One successful title defense",
-    "First fighter to defend the BMF title",
-    "Knockout of the Night (One time) vs. Will Chope",
-    "Tied ( Diego Sanchez , Joe Lauzon & Jim Miller ) for the seventh most Fight of the Night bonuses in UFC history (7)",
-    "Second most Post-Fight bonuses in UFC Featherweight division history (10)  (behind Cub Swanson )",
-    "Tied ( Jon Jones , Demetrious Johnson , Georges St-Pierre & Khabib Nurmagomedov ) for fifth longest winning streak in UFC history (13)",
-    "Longest winning streak in UFC Featherweight division history (13)",
-    "Most wins in UFC Featherweight division history (20)  Fourth most wins in UFC history (24)  Second most wins in UFC/WEC Featherweight division history (20) (behind Cub Swanson )",
-    "Fourth most wins in UFC history (24)",
-    "Second most wins in UFC/WEC Featherweight division history (20) (behind Cub Swanson )",
-    "Tied ( Vitor Belfort ) for third most knockouts in UFC history (12)",
-    "One of five fighters ( Jared Cannonier , Vitor Belfort , Conor McGregor & Robert Whittaker ) to have knockout victories in three different weight classes",
-    "Tied ( José Aldo ) for most finishes in UFC/WEC Featherweight division history (11)",
-    "Tied ( Matt Brown , Dustin Poirier & Vicente Luque ) for fifth most finishes in UFC history (15)",
-    "Tied ( Andre Fili ) for second most bouts in UFC Featherweight division history (27) (behind Darren Elkins )",
-    "Most total fight time in UFC history (8:53:52)  Most total fight time in UFC Featherweight division history (6:58:57)",
-    "Most total fight time in UFC Featherweight division history (6:58:57)",
-    "Tied ( Andre Fili , Alexander Volkanovski & Movsar Evloev ) for second most decision wins in UFC Featherweight division history (9) (behind Cub Swanson )",
-    "Fourth most knockdowns landed in UFC Featherweight division history (10)",
-    "Most consecutive bouts without being knocked down in UFC history (29) (ended vs. Ilia Topuria )",
-    "Latest finish in UFC Lightweight division history (4:59 in R5 vs. Justin Gaethje )",
-    "Tied ( Yair Rodriguez ) for the latest knockout in UFC history (4:59 in R5 vs. Justin Gaethje ) Latest knockout in UFC Lightweight division history (4:59 in R5 vs. Justin Gaethje )",
-    "Latest knockout in UFC Lightweight division history (4:59 in R5 vs. Justin Gaethje )",
-    "2022 UFC Forrest Griffin Community Award",
-    "2019: President's Choice Fight of the Year Nominee vs. Dustin Poirier 2",
-    "2021: President's Choice Fight of the Year Nominee vs. Yair Rodríguez",
-    "2012: Ranked #3 Newcomer of the Year",
-    "2014: Ranked #9 Fighter of the Year",
-    "2015: Ranked #8 Fighter of the Year",
-    "2017: Fighter of the Year",
-    "2018: Ranked #4 Fight of the Year vs. Brian Ortega",
-    "2019: Ranked #4 Fight of the Year vs. Dustin Poirier 2",
-    "2021: Ranked #6 Fighter of the Year  & Ranked #3 Fight of the Year vs. Yair Rodríguez"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Featherweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Three successful title defenses"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most finishes & most knockouts in UFC Featherweight title fights (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Interim UFC Featherweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most title fight wins in UFC Featherweight division history (5)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First American to win the UFC Featherweight Championship"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC 'BMF' title (One time, former)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First fighter to win a UFC Interim, Undisputed and BMF title (later accomplished by Justin Gaethje )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "One successful title defense"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First fighter to defend the BMF title"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Knockout of the Night (One time) vs. Will Chope"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Seven times) vs. José Aldo , Brian Ortega , Dustin Poirier 2, Calvin Kattar , Yair Rodríguez , Jung Chan-sung and Justin Gaethje"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Diego Sanchez , Joe Lauzon & Jim Miller ) for the seventh most Fight of the Night bonuses in UFC history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Five times) vs. Akira Corassani , Cub Swanson , Anthony Pettis , Brian Ortega and Justin Gaethje"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most Post-Fight bonuses in UFC Featherweight division history (10) (behind Cub Swanson )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Jon Jones , Demetrious Johnson , Georges St-Pierre & Khabib Nurmagomedov ) for fifth longest winning streak in UFC history (13)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Longest winning streak in UFC Featherweight division history (13)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most wins in UFC Featherweight division history (20)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most wins in UFC history (24)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most wins in UFC/WEC Featherweight division history (20) (behind Cub Swanson )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most knockouts in UFC Featherweight division history (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Vitor Belfort ) for third most knockouts in UFC history (12)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "One of five fighters ( Jared Cannonier , Vitor Belfort , Conor McGregor & Robert Whittaker ) to have knockout victories in three different weight classes"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most finishes in UFC Featherweight division history (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( José Aldo ) for most finishes in UFC/WEC Featherweight division history (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Matt Brown , Dustin Poirier & Vicente Luque ) for fifth most finishes in UFC history (15)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Andre Fili ) for second most bouts in UFC Featherweight division history (27) (behind Darren Elkins )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most total fight time in UFC history (8:53:52)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most total fight time in UFC Featherweight division history (6:58:57)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Andre Fili , Alexander Volkanovski & Movsar Evloev ) for second most decision wins in UFC Featherweight division history (9) (behind Cub Swanson )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most knockdowns landed in UFC Featherweight division history (10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most consecutive bouts without being knocked down in UFC history (29) (ended vs. Ilia Topuria )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Demetrious Johnson & Yair Rodriguez ) for the latest finish in UFC history (4:59 in R5 by KO vs. Justin Gaethje )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Latest finish in UFC Lightweight division history (4:59 in R5 vs. Justin Gaethje )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Yair Rodriguez ) for the latest knockout in UFC history (4:59 in R5 vs. Justin Gaethje )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Latest knockout in UFC Lightweight division history (4:59 in R5 vs. Justin Gaethje )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022 UFC Forrest Griffin Community Award"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2019: President's Choice Fight of the Year Nominee vs. Dustin Poirier 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: President's Choice Fight of the Year Nominee vs. Yair Rodríguez"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: President's Choice Fight of the Year Winner vs. Justin Gaethje , President's Choice Performance of the Year Winner vs. Justin Gaethje & Fan's Choice Knockout of the Year Winner vs. Justin Gaethje"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2012: Ranked #3 Newcomer of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2014: Ranked #9 Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2015: Ranked #8 Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2017: Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2018: Ranked #4 Fight of the Year vs. Brian Ortega"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2019: Ranked #4 Fight of the Year vs. Dustin Poirier 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: Ranked #6 Fighter of the Year & Ranked #3 Fight of the Year vs. Yair Rodríguez"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: Knockout of the Year & Ranked #3 Fight of the Year vs. Justin Gaethje"
+    },
+    {
+      "org": "X-1 World Events",
+      "texte": "X-1 Lightweight Championship (One time)"
+    },
+    {
+      "org": "808 Battleground",
+      "texte": "808 Battleground Amateur Featherweight Tournament Championship (One time)"
+    },
+    {
+      "org": "The Athletic",
+      "texte": "2010s Men's Featherweight Fighter of the Decade"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2010s Featherweight Fighter of the Decade"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2017 Charles 'Mask' Lewis Fighter of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2024 Fight of the Year vs. Justin Gaethje at UFC 300"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2024 Knockout of the Year vs. Justin Gaethje at UFC 300"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2017 Fighter of the Year"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2024 Knockout of the Year vs. Justin Gaethje at UFC 300"
+    },
+    {
+      "org": "Yahoo Sports",
+      "texte": "2017 Male Fighter of the Year"
+    },
+    {
+      "org": "Yahoo Sports",
+      "texte": "2024 Knockout of the Year vs. Justin Gaethje at UFC 300"
+    },
+    {
+      "org": "RealSport",
+      "texte": "2017 Fighter of the Year"
+    },
+    {
+      "org": "Pundit Arena",
+      "texte": "2017 Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2017 Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2024 Fight of the Year vs. Justin Gaethje at UFC 300"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2024 Knockout of the Year vs. Justin Gaethje at UFC 300"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2024 First Team MMA All-Star"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2025 #3 Ranked Fight of the Year vs. Dustin Poirier at UFC 318"
+    },
+    {
+      "org": "BishopSportsNetwork.com",
+      "texte": "2017 Fighter of the Year"
+    },
+    {
+      "org": "MMADNA.nl",
+      "texte": "2018 Performance of the Year vs. Brian Ortega"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2021 Beatdown of the Year vs. Calvin Kattar"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2016 #7 Ranked Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2017 Male Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2023 April Fight of the Month vs. Arnold Allen"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2024 Knockout of the Year vs. Justin Gaethje at UFC 300"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2024 April Fight of the Month vs. Justin Gaethje"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2010s #10 Ranked Fighter of the Decade"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2017 Male Fighter of the Year"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2024 Knockout of the Year vs. Justin Gaethje at UFC 300"
+    },
+    {
+      "org": "LowKick MMA",
+      "texte": "2024 Knockout of the Year vs. Justin Gaethje at UFC 300"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2017 Male Fighter of the Year"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2024 Knockout of the Year vs. Justin Gaethje"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "2024 MMA Match of the Year vs. Justin Gaethje at UFC 300"
+    },
+    {
+      "org": "BodySlam.net",
+      "texte": "2024 Knockout of the Year vs. Justin Gaethje"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2017 Fighter of the Year Honorable Mention"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2024 Fight of the Year vs. Justin Gaethje"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2024 Knockout of the Year vs. Justin Gaethje"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2014 #10 Ranked Fighter of the Year"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2024 Knockout of the Year vs. Justin Gaethje"
+    },
+    {
+      "org": "Rolling Stone",
+      "texte": "2017 Fighter of the Year"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2017 Male Fighter of the Year tied with Demetrious Johnson"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2017 Most Noteworthy Match of the Year vs. José Aldo II at UFC 218"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2020 Most Noteworthy Match of the Year vs. Alexander Volkanovski II at UFC 251"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2016 #6 Ranked UFC Fighter of the Year"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2016 #10 Ranked UFC Fight of the Year vs. Ricardo Lamas"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2017 UFC Fighter of the Year"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2018 #5 Ranked UFC Fighter of the Year"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2018 #4 Ranked UFC Fight of the Year vs. Brian Ortega"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2019 #2 Ranked UFC Fight of the Year vs. Dustin Poirier"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2024 UFC Knockout of the Year vs. Justin Gaethje"
+    },
+    {
+      "org": "Slacky Awards",
+      "texte": "2016 Technical Turn-Around of the Year"
+    },
+    {
+      "org": "Slacky Awards",
+      "texte": "2020 Gameplan of the Year vs. Alexander Volkanovski 2 at UFC 251"
+    },
+    {
+      "org": "UFC History Striking Records",
+      "texte": "Most significant strikes landed (3693)"
+    },
+    {
+      "org": "UFC History Striking Records",
+      "texte": "Most landed in title fights (1414)"
+    },
+    {
+      "org": "UFC History Striking Records",
+      "texte": "Most total strikes landed (3994)"
+    },
+    {
+      "org": "UFC History Striking Records",
+      "texte": "Most significant strikes absorbed (2457)"
+    },
+    {
+      "org": "UFC History Striking Records",
+      "texte": "Most bouts with 100 or more significant strikes (17)"
+    },
+    {
+      "org": "UFC History Striking Records",
+      "texte": "Most bouts with 200 or more significant strikes (3)"
+    },
+    {
+      "org": "UFC History Striking Records",
+      "texte": "Most significant strikes landed in a fight (445 vs. Calvin Kattar )"
+    },
+    {
+      "org": "UFC History Striking Records",
+      "texte": "Second most landed in a fight (290 [ i ] vs. Brian Ortega )"
+    },
+    {
+      "org": "UFC History Striking Records",
+      "texte": "Most significant strikes attempted in a fight (744 vs. Calvin Kattar )"
+    },
+    {
+      "org": "UFC History Striking Records",
+      "texte": "Highest striking differential in a fight (+312 vs. Calvin Kattar )"
+    },
+    {
+      "org": "UFC History Striking Records",
+      "texte": "Third highest in a fight (+180 [ i ] vs. Brian Ortega )"
+    },
+    {
+      "org": "UFC History Striking Records",
+      "texte": "Second most total strikes landed in a fight (447 vs Calvin Kattar )"
+    },
+    {
+      "org": "UFC History Striking Records",
+      "texte": "Most distance strikes landed in a fight (439 vs. Calvin Kattar )"
+    },
+    {
+      "org": "UFC History Striking Records",
+      "texte": "Second most landed in a fight (281 [ i ] vs. Brian Ortega )"
+    },
+    {
+      "org": "UFC History Striking Records",
+      "texte": "Most significant head strikes landed in a fight (274 vs. Calvin Kattar )"
+    },
+    {
+      "org": "UFC History Striking Records",
+      "texte": "Second most landed in a fight (244 [ i ] vs. Brian Ortega )"
+    },
+    {
+      "org": "UFC History Striking Records",
+      "texte": "Most significant body strikes landed in a fight (117 vs. Calvin Kattar )"
+    },
+    {
+      "org": "UFC History Striking Records",
+      "texte": "Most total strikes attempted in a fight (746 vs. Calvin Kattar )"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids plume",
+      "4 défenses de titre à l'UFC",
+      "Combattant de l'année (2017)",
+      "Record de l'UFC : temps de combat",
+      "Record UFC chez les poids plume : victoires (20)",
+      "Bonus UFC : 5× Performance de la soirée, 7× Combat de la soirée, 1× KO de la soirée"
+    ],
+    "en": [
+      "UFC Featherweight Champion",
+      "4 UFC title defenses",
+      "Fighter of the Year (2017)",
+      "UFC record: most fight time",
+      "UFC Featherweight record: most wins (20)",
+      "UFC bonuses: 5× Performance of the Night, 7× Fight of the Night, 1× Knockout of the Night"
+    ]
+  },
   "image_commons": "Blue Angels' VIP Rider Max Holloway (1) (cropped).jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Max_Holloway",

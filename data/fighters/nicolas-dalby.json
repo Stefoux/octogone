@@ -118,24 +118,65 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Ultimate Fighting Championship Fight of the Night (Three times) vs. Darren Till , Gabriel Bonfim and Randy Brown    UFC.com Awards 2015: Ranked #9 Fight of the Year vs. Darren Till",
-    "Fight of the Night (Three times) vs. Darren Till , Gabriel Bonfim and Randy Brown",
-    "UFC.com Awards 2015: Ranked #9 Fight of the Year vs. Darren Till",
-    "2015: Ranked #9 Fight of the Year vs. Darren Till",
-    "Cage Warriors Fighting Championship CWFC Welterweight Championship (One time) One successful title defense Interim CWFC Welterweight Championship (One time)",
-    "CWFC Welterweight Championship (One time) One successful title defense",
-    "One successful title defense",
-    "Interim CWFC Welterweight Championship (One time)",
-    "European MMA EMMA Welterweight Championship (One time)",
-    "EMMA Welterweight Championship (One time)",
-    "Fighter Gala FG Welterweight Championship (One time) One successful title defense",
-    "FG Welterweight Championship (One time)",
-    "One successful title defense",
-    "Nordic MMA Awards - MMAviking.com 2014 Knockout of the Year vs. Sergei Churilov on 22 March  2015 Comeback of the Year vs. Darren Till on 24 October  2019 Comeback Fighter of the Year",
-    "2014 Knockout of the Year vs. Sergei Churilov on 22 March",
-    "2015 Comeback of the Year vs. Darren Till on 24 October",
-    "2019 Comeback Fighter of the Year"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Three times) vs. Darren Till , Gabriel Bonfim and Randy Brown"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2015: Ranked #9 Fight of the Year vs. Darren Till"
+    },
+    {
+      "org": "Cage Warriors Fighting Championship",
+      "texte": "CWFC Welterweight Championship (One time)"
+    },
+    {
+      "org": "Cage Warriors Fighting Championship",
+      "texte": "One successful title defense"
+    },
+    {
+      "org": "Cage Warriors Fighting Championship",
+      "texte": "Interim CWFC Welterweight Championship (One time)"
+    },
+    {
+      "org": "European MMA",
+      "texte": "EMMA Welterweight Championship (One time)"
+    },
+    {
+      "org": "Fighter Gala",
+      "texte": "FG Welterweight Championship (One time)"
+    },
+    {
+      "org": "Fighter Gala",
+      "texte": "One successful title defense"
+    },
+    {
+      "org": "Nordic MMA Awards - MMAviking.com",
+      "texte": "2014 Knockout of the Year vs. Sergei Churilov on 22 March"
+    },
+    {
+      "org": "Nordic MMA Awards - MMAviking.com",
+      "texte": "2015 Comeback of the Year vs. Darren Till on 24 October"
+    },
+    {
+      "org": "Nordic MMA Awards - MMAviking.com",
+      "texte": "2019 Comeback Fighter of the Year"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "KO de l'année (2014)",
+      "Bonus UFC : 3× Combat de la soirée"
+    ],
+    "en": [
+      "Knockout of the Year (2014)",
+      "UFC bonuses: 3× Fight of the Night"
+    ]
+  },
   "image_commons": "Nicolas Dalby at UFC Fight Night 160 in Copenhagen.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Nicolas_Dalby",

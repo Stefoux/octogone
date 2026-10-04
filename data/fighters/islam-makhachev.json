@@ -164,47 +164,337 @@
   "champion_division": "Poids mi-moyens",
   "ancien_champion": true,
   "accomplissements_en": [
-    "Order \"For Merit to the Republic of Dagestan\" (2022)",
-    "Sali Suleiman medal, Ministry of Physical Fitness and Sports of the Republic of Dagestan (2023)",
-    "Order of Honor of the Republic of Dagestan III Degree (2024)",
-    "Order of Merit for achievements in physical culture and sports in the Republic of Dagestan (2025)",
-    "UFC Welterweight Championship (One time, current) One successful title defense Eleventh multi-division champion in UFC history",
-    "One successful title defense",
-    "Eleventh multi-division champion in UFC history",
-    "Most UFC lightweight title wins (5)",
-    "Most consecutive UFC lightweight title defenses (4)",
-    "Most total UFC lightweight title defenses (4)",
-    "Tied ( B.J. Penn ) for most finishes in UFC Lightweight title fights (4)",
-    "Tied ( Khabib Nurmagomedov ) for most submissions in UFC Lightweight title fights (3)",
-    "Fight of the Night (Three times) vs. Arman Tsarukyan , Alexander Volkanovski 1 and Dustin Poirier",
-    "Performance of the Night (Three times) vs. Charles Oliveira , Alexander Volkanovski 2 and Dustin Poirier",
-    "Longest win streak in UFC history (17)  Longest win streak in UFC Lightweight division history (14)",
-    "Longest win streak in UFC Lightweight division history (14)",
-    "Fifth fewest significant strikes absorbed per minute in UFC Lightweight division history (1.53)",
-    "Second highest significant strike accuracy in UFC Lightweight division history (59.5%)",
-    "Second highest takedown defense percentage in UFC Lightweight division history (90.9%)",
-    "Third highest win percentage in UFC history (94.7% - 18 wins / 1 loss)",
-    "Third most submissions in UFC Lightweight division history (8)",
-    "Third highest takedown defense percentage in UFC Lightweight division history (90.9%)",
-    "Fourth most top position time in UFC Lightweight division history (1:08:42)",
-    "Tied ( Tony Ferguson , Donald Cerrone & Dustin Poirier ) for fifth most finishes in UFC Lightweight division history (10)",
-    "Holds wins over four former UFC champions (3 undisputed) — vs. Charles Oliveira , Alexander Volkanovski (x2), Jack Della Maddalena and Dustin Poirier (interim)",
-    "UFC Men's Pound-For-Pound No. 1 in 2023–2026",
-    "2022: Fan's Choice Submission of the Year Winner vs. Charles Oliveira",
-    "2023: President's Choice Fight of the Year Winner vs. Alexander Volkanovski 1  & Fan's Choice Knockout of the Year Nominee vs. Alexander Volkanovski 2",
-    "2024: Fan's Choice Submission of the Year Winner vs. Dustin Poirier",
-    "2025: Fan's Choice Submission of the Year Winner vs. Renato Moicano  Winner of the most Honors Awards in UFC history (4)",
-    "Winner of the most Honors Awards in UFC history (4)",
-    "2021: Ranked #5 Fighter of the Year  & Ranked #7 Submission of the Year vs. Drew Dober",
-    "2022: Ranked #3 Fighter of the Year  & Ranked #4 Submission of the Year vs. Charles Oliveira",
-    "2023: Fighter of the Year ,  Fight of the Year vs. Alexander Volkanovski 1  & Ranked #4 Knockout of the Year vs. Alexander Volkanovski 2",
-    "2024: Half-Year Awards: Best Fight of the 1HY,  Ranked #3 Submission of the Year  & Ranked #4 Fight of the Year vs. Dustin Poirier",
-    "2025: Ranked #3 Fighter of the Year",
-    "2021 March Submission of the Month vs. Drew Dober",
-    "2021 October Submission of the Month vs. Dan Hooker",
-    "2022 October Submission of the Month vs. Charles Oliveira",
-    "2022 Submission of the year vs. Charles Oliveira"
+    {
+      "org": "Republic of Dagestan",
+      "texte": "Order \"For Merit to the Republic of Dagestan\" (2022)"
+    },
+    {
+      "org": "Republic of Dagestan",
+      "texte": "Sali Suleiman medal, Ministry of Physical Fitness and Sports of the Republic of Dagestan (2023)"
+    },
+    {
+      "org": "Republic of Dagestan",
+      "texte": "Order of Honor of the Republic of Dagestan III Degree (2024)"
+    },
+    {
+      "org": "Republic of Dagestan",
+      "texte": "Order of Merit for achievements in physical culture and sports in the Republic of Dagestan (2025)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Welterweight Championship (One time, current)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "One successful title defense"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Eleventh multi-division champion in UFC history"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Lightweight Championship (One time, former)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Four successful title defenses"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most UFC lightweight title wins (5)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most consecutive UFC lightweight title defenses (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most total UFC lightweight title defenses (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( B.J. Penn ) for most finishes in UFC Lightweight title fights (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Khabib Nurmagomedov ) for most submissions in UFC Lightweight title fights (3)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Three times) vs. Arman Tsarukyan , Alexander Volkanovski 1 and Dustin Poirier"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Three times) vs. Charles Oliveira , Alexander Volkanovski 2 and Dustin Poirier"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Longest win streak in UFC history (17)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Longest win streak in UFC Lightweight division history (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth fewest significant strikes absorbed per minute in UFC Lightweight division history (1.53)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second highest significant strike accuracy in UFC Lightweight division history (59.5%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second highest takedown defense percentage in UFC Lightweight division history (90.9%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third highest win percentage in UFC history (94.7% - 18 wins / 1 loss)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most submissions in UFC Lightweight division history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third highest takedown defense percentage in UFC Lightweight division history (90.9%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most top position time in UFC Lightweight division history (1:08:42)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Tony Ferguson , Donald Cerrone & Dustin Poirier ) for fifth most finishes in UFC Lightweight division history (10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Holds wins over four former UFC champions (3 undisputed) — vs. Charles Oliveira , Alexander Volkanovski (x2), Jack Della Maddalena and Dustin Poirier (interim)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Men's Pound-For-Pound No. 1 in 2023–2026"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Fan's Choice Submission of the Year Winner vs. Charles Oliveira"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: President's Choice Fight of the Year Winner vs. Alexander Volkanovski 1 & Fan's Choice Knockout of the Year Nominee vs. Alexander Volkanovski 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: Fan's Choice Submission of the Year Winner vs. Dustin Poirier"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2025: Fan's Choice Submission of the Year Winner vs. Renato Moicano"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Winner of the most Honors Awards in UFC history (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: Ranked #5 Fighter of the Year & Ranked #7 Submission of the Year vs. Drew Dober"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Ranked #3 Fighter of the Year & Ranked #4 Submission of the Year vs. Charles Oliveira"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: Fighter of the Year , Fight of the Year vs. Alexander Volkanovski 1 & Ranked #4 Knockout of the Year vs. Alexander Volkanovski 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: Half-Year Awards: Best Fight of the 1HY, Ranked #3 Submission of the Year & Ranked #4 Fight of the Year vs. Dustin Poirier"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2025: Ranked #3 Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2021 March Submission of the Month vs. Drew Dober"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2021 October Submission of the Month vs. Dan Hooker"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2022 October Submission of the Month vs. Charles Oliveira"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2022 Submission of the year vs. Charles Oliveira"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2023 Fight of the Year vs. Alexander Volkanovski at UFC 284"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2023 Fighter of the Year"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2023 Fight of the Year vs. Alexander Volkanovski at UFC 284"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2023 Fight of the Year vs. Alexander Volkanovski at UFC 284"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "2023 Most Outstanding Fighter of the Year"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "2023 MMA Match of the Year vs. Alexander Volkanovski at UFC 284"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2023 Male Fighter of the Year"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2023 Fight of the Year vs. Alexander Volkanovski at UFC 284"
+    },
+    {
+      "org": "The Sporting News",
+      "texte": "2023 Fight of the Year vs. Alexander Volkanovski 1 at UFC 284"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2023 #2 Ranked Fighter of the Year"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2024 #4 Ranked Fight of the Year vs. Dustin Poirier at UFC 302"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2024 #2 Ranked Submission of the Year vs. Dustin Poirier at UFC 302"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2025 #4 Ranked Fighter of the Year"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2025 #2 Ranked Submission of the Year vs. Renato Moicano at UFC 311"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2025 Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2025 Second Team MMA All-Star"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2022 Most Noteworthy Match of the Year vs. Charles Oliveira at UFC 280"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2023 Male Fighter of the Year"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2023 Most Noteworthy Match of the Year vs. Alexander Volkanovski II at UFC 294"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2025 Male Fighter of the Year with Merab Dvalishvili"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2025 Male Fighter of the Year"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2023 Fight of the Year vs. Alexander Volkanovski at UFC 284"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2024 Submission of the Year vs. Dustin Poirier at UFC 302"
+    },
+    {
+      "org": "theScore",
+      "texte": "2025 Male Fighter of the Year"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2023 MMA Fighter of the Year"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2023 MMA Fight of the Year vs. Alexander Volkanovski"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2023 UFC Fight of the Year vs. Alexander Volkanovski 1 at UFC 284"
+    },
+    {
+      "org": "GiveMeSport",
+      "texte": "2023 UFC Fighter of the Year"
+    },
+    {
+      "org": "GiveMeSport",
+      "texte": "2023 UFC Fight of the Year vs. Alexander Volkanovski 1 at UFC 284"
+    },
+    {
+      "org": "Sportsnaut",
+      "texte": "2023 UFC Fight of the Year vs. Alexander Volkanovski 1 at UFC 284"
+    },
+    {
+      "org": "Uncrowned",
+      "texte": "2025 #2 Ranked Male Fighter of the Year"
+    },
+    {
+      "org": "Fédération Internationale Amateur de Sambo (FIAS)",
+      "texte": "2016 FIAS World Combat Sambo Championships Gold Medalist"
+    },
+    {
+      "org": "Combat Sambo Federation of Russia",
+      "texte": "Russian National Gold Medalist (2014, 2016 at -74 kg)"
+    },
+    {
+      "org": "UWW Russian Grappling Federation",
+      "texte": "North Caucasian Federal District Gold Medalist"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids mi-moyens",
+      "Champion UFC des poids légers",
+      "5 défenses de titre à l'UFC",
+      "Combattant de l'année (2023, 2025)",
+      "Combat de l'année (2023)",
+      "Bonus UFC : 3× Performance de la soirée, 3× Combat de la soirée"
+    ],
+    "en": [
+      "UFC Welterweight Champion",
+      "UFC Lightweight Champion",
+      "5 UFC title defenses",
+      "Fighter of the Year (2023, 2025)",
+      "Fight of the Year (2023)",
+      "UFC bonuses: 3× Performance of the Night, 3× Fight of the Night"
+    ]
+  },
   "image_commons": "Islam Makhachev 2022 UFC belt.png",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Islam_Makhachev",

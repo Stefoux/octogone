@@ -103,13 +103,39 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Performance of the Night (One time) vs. Jéssica Andrade",
-    "Tied ( Carla Esparza , Tatiana Suarez & Loopy Godinez ) for the second longest win streak in UFC Women's Strawweight division history (6)",
-    "Seventh most significant strikes landed in UFC Women's Strawweight division history (821)",
-    "Most significant head strikes landed in a UFC Women's Strawweight bout (115) (vs. Syuri Kondo )",
-    "UFC.com Awards 2024: Ranked #9 Fight of the Year vs. Zhang Weili",
-    "2024: Ranked #9 Fight of the Year vs. Zhang Weili"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Jéssica Andrade"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Carla Esparza , Tatiana Suarez & Loopy Godinez ) for the second longest win streak in UFC Women's Strawweight division history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Seventh most significant strikes landed in UFC Women's Strawweight division history (821)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most significant head strikes landed in a UFC Women's Strawweight bout (115) (vs. Syuri Kondo )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: Ranked #9 Fight of the Year vs. Zhang Weili"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 1× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 1× Performance of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Yan_Xiaonan",

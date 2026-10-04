@@ -101,13 +101,35 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Performance of the Night (Two times) vs. Derrick Lewis and Marcin Tybura",
-    "Third most takedowns landed in UFC Heavyweight division history (32)",
-    "Second highest takedown accuracy percentage in UFC Heavyweight division history (59.3%)",
-    "World Warriors Fighting Championship WWFC Heavyweight Championship (One time)  Two successful title defenses",
-    "WWFC Heavyweight Championship (One time)  Two successful title defenses",
-    "Two successful title defenses"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. Derrick Lewis and Marcin Tybura"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most takedowns landed in UFC Heavyweight division history (32)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second highest takedown accuracy percentage in UFC Heavyweight division history (59.3%)"
+    },
+    {
+      "org": "World Warriors Fighting Championship",
+      "texte": "WWFC Heavyweight Championship (One time)"
+    },
+    {
+      "org": "World Warriors Fighting Championship",
+      "texte": "Two successful title defenses"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 2× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 2× Performance of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Serghei_Spivac",

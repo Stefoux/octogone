@@ -126,31 +126,115 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Performance of the Night (Five times) vs. Hayder Hassan , Héctor Urbina , Randy Brown , Michael Chiesa and Themba Gorimbo",
-    "Tied ( Matt Brown ) for second most Post-Fight bonuses in UFC Welterweight division history (9)  (behind Chris Lytle )",
-    "Tied ( Thiago Alves , Li Jingliang & Neil Magny ) for second most knockouts in UFC Welterweight division history (8) (behind Matt Brown )",
-    "Most brabo/D'arce choke submission wins in UFC history (4)",
-    "Tied ( Makwan Amirkhani & Charles Oliveira ) for most anaconda choke submission wins in UFC history (3)",
-    "Second most finishes in UFC Welterweight division history (14)  (behind Matt Brown ) Fourth most first-round finishes in UFC history (10)",
-    "Fourth most first-round finishes in UFC history (10)",
-    "Tied ( Josh Koscheck ) for fifth most bouts in UFC Welterweight division history (24)  Tied ( Matt Brown , Dustin Poirier & Max Holloway ) for fifth most finishes in UFC history (15)",
-    "Tied ( Matt Brown , Dustin Poirier & Max Holloway ) for fifth most finishes in UFC history (15)",
-    "Tied ( Demian Maia & Chris Lytle ) for second most submissions in UFC Welterweight division history (6)",
-    "Tied ( Uroš Medić & Anthony Johnson ) for most first-round knockouts in UFC Welterweight division history (5)",
-    "Tied ( Kamaru Usman ) for fourth most wins in UFC Welterweight division history (16)",
-    "Fastest anaconda choke submission in UFC history (0:52)  (vs. Themba Gorimbo )",
-    "UFC Honors Awards 2021: Fan's Choice Submission of the Year Nominee vs. Tyron Woodley",
-    "2021: Fan's Choice Submission of the Year Nominee vs. Tyron Woodley",
-    "2019: Ranked #5 Fight of the Year vs. Bryan Barberena",
-    "2020: Ranked #10 Fight of the Year vs. Niko Price 2",
-    "2021: Ranked #3 Submission of the Year vs. Tyron Woodley  & Ranked #6 Submission of the Year vs. Michael Chiesa",
-    "2019 February Fight of the Month vs. Bryan Barberena",
-    "2020 May Fight of the Month vs. Niko Price",
-    "2021 March Fight of the Month vs. Tyron Woodley",
-    "2021 August Submission of the Month vs. Michael Chiesa",
-    "CBS Sports 2019 #3 Ranked UFC Fight of the Year vs. Bryan Barberena",
-    "2019 #3 Ranked UFC Fight of the Year vs. Bryan Barberena"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Five times) vs. Hayder Hassan , Héctor Urbina , Randy Brown , Michael Chiesa and Themba Gorimbo"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Four times) vs. Bryan Barberena , Mike Perry , Stephen Thompson and Tyron Woodley"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Matt Brown ) for second most Post-Fight bonuses in UFC Welterweight division history (9) (behind Chris Lytle )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Thiago Alves , Li Jingliang & Neil Magny ) for second most knockouts in UFC Welterweight division history (8) (behind Matt Brown )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most brabo/D'arce choke submission wins in UFC history (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Makwan Amirkhani & Charles Oliveira ) for most anaconda choke submission wins in UFC history (3)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most finishes in UFC Welterweight division history (14) (behind Matt Brown )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most first-round finishes in UFC history (10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Josh Koscheck ) for fifth most bouts in UFC Welterweight division history (24)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Matt Brown , Dustin Poirier & Max Holloway ) for fifth most finishes in UFC history (15)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Demian Maia & Chris Lytle ) for second most submissions in UFC Welterweight division history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Uroš Medić & Anthony Johnson ) for most first-round knockouts in UFC Welterweight division history (5)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Kamaru Usman ) for fourth most wins in UFC Welterweight division history (16)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fastest anaconda choke submission in UFC history (0:52) (vs. Themba Gorimbo )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: Fan's Choice Submission of the Year Nominee vs. Tyron Woodley"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2019: Ranked #5 Fight of the Year vs. Bryan Barberena"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Ranked #10 Fight of the Year vs. Niko Price 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: Ranked #3 Submission of the Year vs. Tyron Woodley & Ranked #6 Submission of the Year vs. Michael Chiesa"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2019 February Fight of the Month vs. Bryan Barberena"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2020 May Fight of the Month vs. Niko Price"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2021 March Fight of the Month vs. Tyron Woodley"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2021 August Submission of the Month vs. Michael Chiesa"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2019 #3 Ranked UFC Fight of the Year vs. Bryan Barberena"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 5× Performance de la soirée, 4× Combat de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 5× Performance of the Night, 4× Fight of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Vicente_Luque",

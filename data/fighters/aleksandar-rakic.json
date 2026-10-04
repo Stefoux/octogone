@@ -105,12 +105,35 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Performance of the Night (One time) vs. Jimi Manuwa",
-    "UFC Honors Awards 2019: Fan's Choice Knockout of the Year Nominee vs. Jimi Manuwa",
-    "2019: Fan's Choice Knockout of the Year Nominee vs. Jimi Manuwa",
-    "UFC.com Awards 2019: Ranked #3 Knockout of the Year vs. Jimi Manuwa",
-    "2019: Ranked #3 Knockout of the Year vs. Jimi Manuwa"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Jimi Manuwa"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2019: Fan's Choice Knockout of the Year Nominee vs. Jimi Manuwa"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2019: Ranked #3 Knockout of the Year vs. Jimi Manuwa"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 1× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 1× Performance of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Aleksandar_Rakić",

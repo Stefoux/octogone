@@ -111,32 +111,103 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Performance of the Night (Four times) vs. Daron Cruickshank , Drew Dober , Frank Camacho and Drakkar Klose",
-    "Fight of the Night (One time) vs. Carlos Diego Ferreira",
-    "Tied ( Donald Cerrone ) for third most wins in UFC Lightweight division history (17)",
-    "2024 Forrest Griffin Community Award",
-    "UFC Honors Awards 2020: Fan's Choice Comeback of the Year Winner vs. Drakkar Klose",
-    "2020: Fan's Choice Comeback of the Year Winner vs. Drakkar Klose",
-    "UFC.com Awards 2020: Ranked #7 Knockout of the Year vs. Drakkar Klose  & Ranked #10 Knockout of the Year vs. Scott Holtzman  2021: Ranked #7 Upset of the Year vs. Tony Ferguson",
-    "2020: Ranked #7 Knockout of the Year vs. Drakkar Klose  & Ranked #10 Knockout of the Year vs. Scott Holtzman",
-    "2021: Ranked #7 Upset of the Year vs. Tony Ferguson",
-    "Respect in the Cage RITC Lightweight Championship (One time) One successful title defense",
-    "RITC Lightweight Championship (One time)",
-    "One successful title defense",
-    "MMA Junkie 2020 March Knockout of the Month vs. Drakkar Klose  2020 August Knockout of the Month vs. Scott Holtzman",
-    "2020 March Knockout of the Month vs. Drakkar Klose",
-    "2020 August Knockout of the Month vs. Scott Holtzman",
-    "MMA Sucka 2020 Comeback of the Year vs. Drakkar Klose at UFC 248",
-    "2020 Comeback of the Year vs. Drakkar Klose at UFC 248",
-    "World No Gi Champion (2010 brown, 2009 purple absolute, 2008 blue)",
-    "World No Gi Championship (2010 brown absolute)",
-    "Pan American Championship (2009 blue)",
-    "World Championship 2nd Place (2012 brown, 2010 purple, 2009 blue)",
-    "Pan American Championship 2nd Place (2010 brown weight & absolute)",
-    "World Championship 3rd Place (2009 blue absolute)",
-    "World No Gi Championship 3rd Place (2009 purple)",
-    "Pan American Championship 3rd Place (2011 brown)"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Four times) vs. Daron Cruickshank , Drew Dober , Frank Camacho and Drakkar Klose"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Carlos Diego Ferreira"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Donald Cerrone ) for third most wins in UFC Lightweight division history (17)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024 Forrest Griffin Community Award"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Fan's Choice Comeback of the Year Winner vs. Drakkar Klose"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Ranked #7 Knockout of the Year vs. Drakkar Klose & Ranked #10 Knockout of the Year vs. Scott Holtzman"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: Ranked #7 Upset of the Year vs. Tony Ferguson"
+    },
+    {
+      "org": "Respect in the Cage",
+      "texte": "RITC Lightweight Championship (One time)"
+    },
+    {
+      "org": "Respect in the Cage",
+      "texte": "One successful title defense"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2020 March Knockout of the Month vs. Drakkar Klose"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2020 August Knockout of the Month vs. Scott Holtzman"
+    },
+    {
+      "org": "MMA Sucka",
+      "texte": "2020 Comeback of the Year vs. Drakkar Klose at UFC 248"
+    },
+    {
+      "org": "Brazilian jiu-jitsu",
+      "texte": "World No Gi Champion (2010 brown, 2009 purple absolute, 2008 blue)"
+    },
+    {
+      "org": "Brazilian jiu-jitsu",
+      "texte": "World No Gi Championship (2010 brown absolute)"
+    },
+    {
+      "org": "Brazilian jiu-jitsu",
+      "texte": "Pan American Championship (2009 blue)"
+    },
+    {
+      "org": "Brazilian jiu-jitsu",
+      "texte": "World Championship 2nd Place (2012 brown, 2010 purple, 2009 blue)"
+    },
+    {
+      "org": "Brazilian jiu-jitsu",
+      "texte": "Pan American Championship 2nd Place (2010 brown weight & absolute)"
+    },
+    {
+      "org": "Brazilian jiu-jitsu",
+      "texte": "World Championship 3rd Place (2009 blue absolute)"
+    },
+    {
+      "org": "Brazilian jiu-jitsu",
+      "texte": "World No Gi Championship 3rd Place (2009 purple)"
+    },
+    {
+      "org": "Brazilian jiu-jitsu",
+      "texte": "Pan American Championship 3rd Place (2011 brown)"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 4× Performance de la soirée, 1× Combat de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 4× Performance of the Night, 1× Fight of the Night"
+    ]
+  },
   "image_commons": "MMA Holiday Tour at Al Asad Air Base 11 (cropped).jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Beneil_Dariush",

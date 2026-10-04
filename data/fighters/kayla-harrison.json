@@ -104,47 +104,499 @@
   "champion_division": "Poids coq féminins",
   "ancien_champion": true,
   "accomplissements_en": [
-    "Martial Arts History Museum Hall of Fame – Class of 2012",
-    "New York Athletic Club Hall of Fame – Class of 2013",
-    "Middletown High School Athletic Hall of Fame – Class of 2013",
-    "United States Judo Federation Hall of Fame – Class of 2015",
-    "Ohio Judo Hall of Fame – Class of 2020",
-    "International Sports Hall of Fame – Class of 2023",
-    "Women's Sports Foundation 2012 Wilma Rudolph Courage Award",
-    "2012 Wilma Rudolph Courage Award",
-    "Glamour Women of the Year Awards 2012 The \"Unstoppables\" Award",
-    "2012 The \"Unstoppables\" Award",
-    "U.S. Olympic Committee 2012 O.C. Tanner Inspiration Award",
-    "2012 O.C. Tanner Inspiration Award",
-    "Olympic Games 2012 London 2016 Rio de Janeiro",
-    "2012 London",
-    "2016 Rio de Janeiro",
-    "U.S. Olympic Trials 2008 Las Vegas",
-    "2008 Las Vegas",
-    "World Championships 2010 Tokyo  2011 Paris  2014 Chelyabinsk",
-    "2010 Tokyo",
-    "2011 Paris",
-    "2014 Chelyabinsk",
-    "Pan American Games 2011 Guadalajara  2015 Toronto",
-    "2011 Guadalajara",
-    "2015 Toronto",
-    "Pan American Championships 2010 San Salvador  2011 Guadalajara  2013 San José  2015 Edmonton  2016 Havana",
-    "2010 San Salvador",
-    "2011 Guadalajara",
-    "2013 San José",
-    "2015 Edmonton",
-    "2016 Havana",
-    "World Masters 2015 Rabat  2016 Guadalajara",
-    "2015 Rabat",
-    "2016 Guadalajara",
-    "IJF Grand Slam 2011 Rio de Janeiro  2011 Tokyo  2012 Paris  2012 Rio de Janeiro  2014 Tyumen  2014 Tokyo  2015 Baku  2015 Tokyo  2016 Paris",
-    "2011 Rio de Janeiro",
-    "2011 Tokyo",
-    "2012 Paris",
-    "2012 Rio de Janeiro",
-    "2014 Tyumen",
-    "2014 Tokyo"
+    {
+      "org": null,
+      "texte": "Martial Arts History Museum Hall of Fame – Class of 2012"
+    },
+    {
+      "org": null,
+      "texte": "New York Athletic Club Hall of Fame – Class of 2013"
+    },
+    {
+      "org": null,
+      "texte": "Middletown High School Athletic Hall of Fame – Class of 2013"
+    },
+    {
+      "org": null,
+      "texte": "United States Judo Federation Hall of Fame – Class of 2015"
+    },
+    {
+      "org": null,
+      "texte": "Ohio Judo Hall of Fame – Class of 2020"
+    },
+    {
+      "org": null,
+      "texte": "International Sports Hall of Fame – Class of 2023"
+    },
+    {
+      "org": "Women's Sports Foundation",
+      "texte": "2012 Wilma Rudolph Courage Award"
+    },
+    {
+      "org": "Glamour Women of the Year Awards",
+      "texte": "2012 The \"Unstoppables\" Award"
+    },
+    {
+      "org": "U.S. Olympic Committee",
+      "texte": "2012 O.C. Tanner Inspiration Award"
+    },
+    {
+      "org": "Olympic Games",
+      "texte": "2012 London"
+    },
+    {
+      "org": "Olympic Games",
+      "texte": "2016 Rio de Janeiro"
+    },
+    {
+      "org": "U.S. Olympic Trials",
+      "texte": "2008 Las Vegas"
+    },
+    {
+      "org": "World Championships",
+      "texte": "2010 Tokyo"
+    },
+    {
+      "org": "World Championships",
+      "texte": "2011 Paris"
+    },
+    {
+      "org": "World Championships",
+      "texte": "2014 Chelyabinsk"
+    },
+    {
+      "org": "Pan American Games",
+      "texte": "2011 Guadalajara"
+    },
+    {
+      "org": "Pan American Games",
+      "texte": "2015 Toronto"
+    },
+    {
+      "org": "Pan American Championships",
+      "texte": "2010 San Salvador"
+    },
+    {
+      "org": "Pan American Championships",
+      "texte": "2011 Guadalajara"
+    },
+    {
+      "org": "Pan American Championships",
+      "texte": "2013 San José"
+    },
+    {
+      "org": "Pan American Championships",
+      "texte": "2015 Edmonton"
+    },
+    {
+      "org": "Pan American Championships",
+      "texte": "2016 Havana"
+    },
+    {
+      "org": "World Masters",
+      "texte": "2015 Rabat"
+    },
+    {
+      "org": "World Masters",
+      "texte": "2016 Guadalajara"
+    },
+    {
+      "org": "IJF Grand Slam",
+      "texte": "2011 Rio de Janeiro"
+    },
+    {
+      "org": "IJF Grand Slam",
+      "texte": "2011 Tokyo"
+    },
+    {
+      "org": "IJF Grand Slam",
+      "texte": "2012 Paris"
+    },
+    {
+      "org": "IJF Grand Slam",
+      "texte": "2012 Rio de Janeiro"
+    },
+    {
+      "org": "IJF Grand Slam",
+      "texte": "2014 Tyumen"
+    },
+    {
+      "org": "IJF Grand Slam",
+      "texte": "2014 Tokyo"
+    },
+    {
+      "org": "IJF Grand Slam",
+      "texte": "2015 Baku"
+    },
+    {
+      "org": "IJF Grand Slam",
+      "texte": "2015 Tokyo"
+    },
+    {
+      "org": "IJF Grand Slam",
+      "texte": "2016 Paris"
+    },
+    {
+      "org": "IJF Grand Prix",
+      "texte": "2010 Düsseldorf"
+    },
+    {
+      "org": "IJF Grand Prix",
+      "texte": "2010 Rotterdam"
+    },
+    {
+      "org": "IJF Grand Prix",
+      "texte": "2010 Abu Dhabi"
+    },
+    {
+      "org": "IJF Grand Prix",
+      "texte": "2011 Qingdao"
+    },
+    {
+      "org": "IJF Grand Prix",
+      "texte": "2012 Düsseldorf"
+    },
+    {
+      "org": "IJF Grand Prix",
+      "texte": "2014 Havana"
+    },
+    {
+      "org": "IJF Grand Prix",
+      "texte": "2014 Jeju"
+    },
+    {
+      "org": "IJF Grand Prix",
+      "texte": "2015 Düsseldorf"
+    },
+    {
+      "org": "IJF Grand Prix",
+      "texte": "2015 Tbilisi"
+    },
+    {
+      "org": "IJF Grand Prix",
+      "texte": "2015 Budapest"
+    },
+    {
+      "org": "IJF Grand Prix",
+      "texte": "2015 Qingdao"
+    },
+    {
+      "org": "IJF Grand Prix",
+      "texte": "2015 Jeju"
+    },
+    {
+      "org": "IJF Grand Prix",
+      "texte": "2016 Havana"
+    },
+    {
+      "org": "IJF Grand Prix",
+      "texte": "2016 Budapest"
+    },
+    {
+      "org": "World Cup",
+      "texte": "2009 Belo Horizonte"
+    },
+    {
+      "org": "World Cup",
+      "texte": "2010 Warsaw"
+    },
+    {
+      "org": "World Cup",
+      "texte": "2010 Belo Horizonte"
+    },
+    {
+      "org": "World Cup",
+      "texte": "2010 Isla de Margarita"
+    },
+    {
+      "org": "World Cup",
+      "texte": "2010 San Salvador"
+    },
+    {
+      "org": "World Cup",
+      "texte": "2010 Miami"
+    },
+    {
+      "org": "World Cup",
+      "texte": "2010 Tashkent"
+    },
+    {
+      "org": "World Cup",
+      "texte": "2010 Birmingham"
+    },
+    {
+      "org": "World Cup",
+      "texte": "2011 Miami"
+    },
+    {
+      "org": "World Cup",
+      "texte": "2011 Puerto La Cruz"
+    },
+    {
+      "org": "World Cup",
+      "texte": "2012 Budapest"
+    },
+    {
+      "org": "World Cup",
+      "texte": "2012 Miami"
+    },
+    {
+      "org": "Pan American Open",
+      "texte": "2013 Montevideo"
+    },
+    {
+      "org": "Pan American Open",
+      "texte": "2013 Buenos Aires"
+    },
+    {
+      "org": "Pan American Open",
+      "texte": "2014 San Salvador"
+    },
+    {
+      "org": "Pan American Open",
+      "texte": "2014 Miami"
+    },
+    {
+      "org": "European Cup",
+      "texte": "2012 Prague"
+    },
+    {
+      "org": "World Juniors Championships",
+      "texte": "2008 Bangkok"
+    },
+    {
+      "org": "World Juniors Championships",
+      "texte": "2009 Paris"
+    },
+    {
+      "org": "U.S. Open",
+      "texte": "2005 Fort Lauderdale"
+    },
+    {
+      "org": "U.S. Open",
+      "texte": "2006 Miami (70 kg)"
+    },
+    {
+      "org": "U.S. Open",
+      "texte": "2006 Miami (Openweight)"
+    },
+    {
+      "org": "U.S. Open",
+      "texte": "2007 Duluth"
+    },
+    {
+      "org": "U.S. Open",
+      "texte": "2008 Colorado Springs (78 kg)"
+    },
+    {
+      "org": "U.S. Open",
+      "texte": "2008 Colorado Springs (Openweight)"
+    },
+    {
+      "org": "U.S. Open",
+      "texte": "2009 San Jose"
+    },
+    {
+      "org": "U.S. Open",
+      "texte": "2010 Miami"
+    },
+    {
+      "org": "Dallas Invitational Open",
+      "texte": "2003 Dallas"
+    },
+    {
+      "org": "Liberty Bell Judo Classic",
+      "texte": "2005 Philadelphia"
+    },
+    {
+      "org": "Pedro's Judo Challenge",
+      "texte": "2007 Wakefield"
+    },
+    {
+      "org": "Puerto Rico Open",
+      "texte": "2007 Puerto Rico"
+    },
+    {
+      "org": "USA Fall Classic",
+      "texte": "2007 Coral Springs"
+    },
+    {
+      "org": "USA Fall Classic",
+      "texte": "2008 Spokane"
+    },
+    {
+      "org": "Rendez-Vous Canada",
+      "texte": "2007 Montreal"
+    },
+    {
+      "org": "Kracup Korea Open",
+      "texte": "2008 Jeju"
+    },
+    {
+      "org": "U.S. National Championships",
+      "texte": "2005 Virginia Beach"
+    },
+    {
+      "org": "U.S. National Championships",
+      "texte": "2006 Houston"
+    },
+    {
+      "org": "U.S. National Championships",
+      "texte": "2007 Miami"
+    },
+    {
+      "org": "U.S. National Championships",
+      "texte": "2008 Virginia Beach"
+    },
+    {
+      "org": "U.S. National Championships",
+      "texte": "2009 San Diego (78 kg)"
+    },
+    {
+      "org": "U.S. National Championships",
+      "texte": "2009 San Diego (Openweight)"
+    },
+    {
+      "org": "U.S. National Championships",
+      "texte": "2010 Myrtle Beach"
+    },
+    {
+      "org": "U.S. National Championships",
+      "texte": "2011 Orlando"
+    },
+    {
+      "org": "U.S. National Championships",
+      "texte": "2013 Orlando"
+    },
+    {
+      "org": "U.S. National Championships",
+      "texte": "2016 Dallas"
+    },
+    {
+      "org": "U.S. Junior National Championships",
+      "texte": "USJA Juvenile C Championships"
+    },
+    {
+      "org": "U.S. Junior National Championships",
+      "texte": "2004 Rosemont"
+    },
+    {
+      "org": "U.S. Junior National Championships",
+      "texte": "2005 Toledo"
+    },
+    {
+      "org": "U.S. Junior National Championships",
+      "texte": "USJA Winter Championships"
+    },
+    {
+      "org": "U.S. Junior National Championships",
+      "texte": "2007 Ontario"
+    },
+    {
+      "org": "U.S. Junior National Championships",
+      "texte": "USJA IJF Junior Championships"
+    },
+    {
+      "org": "U.S. Junior National Championships",
+      "texte": "2007 Indianapolis"
+    },
+    {
+      "org": "U.S. Junior National Championships",
+      "texte": "USJF IJF Junior Championships"
+    },
+    {
+      "org": "U.S. Junior National Championships",
+      "texte": "2007 Ypsilanti"
+    },
+    {
+      "org": "U.S. Junior National Championships",
+      "texte": "U.S. U20 Championships"
+    },
+    {
+      "org": "U.S. Junior National Championships",
+      "texte": "2009 Lake Buena Vista"
+    },
+    {
+      "org": "U.S. National Junior Olympics",
+      "texte": "2005 Gwinnett County"
+    },
+    {
+      "org": "U.S. National Junior Olympics",
+      "texte": "2008 Kissimmee"
+    },
+    {
+      "org": "Belgian Ladies U20 Open",
+      "texte": "2007 Arlon"
+    },
+    {
+      "org": "Junior U.S. Open",
+      "texte": "2003 Boca Raton"
+    },
+    {
+      "org": "Junior U.S. Open",
+      "texte": "2004 Fort Lauderdale"
+    },
+    {
+      "org": "Junior U.S. Open",
+      "texte": "2005 Fort Lauderdale"
+    },
+    {
+      "org": "Junior U.S. Open",
+      "texte": "2006 Fort Lauderdale (70 kg)"
+    },
+    {
+      "org": "Junior U.S. Open",
+      "texte": "2006 Fort Lauderdale (Openweight)"
+    },
+    {
+      "org": "British Junior Open",
+      "texte": "2004 London"
+    },
+    {
+      "org": "British Junior Open",
+      "texte": "2005 London"
+    },
+    {
+      "org": "Ohio Judo",
+      "texte": "2003 Outstanding Junior"
+    },
+    {
+      "org": "Professional Fighters League",
+      "texte": "2019 PFL Women's Lightweight Championship"
+    },
+    {
+      "org": "Professional Fighters League",
+      "texte": "First female to win a PFL title"
+    },
+    {
+      "org": "Professional Fighters League",
+      "texte": "2021 PFL Women's Lightweight Championship"
+    },
+    {
+      "org": "Professional Fighters League",
+      "texte": "First female two-time PFL champion"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Women's Bantamweight Championship (One time, Current)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Julianna Peña"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Championne UFC des poids coq féminins",
+      "Championne PFL des poids légers féminins",
+      "Bonus UFC : 1× Performance de la soirée"
+    ],
+    "en": [
+      "UFC Women's Bantamweight Champion",
+      "PFL Women's Lightweight Champion",
+      "UFC bonuses: 1× Performance of the Night"
+    ]
+  },
   "image_commons": "President Donald Trump congratulates Kayla Harrison after her victory during UFC 316 (54577590491) (cropped).jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Kayla_Harrison",

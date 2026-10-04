@@ -113,20 +113,63 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Fight of the Night (Two times) vs. Angela Hill and Mackenzie Dern",
-    "Performance of the Night (One time) vs. Michelle Waterson",
-    "Tied ( Rose Namajunas , Mackenzie Dern & Tatiana Suarez ) for second most finishes in UFC Women's Strawweight division history (5)",
-    "Most knockdowns landed in UFC Women's Strawweight division history (6)  Second most knockdowns landed-per-15-minutes in UFC Women's Strawweight division history (0.59)",
-    "Second most knockdowns landed-per-15-minutes in UFC Women's Strawweight division history (0.59)",
-    "Tied ( Denise Gomes ) for second most knockouts in UFC Women's Strawweight division history (3)",
-    "Fifth highest significant strike accuracy in UFC Women's Strawweight division history (54.0%)",
-    "Fourth fewest strikes absorbed-per-minute in UFC Women's Strawweight division history (2.51)",
-    "Jungle Fight Jungle Fight Women's Bantamweight Champion (One time)  Two successful title defenses",
-    "Jungle Fight Women's Bantamweight Champion (One time)  Two successful title defenses",
-    "Two successful title defenses",
-    "MMA Fighting 2022 Second Team MMA All-Star",
-    "2022 Second Team MMA All-Star"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Two times) vs. Angela Hill and Mackenzie Dern"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Michelle Waterson"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Rose Namajunas , Mackenzie Dern & Tatiana Suarez ) for second most finishes in UFC Women's Strawweight division history (5)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most knockdowns landed in UFC Women's Strawweight division history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most knockdowns landed-per-15-minutes in UFC Women's Strawweight division history (0.59)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Denise Gomes ) for second most knockouts in UFC Women's Strawweight division history (3)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth highest significant strike accuracy in UFC Women's Strawweight division history (54.0%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth fewest strikes absorbed-per-minute in UFC Women's Strawweight division history (2.51)"
+    },
+    {
+      "org": "Jungle Fight",
+      "texte": "Jungle Fight Women's Bantamweight Champion (One time)"
+    },
+    {
+      "org": "Jungle Fight",
+      "texte": "Two successful title defenses"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2022 Second Team MMA All-Star"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Championne Jungle Fight des poids coq féminins",
+      "Record UFC chez les poids paille féminins : knockdowns (6)",
+      "Bonus UFC : 1× Performance de la soirée, 2× Combat de la soirée"
+    ],
+    "en": [
+      "Jungle Fight Women's Bantamweight Champion",
+      "UFC Women's Strawweight record: most knockdowns (6)",
+      "UFC bonuses: 1× Performance of the Night, 2× Fight of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Amanda_Lemos",

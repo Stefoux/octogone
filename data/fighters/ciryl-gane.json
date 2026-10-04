@@ -124,33 +124,105 @@
   "champion_division": "Heavyweight",
   "ancien_champion": true,
   "accomplissements_en": [
-    "Académie Française de Muay Thai AFMT National Title +91 kg (+201 lb) (One time) One successful title defense",
-    "AFMT National Title +91 kg (+201 lb) (One time) One successful title defense",
-    "One successful title defense",
-    "UFC Heavyweight Champion (One time, current)  First French fighter to become an undisputed UFC champion",
-    "First French fighter to become an undisputed UFC champion",
-    "Interim UFC Heavyweight Championship  (Two times) First French fighter to win an interim UFC title  Second ever UFC fighter to win an Interim Championship twice (after Justin Gaethje )",
-    "First French fighter to win an interim UFC title",
-    "Second ever UFC fighter to win an Interim Championship twice (after Justin Gaethje )",
-    "Performance of the Night (Four times) vs. Don'Tale Mayes , Derrick Lewis , Serghei Spivac and Alex Pereira",
-    "Fight of the Night (One time) vs. Tai Tuivasa",
-    "Tied ( Andrei Arlovski & Cain Velasquez ) for second longest win streak in UFC Heavyweight division history (7)",
-    "Fifth most significant strikes landed in UFC Heavyweight division history (983)",
-    "Second highest significant strike accuracy in UFC Heavyweight division history (61.7%) (behind Alistair Overeem )",
-    "Fourth highest striking differential in UFC Heavyweight division history (3.09)",
-    "Fourth highest significant strike defense in UFC Heavyweight division history (60.9%)",
-    "UFC.com Awards 2019: Ranked #2 Newcomer of the Year  2021: Ranked #3 Fighter of the Year  2022: Ranked #7 Fight of the Year vs. Tai Tuivasa",
-    "2019: Ranked #2 Newcomer of the Year",
-    "2021: Ranked #3 Fighter of the Year",
-    "2022: Ranked #7 Fight of the Year vs. Tai Tuivasa",
-    "TKO Major League MMA TKO World Heavyweight Championship (One time) Two successful title defenses",
-    "TKO World Heavyweight Championship (One time) Two successful title defenses",
-    "Two successful title defenses",
-    "Sherdog 2021 Breakthrough Fighter of the Year",
-    "2021 Breakthrough Fighter of the Year",
-    "MMA Sucka 2021 Breakout Fighter of the Year",
-    "2021 Breakout Fighter of the Year"
+    {
+      "org": "Académie Française de Muay Thai",
+      "texte": "AFMT National Title +91 kg (+201 lb) (One time)"
+    },
+    {
+      "org": "Académie Française de Muay Thai",
+      "texte": "One successful title defense"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Heavyweight Champion (One time, current)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First French fighter to become an undisputed UFC champion"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Interim UFC Heavyweight Championship (Two times)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First French fighter to win an interim UFC title"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second ever UFC fighter to win an Interim Championship twice (after Justin Gaethje )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Four times) vs. Don'Tale Mayes , Derrick Lewis , Serghei Spivac and Alex Pereira"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Tai Tuivasa"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Andrei Arlovski & Cain Velasquez ) for second longest win streak in UFC Heavyweight division history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth most significant strikes landed in UFC Heavyweight division history (983)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second highest significant strike accuracy in UFC Heavyweight division history (61.7%) (behind Alistair Overeem )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth highest striking differential in UFC Heavyweight division history (3.09)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth highest significant strike defense in UFC Heavyweight division history (60.9%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2019: Ranked #2 Newcomer of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: Ranked #3 Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Ranked #7 Fight of the Year vs. Tai Tuivasa"
+    },
+    {
+      "org": "TKO Major League MMA",
+      "texte": "TKO World Heavyweight Championship (One time)"
+    },
+    {
+      "org": "TKO Major League MMA",
+      "texte": "Two successful title defenses"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2021 Breakthrough Fighter of the Year"
+    },
+    {
+      "org": "MMA Sucka",
+      "texte": "2021 Breakout Fighter of the Year"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids lourds",
+      "Bonus UFC : 4× Performance de la soirée, 1× Combat de la soirée"
+    ],
+    "en": [
+      "UFC Heavyweight Champion",
+      "UFC bonuses: 4× Performance of the Night, 1× Fight of the Night"
+    ]
+  },
   "image_commons": "Ciryl Gane in the Oval Office (while President Donald J. Trump is holding a meeting with UFC fighters).jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Ciryl_Gane",

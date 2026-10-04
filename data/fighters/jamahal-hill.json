@@ -111,32 +111,113 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Second highest significant strike differential in UFC championship history (+157 vs. Glover Teixeira )",
-    "Second most significant strikes landed in a title fight (232 vs. Glover Teixeira )",
-    "The first Dana White's Contender Series alum to become a UFC champion",
-    "Fight of the Night (Two times) vs. Thiago Santos and Glover Teixeira",
-    "Performance of the Night (Two times) vs. Jimmy Crute and Johnny Walker",
-    "Second most significant strikes landed-per-minute in UFC Light Heavyweight division history (6.85)",
-    "Second highest striking differential in UFC Light Heavyweight division history (3.4)",
-    "Most distant strikes landed in a UFC Light Heavyweight bout (188) vs. Glover Teixeira",
-    "Most significant head strikes landed in a UFC Light Heavyweight bout (180) vs. Glover Teixeira",
-    "Second most significant strikes attempted in a UFC Light Heavyweight bout (402) vs. Glover Teixeira",
-    "Second most total strikes attempted in a UFC Light Heavyweight bout (419) vs. Glover Teixeira",
-    "Second most total head strikes landed in a UFC Light Heavyweight bout (190) vs. Glover Teixeira",
-    "UFC Honors Awards 2023: President's Choice Fight of the Year Nominee vs. Glover Teixeira",
-    "2023: President's Choice Fight of the Year Nominee vs. Glover Teixeira",
-    "UFC.com Awards 2020: Ranked #6 Newcomer of the Year  2022: Ranked #8 Fighter of the Year  2023: Ranked #5 Fight of the Year vs. Glover Teixeira",
-    "2020: Ranked #6 Newcomer of the Year",
-    "2022: Ranked #8 Fighter of the Year",
-    "2023: Ranked #5 Fight of the Year vs. Glover Teixeira",
-    "KnockOut Promotions KOP Light Heavyweight Championship (One time)",
-    "KOP Light Heavyweight Championship (One time)",
-    "MMAjunkie.com 2022 February Knockout of the Month vs. Johnny Walker  2023 January Fight of the Month vs. Glover Teixeira",
-    "2022 February Knockout of the Month vs. Johnny Walker",
-    "2023 January Fight of the Month vs. Glover Teixeira",
-    "MMA Fighting 2022 Third Team MMA All-Star",
-    "2022 Third Team MMA All-Star"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Light Heavyweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second highest significant strike differential in UFC championship history (+157 vs. Glover Teixeira )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most significant strikes landed in a title fight (232 vs. Glover Teixeira )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "The first Dana White's Contender Series alum to become a UFC champion"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Two times) vs. Thiago Santos and Glover Teixeira"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. Jimmy Crute and Johnny Walker"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most significant strikes landed-per-minute in UFC Light Heavyweight division history (6.85)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second highest striking differential in UFC Light Heavyweight division history (3.4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most significant strikes landed in a UFC Light Heavyweight bout (232) vs. Glover Teixeira"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most distant strikes landed in a UFC Light Heavyweight bout (188) vs. Glover Teixeira"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most significant head strikes landed in a UFC Light Heavyweight bout (180) vs. Glover Teixeira"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most significant strikes attempted in a UFC Light Heavyweight bout (402) vs. Glover Teixeira"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most total strikes attempted in a UFC Light Heavyweight bout (419) vs. Glover Teixeira"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most total head strikes landed in a UFC Light Heavyweight bout (190) vs. Glover Teixeira"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: President's Choice Fight of the Year Nominee vs. Glover Teixeira"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Ranked #6 Newcomer of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Ranked #8 Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: Ranked #5 Fight of the Year vs. Glover Teixeira"
+    },
+    {
+      "org": "KnockOut Promotions",
+      "texte": "KOP Light Heavyweight Championship (One time)"
+    },
+    {
+      "org": "MMAjunkie.com",
+      "texte": "2022 February Knockout of the Month vs. Johnny Walker"
+    },
+    {
+      "org": "MMAjunkie.com",
+      "texte": "2023 January Fight of the Month vs. Glover Teixeira"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2022 Third Team MMA All-Star"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids mi-lourds",
+      "Bonus UFC : 2× Performance de la soirée, 2× Combat de la soirée"
+    ],
+    "en": [
+      "UFC Light Heavyweight Champion",
+      "UFC bonuses: 2× Performance of the Night, 2× Fight of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Jamahal_Hill",

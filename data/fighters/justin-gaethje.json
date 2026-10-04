@@ -175,47 +175,467 @@
   "champion_division": "Poids légers",
   "ancien_champion": true,
   "accomplissements_en": [
-    "National Collegiate Athletic Association NCAA Division I All-American out of the University of Northern Colorado (2010)  NCAA Division I 157 lb (2010) Championship – 7th Place",
-    "NCAA Division I All-American out of the University of Northern Colorado (2010)",
-    "NCAA Division I 157 lb (2010) Championship – 7th Place",
-    "University of Northern Colorado Athletics Hall of Fame – Class of 2020",
-    "UFC Lightweight Championship (One time, Current)",
-    "Oldest fighter in history to win a UFC Lightweight title (37 years, 71 days)",
-    "First two-time UFC Interim Champion",
-    "Tied ( Jens Pulver & Frankie Edgar ) for third most UFC lightweight title fight wins (3)",
-    "Tied ( B.J. Penn ) for most knockouts in UFC Lightweight title bouts (2)",
-    "UFC 'BMF' title (One time) Second UFC fighter to win an Interim, Undisputed and BMF title",
-    "Second UFC fighter to win an Interim, Undisputed and BMF title",
-    "Most Fight of the Night bonuses in UFC history (11)",
-    "First fighter to receive Fight of the Night bonuses in four consecutive bouts",
-    "Tied ( Donald Cerrone ) for second most Fight of the Night bonuses in UFC/WEC combined history (11) (behind Cub Swanson )",
-    "Most Post-Fight bonuses in UFC Lightweight division history (17)",
-    "Third most Post-Fight bonuses in UFC history (17)",
-    "Most Post-Fight bonuses-per-bout in UFC history (17 bonuses in 16 bouts) (for fighters with 4+ UFC fights)",
-    "Only fighter in UFC history to win a Post-Fight bonus in each of his first 7 UFC bouts",
-    "Only fighter in UFC history to earn multiple Post‑Fight bonuses in three separate bouts vs. Michael Johnson , Tony Ferguson and Ilia Topuria",
-    "$500,000 CRO Crypto.com UFC Freedom 250 bonus winner",
-    "Third highest significant strike accuracy percentage in UFC Lightweight division history (57.6%)",
-    "Tied ( Melvin Guillard & Edson Barboza ) for third most knockouts in UFC Lightweight division history (7)",
-    "Tied ( Drew Dober & Edson Barboza ) for fifth most knockdowns landed in UFC Lightweight division history (10)",
-    "Fifth most significant strikes landed in UFC Lightweight division history (1271)",
-    "Holds wins over three former UFC champions — vs. Ilia Topuria , Tony Ferguson (interim) and Dustin Poirier (interim)",
-    "2019: President's Choice Fight of the Year Nominee vs. Edson Barboza",
-    "2021: President's Choice Fight of the Year Winner vs. Michael Chandler",
-    "2023: President's Choice Fight of the Year Nominee vs. Rafael Fiziev 1  & Fan's Choice Knockout of the Year Nominee vs. Dustin Poirier 2",
-    "2024: President's Choice Fight of the Year Winner vs. Max Holloway",
-    "2017: Fight of the Year vs. Michael Johnson ,  Ranked #2 Fight of the Year vs. Eddie Alvarez  & Ranked #3 Newcomer of the Year",
-    "2018: Ranked #2 Fight of the Year vs. Dustin Poirier 1",
-    "2019: Top 10 Fighter of the Year  & Ranked #7 Fight of the Year vs. Edson Barboza",
-    "2020: Ranked #6 Fight of the Year vs. Tony Ferguson",
-    "2021: Fight of the Year vs. Michael Chandler",
-    "2023: Ranked #8 Fighter of the Year ,  Ranked #3 Knockout of the Year vs. Dustin Poirier 2  & Ranked #7 Fight of the Year vs. Rafael Fiziev 1",
-    "2024: Ranked #3 Fight of the Year vs. Max Holloway",
-    "2026: Half-Year Awards: Best Fighter of the 1HY",
-    "WSOF Lightweight Championship (One time; first; only) Five successful title defenses",
-    "Five successful title defenses",
-    "Most consecutive title defenses (five)"
+    {
+      "org": "National Collegiate Athletic Association",
+      "texte": "NCAA Division I All-American out of the University of Northern Colorado (2010)"
+    },
+    {
+      "org": "National Collegiate Athletic Association",
+      "texte": "NCAA Division I 157 lb (2010) Championship – 7th Place"
+    },
+    {
+      "org": null,
+      "texte": "University of Northern Colorado Athletics Hall of Fame – Class of 2020"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Lightweight Championship (One time, Current)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Interim UFC Lightweight Championship (Two times)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Oldest fighter in history to win a UFC Lightweight title (37 years, 71 days)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First two-time UFC Interim Champion"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Jens Pulver & Frankie Edgar ) for third most UFC lightweight title fight wins (3)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( B.J. Penn ) for most knockouts in UFC Lightweight title bouts (2)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC 'BMF' title (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second UFC fighter to win an Interim, Undisputed and BMF title"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Eleven times) vs. Michael Johnson , Eddie Alvarez , Dustin Poirier 1, Edson Barboza , Tony Ferguson , Michael Chandler , Rafael Fiziev (x2), Max Holloway , Paddy Pimblett and Ilia Topuria"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most Fight of the Night bonuses in UFC history (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First fighter to receive Fight of the Night bonuses in four consecutive bouts"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Donald Cerrone ) for second most Fight of the Night bonuses in UFC/WEC combined history (11) (behind Cub Swanson )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Six times) vs. Michael Johnson , James Vick , Donald Cerrone , Tony Ferguson , Dustin Poirier 2 and Ilia Topuria"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most Post-Fight bonuses in UFC Lightweight division history (17)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most Post-Fight bonuses in UFC history (17)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most Post-Fight bonuses-per-bout in UFC history (17 bonuses in 16 bouts) (for fighters with 4+ UFC fights)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Only fighter in UFC history to win a Post-Fight bonus in each of his first 7 UFC bouts"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Only fighter in UFC history to earn multiple Post‑Fight bonuses in three separate bouts vs. Michael Johnson , Tony Ferguson and Ilia Topuria"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "$500,000 CRO Crypto.com UFC Freedom 250 bonus winner"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third highest significant strike accuracy percentage in UFC Lightweight division history (57.6%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Melvin Guillard & Edson Barboza ) for third most knockouts in UFC Lightweight division history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Drew Dober & Edson Barboza ) for fifth most knockdowns landed in UFC Lightweight division history (10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth most significant strikes landed in UFC Lightweight division history (1271)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Holds wins over three former UFC champions — vs. Ilia Topuria , Tony Ferguson (interim) and Dustin Poirier (interim)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2019: President's Choice Fight of the Year Nominee vs. Edson Barboza"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: President's Choice Fight of the Year Winner vs. Michael Chandler"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: President's Choice Fight of the Year Nominee vs. Rafael Fiziev 1 & Fan's Choice Knockout of the Year Nominee vs. Dustin Poirier 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: President's Choice Fight of the Year Winner vs. Max Holloway"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2017: Fight of the Year vs. Michael Johnson , Ranked #2 Fight of the Year vs. Eddie Alvarez & Ranked #3 Newcomer of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2018: Ranked #2 Fight of the Year vs. Dustin Poirier 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2019: Top 10 Fighter of the Year & Ranked #7 Fight of the Year vs. Edson Barboza"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Ranked #6 Fight of the Year vs. Tony Ferguson"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: Fight of the Year vs. Michael Chandler"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: Ranked #8 Fighter of the Year , Ranked #3 Knockout of the Year vs. Dustin Poirier 2 & Ranked #7 Fight of the Year vs. Rafael Fiziev 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: Ranked #3 Fight of the Year vs. Max Holloway"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2026: Half-Year Awards: Best Fighter of the 1HY"
+    },
+    {
+      "org": "World Series of Fighting",
+      "texte": "WSOF Lightweight Championship (One time; first; only)"
+    },
+    {
+      "org": "World Series of Fighting",
+      "texte": "Five successful title defenses"
+    },
+    {
+      "org": "World Series of Fighting",
+      "texte": "Most consecutive title defenses (five)"
+    },
+    {
+      "org": "World Series of Fighting",
+      "texte": "Most wins in title bouts (six)"
+    },
+    {
+      "org": "World Series of Fighting",
+      "texte": "Longest lightweight winning streak (10)"
+    },
+    {
+      "org": "World Series of Fighting",
+      "texte": "Most knockout wins (nine)"
+    },
+    {
+      "org": "Fight to Win Promotions",
+      "texte": "FTW Amateur Lightweight Championship (One time)"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2017: Fight of the Year vs. Eddie Alvarez at UFC 218 & Comeback of the Year vs. Michael Johnson at The Ultimate Fighter: Redemption Finale"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2024: Fight of the Year vs. Max Holloway at UFC 300"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2015 #2 Ranked Fight of the Year vs. Luis Palomino at WSOF 19"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2015 March Fight of the Month vs. Luis Palomino"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2015 September Fight of the Month vs. Luis Palomino"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2017 Fight of the Year vs. Michael Johnson at The Ultimate Fighter: Redemption Finale"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2017 #3 Ranked Fight of the Year vs. Eddie Alvarez at UFC 218"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2017 Round of the Year Round 1 vs. Michael Johnson at The Ultimate Fighter: Redemption Finale"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2018 Fight of the Year vs. Dustin Poirier at UFC on Fox: Poirier vs. Gaethje"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2018 April Fight of the Month vs. Dustin Poirier at UFC on Fox: Poirier vs. Gaethje"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2021 November Fight of the Month vs. Michael Chandler"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2021 Fight of the Year vs. Michael Chandler"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2023 March Fight of the Month vs. Rafael Fiziev"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2023 July Knockout of the Month vs. Dustin Poirier"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2024 April Fight of the Month vs. Max Holloway"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2025 March Fight of the Month vs. Rafael Fiziev"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2026 January Fight of the Month vs. Paddy Pimblett"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2026 June Fight of the Month vs. Ilia Topuria"
+    },
+    {
+      "org": "Yahoo! Sports",
+      "texte": "2015 Best Fight of the Half-Year vs. Luis Palomino"
+    },
+    {
+      "org": "Yahoo! Sports",
+      "texte": "2017 Fight of the Year vs. Michael Johnson at The Ultimate Fighter: Redemption Finale"
+    },
+    {
+      "org": "Yahoo! Sports",
+      "texte": "2021 Fight of the Year vs. Michael Chandler"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2017 Fight of the Year vs. Michael Johnson at The Ultimate Fighter: Redemption Finale"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2018 Fight of the Year vs. Dustin Poirier at UFC on Fox: Poirier vs. Gaethje"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2021 Fight of the year vs. Michael Chandler at UFC 268"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2023 Second Team MMA All-Star"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2024 Fight of the Year vs. Max Holloway at UFC 300"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2017 Fight of the Year vs. Michael Johnson"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2017 Round of the Year vs. Michael Johnson (Round 2)"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2018 Fight of the Year vs. Dustin Poirier"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2018 Round of the Year vs. Dustin Poirier (round 2)"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2021 Fight of the Year vs. Michael Chandler"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2021 Round of the Year vs. Michael Chandler (Round 1)"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2023 Round of the Year vs. Rafael Fiziev"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2017 Fight of the Year vs. Michael Johnson"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2021 Fight of the Year vs. Michael Chandler"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2023 #3 Ranked UFC Fight of the Year vs. Rafael Fiziev at UFC 286"
+    },
+    {
+      "org": "RealSport",
+      "texte": "2017 UFC Debut of the Year vs. Michael Johnson"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2017 UFC Fight of the Year vs. Michael Johnson"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2018 UFC Fight of the Year vs. Dustin Poirier"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2018 #3 Ranked UFC Knockout of the Year vs. James Vick"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2019 #4 Ranked UFC Knockout of the Year vs. Edson Barboza"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2021 UFC Fight of the Year vs. Michael Chandler"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2017 Best Fight of the Year vs. Michael Johnson"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2017 Fight of the Year vs. Michael Johnson"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2021 Fight of the Year vs. Michael Chandler"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2023 Knockout of the Year vs. Dustin Poirier"
+    },
+    {
+      "org": "MMA Weekly",
+      "texte": "2017 Fight of the Year vs. Michael Johnson at The Ultimate Fighter: Redemption Finale"
+    },
+    {
+      "org": "MMA Weekly",
+      "texte": "2018 Fight of the Year vs. Dustin Poirier at UFC on Fox: Poirier vs. Gaethje"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2017 Fight of the Year vs. Michael Johnson at The Ultimate Fighter: Redemption Finale"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2018 Fight of the Year vs. Dustin Poirier"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2021 Fight of the Year vs. Michael Chandler"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2023 Knockout of the Year vs. Dustin Poirier 2 at UFC 291"
+    },
+    {
+      "org": "MMADNA.nl",
+      "texte": "2017 Fight of the Year vs. Eddie Alvarez"
+    },
+    {
+      "org": "MMADNA.nl",
+      "texte": "2017 Debut of the Year."
+    },
+    {
+      "org": "Lowkick MMA",
+      "texte": "2021 Fight of the Year vs. Michael Chandler"
+    },
+    {
+      "org": "Daily Mirror",
+      "texte": "2021 Fight of the Year vs. Michael Chandler"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "MMA Match of the Year (2018) vs. Dustin Poirier at UFC on Fox: Poirier vs. Gaethje"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "MMA Match of the Year (2021) vs. Michael Chandler at UFC 268"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "MMA Match of the Year (2024) vs. Max Holloway at UFC 300"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2024 Fight of the Year vs. Max Holloway at UFC 300"
+    },
+    {
+      "org": "Sports Illustrated",
+      "texte": "2017 Fight of the Year vs. Michael Johnson at The Ultimate Fighter: Redemption Finale"
+    },
+    {
+      "org": "Inside MMA",
+      "texte": "2014 Breakthrough Fighter of the Year Bazzie Award"
+    },
+    {
+      "org": "MMA Sucka",
+      "texte": "2018 Fight of the Year vs. Dustin Poirier at UFC on Fox: Poirier vs. Gaethje"
+    },
+    {
+      "org": "Slacky Awards",
+      "texte": "2019 Technical Turn-Around of the Year"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids légers",
+      "Combat de l'année (2017, 2018, 2021, 2024)",
+      "Bonus UFC : 6× Performance de la soirée, 11× Combat de la soirée (record)"
+    ],
+    "en": [
+      "UFC Lightweight Champion",
+      "Fight of the Year (2017, 2018, 2021, 2024)",
+      "UFC bonuses: 6× Performance of the Night, 11× Fight of the Night (record)"
+    ]
+  },
   "image_commons": "Justin Gaethje in the Oval Office (while President Donald J. Trump is holding a meeting with UFC fighters).jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Justin_Gaethje",

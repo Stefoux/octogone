@@ -113,33 +113,97 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Performance of the Night (Four times) vs. Gökhan Saki , Karl Roberson , Chris Daukaus , Anthony Smith",
-    "Fight of the Night (Two times) vs. Alex Pereira and Jiří Procházka",
-    "Tied ( Dustin Jacoby & Magomed Ankalaev ) for third most knockouts in UFC Light Heavyweight division history (7)",
-    "Tied ( Chuck Liddell & Maurício Rua ) for most knockdowns landed in UFC Light Heavyweight division history (14)",
-    "Tied ( Chuck Liddell , Lyoto Machida , Junior dos Santos , Thiago Santos & Maurício Rua ) for sixth most knockdowns landed in UFC history (14)",
-    "Most knockdowns landed in a UFC Light Heavyweight division bout (4) (vs. Eryk Anders )",
-    "UFC Honors Awards 2024: President's Choice Fight of the Year Nominee vs. Alex Pereira  2025: President's Choice Fight of the Year Nominee vs. Jiří Procházka",
-    "2024: President's Choice Fight of the Year Nominee vs. Alex Pereira",
-    "2025: President's Choice Fight of the Year Nominee vs. Jiří Procházka",
-    "UFC.com Awards 2018: Ranked #7 Upset of the Year vs. Gökhan Saki  2024: Ranked #2 Fight of the Year vs. Alex Pereira  2025: Ranked #2 Fight of the Year vs. Jiří Procházka",
-    "2018: Ranked #7 Upset of the Year vs. Gökhan Saki",
-    "2024: Ranked #2 Fight of the Year vs. Alex Pereira",
-    "2025: Ranked #2 Fight of the Year vs. Jiří Procházka",
-    "MMA Mania 2024 #5 Ranked Fight of the Year vs. Alex Pereira at UFC 307  2025 Fight of the Year vs. Jiří Procházka at UFC 320",
-    "2024 #5 Ranked Fight of the Year vs. Alex Pereira at UFC 307",
-    "2025 Fight of the Year vs. Jiří Procházka at UFC 320",
-    "Cageside Press 2025 Fight of the Year vs. Jiri Prochazka , tied with Van vs. Royval",
-    "2025 Fight of the Year vs. Jiri Prochazka , tied with Van vs. Royval",
-    "Combat Press 2025 Fight of the Year vs. Jiří Procházka at UFC 320",
-    "2025 Fight of the Year vs. Jiří Procházka at UFC 320",
-    "LowKick MMA 2025 Fight of the Year vs. Jiří Procházka at UFC 320",
-    "2025 Fight of the Year vs. Jiří Procházka at UFC 320",
-    "MMA Fighting 2023 Third Team MMA All-Star",
-    "2023 Third Team MMA All-Star",
-    "Slacky Awards 2023 Technical Turn-Around of the Year",
-    "2023 Technical Turn-Around of the Year"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Four times) vs. Gökhan Saki , Karl Roberson , Chris Daukaus , Anthony Smith"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Two times) vs. Alex Pereira and Jiří Procházka"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Dustin Jacoby & Magomed Ankalaev ) for third most knockouts in UFC Light Heavyweight division history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Chuck Liddell & Maurício Rua ) for most knockdowns landed in UFC Light Heavyweight division history (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Chuck Liddell , Lyoto Machida , Junior dos Santos , Thiago Santos & Maurício Rua ) for sixth most knockdowns landed in UFC history (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most knockdowns landed in a UFC Light Heavyweight division bout (4) (vs. Eryk Anders )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: President's Choice Fight of the Year Nominee vs. Alex Pereira"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2025: President's Choice Fight of the Year Nominee vs. Jiří Procházka"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2018: Ranked #7 Upset of the Year vs. Gökhan Saki"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: Ranked #2 Fight of the Year vs. Alex Pereira"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2025: Ranked #2 Fight of the Year vs. Jiří Procházka"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2024 #5 Ranked Fight of the Year vs. Alex Pereira at UFC 307"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2025 Fight of the Year vs. Jiří Procházka at UFC 320"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2025 Fight of the Year vs. Jiri Prochazka , tied with Van vs. Royval"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2025 Fight of the Year vs. Jiří Procházka at UFC 320"
+    },
+    {
+      "org": "LowKick MMA",
+      "texte": "2025 Fight of the Year vs. Jiří Procházka at UFC 320"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2023 Third Team MMA All-Star"
+    },
+    {
+      "org": "Slacky Awards",
+      "texte": "2023 Technical Turn-Around of the Year"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Combat de l'année (2025)",
+      "Bonus UFC : 4× Performance de la soirée, 2× Combat de la soirée"
+    ],
+    "en": [
+      "Fight of the Year (2025)",
+      "UFC bonuses: 4× Performance of the Night, 2× Fight of the Night"
+    ]
+  },
   "image_commons": "Khalil Rountree, Jr.. (cropped).jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Khalil_Rountree_Jr.",

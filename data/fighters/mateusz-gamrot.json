@@ -1,166 +1,242 @@
 {
   "id": "mateusz-gamrot",
   "nom": "Mateusz Gamrot",
-  "ufc_slug": "dan-hooker",
-  "wikipedia_titre": "Dan Hooker",
-  "surnom": "The Hangman",
+  "ufc_slug": "mateusz-gamrot",
+  "wikipedia_titre": "Mateusz Gamrot",
+  "surnom": "Gamer",
   "sexe": "M",
-  "pays": "NZ",
+  "pays": "PL",
   "categorie": "legers",
   "statut": "actif",
-  "date_naissance": "1990-02-13",
-  "taille_cm": 183,
-  "allonge_cm": 190,
-  "style": "AMM",
-  "lieu_naissance": "Aukland, Nouvelle-Zélande",
+  "date_naissance": "1990-12-11",
+  "taille_cm": 178,
+  "allonge_cm": 179,
+  "style": "Lutte",
+  "lieu_naissance": "Bielsko, Biala, Pologne",
   "palmares": {
-    "victoires": 24,
-    "defaites": 15,
+    "victoires": 26,
+    "defaites": 5,
     "nuls": 0,
-    "sans_decision": 0,
-    "victoires_ko": 11,
-    "victoires_soumission": 7,
-    "victoires_decision": 6,
-    "defaites_ko": 5,
-    "defaites_soumission": 4,
-    "defaites_decision": 6
+    "sans_decision": 1,
+    "victoires_ko": 8,
+    "victoires_soumission": 6,
+    "victoires_decision": 12,
+    "defaites_ko": 0,
+    "defaites_soumission": 2,
+    "defaites_decision": 3
   },
   "stats_ufc": {
-    "frappes_par_min": 4.82,
-    "precision_frappe_pct": 49,
-    "frappes_encaissees_par_min": 4.94,
-    "defense_frappe_pct": 49.0,
-    "takedowns_par_15min": 0.67,
+    "frappes_par_min": 3.14,
+    "precision_frappe_pct": 51,
+    "frappes_encaissees_par_min": 2.79,
+    "defense_frappe_pct": 60.0,
+    "takedowns_par_15min": 5.08,
     "precision_takedown_pct": 9,
     "defense_takedown_pct": 77.0,
-    "soumissions_par_15min": 0.55,
-    "knockdowns_par_15min": 0.55,
-    "duree_moyenne_combat_s": 590,
-    "frappes_reussies": 1185.0,
-    "takedowns_reussis": 3.0
+    "soumissions_par_15min": 0.38,
+    "knockdowns_par_15min": 0.09,
+    "duree_moyenne_combat_s": 683,
+    "frappes_reussies": 501.0,
+    "takedowns_reussis": 12.0
   },
   "ufc": {
     "palmares_tableau": {
-      "victoires": 24,
-      "defaites": 15,
+      "victoires": 26,
+      "defaites": 5,
       "nuls": 0,
-      "sans_decision": 0,
+      "sans_decision": 1,
       "v": {
-        "ko": 11,
-        "soumission": 7,
-        "decision": 6,
+        "ko": 8,
+        "soumission": 6,
+        "decision": 12,
         "autre": 0
       },
       "d": {
-        "ko": 5,
-        "soumission": 4,
-        "decision": 6,
+        "ko": 0,
+        "soumission": 2,
+        "decision": 3,
         "autre": 0
       }
     },
     "combats_ufc_par_annee": {
-      "2014": 2,
-      "2015": 2,
-      "2016": 2,
-      "2017": 2,
-      "2018": 3,
-      "2019": 2,
-      "2020": 2,
+      "2020": 1,
       "2021": 3,
       "2022": 2,
-      "2023": 1,
-      "2024": 1,
-      "2025": 1,
+      "2023": 2,
+      "2024": 2,
+      "2025": 2,
       "2026": 2
     },
     "dernier_combat": {
-      "adversaire": "Salahdine Parnasse",
-      "evenement": "UFC Fight Night: Hooker vs. Parnasse",
-      "date": "5 September 2026",
+      "adversaire": "Quillan Salkilld",
+      "evenement": "UFC Fight Night: Gamrot vs. Salkilld",
+      "date": "August 8, 2026",
       "resultat": "Loss",
-      "methode": "TKO (body kick and punches)"
+      "methode": "Submission (rear-naked choke)"
     },
-    "combats_ufc": 25,
-    "victoires_ufc": 14,
-    "defaites_ufc": 11,
-    "victoires_decision_5_rounds": 1,
-    "combats_5_rounds_gagnes": 1,
-    "bonus_fotn": 3,
-    "bonus_potn": 3,
-    "bonus_kotn": 0,
+    "combats_ufc": 14,
+    "victoires_ufc": 9,
+    "defaites_ufc": 5,
+    "victoires_decision_5_rounds": 3,
+    "combats_5_rounds_gagnes": 4,
+    "bonus_fotn": 4,
+    "bonus_potn": 2,
+    "bonus_kotn": 1,
     "bonus_sotn": 0,
     "combats_fotn": [
       {
-        "adversaire": "Mateusz Gamrot",
+        "adversaire": "Dan Hooker",
         "evenement": "UFC 305",
-        "date": "18 August 2024"
+        "date": "August 18, 2024"
       },
       {
-        "adversaire": "Dustin Poirier",
-        "evenement": "UFC on ESPN: Poirier vs. Hooker",
-        "date": "27 June 2020"
+        "adversaire": "Arman Tsarukyan",
+        "evenement": "UFC on ESPN: Tsarukyan vs. Gamrot",
+        "date": "June 25, 2022"
       },
       {
-        "adversaire": "Paul Felder",
-        "evenement": "UFC Fight Night: Felder vs. Hooker",
-        "date": "23 February 2020"
+        "adversaire": "Guram Kutateladze",
+        "evenement": "UFC Fight Night: Ortega vs. The Korean Zombie",
+        "date": "October 18, 2020"
+      },
+      {
+        "adversaire": "Mansour Barnaoui",
+        "evenement": "KSW 35",
+        "date": "May 27, 2016"
       }
     ],
     "titres": [],
     "technique_favorite": {
       "technique": "punches",
-      "finitions": 5
+      "finitions": 6
     },
     "premier_combat_ufc": {
-      "adversaire": "Ian Entwistle",
-      "evenement": "UFC Fight Night: Te Huna vs. Marquardt",
-      "date": "28 June 2014",
-      "resultat": "Win",
-      "methode": "TKO (elbows)"
+      "adversaire": "Guram Kutateladze",
+      "evenement": "UFC Fight Night: Ortega vs. The Korean Zombie",
+      "date": "October 18, 2020",
+      "resultat": "Loss",
+      "methode": "Decision (split)"
     }
   },
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Performance of the Night (Three times) vs. Hatsu Hioki , Ross Pearson and James Vick",
-    "Fight of the Night (Three times) vs. Paul Felder , Dustin Poirier and Mateusz Gamrot",
-    "UFC Honors Awards 2020: President's Choice Fight of the Year Nominee vs. Dustin Poirier  2024: President's Choice Fight of the Year Nominee vs. Mateusz Gamrot",
-    "2020: President's Choice Fight of the Year Nominee vs. Dustin Poirier",
-    "2024: President's Choice Fight of the Year Nominee vs. Mateusz Gamrot",
-    "2015: Ranked #8 Upset of the Year vs. Hatsu Hioki",
-    "2020: Ranked #3 Fight of the Year vs. Dustin Poirier  & Ranked #5 Fight of the Year vs. Paul Felder",
-    "2023: Ranked #6 Fight of the Year vs. Jalin Turner",
-    "2024: Ranked #8 Fight of the Year vs. Mateusz Gamrot",
-    "Australian Fighting Championship AFC Lightweight Championship (One time)  Two successful title defenses",
-    "AFC Lightweight Championship (One time)  Two successful title defenses",
-    "Two successful title defenses",
-    "Supremacy Fighting Championships New Zealand Lightweight Championship",
-    "New Zealand Lightweight Championship",
-    "MMA Junkie 2015 May Knockout of the Month vs. Hatsu Hioki  2020 February Fight of the Month vs. Paul Felder  2020 June Fight of the Month vs. Dustin Poirier",
-    "2015 May Knockout of the Month vs. Hatsu Hioki",
-    "2020 February Fight of the Month vs. Paul Felder",
-    "2020 June Fight of the Month vs. Dustin Poirier",
-    "ESPN 2020 Round of the Year Round 2 vs. Dustin Poirier at UFC on ESPN: Poirier vs. Hooker  2024 Most improved",
-    "2020 Round of the Year Round 2 vs. Dustin Poirier at UFC on ESPN: Poirier vs. Hooker",
-    "2024 Most improved",
-    "MMA Mania 2024 #3 Ranked Fight of the Year vs. Mateusz Gamrot at UFC 305",
-    "2024 #3 Ranked Fight of the Year vs. Mateusz Gamrot at UFC 305",
-    "CBS Sports 2020 #3 Ranked UFC Fight of the Year vs. Dustin Poirier",
-    "2020 #3 Ranked UFC Fight of the Year vs. Dustin Poirier",
-    "LowKick MMA 2023 Comeback of the Year vs. Jalin Turner at UFC 290",
-    "2023 Comeback of the Year vs. Jalin Turner at UFC 290",
-    "Combat Press 2024 Fight of the Year vs. Mateusz Gamrot at UFC 305",
-    "2024 Fight of the Year vs. Mateusz Gamrot at UFC 305",
-    "World Kickboxing Federation WKBF X-Rules Welterweight Championship",
-    "WKBF X-Rules Welterweight Championship",
-    "King in the Ring King in the Ring Middleweight Championship",
-    "King in the Ring Middleweight Championship"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. Scott Holtzman and Jeremy Stephens"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Three times) vs. Guram Kutateladze , Arman Tsarukyan and Dan Hooker"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fastest submission by kimura in UFC history (65 seconds) (vs Jeremy Stephens )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most takedowns landed in UFC Lightweight division history (54)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: President's Choice Fight of the Year Nominee vs. Dan Hooker"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Ranked #9 Fight of the Year vs. Arman Tsarukyan"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: Ranked #8 Fight of the Year vs. Dan Hooker"
+    },
+    {
+      "org": "Konfrontacja Sztuk Walki",
+      "texte": "KSW Lightweight Championship (one time; former)"
+    },
+    {
+      "org": "Konfrontacja Sztuk Walki",
+      "texte": "Three successful title defenses"
+    },
+    {
+      "org": "Konfrontacja Sztuk Walki",
+      "texte": "KSW Featherweight Championship (one time; former)"
+    },
+    {
+      "org": "Konfrontacja Sztuk Walki",
+      "texte": "Knockout of the Night (one time) vs. Rodrigo Cavalheiro"
+    },
+    {
+      "org": "Konfrontacja Sztuk Walki",
+      "texte": "Fight of the Night (one time) vs. Mansour Barnaoui"
+    },
+    {
+      "org": "Herakles",
+      "texte": "2021 Fighter of the Year"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2024 Fight of the Year vs. Dan Hooker at UFC 305"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2024 #3 Ranked Fight of the Year vs. Dan Hooker at UFC 305"
+    },
+    {
+      "org": null,
+      "texte": "2014: ADCC European Championship - 1st place in 77 kg category ( Sofia )"
+    },
+    {
+      "org": null,
+      "texte": "2015: Great Britain NAGA Championship - 1st place in the 79.5 kg class and 1st place in the 79.5 kg legs ( London )"
+    },
+    {
+      "org": null,
+      "texte": "2015: ADCC European Championship - 3rd place in 77 kg class ( Turku )"
+    },
+    {
+      "org": null,
+      "texte": "2016: VI Polish No-Gi Championships - 1st place in 79.5 kg category, purple stripes ( Luboń )"
+    },
+    {
+      "org": null,
+      "texte": "2016: XII Polish ADCC Championships - 1st place in the 77 kg category"
+    },
+    {
+      "org": null,
+      "texte": "2018: ADCC European Championship - 2nd place in the 77 kg category ( Bucharest )"
+    },
+    {
+      "org": null,
+      "texte": "2019: ADCC European Championship - 1st place in 77 kg class ( Poznań )"
+    }
   ],
-  "image_commons": "DanHooker2016.png",
+  "distinctions": {
+    "fr": [
+      "Champion KSW des poids légers et plume",
+      "Combattant de l'année (2021)",
+      "Combat de l'année (2024)",
+      "Bonus UFC : 2× Performance de la soirée, 4× Combat de la soirée, 1× KO de la soirée"
+    ],
+    "en": [
+      "KSW Lightweight & Featherweight Champion",
+      "Fighter of the Year (2021)",
+      "Fight of the Year (2024)",
+      "UFC bonuses: 2× Performance of the Night, 4× Fight of the Night, 1× Knockout of the Night"
+    ]
+  },
+  "image_commons": "Mateusz Gamrot.jpg",
   "sources": {
-    "wikipedia": "https://en.wikipedia.org/wiki/Dan_Hooker",
-    "wikidata": "https://www.wikidata.org/wiki/Q19946041",
-    "ufc_com": "https://www.ufc.com/athlete/dan-hooker"
+    "wikipedia": "https://en.wikipedia.org/wiki/Mateusz_Gamrot",
+    "wikidata": "https://www.wikidata.org/wiki/Q19521996",
+    "ufc_com": "https://www.ufc.com/athlete/mateusz-gamrot"
   },
   "champs_sources": {
     "surnom": "ufc_com",
@@ -175,15 +251,15 @@
   "ecarts_sources": {},
   "maj": "2026-10-04",
   "stats_jeu": {
-    "frappe": 67,
-    "puissance": 64,
-    "lutte": 52,
-    "soumission": 57,
-    "defense": 50,
-    "cardio": 62,
-    "menton": 53,
-    "globale": 58,
-    "style": "frappeur",
+    "frappe": 60,
+    "puissance": 49,
+    "lutte": 72,
+    "soumission": 52,
+    "defense": 75,
+    "cardio": 82,
+    "menton": 99,
+    "globale": 70,
+    "style": "lutteur",
     "estimees": [],
     "formule_version": 1
   }

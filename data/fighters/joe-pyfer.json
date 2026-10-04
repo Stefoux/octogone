@@ -99,15 +99,39 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Performance of the Night (Five times) vs. Alen Amedovski , Abdul Razak Alhassan , Marc-André Barriault , Abusupiyan Magomedov and Israel Adesanya",
-    "UFC Honors Awards 2022: Fan's Choice Debut of the Year Nominee vs. Alen Amedovski  2025: President's Choice Performance of the Year Nominee vs. Abusupiyan Magomedov",
-    "2022: Fan's Choice Debut of the Year Nominee vs. Alen Amedovski",
-    "2025: President's Choice Performance of the Year Nominee vs. Abusupiyan Magomedov",
-    "Art of War Cage Fighting AOWCF Middleweight Championship (One time)",
-    "AOWCF Middleweight Championship (One time)",
-    "Ring of Combat ROC Middleweight Championship (One time)",
-    "ROC Middleweight Championship (One time)"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Five times) vs. Alen Amedovski , Abdul Razak Alhassan , Marc-André Barriault , Abusupiyan Magomedov and Israel Adesanya"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Fan's Choice Debut of the Year Nominee vs. Alen Amedovski"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2025: President's Choice Performance of the Year Nominee vs. Abusupiyan Magomedov"
+    },
+    {
+      "org": "Art of War Cage Fighting",
+      "texte": "AOWCF Middleweight Championship (One time)"
+    },
+    {
+      "org": "Ring of Combat",
+      "texte": "ROC Middleweight Championship (One time)"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 5× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 5× Performance of the Night"
+    ]
+  },
   "image_commons": "JoePyfer.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Joe_Pyfer",

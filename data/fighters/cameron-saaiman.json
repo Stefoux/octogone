@@ -97,11 +97,23 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Ultimate Fighting Championship Performance of the Night (One time) vs. Steven Koslow",
-    "Performance of the Night (One time) vs. Steven Koslow",
-    "Extreme Fighting Championship EFC Bantamweight Championship (One time)",
-    "EFC Bantamweight Championship (One time)"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Steven Koslow"
+    },
+    {
+      "org": "Extreme Fighting Championship",
+      "texte": "EFC Bantamweight Championship (One time)"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 1× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 1× Performance of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Cameron_Saaiman",

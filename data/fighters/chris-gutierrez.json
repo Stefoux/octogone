@@ -101,16 +101,39 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Ultimate Fighting Championship Performance of the Night (One time) vs. Danaa Batgerel  UFC.com Awards 2022: Ranked #8 Knockout of the Year vs. Frankie Edgar",
-    "Performance of the Night (One time) vs. Danaa Batgerel",
-    "UFC.com Awards 2022: Ranked #8 Knockout of the Year vs. Frankie Edgar",
-    "2022: Ranked #8 Knockout of the Year vs. Frankie Edgar",
-    "Sugar Creek Showdown SCS Bantamweight Championship (One time) One successful title defense",
-    "SCS Bantamweight Championship (One time) One successful title defense",
-    "One successful title defense",
-    "World Fighting Championships WFC Bantamweight Championship (One time)",
-    "WFC Bantamweight Championship (One time)"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Danaa Batgerel"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Ranked #8 Knockout of the Year vs. Frankie Edgar"
+    },
+    {
+      "org": "Sugar Creek Showdown",
+      "texte": "SCS Bantamweight Championship (One time)"
+    },
+    {
+      "org": "Sugar Creek Showdown",
+      "texte": "One successful title defense"
+    },
+    {
+      "org": "World Fighting Championships",
+      "texte": "WFC Bantamweight Championship (One time)"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 1× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 1× Performance of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Chris_Gutiérrez",

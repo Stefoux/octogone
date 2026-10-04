@@ -181,47 +181,461 @@
   "champion_division": "Poids mouche féminins",
   "ancien_champion": true,
   "accomplissements_en": [
-    "First Kyrgyzstani UFC champion",
-    "Nine successful title defenses (Overall) Seven successful title defenses (First reign) Two successful title defenses (Second reign)",
-    "Seven successful title defenses (First reign)",
-    "Two successful title defenses (Second reign)",
-    "Tied ( Amanda Nunes ) for most title fight wins in UFC Women's history (11)",
-    "Most combined title defenses by a woman in UFC history (9)",
-    "Most consecutive title defenses in the UFC Women's Flyweight division history (7)",
-    "Most consecutive single title defenses by a woman in UFC history (7)",
-    "Tied ( Georges St-Pierre ) for fourth most combined title defenses in UFC history (9)",
-    "First woman to defend the UFC Women's Flyweight Championship",
-    "First and only two-time UFC Women's Flyweight Champion",
-    "Performance of the Night (Three times) vs. Julianna Peña , Priscila Cachoeira , and Jessica Eye",
-    "Most wins in UFC Women's Flyweight division history (12)  Third most wins in UFC Women's history (15)",
-    "Third most wins in UFC Women's history (15)",
-    "Most consecutive wins in UFC Women's Flyweight division history (9)",
-    "Most knockout wins in UFC Women's Flyweight division history (4)",
-    "Tied ( Casey O'Neill ) for second most finishes in UFC Women's Flyweight division history (5)  (behind Gillian Robertson )",
-    "Most total fight time in UFC Women's Flyweight division history (4:32:47)  Second most total fight time in title fights (4:48:22) (behind Jon Jones )",
-    "Second most total fight time in title fights (4:48:22) (behind Jon Jones )",
-    "Second longest average fight time in UFC Women's Flyweight division history (19:29) (behind Rose Namajunas )",
-    "Tied ( Katlyn Cerminara & Andrea Lee ) for most bouts in UFC Flyweight division history (14)",
-    "Most takedowns landed in UFC Women's history (64)",
-    "Most takedowns landed in UFC Women's Flyweight division history (54)  Third most takedowns landed in UFC title fights (52)",
-    "Third most takedowns landed in UFC title fights (52)",
-    "Most control time in UFC Women's Flyweight division history (1:27:25)",
-    "Most top position time in UFC Women's Flyweight division history (1:15:53)  Fourth highest top position percentage in UFC Women's Flyweight division history (30.6%)",
-    "Fourth highest top position percentage in UFC Women's Flyweight division history (30.6%)",
-    "Second highest significant strike accuracy in UFC Women's Flyweight division history (54.8%)",
-    "Fewest strikes absorbed per minute in UFC Women's Flyweight division history (1.81)",
-    "Fourth most significant strikes landed in UFC Women's Flyweight division history (868)  Most total strikes landed in UFC Women's Flyweight division history (2100)",
-    "Most total strikes landed in UFC Women's Flyweight division history (2100)",
-    "Second highest takedown accuracy percentage in UFC Women's Flyweight division history (64.3%)",
-    "Fifth highest significant strike defense percentage in UFC Women's Flyweight division history (65.9)",
-    "Fifth highest takedown defense percentage in UFC Women's Flyweight division history (78.1)",
-    "Holds wins over six former UFC champions — vs. Holly Holm , Julianna Peña , Joanna Jędrzejczyk , Jéssica Andrade , Alexa Grasso and Zhang Weili",
-    "UFC Honors Awards 2019: Fan's Choice Knockout of the Year Nominee vs. Jessica Eye",
-    "2019: Fan's Choice Knockout of the Year Nominee vs. Jessica Eye",
-    "2016: Ranked #10 Upset of the Year vs. Holly Holm",
-    "2017: Ranked #5 Submission of the Year vs. Julianna Peña",
-    "2018: Ranked #5 Fighter of the Year"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Women's Flyweight Championship (Two times, Current)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First Kyrgyzstani UFC champion"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Nine successful title defenses (Overall)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Seven successful title defenses (First reign)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Two successful title defenses (Second reign)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most title fight wins in UFC Women's Flyweight division history (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Amanda Nunes ) for most title fight wins in UFC Women's history (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most combined title defenses by a woman in UFC history (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most consecutive title defenses in the UFC Women's Flyweight division history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most consecutive single title defenses by a woman in UFC history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Georges St-Pierre ) for fourth most combined title defenses in UFC history (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First woman to defend the UFC Women's Flyweight Championship"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First and only two-time UFC Women's Flyweight Champion"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Three times) vs. Julianna Peña , Priscila Cachoeira , and Jessica Eye"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most wins in UFC Women's Flyweight division history (12)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most wins in UFC Women's history (15)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most consecutive wins in UFC Women's Flyweight division history (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most knockout wins in UFC Women's Flyweight division history (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Casey O'Neill ) for second most finishes in UFC Women's Flyweight division history (5) (behind Gillian Robertson )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most total fight time in UFC Women's Flyweight division history (4:32:47)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most total fight time in title fights (4:48:22) (behind Jon Jones )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second longest average fight time in UFC Women's Flyweight division history (19:29) (behind Rose Namajunas )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Katlyn Cerminara & Andrea Lee ) for most bouts in UFC Flyweight division history (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most takedowns landed in UFC Women's history (64)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most takedowns landed in UFC Women's Flyweight division history (54)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most takedowns landed in UFC title fights (52)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most control time in UFC Women's Flyweight division history (1:27:25)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most top position time in UFC Women's Flyweight division history (1:15:53)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth highest top position percentage in UFC Women's Flyweight division history (30.6%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second highest significant strike accuracy in UFC Women's Flyweight division history (54.8%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fewest strikes absorbed per minute in UFC Women's Flyweight division history (1.81)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most significant strikes landed in UFC Women's Flyweight division history (868)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most total strikes landed in UFC Women's Flyweight division history (2100)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second highest takedown accuracy percentage in UFC Women's Flyweight division history (64.3%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth highest significant strike defense percentage in UFC Women's Flyweight division history (65.9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth highest takedown defense percentage in UFC Women's Flyweight division history (78.1)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Holds wins over six former UFC champions — vs. Holly Holm , Julianna Peña , Joanna Jędrzejczyk , Jéssica Andrade , Alexa Grasso and Zhang Weili"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2019: Fan's Choice Knockout of the Year Nominee vs. Jessica Eye"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2016: Ranked #10 Upset of the Year vs. Holly Holm"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2017: Ranked #5 Submission of the Year vs. Julianna Peña"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2018: Ranked #5 Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2019: Top 10 Fighter of the Year & Ranked #2 Knockout of the Year vs. Jessica Eye"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Ranked #6 Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: Ranked #9 Fight of the Year vs. Alexa Grasso 1 & Ranked #10 Fight of the Year vs. Alexa Grasso 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2025: Ranked #5 Fighter of the Year (Tied with Jiří Procházka )"
+    },
+    {
+      "org": "The Athletic",
+      "texte": "2010s Women's Flyweight Fighter of the Decade"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2010s Women's Flyweight Fighter of the Decade"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2015 Under-the-Radar Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2019 June Knockout of the Month vs. Jessica Eye"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2025 Female Fighter of the Year"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2020 Female Fighter of the Year"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2025 Female Fighter of the Year"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2020 Female Fighter of the Year"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2025 Female Fighter of the Year"
+    },
+    {
+      "org": "BT Sport",
+      "texte": "2020 Female Fighter of the Year"
+    },
+    {
+      "org": "BT Sport",
+      "texte": "2021 Female Fighter of the Year"
+    },
+    {
+      "org": "Daily Mirror",
+      "texte": "2021 Female Fighter of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2022 Female Fighter of the Year"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2019 Female Fighter of the Year tied with Amanda Nunes"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2020 Female Fighter of the Year"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2021 Female Fighter of the Year"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2025 Female Fighter of the Year"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2025 Female Fighter of the Year"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2020 Female Fighter of the Year"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2025 Women's Fighter of the Year"
+    },
+    {
+      "org": "The Wrightway Sports Network",
+      "texte": "2025 Female Fighter of the Year"
+    },
+    {
+      "org": "theScore",
+      "texte": "2025 Female Fighter of the Year"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2025 #2 Ranked Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2025 #2 Ranked Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2025 Third Team MMA All-Star"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2019 #3 Ranked UFC Knockout of the Year vs. Jessica Eye"
+    },
+    {
+      "org": "Uncrowned",
+      "texte": "2025 Women's Fighter of the Year"
+    },
+    {
+      "org": "LowKick MMA",
+      "texte": "2025 Female Fighter of the Year"
+    },
+    {
+      "org": null,
+      "texte": "Kunlun Fight Women's Lightweight Championship (1 title defense)"
+    },
+    {
+      "org": null,
+      "texte": "2014 Kunlun Fight Female -60kg Tournament Champion"
+    },
+    {
+      "org": null,
+      "texte": "2013 World K-1 Champion WKC, Peru (60 kg)"
+    },
+    {
+      "org": null,
+      "texte": "2013 World K-1 Champion WKC, Mexico (60 kg)"
+    },
+    {
+      "org": null,
+      "texte": "2005 World Champion KF-1 MMA Pro, Korea, Seoul (57 kg)"
+    },
+    {
+      "org": null,
+      "texte": "2004 World Kickboxing Champion WAKO , Italy (56 kg)"
+    },
+    {
+      "org": null,
+      "texte": "2003 World Champion KF-1 MMA Pro, Korea, Seoul (55 kg)"
+    },
+    {
+      "org": null,
+      "texte": "2003 World Kickboxing Championship WAKO Bronze Medal, France (56 kg)"
+    },
+    {
+      "org": null,
+      "texte": "2003 Asia Cup Champion (55 kg)"
+    },
+    {
+      "org": null,
+      "texte": "2002 Kyrgyzstan National Champion (55 kg)"
+    },
+    {
+      "org": null,
+      "texte": "2002 Kyrgyzstan National Champion (58 kg)"
+    },
+    {
+      "org": null,
+      "texte": "2007 Russian Women's National Amateur Champion (57 kg)"
+    },
+    {
+      "org": null,
+      "texte": "2005 ITF and WTF European Championship, Gold Medal (58 kg)"
+    },
+    {
+      "org": null,
+      "texte": "2005 ITF and WTF European Championship Team Pattern, Gold Medal"
+    },
+    {
+      "org": null,
+      "texte": "2003 ITF World Championship, Bronze Medal (58 kg)"
+    },
+    {
+      "org": null,
+      "texte": "2002 ITF Asian Championship, Gold Medal (58 kg)"
+    },
+    {
+      "org": null,
+      "texte": "2015 I.F.M.A. Royal World Cup Tournament Championship (60 kg)"
+    },
+    {
+      "org": null,
+      "texte": "2014 I.F.M.A. World Championship (60 kg)"
+    },
+    {
+      "org": null,
+      "texte": "2013 World Combat Games, Muay Thai Gold Medalist (60 kg)"
+    },
+    {
+      "org": null,
+      "texte": "2012 WMC Muaythai Female Super Lightweight World Champion"
+    },
+    {
+      "org": null,
+      "texte": "2012 I.F.M.A. World Championship (60 kg)"
+    },
+    {
+      "org": null,
+      "texte": "2011 I.F.M.A. World Championship, Silver Medal (60 kg)"
+    },
+    {
+      "org": null,
+      "texte": "2011 WMC-I.F.M.A. South American Championship (63.5 kg)"
+    },
+    {
+      "org": null,
+      "texte": "2010 I.F.M.A. Panamerican Championship (60 kg)"
+    },
+    {
+      "org": null,
+      "texte": "2010 World Combat Games, Muay Thai Gold Medalist (60 kg)"
+    },
+    {
+      "org": null,
+      "texte": "2010 I.F.M.A. World Championship (63.5 kg)"
+    },
+    {
+      "org": null,
+      "texte": "2009 I.F.M.A. World Championship (60 kg)"
+    },
+    {
+      "org": null,
+      "texte": "2008 I.F.M.A. World Championship (57 kg)"
+    },
+    {
+      "org": null,
+      "texte": "2008 R.M.F. Russian National Championship (57 kg)"
+    },
+    {
+      "org": null,
+      "texte": "2007 I.F.M.A. World Championship (57 kg)"
+    },
+    {
+      "org": null,
+      "texte": "2007 R.M.F. Russian National Championship (57 kg)"
+    },
+    {
+      "org": null,
+      "texte": "2006 I.F.M.A. World Championship (57 kg)"
+    },
+    {
+      "org": null,
+      "texte": "2006 World Muay Thai WMF Champion, Thailand (57 kg)"
+    },
+    {
+      "org": null,
+      "texte": "2003 I.F.M.A. World Championship (57 kg)"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Championne UFC des poids mouche féminins (2 fois)",
+      "9 défenses de titre à l'UFC",
+      "Combattante de l'année (2019, 2020, 2021, 2022, 2025)",
+      "Record UFC chez les poids mouche féminins : victoires en championnat (11)",
+      "Record UFC chez les poids mouche féminins : défenses de titre consécutives (7)",
+      "Bonus UFC : 3× Performance de la soirée"
+    ],
+    "en": [
+      "UFC Women's Flyweight Champion (2×)",
+      "9 UFC title defenses",
+      "Fighter of the Year (2019, 2020, 2021, 2022, 2025)",
+      "UFC Women's Flyweight record: most title fight wins (11)",
+      "UFC Women's Flyweight record: most consecutive title defenses (7)",
+      "UFC bonuses: 3× Performance of the Night"
+    ]
+  },
   "image_commons": "Valentina Shevchenko 2020.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Valentina_Shevchenko",

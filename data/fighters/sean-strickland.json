@@ -127,47 +127,211 @@
   "champion_division": "Poids moyens",
   "ancien_champion": true,
   "accomplissements_en": [
-    "UFC Middleweight Championship (Two times, current)  The second two-time UFC Middleweight Champion (after Israel Adesanya )",
-    "The second two-time UFC Middleweight Champion (after Israel Adesanya )",
-    "Fight of the Night (One time) vs. Dricus du Plessis 1",
-    "Performance of the Night (Four times) vs. Brendan Allen , Abusupiyan Magomedov , Israel Adesanya and Anthony Hernandez",
-    "Second most significant strikes landed in UFC history (2430)",
-    "Most total strikes landed in UFC Middleweight division history (1799)",
-    "Fourth most total strikes landed in UFC history (2627)",
-    "Fourth most strikes landed-per-minute in UFC Middleweight division history (6.2)",
-    "Longest average fight time in UFC Middleweight division history (18:15)",
-    "Fifth most total fight time in UFC Middleweight division history (4:33:52)",
-    "Tied ( Gleison Tibau ) for second most split decision bouts in UFC history (7) (behind Clay Guida )",
-    "Tied ( Krzysztof Jotko & Brad Tavares ) for most split decision wins in UFC Middleweight division history (3)",
-    "Tied ( Chris Leben & Jean Silva ) for third fastest turnaround to win two fights (14 days in 2020)",
-    "Most significant strikes attempted (428) (vs. Uriah Hall )",
-    "Third most significant strikes attempted (400) (vs. Jared Cannonier )",
-    "Most significant strikes landed in a UFC Middleweight title bout (173) (vs. Dricus du Plessis 1)",
-    "Most significant head strikes landed (173) (vs. Uriah Hall )",
-    "Light Heavyweight Most significant strikes attempted (405) (vs. Nassourdine Imavov )  Most total strikes attempted (420) (vs. Nassourdine Imavov )",
-    "Most significant strikes attempted (405) (vs. Nassourdine Imavov )",
-    "Most total strikes attempted (420) (vs. Nassourdine Imavov )",
-    "UFC Honors Awards 2023: President's Choice Performance of the Year Nominee vs. Israel Adesanya",
-    "2023: President's Choice Performance of the Year Nominee vs. Israel Adesanya",
-    "UFC.com Awards 2023: Ranked No. 4 Fighter of the Year  & Ranked No. 2 Upset of the Year vs. Israel Adesanya",
-    "2023: Ranked No. 4 Fighter of the Year  & Ranked No. 2 Upset of the Year vs. Israel Adesanya",
-    "King of the Cage KOTC Middleweight Championship (One time) Five successful title defenses",
-    "KOTC Middleweight Championship (One time) Five successful title defenses",
-    "Five successful title defenses",
-    "The Sporting News 2023 Men's Fighter of the Year  2023 Upset of the Year vs. Israel Adesanya at UFC 293",
-    "2023 Men's Fighter of the Year",
-    "2023 Upset of the Year vs. Israel Adesanya at UFC 293",
-    "New York Post 2023 Upset of the Year vs. Israel Adesanya at UFC 293",
-    "2023 Upset of the Year vs. Israel Adesanya at UFC 293",
-    "MMA Junkie 2020 Comeback Fighter of the Year  2023 Male Fighter of the Year",
-    "2020 Comeback Fighter of the Year",
-    "2023 Male Fighter of the Year",
-    "Sherdog 2020 Comeback Fighter of the Year",
-    "2020 Comeback Fighter of the Year",
-    "World MMA Awards 2024 Upset of the Year vs. Israel Adesanya at UFC 293",
-    "2024 Upset of the Year vs. Israel Adesanya at UFC 293",
-    "MMA Fighting 2023 First Team MMA All-Star"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Middleweight Championship (Two times, current)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "The second two-time UFC Middleweight Champion (after Israel Adesanya )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Dricus du Plessis 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Four times) vs. Brendan Allen , Abusupiyan Magomedov , Israel Adesanya and Anthony Hernandez"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most significant strikes landed in UFC Middleweight division history (1698)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most significant strikes landed in UFC history (2430)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most total strikes landed in UFC Middleweight division history (1799)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most total strikes landed in UFC history (2627)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most strikes landed-per-minute in UFC Middleweight division history (6.2)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Longest average fight time in UFC Middleweight division history (18:15)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth most total fight time in UFC Middleweight division history (4:33:52)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Gleison Tibau & Andre Fili ) for most split decision wins in UFC history (5)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Gleison Tibau ) for second most split decision bouts in UFC history (7) (behind Clay Guida )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Krzysztof Jotko & Brad Tavares ) for most split decision wins in UFC Middleweight division history (3)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Chris Leben & Jean Silva ) for third fastest turnaround to win two fights (14 days in 2020)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Bout Records"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Middleweight"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most significant strikes attempted (428) (vs. Uriah Hall )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most significant strikes attempted (400) (vs. Jared Cannonier )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most significant strikes landed in a UFC Middleweight title bout (173) (vs. Dricus du Plessis 1)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most significant head strikes landed (173) (vs. Uriah Hall )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Light Heavyweight"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most significant strikes attempted (405) (vs. Nassourdine Imavov )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most total strikes attempted (420) (vs. Nassourdine Imavov )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: President's Choice Performance of the Year Nominee vs. Israel Adesanya"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: Ranked No. 4 Fighter of the Year & Ranked No. 2 Upset of the Year vs. Israel Adesanya"
+    },
+    {
+      "org": "King of the Cage",
+      "texte": "KOTC Middleweight Championship (One time)"
+    },
+    {
+      "org": "King of the Cage",
+      "texte": "Five successful title defenses"
+    },
+    {
+      "org": "The Sporting News",
+      "texte": "2023 Men's Fighter of the Year"
+    },
+    {
+      "org": "The Sporting News",
+      "texte": "2023 Upset of the Year vs. Israel Adesanya at UFC 293"
+    },
+    {
+      "org": "New York Post",
+      "texte": "2023 Upset of the Year vs. Israel Adesanya at UFC 293"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2020 Comeback Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2023 Male Fighter of the Year"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2020 Comeback Fighter of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2024 Upset of the Year vs. Israel Adesanya at UFC 293"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2023 First Team MMA All-Star"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2023 Most Improved Fighter"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2023 Most Improved Fighter of the Year"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2023 Most Lopsided Upset of the Year vs. Israel Adesanya at UFC 293"
+    },
+    {
+      "org": "LowKick MMA",
+      "texte": "2023 Fighter of the Year"
+    },
+    {
+      "org": "LowKick MMA",
+      "texte": "2023 Upset of the Year vs. Israel Adesanya at UFC 293"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2023 No. 4 Ranked Fighter of the Year"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2023 Male Fighter of the Year"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2023 Male Fighter of the Year"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2023 Upset of the Year vs. Israel Adesanya at UFC 293"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids moyens (2 fois)",
+      "Combattant de l'année (2023)",
+      "Record UFC chez les poids moyens : frappes significatives réussies (1698)",
+      "Record UFC chez les poids moyens : frappes réussies (1799)",
+      "Bonus UFC : 4× Performance de la soirée, 1× Combat de la soirée"
+    ],
+    "en": [
+      "UFC Middleweight Champion (2×)",
+      "Fighter of the Year (2023)",
+      "UFC Middleweight record: most significant strikes landed (1698)",
+      "UFC Middleweight record: most total strikes landed (1799)",
+      "UFC bonuses: 4× Performance of the Night, 1× Fight of the Night"
+    ]
+  },
   "image_commons": "Sean Strickland at UFN 200.png",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Sean_Strickland",

@@ -112,23 +112,65 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Fight of the Night (Two times) vs. Marvin Vettori and Edmen Shahbazyan",
-    "Performance of the Night (Three times) vs. Krzysztof Jotko , André Muniz & Paul Craig",
-    "Second most submissions in UFC Middleweight division history (6) (behind Gerald Meerschaert )",
-    "Tied ( Derek Brunson , Nate Marquardt & Chris Leben ) for third most finishes in UFC Middleweight division history (9)",
-    "Tied ( Anderson Silva , Derek Brunson & Robert Whittaker ) for third most wins in UFC Middleweight division history (14)",
-    "Tied ( Charles Oliveira ) for the fourth longest submission streak in UFC history (4)",
-    "Tied ( Charles Oliveira ) for fifth most rear-naked choke submissions in UFC history (6)",
-    "Legacy Fighting Alliance LFA Middleweight Championship (One time) vs. Tim Hiley and Moses Murrietta .   One successful defense",
-    "LFA Middleweight Championship (One time) vs. Tim Hiley and Moses Murrietta .   One successful defense",
-    "One successful defense",
-    "International Mixed Martial Arts Federation IMMAF 2015 Amateur Middleweight Championship",
-    "IMMAF 2015 Amateur Middleweight Championship",
-    "Valor Fights Valor Fights Middleweight Championship",
-    "Valor Fights Middleweight Championship",
-    "MMA Fighting 2023 Third Team MMA All-Star",
-    "2023 Third Team MMA All-Star"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Two times) vs. Marvin Vettori and Edmen Shahbazyan"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Three times) vs. Krzysztof Jotko , André Muniz & Paul Craig"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most submissions in UFC Middleweight division history (6) (behind Gerald Meerschaert )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Derek Brunson , Nate Marquardt & Chris Leben ) for third most finishes in UFC Middleweight division history (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Anderson Silva , Derek Brunson & Robert Whittaker ) for third most wins in UFC Middleweight division history (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Charles Oliveira ) for the fourth longest submission streak in UFC history (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Charles Oliveira ) for fifth most rear-naked choke submissions in UFC history (6)"
+    },
+    {
+      "org": "Legacy Fighting Alliance",
+      "texte": "LFA Middleweight Championship (One time) vs. Tim Hiley and Moses Murrietta ."
+    },
+    {
+      "org": "Legacy Fighting Alliance",
+      "texte": "One successful defense"
+    },
+    {
+      "org": "International Mixed Martial Arts Federation",
+      "texte": "IMMAF 2015 Amateur Middleweight Championship"
+    },
+    {
+      "org": "Valor Fights",
+      "texte": "Valor Fights Middleweight Championship"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2023 Third Team MMA All-Star"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion LFA des poids moyens",
+      "Bonus UFC : 3× Performance de la soirée, 2× Combat de la soirée"
+    ],
+    "en": [
+      "LFA Middleweight Champion",
+      "UFC bonuses: 3× Performance of the Night, 2× Fight of the Night"
+    ]
+  },
   "image_commons": "BrendanAllen.png",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Brendan_Allen",

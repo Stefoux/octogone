@@ -1,144 +1,85 @@
 {
   "id": "william-gomis",
   "nom": "William Gomis",
-  "ufc_slug": "joanderson-brito",
-  "wikipedia_titre": "Joanderson Brito",
-  "surnom": "Tubarao",
-  "sexe": "M",
+  "ufc_slug": "william-gomis",
+  "surnom": "Jaguar",
+  "sexe": null,
   "pays": null,
   "categorie": "plume",
   "statut": "actif",
-  "date_naissance": "1995-02-15",
-  "taille_cm": 173,
-  "allonge_cm": 183,
-  "style": "Cogneur",
-  "lieu_naissance": "Santa Helena, Brésil",
+  "date_naissance": null,
+  "taille_cm": 183,
+  "allonge_cm": 185,
+  "style": null,
+  "lieu_naissance": "Montivilliers, France",
   "palmares": {
-    "victoires": 20,
-    "defaites": 5,
-    "nuls": 1,
+    "victoires": 15,
+    "defaites": 4,
+    "nuls": 0,
     "sans_decision": 0,
-    "victoires_ko": 9,
-    "victoires_soumission": 8,
-    "victoires_decision": 2,
-    "defaites_ko": 1,
-    "defaites_soumission": 1,
-    "defaites_decision": 3
+    "victoires_ko": 7,
+    "victoires_soumission": 1,
+    "victoires_decision": 7,
+    "defaites_ko": null,
+    "defaites_soumission": null,
+    "defaites_decision": null
   },
   "stats_ufc": {
-    "frappes_par_min": 2.53,
-    "precision_frappe_pct": 52,
-    "frappes_encaissees_par_min": 2.31,
-    "defense_frappe_pct": 44.0,
-    "takedowns_par_15min": 3.16,
-    "precision_takedown_pct": 6,
-    "defense_takedown_pct": 58.0,
-    "soumissions_par_15min": 1.21,
-    "knockdowns_par_15min": 0.15,
-    "duree_moyenne_combat_s": 498,
-    "frappes_reussies": 252.0,
-    "takedowns_reussis": 2.0
+    "frappes_par_min": 3.2,
+    "precision_frappe_pct": 49,
+    "frappes_encaissees_par_min": 2.6,
+    "defense_frappe_pct": 62.0,
+    "takedowns_par_15min": 0.73,
+    "precision_takedown_pct": 23,
+    "defense_takedown_pct": 78.0,
+    "soumissions_par_15min": 0.29,
+    "knockdowns_par_15min": 0.0,
+    "duree_moyenne_combat_s": 877,
+    "frappes_reussies": 327.0,
+    "takedowns_reussis": 3.0
   },
-  "ufc": {
-    "palmares_tableau": {
-      "victoires": 20,
-      "defaites": 5,
-      "nuls": 1,
-      "sans_decision": 0,
-      "v": {
-        "ko": 9,
-        "soumission": 8,
-        "decision": 2,
-        "autre": 1
-      },
-      "d": {
-        "ko": 1,
-        "soumission": 1,
-        "decision": 3,
-        "autre": 0
-      }
-    },
-    "combats_ufc_par_annee": {
-      "2021": 1,
-      "2022": 3,
-      "2023": 2,
-      "2024": 2,
-      "2025": 2,
-      "2026": 2
-    },
-    "dernier_combat": {
-      "adversaire": "Giga Chikadze",
-      "evenement": "UFC 331",
-      "date": "September 19, 2026",
-      "resultat": "Win",
-      "methode": "KO (punches)"
-    },
-    "combats_ufc": 12,
-    "victoires_ufc": 9,
-    "defaites_ufc": 3,
-    "victoires_decision_5_rounds": 0,
-    "combats_5_rounds_gagnes": 0,
-    "bonus_fotn": 0,
-    "bonus_potn": 2,
-    "bonus_kotn": 0,
-    "bonus_sotn": 0,
-    "combats_fotn": [],
-    "titres": [],
-    "technique_favorite": {
-      "technique": "punches",
-      "finitions": 9
-    },
-    "premier_combat_ufc": {
-      "adversaire": "Diego Lopes",
-      "evenement": "Dana White's Contender Series 37",
-      "date": "August 31, 2021",
-      "resultat": "Win",
-      "methode": "Technical Decision (unanimous)"
-    }
-  },
+  "ufc": {},
   "champion_actuel": false,
   "ancien_champion": false,
-  "accomplissements_en": [
-    "Performance of the Night (Two time) vs. Andre Fili and Jonathan Pearce",
-    "Tied ( Ricardo Lamas & Brian Ortega ) for third most finishes in UFC Featherweight division history (7)",
-    "Second highest takedown accuracy percentage in UFC Featherweight division history (66.7%)",
-    "Fusion Fighting Championship (FFC) Fusion FC Lightweight Championship (One time) One successful title defense",
-    "Fusion FC Lightweight Championship (One time) One successful title defense",
-    "One successful title defense",
-    "Araça Fight Combat Araça Fight Featherweight Championship (One time)",
-    "Araça Fight Featherweight Championship (One time)"
-  ],
+  "accomplissements_en": [],
+  "distinctions": {
+    "fr": [],
+    "en": []
+  },
   "image_commons": null,
   "sources": {
-    "wikipedia": "https://en.wikipedia.org/wiki/Joanderson_Brito",
-    "wikidata": "https://www.wikidata.org/wiki/Q133797867",
-    "ufc_com": "https://www.ufc.com/athlete/joanderson-brito"
+    "ufc_com": "https://www.ufc.com/athlete/william-gomis"
   },
   "champs_sources": {
     "surnom": "ufc_com",
     "pays": "wikidata",
     "categorie": "ufc_com",
-    "palmares": "wikipedia_tableau",
-    "stats_ufc": "ufc_com",
-    "ufc": "wikipedia_tableau",
-    "accomplissements_en": "wikipedia"
+    "palmares": "ufc_com",
+    "stats_ufc": "ufc_com"
   },
   "a_verifier": [
-    "pays"
+    "article Wikipedia introuvable",
+    "palmares.defaites_decision",
+    "palmares.defaites_ko",
+    "palmares.defaites_soumission",
+    "pays",
+    "sexe"
   ],
   "ecarts_sources": {},
   "maj": "2026-10-04",
   "stats_jeu": {
-    "frappe": 58,
-    "puissance": 58,
-    "lutte": 57,
-    "soumission": 72,
-    "defense": 63,
-    "cardio": 50,
-    "menton": 88,
-    "globale": 64,
-    "style": "grappler",
-    "estimees": [],
+    "frappe": 65,
+    "puissance": 65,
+    "lutte": 65,
+    "soumission": 65,
+    "defense": 65,
+    "cardio": 65,
+    "menton": 65,
+    "globale": 65,
+    "style": "complet",
+    "estimees": [
+      "menton"
+    ],
     "formule_version": 1
   }
 }

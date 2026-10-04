@@ -161,47 +161,229 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Dominion Warrior Inc Dominion Warrior Muay Thai World Lightweight (-73.4 kg/162 lb) Championship (One time)",
-    "Dominion Warrior Muay Thai World Lightweight (-73.4 kg/162 lb) Championship (One time)",
-    "International Sport Karate Association ISKA Amateur Colorado State Middleweight (-75 kg/165 lb) Oriental Championship (One time)",
-    "ISKA Amateur Colorado State Middleweight (-75 kg/165 lb) Oriental Championship (One time)",
-    "Kickdown Classic KDC Amateur Welterweight Championship (One time)",
-    "KDC Amateur Welterweight Championship (One time)",
-    "S-1 2006 S-1 Muay Thai U.S. Lightweight (-73.4 kg/162 lb) Tournament Championship 270",
-    "2006 S-1 Muay Thai U.S. Lightweight (-73.4 kg/162 lb) Tournament Championship 270",
-    "UFC Hall of Fame (Modern wing, Class of 2023)",
-    "Tied ( Justin Gaethje ) for second most Fight of the Night bonuses in UFC/WEC history (11) (behind Cub Swanson )",
-    "Knockout of the Night (Three times) vs. Charles Oliveira , Melvin Guillard , & Adriano Martins",
-    "Submission of the Night (Two times) vs. Dennis Siver & Evan Dunham",
-    "Most Post-Fight bonuses in UFC/WEC combined history (23)",
-    "Second most Post-Fight bonus awards in UFC history (18)",
-    "Tied ( Conor McGregor , Ovince Saint Preux , Tom Aspinall , Carlos Prates & Song Yadong ) for fourth most Performance of the Night bonuses in UFC history (7)",
-    "Fifth most Post-Fight bonuses in UFC Lightweight division history (14)",
-    "Tied ( Beneil Dariush ) for third most wins in UFC Lightweight division history (17)",
-    "Most wins in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (29)",
-    "Tied ( Neil Magny ) for third most bouts in UFC history (38)  Most bouts in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (48)",
-    "Most bouts in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (48)",
-    "Tied ( Tony Ferguson , Islam Makhachev & Dustin Poirier ) for fifth most finishes in UFC Lightweight division history (10)",
-    "Tied ( Wanderlei Silva & Jim Miller ) for third most finishes in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (20) (behind Mirko Cro Cop & Charles Oliveira )",
-    "Tied ( Michał Oleksiejczuk , Francis Ngannou , Joe Lauzon and Terrance McKinney ) for sixth most first-round finishes in UFC history (8)",
-    "Most knockdowns in UFC history (20)  Tied ( Dustin Poirier ) for third most knockdowns landed in UFC Lightweight division history (11)",
-    "Tied ( Dustin Poirier ) for third most knockdowns landed in UFC Lightweight division history (11)",
-    "Most head kick knockouts in UFC and Zuffa, LLC history (6)  Second most knockdowns in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (25)",
-    "Second most knockdowns in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (25)",
-    "2011: Ranked No. 4 Import of the Year ,  Ranked No. 9 Fighter of the Year  & Ranked No. 6 Fight of the Year vs. Nate Diaz",
-    "2012: Ranked No. 7 Knockout of the Year vs. Melvin Guillard",
-    "2014: Ranked No. 4 Fighter of the Year",
-    "2016: Ranked No. 9 Fighter of the Year ,  Ranked No. 8 Fight of the Year  & Ranked No. 6 Knockout of the Year vs. Matt Brown",
-    "2018: Ranked No. 10 Submission of the Year vs. Mike Perry",
-    "2019: Ranked No. 9 Fight of the Year vs. Tony Ferguson",
-    "World Extreme Cagefighting Fight of the Night (Five times) vs. Rob McCullough , Jamie Varner (2), Benson Henderson , & Ed Ratcliff      Most Fight of the Night awards in WEC history (5)",
-    "Fight of the Night (Five times) vs. Rob McCullough , Jamie Varner (2), Benson Henderson , & Ed Ratcliff",
-    "Most Fight of the Night awards in WEC history (5)",
-    "Ring of Fire Ring of Fire Lightweight Champion (one time; former)",
-    "Ring of Fire Lightweight Champion (one time; former)",
-    "ESPN 2018 Submission of the Year vs. Mike Perry at UFC Fight Night: The Korean Zombie vs. Rodríguez",
-    "2018 Submission of the Year vs. Mike Perry at UFC Fight Night: The Korean Zombie vs. Rodríguez"
+    {
+      "org": "Dominion Warrior Inc",
+      "texte": "Dominion Warrior Muay Thai World Lightweight (-73.4 kg/162 lb) Championship (One time)"
+    },
+    {
+      "org": "International Sport Karate Association",
+      "texte": "ISKA Amateur Colorado State Middleweight (-75 kg/165 lb) Oriental Championship (One time)"
+    },
+    {
+      "org": "Kickdown Classic",
+      "texte": "KDC Amateur Welterweight Championship (One time)"
+    },
+    {
+      "org": "S-1",
+      "texte": "2006 S-1 Muay Thai U.S. Lightweight (-73.4 kg/162 lb) Tournament Championship 270"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame (Modern wing, Class of 2023)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Six times) vs. Paul Kelly , Nate Diaz , Melvin Guillard , Alexander Hernandez , Al Iaquinta & Tony Ferguson"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Justin Gaethje ) for second most Fight of the Night bonuses in UFC/WEC history (11) (behind Cub Swanson )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Knockout of the Night (Three times) vs. Charles Oliveira , Melvin Guillard , & Adriano Martins"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Submission of the Night (Two times) vs. Dennis Siver & Evan Dunham"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Seven times) vs. Edson Barboza , Jim Miller , Alex Oliveira , Patrick Côté , Rick Story , Mike Perry , & Alexander Hernandez"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most Post-Fight bonuses in UFC/WEC combined history (23)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most Post-Fight bonus awards in UFC history (18)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Conor McGregor , Ovince Saint Preux , Tom Aspinall , Carlos Prates & Song Yadong ) for fourth most Performance of the Night bonuses in UFC history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth most Post-Fight bonuses in UFC Lightweight division history (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Andrei Arlovski ) for fifth most wins in UFC history (23)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Beneil Dariush ) for third most wins in UFC Lightweight division history (17)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most wins in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (29)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Neil Magny ) for third most bouts in UFC history (38)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most bouts in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (48)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Derrick Lewis ) for third most finishes in UFC history (16)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Tony Ferguson , Islam Makhachev & Dustin Poirier ) for fifth most finishes in UFC Lightweight division history (10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Wanderlei Silva & Jim Miller ) for third most finishes in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (20) (behind Mirko Cro Cop & Charles Oliveira )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Michał Oleksiejczuk , Francis Ngannou , Joe Lauzon and Terrance McKinney ) for sixth most first-round finishes in UFC history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most knockdowns in UFC history (20)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Dustin Poirier ) for third most knockdowns landed in UFC Lightweight division history (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most head kick knockouts in UFC and Zuffa, LLC history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most knockdowns in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (25)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2011: Ranked No. 4 Import of the Year , Ranked No. 9 Fighter of the Year & Ranked No. 6 Fight of the Year vs. Nate Diaz"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2012: Ranked No. 7 Knockout of the Year vs. Melvin Guillard"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2014: Ranked No. 4 Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2016: Ranked No. 9 Fighter of the Year , Ranked No. 8 Fight of the Year & Ranked No. 6 Knockout of the Year vs. Matt Brown"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2018: Ranked No. 10 Submission of the Year vs. Mike Perry"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2019: Ranked No. 9 Fight of the Year vs. Tony Ferguson"
+    },
+    {
+      "org": "World Extreme Cagefighting",
+      "texte": "Fight of the Night (Five times) vs. Rob McCullough , Jamie Varner (2), Benson Henderson , & Ed Ratcliff"
+    },
+    {
+      "org": "World Extreme Cagefighting",
+      "texte": "Most Fight of the Night awards in WEC history (5)"
+    },
+    {
+      "org": "Ring of Fire",
+      "texte": "Ring of Fire Lightweight Champion (one time; former)"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2018 Submission of the Year vs. Mike Perry at UFC Fight Night: The Korean Zombie vs. Rodríguez"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2009 Fight of the Year vs. Benson Henderson on October 10"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2014 #2 Ranked Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2014 January Knockout of the Month vs. Adriano Martins"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2014 July Knockout of the Month vs. Jim Miller"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2016 #5 Ranked Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2016 February Submission of the Month vs. Alex Oliveira"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2018 November Submission of the Month vs. Mike Perry"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2009 Fight of the Year vs. Benson Henderson on October 10"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2008 Round of the Year vs. Rob McCullough on November 5; Round 1"
+    },
+    {
+      "org": "Sports Illustrated",
+      "texte": "2009 Fight of the Year vs. Benson Henderson on October 10"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2011 Breakthrough Fighter of the Year"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2016 #2 Ranked UFC Fighter of the Year"
+    },
+    {
+      "org": "MMA HQ",
+      "texte": "2008 Fight of the Year vs. Rob McCullough at WEC 36"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2014 #3 Ranked Fighter of the Year"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Hall of Fame de l'UFC (2023)",
+      "Record de l'UFC : knockdowns (20)",
+      "Combat de l'année (2008, 2009)",
+      "Bonus UFC : 7× Performance de la soirée, 11× Combat de la soirée, 3× KO de la soirée, 2× Soumission de la soirée"
+    ],
+    "en": [
+      "UFC Hall of Fame (2023)",
+      "UFC record: most knockdowns (20)",
+      "Fight of the Year (2008, 2009)",
+      "UFC bonuses: 7× Performance of the Night, 11× Fight of the Night, 3× Knockout of the Night, 2× Submission of the Night"
+    ]
+  },
   "image_commons": "Donald \"Cowboy\" Cerrone.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Donald_Cerrone",

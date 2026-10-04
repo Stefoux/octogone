@@ -111,47 +111,207 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "NCAA Division I All-American out of University of Oregon (1998)",
-    "NCAA Division I 190 lb – 8th place out of University of Oregon (1998)",
-    "Pac-10 Conference 197 lb – 2nd place out of University of Oregon (1999)",
-    "Pac-10 Conference 197 lb – 2nd place out of University of Oregon (2001)",
-    "187.25 lb – 3rd place out of University of Oregon (1997)",
-    "187.25 lb – 2nd place out of University of Oregon (1998)",
-    "187.25 lb – 1st place out of University of Oregon (1999)",
-    "187.25 lb – 1st place out of University of Oregon (2000)",
-    "Awarded \"Most Outstanding Wrestler\" of 2000 tournament",
-    "World University Greco-Roman Championships 187.25 lb – 2nd place (2000)",
-    "187.25 lb – 2nd place (2000)",
-    "Senior National Greco-Roman Championships 187.25 lb – 4th place (2000)  185 lb – 4th place (2002)",
-    "187.25 lb – 4th place (2000)",
-    "185 lb – 4th place (2002)",
-    "2000 US Greco-Roman Olympic Team Trials 187.25 lb West Regional Champion  187.25 lb – 3rd place",
-    "187.25 lb West Regional Champion",
-    "187.25 lb – 3rd place",
-    "US Greco-Roman World Team Trials 211.75 lb – 4th place (2002)",
-    "211.75 lb – 4th place (2002)",
-    "Dave Schultz Memorial International Greco-Roman 187.25 lb – 1st place (2000)  213.75 lb – 1st place (2001)",
-    "187.25 lb – 1st place (2000)",
-    "213.75 lb – 1st place (2001)",
-    "187.25 lb – 5th place out of University of Oregon (1998)",
-    "187.25 lb – 3rd place out of University of Oregon (1999)",
-    "187.25 lb – 2nd place out of University of Oregon (2000)",
-    "Championship Belt Series Winner, University Level (2000)",
-    "UFC Hall of Fame ( Fight wing , Class of 2024) vs. Anderson Silva 1 at UFC 117",
-    "Fight of the Night (Two times) vs. Nate Marquardt and Anderson Silva 1",
-    "Submission of the Night (One time) vs. Maurício Rua",
-    "Most control time in UFC Middleweight division history (1:31:28)",
-    "Highest control time percentage in UFC Middleweight division history (74.4%)",
-    "Most top position time in UFC Middleweight division history (1:23:23)",
-    "Highest top position percentage in UFC Middleweight division history (67.8%)",
-    "Highest significant strike percentage in UFC Middleweight division history (67.7%)",
-    "Fewest strikes absorbed-per-minute in UFC Middleweight division history (1.12)",
-    "Fifth most takedowns landed in UFC Middleweight division history (35)",
-    "Sixth highest takedown percentage in UFC Middleweight division history (56.5%)",
-    "Most total strikes landed in a UFC Middleweight division fight (320) (vs Anderson Silva 1)",
-    "Most total ground strikes landed in a UFC Middleweight division fight (303) (vs Anderson Silva 1)",
-    "UFC.com Awards 2010: Fight of the Year vs. Anderson Silva 1  & ranked No. 9 Upset of the Year vs. Nate Marquardt  2012: ranked No. 8 Fight of the Year vs. Anderson Silva 2"
+    {
+      "org": "National Collegiate Athletic Association",
+      "texte": "NCAA Division I All-American out of University of Oregon (1998)"
+    },
+    {
+      "org": "National Collegiate Athletic Association",
+      "texte": "NCAA Division I 190 lb – 8th place out of University of Oregon (1998)"
+    },
+    {
+      "org": "National Collegiate Athletic Association",
+      "texte": "Pac-10 Conference 197 lb – 2nd place out of University of Oregon (1999)"
+    },
+    {
+      "org": "National Collegiate Athletic Association",
+      "texte": "Pac-10 Conference 197 lb – 2nd place out of University of Oregon (2001)"
+    },
+    {
+      "org": "University National Greco-Roman Championships",
+      "texte": "187.25 lb – 3rd place out of University of Oregon (1997)"
+    },
+    {
+      "org": "University National Greco-Roman Championships",
+      "texte": "187.25 lb – 2nd place out of University of Oregon (1998)"
+    },
+    {
+      "org": "University National Greco-Roman Championships",
+      "texte": "187.25 lb – 1st place out of University of Oregon (1999)"
+    },
+    {
+      "org": "University National Greco-Roman Championships",
+      "texte": "187.25 lb – 1st place out of University of Oregon (2000)"
+    },
+    {
+      "org": "University National Greco-Roman Championships",
+      "texte": "Awarded \"Most Outstanding Wrestler\" of 2000 tournament"
+    },
+    {
+      "org": "World University Greco-Roman Championships",
+      "texte": "187.25 lb – 2nd place (2000)"
+    },
+    {
+      "org": "Senior National Greco-Roman Championships",
+      "texte": "187.25 lb – 4th place (2000)"
+    },
+    {
+      "org": "Senior National Greco-Roman Championships",
+      "texte": "185 lb – 4th place (2002)"
+    },
+    {
+      "org": "2000 US Greco-Roman Olympic Team Trials",
+      "texte": "187.25 lb West Regional Champion"
+    },
+    {
+      "org": "2000 US Greco-Roman Olympic Team Trials",
+      "texte": "187.25 lb – 3rd place"
+    },
+    {
+      "org": "US Greco-Roman World Team Trials",
+      "texte": "211.75 lb – 4th place (2002)"
+    },
+    {
+      "org": "Dave Schultz Memorial International Greco-Roman",
+      "texte": "187.25 lb – 1st place (2000)"
+    },
+    {
+      "org": "Dave Schultz Memorial International Greco-Roman",
+      "texte": "213.75 lb – 1st place (2001)"
+    },
+    {
+      "org": "University National Freestyle Championships",
+      "texte": "187.25 lb – 5th place out of University of Oregon (1998)"
+    },
+    {
+      "org": "University National Freestyle Championships",
+      "texte": "187.25 lb – 3rd place out of University of Oregon (1999)"
+    },
+    {
+      "org": "University National Freestyle Championships",
+      "texte": "187.25 lb – 2nd place out of University of Oregon (2000)"
+    },
+    {
+      "org": null,
+      "texte": "Championship Belt Series Winner, University Level (2000)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame ( Fight wing , Class of 2024) vs. Anderson Silva 1 at UFC 117"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Two times) vs. Nate Marquardt and Anderson Silva 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Submission of the Night (One time) vs. Maurício Rua"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most control time in UFC Middleweight division history (1:31:28)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Highest control time percentage in UFC Middleweight division history (74.4%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most top position time in UFC Middleweight division history (1:23:23)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Highest top position percentage in UFC Middleweight division history (67.8%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Highest significant strike percentage in UFC Middleweight division history (67.7%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fewest strikes absorbed-per-minute in UFC Middleweight division history (1.12)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth most takedowns landed in UFC Middleweight division history (35)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Sixth highest takedown percentage in UFC Middleweight division history (56.5%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most total strikes landed in a UFC Middleweight division fight (320) (vs Anderson Silva 1)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most total ground strikes landed in a UFC Middleweight division fight (303) (vs Anderson Silva 1)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2010: Fight of the Year vs. Anderson Silva 1 & ranked No. 9 Upset of the Year vs. Nate Marquardt"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2012: ranked No. 8 Fight of the Year vs. Anderson Silva 2"
+    },
+    {
+      "org": "Bellator MMA",
+      "texte": "Bellator Heavyweight Grand Prix Semifinalist"
+    },
+    {
+      "org": "DangerZone",
+      "texte": "DangerZone Light Heavyweight Championship (One time)"
+    },
+    {
+      "org": "DangerZone",
+      "texte": "DangerZone Light Heavyweight Tournament Winner"
+    },
+    {
+      "org": "George Tragos/Lou Thesz Professional Wrestling Hall of Fame",
+      "texte": "George Tragos Award (2016)"
+    },
+    {
+      "org": "Gladiator Challenge",
+      "texte": "Gladiator Challenge Light Heavyweight Championship (One time)"
+    },
+    {
+      "org": "Hitman Fighting Productions",
+      "texte": "Hitman Light Heavyweight Championship (One time)"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2010 Fight of the Year vs. Anderson Silva at UFC 117"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2013 Personality of the Year"
+    },
+    {
+      "org": "Wrestling Observer Newsletter awards",
+      "texte": "Best on Interviews (2010)"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2010 Fight of the Year vs. Anderson Silva at UFC 117"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Hall of Fame de l'UFC, aile Combats (2024)",
+      "Combat de l'année (2010)",
+      "Bonus UFC : 2× Combat de la soirée, 1× Soumission de la soirée"
+    ],
+    "en": [
+      "UFC Hall of Fame, Fight Wing (2024)",
+      "Fight of the Year (2010)",
+      "UFC bonuses: 2× Fight of the Night, 1× Submission of the Night"
+    ]
+  },
   "image_commons": "Chael Sonnen - 2018.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Chael_Sonnen",

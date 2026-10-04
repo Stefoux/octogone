@@ -116,47 +116,171 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "UFC Heavyweight Championship (One time)",
-    "Interim UFC Heavyweight Championship (One time)",
-    "Submission of the Night (Two times) vs. Brock Lesnar and Antônio Rodrigo Nogueira",
-    "Performance of the Night (Two times) vs. Antônio Silva and Todd Duffee",
-    "Fight of the Night (One time) vs. Ian Freeman",
-    "Knockout of the Night (One time) vs. Wes Sims 2",
-    "Submission of the Night (Four times) vs. Roberto Traven , Pete Williams , Tank Abbott and Tim Sylvia",
-    "Third most wins in UFC Heavyweight division history (16)",
-    "Third most fights in UFC Heavyweight division history (27)",
-    "Second most finishes in UFC heavyweight division history (13)  Third most first-round finishes in UFC history (11) (behind Jim Miller & Vitor Belfort )",
-    "Third most first-round finishes in UFC history (11) (behind Jim Miller & Vitor Belfort )",
-    "Most submission attempts in UFC Heavyweight division history (21)",
-    "Most submissions per 15 minute average in UFC Heavyweight division history (2.02)",
-    "Fastest submission in UFC Heavyweight division (45 seconds)",
-    "Tied ( Gunnar Nelson & Islam Makhachev ) for eighth most submission wins in UFC history (8)",
-    "First and only toe hold finish in UFC history",
-    "Fought five different UFC Heavyweight Champions",
-    "Defeated three different UFC Heavyweight Champions",
-    "2008: Upset of the Year vs. Antônio Rodrigo Nogueira 1 ,  Ranked #5 Fighter of the Year  & Ranked #2 Submission of the Year vs. Brock Lesnar",
-    "2009: Ranked #3 Submission of the Year vs. Cheick Kongo",
-    "2011: Submission of the Year vs. Antônio Rodrigo Nogueira 2",
-    "FIGHT! Magazine 2008 Submission of the Year vs. Brock Lesnar on February 2",
-    "2008 Submission of the Year vs. Brock Lesnar on February 2",
-    "Sherdog 2008 Comeback Fighter of the Year  2011 Submission of the Year vs. Antônio Rodrigo Nogueira on December 10  2011 All-Violence Second Team  Mixed Martial Arts Hall of Fame",
-    "2008 Comeback Fighter of the Year",
-    "2011 Submission of the Year vs. Antônio Rodrigo Nogueira on December 10",
-    "2011 All-Violence Second Team",
-    "Mixed Martial Arts Hall of Fame",
-    "ESPN 2011 Submission of the Year vs. Antônio Rodrigo Nogueira on December 10",
-    "2011 Submission of the Year vs. Antônio Rodrigo Nogueira on December 10",
-    "World MMA Awards 2011 Submission of the Year vs. Antônio Rodrigo Nogueira at UFC 140  2011 Comeback of the Year vs. Antônio Rodrigo Nogueira at UFC 140",
-    "2011 Submission of the Year vs. Antônio Rodrigo Nogueira at UFC 140",
-    "2011 Comeback of the Year vs. Antônio Rodrigo Nogueira at UFC 140",
-    "Rear Naked News 2008 Comeback of the Year",
-    "2008 Comeback of the Year",
-    "MMA Fighting 2008 #6 Ranked UFC Submission of the Year vs. Brock Lesnar at UFC 81",
-    "2008 #6 Ranked UFC Submission of the Year vs. Brock Lesnar at UFC 81",
-    "Pan American Championships Blue Belt Pesadissimo: 1st place (2001)",
-    "Blue Belt Pesadissimo: 1st place (2001)",
-    "North American Grappling Association NAGA Absolute Division Champion (2007)"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Heavyweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Interim UFC Heavyweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Submission of the Night (Two times) vs. Brock Lesnar and Antônio Rodrigo Nogueira"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. Antônio Silva and Todd Duffee"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Encyclopedia Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Ian Freeman"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Knockout of the Night (One time) vs. Wes Sims 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Submission of the Night (Four times) vs. Roberto Traven , Pete Williams , Tank Abbott and Tim Sylvia"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most wins in UFC Heavyweight division history (16)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most fights in UFC Heavyweight division history (27)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most finishes in UFC heavyweight division history (13)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most first-round finishes in UFC history (11) (behind Jim Miller & Vitor Belfort )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most submissions in UFC Heavyweight division history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most submission attempts in UFC Heavyweight division history (21)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most submissions per 15 minute average in UFC Heavyweight division history (2.02)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fastest submission in UFC Heavyweight division (45 seconds)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Gunnar Nelson & Islam Makhachev ) for eighth most submission wins in UFC history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First and only toe hold finish in UFC history"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fought five different UFC Heavyweight Champions"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Defeated three different UFC Heavyweight Champions"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2008: Upset of the Year vs. Antônio Rodrigo Nogueira 1 , Ranked #5 Fighter of the Year & Ranked #2 Submission of the Year vs. Brock Lesnar"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2009: Ranked #3 Submission of the Year vs. Cheick Kongo"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2011: Submission of the Year vs. Antônio Rodrigo Nogueira 2"
+    },
+    {
+      "org": "FIGHT! Magazine",
+      "texte": "2008 Submission of the Year vs. Brock Lesnar on February 2"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2008 Comeback Fighter of the Year"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2011 Submission of the Year vs. Antônio Rodrigo Nogueira on December 10"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2011 All-Violence Second Team"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "Mixed Martial Arts Hall of Fame"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2011 Submission of the Year vs. Antônio Rodrigo Nogueira on December 10"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2011 Submission of the Year vs. Antônio Rodrigo Nogueira at UFC 140"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2011 Comeback of the Year vs. Antônio Rodrigo Nogueira at UFC 140"
+    },
+    {
+      "org": "Rear Naked News",
+      "texte": "2008 Comeback of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2008 #6 Ranked UFC Submission of the Year vs. Brock Lesnar at UFC 81"
+    },
+    {
+      "org": "Pan American Championships",
+      "texte": "Blue Belt Pesadissimo: 1st place (2001)"
+    },
+    {
+      "org": "North American Grappling Association",
+      "texte": "NAGA Absolute Division Champion (2007)"
+    },
+    {
+      "org": "Nevada State Wrestling",
+      "texte": "Nevada State Wrestling Champion (1998)"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids lourds",
+      "Record UFC chez les poids lourds : victoires par soumission (8)",
+      "Record UFC chez les poids lourds : tentatives de soumission (21)",
+      "Soumission de l'année (2008, 2011)",
+      "Bonus UFC : 2× Performance de la soirée, 1× Combat de la soirée, 1× KO de la soirée, 4× Soumission de la soirée"
+    ],
+    "en": [
+      "UFC Heavyweight Champion",
+      "UFC Heavyweight record: most submission wins (8)",
+      "UFC Heavyweight record: most submission attempts (21)",
+      "Submission of the Year (2008, 2011)",
+      "UFC bonuses: 2× Performance of the Night, 1× Fight of the Night, 1× Knockout of the Night, 4× Submission of the Night"
+    ]
+  },
   "image_commons": "Frank Mir.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Frank_Mir",

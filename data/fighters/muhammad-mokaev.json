@@ -99,22 +99,67 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Performance of the Night (Two times) vs. Cody Durden and Tim Elliott",
-    "Tied ( Joshua Van ) for third longest win streak in UFC Flyweight division history (7)",
-    "Tied ( Brandon Royval ) for third most submissions in UFC Flyweight division history (4)",
-    "Third highest control time percentage in UFC Flyweight division history (51.8%)",
-    "Fifth highest top-position percentage in UFC Flyweight division history (37.9%)",
-    "Third fewest strikes absorbed-per-minute in UFC Flyweight division history (1.35)",
-    "UFC Honors Awards 2022: Fan's Choice Debut of the Year Nominee vs. Cody Durden",
-    "2022: Fan's Choice Debut of the Year Nominee vs. Cody Durden",
-    "UFC.com Awards 2022: Ranked #3 Newcomer of the Year",
-    "2022: Ranked #3 Newcomer of the Year",
-    "LowKick MMA 2021 #3 Ranked Prospect of the Year",
-    "2021 #3 Ranked Prospect of the Year",
-    "MMA Fighting 2022 Third Team MMA All-Star  2023 Third Team MMA All-Star",
-    "2022 Third Team MMA All-Star",
-    "2023 Third Team MMA All-Star"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. Cody Durden and Tim Elliott"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Joshua Van ) for third longest win streak in UFC Flyweight division history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Brandon Royval ) for third most submissions in UFC Flyweight division history (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third highest control time percentage in UFC Flyweight division history (51.8%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth highest top-position percentage in UFC Flyweight division history (37.9%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third fewest strikes absorbed-per-minute in UFC Flyweight division history (1.35)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Fan's Choice Debut of the Year Nominee vs. Cody Durden"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Ranked #3 Newcomer of the Year"
+    },
+    {
+      "org": "LowKick MMA",
+      "texte": "2021 #3 Ranked Prospect of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2022 Third Team MMA All-Star"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2023 Third Team MMA All-Star"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 2× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 2× Performance of the Night"
+    ]
+  },
   "image_commons": "Возвращение на родину Мухаммад Мокаев ЛЮДИ СПОРТА 1-20.png",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Muhammad_Mokaev",

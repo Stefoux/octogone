@@ -127,16 +127,43 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Fight of the Night (Five times) vs. Shane Burgos , Zabit Magomedsharipov , Max Holloway , Giga Chikadze and Josh Emmett",
-    "UFC.com Awards 2018: Ranked #8 Fight of the Year vs. Shane Burgos  2020: Ranked #9 Knockout of the Year vs. Jeremy Stephens  2022: Ranked #8 Fight of the Year vs. Giga Chikadze",
-    "2018: Ranked #8 Fight of the Year vs. Shane Burgos",
-    "2020: Ranked #9 Knockout of the Year vs. Jeremy Stephens",
-    "2022: Ranked #8 Fight of the Year vs. Giga Chikadze",
-    "MMA Junkie 2020 May Knockout of the Month vs. Jeremy Stephens",
-    "2020 May Knockout of the Month vs. Jeremy Stephens",
-    "Slacky Awards 2022 Gameplan of the Year vs. Giga Chikadze at UFC on ESPN: Kattar vs. Chikadze",
-    "2022 Gameplan of the Year vs. Giga Chikadze at UFC on ESPN: Kattar vs. Chikadze"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Five times) vs. Shane Burgos , Zabit Magomedsharipov , Max Holloway , Giga Chikadze and Josh Emmett"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2018: Ranked #8 Fight of the Year vs. Shane Burgos"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Ranked #9 Knockout of the Year vs. Jeremy Stephens"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Ranked #8 Fight of the Year vs. Giga Chikadze"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2020 May Knockout of the Month vs. Jeremy Stephens"
+    },
+    {
+      "org": "Slacky Awards",
+      "texte": "2022 Gameplan of the Year vs. Giga Chikadze at UFC on ESPN: Kattar vs. Chikadze"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 5× Combat de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 5× Fight of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Calvin_Kattar",

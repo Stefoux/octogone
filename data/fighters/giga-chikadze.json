@@ -108,15 +108,43 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Performance of the Night (Three times) vs. Jamey Simmons, Cub Swanson and Edson Barboza",
-    "Fight of the Night (One time) vs. Calvin Kattar",
-    "2022 Forrest Griffin Community Award",
-    "UFC.com Awards 2022: Ranked #8 Fight of the Year vs. Calvin Kattar",
-    "2022: Ranked #8 Fight of the Year vs. Calvin Kattar",
-    "MMA Junkie 2020 Under-the-Radar Fighter of the Year  2021 Breakout Fighter of the Year",
-    "2020 Under-the-Radar Fighter of the Year",
-    "2021 Breakout Fighter of the Year"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Three times) vs. Jamey Simmons, Cub Swanson and Edson Barboza"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Calvin Kattar"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022 Forrest Griffin Community Award"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Ranked #8 Fight of the Year vs. Calvin Kattar"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2020 Under-the-Radar Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2021 Breakout Fighter of the Year"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 3× Performance de la soirée, 1× Combat de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 3× Performance of the Night, 1× Fight of the Night"
+    ]
+  },
   "image_commons": "Giga Chikadze post fight interview at UFC Fight Night 160 in Copenhagen.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Giga_Chikadze",

@@ -105,30 +105,67 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Ultimate Fighting Championship Performance of the Night (Three times) vs. Jimi Manuwa , Ilir Latifi and Johnny Walker    UFC.com Awards 2017: Newcomer of the Year  & Ranked #6 Fighter of the Year",
-    "Performance of the Night (Three times) vs. Jimi Manuwa , Ilir Latifi and Johnny Walker",
-    "UFC.com Awards 2017: Newcomer of the Year  & Ranked #6 Fighter of the Year",
-    "2017: Newcomer of the Year  & Ranked #6 Fighter of the Year",
-    "World Kickboxing Network Valhalla: Battle of the Vikings Tournament Winner",
-    "Valhalla: Battle of the Vikings Tournament Winner",
-    "MMA Mania 2017 #5 Ranked Fighter of the Year",
-    "2017 #5 Ranked Fighter of the Year",
-    "Sherdog 2017 Breakthrough Fighter of the Year",
-    "2017 Breakthrough Fighter of the Year",
-    "MMA Junkie 2017 Breakout Fighter of the Year",
-    "2017 Breakout Fighter of the Year",
-    "Bloody Elbow 2017 Newcomer of the Year",
-    "2017 Newcomer of the Year",
-    "MMA Sucka 2017 Best UFC Breakout Star",
-    "2017 Best UFC Breakout Star",
-    "Fight Matrix 2017 Most Improved Fighter of the Year  2017 Most Lopsided Upset of the Year vs. Ovince Saint Preux at UFC Fight Night 104",
-    "2017 Most Improved Fighter of the Year",
-    "2017 Most Lopsided Upset of the Year vs. Ovince Saint Preux at UFC Fight Night 104",
-    "CBS Sports 2017 #4 Ranked UFC Knockout of the Year vs. Jimi Manuwa",
-    "2017 #4 Ranked UFC Knockout of the Year vs. Jimi Manuwa",
-    "Combat Press 2017 Breakout Fighter of the Year",
-    "2017 Breakout Fighter of the Year"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Three times) vs. Jimi Manuwa , Ilir Latifi and Johnny Walker"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2017: Newcomer of the Year & Ranked #6 Fighter of the Year"
+    },
+    {
+      "org": "World Kickboxing Network",
+      "texte": "Valhalla: Battle of the Vikings Tournament Winner"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2017 #5 Ranked Fighter of the Year"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2017 Breakthrough Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2017 Breakout Fighter of the Year"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2017 Newcomer of the Year"
+    },
+    {
+      "org": "MMA Sucka",
+      "texte": "2017 Best UFC Breakout Star"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2017 Most Improved Fighter of the Year"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2017 Most Lopsided Upset of the Year vs. Ovince Saint Preux at UFC Fight Night 104"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2017 #4 Ranked UFC Knockout of the Year vs. Jimi Manuwa"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2017 Breakout Fighter of the Year"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 3× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 3× Performance of the Night"
+    ]
+  },
   "image_commons": "Volkan Oezdemir at UFC Fight Night 153 in Stockholm, Sweden.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Volkan_Oezdemir",

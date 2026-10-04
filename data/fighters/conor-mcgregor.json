@@ -127,47 +127,375 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "UFC Lightweight Championship (One time)",
-    "UFC Featherweight Championship (One time)",
-    "Interim UFC Featherweight Championship (One time)",
-    "Fight of the Night (Two times) vs. Nate Diaz (x2)",
-    "Knockout of the Night (One time) vs. Marcus Brimage  Greatest Knockout in UFC's first 25 Years vs. José Aldo",
-    "Greatest Knockout in UFC's first 25 Years vs. José Aldo",
-    "Tied ( Donald Cerrone , Ovince Saint Preux , Tom Aspinall , Carlos Prates & Song Yadong ) for fourth most Performance of the Night awards in UFC history (7)",
-    "Most consecutive Performance of the Night awards in UFC history (5)",
-    "Most consecutive post-fight bonuses in UFC history (8)",
-    "First Irish-born UFC champion",
-    "Third Multi-Divisional Champion in UFC History (Featherweight, Lightweight)",
-    "First simultaneous multi-divisional champion in UFC history (Featherweight, Lightweight)",
-    "Fastest win in a UFC Championship fight (13 seconds) vs. José Aldo",
-    "Fastest finish in a UFC Championship fight (13 seconds) vs. José Aldo",
-    "Most knockdowns-per-fifteen minutes in UFC Featherweight division history (2.31)",
-    "Tied ( Chad Mendes & Choi Doo-ho ) for third most knockouts in UFC Featherweight division history (6)",
-    "One of five fighters ( Jared Cannonier , Vitor Belfort , Robert Whittaker & Max Holloway ) to have knockout victories in three different weight classes",
-    "Tied for fourth most consecutive knockouts in UFC history (5)",
-    "Holds wins over four former UFC champions (3 undisputed) — vs. Max Holloway 1, José Aldo , Eddie Alvarez and Dustin Poirier (interim)",
-    "2013: Ranked #2 Newcomer of the Year",
-    "2015: Fighter of the Year  & Ranked #2 Knockout of the Year vs. José Aldo",
-    "2016: Ranked #3 Fighter of the Year  & Ranked #2 Fight of the Year vs. Nate Diaz 2",
-    "Cage Warriors Fighting Championship CWFC Featherweight Championship (One time) CWFC Lightweight Championship (One time)",
-    "CWFC Featherweight Championship (One time)",
-    "CWFC Lightweight Championship (One time)",
-    "BJPenn.com 2010s Fighter of the Decade",
-    "2010s Fighter of the Decade",
-    "2015 Fighter of the Year",
-    "2016 Fighter of the Year",
-    "2016 Fight of the Year vs. Nate Diaz at UFC 202",
-    "2017 Story of the Year: Conor Goes Boxing",
-    "2018 Story of the Year: Conor McGregor Attacks a Bus and Its Occupants",
-    "ESPN 2015 Fighter of the Year",
-    "2015 Fighter of the Year",
-    "ESPYs 2016 Best Fighter",
-    "2016 Best Fighter",
-    "Sports Illustrated 2016 Fighter of the Year",
-    "2016 Fighter of the Year",
-    "Fight Matrix 2015 Male Fighter of the Year  2020 Comeback Fighter of the Year  Lineal Featherweight Championship (one time)",
-    "2015 Male Fighter of the Year"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Lightweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Featherweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Interim UFC Featherweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Two times) vs. Nate Diaz (x2)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Knockout of the Night (One time) vs. Marcus Brimage"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Greatest Knockout in UFC's first 25 Years vs. José Aldo"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Seven times) vs. Diego Brandão , Dustin Poirier , Dennis Siver , Chad Mendes , José Aldo , Eddie Alvarez and Donald Cerrone"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Donald Cerrone , Ovince Saint Preux , Tom Aspinall , Carlos Prates & Song Yadong ) for fourth most Performance of the Night awards in UFC history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most consecutive Performance of the Night awards in UFC history (5)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most consecutive post-fight bonuses in UFC history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First Irish-born UFC champion"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third Multi-Divisional Champion in UFC History (Featherweight, Lightweight)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First simultaneous multi-divisional champion in UFC history (Featherweight, Lightweight)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fastest win in a UFC Championship fight (13 seconds) vs. José Aldo"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fastest finish in a UFC Championship fight (13 seconds) vs. José Aldo"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most knockdowns-per-fifteen minutes in UFC Featherweight division history (2.31)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Chad Mendes & Choi Doo-ho ) for third most knockouts in UFC Featherweight division history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "One of five fighters ( Jared Cannonier , Vitor Belfort , Robert Whittaker & Max Holloway ) to have knockout victories in three different weight classes"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied for fourth most consecutive knockouts in UFC history (5)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Holds wins over four former UFC champions (3 undisputed) — vs. Max Holloway 1, José Aldo , Eddie Alvarez and Dustin Poirier (interim)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2013: Ranked #2 Newcomer of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2015: Fighter of the Year & Ranked #2 Knockout of the Year vs. José Aldo"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2016: Ranked #3 Fighter of the Year & Ranked #2 Fight of the Year vs. Nate Diaz 2"
+    },
+    {
+      "org": "Cage Warriors Fighting Championship",
+      "texte": "CWFC Featherweight Championship (One time)"
+    },
+    {
+      "org": "Cage Warriors Fighting Championship",
+      "texte": "CWFC Lightweight Championship (One time)"
+    },
+    {
+      "org": "BJPenn.com",
+      "texte": "2010s Fighter of the Decade"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2015 Fighter of the Year"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2016 Fighter of the Year"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2016 Fight of the Year vs. Nate Diaz at UFC 202"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2017 Story of the Year: Conor Goes Boxing"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2018 Story of the Year: Conor McGregor Attacks a Bus and Its Occupants"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2015 Fighter of the Year"
+    },
+    {
+      "org": "ESPYs",
+      "texte": "2016 Best Fighter"
+    },
+    {
+      "org": "Sports Illustrated",
+      "texte": "2016 Fighter of the Year"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2015 Male Fighter of the Year"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2020 Comeback Fighter of the Year"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "Lineal Featherweight Championship (one time)"
+    },
+    {
+      "org": "Fox Sports",
+      "texte": "2015 Fighter of the Year"
+    },
+    {
+      "org": "Fox Sports",
+      "texte": "2016 Fight of the Year vs. Nate Diaz at UFC 202"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2015 Event of the Year headlined at UFC 189"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2015 Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2010s #5 Ranked Fighter of the Decade"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2015 Male Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2015 #2 Ranked Knockout of the Year vs. José Aldo at UFC 194"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2015 December Knockout of the Month vs. José Aldo"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2016 #2 Ranked Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2016 #3 Ranked Fight of the Year vs. Nate Diaz 2 at UFC 202"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2016 #5 Ranked Fight of the Year vs. Nate Diaz at UFC 196"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2016 March Fight of the Month vs. Nate Diaz"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2016 August Fight of the Month vs. Nate Diaz"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2010s #5 Ranked Fighter of the Decade"
+    },
+    {
+      "org": "MMA Insider",
+      "texte": "2013 Best UFC Newcomer"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2015 Event of the Year headlined at UFC 189"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2015 Fighter of the Year"
+    },
+    {
+      "org": "RTÉ Sport",
+      "texte": "2016 RTÉ Sports Person of the Year"
+    },
+    {
+      "org": "Rolling Stone",
+      "texte": "25 Hottest Sex Symbols of 2015 inclusion"
+    },
+    {
+      "org": "Severe MMA",
+      "texte": "2014 Irish Pro Fighter of the Year"
+    },
+    {
+      "org": "Severe MMA",
+      "texte": "2015 Irish Pro Fighter of the Year"
+    },
+    {
+      "org": "Severe MMA",
+      "texte": "2015 Fighter of the Year"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2014 Breakthrough Fighter of the Year"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2015 Event of the Year headlined at UFC 194"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2015 Knockout of the Year vs. José Aldo"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2015 Fighter of the Year"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2016 Fighter of the Year"
+    },
+    {
+      "org": "The MMA Community",
+      "texte": "2015 Male Fighter of the Year"
+    },
+    {
+      "org": "Time",
+      "texte": "2017 Top 100 Most Influential People inclusion"
+    },
+    {
+      "org": "VIP Style Awards",
+      "texte": "2014 Ireland's Most Stylish Man"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2014 International Fighter of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2015 International Fighter of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2015 Fighter of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2016 Fighter of the Year"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "2016, 2017, 2018, 2020 and 2021 Best Box Office Draw"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "2015, 2016 and 2017 Best on Interviews"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "2015 Feud of the Year vs. José Aldo"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "2016 Feud of the Year vs. Nate Diaz"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "2016 and 2018 Mixed Martial Arts Most Valuable"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "2016 Most Charismatic"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "2015 and 2016 Most Outstanding Fighter of the Year"
+    },
+    {
+      "org": "Yahoo Sports",
+      "texte": "2015 Fighter of the Year"
+    },
+    {
+      "org": "Yahoo Sports",
+      "texte": "2016 Fight of the Year vs. Nate Diaz 2 at UFC 202"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2016 #3 Ranked UFC Fighter of the Year"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2016 #2 Ranked UFC Fight of the Year vs. Nate Diaz at UFC 202"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2016 #6 Ranked UFC Fight of the Year vs. Nate Diaz at UFC 196"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2014 Breakout Fighter of the Year"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2015 Fighter of the Year"
+    },
+    {
+      "org": "MMA Weekly",
+      "texte": "2015 Fighter of the Year"
+    },
+    {
+      "org": null,
+      "texte": "Key to the City of Miami : 28 September 2021"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids légers",
+      "Champion UFC des poids plume",
+      "Combattant de l'année (2015, 2016)",
+      "Combat de l'année (2016)",
+      "Bonus UFC : 7× Performance de la soirée, 2× Combat de la soirée, 1× KO de la soirée"
+    ],
+    "en": [
+      "UFC Lightweight Champion",
+      "UFC Featherweight Champion",
+      "Fighter of the Year (2015, 2016)",
+      "Fight of the Year (2016)",
+      "UFC bonuses: 7× Performance of the Night, 2× Fight of the Night, 1× Knockout of the Night"
+    ]
+  },
   "image_commons": "Conor McGregor, UFC 189 World Tour London (2).jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Conor_McGregor",

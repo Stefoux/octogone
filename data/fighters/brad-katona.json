@@ -104,16 +104,49 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "The Ultimate Fighter 27 Featherweight Tournament Winner",
-    "The Ultimate Fighter 31 Bantamweight Tournament Winner First and only 2-time winner of The Ultimate Fighter",
-    "First and only 2-time winner of The Ultimate Fighter",
-    "Fight of the Night (One time) vs. Cody Gibson",
-    "UFC.com Awards 2018: Ranked #6 Newcomer of the Year",
-    "2018: Ranked #6 Newcomer of the Year",
-    "Brave Combat Federation BRAVE CF Bantamweight Championship (One time) One successful title defense",
-    "BRAVE CF Bantamweight Championship (One time) One successful title defense",
-    "One successful title defense"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "The Ultimate Fighter 27 Featherweight Tournament Winner"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "The Ultimate Fighter 31 Bantamweight Tournament Winner"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First and only 2-time winner of The Ultimate Fighter"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Cody Gibson"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2018: Ranked #6 Newcomer of the Year"
+    },
+    {
+      "org": "Brave Combat Federation",
+      "texte": "BRAVE CF Bantamweight Championship (One time)"
+    },
+    {
+      "org": "Brave Combat Federation",
+      "texte": "One successful title defense"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Vainqueur de The Ultimate Fighter 27",
+      "Bonus UFC : 1× Combat de la soirée"
+    ],
+    "en": [
+      "The Ultimate Fighter 27 winner",
+      "UFC bonuses: 1× Fight of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Brad_Katona",

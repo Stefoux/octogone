@@ -98,23 +98,59 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Performance of the Night (Three times) vs. Neil Magny , Gilbert Burns and Sean Brady",
-    "UFC Honors Awards 2025: President's Choice Performance of the Year Nominee vs. Sean Brady",
-    "2025: President's Choice Performance of the Year Nominee vs. Sean Brady",
-    "UFC.com Awards 2022: Ranked #8 Newcomer of the Year",
-    "2022: Ranked #8 Newcomer of the Year",
-    "Oro Fighting Championship OFC Welterweight Champion (One time)",
-    "OFC Welterweight Champion (One time)",
-    "Extreme MMA Extreme MMA Welterweight Champion (One time)",
-    "Extreme MMA Welterweight Champion (One time)",
-    "Sportsnaut 2025 UFC Fighter of the Year",
-    "2025 UFC Fighter of the Year",
-    "MMA Fighting 2025 First Team MMA All-Star",
-    "2025 First Team MMA All-Star",
-    "Uncrowned 2025 #5 Ranked Male Fighter of the Year  2025 #2 Ranked Breakthrough Fighter of the Year",
-    "2025 #5 Ranked Male Fighter of the Year",
-    "2025 #2 Ranked Breakthrough Fighter of the Year"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Three times) vs. Neil Magny , Gilbert Burns and Sean Brady"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2025: President's Choice Performance of the Year Nominee vs. Sean Brady"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Ranked #8 Newcomer of the Year"
+    },
+    {
+      "org": "Oro Fighting Championship",
+      "texte": "OFC Welterweight Champion (One time)"
+    },
+    {
+      "org": "Extreme MMA",
+      "texte": "Extreme MMA Welterweight Champion (One time)"
+    },
+    {
+      "org": "Sportsnaut",
+      "texte": "2025 UFC Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2025 First Team MMA All-Star"
+    },
+    {
+      "org": "Uncrowned",
+      "texte": "2025 #5 Ranked Male Fighter of the Year"
+    },
+    {
+      "org": "Uncrowned",
+      "texte": "2025 #2 Ranked Breakthrough Fighter of the Year"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 3× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 3× Performance of the Night"
+    ]
+  },
   "image_commons": "Michael Morales. QUITO, 27 DE MAYO DEL 2025 (cropped).jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Michael_Morales_(fighter)",

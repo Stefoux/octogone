@@ -113,25 +113,73 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Performance of the Night (Two times) vs. Garreth McLellan and Uriah Hall",
-    "Fight of the Night (Two times) vs. Yoel Romero & Luke Rockhold",
-    "Second most significant strikes landed-per-minute in UFC Middleweight division history (6.21)",
-    "UFC Honors Awards 2019: President's Choice Fight of the Year Nominee vs. Yoel Romero",
-    "2019: President's Choice Fight of the Year Nominee vs. Yoel Romero",
-    "UFC.com Awards 2017: Ranked #7 Newcomer of the Year  2019: Ranked #3 Fight of the Year vs. Yoel Romero",
-    "2017: Ranked #7 Newcomer of the Year",
-    "2019: Ranked #3 Fight of the Year vs. Yoel Romero",
-    "Jungle Fight Jungle Fight Middleweight Championship (One time) One successful title defense",
-    "Jungle Fight Middleweight Championship (One time) One successful title defense",
-    "One successful title defense",
-    "MMA Junkie 2019 August Fight of the Month vs. Yoel Romero  2024 February Fight of the Month vs. Robert Whittaker",
-    "2019 August Fight of the Month vs. Yoel Romero",
-    "2024 February Fight of the Month vs. Robert Whittaker",
-    "Sherdog 2019 Round of the Year vs. Yoel Romero (round 1)",
-    "2019 Round of the Year vs. Yoel Romero (round 1)",
-    "ESPN 2020 Rivalry of the Year vs. Israel Adesanya",
-    "2020 Rivalry of the Year vs. Israel Adesanya"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. Garreth McLellan and Uriah Hall"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Two times) vs. Yoel Romero & Luke Rockhold"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most significant strikes landed-per-minute in UFC Middleweight division history (6.21)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2019: President's Choice Fight of the Year Nominee vs. Yoel Romero"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2017: Ranked #7 Newcomer of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2019: Ranked #3 Fight of the Year vs. Yoel Romero"
+    },
+    {
+      "org": "Jungle Fight",
+      "texte": "Jungle Fight Middleweight Championship (One time)"
+    },
+    {
+      "org": "Jungle Fight",
+      "texte": "One successful title defense"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2019 August Fight of the Month vs. Yoel Romero"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2024 February Fight of the Month vs. Robert Whittaker"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2019 Round of the Year vs. Yoel Romero (round 1)"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2020 Rivalry of the Year vs. Israel Adesanya"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion Jungle Fight des poids moyens",
+      "Bonus UFC : 2× Performance de la soirée, 2× Combat de la soirée"
+    ],
+    "en": [
+      "Jungle Fight Middleweight Champion",
+      "UFC bonuses: 2× Performance of the Night, 2× Fight of the Night"
+    ]
+  },
   "image_commons": "Borrachinha galo.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Paulo_Costa",

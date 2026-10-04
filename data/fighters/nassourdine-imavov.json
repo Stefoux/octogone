@@ -108,15 +108,31 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Ultimate Fighting Championship Performance of the Night (One time) vs. Israel Adesanya",
-    "Performance of the Night (One time) vs. Israel Adesanya",
-    "MMA Mania 2025 Fighter of the Year - Honorable Mention",
-    "2025 Fighter of the Year - Honorable Mention",
-    "Fight Exclusive Night Fight of the Night (One time) vs. Michał Michalski",
-    "Fight of the Night (One time) vs. Michał Michalski",
-    "Thunderstrike Fight League TFL Welterweight Championship (One time; former)",
-    "TFL Welterweight Championship (One time; former)"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Israel Adesanya"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2025 Fighter of the Year - Honorable Mention"
+    },
+    {
+      "org": "Fight Exclusive Night",
+      "texte": "Fight of the Night (One time) vs. Michał Michalski"
+    },
+    {
+      "org": "Thunderstrike Fight League",
+      "texte": "TFL Welterweight Championship (One time; former)"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 1× Performance de la soirée, 1× Combat de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 1× Performance of the Night, 1× Fight of the Night"
+    ]
+  },
   "image_commons": "Nassourdine Imavov.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Nassourdine_Imavov",

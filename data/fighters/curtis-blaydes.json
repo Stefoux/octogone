@@ -110,27 +110,101 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Fight of the Night (One time) vs. Josh Hokit",
-    "Performance of the Night (Four times) vs. Cody East, Alistair Overeem , Chris Daukaus and Jailton Almeida",
-    "Most takedowns landed in UFC Heavyweight division history (70)",
-    "Most control time in UFC Heavyweight division history (1:31:19)",
-    "Most top position time in UFC Heavyweight division history (1:08:36)",
-    "Tied ( Junior dos Santos ) for fourth most wins in UFC Heavyweight division history (14)",
-    "UFC Heavyweight Bout Records",
-    "Second most takedowns attempted (25) (vs. Alexander Volkov )",
-    "Tied ( Jake O'Brien ) for third most takedowns landed (10) (vs. Mark Hunt )",
-    "Highest takedown accuracy percentage (80%) (vs. Adam Milstead . Min. 10 takedown attempts)",
-    "Fourth highest takedown accuracy percentage (71.4%) (vs. Mark Hunt . Min. 10 takedown attempts)",
-    "Third most significant strikes landed in any UFC Heavyweight bout (174) (vs. Josh Hokit )",
-    "Third most significant strikes attempted (302) (vs. Josh Hokit )",
-    "Third most significant clinch strikes landed (60) (vs. Josh Hokit )",
-    "Fourth most significant head strikes landed (151) (vs. Josh Hokit )",
-    "Third most total strikes attempted (60) (vs. Josh Hokit )",
-    "Fifth most total head strikes landed (180) (vs. Josh Hokit )",
-    "National Junior College Athletic Association NJCAA Heavyweight National Championship out of Harper College (2012)  NJCAA All-American out of Harper College (2012)",
-    "NJCAA Heavyweight National Championship out of Harper College (2012)",
-    "NJCAA All-American out of Harper College (2012)"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Josh Hokit"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Four times) vs. Cody East, Alistair Overeem , Chris Daukaus and Jailton Almeida"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most takedowns landed in UFC Heavyweight division history (70)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most control time in UFC Heavyweight division history (1:31:19)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most top position time in UFC Heavyweight division history (1:08:36)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Junior dos Santos ) for fourth most wins in UFC Heavyweight division history (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Heavyweight Bout Records"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most takedowns landed (14) (vs. Alexander Volkov )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most takedowns attempted (25) (vs. Alexander Volkov )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Jake O'Brien ) for third most takedowns landed (10) (vs. Mark Hunt )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Highest takedown accuracy percentage (80%) (vs. Adam Milstead . Min. 10 takedown attempts)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth highest takedown accuracy percentage (71.4%) (vs. Mark Hunt . Min. 10 takedown attempts)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most significant strikes landed in a three-round bout (174) (vs. Josh Hokit )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most significant strikes landed in any UFC Heavyweight bout (174) (vs. Josh Hokit )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most significant strikes attempted (302) (vs. Josh Hokit )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most significant clinch strikes landed (60) (vs. Josh Hokit )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most significant head strikes landed (151) (vs. Josh Hokit )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most total strikes attempted (60) (vs. Josh Hokit )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth most total head strikes landed (180) (vs. Josh Hokit )"
+    },
+    {
+      "org": "National Junior College Athletic Association",
+      "texte": "NJCAA Heavyweight National Championship out of Harper College (2012)"
+    },
+    {
+      "org": "National Junior College Athletic Association",
+      "texte": "NJCAA All-American out of Harper College (2012)"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Record UFC chez les poids lourds : takedowns réussis (70)",
+      "Bonus UFC : 4× Performance de la soirée, 1× Combat de la soirée"
+    ],
+    "en": [
+      "UFC Heavyweight record: most takedowns landed (70)",
+      "UFC bonuses: 4× Performance of the Night, 1× Fight of the Night"
+    ]
+  },
   "image_commons": "Curtis Blaydes at UFC 221.png",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Curtis_Blaydes",

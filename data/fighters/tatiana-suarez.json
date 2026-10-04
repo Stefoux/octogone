@@ -100,33 +100,109 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "World Wrestling Championships 2008 bronze medalist, 55 kg  2010 bronze medalist, 55 kg",
-    "2008 bronze medalist, 55 kg",
-    "2010 bronze medalist, 55 kg",
-    "World Junior Wrestling Championships 2007 silver medalist, 59 kg  2008 bronze medalist, 59 kg",
-    "2007 silver medalist, 59 kg",
-    "2008 bronze medalist, 59 kg",
-    "World Cup - 2010 silver medalist, 55 kg",
-    "Pan American Wrestling Championships - 2008 gold medalist, 59 kg",
-    "The Ultimate Fighter: Team Joanna vs. Team Cláudia Strawweight winner",
-    "Performance of the Night (Three times) vs. Amanda Cooper , Montana De La Rosa , and Jéssica Andrade",
-    "Tied ( Amanda Lemos , Mackenzie Dern & Rose Namajunas ) for second most finishes in UFC Women's Strawweight division history (5)",
-    "Second most submissions in UFC Women's Strawweight division history (4) (behind Mackenzie Dern )",
-    "Tied ( Carla Esparza , Yan Xiaonan & Loopy Godinez ) for the second longest win streak in UFC Women's Strawweight division history (6)",
-    "Highest significant strike accuracy percentage in UFC Women's Strawweight division history (59.7%)",
-    "Fewest strikes absorbed-per-minute in UFC Women's Strawweight division history (1.7)",
-    "Highest control time percentage in UFC Women's Strawweight division history (58.6%)  Fourth most control time in UFC Women's Strawweight division history (1:01:28)",
-    "Fourth most control time in UFC Women's Strawweight division history (1:01:28)",
-    "Second highest top position percentage in UFC Women's Strawweight division history (43.1%)  Fourth most top position time in UFC Women's Strawweight division history (45:12)",
-    "Fourth most top position time in UFC Women's Strawweight division history (45:12)",
-    "Fifth most takedowns landed in UFC Women's Strawweight division history (32)",
-    "Gladiator Challenge Gladiator Challenge Flyweight Champion (one time)",
-    "Gladiator Challenge Flyweight Champion (one time)",
-    "MMA Fighting 2023 First Team MMA All-Star",
-    "2023 First Team MMA All-Star",
-    "GiveMeSport 2023 UFC Comeback Fighter of the Year",
-    "2023 UFC Comeback Fighter of the Year"
+    {
+      "org": "United World Wrestling (FILA)",
+      "texte": "World Wrestling Championships"
+    },
+    {
+      "org": "United World Wrestling (FILA)",
+      "texte": "2008 bronze medalist, 55 kg"
+    },
+    {
+      "org": "United World Wrestling (FILA)",
+      "texte": "2010 bronze medalist, 55 kg"
+    },
+    {
+      "org": "United World Wrestling (FILA)",
+      "texte": "World Junior Wrestling Championships"
+    },
+    {
+      "org": "United World Wrestling (FILA)",
+      "texte": "2007 silver medalist, 59 kg"
+    },
+    {
+      "org": "United World Wrestling (FILA)",
+      "texte": "2008 bronze medalist, 59 kg"
+    },
+    {
+      "org": "United World Wrestling (FILA)",
+      "texte": "World Cup - 2010 silver medalist, 55 kg"
+    },
+    {
+      "org": "United World Wrestling (FILA)",
+      "texte": "Pan American Wrestling Championships - 2008 gold medalist, 59 kg"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "The Ultimate Fighter: Team Joanna vs. Team Cláudia Strawweight winner"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Three times) vs. Amanda Cooper , Montana De La Rosa , and Jéssica Andrade"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Amanda Lemos , Mackenzie Dern & Rose Namajunas ) for second most finishes in UFC Women's Strawweight division history (5)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most submissions in UFC Women's Strawweight division history (4) (behind Mackenzie Dern )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Carla Esparza , Yan Xiaonan & Loopy Godinez ) for the second longest win streak in UFC Women's Strawweight division history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Highest significant strike accuracy percentage in UFC Women's Strawweight division history (59.7%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fewest strikes absorbed-per-minute in UFC Women's Strawweight division history (1.7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Highest control time percentage in UFC Women's Strawweight division history (58.6%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most control time in UFC Women's Strawweight division history (1:01:28)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second highest top position percentage in UFC Women's Strawweight division history (43.1%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most top position time in UFC Women's Strawweight division history (45:12)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth most takedowns landed in UFC Women's Strawweight division history (32)"
+    },
+    {
+      "org": "Gladiator Challenge",
+      "texte": "Gladiator Challenge Flyweight Champion (one time)"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2023 First Team MMA All-Star"
+    },
+    {
+      "org": "GiveMeSport",
+      "texte": "2023 UFC Comeback Fighter of the Year"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Vainqueur de The Ultimate Fighter: Team Joanna vs. Team Cláudia",
+      "Bonus UFC : 3× Performance de la soirée"
+    ],
+    "en": [
+      "The Ultimate Fighter: Team Joanna vs. Team Cláudia winner",
+      "UFC bonuses: 3× Performance of the Night"
+    ]
+  },
   "image_commons": "Tatiana Suarez at UFC 228.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Tatiana_Suarez",

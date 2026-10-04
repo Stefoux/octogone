@@ -123,28 +123,93 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "UFC Welterweight Championship (One time) First UFC champion of Palestinian descent",
-    "First UFC champion of Palestinian descent",
-    "Performance of the Night (Two times) vs. Takashi Sato and Sean Brady",
-    "Fight of the Night (Two times) vs. Alan Jouban and Jack Della Maddalena",
-    "Tied ( Rafael dos Anjos , Brad Tavares & Kamaru Usman ) for second most unanimous decision wins in UFC history (11)",
-    "Tied ( Georges St-Pierre ) for second most decision wins in UFC Welterweight division history (12)",
-    "Tied ( Diego Sanchez , Georges St-Pierre , Rafael dos Anjos , Andrei Arlovski ) for third most decision wins in UFC history (12)",
-    "Second highest takedown defense percentage in UFC Welterweight division history (90.6%)",
-    "Fourth most total strikes landed in UFC Welterweight division history (2303)",
-    "Second most total fight time in UFC Welterweight division history (5:47:38) (behind Neil Magny )",
-    "UFC.com Awards 2024: Ranked #10 Fighter of the Year  2025: Ranked #4 Fight of the Year vs. Jack Della Maddalena",
-    "2024: Ranked #10 Fighter of the Year",
-    "2025: Ranked #4 Fight of the Year vs. Jack Della Maddalena",
-    "Titan Fighting Championship Titan FC Welterweight Championship (One time)",
-    "Titan FC Welterweight Championship (One time)",
-    "MMA Junkie 2019 January Fight of the Month vs. Geoff Neal",
-    "2019 January Fight of the Month vs. Geoff Neal",
-    "Slacky Awards 2024 Gameplan of the Year vs. Leon Edwards at UFC 304",
-    "2024 Gameplan of the Year vs. Leon Edwards at UFC 304",
-    "Real American Freestyle Match of the Night (One time) vs. Ben Askren",
-    "Match of the Night (One time) vs. Ben Askren"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Welterweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First UFC champion of Palestinian descent"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. Takashi Sato and Sean Brady"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Two times) vs. Alan Jouban and Jack Della Maddalena"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Kamaru Usman ) for most unanimous decision wins in UFC Welterweight division history (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Rafael dos Anjos , Brad Tavares & Kamaru Usman ) for second most unanimous decision wins in UFC history (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Georges St-Pierre ) for second most decision wins in UFC Welterweight division history (12)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Diego Sanchez , Georges St-Pierre , Rafael dos Anjos , Andrei Arlovski ) for third most decision wins in UFC history (12)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second highest takedown defense percentage in UFC Welterweight division history (90.6%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most significant strikes landed in UFC Welterweight division history (1515) (behind Neil Magny )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most total strikes landed in UFC Welterweight division history (2303)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most total fight time in UFC Welterweight division history (5:47:38) (behind Neil Magny )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: Ranked #10 Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2025: Ranked #4 Fight of the Year vs. Jack Della Maddalena"
+    },
+    {
+      "org": "Titan Fighting Championship",
+      "texte": "Titan FC Welterweight Championship (One time)"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2019 January Fight of the Month vs. Geoff Neal"
+    },
+    {
+      "org": "Slacky Awards",
+      "texte": "2024 Gameplan of the Year vs. Leon Edwards at UFC 304"
+    },
+    {
+      "org": "Real American Freestyle",
+      "texte": "Match of the Night (One time) vs. Ben Askren"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids mi-moyens",
+      "Bonus UFC : 2× Performance de la soirée, 2× Combat de la soirée"
+    ],
+    "en": [
+      "UFC Welterweight Champion",
+      "UFC bonuses: 2× Performance of the Night, 2× Fight of the Night"
+    ]
+  },
   "image_commons": "Belal Muhammad UFC.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Belal_Muhammad",

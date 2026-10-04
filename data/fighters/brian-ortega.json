@@ -129,41 +129,125 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Fight of the Night (Five times) vs. Thiago Tavares , Renato Moicano , Cub Swanson , Max Holloway and Alexander Volkanovski",
-    "Performance of the Night (Three times) vs. Cub Swanson , Frankie Edgar and Yair Rodriguez 2    Fifth most Post-Fight bonuses in UFC Featherweight division history (8)",
-    "Fifth most Post-Fight bonuses in UFC Featherweight division history (8)",
-    "Tied ( Ricardo Lamas & Joanderson Brito ) for third most finishes in UFC Featherweight division history (7)",
-    "Tied ( Daniel Pineda , Chas Skelly , Makwan Amirkhani & Youssef Zalal ) for second most submissions in UFC Featherweight division history (4)",
-    "Tied ( Dennis Bermudez ) for fifth most submission attempts in UFC Featherweight division history (12)",
-    "UFC Honors Awards 2021: President's Choice Fight of the Year Nominee vs. Alexander Volkanovski",
-    "2021: President's Choice Fight of the Year Nominee vs. Alexander Volkanovski",
-    "2015: Ranked #6 Fight of the Year vs. Thiago Tavares",
-    "2016: Ranked #3 Submission of the Year vs. Diego Brandao",
-    "2017: Ranked #10 Fighter of the Year  & Ranked #4 Submission of the Year vs. Cub Swanson",
-    "2018: Ranked #4 Fight of the Year vs. Max Holloway ,  Best Knockout of the 1HY  & Ranked #2 Knockout of the Year vs. Frankie Edgar",
-    "2021: Ranked #2 Fight of the Year vs. Alexander Volkanovski",
-    "2024: Best Submission of the 1HY  & Ranked #5 Submission of the Year vs. Yair Rodriguez 2",
-    "Resurrection Fighting Alliance RFA Featherweight Champion (one time)",
-    "RFA Featherweight Champion (one time)",
-    "World MMA Awards 2017 Breakthrough Fighter of the Year",
-    "2017 Breakthrough Fighter of the Year",
-    "2015 June Fight of the Month vs. Thiago Tavares",
-    "2017 #3 Ranked Submission of the Year vs. Cub Swanson at UFC Fight Night: Swanson vs. Ortega",
-    "2021 September Fight of the Month vs. Alexander Volkanovski",
-    "ESPN 2021 Fight of the Year vs. Alexander Volkanovski",
-    "2021 Fight of the Year vs. Alexander Volkanovski",
-    "MMA Mania 2021 Fight of the Year vs. Alexander Volkanovski",
-    "2021 Fight of the Year vs. Alexander Volkanovski",
-    "MMA Sucka 2021 Fight of the Year vs. Alexander Volkanovski",
-    "2021 Fight of the Year vs. Alexander Volkanovski",
-    "CBS Sports 2018 #4 Ranked UFC Fight of the Year vs. Max Holloway  2021 #2 Ranked UFC Fight of the Year vs. Alexander Volkanovski",
-    "2018 #4 Ranked UFC Fight of the Year vs. Max Holloway",
-    "2021 #2 Ranked UFC Fight of the Year vs. Alexander Volkanovski",
-    "Combat Press 2024 Comeback of the Year vs. Yair Rodríguez 2 at UFC Fight Night: Moreno vs. Royval 2",
-    "2024 Comeback of the Year vs. Yair Rodríguez 2 at UFC Fight Night: Moreno vs. Royval 2",
-    "Cageside Press 2024 Comeback of the Year vs. Yair Rodríguez at UFC Fight Night: Moreno vs. Royval 2",
-    "2024 Comeback of the Year vs. Yair Rodríguez at UFC Fight Night: Moreno vs. Royval 2"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Five times) vs. Thiago Tavares , Renato Moicano , Cub Swanson , Max Holloway and Alexander Volkanovski"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Three times) vs. Cub Swanson , Frankie Edgar and Yair Rodriguez 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth most Post-Fight bonuses in UFC Featherweight division history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Ricardo Lamas & Joanderson Brito ) for third most finishes in UFC Featherweight division history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Daniel Pineda , Chas Skelly , Makwan Amirkhani & Youssef Zalal ) for second most submissions in UFC Featherweight division history (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Dennis Bermudez ) for fifth most submission attempts in UFC Featherweight division history (12)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: President's Choice Fight of the Year Nominee vs. Alexander Volkanovski"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2015: Ranked #6 Fight of the Year vs. Thiago Tavares"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2016: Ranked #3 Submission of the Year vs. Diego Brandao"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2017: Ranked #10 Fighter of the Year & Ranked #4 Submission of the Year vs. Cub Swanson"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2018: Ranked #4 Fight of the Year vs. Max Holloway , Best Knockout of the 1HY & Ranked #2 Knockout of the Year vs. Frankie Edgar"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: Ranked #2 Fight of the Year vs. Alexander Volkanovski"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: Best Submission of the 1HY & Ranked #5 Submission of the Year vs. Yair Rodriguez 2"
+    },
+    {
+      "org": "Resurrection Fighting Alliance",
+      "texte": "RFA Featherweight Champion (one time)"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2017 Breakthrough Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2015 June Fight of the Month vs. Thiago Tavares"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2017 #3 Ranked Submission of the Year vs. Cub Swanson at UFC Fight Night: Swanson vs. Ortega"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2021 September Fight of the Month vs. Alexander Volkanovski"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2021 Fight of the Year vs. Alexander Volkanovski"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2021 Fight of the Year vs. Alexander Volkanovski"
+    },
+    {
+      "org": "MMA Sucka",
+      "texte": "2021 Fight of the Year vs. Alexander Volkanovski"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2018 #4 Ranked UFC Fight of the Year vs. Max Holloway"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2021 #2 Ranked UFC Fight of the Year vs. Alexander Volkanovski"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2024 Comeback of the Year vs. Yair Rodríguez 2 at UFC Fight Night: Moreno vs. Royval 2"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2024 Comeback of the Year vs. Yair Rodríguez at UFC Fight Night: Moreno vs. Royval 2"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Combat de l'année (2021)",
+      "Bonus UFC : 3× Performance de la soirée, 5× Combat de la soirée"
+    ],
+    "en": [
+      "Fight of the Year (2021)",
+      "UFC bonuses: 3× Performance of the Night, 5× Fight of the Night"
+    ]
+  },
   "image_commons": "Brian Ortega on MMAnytt.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Brian_Ortega",

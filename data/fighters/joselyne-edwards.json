@@ -99,16 +99,35 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Ultimate Fighting Championship Performance of the Night (One time) vs. Priscila Cachoeira",
-    "Performance of the Night (One time) vs. Priscila Cachoeira",
-    "King of the Cage KOTC Bantamweight Championship (One time)",
-    "KOTC Bantamweight Championship (One time)",
-    "Ultimate Combat Challenge UCC Women's Bantamweight Championship (One time) Two successful title defenses",
-    "UCC Women's Bantamweight Championship (One time) Two successful title defenses",
-    "Two successful title defenses",
-    "MMA Fighting 2025 First Team MMA All-Star",
-    "2025 First Team MMA All-Star"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Priscila Cachoeira"
+    },
+    {
+      "org": "King of the Cage",
+      "texte": "KOTC Bantamweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Combat Challenge",
+      "texte": "UCC Women's Bantamweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Combat Challenge",
+      "texte": "Two successful title defenses"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2025 First Team MMA All-Star"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 1× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 1× Performance of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Joselyne_Edwards",

@@ -100,36 +100,91 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Performance of the Night (Three times) vs. Allen Crowder , Augusto Sakai and Chris Daukaus",
-    "Latest finish in UFC Heavyweight division history (4:56) vs Alistair Overeem",
-    "Second fastest finish in UFC Heavyweight division history (0:09) vs Allen Crowder  Third fastest finish in UFC history (0:09) vs Allen Crowder",
-    "Third fastest finish in UFC history (0:09) vs Allen Crowder",
-    "Only fighter to have three knockouts of 30 seconds or less in UFC history",
-    "UFC.com Awards 2019: Newcomer of the Year",
-    "2019: Newcomer of the Year",
-    "MMA Junkie 2019 Newcomer of the Year  2019 Comeback of the Year vs. Alistair Overeem",
-    "2019 Newcomer of the Year",
-    "2019 Comeback of the Year vs. Alistair Overeem",
-    "Combat Press 2019 Comeback of the Year vs. Alistair Overeem",
-    "2019 Comeback of the Year vs. Alistair Overeem",
-    "Fight Matrix 2019 Most Improved Fighter of the Year",
-    "2019 Most Improved Fighter of the Year",
-    "Bloody Elbow 2019 Newcomer of the Year",
-    "2019 Newcomer of the Year",
-    "Zweet en Tranen world championship 2018 Zweet en Tranen Heavyweight Champion (SuThaiBo) champion (1 time)",
-    "2018 Zweet en Tranen Heavyweight Champion (SuThaiBo) champion (1 time)",
-    "DangerZone 2017 DangerZone Heavyweight Champion (1 time)",
-    "2017 DangerZone Heavyweight Champion (1 time)",
-    "Wu Lin Feng 2016 WLF Super Heavyweight Tournament Champion (1 time)",
-    "2016 WLF Super Heavyweight Tournament Champion (1 time)",
-    "SUPERKOMBAT Fighting Championship 2013 SUPERKOMBAT World Grand Prix I Tournament Runner-up",
-    "2013 SUPERKOMBAT World Grand Prix I Tournament Runner-up",
-    "SLAMM!! Soema Na Basi Heavyweight Champion (3 times) 2012, 2013 and 2016",
-    "Soema Na Basi Heavyweight Champion (3 times) 2012, 2013 and 2016",
-    "Lifetime Achievement Award \"Lifetime Achievement Award\" by the Minister of Youth and Sports of Suriname for his national and international performances",
-    "\"Lifetime Achievement Award\" by the Minister of Youth and Sports of Suriname for his national and international performances",
-    "Dirty Boxing Heavyweight Championship (One time, Current)"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Three times) vs. Allen Crowder , Augusto Sakai and Chris Daukaus"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Latest finish in UFC Heavyweight division history (4:56) vs Alistair Overeem"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second fastest finish in UFC Heavyweight division history (0:09) vs Allen Crowder"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third fastest finish in UFC history (0:09) vs Allen Crowder"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Only fighter to have three knockouts of 30 seconds or less in UFC history"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2019: Newcomer of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2019 Newcomer of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2019 Comeback of the Year vs. Alistair Overeem"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2019 Comeback of the Year vs. Alistair Overeem"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2019 Most Improved Fighter of the Year"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2019 Newcomer of the Year"
+    },
+    {
+      "org": "Zweet en Tranen world championship",
+      "texte": "2018 Zweet en Tranen Heavyweight Champion (SuThaiBo) champion (1 time)"
+    },
+    {
+      "org": "DangerZone",
+      "texte": "2017 DangerZone Heavyweight Champion (1 time)"
+    },
+    {
+      "org": "Wu Lin Feng",
+      "texte": "2016 WLF Super Heavyweight Tournament Champion (1 time)"
+    },
+    {
+      "org": "SUPERKOMBAT Fighting Championship",
+      "texte": "2013 SUPERKOMBAT World Grand Prix I Tournament Runner-up"
+    },
+    {
+      "org": "SLAMM!!",
+      "texte": "Soema Na Basi Heavyweight Champion (3 times) 2012, 2013 and 2016"
+    },
+    {
+      "org": "Lifetime Achievement Award",
+      "texte": "\"Lifetime Achievement Award\" by the Minister of Youth and Sports of Suriname for his national and international performances"
+    },
+    {
+      "org": null,
+      "texte": "Dirty Boxing Heavyweight Championship (One time, Current)"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 3× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 3× Performance of the Night"
+    ]
+  },
   "image_commons": "Jairzinho Rozenstruik at UFC 244.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Jairzinho_Rozenstruik",

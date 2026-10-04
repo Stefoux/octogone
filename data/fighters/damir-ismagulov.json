@@ -112,10 +112,25 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "M-1 Global M-1 Global Lightweight Championship (Three times)    2017 M-1 Global Fighter of the Year",
-    "M-1 Global Lightweight Championship (Three times)",
-    "2017 M-1 Global Fighter of the Year"
+    {
+      "org": "M-1 Global",
+      "texte": "M-1 Global Lightweight Championship (Three times)"
+    },
+    {
+      "org": "M-1 Global",
+      "texte": "2017 M-1 Global Fighter of the Year"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion M-1 Global des poids légers",
+      "Bonus UFC : 2× Combat de la soirée"
+    ],
+    "en": [
+      "M-1 Global Lightweight Champion",
+      "UFC bonuses: 2× Fight of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Damir_Ismagulov",

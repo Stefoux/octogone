@@ -117,40 +117,121 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "UFC Hall of Fame (Pioneer wing, Class of 2018)",
-    "UFC Welterweight Championship (One time) First fighter to win both a The Ultimate Fighter Tournament and UFC Championship",
-    "First fighter to win both a The Ultimate Fighter Tournament and UFC Championship",
-    "The Ultimate Fighter 4 Welterweight Tournament Winner",
-    "Fight of the Night (One time) vs. Matt Hughes",
-    "Knockout of the Night (Two times) vs. Georges St-Pierre 1 and Frank Trigg",
-    "UFC Encyclopedia Awards Fight of the Night (One time) vs. Yves Edwards",
-    "Fight of the Night (One time) vs. Yves Edwards",
-    "UFC.com Awards 2007: Upset of the Year vs. Georges St-Pierre 1 ,  Ranked #5 Knockout of the Year vs. Georges St-Pierre 1  & Ranked #9 Fighter of the Year",
-    "2007: Upset of the Year vs. Georges St-Pierre 1 ,  Ranked #5 Knockout of the Year vs. Georges St-Pierre 1  & Ranked #9 Fighter of the Year",
-    "Sports Illustrated 2000s Upset of the Decade vs. Georges St-Pierre  2000s Cinderella Story of the Decade vs. Georges St-Pierre",
-    "2000s Upset of the Decade vs. Georges St-Pierre",
-    "2000s Cinderella Story of the Decade vs. Georges St-Pierre",
-    "Bleacher Report 2000s Upset of the Decade vs. Georges St-Pierre",
-    "2000s Upset of the Decade vs. Georges St-Pierre",
-    "Fight Matrix Most Noteworthy Match of Year (2007) vs. Georges St-Pierre  Most Noteworthy Upset of Year (2007) vs. Georges St-Pierre",
-    "Most Noteworthy Match of Year (2007) vs. Georges St-Pierre",
-    "Most Noteworthy Upset of Year (2007) vs. Georges St-Pierre",
-    "Yahoo! Sports Upset of the Decade Runner-up vs. Georges St-Pierre",
-    "Upset of the Decade Runner-up vs. Georges St-Pierre",
-    "FIGHT! Magazine 2007 Upset of the Year vs. Georges St-Pierre at UFC 69",
-    "2007 Upset of the Year vs. Georges St-Pierre at UFC 69",
-    "2000 ADCC Tournament Trials: Champion",
-    "2001 ADCC 77 kg: Silver Medalist  Record of opponents: Won: Takanori Gomi (sub), Jean Jacques Machado (pts), Leonardo Silva Dos Santos (sub) Lost: Marcio Feitosa (forfeit)",
-    "Record of opponents:",
-    "Won: Takanori Gomi (sub), Jean Jacques Machado (pts), Leonardo Silva Dos Santos (sub)",
-    "Lost: Marcio Feitosa (forfeit)",
-    "International Pro-Ams 2000 Black Belt 77 kg (No-Gi): Silver Medalist",
-    "2000 Black Belt 77 kg (No-Gi): Silver Medalist",
-    "World Jiu-Jitsu Championship 2000 Brown Belt Medio: Bronze Medalist",
-    "2000 Brown Belt Medio: Bronze Medalist",
-    "Pan-American Championships 1999 Purple Belt Medio: Gold Medalist",
-    "1999 Purple Belt Medio: Gold Medalist"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame (Pioneer wing, Class of 2018)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Welterweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First fighter to win both a The Ultimate Fighter Tournament and UFC Championship"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "The Ultimate Fighter 4 Welterweight Tournament Winner"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Matt Hughes"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Knockout of the Night (Two times) vs. Georges St-Pierre 1 and Frank Trigg"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Encyclopedia Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Yves Edwards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2007: Upset of the Year vs. Georges St-Pierre 1 , Ranked #5 Knockout of the Year vs. Georges St-Pierre 1 & Ranked #9 Fighter of the Year"
+    },
+    {
+      "org": "Sports Illustrated",
+      "texte": "2000s Upset of the Decade vs. Georges St-Pierre"
+    },
+    {
+      "org": "Sports Illustrated",
+      "texte": "2000s Cinderella Story of the Decade vs. Georges St-Pierre"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2000s Upset of the Decade vs. Georges St-Pierre"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "Most Noteworthy Match of Year (2007) vs. Georges St-Pierre"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "Most Noteworthy Upset of Year (2007) vs. Georges St-Pierre"
+    },
+    {
+      "org": "Yahoo! Sports",
+      "texte": "Upset of the Decade Runner-up vs. Georges St-Pierre"
+    },
+    {
+      "org": "FIGHT! Magazine",
+      "texte": "2007 Upset of the Year vs. Georges St-Pierre at UFC 69"
+    },
+    {
+      "org": "ADCC Submission Wrestling World Championship",
+      "texte": "2000 ADCC Tournament Trials: Champion"
+    },
+    {
+      "org": "ADCC Submission Wrestling World Championship",
+      "texte": "2001 ADCC 77 kg: Silver Medalist"
+    },
+    {
+      "org": "ADCC Submission Wrestling World Championship",
+      "texte": "Record of opponents:"
+    },
+    {
+      "org": "ADCC Submission Wrestling World Championship",
+      "texte": "Won: Takanori Gomi (sub), Jean Jacques Machado (pts), Leonardo Silva Dos Santos (sub)"
+    },
+    {
+      "org": "ADCC Submission Wrestling World Championship",
+      "texte": "Lost: Marcio Feitosa (forfeit)"
+    },
+    {
+      "org": "International Pro-Ams",
+      "texte": "2000 Black Belt 77 kg (No-Gi): Silver Medalist"
+    },
+    {
+      "org": "World Jiu-Jitsu Championship",
+      "texte": "2000 Brown Belt Medio: Bronze Medalist"
+    },
+    {
+      "org": "Pan-American Championships",
+      "texte": "1999 Purple Belt Medio: Gold Medalist"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids mi-moyens",
+      "Hall of Fame de l'UFC (2018)",
+      "Vainqueur de The Ultimate Fighter 4",
+      "Bonus UFC : 1× Combat de la soirée, 2× KO de la soirée"
+    ],
+    "en": [
+      "UFC Welterweight Champion",
+      "UFC Hall of Fame (2018)",
+      "The Ultimate Fighter 4 winner",
+      "UFC bonuses: 1× Fight of the Night, 2× Knockout of the Night"
+    ]
+  },
   "image_commons": "Matt Serra 2007.png",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Matt_Serra",

@@ -108,19 +108,55 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Arena Global AG Light Heavyweight Championship (One time)",
-    "AG Light Heavyweight Championship (One time)",
-    "Fight of the Night (Two times) vs. Michał Oleksiejczuk and Marc-André Barriault",
-    "Performance of the Night (Two times) vs. Antonio Trócoli and Armen Petrosyan",
-    "UFC Honors Awards 2024: Fan's Choice Knockout of the Year Nominee vs. Armen Petrosyan",
-    "2024: Fan's Choice Knockout of the Year Nominee vs. Armen Petrosyan",
-    "UFC.com Awards 2024: Ranked #7 Knockout of the Year vs. Armen Petrosyan",
-    "2024: Ranked #7 Knockout of the Year vs. Armen Petrosyan",
-    "MMA Fighting 2024 Second Team MMA All-Star",
-    "2024 Second Team MMA All-Star",
-    "Russian Muay Thai Champion.",
-    "Eurasia Lethwei Champion"
+    {
+      "org": "Arena Global",
+      "texte": "AG Light Heavyweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Two times) vs. Michał Oleksiejczuk and Marc-André Barriault"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. Antonio Trócoli and Armen Petrosyan"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: Fan's Choice Knockout of the Year Nominee vs. Armen Petrosyan"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: Ranked #7 Knockout of the Year vs. Armen Petrosyan"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2024 Second Team MMA All-Star"
+    },
+    {
+      "org": null,
+      "texte": "Russian Muay Thai Champion."
+    },
+    {
+      "org": null,
+      "texte": "Eurasia Lethwei Champion"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 2× Performance de la soirée, 2× Combat de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 2× Performance of the Night, 2× Fight of the Night"
+    ]
+  },
   "image_commons": "Sharabutdin Magomedov 2024.png",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Sharabutdin_Magomedov",

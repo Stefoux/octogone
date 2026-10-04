@@ -99,13 +99,27 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Ultimate Fighting Championship Performance of the Night (Two times) vs. Carlos Hernandez and Cody Durden",
-    "Performance of the Night (Two times) vs. Carlos Hernandez and Cody Durden",
-    "Gold Fight Gold Fight Flyweight Championship (One time)",
-    "Gold Fight Flyweight Championship (One time)",
-    "Predador Fight Championship Predador FC Bantamweight Championship (One time)",
-    "Predador FC Bantamweight Championship (One time)"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. Carlos Hernandez and Cody Durden"
+    },
+    {
+      "org": "Gold Fight",
+      "texte": "Gold Fight Flyweight Championship (One time)"
+    },
+    {
+      "org": "Predador Fight Championship",
+      "texte": "Predador FC Bantamweight Championship (One time)"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 2× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 2× Performance of the Night"
+    ]
+  },
   "image_commons": "AllanNascimento.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Allan_Nascimento",

@@ -160,47 +160,325 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "UFC Hall of Fame ( Modern Wing , Class of 2024)",
-    "UFC Hall of Fame ( Fight Wing , Class of 2026) vs. Zhang Weili 1 at UFC 248",
-    "Five successful title defenses",
-    "Third most title fights in UFC Women's history (10)",
-    "Most title bouts in UFC Women's Strawweight history (9)",
-    "Tied ( Zhang Weili ) for most title fight wins in UFC Women's Strawweight history (6)",
-    "First Polish-born champion in UFC history",
-    "Performance of the Night (one time) vs. Carla Esparza",
-    "Tied ( Carla Esparza & Zhang Weili ) for fourth most Post-Fight bonuses in UFC Strawweight division history (4)",
-    "Tied ( Carla Esparza , Jéssica Andrade , & Zhang Weili ) for fourth most wins in UFC Women's Strawweight division history (10)",
-    "Longest win streak in UFC Women's Strawweight division history (8)",
-    "Tied ( Carla Esparza ) for most decision wins in UFC Women's Strawweight division history (8)",
-    "Second most significant strikes landed in UFC Women's Strawweight division history (1676)",
-    "Second most total strikes landed in UFC Women's Strawweight division history (1863)",
-    "Longest average fight time in UFC Women's Strawweight division history (18:09)",
-    "Second most total fight time in UFC Women's Strawweight division history (4:14:10)",
-    "Most significant strikes landed-per-minute in UFC Women's Strawweight division history (6:59)",
-    "Highest striking differential in UFC Women's Strawweight division history (3.37)",
-    "Second highest takedown defense percentage in UFC Women's Strawweight division history (89.3%)",
-    "Third highest significant strike differential in UFC championship history (+142 vs. Jéssica Andrade )",
-    "Tied ( Alexander Volkanovski ) for third-most leg kicks in a fight in UFC history (+75 vs Jéssica Andrade )",
-    "First Polish UFC Champion",
-    "First female European UFC Champion",
-    "Third European UFC Champion",
-    "UFC Honors Awards 2020: President's Choice Fight of the Year Winner vs. Zhang Weili 1",
-    "2020: President's Choice Fight of the Year Winner vs. Zhang Weili 1",
-    "2014: Ranked #9 Newcomer of the Year",
-    "2015: Half-Year Awards: Best Fighter of the 1HY  & Ranked #3 Fighter of the Year",
-    "2016: Ranked #5 Fighter of the Year  & Ranked #6 Fight of the Year vs. Cláudia Gadelha 2",
-    "2020: Fight of the Year vs. Zhang Weili 1",
-    "Bloody Elbow 2010s Women's Strawweight Fighter of the Decade",
-    "2010s Women's Strawweight Fighter of the Decade",
-    "Women's MMA Press Awards 2014 Strawweight of the Year",
-    "2014 Strawweight of the Year",
-    "Yahoo! Sports 2015 Best Fighter of the Half-Year  2020 Fight of the Year vs. Zhang Weili at UFC 248",
-    "2015 Best Fighter of the Half-Year",
-    "2020 Fight of the Year vs. Zhang Weili at UFC 248",
-    "Fight Matrix 2015 Female Fighter of the Year",
-    "2015 Female Fighter of the Year",
-    "MMA Junkie 2015 Female Fighter of the Year  2016 July Fight of the Month vs. Cláudia Gadelha  2020 March Fight of the Month vs. Zhang Weili  2020 Fight of the Year vs. Zhang Weili"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame ( Modern Wing , Class of 2024)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame ( Fight Wing , Class of 2026) vs. Zhang Weili 1 at UFC 248"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Women's Strawweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Five successful title defenses"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most title fights in UFC Women's history (10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most title bouts in UFC Women's Strawweight history (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Zhang Weili ) for most title fight wins in UFC Women's Strawweight history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First Polish-born champion in UFC history"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (one time) vs. Carla Esparza"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (three times) vs. Jessica Penne , Cláudia Gadelha , and Zhang Weili 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Carla Esparza & Zhang Weili ) for fourth most Post-Fight bonuses in UFC Strawweight division history (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Carla Esparza , Jéssica Andrade , & Zhang Weili ) for fourth most wins in UFC Women's Strawweight division history (10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Longest win streak in UFC Women's Strawweight division history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Carla Esparza ) for most decision wins in UFC Women's Strawweight division history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most significant strikes landed in UFC Women's Strawweight division history (1676)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most total strikes landed in UFC Women's Strawweight division history (1863)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Longest average fight time in UFC Women's Strawweight division history (18:09)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most total fight time in UFC Women's Strawweight division history (4:14:10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most significant strikes landed-per-minute in UFC Women's Strawweight division history (6:59)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Highest striking differential in UFC Women's Strawweight division history (3.37)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second highest takedown defense percentage in UFC Women's Strawweight division history (89.3%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third highest significant strike differential in UFC championship history (+142 vs. Jéssica Andrade )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Joselyne Edwards ) for most leg kicks in a fight in UFC history (+76 vs Michelle Waterson-Gomez )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Alexander Volkanovski ) for third-most leg kicks in a fight in UFC history (+75 vs Jéssica Andrade )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First Polish UFC Champion"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First female European UFC Champion"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third European UFC Champion"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: President's Choice Fight of the Year Winner vs. Zhang Weili 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2014: Ranked #9 Newcomer of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2015: Half-Year Awards: Best Fighter of the 1HY & Ranked #3 Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2016: Ranked #5 Fighter of the Year & Ranked #6 Fight of the Year vs. Cláudia Gadelha 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Fight of the Year vs. Zhang Weili 1"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2010s Women's Strawweight Fighter of the Decade"
+    },
+    {
+      "org": "Women's MMA Press Awards",
+      "texte": "2014 Strawweight of the Year"
+    },
+    {
+      "org": "Yahoo! Sports",
+      "texte": "2015 Best Fighter of the Half-Year"
+    },
+    {
+      "org": "Yahoo! Sports",
+      "texte": "2020 Fight of the Year vs. Zhang Weili at UFC 248"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2015 Female Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2015 Female Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2016 July Fight of the Month vs. Cláudia Gadelha"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2020 March Fight of the Month vs. Zhang Weili"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2020 Fight of the Year vs. Zhang Weili"
+    },
+    {
+      "org": "Fight Booth",
+      "texte": "2015 Lady Violence Award"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2015 All-Violence First Team"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2020 Fight of the Year vs. Zhang Weili"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2019 – July 2020 Fight of the Year vs. Zhang Weili at UFC 248"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "2020 MMA Match of the Year vs. Zhang Weili"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2020 Fight of the Year vs. Zhang Weili"
+    },
+    {
+      "org": "The Athletic",
+      "texte": "2010s Women's Strawweight Fighter of the Decade"
+    },
+    {
+      "org": "The Athletic",
+      "texte": "2020 Fight of the Year vs. Zhang Weili"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2020 Fight of the Year vs. Zhang Weili at UFC 248"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2015 Breakthrough Fighter of the Year"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2020 Fight of the Year vs. Zhang Weili"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2020 Fight of the Year vs. Zhang Weili"
+    },
+    {
+      "org": "BT Sport",
+      "texte": "2020 Fight of the Year vs. Zhang Weili"
+    },
+    {
+      "org": "MMA Weekly",
+      "texte": "2020 Fight of the Year vs. Zhang Weili"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2016 Female Fighter of the Year"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2020 Fight of the Year vs. Zhang Weili"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2016 #7 Ranked UFC Fighter of the Year"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2016 #7 Ranked UFC Fight of the Year vs. Cláudia Gadelha"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2020 UFC Fight of the Year vs. Zhang Weili"
+    },
+    {
+      "org": "MMA Sucka",
+      "texte": "2020 Fight of the Year vs. Zhang Weili at UFC 248"
+    },
+    {
+      "org": "J-Girls Kickboxing Federation",
+      "texte": "2009 J-Girls World Featherweight Champion"
+    },
+    {
+      "org": "World Budokai Federation",
+      "texte": "2013 WBKF Pro Title"
+    },
+    {
+      "org": "World Kickboxing Federation",
+      "texte": "2010 WKF European Champion"
+    },
+    {
+      "org": "IFMA World Championships",
+      "texte": "2013 Gold -57 kg"
+    },
+    {
+      "org": "IFMA World Championships",
+      "texte": "2012 Gold -57 kg"
+    },
+    {
+      "org": "IFMA World Championships",
+      "texte": "2011 Gold -57 kg"
+    },
+    {
+      "org": "IFMA World Championships",
+      "texte": "2010 Gold -57 kg"
+    },
+    {
+      "org": "IFMA World Championships",
+      "texte": "2009 Gold -57 kg"
+    },
+    {
+      "org": "IFMA World Championships",
+      "texte": "2008 Silver -57 kg"
+    },
+    {
+      "org": "IFMA European Championships",
+      "texte": "3x IFMA European Champion (2008, 2012)"
+    },
+    {
+      "org": "World Muaythai Council",
+      "texte": "WMC/EMF European Champion (one time)"
+    },
+    {
+      "org": "World Kickboxing Network",
+      "texte": "2010 WKN Muay Thai World -57 kg Champion (one time)"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Championne UFC des poids paille féminins",
+      "Hall of Fame de l'UFC (2024)",
+      "5 défenses de titre à l'UFC",
+      "Combattante de l'année (2015, 2016)",
+      "Combat de l'année (2020)",
+      "Bonus UFC : 1× Performance de la soirée, 3× Combat de la soirée"
+    ],
+    "en": [
+      "UFC Women's Strawweight Champion",
+      "UFC Hall of Fame (2024)",
+      "5 UFC title defenses",
+      "Fighter of the Year (2015, 2016)",
+      "Fight of the Year (2020)",
+      "UFC bonuses: 1× Performance of the Night, 3× Fight of the Night"
+    ]
+  },
   "image_commons": "Joanna Jędrzejczyk.png",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Joanna_Jędrzejczyk",

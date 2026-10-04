@@ -104,21 +104,67 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Highest takedown defense percentage in UFC Women's Bantamweight division history (88.9%)",
-    "Third most bouts in UFC Women's Bantamweight division history (14)",
-    "Third most wins in UFC Women's Bantamweight division history (9)",
-    "Second most total fight time in UFC Women's Bantamweight division history (3:34:07) (behind Raquel Pennington )",
-    "Third longest average fight time in UFC Women's Bantamweight division history (15:18)",
-    "Third most total control time in UFC Women's Bantamweight division history (1:02:25)",
-    "Fourth most top-position time in UFC Women's Bantamweight division history (45:08)",
-    "Third longest average fight time in UFC Women's Bantamweight division history (15:21)",
-    "Fourth most takedowns landed in UFC Women's Bantamweight division history (20)",
-    "Fifth most total strikes landed in UFC Women's Bantamweight division history (1107)",
-    "Tied ( Julianna Peña & Mayra Bueno Silva ) for fourth most submission attempts in UFC Women's Bantamweight division history (8)",
-    "Second most decision wins in UFC Women's Bantamweight division history (8) (behind Raquel Pennington )",
-    "Mr. Cage Mr. Cage Women's Bantamweight Champion",
-    "Mr. Cage Women's Bantamweight Champion"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Highest takedown defense percentage in UFC Women's Bantamweight division history (88.9%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most bouts in UFC Women's Bantamweight division history (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most wins in UFC Women's Bantamweight division history (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most total fight time in UFC Women's Bantamweight division history (3:34:07) (behind Raquel Pennington )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third longest average fight time in UFC Women's Bantamweight division history (15:18)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most total control time in UFC Women's Bantamweight division history (1:02:25)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most top-position time in UFC Women's Bantamweight division history (45:08)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third longest average fight time in UFC Women's Bantamweight division history (15:21)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most takedowns landed in UFC Women's Bantamweight division history (20)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth most total strikes landed in UFC Women's Bantamweight division history (1107)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Julianna Peña & Mayra Bueno Silva ) for fourth most submission attempts in UFC Women's Bantamweight division history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Raquel Pennington ) for most split decision wins in UFC Women's Bantamweight division history (3)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most decision wins in UFC Women's Bantamweight division history (8) (behind Raquel Pennington )"
+    },
+    {
+      "org": "Mr. Cage",
+      "texte": "Mr. Cage Women's Bantamweight Champion"
+    }
   ],
+  "distinctions": {
+    "fr": [],
+    "en": []
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Ketlen_Vieira",

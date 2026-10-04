@@ -120,26 +120,81 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "UFC Hall of Fame (Pioneer wing, Class of 2023)",
-    "Two successful title defenses",
-    "First UFC Lightweight Champion to defend the title in UFC History",
-    "Tied ( Frankie Edgar & Justin Gaethje ) for third most UFC lightweight title fight wins (5)",
-    "First Lightweight to headline a UFC Event vs. B.J. Penn",
-    "UFC Encyclopedia Awards Fight of the Night (One time) vs. B.J. Penn  Knockout of the Night (One time) vs. John Lewis",
-    "Fight of the Night (One time) vs. B.J. Penn",
-    "Knockout of the Night (One time) vs. John Lewis",
-    "PRIDE Fighting Championship PRIDE 2005 Lightweight Grand Prix Quarterfinalist One of only two UFC Lightweight Champions to compete in PRIDE FC",
-    "PRIDE 2005 Lightweight Grand Prix Quarterfinalist",
-    "One of only two UFC Lightweight Champions to compete in PRIDE FC",
-    "World Extreme Cagefighting Fight of the Night (One time)",
-    "Fight of the Night (One time)",
-    "ONE Fighting Championship ONE FC Bantamweight Grand Prix Semifinalist",
-    "ONE FC Bantamweight Grand Prix Semifinalist",
-    "MMA Fighting 2002 Lightweight Fighter of the Year",
-    "2002 Lightweight Fighter of the Year",
-    "Fight Matrix 2002 Most Noteworthy Match of Year vs. B.J. Penn on January 11, 2002",
-    "2002 Most Noteworthy Match of Year vs. B.J. Penn on January 11, 2002"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame (Pioneer wing, Class of 2023)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Lightweight Championship (One time; first)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Two successful title defenses"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First UFC Lightweight Champion to defend the title in UFC History"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Frankie Edgar & Justin Gaethje ) for third most UFC lightweight title fight wins (5)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First Lightweight to headline a UFC Event vs. B.J. Penn"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Encyclopedia Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. B.J. Penn"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Knockout of the Night (One time) vs. John Lewis"
+    },
+    {
+      "org": "PRIDE Fighting Championship",
+      "texte": "PRIDE 2005 Lightweight Grand Prix Quarterfinalist"
+    },
+    {
+      "org": "PRIDE Fighting Championship",
+      "texte": "One of only two UFC Lightweight Champions to compete in PRIDE FC"
+    },
+    {
+      "org": "World Extreme Cagefighting",
+      "texte": "Fight of the Night (One time)"
+    },
+    {
+      "org": "ONE Fighting Championship",
+      "texte": "ONE FC Bantamweight Grand Prix Semifinalist"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2002 Lightweight Fighter of the Year"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2002 Most Noteworthy Match of Year vs. B.J. Penn on January 11, 2002"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids légers",
+      "Hall of Fame de l'UFC (2023)",
+      "2 défenses de titre à l'UFC",
+      "Bonus UFC : 1× Combat de la soirée, 1× KO de la soirée"
+    ],
+    "en": [
+      "UFC Lightweight Champion",
+      "UFC Hall of Fame (2023)",
+      "2 UFC title defenses",
+      "UFC bonuses: 1× Fight of the Night, 1× Knockout of the Night"
+    ]
+  },
   "image_commons": "Jens Pulver at UFC - Neer vs Diaz 2013-12-03 22-51.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Jens_Pulver",

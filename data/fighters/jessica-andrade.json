@@ -140,47 +140,213 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "UFC Women's Strawweight Championship (One time; former)",
-    "Most Performance of the Night bonuses in UFC Women's history (6)",
-    "Most Fight of the Night bonuses in UFC Women's history (5)",
-    "Most Post-Fight bonuses in UFC Women's history (11)",
-    "Most Post-Fight bonuses in UFC Women's Strawweight division history (9)",
-    "Most wins in UFC Women's history (17)",
-    "Tied ( Angela Hill ) for the most bouts in UFC Women's history (30)",
-    "Third most finishes in UFC Women's history (9) (behind Amanda Nunes & Gillian Robertson )",
-    "Tied ( Joanna Jędrzejczyk , Carla Esparza & Zhang Weili ) for fourth most wins in UFC Women's Strawweight division history (10)",
-    "Most finishes in UFC Women's Strawweight division history (6)",
-    "Tied ( Denise Gomes ) for most knockouts in UFC Women's Strawweight division history (4)",
-    "Most knockdowns landed in a fight in UFC Women's Strawweight division and UFC Women's history (4) (vs. Mackenzie Dern )",
-    "Tied for third most knockdowns landed in a fight in UFC history (4)",
-    "Tied ( Ailín Pérez ) for most takedowns landed in a UFC Women's bout (10) (vs. Tecia Torres )",
-    "Tied ( Carla Esparza ) for fifth most bouts in UFC Women's Strawweight division history (15)",
-    "Sixth most takedowns landed in UFC Women's Strawweight division history (24)",
-    "Fourth least bottom position time in UFC Women's Strawweight division history (2:28)",
-    "Fourth lowest bottom position percentage in UFC Women's Strawweight division history (1.72%)",
-    "Fifth most significant strikes landed in UFC Women's Strawweight division history (912)",
-    "Third most strikes landed-per-minute in UFC Women's Strawweight division history (6.35)",
-    "Fourth highest takedown percentage in UFC Women's Strawweight division history (54.6%)",
-    "Fifth highest takedown defense percentage in UFC Women's Strawweight division history (80.0%)",
-    "Only woman in UFC history to win a fight in three weight classes",
-    "Most bouts by a woman in a calendar year in UFC history (5 in 2023) Tied for most bouts in a calendar year in UFC history (5 in 2023)",
-    "Tied for most bouts in a calendar year in UFC history (5 in 2023)",
-    "Most significant strikes landed in a UFC Women's Flyweight bout (231) vs Lauren Murphy",
-    "First standing arm-triangle choke finish in UFC History",
-    "2019: Fan's Choice Comeback of the Year Nominee vs. Rose Namajunas 1",
-    "2022: President's Choice Performance of the Year Nominee vs. Amanda Lemos  & Fan's Choice Submission of the Year Nominee vs. Amanda Lemos",
-    "2017: Ranked #8 Fight of the Year vs. Angela Hill",
-    "2018: Ranked #7 Knockout of the Year vs. Karolina Kowalkiewicz",
-    "2019: Ranked #8 Knockout of the Year vs. Rose Namajunas 1  & Ranked #6 Upset of the Year vs. Rose Namajunas 1",
-    "2020: Ranked #7 Fight of the Year vs. Rose Namajunas 2",
-    "2022: Submission of the Year vs. Amanda Lemos",
-    "2017 #5 Ranked Fight of the Year vs. Cláudia Gadelha at UFC Fight Night: Saint Preux vs. Okami",
-    "2017 September Fight of the Month vs. Cláudia Gadelha",
-    "2019 May Fight of the Month vs. Rose Namajunas",
-    "2020 July Fight of the Month vs. Rose Namajunas",
-    "2022 April Submission of the Month vs. Amanda Lemos",
-    "LowKick MMA 2022 Submission of the Year vs. Amanda Lemos at UFC Fight Night: Lemos vs. Andrade"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Women's Strawweight Championship (One time; former)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Six times) vs. Joanne Calderwood , Karolina Kowalkiewicz , Rose Namajunas , Katlyn Chookagian , Amanda Lemos and Mackenzie Dern"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most Performance of the Night bonuses in UFC Women's history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Five times) vs. Angela Hill , Cláudia Gadelha , Rose Namajunas (x2) and Natália Silva"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most Fight of the Night bonuses in UFC Women's history (5)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most Post-Fight bonuses in UFC Women's history (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most Post-Fight bonuses in UFC Women's Strawweight division history (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most wins in UFC Women's history (17)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Angela Hill ) for the most bouts in UFC Women's history (30)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most finishes in UFC Women's history (9) (behind Amanda Nunes & Gillian Robertson )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Joanna Jędrzejczyk , Carla Esparza & Zhang Weili ) for fourth most wins in UFC Women's Strawweight division history (10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most finishes in UFC Women's Strawweight division history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Denise Gomes ) for most knockouts in UFC Women's Strawweight division history (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most knockdowns landed in UFC Women's Strawweight division history (5)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most knockdowns landed in a fight in UFC Women's Strawweight division and UFC Women's history (4) (vs. Mackenzie Dern )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied for third most knockdowns landed in a fight in UFC history (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Ailín Pérez ) for most takedowns landed in a UFC Women's bout (10) (vs. Tecia Torres )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Carla Esparza ) for fifth most bouts in UFC Women's Strawweight division history (15)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Sixth most takedowns landed in UFC Women's Strawweight division history (24)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth least bottom position time in UFC Women's Strawweight division history (2:28)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth lowest bottom position percentage in UFC Women's Strawweight division history (1.72%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth most significant strikes landed in UFC Women's Strawweight division history (912)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most strikes landed-per-minute in UFC Women's Strawweight division history (6.35)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth highest takedown percentage in UFC Women's Strawweight division history (54.6%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth highest takedown defense percentage in UFC Women's Strawweight division history (80.0%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Only woman in UFC history to win a fight in three weight classes"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most bouts by a woman in a calendar year in UFC history (5 in 2023)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied for most bouts in a calendar year in UFC history (5 in 2023)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most significant strikes landed in a UFC Women's Flyweight bout (231) vs Lauren Murphy"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First standing arm-triangle choke finish in UFC History"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2019: Fan's Choice Comeback of the Year Nominee vs. Rose Namajunas 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: President's Choice Performance of the Year Nominee vs. Amanda Lemos & Fan's Choice Submission of the Year Nominee vs. Amanda Lemos"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2017: Ranked #8 Fight of the Year vs. Angela Hill"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2018: Ranked #7 Knockout of the Year vs. Karolina Kowalkiewicz"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2019: Ranked #8 Knockout of the Year vs. Rose Namajunas 1 & Ranked #6 Upset of the Year vs. Rose Namajunas 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Ranked #7 Fight of the Year vs. Rose Namajunas 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Submission of the Year vs. Amanda Lemos"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2017 #5 Ranked Fight of the Year vs. Cláudia Gadelha at UFC Fight Night: Saint Preux vs. Okami"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2017 September Fight of the Month vs. Cláudia Gadelha"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2019 May Fight of the Month vs. Rose Namajunas"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2020 July Fight of the Month vs. Rose Namajunas"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2022 April Submission of the Month vs. Amanda Lemos"
+    },
+    {
+      "org": "LowKick MMA",
+      "texte": "2022 Submission of the Year vs. Amanda Lemos at UFC Fight Night: Lemos vs. Andrade"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2022 UFC Submission of the Year vs. Amanda Lemos"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2019 #5 Ranked UFC Knockout of the Year vs. Rose Namajunas"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2023 Third Team MMA All-Star"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Championne UFC des poids paille féminins",
+      "Record UFC chez les poids paille féminins : finitions (6)",
+      "Soumission de l'année (2022)",
+      "Bonus UFC : 6× Performance de la soirée, 5× Combat de la soirée"
+    ],
+    "en": [
+      "UFC Women's Strawweight Champion",
+      "UFC Women's Strawweight record: most finishes (6)",
+      "Submission of the Year (2022)",
+      "UFC bonuses: 6× Performance of the Night, 5× Fight of the Night"
+    ]
+  },
   "image_commons": "Jessica Andrade at UFC 228.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Jéssica_Andrade",

@@ -1,138 +1,85 @@
 {
   "id": "jack-jenkins",
   "nom": "Jack Jenkins",
-  "ufc_slug": "gavin-tucker",
-  "wikipedia_titre": "Gavin Tucker",
-  "surnom": "Guv'nor",
-  "sexe": "M",
-  "pays": "CA",
+  "ufc_slug": "jack-jenkins",
+  "surnom": "Phar",
+  "sexe": null,
+  "pays": null,
   "categorie": "plume",
-  "statut": "inactif",
-  "date_naissance": "1986-06-17",
-  "taille_cm": 169,
-  "allonge_cm": 168,
-  "style": "Jiu-Jitsu",
-  "lieu_naissance": "Ship Cove, Canada",
+  "statut": "actif",
+  "date_naissance": null,
+  "taille_cm": 170,
+  "allonge_cm": 173,
+  "style": "Freestyle",
+  "lieu_naissance": "Bacchus Marsh, Australia",
   "palmares": {
-    "victoires": 13,
-    "defaites": 3,
+    "victoires": 14,
+    "defaites": 5,
     "nuls": 0,
     "sans_decision": 0,
-    "victoires_ko": 4,
-    "victoires_soumission": 6,
-    "victoires_decision": 3,
-    "defaites_ko": 1,
-    "defaites_soumission": 1,
-    "defaites_decision": 1
+    "victoires_ko": 6,
+    "victoires_soumission": 3,
+    "victoires_decision": 5,
+    "defaites_ko": null,
+    "defaites_soumission": null,
+    "defaites_decision": null
   },
   "stats_ufc": {
-    "frappes_par_min": 4.29,
-    "precision_frappe_pct": 45,
-    "frappes_encaissees_par_min": 4.18,
-    "defense_frappe_pct": 57.0,
-    "takedowns_par_15min": 3.13,
-    "precision_takedown_pct": 3,
-    "defense_takedown_pct": 54.0,
-    "soumissions_par_15min": 1.46,
-    "knockdowns_par_15min": 0.0,
-    "duree_moyenne_combat_s": 617,
-    "frappes_reussies": 309.0,
-    "takedowns_reussis": 1.0
+    "frappes_par_min": 4.25,
+    "precision_frappe_pct": 59,
+    "frappes_encaissees_par_min": 3.08,
+    "defense_frappe_pct": 58.0,
+    "takedowns_par_15min": 1.7,
+    "precision_takedown_pct": 16,
+    "defense_takedown_pct": 74.0,
+    "soumissions_par_15min": 0.28,
+    "knockdowns_par_15min": 0.43,
+    "duree_moyenne_combat_s": 793,
+    "frappes_reussies": 449.0,
+    "takedowns_reussis": 4.0
   },
-  "ufc": {
-    "palmares_tableau": {
-      "victoires": 13,
-      "defaites": 3,
-      "nuls": 0,
-      "sans_decision": 0,
-      "v": {
-        "ko": 4,
-        "soumission": 6,
-        "decision": 3,
-        "autre": 0
-      },
-      "d": {
-        "ko": 1,
-        "soumission": 1,
-        "decision": 1,
-        "autre": 0
-      }
-    },
-    "combats_ufc_par_annee": {
-      "2017": 2,
-      "2019": 1,
-      "2020": 2,
-      "2021": 1,
-      "2023": 1
-    },
-    "dernier_combat": {
-      "adversaire": "Diego Lopes",
-      "evenement": "UFC on ESPN: Sandhagen vs. Font",
-      "date": "August 5, 2023",
-      "resultat": "Loss",
-      "methode": "Submission (armbar)"
-    },
-    "combats_ufc": 7,
-    "victoires_ufc": 4,
-    "defaites_ufc": 3,
-    "victoires_decision_5_rounds": 0,
-    "combats_5_rounds_gagnes": 0,
-    "bonus_fotn": 0,
-    "bonus_potn": 1,
-    "bonus_kotn": 0,
-    "bonus_sotn": 0,
-    "combats_fotn": [],
-    "titres": [],
-    "technique_favorite": {
-      "technique": "rear-naked choke",
-      "finitions": 4
-    },
-    "premier_combat_ufc": {
-      "adversaire": "Sam Sicilia",
-      "evenement": "UFC Fight Night: Lewis vs. Browne",
-      "date": "February 19, 2017",
-      "resultat": "Win",
-      "methode": "Decision (unanimous)"
-    }
-  },
+  "ufc": {},
   "champion_actuel": false,
   "ancien_champion": false,
-  "accomplissements_en": [
-    "Ultimate Fighting Championship Performance of the Night (One time) vs Justin Jaynes",
-    "Performance of the Night (One time) vs Justin Jaynes",
-    "Extreme Combat Championship ECC Featherweight Championship (One time) One successful title defense",
-    "ECC Featherweight Championship (One time) One successful title defense",
-    "One successful title defense"
-  ],
+  "accomplissements_en": [],
+  "distinctions": {
+    "fr": [],
+    "en": []
+  },
   "image_commons": null,
   "sources": {
-    "wikipedia": "https://en.wikipedia.org/wiki/Gavin_Tucker",
-    "wikidata": "https://www.wikidata.org/wiki/Q30639513",
-    "ufc_com": "https://www.ufc.com/athlete/gavin-tucker"
+    "ufc_com": "https://www.ufc.com/athlete/jack-jenkins"
   },
   "champs_sources": {
     "surnom": "ufc_com",
     "pays": "wikidata",
     "categorie": "ufc_com",
-    "palmares": "wikipedia_tableau",
-    "stats_ufc": "ufc_com",
-    "ufc": "wikipedia_tableau",
-    "accomplissements_en": "wikipedia"
+    "palmares": "ufc_com",
+    "stats_ufc": "ufc_com"
   },
-  "a_verifier": [],
+  "a_verifier": [
+    "article Wikipedia introuvable",
+    "palmares.defaites_decision",
+    "palmares.defaites_ko",
+    "palmares.defaites_soumission",
+    "pays",
+    "sexe"
+  ],
   "ecarts_sources": {},
   "maj": "2026-10-04",
   "stats_jeu": {
-    "frappe": 61,
-    "puissance": 50,
-    "lutte": 57,
-    "soumission": 77,
-    "defense": 64,
-    "cardio": 57,
-    "menton": 85,
-    "globale": 64,
-    "style": "grappler",
-    "estimees": [],
+    "frappe": 65,
+    "puissance": 65,
+    "lutte": 65,
+    "soumission": 65,
+    "defense": 65,
+    "cardio": 65,
+    "menton": 65,
+    "globale": 65,
+    "style": "complet",
+    "estimees": [
+      "menton"
+    ],
     "formule_version": 1
   }
 }

@@ -154,47 +154,301 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "UFC Hall of Fame (Modern wing, Class of 2025)",
-    "UFC Hall of Fame (Fight wing, Class of 2023) vs. Rory MacDonald 2 at UFC 189",
-    "UFC Welterweight Championship (One time) Two successful title defenses",
-    "Two successful title defenses",
-    "Fight of the Night (Five times) vs. Johny Hendricks , Matt Brown , Rory MacDonald 2, Carlos Condit , and Bryan Barberena",
-    "Knockout of the Night (One time) vs. Josh Koscheck",
-    "UFC Encyclopedia Awards Fight of the Night (One time) vs. Aaron Riley  Knockout of the Night (One time) vs. Steve Berger",
-    "Fight of the Night (One time) vs. Aaron Riley",
-    "Knockout of the Night (One time) vs. Steve Berger",
-    "Tied ( Neil Magny & Carlos Prates ) for fifth most knockouts in UFC Welterweight Division history (7)",
-    "Eighth most significant strikes landed in UFC Welterweight Division history (1,200)",
-    "Second highest takedown accuracy percentage in UFC Welterweight Division history (72.7%)",
-    "2013: Ranked #8 Fighter of the Year  & Ranked #5 Upset of the Year vs. Rory MacDonald 1",
-    "2014: Fight of the Year vs. Johny Hendricks at UFC 171 , Fighter of the Year  & Ranked #7 Fight of the Year vs. Matt Brown",
-    "2015: Fight of the Year vs. Rory MacDonald 2 at UFC 189",
-    "2016: Half-Year Awards: Best Fight of the 1HY  & Ranked #3 Fight of the Year  vs. Carlos Condit",
-    "2023: Ranked #7 Knockout of the Year vs. Niko Price",
-    "Elite Xtreme Combat EliteXC Middleweight Championship (One time; Last) One successful title defense One successful title retainment",
-    "EliteXC Middleweight Championship (One time; Last) One successful title defense One successful title retainment",
-    "One successful title defense",
-    "One successful title retainment",
-    "ICON Sport ICON Sport Middleweight Championship (Two times)",
-    "ICON Sport Middleweight Championship (Two times)",
-    "Superbrawl Superbrawl Middleweight Championship (One time; Last)",
-    "Superbrawl Middleweight Championship (One time; Last)",
-    "RotoWire 2010s Fight of the Decade vs. Rory MacDonald 2 at UFC 189",
-    "2010s Fight of the Decade vs. Rory MacDonald 2 at UFC 189",
-    "World MMA Awards 2014 Fighter of the Year  2015 Fight of the Year vs. Rory MacDonald 2 at UFC 189",
-    "2014 Fighter of the Year",
-    "2015 Fight of the Year vs. Rory MacDonald 2 at UFC 189",
-    "2010 Knockout of the Year vs. Melvin Manhoef on January 30",
-    "2010 All-Violence Second Team",
-    "2014 All-Violence First Team",
-    "2015 All-Violence First Team",
-    "2013 Comeback Fighter of the Year",
-    "2014 Fighter of the Year",
-    "2014 Fight of the Year vs. Johny Hendricks at UFC 171",
-    "2015 Fight of the Year vs. Rory MacDonald 2 at UFC 189",
-    "2016 Fight of the Year vs. Carlos Condit at UFC 195",
-    "2014 Fighter of the Year"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame (Modern wing, Class of 2025)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame (Fight wing, Class of 2023) vs. Rory MacDonald 2 at UFC 189"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Welterweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Two successful title defenses"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Five times) vs. Johny Hendricks , Matt Brown , Rory MacDonald 2, Carlos Condit , and Bryan Barberena"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Knockout of the Night (One time) vs. Josh Koscheck"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Encyclopedia Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Aaron Riley"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Knockout of the Night (One time) vs. Steve Berger"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Neil Magny & Carlos Prates ) for fifth most knockouts in UFC Welterweight Division history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Eighth most significant strikes landed in UFC Welterweight Division history (1,200)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second highest takedown accuracy percentage in UFC Welterweight Division history (72.7%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2013: Ranked #8 Fighter of the Year & Ranked #5 Upset of the Year vs. Rory MacDonald 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2014: Fight of the Year vs. Johny Hendricks at UFC 171 , Fighter of the Year & Ranked #7 Fight of the Year vs. Matt Brown"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2015: Fight of the Year vs. Rory MacDonald 2 at UFC 189"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2016: Half-Year Awards: Best Fight of the 1HY & Ranked #3 Fight of the Year vs. Carlos Condit"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: Ranked #7 Knockout of the Year vs. Niko Price"
+    },
+    {
+      "org": "Elite Xtreme Combat",
+      "texte": "EliteXC Middleweight Championship (One time; Last)"
+    },
+    {
+      "org": "Elite Xtreme Combat",
+      "texte": "One successful title defense"
+    },
+    {
+      "org": "Elite Xtreme Combat",
+      "texte": "One successful title retainment"
+    },
+    {
+      "org": "ICON Sport",
+      "texte": "ICON Sport Middleweight Championship (Two times)"
+    },
+    {
+      "org": "Superbrawl",
+      "texte": "Superbrawl Middleweight Championship (One time; Last)"
+    },
+    {
+      "org": "RotoWire",
+      "texte": "2010s Fight of the Decade vs. Rory MacDonald 2 at UFC 189"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2014 Fighter of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2015 Fight of the Year vs. Rory MacDonald 2 at UFC 189"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2010 Knockout of the Year vs. Melvin Manhoef on January 30"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2010 All-Violence Second Team"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2014 All-Violence First Team"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2015 All-Violence First Team"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2013 Comeback Fighter of the Year"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2014 Fighter of the Year"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2014 Fight of the Year vs. Johny Hendricks at UFC 171"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2015 Fight of the Year vs. Rory MacDonald 2 at UFC 189"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2016 Fight of the Year vs. Carlos Condit at UFC 195"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2014 Fighter of the Year"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2014 Fight of the Year vs. Johny Hendricks at UFC 171"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2015 Fight of the Year vs. Rory MacDonald 2 at UFC 189"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2015 Comeback of the Year vs. Rory MacDonald 2 at UFC 189"
+    },
+    {
+      "org": "Inside MMA",
+      "texte": "2013 Breakthrough Fighter of the Year Bazzie Award"
+    },
+    {
+      "org": "Inside MMA",
+      "texte": "2014 Fight of the Year Bazzie Award vs. Johny Hendricks at UFC 171"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2014 Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2014 Fight of the Year vs. Johny Hendricks at UFC 171"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2015 Fight of the Year vs. Rory MacDonald 2 at UFC 189"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2016 Fight of the Year vs. Carlos Condit at UFC 195"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2010s Fight of the Decade vs. Rory MacDonald 2 at UFC 189"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2013 Comeback Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2014 Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2014 March Fight of the Month vs. Johny Hendricks"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2015 Fight of the Year vs. Rory MacDonald 2 at UFC 189"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2015 July Fight of the Month vs. Rory MacDonald 2"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2016 Fight of the Year vs. Carlos Condit at UFC 195"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2016 January Fight of the Month vs. Carlos Condit"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2010 Knockout of the Year vs. Melvin Manhoef"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2013 #10 Ranked Fighter of the Year"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2014 Fighter of the Year"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2014 Fight of the Year vs. Johny Hendricks at UFC 171"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2014 #4 Ranked Fight of the Year vs. Matt Brown at UFC on Fox: Lawler vs. Brown"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2015 Fight of the Year vs. Rory MacDonald 2 at UFC 189"
+    },
+    {
+      "org": "Wrestling Observer Newsletter awards",
+      "texte": "2014 MMA Match of the Year vs. Johny Hendricks at UFC 171"
+    },
+    {
+      "org": "Wrestling Observer Newsletter awards",
+      "texte": "2015 MMA Match of the Year vs. Rory Macdonald 2 at UFC 189"
+    },
+    {
+      "org": "Wrestling Observer Newsletter awards",
+      "texte": "2016 MMA Match of the Year vs. Carlos Condit at UFC 195"
+    },
+    {
+      "org": "Yahoo Sports",
+      "texte": "2013 Comeback Fighter of the Year"
+    },
+    {
+      "org": "Yahoo Sports",
+      "texte": "2014 Fighter of the Year"
+    },
+    {
+      "org": "Yahoo Sports",
+      "texte": "2014 Fight of the Year vs. Johny Hendricks at UFC 171"
+    },
+    {
+      "org": "Yahoo Sports",
+      "texte": "2015 Fight of the Year vs. Rory MacDonald 2 at UFC 189"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2014 Fighter of the Year"
+    },
+    {
+      "org": "MMA Weekly",
+      "texte": "2015 Fight of the Year vs. Rory MacDonald 2 at UFC 189"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2016 #4 Ranked UFC Fight of the Year vs. Carlos Condit"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids mi-moyens",
+      "Champion EliteXC des poids moyens",
+      "Hall of Fame de l'UFC (2025)",
+      "2 défenses de titre à l'UFC",
+      "Combattant de l'année (2014)",
+      "Bonus UFC : 5× Combat de la soirée, 1× KO de la soirée"
+    ],
+    "en": [
+      "UFC Welterweight Champion",
+      "EliteXC Middleweight Champion",
+      "UFC Hall of Fame (2025)",
+      "2 UFC title defenses",
+      "Fighter of the Year (2014)",
+      "UFC bonuses: 5× Fight of the Night, 1× Knockout of the Night"
+    ]
+  },
   "image_commons": "Robbie Lawler.png",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Robbie_Lawler",

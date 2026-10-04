@@ -143,42 +143,135 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "World Association of Kickboxing Organizations 2012 Junior World Championships - 1st place, -86 kg (K-1 rules)",
-    "2012 Junior World Championships - 1st place, -86 kg (K-1 rules)",
-    "Two successful title defences",
-    "First South African fighter to win a UFC championship",
-    "Tied ( Rich Franklin ) for fourth most UFC middleweight title wins (3)",
-    "Fight of the Night (Three times) vs. Darren Till , Sean Strickland 1 and Kamaru Usman",
-    "Performance of the Night (Two times) vs. Trevin Giles and Robert Whittaker",
-    "Tied ( Chris Weidman ) for third longest win streak in UFC Middleweight division history (9)",
-    "Holds wins over four former UFC champions — vs. Robert Whittaker , Israel Adesanya , Sean Strickland (x2) and Kamaru Usman",
-    "UFC Honors Awards 2024: Fan's Choice Submission of the Year Nominee vs. Israel Adesanya",
-    "2024: Fan's Choice Submission of the Year Nominee vs. Israel Adesanya",
-    "2023: Ranked #9 Upset of the Year vs. Robert Whittaker",
-    "2024: Ranked #5 Fighter of the Year ,  Ranked #4 Submission of the Year vs. Israel Adesanya  & Ranked #10 Fight of the Year vs. Israel Adesanya",
-    "Extreme Fighting Championship EFC Middleweight Champion (One time; former) One title defence EFC Welterweight Champion (One time; former) One title defence",
-    "EFC Middleweight Champion (One time; former) One title defence",
-    "One title defence",
-    "EFC Welterweight Champion (One time; former) One title defence",
-    "One title defence",
-    "Konfrontacja Sztuk Walki KSW Welterweight Champion (One time; former) Fight of the Night (One time) vs. Roberto Soldić Performance of the Night (One time) vs. Roberto Soldić",
-    "KSW Welterweight Champion (One time; former)",
-    "Fight of the Night (One time) vs. Roberto Soldić",
-    "Performance of the Night (One time) vs. Roberto Soldić",
-    "World MMA Awards 2024 International Fighter of the Year",
-    "2024 International Fighter of the Year",
-    "Combat Press 2023 Breakout Fighter of the Year",
-    "2023 Breakout Fighter of the Year",
-    "ESPN 2024 Submission of the Year vs. Israel Adesanya",
-    "2024 Submission of the Year vs. Israel Adesanya",
-    "MMA Fighting 2023 Second Team MMA All-Star  2024 First Team MMA All-Star",
-    "2023 Second Team MMA All-Star",
-    "2024 First Team MMA All-Star",
-    "MMA Mania 2024 #3 Ranked Fighter of the Year",
-    "2024 #3 Ranked Fighter of the Year",
-    "Sportsnaut 2023 UFC Breakout Fighter of the Year",
-    "2023 UFC Breakout Fighter of the Year"
+    {
+      "org": "World Association of Kickboxing Organizations",
+      "texte": "2012 Junior World Championships - 1st place, -86 kg (K-1 rules)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Middleweight Championship (One time; former)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Two successful title defences"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First South African fighter to win a UFC championship"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Rich Franklin ) for fourth most UFC middleweight title wins (3)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Three times) vs. Darren Till , Sean Strickland 1 and Kamaru Usman"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. Trevin Giles and Robert Whittaker"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Chris Weidman ) for third longest win streak in UFC Middleweight division history (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Holds wins over four former UFC champions — vs. Robert Whittaker , Israel Adesanya , Sean Strickland (x2) and Kamaru Usman"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: Fan's Choice Submission of the Year Nominee vs. Israel Adesanya"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: Ranked #9 Upset of the Year vs. Robert Whittaker"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: Ranked #5 Fighter of the Year , Ranked #4 Submission of the Year vs. Israel Adesanya & Ranked #10 Fight of the Year vs. Israel Adesanya"
+    },
+    {
+      "org": "Extreme Fighting Championship",
+      "texte": "EFC Middleweight Champion (One time; former)"
+    },
+    {
+      "org": "Extreme Fighting Championship",
+      "texte": "One title defence"
+    },
+    {
+      "org": "Extreme Fighting Championship",
+      "texte": "EFC Welterweight Champion (One time; former)"
+    },
+    {
+      "org": "Extreme Fighting Championship",
+      "texte": "One title defence"
+    },
+    {
+      "org": "Konfrontacja Sztuk Walki",
+      "texte": "KSW Welterweight Champion (One time; former)"
+    },
+    {
+      "org": "Konfrontacja Sztuk Walki",
+      "texte": "Fight of the Night (One time) vs. Roberto Soldić"
+    },
+    {
+      "org": "Konfrontacja Sztuk Walki",
+      "texte": "Performance of the Night (One time) vs. Roberto Soldić"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2024 International Fighter of the Year"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2023 Breakout Fighter of the Year"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2024 Submission of the Year vs. Israel Adesanya"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2023 Second Team MMA All-Star"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2024 First Team MMA All-Star"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2024 #3 Ranked Fighter of the Year"
+    },
+    {
+      "org": "Sportsnaut",
+      "texte": "2023 UFC Breakout Fighter of the Year"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids moyens",
+      "Champion KSW des poids mi-moyens",
+      "2 défenses de titre à l'UFC",
+      "Soumission de l'année (2024)",
+      "Bonus UFC : 3× Performance de la soirée, 4× Combat de la soirée"
+    ],
+    "en": [
+      "UFC Middleweight Champion",
+      "KSW Welterweight Champion",
+      "2 UFC title defenses",
+      "Submission of the Year (2024)",
+      "UFC bonuses: 3× Performance of the Night, 4× Fight of the Night"
+    ]
+  },
   "image_commons": "IMG-Dricus-Duplessis(cropped).jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Dricus_du_Plessis",

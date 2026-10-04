@@ -135,37 +135,119 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "UFC Light Heavyweight Championship (One time) One successful title defense vs. Maurício Rua",
-    "One successful title defense vs. Maurício Rua",
-    "Knockout of the Night (Four times) vs. Thiago Silva , Rashad Evans , Randy Couture and Mark Muñoz",
-    "Fight of the Night (Three times) vs. Jon Jones , Gegard Mousasi and Chris Weidman",
-    "Performance of the Night (Two times) vs. C.B. Dollaway and Vitor Belfort",
-    "Highest takedown accuracy percentage in UFC Light Heavyweight division history (65.0%)",
-    "Fourth longest win streak in UFC Light Heavyweight division history (8)",
-    "Tied ( Chuck Liddell , Junior dos Santos , Thiago Santos , Maurício Rua & Khalil Rountree Jr. ) for sixth most knockdowns landed in UFC history (14)",
-    "2009: Half-Year Awards: Best Knockout of the 1HY vs. Rashad Evans ,  Ranked #2 Knockout of the Year vs. Rashad Evans ,  Ranked #2 Fighter of the Year  & Ranked #9 Fight of the Year vs. Maurício Rua",
-    "2011: Ranked #6 Knockout of the Year vs. Randy Couture",
-    "2013: Ranked #9 Knockout of the Year vs. Mark Munoz",
-    "2018: Ranked #3 Knockout of the Year vs. Vitor Belfort",
-    "Sherdog 2011 Knockout of the Year vs. Randy Couture  Mixed Martial Arts Hall of Fame",
-    "2011 Knockout of the Year vs. Randy Couture",
-    "Mixed Martial Arts Hall of Fame",
-    "Black Belt Magazine 2009 Fighter of the Year",
-    "2009 Fighter of the Year",
-    "MMA Fighting 2009 #5 Ranked Fighter of the Year",
-    "2009 #5 Ranked Fighter of the Year",
-    "MMA Torch 2014 Fight of the Year vs. Chris Weidman at UFC 175",
-    "2014 Fight of the Year vs. Chris Weidman at UFC 175",
-    "Fight Matrix 2014 Most Noteworthy Match of the Year vs. Chris Weidman on 5 July 2014",
-    "2014 Most Noteworthy Match of the Year vs. Chris Weidman on 5 July 2014",
-    "MMA Junkie 2014 July Fight of the Month vs. Chris Weidman  2018 May Knockout of the Month vs. Vitor Belfort",
-    "2014 July Fight of the Month vs. Chris Weidman",
-    "2018 May Knockout of the Month vs. Vitor Belfort",
-    "CBS Sports 2018 #2 Ranked UFC Knockout of the Year vs. Vitor Belfort",
-    "2018 #2 Ranked UFC Knockout of the Year vs. Vitor Belfort",
-    "Bleacher Report 2014 #3 Ranked Fight of the Year vs. Chris Weidman",
-    "2014 #3 Ranked Fight of the Year vs. Chris Weidman"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Light Heavyweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "One successful title defense vs. Maurício Rua"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Knockout of the Night (Four times) vs. Thiago Silva , Rashad Evans , Randy Couture and Mark Muñoz"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Three times) vs. Jon Jones , Gegard Mousasi and Chris Weidman"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. C.B. Dollaway and Vitor Belfort"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Highest takedown accuracy percentage in UFC Light Heavyweight division history (65.0%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth longest win streak in UFC Light Heavyweight division history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most knockdowns landed in UFC Light Heavyweight division history (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Chuck Liddell , Junior dos Santos , Thiago Santos , Maurício Rua & Khalil Rountree Jr. ) for sixth most knockdowns landed in UFC history (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2009: Half-Year Awards: Best Knockout of the 1HY vs. Rashad Evans , Ranked #2 Knockout of the Year vs. Rashad Evans , Ranked #2 Fighter of the Year & Ranked #9 Fight of the Year vs. Maurício Rua"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2011: Ranked #6 Knockout of the Year vs. Randy Couture"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2013: Ranked #9 Knockout of the Year vs. Mark Munoz"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2018: Ranked #3 Knockout of the Year vs. Vitor Belfort"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2011 Knockout of the Year vs. Randy Couture"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "Mixed Martial Arts Hall of Fame"
+    },
+    {
+      "org": "Black Belt Magazine",
+      "texte": "2009 Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2009 #5 Ranked Fighter of the Year"
+    },
+    {
+      "org": "MMA Torch",
+      "texte": "2014 Fight of the Year vs. Chris Weidman at UFC 175"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2014 Most Noteworthy Match of the Year vs. Chris Weidman on 5 July 2014"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2014 July Fight of the Month vs. Chris Weidman"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2018 May Knockout of the Month vs. Vitor Belfort"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2018 #2 Ranked UFC Knockout of the Year vs. Vitor Belfort"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2014 #3 Ranked Fight of the Year vs. Chris Weidman"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids mi-lourds",
+      "1 défense de titre à l'UFC",
+      "Combattant de l'année (2009)",
+      "Combat de l'année (2014)",
+      "Bonus UFC : 2× Performance de la soirée, 3× Combat de la soirée, 4× KO de la soirée"
+    ],
+    "en": [
+      "UFC Light Heavyweight Champion",
+      "1 UFC title defense",
+      "Fighter of the Year (2009)",
+      "Fight of the Year (2014)",
+      "UFC bonuses: 2× Performance of the Night, 3× Fight of the Night, 4× Knockout of the Night"
+    ]
+  },
   "image_commons": "Lyoto Machida by Marcos Joel Reis.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Lyoto_Machida",

@@ -120,28 +120,97 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "UFC Women's Strawweight Championship (Two times; first) Longest time between title reigns in UFC history (2,612 days)",
-    "Longest time between title reigns in UFC history (2,612 days)",
-    "The Ultimate Fighter 20 Tournament Winner",
-    "Fight of the Night (One time) vs. Alexa Grasso",
-    "Performance of the Night (Two times) vs. Rose Namajunas 1 and Yan Xiaonan",
-    "Tied ( Joanna Jedrzejczyk , Jéssica Andrade & Zhang Weili ) for fourth most wins in the UFC Women's Strawweight division history (10)",
-    "Fifth most bouts in UFC Women's Strawweight division history (16)",
-    "Most takedowns landed in the UFC Women's Strawweight division history (48)",
-    "Tied ( Yan Xiaonan , Tatiana Suarez & Loopy Godinez ) for the second longest win streak in UFC Women's Strawweight division history (6)",
-    "Most split decision wins in the UFC Women's Strawweight division history (3)",
-    "2014: Ranked #10 Newcomer of the Year (Tied with Paige VanZant & Henry Cejudo )",
-    "2017: Ranked #9 Upset of the Year vs. Cynthia Calvillo",
-    "2022: Half-Year Awards: Biggest Upset of the 1HY  & Ranked #2 Upset of the Year vs. Rose Namajunas 2",
-    "Invicta FC Invicta FC Strawweight Championship (One time; first)",
-    "Invicta FC Strawweight Championship (One time; first)",
-    "Combat Press 2014 Female Fighter of the Year",
-    "2014 Female Fighter of the Year",
-    "MMAWeekly.com 2014 Female Fighter of the Year",
-    "2014 Female Fighter of the Year",
-    "Pan-American Championship 2013 Pan-American Jiu-Jitsu Championship - Silver medalist, female blue belt featherweight",
-    "2013 Pan-American Jiu-Jitsu Championship - Silver medalist, female blue belt featherweight"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Women's Strawweight Championship (Two times; first)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Longest time between title reigns in UFC history (2,612 days)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "The Ultimate Fighter 20 Tournament Winner"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Alexa Grasso"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. Rose Namajunas 1 and Yan Xiaonan"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Joanna Jedrzejczyk , Jéssica Andrade & Zhang Weili ) for fourth most wins in the UFC Women's Strawweight division history (10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth most bouts in UFC Women's Strawweight division history (16)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most takedowns landed in the UFC Women's Strawweight division history (48)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Yan Xiaonan , Tatiana Suarez & Loopy Godinez ) for the second longest win streak in UFC Women's Strawweight division history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most split decision wins in the UFC Women's Strawweight division history (3)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2014: Ranked #10 Newcomer of the Year (Tied with Paige VanZant & Henry Cejudo )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2017: Ranked #9 Upset of the Year vs. Cynthia Calvillo"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Half-Year Awards: Biggest Upset of the 1HY & Ranked #2 Upset of the Year vs. Rose Namajunas 2"
+    },
+    {
+      "org": "Invicta FC",
+      "texte": "Invicta FC Strawweight Championship (One time; first)"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2014 Female Fighter of the Year"
+    },
+    {
+      "org": "MMAWeekly.com",
+      "texte": "2014 Female Fighter of the Year"
+    },
+    {
+      "org": "Pan-American Championship",
+      "texte": "2013 Pan-American Jiu-Jitsu Championship - Silver medalist, female blue belt featherweight"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Championne UFC des poids paille féminins (2 fois)",
+      "Championne Invicta FC des poids paille",
+      "Vainqueur de The Ultimate Fighter 20",
+      "Combattante de l'année (2014)",
+      "Record UFC chez les poids paille féminins : takedowns réussis (48)",
+      "Bonus UFC : 2× Performance de la soirée, 1× Combat de la soirée"
+    ],
+    "en": [
+      "UFC Women's Strawweight Champion (2×)",
+      "Invicta FC Strawweight Champion",
+      "The Ultimate Fighter 20 winner",
+      "Fighter of the Year (2014)",
+      "UFC Women's Strawweight record: most takedowns landed (48)",
+      "UFC bonuses: 2× Performance of the Night, 1× Fight of the Night"
+    ]
+  },
   "image_commons": "Carla Esparza 2022 01.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Carla_Esparza",

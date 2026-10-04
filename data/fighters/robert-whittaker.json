@@ -142,47 +142,171 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "GQ Australia 2018 Sportsman of the Year",
-    "2018 Sportsman of the Year",
-    "UFC Middleweight Championship (One time)",
-    "Interim UFC Middleweight Championship (One time) First Australian to win a UFC championship First New Zealand-born UFC champion",
-    "First Australian to win a UFC championship",
-    "First New Zealand-born UFC champion",
-    "The Ultimate Fighter: The Smashes Welterweight Tournament Winner The Ultimate Fighter: The Smashes Knockout of the Season",
-    "The Ultimate Fighter: The Smashes Knockout of the Season",
-    "Fight of the Night (Five times) vs. Clint Hester , Derek Brunson , Yoel Romero (2), and Kelvin Gastelum",
-    "Second most Post-Fight bonuses in UFC Middleweight division history (9) (behind Anderson Silva )",
-    "Tied ( Yoel Romero & Anthony Hernandez ) for fifth longest win streak in UFC Middleweight division history (8)",
-    "Tied ( Anderson Silva , Derek Brunson & Brendan Allen ) for third most wins in UFC Middleweight division history (14)",
-    "Tied for sixth most unanimous decision wins in UFC history (10) Tied ( Michael Bisping ) for third most decision wins in UFC Middleweight division history (9)",
-    "Tied ( Michael Bisping ) for third most decision wins in UFC Middleweight division history (9)",
-    "Sixth most significant strikes landed in UFC Middleweight division history (1166)",
-    "UFC.com Awards 2016: Ranked #10 Fight of the Year vs. Derek Brunson  2017: Ranked #4 Fighter of the Year  2018: Fight of the Year vs. Yoel Romero 2",
-    "2016: Ranked #10 Fight of the Year vs. Derek Brunson",
-    "2017: Ranked #4 Fighter of the Year",
-    "2018: Fight of the Year vs. Yoel Romero 2",
-    "Superfight Australia SFA Welterweight Championship (one time)",
-    "SFA Welterweight Championship (one time)",
-    "ESPN 2020 Comeback Fighter of the Year",
-    "2020 Comeback Fighter of the Year",
-    "MMA Mania UFC/MMA 'Fighter of the Year' 2017 – Top 5 List No. 2",
-    "UFC/MMA 'Fighter of the Year' 2017 – Top 5 List No. 2",
-    "MMA Junkie 2024 February Fight of the Month vs. Paulo Costa at UFC 298",
-    "2024 February Fight of the Month vs. Paulo Costa at UFC 298",
-    "Sherdog 2017 Fighter of the Year",
-    "2017 Fighter of the Year",
-    "MMA DNA.nl 2017 Fighter of the Year  2018 Fight of the Year vs. Yoel Romero 2 at UFC 225",
-    "2017 Fighter of the Year",
-    "2018 Fight of the Year vs. Yoel Romero 2 at UFC 225",
-    "BJPENN.COM June 2018 Scrap of the Month vs. Yoel Romero 2 at UFC 225",
-    "June 2018 Scrap of the Month vs. Yoel Romero 2 at UFC 225",
-    "World MMA Awards 2017 International Fighter of the Year",
-    "2017 International Fighter of the Year",
-    "CBS Sports 2017 #4 Ranked UFC Fighter of the Year  2017 #5 Ranked UFC Fight of the Year vs. Yoel Romero at UFC 213  2018 #5 Ranked UFC Fight of the Year vs. Yoel Romero 2 at UFC 225",
-    "2017 #4 Ranked UFC Fighter of the Year",
-    "2017 #5 Ranked UFC Fight of the Year vs. Yoel Romero at UFC 213",
-    "2018 #5 Ranked UFC Fight of the Year vs. Yoel Romero 2 at UFC 225"
+    {
+      "org": "GQ Australia",
+      "texte": "2018 Sportsman of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Middleweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Interim UFC Middleweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First Australian to win a UFC championship"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First New Zealand-born UFC champion"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "The Ultimate Fighter: The Smashes Welterweight Tournament Winner"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "The Ultimate Fighter: The Smashes Knockout of the Season"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Five times) vs. Clint Hester , Derek Brunson , Yoel Romero (2), and Kelvin Gastelum"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Four times) vs. Brad Tavares , Derek Brunson , Ronaldo Souza and Ikram Aliskerov"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most Post-Fight bonuses in UFC Middleweight division history (9) (behind Anderson Silva )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Yoel Romero & Anthony Hernandez ) for fifth longest win streak in UFC Middleweight division history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Anderson Silva , Derek Brunson & Brendan Allen ) for third most wins in UFC Middleweight division history (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied for sixth most unanimous decision wins in UFC history (10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Michael Bisping ) for third most decision wins in UFC Middleweight division history (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Sixth most significant strikes landed in UFC Middleweight division history (1166)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2016: Ranked #10 Fight of the Year vs. Derek Brunson"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2017: Ranked #4 Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2018: Fight of the Year vs. Yoel Romero 2"
+    },
+    {
+      "org": "Superfight Australia",
+      "texte": "SFA Welterweight Championship (one time)"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2020 Comeback Fighter of the Year"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "UFC/MMA 'Fighter of the Year' 2017 – Top 5 List No. 2"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2024 February Fight of the Month vs. Paulo Costa at UFC 298"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2017 Fighter of the Year"
+    },
+    {
+      "org": "MMA DNA.nl",
+      "texte": "2017 Fighter of the Year"
+    },
+    {
+      "org": "MMA DNA.nl",
+      "texte": "2018 Fight of the Year vs. Yoel Romero 2 at UFC 225"
+    },
+    {
+      "org": "BJPENN.COM",
+      "texte": "June 2018 Scrap of the Month vs. Yoel Romero 2 at UFC 225"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2017 International Fighter of the Year"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2017 #4 Ranked UFC Fighter of the Year"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2017 #5 Ranked UFC Fight of the Year vs. Yoel Romero at UFC 213"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2018 #5 Ranked UFC Fight of the Year vs. Yoel Romero 2 at UFC 225"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2018 Fight of the Year vs. Yoel Romero 2 at UFC 225"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2018 Fight of the Year vs. Yoel Romero 2 at UFC 225"
+    },
+    {
+      "org": "Slacky Awards",
+      "texte": "2017 Technical Turn-Around of the Year"
+    },
+    {
+      "org": "Australia Cup",
+      "texte": "Winner – 97 kg (2015)"
+    },
+    {
+      "org": "Australian National Wrestling Championships",
+      "texte": "Gold medal – 97 kg (2017)"
+    },
+    {
+      "org": "Commonwealth Games",
+      "texte": "Qualified – 97 kg ( 2018 )"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids moyens",
+      "Vainqueur de The Ultimate Fighter: The Smashes",
+      "Combattant de l'année (2017)",
+      "Combat de l'année (2018)",
+      "Bonus UFC : 4× Performance de la soirée, 5× Combat de la soirée"
+    ],
+    "en": [
+      "UFC Middleweight Champion",
+      "The Ultimate Fighter: The Smashes winner",
+      "Fighter of the Year (2017)",
+      "Fight of the Year (2018)",
+      "UFC bonuses: 4× Performance of the Night, 5× Fight of the Night"
+    ]
+  },
   "image_commons": "Robert whittaker.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Robert_Whittaker_(fighter)",

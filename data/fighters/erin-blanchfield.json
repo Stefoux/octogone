@@ -98,24 +98,67 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Eddie Bravo Invitational Eddie Bravo Invitational Champion (One time)",
-    "Eddie Bravo Invitational Champion (One time)",
-    "Performance of the Night (One time) vs. Jéssica Andrade",
-    "Fifth longest win streak in UFC Women's Flyweight division history (6)",
-    "Second most submissions in UFC Women's Flyweight division history (4) (behind Gillian Robertson )",
-    "Tied ( Montana De La Rosa ) for fourth most finishes in UFC Women's Flyweight division history (4)",
-    "Second lowest bottom position time in UFC Women's Flyweight division history (0.30)",
-    "Second lowest bottom position percentage in UFC Women's Flyweight division history (0.44%)",
-    "UFC.com Awards 2021: Ranked #5 Newcomer of the Year  2023: Ranked #6 Submission of the Year vs. Jéssica Andrade",
-    "2021: Ranked #5 Newcomer of the Year",
-    "2023: Ranked #6 Submission of the Year vs. Jéssica Andrade",
-    "Invicta Fighting Championships Performance of the Night (Two times) vs. Victoria Leonardo , Brogan Walker-Sanchez",
-    "Performance of the Night (Two times) vs. Victoria Leonardo , Brogan Walker-Sanchez",
-    "Yahoo Sports 2021 MMA Prospect of the Year",
-    "2021 MMA Prospect of the Year",
-    "MMA Fighting 2022 Second Team MMA All-Star",
-    "2022 Second Team MMA All-Star"
+    {
+      "org": "Eddie Bravo Invitational",
+      "texte": "Eddie Bravo Invitational Champion (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Jéssica Andrade"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth longest win streak in UFC Women's Flyweight division history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most submissions in UFC Women's Flyweight division history (4) (behind Gillian Robertson )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Montana De La Rosa ) for fourth most finishes in UFC Women's Flyweight division history (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second lowest bottom position time in UFC Women's Flyweight division history (0.30)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second lowest bottom position percentage in UFC Women's Flyweight division history (0.44%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: Ranked #5 Newcomer of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: Ranked #6 Submission of the Year vs. Jéssica Andrade"
+    },
+    {
+      "org": "Invicta Fighting Championships",
+      "texte": "Performance of the Night (Two times) vs. Victoria Leonardo , Brogan Walker-Sanchez"
+    },
+    {
+      "org": "Yahoo Sports",
+      "texte": "2021 MMA Prospect of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2022 Second Team MMA All-Star"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 3× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 3× Performance of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Erin_Blanchfield",

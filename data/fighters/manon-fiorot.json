@@ -99,16 +99,39 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Tied ( Maycee Barber ) for the third longest win streak in UFC Women's Flyweight division history (7) (behind Valentina Shevchenko )",
-    "Tied ( Maycee Barber , Carli Judice & Casey O'Neill ) for second most knockouts in UFC Women's Flyweight division history (3) (behind Valentina Shevchenko )",
-    "Second highest takedown defense percentage in UFC Women's Flyweight division history (87.5%) (behind Natália Silva )",
-    "UFC.com Awards 2021: Ranked #2 Newcomer of the Year",
-    "2021: Ranked #2 Newcomer of the Year",
-    "Extreme Fighting Championship EFC Women's Flyweight World Championship (One time)",
-    "EFC Women's Flyweight World Championship (One time)",
-    "UAE Warriors UAEW Flyweight Championship (One time)",
-    "UAEW Flyweight Championship (One time)"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Maycee Barber ) for the third longest win streak in UFC Women's Flyweight division history (7) (behind Valentina Shevchenko )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Maycee Barber , Carli Judice & Casey O'Neill ) for second most knockouts in UFC Women's Flyweight division history (3) (behind Valentina Shevchenko )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second highest takedown defense percentage in UFC Women's Flyweight division history (87.5%) (behind Natália Silva )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: Ranked #2 Newcomer of the Year"
+    },
+    {
+      "org": "Extreme Fighting Championship",
+      "texte": "EFC Women's Flyweight World Championship (One time)"
+    },
+    {
+      "org": "UAE Warriors",
+      "texte": "UAEW Flyweight Championship (One time)"
+    }
   ],
+  "distinctions": {
+    "fr": [],
+    "en": []
+  },
   "image_commons": "MANON FIOROT ET ALDRIC CASSATA, LE COUPLE GOAL DU MMA - MMA EXTRA ROUND -22 - YouTube - 0-28-31 (cropped).jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Manon_Fiorot",

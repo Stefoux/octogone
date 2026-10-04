@@ -113,17 +113,43 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Fight of the Night (Two times) vs. Islam Makhachev and Mateusz Gamrot",
-    "Performance of the Night (Five times) vs. Christos Giagos , Joel Álvarez , Beneil Dariush , Dan Hooker and Maurício Ruffy",
-    "UFC.com Awards 2022: Ranked #9 Fight of the Year vs. Mateusz Gamrot",
-    "2022: Ranked #9 Fight of the Year vs. Mateusz Gamrot",
-    "MMA Fighting 2022 Third Team MMA All-Star",
-    "2022 Third Team MMA All-Star",
-    "Absolute Championship Akhmat ACBJJ \"All-Star Title\" (one time)",
-    "ACBJJ \"All-Star Title\" (one time)",
-    "Real American Freestyle Match of the Night (One time) vs. Colby Covington",
-    "Match of the Night (One time) vs. Colby Covington"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Two times) vs. Islam Makhachev and Mateusz Gamrot"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Five times) vs. Christos Giagos , Joel Álvarez , Beneil Dariush , Dan Hooker and Maurício Ruffy"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Ranked #9 Fight of the Year vs. Mateusz Gamrot"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2022 Third Team MMA All-Star"
+    },
+    {
+      "org": "Absolute Championship Akhmat",
+      "texte": "ACBJJ \"All-Star Title\" (one time)"
+    },
+    {
+      "org": "Real American Freestyle",
+      "texte": "Match of the Night (One time) vs. Colby Covington"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 5× Performance de la soirée, 2× Combat de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 5× Performance of the Night, 2× Fight of the Night"
+    ]
+  },
   "image_commons": "Arman Tsarukyan 2024.png",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Arman_Tsarukyan",

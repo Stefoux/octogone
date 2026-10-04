@@ -122,28 +122,97 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "The Ultimate Fighter: Tournament of Champions Winner",
-    "Fight of the Night (Three times) vs. Jared Papazian, Louis Smolka and Brandon Royval",
-    "Performance of the Night (Three times) vs. Mark De La Rosa , Su Mudaerji and Kai Asakura",
-    "Most takedowns landed in UFC Flyweight division history (63)",
-    "Most total strikes landed in UFC Flyweight division history (1921)",
-    "Second most bouts in UFC Flyweight division history (20) (behind Brandon Moreno )",
-    "Tied ( Joseph Benavidez & Joshua Van ) for most decision wins in UFC Flyweight division history (7)",
-    "Most decision bouts in UFC Flyweight division history (14)",
-    "Most unanimous decision wins in UFC Flyweight division history (7)",
-    "Third most total fight time in UFC Flyweight division history (4:19:05)",
-    "Second most control time in UFC Flyweight division history (1:13:07) (behind Demetrious Johnson )",
-    "Second most top position time in UFC Flyweight division history (1:03:39) (behind Demetrious Johnson )",
-    "Fifth most significant strikes in UFC Flyweight division history (926)",
-    "Third most submission attempts in UFC Flyweight division history (16)",
-    "UFC.com Awards 2017: Ranked #6 Fight of the Year vs. Louis Smolka",
-    "2017: Ranked #6 Fight of the Year vs. Louis Smolka",
-    "Titan FC Titan FC Flyweight Championship (One time; first, former) Two successful title defenses",
-    "Titan FC Flyweight Championship (One time; first, former) Two successful title defenses",
-    "Two successful title defenses",
-    "Combat Press 2016 Comeback Fighter of the Year",
-    "2016 Comeback Fighter of the Year"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "The Ultimate Fighter: Tournament of Champions Winner"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Three times) vs. Jared Papazian, Louis Smolka and Brandon Royval"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Three times) vs. Mark De La Rosa , Su Mudaerji and Kai Asakura"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most takedowns landed in UFC Flyweight division history (63)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most total strikes landed in UFC Flyweight division history (1921)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most bouts in UFC Flyweight division history (20) (behind Brandon Moreno )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Joseph Benavidez & Joshua Van ) for most decision wins in UFC Flyweight division history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most decision bouts in UFC Flyweight division history (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most unanimous decision wins in UFC Flyweight division history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most total fight time in UFC Flyweight division history (4:19:05)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most control time in UFC Flyweight division history (1:13:07) (behind Demetrious Johnson )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most top position time in UFC Flyweight division history (1:03:39) (behind Demetrious Johnson )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth most significant strikes in UFC Flyweight division history (926)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most submission attempts in UFC Flyweight division history (16)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2017: Ranked #6 Fight of the Year vs. Louis Smolka"
+    },
+    {
+      "org": "Titan FC",
+      "texte": "Titan FC Flyweight Championship (One time; first, former)"
+    },
+    {
+      "org": "Titan FC",
+      "texte": "Two successful title defenses"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2016 Comeback Fighter of the Year"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Vainqueur de The Ultimate Fighter: Tournament of",
+      "Record UFC chez les poids mouche : takedowns réussis (63)",
+      "Record UFC chez les poids mouche : frappes réussies (1921)",
+      "Bonus UFC : 3× Performance de la soirée, 3× Combat de la soirée"
+    ],
+    "en": [
+      "The Ultimate Fighter: Tournament of winner",
+      "UFC Flyweight record: most takedowns landed (63)",
+      "UFC Flyweight record: most total strikes landed (1921)",
+      "UFC bonuses: 3× Performance of the Night, 3× Fight of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Tim_Elliott",

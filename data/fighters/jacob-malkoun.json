@@ -99,8 +99,15 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "2019: ADCC Asian & Oceanic Championship - 1st place in 99 kg class ( Tokyo )"
+    {
+      "org": null,
+      "texte": "2019: ADCC Asian & Oceanic Championship - 1st place in 99 kg class ( Tokyo )"
+    }
   ],
+  "distinctions": {
+    "fr": [],
+    "en": []
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Jacob_Malkoun",

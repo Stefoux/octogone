@@ -111,33 +111,103 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Fight of the Night (One time) vs. Marvin Vettori",
-    "Performance of the Night (One time) vs. David Branch",
-    "Most significant body strikes landed in a UFC middleweight bout (64) vs. Sean Strickland",
-    "Most total strikes attempted in a UFC middleweight bout (496) vs. Ronaldo Souza",
-    "Fifth most significant strikes landed in UFC Middleweight division history (999)  Fourth most total strikes landed in UFC Middleweight division history (1366)",
-    "Fourth most total strikes landed in UFC Middleweight division history (1366)",
-    "UFC.com Awards 2020: Ranked #7 Submission of the Year vs. Kelvin Gastelum",
-    "2020: Ranked #7 Submission of the Year vs. Kelvin Gastelum",
-    "Cage Warriors Fighting Championship CWFC Middleweight Championship (One time)  Two successful title defenses  Undefeated in the CWFC (7–0)",
-    "CWFC Middleweight Championship (One time)",
-    "Two successful title defenses",
-    "Undefeated in the CWFC (7–0)",
-    "Warrior Fight Series WFS Middleweight Championship (One time)",
-    "WFS Middleweight Championship (One time)",
-    "East Coast Fight Factory ECFF Middleweight Championship (One time)",
-    "ECFF Middleweight Championship (One time)",
-    "2014 Breakthrough Fighter of the Year",
-    "2018 Nordic Fighter of the Year",
-    "2018 Comeback of the Year vs. Thales Leites",
-    "2019 Submission of the Year vs. David Branch",
-    "2019 Fighter of the Year",
-    "2020 Submission of the Year vs. Kelvin Gastelum",
-    "CombatPress.com 2019 Upset of the Year vs. Ronaldo Souza",
-    "2019 Upset of the Year vs. Ronaldo Souza",
-    "Oslo Submission Series OSS 2 (2016) Super Fight Winner",
-    "OSS 2 (2016) Super Fight Winner"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Marvin Vettori"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. David Branch"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most significant body strikes landed in a UFC middleweight bout (64) vs. Sean Strickland"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most total strikes attempted in a UFC middleweight bout (496) vs. Ronaldo Souza"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth most significant strikes landed in UFC Middleweight division history (999)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most total strikes landed in UFC Middleweight division history (1366)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Ranked #7 Submission of the Year vs. Kelvin Gastelum"
+    },
+    {
+      "org": "Cage Warriors Fighting Championship",
+      "texte": "CWFC Middleweight Championship (One time)"
+    },
+    {
+      "org": "Cage Warriors Fighting Championship",
+      "texte": "Two successful title defenses"
+    },
+    {
+      "org": "Cage Warriors Fighting Championship",
+      "texte": "Undefeated in the CWFC (7–0)"
+    },
+    {
+      "org": "Warrior Fight Series",
+      "texte": "WFS Middleweight Championship (One time)"
+    },
+    {
+      "org": "East Coast Fight Factory",
+      "texte": "ECFF Middleweight Championship (One time)"
+    },
+    {
+      "org": "Nordic MMA Awards – MMAViking.com",
+      "texte": "2014 Breakthrough Fighter of the Year"
+    },
+    {
+      "org": "Nordic MMA Awards – MMAViking.com",
+      "texte": "2018 Nordic Fighter of the Year"
+    },
+    {
+      "org": "Nordic MMA Awards – MMAViking.com",
+      "texte": "2018 Comeback of the Year vs. Thales Leites"
+    },
+    {
+      "org": "Nordic MMA Awards – MMAViking.com",
+      "texte": "2019 Submission of the Year vs. David Branch"
+    },
+    {
+      "org": "Nordic MMA Awards – MMAViking.com",
+      "texte": "2019 Fighter of the Year"
+    },
+    {
+      "org": "Nordic MMA Awards – MMAViking.com",
+      "texte": "2020 Submission of the Year vs. Kelvin Gastelum"
+    },
+    {
+      "org": "CombatPress.com",
+      "texte": "2019 Upset of the Year vs. Ronaldo Souza"
+    },
+    {
+      "org": "Oslo Submission Series",
+      "texte": "OSS 2 (2016) Super Fight Winner"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Combattant de l'année (2019)",
+      "Soumission de l'année (2019, 2020)",
+      "Bonus UFC : 1× Performance de la soirée, 1× Combat de la soirée"
+    ],
+    "en": [
+      "Fighter of the Year (2019)",
+      "Submission of the Year (2019, 2020)",
+      "UFC bonuses: 1× Performance of the Night, 1× Fight of the Night"
+    ]
+  },
   "image_commons": "Jack Hermansson on MMAnytt.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Jack_Hermansson",

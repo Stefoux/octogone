@@ -101,6 +101,10 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [],
+  "distinctions": {
+    "fr": [],
+    "en": []
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Matheus_Nicolau",

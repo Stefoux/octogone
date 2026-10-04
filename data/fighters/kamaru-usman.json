@@ -164,47 +164,281 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "National Collegiate Athletic Association NCAA Division II National Championship (174 lbs, 2010)  NCAA Division II All-American (174 lbs, 2008, 2009, 2010)",
-    "NCAA Division II National Championship (174 lbs, 2010)",
-    "NCAA Division II All-American (174 lbs, 2008, 2009, 2010)",
-    "National Association of Intercollegiate Athletics NAIA National Qualifier (165 lbs, 2007)",
-    "NAIA National Qualifier (165 lbs, 2007)",
-    "University Interscholastic League UIL All-State out of Bowie High School (145 lbs, 2005)",
-    "UIL All-State out of Bowie High School (145 lbs, 2005)",
-    "National Wrestling Coaches Association Jim Koch Division II Hall of Fame, 2022 Class",
-    "Jim Koch Division II Hall of Fame, 2022 Class",
-    "Five successful title defenses",
-    "Third most title fight wins in UFC Welterweight division history (6)",
-    "Latest knockout in UFC title fight history vs. Colby Covington",
-    "First Nigerian-born UFC champion",
-    "The Ultimate Fighter 21 tournament winner",
-    "Fight of the Night (Three times) vs. Colby Covington 1, Joaquin Buckley and Dricus du Plessis",
-    "Performance of the Night (Four times) vs. Hayder Hassan , Rafael dos Anjos , Gilbert Burns , and Jorge Masvidal 2",
-    "Latest finish in UFC Welterweight history vs. Colby Covington",
-    "Most consecutive wins in UFC Welterweight history (15)  Third most consecutive wins in UFC History (15)",
-    "Third most consecutive wins in UFC History (15)",
-    "Tied ( Rafael dos Anjos , Brad Tavares & Belal Muhammad ) for second most unanimous decision wins in UFC history (11)",
-    "Fourth most decision wins in UFC Welterweight division history (11)",
-    "Tied ( Vicente Luque ) for fourth most wins in UFC Welterweight division history (16)",
-    "Second most total strikes landed in a UFC title fight (336 vs. Tyron Woodley )",
-    "Third most significant strikes landed in UFC Welterweight division history (1375)",
-    "Third most total strikes landed in UFC Welterweight division history (2506)",
-    "Longest average fight time in UFC Welterweight division history (18:00)",
-    "Fourth most total fight time in UFC Welterweight division history (5:23:57)",
-    "Second longest control time in UFC Welterweight division history (2:26:48) (behind Georges St-Pierre )  Fifth most control time in UFC history (2:13:51)",
-    "Fifth most control time in UFC history (2:13:51)",
-    "Fourth most top-position time in UFC Welterweight division history (1:37:26)",
-    "Fourth most takedowns landed in UFC Welterweight division history (63)",
-    "Highest takedown defense percentage in UFC Welterweight division history (97.3%)",
-    "Holds wins over five former UFC champions (4 undisputed) — vs. Leon Edwards , Sean Strickland , Rafael dos Anjos , Tyron Woodley and Colby Covington (interim) (x2)",
-    "UFC Honors Awards 2021: Fan's Choice Knockout of the Year Winner vs. Jorge Masvidal 2  & President's Choice Performance of the Year Nominee vs. Jorge Masvidal 2",
-    "2021: Fan's Choice Knockout of the Year Winner vs. Jorge Masvidal 2  & President's Choice Performance of the Year Nominee vs. Jorge Masvidal 2",
-    "2015: Ranked #6 Newcomer of the Year",
-    "2018: Ranked #10 Fighter of the Year (Tied with Corey Anderson & Thiago Santos )",
-    "2019: Top 10 Fighter of the Year ,  Ranked #2 Fight of the Year vs. Colby Covington 1  & Ranked #8 Upset of the Year vs. Tyron Woodley",
-    "2021: Fighter of the Year  & Knockout of the Year vs. Jorge Masvidal 2",
-    "MMA Junkie 2019 December Fight of the Month vs. Colby Covington  2021 Male Fighter of the Year  2021 February Fight of the Month vs. Gilbert Burns  2021 April Knockout of the Month vs. Jorge Masvidal"
+    {
+      "org": "National Collegiate Athletic Association",
+      "texte": "NCAA Division II National Championship (174 lbs, 2010)"
+    },
+    {
+      "org": "National Collegiate Athletic Association",
+      "texte": "NCAA Division II All-American (174 lbs, 2008, 2009, 2010)"
+    },
+    {
+      "org": "National Association of Intercollegiate Athletics",
+      "texte": "NAIA National Qualifier (165 lbs, 2007)"
+    },
+    {
+      "org": "University Interscholastic League",
+      "texte": "UIL All-State out of Bowie High School (145 lbs, 2005)"
+    },
+    {
+      "org": "National Wrestling Coaches Association",
+      "texte": "Jim Koch Division II Hall of Fame, 2022 Class"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Welterweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Five successful title defenses"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most title fight wins in UFC Welterweight division history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Latest knockout in UFC title fight history vs. Colby Covington"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First Nigerian-born UFC champion"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "The Ultimate Fighter 21 tournament winner"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Three times) vs. Colby Covington 1, Joaquin Buckley and Dricus du Plessis"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Four times) vs. Hayder Hassan , Rafael dos Anjos , Gilbert Burns , and Jorge Masvidal 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Latest finish in UFC Welterweight history vs. Colby Covington"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most consecutive wins in UFC Welterweight history (15)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most consecutive wins in UFC History (15)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Belal Muhammad ) for most unanimous decision wins in UFC Welterweight division history (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Rafael dos Anjos , Brad Tavares & Belal Muhammad ) for second most unanimous decision wins in UFC history (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most decision wins in UFC Welterweight division history (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Vicente Luque ) for fourth most wins in UFC Welterweight division history (16)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most total strikes landed in a UFC title fight (336 vs. Tyron Woodley )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most significant strikes landed in UFC Welterweight division history (1375)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most total strikes landed in UFC Welterweight division history (2506)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Longest average fight time in UFC Welterweight division history (18:00)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most total fight time in UFC Welterweight division history (5:23:57)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second longest control time in UFC Welterweight division history (2:26:48) (behind Georges St-Pierre )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth most control time in UFC history (2:13:51)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most top-position time in UFC Welterweight division history (1:37:26)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most takedowns landed in UFC Welterweight division history (63)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Highest takedown defense percentage in UFC Welterweight division history (97.3%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Holds wins over five former UFC champions (4 undisputed) — vs. Leon Edwards , Sean Strickland , Rafael dos Anjos , Tyron Woodley and Colby Covington (interim) (x2)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: Fan's Choice Knockout of the Year Winner vs. Jorge Masvidal 2 & President's Choice Performance of the Year Nominee vs. Jorge Masvidal 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2015: Ranked #6 Newcomer of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2018: Ranked #10 Fighter of the Year (Tied with Corey Anderson & Thiago Santos )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2019: Top 10 Fighter of the Year , Ranked #2 Fight of the Year vs. Colby Covington 1 & Ranked #8 Upset of the Year vs. Tyron Woodley"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: Fighter of the Year & Knockout of the Year vs. Jorge Masvidal 2"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2019 December Fight of the Month vs. Colby Covington"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2021 Male Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2021 February Fight of the Month vs. Gilbert Burns"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2021 April Knockout of the Month vs. Jorge Masvidal"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2021 The Charles 'Mask' Lewis Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2021 Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2021 Knockout of the Year vs. Jorge Masvidal"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2019 Rivalry of the Year vs. Colby Covington"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2021 Male Fighter of the Year"
+    },
+    {
+      "org": "ESPN",
+      "texte": "#10 Ranked Men's MMA Fighter of the 21st Century"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2021 Knockout of the Year vs. Jorge Masvidal"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2021 Fighter of the Year"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2021 Knockout of the Year vs. Jorge Masvidal at UFC 261"
+    },
+    {
+      "org": "Yahoo! Sports",
+      "texte": "2021 Fighter of the Year"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2021 Male Fighter of the Year"
+    },
+    {
+      "org": "Lowkick MMA",
+      "texte": "2021 Fighter of the Year"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2019 #5 Ranked UFC Fighter of the Year"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2019 #5 Ranked UFC Fight of the Year vs. Colby Covington"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2021 UFC Fighter of the Year"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2021 #2 Ranked UFC Knockout of the Year vs. Jorge Masvidal"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2021 Male Fighter of the Year"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "Mixed Martial Arts Most Valuable (2021)"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "Most Outstanding Fighter of the Year (2021)"
+    },
+    {
+      "org": "BT Sport",
+      "texte": "2021 Male Fighter of the Year"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2019 Male Fighter of the Year"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2021 Male Fighter of the Year"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids mi-moyens",
+      "5 défenses de titre à l'UFC",
+      "Vainqueur de The Ultimate Fighter 21",
+      "Combattant de l'année (2019, 2021)",
+      "KO de l'année (2021)",
+      "Bonus UFC : 4× Performance de la soirée, 3× Combat de la soirée"
+    ],
+    "en": [
+      "UFC Welterweight Champion",
+      "5 UFC title defenses",
+      "The Ultimate Fighter 21 winner",
+      "Fighter of the Year (2019, 2021)",
+      "Knockout of the Year (2021)",
+      "UFC bonuses: 4× Performance of the Night, 3× Fight of the Night"
+    ]
+  },
   "image_commons": "KamaruUsmanPress2018.png",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Kamaru_Usman",

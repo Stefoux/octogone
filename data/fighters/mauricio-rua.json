@@ -137,44 +137,155 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "PRIDE Fighting Championships 2005 PRIDE Middleweight Grand Prix Champion",
-    "2005 PRIDE Middleweight Grand Prix Champion",
-    "UFC Light Heavyweight Championship (One time)",
-    "UFC Hall of Fame (Fight Wing, Class of 2018) vs. Dan Henderson 1 at UFC 139",
-    "UFC Hall of Fame ( Modern Wing , Class of 2024)",
-    "Knockout of the Night ( Three times ) vs. Chuck Liddell , Lyoto Machida 2 and James Te Huna",
-    "Fight of the Night ( Four times ) vs. Mark Coleman , Dan Henderson (x2), Antônio Rogério Nogueira",
-    "Performance of the Night ( One time ) vs. Tyson Pedro",
-    "Tied ( Jon Jones & Ovince Saint Preux ) for second most fight-night bonuses in UFC Light Heavyweight division history (8)",
-    "Second most knockouts in UFC Light Heavyweight division history (8)  Third most knockouts in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (17) (behind Wanderlei Silva and Mirko Cro Cop )",
-    "Third most knockouts in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (17) (behind Wanderlei Silva and Mirko Cro Cop )",
-    "Second most bouts in modern UFC Light Heavyweight division history (24)",
-    "Tied ( Chuck Liddell , Lyoto Machida , Junior dos Santos , Thiago Santos & Khalil Rountree Jr. ) for sixth most knockdowns landed in UFC history (14)",
-    "Fourth most significant strikes landed in UFC Light Heavyweight division history (888)",
-    "Tied ( Anderson Silva ) for fourth most knockdowns landed in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (19)",
-    "Tied ( Paul Craig , Anthony Smith & Nikita Krylov ) for fifth most finishes in UFC Light Heavyweight division history (8)",
-    "Holds wins over six former UFC champions — Quinton Jackson , Mark Coleman , Kevin Randleman , Chuck Liddell , Lyoto Machida and Forest Griffin .",
-    "2009: Ranked #5 Fighter of the Year ,  Loss of the Year vs. Lyoto Machida 1  & Ranked #9 Fight of the Year vs. Lyoto Machida 1",
-    "2010 Half-Year Awards: Best Fighter of the 1HY,  Ranked #2 Knockout of the Year vs. Lyoto Machida ,  Ranked #7 Knockout of the Year vs. Chuck Liddell  & Ranked #3 Fighter of the Year",
-    "2011: Fight of the Year vs. Dan Henderson 1",
-    "2013: Ranked #3 Knockout of the Year vs. James Te Huna",
-    "2014: Ranked #9 Fight of the Year vs. Dan Henderson 2",
-    "FanSided 2000s #6 Ranked MMA Fighter of the Decade",
-    "2000s #6 Ranked MMA Fighter of the Decade",
-    "World MMA Awards 2010 Knockout of the Year vs. Lyoto Machida at UFC 113",
-    "2010 Knockout of the Year vs. Lyoto Machida at UFC 113",
-    "Sherdog 2005 Fighter of the Year  2005 Fight of the Year versus Antônio Rogério Nogueira on 26 June  2009 Comeback Fighter of the Year  Mixed Martial Arts Hall of Fame",
-    "2005 Fighter of the Year",
-    "2005 Fight of the Year versus Antônio Rogério Nogueira on 26 June",
-    "2009 Comeback Fighter of the Year",
-    "Mixed Martial Arts Hall of Fame",
-    "Wrestling Observer Newsletter awards 2011 Fight of the Year versus Dan Henderson on 19 November",
-    "2011 Fight of the Year versus Dan Henderson on 19 November",
-    "Inside MMA 2011 Fight of the Year Bazzie Award vs. Dan Henderson",
-    "2011 Fight of the Year Bazzie Award vs. Dan Henderson",
-    "MMA Fighting 2005 Light Heavyweight Fighter of the Year",
-    "2005 Light Heavyweight Fighter of the Year"
+    {
+      "org": "PRIDE Fighting Championships",
+      "texte": "2005 PRIDE Middleweight Grand Prix Champion"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Light Heavyweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame (Fight Wing, Class of 2018) vs. Dan Henderson 1 at UFC 139"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame ( Modern Wing , Class of 2024)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Knockout of the Night ( Three times ) vs. Chuck Liddell , Lyoto Machida 2 and James Te Huna"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night ( Four times ) vs. Mark Coleman , Dan Henderson (x2), Antônio Rogério Nogueira"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night ( One time ) vs. Tyson Pedro"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Jon Jones & Ovince Saint Preux ) for second most fight-night bonuses in UFC Light Heavyweight division history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most knockouts in UFC Light Heavyweight division history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most knockouts in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (17) (behind Wanderlei Silva and Mirko Cro Cop )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most bouts in modern UFC Light Heavyweight division history (24)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Chuck Liddell & Khalil Rountree Jr. ) for most knockdowns landed in UFC Light Heavyweight division history (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Chuck Liddell , Lyoto Machida , Junior dos Santos , Thiago Santos & Khalil Rountree Jr. ) for sixth most knockdowns landed in UFC history (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most significant strikes landed in UFC Light Heavyweight division history (888)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most total strikes landed in UFC Light Heavyweight division history (1337)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Anderson Silva ) for fourth most knockdowns landed in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (19)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Paul Craig , Anthony Smith & Nikita Krylov ) for fifth most finishes in UFC Light Heavyweight division history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Holds wins over six former UFC champions — Quinton Jackson , Mark Coleman , Kevin Randleman , Chuck Liddell , Lyoto Machida and Forest Griffin ."
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2009: Ranked #5 Fighter of the Year , Loss of the Year vs. Lyoto Machida 1 & Ranked #9 Fight of the Year vs. Lyoto Machida 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2010 Half-Year Awards: Best Fighter of the 1HY, Ranked #2 Knockout of the Year vs. Lyoto Machida , Ranked #7 Knockout of the Year vs. Chuck Liddell & Ranked #3 Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2011: Fight of the Year vs. Dan Henderson 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2013: Ranked #3 Knockout of the Year vs. James Te Huna"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2014: Ranked #9 Fight of the Year vs. Dan Henderson 2"
+    },
+    {
+      "org": "FanSided",
+      "texte": "2000s #6 Ranked MMA Fighter of the Decade"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2010 Knockout of the Year vs. Lyoto Machida at UFC 113"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2005 Fighter of the Year"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2005 Fight of the Year versus Antônio Rogério Nogueira on 26 June"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2009 Comeback Fighter of the Year"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "Mixed Martial Arts Hall of Fame"
+    },
+    {
+      "org": "Wrestling Observer Newsletter awards",
+      "texte": "2011 Fight of the Year versus Dan Henderson on 19 November"
+    },
+    {
+      "org": "Inside MMA",
+      "texte": "2011 Fight of the Year Bazzie Award vs. Dan Henderson"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2005 Light Heavyweight Fighter of the Year"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids mi-lourds",
+      "Hall of Fame de l'UFC (2024)",
+      "Combattant de l'année (2005)",
+      "Combat de l'année (2005, 2011)",
+      "Bonus UFC : 1× Performance de la soirée, 4× Combat de la soirée, 3× KO de la soirée"
+    ],
+    "en": [
+      "UFC Light Heavyweight Champion",
+      "UFC Hall of Fame (2024)",
+      "Fighter of the Year (2005)",
+      "Fight of the Year (2005, 2011)",
+      "UFC bonuses: 1× Performance of the Night, 4× Fight of the Night, 3× Knockout of the Night"
+    ]
+  },
   "image_commons": "MauricioRua.png",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Maurício_Rua",

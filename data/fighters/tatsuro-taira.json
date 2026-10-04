@@ -109,25 +109,81 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Fight of the Night (Two times) vs. Brandon Royval and Joshua Van",
-    "Performance of the Night (Three times) vs. C.J. Vergara , Jesús Santos Aguilar and Alex Perez    Sixth most Post-Fight bonuses in UFC Flyweight division history (5)",
-    "Sixth most Post-Fight bonuses in UFC Flyweight division history (5)",
-    "First fighter born in the 2000s to win a UFC main event",
-    "Second most control time percentage in UFC Flyweight division history (52.1%)",
-    "Second most top-position percentage in UFC Flyweight division history (45.7%)  Fifth most top-position time in UFC Flyweight division history (46:51)",
-    "Fifth most top-position time in UFC Flyweight division history (46:51)",
-    "Tied ( Joseph Benavidez , Brandon Moreno & Manel Kape ) for fourth most finishes in UFC Flyweight division history (6)",
-    "Tied ( Deiveson Figueiredo & Kyoji Horiguchi ) for the sixth longest win streak in UFC Flyweight division history (5)",
-    "UFC.com Awards 2022: Ranked #4 Newcomer of the Year  2024: Ranked #7 Fight of the Year vs. Brandon Royval  2026: Half-Year Awards: Best Fight of the 1HY vs. Joshua Van",
-    "2022: Ranked #4 Newcomer of the Year",
-    "2024: Ranked #7 Fight of the Year vs. Brandon Royval",
-    "2026: Half-Year Awards: Best Fight of the 1HY vs. Joshua Van",
-    "Shooto Shooto Flyweight Championship (One time)",
-    "Shooto Flyweight Championship (One time)",
-    "MMA Fighting 2023 Second Team MMA All-Star  2025 Third Team MMA All-Star",
-    "2023 Second Team MMA All-Star",
-    "2025 Third Team MMA All-Star"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Two times) vs. Brandon Royval and Joshua Van"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Three times) vs. C.J. Vergara , Jesús Santos Aguilar and Alex Perez"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Sixth most Post-Fight bonuses in UFC Flyweight division history (5)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First fighter born in the 2000s to win a UFC main event"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most control time percentage in UFC Flyweight division history (52.1%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most top-position percentage in UFC Flyweight division history (45.7%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth most top-position time in UFC Flyweight division history (46:51)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Joseph Benavidez , Brandon Moreno & Manel Kape ) for fourth most finishes in UFC Flyweight division history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Deiveson Figueiredo & Kyoji Horiguchi ) for the sixth longest win streak in UFC Flyweight division history (5)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Ranked #4 Newcomer of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: Ranked #7 Fight of the Year vs. Brandon Royval"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2026: Half-Year Awards: Best Fight of the 1HY vs. Joshua Van"
+    },
+    {
+      "org": "Shooto",
+      "texte": "Shooto Flyweight Championship (One time)"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2023 Second Team MMA All-Star"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2025 Third Team MMA All-Star"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion Shooto des poids mouche",
+      "Bonus UFC : 3× Performance de la soirée, 2× Combat de la soirée"
+    ],
+    "en": [
+      "Shooto Flyweight Champion",
+      "UFC bonuses: 3× Performance of the Night, 2× Fight of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Tatsuro_Taira",

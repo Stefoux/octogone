@@ -117,14 +117,43 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Fight of the Night (Three times) vs. Elias Garcia, Brandon Moreno 2, and Brandon Royval",
-    "Performance of the Night (Three times) vs. Rogério Bontorin , Cody Garbrandt , and Steve Erceg    Fifth most Post-Fight bonuses in UFC Flyweight division history (6)",
-    "Fifth most Post-Fight bonuses in UFC Flyweight division history (6)",
-    "Tied ( Manel Kape & Joshua Van ) for second most knockdowns landed in UFC Flyweight division history (8) (behind Deiveson Figueiredo )",
-    "Third highest takedown defense percentage in UFC Flyweight division history (88.0%)",
-    "UFC.com Awards 2022: Ranked #4 Upset of the Year vs. Askar Askarov",
-    "2022: Ranked #4 Upset of the Year vs. Askar Askarov"
+    {
+      "org": "Ultimate Fighting Championships",
+      "texte": "Fight of the Night (Three times) vs. Elias Garcia, Brandon Moreno 2, and Brandon Royval"
+    },
+    {
+      "org": "Ultimate Fighting Championships",
+      "texte": "Performance of the Night (Three times) vs. Rogério Bontorin , Cody Garbrandt , and Steve Erceg"
+    },
+    {
+      "org": "Ultimate Fighting Championships",
+      "texte": "Fifth most Post-Fight bonuses in UFC Flyweight division history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championships",
+      "texte": "Tied ( Manel Kape & Joshua Van ) for second most knockdowns landed in UFC Flyweight division history (8) (behind Deiveson Figueiredo )"
+    },
+    {
+      "org": "Ultimate Fighting Championships",
+      "texte": "Third highest takedown defense percentage in UFC Flyweight division history (88.0%)"
+    },
+    {
+      "org": "Ultimate Fighting Championships",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championships",
+      "texte": "2022: Ranked #4 Upset of the Year vs. Askar Askarov"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 3× Performance de la soirée, 3× Combat de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 3× Performance of the Night, 3× Fight of the Night"
+    ]
+  },
   "image_commons": "Kaikarafrance.png",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Kai_Kara-France",

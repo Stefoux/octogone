@@ -123,47 +123,149 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "UFC Bantamweight Championship (One time)",
-    "Performance of the Night (Two times) vs. Thomas Almeida and Raphael Assunção",
-    "Fight of the Night (Two times) vs. Dominick Cruz and Pedro Munhoz",
-    "Tied ( Chuck Liddell , Quinton Jackson , Josh Emmett , Montel Jackson & Ilia Topuria ) for most consecutive fights with a knockdown landed in UFC history (7)",
-    "UFC Honors Awards 2020: President's Choice Performance of the Year Nominee vs. Raphael Assunção  & Fan's Choice Knockout of the Year Nominee vs. Raphael Assunção",
-    "2020: President's Choice Performance of the Year Nominee vs. Raphael Assunção  & Fan's Choice Knockout of the Year Nominee vs. Raphael Assunção",
-    "UFC.com Awards 2019: Ranked #8 Fight of the Year vs. Pedro Munhoz  2020: Ranked #2 Knockout of the Year vs. Raphael Assunção  & Half-Year Awards: Best Knockout of the 1HY",
-    "2019: Ranked #8 Fight of the Year vs. Pedro Munhoz",
-    "2020: Ranked #2 Knockout of the Year vs. Raphael Assunção  & Half-Year Awards: Best Knockout of the 1HY",
-    "Cage Pages 2016 UFC Fighter of the Year",
-    "2016 UFC Fighter of the Year",
-    "theScore 2016 Fighter of the Year with Amanda Nunes",
-    "2016 Fighter of the Year with Amanda Nunes",
-    "Forbes 2016 UFC Breakthrough Fighter of the Year",
-    "2016 UFC Breakthrough Fighter of the Year",
-    "Sports Illustrated 2016 #2 Ranked Fighter of the Year",
-    "2016 #2 Ranked Fighter of the Year",
-    "MMA Junkie 2016 Fighter of the Year  2020 June Knockout of the Month vs. Raphael Assunção",
-    "2016 Fighter of the Year",
-    "2020 June Knockout of the Month vs. Raphael Assunção",
-    "Pundit Arena 2017 Fight of the Year vs. T.J. Dillashaw",
-    "2017 Fight of the Year vs. T.J. Dillashaw",
-    "MMADNA.nl 2016 Rising Star of the Year",
-    "2016 Rising Star of the Year",
-    "World MMA Awards 2016 Breakthrough Fighter of the Year",
-    "2016 Breakthrough Fighter of the Year",
-    "CBS Sports 2016 #8 Ranked UFC Fighter of the Year  2017 #3 Ranked UFC Fight of the Year vs. T.J. Dillashaw  2020 #2 Ranked UFC Knockout of the Year vs. Raphael Assunção",
-    "2016 #8 Ranked UFC Fighter of the Year",
-    "2017 #3 Ranked UFC Fight of the Year vs. T.J. Dillashaw",
-    "2020 #2 Ranked UFC Knockout of the Year vs. Raphael Assunção",
-    "Combat Press 2016 Breakout Fighter of the Year  2023 Comeback Fighter of the Year",
-    "2016 Breakout Fighter of the Year",
-    "2023 Comeback Fighter of the Year",
-    "Fightland 2016 Gameplan of the Year vs. Dominick Cruz at UFC 207",
-    "2016 Gameplan of the Year vs. Dominick Cruz at UFC 207",
-    "National High School Coaches Association NHSCA Sophomore National Runner-up out of Ohio (2008)  NHSCA Senior National 5th place out of Ohio (2010) NHSCA All American (2008, 2010)",
-    "NHSCA Sophomore National Runner-up out of Ohio (2008)",
-    "NHSCA Senior National 5th place out of Ohio (2010)",
-    "NHSCA All American (2008, 2010)",
-    "Ohio High School Athletic Association OHSAA 112 lb DII State Champion out of Claymont High School (2007)  OHSAA 119 lb DII State Runner-up out of Claymont High School (2008)"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Bantamweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. Thomas Almeida and Raphael Assunção"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Two times) vs. Dominick Cruz and Pedro Munhoz"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Petr Yan ) for third most knockdowns in UFC Bantamweight division history (10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Chuck Liddell , Quinton Jackson , Josh Emmett , Montel Jackson & Ilia Topuria ) for most consecutive fights with a knockdown landed in UFC history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: President's Choice Performance of the Year Nominee vs. Raphael Assunção & Fan's Choice Knockout of the Year Nominee vs. Raphael Assunção"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2019: Ranked #8 Fight of the Year vs. Pedro Munhoz"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Ranked #2 Knockout of the Year vs. Raphael Assunção & Half-Year Awards: Best Knockout of the 1HY"
+    },
+    {
+      "org": "Cage Pages",
+      "texte": "2016 UFC Fighter of the Year"
+    },
+    {
+      "org": "theScore",
+      "texte": "2016 Fighter of the Year with Amanda Nunes"
+    },
+    {
+      "org": "Forbes",
+      "texte": "2016 UFC Breakthrough Fighter of the Year"
+    },
+    {
+      "org": "Sports Illustrated",
+      "texte": "2016 #2 Ranked Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2016 Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2020 June Knockout of the Month vs. Raphael Assunção"
+    },
+    {
+      "org": "Pundit Arena",
+      "texte": "2017 Fight of the Year vs. T.J. Dillashaw"
+    },
+    {
+      "org": "MMADNA.nl",
+      "texte": "2016 Rising Star of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2016 Breakthrough Fighter of the Year"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2016 #8 Ranked UFC Fighter of the Year"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2017 #3 Ranked UFC Fight of the Year vs. T.J. Dillashaw"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2020 #2 Ranked UFC Knockout of the Year vs. Raphael Assunção"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2016 Breakout Fighter of the Year"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2023 Comeback Fighter of the Year"
+    },
+    {
+      "org": "Fightland",
+      "texte": "2016 Gameplan of the Year vs. Dominick Cruz at UFC 207"
+    },
+    {
+      "org": "National High School Coaches Association",
+      "texte": "NHSCA Sophomore National Runner-up out of Ohio (2008)"
+    },
+    {
+      "org": "National High School Coaches Association",
+      "texte": "NHSCA Senior National 5th place out of Ohio (2010)"
+    },
+    {
+      "org": "National High School Coaches Association",
+      "texte": "NHSCA All American (2008, 2010)"
+    },
+    {
+      "org": "Ohio High School Athletic Association",
+      "texte": "OHSAA 112 lb DII State Champion out of Claymont High School (2007)"
+    },
+    {
+      "org": "Ohio High School Athletic Association",
+      "texte": "OHSAA 119 lb DII State Runner-up out of Claymont High School (2008)"
+    },
+    {
+      "org": null,
+      "texte": "NCAA Division II Wrestler out of Newberry College"
+    },
+    {
+      "org": null,
+      "texte": "Undefeated 32-0 in amateur boxing record"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids coq",
+      "Combattant de l'année (2016)",
+      "Combat de l'année (2017)",
+      "Bonus UFC : 2× Performance de la soirée, 2× Combat de la soirée"
+    ],
+    "en": [
+      "UFC Bantamweight Champion",
+      "Fighter of the Year (2016)",
+      "Fight of the Year (2017)",
+      "UFC bonuses: 2× Performance of the Night, 2× Fight of the Night"
+    ]
+  },
   "image_commons": "Cody Garbrandt.png",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Cody_Garbrandt",

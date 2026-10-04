@@ -155,47 +155,173 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "Four successful title defenses",
-    "Second most title fight wins in UFC Flyweight division history (5) (behind Demetrious Johnson )",
-    "Oldest fighter in history to win a UFC Flyweight title fight (35 years, 73 days)",
-    "Fight of the Night (Three times) vs. Deiveson Figueiredo , Brandon Moreno 2 and Joshua Van 2",
-    "Tied ( Brandon Moreno & Brandon Royval ) for second most Post-Fight bonuses in UFC Flyweight division history (7) (behind Demetrious Johnson )",
-    "Most wins in UFC Flyweight division history (14)",
-    "Most finishes in UFC Flyweight division history (8)",
-    "Most submissions in UFC Flyweight division history (6)  Fourth most submission attempts in UFC Flyweight division history (14)",
-    "Fourth most submission attempts in UFC Flyweight division history (14)",
-    "Tied ( Joshua Van ) for the second longest win streak in UFC Flyweight division history (8) (behind Demetrious Johnson )",
-    "Tied ( Joseph Benavidez ) for third most bouts in UFC Flyweight division history (19)",
-    "Third most takedowns landed in UFC Flyweight division history (45)",
-    "Third most significant strikes in UFC Flyweight division history (1088)  Fifth most total strikes in UFC Flyweight division history (1326)",
-    "Fifth most total strikes in UFC Flyweight division history (1326)",
-    "Fourth most total fight time in UFC Flyweight division history (3:59:47)",
-    "Second most control time in UFC Flyweight division history (1:18:30) (behind Demetrious Johnson )",
-    "Third most top position time in UFC Flyweight division history (1:01:02)",
-    "UFC Honors Awards 2023: President's Choice Fight of the Year Nominee vs. Brandon Moreno 2",
-    "2023: President's Choice Fight of the Year Nominee vs. Brandon Moreno 2",
-    "UFC.com Awards 2023: Ranked #5 Fighter of the Year  & Ranked #2 Fight of the Year vs. Brandon Moreno 2  2024: Ranked #8 Fighter of the Year  & Ranked #7 Submission of the Year vs. Kai Asakura",
-    "2023: Ranked #5 Fighter of the Year  & Ranked #2 Fight of the Year vs. Brandon Moreno 2",
-    "2024: Ranked #8 Fighter of the Year  & Ranked #7 Submission of the Year vs. Kai Asakura",
-    "Resurrection Fighting Alliance RFA Flyweight Championship (One time) AXS TV Flyweight Superfight Championship (One time)",
-    "RFA Flyweight Championship (One time)",
-    "AXS TV Flyweight Superfight Championship (One time)",
-    "New York Post 2023 Fight of the Year vs. Brandon Moreno 2 at UFC 290",
-    "2023 Fight of the Year vs. Brandon Moreno 2 at UFC 290",
-    "MMA Junkie 2019 July Fight of the Month vs. Deiveson Figueiredo  2026 September Fight of the Month vs. Joshua Van",
-    "2019 July Fight of the Month vs. Deiveson Figueiredo",
-    "2026 September Fight of the Month vs. Joshua Van",
-    "Combat Press 2023 Fight of the Year vs. Brandon Moreno 2 at UFC 290",
-    "2023 Fight of the Year vs. Brandon Moreno 2 at UFC 290",
-    "World MMA Awards 2024 Nomination – Charles Lewis Fighter of the Year  2024 Nomination – Fight of the Year vs. Brandon Moreno 2 at UFC 290",
-    "2024 Nomination – Charles Lewis Fighter of the Year",
-    "2024 Nomination – Fight of the Year vs. Brandon Moreno 2 at UFC 290",
-    "MMA Fighting 2023 First Team MMA All-Star  2024 First Team MMA All-Star",
-    "2023 First Team MMA All-Star",
-    "2024 First Team MMA All-Star",
-    "MMA Mania 2023 Fighter of the Year  2024 #4 Ranked Submission of the Year vs. Kai Asakura at UFC 310",
-    "2023 Fighter of the Year"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Flyweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Four successful title defenses"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most title fight wins in UFC Flyweight division history (5) (behind Demetrious Johnson )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Oldest fighter in history to win a UFC Flyweight title fight (35 years, 73 days)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Three times) vs. Deiveson Figueiredo , Brandon Moreno 2 and Joshua Van 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Four times) vs. Matt Schnell , Brandon Royval 1, Alex Perez and Kai Asakura"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Brandon Moreno & Brandon Royval ) for second most Post-Fight bonuses in UFC Flyweight division history (7) (behind Demetrious Johnson )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most wins in UFC Flyweight division history (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most finishes in UFC Flyweight division history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most submissions in UFC Flyweight division history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most submission attempts in UFC Flyweight division history (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Joshua Van ) for the second longest win streak in UFC Flyweight division history (8) (behind Demetrious Johnson )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Joseph Benavidez ) for third most bouts in UFC Flyweight division history (19)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most takedowns landed in UFC Flyweight division history (45)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most significant strikes in UFC Flyweight division history (1088)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth most total strikes in UFC Flyweight division history (1326)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most total fight time in UFC Flyweight division history (3:59:47)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most control time in UFC Flyweight division history (1:18:30) (behind Demetrious Johnson )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most top position time in UFC Flyweight division history (1:01:02)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: President's Choice Fight of the Year Nominee vs. Brandon Moreno 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: Ranked #5 Fighter of the Year & Ranked #2 Fight of the Year vs. Brandon Moreno 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: Ranked #8 Fighter of the Year & Ranked #7 Submission of the Year vs. Kai Asakura"
+    },
+    {
+      "org": "Resurrection Fighting Alliance",
+      "texte": "RFA Flyweight Championship (One time)"
+    },
+    {
+      "org": "Resurrection Fighting Alliance",
+      "texte": "AXS TV Flyweight Superfight Championship (One time)"
+    },
+    {
+      "org": "New York Post",
+      "texte": "2023 Fight of the Year vs. Brandon Moreno 2 at UFC 290"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2019 July Fight of the Month vs. Deiveson Figueiredo"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2026 September Fight of the Month vs. Joshua Van"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2023 Fight of the Year vs. Brandon Moreno 2 at UFC 290"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2024 Nomination – Charles Lewis Fighter of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2024 Nomination – Fight of the Year vs. Brandon Moreno 2 at UFC 290"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2023 First Team MMA All-Star"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2024 First Team MMA All-Star"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2023 Fighter of the Year"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2024 #4 Ranked Submission of the Year vs. Kai Asakura at UFC 310"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2023 #2 Ranked UFC Fight of the Year vs. Brandon Moreno 2 at UFC 290"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids mouche",
+      "4 défenses de titre à l'UFC",
+      "Combattant de l'année (2023)",
+      "Record UFC chez les poids mouche : victoires (14)",
+      "Record UFC chez les poids mouche : finitions (8)",
+      "Bonus UFC : 4× Performance de la soirée, 3× Combat de la soirée"
+    ],
+    "en": [
+      "UFC Flyweight Champion",
+      "4 UFC title defenses",
+      "Fighter of the Year (2023)",
+      "UFC Flyweight record: most wins (14)",
+      "UFC Flyweight record: most finishes (8)",
+      "UFC bonuses: 4× Performance of the Night, 3× Fight of the Night"
+    ]
+  },
   "image_commons": "Alexandre Pantoja.png",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Alexandre_Pantoja",

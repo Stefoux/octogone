@@ -101,6 +101,14 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 2× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 2× Performance of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Miles_Johns",

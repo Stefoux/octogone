@@ -124,46 +124,133 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Submission of the Night (Two times) vs. Leonard Garcia and Dustin Poirier",
-    "Knockout of the Night (One time) vs. Mark Hominick",
-    "Fight of the Night (Three times) vs. Dustin Poirier , Yair Rodríguez and Max Holloway",
-    "Tied ( Yair Rodriguez ) for third most Post-Fight bonuses in the UFC Featherweight division history (9)",
-    "Fastest finish in UFC Featherweight division history (0:07 vs Mark Hominick )  Fastest knockout in UFC Featherweight division history (0:07 vs Mark Hominick )",
-    "Fastest knockout in UFC Featherweight division history (0:07 vs Mark Hominick )",
-    "First fighter in UFC history to finish with a Twister submission.",
-    "2012: Submission of the Year vs. Dustin Poirier ,  Half-Year Awards: Best Fight of the 1HY  & Ranked #2 Fight of the Year vs. Dustin Poirier",
-    "2018: Ranked #3 Fight of the Year vs. Yair Rodriguez",
-    "World Extreme Cagefighting Fight of the Night (One time) vs. Leonard Garcia",
-    "Fight of the Night (One time) vs. Leonard Garcia",
-    "KoreaFC Korea FC 65 kg Tournament Winner",
-    "Korea FC 65 kg Tournament Winner",
-    "Pancrase Pancrase Korea Neo-Blood Lightweight Tournament Winner",
-    "Pancrase Korea Neo-Blood Lightweight Tournament Winner",
-    "Wrestling Observer Newsletter 2010 Fight of the Year vs. Leonard Garcia at WEC 48  2012 Fight of the Year vs. Dustin Poirier at UFC on Fuel TV 3",
-    "2010 Fight of the Year vs. Leonard Garcia at WEC 48",
-    "2012 Fight of the Year vs. Dustin Poirier at UFC on Fuel TV 3",
-    "World MMA Awards 2011 Submission of the Year vs. Leonard Garcia 2 at UFC Fight Night: Nogueira vs. Davis",
-    "2011 Submission of the Year vs. Leonard Garcia 2 at UFC Fight Night: Nogueira vs. Davis",
-    "MMA Fighting 2012 Fight of the Year vs. Dustin Poirier at UFC on Fuel TV 3",
-    "2012 Fight of the Year vs. Dustin Poirier at UFC on Fuel TV 3",
-    "ESPN 2012 Fight of the Year vs. Dustin Poirier at UFC on Fuel TV 3 2023 Best Non-Fight Moment: Korean Zombie's Last Walkout at UFC Singapore",
-    "2012 Fight of the Year vs. Dustin Poirier at UFC on Fuel TV 3",
-    "2023 Best Non-Fight Moment: Korean Zombie's Last Walkout at UFC Singapore",
-    "Bleacher Report 2012 Fight of the Year vs. Dustin Poirier at UFC on Fuel TV 3  2018 Fight of the Year vs. Yair Rodríguez at UFC Fight Night 139",
-    "2012 Fight of the Year vs. Dustin Poirier at UFC on Fuel TV 3",
-    "2018 Fight of the Year vs. Yair Rodríguez at UFC Fight Night 139",
-    "Sherdog 2012 Fight of the Year vs. Dustin Poirier at UFC on Fuel TV 3 2011 All-Violence First Team",
-    "2012 Fight of the Year vs. Dustin Poirier at UFC on Fuel TV 3",
-    "2011 All-Violence First Team",
-    "Inside MMA 2011 Submission of the Year Bazzie Award vs. Leonard Garcia 2 at UFC Fight Night: Nogueira vs. Davis",
-    "2011 Submission of the Year Bazzie Award vs. Leonard Garcia 2 at UFC Fight Night: Nogueira vs. Davis",
-    "Bloody Elbow 2012 Fight of the Year vs. Dustin Poirier at UFC on Fuel TV 3",
-    "2012 Fight of the Year vs. Dustin Poirier at UFC on Fuel TV 3",
-    "FIGHT! Magazine 2012 Fight of the Year vs. Dustin Poirier at UFC on Fuel TV 3",
-    "2012 Fight of the Year vs. Dustin Poirier at UFC on Fuel TV 3",
-    "CBS Sports 2018 #3 Ranked UFC Fight of the Year vs. Yair Rodríguez at UFC Fight Night: The Korean Zombie vs. Rodríguez",
-    "2018 #3 Ranked UFC Fight of the Year vs. Yair Rodríguez at UFC Fight Night: The Korean Zombie vs. Rodríguez"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Submission of the Night (Two times) vs. Leonard Garcia and Dustin Poirier"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Knockout of the Night (One time) vs. Mark Hominick"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Three times) vs. Dustin Poirier , Yair Rodríguez and Max Holloway"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Three times) vs. Dennis Bermudez , Renato Moicano , and Frankie Edgar"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Yair Rodriguez ) for third most Post-Fight bonuses in the UFC Featherweight division history (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fastest finish in UFC Featherweight division history (0:07 vs Mark Hominick )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fastest knockout in UFC Featherweight division history (0:07 vs Mark Hominick )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First fighter in UFC history to finish with a Twister submission."
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2011: Ranked #2 Submission of the Year vs. Leonard Garcia , Half-Year Awards: Best Submission of the 1HY vs. Leonard Garcia , Ranked #6 Import of the Year & Ranked #8 Knockout of the Year vs. Mark Hominick"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2012: Submission of the Year vs. Dustin Poirier , Half-Year Awards: Best Fight of the 1HY & Ranked #2 Fight of the Year vs. Dustin Poirier"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2018: Ranked #3 Fight of the Year vs. Yair Rodriguez"
+    },
+    {
+      "org": "World Extreme Cagefighting",
+      "texte": "Fight of the Night (One time) vs. Leonard Garcia"
+    },
+    {
+      "org": "KoreaFC",
+      "texte": "Korea FC 65 kg Tournament Winner"
+    },
+    {
+      "org": "Pancrase",
+      "texte": "Pancrase Korea Neo-Blood Lightweight Tournament Winner"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "2010 Fight of the Year vs. Leonard Garcia at WEC 48"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "2012 Fight of the Year vs. Dustin Poirier at UFC on Fuel TV 3"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2011 Submission of the Year vs. Leonard Garcia 2 at UFC Fight Night: Nogueira vs. Davis"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2012 Fight of the Year vs. Dustin Poirier at UFC on Fuel TV 3"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2012 Fight of the Year vs. Dustin Poirier at UFC on Fuel TV 3"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2023 Best Non-Fight Moment: Korean Zombie's Last Walkout at UFC Singapore"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2012 Fight of the Year vs. Dustin Poirier at UFC on Fuel TV 3"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2018 Fight of the Year vs. Yair Rodríguez at UFC Fight Night 139"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2012 Fight of the Year vs. Dustin Poirier at UFC on Fuel TV 3"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2011 All-Violence First Team"
+    },
+    {
+      "org": "Inside MMA",
+      "texte": "2011 Submission of the Year Bazzie Award vs. Leonard Garcia 2 at UFC Fight Night: Nogueira vs. Davis"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2012 Fight of the Year vs. Dustin Poirier at UFC on Fuel TV 3"
+    },
+    {
+      "org": "FIGHT! Magazine",
+      "texte": "2012 Fight of the Year vs. Dustin Poirier at UFC on Fuel TV 3"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2018 #3 Ranked UFC Fight of the Year vs. Yair Rodríguez at UFC Fight Night: The Korean Zombie vs. Rodríguez"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Combat de l'année (2010, 2012, 2018)",
+      "Bonus UFC : 3× Performance de la soirée, 4× Combat de la soirée, 1× KO de la soirée, 2× Soumission de la soirée"
+    ],
+    "en": [
+      "Fight of the Year (2010, 2012, 2018)",
+      "UFC bonuses: 3× Performance of the Night, 4× Fight of the Night, 1× Knockout of the Night, 2× Submission of the Night"
+    ]
+  },
   "image_commons": "Jung Chan-Sung from acrofan (2).jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/The_Korean_Zombie",

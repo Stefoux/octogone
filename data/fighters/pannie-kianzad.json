@@ -103,22 +103,57 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Ultimate Fighting Championship First ever Persian female UFC fighter  The Ultimate Fighter 28 (Runner-Up)",
-    "First ever Persian female UFC fighter",
-    "The Ultimate Fighter 28 (Runner-Up)",
-    "Invicta Fighting Championships Performance of the Night (One time) vs. Bianca Daimoni",
-    "Performance of the Night (One time) vs. Bianca Daimoni",
-    "Cage Warriors Fighting Championship CWFC Women's Bantamweight Championship (One time)  Undefeated in the CWFC (2-0)",
-    "CWFC Women's Bantamweight Championship (One time)",
-    "Undefeated in the CWFC (2-0)",
-    "Nordic MMA Awards - MMAViking.com 2013 Female Fighter of the Year  2018 Female Fighter of the Year  2020 Female Fighter of the Year",
-    "2013 Female Fighter of the Year",
-    "2018 Female Fighter of the Year",
-    "2020 Female Fighter of the Year",
-    "Swedish Shootfighting League 2010 National Women's Featherweight Shootfighting Championship 2011 National Women's Featherweight Shootfighting Championship",
-    "2010 National Women's Featherweight Shootfighting Championship",
-    "2011 National Women's Featherweight Shootfighting Championship"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First ever Persian female UFC fighter"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "The Ultimate Fighter 28 (Runner-Up)"
+    },
+    {
+      "org": "Invicta Fighting Championships",
+      "texte": "Performance of the Night (One time) vs. Bianca Daimoni"
+    },
+    {
+      "org": "Cage Warriors Fighting Championship",
+      "texte": "CWFC Women's Bantamweight Championship (One time)"
+    },
+    {
+      "org": "Cage Warriors Fighting Championship",
+      "texte": "Undefeated in the CWFC (2-0)"
+    },
+    {
+      "org": "Nordic MMA Awards - MMAViking.com",
+      "texte": "2013 Female Fighter of the Year"
+    },
+    {
+      "org": "Nordic MMA Awards - MMAViking.com",
+      "texte": "2018 Female Fighter of the Year"
+    },
+    {
+      "org": "Nordic MMA Awards - MMAViking.com",
+      "texte": "2020 Female Fighter of the Year"
+    },
+    {
+      "org": "Swedish Shootfighting League",
+      "texte": "2010 National Women's Featherweight Shootfighting Championship"
+    },
+    {
+      "org": "Swedish Shootfighting League",
+      "texte": "2011 National Women's Featherweight Shootfighting Championship"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Combattante de l'année (2013, 2018, 2020)",
+      "Bonus UFC : 1× Performance de la soirée"
+    ],
+    "en": [
+      "Fighter of the Year (2013, 2018, 2020)",
+      "UFC bonuses: 1× Performance of the Night"
+    ]
+  },
   "image_commons": "Pannie Kianzad on MMAnytt.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Pannie_Kianzad",

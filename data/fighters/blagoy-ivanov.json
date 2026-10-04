@@ -98,15 +98,31 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Bellator MMA Bellator Season 10 Heavyweight Tournament: Runner-Up",
-    "Bellator Season 10 Heavyweight Tournament: Runner-Up",
-    "World Series of Fighting WSOF Heavyweight Championship (1 time) Four successful title defenses",
-    "WSOF Heavyweight Championship (1 time) Four successful title defenses",
-    "Four successful title defenses",
-    "Fédération Internationale de Sambo (FIAS) 2008 World Championships - Gold Medalist in combat sambo at +100 kg  2006 World Championships - Bronze Medalist in sambo wrestling at 100 kg",
-    "2008 World Championships - Gold Medalist in combat sambo at +100 kg",
-    "2006 World Championships - Bronze Medalist in sambo wrestling at 100 kg"
+    {
+      "org": "Bellator MMA",
+      "texte": "Bellator Season 10 Heavyweight Tournament: Runner-Up"
+    },
+    {
+      "org": "World Series of Fighting",
+      "texte": "WSOF Heavyweight Championship (1 time)"
+    },
+    {
+      "org": "World Series of Fighting",
+      "texte": "Four successful title defenses"
+    },
+    {
+      "org": "Fédération Internationale de Sambo (FIAS)",
+      "texte": "2008 World Championships - Gold Medalist in combat sambo at +100 kg"
+    },
+    {
+      "org": "Fédération Internationale de Sambo (FIAS)",
+      "texte": "2006 World Championships - Bronze Medalist in sambo wrestling at 100 kg"
+    }
   ],
+  "distinctions": {
+    "fr": [],
+    "en": []
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Blagoy_Ivanov",

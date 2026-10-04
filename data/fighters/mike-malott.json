@@ -99,11 +99,23 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Ultimate Fighting Championship Performance of the Night (Three times) vs. Yohan Lainesse, Adam Fugitt and Gilbert Burns",
-    "Performance of the Night (Three times) vs. Yohan Lainesse, Adam Fugitt and Gilbert Burns",
-    "Xcessive Force Fighting Championship XFFC Lightweight Champion (One time)",
-    "XFFC Lightweight Champion (One time)"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Three times) vs. Yohan Lainesse, Adam Fugitt and Gilbert Burns"
+    },
+    {
+      "org": "Xcessive Force Fighting Championship",
+      "texte": "XFFC Lightweight Champion (One time)"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 3× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 3× Performance of the Night"
+    ]
+  },
   "image_commons": "Mike-malott-2023-ufc-fighter-canada.png",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Mike_Malott",

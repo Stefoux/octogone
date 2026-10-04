@@ -103,15 +103,33 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Ultimate Fighting Championship Performance of the Night (Four times) vs. Misha Cirkunov , Ion Cuțelaba , Ovince Saint Preux and Marcus Buchecha",
-    "Performance of the Night (Four times) vs. Misha Cirkunov , Ion Cuțelaba , Ovince Saint Preux and Marcus Buchecha",
-    "Legacy Fighting Alliance LFA Light Heavyweight Championship (One time) vs. Alex Nicholson",
-    "LFA Light Heavyweight Championship (One time) vs. Alex Nicholson",
-    "Hero FC Hero FC Middleweight Championship (One time; former)",
-    "Hero FC Middleweight Championship (One time; former)",
-    "MMA Fighting 2022 Second Team MMA All-Star",
-    "2022 Second Team MMA All-Star"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Four times) vs. Misha Cirkunov , Ion Cuțelaba , Ovince Saint Preux and Marcus Buchecha"
+    },
+    {
+      "org": "Legacy Fighting Alliance",
+      "texte": "LFA Light Heavyweight Championship (One time) vs. Alex Nicholson"
+    },
+    {
+      "org": "Hero FC",
+      "texte": "Hero FC Middleweight Championship (One time; former)"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2022 Second Team MMA All-Star"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion LFA des poids mi-lourds",
+      "Bonus UFC : 4× Performance de la soirée"
+    ],
+    "en": [
+      "LFA Light Heavyweight Champion",
+      "UFC bonuses: 4× Performance of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Ryan_Spann",

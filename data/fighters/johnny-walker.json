@@ -102,16 +102,39 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Performance of the Night (Five times) vs. Khalil Rountree Jr. , Justin Ledet , Misha Cirkunov , Ion Cuțelaba and Zhang Mingyang",
-    "UFC.com Awards 2018: Ranked #8 Newcomer of the Year",
-    "2018: Ranked #8 Newcomer of the Year",
-    "MMAJunkie.com 2019 February Knockout of the Month vs. Justin Ledet",
-    "2019 February Knockout of the Month vs. Justin Ledet",
-    "European Beatdown 2018 EBD Light Heavyweight Championship (One time)",
-    "2018 EBD Light Heavyweight Championship (One time)",
-    "Ultimate Challenge MMA 2018 UCMMA Light Heavyweight Championship (One time)",
-    "2018 UCMMA Light Heavyweight Championship (One time)"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Five times) vs. Khalil Rountree Jr. , Justin Ledet , Misha Cirkunov , Ion Cuțelaba and Zhang Mingyang"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2018: Ranked #8 Newcomer of the Year"
+    },
+    {
+      "org": "MMAJunkie.com",
+      "texte": "2019 February Knockout of the Month vs. Justin Ledet"
+    },
+    {
+      "org": "European Beatdown",
+      "texte": "2018 EBD Light Heavyweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Challenge MMA",
+      "texte": "2018 UCMMA Light Heavyweight Championship (One time)"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 5× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 5× Performance of the Night"
+    ]
+  },
   "image_commons": "AFSOC celebrates Outstanding Airmen of the Year (5).jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Johnny_Walker_(fighter)",

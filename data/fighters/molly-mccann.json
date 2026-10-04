@@ -107,20 +107,57 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Fight of the Night (One time) vs. Ji Yeon Kim",
-    "Performance of the Night (Three times) Luana Carolina , Hannah Goldy , and Diana Belbiţă    Tied (Carli Judice) for most Post-Fight bonuses in UFC Women's Flyweight division history (3)",
-    "Tied (Carli Judice) for most Post-Fight bonuses in UFC Women's Flyweight division history (3)",
-    "UFC Honors Awards 2022: President's Choice Performance of the Year Nominee vs. Luana Carolina  & Fan's Choice Knockout of the Year Nominee vs. Luana Carolina",
-    "2022: President's Choice Performance of the Year Nominee vs. Luana Carolina  & Fan's Choice Knockout of the Year Nominee vs. Luana Carolina",
-    "UFC.com Awards 2022: Ranked #3 Knockout of the Year vs. Luana Carolina",
-    "2022: Ranked #3 Knockout of the Year vs. Luana Carolina",
-    "Cage Warriors Fighting Championship Cage Warriors Fighting Championship Women's Flyweight Champion (One time)",
-    "Cage Warriors Fighting Championship Women's Flyweight Champion (One time)",
-    "MMA Junkie 2022 March Knockout of the Month vs. Luana Carolina",
-    "2022 March Knockout of the Month vs. Luana Carolina",
-    "MMA Fighting 2022 First Team MMA All-Star",
-    "2022 First Team MMA All-Star"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Ji Yeon Kim"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Three times) Luana Carolina , Hannah Goldy , and Diana Belbiţă"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied (Carli Judice) for most Post-Fight bonuses in UFC Women's Flyweight division history (3)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: President's Choice Performance of the Year Nominee vs. Luana Carolina & Fan's Choice Knockout of the Year Nominee vs. Luana Carolina"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Ranked #3 Knockout of the Year vs. Luana Carolina"
+    },
+    {
+      "org": "Cage Warriors Fighting Championship",
+      "texte": "Cage Warriors Fighting Championship Women's Flyweight Champion (One time)"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2022 March Knockout of the Month vs. Luana Carolina"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2022 First Team MMA All-Star"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Championne Cage Warriors des poids mouche féminins",
+      "Bonus UFC : 3× Performance de la soirée, 1× Combat de la soirée"
+    ],
+    "en": [
+      "Cage Warriors Women's Flyweight Champion",
+      "UFC bonuses: 3× Performance of the Night, 1× Fight of the Night"
+    ]
+  },
   "image_commons": "Molly McCann 2018.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Molly_McCann",

@@ -203,47 +203,457 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "UFC Hall of Fame (Modern Wing, Class of 2020)",
-    "UFC Middleweight Championship (one time)  Fourth Multi-Divisional Champion in UFC History",
-    "Fourth Multi-Divisional Champion in UFC History",
-    "Nine successful title defenses",
-    "Third most consecutive title defenses in the UFC history (9)",
-    "Most successful title defenses in UFC Welterweight division history (9)",
-    "Most consecutive title defenses in UFC Welterweight division history (9)",
-    "Most wins in UFC welterweight title fights (12)",
-    "Most UFC Welterweight title fights (14)",
-    "Second most wins in UFC title fights (13) (behind Jon Jones )",
-    "Tied ( Valentina Shevchenko ) for fourth most combined title defenses in UFC history (9)",
-    "Fight of the Night (Four times) vs. Jon Fitch , Josh Koscheck , Carlos Condit , Johny Hendricks",
-    "Knockout of the Night (one time) vs. Matt Hughes 2",
-    "Submission of the Night (one time) vs. Matt Hughes 3",
-    "Performance of the Night (one time) vs. Michael Bisping",
-    "UFC Encyclopedia Awards Fight of the Night (Two times) vs. Karo Parisyan and B.J. Penn 1   Knockout of the Night (one time) vs. Jay Hieron",
-    "Fight of the Night (Two times) vs. Karo Parisyan and B.J. Penn 1",
-    "Knockout of the Night (one time) vs. Jay Hieron",
-    "Tied ( Jon Jones , Khabib Nurmagomedov , Demetrious Johnson & Max Holloway ) for the fifth longest win streak in UFC history (13)  Second longest win streak in UFC Welterweight division history (12)",
-    "Second longest win streak in UFC Welterweight division history (12)",
-    "Second most wins in UFC Welterweight division history (19)",
-    "Tied for sixth most unanimous decision wins in UFC history (10)",
-    "Tied ( Neil Magny ) for third most unanimous decision wins in UFC Welterweight division history (10)",
-    "Tied ( Belal Muhammad ) for second most decision wins in UFC Welterweight division history (12)",
-    "Second most takedowns landed in UFC history (90)  (behind Merab Dvalishvili ) Most takedowns landed in UFC Welterweight division history (87)",
-    "Most takedowns landed in UFC Welterweight division history (87)",
-    "Second most total strikes landed in UFC Welterweight division history (2523)  (behind Neil Magny )",
-    "Most control time in UFC history (2:42:04)  Most control time in UFC Welterweight division history (2:38:49)",
-    "Most control time in UFC Welterweight division history (2:38:49)",
-    "Most top position time in UFC history (2:22:05)  Most top position time in UFC Welterweight division history (2:18:53)",
-    "Most top position time in UFC Welterweight division history (2:18:53)",
-    "Second highest significant strike defense percentage in UFC history (73.1%)  Highest significant strike defense percentage in UFC Welterweight division history (73.0%)",
-    "Highest significant strike defense percentage in UFC Welterweight division history (73.0%)",
-    "Tied ( Rafael dos Anjos ) for fourth most total strikes landed in UFC history (2591)",
-    "Fourth highest takedown accuracy percentage in UFC history (73.8%)",
-    "Tied ( Jake Ellenberger ) for eighth most bouts in UFC Welterweight division history (21)",
-    "Highest takedown accuracy percentage in UFC Welterweight division history (73.7%)  \"",
-    "Fourth most total fight time in UFC Welterweight division history (5:28:12)",
-    "Third most submission attempts in UFC Welterweight division history (23)",
-    "Holds wins over seven former UFC champions (6 undisputed) — vs. Matt Hughes (x2), B.J. Penn (x2), Matt Serra , Sean Sherk , Johny Hendricks , Michael Bisping and Carlos Condit (interim)"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame (Modern Wing, Class of 2020)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Middleweight Championship (one time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth Multi-Divisional Champion in UFC History"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Welterweight Championship (two times)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Nine successful title defenses"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most consecutive title defenses in the UFC history (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most successful title defenses in UFC Welterweight division history (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most consecutive title defenses in UFC Welterweight division history (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Interim UFC Welterweight Championship (one time, first)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most wins in UFC welterweight title fights (12)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most UFC Welterweight title fights (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most wins in UFC title fights (13) (behind Jon Jones )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Valentina Shevchenko ) for fourth most combined title defenses in UFC history (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Four times) vs. Jon Fitch , Josh Koscheck , Carlos Condit , Johny Hendricks"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Knockout of the Night (one time) vs. Matt Hughes 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Submission of the Night (one time) vs. Matt Hughes 3"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (one time) vs. Michael Bisping"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Encyclopedia Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Two times) vs. Karo Parisyan and B.J. Penn 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Knockout of the Night (one time) vs. Jay Hieron"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Jon Jones , Khabib Nurmagomedov , Demetrious Johnson & Max Holloway ) for the fifth longest win streak in UFC history (13)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second longest win streak in UFC Welterweight division history (12)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most wins in UFC Welterweight division history (19)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Diego Sanchez , Rafael dos Anjos , Andrei Arlovski & Belal Muhammad ) for fourth most wins by decision in UFC history (12)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied for sixth most unanimous decision wins in UFC history (10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Neil Magny ) for third most unanimous decision wins in UFC Welterweight division history (10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Belal Muhammad ) for second most decision wins in UFC Welterweight division history (12)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most takedowns landed in UFC history (90) (behind Merab Dvalishvili )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most takedowns landed in UFC Welterweight division history (87)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most total strikes landed in UFC Welterweight division history (2523) (behind Neil Magny )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most control time in UFC history (2:42:04)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most control time in UFC Welterweight division history (2:38:49)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most top position time in UFC history (2:22:05)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most top position time in UFC Welterweight division history (2:18:53)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second highest significant strike defense percentage in UFC history (73.1%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Highest significant strike defense percentage in UFC Welterweight division history (73.0%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Rafael dos Anjos ) for fourth most total strikes landed in UFC history (2591)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth highest takedown accuracy percentage in UFC history (73.8%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Jake Ellenberger ) for eighth most bouts in UFC Welterweight division history (21)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Highest takedown accuracy percentage in UFC Welterweight division history (73.7%) \""
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most total fight time in UFC Welterweight division history (5:28:12)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most submission attempts in UFC Welterweight division history (23)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Holds wins over seven former UFC champions (6 undisputed) — vs. Matt Hughes (x2), B.J. Penn (x2), Matt Serra , Sean Sherk , Johny Hendricks , Michael Bisping and Carlos Condit (interim)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2005: Ranked #2 Submission of the Year & Ranked #10 Fight of the Year vs. Frank Trigg"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2006: Ranked #4 Knockout of the Year vs. Matt Hughes 2 & Ranked #2 Fight of the Year vs. B.J. Penn 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2007: Ranked #5 Fighter of the Year & Ranked #5 Submission of the Year vs. Matt Hughes"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2008: Ranked #6 Fighter of the Year & Ranked #6 Fight of the Year vs. Jon Fitch"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2009: Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2010: Ranked #5 Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2012: Ranked #5 Fight of the Year vs. Carlos Condit"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2013: Ranked #9 Fighter of the Year & Ranked #10 Fight of the Year vs. Johny Hendricks"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2017: Ranked #9 Submission of the Year , Ranked #9 Fight of the Year & Ranked #10 Upset of the Year vs. Michael Bisping"
+    },
+    {
+      "org": "Universal Combat Challenge / TKO Major League MMA",
+      "texte": "UCC/TKO Canadian Welterweight Championship (one time)"
+    },
+    {
+      "org": "Universal Combat Challenge / TKO Major League MMA",
+      "texte": "Two title defenses"
+    },
+    {
+      "org": "ESPN",
+      "texte": "Top 100 Athletes of the 21st Century - #76"
+    },
+    {
+      "org": "ESPN",
+      "texte": "#2 Ranked Men's MMA Fighter of the 21st Century"
+    },
+    {
+      "org": "Canada's Sports Hall of Fame",
+      "texte": "Class of 2023"
+    },
+    {
+      "org": "Canada's Sports Hall of Fame",
+      "texte": "Order of Sport"
+    },
+    {
+      "org": "FanSided",
+      "texte": "2000s #2 Ranked MMA Fighter of the Decade"
+    },
+    {
+      "org": "BJPenn.com",
+      "texte": "2010s #7 Ranked Fighter of the Decade"
+    },
+    {
+      "org": "The Athletic",
+      "texte": "2010s Welterweight Fighter of the Decade"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2010s Welterweight Fighter of the Decade"
+    },
+    {
+      "org": "Black Belt Magazine",
+      "texte": "Fighter of the Year (2008)"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "Mixed Martial Arts Hall of Fame"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2017 Comeback Fighter of the Year vs. Michael Bisping"
+    },
+    {
+      "org": "Inside MMA",
+      "texte": "2009 Fighter of the Year Bazzie Award"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2008 Fight of the Year vs. Jon Fitch at UFC 87"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2009 Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2017 Comeback Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2017 #5 Ranked Submission of the Year vs. Michael Bisping at UFC 217"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2010s #4 Ranked Fighter of the Decade"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "Male Fighter of the Year (2009)"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "Male Fighter of the Year (2010)"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2012 Comeback Fighter of the Year vs. Carlos Condit on November 17, 2012"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2017 Comeback Fighter of the Year vs. Michael Bisping on November 4, 2017"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2006 Most Noteworthy Match of Year vs. Matt Hughes on November 16, 2006"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2007 Most Noteworthy Match of Year vs. Matt Serra on April 7, 2007"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2009 Most Noteworthy Match of Year vs. B.J. Penn on January 31, 2009"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "Greatest Welterweight of All Time"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "Greatest Fighter of All Time"
+    },
+    {
+      "org": "Rogers Sportsnet",
+      "texte": "2008 Rogers Sportsnet Canadian Athlete of the Year"
+    },
+    {
+      "org": "Rogers Sportsnet",
+      "texte": "2009 Rogers Sportsnet Canadian Athlete of the Year"
+    },
+    {
+      "org": "Rogers Sportsnet",
+      "texte": "2010 Rogers Sportsnet Canadian Athlete of the Year"
+    },
+    {
+      "org": "Spike Guys' Choice Awards",
+      "texte": "2010 Most Dangerous Man of the Year"
+    },
+    {
+      "org": "Sports Illustrated",
+      "texte": "2009 Fighter of the Year"
+    },
+    {
+      "org": "Wrestling Observer Newsletter Awards",
+      "texte": "2013 Best Box Office Draw"
+    },
+    {
+      "org": "Wrestling Observer Newsletter Awards",
+      "texte": "2008 Most Outstanding Fighter"
+    },
+    {
+      "org": "Wrestling Observer Newsletter Awards",
+      "texte": "2009 Most Outstanding Fighter"
+    },
+    {
+      "org": "Wrestling Observer Newsletter Awards",
+      "texte": "2010 Most Outstanding Fighter"
+    },
+    {
+      "org": "Wrestling Observer Newsletter Awards",
+      "texte": "2011 MMA Most Valuable Fighter"
+    },
+    {
+      "org": "Wrestling Observer Newsletter Awards",
+      "texte": "2013 MMA Most Valuable Fighter"
+    },
+    {
+      "org": "Wrestling Observer Newsletter Awards",
+      "texte": "2017 MMA Most Valuable Fighter"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2008 Submission of the Year vs. Matt Hughes at UFC 79"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2009 Fighter of the Year"
+    },
+    {
+      "org": "ESPY Awards",
+      "texte": "2008 Nomination – Best Fighter ESPY Award"
+    },
+    {
+      "org": "ESPY Awards",
+      "texte": "2010 Nomination – Best Fighter ESPY Award"
+    },
+    {
+      "org": "ESPY Awards",
+      "texte": "2011 Nomination – Best Fighter ESPY Award"
+    },
+    {
+      "org": "ESPY Awards",
+      "texte": "2018 Nomination – Best Fighter ESPY Award"
+    },
+    {
+      "org": "Inside Fights",
+      "texte": "2009 Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2005 Welterweight Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2006 Welterweight Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2009 #3 Ranked Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2010s #6 Ranked Fighter of the Decade"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "Greatest UFC Fighter of All Time"
+    },
+    {
+      "org": "MMA Sucka",
+      "texte": "2017 Comeback Fighter of the Year"
+    },
+    {
+      "org": "Cagewriters",
+      "texte": "2010 Fighter of the Year tied with Cain Velasquez"
+    },
+    {
+      "org": "Canadian Pro-Wrestling Hall of Fame",
+      "texte": "Class of 2021 (MMA Wing)"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids moyens",
+      "Champion UFC des poids mi-moyens (2 fois)",
+      "Hall of Fame de l'UFC (2020)",
+      "9 défenses de titre à l'UFC",
+      "Combattant de l'année (2009, 2010)",
+      "Bonus UFC : 1× Performance de la soirée, 4× Combat de la soirée, 1× KO de la soirée, 1× Soumission de la soirée"
+    ],
+    "en": [
+      "UFC Middleweight Champion",
+      "UFC Welterweight Champion (2×)",
+      "UFC Hall of Fame (2020)",
+      "9 UFC title defenses",
+      "Fighter of the Year (2009, 2010)",
+      "UFC bonuses: 1× Performance of the Night, 4× Fight of the Night, 1× Knockout of the Night, 1× Submission of the Night"
+    ]
+  },
   "image_commons": "Georges St-Pierre crop.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Georges_St-Pierre",

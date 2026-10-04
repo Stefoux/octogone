@@ -119,22 +119,77 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Performance of the Night (Two times) vs. Mirsad Bektić and Bryce Mitchell",
-    "Fight of the Night (Three times) vs. Shane Burgos , Calvin Kattar & Ilia Topuria",
-    "Tied ( Chuck Liddell , Quinton Jackson , Cody Garbrandt , Montel Jackson & Ilia Topuria ) for most consecutive fights with a knockdown landed in UFC history (7)",
-    "UFC Honors Awards 2020: President's Choice Fight of the Year Nominee vs. Shane Burgos",
-    "2020: President's Choice Fight of the Year Nominee vs. Shane Burgos",
-    "2016: Ranked #8 Newcomer of the Year",
-    "2017: Ranked #2 Upset of the Year vs. Ricardo Lamas",
-    "2019: Ranked #10 Knockout of the Year vs. Michael Johnson",
-    "2020: Ranked #4 Fight of the Year vs. Shane Burgos",
-    "2023: Knockout of the Year vs. Bryce Mitchell",
-    "West Coast Fighting Championship WCFC Lightweight Champion (One time)  ISCF Pro California Lightweight Champion (One time)",
-    "WCFC Lightweight Champion (One time)",
-    "ISCF Pro California Lightweight Champion (One time)",
-    "Sportsnaut 2023 UFC Knockout of the Year vs. Bryce Mitchell at UFC 296",
-    "2023 UFC Knockout of the Year vs. Bryce Mitchell at UFC 296"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. Mirsad Bektić and Bryce Mitchell"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Three times) vs. Shane Burgos , Calvin Kattar & Ilia Topuria"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Cub Swanson ) for most knockdowns in UFC Featherweight division history (12)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Chuck Liddell , Quinton Jackson , Cody Garbrandt , Montel Jackson & Ilia Topuria ) for most consecutive fights with a knockdown landed in UFC history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: President's Choice Fight of the Year Nominee vs. Shane Burgos"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2016: Ranked #8 Newcomer of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2017: Ranked #2 Upset of the Year vs. Ricardo Lamas"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2019: Ranked #10 Knockout of the Year vs. Michael Johnson"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Ranked #4 Fight of the Year vs. Shane Burgos"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: Knockout of the Year vs. Bryce Mitchell"
+    },
+    {
+      "org": "West Coast Fighting Championship",
+      "texte": "WCFC Lightweight Champion (One time)"
+    },
+    {
+      "org": "West Coast Fighting Championship",
+      "texte": "ISCF Pro California Lightweight Champion (One time)"
+    },
+    {
+      "org": "Sportsnaut",
+      "texte": "2023 UFC Knockout of the Year vs. Bryce Mitchell at UFC 296"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "KO de l'année (2023)",
+      "Bonus UFC : 2× Performance de la soirée, 3× Combat de la soirée"
+    ],
+    "en": [
+      "Knockout of the Year (2023)",
+      "UFC bonuses: 2× Performance of the Night, 3× Fight of the Night"
+    ]
+  },
   "image_commons": "In Their Corner UFC Visits Walter Reed Warriors (7) (cropped).jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Josh_Emmett",

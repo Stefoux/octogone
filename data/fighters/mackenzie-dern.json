@@ -130,25 +130,93 @@
   "champion_division": "Poids paille féminins",
   "ancien_champion": false,
   "accomplissements_en": [
-    "UFC Women's Strawweight Championship (One time, Current) One successful title defense",
-    "One successful title defense",
-    "Performance of the Night (Four times) vs. Hannah Cifers , Randa Markos , Nina Ansaroff and Amanda Ribas 2",
-    "Second most Post-Fight bonuses in UFC Women's Strawweight division history (7)",
-    "Tied ( Ronda Rousey ) for second most Post-Fight bonuses in UFC Women's history (7) (behind Jéssica Andrade )",
-    "Tied ( Virna Jandiroba ) for most submission attempts in UFC Women's Strawweight division history (16)",
-    "Second most submission wins in UFC Women's history (5)  (behind Gillian Robertson )",
-    "Second most wins in UFC Women's Strawweight division history (12)",
-    "Tied ( Rose Namajunas , Amanda Lemos & Tatiana Suarez ) for second most finishes in UFC Women's Strawweight division history (5)",
-    "UFC Honors Awards 2020: Fan's Choice Submission of the Year Nominee vs. Hannah Cifers",
-    "2020: Fan's Choice Submission of the Year Nominee vs. Hannah Cifers",
-    "UFC.com Awards 2018: Ranked #3 Newcomer of the Year  2020: Ranked #2 Submission of the Year vs. Hannah Cifers",
-    "2018: Ranked #3 Newcomer of the Year",
-    "2020: Ranked #2 Submission of the Year vs. Hannah Cifers",
-    "MMA Fighting 2025 Second Team MMA All-Star",
-    "2025 Second Team MMA All-Star",
-    "Uncrowned 2025 #3 Ranked Women's Fighter of the Year",
-    "2025 #3 Ranked Women's Fighter of the Year"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Women's Strawweight Championship (One time, Current)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "One successful title defense"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Four times) vs. Hannah Cifers , Randa Markos , Nina Ansaroff and Amanda Ribas 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Three times) vs. Marina Rodriguez , Angela Hill and Amanda Lemos"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most Post-Fight bonuses in UFC Women's Strawweight division history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Ronda Rousey ) for second most Post-Fight bonuses in UFC Women's history (7) (behind Jéssica Andrade )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most submission wins in UFC Women's Strawweight division history (5)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Virna Jandiroba ) for most submission attempts in UFC Women's Strawweight division history (16)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most submission wins in UFC Women's history (5) (behind Gillian Robertson )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most wins in UFC Women's Strawweight division history (12)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Rose Namajunas , Amanda Lemos & Tatiana Suarez ) for second most finishes in UFC Women's Strawweight division history (5)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Fan's Choice Submission of the Year Nominee vs. Hannah Cifers"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2018: Ranked #3 Newcomer of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Ranked #2 Submission of the Year vs. Hannah Cifers"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2025 Second Team MMA All-Star"
+    },
+    {
+      "org": "Uncrowned",
+      "texte": "2025 #3 Ranked Women's Fighter of the Year"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Championne UFC des poids paille féminins",
+      "1 défense de titre à l'UFC",
+      "Record UFC chez les poids paille féminins : victoires par soumission (5)",
+      "Bonus UFC : 5× Performance de la soirée, 3× Combat de la soirée"
+    ],
+    "en": [
+      "UFC Women's Strawweight Champion",
+      "1 UFC title defense",
+      "UFC Women's Strawweight record: most submission wins (5)",
+      "UFC bonuses: 5× Performance of the Night, 3× Fight of the Night"
+    ]
+  },
   "image_commons": "Mackenzie Dern.png",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Mackenzie_Dern",

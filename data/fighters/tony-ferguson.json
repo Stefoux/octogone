@@ -146,47 +146,165 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "National Collegiate Wrestling Association  NCWA National Champion (2006) NCWA All-American (2006, 2007) North Central Conference Champion (2006, 2007)",
-    "NCWA National Champion (2006)",
-    "NCWA All-American (2006, 2007)",
-    "North Central Conference Champion (2006, 2007)",
-    "Michigan High School Athletic Association MHSAA Division IV State Champion (2002) MHSAA Division IV All-State (2000-2002)",
-    "MHSAA Division IV State Champion (2002)",
-    "MHSAA Division IV All-State (2000-2002)",
-    "Interim UFC Lightweight Championship (One time)",
-    "The Ultimate Fighter 13 winner",
-    "Fight of the Night (Six times) vs. Edson Barboza , Lando Vannata , Rafael dos Anjos , Anthony Pettis , Donald Cerrone and Justin Gaethje",
-    "Knockout of the Night (One time) vs. Ramsey Nijem",
-    "Submission of the Night (One time) vs. Mike Rio",
-    "Performance of the Night (Three times) vs. Edson Barboza , Josh Thomson and Gleison Tibau",
-    "Tied ( Khabib Nurmagomedov ) for the second longest win streak in UFC Lightweight division history (12)",
-    "Tied ( Donald Cerrone , Dustin Poirier & Islam Makhachev ) for fifth most finishes in UFC Lightweight division history (10)",
-    "Second most D'Arce choke submission wins in UFC history (3) (behind Vicente Luque )",
-    "Seventh most significant strikes landed in UFC Lightweight division history (1221)",
-    "Seventh most total strikes landed in UFC Lightweight division history (1404)",
-    "Tied ( Tai Tuivasa ) for the longest losing streak in UFC history (8)  Tied ( B.J. Penn , Jeremy Stephens & Tai Tuivasa ) for the second longest winless streak in UFC history (8) (behind Sam Alvey )",
-    "Tied ( B.J. Penn , Jeremy Stephens & Tai Tuivasa ) for the second longest winless streak in UFC history (8) (behind Sam Alvey )",
-    "2011: Ranked #3 Newcomer of the Year",
-    "2015: Ranked #9 Fighter of the Year ,  Ranked #5 Submission of the Year vs. Edson Barboza  & Ranked #3 Fight of the Year vs. Edson Barboza",
-    "2016: Ranked #9 Fight of the Year vs. Rafael dos Anjos",
-    "2018: Ranked #5 Fight of the Year vs. Anthony Pettis",
-    "2019: Ranked #9 Fight of the Year vs. Donald Cerrone",
-    "2020: Ranked #6 Fight of the Year vs. Justin Gaethje",
-    "PureCombat PureCombat Welterweight Championship (One time)",
-    "PureCombat Welterweight Championship (One time)",
-    "MMA Fighting 2010s #10 Ranked Fighter of the Decade",
-    "2010s #10 Ranked Fighter of the Decade",
-    "ESPN 2018 Fight of the Year vs. Anthony Pettis at UFC 229",
-    "2018 Fight of the Year vs. Anthony Pettis at UFC 229",
-    "World MMA Awards 2018 Fight of the Year vs. Anthony Pettis at UFC 229",
-    "2018 Fight of the Year vs. Anthony Pettis at UFC 229",
-    "CBS Sports 2018 #2 Ranked UFC Fight of the Year vs. Anthony Pettis",
-    "2018 #2 Ranked UFC Fight of the Year vs. Anthony Pettis",
-    "MMA Junkie 2015 #5 Ranked Fight of the Year vs. Edson Barboza at The Ultimate Fighter: Team McGregor vs. Team Faber Finale",
-    "2015 #5 Ranked Fight of the Year vs. Edson Barboza at The Ultimate Fighter: Team McGregor vs. Team Faber Finale",
-    "Interim Misfits Boxing Middleweight Championship (One time)",
-    "MFB Middleweight Championship (One Time)"
+    {
+      "org": "National Collegiate Wrestling Association",
+      "texte": "NCWA National Champion (2006)"
+    },
+    {
+      "org": "National Collegiate Wrestling Association",
+      "texte": "NCWA All-American (2006, 2007)"
+    },
+    {
+      "org": "National Collegiate Wrestling Association",
+      "texte": "North Central Conference Champion (2006, 2007)"
+    },
+    {
+      "org": "Michigan High School Athletic Association",
+      "texte": "MHSAA Division IV State Champion (2002)"
+    },
+    {
+      "org": "Michigan High School Athletic Association",
+      "texte": "MHSAA Division IV All-State (2000-2002)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Interim UFC Lightweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "The Ultimate Fighter 13 winner"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Six times) vs. Edson Barboza , Lando Vannata , Rafael dos Anjos , Anthony Pettis , Donald Cerrone and Justin Gaethje"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Knockout of the Night (One time) vs. Ramsey Nijem"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Submission of the Night (One time) vs. Mike Rio"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Three times) vs. Edson Barboza , Josh Thomson and Gleison Tibau"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Khabib Nurmagomedov ) for the second longest win streak in UFC Lightweight division history (12)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Donald Cerrone , Dustin Poirier & Islam Makhachev ) for fifth most finishes in UFC Lightweight division history (10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most D'Arce choke submission wins in UFC history (3) (behind Vicente Luque )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Seventh most significant strikes landed in UFC Lightweight division history (1221)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Seventh most total strikes landed in UFC Lightweight division history (1404)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Tai Tuivasa ) for the longest losing streak in UFC history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( B.J. Penn , Jeremy Stephens & Tai Tuivasa ) for the second longest winless streak in UFC history (8) (behind Sam Alvey )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2011: Ranked #3 Newcomer of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2015: Ranked #9 Fighter of the Year , Ranked #5 Submission of the Year vs. Edson Barboza & Ranked #3 Fight of the Year vs. Edson Barboza"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2016: Ranked #9 Fight of the Year vs. Rafael dos Anjos"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2018: Ranked #5 Fight of the Year vs. Anthony Pettis"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2019: Ranked #9 Fight of the Year vs. Donald Cerrone"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Ranked #6 Fight of the Year vs. Justin Gaethje"
+    },
+    {
+      "org": "PureCombat",
+      "texte": "PureCombat Welterweight Championship (One time)"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2010s #10 Ranked Fighter of the Decade"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2018 Fight of the Year vs. Anthony Pettis at UFC 229"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2018 Fight of the Year vs. Anthony Pettis at UFC 229"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2018 #2 Ranked UFC Fight of the Year vs. Anthony Pettis"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2015 #5 Ranked Fight of the Year vs. Edson Barboza at The Ultimate Fighter: Team McGregor vs. Team Faber Finale"
+    },
+    {
+      "org": null,
+      "texte": "Interim Misfits Boxing Middleweight Championship (One time)"
+    },
+    {
+      "org": null,
+      "texte": "MFB Middleweight Championship (One Time)"
+    },
+    {
+      "org": null,
+      "texte": "• One title defence"
+    },
+    {
+      "org": null,
+      "texte": "Prime Fighter of the Night (One time) vs. Salt Papi"
+    },
+    {
+      "org": "Misfits Boxing Awards",
+      "texte": "2025: Best Redemption (nominated), Fight of the Year (nominated)"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion intérimaire UFC des poids légers",
+      "Vainqueur de The Ultimate Fighter 13",
+      "Combat de l'année (2018)",
+      "Bonus UFC : 3× Performance de la soirée, 6× Combat de la soirée, 1× KO de la soirée, 1× Soumission de la soirée"
+    ],
+    "en": [
+      "Interim UFC Lightweight Champion",
+      "The Ultimate Fighter 13 winner",
+      "Fight of the Year (2018)",
+      "UFC bonuses: 3× Performance of the Night, 6× Fight of the Night, 1× Knockout of the Night, 1× Submission of the Night"
+    ]
+  },
   "image_commons": "Tony Ferguson 2025.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Tony_Ferguson",

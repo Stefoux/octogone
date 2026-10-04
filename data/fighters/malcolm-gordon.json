@@ -98,17 +98,35 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "TKO Major League MMA TKO Flyweight Championship (One time)  Two Successful Defenses",
-    "TKO Flyweight Championship (One time)  Two Successful Defenses",
-    "Two Successful Defenses",
-    "Warrior Xtreme Cagefighting WXC Flyweight Championship (One time)  One Successful Defense",
-    "WXC Flyweight Championship (One time)  One Successful Defense",
-    "One Successful Defense",
-    "Prodigy MMA PMMA Bantamweight Championship (One time)",
-    "PMMA Bantamweight Championship (One time)",
-    "Havoc Fighting Championship HFC Flyweight Championship (One time)",
-    "HFC Flyweight Championship (One time)"
+    {
+      "org": "TKO Major League MMA",
+      "texte": "TKO Flyweight Championship (One time)"
+    },
+    {
+      "org": "TKO Major League MMA",
+      "texte": "Two Successful Defenses"
+    },
+    {
+      "org": "Warrior Xtreme Cagefighting",
+      "texte": "WXC Flyweight Championship (One time)"
+    },
+    {
+      "org": "Warrior Xtreme Cagefighting",
+      "texte": "One Successful Defense"
+    },
+    {
+      "org": "Prodigy MMA",
+      "texte": "PMMA Bantamweight Championship (One time)"
+    },
+    {
+      "org": "Havoc Fighting Championship",
+      "texte": "HFC Flyweight Championship (One time)"
+    }
   ],
+  "distinctions": {
+    "fr": [],
+    "en": []
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Malcolm_Gordon_(fighter)",

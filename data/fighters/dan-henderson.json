@@ -123,47 +123,313 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "UFC Hall of Fame (Fight Wing, Class of 2018) vs. Maurício Rua 1 at UFC 139",
-    "UFC 17 Middleweight Tournament Championship",
-    "Fight of the Night (Four times) vs. Anderson Silva , Maurício Rua 1, Maurício Rua 2 and Michael Bisping 2",
-    "Knockout of the Night (One time) vs. Michael Bisping 1",
-    "Performance of the Night (Two times) vs. Maurício Rua 2 and Héctor Lombard",
-    "UFC Encyclopedia Awards Fight of the Night (One time) vs. Carlos Newton",
-    "Fight of the Night (One time) vs. Carlos Newton",
-    "Tied ( Charles Oliveira & Neil Magny ) for fourth most wins in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (25)",
-    "Thrid most knockdowns in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (20)",
-    "Oldest combatant to fight for a UFC championship (46 years)",
-    "2009: Ranked #8 Fighter of the Year  & Ranked #4 Knockout of the Year vs. Michael Bisping 1",
-    "2011: Fight of the Year vs. Maurício Rua 1  & Ranked #6 Fighter of the Year (Tied with Nate Diaz )",
-    "2014: Ranked #6 Knockout of the Year  & Ranked #9 Fight of the Year vs. Maurício Rua 2",
-    "2016: Ranked #9 Knockout of the Year vs. Héctor Lombard",
-    "Pride Middleweight Championship (One time; Last)",
-    "Pride Welterweight Championship (One time; First; Last)",
-    "2005 Pride Welterweight Grand Prix Champion",
-    "First combatant to win Pride championships in multiple weight classes",
-    "First combatant to simultaneously hold multiple Pride championships",
-    "One of only two fighters to win Tournaments in both Pride FC and UFC",
-    "Strikeforce Strikeforce Light Heavyweight Championship (One time, Last) Oldest combatant to win a Strikeforce championship (40 years, 194 days)",
-    "Strikeforce Light Heavyweight Championship (One time, Last)",
-    "Oldest combatant to win a Strikeforce championship (40 years, 194 days)",
-    "Fighting Network RINGS RINGS King of Kings 1999 Tournament Winner",
-    "RINGS King of Kings 1999 Tournament Winner",
-    "Brazil Open Fight Brazil Open 1997 Lightweight Tournament Winner",
-    "Brazil Open 1997 Lightweight Tournament Winner",
-    "World MMA Awards 2009 Knockout of the Year vs. Michael Bisping at UFC 100",
-    "2009 Knockout of the Year vs. Michael Bisping at UFC 100",
-    "ESPN 2011 Fight of the Year vs. Maurício Rua on November 19 2011 Round of the Year vs. Maurício Rua on November 19; Round 1",
-    "2011 Fight of the Year vs. Maurício Rua on November 19",
-    "2011 Round of the Year vs. Maurício Rua on November 19; Round 1",
-    "Sherdog 2011 All-Violence Second Team",
-    "2011 All-Violence Second Team",
-    "Inside MMA 2011 Fight of the Year Bazzie Award vs. Maurício Rua on November 19",
-    "2011 Fight of the Year Bazzie Award vs. Maurício Rua on November 19",
-    "Inside Fights 2009 Knockout of the Year vs. Michael Bisping on July 11",
-    "2009 Knockout of the Year vs. Michael Bisping on July 11",
-    "Cagewriters 2009 Knockout of the Year vs. Michael Bisping at UFC 100",
-    "2009 Knockout of the Year vs. Michael Bisping at UFC 100"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame (Fight Wing, Class of 2018) vs. Maurício Rua 1 at UFC 139"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC 17 Middleweight Tournament Championship"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Four times) vs. Anderson Silva , Maurício Rua 1, Maurício Rua 2 and Michael Bisping 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Knockout of the Night (One time) vs. Michael Bisping 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. Maurício Rua 2 and Héctor Lombard"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Encyclopedia Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Carlos Newton"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Charles Oliveira & Neil Magny ) for fourth most wins in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (25)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Thrid most knockdowns in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (20)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Oldest combatant to fight for a UFC championship (46 years)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2009: Ranked #8 Fighter of the Year & Ranked #4 Knockout of the Year vs. Michael Bisping 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2011: Fight of the Year vs. Maurício Rua 1 & Ranked #6 Fighter of the Year (Tied with Nate Diaz )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2014: Ranked #6 Knockout of the Year & Ranked #9 Fight of the Year vs. Maurício Rua 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2016: Ranked #9 Knockout of the Year vs. Héctor Lombard"
+    },
+    {
+      "org": "Pride Fighting Championships",
+      "texte": "Pride Middleweight Championship (One time; Last)"
+    },
+    {
+      "org": "Pride Fighting Championships",
+      "texte": "Pride Welterweight Championship (One time; First; Last)"
+    },
+    {
+      "org": "Pride Fighting Championships",
+      "texte": "2005 Pride Welterweight Grand Prix Champion"
+    },
+    {
+      "org": "Pride Fighting Championships",
+      "texte": "First combatant to win Pride championships in multiple weight classes"
+    },
+    {
+      "org": "Pride Fighting Championships",
+      "texte": "First combatant to simultaneously hold multiple Pride championships"
+    },
+    {
+      "org": "Pride Fighting Championships",
+      "texte": "One of only two fighters to win Tournaments in both Pride FC and UFC"
+    },
+    {
+      "org": "Strikeforce",
+      "texte": "Strikeforce Light Heavyweight Championship (One time, Last)"
+    },
+    {
+      "org": "Strikeforce",
+      "texte": "Oldest combatant to win a Strikeforce championship (40 years, 194 days)"
+    },
+    {
+      "org": "Fighting Network RINGS",
+      "texte": "RINGS King of Kings 1999 Tournament Winner"
+    },
+    {
+      "org": "Brazil Open Fight",
+      "texte": "Brazil Open 1997 Lightweight Tournament Winner"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2009 Knockout of the Year vs. Michael Bisping at UFC 100"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2011 Fight of the Year vs. Maurício Rua on November 19"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2011 Round of the Year vs. Maurício Rua on November 19; Round 1"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2011 All-Violence Second Team"
+    },
+    {
+      "org": "Inside MMA",
+      "texte": "2011 Fight of the Year Bazzie Award vs. Maurício Rua on November 19"
+    },
+    {
+      "org": "Inside Fights",
+      "texte": "2009 Knockout of the Year vs. Michael Bisping on July 11"
+    },
+    {
+      "org": "Cagewriters",
+      "texte": "2009 Knockout of the Year vs. Michael Bisping at UFC 100"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "2011 Fight of the Year vs. Maurício Rua on November 19"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2011 Fight of the Year vs. Maurício Rua on November 19"
+    },
+    {
+      "org": "FIGHT! Magazine",
+      "texte": "2009 Knockout of the Year vs. Michael Bisping on July 11"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2009 Knockout of the Year vs. Michael Bisping on July 11"
+    },
+    {
+      "org": "Black Belt Magazine",
+      "texte": "2007 MMA Fighter of the Year"
+    },
+    {
+      "org": "Black Belt Magazine",
+      "texte": "Black Belt Magazine Hall of Famer"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2016 #8 Ranked UFC Fight of the Year vs. Michael Bisping"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2016 #4 Ranked Knockout of the Year vs. Héctor Lombard at UFC 199"
+    },
+    {
+      "org": "International Federation of Associated Wrestling Styles",
+      "texte": "2000 Henri Deglane Challenge Senior Greco-Roman Bronze Medalist"
+    },
+    {
+      "org": "International Federation of Associated Wrestling Styles",
+      "texte": "2000 Pan American Championships Senior-Greco Roman Gold Medalist"
+    },
+    {
+      "org": "International Federation of Associated Wrestling Styles",
+      "texte": "1999 Nordvest Cup Senior Greco-Roman Bronze Medalist"
+    },
+    {
+      "org": "International Federation of Associated Wrestling Styles",
+      "texte": "1998 Henri Deglane Challenge Senior Greco-Roman Bronze Medalist"
+    },
+    {
+      "org": "International Federation of Associated Wrestling Styles",
+      "texte": "1998 Pan American Championships Senior Greco-Roman Bronze Medalist"
+    },
+    {
+      "org": "International Federation of Associated Wrestling Styles",
+      "texte": "1998 FILA Test Tournament Senior Greco-Roman Gold Medalist"
+    },
+    {
+      "org": "International Federation of Associated Wrestling Styles",
+      "texte": "1998 Tropheo Milone Tournament Senior Greco-Roman Gold Medalist"
+    },
+    {
+      "org": "International Federation of Associated Wrestling Styles",
+      "texte": "1998 Vehbi Emri Tournament Senior Greco-Roman Silver Medalist"
+    },
+    {
+      "org": "International Federation of Associated Wrestling Styles",
+      "texte": "1997 Concord Cup International Senior Greco-Roman Silver Medalist"
+    },
+    {
+      "org": "International Federation of Associated Wrestling Styles",
+      "texte": "1997 Gold Medal Challenge Senior Greco-Roman Gold Medalist"
+    },
+    {
+      "org": "International Federation of Associated Wrestling Styles",
+      "texte": "1996 World Cup Senior Greco-Roman Silver Medalist"
+    },
+    {
+      "org": "International Federation of Associated Wrestling Styles",
+      "texte": "1995 Pan American Games Senior Greco-Roman Bronze Medalist"
+    },
+    {
+      "org": "International Federation of Associated Wrestling Styles",
+      "texte": "1995 Sunkist Kids International Open Senior Greco-Roman Gold Medalist"
+    },
+    {
+      "org": "International Federation of Associated Wrestling Styles",
+      "texte": "1994 World Cup Senior Greco-Roman Silver Medalist"
+    },
+    {
+      "org": "International Federation of Associated Wrestling Styles",
+      "texte": "1994 Pan American Championships Senior Greco-Roman Silver Medalist"
+    },
+    {
+      "org": "International Federation of Associated Wrestling Styles",
+      "texte": "1990 World Wrestling Championships Junior Greco-Roman Gold Medalist"
+    },
+    {
+      "org": "International Federation of Associated Wrestling Styles",
+      "texte": "1984 Pan American Championships Senior Greco-Roman Silver Medalist"
+    },
+    {
+      "org": "National Wrestling Hall of Fame and Museum",
+      "texte": "Lifetime Service to Wrestling Award (2010)"
+    },
+    {
+      "org": "California Wrestling Hall of Fame",
+      "texte": "2013 CWHOF Inductee"
+    },
+    {
+      "org": "USA Wrestling",
+      "texte": "USA Senior Greco-Roman Olympic Team Trials Winner (1992, 1996)"
+    },
+    {
+      "org": "USA Wrestling",
+      "texte": "Senior Greco-Roman World Team Trials Winner (1994, 1997)"
+    },
+    {
+      "org": "USA Wrestling",
+      "texte": "Senior Greco-Roman World Team Trials Runner-up (1999, 2001)"
+    },
+    {
+      "org": "USA Wrestling",
+      "texte": "USA Senior Greco-Roman National Championship (1993, 1994, 1997)"
+    },
+    {
+      "org": "USA Wrestling",
+      "texte": "USA Senior Greco-Roman National Championship Runner-up (2000)"
+    },
+    {
+      "org": "USA Wrestling",
+      "texte": "USA University Greco-Roman National Championship (1991, 1993, 1994)"
+    },
+    {
+      "org": "USA Wrestling",
+      "texte": "USA Junior Greco-Roman National Championship (1988)"
+    },
+    {
+      "org": "USA Wrestling",
+      "texte": "USA Junior Freestyle National Championship (1988)"
+    },
+    {
+      "org": "USA Wrestling",
+      "texte": "1999 Mini-Tournament at World Team Trials Senior Greco-Roman Gold Medalist"
+    },
+    {
+      "org": "Amateur Wrestling News Magazine",
+      "texte": "1990 Amateur Wrestling News Freshman All-American"
+    },
+    {
+      "org": "California Interscholastic Federation",
+      "texte": "CIF High School State Championship Runner-up (1987)"
+    },
+    {
+      "org": "California Interscholastic Federation",
+      "texte": "CIF All-State (1987, 1988)"
+    },
+    {
+      "org": "California Interscholastic Federation",
+      "texte": "CIF Southern Section Championship (1987, 1988)"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion Pride des poids moyens et mi-moyens",
+      "Champion Strikeforce des poids mi-lourds",
+      "Hall of Fame de l'UFC, aile Combats (2018)",
+      "Combattant de l'année (2007)",
+      "Combat de l'année (2011)",
+      "Bonus UFC : 2× Performance de la soirée, 4× Combat de la soirée, 1× KO de la soirée"
+    ],
+    "en": [
+      "Pride Middleweight & Welterweight Champion",
+      "Strikeforce Light Heavyweight Champion",
+      "UFC Hall of Fame, Fight Wing (2018)",
+      "Fighter of the Year (2007)",
+      "Fight of the Year (2011)",
+      "UFC bonuses: 2× Performance of the Night, 4× Fight of the Night, 1× Knockout of the Night"
+    ]
+  },
   "image_commons": "DanHenderson.png",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Dan_Henderson",

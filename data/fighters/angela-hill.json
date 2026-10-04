@@ -126,36 +126,135 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Second most Fight of the Night bonuses in UFC Women's history (4) (behind Jéssica Andrade )",
-    "Performance of the Night (One time) vs. Luana Pinheiro  Tied ( Zhang Weili ) for fourth most Post-Fight bonuses in UFC Women's Strawweight division history (5)",
-    "Tied ( Zhang Weili ) for fourth most Post-Fight bonuses in UFC Women's Strawweight division history (5)",
-    "Most bouts in UFC Women's Strawweight division history (29)  Tied ( Jéssica Andrade ) for most bouts in UFC Women's history (30)",
-    "Tied ( Jéssica Andrade ) for most bouts in UFC Women's history (30)",
-    "Most wins in UFC Women's Strawweight division history (13)",
-    "Most losses in UFC Women's history (16)",
-    "Most total fight time in UFC Women's Strawweight division history (6:57:45)  Most total fight time in UFC Women's history (7:12:45)  Sixth longest fight time in UFC history (7:12:45)",
-    "Most total fight time in UFC Women's history (7:12:45)",
-    "Sixth longest fight time in UFC history (7:12:45)",
-    "Most significant strikes landed in UFC Women's history (2364)",
-    "Third most significant strikes landed in UFC history (2364)",
-    "Most total strikes landed in UFC Women's Strawweight division history (2675)  Fourth most total strikes landed in UFC history (2763)",
-    "Fourth most total strikes landed in UFC history (2763)",
-    "Most unanimous decision wins in UFC Women's Strawweight division history (9) Most decision wins in UFC Women's Strawweight division history (10)",
-    "Most decision wins in UFC Women's Strawweight division history (10)",
-    "Most decision bouts in UFC Women's Strawweight division history (24) Most decision bouts in UFC history (25)",
-    "Most decision bouts in UFC history (25)",
-    "Fourth most control time in UFC Women's Strawweight division history (1:01:33)",
-    "Tied ( Jorge Masvidal , Clay Guida , Paul Felder , Cortney Casey & Andrea Lee ) for most split decision losses in UFC history (4)",
-    "UFC.com Awards 2017: Ranked #8 Fight of the Year vs. Jéssica Andrade",
-    "2017: Ranked #8 Fight of the Year vs. Jéssica Andrade",
-    "Won the Invicta FC Strawweight Championship (One time) One successful title defense",
-    "One successful title defense",
-    "Performance of the Night (Three times) vs. Alida Gray , Stephanie Eggink and Lívia Renata Souza",
-    "MMA Junkie 2020 September Fight of the Month vs. Michelle Waterson",
-    "2020 September Fight of the Month vs. Michelle Waterson",
-    "MMA Fighting 2022 Third Team MMA All-Star",
-    "2022 Third Team MMA All-Star"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Four times) vs. Jéssica Andrade , Michelle Waterson , Amanda Lemos and Mackenzie Dern"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most Fight of the Night bonuses in UFC Women's history (4) (behind Jéssica Andrade )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Luana Pinheiro"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Zhang Weili ) for fourth most Post-Fight bonuses in UFC Women's Strawweight division history (5)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most bouts in UFC Women's Strawweight division history (29)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Jéssica Andrade ) for most bouts in UFC Women's history (30)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most wins in UFC Women's Strawweight division history (13)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most losses in UFC Women's history (16)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most total fight time in UFC Women's Strawweight division history (6:57:45)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most total fight time in UFC Women's history (7:12:45)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Sixth longest fight time in UFC history (7:12:45)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most significant strikes landed in UFC Women's Strawweight division history (2279)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most significant strikes landed in UFC Women's history (2364)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most significant strikes landed in UFC history (2364)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most total strikes landed in UFC Women's Strawweight division history (2675)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most total strikes landed in UFC history (2763)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most unanimous decision wins in UFC Women's Strawweight division history (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most decision wins in UFC Women's Strawweight division history (10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most decision bouts in UFC Women's Strawweight division history (24)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most decision bouts in UFC history (25)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most control time in UFC Women's Strawweight division history (1:01:33)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Jorge Masvidal , Clay Guida , Paul Felder , Cortney Casey & Andrea Lee ) for most split decision losses in UFC history (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2017: Ranked #8 Fight of the Year vs. Jéssica Andrade"
+    },
+    {
+      "org": "Invicta Fighting Championships",
+      "texte": "Won the Invicta FC Strawweight Championship (One time)"
+    },
+    {
+      "org": "Invicta Fighting Championships",
+      "texte": "One successful title defense"
+    },
+    {
+      "org": "Invicta Fighting Championships",
+      "texte": "Performance of the Night (Three times) vs. Alida Gray , Stephanie Eggink and Lívia Renata Souza"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2020 September Fight of the Month vs. Michelle Waterson"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2022 Third Team MMA All-Star"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Record UFC chez les poids paille féminins : combats (29)",
+      "Record UFC chez les poids paille féminins : victoires (13)",
+      "Bonus UFC : 4× Performance de la soirée, 4× Combat de la soirée"
+    ],
+    "en": [
+      "UFC Women's Strawweight record: most fights (29)",
+      "UFC Women's Strawweight record: most wins (13)",
+      "UFC bonuses: 4× Performance of the Night, 4× Fight of the Night"
+    ]
+  },
   "image_commons": "Angela Hill victorious at Friday Night Fights.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Angela_Hill",

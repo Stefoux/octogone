@@ -109,47 +109,177 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "George Tragos/Lou Thesz Professional Wrestling Hall of Fame George Tragos Award (2020)",
-    "George Tragos Award (2020)",
-    "Martial Arts History Museum Hall of Fame Class of 2012",
-    "Class of 2012",
-    "UFC Hall of Fame (Inaugural inductee, Pioneer wing, class of 2003)",
-    "UFC Superfight Championship (one time, inaugural) Two successful title defenses",
-    "Two successful title defenses",
-    "UFC 3 Tournament Finalist [ a ]",
-    "UFC 1 Tournament Semifinalist",
-    "Ultimate Ultimate 1996 Semifinalist [ a ]",
-    "UFC Encyclopedia Awards Fight of the Night (Two times) vs. Royce Gracie 1 and Tito Ortiz 1   Submission of the Night (One time) vs. Dan Severn 1",
-    "Fight of the Night (Two times) vs. Royce Gracie 1 and Tito Ortiz 1",
-    "Submission of the Night (One time) vs. Dan Severn 1",
-    "Longest fight in UFC history (36 minutes) - with Royce Gracie at UFC 5",
-    "UFC Viewer's Choice Award",
-    "Pancrase Hybrid Wrestling King of Pancrase Tournament winner (1994) First ever champion of Pancrase King of Pancrase One successful title defense",
-    "King of Pancrase Tournament winner (1994) First ever champion of Pancrase",
-    "First ever champion of Pancrase",
-    "King of Pancrase One successful title defense",
-    "One successful title defense",
-    "Pride Fighting Championships Pride Grand Prix 2000 Finals Superfight Winner",
-    "Pride Grand Prix 2000 Finals Superfight Winner",
-    "World Mixed Martial Arts Association WMMAA Heavyweight Championship (1 time)",
-    "WMMAA Heavyweight Championship (1 time)",
-    "Fight Matrix 1994 Fighter of the Year  1995 Fighter of the Year",
-    "1994 Fighter of the Year",
-    "1995 Fighter of the Year",
-    "Black Belt Magazine 2000 Full-Contact Fighter of the Year",
-    "2000 Full-Contact Fighter of the Year",
-    "Wrestling Observer Newsletter 2002 Feud of the Year vs. Tito Ortiz 2006 Feud of the Year vs. Tito Ortiz",
-    "2002 Feud of the Year vs. Tito Ortiz",
-    "2006 Feud of the Year vs. Tito Ortiz",
-    "World MMA Awards 2023 Lifetime Achievement Award",
-    "2023 Lifetime Achievement Award",
-    "Battle Championship Wrestling BCW Tag Team Championship (1 time) – with Carlo Cannon",
-    "BCW Tag Team Championship (1 time) – with Carlo Cannon",
-    "NWA: Total Nonstop Action/Impact Wrestling NWA World Heavyweight Championship ( 1 time )  Gauntlet for the Gold ( 2002 – Heavyweight)  Impact Hall of Fame ( 2020 )",
-    "NWA World Heavyweight Championship ( 1 time )",
-    "Gauntlet for the Gold ( 2002 – Heavyweight)",
-    "Impact Hall of Fame ( 2020 )"
+    {
+      "org": "George Tragos/Lou Thesz Professional Wrestling Hall of Fame",
+      "texte": "George Tragos Award (2020)"
+    },
+    {
+      "org": "Martial Arts History Museum Hall of Fame",
+      "texte": "Class of 2012"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame (Inaugural inductee, Pioneer wing, class of 2003)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Superfight Championship (one time, inaugural)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Two successful title defenses"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC 3 Tournament Finalist"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC 1 Tournament Semifinalist"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Ultimate Ultimate 1996 Semifinalist"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Encyclopedia Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Two times) vs. Royce Gracie 1 and Tito Ortiz 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Submission of the Night (One time) vs. Dan Severn 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Longest fight in UFC history (36 minutes) - with Royce Gracie at UFC 5"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Viewer's Choice Award"
+    },
+    {
+      "org": "Pancrase Hybrid Wrestling",
+      "texte": "King of Pancrase Tournament winner (1994)"
+    },
+    {
+      "org": "Pancrase Hybrid Wrestling",
+      "texte": "First ever champion of Pancrase"
+    },
+    {
+      "org": "Pancrase Hybrid Wrestling",
+      "texte": "King of Pancrase"
+    },
+    {
+      "org": "Pancrase Hybrid Wrestling",
+      "texte": "One successful title defense"
+    },
+    {
+      "org": "Pride Fighting Championships",
+      "texte": "Pride Grand Prix 2000 Finals Superfight Winner"
+    },
+    {
+      "org": "World Mixed Martial Arts Association",
+      "texte": "WMMAA Heavyweight Championship (1 time)"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "1994 Fighter of the Year"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "1995 Fighter of the Year"
+    },
+    {
+      "org": "Black Belt Magazine",
+      "texte": "2000 Full-Contact Fighter of the Year"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "2002 Feud of the Year vs. Tito Ortiz"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "2006 Feud of the Year vs. Tito Ortiz"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2023 Lifetime Achievement Award"
+    },
+    {
+      "org": "Battle Championship Wrestling",
+      "texte": "BCW Tag Team Championship (1 time) – with Carlo Cannon"
+    },
+    {
+      "org": "NWA: Total Nonstop Action/Impact Wrestling",
+      "texte": "NWA World Heavyweight Championship ( 1 time )"
+    },
+    {
+      "org": "NWA: Total Nonstop Action/Impact Wrestling",
+      "texte": "Gauntlet for the Gold ( 2002 – Heavyweight)"
+    },
+    {
+      "org": "NWA: Total Nonstop Action/Impact Wrestling",
+      "texte": "Impact Hall of Fame ( 2020 )"
+    },
+    {
+      "org": "Pro Wrestling Illustrated",
+      "texte": "Most Improved Wrestler of the Year (1997)"
+    },
+    {
+      "org": "Pro Wrestling Illustrated",
+      "texte": "Ranked No. 8 of the top 500 singles wrestlers in the PWI 500 in 1998"
+    },
+    {
+      "org": "Pro Wrestling Illustrated",
+      "texte": "Ranked No. 226 of the top 500 singles wrestlers of the \"PWI Years\" in 2003"
+    },
+    {
+      "org": "South Atlantic Pro Wrestling",
+      "texte": "SAPW Heavyweight Championship (1 time)"
+    },
+    {
+      "org": "South Atlantic Pro Wrestling",
+      "texte": "SAPW Heavyweight Title Tournament (1991)"
+    },
+    {
+      "org": "World Wrestling Federation/Entertainment",
+      "texte": "WWF Intercontinental Championship ( 1 time )"
+    },
+    {
+      "org": "World Wrestling Federation/Entertainment",
+      "texte": "WWF Tag Team Championship ( 1 time ) – with Big Boss Man"
+    },
+    {
+      "org": "World Wrestling Federation/Entertainment",
+      "texte": "King of the Ring ( 1998 )"
+    },
+    {
+      "org": "World Wrestling Federation/Entertainment",
+      "texte": "WWF Intercontinental Championship Tournament (1998)"
+    },
+    {
+      "org": "World Wrestling Federation/Entertainment",
+      "texte": "WWE Hall of Fame ( 2025 ) – Immortal Moment – Refereeing Bret Hart vs. Stone Cold Steve Austin 's no disqualification submission match at WrestleMania 13"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Hall of Fame de l'UFC (2003)",
+      "2 défenses de titre à l'UFC",
+      "Combattant de l'année (1994, 1995)",
+      "Bonus UFC : 2× Combat de la soirée, 1× Soumission de la soirée"
+    ],
+    "en": [
+      "UFC Hall of Fame (2003)",
+      "2 UFC title defenses",
+      "Fighter of the Year (1994, 1995)",
+      "UFC bonuses: 2× Fight of the Night, 1× Submission of the Night"
+    ]
+  },
   "image_commons": "Ken Shamrock marines 2005 crop.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Ken_Shamrock",

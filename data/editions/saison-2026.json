@@ -13,7 +13,7 @@
       "code": "BASE",
       "nom": "Base",
       "type": "base",
-      "nb_cartes": 135,
+      "nb_cartes": 129,
       "cote": null,
       "exclusivite": null,
       "tirage": null,
@@ -319,15 +319,6 @@
         },
         {
           "numero": "34",
-          "nom_imprime": "Brunno Ferreira",
-          "combattants": [
-            "brunno-ferreira"
-          ],
-          "mentions": [],
-          "sous_titre": null
-        },
-        {
-          "numero": "35",
           "nom_imprime": "Caio Borralho",
           "combattants": [
             "caio-borralho"
@@ -336,7 +327,7 @@
           "sous_titre": null
         },
         {
-          "numero": "36",
+          "numero": "35",
           "nom_imprime": "Dricus du Plessis",
           "combattants": [
             "dricus-du-plessis"
@@ -345,7 +336,7 @@
           "sous_titre": null
         },
         {
-          "numero": "37",
+          "numero": "36",
           "nom_imprime": "Duško Todorović",
           "combattants": [
             "dusko-todorovic"
@@ -354,7 +345,7 @@
           "sous_titre": null
         },
         {
-          "numero": "38",
+          "numero": "37",
           "nom_imprime": "Israel Adesanya",
           "combattants": [
             "israel-adesanya"
@@ -363,7 +354,7 @@
           "sous_titre": null
         },
         {
-          "numero": "39",
+          "numero": "38",
           "nom_imprime": "Jacob Malkoun",
           "combattants": [
             "jacob-malkoun"
@@ -372,7 +363,7 @@
           "sous_titre": null
         },
         {
-          "numero": "40",
+          "numero": "39",
           "nom_imprime": "Jared Cannonier",
           "combattants": [
             "jared-cannonier"
@@ -381,7 +372,7 @@
           "sous_titre": null
         },
         {
-          "numero": "41",
+          "numero": "40",
           "nom_imprime": "Joe Pyfer",
           "combattants": [
             "joe-pyfer"
@@ -390,7 +381,7 @@
           "sous_titre": null
         },
         {
-          "numero": "42",
+          "numero": "41",
           "nom_imprime": "Kamaru Usman",
           "combattants": [
             "kamaru-usman"
@@ -399,7 +390,7 @@
           "sous_titre": null
         },
         {
-          "numero": "43",
+          "numero": "42",
           "nom_imprime": "Kelvin Gastelum",
           "combattants": [
             "kelvin-gastelum"
@@ -408,7 +399,7 @@
           "sous_titre": null
         },
         {
-          "numero": "44",
+          "numero": "43",
           "nom_imprime": "Khamzat Chimaev",
           "combattants": [
             "khamzat-chimaev"
@@ -417,7 +408,7 @@
           "sous_titre": null
         },
         {
-          "numero": "45",
+          "numero": "44",
           "nom_imprime": "Marvin Vettori",
           "combattants": [
             "marvin-vettori"
@@ -426,7 +417,7 @@
           "sous_titre": null
         },
         {
-          "numero": "46",
+          "numero": "45",
           "nom_imprime": "Michel Pereira",
           "combattants": [
             "michel-pereira"
@@ -435,7 +426,7 @@
           "sous_titre": null
         },
         {
-          "numero": "47",
+          "numero": "46",
           "nom_imprime": "Shara Magomedov",
           "combattants": [
             "shara-magomedov"
@@ -444,16 +435,7 @@
           "sous_titre": null
         },
         {
-          "numero": "48",
-          "nom_imprime": "Val Woodburn",
-          "combattants": [
-            "val-woodburn"
-          ],
-          "mentions": [],
-          "sous_titre": null
-        },
-        {
-          "numero": "49",
+          "numero": "47",
           "nom_imprime": "Vicente Luque",
           "combattants": [
             "vicente-luque"
@@ -462,7 +444,7 @@
           "sous_titre": null
         },
         {
-          "numero": "50",
+          "numero": "48",
           "nom_imprime": "Belal Muhammad",
           "combattants": [
             "belal-muhammad"
@@ -471,7 +453,7 @@
           "sous_titre": null
         },
         {
-          "numero": "51",
+          "numero": "49",
           "nom_imprime": "Carlston Harris",
           "combattants": [
             "carlston-harris"
@@ -480,7 +462,7 @@
           "sous_titre": null
         },
         {
-          "numero": "52",
+          "numero": "50",
           "nom_imprime": "Conor McGregor",
           "combattants": [
             "conor-mcgregor"
@@ -489,16 +471,7 @@
           "sous_titre": null
         },
         {
-          "numero": "53",
-          "nom_imprime": "Elves Brener",
-          "combattants": [
-            "elves-brener"
-          ],
-          "mentions": [],
-          "sous_titre": null
-        },
-        {
-          "numero": "54",
+          "numero": "51",
           "nom_imprime": "Geoff Neal",
           "combattants": [
             "geoff-neal"
@@ -507,7 +480,7 @@
           "sous_titre": null
         },
         {
-          "numero": "55",
+          "numero": "52",
           "nom_imprime": "Gilbert Burns",
           "combattants": [
             "gilbert-burns"
@@ -516,7 +489,7 @@
           "sous_titre": null
         },
         {
-          "numero": "56",
+          "numero": "53",
           "nom_imprime": "Ian Machado Garry",
           "combattants": [
             "ian-machado-garry"
@@ -525,7 +498,7 @@
           "sous_titre": null
         },
         {
-          "numero": "57",
+          "numero": "54",
           "nom_imprime": "Jack Della Maddalena",
           "combattants": [
             "jack-della-maddalena"
@@ -534,25 +507,7 @@
           "sous_titre": null
         },
         {
-          "numero": "58",
-          "nom_imprime": "Jonny Parsons",
-          "combattants": [
-            "jonny-parsons"
-          ],
-          "mentions": [],
-          "sous_titre": null
-        },
-        {
-          "numero": "59",
-          "nom_imprime": "Josh Quinlan",
-          "combattants": [
-            "josh-quinlan"
-          ],
-          "mentions": [],
-          "sous_titre": null
-        },
-        {
-          "numero": "60",
+          "numero": "55",
           "nom_imprime": "Kevin Holland",
           "combattants": [
             "kevin-holland"
@@ -561,7 +516,7 @@
           "sous_titre": null
         },
         {
-          "numero": "61",
+          "numero": "56",
           "nom_imprime": "Michael Chiesa",
           "combattants": [
             "michael-chiesa"
@@ -570,7 +525,7 @@
           "sous_titre": null
         },
         {
-          "numero": "62",
+          "numero": "57",
           "nom_imprime": "Mike Malott",
           "combattants": [
             "mike-malott"
@@ -579,7 +534,7 @@
           "sous_titre": null
         },
         {
-          "numero": "63",
+          "numero": "58",
           "nom_imprime": "Neil Magny",
           "combattants": [
             "neil-magny"
@@ -588,7 +543,7 @@
           "sous_titre": null
         },
         {
-          "numero": "64",
+          "numero": "59",
           "nom_imprime": "Sean Brady",
           "combattants": [
             "sean-brady"
@@ -597,7 +552,7 @@
           "sous_titre": null
         },
         {
-          "numero": "65",
+          "numero": "60",
           "nom_imprime": "Themba Gorimbo",
           "combattants": [
             "themba-gorimbo"
@@ -606,7 +561,7 @@
           "sous_titre": null
         },
         {
-          "numero": "66",
+          "numero": "61",
           "nom_imprime": "Arman Tsarukyan",
           "combattants": [
             "arman-tsarukyan"
@@ -615,7 +570,7 @@
           "sous_titre": null
         },
         {
-          "numero": "67",
+          "numero": "62",
           "nom_imprime": "Beneil Dariush",
           "combattants": [
             "beneil-dariush"
@@ -624,7 +579,7 @@
           "sous_titre": null
         },
         {
-          "numero": "68",
+          "numero": "63",
           "nom_imprime": "Charles Oliveira",
           "combattants": [
             "charles-oliveira"
@@ -633,7 +588,7 @@
           "sous_titre": null
         },
         {
-          "numero": "69",
+          "numero": "64",
           "nom_imprime": "Dan Hooker",
           "combattants": [
             "dan-hooker"
@@ -642,7 +597,7 @@
           "sous_titre": null
         },
         {
-          "numero": "70",
+          "numero": "65",
           "nom_imprime": "Grant Dawson",
           "combattants": [
             "grant-dawson"
@@ -651,7 +606,7 @@
           "sous_titre": null
         },
         {
-          "numero": "71",
+          "numero": "66",
           "nom_imprime": "Ilia Topuria",
           "combattants": [
             "ilia-topuria"
@@ -660,7 +615,7 @@
           "sous_titre": null
         },
         {
-          "numero": "72",
+          "numero": "67",
           "nom_imprime": "Jalin Turner",
           "combattants": [
             "jalin-turner"
@@ -669,7 +624,7 @@
           "sous_titre": null
         },
         {
-          "numero": "73",
+          "numero": "68",
           "nom_imprime": "Manuel Torres",
           "combattants": [
             "manuel-torres"
@@ -678,7 +633,7 @@
           "sous_titre": null
         },
         {
-          "numero": "74",
+          "numero": "69",
           "nom_imprime": "Mateusz Gamrot",
           "combattants": [
             "mateusz-gamrot"
@@ -687,7 +642,7 @@
           "sous_titre": null
         },
         {
-          "numero": "75",
+          "numero": "70",
           "nom_imprime": "Mateusz Rebecki",
           "combattants": [
             "mateusz-rebecki"
@@ -696,7 +651,7 @@
           "sous_titre": null
         },
         {
-          "numero": "76",
+          "numero": "71",
           "nom_imprime": "Max Holloway",
           "combattants": [
             "max-holloway"
@@ -705,7 +660,7 @@
           "sous_titre": null
         },
         {
-          "numero": "77",
+          "numero": "72",
           "nom_imprime": "Michael Chandler",
           "combattants": [
             "michael-chandler"
@@ -714,7 +669,7 @@
           "sous_titre": null
         },
         {
-          "numero": "78",
+          "numero": "73",
           "nom_imprime": "Mike Davis",
           "combattants": [
             "mike-davis"
@@ -723,7 +678,7 @@
           "sous_titre": null
         },
         {
-          "numero": "79",
+          "numero": "74",
           "nom_imprime": "Paddy Pimblett",
           "combattants": [
             "paddy-pimblett"
@@ -732,7 +687,16 @@
           "sous_titre": null
         },
         {
-          "numero": "80",
+          "numero": "75",
+          "nom_imprime": "Rafa Garcia",
+          "combattants": [
+            "rafa-garcia"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "76",
           "nom_imprime": "Rafael Fiziev",
           "combattants": [
             "rafael-fiziev"
@@ -741,7 +705,7 @@
           "sous_titre": null
         },
         {
-          "numero": "81",
+          "numero": "77",
           "nom_imprime": "Rafael dos Anjos",
           "combattants": [
             "rafael-dos-anjos"
@@ -750,7 +714,7 @@
           "sous_titre": null
         },
         {
-          "numero": "82",
+          "numero": "78",
           "nom_imprime": "Renato Moicano",
           "combattants": [
             "renato-moicano"
@@ -759,7 +723,7 @@
           "sous_titre": null
         },
         {
-          "numero": "83",
+          "numero": "79",
           "nom_imprime": "Ľudovít Klein",
           "combattants": [
             "ludovit-klein"
@@ -768,7 +732,7 @@
           "sous_titre": null
         },
         {
-          "numero": "84",
+          "numero": "80",
           "nom_imprime": "Aljamain Sterling",
           "combattants": [
             "aljamain-sterling"
@@ -777,7 +741,7 @@
           "sous_titre": null
         },
         {
-          "numero": "85",
+          "numero": "81",
           "nom_imprime": "Arnold Allen",
           "combattants": [
             "arnold-allen"
@@ -786,7 +750,7 @@
           "sous_titre": null
         },
         {
-          "numero": "86",
+          "numero": "82",
           "nom_imprime": "Dan Ige",
           "combattants": [
             "dan-ige"
@@ -795,7 +759,7 @@
           "sous_titre": null
         },
         {
-          "numero": "87",
+          "numero": "83",
           "nom_imprime": "Diego Lopes",
           "combattants": [
             "diego-lopes"
@@ -804,7 +768,7 @@
           "sous_titre": null
         },
         {
-          "numero": "88",
+          "numero": "84",
           "nom_imprime": "Giga Chikadze",
           "combattants": [
             "giga-chikadze"
@@ -813,7 +777,7 @@
           "sous_titre": null
         },
         {
-          "numero": "89",
+          "numero": "85",
           "nom_imprime": "Jamall Emmers",
           "combattants": [
             "jamall-emmers"
@@ -822,7 +786,7 @@
           "sous_titre": null
         },
         {
-          "numero": "90",
+          "numero": "86",
           "nom_imprime": "Josh Emmett",
           "combattants": [
             "josh-emmett"
@@ -831,7 +795,16 @@
           "sous_titre": null
         },
         {
-          "numero": "91",
+          "numero": "87",
+          "nom_imprime": "Melquizael Conceição",
+          "combattants": [
+            "melquizael-conceicao"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "88",
           "nom_imprime": "Miles Johns",
           "combattants": [
             "miles-johns"
@@ -840,7 +813,7 @@
           "sous_titre": null
         },
         {
-          "numero": "92",
+          "numero": "89",
           "nom_imprime": "Movsar Evloev",
           "combattants": [
             "movsar-evloev"
@@ -849,16 +822,7 @@
           "sous_titre": null
         },
         {
-          "numero": "93",
-          "nom_imprime": "William Gomis",
-          "combattants": [
-            "william-gomis"
-          ],
-          "mentions": [],
-          "sous_titre": null
-        },
-        {
-          "numero": "94",
+          "numero": "90",
           "nom_imprime": "Adrian Yanez",
           "combattants": [
             "adrian-yanez"
@@ -867,7 +831,7 @@
           "sous_titre": null
         },
         {
-          "numero": "95",
+          "numero": "91",
           "nom_imprime": "Bryce Mitchell",
           "combattants": [
             "bryce-mitchell"
@@ -876,7 +840,7 @@
           "sous_titre": null
         },
         {
-          "numero": "96",
+          "numero": "92",
           "nom_imprime": "Cody Garbrandt",
           "combattants": [
             "cody-garbrandt"
@@ -885,7 +849,7 @@
           "sous_titre": null
         },
         {
-          "numero": "97",
+          "numero": "93",
           "nom_imprime": "Cory Sandhagen",
           "combattants": [
             "cory-sandhagen"
@@ -894,16 +858,7 @@
           "sous_titre": null
         },
         {
-          "numero": "98",
-          "nom_imprime": "Da'Mon Blackshear",
-          "combattants": [
-            "da-mon-blackshear"
-          ],
-          "mentions": [],
-          "sous_titre": null
-        },
-        {
-          "numero": "99",
+          "numero": "94",
           "nom_imprime": "Deiveson Figueiredo",
           "combattants": [
             "deiveson-figueiredo"
@@ -912,16 +867,7 @@
           "sous_titre": null
         },
         {
-          "numero": "100",
-          "nom_imprime": "Jake Hadley",
-          "combattants": [
-            "jake-hadley"
-          ],
-          "mentions": [],
-          "sous_titre": null
-        },
-        {
-          "numero": "101",
+          "numero": "95",
           "nom_imprime": "Marlon Vera",
           "combattants": [
             "marlon-vera"
@@ -930,7 +876,7 @@
           "sous_titre": null
         },
         {
-          "numero": "102",
+          "numero": "96",
           "nom_imprime": "Raul Rosas",
           "combattants": [
             "raul-rosas"
@@ -939,7 +885,7 @@
           "sous_titre": null
         },
         {
-          "numero": "103",
+          "numero": "97",
           "nom_imprime": "Ricky Simon",
           "combattants": [
             "ricky-simon"
@@ -948,7 +894,7 @@
           "sous_titre": null
         },
         {
-          "numero": "104",
+          "numero": "98",
           "nom_imprime": "Rob Font",
           "combattants": [
             "rob-font"
@@ -957,7 +903,7 @@
           "sous_titre": null
         },
         {
-          "numero": "105",
+          "numero": "99",
           "nom_imprime": "Sean O'Malley",
           "combattants": [
             "sean-o-malley"
@@ -966,7 +912,7 @@
           "sous_titre": null
         },
         {
-          "numero": "106",
+          "numero": "100",
           "nom_imprime": "Song Yadong",
           "combattants": [
             "song-yadong"
@@ -975,7 +921,7 @@
           "sous_titre": null
         },
         {
-          "numero": "107",
+          "numero": "101",
           "nom_imprime": "Umar Nurmagomedov",
           "combattants": [
             "umar-nurmagomedov"
@@ -984,7 +930,7 @@
           "sous_titre": null
         },
         {
-          "numero": "108",
+          "numero": "102",
           "nom_imprime": "Alex Perez",
           "combattants": [
             "alex-perez"
@@ -993,7 +939,7 @@
           "sous_titre": null
         },
         {
-          "numero": "109",
+          "numero": "103",
           "nom_imprime": "Alexandre Pantoja",
           "combattants": [
             "alexandre-pantoja"
@@ -1002,7 +948,7 @@
           "sous_titre": null
         },
         {
-          "numero": "110",
+          "numero": "104",
           "nom_imprime": "Allan Nascimento",
           "combattants": [
             "allan-nascimento"
@@ -1011,7 +957,7 @@
           "sous_titre": null
         },
         {
-          "numero": "111",
+          "numero": "105",
           "nom_imprime": "Amir Albazi",
           "combattants": [
             "amir-albazi"
@@ -1020,7 +966,7 @@
           "sous_titre": null
         },
         {
-          "numero": "112",
+          "numero": "106",
           "nom_imprime": "Brandon Moreno",
           "combattants": [
             "brandon-moreno"
@@ -1029,7 +975,7 @@
           "sous_titre": null
         },
         {
-          "numero": "113",
+          "numero": "107",
           "nom_imprime": "Brandon Royval",
           "combattants": [
             "brandon-royval"
@@ -1038,7 +984,7 @@
           "sous_titre": null
         },
         {
-          "numero": "114",
+          "numero": "108",
           "nom_imprime": "Manel Kape",
           "combattants": [
             "manel-kape"
@@ -1047,7 +993,7 @@
           "sous_titre": null
         },
         {
-          "numero": "115",
+          "numero": "109",
           "nom_imprime": "Matt Schnell",
           "combattants": [
             "matt-schnell"
@@ -1056,7 +1002,7 @@
           "sous_titre": null
         },
         {
-          "numero": "116",
+          "numero": "110",
           "nom_imprime": "Ode Osbourne",
           "combattants": [
             "ode-osbourne"
@@ -1065,7 +1011,7 @@
           "sous_titre": null
         },
         {
-          "numero": "117",
+          "numero": "111",
           "nom_imprime": "Tatsuro Taira",
           "combattants": [
             "tatsuro-taira"
@@ -1074,7 +1020,7 @@
           "sous_titre": null
         },
         {
-          "numero": "118",
+          "numero": "112",
           "nom_imprime": "Tim Elliott",
           "combattants": [
             "tim-elliott"
@@ -1083,7 +1029,7 @@
           "sous_titre": null
         },
         {
-          "numero": "119",
+          "numero": "113",
           "nom_imprime": "Joselyne Edwards",
           "combattants": [
             "joselyne-edwards"
@@ -1092,7 +1038,7 @@
           "sous_titre": null
         },
         {
-          "numero": "120",
+          "numero": "114",
           "nom_imprime": "Ketlen Vieira",
           "combattants": [
             "ketlen-vieira"
@@ -1101,43 +1047,7 @@
           "sous_titre": null
         },
         {
-          "numero": "121",
-          "nom_imprime": "Alexa Grasso",
-          "combattants": [
-            "alexa-grasso"
-          ],
-          "mentions": [],
-          "sous_titre": null
-        },
-        {
-          "numero": "122",
-          "nom_imprime": "Casey O'Neill",
-          "combattants": [
-            "casey-o-neill"
-          ],
-          "mentions": [],
-          "sous_titre": null
-        },
-        {
-          "numero": "123",
-          "nom_imprime": "Manon Fiorot",
-          "combattants": [
-            "manon-fiorot"
-          ],
-          "mentions": [],
-          "sous_titre": null
-        },
-        {
-          "numero": "124",
-          "nom_imprime": "Maycee Barber",
-          "combattants": [
-            "maycee-barber"
-          ],
-          "mentions": [],
-          "sous_titre": null
-        },
-        {
-          "numero": "125",
+          "numero": "115",
           "nom_imprime": "Mayra Bueno",
           "combattants": [
             "mayra-bueno"
@@ -1146,7 +1056,43 @@
           "sous_titre": null
         },
         {
-          "numero": "126",
+          "numero": "116",
+          "nom_imprime": "Alexa Grasso",
+          "combattants": [
+            "alexa-grasso"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "117",
+          "nom_imprime": "Casey O'Neill",
+          "combattants": [
+            "casey-o-neill"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "118",
+          "nom_imprime": "Manon Fiorot",
+          "combattants": [
+            "manon-fiorot"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "119",
+          "nom_imprime": "Maycee Barber",
+          "combattants": [
+            "maycee-barber"
+          ],
+          "mentions": [],
+          "sous_titre": null
+        },
+        {
+          "numero": "120",
           "nom_imprime": "Melissa Gatto",
           "combattants": [
             "melissa-gatto"
@@ -1155,7 +1101,7 @@
           "sous_titre": null
         },
         {
-          "numero": "127",
+          "numero": "121",
           "nom_imprime": "Natália Silva",
           "combattants": [
             "natalia-silva"
@@ -1164,7 +1110,7 @@
           "sous_titre": null
         },
         {
-          "numero": "128",
+          "numero": "122",
           "nom_imprime": "Rose Namajunas",
           "combattants": [
             "rose-namajunas"
@@ -1173,7 +1119,7 @@
           "sous_titre": null
         },
         {
-          "numero": "129",
+          "numero": "123",
           "nom_imprime": "Amanda Lemos",
           "combattants": [
             "amanda-lemos"
@@ -1182,7 +1128,7 @@
           "sous_titre": null
         },
         {
-          "numero": "130",
+          "numero": "124",
           "nom_imprime": "Angela Hill",
           "combattants": [
             "angela-hill"
@@ -1191,7 +1137,7 @@
           "sous_titre": null
         },
         {
-          "numero": "131",
+          "numero": "125",
           "nom_imprime": "Tabatha Ricci",
           "combattants": [
             "tabatha-ricci"
@@ -1200,7 +1146,7 @@
           "sous_titre": null
         },
         {
-          "numero": "132",
+          "numero": "126",
           "nom_imprime": "Tatiana Suarez",
           "combattants": [
             "tatiana-suarez"
@@ -1209,7 +1155,7 @@
           "sous_titre": null
         },
         {
-          "numero": "133",
+          "numero": "127",
           "nom_imprime": "Vanessa Demopoulos",
           "combattants": [
             "vanessa-demopoulos"
@@ -1218,7 +1164,7 @@
           "sous_titre": null
         },
         {
-          "numero": "134",
+          "numero": "128",
           "nom_imprime": "Virna Jandiroba",
           "combattants": [
             "virna-jandiroba"
@@ -1227,7 +1173,7 @@
           "sous_titre": null
         },
         {
-          "numero": "135",
+          "numero": "129",
           "nom_imprime": "Yan Xiaonan",
           "combattants": [
             "yan-xiaonan"

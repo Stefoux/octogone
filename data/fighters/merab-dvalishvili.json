@@ -147,47 +147,261 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "Tied ( Aljamain Sterling ) for the most consecutive title defenses in UFC Bantamweight division history (3)",
-    "Tied ( Dominick Cruz , Renan Barão & Aljamain Sterling ) for second most UFC Bantamweight title fight wins (4)",
-    "First Georgian-born champion in UFC history",
-    "Most takedowns landed in a UFC title fight (20) (vs. Cory Sandhagen )",
-    "Performance of the Night (Two times) vs. Marlon Moraes and Sean O'Malley 2",
-    "Fight of the Night (Three times) vs. Ricky Simón , Umar Nurmagomedov & Petr Yan 2",
-    "Most unanimous decision wins in UFC Bantamweight division history (11)",
-    "Most decision wins in UFC Bantamweight division history (11)",
-    "Fifth highest decision-wins-per-win percentage in UFC history (12 decision wins / 14 wins: 85.7%)",
-    "Longest win streak in UFC Bantamweight division history (13)  Fourth longest win streak in UFC history (14)",
-    "Fourth longest win streak in UFC history (14)",
-    "First and only fighter to have over 100 takedowns in UFC history",
-    "Most takedowns landed in UFC Bantamweight division history (106)",
-    "Most takedowns attempted in a bout in UFC history (49) (vs. Petr Yan 1)  Second most takedowns attempted in a bout in UFC history (37) (vs. Cory Sandhagen )",
-    "Second most takedowns attempted in a bout in UFC history (37) (vs. Cory Sandhagen )",
-    "Second most takedowns landed in a UFC bout (20) (vs. Cory Sandhagen )",
-    "Only UFC fighter to land 10 or more takedowns in five separate bouts",
-    "Most total strikes landed in UFC Bantamweight division history (2672)  Third most total strikes landed in UFC history (2782)",
-    "Third most total strikes landed in UFC history (2782)",
-    "Fourth most significant strikes landed in UFC Bantamweight division history (1249)",
-    "Most control time in UFC Bantamweight division history (1:38:10)",
-    "Tied ( T.J. Dillashaw & Marlon Vera ) for second most wins in UFC Bantamweight division history (13)",
-    "Second most total fight time in UFC Bantamweight division history (4:44:07)",
-    "Second most top position time in UFC Bantamweight division history (54:50)",
-    "Second longest average fight time in UFC Bantamweight division history (17:45)",
-    "Most total body strikes landed in a UFC Bantamweight match (127) (vs. Brad Katona )",
-    "Most total leg strikes landed in a UFC Bantamweight match (95) (vs. Jose Aldo )",
-    "Sixth most significant strikes landed in a UFC Bantamweight match (57) (vs. Marlon Moraes )",
-    "Holds wins over four former UFC champions — José Aldo , Petr Yan , Henry Cejudo and Sean O'Malley x2",
-    "2021: Fan's Choice Comeback of the Year Nominee vs. Marlon Moraes",
-    "2025: President's Choice Fight of the Year Nominee vs. Umar Nurmagomedov  & Fan's Choice Submission of the Year Nominee vs. Sean O'Malley 2",
-    "2024: Ranked #6 Fighter of the Year",
-    "2025: Fighter of the Year ,  Submission of the Year vs. Sean O'Malley 2  & Half-Year Awards: Best Fighter of the 1HY  & Best Submission of the 1HY vs. Sean O'Malley",
-    "Ring of Combat ROC Bantamweight Championship (one time) One successful title defense",
-    "ROC Bantamweight Championship (one time) One successful title defense",
-    "One successful title defense",
-    "ESPY Awards 2025 Best MMA Fighter ESPY Award",
-    "2025 Best MMA Fighter ESPY Award",
-    "ESPN 2025 Men's Fighter of the Year",
-    "2025 Men's Fighter of the Year"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Bantamweight Championship (One time, former)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Three successful title defenses"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Aljamain Sterling ) for the most consecutive title defenses in UFC Bantamweight division history (3)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Dominick Cruz , Renan Barão & Aljamain Sterling ) for second most UFC Bantamweight title fight wins (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First Georgian-born champion in UFC history"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most takedowns landed in a UFC title fight (20) (vs. Cory Sandhagen )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. Marlon Moraes and Sean O'Malley 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Three times) vs. Ricky Simón , Umar Nurmagomedov & Petr Yan 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most unanimous decision wins in UFC history (12)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most unanimous decision wins in UFC Bantamweight division history (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most decision wins in UFC Bantamweight division history (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth highest decision-wins-per-win percentage in UFC history (12 decision wins / 14 wins: 85.7%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Longest win streak in UFC Bantamweight division history (13)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth longest win streak in UFC history (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most takedowns landed in UFC history (119)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First and only fighter to have over 100 takedowns in UFC history"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most takedowns landed in UFC Bantamweight division history (106)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most takedowns attempted in a bout in UFC history (49) (vs. Petr Yan 1)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most takedowns attempted in a bout in UFC history (37) (vs. Cory Sandhagen )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most takedowns landed in a UFC bout (20) (vs. Cory Sandhagen )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Only UFC fighter to land 10 or more takedowns in five separate bouts"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most total strikes landed in UFC Bantamweight division history (2672)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most total strikes landed in UFC history (2782)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most significant strikes landed in UFC Bantamweight division history (1249)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most control time in UFC Bantamweight division history (1:38:10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( T.J. Dillashaw & Marlon Vera ) for second most wins in UFC Bantamweight division history (13)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most total fight time in UFC Bantamweight division history (4:44:07)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most top position time in UFC Bantamweight division history (54:50)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second longest average fight time in UFC Bantamweight division history (17:45)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most total body strikes landed in a UFC Bantamweight match (127) (vs. Brad Katona )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most total leg strikes landed in a UFC Bantamweight match (95) (vs. Jose Aldo )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Sixth most significant strikes landed in a UFC Bantamweight match (57) (vs. Marlon Moraes )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Holds wins over four former UFC champions — José Aldo , Petr Yan , Henry Cejudo and Sean O'Malley x2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: Fan's Choice Comeback of the Year Nominee vs. Marlon Moraes"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2025: President's Choice Fight of the Year Nominee vs. Umar Nurmagomedov & Fan's Choice Submission of the Year Nominee vs. Sean O'Malley 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: Ranked #6 Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2025: Fighter of the Year , Submission of the Year vs. Sean O'Malley 2 & Half-Year Awards: Best Fighter of the 1HY & Best Submission of the 1HY vs. Sean O'Malley"
+    },
+    {
+      "org": "Ring of Combat",
+      "texte": "ROC Bantamweight Championship (one time)"
+    },
+    {
+      "org": "Ring of Combat",
+      "texte": "One successful title defense"
+    },
+    {
+      "org": "ESPY Awards",
+      "texte": "2025 Best MMA Fighter ESPY Award"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2025 Men's Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2025 Male Fighter of the Year"
+    },
+    {
+      "org": "The Wrightway Sports Network",
+      "texte": "2025 Male Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2024 First Team MMA All-Star"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2025 #4 Ranked Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2025 #5 Ranked Fight of the Year vs. Petr Yan 2 at UFC 323"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2025 First Team MMA All-Star"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2025 Fighter of the Year"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2025 #3 Ranked Fight of the Year vs. Umar Nurmagomedov at UFC 311"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2025 #3 Ranked Submission of the Year vs. Sean O'Malley"
+    },
+    {
+      "org": "LowKick MMA",
+      "texte": "2025 Fighter of the Year"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2025 Male Fighter of the Year"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2025 Male Fighter of the Year with Islam Makhachev"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2025 Most Noteworthy Match of the Year vs. Petr Yan 2 at UFC 323"
+    },
+    {
+      "org": "Uncrowned",
+      "texte": "2025 #3 Ranked Male Fighter of the Year"
+    },
+    {
+      "org": "Real American Freestyle",
+      "texte": "Match of the Night (One time) vs. Henry Cejudo 1"
+    },
+    {
+      "org": "Real American Freestyle",
+      "texte": "Performance of the Night (One time) vs. Frankie Edgar"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids coq",
+      "3 défenses de titre à l'UFC",
+      "Combattant de l'année (2025)",
+      "Record de l'UFC : takedowns réussis (119)",
+      "Record UFC chez les poids coq : takedowns réussis (106)",
+      "Bonus UFC : 2× Performance de la soirée, 3× Combat de la soirée"
+    ],
+    "en": [
+      "UFC Bantamweight Champion",
+      "3 UFC title defenses",
+      "Fighter of the Year (2025)",
+      "UFC record: most takedowns landed (119)",
+      "UFC Bantamweight record: most takedowns landed (106)",
+      "UFC bonuses: 2× Performance of the Night, 3× Fight of the Night"
+    ]
+  },
   "image_commons": "Merab Dvalishvili at UFC 316 (cropped).jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Merab_Dvalishvili",

@@ -121,47 +121,349 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "Overall 16 title defenses won at three different weight classes",
-    "16 title defenses won at three different weight classes",
-    "WBF Female World Light Welterweight Championship (One time)",
-    "WBF Female World Welterweight Championship (One time)",
-    "2012 Female Fighter of the Year",
-    "2012 Female Fight of the Year vs. Anne Sophie Mathis on June 15",
-    "WBAN World Welterweight Championship (One time)",
-    "WBAN World Junior Welterweight Championship (One time)",
-    "WBAN World Junior Middleweight Championship (One time; First)",
-    "2012 Biggest Comeback of the Year",
-    "2011 Fight of the Year vs. Anne Sophie Mathis on December 2",
-    "2010 Fighter of the Year",
-    "2009 Most Accomplished of the Year",
-    "2008 Highest Achievements of the Year",
-    "2007 Fighter of the Year",
-    "2007 Most Improved Boxer of the Year",
-    "2006 Most Improved Boxer of the Year",
-    "2005 Hottest Rising Star of the Year",
-    "2005 Upset of the Year vs. Christy Martin on September 16",
-    "World Boxing Council WBC Female World Welterweight Championship (One time)  NABF Female Light Welterweight Championship (One time)",
-    "WBC Female World Welterweight Championship (One time)",
-    "NABF Female Light Welterweight Championship (One time)",
-    "Global Boxing Union Global Boxing Union (GBU) World Welterweight Championship (One time)",
-    "Global Boxing Union (GBU) World Welterweight Championship (One time)",
-    "Women's International Boxing Association WIBA World Light Welterweight Championship (One time)  WIBA World Welterweight Championship (One time)",
-    "WIBA World Light Welterweight Championship (One time)",
-    "WIBA World Welterweight Championship (One time)",
-    "International Female Boxers Association IFBA World Welterweight Championship (One time)  IFBA World Light Middleweight Championship (One time)  2006 Fighter of the Year",
-    "IFBA World Welterweight Championship (One time)",
-    "IFBA World Light Middleweight Championship (One time)",
-    "2006 Fighter of the Year",
-    "World Boxing Association WBA Female World Welterweight Championship (One time; First)",
-    "WBA Female World Welterweight Championship (One time; First)",
-    "International Boxing Association IBA Female World Welterweight Championship (Three times)   IBA Female World Light Welterweight Championship (Three times; First)",
-    "IBA Female World Welterweight Championship (Three times)",
-    "IBA Female World Light Welterweight Championship (Three times; First)",
-    "BadLeftHook.com 2012 Female Comeback Fighter of the Year",
-    "2012 Female Comeback Fighter of the Year",
-    "The Ring 2006 Female Fighter of the Year  2005 Female Fighter of the Year",
-    "2006 Female Fighter of the Year"
+    {
+      "org": "Overall",
+      "texte": "16 title defenses won at three different weight classes"
+    },
+    {
+      "org": "World Boxing Federation",
+      "texte": "WBF Female World Light Welterweight Championship (One time)"
+    },
+    {
+      "org": "World Boxing Federation",
+      "texte": "WBF Female World Welterweight Championship (One time)"
+    },
+    {
+      "org": "World Boxing Federation",
+      "texte": "2012 Female Fighter of the Year"
+    },
+    {
+      "org": "World Boxing Federation",
+      "texte": "2012 Female Fight of the Year vs. Anne Sophie Mathis on June 15"
+    },
+    {
+      "org": "Women Boxing Archive Network",
+      "texte": "WBAN World Welterweight Championship (One time)"
+    },
+    {
+      "org": "Women Boxing Archive Network",
+      "texte": "WBAN World Junior Welterweight Championship (One time)"
+    },
+    {
+      "org": "Women Boxing Archive Network",
+      "texte": "WBAN World Junior Middleweight Championship (One time; First)"
+    },
+    {
+      "org": "Women Boxing Archive Network",
+      "texte": "2012 Biggest Comeback of the Year"
+    },
+    {
+      "org": "Women Boxing Archive Network",
+      "texte": "2011 Fight of the Year vs. Anne Sophie Mathis on December 2"
+    },
+    {
+      "org": "Women Boxing Archive Network",
+      "texte": "2010 Fighter of the Year"
+    },
+    {
+      "org": "Women Boxing Archive Network",
+      "texte": "2009 Most Accomplished of the Year"
+    },
+    {
+      "org": "Women Boxing Archive Network",
+      "texte": "2008 Highest Achievements of the Year"
+    },
+    {
+      "org": "Women Boxing Archive Network",
+      "texte": "2007 Fighter of the Year"
+    },
+    {
+      "org": "Women Boxing Archive Network",
+      "texte": "2007 Most Improved Boxer of the Year"
+    },
+    {
+      "org": "Women Boxing Archive Network",
+      "texte": "2006 Most Improved Boxer of the Year"
+    },
+    {
+      "org": "Women Boxing Archive Network",
+      "texte": "2005 Hottest Rising Star of the Year"
+    },
+    {
+      "org": "Women Boxing Archive Network",
+      "texte": "2005 Upset of the Year vs. Christy Martin on September 16"
+    },
+    {
+      "org": "World Boxing Council",
+      "texte": "WBC Female World Welterweight Championship (One time)"
+    },
+    {
+      "org": "World Boxing Council",
+      "texte": "NABF Female Light Welterweight Championship (One time)"
+    },
+    {
+      "org": "Global Boxing Union",
+      "texte": "Global Boxing Union (GBU) World Welterweight Championship (One time)"
+    },
+    {
+      "org": "Women's International Boxing Association",
+      "texte": "WIBA World Light Welterweight Championship (One time)"
+    },
+    {
+      "org": "Women's International Boxing Association",
+      "texte": "WIBA World Welterweight Championship (One time)"
+    },
+    {
+      "org": "International Female Boxers Association",
+      "texte": "IFBA World Welterweight Championship (One time)"
+    },
+    {
+      "org": "International Female Boxers Association",
+      "texte": "IFBA World Light Middleweight Championship (One time)"
+    },
+    {
+      "org": "International Female Boxers Association",
+      "texte": "2006 Fighter of the Year"
+    },
+    {
+      "org": "World Boxing Association",
+      "texte": "WBA Female World Welterweight Championship (One time; First)"
+    },
+    {
+      "org": "International Boxing Association",
+      "texte": "IBA Female World Welterweight Championship (Three times)"
+    },
+    {
+      "org": "International Boxing Association",
+      "texte": "IBA Female World Light Welterweight Championship (Three times; First)"
+    },
+    {
+      "org": "BadLeftHook.com",
+      "texte": "2012 Female Comeback Fighter of the Year"
+    },
+    {
+      "org": "The Ring",
+      "texte": "2006 Female Fighter of the Year"
+    },
+    {
+      "org": "The Ring",
+      "texte": "2005 Female Fighter of the Year"
+    },
+    {
+      "org": "New Mexico Boxing",
+      "texte": "2013 Hall of Fame Inductee"
+    },
+    {
+      "org": "New Mexico Boxing",
+      "texte": "2010 Fighter of the Year"
+    },
+    {
+      "org": "New Mexico Boxing",
+      "texte": "2009 Fighter of the Year"
+    },
+    {
+      "org": "New Mexico Boxing",
+      "texte": "2008 Fighter of the Year"
+    },
+    {
+      "org": "New Mexico Boxing",
+      "texte": "2007 Fighter of the Year"
+    },
+    {
+      "org": "New Mexico Boxing",
+      "texte": "2006 Fighter of the Year"
+    },
+    {
+      "org": "New Mexico Boxing",
+      "texte": "2005 Fighter of the Year"
+    },
+    {
+      "org": "Albuquerque Sports Hall of Fame",
+      "texte": "2005 Female Athlete of the Year"
+    },
+    {
+      "org": "International Women's Boxing Hall of Fame",
+      "texte": "2017 Hall of Fame inductee"
+    },
+    {
+      "org": "New Mexico Sports Hall of Fame",
+      "texte": "2019 Hall of Fame inductee"
+    },
+    {
+      "org": "International Boxing Hall of Fame",
+      "texte": "2022 Hall of Fame inductee"
+    },
+    {
+      "org": "International Kickboxing Federation",
+      "texte": "IKF /Ringside 2001 USA National Amateur International Rules Welterweight Championship"
+    },
+    {
+      "org": "International Kickboxing Federation",
+      "texte": "IKF /Ringside 2001 Central Mountain Regional Amateur International Rules Welterweight Tournament Winner"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Women's Bantamweight Championship (One time; former)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Two times) vs. Ronda Rousey and Cris Cyborg"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. Ronda Rousey and Bethe Correia"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most total fight time in UFC Women's Bantamweight division history (3:12:13)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Sara McMann & Marion Reneau ) for fifth most bouts in UFC Women's Bantamweight division history (13)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second longest average fight time in UFC Women's Bantamweight division history (15:27)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2015: Newcomer of the Year , Upset of the Year & Knockout of the Year vs. Ronda Rousey & Ranked #4 Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2017: Ranked #7 Knockout of the Year vs. Bethe Correia"
+    },
+    {
+      "org": "Legacy Fighting Championships",
+      "texte": "Legacy FC Women's Bantamweight Championship (One time; first)"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2015 Knockout of the Year vs. Ronda Rousey on November 15"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2015 Upset of the Year vs. Ronda Rousey on November 15"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2015 Breakthrough Fighter of the Year"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2015 All-Violence Third Team"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2015 Knockout of the Year vs. Ronda Rousey on November 15"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2015 Upset of the Year vs. Ronda Rousey"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2015 Knockout of the Year vs. Ronda Rousey"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2015 November Knockout of the Month vs. Ronda Rousey"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2015 Breakout Star of the Year"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2015 Biggest Moment: Holly Holm Knocks out Ronda Rousey on November 15"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2015 Knockout of the Year vs. Ronda Rousey on November 15"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2013 WMMA Knockout of the Year vs. Allanna Jones on July 19"
+    },
+    {
+      "org": "Inside MMA",
+      "texte": "2015 Female Fighter of the Year Bazzie Award"
+    },
+    {
+      "org": "Inside MMA",
+      "texte": "2015 Knockout of the Year Bazzie Award vs. Ronda Rousey on November 15"
+    },
+    {
+      "org": "Inside MMA",
+      "texte": "2013 Rising Star of the Year Bazzie Award"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2015 Female Fighter of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2015 Breakthrough Fighter of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2015 Knockout of the Year vs. Ronda Rousey at UFC 193"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2015 Upset of the Year vs. Ronda Rousey at UFC 193"
+    },
+    {
+      "org": "ESPY Awards",
+      "texte": "2016 Upset of the Year vs. Ronda Rousey on November 15, 2015"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2016 #3 Ranked UFC Fight of the Year vs. Miesha Tate"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2015 Female Fighter of the Year"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2015 Breakout Fighter of the Year"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2015 Knockout of the Year vs. Ronda Rousey at UFC 193"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2015 Upset of the Year vs. Ronda Rousey at UFC 193"
+    },
+    {
+      "org": "MMA Weekly",
+      "texte": "2015 Knockout of the Year vs. Ronda Rousey at UFC 193"
+    },
+    {
+      "org": "MMA Weekly",
+      "texte": "2015 Upset of the Year vs. Ronda Rousey at UFC 193"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Championne UFC des poids coq féminins",
+      "Combattante de l'année (2005, 2006, 2007, 2008, 2009, 2010, 2012, 2015)",
+      "Combat de l'année (2011)",
+      "Bonus UFC : 2× Performance de la soirée, 2× Combat de la soirée"
+    ],
+    "en": [
+      "UFC Women's Bantamweight Champion",
+      "Fighter of the Year (2005, 2006, 2007, 2008, 2009, 2010, 2012, 2015)",
+      "Fight of the Year (2011)",
+      "UFC bonuses: 2× Performance of the Night, 2× Fight of the Night"
+    ]
+  },
   "image_commons": "Holly Holm at UFC 246.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Holly_Holm",

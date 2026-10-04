@@ -28,6 +28,7 @@ import sys
 from bs4 import BeautifulSoup
 import mwparserfromhell
 
+from distinctions import build as build_distinctions
 from common import (DATA, WIKI_UA, canonical, fetch, load_aliases, load_json, save_json,
                     slugify)
 
@@ -59,15 +60,56 @@ WIKI_DIVISION = {
 # Wikipedia / Wikidata
 # ----------------------------------------------------------------------------
 
+def name_tokens(s: str) -> set[str]:
+    import unicodedata
+    s = unicodedata.normalize("NFKD", s or "")
+    s = "".join(c for c in s if not unicodedata.combining(c)).lower()
+    s = re.sub(r"\(.*?\)", " ", s)
+    return {t for t in re.split(r"[^a-z]+", s) if len(t) >= 3 and t not in ("the", "jr")}
+
+
+def same_person(name: str, other: str | None) -> bool:
+    """Au moins 2 mots en commun (ou tous ceux du nom le plus court) : « Alex Pereira » ≠ « Michel Pereira »."""
+    a, b = name_tokens(name), name_tokens(other or "")
+    if not a or not b:
+        return False
+    return len(a & b) >= min(2, len(a), len(b))
+
+
 def wiki_get(params: dict) -> dict:
     params = {**params, "format": "json", "formatversion": 2}
     txt = fetch(WIKI_API, params=params, ua=WIKI_UA, delay=0.5)
     return json.loads(txt) if txt else {}
 
 
-def resolve_wiki_title(name: str, overrides: dict) -> str | None:
+def wikidata_names(title: str) -> list[str]:
+    """Libellé et alias anglais Wikidata de l'article (pour les titres du type « The Korean Zombie »)."""
+    q = wiki_get({"action": "query", "titles": title, "redirects": 1, "prop": "pageprops"})
+    pages = q.get("query", {}).get("pages", [])
+    qid = pages[0].get("pageprops", {}).get("wikibase_item") if pages else None
+    if not qid:
+        return []
+    txt = fetch(f"https://www.wikidata.org/wiki/Special:EntityData/{qid}.json", ua=WIKI_UA, delay=0.5)
+    if not txt:
+        return []
+    ent = json.loads(txt)["entities"].get(qid, {})
+    names = [ent.get("labels", {}).get("en", {}).get("value", "")]
+    names += [a.get("value", "") for a in ent.get("aliases", {}).get("en", [])]
+    return [n for n in names if n]
+
+
+def page_is_fighter(name: str, title: str) -> bool:
+    if same_person(name, title):
+        return True
+    return any(same_person(name, n) for n in wikidata_names(title))
+
+
+def resolve_wiki_title(name: str, overrides: dict, previous: str | None = None) -> str | None:
+    """Titre de l'article Wikipedia du combattant, VÉRIFIÉ (nom correspondant), ou None."""
     if name in overrides:
         return overrides[name]
+    if previous and page_is_fighter(name, previous):
+        return previous
     # 1) titre exact (avec redirections) s'il s'agit bien d'un combattant
     for candidate in (name, f"{name} (fighter)"):
         q = wiki_get({"action": "query", "titles": candidate, "redirects": 1,
@@ -77,13 +119,16 @@ def resolve_wiki_title(name: str, overrides: dict) -> str | None:
             cats = " ".join(c["title"] for c in pages[0].get("categories", []))
             if "disambiguation" in cats.lower():
                 continue
-            if re.search(r"mixed martial|Ultimate Fighting Championship|UFC", cats):
+            if re.search(r"mixed martial|Ultimate Fighting Championship|UFC", cats) and \
+                    page_is_fighter(name, pages[0]["title"]):
                 return pages[0]["title"]
-    # 2) recherche plein texte
+    # 2) recherche plein texte : on n'accepte qu'un résultat portant le nom du combattant
     q = wiki_get({"action": "query", "list": "search",
-                  "srsearch": f'"{name}" mixed martial artist UFC', "srlimit": 5})
+                  "srsearch": f'"{name}" mixed martial artist', "srlimit": 10})
     for hit in q.get("query", {}).get("search", []):
-        if "mixed martial" in hit.get("snippet", "").lower() or "UFC" in hit.get("snippet", ""):
+        if not ("mixed martial" in hit.get("snippet", "").lower() or "UFC" in hit.get("snippet", "")):
+            continue
+        if page_is_fighter(name, hit["title"]):
             return hit["title"]
     return None
 
@@ -212,7 +257,21 @@ def record_table(html: str) -> list[dict]:
     return fights
 
 
-def accomplishments(html: str) -> list[str]:
+def _own_text(li) -> str:
+    """Texte d'un <li> sans ses sous-listes ni ses renvois [12]."""
+    parts = []
+    for c in li.children:
+        if getattr(c, "name", None) in ("ul", "ol"):
+            continue
+        if getattr(c, "name", None) in ("sup", "style", "link"):
+            continue
+        parts.append(c.get_text(" ", strip=True) if hasattr(c, "get_text") else str(c))
+    txt = " ".join(" ".join(parts).split())
+    return re.sub(r"\[\s*[\w ]*\d+\s*\]", "", txt).strip()
+
+
+def accomplishments(html: str) -> list[dict]:
+    """Section « Championships and accomplishments » : [{org, texte}] (organisation parente)."""
     soup = BeautifulSoup(html, "lxml")
     h = None
     for tag in soup.find_all(["h2", "h3"]):
@@ -221,17 +280,31 @@ def accomplishments(html: str) -> list[str]:
             break
     if not h:
         return []
-    items = []
+    items: list[dict] = []
     node = h.find_parent("div", class_="mw-heading") or h
     for sib in node.find_next_siblings():
-        if sib.name in ("h2",) or (sib.get("class") and "mw-heading2" in sib.get("class")):
+        cls = sib.get("class") or []
+        if sib.name == "h2" or "mw-heading2" in cls:
             break
-        for li in sib.find_all("li") if hasattr(sib, "find_all") else []:
-            txt = " ".join(li.get_text(" ", strip=True).split())
-            txt = re.sub(r"\[\s*\d+\s*\]", "", txt).strip()
-            if txt and len(txt) < 200:
-                items.append(txt)
-    return items[:40]
+        if sib.name in ("ul", "ol"):
+            lists = [sib]
+        elif hasattr(sib, "find_all"):
+            # Mise en page en colonnes : listes imbriquées dans des <div> ; on garde les listes de 1er niveau.
+            lists = [ul for ul in sib.find_all(["ul", "ol"]) if ul.find_parent("li") is None]
+        else:
+            lists = []
+        for ul in lists:
+            for li in ul.find_all("li", recursive=False):
+                org = _own_text(li)
+                subs = li.find_all("li")
+                if subs:
+                    for sub in subs:
+                        t = _own_text(sub)
+                        if t and len(t) < 220:
+                            items.append({"org": org, "texte": t})
+                elif org and len(org) < 220:
+                    items.append({"org": None, "texte": org})
+    return items[:120]
 
 
 TECH_RE = re.compile(r"\(([^)]+)\)")
@@ -508,7 +581,9 @@ def build_fighter(name: str, overrides: dict, champions: dict[str, str]) -> dict
     sources: dict[str, str] = {}
     champs: dict[str, str] = {}
 
-    title = prev.get("wikipedia_titre") or resolve_wiki_title(name, overrides.get("wikipedia", {}))
+    title = resolve_wiki_title(name, overrides.get("wikipedia", {}), prev.get("wikipedia_titre"))
+    if not title:
+        a_verifier.append("article Wikipedia introuvable")
     wp = wiki_page(title) if title else None
     wd = wikidata(wp["qid"]) if wp and wp.get("qid") else {}
     ib = infobox(wp["wikitext"]) if wp else {}
@@ -522,11 +597,14 @@ def build_fighter(name: str, overrides: dict, champions: dict[str, str]) -> dict
 
     # L'identifiant Wikidata est parfois périmé : on essaie aussi le nom et le nom inversé.
     parts = name.split()
-    candidates = [overrides.get("ufc", {}).get(name), prev.get("ufc_slug"), wd.get("ufc_slug"), fid,
+    candidates = [overrides.get("ufc", {}).get(name), wd.get("ufc_slug"), prev.get("ufc_slug"), fid,
                   slugify(" ".join(parts[1:] + parts[:1])) if len(parts) > 1 else None]
     ufc = None
     for slug in dict.fromkeys(c for c in candidates if c):
         ufc = ufc_profile(slug)
+        if ufc and not same_person(name, ufc.get("nom")) and \
+                not any(same_person(ufc.get("nom") or "", n) for n in ([wp["title"]] if wp else [])):
+            ufc = None  # fiche d'un autre combattant : on la rejette
         if ufc:
             break
     if ufc:
@@ -694,6 +772,7 @@ def build_fighter(name: str, overrides: dict, champions: dict[str, str]) -> dict
     if accomp:
         champs["accomplissements_en"] = "wikipedia"
 
+    f["distinctions"] = build_distinctions(f)
     f["image_commons"] = wd.get("image_commons")
     f["sources"] = sources
     f["champs_sources"] = champs

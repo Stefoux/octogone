@@ -114,10 +114,23 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Ultimate Fighting Championship Fight of the Night (Two times) vs. Julius Walker and Zhang Mingyang   Performance of the Night (One time) vs. Paul Craig",
-    "Fight of the Night (Two times) vs. Julius Walker and Zhang Mingyang",
-    "Performance of the Night (One time) vs. Paul Craig"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Two times) vs. Julius Walker and Zhang Mingyang"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Paul Craig"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 1× Performance de la soirée, 2× Combat de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 1× Performance of the Night, 2× Fight of the Night"
+    ]
+  },
   "image_commons": "Alonzo Menifield Jan 20, 2019.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Alonzo_Menifield",

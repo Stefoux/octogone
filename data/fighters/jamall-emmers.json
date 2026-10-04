@@ -101,12 +101,23 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Hero FC Hero FC Featherweight Championship (one time; former) Two successful title defenses",
-    "Hero FC Featherweight Championship (one time; former) Two successful title defenses",
-    "Two successful title defenses",
-    "SMASH Global SMASH Global Featherweight Championship (one time; former)",
-    "SMASH Global Featherweight Championship (one time; former)"
+    {
+      "org": "Hero FC",
+      "texte": "Hero FC Featherweight Championship (one time; former)"
+    },
+    {
+      "org": "Hero FC",
+      "texte": "Two successful title defenses"
+    },
+    {
+      "org": "SMASH Global",
+      "texte": "SMASH Global Featherweight Championship (one time; former)"
+    }
   ],
+  "distinctions": {
+    "fr": [],
+    "en": []
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Jamall_Emmers",

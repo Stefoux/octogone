@@ -122,40 +122,113 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Performance of the Night (Three times) vs. Hatsu Hioki , Ross Pearson and James Vick",
-    "Fight of the Night (Three times) vs. Paul Felder , Dustin Poirier and Mateusz Gamrot",
-    "UFC Honors Awards 2020: President's Choice Fight of the Year Nominee vs. Dustin Poirier  2024: President's Choice Fight of the Year Nominee vs. Mateusz Gamrot",
-    "2020: President's Choice Fight of the Year Nominee vs. Dustin Poirier",
-    "2024: President's Choice Fight of the Year Nominee vs. Mateusz Gamrot",
-    "2015: Ranked #8 Upset of the Year vs. Hatsu Hioki",
-    "2020: Ranked #3 Fight of the Year vs. Dustin Poirier  & Ranked #5 Fight of the Year vs. Paul Felder",
-    "2023: Ranked #6 Fight of the Year vs. Jalin Turner",
-    "2024: Ranked #8 Fight of the Year vs. Mateusz Gamrot",
-    "Australian Fighting Championship AFC Lightweight Championship (One time)  Two successful title defenses",
-    "AFC Lightweight Championship (One time)  Two successful title defenses",
-    "Two successful title defenses",
-    "Supremacy Fighting Championships New Zealand Lightweight Championship",
-    "New Zealand Lightweight Championship",
-    "MMA Junkie 2015 May Knockout of the Month vs. Hatsu Hioki  2020 February Fight of the Month vs. Paul Felder  2020 June Fight of the Month vs. Dustin Poirier",
-    "2015 May Knockout of the Month vs. Hatsu Hioki",
-    "2020 February Fight of the Month vs. Paul Felder",
-    "2020 June Fight of the Month vs. Dustin Poirier",
-    "ESPN 2020 Round of the Year Round 2 vs. Dustin Poirier at UFC on ESPN: Poirier vs. Hooker  2024 Most improved",
-    "2020 Round of the Year Round 2 vs. Dustin Poirier at UFC on ESPN: Poirier vs. Hooker",
-    "2024 Most improved",
-    "MMA Mania 2024 #3 Ranked Fight of the Year vs. Mateusz Gamrot at UFC 305",
-    "2024 #3 Ranked Fight of the Year vs. Mateusz Gamrot at UFC 305",
-    "CBS Sports 2020 #3 Ranked UFC Fight of the Year vs. Dustin Poirier",
-    "2020 #3 Ranked UFC Fight of the Year vs. Dustin Poirier",
-    "LowKick MMA 2023 Comeback of the Year vs. Jalin Turner at UFC 290",
-    "2023 Comeback of the Year vs. Jalin Turner at UFC 290",
-    "Combat Press 2024 Fight of the Year vs. Mateusz Gamrot at UFC 305",
-    "2024 Fight of the Year vs. Mateusz Gamrot at UFC 305",
-    "World Kickboxing Federation WKBF X-Rules Welterweight Championship",
-    "WKBF X-Rules Welterweight Championship",
-    "King in the Ring King in the Ring Middleweight Championship",
-    "King in the Ring Middleweight Championship"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Three times) vs. Hatsu Hioki , Ross Pearson and James Vick"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Three times) vs. Paul Felder , Dustin Poirier and Mateusz Gamrot"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: President's Choice Fight of the Year Nominee vs. Dustin Poirier"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: President's Choice Fight of the Year Nominee vs. Mateusz Gamrot"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2015: Ranked #8 Upset of the Year vs. Hatsu Hioki"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Ranked #3 Fight of the Year vs. Dustin Poirier & Ranked #5 Fight of the Year vs. Paul Felder"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: Ranked #6 Fight of the Year vs. Jalin Turner"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: Ranked #8 Fight of the Year vs. Mateusz Gamrot"
+    },
+    {
+      "org": "Australian Fighting Championship",
+      "texte": "AFC Lightweight Championship (One time)"
+    },
+    {
+      "org": "Australian Fighting Championship",
+      "texte": "Two successful title defenses"
+    },
+    {
+      "org": "Supremacy Fighting Championships",
+      "texte": "New Zealand Lightweight Championship"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2015 May Knockout of the Month vs. Hatsu Hioki"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2020 February Fight of the Month vs. Paul Felder"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2020 June Fight of the Month vs. Dustin Poirier"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2020 Round of the Year Round 2 vs. Dustin Poirier at UFC on ESPN: Poirier vs. Hooker"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2024 Most improved"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2024 #3 Ranked Fight of the Year vs. Mateusz Gamrot at UFC 305"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2020 #3 Ranked UFC Fight of the Year vs. Dustin Poirier"
+    },
+    {
+      "org": "LowKick MMA",
+      "texte": "2023 Comeback of the Year vs. Jalin Turner at UFC 290"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2024 Fight of the Year vs. Mateusz Gamrot at UFC 305"
+    },
+    {
+      "org": "World Kickboxing Federation",
+      "texte": "WKBF X-Rules Welterweight Championship"
+    },
+    {
+      "org": "King in the Ring",
+      "texte": "King in the Ring Middleweight Championship"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Combat de l'année (2024)",
+      "Bonus UFC : 3× Performance de la soirée, 3× Combat de la soirée"
+    ],
+    "en": [
+      "Fight of the Year (2024)",
+      "UFC bonuses: 3× Performance of the Night, 3× Fight of the Night"
+    ]
+  },
   "image_commons": "DanHooker2016.png",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Dan_Hooker",

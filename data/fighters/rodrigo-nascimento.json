@@ -99,9 +99,19 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Ultimate Fighting Championship Performance of the Night (One Time) vs. Alan Baudot",
-    "Performance of the Night (One Time) vs. Alan Baudot"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One Time) vs. Alan Baudot"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 1× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 1× Performance of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Rodrigo_Nascimento",

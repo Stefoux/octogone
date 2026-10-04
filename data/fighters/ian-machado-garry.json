@@ -99,17 +99,39 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Performance of the Night (One time) vs. Daniel Rodriguez",
-    "Tied ( Leon Edwards & Jack Della Maddalena ) for the third longest win streak in UFC Welterweight division history (8)",
-    "Cage Warriors Fighting Championship CWFC Welterweight Championship (One time; former)",
-    "CWFC Welterweight Championship (One time; former)",
-    "LowKick MMA 2021 #2 Ranked Prospect of the Year",
-    "2021 #2 Ranked Prospect of the Year",
-    "MMA Fighting 2023 Second Team MMA All-Star",
-    "2023 Second Team MMA All-Star",
-    "Slacky Awards 2025 Gameplan of the Year vs. Carlos Prates at UFC on ESPN: Machado Garry vs. Prates",
-    "2025 Gameplan of the Year vs. Carlos Prates at UFC on ESPN: Machado Garry vs. Prates"
+    {
+      "org": "Ultimate Fighting Championships",
+      "texte": "Performance of the Night (One time) vs. Daniel Rodriguez"
+    },
+    {
+      "org": "Ultimate Fighting Championships",
+      "texte": "Tied ( Leon Edwards & Jack Della Maddalena ) for the third longest win streak in UFC Welterweight division history (8)"
+    },
+    {
+      "org": "Cage Warriors Fighting Championship",
+      "texte": "CWFC Welterweight Championship (One time; former)"
+    },
+    {
+      "org": "LowKick MMA",
+      "texte": "2021 #2 Ranked Prospect of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2023 Second Team MMA All-Star"
+    },
+    {
+      "org": "Slacky Awards",
+      "texte": "2025 Gameplan of the Year vs. Carlos Prates at UFC on ESPN: Machado Garry vs. Prates"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 1× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 1× Performance of the Night"
+    ]
+  },
   "image_commons": "IanGarry.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Ian_Machado_Garry",

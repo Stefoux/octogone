@@ -114,14 +114,41 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Fight of the Night (Two times) vs. Merab Dvalishvili and Rob Font",
-    "Performance of the Night (Two times) vs. Jack Shore and Javid Basharat",
-    "Second most takedowns landed in UFC Bantamweight division history (44) (behind Merab Dvalishvili )",
-    "Latest finish in a UFC three-round bout (5:00 in R3) (vs. Merab Dvalishvili )",
-    "Legacy Fighting Alliance LFA Bantamweight Championship (One time)  One successful title defense vs. Vinicius Zani",
-    "LFA Bantamweight Championship (One time)  One successful title defense vs. Vinicius Zani",
-    "One successful title defense vs. Vinicius Zani"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Two times) vs. Merab Dvalishvili and Rob Font"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. Jack Shore and Javid Basharat"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most takedowns landed in UFC Bantamweight division history (44) (behind Merab Dvalishvili )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Latest finish in a UFC three-round bout (5:00 in R3) (vs. Merab Dvalishvili )"
+    },
+    {
+      "org": "Legacy Fighting Alliance",
+      "texte": "LFA Bantamweight Championship (One time)"
+    },
+    {
+      "org": "Legacy Fighting Alliance",
+      "texte": "One successful title defense vs. Vinicius Zani"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion LFA des poids coq",
+      "Bonus UFC : 2× Performance de la soirée, 2× Combat de la soirée"
+    ],
+    "en": [
+      "LFA Bantamweight Champion",
+      "UFC bonuses: 2× Performance of the Night, 2× Fight of the Night"
+    ]
+  },
   "image_commons": "Ricky Simón 2019.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Ricky_Simón",

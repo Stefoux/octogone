@@ -122,33 +122,119 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Performance of the Night (Five times) vs. Roman Salazar , Brad Pickett , Andre Ewell , Frankie Edgar , and Dominick Cruz",
-    "Tied ( Rob Font , Davey Grant & Song Yadong ) for fourth most Post-Fight bonuses in UFC Bantamweight division history (6)",
-    "Most finishes in UFC Bantamweight division history (11)",
-    "Tied ( Montel Jackson ) for most knockdowns in UFC Bantamweight division history (14)  Tied ( Edson Barboza ) for fourth most knockdowns in UFC history (16)",
-    "Tied ( Edson Barboza ) for fourth most knockdowns in UFC history (16)",
-    "Most bouts in UFC Bantamweight division history (24)  Most decision bouts in UFC Bantamweight division history (15)",
-    "Most decision bouts in UFC Bantamweight division history (15)",
-    "Most total fight time in UFC Bantamweight division history (5:21:53)",
-    "Tied ( Aljamain Sterling ) for most wins in UFC Bantamweight division history (14)  Tied ( Dominick Cruz & Aljamain Sterling ) for most wins in UFC/WEC Bantamweight division history (14)",
-    "Tied ( Dominick Cruz & Aljamain Sterling ) for most wins in UFC/WEC Bantamweight division history (14)",
-    "Tied ( Sean O'Malley & T.J. Dillashaw ) for most knockouts in UFC Bantamweight division history (7)",
-    "Most submission attempts in UFC Bantamweight division history (16)",
-    "Tied ( Kyung Ho Kang , Mario Bautista & Aljamain Sterling ) for third most submissions in UFC Bantamweight division history (4)",
-    "Third most significant strikes landed in UFC Bantamweight division history (1357)  Fourth most total strikes landed in UFC Bantamweight division history (1555)",
-    "Fourth most total strikes landed in UFC Bantamweight division history (1555)",
-    "First and only fighter to land three knockdowns in three separate UFC bouts (vs. Rob Font , Dominick Cruz & Charles Jourdain )",
-    "Holds wins over three former UFC champions — Sean O'Malley 1, Frankie Edgar and Dominick Cruz",
-    "UFC Honors Awards 2022: President's Choice Performance of the Year Nominee vs. Rob Font",
-    "2022: President's Choice Performance of the Year Nominee vs. Rob Font",
-    "UFC.com Awards 2020: Ranked #6 Upset of the Year vs. Sean O'Malley 1  2022: Ranked #6 Fighter of the Year  & Ranked #5 Knockout of the Year vs. Dominick Cruz",
-    "2020: Ranked #6 Upset of the Year vs. Sean O'Malley 1",
-    "2022: Ranked #6 Fighter of the Year  & Ranked #5 Knockout of the Year vs. Dominick Cruz",
-    "ESPN 2022 Most Improved Fighter of the Year",
-    "2022 Most Improved Fighter of the Year",
-    "MMA Fighting 2022 First Team MMA All-Star",
-    "2022 First Team MMA All-Star"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Five times) vs. Roman Salazar , Brad Pickett , Andre Ewell , Frankie Edgar , and Dominick Cruz"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Three times) vs. Song Yadong , Davey Grant , and Rob Font"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Rob Font , Davey Grant & Song Yadong ) for fourth most Post-Fight bonuses in UFC Bantamweight division history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most finishes in UFC Bantamweight division history (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Montel Jackson ) for most knockdowns in UFC Bantamweight division history (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Edson Barboza ) for fourth most knockdowns in UFC history (16)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most bouts in UFC Bantamweight division history (24)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most decision bouts in UFC Bantamweight division history (15)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most total fight time in UFC Bantamweight division history (5:21:53)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Aljamain Sterling ) for most wins in UFC Bantamweight division history (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Dominick Cruz & Aljamain Sterling ) for most wins in UFC/WEC Bantamweight division history (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Sean O'Malley & T.J. Dillashaw ) for most knockouts in UFC Bantamweight division history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most submission attempts in UFC Bantamweight division history (16)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Kyung Ho Kang , Mario Bautista & Aljamain Sterling ) for third most submissions in UFC Bantamweight division history (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most significant strikes landed in UFC Bantamweight division history (1357)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most total strikes landed in UFC Bantamweight division history (1555)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First and only fighter to land three knockdowns in three separate UFC bouts (vs. Rob Font , Dominick Cruz & Charles Jourdain )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Holds wins over three former UFC champions — Sean O'Malley 1, Frankie Edgar and Dominick Cruz"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: President's Choice Performance of the Year Nominee vs. Rob Font"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Ranked #6 Upset of the Year vs. Sean O'Malley 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Ranked #6 Fighter of the Year & Ranked #5 Knockout of the Year vs. Dominick Cruz"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2022 Most Improved Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2022 First Team MMA All-Star"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Record UFC chez les poids coq : finitions (11)",
+      "Record UFC chez les poids coq : combats (24)",
+      "Bonus UFC : 5× Performance de la soirée, 3× Combat de la soirée"
+    ],
+    "en": [
+      "UFC Bantamweight record: most finishes (11)",
+      "UFC Bantamweight record: most fights (24)",
+      "UFC bonuses: 5× Performance of the Night, 3× Fight of the Night"
+    ]
+  },
   "image_commons": "Marlon \"Chito\" Vera 2019.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Marlon_Vera",

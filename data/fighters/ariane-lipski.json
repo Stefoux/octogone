@@ -106,22 +106,67 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Performance of the Night (Two times) vs. Luana Carolina and Casey O'Neill",
-    "Tied ( Taila Santos ) for most knockdowns in UFC Women's Flyweight division history (3)",
-    "Tied ( Gillian Robertson ) for fourth most bouts in UFC Women's Flyweight division history (13)",
-    "UFC Honors Awards 2020: Fan's Choice Submission of the Year Nominee vs. Luana Carolina",
-    "2020: Fan's Choice Submission of the Year Nominee vs. Luana Carolina",
-    "UFC.com Awards 2020: Submission of the Year vs. Luana Carolina  2023: Ranked #7 Upset of the Year  & Ranked #5 Submission of the Year vs. Casey O'Neill",
-    "2020: Submission of the Year vs. Luana Carolina",
-    "2023: Ranked #7 Upset of the Year  & Ranked #5 Submission of the Year vs. Casey O'Neill",
-    "Konfrontacja Sztuk Walki KSW Women's Flyweight Championship (one time; former) Two successful title defenses vs. Mariana Morais and Silvana Gómez Juárez .",
-    "KSW Women's Flyweight Championship (one time; former) Two successful title defenses vs. Mariana Morais and Silvana Gómez Juárez .",
-    "Two successful title defenses vs. Mariana Morais and Silvana Gómez Juárez .",
-    "LowKick MMA 2020 Submission of the Year vs. Luana Carolina at UFC Fight Night: Figueiredo vs. Benavidez 2",
-    "2020 Submission of the Year vs. Luana Carolina at UFC Fight Night: Figueiredo vs. Benavidez 2",
-    "MMA Junkie 2020 July Submission of the Month vs. Luana Carolina",
-    "2020 July Submission of the Month vs. Luana Carolina"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. Luana Carolina and Casey O'Neill"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Taila Santos ) for most knockdowns in UFC Women's Flyweight division history (3)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Gillian Robertson ) for fourth most bouts in UFC Women's Flyweight division history (13)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Fan's Choice Submission of the Year Nominee vs. Luana Carolina"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Submission of the Year vs. Luana Carolina"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: Ranked #7 Upset of the Year & Ranked #5 Submission of the Year vs. Casey O'Neill"
+    },
+    {
+      "org": "Konfrontacja Sztuk Walki",
+      "texte": "KSW Women's Flyweight Championship (one time; former)"
+    },
+    {
+      "org": "Konfrontacja Sztuk Walki",
+      "texte": "Two successful title defenses vs. Mariana Morais and Silvana Gómez Juárez ."
+    },
+    {
+      "org": "LowKick MMA",
+      "texte": "2020 Submission of the Year vs. Luana Carolina at UFC Fight Night: Figueiredo vs. Benavidez 2"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2020 July Submission of the Month vs. Luana Carolina"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Championne KSW des poids mouche féminins",
+      "Soumission de l'année (2020)",
+      "Bonus UFC : 2× Performance de la soirée, 1× Combat de la soirée, 1× Soumission de la soirée"
+    ],
+    "en": [
+      "KSW Women's Flyweight Champion",
+      "Submission of the Year (2020)",
+      "UFC bonuses: 2× Performance of the Night, 1× Fight of the Night, 1× Submission of the Night"
+    ]
+  },
   "image_commons": "Ariane Lipski.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Ariane_Lipski_da_Silva",

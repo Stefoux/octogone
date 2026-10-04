@@ -1,130 +1,146 @@
 {
   "id": "rafa-garcia",
   "nom": "Rafa Garcia",
-  "ufc_slug": "humberto-bandenay",
-  "wikipedia_titre": "Humberto Bandenay",
-  "surnom": null,
+  "ufc_slug": "rafa-garcia",
+  "wikipedia_titre": "Rafa García (fighter)",
+  "surnom": "Gifted",
   "sexe": "M",
-  "pays": "PE",
-  "categorie": "plume",
-  "statut": "inactif",
-  "date_naissance": "1994-09-04",
-  "taille_cm": 180,
-  "allonge_cm": 182,
-  "style": null,
-  "lieu_naissance": "Peru",
+  "pays": "MX",
+  "categorie": "legers",
+  "statut": "actif",
+  "date_naissance": "1994-08-05",
+  "taille_cm": 170,
+  "allonge_cm": 178,
+  "style": "Boxe",
+  "lieu_naissance": "Brawley, États-Unis",
   "palmares": {
-    "victoires": 25,
-    "defaites": 10,
+    "victoires": 18,
+    "defaites": 5,
     "nuls": 0,
-    "sans_decision": 2,
-    "victoires_ko": 9,
-    "victoires_soumission": 11,
-    "victoires_decision": 5,
-    "defaites_ko": 3,
-    "defaites_soumission": 4,
-    "defaites_decision": 3
+    "sans_decision": 0,
+    "victoires_ko": 2,
+    "victoires_soumission": 8,
+    "victoires_decision": 8,
+    "defaites_ko": 1,
+    "defaites_soumission": 0,
+    "defaites_decision": 4
   },
   "stats_ufc": {
-    "frappes_par_min": 2.22,
-    "precision_frappe_pct": 42,
-    "frappes_encaissees_par_min": 4.79,
-    "defense_frappe_pct": 41.0,
-    "takedowns_par_15min": 2.9,
-    "precision_takedown_pct": 0,
-    "defense_takedown_pct": 63.0,
-    "soumissions_par_15min": 0.48,
-    "knockdowns_par_15min": 0.48,
-    "duree_moyenne_combat_s": 466,
-    "frappes_reussies": 69.0,
-    "takedowns_reussis": 0
+    "frappes_par_min": 4.33,
+    "precision_frappe_pct": 44,
+    "frappes_encaissees_par_min": 4.68,
+    "defense_frappe_pct": 61.0,
+    "takedowns_par_15min": 3.02,
+    "precision_takedown_pct": 15,
+    "defense_takedown_pct": 77.0,
+    "soumissions_par_15min": 0.37,
+    "knockdowns_par_15min": 0.09,
+    "duree_moyenne_combat_s": 820,
+    "frappes_reussies": 710.0,
+    "takedowns_reussis": 12.0
   },
   "ufc": {
     "palmares_tableau": {
-      "victoires": 25,
-      "defaites": 10,
+      "victoires": 18,
+      "defaites": 5,
       "nuls": 0,
-      "sans_decision": 2,
+      "sans_decision": 0,
       "v": {
-        "ko": 9,
-        "soumission": 11,
-        "decision": 5,
+        "ko": 2,
+        "soumission": 8,
+        "decision": 8,
         "autre": 0
       },
       "d": {
-        "ko": 3,
-        "soumission": 4,
-        "decision": 3,
+        "ko": 1,
+        "soumission": 0,
+        "decision": 4,
         "autre": 0
       }
     },
     "combats_ufc_par_annee": {
-      "2017": 1,
-      "2018": 2,
-      "2019": 1
+      "2021": 3,
+      "2022": 3,
+      "2023": 1,
+      "2024": 1,
+      "2025": 2,
+      "2026": 2
     },
     "dernier_combat": {
-      "adversaire": "Kim Sang-won",
-      "evenement": "PFL Sioux Falls: Storley vs. Zendeli",
-      "date": "May 2, 2026",
+      "adversaire": "Rong Zhu",
+      "evenement": "UFC Fight Night: Silva vs. Delgado",
+      "date": "September 12, 2026",
       "resultat": "Loss",
-      "methode": "TKO (elbows)"
+      "methode": "Decision (unanimous)"
     },
-    "combats_ufc": 4,
-    "victoires_ufc": 1,
-    "defaites_ufc": 3,
+    "combats_ufc": 12,
+    "victoires_ufc": 7,
+    "defaites_ufc": 5,
     "victoires_decision_5_rounds": 0,
     "combats_5_rounds_gagnes": 0,
     "bonus_fotn": 0,
-    "bonus_potn": 1,
+    "bonus_potn": 0,
     "bonus_kotn": 0,
     "bonus_sotn": 0,
     "combats_fotn": [],
     "titres": [],
     "technique_favorite": {
-      "technique": "rear-naked choke",
-      "finitions": 5
+      "technique": "armbar",
+      "finitions": 4
     },
     "premier_combat_ufc": {
-      "adversaire": "Martin Bravo",
-      "evenement": "UFC Fight Night: Pettis vs. Moreno",
-      "date": "August 5, 2017",
-      "resultat": "Win",
-      "methode": "KO (knee)"
+      "adversaire": "Nasrat Haqparast",
+      "evenement": "UFC Fight Night: Edwards vs. Muhammad",
+      "date": "March 13, 2021",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
     }
   },
   "champion_actuel": false,
   "ancien_champion": false,
-  "accomplissements_en": [],
+  "accomplissements_en": [
+    {
+      "org": "Combate Americas",
+      "texte": "Combate Americas Lightweight Championship (one time; first; former)"
+    },
+    {
+      "org": "Combate Americas",
+      "texte": "One successful title defense"
+    }
+  ],
+  "distinctions": {
+    "fr": [],
+    "en": []
+  },
   "image_commons": null,
   "sources": {
-    "wikipedia": "https://en.wikipedia.org/wiki/Humberto_Bandenay",
-    "wikidata": "https://www.wikidata.org/wiki/Q58836929",
-    "ufc_com": "https://www.ufc.com/athlete/humberto-bandenay"
+    "wikipedia": "https://en.wikipedia.org/wiki/Rafa_García_(fighter)",
+    "wikidata": "https://www.wikidata.org/wiki/Q108437049",
+    "ufc_com": "https://www.ufc.com/athlete/rafa-garcia"
   },
   "champs_sources": {
+    "surnom": "ufc_com",
     "pays": "wikidata",
     "categorie": "ufc_com",
     "palmares": "wikipedia_tableau",
     "stats_ufc": "ufc_com",
-    "ufc": "wikipedia_tableau"
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
   },
-  "a_verifier": [
-    "palmares (wikipedia_tableau 25-10, wikipedia_infobox 27-10, ufc_com 14-7)"
-  ],
+  "a_verifier": [],
   "ecarts_sources": {
-    "palmares": "wikipedia_tableau 25-10, wikipedia_infobox 27-10, ufc_com 14-7"
+    "palmares": "wikipedia_tableau 18-5, wikipedia_infobox 18-5, ufc_com 19-5"
   },
   "maj": "2026-10-04",
   "stats_jeu": {
-    "frappe": 52,
-    "puissance": 60,
-    "lutte": 60,
-    "soumission": 64,
-    "defense": 51,
-    "cardio": 53,
-    "menton": 70,
-    "globale": 59,
+    "frappe": 59,
+    "puissance": 39,
+    "lutte": 63,
+    "soumission": 62,
+    "defense": 64,
+    "cardio": 66,
+    "menton": 87,
+    "globale": 63,
     "style": "complet",
     "estimees": [],
     "formule_version": 1

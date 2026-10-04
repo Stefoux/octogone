@@ -100,10 +100,19 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Next Level Fight Club NLFC Middleweight Championship (One Time) Two successful title defenses",
-    "NLFC Middleweight Championship (One Time) Two successful title defenses",
-    "Two successful title defenses"
+    {
+      "org": "Next Level Fight Club",
+      "texte": "NLFC Middleweight Championship (One Time)"
+    },
+    {
+      "org": "Next Level Fight Club",
+      "texte": "Two successful title defenses"
+    }
   ],
+  "distinctions": {
+    "fr": [],
+    "en": []
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Jamie_Pickett",

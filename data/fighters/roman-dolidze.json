@@ -100,18 +100,47 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Performance of the Night (Three times) vs. Kyle Daukaus , Phil Hawes and Jack Hermansson",
-    "UFC.com Awards 2022: Ranked #10 Fighter of the Year  & Ranked #9 Upset of the Year vs. Jack Hermansson",
-    "2022: Ranked #10 Fighter of the Year  & Ranked #9 Upset of the Year vs. Jack Hermansson",
-    "World Warriors Fight Championship WWFC Light Heavyweight Championship  One successful title defense",
-    "WWFC Light Heavyweight Championship  One successful title defense",
-    "One successful title defense",
-    "MMA Fighting 2022 Second Team MMA All-Star",
-    "2022 Second Team MMA All-Star",
-    "ADCC Asia & Oceania Champion 2016 ADCC Asia trials (99 kg)",
-    "2016 ADCC Asia trials (99 kg)",
-    "Grappling World Champion FILA"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Three times) vs. Kyle Daukaus , Phil Hawes and Jack Hermansson"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Ranked #10 Fighter of the Year & Ranked #9 Upset of the Year vs. Jack Hermansson"
+    },
+    {
+      "org": "World Warriors Fight Championship",
+      "texte": "WWFC Light Heavyweight Championship"
+    },
+    {
+      "org": "World Warriors Fight Championship",
+      "texte": "One successful title defense"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2022 Second Team MMA All-Star"
+    },
+    {
+      "org": "ADCC Asia & Oceania Champion",
+      "texte": "2016 ADCC Asia trials (99 kg)"
+    },
+    {
+      "org": null,
+      "texte": "Grappling World Champion FILA"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 3× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 3× Performance of the Night"
+    ]
+  },
   "image_commons": "Dolidze 2019.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Roman_Dolidze",

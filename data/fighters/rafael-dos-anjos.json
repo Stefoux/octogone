@@ -141,44 +141,147 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "UFC Lightweight Championship (One time) One successful title defense",
-    "One successful title defense",
-    "Fight of the Night (Three times) vs. Tyson Griffin , Tony Ferguson , and Paul Felder",
-    "Submission of the Night (One time) vs. Terry Etim",
-    "Performance of the Night (Four times) vs. Donald Cerrone , Anthony Pettis , Benson Henderson , and Neil Magny",
-    "Second total fight time in UFC history (8:43:19) (behind Max Holloway )  First fighter to reach 8 hours of fight time in UFC history",
-    "First fighter to reach 8 hours of fight time in UFC history",
-    "Tied ( Jon Jones ) for ninth most wins in UFC history (21)",
-    "Tied ( Jeremy Stephens ) for seventh most bouts in UFC history (36)",
-    "Tied ( Georges St-Pierre , Diego Sanchez , Andrei Arlovski & Belal Muhammad ) for third most wins by decision in UFC history (12)",
-    "Tied ( Francisco Trinaldo ) for most unanimous decision wins in UFC Lightweight history (7)",
-    "Second most decision bouts in UFC history (22) (behind Angela Hill )",
-    "Sixth most significant strikes landed in UFC history (1822)",
-    "Tied ( Georges St-Pierre ) for fourth most total strikes landed in UFC history (2591)",
-    "Fifth most control time in UFC history (2:16:43)",
-    "2009: Ranked #8 Fight of the Year vs. Tyson Griffin",
-    "2010: Ranked #8 Upset of the Year vs. Terry Etim",
-    "2011: Ranked #3 Upset of the Year vs. George Sotiropoulos (Tied with Dennis Siver )",
-    "2014: Ranked #8 Fighter of the Year  & Ranked #2 Upset of the Year vs. Benson Henderson",
-    "2015: Ranked #2 Fighter of the Year ,  Half-Year Awards: Biggest Upset of the 1HY vs. Anthony Pettis  & Ranked #2 Upset of the Year vs. Anthony Pettis",
-    "2016: Ranked #9 Fight of the Year vs. Tony Ferguson",
-    "2017: Ranked #7 Fighter of the Year",
-    "Fight Matrix Lineal MMA Lightweight Champion (One time, Former)",
-    "Lineal MMA Lightweight Champion (One time, Former)",
-    "Combat Press 2017 Comeback Fighter of the Year",
-    "2017 Comeback Fighter of the Year",
-    "MMA Weekly 2017 Comeback Fighter of the Year",
-    "2017 Comeback Fighter of the Year",
-    "Slacky Awards 2015 Gameplan of the Year vs. Anthony Pettis at UFC 185",
-    "2015 Gameplan of the Year vs. Anthony Pettis at UFC 185",
-    "World Jiu-Jitsu Championship 2003 Purple Belt Peso Leve: 1st Place",
-    "2003 Purple Belt Peso Leve: 1st Place",
-    "Brazilian National Jiu-Jitsu Championship 2004 Brown Belt Peso Leve: 3rd Place 2005 Brown Belt Peso Leve: 3rd place",
-    "2004 Brown Belt Peso Leve: 3rd Place",
-    "2005 Brown Belt Peso Leve: 3rd place",
-    "European Championship 2006 Black Belt Peso Leve: 3rd place",
-    "2006 Black Belt Peso Leve: 3rd place"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Lightweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "One successful title defense"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Three times) vs. Tyson Griffin , Tony Ferguson , and Paul Felder"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Submission of the Night (One time) vs. Terry Etim"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Four times) vs. Donald Cerrone , Anthony Pettis , Benson Henderson , and Neil Magny"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second total fight time in UFC history (8:43:19) (behind Max Holloway )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First fighter to reach 8 hours of fight time in UFC history"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Jon Jones ) for ninth most wins in UFC history (21)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Jeremy Stephens ) for seventh most bouts in UFC history (36)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Belal Muhammad , Brad Tavares & Kamaru Usman ) for second most unanimous decision wins in UFC history (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Georges St-Pierre , Diego Sanchez , Andrei Arlovski & Belal Muhammad ) for third most wins by decision in UFC history (12)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Francisco Trinaldo ) for most unanimous decision wins in UFC Lightweight history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most decision bouts in UFC history (22) (behind Angela Hill )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Sixth most significant strikes landed in UFC history (1822)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Georges St-Pierre ) for fourth most total strikes landed in UFC history (2591)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth most control time in UFC history (2:16:43)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2009: Ranked #8 Fight of the Year vs. Tyson Griffin"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2010: Ranked #8 Upset of the Year vs. Terry Etim"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2011: Ranked #3 Upset of the Year vs. George Sotiropoulos (Tied with Dennis Siver )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2014: Ranked #8 Fighter of the Year & Ranked #2 Upset of the Year vs. Benson Henderson"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2015: Ranked #2 Fighter of the Year , Half-Year Awards: Biggest Upset of the 1HY vs. Anthony Pettis & Ranked #2 Upset of the Year vs. Anthony Pettis"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2016: Ranked #9 Fight of the Year vs. Tony Ferguson"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2017: Ranked #7 Fighter of the Year"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "Lineal MMA Lightweight Champion (One time, Former)"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2017 Comeback Fighter of the Year"
+    },
+    {
+      "org": "MMA Weekly",
+      "texte": "2017 Comeback Fighter of the Year"
+    },
+    {
+      "org": "Slacky Awards",
+      "texte": "2015 Gameplan of the Year vs. Anthony Pettis at UFC 185"
+    },
+    {
+      "org": "World Jiu-Jitsu Championship",
+      "texte": "2003 Purple Belt Peso Leve: 1st Place"
+    },
+    {
+      "org": "Brazilian National Jiu-Jitsu Championship",
+      "texte": "2004 Brown Belt Peso Leve: 3rd Place"
+    },
+    {
+      "org": "Brazilian National Jiu-Jitsu Championship",
+      "texte": "2005 Brown Belt Peso Leve: 3rd place"
+    },
+    {
+      "org": "European Championship",
+      "texte": "2006 Black Belt Peso Leve: 3rd place"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids légers",
+      "1 défense de titre à l'UFC",
+      "Bonus UFC : 4× Performance de la soirée, 3× Combat de la soirée, 1× Soumission de la soirée"
+    ],
+    "en": [
+      "UFC Lightweight Champion",
+      "1 UFC title defense",
+      "UFC bonuses: 4× Performance of the Night, 3× Fight of the Night, 1× Submission of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Rafael_dos_Anjos",

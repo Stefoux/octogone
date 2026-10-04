@@ -133,31 +133,115 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "One successful title defense",
-    "Most significant strikes landed in a UFC Bantamweight title fight (230) vs Marlon Vera 2",
-    "Fourth highest striking differential in a UFC title fight (141) vs Marlon Vera 2",
-    "Fight of the Night (Three times) vs. Andre Soukhamthath , Kris Moutinho, and Petr Yan",
-    "Most Post-Fight bonuses in UFC Bantamweight division history (9)",
-    "Tied ( T.J. Dillashaw & Marlon Vera ) for most knockouts in UFC Bantamweight division history (7)",
-    "Tied ( Urijah Faber , Rob Font & Song Yadong ) for third most finishes in UFC Bantamweight division history (7)",
-    "Highest significant strike accuracy percentage in UFC Bantamweight division history (60.3%)",
-    "Fourth most strikes landed-per-minute in UFC Bantamweight division history (5.97)",
-    "Tied ( Raphael Assunção , Petr Yan & Mario Bautista ) for fifth most wins in UFC Bantamweight division history (12)",
-    "Third highest significant strike differential in UFC Bantamweight division history (2.63)",
-    "Highest striking differential in a UFC Bantamweight bout (160) vs Kris Moutinho",
-    "Second highest striking differential in a UFC Bantamweight bout (141) vs Marlon Vera 2",
-    "UFC Honors Awards 2023: President's Choice Performance of the Year Winner vs. Aljamain Sterling  & Fan's Choice Knockout of the Year Nominee vs. Aljamain Sterling",
-    "2023: President's Choice Performance of the Year Winner vs. Aljamain Sterling  & Fan's Choice Knockout of the Year Nominee vs. Aljamain Sterling",
-    "UFC.com Awards 2020: Ranked #3 Knockout of the Year vs. Eddie Wineland  2022: Ranked #2 Upset of the Year  & Ranked #10 Fight of the Year vs. Petr Yan",
-    "2020: Ranked #3 Knockout of the Year vs. Eddie Wineland",
-    "2022: Ranked #2 Upset of the Year  & Ranked #10 Fight of the Year vs. Petr Yan",
-    "Intense Championship Fighting ICF Bantamweight Championship (One time)",
-    "ICF Bantamweight Championship (One time)",
-    "Sherdog.com Sherdog's 2022 Robbery of the Year",
-    "Sherdog's 2022 Robbery of the Year",
-    "ESPYs Best MMA Fighter ESPY Award (2024)",
-    "Best MMA Fighter ESPY Award (2024)"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Bantamweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "One successful title defense"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most significant strikes landed in a UFC Bantamweight title fight (230) vs Marlon Vera 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth highest striking differential in a UFC title fight (141) vs Marlon Vera 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Three times) vs. Andre Soukhamthath , Kris Moutinho, and Petr Yan"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Six times) vs. José Alberto Quiñónez , Eddie Wineland , Thomas Almeida , Raulian Paiva , Aljamain Sterling and Marlon Vera 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most Post-Fight bonuses in UFC Bantamweight division history (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( T.J. Dillashaw & Marlon Vera ) for most knockouts in UFC Bantamweight division history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Urijah Faber , Rob Font & Song Yadong ) for third most finishes in UFC Bantamweight division history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Highest significant strike accuracy percentage in UFC Bantamweight division history (60.3%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most strikes landed-per-minute in UFC Bantamweight division history (5.97)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Raphael Assunção , Petr Yan & Mario Bautista ) for fifth most wins in UFC Bantamweight division history (12)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third highest significant strike differential in UFC Bantamweight division history (2.63)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third highest striking differential in a UFC bout (160) vs Kris Moutinho"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Highest striking differential in a UFC Bantamweight bout (160) vs Kris Moutinho"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second highest striking differential in a UFC Bantamweight bout (141) vs Marlon Vera 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: President's Choice Performance of the Year Winner vs. Aljamain Sterling & Fan's Choice Knockout of the Year Nominee vs. Aljamain Sterling"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Ranked #3 Knockout of the Year vs. Eddie Wineland"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Ranked #2 Upset of the Year & Ranked #10 Fight of the Year vs. Petr Yan"
+    },
+    {
+      "org": "Intense Championship Fighting",
+      "texte": "ICF Bantamweight Championship (One time)"
+    },
+    {
+      "org": "Sherdog.com",
+      "texte": "Sherdog's 2022 Robbery of the Year"
+    },
+    {
+      "org": "ESPYs",
+      "texte": "Best MMA Fighter ESPY Award (2024)"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids coq",
+      "1 défense de titre à l'UFC",
+      "Bonus UFC : 6× Performance de la soirée, 3× Combat de la soirée"
+    ],
+    "en": [
+      "UFC Bantamweight Champion",
+      "1 UFC title defense",
+      "UFC bonuses: 6× Performance of the Night, 3× Fight of the Night"
+    ]
+  },
   "image_commons": "Sean O'Malley in 2024.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Sean_O'Malley_(fighter)",

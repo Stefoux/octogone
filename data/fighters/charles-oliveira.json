@@ -140,47 +140,317 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "CBJJE South American Champion (2008 purple belt)",
-    "CBJJE World Champion (2007 blue belt [ c ] )",
-    "FPJJ São Paulo State Champion (2007 blue belt)",
-    "2nd place CBJJE World Cup (2008 purple belt)",
-    "UFC Lightweight Championship (One time) One successful title defense",
-    "One successful title defense",
-    "UFC 'BMF' title (One time, current)",
-    "Fight of the Night (Four times) vs. Nik Lentz 1 & 2, Frankie Edgar and Michael Chandler 2",
-    "Most Performance of the Night bonuses in UFC history (14)",
-    "Most Post-Fight bonuses in UFC history (21)",
-    "Tied ( Joe Lauzon & Jim Miller ) for second most Post-Fight bonuses in UFC Lightweight division history (15) (behind Justin Gaethje )",
-    "Second most Post-Fight bonuses in UFC/WEC combined history (21) (behind Donald Cerrone )",
-    "Tied ( Mirko Cro Cop ) for most finishes in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (21)",
-    "Second most finishes in UFC Lightweight division history (15) (behind Jim Miller )",
-    "Tied ( Chuck Liddell ) for the third longest finish streak in UFC history (7)",
-    "Most submission wins in UFC Featherweight division history (6)",
-    "Second most submission wins in UFC Lightweight division history (11) (behind Jim Miller )",
-    "Second most submission attempts in UFC history (51) (behind Jim Miller )  Second most submission attempts in UFC Lightweight division history (35) (behind Jim Miller )",
-    "Second most submission attempts in UFC Lightweight division history (35) (behind Jim Miller )",
-    "Tied ( Brendan Allen ) for fourth longest submission streak in UFC History (4)",
-    "Tied ( Brendan Allen ) for fifth most rear-naked choke submissions in UFC history (6)",
-    "Second most guillotine-choke submissions in UFC history (4) (behind Nate Diaz & Jim Miller )",
-    "Tied ( Makwan Amirkhani & Vicente Luque ) for most anaconda-choke submissions in UFC history (3)",
-    "Tied ( Neil Magny ) for second most wins in UFC history (25) (behind Jim Miller )  Second most wins in UFC Lightweight division history (18) (behind Jim Miller )",
-    "Second most wins in UFC Lightweight division history (18) (behind Jim Miller )",
-    "Tied ( Dan Henderson & Neil Magny ) for fourth most wins in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (25)",
-    "Fourth longest win streak in UFC Lightweight division history (11)",
-    "Tied ( Clay Guida ) for the fifth most bouts in UFC history (37)  Tied ( Beneil Dariush & Drew Dober ) for seventh most bouts in UFC Lightweight division history (25)",
-    "Tied ( Beneil Dariush & Drew Dober ) for seventh most bouts in UFC Lightweight division history (25)",
-    "Sixth most top position time in UFC Lightweight division history (1:06:05)",
-    "Fourth highest significant strike accuracy percentage in UFC Lightweight division history (57.5%)",
-    "Sixth most control time in a UFC bout (20:49) (vs. Max Holloway 2)",
-    "Holds wins over four former UFC champions — vs. Justin Gaethje , Max Holloway , Tony Ferguson (interim) & Dustin Poirier (interim)",
-    "2025 Forrest Griffin Community Award",
-    "2020: President's Choice Performance of the Year Nominee vs. Kevin Lee",
-    "2021: Fan's Choice Comeback of the Year Winner vs. Michael Chandler 1  & President's Choice Performance of the Year Nominee vs. Michael Chandler 1",
-    "2010: Ranked #3 Newcomer of the Year",
-    "2012: Ranked #3 Submission of the Year vs. Eric Wisely",
-    "2014: Submission of the Year vs. Hatsu Hioki",
-    "2018: Ranked #5 Submission of the Year vs. Christos Giagos"
+    {
+      "org": null,
+      "texte": "CBJJE South American Champion (2008 purple belt)"
+    },
+    {
+      "org": null,
+      "texte": "CBJJE World Champion (2007 blue belt )"
+    },
+    {
+      "org": null,
+      "texte": "FPJJ São Paulo State Champion (2007 blue belt)"
+    },
+    {
+      "org": null,
+      "texte": "2nd place CBJJE World Cup (2008 purple belt)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Lightweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "One successful title defense"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC 'BMF' title (One time, current)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Four times) vs. Nik Lentz 1 & 2, Frankie Edgar and Michael Chandler 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most Performance of the Night bonuses in UFC history (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Submission of the Night (Three times) vs. Darren Elkins , Efraín Escudero and Eric Wisely"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most Post-Fight bonuses in UFC history (21)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Joe Lauzon & Jim Miller ) for second most Post-Fight bonuses in UFC Lightweight division history (15) (behind Justin Gaethje )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most Post-Fight bonuses in UFC/WEC combined history (21) (behind Donald Cerrone )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most finishes in UFC history (21)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Mirko Cro Cop ) for most finishes in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (21)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most finishes in UFC Lightweight division history (15) (behind Jim Miller )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Chuck Liddell ) for the third longest finish streak in UFC history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most submission wins in UFC history (17)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most submission wins in UFC Featherweight division history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most submission wins in UFC Lightweight division history (11) (behind Jim Miller )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most submission attempts in UFC history (51) (behind Jim Miller )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most submission attempts in UFC Lightweight division history (35) (behind Jim Miller )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Brendan Allen ) for fourth longest submission streak in UFC History (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Brendan Allen ) for fifth most rear-naked choke submissions in UFC history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most guillotine-choke submissions in UFC history (4) (behind Nate Diaz & Jim Miller )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Makwan Amirkhani & Vicente Luque ) for most anaconda-choke submissions in UFC history (3)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Neil Magny ) for second most wins in UFC history (25) (behind Jim Miller )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most wins in UFC Lightweight division history (18) (behind Jim Miller )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Dan Henderson & Neil Magny ) for fourth most wins in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (25)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth longest win streak in UFC Lightweight division history (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Clay Guida ) for the fifth most bouts in UFC history (37)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Beneil Dariush & Drew Dober ) for seventh most bouts in UFC Lightweight division history (25)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Sixth most top position time in UFC Lightweight division history (1:06:05)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth highest significant strike accuracy percentage in UFC Lightweight division history (57.5%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Sixth most control time in a UFC bout (20:49) (vs. Max Holloway 2)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Holds wins over four former UFC champions — vs. Justin Gaethje , Max Holloway , Tony Ferguson (interim) & Dustin Poirier (interim)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2025 Forrest Griffin Community Award"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: President's Choice Performance of the Year Nominee vs. Kevin Lee"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: Fan's Choice Comeback of the Year Winner vs. Michael Chandler 1 & President's Choice Performance of the Year Nominee vs. Michael Chandler 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2010: Ranked #3 Newcomer of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2012: Ranked #3 Submission of the Year vs. Eric Wisely"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2014: Submission of the Year vs. Hatsu Hioki"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2018: Ranked #5 Submission of the Year vs. Christos Giagos"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2019: Ranked #9 Submission of the Year vs. David Teymur"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Ranked #5 Submission of the Year vs. Kevin Lee & Ranked #9 Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: Ranked #2 Fighter of the Year & Ranked #10 Fight of the Year vs. Michael Chandler 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Half-Year Awards: Best Fighter of the 1HY & Ranked #8 Submission of the Year vs. Justin Gaethje"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: Ranked #5 Knockout of the Year vs. Beneil Dariush"
+    },
+    {
+      "org": "Predator FC",
+      "texte": "Welterweight Grand Prix Champion"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2021 Comeback of the Year (tied w/ Sergio Pettis ) vs. Michael Chandler"
+    },
+    {
+      "org": "Daily Mirror",
+      "texte": "2021 Fighter of the Year"
+    },
+    {
+      "org": "MMA Sucka",
+      "texte": "2021 Male Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2014 February Submission of the Month vs. Andy Ogle"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2015 May Submission of the Month vs. Nik Lentz"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2020 March Submission of the Month vs. Kevin Lee"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2021 May Fight of the Month vs. Michael Chandler"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2022 May Submission of the Month vs. Justin Gaethje"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2014 Submission of the Year vs. Hatsu Hioki"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2014 Submission of the Year vs. Hatsu Hioki"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2021 Fighter of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2021 Comeback of the Year vs. Michael Chandler at UFC 262"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2022 Submission of the Year vs. Dustin Poirier at UFC 269"
+    },
+    {
+      "org": "ESPY Awards",
+      "texte": "2022 Fighter of the Year"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2022 Submission of the Year vs. Justin Gaethje"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2012 Submission of the Year vs. Eric Wisely at UFC on Fox 2"
+    },
+    {
+      "org": "Sports Illustrated",
+      "texte": "2022 Submission of the Year vs. Justin Gaethje at UFC 274"
+    },
+    {
+      "org": "BodySlam.net",
+      "texte": "2024 Round of the Year Round 5 vs. Michael Chandler at UFC 309"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2021 #2 Ranked UFC Fighter of the Year"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2021 #3 Ranked UFC Fight of the Year vs. Michael Chandler"
+    },
+    {
+      "org": "Slacky Awards",
+      "texte": "2020 Technical Turn-Around of the Year"
+    },
+    {
+      "org": "FIGHT! Magazine",
+      "texte": "2012 Submission of the Year vs. Eric Wisely at UFC on Fox: Evans vs. Davis"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids légers",
+      "1 défense de titre à l'UFC",
+      "Combattant de l'année (2021, 2022)",
+      "Record de l'UFC : finitions (21)",
+      "Record de l'UFC : victoires par soumission (17)",
+      "Bonus UFC (record : 21 au total) : 14× Performance de la soirée (record), 4× Combat de la soirée, 3× Soumission de la soirée"
+    ],
+    "en": [
+      "UFC Lightweight Champion",
+      "1 UFC title defense",
+      "Fighter of the Year (2021, 2022)",
+      "UFC record: most finishes (21)",
+      "UFC record: most submission wins (17)",
+      "UFC bonuses (record: 21 total): 14× Performance of the Night (record), 4× Fight of the Night, 3× Submission of the Night"
+    ]
+  },
   "image_commons": "Charles Oliveira do Bronxs.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Charles_Oliveira",

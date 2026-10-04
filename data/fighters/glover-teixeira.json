@@ -134,47 +134,223 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "UFC Light Heavyweight Championship (One time) Oldest first-time champion in UFC history (42 years, 2 days)  Oldest fighter in history to win the UFC Light Heavyweight Championship",
-    "Oldest first-time champion in UFC history (42 years, 2 days)  Oldest fighter in history to win the UFC Light Heavyweight Championship",
-    "Oldest fighter in history to win the UFC Light Heavyweight Championship",
-    "Performance of the Night (Four times) vs. Rashad Evans , Ion Cuțelaba , Anthony Smith , and Jan Błachowicz",
-    "Knockout of the Night (One time) vs. Ryan Bader",
-    "Submission of the Night (One time) vs. James Te-Huna",
-    "Fight of the Night (Four times) vs. Ovince Saint Preux , Alexander Gustafsson , Jiří Procházka , and Jamahal Hill     Most Post-Fight bonuses in UFC Light Heavyweight division history (10)",
-    "Most Post-Fight bonuses in UFC Light Heavyweight division history (10)",
-    "Most finishes in UFC Light Heavyweight division history (13)",
-    "Most submissions in UFC Light Heavyweight division history (7)",
-    "Second most wins in UFC Light Heavyweight division history (16)",
-    "Most submission attempts in UFC Light Heavyweight division history (16)",
-    "Most top position time in UFC Light Heavyweight division history (1:12:16)",
-    "Third most bouts in UFC Light Heavyweight division history (23)",
-    "Third most total fight time in UFC Light Heavyweight division history (4:25:06)",
-    "Third most control time in UFC Light Heavyweight division history (1:18:33)",
-    "Third most significant strikes landed in UFC Light Heavyweight division history (953)",
-    "Second most total strikes landed in UFC Light Heavyweight division history (1609)",
-    "Fifth most takedowns landed in UFC Light Heavyweight division history (36)",
-    "2021: Fan's Choice Submission of the Year Nominee vs. Jan Błachowicz",
-    "2022: President's Choice Fight of the Year Nominee vs. Jiří Procházka",
-    "2023: President's Choice Fight of the Year Nominee vs. Jamahal Hill",
-    "2012: Newcomer of the Year",
-    "2020: Ranked #8 Fighter of the Year",
-    "2021: Ranked #8 Fighter of the Year",
-    "2022: Fight of the Year vs. Jiří Procházka",
-    "2023: Ranked #5 Fight of the Year vs. Jamahal Hill",
-    "Shooto South America 220-pound Championship (One time)",
-    "South America 220-pound Championship (One time)",
-    "2012 Beatdown of the Year vs. Fábio Maldonado",
-    "2012 All-Violence Second Team",
-    "2013 All-Violence Third Team",
-    "2020 Beatdown of the Year vs. Anthony Smith",
-    "2022 Fight of the Year vs. Jiří Procházka",
-    "The Athletic 2020 Comeback Fighter of the Year",
-    "2020 Comeback Fighter of the Year",
-    "BT Sport 2020 Comeback of the Year",
-    "2020 Comeback of the Year",
-    "Combat Press 2020 Comeback of the Year vs. Thiago Santos  2020 Comeback Fighter of the Year  2021 Comeback Fighter of the Year  2022 Fight of the Year vs. Jiří Procházka at UFC 275",
-    "2020 Comeback of the Year vs. Thiago Santos"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Light Heavyweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Oldest first-time champion in UFC history (42 years, 2 days)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Oldest fighter in history to win the UFC Light Heavyweight Championship"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Four times) vs. Rashad Evans , Ion Cuțelaba , Anthony Smith , and Jan Błachowicz"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Knockout of the Night (One time) vs. Ryan Bader"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Submission of the Night (One time) vs. James Te-Huna"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Four times) vs. Ovince Saint Preux , Alexander Gustafsson , Jiří Procházka , and Jamahal Hill"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most Post-Fight bonuses in UFC Light Heavyweight division history (10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most finishes in UFC Light Heavyweight division history (13)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most submissions in UFC Light Heavyweight division history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most wins in UFC Light Heavyweight division history (16)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most submission attempts in UFC Light Heavyweight division history (16)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most top position time in UFC Light Heavyweight division history (1:12:16)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most bouts in UFC Light Heavyweight division history (23)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most total fight time in UFC Light Heavyweight division history (4:25:06)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most control time in UFC Light Heavyweight division history (1:18:33)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most significant strikes landed in UFC Light Heavyweight division history (953)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most total strikes landed in UFC Light Heavyweight division history (1609)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth most takedowns landed in UFC Light Heavyweight division history (36)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: Fan's Choice Submission of the Year Nominee vs. Jan Błachowicz"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: President's Choice Fight of the Year Nominee vs. Jiří Procházka"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: President's Choice Fight of the Year Nominee vs. Jamahal Hill"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2012: Newcomer of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Ranked #8 Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: Ranked #8 Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Fight of the Year vs. Jiří Procházka"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: Ranked #5 Fight of the Year vs. Jamahal Hill"
+    },
+    {
+      "org": "Shooto",
+      "texte": "South America 220-pound Championship (One time)"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2012 Beatdown of the Year vs. Fábio Maldonado"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2012 All-Violence Second Team"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2013 All-Violence Third Team"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2020 Beatdown of the Year vs. Anthony Smith"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2022 Fight of the Year vs. Jiří Procházka"
+    },
+    {
+      "org": "The Athletic",
+      "texte": "2020 Comeback Fighter of the Year"
+    },
+    {
+      "org": "BT Sport",
+      "texte": "2020 Comeback of the Year"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2020 Comeback of the Year vs. Thiago Santos"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2020 Comeback Fighter of the Year"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2021 Comeback Fighter of the Year"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2022 Fight of the Year vs. Jiří Procházka at UFC 275"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2022 Fight of the Year vs. Jiří Procházka at UFC 275"
+    },
+    {
+      "org": "The Sporting News",
+      "texte": "2022 Fight of the Year vs. Jiří Procházka at UFC 275"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2022 Fight of the Year vs. Jiří Procházka"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2022 Fight of the Year vs. Jiří Procházka at UFC 275"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "2022 MMA Match of the Year vs. Jiří Procházka at UFC 275"
+    },
+    {
+      "org": "Yahoo! Sports",
+      "texte": "2022 Fight of the Year vs. Jiří Procházka at UFC 275"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2022 UFC Fight of the Year vs. Jiří Procházka at UFC 275"
+    },
+    {
+      "org": "Quintet Ultra",
+      "texte": "Team WEC 2019 grappling survival team"
+    },
+    {
+      "org": null,
+      "texte": "Key to the City of Danbury : 16 November 2021"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids mi-lourds",
+      "Record UFC chez les poids mi-lourds : finitions (13)",
+      "Record UFC chez les poids mi-lourds : victoires par soumission (7)",
+      "Combat de l'année (2022)",
+      "Bonus UFC : 4× Performance de la soirée, 4× Combat de la soirée, 1× KO de la soirée, 1× Soumission de la soirée"
+    ],
+    "en": [
+      "UFC Light Heavyweight Champion",
+      "UFC Light Heavyweight record: most finishes (13)",
+      "UFC Light Heavyweight record: most submission wins (7)",
+      "Fight of the Year (2022)",
+      "UFC bonuses: 4× Performance of the Night, 4× Fight of the Night, 1× Knockout of the Night, 1× Submission of the Night"
+    ]
+  },
   "image_commons": "Glover Teixeira.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Glover_Teixeira",

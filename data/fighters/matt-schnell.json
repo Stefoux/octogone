@@ -113,18 +113,51 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Performance of the Night (One time) vs. Jordan Espinosa",
-    "Fight of the Night (Two times) vs. Brandon Royval and Su Mudaerji",
-    "Second most triangle-choke submissions in UFC history (3) (behind Paul Craig )",
-    "UFC Honors Awards 2022: President's Choice Fight of the Year Nominee vs. Su Mudaerji  & Fan's Choice Comeback of the Year Nominee vs. Su Mudaerji",
-    "2022: President's Choice Fight of the Year Nominee vs. Su Mudaerji  & Fan's Choice Comeback of the Year Nominee vs. Su Mudaerji",
-    "UFC.com Awards 2022: Ranked #5 Fight of the Year vs. Su Mudaerji  & Ranked #7 Submission of the Year vs. Su Mudaerji",
-    "2022: Ranked #5 Fight of the Year vs. Su Mudaerji  & Ranked #7 Submission of the Year vs. Su Mudaerji",
-    "Legacy Fighting Alliance Legacy FC Flyweight champion (one time; former)",
-    "Legacy FC Flyweight champion (one time; former)",
-    "MMA Fighting 2022 Second Team MMA All-Star",
-    "2022 Second Team MMA All-Star"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Jordan Espinosa"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Two times) vs. Brandon Royval and Su Mudaerji"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most triangle-choke submissions in UFC history (3) (behind Paul Craig )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: President's Choice Fight of the Year Nominee vs. Su Mudaerji & Fan's Choice Comeback of the Year Nominee vs. Su Mudaerji"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Ranked #5 Fight of the Year vs. Su Mudaerji & Ranked #7 Submission of the Year vs. Su Mudaerji"
+    },
+    {
+      "org": "Legacy Fighting Alliance",
+      "texte": "Legacy FC Flyweight champion (one time; former)"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2022 Second Team MMA All-Star"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 1× Performance de la soirée, 2× Combat de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 1× Performance of the Night, 2× Fight of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Matt_Schnell",

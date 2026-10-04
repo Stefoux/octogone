@@ -112,36 +112,143 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Fight of the Night (One time) vs. Kelvin Gastelum",
-    "Performance of the Night (Four times) vs. Kiichi Kunimoto , Hyun Gyu Lim , Hector Lombard , and Daniel Rodriguez",
-    "Tied ( Charles Oliveira ) for second most wins in UFC history (25) (behind Jim Miller )",
-    "Tied ( Charles Oliveira & Dan Henderson ) for fourth most wins in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (25)",
-    "Most fight time in UFC Welterweight division history (7:31:09)  Fifth most total fight time in UFC history (7:31:09)",
-    "Fifth most total fight time in UFC history (7:31:09)",
-    "Most bouts in UFC Welterweight division history (38)  Tied ( Donald Cerrone ) for third most bouts in UFC history (38)",
-    "Tied ( Donald Cerrone ) for third most bouts in UFC history (38)",
-    "Tied ( Kevin Holland ) for the only fighters in UFC history to have 5 bouts-per-calendar year twice (2014 & 2015 - 9 wins)",
-    "Tied ( Georges St-Pierre ) for third most unanimous decision wins in UFC Welterweight division history (10)",
-    "Tied for sixth most unanimous decision wins in UFC history (10)",
-    "Most decision bouts in UFC Welterweight division history (17)",
-    "Most split decision wins in UFC Welterweight division history (4)",
-    "Tied for fourth most split decision wins in UFC history (4)",
-    "Most total strikes landed in UFC Welterweight division history (2790)",
-    "Second most total strikes landed in UFC history (2790) (behind Max Holloway )",
-    "Tied ( Thiago Alves , Li Jingliang & Vicente Luque ) for second most knockouts in UFC Welterweight division history (8) (behind Matt Brown )",
-    "Tied ( Matt Hughes ) for third most finishes in UFC Welterweight division history (11)",
-    "Third most takedowns landed in UFC Welterweight division history (64)",
-    "Holds wins over three former UFC champions — Johny Hendricks , Robbie Lawler & Carlos Condit (interim)",
-    "UFC Honors Awards 2024: Fan's Choice Comeback of the Year Nominee vs. Mike Malott",
-    "2024: Fan's Choice Comeback of the Year Nominee vs. Mike Malott",
-    "UFC.com Awards 2014: Ranked #10 Fighter of the Year  2015: Ranked #10 Fighter of the Year",
-    "2014: Ranked #10 Fighter of the Year",
-    "2015: Ranked #10 Fighter of the Year",
-    "Combat Press 2016 Comeback of the Year vs. Héctor Lombard at UFC Fight Night: Hunt vs. Mir",
-    "2016 Comeback of the Year vs. Héctor Lombard at UFC Fight Night: Hunt vs. Mir",
-    "MMA Junkie 2024 Comeback of the Year vs. Mike Malott at UFC 297",
-    "2024 Comeback of the Year vs. Mike Malott at UFC 297"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Kelvin Gastelum"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Four times) vs. Kiichi Kunimoto , Hyun Gyu Lim , Hector Lombard , and Daniel Rodriguez"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most wins in UFC Welterweight division history (25)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Charles Oliveira ) for second most wins in UFC history (25) (behind Jim Miller )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Charles Oliveira & Dan Henderson ) for fourth most wins in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (25)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most fight time in UFC Welterweight division history (7:31:09)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth most total fight time in UFC history (7:31:09)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most bouts in UFC Welterweight division history (38)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Donald Cerrone ) for third most bouts in UFC history (38)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Roger Huerta & Kevin Holland ) for most wins in a calendar year (5 wins in 2014)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Kevin Holland ) for the only fighters in UFC history to have 5 bouts-per-calendar year twice (2014 & 2015 - 9 wins)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Brad Tavares ) for most decision wins in UFC history (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Georges St-Pierre ) for third most unanimous decision wins in UFC Welterweight division history (10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied for sixth most unanimous decision wins in UFC history (10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most decision bouts in UFC Welterweight division history (17)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most split decision wins in UFC Welterweight division history (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied for fourth most split decision wins in UFC history (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most significant strikes landed in UFC Welterweight division history (1530)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most total strikes landed in UFC Welterweight division history (2790)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most total strikes landed in UFC history (2790) (behind Max Holloway )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Thiago Alves , Li Jingliang & Vicente Luque ) for second most knockouts in UFC Welterweight division history (8) (behind Matt Brown )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Matt Hughes ) for third most finishes in UFC Welterweight division history (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most takedowns landed in UFC Welterweight division history (64)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Holds wins over three former UFC champions — Johny Hendricks , Robbie Lawler & Carlos Condit (interim)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: Fan's Choice Comeback of the Year Nominee vs. Mike Malott"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2014: Ranked #10 Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2015: Ranked #10 Fighter of the Year"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2016 Comeback of the Year vs. Héctor Lombard at UFC Fight Night: Hunt vs. Mir"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2024 Comeback of the Year vs. Mike Malott at UFC 297"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Record UFC chez les poids mi-moyens : victoires (25)",
+      "Record UFC chez les poids mi-moyens : temps de combat",
+      "Bonus UFC : 4× Performance de la soirée, 1× Combat de la soirée"
+    ],
+    "en": [
+      "UFC Welterweight record: most wins (25)",
+      "UFC Welterweight record: most fight time",
+      "UFC bonuses: 4× Performance of the Night, 1× Fight of the Night"
+    ]
+  },
   "image_commons": "Neil Magny.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Neil_Magny",

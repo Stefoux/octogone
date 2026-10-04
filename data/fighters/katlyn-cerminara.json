@@ -107,20 +107,67 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Fight of the Night (One time) vs. Amanda Ribas",
-    "Most unanimous decision wins in UFC Women's Flyweight division history (8)",
-    "Tied ( Movsar Evloev ) for highest decision wins per win percentage in UFC history (11 decision wins / 11 wins: 100%)",
-    "Most decision wins in UFC Women's Flyweight division history (9)",
-    "Second most decision bouts in UFC Women's Flyweight division history (11) (behind Andrea Lee )",
-    "Tied ( Maycee Barber ) for second most wins in UFC Women's Flyweight division history (9) (behind Valentina Shevchenko )",
-    "Tied ( Andrea Lee ) for most bouts in UFC Women's Flyweight division history (14)",
-    "Second most significant strikes landed in UFC Women's Flyweight division history (932) (behind Joanne Wood )  Third most total strikes landed in UFC Women's Flyweight division history (1205)",
-    "Third most total strikes landed in UFC Women's Flyweight division history (1205)",
-    "Third most total fight time in UFC Women's Flyweight division history (3:15:58)",
-    "Cage Fury Fighting Championships CFFC Woman's Flyweight Champion (One time) CFFC Woman's Bantamweight Champion (One time)",
-    "CFFC Woman's Flyweight Champion (One time)",
-    "CFFC Woman's Bantamweight Champion (One time)"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Amanda Ribas"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most decision wins in UFC Women's history (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most unanimous decision wins in UFC Women's Flyweight division history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Movsar Evloev ) for highest decision wins per win percentage in UFC history (11 decision wins / 11 wins: 100%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most decision wins in UFC Women's Flyweight division history (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most decision bouts in UFC Women's Flyweight division history (11) (behind Andrea Lee )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Maycee Barber ) for second most wins in UFC Women's Flyweight division history (9) (behind Valentina Shevchenko )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Andrea Lee ) for most bouts in UFC Women's Flyweight division history (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most significant strikes landed in UFC Women's Flyweight division history (932) (behind Joanne Wood )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most total strikes landed in UFC Women's Flyweight division history (1205)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most total fight time in UFC Women's Flyweight division history (3:15:58)"
+    },
+    {
+      "org": "Cage Fury Fighting Championships",
+      "texte": "CFFC Woman's Flyweight Champion (One time)"
+    },
+    {
+      "org": "Cage Fury Fighting Championships",
+      "texte": "CFFC Woman's Bantamweight Champion (One time)"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 1× Combat de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 1× Fight of the Night"
+    ]
+  },
   "image_commons": "Katlyn Chookagian at UFC 230.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Katlyn_Cerminara",

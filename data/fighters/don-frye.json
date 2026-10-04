@@ -94,32 +94,99 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Martial Arts History Museum Hall of Fame Class of 2023",
-    "Class of 2023",
-    "George Tragos/Lou Thesz Professional Wrestling Hall of Fame George Tragos Award (2024)",
-    "George Tragos Award (2024)",
-    "UFC Hall of Fame (Pioneer Wing, Class of 2016)",
-    "UFC 8 Tournament Winner",
-    "UFC Ultimate Ultimate 1996 Tournament Winner",
-    "UFC 10 Tournament Runner-Up",
-    "UFC Viewer's Choice Award",
-    "UFC Encyclopedia Awards Fight of the Night (Three times) vs. Amaury Bitetti , Mark Coleman and Tank Abbott    Submission of the Night (One time) vs. Mark Hall",
-    "Fight of the Night (Three times) vs. Amaury Bitetti , Mark Coleman and Tank Abbott",
-    "Submission of the Night (One time) vs. Mark Hall",
-    "One of only two fighters to win a UFC Tournament and Ultimate Ultimate Tournament ( Dan Severn )",
-    "Wrestling Observer Newsletter Fight of the Year (2002) vs. Yoshihiro Takayama on June 23",
-    "Fight of the Year (2002) vs. Yoshihiro Takayama on June 23",
-    "#4 Ranked MMA Fight of All Time vs. Yoshihiro Takayama at Pride 21",
-    "#72 Ranked MMA Fight of All Time vs. Mark Coleman at UFC 10",
-    "#75 Ranked MMA Fight of All Time vs. Ken Shamrock at Pride 19",
-    "New Japan Pro-Wrestling Antonio Inoki Final Opponent Tournament Winner (1998)  G-1 World League (2001)  Greatest Gaijin Grapple Section (2002)",
-    "Antonio Inoki Final Opponent Tournament Winner (1998)",
-    "G-1 World League (2001)",
-    "Greatest Gaijin Grapple Section (2002)",
-    "Pro Wrestling Illustrated Ranked No. 175 of the top 500 singles wrestlers in the PWI 500 in 1999  Ranked No. 247 of the top 500 singles wrestlers in the \"PWI Years\" in 2003",
-    "Ranked No. 175 of the top 500 singles wrestlers in the PWI 500 in 1999",
-    "Ranked No. 247 of the top 500 singles wrestlers in the \"PWI Years\" in 2003"
+    {
+      "org": "Martial Arts History Museum Hall of Fame",
+      "texte": "Class of 2023"
+    },
+    {
+      "org": "George Tragos/Lou Thesz Professional Wrestling Hall of Fame",
+      "texte": "George Tragos Award (2024)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame (Pioneer Wing, Class of 2016)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC 8 Tournament Winner"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Ultimate Ultimate 1996 Tournament Winner"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC 10 Tournament Runner-Up"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Viewer's Choice Award"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Encyclopedia Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Three times) vs. Amaury Bitetti , Mark Coleman and Tank Abbott"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Submission of the Night (One time) vs. Mark Hall"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "One of only two fighters to win a UFC Tournament and Ultimate Ultimate Tournament ( Dan Severn )"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "Fight of the Year (2002) vs. Yoshihiro Takayama on June 23"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "#4 Ranked MMA Fight of All Time vs. Yoshihiro Takayama at Pride 21"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "#72 Ranked MMA Fight of All Time vs. Mark Coleman at UFC 10"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "#75 Ranked MMA Fight of All Time vs. Ken Shamrock at Pride 19"
+    },
+    {
+      "org": "New Japan Pro-Wrestling",
+      "texte": "Antonio Inoki Final Opponent Tournament Winner (1998)"
+    },
+    {
+      "org": "New Japan Pro-Wrestling",
+      "texte": "G-1 World League (2001)"
+    },
+    {
+      "org": "New Japan Pro-Wrestling",
+      "texte": "Greatest Gaijin Grapple Section (2002)"
+    },
+    {
+      "org": "Pro Wrestling Illustrated",
+      "texte": "Ranked No. 175 of the top 500 singles wrestlers in the PWI 500 in 1999"
+    },
+    {
+      "org": "Pro Wrestling Illustrated",
+      "texte": "Ranked No. 247 of the top 500 singles wrestlers in the \"PWI Years\" in 2003"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Hall of Fame de l'UFC (2016)",
+      "Vainqueur du tournoi UFC 8",
+      "Bonus UFC : 3× Combat de la soirée, 1× Soumission de la soirée"
+    ],
+    "en": [
+      "UFC Hall of Fame (2016)",
+      "UFC 8 tournament winner",
+      "UFC bonuses: 3× Fight of the Night, 1× Submission of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Don_Frye",

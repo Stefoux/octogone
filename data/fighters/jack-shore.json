@@ -99,14 +99,31 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Ultimate Fighting Championship Performance of the Night (one time) vs. Nohelin Hernandez",
-    "Performance of the Night (one time) vs. Nohelin Hernandez",
-    "Cage Warriors CWFC Bantamweight Championship (one time; former)  One successful title defense",
-    "CWFC Bantamweight Championship (one time; former)  One successful title defense",
-    "One successful title defense",
-    "LowKick MMA 2021 Prospect of the Year",
-    "2021 Prospect of the Year"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (one time) vs. Nohelin Hernandez"
+    },
+    {
+      "org": "Cage Warriors",
+      "texte": "CWFC Bantamweight Championship (one time; former)"
+    },
+    {
+      "org": "Cage Warriors",
+      "texte": "One successful title defense"
+    },
+    {
+      "org": "LowKick MMA",
+      "texte": "2021 Prospect of the Year"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 1× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 1× Performance of the Night"
+    ]
+  },
   "image_commons": "Jack Shore at CAGE Warrior 100.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Jack_Shore",

@@ -99,11 +99,19 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Ultimate Challenge MMA UCMMA Bantamweight Championship (one time; former)",
-    "UCMMA Bantamweight Championship (one time; former)",
-    "FightStar Championship FSC Bantamweight Championship (one time; former)",
-    "FSC Bantamweight Championship (one time; former)"
+    {
+      "org": "Ultimate Challenge MMA",
+      "texte": "UCMMA Bantamweight Championship (one time; former)"
+    },
+    {
+      "org": "FightStar Championship",
+      "texte": "FSC Bantamweight Championship (one time; former)"
+    }
   ],
+  "distinctions": {
+    "fr": [],
+    "en": []
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Amir_Albazi",

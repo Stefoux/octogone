@@ -99,14 +99,31 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Ultimate Fighting Championship Performance of the Night (One time) vs. Julian Erosa",
-    "Performance of the Night (One time) vs. Julian Erosa",
-    "Top Fighting Championship Top Fighting Championship Featherweight Champion (Two times) vs. Min Gu Lee and Jae Woong Kim",
-    "Top Fighting Championship Featherweight Champion (Two times) vs. Min Gu Lee and Jae Woong Kim",
-    "South Korea Muay Thai national team fighter",
-    "Muay Thai World Championships 2010 Bronze medal at Muay Thai World Championships",
-    "2010 Bronze medal at Muay Thai World Championships"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Julian Erosa"
+    },
+    {
+      "org": "Top Fighting Championship",
+      "texte": "Top Fighting Championship Featherweight Champion (Two times) vs. Min Gu Lee and Jae Woong Kim"
+    },
+    {
+      "org": null,
+      "texte": "South Korea Muay Thai national team fighter"
+    },
+    {
+      "org": "Muay Thai World Championships",
+      "texte": "2010 Bronze medal at Muay Thai World Championships"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 1× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 1× Performance of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Seung_Woo_Choi",

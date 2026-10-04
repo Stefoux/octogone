@@ -105,14 +105,35 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Fight of the Night (One time) vs. Jared Cannonier",
-    "Performance of the Night (Two times) vs. Michał Oleksiejczuk and Paul Craig",
-    "Eighth longest win streak in UFC Middleweight division history (7)",
-    "Future Fighting Championships FFC Middleweight Championship (One time)",
-    "FFC Middleweight Championship (One time)",
-    "MMA Fighting 2024 Third Team MMA All-Star",
-    "2024 Third Team MMA All-Star"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Jared Cannonier"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. Michał Oleksiejczuk and Paul Craig"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Eighth longest win streak in UFC Middleweight division history (7)"
+    },
+    {
+      "org": "Future Fighting Championships",
+      "texte": "FFC Middleweight Championship (One time)"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2024 Third Team MMA All-Star"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 2× Performance de la soirée, 1× Combat de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 2× Performance of the Night, 1× Fight of the Night"
+    ]
+  },
   "image_commons": "Borralho en Future FC.png",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Caio_Borralho",

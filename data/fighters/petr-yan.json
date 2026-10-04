@@ -138,47 +138,173 @@
   "champion_division": "Poids coq",
   "ancien_champion": true,
   "accomplissements_en": [
-    "UFC Bantamweight Championship (Two times, current)",
-    "Interim UFC Bantamweight Championship (One time)",
-    "Fight of the Night (Four times) vs. Jin Soo Son, Cory Sandhagen , Sean O'Malley & Merab Dvalishvili 2",
-    "Performance of the Night (One time) vs. Urijah Faber",
-    "Tied ( Raphael Assunção & Renan Barão ) for the fourth longest win streak in UFC Bantamweight division history (7)",
-    "Tied ( Cody Garbrandt ) for third most knockdowns in UFC Bantamweight division history (10)",
-    "Most significant strikes landed in UFC Bantamweight division history (1456)",
-    "Third most total fight time in UFC Bantamweight division history (4:42:04)  Second most total strikes landed in UFC Bantamweight division history (1917)",
-    "Second most total strikes landed in UFC Bantamweight division history (1917)",
-    "Third longest average fight time in UFC Bantamweight division history (17:38)",
-    "Tied ( Raphael Assunção , Sean O'Malley & Mario Bautista ) for fifth most wins in UFC Bantamweight division history (12)",
-    "Third most decision wins in UFC Bantamweight division history (8)",
-    "Tied ( Aljamain Sterling ) for seventh most takedowns landed in UFC Bantamweight division history (32)",
-    "Holds wins over three former UFC champions — José Aldo , Deiveson Figueiredo & Merab Dvalishvili",
-    "UFC Honors Awards 2021: President's Choice Fight of the Year Nominee vs. Cory Sandhagen",
-    "2021: President's Choice Fight of the Year Nominee vs. Cory Sandhagen",
-    "2018: Ranked #5 Newcomer of the Year (Tied with Sodiq Yusuff )",
-    "2019: Top 10 Fighter of the Year",
-    "2021: Ranked #4 Fight of the Year vs. Cory Sandhagen",
-    "2022: Ranked #10 Fight of the Year vs. Sean O'Malley",
-    "Crypto.com Fan Bonus of the Night vs. Aljamain Sterling",
-    "Fan Bonus of the Night vs. Aljamain Sterling",
-    "Absolute Championship Berkut ACB Bantamweight Championship (One time) One successful title defense ACB Bantamweight Grand Prix 2015 Champion",
-    "ACB Bantamweight Championship (One time) One successful title defense",
-    "One successful title defense",
-    "ACB Bantamweight Grand Prix 2015 Champion",
-    "Fight Matrix 2025 Most Noteworthy Match of the Year vs. Merab Dvalishvili 2 at UFC 323",
-    "2025 Most Noteworthy Match of the Year vs. Merab Dvalishvili 2 at UFC 323",
-    "MMADNA.nl 2018 European Newcomer of the Year",
-    "2018 European Newcomer of the Year",
-    "MMA Sucka 2019 UFC Breakout Star of the Year",
-    "2019 UFC Breakout Star of the Year",
-    "Sherdog 2022 Robbery of the Year  2025 Comeback Fighter of the Year  2025 Upset of the Year vs. Merab Dvalishvili 2 at UFC 323",
-    "2022 Robbery of the Year",
-    "2025 Comeback Fighter of the Year",
-    "2025 Upset of the Year vs. Merab Dvalishvili 2 at UFC 323",
-    "MMA Mania 2025 #5 Ranked Fighter of the Year",
-    "2025 #5 Ranked Fighter of the Year",
-    "2025 #3 Ranked Fighter of the Year",
-    "2025 #5 Ranked Fight of the Year vs. Merab Dvalishvili 2 at UFC 323"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Bantamweight Championship (Two times, current)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Interim UFC Bantamweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Four times) vs. Jin Soo Son, Cory Sandhagen , Sean O'Malley & Merab Dvalishvili 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Urijah Faber"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Raphael Assunção & Renan Barão ) for the fourth longest win streak in UFC Bantamweight division history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Cody Garbrandt ) for third most knockdowns in UFC Bantamweight division history (10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most significant strikes landed in UFC Bantamweight division history (1456)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most total fight time in UFC Bantamweight division history (4:42:04)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most total strikes landed in UFC Bantamweight division history (1917)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third longest average fight time in UFC Bantamweight division history (17:38)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Raphael Assunção , Sean O'Malley & Mario Bautista ) for fifth most wins in UFC Bantamweight division history (12)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most decision wins in UFC Bantamweight division history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Aljamain Sterling ) for seventh most takedowns landed in UFC Bantamweight division history (32)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Holds wins over three former UFC champions — José Aldo , Deiveson Figueiredo & Merab Dvalishvili"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: President's Choice Fight of the Year Nominee vs. Cory Sandhagen"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2018: Ranked #5 Newcomer of the Year (Tied with Sodiq Yusuff )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2019: Top 10 Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: Ranked #4 Fight of the Year vs. Cory Sandhagen"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Ranked #10 Fight of the Year vs. Sean O'Malley"
+    },
+    {
+      "org": "Crypto.com",
+      "texte": "Fan Bonus of the Night vs. Aljamain Sterling"
+    },
+    {
+      "org": "Absolute Championship Berkut",
+      "texte": "ACB Bantamweight Championship (One time)"
+    },
+    {
+      "org": "Absolute Championship Berkut",
+      "texte": "One successful title defense"
+    },
+    {
+      "org": "Absolute Championship Berkut",
+      "texte": "ACB Bantamweight Grand Prix 2015 Champion"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2025 Most Noteworthy Match of the Year vs. Merab Dvalishvili 2 at UFC 323"
+    },
+    {
+      "org": "MMADNA.nl",
+      "texte": "2018 European Newcomer of the Year"
+    },
+    {
+      "org": "MMA Sucka",
+      "texte": "2019 UFC Breakout Star of the Year"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2022 Robbery of the Year"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2025 Comeback Fighter of the Year"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2025 Upset of the Year vs. Merab Dvalishvili 2 at UFC 323"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2025 #5 Ranked Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2025 #3 Ranked Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2025 #5 Ranked Fight of the Year vs. Merab Dvalishvili 2 at UFC 323"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2025 Performance of the Year vs. Merab Dvalishvili 2 at UFC 323"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2025 Second Team MMA All-Star"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2025 UFC Fighter of the Year"
+    },
+    {
+      "org": "Uncrowned",
+      "texte": "2025 Male Fighter of the Year"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids coq (2 fois)",
+      "Combattant de l'année (2025)",
+      "Record UFC chez les poids coq : frappes significatives réussies (1456)",
+      "Bonus UFC : 1× Performance de la soirée, 4× Combat de la soirée"
+    ],
+    "en": [
+      "UFC Bantamweight Champion (2×)",
+      "Fighter of the Year (2025)",
+      "UFC Bantamweight record: most significant strikes landed (1456)",
+      "UFC bonuses: 1× Performance of the Night, 4× Fight of the Night"
+    ]
+  },
   "image_commons": "Petr Yan at Kremlin award ceremonies with president Putin.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Petr_Yan",

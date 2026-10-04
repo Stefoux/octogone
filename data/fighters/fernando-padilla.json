@@ -95,11 +95,23 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Ultimate Fighting Championship Performance of the Night (One time) vs. Luis Pajuelo",
-    "Performance of the Night (One time) vs. Luis Pajuelo",
-    "Fury Fighting Championship Fury FC Featherweight Championship (One time)",
-    "Fury FC Featherweight Championship (One time)"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Luis Pajuelo"
+    },
+    {
+      "org": "Fury Fighting Championship",
+      "texte": "Fury FC Featherweight Championship (One time)"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 1× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 1× Performance of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Fernando_Padilla",

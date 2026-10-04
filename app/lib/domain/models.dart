@@ -41,7 +41,12 @@ class Fighter {
   Json get statsUfc => _map(json['stats_ufc']);
   Json get ufc => _map(json['ufc']);
   Map<String, String> get sources => _map(json['sources']).map((k, v) => MapEntry(k, '$v'));
-  List<String> get accomplissements => _strings(json['accomplissements']);
+  /// Distinctions courtes dans la langue demandée (repli sur le français).
+  List<String> distinctions(String lang) {
+    final d = _map(json['distinctions']);
+    final list = _strings(d[lang]);
+    return list.isNotEmpty ? list : _strings(d['fr']);
+  }
 
   /// Stats de jeu : retouche admin si elle existe, sinon calcul de la formule.
   GameStats get stats {

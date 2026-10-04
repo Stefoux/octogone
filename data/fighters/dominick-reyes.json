@@ -108,17 +108,55 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Performance of the Night (Two times) vs. Joachim Christensen and Chris Weidman",
-    "Fight of the Night (One time) vs. Jiří Procházka",
-    "Third largest strike differential in a UFC Light Heavyweight bout (+100) (vs. Anthony Smith )",
-    "UFC Honors Awards 2021: President's Choice Fight of the Year Nominee vs. Jiří Procházka",
-    "2021: President's Choice Fight of the Year Nominee vs. Jiří Procházka",
-    "2017: Ranked #9 Newcomer of the Year",
-    "2020: Ranked #9 Fight of the Year vs. Jon Jones",
-    "2021: Half-Year Awards: Best Fight of the 1HY vs. Jiří Procházka  & Ranked #5 Fight of the Year vs. Jiří Procházka",
-    "MMA Fighting 2024 Third Team MMA All-Star",
-    "2024 Third Team MMA All-Star"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. Joachim Christensen and Chris Weidman"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Jiří Procházka"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third largest strike differential in a UFC Light Heavyweight bout (+100) (vs. Anthony Smith )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: President's Choice Fight of the Year Nominee vs. Jiří Procházka"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2017: Ranked #9 Newcomer of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Ranked #9 Fight of the Year vs. Jon Jones"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: Half-Year Awards: Best Fight of the 1HY vs. Jiří Procházka & Ranked #5 Fight of the Year vs. Jiří Procházka"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2024 Third Team MMA All-Star"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 2× Performance de la soirée, 1× Combat de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 2× Performance of the Night, 1× Fight of the Night"
+    ]
+  },
   "image_commons": "Dominick Reyes 2024.png",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Dominick_Reyes",

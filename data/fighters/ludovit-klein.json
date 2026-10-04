@@ -106,9 +106,19 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Ultimate Fighting Championship Fight of the Night (One time) vs. Mateusz Rębecki",
-    "Fight of the Night (One time) vs. Mateusz Rębecki"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Mateusz Rębecki"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 1× Combat de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 1× Fight of the Night"
+    ]
+  },
   "image_commons": "Ludovit Klein.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Ľudovít_Klein",

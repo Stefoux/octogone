@@ -99,15 +99,43 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Performance of the Night (Five times) vs. Frank Camacho , Nikolas Motta, Chris Duncan, Drew Dober and Grant Dawson",
-    "Second shortest average time in UFC Lightweight division history (2:34)",
-    "Most knockdowns-per-fifteen minutes in UFC Lightweight division history (3.51)",
-    "Third most significant strikes landed per minute in UFC Lightweight division history (7.25)",
-    "Fourth highest striking differential in UFC Lightweight division history (2.73)",
-    "Beat Down MMA BDMMA Featherweight Championship (One time) BDMMA Featherweight Grand Prix winner",
-    "BDMMA Featherweight Championship (One time)",
-    "BDMMA Featherweight Grand Prix winner"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Five times) vs. Frank Camacho , Nikolas Motta, Chris Duncan, Drew Dober and Grant Dawson"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second shortest average time in UFC Lightweight division history (2:34)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most knockdowns-per-fifteen minutes in UFC Lightweight division history (3.51)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most significant strikes landed per minute in UFC Lightweight division history (7.25)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth highest striking differential in UFC Lightweight division history (2.73)"
+    },
+    {
+      "org": "Beat Down MMA",
+      "texte": "BDMMA Featherweight Championship (One time)"
+    },
+    {
+      "org": "Beat Down MMA",
+      "texte": "BDMMA Featherweight Grand Prix winner"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 5× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 5× Performance of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Manuel_Torres_(fighter)",

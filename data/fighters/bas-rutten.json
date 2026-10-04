@@ -97,25 +97,73 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "UFC Hall of Fame (Pioneer wing, Class of 2015)",
-    "UFC Heavyweight Championship (One time) First Dutch champion in UFC history",
-    "First Dutch champion in UFC history",
-    "UFC Encyclopedia Awards Fight of the Night (One time) vs. Tsuyoshi Kohsaka",
-    "Fight of the Night (One time) vs. Tsuyoshi Kohsaka",
-    "Undefeated in the UFC (2–0)",
-    "Pancrase King of Pancrase Openweight Championship (One time) Two successful title defenses Unified the King of Pancrase Openweight Championship",
-    "King of Pancrase Openweight Championship (One time) Two successful title defenses",
-    "Two successful title defenses",
-    "Unified the King of Pancrase Openweight Championship",
-    "Sherdog Mixed Martial Arts Hall of Fame (2014 inductee)",
-    "Mixed Martial Arts Hall of Fame (2014 inductee)",
-    "Fight Matrix 1996 Fighter of the Year",
-    "1996 Fighter of the Year",
-    "International Sports Hall of Fame Class of 2018",
-    "Class of 2018",
-    "Martial Arts History Museum Hall of Fame Class of 2022",
-    "Class of 2022"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame (Pioneer wing, Class of 2015)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Heavyweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First Dutch champion in UFC history"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Encyclopedia Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Tsuyoshi Kohsaka"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Undefeated in the UFC (2–0)"
+    },
+    {
+      "org": "Pancrase",
+      "texte": "King of Pancrase Openweight Championship (One time)"
+    },
+    {
+      "org": "Pancrase",
+      "texte": "Two successful title defenses"
+    },
+    {
+      "org": "Pancrase",
+      "texte": "Unified the King of Pancrase Openweight Championship"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "Mixed Martial Arts Hall of Fame (2014 inductee)"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "1996 Fighter of the Year"
+    },
+    {
+      "org": "International Sports Hall of Fame",
+      "texte": "Class of 2018"
+    },
+    {
+      "org": "Martial Arts History Museum Hall of Fame",
+      "texte": "Class of 2022"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids lourds",
+      "Hall of Fame de l'UFC (2015)",
+      "Combattant de l'année (1996)",
+      "Bonus UFC : 1× Combat de la soirée"
+    ],
+    "en": [
+      "UFC Heavyweight Champion",
+      "UFC Hall of Fame (2015)",
+      "Fighter of the Year (1996)",
+      "UFC bonuses: 1× Fight of the Night"
+    ]
+  },
   "image_commons": "Bas Rutten Strikeforce weign in, better resolution, 25 December 2009.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Bas_Rutten",

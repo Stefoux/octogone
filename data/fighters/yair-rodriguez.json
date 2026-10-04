@@ -138,46 +138,141 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "UFC Interim Featherweight Champion (One time)",
-    "The Ultimate Fighter: Latin America Tournament Winner",
-    "Fight of the Night (Five times) vs. Charles Rosa , Alex Caceres , Chan Sung Jung , Jeremy Stephens and Max Holloway",
-    "Tied ( Jung Chan-sung ) for third most post-fight bonuses in UFC Featherweight division history (9)",
-    "Latest knockout in UFC history (4:59 in Round 5) vs. Chan Sung Jung",
-    "UFC Honors Awards 2021: President's Choice Fight of the Year Nominee vs. Max Holloway",
-    "2021: President's Choice Fight of the Year Nominee vs. Max Holloway",
-    "2015: Ranked #7 Fight of the Year vs. Charles Rosa",
-    "2016: Ranked #4 Knockout of the Year vs. Andre Fili",
-    "2018: Knockout of the Year  & Ranked #3 Fight of the Year vs. Jung Chan-sung",
-    "2019: Ranked #10 Fight of the Year vs. Jeremy Stephens 2",
-    "2021: Ranked #3 Fight of the Year vs. Max Holloway",
-    "2023: Ranked #7 Submission of the Year vs. Josh Emmett",
-    "Mexican Fighters Promotions FMP Featherweight Championship (One time)",
-    "FMP Featherweight Championship (One time)",
-    "ESPN 2018 Knockout of the Year vs. Jung Chan-sung at UFC Fight Night: The Korean Zombie vs. Rodríguez",
-    "2018 Knockout of the Year vs. Jung Chan-sung at UFC Fight Night: The Korean Zombie vs. Rodríguez",
-    "Sherdog 2018 Knockout of the Year vs. Jung Chan-sung",
-    "2018 Knockout of the Year vs. Jung Chan-sung",
-    "MMA Fighting 2018 Knockout of the Year vs. Jung Chan-sung",
-    "2018 Knockout of the Year vs. Jung Chan-sung",
-    "MMA Junkie 2016 #3 Ranked Knockout of the Year vs. Andre Fili at UFC 197  2018 Knockout of the Year vs. Jung Chan-sung  2019 October Fight of the Month vs. Jeremy Stephens",
-    "2016 #3 Ranked Knockout of the Year vs. Andre Fili at UFC 197",
-    "2018 Knockout of the Year vs. Jung Chan-sung",
-    "2019 October Fight of the Month vs. Jeremy Stephens",
-    "Combat Press 2018 Knockout of the Year vs. Jung Chan-sung",
-    "2018 Knockout of the Year vs. Jung Chan-sung",
-    "Cageside Press 2018 Knockout of the Year vs. Jung Chan-sung at UFC Fight Night 139",
-    "2018 Knockout of the Year vs. Jung Chan-sung at UFC Fight Night 139",
-    "MMADNA.nl 2018 Knockout of the Year vs. Jung Chan-sung",
-    "2018 Knockout of the Year vs. Jung Chan-sung",
-    "Bleacher Report 2018 Fight of the Year vs. Jung Chan-sung at UFC Fight Night 139  2018 Knockout of the Year vs. Jung Chan-sung at UFC Fight Night 139",
-    "2018 Fight of the Year vs. Jung Chan-sung at UFC Fight Night 139",
-    "2018 Knockout of the Year vs. Jung Chan-sung at UFC Fight Night 139",
-    "CBS Sports 2018 #3 Ranked UFC Fight of the Year vs. Jung Chan-sung  2018 UFC Knockout of the Year vs. Jung Chan-sung",
-    "2018 #3 Ranked UFC Fight of the Year vs. Jung Chan-sung",
-    "2018 UFC Knockout of the Year vs. Jung Chan-sung",
-    "MMA Sucka 2018 Knockout of the Year vs. Jung Chan-sung at UFC Fight Night: The Korean Zombie vs. Rodríguez",
-    "2018 Knockout of the Year vs. Jung Chan-sung at UFC Fight Night: The Korean Zombie vs. Rodríguez"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Interim Featherweight Champion (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "The Ultimate Fighter: Latin America Tournament Winner"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Five times) vs. Charles Rosa , Alex Caceres , Chan Sung Jung , Jeremy Stephens and Max Holloway"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Four times) vs. Andre Fili , B.J. Penn , Chan Sung Jung and Josh Emmett"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Jung Chan-sung ) for third most post-fight bonuses in UFC Featherweight division history (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Latest knockout in UFC history (4:59 in Round 5) vs. Chan Sung Jung"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: President's Choice Fight of the Year Nominee vs. Max Holloway"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2015: Ranked #7 Fight of the Year vs. Charles Rosa"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2016: Ranked #4 Knockout of the Year vs. Andre Fili"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2018: Knockout of the Year & Ranked #3 Fight of the Year vs. Jung Chan-sung"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2019: Ranked #10 Fight of the Year vs. Jeremy Stephens 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: Ranked #3 Fight of the Year vs. Max Holloway"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: Ranked #7 Submission of the Year vs. Josh Emmett"
+    },
+    {
+      "org": "Mexican Fighters Promotions",
+      "texte": "FMP Featherweight Championship (One time)"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2018 Knockout of the Year vs. Jung Chan-sung at UFC Fight Night: The Korean Zombie vs. Rodríguez"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2018 Knockout of the Year vs. Jung Chan-sung"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2018 Knockout of the Year vs. Jung Chan-sung"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2016 #3 Ranked Knockout of the Year vs. Andre Fili at UFC 197"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2018 Knockout of the Year vs. Jung Chan-sung"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2019 October Fight of the Month vs. Jeremy Stephens"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2018 Knockout of the Year vs. Jung Chan-sung"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2018 Knockout of the Year vs. Jung Chan-sung at UFC Fight Night 139"
+    },
+    {
+      "org": "MMADNA.nl",
+      "texte": "2018 Knockout of the Year vs. Jung Chan-sung"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2018 Fight of the Year vs. Jung Chan-sung at UFC Fight Night 139"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2018 Knockout of the Year vs. Jung Chan-sung at UFC Fight Night 139"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2018 #3 Ranked UFC Fight of the Year vs. Jung Chan-sung"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2018 UFC Knockout of the Year vs. Jung Chan-sung"
+    },
+    {
+      "org": "MMA Sucka",
+      "texte": "2018 Knockout of the Year vs. Jung Chan-sung at UFC Fight Night: The Korean Zombie vs. Rodríguez"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion intérimaire UFC des poids plume",
+      "Vainqueur de The Ultimate Fighter: Latin",
+      "Combat de l'année (2018)",
+      "Bonus UFC : 4× Performance de la soirée, 5× Combat de la soirée"
+    ],
+    "en": [
+      "Interim UFC Featherweight Champion",
+      "The Ultimate Fighter: Latin winner",
+      "Fight of the Year (2018)",
+      "UFC bonuses: 4× Performance of the Night, 5× Fight of the Night"
+    ]
+  },
   "image_commons": "Carrera con Yair \"Pantera\" Rodríguez -i---i- (30657689682) cropped.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Yair_Rodríguez",

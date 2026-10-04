@@ -103,27 +103,85 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Third most Performance of the Night bonuses in UFC history (8) (behind Charles Oliveira and Kevin Holland )",
-    "Fifth most Post-Fight bonuses in UFC Light Heavyweight division history (7)",
-    "Second most submission wins in the UFC Light Heavyweight division history (6) (behind Glover Teixeira )",
-    "Most triangle-choke submission wins in UFC history (4)",
-    "Tied ( Stephan Bonnar ) for third most submission attempts in UFC Light Heavyweight division history (13)",
-    "Tied ( Mauricio Rua , Anthony Smith & Nikita Krylov ) for fifth most finishes in UFC Light Heavyweight division history (8)",
-    "Latest submission/finish in a three-round Light Heavyweight bout (4:59 in R3) (vs. Magomed Ankalaev )",
-    "2018 Half-Year Awards: Best Submission of the 1HY  & Ranked #2 Submission of the Year  vs. Magomed Ankalaev",
-    "2019: Ranked #7 Submission of the Year vs. Kennedy Nzechukwu",
-    "2022: Ranked #6 Submission of the Year vs. Nikita Krylov",
-    "BAMMA BAMMA World Light heavyweight Championship (One time)",
-    "BAMMA World Light heavyweight Championship (One time)",
-    "MMA Junkie 2019 March Submission of the Month vs. Kennedy Nzechukwu",
-    "2019 March Submission of the Month vs. Kennedy Nzechukwu",
-    "Cageside Press 2018 Submission of the Year vs. Magomed Ankalaev at UFC Fight Night: Werdum vs. Volkov",
-    "2018 Submission of the Year vs. Magomed Ankalaev at UFC Fight Night: Werdum vs. Volkov",
-    "Jitsmagazine 2022 MMA Submission of the Year vs. Nikita Krylov at UFC on ESPN+ 62.",
-    "2022 MMA Submission of the Year vs. Nikita Krylov at UFC on ESPN+ 62.",
-    "Insane Championship Wrestling ICW Tag Team Championship (1 time) - with Chris Bungard",
-    "ICW Tag Team Championship (1 time) - with Chris Bungard"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Eight times) vs. Henrique da Silva , Magomed Ankalaev , Kennedy Nzechukwu , Vinicius Moreira , Gadzhimurad Antigulov , Jamahal Hill , Nikita Krylov , and André Muniz"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most Performance of the Night bonuses in UFC history (8) (behind Charles Oliveira and Kevin Holland )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth most Post-Fight bonuses in UFC Light Heavyweight division history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most submission wins in the UFC Light Heavyweight division history (6) (behind Glover Teixeira )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most triangle-choke submission wins in UFC history (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Stephan Bonnar ) for third most submission attempts in UFC Light Heavyweight division history (13)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Mauricio Rua , Anthony Smith & Nikita Krylov ) for fifth most finishes in UFC Light Heavyweight division history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Latest submission/finish in a three-round Light Heavyweight bout (4:59 in R3) (vs. Magomed Ankalaev )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2018 Half-Year Awards: Best Submission of the 1HY & Ranked #2 Submission of the Year vs. Magomed Ankalaev"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2019: Ranked #7 Submission of the Year vs. Kennedy Nzechukwu"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Ranked #6 Submission of the Year vs. Nikita Krylov"
+    },
+    {
+      "org": "BAMMA",
+      "texte": "BAMMA World Light heavyweight Championship (One time)"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2019 March Submission of the Month vs. Kennedy Nzechukwu"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2018 Submission of the Year vs. Magomed Ankalaev at UFC Fight Night: Werdum vs. Volkov"
+    },
+    {
+      "org": "Jitsmagazine",
+      "texte": "2022 MMA Submission of the Year vs. Nikita Krylov at UFC on ESPN+ 62."
+    },
+    {
+      "org": "Insane Championship Wrestling",
+      "texte": "ICW Tag Team Championship (1 time) - with Chris Bungard"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Soumission de l'année (2018)",
+      "Bonus UFC : 8× Performance de la soirée"
+    ],
+    "en": [
+      "Submission of the Year (2018)",
+      "UFC bonuses: 8× Performance of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Paul_Craig",

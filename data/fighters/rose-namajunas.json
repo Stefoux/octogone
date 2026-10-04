@@ -151,47 +151,269 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "Lithuanian American National Hall of Fame - Class of 2019",
-    "ESPY Award nominee ( 2018 for Best Fighter  and 2021 for Best MMA Fighter  )",
-    "Kids' Choice Sports 2018 Award for Biggest Powerhouse (nominee)",
-    "Eighth Annual Real Women Awards - 2017 Woman of the Year",
-    "Two successful title defenses (overall) One successful title defense (first reign) One successful title defense (second reign)",
-    "One successful title defense (first reign)",
-    "One successful title defense (second reign)",
-    "Third most title fight wins in UFC Women's Strawweight division history (4)",
-    "Performance of the Night (Three times) vs. Paige VanZant , Joanna Jędrzejczyk 1, and Zhang Weili",
-    "Fight of the Night (Three times) vs. Karolina Kowalkiewicz and Jéssica Andrade (x2)    Third most Post-Fight bonuses in UFC Women's Strawweight division history (6)",
-    "Third most Post-Fight bonuses in UFC Women's Strawweight division history (6)",
-    "Tied ( Amanda Lemos , Mackenzie Dern & Tatiana Suarez ) for second most finishes in UFC Women's Strawweight division history (5)",
-    "First woman in UFC history to regain a championship title after losing it",
-    "Holds victories over three former UFC Women's Strawweight Champions - Joanna Jędrzejczyk , Jéssica Andrade , and Zhang Weili",
-    "Latest finish in a UFC Women's Strawweight division bout (2:25 at R5)",
-    "The Ultimate Fighter 20 (Runner-Up) TUF 20 Fight of the Season vs. Joanne Calderwood TUF 20 Performance of the Season vs. Joanne Calderwood",
-    "TUF 20 Fight of the Season vs. Joanne Calderwood",
-    "TUF 20 Performance of the Season vs. Joanne Calderwood",
-    "UFC Honors Awards 2021: President's Choice Performance of the Year Nominee vs. Zhang Weili 1  & Fan's Choice Knockout of the Year Nominee vs. Zhang Weili 1",
-    "2021: President's Choice Performance of the Year Nominee vs. Zhang Weili 1  & Fan's Choice Knockout of the Year Nominee vs. Zhang Weili 1",
-    "2017: Upset of the Year vs. Joanna Jędrzejczyk 1  & Ranked #2 Fighter of the Year",
-    "2020: Ranked #7 Fight of the Year vs. Jéssica Andrade 2",
-    "2021: Ranked #4 Fighter of the Year  & #4 Knockout of the Year vs. Zhang Weili 1",
-    "Invicta FC Submission of the Night (Two times) vs. Emily Kagan , Kathina Catron",
-    "Submission of the Night (Two times) vs. Emily Kagan , Kathina Catron",
-    "Crypto.com Fan Bonus of the Night vs. Carla Esparza",
-    "Fan Bonus of the Night vs. Carla Esparza",
-    "Slacky Awards 2015 Technical Turn-Around of the Year  2017 Gameplan of the Year vs. Joanna Jędrzejczyk at UFC 217",
-    "2015 Technical Turn-Around of the Year",
-    "2017 Gameplan of the Year vs. Joanna Jędrzejczyk at UFC 217",
-    "2017 MMA Fighter of the Year ESPN ,  MMASucka,  MMA Fighting (Top 5: #4),  MMA Mania (Top 5: #4),  RealSport (Top 5: #3)  MMADNA",
-    "ESPN ,  MMASucka,  MMA Fighting (Top 5: #4),  MMA Mania (Top 5: #4),  RealSport (Top 5: #3)  MMADNA",
-    "2017 UFC Fighter of the Year CBS Sports (Top 5: #3)",
-    "CBS Sports (Top 5: #3)",
-    "2017 MMA Female Fighter of the Year World MMA Awards ,  Yahoo Sports ,  MMAjunkie ,  Cageside Press,  Combat Press,  SevereMMA,  MMA Today (Top 50: #1),  Awakening Fighters,  Promoting Real Women",
-    "World MMA Awards ,  Yahoo Sports ,  MMAjunkie ,  Cageside Press,  Combat Press,  SevereMMA,  MMA Today (Top 50: #1),  Awakening Fighters,  Promoting Real Women",
-    "2021 MMA Female Fighter of the Year World MMA Awards (July 1, 2020 – June 30, 2021) ,  Cageside Press,  Combat Press,  MMA Sucka",
-    "World MMA Awards (July 1, 2020 – June 30, 2021) ,  Cageside Press,  Combat Press,  MMA Sucka",
-    "2021 Women's MMA MVP/UFC Fighter of the Year Wrestling Observer Newsletter ,  CBS Sports (Top 3: #3)",
-    "Wrestling Observer Newsletter ,  CBS Sports (Top 3: #3)"
+    {
+      "org": null,
+      "texte": "Lithuanian American National Hall of Fame - Class of 2019"
+    },
+    {
+      "org": null,
+      "texte": "ESPY Award nominee ( 2018 for Best Fighter and 2021 for Best MMA Fighter )"
+    },
+    {
+      "org": null,
+      "texte": "Kids' Choice Sports 2018 Award for Biggest Powerhouse (nominee)"
+    },
+    {
+      "org": null,
+      "texte": "Eighth Annual Real Women Awards - 2017 Woman of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Women's Strawweight Championship (Two times; Former)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Two successful title defenses (overall)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "One successful title defense (first reign)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "One successful title defense (second reign)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most title fight wins in UFC Women's Strawweight division history (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Three times) vs. Paige VanZant , Joanna Jędrzejczyk 1, and Zhang Weili"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Three times) vs. Karolina Kowalkiewicz and Jéssica Andrade (x2)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most Post-Fight bonuses in UFC Women's Strawweight division history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Amanda Lemos , Mackenzie Dern & Tatiana Suarez ) for second most finishes in UFC Women's Strawweight division history (5)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First woman in UFC history to regain a championship title after losing it"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Holds victories over three former UFC Women's Strawweight Champions - Joanna Jędrzejczyk , Jéssica Andrade , and Zhang Weili"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Latest finish in a UFC Women's Strawweight division bout (2:25 at R5)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "The Ultimate Fighter 20 (Runner-Up)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "TUF 20 Fight of the Season vs. Joanne Calderwood"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "TUF 20 Performance of the Season vs. Joanne Calderwood"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: President's Choice Performance of the Year Nominee vs. Zhang Weili 1 & Fan's Choice Knockout of the Year Nominee vs. Zhang Weili 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2017: Upset of the Year vs. Joanna Jędrzejczyk 1 & Ranked #2 Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Ranked #7 Fight of the Year vs. Jéssica Andrade 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: Ranked #4 Fighter of the Year & #4 Knockout of the Year vs. Zhang Weili 1"
+    },
+    {
+      "org": "Invicta FC",
+      "texte": "Submission of the Night (Two times) vs. Emily Kagan , Kathina Catron"
+    },
+    {
+      "org": "Crypto.com",
+      "texte": "Fan Bonus of the Night vs. Carla Esparza"
+    },
+    {
+      "org": "Slacky Awards",
+      "texte": "2015 Technical Turn-Around of the Year"
+    },
+    {
+      "org": "Slacky Awards",
+      "texte": "2017 Gameplan of the Year vs. Joanna Jędrzejczyk at UFC 217"
+    },
+    {
+      "org": "Fighter of the Year",
+      "texte": "2017 MMA Fighter of the Year"
+    },
+    {
+      "org": "Fighter of the Year",
+      "texte": "ESPN , MMASucka, MMA Fighting (Top 5: #4), MMA Mania (Top 5: #4), RealSport (Top 5: #3) MMADNA"
+    },
+    {
+      "org": "Fighter of the Year",
+      "texte": "2017 UFC Fighter of the Year"
+    },
+    {
+      "org": "Fighter of the Year",
+      "texte": "CBS Sports (Top 5: #3)"
+    },
+    {
+      "org": "Fighter of the Year",
+      "texte": "2017 MMA Female Fighter of the Year"
+    },
+    {
+      "org": "Fighter of the Year",
+      "texte": "World MMA Awards , Yahoo Sports , MMAjunkie , Cageside Press, Combat Press, SevereMMA, MMA Today (Top 50: #1), Awakening Fighters, Promoting Real Women"
+    },
+    {
+      "org": "Fighter of the Year",
+      "texte": "2021 MMA Female Fighter of the Year"
+    },
+    {
+      "org": "Fighter of the Year",
+      "texte": "World MMA Awards (July 1, 2020 – June 30, 2021) , Cageside Press, Combat Press, MMA Sucka"
+    },
+    {
+      "org": "Fighter of the Year",
+      "texte": "2021 Women's MMA MVP/UFC Fighter of the Year"
+    },
+    {
+      "org": "Fighter of the Year",
+      "texte": "Wrestling Observer Newsletter , CBS Sports (Top 3: #3)"
+    },
+    {
+      "org": "Upset of the Year",
+      "texte": "2017 MMA Upset of the Year vs. Joanna Jędrzejczyk"
+    },
+    {
+      "org": "Upset of the Year",
+      "texte": "World MMA Awards , Sports Illustrated , Sherdog , MMA Junkie , MMA Fighting , MMA Weekly , Metro.co.uk , Combat Press, Fight Booth, MMA Sucka, The MMA Takeover, SevereMMA, Bloody Elbow (Top 3: #1)"
+    },
+    {
+      "org": "Upset of the Year",
+      "texte": "2017 UFC Upset of the Year vs. Joanna Jędrzejczyk"
+    },
+    {
+      "org": "Upset of the Year",
+      "texte": "Sport360, Pundit Arena, Per Sources"
+    },
+    {
+      "org": "Submission of the Year",
+      "texte": "2013 MMA Submission of the Year vs. Kathina Catron"
+    },
+    {
+      "org": "Submission of the Year",
+      "texte": "World MMA Awards (nominee), MMA Weekly, The MMA Corner"
+    },
+    {
+      "org": "Submission of the Year",
+      "texte": "2013 Women's MMA Submission of the Year vs. Kathina Catron"
+    },
+    {
+      "org": "Submission of the Year",
+      "texte": "Bleacher Report , Bloody Elbow , WMMA Press Association, Awakening Fighters, Promoting Real Women"
+    },
+    {
+      "org": "Submission of the Year",
+      "texte": "2015 Women's MMA Submission of the Year vs. Paige VanZant"
+    },
+    {
+      "org": "Submission of the Year",
+      "texte": "Awakening Fighters"
+    },
+    {
+      "org": "Submission of the Year",
+      "texte": "2017 Women's MMA Submission of the Year vs. Michelle Waterson"
+    },
+    {
+      "org": "Submission of the Year",
+      "texte": "Awakening Fighters (community)"
+    },
+    {
+      "org": "Knockout of the Year",
+      "texte": "2017 Women's MMA Knockout of the Year vs. Joanna Jędrzejczyk"
+    },
+    {
+      "org": "Knockout of the Year",
+      "texte": "Awakening Fighters (community), Promoting Real Women"
+    },
+    {
+      "org": "Fight of the Year",
+      "texte": "2013 Women's MMA Fight of the Year vs. Tecia Torres"
+    },
+    {
+      "org": "Fight of the Year",
+      "texte": "Bleacher Report"
+    },
+    {
+      "org": "Fight of the Month",
+      "texte": "2019 May Fight of the Month vs. Jéssica Andrade"
+    },
+    {
+      "org": "Fight of the Month",
+      "texte": "MMA Junkie"
+    },
+    {
+      "org": "Fight of the Month",
+      "texte": "2020 July Fight of the Month vs. Jéssica Andrade"
+    },
+    {
+      "org": "Fight of the Month",
+      "texte": "MMA Junkie"
+    },
+    {
+      "org": "Year's Most Violent",
+      "texte": "2017 Fight Booth Lady Violence Award"
+    },
+    {
+      "org": "Year's Most Violent",
+      "texte": "Sherdog 2015 All-Violence Second Team: Strawweight"
+    },
+    {
+      "org": "Year's Most Violent",
+      "texte": "Sherdog 2017 All-Violence Second Team: Strawweight"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Championne UFC des poids paille féminins (2 fois)",
+      "2 défenses de titre à l'UFC",
+      "Combattante de l'année (2017)",
+      "Bonus UFC : 3× Performance de la soirée, 3× Combat de la soirée, 2× Soumission de la soirée"
+    ],
+    "en": [
+      "UFC Women's Strawweight Champion (2×)",
+      "2 UFC title defenses",
+      "Fighter of the Year (2017)",
+      "UFC bonuses: 3× Performance of the Night, 3× Fight of the Night, 2× Submission of the Night"
+    ]
+  },
   "image_commons": "Rose Namajunas.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Rose_Namajunas",

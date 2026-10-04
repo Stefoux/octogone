@@ -96,12 +96,27 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Ultimate Fighting Championship Performance of the Night (One time) vs. Jeka Saragih  Road to UFC Season 1 Lightweight Tournament Winner",
-    "Performance of the Night (One time) vs. Jeka Saragih",
-    "Road to UFC Season 1 Lightweight Tournament Winner",
-    "BodyPower India Open MMA Tournament BodyPower Light Heavyweight Tournament Winner (2016)",
-    "BodyPower Light Heavyweight Tournament Winner (2016)"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Jeka Saragih"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Road to UFC Season 1 Lightweight Tournament Winner"
+    },
+    {
+      "org": "BodyPower India Open MMA Tournament",
+      "texte": "BodyPower Light Heavyweight Tournament Winner (2016)"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 1× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 1× Performance of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Anshul_Jubli",

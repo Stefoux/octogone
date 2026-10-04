@@ -166,47 +166,385 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "Super 8 Boxing Tournament Super 8 III Cruiserweight Champion (eight man tournament)  Super 8 IV Cruiserweight Champion (four man tournament)",
-    "Super 8 III Cruiserweight Champion (eight man tournament)",
-    "Super 8 IV Cruiserweight Champion (four man tournament)",
-    "World Muaythai Council 2014 WMC Ocenia Cruiserweight Championship",
-    "2014 WMC Ocenia Cruiserweight Championship",
-    "World Boxing Council Muay Thai 2014 WBC Muay Thai International Cruiserweight Championship",
-    "2014 WBC Muay Thai International Cruiserweight Championship",
-    "World Kickboxing Federation 2011 WKBF Muay Thai New Zealand Cruiserweight Championship",
-    "2011 WKBF Muay Thai New Zealand Cruiserweight Championship",
-    "2014 King in the Ring 86 kg II Champion (eight man tournament)",
-    "2015 King in the Ring 86 kg III Champion (eight man tournament)",
-    "2015 King in the Ring 100kgs II Champion (eight man tournament)",
-    "Glory 2016 Glory Middleweight Contender Tournament Winner (four man tournament)",
-    "2016 Glory Middleweight Contender Tournament Winner (four man tournament)",
-    "Combat Press 2017 Fight of the Year (vs. Alex Pereira )",
-    "2017 Fight of the Year (vs. Alex Pereira )",
-    "UFC Hall of Fame ( Fight Wing , Class of 2025) vs. Kelvin Gastelum at UFC 236",
-    "UFC Middleweight Championship (two times) Five successful title defenses (first reign)  The first two-time UFC Middleweight champion",
-    "Five successful title defenses (first reign)",
-    "The first two-time UFC Middleweight champion",
-    "Most knockdowns in a UFC title fight (4) vs Kelvin Gastelum",
-    "Second most title fight wins in UFC Middleweight division history (8) (behind Anderson Silva )",
-    "Second most knockdowns in UFC title fights (9)",
-    "Performance of the Night (Six times) vs. Rob Wilkinson , Brad Tavares , Derek Brunson , Robert Whittaker 1, Paulo Costa and Alex Pereira 2",
-    "Fight of the Night (two times) vs. Anderson Silva and Kelvin Gastelum   Tied ( Yoel Romero ) for the third most post-fight bonuses in UFC Middleweight division history (8)",
-    "Tied ( Yoel Romero ) for the third most post-fight bonuses in UFC Middleweight division history (8)",
-    "Tied ( Anderson Silva ) for most knockdowns in UFC Middleweight division history (13)",
-    "Second longest winning streak in UFC Middleweight division history (12) (behind Anderson Silva )",
-    "Second longest average fight time in UFC Middleweight division history (16:43) (behind Sean Strickland )",
-    "Third most total fight time in UFC Middleweight division history (5:00:48)",
-    "Fifth most significant strikes landed in UFC Middleweight division history (1235)  Sixth most total strikes landed in UFC Middleweight division history (1438)",
-    "Sixth most total strikes landed in UFC Middleweight division history (1438)",
-    "Quickest fighter in history to achieve their first eight UFC wins (755 days)",
-    "2019: President's Choice Fight of the Year Winner vs. Kelvin Gastelum  & President's Choice Performance of the Year Nominee vs. Robert Whittaker 1",
-    "2023: Fan's Choice Knockout of the Year Winner vs. Alex Pereira 2  & President's Choice Performance of the Year Nominee vs. Alex Pereira 2",
-    "2018: Newcomer of the Year  & Ranked #7 Fighter of the Year",
-    "2019: Fight of the Year vs. Kelvin Gastelum  & Top 10 Fighter of the Year",
-    "2020: Ranked #10 Fighter of the Year",
-    "2023: Half-Year Awards: Best Fighter of the 1HY,  Half-Year Awards: Best Knockout of the 1HY & Ranked #2 Knockout of the Year  vs. Alex Pereira 2",
-    "2024: Ranked #10 Fight of the Year vs. Dricus Du Plessis"
+    {
+      "org": "Super 8 Boxing Tournament",
+      "texte": "Super 8 III Cruiserweight Champion (eight man tournament)"
+    },
+    {
+      "org": "Super 8 Boxing Tournament",
+      "texte": "Super 8 IV Cruiserweight Champion (four man tournament)"
+    },
+    {
+      "org": "World Muaythai Council",
+      "texte": "2014 WMC Ocenia Cruiserweight Championship"
+    },
+    {
+      "org": "World Boxing Council Muay Thai",
+      "texte": "2014 WBC Muay Thai International Cruiserweight Championship"
+    },
+    {
+      "org": "World Kickboxing Federation",
+      "texte": "2011 WKBF Muay Thai New Zealand Cruiserweight Championship"
+    },
+    {
+      "org": "King in the Ring",
+      "texte": "2014 King in the Ring 86 kg II Champion (eight man tournament)"
+    },
+    {
+      "org": "King in the Ring",
+      "texte": "2015 King in the Ring 86 kg III Champion (eight man tournament)"
+    },
+    {
+      "org": "King in the Ring",
+      "texte": "2015 King in the Ring 100kgs II Champion (eight man tournament)"
+    },
+    {
+      "org": "Glory",
+      "texte": "2016 Glory Middleweight Contender Tournament Winner (four man tournament)"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2017 Fight of the Year (vs. Alex Pereira )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame ( Fight Wing , Class of 2025) vs. Kelvin Gastelum at UFC 236"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Middleweight Championship (two times)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Five successful title defenses (first reign)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "The first two-time UFC Middleweight champion"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Interim UFC Middleweight Championship (one time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most knockdowns in a UFC title fight (4) vs Kelvin Gastelum"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most title fight wins in UFC Middleweight division history (8) (behind Anderson Silva )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most knockdowns in UFC title fights (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Six times) vs. Rob Wilkinson , Brad Tavares , Derek Brunson , Robert Whittaker 1, Paulo Costa and Alex Pereira 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (two times) vs. Anderson Silva and Kelvin Gastelum"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Yoel Romero ) for the third most post-fight bonuses in UFC Middleweight division history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Anderson Silva ) for most knockdowns in UFC Middleweight division history (13)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second longest winning streak in UFC Middleweight division history (12) (behind Anderson Silva )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second longest average fight time in UFC Middleweight division history (16:43) (behind Sean Strickland )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most total fight time in UFC Middleweight division history (5:00:48)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth most significant strikes landed in UFC Middleweight division history (1235)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Sixth most total strikes landed in UFC Middleweight division history (1438)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Quickest fighter in history to achieve their first eight UFC wins (755 days)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2019: President's Choice Fight of the Year Winner vs. Kelvin Gastelum & President's Choice Performance of the Year Nominee vs. Robert Whittaker 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: Fan's Choice Knockout of the Year Winner vs. Alex Pereira 2 & President's Choice Performance of the Year Nominee vs. Alex Pereira 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2018: Newcomer of the Year & Ranked #7 Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2019: Fight of the Year vs. Kelvin Gastelum & Top 10 Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Ranked #10 Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: Half-Year Awards: Best Fighter of the 1HY, Half-Year Awards: Best Knockout of the 1HY & Ranked #2 Knockout of the Year vs. Alex Pereira 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: Ranked #10 Fight of the Year vs. Dricus Du Plessis"
+    },
+    {
+      "org": "Australian Fighting Championship",
+      "texte": "AFC Middleweight Champion (one time; former)"
+    },
+    {
+      "org": "Hex Fighting Series Middleweight",
+      "texte": "Hex Fighting Series Middleweight Champion (one time; former)"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2018 Newcomer of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2019 Male Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2019 Fight of the Year vs. Kelvin Gastelum at UFC 236"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2019 April Fight of the Month vs. Kelvin Gastelum at UFC 236"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2023 Knockout of the Year vs. Alex Pereira 2 at UFC 287"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2023 April Knockout of the Month vs. Alex Pereira 2 at UFC 287"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2018 Breakthrough Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2019 Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2019 Fight of the Year vs. Kelvin Gastelum at UFC 236"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2023 Knockout of the Year vs. Alex Pereira 2 at UFC 287"
+    },
+    {
+      "org": "The Sporting News",
+      "texte": "2023 Knockout of the Year vs. Alex Pereira 2 at UFC 287"
+    },
+    {
+      "org": "New York Post",
+      "texte": "2023 Knockout of the Year vs. Alex Pereira 2 at UFC 287"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2018 Breakout Fighter of the Year"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2019 Male Fighter of the Year"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2019 Fight of the Year vs. Kelvin Gastelum at UFC 236"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2019 Male Fighter of the Year"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2019 Fight of the Year vs. Kelvin Gastelum at UFC 236"
+    },
+    {
+      "org": "Yahoo Sports",
+      "texte": "2019 Fight of the Year vs. Kelvin Gastelum at UFC 236"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2019 Fight of the Year vs. Kelvin Gastelum at UFC 236"
+    },
+    {
+      "org": "MMA Sucka",
+      "texte": "2018 UFC Breakout Star of the Year"
+    },
+    {
+      "org": "MMA Sucka",
+      "texte": "2019 Fighter of the Year"
+    },
+    {
+      "org": "MMA Sucka",
+      "texte": "2019 Fight of the Year vs. Kelvin Gastelum at UFC 236"
+    },
+    {
+      "org": "MMA Weekly",
+      "texte": "2018 Breakout Fighter of the Year"
+    },
+    {
+      "org": "MMADNA.nl",
+      "texte": "2018 Rising Star of the Year."
+    },
+    {
+      "org": "The Body Lock",
+      "texte": "2019 Fighter of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2018 Breakthrough Fighter of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2019 – July 2020 Charles 'Mask' Lewis Fighter of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2019 – July 2020 International Fighter of the Year ^"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2021 International Fighter of the Year ^"
+    },
+    {
+      "org": null,
+      "texte": "^ Voting period for 2019 awards ran from January 2019 to July 2020 due to the COVID-19 pandemic . Subsequently, the voting period for 2021 awards ran from July 2020 to July 2021."
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2019 Fighter of the Year"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2019 Fight of the Year vs. Kelvin Gastelum at UFC 236"
+    },
+    {
+      "org": "Halberg Awards",
+      "texte": "2019 New Zealand Sportsman of the Year"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "Mixed Martial Arts Most Valuable (2022)"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "Best Box Office Draw (2022)"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "Most Outstanding Fighter of the Year (2019, 2020)"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "MMA Match of the Year vs. Kelvin Gastelum at UFC 236"
+    },
+    {
+      "org": "LowKick MMA",
+      "texte": "2019 Fight of the Year vs. Kelvin Gastelum at UFC 236"
+    },
+    {
+      "org": "LowKick MMA",
+      "texte": "2023 Knockout of the Year vs. Alex Pereira 2 at UFC 287"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2018 Breakout Fighter of the Year"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2019 Fight of the Year vs. Kelvin Gastelum at UFC 236"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2019 Walkout of the Year at UFC 243"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2020 Rivalry of the Year vs. Paulo Costa"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2023 Knockout of the Year vs. Alex Pereira 2 at UFC 287"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2019 Fighter of the Year"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2019 Fight of the Year vs. Kelvin Gastelum at UFC 236"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2019 #2 Ranked UFC Fighter of the Year"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2019 UFC Fight of the Year vs. Kelvin Gastelum at UFC 236"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2020 #2 Ranked UFC Fighter of the Year"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2023 MMA Knockout of the Year vs. Alex Pereira 2 at UFC 287"
+    },
+    {
+      "org": "GiveMeSport",
+      "texte": "2023 UFC Knockout of the Year vs. Alex Pereira 2 at UFC 287"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids moyens (2 fois)",
+      "Hall of Fame de l'UFC, aile Combats (2025)",
+      "5 défenses de titre à l'UFC",
+      "Combattant de l'année (2019)",
+      "Combat de l'année (2017, 2019)",
+      "Bonus UFC : 6× Performance de la soirée, 2× Combat de la soirée"
+    ],
+    "en": [
+      "UFC Middleweight Champion (2×)",
+      "UFC Hall of Fame, Fight Wing (2025)",
+      "5 UFC title defenses",
+      "Fighter of the Year (2019)",
+      "Fight of the Year (2017, 2019)",
+      "UFC bonuses: 6× Performance of the Night, 2× Fight of the Night"
+    ]
+  },
   "image_commons": "Israel Adesanya 2014.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Israel_Adesanya",

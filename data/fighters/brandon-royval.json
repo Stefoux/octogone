@@ -131,47 +131,213 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Most Fight of the Night bonuses in UFC Flyweight division history (6)",
-    "Tied ( Brandon Moreno & Alexandre Pantoja ) for second most Post-Fight bonuses in UFC Flyweight division history (7) (behind Demetrious Johnson )",
-    "Tied ( Muhammad Mokaev ) for third most submissions in UFC Flyweight division history (4)",
-    "Sixth most significant strikes landed in UFC Flyweight division history (852)  Sixth most total strikes landed in UFC Flyweight division history (1241)",
-    "Sixth most total strikes landed in UFC Flyweight division history (1241)",
-    "Second most significant strikes landed-per-minute in UFC Flyweight division history (5.6)",
-    "Tied ( Demetrious Johnson & John Moraga ) for fifth most submission attempts in UFC Flyweight division history (12)",
-    "UFC Honors Awards 2025: President's Choice Fight of the Year Winner vs. Joshua Van",
-    "2025: President's Choice Fight of the Year Winner vs. Joshua Van",
-    "2020: Ranked #3 Newcomer of the Year  & Ranked #10 Upset of the Year vs. Tim Elliott",
-    "2024: Ranked #7 Fight of the Year vs. Tatsuro Taira",
-    "2025: Fight of the Year vs. Joshua Van  & Half-Year Awards: Best Fight of the 1HY vs. Joshua Van",
-    "Legacy Fighting Alliance Legacy Fighting Alliance Flyweight Champion (One time)",
-    "Legacy Fighting Alliance Flyweight Champion (One time)",
-    "ESPN 2025 Fight of the Year vs. Joshua Van at UFC 317",
-    "2025 Fight of the Year vs. Joshua Van at UFC 317",
-    "Sherdog 2025 Fight of the Year vs. Joshua Van at UFC 317",
-    "2025 Fight of the Year vs. Joshua Van at UFC 317",
-    "CBS Sports 2025 UFC Fight of the Year vs. Joshua Van",
-    "2025 UFC Fight of the Year vs. Joshua Van",
-    "theScore 2025 Fight of the Year vs. Joshua Van",
-    "2025 Fight of the Year vs. Joshua Van",
-    "The Wrightway Sports Network 2025 Fight of the Year vs. Joshua Van at UFC 317",
-    "2025 Fight of the Year vs. Joshua Van at UFC 317",
-    "MMA Mania 2025 #4 Ranked Fight of the Year vs. Joshua Van",
-    "2025 #4 Ranked Fight of the Year vs. Joshua Van",
-    "MMA Fighting 2024 Third Team MMA All-Star  2025 Fight of the Year vs. Joshua Van",
-    "2024 Third Team MMA All-Star",
-    "2025 Fight of the Year vs. Joshua Van",
-    "MMA Junkie 2025 Fight of the Year vs. Joshua Van at UFC 317",
-    "2025 Fight of the Year vs. Joshua Van at UFC 317",
-    "Cageside Press 2025 Fight of the Year vs. Joshua Van , tied with Prochazka vs. Rountree Jr.",
-    "2025 Fight of the Year vs. Joshua Van , tied with Prochazka vs. Rountree Jr.",
-    "Most significant strikes landed (215) (vs. Joshua Van )",
-    "Most significant strikes attempted (510) (vs. Brandon Moreno 2)  Second most significant strikes attempted (467) (vs. Joshua Van )",
-    "Second most significant strikes attempted (467) (vs. Joshua Van )",
-    "Most distant strikes landed (205) (vs. Joshua Van )",
-    "Most significant head strikes landed (179) (vs. Joshua Van )",
-    "Most total strikes landed (281) (vs. Alexandre Pantoja 2)  Fourth most total strikes landed (216) (vs. Joshua Van )",
-    "Fourth most total strikes landed (216) (vs. Joshua Van )"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Six times) vs. Tim Elliott , Kai Kara-France , Matt Schnell , Tatsuro Taira , Joshua Van and Lone'er Kavanagh"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most Fight of the Night bonuses in UFC Flyweight division history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Matheus Nicolau"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Brandon Moreno & Alexandre Pantoja ) for second most Post-Fight bonuses in UFC Flyweight division history (7) (behind Demetrious Johnson )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Muhammad Mokaev ) for third most submissions in UFC Flyweight division history (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Sixth most significant strikes landed in UFC Flyweight division history (852)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Sixth most total strikes landed in UFC Flyweight division history (1241)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most significant strikes landed-per-minute in UFC Flyweight division history (5.6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Demetrious Johnson & John Moraga ) for fifth most submission attempts in UFC Flyweight division history (12)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2025: President's Choice Fight of the Year Winner vs. Joshua Van"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Ranked #3 Newcomer of the Year & Ranked #10 Upset of the Year vs. Tim Elliott"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: Ranked #7 Fight of the Year vs. Tatsuro Taira"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2025: Fight of the Year vs. Joshua Van & Half-Year Awards: Best Fight of the 1HY vs. Joshua Van"
+    },
+    {
+      "org": "Legacy Fighting Alliance",
+      "texte": "Legacy Fighting Alliance Flyweight Champion (One time)"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2025 Fight of the Year vs. Joshua Van at UFC 317"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2025 Fight of the Year vs. Joshua Van at UFC 317"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2025 UFC Fight of the Year vs. Joshua Van"
+    },
+    {
+      "org": "theScore",
+      "texte": "2025 Fight of the Year vs. Joshua Van"
+    },
+    {
+      "org": "The Wrightway Sports Network",
+      "texte": "2025 Fight of the Year vs. Joshua Van at UFC 317"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2025 #4 Ranked Fight of the Year vs. Joshua Van"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2024 Third Team MMA All-Star"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2025 Fight of the Year vs. Joshua Van"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2025 Fight of the Year vs. Joshua Van at UFC 317"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2025 Fight of the Year vs. Joshua Van , tied with Prochazka vs. Rountree Jr."
+    },
+    {
+      "org": "UFC Flyweight Bout Records",
+      "texte": "Most significant strikes landed (215) (vs. Joshua Van )"
+    },
+    {
+      "org": "UFC Flyweight Bout Records",
+      "texte": "Most significant strikes attempted (510) (vs. Brandon Moreno 2)"
+    },
+    {
+      "org": "UFC Flyweight Bout Records",
+      "texte": "Second most significant strikes attempted (467) (vs. Joshua Van )"
+    },
+    {
+      "org": "UFC Flyweight Bout Records",
+      "texte": "Most distant strikes landed (205) (vs. Joshua Van )"
+    },
+    {
+      "org": "UFC Flyweight Bout Records",
+      "texte": "Most significant head strikes landed (179) (vs. Joshua Van )"
+    },
+    {
+      "org": "UFC Flyweight Bout Records",
+      "texte": "Most total strikes landed (281) (vs. Alexandre Pantoja 2)"
+    },
+    {
+      "org": "UFC Flyweight Bout Records",
+      "texte": "Fourth most total strikes landed (216) (vs. Joshua Van )"
+    },
+    {
+      "org": "UFC Flyweight Bout Records",
+      "texte": "Most total strikes attempted (556) (vs. Brandon Moreno 2)"
+    },
+    {
+      "org": "UFC Flyweight Bout Records",
+      "texte": "Second most total strikes attempted (468) (vs. Joshua Van )"
+    },
+    {
+      "org": "UFC Flyweight Bout Records",
+      "texte": "Fourth most total strikes attempted (390) (vs. Alexandre Pantoja 2)"
+    },
+    {
+      "org": "UFC Flyweight Bout Records",
+      "texte": "Second most total ground strikes landed (176) (vs. Alexandre Pantoja 2)"
+    },
+    {
+      "org": "UFC Flyweight Bout Records",
+      "texte": "Most total head strikes landed (248) (vs. Alexandre Pantoja 2)"
+    },
+    {
+      "org": "UFC Flyweight Bout Records",
+      "texte": "Fourth most total head strikes landed (180) (vs. Joshua Van )"
+    },
+    {
+      "org": "UFC Flyweight Round Records",
+      "texte": "Second most significant strikes landed in a round (87 in R2 vs. Joshua Van )"
+    },
+    {
+      "org": "UFC Flyweight Round Records",
+      "texte": "Third most significant strikes landed in a round (86 in R3 vs. Joshua Van )"
+    },
+    {
+      "org": "UFC Flyweight Round Records",
+      "texte": "Second most significant strikes attempted in a round (177 in R3 vs. Joshua Van )"
+    },
+    {
+      "org": "UFC Flyweight Round Records",
+      "texte": "Third most significant strikes attempted in a round (174 in R2 vs. Joshua Van )"
+    },
+    {
+      "org": "UFC Flyweight Round Records",
+      "texte": "Fifth most significant strikes attempted in a round (164 in R4 vs. Brandon Moreno 2)"
+    },
+    {
+      "org": "UFC Flyweight Round Records",
+      "texte": "Second most total strikes attempted in a round (179 in R4 vs. Brandon Moreno 2)"
+    },
+    {
+      "org": "UFC Flyweight Round Records",
+      "texte": "Third most total strikes attempted in a round (178 in R3 vs. Joshua Van )"
+    },
+    {
+      "org": "UFC Flyweight Round Records",
+      "texte": "Fourth most total strikes attempted in a round (174 in R2 vs. Joshua Van )"
+    },
+    {
+      "org": "UFC Striking Bout Records",
+      "texte": "Fifth most significant strikes attempted in a UFC bout (510) (vs. Brandon Moreno 2)"
+    },
+    {
+      "org": "UFC Striking Bout Records",
+      "texte": "Third most total strikes attempted in a UFC bout (556) (vs. Brandon Moreno 2)"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Combat de l'année (2025)",
+      "Bonus UFC : 1× Performance de la soirée, 6× Combat de la soirée"
+    ],
+    "en": [
+      "Fight of the Year (2025)",
+      "UFC bonuses: 1× Performance of the Night, 6× Fight of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Brandon_Royval",

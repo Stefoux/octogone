@@ -102,6 +102,14 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 3× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 3× Performance of the Night"
+    ]
+  },
   "image_commons": "Jalin Turner at UFC 234.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Jalin_Turner",

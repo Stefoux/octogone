@@ -108,17 +108,39 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Invicta Fighting Championships Fight of the Night (Two times) vs. Karolina Kowalkiewicz and Alexa Grasso",
-    "Fight of the Night (Two times) vs. Karolina Kowalkiewicz and Alexa Grasso",
-    "DEEP Jewels Strawweight Champion (One time; current) 2010 Jewels Rough Stone Grand Prix 56 kg tournament winner",
-    "Strawweight Champion (One time; current)",
-    "2010 Jewels Rough Stone Grand Prix 56 kg tournament winner",
-    "MMAJunkie.com 2015 February Fight of the Month vs. Alexa Grasso",
-    "2015 February Fight of the Month vs. Alexa Grasso",
-    "Girls S-Cup 2012 Shoot Boxing Girls S-Cup 53.5 kg tournament winner 2013 Shoot Boxing Girls S-Cup 53.5 kg tournament winner",
-    "2012 Shoot Boxing Girls S-Cup 53.5 kg tournament winner",
-    "2013 Shoot Boxing Girls S-Cup 53.5 kg tournament winner"
+    {
+      "org": "Invicta Fighting Championships",
+      "texte": "Fight of the Night (Two times) vs. Karolina Kowalkiewicz and Alexa Grasso"
+    },
+    {
+      "org": "DEEP Jewels",
+      "texte": "Strawweight Champion (One time; current)"
+    },
+    {
+      "org": "DEEP Jewels",
+      "texte": "2010 Jewels Rough Stone Grand Prix 56 kg tournament winner"
+    },
+    {
+      "org": "MMAJunkie.com",
+      "texte": "2015 February Fight of the Month vs. Alexa Grasso"
+    },
+    {
+      "org": "Girls S-Cup",
+      "texte": "2012 Shoot Boxing Girls S-Cup 53.5 kg tournament winner"
+    },
+    {
+      "org": "Girls S-Cup",
+      "texte": "2013 Shoot Boxing Girls S-Cup 53.5 kg tournament winner"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 1× Performance de la soirée, 2× Combat de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 1× Performance of the Night, 2× Fight of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Mizuki_Inoue",

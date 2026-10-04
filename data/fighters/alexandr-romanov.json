@@ -98,13 +98,27 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Ultimate Fighting Championship Performance of the Night (One time) vs. Marcos Rogério de Lima",
-    "Performance of the Night (One time) vs. Marcos Rogério de Lima",
-    "Eagles Fighting Championship Eagles FC Heavyweight Championship (One time)",
-    "Eagles FC Heavyweight Championship (One time)",
-    "Shogun Fights Shogun Fights Heavyweight Championship (One time)",
-    "Shogun Fights Heavyweight Championship (One time)"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Marcos Rogério de Lima"
+    },
+    {
+      "org": "Eagles Fighting Championship",
+      "texte": "Eagles FC Heavyweight Championship (One time)"
+    },
+    {
+      "org": "Shogun Fights",
+      "texte": "Shogun Fights Heavyweight Championship (One time)"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 1× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 1× Performance of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Alexander_Romanov_(fighter)",

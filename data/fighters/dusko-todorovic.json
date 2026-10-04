@@ -107,12 +107,27 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Ultimate Fighting Championship Performance of the Night (One time) vs. Dequan Townsend  Fight of the Night (One time) vs. Jordan Wright",
-    "Performance of the Night (One time) vs. Dequan Townsend",
-    "Fight of the Night (One time) vs. Jordan Wright",
-    "Serbian Battle Championship SBC Middleweight Championship (One time)",
-    "SBC Middleweight Championship (One time)"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Dequan Townsend"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Jordan Wright"
+    },
+    {
+      "org": "Serbian Battle Championship",
+      "texte": "SBC Middleweight Championship (One time)"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 1× Performance de la soirée, 1× Combat de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 1× Performance of the Night, 1× Fight of the Night"
+    ]
+  },
   "image_commons": "Duško Todorović (1).jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Duško_Todorović",

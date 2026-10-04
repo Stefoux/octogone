@@ -2,19 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:game_core/game_core.dart';
 import 'package:go_router/go_router.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 import '../../core/countries.dart';
+import '../../core/device_language.dart';
 import '../../core/theme.dart';
 import '../../data/repositories/content_providers.dart';
 import '../../domain/models.dart';
 import '../../widgets/fighter_widgets.dart';
-
-const _sourceLabels = {
-  'ufc_com': 'ufc.com',
-  'wikipedia': 'Wikipedia',
-  'wikidata': 'Wikidata',
-};
 
 class FighterDetailScreen extends ConsumerWidget {
   const FighterDetailScreen({super.key, required this.fighterId});
@@ -45,6 +39,7 @@ class _Body extends ConsumerWidget {
     final s = f.statsUfc;
     final p = f.palmares;
     final u = f.ufc;
+    final distinctions = f.distinctions(deviceLanguage(context));
     final cards = ref.watch(cardsForFighterProvider(f.id)).value ?? const [];
     final editions = {for (final e in ref.watch(editionsProvider).value ?? const <Edition>[]) e.id: e};
 
@@ -126,12 +121,21 @@ class _Body extends ConsumerWidget {
           if ((u['victoires_decision_5_rounds'] ?? 0) != 0)
             _Row('Victoires par décision en 5 rounds', '${u['victoires_decision_5_rounds']}'),
         ]),
-        if (f.accomplissements.isNotEmpty)
-          _Section(title: 'Distinctions (Wikipedia, en anglais)', children: [
-            for (final a in f.accomplissements.take(12))
+        if (distinctions.isNotEmpty)
+          _Section(title: 'Distinctions', children: [
+            for (final d in distinctions)
               Padding(
-                padding: const EdgeInsets.symmetric(vertical: 2),
-                child: Text('• $a', style: const TextStyle(fontSize: 13)),
+                padding: const EdgeInsets.symmetric(vertical: 3),
+                child: Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const Padding(
+                      padding: EdgeInsets.only(top: 2, right: 8),
+                      child: Icon(Icons.emoji_events_outlined, size: 16, color: AppColors.gold),
+                    ),
+                    Expanded(child: Text(d, style: const TextStyle(fontSize: 14))),
+                  ],
+                ),
               ),
           ]),
         if (cards.isNotEmpty)
@@ -146,17 +150,6 @@ class _Body extends ConsumerWidget {
                 onTap: () => context.go('/album/${c.editionId}'),
               ),
           ]),
-        _Section(title: 'Sources', children: [
-          for (final e in f.sources.entries)
-            ListTile(
-              dense: true,
-              contentPadding: EdgeInsets.zero,
-              leading: const Icon(Icons.link, size: 18),
-              title: Text(_sourceLabels[e.key] ?? e.key),
-              subtitle: Text(e.value, maxLines: 1, overflow: TextOverflow.ellipsis),
-              onTap: () => launchUrl(Uri.parse(e.value), mode: LaunchMode.externalApplication),
-            ),
-        ]),
       ],
     );
   }

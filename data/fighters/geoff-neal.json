@@ -109,17 +109,47 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Performance of the Night (Two times) vs. Niko Price and Vicente Luque",
-    "Fight of the Night (One time) vs. Shavkat Rakhmonov",
-    "UFC Honors Awards 2023: President's Choice Fight of the Year Nominee vs. Shavkat Rakhmonov",
-    "2023: President's Choice Fight of the Year Nominee vs. Shavkat Rakhmonov",
-    "UFC.com Awards 2023: Ranked #4 Fight of the Year vs. Shavkat Rakhmonov",
-    "2023: Ranked #4 Fight of the Year vs. Shavkat Rakhmonov",
-    "MMA Junkie 2019 Under-the-Radar Fighter of the Year",
-    "2019 Under-the-Radar Fighter of the Year",
-    "Bleacher Report 2023 #4 Ranked UFC Fight of the Year vs. Shavkat Rakhmonov at UFC 285",
-    "2023 #4 Ranked UFC Fight of the Year vs. Shavkat Rakhmonov at UFC 285"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. Niko Price and Vicente Luque"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Shavkat Rakhmonov"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: President's Choice Fight of the Year Nominee vs. Shavkat Rakhmonov"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: Ranked #4 Fight of the Year vs. Shavkat Rakhmonov"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2019 Under-the-Radar Fighter of the Year"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2023 #4 Ranked UFC Fight of the Year vs. Shavkat Rakhmonov at UFC 285"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 2× Performance de la soirée, 1× Combat de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 2× Performance of the Night, 1× Fight of the Night"
+    ]
+  },
   "image_commons": "Geoff Neal at UFC 228.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Geoff_Neal",

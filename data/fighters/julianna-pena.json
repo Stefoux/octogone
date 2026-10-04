@@ -118,40 +118,115 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "UFC Women's Bantamweight Championship (Two times)",
-    "The Ultimate Fighter: Team Rousey vs. Team Tate bantamweight tournament Winner",
-    "Performance of the Night (Two times) vs. Milana Dudieva and Amanda Nunes 1",
-    "Fifth most total strikes landed in UFC Women's Bantamweight division history (1102)",
-    "Sixth most takedowns landed in UFC Women's Bantamweight division history (18)",
-    "UFC Honors Awards 2021: President's Choice Performance of the Year Winner vs. Amanda Nunes 1",
-    "2021: President's Choice Performance of the Year Winner vs. Amanda Nunes 1",
-    "UFC.com Awards 2021: Upset of the Year vs. Amanda Nunes 1  & Ranked #10 Fighter of the Year",
-    "2021: Upset of the Year vs. Amanda Nunes 1  & Ranked #10 Fighter of the Year",
-    "MMA Junkie 2021 Female Fighter of the Year  2021 January Submission of the Month vs. Sara McMann  2021 December Submission of the Month vs. Amanda Nunes  2021 Upset of the Year vs. Amanda Nunes",
-    "2021 Female Fighter of the Year",
-    "2021 January Submission of the Month vs. Sara McMann",
-    "2021 December Submission of the Month vs. Amanda Nunes",
-    "2021 Upset of the Year vs. Amanda Nunes",
-    "Cageside Press 2021 Upset of the Year vs. Amanda Nunes",
-    "2021 Upset of the Year vs. Amanda Nunes",
-    "LowKick MMA 2021 Upset of the Year vs. Amanda Nunes",
-    "2021 Upset of the Year vs. Amanda Nunes",
-    "Sherdog 2021 Upset of the Year vs. Amanda Nunes",
-    "2021 Upset of the Year vs. Amanda Nunes",
-    "ESPN 2021 Female Fighter of the Year",
-    "2021 Female Fighter of the Year",
-    "Bleacher Report 2013 Female Breakthrough Fighter of the Year  2021 Upset of the Year vs. Amanda Nunes",
-    "2013 Female Breakthrough Fighter of the Year",
-    "2021 Upset of the Year vs. Amanda Nunes",
-    "MMA Sucka 2021 Upset of the Year vs. Amanda Nunes",
-    "2021 Upset of the Year vs. Amanda Nunes",
-    "Yahoo! Sports 2021 Submission of the Year vs. Amanda Nunes",
-    "2021 Submission of the Year vs. Amanda Nunes",
-    "Daily Mirror 2021 Upset of the Year vs. Amanda Nunes",
-    "2021 Upset of the Year vs. Amanda Nunes",
-    "World MMA Awards 2022 Upset of the Year vs. Amanda Nunes at UFC 269",
-    "2022 Upset of the Year vs. Amanda Nunes at UFC 269"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Women's Bantamweight Championship (Two times)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "The Ultimate Fighter: Team Rousey vs. Team Tate bantamweight tournament Winner"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. Milana Dudieva and Amanda Nunes 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth most total strikes landed in UFC Women's Bantamweight division history (1102)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Sixth most takedowns landed in UFC Women's Bantamweight division history (18)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: President's Choice Performance of the Year Winner vs. Amanda Nunes 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: Upset of the Year vs. Amanda Nunes 1 & Ranked #10 Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2021 Female Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2021 January Submission of the Month vs. Sara McMann"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2021 December Submission of the Month vs. Amanda Nunes"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2021 Upset of the Year vs. Amanda Nunes"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2021 Upset of the Year vs. Amanda Nunes"
+    },
+    {
+      "org": "LowKick MMA",
+      "texte": "2021 Upset of the Year vs. Amanda Nunes"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2021 Upset of the Year vs. Amanda Nunes"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2021 Female Fighter of the Year"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2013 Female Breakthrough Fighter of the Year"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2021 Upset of the Year vs. Amanda Nunes"
+    },
+    {
+      "org": "MMA Sucka",
+      "texte": "2021 Upset of the Year vs. Amanda Nunes"
+    },
+    {
+      "org": "Yahoo! Sports",
+      "texte": "2021 Submission of the Year vs. Amanda Nunes"
+    },
+    {
+      "org": "Daily Mirror",
+      "texte": "2021 Upset of the Year vs. Amanda Nunes"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2022 Upset of the Year vs. Amanda Nunes at UFC 269"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Championne UFC des poids coq féminins (2 fois)",
+      "Vainqueur de The Ultimate Fighter: Team Rousey vs. Team Tate",
+      "Combattante de l'année (2021)",
+      "Soumission de l'année (2021)",
+      "Bonus UFC : 2× Performance de la soirée"
+    ],
+    "en": [
+      "UFC Women's Bantamweight Champion (2×)",
+      "The Ultimate Fighter: Team Rousey vs. Team Tate winner",
+      "Fighter of the Year (2021)",
+      "Submission of the Year (2021)",
+      "UFC bonuses: 2× Performance of the Night"
+    ]
+  },
   "image_commons": "Ceremonial weigh ins - Amanda Nunes vs Julianna Peña UFC 269 - YouTube - 0 23 (cropped).jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Julianna_Peña",

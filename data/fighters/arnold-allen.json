@@ -104,13 +104,35 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Performance of the Night (Three times) vs. Alan Omer, Mads Burnell and Dan Hooker",
-    "Third longest win streak in UFC Featherweight division history (10)",
-    "Sixth most wins in UFC Featherweight division history (12)",
-    "Tied ( Cub Swanson ) for sixth most decision wins in UFC Featherweight division history (8)",
-    "Made4TheCage M4TC Lightweight Championship (One time; former)",
-    "M4TC Lightweight Championship (One time; former)"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Three times) vs. Alan Omer, Mads Burnell and Dan Hooker"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third longest win streak in UFC Featherweight division history (10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Sixth most wins in UFC Featherweight division history (12)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Cub Swanson ) for sixth most decision wins in UFC Featherweight division history (8)"
+    },
+    {
+      "org": "Made4TheCage",
+      "texte": "M4TC Lightweight Championship (One time; former)"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 3× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 3× Performance of the Night"
+    ]
+  },
   "image_commons": "Arnold Allen at UFC Fight Night 147 in London.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Arnold_Allen",

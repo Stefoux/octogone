@@ -123,41 +123,121 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "National Collegiate Athletic Association NCAA Division I All-American out of Oregon State University (2011)  Pac-10 174 lb Conference Championship out of Oregon State University (2010, 2011)",
-    "NCAA Division I All-American out of Oregon State University (2011)",
-    "Pac-10 174 lb Conference Championship out of Oregon State University (2010, 2011)",
-    "National Junior College Athletic Association NJCAA 165 lb National Championship out of Iowa Central Community College (2007)  NJCAA All-American out of Iowa Central Community College (2007)",
-    "NJCAA 165 lb National Championship out of Iowa Central Community College (2007)",
-    "NJCAA All-American out of Iowa Central Community College (2007)",
-    "Oregon State Activities Association OSAA 171 lb State Championship out of Thurston High School (2006)",
-    "OSAA 171 lb State Championship out of Thurston High School (2006)",
-    "National High School Coaches Association 2006 NHSCA Senior Nationals- 3rd Place",
-    "2006 NHSCA Senior Nationals- 3rd Place",
-    "Real American Freestyle RAF Cruiserweight Crossover Champion (One time, Inaugural, current) One successful title defense Match of the Night (One time) vs. Arman Tsarukyan",
-    "RAF Cruiserweight Crossover Champion (One time, Inaugural, current) One successful title defense",
-    "One successful title defense",
-    "Match of the Night (One time) vs. Arman Tsarukyan",
-    "2006 Freestyle Junior Nationals - 4th place",
-    "2005 Greco-Roman Junior Nationals - 5th Place",
-    "FILA 2013 FILA No-Gi Grappling World Championship – 1st place, 77 kg",
-    "2013 FILA No-Gi Grappling World Championship – 1st place, 77 kg",
-    "Interim UFC Welterweight Championship (One time)",
-    "Fight of the Night (Two times) vs. Kamaru Usman 1 and Jorge Masvidal  '",
-    "Most significant strikes attempted in a UFC Welterweight bout (515) (vs. Robbie Lawler )",
-    "Most total strikes attempted in a UFC Welterweight bout (541) (vs. Robbie Lawler )",
-    "Second most takedowns landed in UFC Welterweight division history (70)",
-    "Third most control time in UFC Welterweight division history (2:05:05)",
-    "Fifth most total strikes landed in UFC Welterweight division history (2043)",
-    "UFC.com Awards 2014: Ranked #5 Newcomer of the Year  2019: Ranked #2 Fight of the Year vs. Kamaru Usman 1",
-    "2014: Ranked #5 Newcomer of the Year",
-    "2019: Ranked #2 Fight of the Year vs. Kamaru Usman 1",
-    "MMA Weekly 2017 Breakout Fighter of the Year",
-    "2017 Breakout Fighter of the Year",
-    "CBS Sports 2019 #5 Ranked UFC Fight of the Year vs. Kamaru Usman at UFC 245",
-    "2019 #5 Ranked UFC Fight of the Year vs. Kamaru Usman at UFC 245",
-    "ESPN 2019 Rivalry of the Year vs. Kamaru Usman",
-    "2019 Rivalry of the Year vs. Kamaru Usman"
+    {
+      "org": "National Collegiate Athletic Association",
+      "texte": "NCAA Division I All-American out of Oregon State University (2011)"
+    },
+    {
+      "org": "National Collegiate Athletic Association",
+      "texte": "Pac-10 174 lb Conference Championship out of Oregon State University (2010, 2011)"
+    },
+    {
+      "org": "National Junior College Athletic Association",
+      "texte": "NJCAA 165 lb National Championship out of Iowa Central Community College (2007)"
+    },
+    {
+      "org": "National Junior College Athletic Association",
+      "texte": "NJCAA All-American out of Iowa Central Community College (2007)"
+    },
+    {
+      "org": "Oregon State Activities Association",
+      "texte": "OSAA 171 lb State Championship out of Thurston High School (2006)"
+    },
+    {
+      "org": "National High School Coaches Association",
+      "texte": "2006 NHSCA Senior Nationals- 3rd Place"
+    },
+    {
+      "org": "Real American Freestyle",
+      "texte": "RAF Cruiserweight Crossover Champion (One time, Inaugural, current)"
+    },
+    {
+      "org": "Real American Freestyle",
+      "texte": "One successful title defense"
+    },
+    {
+      "org": "Real American Freestyle",
+      "texte": "Match of the Night (One time) vs. Arman Tsarukyan"
+    },
+    {
+      "org": null,
+      "texte": "2006 Freestyle Junior Nationals - 4th place"
+    },
+    {
+      "org": null,
+      "texte": "2005 Greco-Roman Junior Nationals - 5th Place"
+    },
+    {
+      "org": "FILA",
+      "texte": "2013 FILA No-Gi Grappling World Championship – 1st place, 77 kg"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Interim UFC Welterweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Two times) vs. Kamaru Usman 1 and Jorge Masvidal '"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most significant strikes landed in a UFC Welterweight bout (179) (vs. Robbie Lawler )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most significant strikes attempted in a UFC Welterweight bout (515) (vs. Robbie Lawler )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most total strikes attempted in a UFC Welterweight bout (541) (vs. Robbie Lawler )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most takedowns landed in UFC Welterweight division history (70)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most control time in UFC Welterweight division history (2:05:05)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth most total strikes landed in UFC Welterweight division history (2043)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2014: Ranked #5 Newcomer of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2019: Ranked #2 Fight of the Year vs. Kamaru Usman 1"
+    },
+    {
+      "org": "MMA Weekly",
+      "texte": "2017 Breakout Fighter of the Year"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2019 #5 Ranked UFC Fight of the Year vs. Kamaru Usman at UFC 245"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2019 Rivalry of the Year vs. Kamaru Usman"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion intérimaire UFC des poids mi-moyens",
+      "Bonus UFC : 2× Combat de la soirée"
+    ],
+    "en": [
+      "Interim UFC Welterweight Champion",
+      "UFC bonuses: 2× Fight of the Night"
+    ]
+  },
   "image_commons": "ColbyCovingtonFortJackson2022(cropped).jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Colby_Covington",

@@ -105,21 +105,63 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Fight of the Night (One time) vs. Felipe dos Santos",
-    "Performance of the Night (Three times) vs. Asu Almabayev , Brandon Royval and Kyoji Horiguchi",
-    "Most knockouts in UFC Flyweight division history (6)",
-    "Longest knockout streak in UFC Flyweight division history (4)",
-    "Tied ( Kai Kara-France & Joshua Van ) for second most knockdowns in UFC Flyweight division history (8) (behind Deiveson Figueiredo )",
-    "Tied ( Joseph Benavidez , Brandon Moreno & Tatsuro Taira ) for fourth most finishes in UFC Flyweight division history (6)",
-    "Fifth highest significant strike accuracy percentage in UFC Flyweight division history (55.1%)",
-    "Fifth highest knockdowns-per-fifteen-minutes in UFC Flyweight division history (0.97)",
-    "Rizin Fighting Federation RIZIN Bantamweight Championship (One time)",
-    "RIZIN Bantamweight Championship (One time)",
-    "Knock Out Championship KOC Bantamweight Championship (One time)",
-    "KOC Bantamweight Championship (One time)",
-    "MMA Fighting 2025 Second Team MMA All-Star",
-    "2025 Second Team MMA All-Star"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Felipe dos Santos"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Three times) vs. Asu Almabayev , Brandon Royval and Kyoji Horiguchi"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most knockouts in UFC Flyweight division history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Longest knockout streak in UFC Flyweight division history (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Kai Kara-France & Joshua Van ) for second most knockdowns in UFC Flyweight division history (8) (behind Deiveson Figueiredo )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Joseph Benavidez , Brandon Moreno & Tatsuro Taira ) for fourth most finishes in UFC Flyweight division history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth highest significant strike accuracy percentage in UFC Flyweight division history (55.1%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth highest knockdowns-per-fifteen-minutes in UFC Flyweight division history (0.97)"
+    },
+    {
+      "org": "Rizin Fighting Federation",
+      "texte": "RIZIN Bantamweight Championship (One time)"
+    },
+    {
+      "org": "Knock Out Championship",
+      "texte": "KOC Bantamweight Championship (One time)"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2025 Second Team MMA All-Star"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion RIZIN des poids coq",
+      "Record UFC chez les poids mouche : victoires par KO (6)",
+      "Bonus UFC : 3× Performance de la soirée, 1× Combat de la soirée"
+    ],
+    "en": [
+      "RIZIN Bantamweight Champion",
+      "UFC Flyweight record: most knockout wins (6)",
+      "UFC bonuses: 3× Performance of the Night, 1× Fight of the Night"
+    ]
+  },
   "image_commons": "ManelKape2017.png",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Manel_Kape",

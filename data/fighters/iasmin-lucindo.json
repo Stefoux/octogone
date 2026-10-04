@@ -97,11 +97,23 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Ultimate Fighting Championship Performance of the Night (One time) vs. Polyana Viana",
-    "Performance of the Night (One time) vs. Polyana Viana",
-    "Samurai Fight House Samurai Fight House Women's Flyweight Champion (One time)",
-    "Samurai Fight House Women's Flyweight Champion (One time)"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Polyana Viana"
+    },
+    {
+      "org": "Samurai Fight House",
+      "texte": "Samurai Fight House Women's Flyweight Champion (One time)"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 1× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 1× Performance of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Iasmin_Lucindo",

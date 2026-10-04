@@ -101,20 +101,63 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Performance of the Night (Two times) vs. Felice Herrig and Amanda Lemos",
-    "Tied ( Mackenzie Dern ) for most submission attempts in UFC Women's Strawweight division history (16)",
-    "Most control time in UFC Women's Strawweight division history (1:14:52)",
-    "Most top-position time in UFC Women's Strawweight division history (1:01:53)",
-    "Third highest control time percentage in UFC Women's Strawweight division history (43.3%)",
-    "Tied ( Cláudia Gadelha & Loopy Godinez ) for second most takedowns landed in UFC Women's Strawweight division history (36)",
-    "Fourth highest top-position percentage in UFC Women's Strawweight division history (35.8%)",
-    "Fifth most submissions-per-fifteen minutes in UFC Women's Strawweight division history (1.39)",
-    "Invicta Fighting Championships Strawweight Champion One title defense (vs. Janaisa Morandin )",
-    "One title defense (vs. Janaisa Morandin )",
-    "Performance of the Night (Two times) vs. Amy Montenegro and Janaisa Morandin",
-    "MMA Fighting 2024 Third Team MMA All-Star",
-    "2024 Third Team MMA All-Star"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. Felice Herrig and Amanda Lemos"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Mackenzie Dern ) for most submission attempts in UFC Women's Strawweight division history (16)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most control time in UFC Women's Strawweight division history (1:14:52)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most top-position time in UFC Women's Strawweight division history (1:01:53)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third highest control time percentage in UFC Women's Strawweight division history (43.3%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Cláudia Gadelha & Loopy Godinez ) for second most takedowns landed in UFC Women's Strawweight division history (36)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth highest top-position percentage in UFC Women's Strawweight division history (35.8%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth most submissions-per-fifteen minutes in UFC Women's Strawweight division history (1.39)"
+    },
+    {
+      "org": "Invicta Fighting Championships",
+      "texte": "Invicta Fighting Championships Strawweight Champion"
+    },
+    {
+      "org": "Invicta Fighting Championships",
+      "texte": "One title defense (vs. Janaisa Morandin )"
+    },
+    {
+      "org": "Invicta Fighting Championships",
+      "texte": "Performance of the Night (Two times) vs. Amy Montenegro and Janaisa Morandin"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2024 Third Team MMA All-Star"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 4× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 4× Performance of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Virna_Jandiroba",

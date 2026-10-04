@@ -103,11 +103,27 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Performance of the Night (Four times) vs. Danny Henry , Gavin Tucker , Damon Jackson and Andre Fili",
-    "Tied ( Choi Doo-ho ) for fifth most knockouts in UFC Featherweight division history (5)",
-    "BodySlam.net 2024 Moment of the Year Fought on just hours notice at UFC 303",
-    "2024 Moment of the Year Fought on just hours notice at UFC 303"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Four times) vs. Danny Henry , Gavin Tucker , Damon Jackson and Andre Fili"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Choi Doo-ho ) for fifth most knockouts in UFC Featherweight division history (5)"
+    },
+    {
+      "org": "BodySlam.net",
+      "texte": "2024 Moment of the Year Fought on just hours notice at UFC 303"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 4× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 4× Performance of the Night"
+    ]
+  },
   "image_commons": "Dan Ige at UFC Fight Night 147 in London.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Dan_Ige",

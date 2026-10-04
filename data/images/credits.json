@@ -19,46 +19,6 @@
     "licence_url": null,
     "source_url": "https://commons.wikimedia.org/wiki/File:Alex_Pereira_in_the_Oval_Office_(while_President_Donald_J._Trump_is_holding_a_meeting_with_UFC_fighters).jpg"
   },
-  "jon-jones": {
-    "fichier": "fighters/jon-jones.webp",
-    "largeur": 697,
-    "hauteur": 929,
-    "focal_x": 0.6205,
-    "focal_y": 0.3526,
-    "visage": {
-      "x": 0.3343,
-      "y": 0.1378,
-      "w": 0.5725,
-      "h": 0.4295
-    },
-    "recadrage": "visage",
-    "fighter_id": "jon-jones",
-    "titre": "File:Jon Jones in 2014 (cropped).jpg",
-    "auteur": "United States Senate Democrats",
-    "licence": "Public domain",
-    "licence_url": null,
-    "source_url": "https://commons.wikimedia.org/wiki/File:Jon_Jones_in_2014_(cropped).jpg"
-  },
-  "zhang-weili": {
-    "fichier": "fighters/zhang-weili.webp",
-    "largeur": 325,
-    "hauteur": 434,
-    "focal_x": 0.5,
-    "focal_y": 0.4158,
-    "visage": {
-      "x": 0.1292,
-      "y": 0.1382,
-      "w": 0.7415,
-      "h": 0.5553
-    },
-    "recadrage": "visage",
-    "fighter_id": "zhang-weili",
-    "titre": "File:张伟丽.png",
-    "auteur": "中国新闻网",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:%E5%BC%A0%E4%BC%9F%E4%B8%BD.png"
-  },
   "alexa-grasso": {
     "fichier": "fighters/alexa-grasso.webp",
     "largeur": 413,
@@ -179,6 +139,26 @@
     "licence_url": "https://creativecommons.org/licenses/by/3.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:AllanNascimento.jpg"
   },
+  "alonzo-menifield": {
+    "fichier": "fighters/alonzo-menifield.webp",
+    "largeur": 506,
+    "hauteur": 674,
+    "focal_x": 0.6374,
+    "focal_y": 0.2797,
+    "visage": {
+      "x": 0.3775,
+      "y": 0.0846,
+      "w": 0.5198,
+      "h": 0.3902
+    },
+    "recadrage": "visage",
+    "fighter_id": "alonzo-menifield",
+    "titre": "File:Alonzo Menifield Jan 20, 2019.jpg",
+    "auteur": "MMAnytt",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Alonzo_Menifield_Jan_20,_2019.jpg"
+  },
   "amanda-nunes": {
     "fichier": "fighters/amanda-nunes.webp",
     "largeur": 449,
@@ -218,6 +198,26 @@
     "licence": "CC BY-SA 3.0",
     "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
     "source_url": "https://commons.wikimedia.org/wiki/File:Anderson_Silva.jpg"
+  },
+  "antonio-rodrigo-nogueira": {
+    "fichier": "fighters/antonio-rodrigo-nogueira.webp",
+    "largeur": 468,
+    "hauteur": 624,
+    "focal_x": 0.6634,
+    "focal_y": 0.278,
+    "visage": {
+      "x": 0.4765,
+      "y": 0.1378,
+      "w": 0.3739,
+      "h": 0.2804
+    },
+    "recadrage": "visage",
+    "fighter_id": "antonio-rodrigo-nogueira",
+    "titre": "File:Sessão Solene em homenagem ao Dia Estadual do MMA - 12.11.2015 (22957902296) CROPPED.jpg",
+    "auteur": "ALES from Vitória-ES, Brasil",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sess%C3%A3o_Solene_em_homenagem_ao_Dia_Estadual_do_MMA_-_12.11.2015_(22957902296)_CROPPED.jpg"
   },
   "ariane-lipski": {
     "fichier": "fighters/ariane-lipski.webp",
@@ -359,45 +359,45 @@
     "licence_url": "https://creativecommons.org/licenses/by/4.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:BrendanAllen.png"
   },
-  "brian-ortega": {
-    "fichier": "fighters/brian-ortega.webp",
-    "largeur": 493,
-    "hauteur": 658,
-    "focal_x": 0.5,
-    "focal_y": 0.3382,
+  "brock-lesnar": {
+    "fichier": "fighters/brock-lesnar.webp",
+    "largeur": 720,
+    "hauteur": 960,
+    "focal_x": 0.3621,
+    "focal_y": 0.3294,
     "visage": {
-      "x": 0.1258,
-      "y": 0.0578,
-      "w": 0.7485,
-      "h": 0.5608
+      "x": 0.1753,
+      "y": 0.1894,
+      "w": 0.3736,
+      "h": 0.28
     },
     "recadrage": "visage",
-    "fighter_id": "brian-ortega",
-    "titre": "File:Brian Ortega on MMAnytt.jpg",
-    "auteur": "MMAnytt",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Brian_Ortega_on_MMAnytt.jpg"
+    "fighter_id": "brock-lesnar",
+    "titre": "File:Brock Lesnar At SummerSlam 2023 (cropped).jpg",
+    "auteur": "Diego Serrano",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Brock_Lesnar_At_SummerSlam_2023_(cropped).jpg"
   },
-  "brunno-ferreira": {
-    "fichier": "fighters/brunno-ferreira.webp",
-    "largeur": 641,
-    "hauteur": 854,
-    "focal_x": 0.5889,
-    "focal_y": 0.3097,
+  "caio-borralho": {
+    "fichier": "fighters/caio-borralho.webp",
+    "largeur": 222,
+    "hauteur": 297,
+    "focal_x": 0.5023,
+    "focal_y": 0.4596,
     "visage": {
-      "x": 0.3307,
-      "y": 0.1159,
-      "w": 0.5164,
-      "h": 0.3876
+      "x": 0.0541,
+      "y": 0.1246,
+      "w": 0.8964,
+      "h": 0.67
     },
     "recadrage": "visage",
-    "fighter_id": "brunno-ferreira",
-    "titre": "File:GregoryRodrigues.png",
-    "auteur": "Show Me The Money",
+    "fighter_id": "caio-borralho",
+    "titre": "File:Borralho en Future FC.png",
+    "auteur": "BDA - Batalha Da Aldeia",
     "licence": "CC BY 3.0",
     "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:GregoryRodrigues.png"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Borralho_en_Future_FC.png"
   },
   "carla-esparza": {
     "fichier": "fighters/carla-esparza.webp",
@@ -418,6 +418,46 @@
     "licence": "CC BY 3.0",
     "licence_url": "https://creativecommons.org/licenses/by/3.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Carla_Esparza_2022_01.jpg"
+  },
+  "carlos-ulberg": {
+    "fichier": "fighters/carlos-ulberg.webp",
+    "largeur": 618,
+    "hauteur": 824,
+    "focal_x": 0.5008,
+    "focal_y": 0.2954,
+    "visage": {
+      "x": 0.3139,
+      "y": 0.1553,
+      "w": 0.3738,
+      "h": 0.2803
+    },
+    "recadrage": "visage",
+    "fighter_id": "carlos-ulberg",
+    "titre": "File:Motorcycle stunts on the South Lawn of the White House ahead of UFC Freedom 250, Saturday, June 13, 2026 - 11(cropped).jpg",
+    "auteur": "The White House",
+    "licence": "Public domain",
+    "licence_url": null,
+    "source_url": "https://commons.wikimedia.org/wiki/File:Motorcycle_stunts_on_the_South_Lawn_of_the_White_House_ahead_of_UFC_Freedom_250,_Saturday,_June_13,_2026_-_11(cropped).jpg"
+  },
+  "chael-sonnen": {
+    "fichier": "fighters/chael-sonnen.webp",
+    "largeur": 428,
+    "hauteur": 571,
+    "focal_x": 0.5186,
+    "focal_y": 0.3449,
+    "visage": {
+      "x": 0.2196,
+      "y": 0.1208,
+      "w": 0.5981,
+      "h": 0.4483
+    },
+    "recadrage": "visage",
+    "fighter_id": "chael-sonnen",
+    "titre": "File:Chael Sonnen - 2018.jpg",
+    "auteur": "GOhioCasts",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Chael_Sonnen_-_2018.jpg"
   },
   "chan-sung-jung": {
     "fichier": "fighters/chan-sung-jung.webp",
@@ -458,6 +498,26 @@
     "licence": "CC0",
     "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "source_url": "https://commons.wikimedia.org/wiki/File:Charles_Oliveira_do_Bronxs.jpg"
+  },
+  "chris-weidman": {
+    "fichier": "fighters/chris-weidman.webp",
+    "largeur": 720,
+    "hauteur": 960,
+    "focal_x": 0.677,
+    "focal_y": 0.408,
+    "visage": {
+      "x": 0.3608,
+      "y": 0.1708,
+      "w": 0.6324,
+      "h": 0.4743
+    },
+    "recadrage": "visage",
+    "fighter_id": "chris-weidman",
+    "titre": "File:Chris Weidman at UFC 230.jpg",
+    "auteur": "MMAnytt",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Chris_Weidman_at_UFC_230.jpg"
   },
   "chuck-liddell": {
     "fichier": "fighters/chuck-liddell.webp",
@@ -519,26 +579,6 @@
     "licence_url": "https://creativecommons.org/licenses/by/3.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Cody_Garbrandt.png"
   },
-  "colby-covington": {
-    "fichier": "fighters/colby-covington.webp",
-    "largeur": 421,
-    "hauteur": 561,
-    "focal_x": 0.4727,
-    "focal_y": 0.3851,
-    "visage": {
-      "x": 0.1283,
-      "y": 0.1266,
-      "w": 0.6888,
-      "h": 0.5169
-    },
-    "recadrage": "visage",
-    "fighter_id": "colby-covington",
-    "titre": "File:ColbyCovingtonFortJackson2022(cropped).jpg",
-    "auteur": "Alexandra Shea",
-    "licence": "CC0",
-    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "source_url": "https://commons.wikimedia.org/wiki/File:ColbyCovingtonFortJackson2022(cropped).jpg"
-  },
   "conor-mcgregor": {
     "fichier": "fighters/conor-mcgregor.webp",
     "largeur": 720,
@@ -599,25 +639,25 @@
     "licence_url": "https://creativecommons.org/licenses/by/3.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Curtis_Blaydes_at_UFC_221.png"
   },
-  "dan-hooker": {
-    "fichier": "fighters/dan-hooker.webp",
-    "largeur": 390,
-    "hauteur": 521,
-    "focal_x": 0.5,
-    "focal_y": 0.5336,
+  "dan-henderson": {
+    "fichier": "fighters/dan-henderson.webp",
+    "largeur": 346,
+    "hauteur": 462,
+    "focal_x": 0.3655,
+    "focal_y": 0.4448,
     "visage": {
-      "x": 0.1,
-      "y": 0.2342,
-      "w": 0.8,
-      "h": 0.5988
+      "x": 0.0491,
+      "y": 0.2078,
+      "w": 0.6329,
+      "h": 0.474
     },
     "recadrage": "visage",
-    "fighter_id": "dan-hooker",
-    "titre": "File:DanHooker2016.png",
-    "auteur": "Fight Bros NZ",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:DanHooker2016.png"
+    "fighter_id": "dan-henderson",
+    "titre": "File:DanHenderson.png",
+    "auteur": "East718 at English Wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:DanHenderson.png"
   },
   "dan-ige": {
     "fichier": "fighters/dan-ige.webp",
@@ -659,25 +699,25 @@
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Daniel_Cormier_taking_a_picture_with_a_fan..jpg"
   },
-  "deiveson-figueiredo": {
-    "fichier": "fighters/deiveson-figueiredo.webp",
-    "largeur": 720,
-    "hauteur": 959,
-    "focal_x": 0.476,
-    "focal_y": 0.4385,
+  "derrick-lewis": {
+    "fichier": "fighters/derrick-lewis.webp",
+    "largeur": 577,
+    "hauteur": 770,
+    "focal_x": 0.5009,
+    "focal_y": 0.3844,
     "visage": {
-      "x": 0.101,
-      "y": 0.1571,
-      "w": 0.75,
-      "h": 0.5628
+      "x": 0.2357,
+      "y": 0.1857,
+      "w": 0.5303,
+      "h": 0.3974
     },
     "recadrage": "visage",
-    "fighter_id": "deiveson-figueiredo",
-    "titre": "File:Deiveson Figueiredo 2024.jpg",
-    "auteur": "Show Me The Money",
+    "fighter_id": "derrick-lewis",
+    "titre": "File:Derrick Lewis after UFC 239.jpg",
+    "auteur": "MMAnytt",
     "licence": "CC BY 3.0",
     "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Deiveson_Figueiredo_2024.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Derrick_Lewis_after_UFC_239.jpg"
   },
   "diego-lopes": {
     "fichier": "fighters/diego-lopes.webp",
@@ -699,45 +739,25 @@
     "licence_url": "https://creativecommons.org/licenses/by/3.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Diego_Lopes_2025.jpg"
   },
-  "dominick-cruz": {
-    "fichier": "fighters/dominick-cruz.webp",
-    "largeur": 410,
-    "hauteur": 546,
-    "focal_x": 0.5963,
-    "focal_y": 0.3617,
+  "donald-cerrone": {
+    "fichier": "fighters/donald-cerrone.webp",
+    "largeur": 213,
+    "hauteur": 285,
+    "focal_x": 0.5024,
+    "focal_y": 0.3473,
     "visage": {
-      "x": 0.2707,
-      "y": 0.1172,
-      "w": 0.6512,
-      "h": 0.489
+      "x": 0.3146,
+      "y": 0.207,
+      "w": 0.3756,
+      "h": 0.2807
     },
     "recadrage": "visage",
-    "fighter_id": "dominick-cruz",
-    "titre": "File:Dom Cruz 2.png",
-    "auteur": "James K. McCann",
-    "licence": "Public domain",
-    "licence_url": null,
-    "source_url": "https://commons.wikimedia.org/wiki/File:Dom_Cruz_2.png"
-  },
-  "dominick-reyes": {
-    "fichier": "fighters/dominick-reyes.webp",
-    "largeur": 426,
-    "hauteur": 568,
-    "focal_x": 0.5457,
-    "focal_y": 0.3619,
-    "visage": {
-      "x": 0.2746,
-      "y": 0.1585,
-      "w": 0.5423,
-      "h": 0.4067
-    },
-    "recadrage": "visage",
-    "fighter_id": "dominick-reyes",
-    "titre": "File:Dominick Reyes 2024.png",
-    "auteur": "Chamatkar Sandhu",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Dominick_Reyes_2024.png"
+    "fighter_id": "donald-cerrone",
+    "titre": "File:Donald \"Cowboy\" Cerrone.jpg",
+    "auteur": "Peter Gordon",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Donald_%22Cowboy%22_Cerrone.jpg"
   },
   "dricus-du-plessis": {
     "fichier": "fighters/dricus-du-plessis.webp",
@@ -799,65 +819,80 @@
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:DustinPoirier.png"
   },
-  "elves-brener": {
-    "fichier": "fighters/elves-brener.webp",
-    "largeur": 404,
-    "hauteur": 539,
-    "focal_x": 0.5013,
-    "focal_y": 0.3442,
-    "visage": {
-      "x": 0.3144,
-      "y": 0.2041,
-      "w": 0.3738,
-      "h": 0.2801
-    },
-    "recadrage": "visage",
-    "fighter_id": "elves-brener",
-    "titre": "File:Joel-alvarez-posando.jpg",
-    "auteur": "Jprietf",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Joel-alvarez-posando.jpg"
+  "forrest-griffin": {
+    "fichier": "fighters/forrest-griffin.webp",
+    "largeur": 238,
+    "hauteur": 317,
+    "focal_x": 0.5,
+    "focal_y": 0.35,
+    "visage": null,
+    "recadrage": "centre_haut",
+    "fighter_id": "forrest-griffin",
+    "titre": "File:USMC-100809-M-6457M-001 CROPPED.jpg",
+    "auteur": "This image was released by the United States Marine Corps with the ID 100809-M-6457M-001 (next). This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing. العربية ∙ বাংলা ∙ Bahasa Indonesia ∙ Bahaso Jambi ∙ Deutsch ∙ Deutsch (Sie-Form) ∙ English ∙ español ∙ euskara ∙ فارسی ∙ français ∙ italiano ∙ 日本語 ∙ 한국어 ∙ македонски ∙ മലയാളം ∙ Plattdüütsch ∙ Nederlands ∙ polski ∙ پښتو ∙ português ∙ русский ∙ slovenščina ∙ svenska ∙ Türkçe ∙ українська ∙ 简体中文 ∙ 繁體中文 ∙ +/−",
+    "licence": "Public domain",
+    "licence_url": null,
+    "source_url": "https://commons.wikimedia.org/wiki/File:USMC-100809-M-6457M-001_CROPPED.jpg"
   },
-  "gabriel-miranda": {
-    "fichier": "fighters/gabriel-miranda.webp",
-    "largeur": 496,
-    "hauteur": 662,
-    "focal_x": 0.501,
-    "focal_y": 0.3483,
+  "frank-mir": {
+    "fichier": "fighters/frank-mir.webp",
+    "largeur": 485,
+    "hauteur": 647,
+    "focal_x": 0.5525,
+    "focal_y": 0.2612,
     "visage": {
-      "x": 0.2379,
-      "y": 0.1511,
-      "w": 0.5262,
-      "h": 0.3943
+      "x": 0.3216,
+      "y": 0.0881,
+      "w": 0.4619,
+      "h": 0.3462
     },
     "recadrage": "visage",
-    "fighter_id": "gabriel-miranda",
-    "titre": "File:Shane Young post fight interview at UFC 234.jpg",
-    "auteur": "MMAnytt",
+    "fighter_id": "frank-mir",
+    "titre": "File:Frank Mir.jpg",
+    "auteur": "FrankMir.png: Transferred from en.wikipedia to Commons. derivative work: Jdcollins13",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Frank_Mir.jpg"
+  },
+  "frank-shamrock": {
+    "fichier": "fighters/frank-shamrock.webp",
+    "largeur": 564,
+    "hauteur": 753,
+    "focal_x": 0.5009,
+    "focal_y": 0.3287,
+    "visage": {
+      "x": 0.2642,
+      "y": 0.1514,
+      "w": 0.4734,
+      "h": 0.3546
+    },
+    "recadrage": "visage",
+    "fighter_id": "frank-shamrock",
+    "titre": "File:Frank Shamrock.jpg",
+    "auteur": "Bruno Massami",
     "licence": "CC BY 3.0",
     "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Shane_Young_post_fight_interview_at_UFC_234.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Frank_Shamrock.jpg"
   },
-  "geoff-neal": {
-    "fichier": "fighters/geoff-neal.webp",
-    "largeur": 417,
-    "hauteur": 556,
-    "focal_x": 0.5012,
-    "focal_y": 0.3705,
+  "frankie-edgar": {
+    "fichier": "fighters/frankie-edgar.webp",
+    "largeur": 564,
+    "hauteur": 752,
+    "focal_x": 0.3289,
+    "focal_y": 0.2254,
     "visage": {
-      "x": 0.1031,
-      "y": 0.0719,
-      "w": 0.7962,
-      "h": 0.5971
+      "x": 0.1011,
+      "y": 0.0545,
+      "w": 0.4557,
+      "h": 0.3418
     },
     "recadrage": "visage",
-    "fighter_id": "geoff-neal",
-    "titre": "File:Geoff Neal at UFC 228.jpg",
-    "auteur": "MMAnytt",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Geoff_Neal_at_UFC_228.jpg"
+    "fighter_id": "frankie-edgar",
+    "titre": "File:Frankie Edgar.jpg",
+    "auteur": "Jemaleddin Cole",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Frankie_Edgar.jpg"
   },
   "georges-st-pierre": {
     "fichier": "fighters/georges-st-pierre.webp",
@@ -899,25 +934,25 @@
     "licence_url": "https://creativecommons.org/licenses/by/3.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Giga_Chikadze_post_fight_interview_at_UFC_Fight_Night_160_in_Copenhagen.jpg"
   },
-  "gilbert-burns": {
-    "fichier": "fighters/gilbert-burns.webp",
-    "largeur": 348,
-    "hauteur": 464,
-    "focal_x": 0.5014,
-    "focal_y": 0.4214,
+  "glover-teixeira": {
+    "fichier": "fighters/glover-teixeira.webp",
+    "largeur": 720,
+    "hauteur": 960,
+    "focal_x": 0.5007,
+    "focal_y": 0.25,
     "visage": {
-      "x": 0.2213,
-      "y": 0.2112,
-      "w": 0.5603,
-      "h": 0.4203
+      "x": 0.2677,
+      "y": 0.0753,
+      "w": 0.4659,
+      "h": 0.3494
     },
     "recadrage": "visage",
-    "fighter_id": "gilbert-burns",
-    "titre": "File:GilbertBurns.jpg",
-    "auteur": "Show Me The Money",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:GilbertBurns.jpg"
+    "fighter_id": "glover-teixeira",
+    "titre": "File:Glover Teixeira.jpg",
+    "auteur": "Senate Democrats",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Glover_Teixeira.jpg"
   },
   "henry-cejudo": {
     "fichier": "fighters/henry-cejudo.webp",
@@ -938,26 +973,6 @@
     "licence": "CC BY-SA 2.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Henry_Cejudo_(54235464255)_(cropped).jpg"
-  },
-  "holly-holm": {
-    "fichier": "fighters/holly-holm.webp",
-    "largeur": 656,
-    "hauteur": 875,
-    "focal_x": 0.5793,
-    "focal_y": 0.3624,
-    "visage": {
-      "x": 0.2439,
-      "y": 0.1109,
-      "w": 0.6707,
-      "h": 0.5029
-    },
-    "recadrage": "visage",
-    "fighter_id": "holly-holm",
-    "titre": "File:Holly Holm at UFC 246.jpg",
-    "auteur": "MMAnytt",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Holly_Holm_at_UFC_246.jpg"
   },
   "ian-machado-garry": {
     "fichier": "fighters/ian-machado-garry.webp",
@@ -1074,25 +1089,25 @@
     "licence_url": "https://creativecommons.org/licenses/by/3.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Jack_Hermansson_on_MMAnytt.jpg"
   },
-  "jailton-almeida": {
-    "fichier": "fighters/jailton-almeida.webp",
-    "largeur": 682,
-    "hauteur": 910,
-    "focal_x": 0.5008,
-    "focal_y": 0.3863,
+  "jack-shore": {
+    "fichier": "fighters/jack-shore.webp",
+    "largeur": 663,
+    "hauteur": 885,
+    "focal_x": 0.5408,
+    "focal_y": 0.3904,
     "visage": {
-      "x": 0.1481,
-      "y": 0.122,
-      "w": 0.7053,
-      "h": 0.5286
+      "x": 0.181,
+      "y": 0.1209,
+      "w": 0.7195,
+      "h": 0.539
     },
     "recadrage": "visage",
-    "fighter_id": "jailton-almeida",
-    "titre": "File:Almeida 2023.png",
-    "auteur": "Sexto Round",
+    "fighter_id": "jack-shore",
+    "titre": "File:Jack Shore at CAGE Warrior 100.jpg",
+    "auteur": "MMAnytt",
     "licence": "CC BY 3.0",
     "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Almeida_2023.png"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jack_Shore_at_CAGE_Warrior_100.jpg"
   },
   "jair-rozenstruik": {
     "fichier": "fighters/jair-rozenstruik.webp",
@@ -1113,26 +1128,6 @@
     "licence": "CC BY 3.0",
     "licence_url": "https://creativecommons.org/licenses/by/3.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Jairzinho_Rozenstruik_at_UFC_244.jpg"
-  },
-  "jalin-turner": {
-    "fichier": "fighters/jalin-turner.webp",
-    "largeur": 400,
-    "hauteur": 534,
-    "focal_x": 0.52,
-    "focal_y": 0.2921,
-    "visage": {
-      "x": 0.19,
-      "y": 0.0449,
-      "w": 0.66,
-      "h": 0.4944
-    },
-    "recadrage": "visage",
-    "fighter_id": "jalin-turner",
-    "titre": "File:Jalin Turner at UFC 234.jpg",
-    "auteur": "MMAnytt",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Jalin_Turner_at_UFC_234.jpg"
   },
   "jan-blachowicz": {
     "fichier": "fighters/jan-blachowicz.webp",
@@ -1174,6 +1169,26 @@
     "licence_url": "https://creativecommons.org/licenses/by/3.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Jared_Cannonier_at_UFC_Fight_Night_160_in_Copenhagen.jpg"
   },
+  "jens-pulver": {
+    "fichier": "fighters/jens-pulver.webp",
+    "largeur": 368,
+    "hauteur": 490,
+    "focal_x": 0.4469,
+    "focal_y": 0.3194,
+    "visage": {
+      "x": 0.2418,
+      "y": 0.1653,
+      "w": 0.4103,
+      "h": 0.3082
+    },
+    "recadrage": "visage",
+    "fighter_id": "jens-pulver",
+    "titre": "File:Jens Pulver at UFC - Neer vs Diaz 2013-12-03 22-51.jpg",
+    "auteur": "Kwallsk1",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jens_Pulver_at_UFC_-_Neer_vs_Diaz_2013-12-03_22-51.jpg"
+  },
   "jessica-andrade": {
     "fichier": "fighters/jessica-andrade.webp",
     "largeur": 636,
@@ -1214,6 +1229,46 @@
     "licence_url": "https://creativecommons.org/licenses/by/3.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:JiriProchazka2022.png"
   },
+  "joanna-jedrzejczyk": {
+    "fichier": "fighters/joanna-jedrzejczyk.webp",
+    "largeur": 492,
+    "hauteur": 656,
+    "focal_x": 0.5,
+    "focal_y": 0.3049,
+    "visage": {
+      "x": 0.2439,
+      "y": 0.1128,
+      "w": 0.5122,
+      "h": 0.3841
+    },
+    "recadrage": "visage",
+    "fighter_id": "joanna-jedrzejczyk",
+    "titre": "File:Joanna Jędrzejczyk.png",
+    "auteur": "KRK.TV",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Joanna_J%C4%99drzejczyk.png"
+  },
+  "joe-pyfer": {
+    "fichier": "fighters/joe-pyfer.webp",
+    "largeur": 206,
+    "hauteur": 275,
+    "focal_x": 0.5,
+    "focal_y": 0.2509,
+    "visage": {
+      "x": 0.1796,
+      "y": 0.0109,
+      "w": 0.6408,
+      "h": 0.48
+    },
+    "recadrage": "visage",
+    "fighter_id": "joe-pyfer",
+    "titre": "File:JoePyfer.jpg",
+    "auteur": "Checkin' Ringside",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:JoePyfer.jpg"
+  },
   "johnny-walker": {
     "fichier": "fighters/johnny-walker.webp",
     "largeur": 720,
@@ -1248,6 +1303,26 @@
     "licence": "Public domain",
     "licence_url": null,
     "source_url": "https://commons.wikimedia.org/wiki/File:In_Their_Corner_UFC_Visits_Walter_Reed_Warriors_(7)_(cropped).jpg"
+  },
+  "joshua-van": {
+    "fichier": "fighters/joshua-van.webp",
+    "largeur": 294,
+    "hauteur": 392,
+    "focal_x": 0.5,
+    "focal_y": 0.3444,
+    "visage": {
+      "x": 0.3129,
+      "y": 0.2041,
+      "w": 0.3741,
+      "h": 0.2806
+    },
+    "recadrage": "visage",
+    "fighter_id": "joshua-van",
+    "titre": "File:Joshua Van 1.png",
+    "auteur": "AlfredoMMA",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Joshua_Van_1.png"
   },
   "julianna-pena": {
     "fichier": "fighters/julianna-pena.webp",
@@ -1309,26 +1384,6 @@
     "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "source_url": "https://commons.wikimedia.org/wiki/File:Kaikarafrance.png"
   },
-  "kamaru-usman": {
-    "fichier": "fighters/kamaru-usman.webp",
-    "largeur": 536,
-    "hauteur": 715,
-    "focal_x": 0.5,
-    "focal_y": 0.3693,
-    "visage": {
-      "x": 0.2034,
-      "y": 0.1469,
-      "w": 0.5933,
-      "h": 0.4448
-    },
-    "recadrage": "visage",
-    "fighter_id": "kamaru-usman",
-    "titre": "File:KamaruUsmanPress2018.png",
-    "auteur": "MMAnytt",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:KamaruUsmanPress2018.png"
-  },
   "katlyn-cerminara": {
     "fichier": "fighters/katlyn-cerminara.webp",
     "largeur": 630,
@@ -1368,6 +1423,21 @@
     "licence": "CC BY 3.0",
     "licence_url": "https://creativecommons.org/licenses/by/3.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Kelvin_Gastelum.jpg"
+  },
+  "ken-shamrock": {
+    "fichier": "fighters/ken-shamrock.webp",
+    "largeur": 536,
+    "hauteur": 714,
+    "focal_x": 0.5,
+    "focal_y": 0.35,
+    "visage": null,
+    "recadrage": "centre_haut",
+    "fighter_id": "ken-shamrock",
+    "titre": "File:Ken Shamrock marines 2005 crop.jpg",
+    "auteur": "Cpl. J. Agg, Photo ID: 200582611351, Submitting Unit: MCB Quantico",
+    "licence": "Public domain",
+    "licence_url": null,
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ken_Shamrock_marines_2005_crop.jpg"
   },
   "khabib-nurmagomedov": {
     "fichier": "fighters/khabib-nurmagomedov.webp",
@@ -1409,581 +1479,6 @@
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Khalil_Rountree,_Jr.._(cropped).jpg"
   },
-  "ludovit-klein": {
-    "fichier": "fighters/ludovit-klein.webp",
-    "largeur": 501,
-    "hauteur": 668,
-    "focal_x": 0.5,
-    "focal_y": 0.35,
-    "visage": null,
-    "recadrage": "centre_haut",
-    "fighter_id": "ludovit-klein",
-    "titre": "File:Ludovit Klein.jpg",
-    "auteur": "TV JOJ",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Ludovit_Klein.jpg"
-  },
-  "alonzo-menifield": {
-    "fichier": "fighters/alonzo-menifield.webp",
-    "largeur": 506,
-    "hauteur": 674,
-    "focal_x": 0.6374,
-    "focal_y": 0.2797,
-    "visage": {
-      "x": 0.3775,
-      "y": 0.0846,
-      "w": 0.5198,
-      "h": 0.3902
-    },
-    "recadrage": "visage",
-    "fighter_id": "alonzo-menifield",
-    "titre": "File:Alonzo Menifield Jan 20, 2019.jpg",
-    "auteur": "MMAnytt",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Alonzo_Menifield_Jan_20,_2019.jpg"
-  },
-  "andrei-arlovski": {
-    "fichier": "fighters/andrei-arlovski.webp",
-    "largeur": 131,
-    "hauteur": 174,
-    "focal_x": 0.4313,
-    "focal_y": 0.3591,
-    "visage": {
-      "x": 0.0916,
-      "y": 0.1034,
-      "w": 0.6794,
-      "h": 0.5115
-    },
-    "recadrage": "visage",
-    "fighter_id": "andrei-arlovski",
-    "titre": "File:Arlovski.png",
-    "auteur": "blechdom",
-    "licence": "CC BY 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Arlovski.png"
-  },
-  "angela-hill": {
-    "fichier": "fighters/angela-hill.webp",
-    "largeur": 406,
-    "hauteur": 542,
-    "focal_x": 0.5,
-    "focal_y": 0.345,
-    "visage": {
-      "x": 0.3128,
-      "y": 0.2048,
-      "w": 0.3744,
-      "h": 0.2804
-    },
-    "recadrage": "visage",
-    "fighter_id": "angela-hill",
-    "titre": "File:Angela Hill victorious at Friday Night Fights.jpg",
-    "auteur": "Friday Night Fights MuayThai",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Angela_Hill_victorious_at_Friday_Night_Fights.jpg"
-  },
-  "antonio-rodrigo-nogueira": {
-    "fichier": "fighters/antonio-rodrigo-nogueira.webp",
-    "largeur": 468,
-    "hauteur": 624,
-    "focal_x": 0.6634,
-    "focal_y": 0.278,
-    "visage": {
-      "x": 0.4765,
-      "y": 0.1378,
-      "w": 0.3739,
-      "h": 0.2804
-    },
-    "recadrage": "visage",
-    "fighter_id": "antonio-rodrigo-nogueira",
-    "titre": "File:Sessão Solene em homenagem ao Dia Estadual do MMA - 12.11.2015 (22957902296) CROPPED.jpg",
-    "auteur": "ALES from Vitória-ES, Brasil",
-    "licence": "CC BY-SA 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Sess%C3%A3o_Solene_em_homenagem_ao_Dia_Estadual_do_MMA_-_12.11.2015_(22957902296)_CROPPED.jpg"
-  },
-  "bas-rutten": {
-    "fichier": "fighters/bas-rutten.webp",
-    "largeur": 399,
-    "hauteur": 532,
-    "focal_x": 0.5,
-    "focal_y": 0.35,
-    "visage": null,
-    "recadrage": "centre_haut",
-    "fighter_id": "bas-rutten",
-    "titre": "File:Bas Rutten.jpg",
-    "auteur": "Michael Dunn from Silicon Valley, USA",
-    "licence": "CC BY 2.5",
-    "licence_url": "https://creativecommons.org/licenses/by/2.5",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Bas_Rutten.jpg"
-  },
-  "bo-nickal": {
-    "fichier": "fighters/bo-nickal.webp",
-    "largeur": 519,
-    "hauteur": 693,
-    "focal_x": 0.526,
-    "focal_y": 0.3737,
-    "visage": {
-      "x": 0.2158,
-      "y": 0.1414,
-      "w": 0.6204,
-      "h": 0.4646
-    },
-    "recadrage": "visage",
-    "fighter_id": "bo-nickal",
-    "titre": "File:Bo Nickal (52791819473).jpg",
-    "auteur": "Noah Riffe",
-    "licence": "Public domain",
-    "licence_url": null,
-    "source_url": "https://commons.wikimedia.org/wiki/File:Bo_Nickal_(52791819473).jpg"
-  },
-  "brock-lesnar": {
-    "fichier": "fighters/brock-lesnar.webp",
-    "largeur": 720,
-    "hauteur": 960,
-    "focal_x": 0.3621,
-    "focal_y": 0.3294,
-    "visage": {
-      "x": 0.1753,
-      "y": 0.1894,
-      "w": 0.3736,
-      "h": 0.28
-    },
-    "recadrage": "visage",
-    "fighter_id": "brock-lesnar",
-    "titre": "File:Brock Lesnar At SummerSlam 2023 (cropped).jpg",
-    "auteur": "Diego Serrano",
-    "licence": "CC BY 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Brock_Lesnar_At_SummerSlam_2023_(cropped).jpg"
-  },
-  "caio-borralho": {
-    "fichier": "fighters/caio-borralho.webp",
-    "largeur": 222,
-    "hauteur": 297,
-    "focal_x": 0.5023,
-    "focal_y": 0.4596,
-    "visage": {
-      "x": 0.0541,
-      "y": 0.1246,
-      "w": 0.8964,
-      "h": 0.67
-    },
-    "recadrage": "visage",
-    "fighter_id": "caio-borralho",
-    "titre": "File:Borralho en Future FC.png",
-    "auteur": "BDA - Batalha Da Aldeia",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Borralho_en_Future_FC.png"
-  },
-  "carlos-ulberg": {
-    "fichier": "fighters/carlos-ulberg.webp",
-    "largeur": 618,
-    "hauteur": 824,
-    "focal_x": 0.5008,
-    "focal_y": 0.2954,
-    "visage": {
-      "x": 0.3139,
-      "y": 0.1553,
-      "w": 0.3738,
-      "h": 0.2803
-    },
-    "recadrage": "visage",
-    "fighter_id": "carlos-ulberg",
-    "titre": "File:Motorcycle stunts on the South Lawn of the White House ahead of UFC Freedom 250, Saturday, June 13, 2026 - 11(cropped).jpg",
-    "auteur": "The White House",
-    "licence": "Public domain",
-    "licence_url": null,
-    "source_url": "https://commons.wikimedia.org/wiki/File:Motorcycle_stunts_on_the_South_Lawn_of_the_White_House_ahead_of_UFC_Freedom_250,_Saturday,_June_13,_2026_-_11(cropped).jpg"
-  },
-  "chael-sonnen": {
-    "fichier": "fighters/chael-sonnen.webp",
-    "largeur": 428,
-    "hauteur": 571,
-    "focal_x": 0.5186,
-    "focal_y": 0.3449,
-    "visage": {
-      "x": 0.2196,
-      "y": 0.1208,
-      "w": 0.5981,
-      "h": 0.4483
-    },
-    "recadrage": "visage",
-    "fighter_id": "chael-sonnen",
-    "titre": "File:Chael Sonnen - 2018.jpg",
-    "auteur": "GOhioCasts",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Chael_Sonnen_-_2018.jpg"
-  },
-  "chris-weidman": {
-    "fichier": "fighters/chris-weidman.webp",
-    "largeur": 720,
-    "hauteur": 960,
-    "focal_x": 0.677,
-    "focal_y": 0.408,
-    "visage": {
-      "x": 0.3608,
-      "y": 0.1708,
-      "w": 0.6324,
-      "h": 0.4743
-    },
-    "recadrage": "visage",
-    "fighter_id": "chris-weidman",
-    "titre": "File:Chris Weidman at UFC 230.jpg",
-    "auteur": "MMAnytt",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Chris_Weidman_at_UFC_230.jpg"
-  },
-  "dan-henderson": {
-    "fichier": "fighters/dan-henderson.webp",
-    "largeur": 346,
-    "hauteur": 462,
-    "focal_x": 0.3655,
-    "focal_y": 0.4448,
-    "visage": {
-      "x": 0.0491,
-      "y": 0.2078,
-      "w": 0.6329,
-      "h": 0.474
-    },
-    "recadrage": "visage",
-    "fighter_id": "dan-henderson",
-    "titre": "File:DanHenderson.png",
-    "auteur": "East718 at English Wikipedia",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:DanHenderson.png"
-  },
-  "derrick-lewis": {
-    "fichier": "fighters/derrick-lewis.webp",
-    "largeur": 577,
-    "hauteur": 770,
-    "focal_x": 0.5009,
-    "focal_y": 0.3844,
-    "visage": {
-      "x": 0.2357,
-      "y": 0.1857,
-      "w": 0.5303,
-      "h": 0.3974
-    },
-    "recadrage": "visage",
-    "fighter_id": "derrick-lewis",
-    "titre": "File:Derrick Lewis after UFC 239.jpg",
-    "auteur": "MMAnytt",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Derrick_Lewis_after_UFC_239.jpg"
-  },
-  "donald-cerrone": {
-    "fichier": "fighters/donald-cerrone.webp",
-    "largeur": 213,
-    "hauteur": 285,
-    "focal_x": 0.5024,
-    "focal_y": 0.3473,
-    "visage": {
-      "x": 0.3146,
-      "y": 0.207,
-      "w": 0.3756,
-      "h": 0.2807
-    },
-    "recadrage": "visage",
-    "fighter_id": "donald-cerrone",
-    "titre": "File:Donald \"Cowboy\" Cerrone.jpg",
-    "auteur": "Peter Gordon",
-    "licence": "CC BY 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Donald_%22Cowboy%22_Cerrone.jpg"
-  },
-  "forrest-griffin": {
-    "fichier": "fighters/forrest-griffin.webp",
-    "largeur": 238,
-    "hauteur": 317,
-    "focal_x": 0.5,
-    "focal_y": 0.35,
-    "visage": null,
-    "recadrage": "centre_haut",
-    "fighter_id": "forrest-griffin",
-    "titre": "File:USMC-100809-M-6457M-001 CROPPED.jpg",
-    "auteur": "This image was released by the United States Marine Corps with the ID 100809-M-6457M-001 (next). This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing. العربية ∙ বাংলা ∙ Bahasa Indonesia ∙ Bahaso Jambi ∙ Deutsch ∙ Deutsch (Sie-Form) ∙ English ∙ español ∙ euskara ∙ فارسی ∙ français ∙ italiano ∙ 日本語 ∙ 한국어 ∙ македонски ∙ മലയാളം ∙ Plattdüütsch ∙ Nederlands ∙ polski ∙ پښتو ∙ português ∙ русский ∙ slovenščina ∙ svenska ∙ Türkçe ∙ українська ∙ 简体中文 ∙ 繁體中文 ∙ +/−",
-    "licence": "Public domain",
-    "licence_url": null,
-    "source_url": "https://commons.wikimedia.org/wiki/File:USMC-100809-M-6457M-001_CROPPED.jpg"
-  },
-  "frank-mir": {
-    "fichier": "fighters/frank-mir.webp",
-    "largeur": 485,
-    "hauteur": 647,
-    "focal_x": 0.5525,
-    "focal_y": 0.2612,
-    "visage": {
-      "x": 0.3216,
-      "y": 0.0881,
-      "w": 0.4619,
-      "h": 0.3462
-    },
-    "recadrage": "visage",
-    "fighter_id": "frank-mir",
-    "titre": "File:Frank Mir.jpg",
-    "auteur": "FrankMir.png: Transferred from en.wikipedia to Commons. derivative work: Jdcollins13",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Frank_Mir.jpg"
-  },
-  "frank-shamrock": {
-    "fichier": "fighters/frank-shamrock.webp",
-    "largeur": 564,
-    "hauteur": 753,
-    "focal_x": 0.5009,
-    "focal_y": 0.3287,
-    "visage": {
-      "x": 0.2642,
-      "y": 0.1514,
-      "w": 0.4734,
-      "h": 0.3546
-    },
-    "recadrage": "visage",
-    "fighter_id": "frank-shamrock",
-    "titre": "File:Frank Shamrock.jpg",
-    "auteur": "Bruno Massami",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Frank_Shamrock.jpg"
-  },
-  "frankie-edgar": {
-    "fichier": "fighters/frankie-edgar.webp",
-    "largeur": 564,
-    "hauteur": 752,
-    "focal_x": 0.3289,
-    "focal_y": 0.2254,
-    "visage": {
-      "x": 0.1011,
-      "y": 0.0545,
-      "w": 0.4557,
-      "h": 0.3418
-    },
-    "recadrage": "visage",
-    "fighter_id": "frankie-edgar",
-    "titre": "File:Frankie Edgar.jpg",
-    "auteur": "Jemaleddin Cole",
-    "licence": "CC BY-SA 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Frankie_Edgar.jpg"
-  },
-  "glover-teixeira": {
-    "fichier": "fighters/glover-teixeira.webp",
-    "largeur": 720,
-    "hauteur": 960,
-    "focal_x": 0.5007,
-    "focal_y": 0.25,
-    "visage": {
-      "x": 0.2677,
-      "y": 0.0753,
-      "w": 0.4659,
-      "h": 0.3494
-    },
-    "recadrage": "visage",
-    "fighter_id": "glover-teixeira",
-    "titre": "File:Glover Teixeira.jpg",
-    "auteur": "Senate Democrats",
-    "licence": "CC BY 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Glover_Teixeira.jpg"
-  },
-  "jack-shore": {
-    "fichier": "fighters/jack-shore.webp",
-    "largeur": 663,
-    "hauteur": 885,
-    "focal_x": 0.5408,
-    "focal_y": 0.3904,
-    "visage": {
-      "x": 0.181,
-      "y": 0.1209,
-      "w": 0.7195,
-      "h": 0.539
-    },
-    "recadrage": "visage",
-    "fighter_id": "jack-shore",
-    "titre": "File:Jack Shore at CAGE Warrior 100.jpg",
-    "auteur": "MMAnytt",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Jack_Shore_at_CAGE_Warrior_100.jpg"
-  },
-  "jake-hadley": {
-    "fichier": "fighters/jake-hadley.webp",
-    "largeur": 552,
-    "hauteur": 736,
-    "focal_x": 0.5,
-    "focal_y": 0.2813,
-    "visage": {
-      "x": 0.2627,
-      "y": 0.1033,
-      "w": 0.4746,
-      "h": 0.356
-    },
-    "recadrage": "visage",
-    "fighter_id": "jake-hadley",
-    "titre": "File:AllanNascimento.jpg",
-    "auteur": "Bruno Massami",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:AllanNascimento.jpg"
-  },
-  "jens-pulver": {
-    "fichier": "fighters/jens-pulver.webp",
-    "largeur": 368,
-    "hauteur": 490,
-    "focal_x": 0.4469,
-    "focal_y": 0.3194,
-    "visage": {
-      "x": 0.2418,
-      "y": 0.1653,
-      "w": 0.4103,
-      "h": 0.3082
-    },
-    "recadrage": "visage",
-    "fighter_id": "jens-pulver",
-    "titre": "File:Jens Pulver at UFC - Neer vs Diaz 2013-12-03 22-51.jpg",
-    "auteur": "Kwallsk1",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Jens_Pulver_at_UFC_-_Neer_vs_Diaz_2013-12-03_22-51.jpg"
-  },
-  "joanna-jedrzejczyk": {
-    "fichier": "fighters/joanna-jedrzejczyk.webp",
-    "largeur": 492,
-    "hauteur": 656,
-    "focal_x": 0.5,
-    "focal_y": 0.3049,
-    "visage": {
-      "x": 0.2439,
-      "y": 0.1128,
-      "w": 0.5122,
-      "h": 0.3841
-    },
-    "recadrage": "visage",
-    "fighter_id": "joanna-jedrzejczyk",
-    "titre": "File:Joanna Jędrzejczyk.png",
-    "auteur": "KRK.TV",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Joanna_J%C4%99drzejczyk.png"
-  },
-  "joe-pyfer": {
-    "fichier": "fighters/joe-pyfer.webp",
-    "largeur": 206,
-    "hauteur": 275,
-    "focal_x": 0.5,
-    "focal_y": 0.2509,
-    "visage": {
-      "x": 0.1796,
-      "y": 0.0109,
-      "w": 0.6408,
-      "h": 0.48
-    },
-    "recadrage": "visage",
-    "fighter_id": "joe-pyfer",
-    "titre": "File:JoePyfer.jpg",
-    "auteur": "Checkin' Ringside",
-    "licence": "CC BY 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by/4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:JoePyfer.jpg"
-  },
-  "joshua-van": {
-    "fichier": "fighters/joshua-van.webp",
-    "largeur": 294,
-    "hauteur": 392,
-    "focal_x": 0.5,
-    "focal_y": 0.3444,
-    "visage": {
-      "x": 0.3129,
-      "y": 0.2041,
-      "w": 0.3741,
-      "h": 0.2806
-    },
-    "recadrage": "visage",
-    "fighter_id": "joshua-van",
-    "titre": "File:Joshua Van 1.png",
-    "auteur": "AlfredoMMA",
-    "licence": "CC BY 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by/4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Joshua_Van_1.png"
-  },
-  "junior-dos-santos": {
-    "fichier": "fighters/junior-dos-santos.webp",
-    "largeur": 543,
-    "hauteur": 724,
-    "focal_x": 0.5,
-    "focal_y": 0.2037,
-    "visage": {
-      "x": 0.3131,
-      "y": 0.0635,
-      "w": 0.3738,
-      "h": 0.2804
-    },
-    "recadrage": "visage",
-    "fighter_id": "junior-dos-santos",
-    "titre": "File:Junior dos Santos.jpg",
-    "auteur": "Peter Gordon",
-    "licence": "CC BY 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Junior_dos_Santos.jpg"
-  },
-  "kayla-harrison": {
-    "fichier": "fighters/kayla-harrison.webp",
-    "largeur": 403,
-    "hauteur": 537,
-    "focal_x": 0.4938,
-    "focal_y": 0.3631,
-    "visage": {
-      "x": 0.1935,
-      "y": 0.1378,
-      "w": 0.6005,
-      "h": 0.4507
-    },
-    "recadrage": "visage",
-    "fighter_id": "kayla-harrison",
-    "titre": "File:President Donald Trump congratulates Kayla Harrison after her victory during UFC 316 (54577590491) (cropped).jpg",
-    "auteur": "The White House",
-    "licence": "Public domain",
-    "licence_url": null,
-    "source_url": "https://commons.wikimedia.org/wiki/File:President_Donald_Trump_congratulates_Kayla_Harrison_after_her_victory_during_UFC_316_(54577590491)_(cropped).jpg"
-  },
-  "ken-shamrock": {
-    "fichier": "fighters/ken-shamrock.webp",
-    "largeur": 536,
-    "hauteur": 714,
-    "focal_x": 0.5,
-    "focal_y": 0.35,
-    "visage": null,
-    "recadrage": "centre_haut",
-    "fighter_id": "ken-shamrock",
-    "titre": "File:Ken Shamrock marines 2005 crop.jpg",
-    "auteur": "Cpl. J. Agg, Photo ID: 200582611351, Submitting Unit: MCB Quantico",
-    "licence": "Public domain",
-    "licence_url": null,
-    "source_url": "https://commons.wikimedia.org/wiki/File:Ken_Shamrock_marines_2005_crop.jpg"
-  },
-  "kevin-holland": {
-    "fichier": "fighters/kevin-holland.webp",
-    "largeur": 720,
-    "hauteur": 960,
-    "focal_x": 0.5,
-    "focal_y": 0.35,
-    "visage": null,
-    "recadrage": "centre_haut",
-    "fighter_id": "kevin-holland",
-    "titre": "File:Kevin Holland at UFC 316 (54576727207).jpg",
-    "auteur": "The White House",
-    "licence": "Public domain",
-    "licence_url": null,
-    "source_url": "https://commons.wikimedia.org/wiki/File:Kevin_Holland_at_UFC_316_(54576727207).jpg"
-  },
   "khamzat-chimaev": {
     "fichier": "fighters/khamzat-chimaev.webp",
     "largeur": 385,
@@ -2018,6 +1513,21 @@
     "licence": "CC BY 3.0",
     "licence_url": "https://creativecommons.org/licenses/by/3.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Leon_Edwards_2021.png"
+  },
+  "ludovit-klein": {
+    "fichier": "fighters/ludovit-klein.webp",
+    "largeur": 501,
+    "hauteur": 668,
+    "focal_x": 0.5,
+    "focal_y": 0.35,
+    "visage": null,
+    "recadrage": "centre_haut",
+    "fighter_id": "ludovit-klein",
+    "titre": "File:Ludovit Klein.jpg",
+    "auteur": "TV JOJ",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ludovit_Klein.jpg"
   },
   "lyoto-machida": {
     "fichier": "fighters/lyoto-machida.webp",
@@ -2059,65 +1569,25 @@
     "licence_url": "https://creativecommons.org/licenses/by/3.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Mackenzie_Dern.png"
   },
-  "magomed-ankalaev": {
-    "fichier": "fighters/magomed-ankalaev.webp",
-    "largeur": 498,
-    "hauteur": 665,
-    "focal_x": 0.5673,
-    "focal_y": 0.4007,
+  "marcos-rogerio-de-lima": {
+    "fichier": "fighters/marcos-rogerio-de-lima.webp",
+    "largeur": 74,
+    "hauteur": 99,
+    "focal_x": 0.5135,
+    "focal_y": 0.3535,
     "visage": {
-      "x": 0.1968,
-      "y": 0.1233,
-      "w": 0.741,
-      "h": 0.5549
+      "x": 0.3243,
+      "y": 0.2121,
+      "w": 0.3784,
+      "h": 0.2828
     },
     "recadrage": "visage",
-    "fighter_id": "magomed-ankalaev",
-    "titre": "File:Magomed Ankalaev at UFC Fight Night 136 in Moscow, Russia.jpg",
-    "auteur": "MMAnytt",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Magomed_Ankalaev_at_UFC_Fight_Night_136_in_Moscow,_Russia.jpg"
-  },
-  "manel-kape": {
-    "fichier": "fighters/manel-kape.webp",
-    "largeur": 687,
-    "hauteur": 916,
-    "focal_x": 0.4812,
-    "focal_y": 0.3171,
-    "visage": {
-      "x": 0.2213,
-      "y": 0.1223,
-      "w": 0.5197,
-      "h": 0.3897
-    },
-    "recadrage": "visage",
-    "fighter_id": "manel-kape",
-    "titre": "File:ManelKape2017.png",
-    "auteur": "Bruno Massami",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:ManelKape2017.png"
-  },
-  "manon-fiorot": {
-    "fichier": "fighters/manon-fiorot.webp",
-    "largeur": 596,
-    "hauteur": 795,
-    "focal_x": 0.5,
-    "focal_y": 0.317,
-    "visage": {
-      "x": 0.255,
-      "y": 0.1333,
-      "w": 0.4899,
-      "h": 0.3673
-    },
-    "recadrage": "visage",
-    "fighter_id": "manon-fiorot",
-    "titre": "File:MANON FIOROT ET ALDRIC CASSATA, LE COUPLE GOAL DU MMA - MMA EXTRA ROUND -22 - YouTube - 0-28-31 (cropped).jpg",
-    "auteur": "Lucie Bertaud",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:MANON_FIOROT_ET_ALDRIC_CASSATA,_LE_COUPLE_GOAL_DU_MMA_-_MMA_EXTRA_ROUND_-22_-_YouTube_-_0-28-31_(cropped).jpg"
+    "fighter_id": "marcos-rogerio-de-lima",
+    "titre": "File:Marcos Rogerio Pezao de Lima.jpg",
+    "auteur": "Rhdesantana",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Marcos_Rogerio_Pezao_de_Lima.jpg"
   },
   "mark-coleman": {
     "fichier": "fighters/mark-coleman.webp",
@@ -2159,45 +1629,25 @@
     "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Marlon_%22Chito%22_Vera_2019.jpg"
   },
-  "marvin-vettori": {
-    "fichier": "fighters/marvin-vettori.webp",
-    "largeur": 600,
-    "hauteur": 800,
-    "focal_x": 0.5009,
-    "focal_y": 0.2844,
-    "visage": {
-      "x": 0.2567,
-      "y": 0.1013,
-      "w": 0.4883,
-      "h": 0.3663
-    },
-    "recadrage": "visage",
-    "fighter_id": "marvin-vettori",
-    "titre": "File:Marvin Vettori La Gazzetta dello Sport 2025.png",
-    "auteur": "La Gazzetta dello Sport",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Marvin_Vettori_La_Gazzetta_dello_Sport_2025.png"
-  },
   "mateusz-gamrot": {
     "fichier": "fighters/mateusz-gamrot.webp",
-    "largeur": 390,
-    "hauteur": 521,
-    "focal_x": 0.5,
-    "focal_y": 0.5336,
+    "largeur": 450,
+    "hauteur": 600,
+    "focal_x": 0.5011,
+    "focal_y": 0.3592,
     "visage": {
-      "x": 0.1,
-      "y": 0.2342,
-      "w": 0.8,
-      "h": 0.5988
+      "x": 0.3111,
+      "y": 0.2167,
+      "w": 0.38,
+      "h": 0.285
     },
     "recadrage": "visage",
     "fighter_id": "mateusz-gamrot",
-    "titre": "File:DanHooker2016.png",
-    "auteur": "Fight Bros NZ",
+    "titre": "File:Mateusz Gamrot.jpg",
+    "auteur": "Roger Gor",
     "licence": "CC BY 3.0",
     "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:DanHooker2016.png"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mateusz_Gamrot.jpg"
   },
   "matt-hughes": {
     "fichier": "fighters/matt-hughes.webp",
@@ -2293,46 +1743,6 @@
     "licence": "CC BY 4.0",
     "licence_url": "https://creativecommons.org/licenses/by/4.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Maycee_Barber_(cropped).png"
-  },
-  "mayra-bueno": {
-    "fichier": "fighters/mayra-bueno.webp",
-    "largeur": 596,
-    "hauteur": 795,
-    "focal_x": 0.5,
-    "focal_y": 0.317,
-    "visage": {
-      "x": 0.255,
-      "y": 0.1333,
-      "w": 0.4899,
-      "h": 0.3673
-    },
-    "recadrage": "visage",
-    "fighter_id": "mayra-bueno",
-    "titre": "File:MANON FIOROT ET ALDRIC CASSATA, LE COUPLE GOAL DU MMA - MMA EXTRA ROUND -22 - YouTube - 0-28-31 (cropped).jpg",
-    "auteur": "Lucie Bertaud",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:MANON_FIOROT_ET_ALDRIC_CASSATA,_LE_COUPLE_GOAL_DU_MMA_-_MMA_EXTRA_ROUND_-22_-_YouTube_-_0-28-31_(cropped).jpg"
-  },
-  "merab-dvalishvili": {
-    "fichier": "fighters/merab-dvalishvili.webp",
-    "largeur": 622,
-    "hauteur": 829,
-    "focal_x": 0.4204,
-    "focal_y": 0.3516,
-    "visage": {
-      "x": 0.1383,
-      "y": 0.1399,
-      "w": 0.5643,
-      "h": 0.4234
-    },
-    "recadrage": "visage",
-    "fighter_id": "merab-dvalishvili",
-    "titre": "File:Merab Dvalishvili at UFC 316 (cropped).jpg",
-    "auteur": "Margo Martin",
-    "licence": "Public domain",
-    "licence_url": null,
-    "source_url": "https://commons.wikimedia.org/wiki/File:Merab_Dvalishvili_at_UFC_316_(cropped).jpg"
   },
   "michael-bisping": {
     "fichier": "fighters/michael-bisping.webp",
@@ -2454,45 +1864,25 @@
     "licence_url": "https://creativecommons.org/licenses/by/2.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Mike_Davis_at_Vyralcon_2022_(3)_(cropped).jpg"
   },
-  "mike-malott": {
-    "fichier": "fighters/mike-malott.webp",
-    "largeur": 420,
-    "hauteur": 560,
-    "focal_x": 0.5012,
-    "focal_y": 0.3456,
+  "montserrat-conejo": {
+    "fichier": "fighters/montserrat-conejo.webp",
+    "largeur": 540,
+    "hauteur": 720,
+    "focal_x": 0.5009,
+    "focal_y": 0.3285,
     "visage": {
-      "x": 0.3143,
-      "y": 0.2054,
-      "w": 0.3738,
-      "h": 0.2804
+      "x": 0.237,
+      "y": 0.1306,
+      "w": 0.5278,
+      "h": 0.3958
     },
     "recadrage": "visage",
-    "fighter_id": "mike-malott",
-    "titre": "File:Mike-malott-2023-ufc-fighter-canada.png",
-    "auteur": "Btcfight",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Mike-malott-2023-ufc-fighter-canada.png"
-  },
-  "molly-mccann": {
-    "fichier": "fighters/molly-mccann.webp",
-    "largeur": 621,
-    "hauteur": 828,
-    "focal_x": 0.5532,
-    "focal_y": 0.3605,
-    "visage": {
-      "x": 0.2673,
-      "y": 0.1461,
-      "w": 0.5717,
-      "h": 0.4287
-    },
-    "recadrage": "visage",
-    "fighter_id": "molly-mccann",
-    "titre": "File:Molly McCann 2018.jpg",
-    "auteur": "Everton Football Club",
+    "fighter_id": "montserrat-conejo",
+    "titre": "File:Montserrat 'Conejo' Ruiz.png",
+    "auteur": "Carlos Galvez",
     "licence": "CC BY 3.0",
     "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Molly_McCann_2018.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Montserrat_%27Conejo%27_Ruiz.png"
   },
   "movsar-evloev": {
     "fichier": "fighters/movsar-evloev.webp",
@@ -2514,26 +1904,6 @@
     "licence_url": "https://creativecommons.org/licenses/by/4.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Movsar_Evloev_M-1_Challenge_2018.jpg"
   },
-  "muhammad-mokaev": {
-    "fichier": "fighters/muhammad-mokaev.webp",
-    "largeur": 482,
-    "hauteur": 642,
-    "focal_x": 0.362,
-    "focal_y": 0.25,
-    "visage": {
-      "x": 0.166,
-      "y": 0.1028,
-      "w": 0.3921,
-      "h": 0.2944
-    },
-    "recadrage": "visage",
-    "fighter_id": "muhammad-mokaev",
-    "titre": "File:Возвращение на родину Мухаммад Мокаев ЛЮДИ СПОРТА 1-20.png",
-    "auteur": "Sportleader TV",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:%D0%92%D0%BE%D0%B7%D0%B2%D1%80%D0%B0%D1%89%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BD%D0%B0_%D1%80%D0%BE%D0%B4%D0%B8%D0%BD%D1%83_%D0%9C%D1%83%D1%85%D0%B0%D0%BC%D0%BC%D0%B0%D0%B4_%D0%9C%D0%BE%D0%BA%D0%B0%D0%B5%D0%B2_%D0%9B%D0%AE%D0%94%D0%98_%D0%A1%D0%9F%D0%9E%D0%A0%D0%A2%D0%90_1-20.png"
-  },
   "nassourdine-imavov": {
     "fichier": "fighters/nassourdine-imavov.webp",
     "largeur": 720,
@@ -2553,26 +1923,6 @@
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Nassourdine_Imavov.jpg"
-  },
-  "natalia-silva": {
-    "fichier": "fighters/natalia-silva.webp",
-    "largeur": 675,
-    "hauteur": 900,
-    "focal_x": 0.5008,
-    "focal_y": 0.3744,
-    "visage": {
-      "x": 0.1911,
-      "y": 0.1422,
-      "w": 0.6193,
-      "h": 0.4644
-    },
-    "recadrage": "visage",
-    "fighter_id": "natalia-silva",
-    "titre": "File:Natália Silva 2025.jpg",
-    "auteur": "Sexto Round",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Nat%C3%A1lia_Silva_2025.jpg"
   },
   "natan-levy": {
     "fichier": "fighters/natan-levy.webp",
@@ -2734,26 +2084,6 @@
     "licence_url": "https://creativecommons.org/licenses/by/4.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Petr_Yan_at_Kremlin_award_ceremonies_with_president_Putin.jpg"
   },
-  "rafael-fiziev": {
-    "fichier": "fighters/rafael-fiziev.webp",
-    "largeur": 376,
-    "hauteur": 502,
-    "focal_x": 0.4761,
-    "focal_y": 0.4542,
-    "visage": {
-      "x": 0.1011,
-      "y": 0.1733,
-      "w": 0.75,
-      "h": 0.5618
-    },
-    "recadrage": "visage",
-    "fighter_id": "rafael-fiziev",
-    "titre": "File:Fiziev 2023.png",
-    "auteur": "SPORTS UZ",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Fiziev_2023.png"
-  },
   "raquel-pennington": {
     "fichier": "fighters/raquel-pennington.webp",
     "largeur": 720,
@@ -2774,21 +2104,6 @@
     "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Raquel_Pennington_UFC_(29214885452)_(cropped).jpg"
   },
-  "rashad-evans": {
-    "fichier": "fighters/rashad-evans.webp",
-    "largeur": 450,
-    "hauteur": 600,
-    "focal_x": 0.5,
-    "focal_y": 0.35,
-    "visage": null,
-    "recadrage": "centre_haut",
-    "fighter_id": "rashad-evans",
-    "titre": "File:RashadEvans.png",
-    "auteur": "This file is licensed under the Creative Commons Attribution-Share Alike 3.0 Unported license. You are free: to share – to copy, distribute and transmit the work to remix – to adapt the work Under the following conditions: attribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. share alike – If you remix, transform, or build upon the material, you must distribute your contributions under the same or compatible license as the original.https://creativecommons.org/licenses/by-sa/3.0CC BY-SA 3.0 Creative Commons Attribution-Share Alike 3.0 truetrue Author: Gavin Ng. Permission is on file with the WMF.",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:RashadEvans.png"
-  },
   "raul-rosas": {
     "fichier": "fighters/raul-rosas.webp",
     "largeur": 720,
@@ -2808,49 +2123,6 @@
     "licence": "CC BY 3.0",
     "licence_url": "https://creativecommons.org/licenses/by/3.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Ra%C3%BAl_Rosas_Jr._2024.png"
-  },
-  "renato-moicano": {
-    "fichier": "fighters/renato-moicano.webp",
-    "largeur": 500,
-    "hauteur": 666,
-    "focal_x": 0.567,
-    "focal_y": 0.4001,
-    "visage": {
-      "x": 0.222,
-      "y": 0.1411,
-      "w": 0.69,
-      "h": 0.518
-    },
-    "recadrage": "visage",
-    "fighter_id": "renato-moicano",
-    "titre": "File:Renato Moicano 2024.png",
-    "auteur": "Show Me The Money",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Renato_Moicano_2024.png"
-  },
-  "rich-franklin": {
-    "fichier": "fighters/rich-franklin.webp",
-    "largeur": 479,
-    "hauteur": 639,
-    "focal_x": 0.5,
-    "focal_y": 0.2215,
-    "visage": {
-      "x": 0.3132,
-      "y": 0.0814,
-      "w": 0.3737,
-      "h": 0.2801
-    },
-    "recadrage": "visage",
-    "fighter_id": "rich-franklin",
-    "titre": "File:RichFranklin2.png",
-    "auteur": null,
-    "licence": "Public domain",
-    "licence_url": null,
-    "source_url": "https://commons.wikimedia.org/wiki/File:RichFranklin2.png",
-    "a_verifier": [
-      "auteur"
-    ]
   },
   "ricky-simon": {
     "fichier": "fighters/ricky-simon.webp",
@@ -2891,26 +2163,6 @@
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:FONT.jpg"
-  },
-  "robbie-lawler": {
-    "fichier": "fighters/robbie-lawler.webp",
-    "largeur": 382,
-    "hauteur": 510,
-    "focal_x": 0.5013,
-    "focal_y": 0.1951,
-    "visage": {
-      "x": 0.2723,
-      "y": 0.0235,
-      "w": 0.4581,
-      "h": 0.3431
-    },
-    "recadrage": "visage",
-    "fighter_id": "robbie-lawler",
-    "titre": "File:Robbie Lawler.png",
-    "auteur": "Atlanta Falcons",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Robbie_Lawler.png"
   },
   "robert-whittaker": {
     "fichier": "fighters/robert-whittaker.webp",
@@ -3032,46 +2284,6 @@
     "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "source_url": "https://commons.wikimedia.org/wiki/File:Sean_O%27Malley_in_2024.jpg"
   },
-  "sean-strickland": {
-    "fichier": "fighters/sean-strickland.webp",
-    "largeur": 450,
-    "hauteur": 600,
-    "focal_x": 0.4588,
-    "focal_y": 0.3558,
-    "visage": {
-      "x": 0.1222,
-      "y": 0.1033,
-      "w": 0.6733,
-      "h": 0.505
-    },
-    "recadrage": "visage",
-    "fighter_id": "sean-strickland",
-    "titre": "File:Sean Strickland at UFN 200.png",
-    "auteur": "MMAnytt",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Sean_Strickland_at_UFN_200.png"
-  },
-  "sergei-pavlovich": {
-    "fichier": "fighters/sergei-pavlovich.webp",
-    "largeur": 495,
-    "hauteur": 660,
-    "focal_x": 0.5283,
-    "focal_y": 0.4766,
-    "visage": {
-      "x": 0.1798,
-      "y": 0.2152,
-      "w": 0.697,
-      "h": 0.5227
-    },
-    "recadrage": "visage",
-    "fighter_id": "sergei-pavlovich",
-    "titre": "File:SergeiPavlovich2018.png",
-    "auteur": "Страна FM",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:SergeiPavlovich2018.png"
-  },
   "shara-magomedov": {
     "fichier": "fighters/shara-magomedov.webp",
     "largeur": 468,
@@ -3092,46 +2304,6 @@
     "licence_url": "https://creativecommons.org/licenses/by/3.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Sharabutdin_Magomedov_2024.png"
   },
-  "shavkat-rakhmonov": {
-    "fichier": "fighters/shavkat-rakhmonov.webp",
-    "largeur": 483,
-    "hauteur": 644,
-    "focal_x": 0.5558,
-    "focal_y": 0.3502,
-    "visage": {
-      "x": 0.3043,
-      "y": 0.1615,
-      "w": 0.5031,
-      "h": 0.3773
-    },
-    "recadrage": "visage",
-    "fighter_id": "shavkat-rakhmonov",
-    "titre": "File:Shavkat Rakhmonov (cropped).jpg",
-    "auteur": "Ruslankyrykbayev",
-    "licence": "CC0",
-    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Shavkat_Rakhmonov_(cropped).jpg"
-  },
-  "stephen-thompson": {
-    "fichier": "fighters/stephen-thompson.webp",
-    "largeur": 720,
-    "hauteur": 960,
-    "focal_x": 0.5598,
-    "focal_y": 0.2918,
-    "visage": {
-      "x": 0.2944,
-      "y": 0.0927,
-      "w": 0.5309,
-      "h": 0.3982
-    },
-    "recadrage": "visage",
-    "fighter_id": "stephen-thompson",
-    "titre": "File:From cancer to company commander 130802-M-AR522-306 (cropped).jpg",
-    "auteur": "Cpl. Devin Nichols",
-    "licence": "Public domain",
-    "licence_url": null,
-    "source_url": "https://commons.wikimedia.org/wiki/File:From_cancer_to_company_commander_130802-M-AR522-306_(cropped).jpg"
-  },
   "stipe-miocic": {
     "fichier": "fighters/stipe-miocic.webp",
     "largeur": 114,
@@ -3151,26 +2323,6 @@
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Stipebrowns4.jpg"
-  },
-  "tai-tuivasa": {
-    "fichier": "fighters/tai-tuivasa.webp",
-    "largeur": 511,
-    "hauteur": 682,
-    "focal_x": 0.4697,
-    "focal_y": 0.3769,
-    "visage": {
-      "x": 0.2231,
-      "y": 0.1921,
-      "w": 0.4932,
-      "h": 0.3695
-    },
-    "recadrage": "visage",
-    "fighter_id": "tai-tuivasa",
-    "titre": "File:Tai Tuivasa at UFC 234.jpg",
-    "auteur": "MMAnytt",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Tai_Tuivasa_at_UFC_234.jpg"
   },
   "tatiana-suarez": {
     "fichier": "fighters/tatiana-suarez.webp",
@@ -3226,21 +2378,6 @@
     "licence": "CC0",
     "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "source_url": "https://commons.wikimedia.org/wiki/File:Tony_Ferguson_2025.jpg"
-  },
-  "tyron-woodley": {
-    "fichier": "fighters/tyron-woodley.webp",
-    "largeur": 534,
-    "hauteur": 712,
-    "focal_x": 0.5,
-    "focal_y": 0.35,
-    "visage": null,
-    "recadrage": "centre_haut",
-    "fighter_id": "tyron-woodley",
-    "titre": "File:Tyron Woodley.png",
-    "auteur": "Atlanta Falcons",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Tyron_Woodley.png"
   },
   "umar-nurmagomedov": {
     "fichier": "fighters/umar-nurmagomedov.webp",
@@ -3322,6 +2459,809 @@
     "licence_url": "https://creativecommons.org/licenses/by/3.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Volkan_Oezdemir_at_UFC_Fight_Night_153_in_Stockholm,_Sweden.jpg"
   },
+  "andrei-arlovski": {
+    "fichier": "fighters/andrei-arlovski.webp",
+    "largeur": 131,
+    "hauteur": 174,
+    "focal_x": 0.4313,
+    "focal_y": 0.3591,
+    "visage": {
+      "x": 0.0916,
+      "y": 0.1034,
+      "w": 0.6794,
+      "h": 0.5115
+    },
+    "recadrage": "visage",
+    "fighter_id": "andrei-arlovski",
+    "titre": "File:Arlovski.png",
+    "auteur": "blechdom",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Arlovski.png"
+  },
+  "angela-hill": {
+    "fichier": "fighters/angela-hill.webp",
+    "largeur": 406,
+    "hauteur": 542,
+    "focal_x": 0.5,
+    "focal_y": 0.345,
+    "visage": {
+      "x": 0.3128,
+      "y": 0.2048,
+      "w": 0.3744,
+      "h": 0.2804
+    },
+    "recadrage": "visage",
+    "fighter_id": "angela-hill",
+    "titre": "File:Angela Hill victorious at Friday Night Fights.jpg",
+    "auteur": "Friday Night Fights MuayThai",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Angela_Hill_victorious_at_Friday_Night_Fights.jpg"
+  },
+  "bas-rutten": {
+    "fichier": "fighters/bas-rutten.webp",
+    "largeur": 399,
+    "hauteur": 532,
+    "focal_x": 0.5,
+    "focal_y": 0.35,
+    "visage": null,
+    "recadrage": "centre_haut",
+    "fighter_id": "bas-rutten",
+    "titre": "File:Bas Rutten Strikeforce weign in, better resolution, 25 December 2009.jpg",
+    "auteur": "Michael Dunn",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bas_Rutten_Strikeforce_weign_in,_better_resolution,_25_December_2009.jpg"
+  },
+  "bo-nickal": {
+    "fichier": "fighters/bo-nickal.webp",
+    "largeur": 519,
+    "hauteur": 693,
+    "focal_x": 0.526,
+    "focal_y": 0.3737,
+    "visage": {
+      "x": 0.2158,
+      "y": 0.1414,
+      "w": 0.6204,
+      "h": 0.4646
+    },
+    "recadrage": "visage",
+    "fighter_id": "bo-nickal",
+    "titre": "File:Bo Nickal (52791819473).jpg",
+    "auteur": "Noah Riffe",
+    "licence": "Public domain",
+    "licence_url": null,
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bo_Nickal_(52791819473).jpg"
+  },
+  "brian-ortega": {
+    "fichier": "fighters/brian-ortega.webp",
+    "largeur": 493,
+    "hauteur": 658,
+    "focal_x": 0.5,
+    "focal_y": 0.3382,
+    "visage": {
+      "x": 0.1258,
+      "y": 0.0578,
+      "w": 0.7485,
+      "h": 0.5608
+    },
+    "recadrage": "visage",
+    "fighter_id": "brian-ortega",
+    "titre": "File:Brian Ortega on MMAnytt.jpg",
+    "auteur": "MMAnytt",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Brian_Ortega_on_MMAnytt.jpg"
+  },
+  "colby-covington": {
+    "fichier": "fighters/colby-covington.webp",
+    "largeur": 421,
+    "hauteur": 561,
+    "focal_x": 0.4727,
+    "focal_y": 0.3851,
+    "visage": {
+      "x": 0.1283,
+      "y": 0.1266,
+      "w": 0.6888,
+      "h": 0.5169
+    },
+    "recadrage": "visage",
+    "fighter_id": "colby-covington",
+    "titre": "File:ColbyCovingtonFortJackson2022(cropped).jpg",
+    "auteur": "Alexandra Shea",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_url": "https://commons.wikimedia.org/wiki/File:ColbyCovingtonFortJackson2022(cropped).jpg"
+  },
+  "dan-hooker": {
+    "fichier": "fighters/dan-hooker.webp",
+    "largeur": 390,
+    "hauteur": 521,
+    "focal_x": 0.5,
+    "focal_y": 0.5336,
+    "visage": {
+      "x": 0.1,
+      "y": 0.2342,
+      "w": 0.8,
+      "h": 0.5988
+    },
+    "recadrage": "visage",
+    "fighter_id": "dan-hooker",
+    "titre": "File:DanHooker2016.png",
+    "auteur": "Fight Bros NZ",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:DanHooker2016.png"
+  },
+  "deiveson-figueiredo": {
+    "fichier": "fighters/deiveson-figueiredo.webp",
+    "largeur": 720,
+    "hauteur": 959,
+    "focal_x": 0.476,
+    "focal_y": 0.4385,
+    "visage": {
+      "x": 0.101,
+      "y": 0.1571,
+      "w": 0.75,
+      "h": 0.5628
+    },
+    "recadrage": "visage",
+    "fighter_id": "deiveson-figueiredo",
+    "titre": "File:Deiveson Figueiredo 2024.jpg",
+    "auteur": "Show Me The Money",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Deiveson_Figueiredo_2024.jpg"
+  },
+  "dominick-cruz": {
+    "fichier": "fighters/dominick-cruz.webp",
+    "largeur": 410,
+    "hauteur": 546,
+    "focal_x": 0.5963,
+    "focal_y": 0.3617,
+    "visage": {
+      "x": 0.2707,
+      "y": 0.1172,
+      "w": 0.6512,
+      "h": 0.489
+    },
+    "recadrage": "visage",
+    "fighter_id": "dominick-cruz",
+    "titre": "File:Dom Cruz 2.png",
+    "auteur": "James K. McCann",
+    "licence": "Public domain",
+    "licence_url": null,
+    "source_url": "https://commons.wikimedia.org/wiki/File:Dom_Cruz_2.png"
+  },
+  "dominick-reyes": {
+    "fichier": "fighters/dominick-reyes.webp",
+    "largeur": 426,
+    "hauteur": 568,
+    "focal_x": 0.5457,
+    "focal_y": 0.3619,
+    "visage": {
+      "x": 0.2746,
+      "y": 0.1585,
+      "w": 0.5423,
+      "h": 0.4067
+    },
+    "recadrage": "visage",
+    "fighter_id": "dominick-reyes",
+    "titre": "File:Dominick Reyes 2024.png",
+    "auteur": "Chamatkar Sandhu",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Dominick_Reyes_2024.png"
+  },
+  "geoff-neal": {
+    "fichier": "fighters/geoff-neal.webp",
+    "largeur": 417,
+    "hauteur": 556,
+    "focal_x": 0.5012,
+    "focal_y": 0.3705,
+    "visage": {
+      "x": 0.1031,
+      "y": 0.0719,
+      "w": 0.7962,
+      "h": 0.5971
+    },
+    "recadrage": "visage",
+    "fighter_id": "geoff-neal",
+    "titre": "File:Geoff Neal at UFC 228.jpg",
+    "auteur": "MMAnytt",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Geoff_Neal_at_UFC_228.jpg"
+  },
+  "gilbert-burns": {
+    "fichier": "fighters/gilbert-burns.webp",
+    "largeur": 348,
+    "hauteur": 464,
+    "focal_x": 0.5014,
+    "focal_y": 0.4214,
+    "visage": {
+      "x": 0.2213,
+      "y": 0.2112,
+      "w": 0.5603,
+      "h": 0.4203
+    },
+    "recadrage": "visage",
+    "fighter_id": "gilbert-burns",
+    "titre": "File:GilbertBurns.jpg",
+    "auteur": "Show Me The Money",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:GilbertBurns.jpg"
+  },
+  "holly-holm": {
+    "fichier": "fighters/holly-holm.webp",
+    "largeur": 656,
+    "hauteur": 875,
+    "focal_x": 0.5793,
+    "focal_y": 0.3624,
+    "visage": {
+      "x": 0.2439,
+      "y": 0.1109,
+      "w": 0.6707,
+      "h": 0.5029
+    },
+    "recadrage": "visage",
+    "fighter_id": "holly-holm",
+    "titre": "File:Holly Holm at UFC 246.jpg",
+    "auteur": "MMAnytt",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Holly_Holm_at_UFC_246.jpg"
+  },
+  "jailton-almeida": {
+    "fichier": "fighters/jailton-almeida.webp",
+    "largeur": 682,
+    "hauteur": 910,
+    "focal_x": 0.5008,
+    "focal_y": 0.3863,
+    "visage": {
+      "x": 0.1481,
+      "y": 0.122,
+      "w": 0.7053,
+      "h": 0.5286
+    },
+    "recadrage": "visage",
+    "fighter_id": "jailton-almeida",
+    "titre": "File:Almeida 2023.png",
+    "auteur": "Sexto Round",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Almeida_2023.png"
+  },
+  "jalin-turner": {
+    "fichier": "fighters/jalin-turner.webp",
+    "largeur": 400,
+    "hauteur": 534,
+    "focal_x": 0.52,
+    "focal_y": 0.2921,
+    "visage": {
+      "x": 0.19,
+      "y": 0.0449,
+      "w": 0.66,
+      "h": 0.4944
+    },
+    "recadrage": "visage",
+    "fighter_id": "jalin-turner",
+    "titre": "File:Jalin Turner at UFC 234.jpg",
+    "auteur": "MMAnytt",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jalin_Turner_at_UFC_234.jpg"
+  },
+  "jon-jones": {
+    "fichier": "fighters/jon-jones.webp",
+    "largeur": 697,
+    "hauteur": 929,
+    "focal_x": 0.6205,
+    "focal_y": 0.3526,
+    "visage": {
+      "x": 0.3343,
+      "y": 0.1378,
+      "w": 0.5725,
+      "h": 0.4295
+    },
+    "recadrage": "visage",
+    "fighter_id": "jon-jones",
+    "titre": "File:Jon Jones in 2014 (cropped).jpg",
+    "auteur": "United States Senate Democrats",
+    "licence": "Public domain",
+    "licence_url": null,
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jon_Jones_in_2014_(cropped).jpg"
+  },
+  "junior-dos-santos": {
+    "fichier": "fighters/junior-dos-santos.webp",
+    "largeur": 543,
+    "hauteur": 724,
+    "focal_x": 0.5,
+    "focal_y": 0.2037,
+    "visage": {
+      "x": 0.3131,
+      "y": 0.0635,
+      "w": 0.3738,
+      "h": 0.2804
+    },
+    "recadrage": "visage",
+    "fighter_id": "junior-dos-santos",
+    "titre": "File:Junior dos Santos.jpg",
+    "auteur": "Peter Gordon",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Junior_dos_Santos.jpg"
+  },
+  "kamaru-usman": {
+    "fichier": "fighters/kamaru-usman.webp",
+    "largeur": 536,
+    "hauteur": 715,
+    "focal_x": 0.5,
+    "focal_y": 0.3693,
+    "visage": {
+      "x": 0.2034,
+      "y": 0.1469,
+      "w": 0.5933,
+      "h": 0.4448
+    },
+    "recadrage": "visage",
+    "fighter_id": "kamaru-usman",
+    "titre": "File:KamaruUsmanPress2018.png",
+    "auteur": "MMAnytt",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:KamaruUsmanPress2018.png"
+  },
+  "kayla-harrison": {
+    "fichier": "fighters/kayla-harrison.webp",
+    "largeur": 403,
+    "hauteur": 537,
+    "focal_x": 0.4938,
+    "focal_y": 0.3631,
+    "visage": {
+      "x": 0.1935,
+      "y": 0.1378,
+      "w": 0.6005,
+      "h": 0.4507
+    },
+    "recadrage": "visage",
+    "fighter_id": "kayla-harrison",
+    "titre": "File:President Donald Trump congratulates Kayla Harrison after her victory during UFC 316 (54577590491) (cropped).jpg",
+    "auteur": "The White House",
+    "licence": "Public domain",
+    "licence_url": null,
+    "source_url": "https://commons.wikimedia.org/wiki/File:President_Donald_Trump_congratulates_Kayla_Harrison_after_her_victory_during_UFC_316_(54577590491)_(cropped).jpg"
+  },
+  "kevin-holland": {
+    "fichier": "fighters/kevin-holland.webp",
+    "largeur": 720,
+    "hauteur": 960,
+    "focal_x": 0.5,
+    "focal_y": 0.35,
+    "visage": null,
+    "recadrage": "centre_haut",
+    "fighter_id": "kevin-holland",
+    "titre": "File:Kevin Holland at UFC 316 (54576727207).jpg",
+    "auteur": "The White House",
+    "licence": "Public domain",
+    "licence_url": null,
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kevin_Holland_at_UFC_316_(54576727207).jpg"
+  },
+  "magomed-ankalaev": {
+    "fichier": "fighters/magomed-ankalaev.webp",
+    "largeur": 498,
+    "hauteur": 665,
+    "focal_x": 0.5673,
+    "focal_y": 0.4007,
+    "visage": {
+      "x": 0.1968,
+      "y": 0.1233,
+      "w": 0.741,
+      "h": 0.5549
+    },
+    "recadrage": "visage",
+    "fighter_id": "magomed-ankalaev",
+    "titre": "File:Magomed Ankalaev at UFC Fight Night 136 in Moscow, Russia.jpg",
+    "auteur": "MMAnytt",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Magomed_Ankalaev_at_UFC_Fight_Night_136_in_Moscow,_Russia.jpg"
+  },
+  "manel-kape": {
+    "fichier": "fighters/manel-kape.webp",
+    "largeur": 687,
+    "hauteur": 916,
+    "focal_x": 0.4812,
+    "focal_y": 0.3171,
+    "visage": {
+      "x": 0.2213,
+      "y": 0.1223,
+      "w": 0.5197,
+      "h": 0.3897
+    },
+    "recadrage": "visage",
+    "fighter_id": "manel-kape",
+    "titre": "File:ManelKape2017.png",
+    "auteur": "Bruno Massami",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:ManelKape2017.png"
+  },
+  "manon-fiorot": {
+    "fichier": "fighters/manon-fiorot.webp",
+    "largeur": 596,
+    "hauteur": 795,
+    "focal_x": 0.5,
+    "focal_y": 0.317,
+    "visage": {
+      "x": 0.255,
+      "y": 0.1333,
+      "w": 0.4899,
+      "h": 0.3673
+    },
+    "recadrage": "visage",
+    "fighter_id": "manon-fiorot",
+    "titre": "File:MANON FIOROT ET ALDRIC CASSATA, LE COUPLE GOAL DU MMA - MMA EXTRA ROUND -22 - YouTube - 0-28-31 (cropped).jpg",
+    "auteur": "Lucie Bertaud",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:MANON_FIOROT_ET_ALDRIC_CASSATA,_LE_COUPLE_GOAL_DU_MMA_-_MMA_EXTRA_ROUND_-22_-_YouTube_-_0-28-31_(cropped).jpg"
+  },
+  "marvin-vettori": {
+    "fichier": "fighters/marvin-vettori.webp",
+    "largeur": 600,
+    "hauteur": 800,
+    "focal_x": 0.5009,
+    "focal_y": 0.2844,
+    "visage": {
+      "x": 0.2567,
+      "y": 0.1013,
+      "w": 0.4883,
+      "h": 0.3663
+    },
+    "recadrage": "visage",
+    "fighter_id": "marvin-vettori",
+    "titre": "File:Marvin Vettori La Gazzetta dello Sport 2025.png",
+    "auteur": "La Gazzetta dello Sport",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Marvin_Vettori_La_Gazzetta_dello_Sport_2025.png"
+  },
+  "merab-dvalishvili": {
+    "fichier": "fighters/merab-dvalishvili.webp",
+    "largeur": 622,
+    "hauteur": 829,
+    "focal_x": 0.4204,
+    "focal_y": 0.3516,
+    "visage": {
+      "x": 0.1383,
+      "y": 0.1399,
+      "w": 0.5643,
+      "h": 0.4234
+    },
+    "recadrage": "visage",
+    "fighter_id": "merab-dvalishvili",
+    "titre": "File:Merab Dvalishvili at UFC 316 (cropped).jpg",
+    "auteur": "Margo Martin",
+    "licence": "Public domain",
+    "licence_url": null,
+    "source_url": "https://commons.wikimedia.org/wiki/File:Merab_Dvalishvili_at_UFC_316_(cropped).jpg"
+  },
+  "mike-malott": {
+    "fichier": "fighters/mike-malott.webp",
+    "largeur": 420,
+    "hauteur": 560,
+    "focal_x": 0.5012,
+    "focal_y": 0.3456,
+    "visage": {
+      "x": 0.3143,
+      "y": 0.2054,
+      "w": 0.3738,
+      "h": 0.2804
+    },
+    "recadrage": "visage",
+    "fighter_id": "mike-malott",
+    "titre": "File:Mike-malott-2023-ufc-fighter-canada.png",
+    "auteur": "Btcfight",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mike-malott-2023-ufc-fighter-canada.png"
+  },
+  "molly-mccann": {
+    "fichier": "fighters/molly-mccann.webp",
+    "largeur": 621,
+    "hauteur": 828,
+    "focal_x": 0.5532,
+    "focal_y": 0.3605,
+    "visage": {
+      "x": 0.2673,
+      "y": 0.1461,
+      "w": 0.5717,
+      "h": 0.4287
+    },
+    "recadrage": "visage",
+    "fighter_id": "molly-mccann",
+    "titre": "File:Molly McCann 2018.jpg",
+    "auteur": "Everton Football Club",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Molly_McCann_2018.jpg"
+  },
+  "muhammad-mokaev": {
+    "fichier": "fighters/muhammad-mokaev.webp",
+    "largeur": 482,
+    "hauteur": 642,
+    "focal_x": 0.362,
+    "focal_y": 0.25,
+    "visage": {
+      "x": 0.166,
+      "y": 0.1028,
+      "w": 0.3921,
+      "h": 0.2944
+    },
+    "recadrage": "visage",
+    "fighter_id": "muhammad-mokaev",
+    "titre": "File:Возвращение на родину Мухаммад Мокаев ЛЮДИ СПОРТА 1-20.png",
+    "auteur": "Sportleader TV",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:%D0%92%D0%BE%D0%B7%D0%B2%D1%80%D0%B0%D1%89%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BD%D0%B0_%D1%80%D0%BE%D0%B4%D0%B8%D0%BD%D1%83_%D0%9C%D1%83%D1%85%D0%B0%D0%BC%D0%BC%D0%B0%D0%B4_%D0%9C%D0%BE%D0%BA%D0%B0%D0%B5%D0%B2_%D0%9B%D0%AE%D0%94%D0%98_%D0%A1%D0%9F%D0%9E%D0%A0%D0%A2%D0%90_1-20.png"
+  },
+  "natalia-silva": {
+    "fichier": "fighters/natalia-silva.webp",
+    "largeur": 675,
+    "hauteur": 900,
+    "focal_x": 0.5008,
+    "focal_y": 0.3744,
+    "visage": {
+      "x": 0.1911,
+      "y": 0.1422,
+      "w": 0.6193,
+      "h": 0.4644
+    },
+    "recadrage": "visage",
+    "fighter_id": "natalia-silva",
+    "titre": "File:Natália Silva 2025.jpg",
+    "auteur": "Sexto Round",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Nat%C3%A1lia_Silva_2025.jpg"
+  },
+  "rafael-fiziev": {
+    "fichier": "fighters/rafael-fiziev.webp",
+    "largeur": 376,
+    "hauteur": 502,
+    "focal_x": 0.4761,
+    "focal_y": 0.4542,
+    "visage": {
+      "x": 0.1011,
+      "y": 0.1733,
+      "w": 0.75,
+      "h": 0.5618
+    },
+    "recadrage": "visage",
+    "fighter_id": "rafael-fiziev",
+    "titre": "File:Fiziev 2023.png",
+    "auteur": "SPORTS UZ",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Fiziev_2023.png"
+  },
+  "rashad-evans": {
+    "fichier": "fighters/rashad-evans.webp",
+    "largeur": 450,
+    "hauteur": 600,
+    "focal_x": 0.5,
+    "focal_y": 0.35,
+    "visage": null,
+    "recadrage": "centre_haut",
+    "fighter_id": "rashad-evans",
+    "titre": "File:RashadEvans.png",
+    "auteur": "This file is licensed under the Creative Commons Attribution-Share Alike 3.0 Unported license. You are free: to share – to copy, distribute and transmit the work to remix – to adapt the work Under the following conditions: attribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. share alike – If you remix, transform, or build upon the material, you must distribute your contributions under the same or compatible license as the original.https://creativecommons.org/licenses/by-sa/3.0CC BY-SA 3.0 Creative Commons Attribution-Share Alike 3.0 truetrue Author: Gavin Ng. Permission is on file with the WMF.",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:RashadEvans.png"
+  },
+  "renato-moicano": {
+    "fichier": "fighters/renato-moicano.webp",
+    "largeur": 500,
+    "hauteur": 666,
+    "focal_x": 0.567,
+    "focal_y": 0.4001,
+    "visage": {
+      "x": 0.222,
+      "y": 0.1411,
+      "w": 0.69,
+      "h": 0.518
+    },
+    "recadrage": "visage",
+    "fighter_id": "renato-moicano",
+    "titre": "File:Renato Moicano 2024.png",
+    "auteur": "Show Me The Money",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Renato_Moicano_2024.png"
+  },
+  "rich-franklin": {
+    "fichier": "fighters/rich-franklin.webp",
+    "largeur": 479,
+    "hauteur": 639,
+    "focal_x": 0.5,
+    "focal_y": 0.2215,
+    "visage": {
+      "x": 0.3132,
+      "y": 0.0814,
+      "w": 0.3737,
+      "h": 0.2801
+    },
+    "recadrage": "visage",
+    "fighter_id": "rich-franklin",
+    "titre": "File:RichFranklin2.png",
+    "auteur": null,
+    "licence": "Public domain",
+    "licence_url": null,
+    "source_url": "https://commons.wikimedia.org/wiki/File:RichFranklin2.png",
+    "a_verifier": [
+      "auteur"
+    ]
+  },
+  "robbie-lawler": {
+    "fichier": "fighters/robbie-lawler.webp",
+    "largeur": 382,
+    "hauteur": 510,
+    "focal_x": 0.5013,
+    "focal_y": 0.1951,
+    "visage": {
+      "x": 0.2723,
+      "y": 0.0235,
+      "w": 0.4581,
+      "h": 0.3431
+    },
+    "recadrage": "visage",
+    "fighter_id": "robbie-lawler",
+    "titre": "File:Robbie Lawler.png",
+    "auteur": "Atlanta Falcons",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Robbie_Lawler.png"
+  },
+  "sean-strickland": {
+    "fichier": "fighters/sean-strickland.webp",
+    "largeur": 450,
+    "hauteur": 600,
+    "focal_x": 0.4588,
+    "focal_y": 0.3558,
+    "visage": {
+      "x": 0.1222,
+      "y": 0.1033,
+      "w": 0.6733,
+      "h": 0.505
+    },
+    "recadrage": "visage",
+    "fighter_id": "sean-strickland",
+    "titre": "File:Sean Strickland at UFN 200.png",
+    "auteur": "MMAnytt",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sean_Strickland_at_UFN_200.png"
+  },
+  "sergei-pavlovich": {
+    "fichier": "fighters/sergei-pavlovich.webp",
+    "largeur": 495,
+    "hauteur": 660,
+    "focal_x": 0.5283,
+    "focal_y": 0.4766,
+    "visage": {
+      "x": 0.1798,
+      "y": 0.2152,
+      "w": 0.697,
+      "h": 0.5227
+    },
+    "recadrage": "visage",
+    "fighter_id": "sergei-pavlovich",
+    "titre": "File:SergeiPavlovich2018.png",
+    "auteur": "Страна FM",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:SergeiPavlovich2018.png"
+  },
+  "shavkat-rakhmonov": {
+    "fichier": "fighters/shavkat-rakhmonov.webp",
+    "largeur": 483,
+    "hauteur": 644,
+    "focal_x": 0.5558,
+    "focal_y": 0.3502,
+    "visage": {
+      "x": 0.3043,
+      "y": 0.1615,
+      "w": 0.5031,
+      "h": 0.3773
+    },
+    "recadrage": "visage",
+    "fighter_id": "shavkat-rakhmonov",
+    "titre": "File:Shavkat Rakhmonov (cropped).jpg",
+    "auteur": "Ruslankyrykbayev",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Shavkat_Rakhmonov_(cropped).jpg"
+  },
+  "stephen-thompson": {
+    "fichier": "fighters/stephen-thompson.webp",
+    "largeur": 720,
+    "hauteur": 960,
+    "focal_x": 0.5598,
+    "focal_y": 0.2918,
+    "visage": {
+      "x": 0.2944,
+      "y": 0.0927,
+      "w": 0.5309,
+      "h": 0.3982
+    },
+    "recadrage": "visage",
+    "fighter_id": "stephen-thompson",
+    "titre": "File:From cancer to company commander 130802-M-AR522-306 (cropped).jpg",
+    "auteur": "Cpl. Devin Nichols",
+    "licence": "Public domain",
+    "licence_url": null,
+    "source_url": "https://commons.wikimedia.org/wiki/File:From_cancer_to_company_commander_130802-M-AR522-306_(cropped).jpg"
+  },
+  "tai-tuivasa": {
+    "fichier": "fighters/tai-tuivasa.webp",
+    "largeur": 511,
+    "hauteur": 682,
+    "focal_x": 0.4697,
+    "focal_y": 0.3769,
+    "visage": {
+      "x": 0.2231,
+      "y": 0.1921,
+      "w": 0.4932,
+      "h": 0.3695
+    },
+    "recadrage": "visage",
+    "fighter_id": "tai-tuivasa",
+    "titre": "File:Tai Tuivasa at UFC 234.jpg",
+    "auteur": "MMAnytt",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tai_Tuivasa_at_UFC_234.jpg"
+  },
+  "tatsuro-taira": {
+    "fichier": "fighters/tatsuro-taira.webp",
+    "largeur": 417,
+    "hauteur": 556,
+    "focal_x": 0.5012,
+    "focal_y": 0.3957,
+    "visage": {
+      "x": 0.2758,
+      "y": 0.2266,
+      "w": 0.4508,
+      "h": 0.3381
+    },
+    "recadrage": "visage",
+    "fighter_id": "tatsuro-taira",
+    "titre": "File:Tatsuro taira 2025.png",
+    "auteur": "에이든 우지",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tatsuro_taira_2025.png"
+  },
+  "tyron-woodley": {
+    "fichier": "fighters/tyron-woodley.webp",
+    "largeur": 534,
+    "hauteur": 712,
+    "focal_x": 0.5,
+    "focal_y": 0.35,
+    "visage": null,
+    "recadrage": "centre_haut",
+    "fighter_id": "tyron-woodley",
+    "titre": "File:Tyron Woodley.png",
+    "auteur": "Atlanta Falcons",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tyron_Woodley.png"
+  },
   "yair-rodriguez": {
     "fichier": "fighters/yair-rodriguez.webp",
     "largeur": 441,
@@ -3341,5 +3281,45 @@
     "licence": "CC0",
     "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "source_url": "https://commons.wikimedia.org/wiki/File:Carrera_con_Yair_%22Pantera%22_Rodr%C3%ADguez_-i---i-_(30657689682)_cropped.jpg"
+  },
+  "zhang-weili": {
+    "fichier": "fighters/zhang-weili.webp",
+    "largeur": 325,
+    "hauteur": 434,
+    "focal_x": 0.5,
+    "focal_y": 0.4158,
+    "visage": {
+      "x": 0.1292,
+      "y": 0.1382,
+      "w": 0.7415,
+      "h": 0.5553
+    },
+    "recadrage": "visage",
+    "fighter_id": "zhang-weili",
+    "titre": "File:张伟丽.png",
+    "auteur": "中国新闻网",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:%E5%BC%A0%E4%BC%9F%E4%B8%BD.png"
+  },
+  "parker-porter": {
+    "fichier": "fighters/parker-porter.webp",
+    "largeur": 271,
+    "hauteur": 361,
+    "focal_x": 0.2621,
+    "focal_y": 0.3047,
+    "visage": {
+      "x": 0.0554,
+      "y": 0.1496,
+      "w": 0.4133,
+      "h": 0.3102
+    },
+    "recadrage": "visage",
+    "fighter_id": "parker-porter",
+    "titre": "File:Parker Porter in 2025.jpg",
+    "auteur": "XLM Boi",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Parker_Porter_in_2025.jpg"
   }
 }

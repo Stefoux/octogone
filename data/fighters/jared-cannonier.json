@@ -126,18 +126,51 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Fight of the Night (Four times) vs. Ion Cuțelaba , Marvin Vettori , Caio Borralho and Gregory Rodrigues",
-    "Performance of the Night (Four times) vs. Cyril Asker , David Branch , Jack Hermansson , and Derek Brunson",
-    "Most significant strikes landed in a UFC Middleweight bout (+241 vs. Marvin Vettori )",
-    "Fourth most significant strikes landed in a fight in UFC history (+241 vs. Marvin Vettori )",
-    "One of five fighters ( Conor McGregor , Vitor Belfort , Robert Whittaker & Max Holloway ) to have knockout victories in three different weight classes",
-    "UFC.com Awards 2018: Ranked #3 Upset of the Year vs. David Branch",
-    "2018: Ranked #3 Upset of the Year vs. David Branch",
-    "Alaska Fighting Championship AFC Heavyweight Championship (One time)",
-    "AFC Heavyweight Championship (One time)",
-    "MMAjunkie.com 2023 June Fight of the Month vs. Marvin Vettori",
-    "2023 June Fight of the Month vs. Marvin Vettori"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Four times) vs. Ion Cuțelaba , Marvin Vettori , Caio Borralho and Gregory Rodrigues"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Four times) vs. Cyril Asker , David Branch , Jack Hermansson , and Derek Brunson"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most significant strikes landed in a UFC Middleweight bout (+241 vs. Marvin Vettori )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most significant strikes landed in a fight in UFC history (+241 vs. Marvin Vettori )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "One of five fighters ( Conor McGregor , Vitor Belfort , Robert Whittaker & Max Holloway ) to have knockout victories in three different weight classes"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2018: Ranked #3 Upset of the Year vs. David Branch"
+    },
+    {
+      "org": "Alaska Fighting Championship",
+      "texte": "AFC Heavyweight Championship (One time)"
+    },
+    {
+      "org": "MMAjunkie.com",
+      "texte": "2023 June Fight of the Month vs. Marvin Vettori"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 4× Performance de la soirée, 4× Combat de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 4× Performance of the Night, 4× Fight of the Night"
+    ]
+  },
   "image_commons": "Jared Cannonier at UFC Fight Night 160 in Copenhagen.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Jared_Cannonier",

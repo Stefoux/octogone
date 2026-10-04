@@ -98,19 +98,55 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Performance of the Night (Two times) vs. Antonina Shevchenko and Eduarda Moura",
-    "Tied ( Valentina Shevchenko ) for second most finishes in UFC Women's Flyweight division history (5)  (behind Gillian Robertson )",
-    "Tied ( Manon Fiorot , Carli Judice & Maycee Barber ) for second most knockouts in UFC Women's Flyweight division history (3) (behind Valentina Shevchenko )",
-    "Fourth most significant strikes-per-minute in UFC Women's Flyweight division history (7.60)",
-    "Fifth highest striking differential in UFC Women's Flyweight division history (2.24)",
-    "UFC.com Awards 2021 Newcomer of the Year",
-    "2021 Newcomer of the Year",
-    "Eternal MMA EMMA Strawweight Championship (One time) One successful title defense",
-    "EMMA Strawweight Championship (One time) One successful title defense",
-    "One successful title defense",
-    "MMA Fighting 2021 Rookie of the Year",
-    "2021 Rookie of the Year"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. Antonina Shevchenko and Eduarda Moura"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Valentina Shevchenko ) for second most finishes in UFC Women's Flyweight division history (5) (behind Gillian Robertson )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Manon Fiorot , Carli Judice & Maycee Barber ) for second most knockouts in UFC Women's Flyweight division history (3) (behind Valentina Shevchenko )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most significant strikes-per-minute in UFC Women's Flyweight division history (7.60)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth highest striking differential in UFC Women's Flyweight division history (2.24)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021 Newcomer of the Year"
+    },
+    {
+      "org": "Eternal MMA",
+      "texte": "EMMA Strawweight Championship (One time)"
+    },
+    {
+      "org": "Eternal MMA",
+      "texte": "One successful title defense"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2021 Rookie of the Year"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 2× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 2× Performance of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Casey_O'Neill",

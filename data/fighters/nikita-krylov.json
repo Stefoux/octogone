@@ -105,14 +105,35 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Performance of the Night (One time) vs. Alexander Gustafsson",
-    "Tied ( Mauricio Rua , Paul Craig & Anthony Smith ) for fifth most finishes in UFC Light Heavyweight division history (8)",
-    "Second latest knockout/finish in a three-round Light Heavyweight bout (4:57 in R3) (vs. Modestas Bukauskas )",
-    "Fight Nights Global FNG Light heavyweight Championship (One time)",
-    "FNG Light heavyweight Championship (One time)",
-    "Gladiators FC GFC 2 Heavyweight Tournament Winner",
-    "GFC 2 Heavyweight Tournament Winner"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Alexander Gustafsson"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Mauricio Rua , Paul Craig & Anthony Smith ) for fifth most finishes in UFC Light Heavyweight division history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second latest knockout/finish in a three-round Light Heavyweight bout (4:57 in R3) (vs. Modestas Bukauskas )"
+    },
+    {
+      "org": "Fight Nights Global",
+      "texte": "FNG Light heavyweight Championship (One time)"
+    },
+    {
+      "org": "Gladiators FC",
+      "texte": "GFC 2 Heavyweight Tournament Winner"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 1× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 1× Performance of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Nikita_Krylov",

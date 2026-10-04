@@ -104,27 +104,101 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "UFC Women's Bantamweight Championship (One time)",
-    "The Ultimate Fighter 18 Fight of the Season vs. Jessamyn Duke",
-    "Performance of the Night (One time) vs. Jéssica Andrade",
-    "Most bouts in UFC Women's Bantamweight division history (18)",
-    "Most total fight time in UFC Women's Bantamweight division history (4:42:33)  Second longest average fight time in UFC Women's Bantamweight division history (15:42) (behind Valentina Shevchenko )",
-    "Second longest average fight time in UFC Women's Bantamweight division history (15:42) (behind Valentina Shevchenko )",
-    "Second most wins in UFC Women's Bantamweight division history (12) (behind Amanda Nunes )",
-    "Most significant strikes landed in UFC Women's Bantamweight division history (1148)",
-    "Most total strikes landed in UFC Women's Bantamweight division history (1687)",
-    "Tied ( Miesha Tate ) for fourth longest win streak in UFC Women's Bantamweight division history (5)",
-    "Second most control time in UFC Women's Bantamweight division history (1:05:12)",
-    "Third highest significant strike defense in UFC Women's Bantamweight division history (60.8%)",
-    "Second most submission attempts in UFC Women's Bantamweight division history (11) (behind Miesha Tate )",
-    "Most decision bouts in UFC Women's Bantamweight division history (14)",
-    "Most unanimous decision wins in UFC Women's Bantamweight division history (7)",
-    "Tied ( Ketlen Vieira ) for most split decision wins in UFC Women's Bantamweight division history (3)",
-    "UFC.com Awards 2014: Ranked #7 Submission of the Year vs. Ashlee Evans-Smith",
-    "2014: Ranked #7 Submission of the Year vs. Ashlee Evans-Smith",
-    "MMA Fighting 2024 Third Team MMA All-Star",
-    "2024 Third Team MMA All-Star"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Women's Bantamweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "The Ultimate Fighter 18 Fight of the Season vs. Jessamyn Duke"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Jéssica Andrade"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most bouts in UFC Women's Bantamweight division history (18)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most total fight time in UFC Women's Bantamweight division history (4:42:33)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second longest average fight time in UFC Women's Bantamweight division history (15:42) (behind Valentina Shevchenko )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most wins in UFC Women's Bantamweight division history (12) (behind Amanda Nunes )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most significant strikes landed in UFC Women's Bantamweight division history (1148)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most total strikes landed in UFC Women's Bantamweight division history (1687)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Miesha Tate ) for fourth longest win streak in UFC Women's Bantamweight division history (5)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most control time in UFC Women's Bantamweight division history (1:05:12)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third highest significant strike defense in UFC Women's Bantamweight division history (60.8%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most submission attempts in UFC Women's Bantamweight division history (11) (behind Miesha Tate )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most decision wins in UFC Women's Bantamweight division history (10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most decision bouts in UFC Women's Bantamweight division history (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most unanimous decision wins in UFC Women's Bantamweight division history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Ketlen Vieira ) for most split decision wins in UFC Women's Bantamweight division history (3)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2014: Ranked #7 Submission of the Year vs. Ashlee Evans-Smith"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2024 Third Team MMA All-Star"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Championne UFC des poids coq féminins",
+      "Record UFC chez les poids coq féminins : combats (18)",
+      "Record UFC chez les poids coq féminins : temps de combat",
+      "Bonus UFC : 1× Performance de la soirée"
+    ],
+    "en": [
+      "UFC Women's Bantamweight Champion",
+      "UFC Women's Bantamweight record: most fights (18)",
+      "UFC Women's Bantamweight record: most fight time",
+      "UFC bonuses: 1× Performance of the Night"
+    ]
+  },
   "image_commons": "Raquel Pennington UFC (29214885452) (cropped).jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Raquel_Pennington",

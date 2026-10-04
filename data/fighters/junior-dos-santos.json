@@ -137,40 +137,137 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "UFC Heavyweight Championship (One time)",
-    "One successful title defense",
-    "Knockout of the Night (Three times) vs. Fabrício Werdum , Gabriel Gonzaga and Cain Velasquez",
-    "Fight of the Night (Three times) vs. Mark Hunt , Stipe Miocic and Derrick Lewis",
-    "Longest winning streak in UFC Heavyweight division history (9)",
-    "Tied ( Chuck Liddell , Lyoto Machida , Thiago Santos , Maurício Rua & Khalil Rountree Jr. ) for sixth most knockdowns landed in UFC history (14)",
-    "Tied ( Cain Velasquez & Francis Ngannou ) for second most knockouts in UFC Heavyweight division history (10) (behind Derrick Lewis )",
-    "Sixth most bouts in UFC Heavyweight division history (23)",
-    "Tied ( Curtis Blaydes ) for fourth most wins in UFC Heavyweight division history (15)",
-    "Fourth most total fight time in UFC Heavyweight division history (4:07:01)",
-    "Third most significant strikes landed in UFC Heavyweight division history (1109)",
-    "Sixth most total strikes landed in UFC Heavyweight division history (1217)",
-    "Highest takedown defense percentage in UFC Heavyweight division history (81.8%)",
-    "Tied for fourth most consecutive knockouts in UFC history (5)",
-    "Holds wins over five former UFC champions (4 undisputed) — vs. Fabrício Werdum , Cain Velasquez 1, Frank Mir , Stipe Miocic 1 and Shane Carwin (interim)",
-    "2008: Ranked #5 Newcomer of the Year  Ranked #2 Knockout of the Year vs. Fabricio Werdum  & Ranked #2 Upset of the Year vs. Fabricio Werdum",
-    "2010: Ranked #6 Fighter of the Year",
-    "2011: Ranked #2 Fighter of the Year  & Ranked #9 Knockout of the Year vs. Cain Velasquez 1",
-    "2013 Half-Year Awards: Best Knockout of the 1HY  & Ranked #5 Knockout of the Year vs. Mark Hunt",
-    "2014: Ranked #3 Fight of the Year vs. Stipe Miocic 1",
-    "Gamebred Bareknuckle MMA Gamebred Bareknuckle MMA Heavyweight Champion (Inaugural; One time; current)",
-    "Gamebred Bareknuckle MMA Heavyweight Champion (Inaugural; One time; current)",
-    "FIGHT! Magazine 2008 Upset of the Year vs. Fabrício Werdum at UFC 90",
-    "2008 Upset of the Year vs. Fabrício Werdum at UFC 90",
-    "MMA Junkie 2014 December Fight of the Month vs. Stipe Miocic",
-    "2014 December Fight of the Month vs. Stipe Miocic",
-    "Sherdog 2010 All-Violence Third Team  2011 All-Violence First Team",
-    "2010 All-Violence Third Team",
-    "2011 All-Violence First Team",
-    "MMA Fighting 2008 #8 Ranked UFC Knockout of the Year vs. Fabrício Werdum at UFC 90",
-    "2008 #8 Ranked UFC Knockout of the Year vs. Fabrício Werdum at UFC 90",
-    "Bleacher Report 2014 #7 Ranked Fight of the Year vs. Stipe Miocic at UFC on Fox: dos Santos vs. Miocic",
-    "2014 #7 Ranked Fight of the Year vs. Stipe Miocic at UFC on Fox: dos Santos vs. Miocic"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Heavyweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "One successful title defense"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Knockout of the Night (Three times) vs. Fabrício Werdum , Gabriel Gonzaga and Cain Velasquez"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Three times) vs. Mark Hunt , Stipe Miocic and Derrick Lewis"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Longest winning streak in UFC Heavyweight division history (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most knockdowns landed in UFC Heavyweight division history (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Chuck Liddell , Lyoto Machida , Thiago Santos , Maurício Rua & Khalil Rountree Jr. ) for sixth most knockdowns landed in UFC history (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Cain Velasquez & Francis Ngannou ) for second most knockouts in UFC Heavyweight division history (10) (behind Derrick Lewis )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Sixth most bouts in UFC Heavyweight division history (23)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Curtis Blaydes ) for fourth most wins in UFC Heavyweight division history (15)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most total fight time in UFC Heavyweight division history (4:07:01)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most significant strikes landed in UFC Heavyweight division history (1109)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Sixth most total strikes landed in UFC Heavyweight division history (1217)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Highest takedown defense percentage in UFC Heavyweight division history (81.8%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied for fourth most consecutive knockouts in UFC history (5)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Holds wins over five former UFC champions (4 undisputed) — vs. Fabrício Werdum , Cain Velasquez 1, Frank Mir , Stipe Miocic 1 and Shane Carwin (interim)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2008: Ranked #5 Newcomer of the Year Ranked #2 Knockout of the Year vs. Fabricio Werdum & Ranked #2 Upset of the Year vs. Fabricio Werdum"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2010: Ranked #6 Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2011: Ranked #2 Fighter of the Year & Ranked #9 Knockout of the Year vs. Cain Velasquez 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2013 Half-Year Awards: Best Knockout of the 1HY & Ranked #5 Knockout of the Year vs. Mark Hunt"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2014: Ranked #3 Fight of the Year vs. Stipe Miocic 1"
+    },
+    {
+      "org": "Gamebred Bareknuckle MMA",
+      "texte": "Gamebred Bareknuckle MMA Heavyweight Champion (Inaugural; One time; current)"
+    },
+    {
+      "org": "FIGHT! Magazine",
+      "texte": "2008 Upset of the Year vs. Fabrício Werdum at UFC 90"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2014 December Fight of the Month vs. Stipe Miocic"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2010 All-Violence Third Team"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2011 All-Violence First Team"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2008 #8 Ranked UFC Knockout of the Year vs. Fabrício Werdum at UFC 90"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2014 #7 Ranked Fight of the Year vs. Stipe Miocic at UFC on Fox: dos Santos vs. Miocic"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids lourds",
+      "1 défense de titre à l'UFC",
+      "Record UFC chez les poids lourds : knockdowns (14)",
+      "Bonus UFC : 3× Combat de la soirée, 3× KO de la soirée"
+    ],
+    "en": [
+      "UFC Heavyweight Champion",
+      "1 UFC title defense",
+      "UFC Heavyweight record: most knockdowns (14)",
+      "UFC bonuses: 3× Fight of the Night, 3× Knockout of the Night"
+    ]
+  },
   "image_commons": "Junior dos Santos.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Junior_dos_Santos",

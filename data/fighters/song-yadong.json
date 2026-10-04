@@ -109,15 +109,51 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Fight of the Night (One time) vs. Marlon Vera",
-    "Tied ( Donald Cerrone , Ovince Saint Preux , Tom Aspinall , Carlos Prates & Conor McGregor ) for fourth most Performance of the Night awards in UFC history (7)",
-    "Tied ( Rob Font , Davey Grant & Marlon Vera ) for fourth most Post-Fight bonuses in UFC Bantamweight division history (6)",
-    "Tied ( Urijah Faber , Rob Font & Sean O'Malley ) for third most finishes in UFC Bantamweight division history (7)",
-    "Tied ( Marlon Vera , Adrian Yañez & Rob Font ) for third most knockouts in UFC Bantamweight division history (6)",
-    "2011 Hebei Provincial Sanda Championship − 1st place, 60 kg",
-    "2011 National Muay Thai Championship − 5th place",
-    "2012 Shanghai Jiu-Jitsu Open − 4th place"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Marlon Vera"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Seven times) vs. Bharat Khandare, Felipe Arantes , Alejandro Pérez , Marlon Moraes , Ricky Simón , Deiveson Figueiredo and Umar Nurmagomedov"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Donald Cerrone , Ovince Saint Preux , Tom Aspinall , Carlos Prates & Conor McGregor ) for fourth most Performance of the Night awards in UFC history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Rob Font , Davey Grant & Marlon Vera ) for fourth most Post-Fight bonuses in UFC Bantamweight division history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Urijah Faber , Rob Font & Sean O'Malley ) for third most finishes in UFC Bantamweight division history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Marlon Vera , Adrian Yañez & Rob Font ) for third most knockouts in UFC Bantamweight division history (6)"
+    },
+    {
+      "org": null,
+      "texte": "2011 Hebei Provincial Sanda Championship − 1st place, 60 kg"
+    },
+    {
+      "org": null,
+      "texte": "2011 National Muay Thai Championship − 5th place"
+    },
+    {
+      "org": null,
+      "texte": "2012 Shanghai Jiu-Jitsu Open − 4th place"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 7× Performance de la soirée, 1× Combat de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 7× Performance of the Night, 1× Fight of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Song_Yadong",

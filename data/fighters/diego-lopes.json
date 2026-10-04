@@ -119,36 +119,93 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Fight of the Night (Four times) vs. Movsar Evloev , Alexander Volkanovski (x2) and Jean Silva",
-    "Performance of the Night (Three times) vs. Gavin Tucker , Pat Sabatini and Jean Silva    Sixth most Post-Fight bonuses in UFC Featherweight division history (7)",
-    "Sixth most Post-Fight bonuses in UFC Featherweight division history (7)",
-    "UFC Honors Awards 2025: President's Choice Fight of the Year Nominee vs. Jean Silva",
-    "2025: President's Choice Fight of the Year Nominee vs. Jean Silva",
-    "UFC.com Awards 2023: Newcomer of the Year  & Ranked #8 Submission of the Year vs. Gavin Tucker  2024: Ranked #4 Fighter of the Year",
-    "2023: Newcomer of the Year  & Ranked #8 Submission of the Year vs. Gavin Tucker",
-    "2024: Ranked #4 Fighter of the Year",
-    "LUX Fight League LUX Featherweight Championship (one time)",
-    "LUX Featherweight Championship (one time)",
-    "Jasaji Fighting League JFL Featherweight Championship (one time)",
-    "JFL Featherweight Championship (one time)",
-    "Xtreme Fighters Latino XFL Featherweight Championship (one time)",
-    "XFL Featherweight Championship (one time)",
-    "World MMA Awards 2024 Submission of the Year vs. Gavin Tucker at UFC on ESPN: Sandhagen vs. Font",
-    "2024 Submission of the Year vs. Gavin Tucker at UFC on ESPN: Sandhagen vs. Font",
-    "ESPN 2024 Breakout Fighter of the Year",
-    "2024 Breakout Fighter of the Year",
-    "MMA Junkie 2023 Newcomer of the Year",
-    "2023 Newcomer of the Year",
-    "Cageside Press 2023 Newcomer of the Year",
-    "2023 Newcomer of the Year",
-    "MMA Fighting 2023 First Team MMA All-Star  2024 Second Team MMA All-Star",
-    "2023 First Team MMA All-Star",
-    "2024 Second Team MMA All-Star",
-    "BodySlam.net 2024 Breakout Fighter of the Year",
-    "2024 Breakout Fighter of the Year",
-    "MMA Mania 2025 #2 Ranked Fight of the Year vs. Jean Silva at UFC Fight Night: Lopes vs. Silva",
-    "2025 #2 Ranked Fight of the Year vs. Jean Silva at UFC Fight Night: Lopes vs. Silva"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Four times) vs. Movsar Evloev , Alexander Volkanovski (x2) and Jean Silva"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Three times) vs. Gavin Tucker , Pat Sabatini and Jean Silva"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Sixth most Post-Fight bonuses in UFC Featherweight division history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2025: President's Choice Fight of the Year Nominee vs. Jean Silva"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: Newcomer of the Year & Ranked #8 Submission of the Year vs. Gavin Tucker"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: Ranked #4 Fighter of the Year"
+    },
+    {
+      "org": "LUX Fight League",
+      "texte": "LUX Featherweight Championship (one time)"
+    },
+    {
+      "org": "Jasaji Fighting League",
+      "texte": "JFL Featherweight Championship (one time)"
+    },
+    {
+      "org": "Xtreme Fighters Latino",
+      "texte": "XFL Featherweight Championship (one time)"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2024 Submission of the Year vs. Gavin Tucker at UFC on ESPN: Sandhagen vs. Font"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2024 Breakout Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2023 Newcomer of the Year"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2023 Newcomer of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2023 First Team MMA All-Star"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2024 Second Team MMA All-Star"
+    },
+    {
+      "org": "BodySlam.net",
+      "texte": "2024 Breakout Fighter of the Year"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2025 #2 Ranked Fight of the Year vs. Jean Silva at UFC Fight Night: Lopes vs. Silva"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Soumission de l'année (2024)",
+      "Bonus UFC : 3× Performance de la soirée, 4× Combat de la soirée"
+    ],
+    "en": [
+      "Submission of the Year (2024)",
+      "UFC bonuses: 3× Performance of the Night, 4× Fight of the Night"
+    ]
+  },
   "image_commons": "Diego Lopes 2025.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Diego_Lopes_(fighter)",

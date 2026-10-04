@@ -167,47 +167,299 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "Interim UFC Lightweight Championship (One time)",
-    "Tied ( Edson Barboza ) for second most Fight of the Night bonuses in UFC history (10)",
-    "Submission of the Night (One time) vs. Max Holloway 1",
-    "Tied ( Joe Lauzon ) for sixth most Post-Fight night bonuses in UFC history (15)",
-    "Sixth most Post-Fight bonuses in UFC Lightweight division history (12)",
-    "Tied ( Vitor Belfort ) for the 3rd longest fight streak against former UFC Champions (6)",
-    "Tied ( Jon Jones ) for the 2nd longest unbeaten streak against former UFC Champions (5)",
-    "Tied ( Alex Pereira , Islam Makhachev and Merab Dvalishvili ) for the 3rd longest win streak against former UFC Champions (4)",
-    "Tied ( Anthony Johnson , Thiago Santos , Anderson Silva & Drew Dober ) for fifth most knockouts in modern UFC history (11)",
-    "Tied ( Demian Maia & Jon Jones ) for seventh most wins in UFC history (22)",
-    "Tied ( Donald Cerrone , Tony Ferguson & Islam Makhachev ) for fifth most finishes in UFC Lightweight division history (10)",
-    "Fifth most knockdowns landed in UFC history (15)",
-    "Tied ( Donald Cerrone ) for third most knockdowns landed in UFC Lightweight division history (11)",
-    "Second most significant strikes landed in UFC Lightweight division history (1308)  Fifth most significant strikes landed in UFC history (1861)",
-    "Fifth most significant strikes landed in UFC history (1861)",
-    "Fourth most total strikes landed in UFC Lightweight division history (1631)",
-    "Holds wins over five former UFC Champions - Max Holloway (twice), Conor McGregor (twice), Eddie Alvarez , Anthony Pettis , and Justin Gaethje",
-    "The only fighter to win the UFC interim belt defeating a current UFC undisputed Champion",
-    "2020 Forrest Griffin Community Award",
-    "2019: President's Choice Fight of the Year Nominee vs. Max Holloway 2",
-    "2020: President's Choice Fight of the Year Nominee vs. Dan Hooker",
-    "2022: President's Choice Fight of the Year Nominee vs. Michael Chandler",
-    "2024: President's Choice Fight of the Year Nominee vs. Benoît Saint Denis",
-    "2011: Ranked #7 Import of the Year  & Ranked #10 Upset of the Year vs. Josh Grispi",
-    "2012: Half-Year Awards: Best Fight of the 1HY  & Ranked #2 Fight of the Year vs. Jung Chan-sung",
-    "2017: Ranked #8 Fighter of the Year  & Ranked #4 Fight of the Year vs. Anthony Pettis",
-    "2018: Ranked #2 Fight of the Year vs. Justin Gaethje 1  & Ranked #9 Fighter of the Year",
-    "2019: Ranked #4 Fight of the Year vs. Max Holloway 2",
-    "2020: Ranked #3 Fight of the Year vs. Dan Hooker",
-    "2021: Ranked #6 Upset of the Year vs. Conor McGregor 2  & Ranked #10 Knockout of the Year vs. Conor McGregor 2",
-    "2022: Ranked #3 Fight of the Year vs. Michael Chandler",
-    "2024: Ranked #5 Fight of the Year vs. Benoît Saint Denis ,  Ranked #4 Fight of the Year vs. Islam Makhachev  & Half-Year Awards: Best Fight of the 1HY vs. Islam Makhachev",
-    "International Sport Combat Federation ISCF Amateur Lightweight Tournament Championship (One time)",
-    "ISCF Amateur Lightweight Tournament Championship (One time)",
-    "2014 April Fight of the Month vs. Akira Corassani at The Ultimate Fighter Nations Finale: Bisping vs. Kennedy",
-    "2018 Fight of the Year vs. Justin Gaethje at UFC on Fox: Poirier vs. Gaethje",
-    "2018 April Fight of the Month vs. Justin Gaethje at UFC on Fox: Poirier vs. Gaethje",
-    "2020 June Fight of the Month vs. Dan Hooker at UFC on ESPN: Poirier vs. Hooker",
-    "2021 January Fight of the Month vs. Conor McGregor at UFC 257",
-    "2022 November Fight of the Month vs. Michael Chandler at UFC 281"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Interim UFC Lightweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Ten times) vs. Jung Chan-Sung , Akira Corassani , Jim Miller , Anthony Pettis , Justin Gaethje 1, Max Holloway 2, Dan Hooker , Michael Chandler , Benoît Saint Denis and Islam Makhachev"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Edson Barboza ) for second most Fight of the Night bonuses in UFC history (10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Submission of the Night (One time) vs. Max Holloway 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Four times) vs. Carlos Diego Ferreira , Yancy Medeiros , Eddie Alvarez 2, and Conor McGregor 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Joe Lauzon ) for sixth most Post-Fight night bonuses in UFC history (15)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Sixth most Post-Fight bonuses in UFC Lightweight division history (12)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Jon Jones , Georges St-Pierre and Amanda Nunes ) for most finishes against former UFC Champions (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Vitor Belfort ) for the 3rd longest fight streak against former UFC Champions (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Jon Jones ) for the 2nd longest unbeaten streak against former UFC Champions (5)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Alex Pereira , Islam Makhachev and Merab Dvalishvili ) for the 3rd longest win streak against former UFC Champions (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most knockouts in UFC Lightweight division history (9) (behind Drew Dober )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Anthony Johnson , Thiago Santos , Anderson Silva & Drew Dober ) for fifth most knockouts in modern UFC history (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Demian Maia & Jon Jones ) for seventh most wins in UFC history (22)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Matt Brown , Vicente Luque & Max Holloway ) for fifth most finishes in UFC history (15)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Donald Cerrone , Tony Ferguson & Islam Makhachev ) for fifth most finishes in UFC Lightweight division history (10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth most knockdowns landed in UFC history (15)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Donald Cerrone ) for third most knockdowns landed in UFC Lightweight division history (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most significant strikes landed in UFC Lightweight division history (1308)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth most significant strikes landed in UFC history (1861)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most total strikes landed in UFC Lightweight division history (1631)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Holds wins over five former UFC Champions - Max Holloway (twice), Conor McGregor (twice), Eddie Alvarez , Anthony Pettis , and Justin Gaethje"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "The only fighter to win the UFC interim belt defeating a current UFC undisputed Champion"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020 Forrest Griffin Community Award"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2019: President's Choice Fight of the Year Nominee vs. Max Holloway 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: President's Choice Fight of the Year Nominee vs. Dan Hooker"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: President's Choice Fight of the Year Nominee vs. Michael Chandler"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: President's Choice Fight of the Year Nominee vs. Benoît Saint Denis"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2011: Ranked #7 Import of the Year & Ranked #10 Upset of the Year vs. Josh Grispi"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2012: Half-Year Awards: Best Fight of the 1HY & Ranked #2 Fight of the Year vs. Jung Chan-sung"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2017: Ranked #8 Fighter of the Year & Ranked #4 Fight of the Year vs. Anthony Pettis"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2018: Ranked #2 Fight of the Year vs. Justin Gaethje 1 & Ranked #9 Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2019: Ranked #4 Fight of the Year vs. Max Holloway 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Ranked #3 Fight of the Year vs. Dan Hooker"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: Ranked #6 Upset of the Year vs. Conor McGregor 2 & Ranked #10 Knockout of the Year vs. Conor McGregor 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Ranked #3 Fight of the Year vs. Michael Chandler"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: Ranked #5 Fight of the Year vs. Benoît Saint Denis , Ranked #4 Fight of the Year vs. Islam Makhachev & Half-Year Awards: Best Fight of the 1HY vs. Islam Makhachev"
+    },
+    {
+      "org": "International Sport Combat Federation",
+      "texte": "ISCF Amateur Lightweight Tournament Championship (One time)"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2014 April Fight of the Month vs. Akira Corassani at The Ultimate Fighter Nations Finale: Bisping vs. Kennedy"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2018 Fight of the Year vs. Justin Gaethje at UFC on Fox: Poirier vs. Gaethje"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2018 April Fight of the Month vs. Justin Gaethje at UFC on Fox: Poirier vs. Gaethje"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2020 June Fight of the Month vs. Dan Hooker at UFC on ESPN: Poirier vs. Hooker"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2021 January Fight of the Month vs. Conor McGregor at UFC 257"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2022 November Fight of the Month vs. Michael Chandler at UFC 281"
+    },
+    {
+      "org": "MMA Weekly",
+      "texte": "2018 Fight of the Year vs. Justin Gaethje at UFC on Fox: Poirier vs. Gaethje"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2012 Fight of the Year vs. Jung Chan-Sung at UFC on Fuel TV 3"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2018 Fight of the Year vs. Justin Gaethje at UFC on Fox: Poirier vs. Gaethje"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2024 Third Team MMA All-Star"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2025 #3 Ranked Fight of the Year vs. Max Holloway at UFC 318"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2025 Walkout of the Year at UFC 318"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "2012 Fight of the Year vs. Jung Chan-Sung at UFC on Fuel TV 3"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "2018 Fight of the Year vs. Justin Gaethje at UFC on Fox: Poirier vs. Gaethje"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2019 – July 2020 Fighting Spirit of the Year for charity - Good Fight Foundation"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2017 #4 Ranked UFC Fight of the Year vs. Jim Miller at UFC 208"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2018 UFC Fight of the Year vs. Justin Gaethje at UFC on Fox: Poirier vs. Gaethje"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2019 #2 Ranked UFC Fight of the Year vs. Max Holloway at UFC 236"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2020 #3 Ranked UFC Fight of the Year vs. Dan Hooker at UFC on ESPN: Poirier vs. Hooker"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2020 Round of the Year Round 2 vs. Dan Hooker at UFC on ESPN: Poirier vs. Hooker"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2020 Mensch of the Year"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2012 Fight of the Year vs. Jung Chan-Sung at UFC on Fuel TV 3"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2012 Fight of the Year vs. Jung Chan-Sung at UFC on Fuel TV 3"
+    },
+    {
+      "org": "FIGHT! Magazine",
+      "texte": "2012 Fight of the Year vs. Jung Chan-Sung at UFC on Fuel TV 3"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2024 #4 Ranked Fight of the Year vs. Islam Makhachev at UFC 302"
+    },
+    {
+      "org": "MMA Sucka",
+      "texte": "2018 Fight of the Year vs. Justin Gaethje at UFC on Fox: Poirier vs. Gaethje"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2018 Fight of the Year vs. Justin Gaethje at UFC on Fox: Poirier vs. Gaethje"
+    },
+    {
+      "org": "Slacky Awards",
+      "texte": "2018 Technical Turn-Around of the Year tied with Henry Cejudo and Jan Błachowicz"
+    },
+    {
+      "org": null,
+      "texte": "May 2019: Key to the City of Lafayette"
+    },
+    {
+      "org": "Greater New Orleans Sports Foundation",
+      "texte": "2025: Legacy Award"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion intérimaire UFC des poids légers",
+      "Combat de l'année (2012, 2018)",
+      "Bonus UFC : 4× Performance de la soirée, 10× Combat de la soirée, 1× Soumission de la soirée"
+    ],
+    "en": [
+      "Interim UFC Lightweight Champion",
+      "Fight of the Year (2012, 2018)",
+      "UFC bonuses: 4× Performance of the Night, 10× Fight of the Night, 1× Submission of the Night"
+    ]
+  },
   "image_commons": "DustinPoirier.png",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Dustin_Poirier",

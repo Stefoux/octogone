@@ -2,27 +2,28 @@
   "id": "melquizael-conceicao",
   "nom": "Melquizael Conceição",
   "ufc_slug": null,
-  "surnom": null,
-  "sexe": null,
+  "wikipedia_titre": "Melquizael Costa",
+  "surnom": "The Dalmatian",
+  "sexe": "M",
   "pays": null,
-  "categorie": null,
+  "categorie": "plume",
   "statut": null,
-  "date_naissance": null,
+  "date_naissance": "1996-09-14",
   "taille_cm": null,
   "allonge_cm": null,
   "style": null,
   "lieu_naissance": null,
   "palmares": {
-    "victoires_ko": null,
-    "victoires_soumission": null,
-    "victoires_decision": null,
-    "defaites_ko": null,
-    "defaites_soumission": null,
-    "defaites_decision": null,
+    "victoires": 26,
+    "defaites": 8,
     "nuls": 0,
     "sans_decision": 0,
-    "victoires": null,
-    "defaites": null
+    "victoires_ko": 9,
+    "victoires_soumission": 8,
+    "victoires_decision": 9,
+    "defaites_ko": 2,
+    "defaites_soumission": 2,
+    "defaites_decision": 4
   },
   "stats_ufc": {
     "frappes_par_min": null,
@@ -38,29 +39,112 @@
     "frappes_reussies": null,
     "takedowns_reussis": null
   },
-  "ufc": {},
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 26,
+      "defaites": 8,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 9,
+        "soumission": 8,
+        "decision": 9,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 2,
+        "decision": 4,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2023": 3,
+      "2024": 1,
+      "2025": 4,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Arnold Allen",
+      "evenement": "UFC Fight Night: Allen vs. Costa",
+      "date": "May 16, 2026",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 10,
+    "victoires_ufc": 7,
+    "defaites_ufc": 3,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 1,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Julian Erosa",
+        "evenement": "UFC Fight Night: Burns vs. Morales",
+        "date": "May 17, 2025"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 5
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Thiago Moisés",
+      "evenement": "UFC 283",
+      "date": "January 21, 2023",
+      "resultat": "Loss",
+      "methode": "Submission (face crank)"
+    }
+  },
   "champion_actuel": false,
   "ancien_champion": false,
-  "accomplissements_en": [],
+  "accomplissements_en": [
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Dan Ige"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Julian Erosa"
+    },
+    {
+      "org": "Predator Fighting Championships",
+      "texte": "Predator FC Featherweight Championship (One time, former)"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2025 #5 Ranked Fight of the Year vs. Julian Erosa"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 1× Performance de la soirée, 1× Combat de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 1× Performance of the Night, 1× Fight of the Night"
+    ]
+  },
   "image_commons": null,
-  "sources": {},
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Melquizael_Costa",
+    "wikidata": "https://www.wikidata.org/wiki/Q126947204"
+  },
   "champs_sources": {
-    "pays": "wikidata"
+    "surnom": "wikipedia",
+    "pays": "wikidata",
+    "categorie": "wikipedia",
+    "palmares": "wikipedia_tableau",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
   },
   "a_verifier": [
     "allonge_cm",
-    "categorie",
     "fiche ufc.com introuvable",
-    "palmares.defaites",
-    "palmares.defaites_decision",
-    "palmares.defaites_ko",
-    "palmares.defaites_soumission",
-    "palmares.victoires",
-    "palmares.victoires_decision",
-    "palmares.victoires_ko",
-    "palmares.victoires_soumission",
     "pays",
-    "sexe",
     "stats_ufc (absentes de la fiche ufc.com)",
     "statut"
   ],
@@ -68,22 +152,18 @@
   "maj": "2026-10-04",
   "stats_jeu": {
     "frappe": 65,
-    "puissance": 65,
+    "puissance": 57,
     "lutte": 65,
     "soumission": 65,
     "defense": 65,
-    "cardio": 65,
-    "menton": 65,
-    "globale": 65,
+    "cardio": 38,
+    "menton": 79,
+    "globale": 62,
     "style": "complet",
     "estimees": [
       "frappe",
-      "puissance",
       "lutte",
-      "soumission",
-      "defense",
-      "cardio",
-      "menton"
+      "defense"
     ],
     "formule_version": 1
   }

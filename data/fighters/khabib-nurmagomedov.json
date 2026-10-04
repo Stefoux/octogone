@@ -113,47 +113,267 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "UFC Hall of Fame (Modern Wing, Class of 2022)",
-    "Tied for the second most title defenses in UFC Lightweight division history (3) (w. B.J. Penn , Frankie Edgar and Benson Henderson )",
-    "Tied for the second most consecutive title defenses in UFC Lightweight division history (3) (w. B.J. Penn , Frankie Edgar and Benson Henderson )",
-    "Tied for the second most title wins in UFC Lightweight division history (4) (w. B.J. Penn and Benson Henderson )",
-    "Longest Lightweight champion reign in UFC history (1077 days)",
-    "Tied ( Islam Makhachev ) for most submissions wins in UFC Lightweight division title fights (3)",
-    "Tied for third most submissions wins in title fights in UFC history (3) (w. Ronda Rousey , Matt Hughes , B.J. Penn & Islam Makhachev )",
-    "Tied for the fifth longest win streak in UFC history (13) w. Georges St-Pierre , Max Holloway , Jon Jones & Demetrious Johnson",
-    "Performance of the Night (Three times) vs. Edson Barboza , Dustin Poirier and Justin Gaethje",
-    "Most takedowns in a single UFC fight ( UFC 160 : 21 takedowns on 28 attempts; 3 rounds) vs. Abel Trujillo",
-    "Tied for second most consecutive wins in UFC Lightweight division history (12) (w. Tony Ferguson )",
-    "Second Russian UFC champion (after Oleg Taktarov )",
-    "First Muslim UFC champion",
-    "Third most control time in UFC Lightweight division history (1:29:08)",
-    "Fifth highest control time percentage in UFC Lightweight division history (54.6%)",
-    "Fourth most top position time in UFC Lightweight division history (1:04:28)",
-    "Third most takedowns landed in UFC Lightweight division history (59)",
-    "Holds wins over four former UFC champions (3 undisputed) — vs. Rafael dos Anjos , Conor McGregor , Justin Gaethje & Dustin Poirier (interim)",
-    "UFC Honors Awards 2019: Fan's Choice Submission of the Year Nominee vs. Dustin Poirier  2020: Fan's Choice Submission of the Year Winner vs. Justin Gaethje",
-    "2019: Fan's Choice Submission of the Year Nominee vs. Dustin Poirier",
-    "2020: Fan's Choice Submission of the Year Winner vs. Justin Gaethje",
-    "UFC.com Awards 2018: Ranked #3 Fighter of the Year  2019: Ranked #2 Submission of the Year vs. Dustin Poirier  2020: Ranked #4 Submission of the Year vs. Justin Gaethje",
-    "2018: Ranked #3 Fighter of the Year",
-    "2019: Ranked #2 Submission of the Year vs. Dustin Poirier",
-    "2020: Ranked #4 Submission of the Year vs. Justin Gaethje",
-    "M-1 Global M-1 Challenge: 2009 Selections",
-    "M-1 Challenge: 2009 Selections",
-    "Atrium Cup Pankration Atrium Cup 2008 tournament winner",
-    "Pankration Atrium Cup 2008 tournament winner",
-    "MMA Fighting 2010s #2 Ranked Fighter of the Decade",
-    "2010s #2 Ranked Fighter of the Decade",
-    "BJPenn.com 2010s #5 Ranked Fighter of the Decade",
-    "2010s #5 Ranked Fighter of the Decade",
-    "The Athletic 2010s Lightweight Fighter of the Decade",
-    "2010s Lightweight Fighter of the Decade",
-    "Bloody Elbow 2010s Lightweight Fighter of the Decade",
-    "2010s Lightweight Fighter of the Decade",
-    "Sherdog 2013 Breakthrough Fighter of the Year.  2016 Beatdown of the Year ( UFC 205 : vs. Michael Johnson ) .  2016 Comeback Fighter of the Year",
-    "2013 Breakthrough Fighter of the Year.",
-    "2016 Beatdown of the Year ( UFC 205 : vs. Michael Johnson ) ."
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame (Modern Wing, Class of 2022)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Lightweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Three successful title defenses"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied for the second most title defenses in UFC Lightweight division history (3) (w. B.J. Penn , Frankie Edgar and Benson Henderson )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied for the second most consecutive title defenses in UFC Lightweight division history (3) (w. B.J. Penn , Frankie Edgar and Benson Henderson )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied for the second most title wins in UFC Lightweight division history (4) (w. B.J. Penn and Benson Henderson )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Longest Lightweight champion reign in UFC history (1077 days)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Islam Makhachev ) for most submissions wins in UFC Lightweight division title fights (3)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied for third most submissions wins in title fights in UFC history (3) (w. Ronda Rousey , Matt Hughes , B.J. Penn & Islam Makhachev )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied for the fifth longest win streak in UFC history (13) w. Georges St-Pierre , Max Holloway , Jon Jones & Demetrious Johnson"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Three times) vs. Edson Barboza , Dustin Poirier and Justin Gaethje"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most takedowns in a single UFC fight ( UFC 160 : 21 takedowns on 28 attempts; 3 rounds) vs. Abel Trujillo"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied for second most consecutive wins in UFC Lightweight division history (12) (w. Tony Ferguson )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second Russian UFC champion (after Oleg Taktarov )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First Muslim UFC champion"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most control time in UFC Lightweight division history (1:29:08)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth highest control time percentage in UFC Lightweight division history (54.6%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most top position time in UFC Lightweight division history (1:04:28)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most takedowns landed in UFC Lightweight division history (59)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Holds wins over four former UFC champions (3 undisputed) — vs. Rafael dos Anjos , Conor McGregor , Justin Gaethje & Dustin Poirier (interim)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2019: Fan's Choice Submission of the Year Nominee vs. Dustin Poirier"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Fan's Choice Submission of the Year Winner vs. Justin Gaethje"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2018: Ranked #3 Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2019: Ranked #2 Submission of the Year vs. Dustin Poirier"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Ranked #4 Submission of the Year vs. Justin Gaethje"
+    },
+    {
+      "org": "M-1 Global",
+      "texte": "M-1 Challenge: 2009 Selections"
+    },
+    {
+      "org": "Atrium Cup",
+      "texte": "Pankration Atrium Cup 2008 tournament winner"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2010s #2 Ranked Fighter of the Decade"
+    },
+    {
+      "org": "BJPenn.com",
+      "texte": "2010s #5 Ranked Fighter of the Decade"
+    },
+    {
+      "org": "The Athletic",
+      "texte": "2010s Lightweight Fighter of the Decade"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2010s Lightweight Fighter of the Decade"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2013 Breakthrough Fighter of the Year."
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2016 Beatdown of the Year ( UFC 205 : vs. Michael Johnson ) ."
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2016 Comeback Fighter of the Year"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2020 Submission of the Year vs. Justin Gaethje at UFC 254"
+    },
+    {
+      "org": "ESPN",
+      "texte": "#5 Ranked Men's MMA Fighter of the 21st Century"
+    },
+    {
+      "org": "Fight Booth",
+      "texte": "2013 Staredown of the Year ( UFC 160 : vs. Abel Trujillo )"
+    },
+    {
+      "org": "MMAdna.nl",
+      "texte": "2017 Performance of the Year ( UFC 219 : vs. Edson Barboza )"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2020 October Submission of the Month vs. Justin Gaethje"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2022 Coach of the year w. Javier Mendez"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2010s #8 Ranked Fighter of the Decade"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2016 International Fighter of the Year."
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2021 Submission of the Year vs. Justin Gaethje at UFC 254 ^"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "Mixed Martial Arts Most Valuable (2020)"
+    },
+    {
+      "org": "BBC Sports Personality World Sport Star of the Year",
+      "texte": "2020 World Sport Star of the Year"
+    },
+    {
+      "org": "Russian Public Opinion Research Center (VTsIOM)",
+      "texte": "Best Sportsman in Russia"
+    },
+    {
+      "org": "ESPY Awards",
+      "texte": "2021 Best MMA fighter"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2020 Submission of the Year vs. Justin Gaethje at UFC 254"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2018 #3 Ranked UFC Fighter of the Year"
+    },
+    {
+      "org": "GiveMeSport",
+      "texte": "2022 MMA Coach of the Year"
+    },
+    {
+      "org": "MMA Sucka",
+      "texte": "2020 Submission of the Year vs. Justin Gaethje at UFC 254"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2020 Submission of the Year vs. Justin Gaethje at UFC 254 (tied with A. J. McKee and Aljamain Sterling )"
+    },
+    {
+      "org": "Combat Sambo Federation of Russia",
+      "texte": "2009 Russian Combat Sambo Championships (−74 kg) Gold Medalist"
+    },
+    {
+      "org": "World Combat Sambo Federation",
+      "texte": "2009 World Combat Sambo Championships (−74 kg) Gold Medalist"
+    },
+    {
+      "org": "World Combat Sambo Federation",
+      "texte": "2010 World Combat Sambo Championships (−82 kg) Gold Medalist"
+    },
+    {
+      "org": "Russian Union of Martial Arts",
+      "texte": "European Champion of Army Hand-to-Hand Combat"
+    },
+    {
+      "org": "International Pankration Federation",
+      "texte": "European Pankration Champion"
+    },
+    {
+      "org": "North American Grappling Association World Championship",
+      "texte": "2012 Men's No-Gi Expert Welterweight Champion"
+    },
+    {
+      "org": "North American Grappling Association World Championship",
+      "texte": "2012 ADCC Rules No-Gi Expert Welterweight Champion"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids légers",
+      "Hall of Fame de l'UFC (2022)",
+      "3 défenses de titre à l'UFC",
+      "Soumission de l'année (2020)",
+      "Bonus UFC : 3× Performance de la soirée"
+    ],
+    "en": [
+      "UFC Lightweight Champion",
+      "UFC Hall of Fame (2022)",
+      "3 UFC title defenses",
+      "Submission of the Year (2020)",
+      "UFC bonuses: 3× Performance of the Night"
+    ]
+  },
   "image_commons": "Khabib nurmagomedov.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Khabib_Nurmagomedov",

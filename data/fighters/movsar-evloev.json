@@ -106,19 +106,61 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Fight of the Night (One time) vs. Diego Lopes",
-    "Second most takedowns landed in UFC Featherweight division history (49) (behind Darren Elkins )",
-    "Tied ( Khabib Nurmagomedov ) for the highest win percentage in UFC history (10 bouts / 10 wins) (Minimum of 10 UFC fights)",
-    "Tied ( Katlyn Cerminara ) for highest decision wins per win percentage in UFC history (10 decision wins / 10 wins: 100%)",
-    "Tied ( Lerone Murphy ) for fourth longest win streak in UFC Featherweight division history (9)",
-    "Tied ( Max Holloway , Alexander Volkanovski & Andre Fili ) for second most decision wins in UFC Featherweight division history (9)",
-    "Third longest average fight time in UFC Featherweight division history (16:07)",
-    "First fighter to start UFC career with ten straight decision wins",
-    "M-1 Global M-1 Global interim Bantamweight Championship (One time; first) M-1 Global Bantamweight Championship (One time; former) Two successful title defenses",
-    "M-1 Global interim Bantamweight Championship (One time; first)",
-    "M-1 Global Bantamweight Championship (One time; former) Two successful title defenses",
-    "Two successful title defenses"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Diego Lopes"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most takedowns landed in UFC Featherweight division history (49) (behind Darren Elkins )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Khabib Nurmagomedov ) for the highest win percentage in UFC history (10 bouts / 10 wins) (Minimum of 10 UFC fights)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Katlyn Cerminara ) for highest decision wins per win percentage in UFC history (10 decision wins / 10 wins: 100%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Lerone Murphy ) for fourth longest win streak in UFC Featherweight division history (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Max Holloway , Alexander Volkanovski & Andre Fili ) for second most decision wins in UFC Featherweight division history (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third longest average fight time in UFC Featherweight division history (16:07)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First fighter to start UFC career with ten straight decision wins"
+    },
+    {
+      "org": "M-1 Global",
+      "texte": "M-1 Global interim Bantamweight Championship (One time; first)"
+    },
+    {
+      "org": "M-1 Global",
+      "texte": "M-1 Global Bantamweight Championship (One time; former)"
+    },
+    {
+      "org": "M-1 Global",
+      "texte": "Two successful title defenses"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion M-1 Global des poids coq",
+      "Bonus UFC : 1× Combat de la soirée"
+    ],
+    "en": [
+      "M-1 Global Bantamweight Champion",
+      "UFC bonuses: 1× Fight of the Night"
+    ]
+  },
   "image_commons": "Movsar Evloev M-1 Challenge 2018.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Movsar_Evloev",

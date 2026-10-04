@@ -146,47 +146,197 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "UFC Hall of Fame ( Modern wing , Class of 2019)",
-    "UFC Middleweight Championship (one time) One successful title defence vs. Dan Henderson First British champion in UFC history",
-    "One successful title defence vs. Dan Henderson",
-    "First British champion in UFC history",
-    "The Ultimate Fighter 3 Light Heavyweight Tournament Winner",
-    "Fight of the Night (Five times) vs. Elvis Sinosic , Denis Kang , Yoshihiro Akiyama , Anderson Silva and Dan Henderson 1",
-    "Performance of the Night (Two times) vs. Cung Le and Luke Rockhold 2",
-    "UFC Encyclopedia Awards Knockout of the Night (One time) vs. Josh Haynes",
-    "Knockout of the Night (One time) vs. Josh Haynes",
-    "Most wins in UFC Middleweight division history (16)",
-    "Third most bouts in UFC Middleweight division history (24) (behind Brad Tavares )",
-    "Second most total fight time in UFC Middleweight division history (5:15:15) (behind Brad Tavares )",
-    "Second most significant strikes landed in UFC Middleweight division history (1384) (behind Sean Strickland )  Fourth most total strikes landed in UFC Middleweight division history (1654)",
-    "Fourth most total strikes landed in UFC Middleweight division history (1654)",
-    "Tied ( Robert Whittaker ) for third most decision wins in UFC Middleweight division history (9)",
-    "Retired with most fights in UFC history (29);  since surpassed by Jim Miller",
-    "2008: Ranked #10 Fighter of the Year",
-    "2009: Ranked #10 Upset of the Year vs. Denis Kang",
-    "2016: Fighter of the Year ,  Ranked #7 Knockout of the Year  & Upset of the Year  vs. Luke Rockhold 2",
-    "2017: Ranked #9 Fight of the Year vs. Georges St-Pierre",
-    "Cage Rage Championships Cage Rage Light Heavyweight Championship (one time) One successful title defence",
-    "Cage Rage Light Heavyweight Championship (one time) One successful title defence",
-    "One successful title defence",
-    "Cage Warriors Fighting Championship CWFC Light Heavyweight Championship (one time) Three successful title defences",
-    "CWFC Light Heavyweight Championship (one time) Three successful title defences",
-    "Three successful title defences",
-    "FX3 FX3 Light Heavyweight Championship (one time)",
-    "FX3 Light Heavyweight Championship (one time)",
-    "The Athletic 2010s Middleweight Fighter of the Decade",
-    "2010s Middleweight Fighter of the Decade",
-    "2008 International Fighter of the Year",
-    "2012 International Fighter of the Year",
-    "2016 Upset of the Year vs. Luke Rockhold at UFC 199",
-    "2021 Analyst of the Year",
-    "2022 Analyst of the Year",
-    "2023 Analyst of the Year",
-    "2024 Analyst of the Year",
-    "ESPN 2016 Fighter of the Year",
-    "2016 Fighter of the Year",
-    "Combat Press 2016 Male Fighter of the Year  2016 Upset of the Year vs. Luke Rockhold at UFC 199"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame ( Modern wing , Class of 2019)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Middleweight Championship (one time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "One successful title defence vs. Dan Henderson"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First British champion in UFC history"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "The Ultimate Fighter 3 Light Heavyweight Tournament Winner"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Five times) vs. Elvis Sinosic , Denis Kang , Yoshihiro Akiyama , Anderson Silva and Dan Henderson 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. Cung Le and Luke Rockhold 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Encyclopedia Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Knockout of the Night (One time) vs. Josh Haynes"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most wins in UFC Middleweight division history (16)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most bouts in UFC Middleweight division history (24) (behind Brad Tavares )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most total fight time in UFC Middleweight division history (5:15:15) (behind Brad Tavares )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most significant strikes landed in UFC Middleweight division history (1384) (behind Sean Strickland )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most total strikes landed in UFC Middleweight division history (1654)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Robert Whittaker ) for third most decision wins in UFC Middleweight division history (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Retired with most fights in UFC history (29); since surpassed by Jim Miller"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2008: Ranked #10 Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2009: Ranked #10 Upset of the Year vs. Denis Kang"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2016: Fighter of the Year , Ranked #7 Knockout of the Year & Upset of the Year vs. Luke Rockhold 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2017: Ranked #9 Fight of the Year vs. Georges St-Pierre"
+    },
+    {
+      "org": "Cage Rage Championships",
+      "texte": "Cage Rage Light Heavyweight Championship (one time)"
+    },
+    {
+      "org": "Cage Rage Championships",
+      "texte": "One successful title defence"
+    },
+    {
+      "org": "Cage Warriors Fighting Championship",
+      "texte": "CWFC Light Heavyweight Championship (one time)"
+    },
+    {
+      "org": "Cage Warriors Fighting Championship",
+      "texte": "Three successful title defences"
+    },
+    {
+      "org": "FX3",
+      "texte": "FX3 Light Heavyweight Championship (one time)"
+    },
+    {
+      "org": "The Athletic",
+      "texte": "2010s Middleweight Fighter of the Decade"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2008 International Fighter of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2012 International Fighter of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2016 Upset of the Year vs. Luke Rockhold at UFC 199"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2021 Analyst of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2022 Analyst of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2023 Analyst of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2024 Analyst of the Year"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2016 Fighter of the Year"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2016 Male Fighter of the Year"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2016 Upset of the Year vs. Luke Rockhold at UFC 199"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2016 Fighter of the Year"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2016 Upset of the Year vs. Luke Rockhold at UFC 199"
+    },
+    {
+      "org": "MMADNA.nl",
+      "texte": "2016 Upset of the Year vs. Luke Rockhold at UFC 199"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2016 #4 Ranked UFC Fighter of the Year"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2016 #8 Ranked UFC Fight of the Year vs. Dan Henderson at UFC 204"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2016 #4 Ranked Fighter of the Year"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids moyens",
+      "Hall of Fame de l'UFC (2019)",
+      "1 défense de titre à l'UFC",
+      "Combattant de l'année (2016)",
+      "Record UFC chez les poids moyens : victoires (16)",
+      "Bonus UFC : 2× Performance de la soirée, 5× Combat de la soirée, 1× KO de la soirée"
+    ],
+    "en": [
+      "UFC Middleweight Champion",
+      "UFC Hall of Fame (2019)",
+      "1 UFC title defense",
+      "Fighter of the Year (2016)",
+      "UFC Middleweight record: most wins (16)",
+      "UFC bonuses: 2× Performance of the Night, 5× Fight of the Night, 1× Knockout of the Night"
+    ]
+  },
   "image_commons": "Michael Bisping.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Michael_Bisping",

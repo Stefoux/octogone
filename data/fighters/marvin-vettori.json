@@ -119,17 +119,47 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Fight of the Night (Three times) vs. Jack Hermansson , Jared Cannonier and Brendan Allen",
-    "Performance of the Night (Two times) vs. Karl Roberson and Paulo Costa",
-    "Third most total strikes landed in UFC Middleweight division history (1687)  Third most significant strikes landed in UFC Middleweight division history (1274)",
-    "Third most significant strikes landed in UFC Middleweight division history (1274)",
-    "Third longest average fight time in UFC Middleweight division history (16:42)",
-    "Fourth most total fight time in UFC Middleweight division history (4:43:47)",
-    "Venator Fighting Championship VFC Welterweight Championship (One time)",
-    "VFC Welterweight Championship (One time)",
-    "MMAjunkie.com 2023 June Fight of the Month vs. Jared Cannonier",
-    "2023 June Fight of the Month vs. Jared Cannonier"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Three times) vs. Jack Hermansson , Jared Cannonier and Brendan Allen"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. Karl Roberson and Paulo Costa"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most total strikes landed in UFC Middleweight division history (1687)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most significant strikes landed in UFC Middleweight division history (1274)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third longest average fight time in UFC Middleweight division history (16:42)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most total fight time in UFC Middleweight division history (4:43:47)"
+    },
+    {
+      "org": "Venator Fighting Championship",
+      "texte": "VFC Welterweight Championship (One time)"
+    },
+    {
+      "org": "MMAjunkie.com",
+      "texte": "2023 June Fight of the Month vs. Jared Cannonier"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 2× Performance de la soirée, 3× Combat de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 2× Performance of the Night, 3× Fight of the Night"
+    ]
+  },
   "image_commons": "Marvin Vettori La Gazzetta dello Sport 2025.png",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Marvin_Vettori",

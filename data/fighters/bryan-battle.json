@@ -97,14 +97,33 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Ultimate Fighting Championship The Ultimate Fighter 29 Middleweight Tournament Winner  Performance of the Night (Three times) vs. Takashi Sato , Gabriel Green , and Kevin Jousset",
-    "The Ultimate Fighter 29 Middleweight Tournament Winner",
-    "Performance of the Night (Three times) vs. Takashi Sato , Gabriel Green , and Kevin Jousset",
-    "Fight Lab Fight Lab Light Heavyweight Championship (One time; former)",
-    "Fight Lab Light Heavyweight Championship (One time; former)",
-    "BodySlam.net 2024 Promo of the Year after knocking out Kevin Jousset",
-    "2024 Promo of the Year after knocking out Kevin Jousset"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "The Ultimate Fighter 29 Middleweight Tournament Winner"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Three times) vs. Takashi Sato , Gabriel Green , and Kevin Jousset"
+    },
+    {
+      "org": "Fight Lab",
+      "texte": "Fight Lab Light Heavyweight Championship (One time; former)"
+    },
+    {
+      "org": "BodySlam.net",
+      "texte": "2024 Promo of the Year after knocking out Kevin Jousset"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Vainqueur de The Ultimate Fighter 29",
+      "Bonus UFC : 3× Performance de la soirée"
+    ],
+    "en": [
+      "The Ultimate Fighter 29 winner",
+      "UFC bonuses: 3× Performance of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Bryan_Battle",

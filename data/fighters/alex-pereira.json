@@ -141,47 +141,305 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "Three successful title defenses (first reign)",
-    "Shortest time and fewest bouts to win championships in two divisions in UFC history (736 days/7 bouts)",
-    "Shortest time for three consecutive title defenses in UFC history (175 days)",
-    "Tied ( Chuck Liddell ) for second most UFC Light Heavyweight title fight wins (5) (behind Jon Jones )",
-    "Tied ( Chuck Liddell ) for most knockouts in UFC Light Heavyweight title fights (5)",
-    "First and only fighter to win the UFC Middleweight and Light Heavyweight championships",
-    "Fewest MMA bouts to become a two-division UFC champion (11 bouts)",
-    "Second most knockouts in UFC title fights (6) (behind Anderson Silva )",
-    "Second fewest MMA bouts to become a UFC champion (8) (behind Brock Lesnar )",
-    "Performance of the Night (Six times) vs. Andreas Michailidis , Sean Strickland , Israel Adesanya 1, Jiří Procházka (x2) and Magomed Ankalaev",
-    "Fight of the Night (One time) vs. Khalil Rountree Jr.",
-    "Second highest significant strike percentage in UFC history (61.36%) (Over 1000 attempted significant strikes)  Highest significant strike percentage in UFC Light Heavyweight division history (64.3%)",
-    "Highest significant strike percentage in UFC Light Heavyweight division history (64.3%)",
-    "Latest knockout in a UFC Middleweight title fight (2:01 of R5 vs Israel Adesanya 1)",
-    "Holds wins over six former UFC champions — Israel Adesanya , Sean Strickland , Jan Błachowicz , Jiří Procházka (x2), Jamahal Hill and Magomed Ankalaev .",
-    "2026 Forrest Griffin Community Award",
-    "2021: Fan's Choice Debut of the Year Nominee vs. Andreas Michailidis",
-    "2022: Fan's Choice Comeback of the Year Nominee vs. Israel Adesanya 1",
-    "2022: Ranked #2 Fighter of the Year ,  Ranked #4 Upset of the Year vs. Israel Adesanya 1  & Ranked #6 Knockout of the Year vs. Sean Strickland",
-    "2023: Ranked #9 Fighter of the Year",
-    "MMA Junkie 2022 July Knockout of the Month vs. Sean Strickland  2022 Male Fighter of the Year  2022 Breakout Fighter of the Year",
-    "2022 July Knockout of the Month vs. Sean Strickland",
-    "2022 Male Fighter of the Year",
-    "2022 Breakout Fighter of the Year",
-    "ESPN 2022 Male Fighter of the Year  2024 Male Fighter of the Year  2024 Best Moment",
-    "2022 Male Fighter of the Year",
-    "2024 Male Fighter of the Year",
-    "2024 Best Moment",
-    "Sherdog 2022 Breakthrough Fighter of the Year  2022 Fighter of the Year",
-    "2022 Breakthrough Fighter of the Year",
-    "2022 Fighter of the Year",
-    "MMA Fighting 2022 Male Fighter of the Year  2022 First Team MMA All-Star  2024 First Team MMA All-Star",
-    "2022 Male Fighter of the Year",
-    "2022 First Team MMA All-Star",
-    "2024 First Team MMA All-Star",
-    "Sports Illustrated 2022 Breakout Fighter of the Year",
-    "2022 Breakout Fighter of the Year",
-    "Yahoo! Sports 2022 Male Fighter of the Year",
-    "2022 Male Fighter of the Year",
-    "MMA Mania 2022 Fighter of the Year  2024 #2 Ranked Fighter of the Year  2024 #5 Ranked Fight of the Year vs. Khalil Rountree Jr. at UFC 307"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Light Heavyweight Championship (Two times)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Three successful title defenses (first reign)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Shortest time and fewest bouts to win championships in two divisions in UFC history (736 days/7 bouts)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Shortest time for three consecutive title defenses in UFC history (175 days)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Chuck Liddell ) for second most UFC Light Heavyweight title fight wins (5) (behind Jon Jones )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Chuck Liddell ) for most knockouts in UFC Light Heavyweight title fights (5)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Middleweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First and only fighter to win the UFC Middleweight and Light Heavyweight championships"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fewest MMA bouts to become a two-division UFC champion (11 bouts)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most knockouts in UFC title fights (6) (behind Anderson Silva )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second fewest MMA bouts to become a UFC champion (8) (behind Brock Lesnar )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Six times) vs. Andreas Michailidis , Sean Strickland , Israel Adesanya 1, Jiří Procházka (x2) and Magomed Ankalaev"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Khalil Rountree Jr."
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second highest significant strike percentage in UFC history (61.36%) (Over 1000 attempted significant strikes)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Highest significant strike percentage in UFC Light Heavyweight division history (64.3%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Latest knockout in a UFC Middleweight title fight (2:01 of R5 vs Israel Adesanya 1)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Holds wins over six former UFC champions — Israel Adesanya , Sean Strickland , Jan Błachowicz , Jiří Procházka (x2), Jamahal Hill and Magomed Ankalaev ."
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2026 Forrest Griffin Community Award"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: Fan's Choice Debut of the Year Nominee vs. Andreas Michailidis"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Fan's Choice Comeback of the Year Nominee vs. Israel Adesanya 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: President's Choice Fight of the Year Nominee vs. Khalil Rountree Jr. , President's Choice Performance of the Year Nominee vs. Jiří Procházka 2 & Fan's Choice Knockout of the Year Nominee vs. Jamahal Hill"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Ranked #2 Fighter of the Year , Ranked #4 Upset of the Year vs. Israel Adesanya 1 & Ranked #6 Knockout of the Year vs. Sean Strickland"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: Ranked #9 Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2022 July Knockout of the Month vs. Sean Strickland"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2022 Male Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2022 Breakout Fighter of the Year"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2022 Male Fighter of the Year"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2024 Male Fighter of the Year"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2024 Best Moment"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2022 Breakthrough Fighter of the Year"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2022 Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2022 Male Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2022 First Team MMA All-Star"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2024 First Team MMA All-Star"
+    },
+    {
+      "org": "Sports Illustrated",
+      "texte": "2022 Breakout Fighter of the Year"
+    },
+    {
+      "org": "Yahoo! Sports",
+      "texte": "2022 Male Fighter of the Year"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2022 Fighter of the Year"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2024 #2 Ranked Fighter of the Year"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2024 #5 Ranked Fight of the Year vs. Khalil Rountree Jr. at UFC 307"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2022 Male Fighter of the Year"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2024 Male Fighter of the Year"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2024 Male Fighter of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2023 Breakthrough Fighter of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2024 Charles 'Mask' Lewis Fighter of the Year"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "Mixed Martial Arts Most Valuable (2024)"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "Most Outstanding Fighter of the Year (2024)"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "Best Box Office Draw (2024)"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2022 Most Improved Fighter of the Year"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2024 Male Fighter of the Year"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2022 UFC Fighter of the Year"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2022 UFC Fighter of the Year"
+    },
+    {
+      "org": "LowKick MMA",
+      "texte": "2022 Fighter of the Year"
+    },
+    {
+      "org": "LowKick MMA",
+      "texte": "2024 Male Fighter of the Year"
+    },
+    {
+      "org": "GiveMeSport",
+      "texte": "2022 UFC Fighter of the Year"
+    },
+    {
+      "org": "Glory",
+      "texte": "2023 Glory Hall of Fame Inductee"
+    },
+    {
+      "org": "Glory",
+      "texte": "2021 Glory Light Heavyweight Champion"
+    },
+    {
+      "org": "Glory",
+      "texte": "2019 Glory interim Light Heavyweight Champion"
+    },
+    {
+      "org": "Glory",
+      "texte": "2017 Glory Middleweight Champion (five defenses)"
+    },
+    {
+      "org": "Glory",
+      "texte": "2014 Glory Middleweight Contender Tournament Winner"
+    },
+    {
+      "org": "WGP Kickboxing",
+      "texte": "2015 WGP Kickboxing Middleweight Champion (1 defense)"
+    },
+    {
+      "org": "WGP Kickboxing",
+      "texte": "2012 WGP -85 kg/187 lb Championship"
+    },
+    {
+      "org": "World Association of Kickboxing Organizations",
+      "texte": "2013 WAKO Pro Panamerican K-1 -85 kg/187 lb Champion"
+    },
+    {
+      "org": "Jungle Fight",
+      "texte": "2012 Jungle Fight Middleweight Champion"
+    },
+    {
+      "org": "World Association of Kickboxing Organizations",
+      "texte": "2013 silver medal in WAKO World Championships in Guaruja, Brasil K-1 -91 kg"
+    },
+    {
+      "org": "Glory",
+      "texte": "Glory Fighter of the Year 2019"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2017 Fight of the Year (vs. Israel Adesanya )"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2019 Knockout of the Year (vs. Jason Wilnis )"
+    },
+    {
+      "org": "Ellis Island Honors Society",
+      "texte": "2025 Beacon Award"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids mi-lourds (2 fois)",
+      "Champion UFC des poids moyens",
+      "Champion Glory des poids mi-lourds et moyens (kickboxing)",
+      "3 défenses de titre à l'UFC",
+      "Combattant de l'année (2022, 2024)",
+      "Bonus UFC : 6× Performance de la soirée, 1× Combat de la soirée"
+    ],
+    "en": [
+      "UFC Light Heavyweight Champion (2×)",
+      "UFC Middleweight Champion",
+      "Glory Light Heavyweight & Middleweight Champion (kickboxing)",
+      "3 UFC title defenses",
+      "Fighter of the Year (2022, 2024)",
+      "UFC bonuses: 6× Performance of the Night, 1× Fight of the Night"
+    ]
+  },
   "image_commons": "Alex Pereira in the Oval Office (while President Donald J. Trump is holding a meeting with UFC fighters).jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Alex_Pereira",

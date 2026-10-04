@@ -114,47 +114,239 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Performance of the Night (Two times) vs. Dan Hooker and Tony Ferguson",
-    "Fight of the Night (Three times) vs. Justin Gaethje , Dustin Poirier and Charles Oliveira 2",
-    "2021: President's Choice Fight of the Year Winner vs. Justin Gaethje  & Fan's Choice Debut of the Year Winner vs. vs. Dan Hooker",
-    "2021: Fight of the Year vs. Justin Gaethje ,  Half-Year Awards: Best Newcomer of the 1HY,  Ranked #3 Newcomer of the Year  & Ranked #10 Fight of the Year vs. Charles Oliveira 1",
-    "2022: Ranked #3 Fight of the Year vs. Dustin Poirier  & Ranked #2 Knockout of the Year vs. Tony Ferguson",
-    "Crypto.com Fan Bonus of the Night vs. Tony Ferguson",
-    "Fan Bonus of the Night vs. Tony Ferguson",
-    "Bellator Lightweight World Championship (Three times) Two successful title defenses (first reign) One successful title defense (second reign) Three successful title defenses (overall)",
-    "Two successful title defenses (first reign)",
-    "One successful title defense (second reign)",
-    "Three successful title defenses (overall)",
-    "Bellator Season 4 Lightweight Tournament Championship",
-    "Most submission victories in Bellator Lightweight division (6)",
-    "Tied (with David Rickels ) for fourth most fights in Bellator history (23)",
-    "Tied (with A. J. McKee ) for second most stoppage wins in Bellator MMA history (13)",
-    "Second most stoppage wins in Bellator Lightweight division history (10) (behind Patricky Pitbull )",
-    "Second most title bouts in Bellator MMA history (11)",
-    "Second most wins in Bellator Lightweight division history (15) (behind Patricky Pitbull )",
-    "Third most wins in Bellator MMA history (18)",
-    "Tied (with Ilima-Lei Macfarlane and Neiman Gracie ) for second most submission wins in Bellator MMA history (6)",
-    "2016 June Knockout of the Month vs. Patricky Freire on June 24",
-    "2021 May Fight of the Month vs. Charles Oliveira",
-    "2021 November Fight of the Month vs. Justin Gaethje",
-    "2021 Fight of the Year vs. Justin Gaethje",
-    "2022 May Knockout of the Month vs. Tony Ferguson",
-    "MMA Fighting 2021 Fight of the Year vs. Justin Gaethje",
-    "2021 Fight of the Year vs. Justin Gaethje",
-    "Sherdog 2011 Breakthrough Fighter of the Year  2021 Fight of the Year vs. Justin Gaethje  2021 Round of the Year vs. Justin Gaethje  2022 Knockout of the year",
-    "2011 Breakthrough Fighter of the Year",
-    "2021 Fight of the Year vs. Justin Gaethje",
-    "2021 Round of the Year vs. Justin Gaethje",
-    "2022 Knockout of the year",
-    "Yahoo! Sports 2011 Fight of the Year vs. Eddie Alvarez on November 19 2021 Fight of the Year vs. Justin Gaethje",
-    "2011 Fight of the Year vs. Eddie Alvarez on November 19",
-    "2021 Fight of the Year vs. Justin Gaethje",
-    "Cageside Press 2021 Fight of the Year vs. Justin Gaethje  2022 Knockout of the Year vs. Tony Ferguson , tied with Leon Edwards",
-    "2021 Fight of the Year vs. Justin Gaethje",
-    "2022 Knockout of the Year vs. Tony Ferguson , tied with Leon Edwards",
-    "Lowkick MMA 2021 Fight of the Year vs. Justin Gaethje",
-    "2021 Fight of the Year vs. Justin Gaethje"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. Dan Hooker and Tony Ferguson"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Three times) vs. Justin Gaethje , Dustin Poirier and Charles Oliveira 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: President's Choice Fight of the Year Winner vs. Justin Gaethje & Fan's Choice Debut of the Year Winner vs. vs. Dan Hooker"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: President's Choice Performance of the Year Nominee vs. Tony Ferguson , President's Choice Fight of the Year Nominee vs. Dustin Poirier & Fan's Choice Knockout of the Year Nominee vs. Tony Ferguson"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: Fight of the Year vs. Justin Gaethje , Half-Year Awards: Best Newcomer of the 1HY, Ranked #3 Newcomer of the Year & Ranked #10 Fight of the Year vs. Charles Oliveira 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Ranked #3 Fight of the Year vs. Dustin Poirier & Ranked #2 Knockout of the Year vs. Tony Ferguson"
+    },
+    {
+      "org": "Crypto.com",
+      "texte": "Fan Bonus of the Night vs. Tony Ferguson"
+    },
+    {
+      "org": "Bellator Fighting Championships",
+      "texte": "Bellator Lightweight World Championship (Three times)"
+    },
+    {
+      "org": "Bellator Fighting Championships",
+      "texte": "Two successful title defenses (first reign)"
+    },
+    {
+      "org": "Bellator Fighting Championships",
+      "texte": "One successful title defense (second reign)"
+    },
+    {
+      "org": "Bellator Fighting Championships",
+      "texte": "Three successful title defenses (overall)"
+    },
+    {
+      "org": "Bellator Fighting Championships",
+      "texte": "Bellator Season 4 Lightweight Tournament Championship"
+    },
+    {
+      "org": "Bellator Fighting Championships",
+      "texte": "Most submission victories in Bellator Lightweight division (6)"
+    },
+    {
+      "org": "Bellator Fighting Championships",
+      "texte": "Tied (with David Rickels ) for fourth most fights in Bellator history (23)"
+    },
+    {
+      "org": "Bellator Fighting Championships",
+      "texte": "Tied (with A. J. McKee ) for second most stoppage wins in Bellator MMA history (13)"
+    },
+    {
+      "org": "Bellator Fighting Championships",
+      "texte": "Second most stoppage wins in Bellator Lightweight division history (10) (behind Patricky Pitbull )"
+    },
+    {
+      "org": "Bellator Fighting Championships",
+      "texte": "Second most title bouts in Bellator MMA history (11)"
+    },
+    {
+      "org": "Bellator Fighting Championships",
+      "texte": "Second most wins in Bellator Lightweight division history (15) (behind Patricky Pitbull )"
+    },
+    {
+      "org": "Bellator Fighting Championships",
+      "texte": "Third most wins in Bellator MMA history (18)"
+    },
+    {
+      "org": "Bellator Fighting Championships",
+      "texte": "Tied (with Ilima-Lei Macfarlane and Neiman Gracie ) for second most submission wins in Bellator MMA history (6)"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2016 June Knockout of the Month vs. Patricky Freire on June 24"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2021 May Fight of the Month vs. Charles Oliveira"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2021 November Fight of the Month vs. Justin Gaethje"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2021 Fight of the Year vs. Justin Gaethje"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2022 May Knockout of the Month vs. Tony Ferguson"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2021 Fight of the Year vs. Justin Gaethje"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2011 Breakthrough Fighter of the Year"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2021 Fight of the Year vs. Justin Gaethje"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2021 Round of the Year vs. Justin Gaethje"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2022 Knockout of the year"
+    },
+    {
+      "org": "Yahoo! Sports",
+      "texte": "2011 Fight of the Year vs. Eddie Alvarez on November 19"
+    },
+    {
+      "org": "Yahoo! Sports",
+      "texte": "2021 Fight of the Year vs. Justin Gaethje"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2021 Fight of the Year vs. Justin Gaethje"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2022 Knockout of the Year vs. Tony Ferguson , tied with Leon Edwards"
+    },
+    {
+      "org": "Lowkick MMA",
+      "texte": "2021 Fight of the Year vs. Justin Gaethje"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2021 Fight of the Year vs. Justin Gaethje"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2021 Fight of the Year vs. Justin Gaethje"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2021 #3 Ranked UFC Fight of the Year vs. Charles Oliveira"
+    },
+    {
+      "org": "Daily Mirror",
+      "texte": "2021 Fight of the Year vs. Justin Gaethje"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2021 Fight of the Year vs. Justin Gaethje"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "2021 MMA Match of the Year vs. Justin Gaethje at UFC 268"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2022 Knockout of the Year vs. Tony Ferguson at UFC 274"
+    },
+    {
+      "org": "Sports Illustrated",
+      "texte": "2022 Knockout of the Year vs. Tony Ferguson at UFC 274"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2011 Most Improved Fighter of the Year"
+    },
+    {
+      "org": "BodySlam.net",
+      "texte": "2024 Round of the Year Round 5 vs. Charles Oliveira at UFC 309"
+    },
+    {
+      "org": "National Collegiate Athletic Association",
+      "texte": "NCAA Division I All-American (2009)"
+    },
+    {
+      "org": "National Collegiate Athletic Association",
+      "texte": "Big 12 Conference Championship Runner-up (2008, 2009)"
+    },
+    {
+      "org": "National Collegiate Athletic Association",
+      "texte": "University of Missouri Wrestling Team Captain (2007–2009)"
+    },
+    {
+      "org": "National Collegiate Athletic Association",
+      "texte": "Ed Lampitt Coaches Award (2009)"
+    },
+    {
+      "org": "National Collegiate Athletic Association",
+      "texte": "Hap Whitney Coaches Award (2006)"
+    },
+    {
+      "org": "National Collegiate Athletic Association",
+      "texte": "Hap Whitney Most Improved Wrestler (2006)"
+    },
+    {
+      "org": "Missouri State High School Activities Association",
+      "texte": "MSHSAA High School State Championship Runner-up (2004)"
+    },
+    {
+      "org": "Missouri State High School Activities Association",
+      "texte": "All-St. Louis Team (2004)"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion Bellator des poids légers",
+      "Combat de l'année (2011, 2021)",
+      "Bonus UFC : 2× Performance de la soirée, 3× Combat de la soirée"
+    ],
+    "en": [
+      "Bellator Lightweight Champion",
+      "Fight of the Year (2011, 2021)",
+      "UFC bonuses: 2× Performance of the Night, 3× Fight of the Night"
+    ]
+  },
   "image_commons": "MichaelChandler0523 (cropped).jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Michael_Chandler",

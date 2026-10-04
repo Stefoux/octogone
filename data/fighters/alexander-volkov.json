@@ -110,26 +110,83 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Bellator Fighting Championships Bellator Heavyweight World Championship (One time) Bellator Season Ten Heavyweight Tournament Championship Bellator Season Seven Heavyweight Tournament Championship",
-    "Bellator Heavyweight World Championship (One time)",
-    "Bellator Season Ten Heavyweight Tournament Championship",
-    "Bellator Season Seven Heavyweight Tournament Championship",
-    "M-1 Global M-1 Global Heavyweight Championship (One time) One successful title defence M-1 Eastern European Tournament Runner-Up",
-    "M-1 Global Heavyweight Championship (One time) One successful title defence",
-    "One successful title defence",
-    "M-1 Eastern European Tournament Runner-Up",
-    "Fight of the Night (One time) vs. Stefan Struve",
-    "Performance of the Night (Two times) vs. Fabrício Werdum and Alistair Overeem",
-    "Second most significant strikes landed in UFC Heavyweight division history (1250) (behind Andrei Arlovski )  Third most total strikes landed in UFC Heavyweight division history (1672)",
-    "Third most total strikes landed in UFC Heavyweight division history (1672)",
-    "Tied ( Stipe Miocic & Marcin Tybura ) for sixth most wins in UFC Heavyweight division history (14)",
-    "Third most decision wins in UFC Heavyweight division history (7)",
-    "Fifth most total fight time in UFC Heavyweight division history (4:06:08)",
-    "UFC Honors Awards 2023: Fan's Choice Submission of the Year Nominee vs. Tai Tuivasa",
-    "2023: Fan's Choice Submission of the Year Nominee vs. Tai Tuivasa",
-    "MMA Fighting 2023 Third Team MMA All-Star",
-    "2023 Third Team MMA All-Star"
+    {
+      "org": "Bellator Fighting Championships",
+      "texte": "Bellator Heavyweight World Championship (One time)"
+    },
+    {
+      "org": "Bellator Fighting Championships",
+      "texte": "Bellator Season Ten Heavyweight Tournament Championship"
+    },
+    {
+      "org": "Bellator Fighting Championships",
+      "texte": "Bellator Season Seven Heavyweight Tournament Championship"
+    },
+    {
+      "org": "M-1 Global",
+      "texte": "M-1 Global Heavyweight Championship (One time)"
+    },
+    {
+      "org": "M-1 Global",
+      "texte": "One successful title defence"
+    },
+    {
+      "org": "M-1 Global",
+      "texte": "M-1 Eastern European Tournament Runner-Up"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Stefan Struve"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. Fabrício Werdum and Alistair Overeem"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most significant strikes landed in UFC Heavyweight division history (1250) (behind Andrei Arlovski )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most total strikes landed in UFC Heavyweight division history (1672)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Stipe Miocic & Marcin Tybura ) for sixth most wins in UFC Heavyweight division history (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most decision wins in UFC Heavyweight division history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth most total fight time in UFC Heavyweight division history (4:06:08)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: Fan's Choice Submission of the Year Nominee vs. Tai Tuivasa"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2023 Third Team MMA All-Star"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion Bellator des poids lourds",
+      "Champion M-1 Global des poids lourds",
+      "Bonus UFC : 2× Performance de la soirée, 1× Combat de la soirée"
+    ],
+    "en": [
+      "Bellator Heavyweight Champion",
+      "M-1 Global Heavyweight Champion",
+      "UFC bonuses: 2× Performance of the Night, 1× Fight of the Night"
+    ]
+  },
   "image_commons": "Alexander Volkov in M-1.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Alexander_Volkov_(fighter)",

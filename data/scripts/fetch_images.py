@@ -22,6 +22,7 @@ import argparse
 import io
 import json
 import re
+import time
 from html import unescape
 
 import cv2
@@ -37,6 +38,32 @@ CREDITS = DATA / "images" / "credits.json"
 COMMONS_API = "https://commons.wikimedia.org/w/api.php"
 FREE = re.compile(r"(CC0|Public domain|PD[- ]|CC BY(-SA)?|GFDL|Attribution|No restrictions)", re.I)
 MAX_W, MAX_H = 720, 960
+
+
+class DownloadRefused(RuntimeError):
+    """Le serveur d'images refuse temporairement (limite de débit) : ce n'est PAS une absence de photo."""
+
+
+_last_download = 0.0
+
+
+def download(url: str) -> bytes | None:
+    """Télécharge une vignette Commons poliment (1,5 s entre deux requêtes, attente si 429/5xx)."""
+    global _last_download
+    for attempt in range(6):
+        wait = 1.5 - (time.time() - _last_download)
+        if wait > 0:
+            time.sleep(wait)
+        r = requests.get(url, headers={"User-Agent": WIKI_UA}, timeout=60)
+        _last_download = time.time()
+        if r.status_code == 200:
+            return r.content
+        if r.status_code in (429, 500, 502, 503, 504):
+            retry = r.headers.get("retry-after")
+            time.sleep(min(int(retry) if retry and retry.isdigit() else 10 * (attempt + 1), 90))
+            continue
+        return None  # 404… : fichier réellement indisponible
+    raise DownloadRefused(f"téléchargement refusé après plusieurs essais : {url}")
 
 
 def strip_html(s: str | None) -> str | None:
@@ -146,10 +173,9 @@ def process(fighter: dict, force: bool) -> dict | None:
         if out_path.exists() and not force:
             raw = None
         else:
-            r = requests.get(info["thumb"], headers={"User-Agent": WIKI_UA}, timeout=60)
-            if r.status_code != 200:
+            raw = download(info["thumb"])
+            if raw is None:
                 continue
-            raw = r.content
         if raw is not None:
             pil = Image.open(io.BytesIO(raw)).convert("RGB")
             arr = np.array(pil)
@@ -203,9 +229,9 @@ def main() -> None:
             continue
         try:
             meta = process(f, args.force)
-        except Exception as exc:  # une image ratée ne bloque pas les autres
-            print(f"{f['id']}: ERREUR {exc!r}")
-            meta = None
+        except Exception as exc:  # une image ratée ne bloque pas les autres, et n'efface rien
+            print(f"{f['id']}: ERREUR {exc!r} (photo existante conservée, à relancer)", flush=True)
+            continue
         if meta:
             credits[f["id"]] = meta
             stats["ok"] += 1

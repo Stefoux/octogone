@@ -101,16 +101,35 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Ultimate Fighting Championship Performance of the Night (Three times) vs. Christian Aguilera , Kelvin Gastelum and Leon Edwards",
-    "Performance of the Night (Three times) vs. Christian Aguilera , Kelvin Gastelum and Leon Edwards",
-    "MMAjunkie.com 2020 August Submission of the Month vs. Christian Aguilera",
-    "2020 August Submission of the Month vs. Christian Aguilera",
-    "MMA Fighting 2025 #4 Ranked Submission of the Year vs. Leon Edwards at UFC Fight Night: Edwards vs. Brady",
-    "2025 #4 Ranked Submission of the Year vs. Leon Edwards at UFC Fight Night: Edwards vs. Brady",
-    "Cage Fury Fighting Championships Cage Fury FC Welterweight Championship (One Time) Two successful title defenses",
-    "Cage Fury FC Welterweight Championship (One Time) Two successful title defenses",
-    "Two successful title defenses"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Three times) vs. Christian Aguilera , Kelvin Gastelum and Leon Edwards"
+    },
+    {
+      "org": "MMAjunkie.com",
+      "texte": "2020 August Submission of the Month vs. Christian Aguilera"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2025 #4 Ranked Submission of the Year vs. Leon Edwards at UFC Fight Night: Edwards vs. Brady"
+    },
+    {
+      "org": "Cage Fury Fighting Championships",
+      "texte": "Cage Fury FC Welterweight Championship (One Time)"
+    },
+    {
+      "org": "Cage Fury Fighting Championships",
+      "texte": "Two successful title defenses"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 3× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 3× Performance of the Night"
+    ]
+  },
   "image_commons": "SeanBrady.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Sean_Brady_(fighter)",

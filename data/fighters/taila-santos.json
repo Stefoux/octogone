@@ -99,14 +99,41 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Performance of the Night (One time) vs. Joanne Wood",
-    "Tied ( Ariane da Silva ) for most knockdowns in UFC Women's Flyweight division history (3)",
-    "Most submission attempts in UFC Women's Flyweight division history (9)",
-    "Highest takedown accuracy percentage in UFC Women's Flyweight division history (75.0%)",
-    "Highest takedown defense percentage in UFC Women's Flyweight division history (85.3%)",
-    "Aspera Fighting Championship Aspera FC Bantamweight Championship (One time)",
-    "Aspera FC Bantamweight Championship (One time)"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Joanne Wood"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Ariane da Silva ) for most knockdowns in UFC Women's Flyweight division history (3)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most submission attempts in UFC Women's Flyweight division history (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Highest takedown accuracy percentage in UFC Women's Flyweight division history (75.0%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Highest takedown defense percentage in UFC Women's Flyweight division history (85.3%)"
+    },
+    {
+      "org": "Aspera Fighting Championship",
+      "texte": "Aspera FC Bantamweight Championship (One time)"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Record UFC chez les poids mouche féminins : tentatives de soumission (9)",
+      "Bonus UFC : 1× Performance de la soirée"
+    ],
+    "en": [
+      "UFC Women's Flyweight record: most submission attempts (9)",
+      "UFC bonuses: 1× Performance of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Taila_Santos",

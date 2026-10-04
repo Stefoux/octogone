@@ -108,47 +108,145 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Fight of the Night (One time) vs. Stephen Thompson",
-    "Second most Performance of the Night bonuses in UFC history (9) (behind Charles Oliveira )",
-    "Fastest to win five UFC fights in a calendar year (210 days in 2020)",
-    "Tied ( Neil Magny ) for the only fighters in UFC history to have 5 bouts-per-calendar year twice (2020 & 2025)",
-    "Most wins in a calendar year in UFC Middleweight division history (5)",
-    "Most bouts in a 12-month period in UFC history (7) from May 2020 to April 2021",
-    "UFC Honors Awards 2020: President's Choice Performance of the Year Nominee vs. Ronaldo Souza  & Fan's Choice Knockout of the Year Nominee vs. Ronaldo Souza",
-    "2020: President's Choice Performance of the Year Nominee vs. Ronaldo Souza  & Fan's Choice Knockout of the Year Nominee vs. Ronaldo Souza",
-    "UFC.com Awards 2020: Ranked #3 Fighter of the Year  & Ranked #4 Knockout of the Year vs. Ronaldo Souza  2022: Ranked #4 Fight of the Year vs. Stephen Thompson",
-    "2020: Ranked #3 Fighter of the Year  & Ranked #4 Knockout of the Year vs. Ronaldo Souza",
-    "2022: Ranked #4 Fight of the Year vs. Stephen Thompson",
-    "Xtreme Knockout XKO Welterweight Championship XKO Middleweight Championship One successful title defense",
-    "XKO Welterweight Championship",
-    "XKO Middleweight Championship One successful title defense",
-    "One successful title defense",
-    "BT Sport 2020 Male fighter of the year.",
-    "2020 Male fighter of the year.",
-    "Cageside Press 2020 Male Fighter of the Year",
-    "2020 Male Fighter of the Year",
-    "MMA Sucka 2020 UFC Breakout Star of the Year",
-    "2020 UFC Breakout Star of the Year",
-    "MMA Junkie 2020 December Knockout of the Month vs. Ronaldo Souza  2020 Breakout Fighter of the Year  2020 Male Fighter of the Year  2022 December Fight of the Month vs. Stephen Thompson",
-    "2020 December Knockout of the Month vs. Ronaldo Souza",
-    "2020 Breakout Fighter of the Year",
-    "2020 Male Fighter of the Year",
-    "2022 December Fight of the Month vs. Stephen Thompson",
-    "ESPN 2020 Most Improved Fighter of the Year",
-    "2020 Most Improved Fighter of the Year",
-    "MMA Weekly 2020 Breakout Fighter of the Year",
-    "2020 Breakout Fighter of the Year",
-    "The Athletic 2020 Breakthrough Fighter of the Year",
-    "2020 Breakthrough Fighter of the Year",
-    "Sherdog 2020 Breakthrough Fighter of the Year",
-    "2020 Breakthrough Fighter of the Year",
-    "World MMA Awards 2022 Fighting Spirit of the Year for bravery - in and out of the cage, helping his community in the face of danger on several occasions",
-    "2022 Fighting Spirit of the Year for bravery - in and out of the cage, helping his community in the face of danger on several occasions",
-    "MMA Fighting 2022 Second Team MMA All-Star",
-    "2022 Second Team MMA All-Star",
-    "CBS Sports 2020 #3 Ranked UFC Knockout of the Year vs. Ronaldo Souza",
-    "2020 #3 Ranked UFC Knockout of the Year vs. Ronaldo Souza"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Stephen Thompson"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Nine times) vs Joaquin Buckley , Charlie Ontiveros, Ronaldo Souza , Alex Oliveira , Tim Means , Michael Chiesa , Michał Oleksiejczuk , Gunnar Nelson and Vicente Luque"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most Performance of the Night bonuses in UFC history (9) (behind Charles Oliveira )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Roger Huerta & Neil Magny ) for most wins in a calendar year in UFC history (5)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fastest to win five UFC fights in a calendar year (210 days in 2020)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Neil Magny ) for the only fighters in UFC history to have 5 bouts-per-calendar year twice (2020 & 2025)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most wins in a calendar year in UFC Middleweight division history (5)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most bouts in a 12-month period in UFC history (7) from May 2020 to April 2021"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: President's Choice Performance of the Year Nominee vs. Ronaldo Souza & Fan's Choice Knockout of the Year Nominee vs. Ronaldo Souza"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Ranked #3 Fighter of the Year & Ranked #4 Knockout of the Year vs. Ronaldo Souza"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Ranked #4 Fight of the Year vs. Stephen Thompson"
+    },
+    {
+      "org": "Xtreme Knockout",
+      "texte": "XKO Welterweight Championship"
+    },
+    {
+      "org": "Xtreme Knockout",
+      "texte": "XKO Middleweight Championship"
+    },
+    {
+      "org": "Xtreme Knockout",
+      "texte": "One successful title defense"
+    },
+    {
+      "org": "BT Sport",
+      "texte": "2020 Male fighter of the year."
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2020 Male Fighter of the Year"
+    },
+    {
+      "org": "MMA Sucka",
+      "texte": "2020 UFC Breakout Star of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2020 December Knockout of the Month vs. Ronaldo Souza"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2020 Breakout Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2020 Male Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2022 December Fight of the Month vs. Stephen Thompson"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2020 Most Improved Fighter of the Year"
+    },
+    {
+      "org": "MMA Weekly",
+      "texte": "2020 Breakout Fighter of the Year"
+    },
+    {
+      "org": "The Athletic",
+      "texte": "2020 Breakthrough Fighter of the Year"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2020 Breakthrough Fighter of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2022 Fighting Spirit of the Year for bravery - in and out of the cage, helping his community in the face of danger on several occasions"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2022 Second Team MMA All-Star"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2020 #3 Ranked UFC Knockout of the Year vs. Ronaldo Souza"
+    },
+    {
+      "org": "Premiere Combat Group",
+      "texte": "PCG Welterweight Championship"
+    },
+    {
+      "org": "Belts of Honorious",
+      "texte": "BOH Welterweight Championship"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Combattant de l'année (2020)",
+      "Bonus UFC : 9× Performance de la soirée, 1× Combat de la soirée"
+    ],
+    "en": [
+      "Fighter of the Year (2020)",
+      "UFC bonuses: 9× Performance of the Night, 1× Fight of the Night"
+    ]
+  },
   "image_commons": "Kevin Holland at UFC 316 (54576727207).jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Kevin_Holland",

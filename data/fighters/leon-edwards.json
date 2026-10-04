@@ -126,47 +126,161 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "Two successful title defenses",
-    "First Jamaican-born champion in UFC history",
-    "One of three undisputed British champions in UFC history (with Michael Bisping and Tom Aspinall )",
-    "Performance of the Night (Two Times) vs. Seth Baczynski and Kamaru Usman 2",
-    "Sixth-fastest finish in UFC history vs. Seth Baczynski (8 seconds)",
-    "Second longest unbeaten streak in UFC Welterweight Division history (13) (behind Kamaru Usman )",
-    "Tied ( Kamaru Usman ) for fourth most decision wins in UFC Welterweight division history (10)",
-    "Tied ( Ian Machado Garry & Jack Della Maddalena ) for the third longest win streak in UFC Welterweight division history (8)",
-    "Latest knockout & finish in UFC Welterweight division history (0:01 remaining vs. Peter Sobotta )",
-    "UFC Honors Awards 2022: Fan's Choice Knockout of the Year Winner vs. Kamaru Usman 2  & Fan's Choice Comeback of the Year Winner vs. Kamaru Usman 2",
-    "2022: Fan's Choice Knockout of the Year Winner vs. Kamaru Usman 2  & Fan's Choice Comeback of the Year Winner vs. Kamaru Usman 2",
-    "2022: Ranked #5 Fighter of the Year ,  Upset of the Year  & Knockout of the Year vs. Kamaru Usman 2",
-    "2023: Ranked #3 Fighter of the Year  & Ranked #6 Upset of the Year vs. Kamaru Usman 3",
-    "BAMMA BAMMA RDX Welterweight Championship (One time, former) One successful title defence",
-    "BAMMA RDX Welterweight Championship (One time, former) One successful title defence",
-    "One successful title defence",
-    "MMA Junkie 2022 Knockout of the Year vs. Kamaru Usman 2 at UFC 278  2022 August Knockout of the Month vs. Kamaru Usman 2 at UFC 278",
-    "2022 Knockout of the Year vs. Kamaru Usman 2 at UFC 278",
-    "2022 August Knockout of the Month vs. Kamaru Usman 2 at UFC 278",
-    "ESPN 2022 Knockout of the Year vs. Kamaru Usman 2 at UFC 278",
-    "2022 Knockout of the Year vs. Kamaru Usman 2 at UFC 278",
-    "Bleacher Report 2022 UFC Knockout of the Year vs. Kamaru Usman 2 at UFC 278  2022 Upset of the Year vs. Kamaru Usman 2 at UFC 278",
-    "2022 UFC Knockout of the Year vs. Kamaru Usman 2 at UFC 278",
-    "2022 Upset of the Year vs. Kamaru Usman 2 at UFC 278",
-    "CBS Sports 2022 UFC Knockout of the Year vs. Kamaru Usman 2 at UFC 278",
-    "2022 UFC Knockout of the Year vs. Kamaru Usman 2 at UFC 278",
-    "Cageside Press 2022 Comeback of the Year vs. Kamaru Usman 2 at UFC 278  2022 Knockout of the Year vs. Kamaru Usman 2 at UFC 278 , tied with Michael Chandler",
-    "2022 Comeback of the Year vs. Kamaru Usman 2 at UFC 278",
-    "2022 Knockout of the Year vs. Kamaru Usman 2 at UFC 278 , tied with Michael Chandler",
-    "Combat Press 2022 Comeback of the Year vs. Kamaru Usman 2 at UFC 278",
-    "2022 Comeback of the Year vs. Kamaru Usman 2 at UFC 278",
-    "Violent Money TV VMTV UK MMA Knockout of the Year 2022 vs. Kamaru Usman 2 at UFC 278  VMTV UK MMA Male Fighter of the Year 2023",
-    "VMTV UK MMA Knockout of the Year 2022 vs. Kamaru Usman 2 at UFC 278",
-    "VMTV UK MMA Male Fighter of the Year 2023",
-    "2023 Charles 'Mask' Lewis Fighter of the Year",
-    "2023 International Fighter of the Year",
-    "2023 Knockout of the Year vs. Kamaru Usman 2 at UFC 278",
-    "2023 Comeback of the Year vs. Kamaru Usman 2 at UFC 278",
-    "Sportsnaut 2023 UFC Fighter of the Year",
-    "2023 UFC Fighter of the Year"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Welterweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Two successful title defenses"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First Jamaican-born champion in UFC history"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "One of three undisputed British champions in UFC history (with Michael Bisping and Tom Aspinall )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two Times) vs. Seth Baczynski and Kamaru Usman 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Sixth-fastest finish in UFC history vs. Seth Baczynski (8 seconds)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second longest unbeaten streak in UFC Welterweight Division history (13) (behind Kamaru Usman )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Kamaru Usman ) for fourth most decision wins in UFC Welterweight division history (10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Ian Machado Garry & Jack Della Maddalena ) for the third longest win streak in UFC Welterweight division history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Latest knockout & finish in UFC Welterweight division history (0:01 remaining vs. Peter Sobotta )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Fan's Choice Knockout of the Year Winner vs. Kamaru Usman 2 & Fan's Choice Comeback of the Year Winner vs. Kamaru Usman 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Ranked #5 Fighter of the Year , Upset of the Year & Knockout of the Year vs. Kamaru Usman 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: Ranked #3 Fighter of the Year & Ranked #6 Upset of the Year vs. Kamaru Usman 3"
+    },
+    {
+      "org": "BAMMA",
+      "texte": "BAMMA RDX Welterweight Championship (One time, former)"
+    },
+    {
+      "org": "BAMMA",
+      "texte": "One successful title defence"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2022 Knockout of the Year vs. Kamaru Usman 2 at UFC 278"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2022 August Knockout of the Month vs. Kamaru Usman 2 at UFC 278"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2022 Knockout of the Year vs. Kamaru Usman 2 at UFC 278"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2022 UFC Knockout of the Year vs. Kamaru Usman 2 at UFC 278"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2022 Upset of the Year vs. Kamaru Usman 2 at UFC 278"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2022 UFC Knockout of the Year vs. Kamaru Usman 2 at UFC 278"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2022 Comeback of the Year vs. Kamaru Usman 2 at UFC 278"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2022 Knockout of the Year vs. Kamaru Usman 2 at UFC 278 , tied with Michael Chandler"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2022 Comeback of the Year vs. Kamaru Usman 2 at UFC 278"
+    },
+    {
+      "org": "Violent Money TV",
+      "texte": "VMTV UK MMA Knockout of the Year 2022 vs. Kamaru Usman 2 at UFC 278"
+    },
+    {
+      "org": "Violent Money TV",
+      "texte": "VMTV UK MMA Male Fighter of the Year 2023"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2023 Charles 'Mask' Lewis Fighter of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2023 International Fighter of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2023 Knockout of the Year vs. Kamaru Usman 2 at UFC 278"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2023 Comeback of the Year vs. Kamaru Usman 2 at UFC 278"
+    },
+    {
+      "org": "Sportsnaut",
+      "texte": "2023 UFC Fighter of the Year"
+    },
+    {
+      "org": "LowKick MMA",
+      "texte": "2022 Upset of the Year vs. Kamaru Usman 2 at UFC 278"
+    },
+    {
+      "org": "Slacky Awards",
+      "texte": "2018 Gameplan of the Year vs. Donald Cerrone at UFC Fight Night: Cowboy vs. Edwards"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids mi-moyens",
+      "2 défenses de titre à l'UFC",
+      "KO de l'année (2022)",
+      "Bonus UFC : 2× Performance de la soirée"
+    ],
+    "en": [
+      "UFC Welterweight Champion",
+      "2 UFC title defenses",
+      "Knockout of the Year (2022)",
+      "UFC bonuses: 2× Performance of the Night"
+    ]
+  },
   "image_commons": "Leon Edwards 2021.png",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Leon_Edwards",

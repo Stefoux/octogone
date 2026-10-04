@@ -134,47 +134,197 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "Two successful title defenses (first reign)",
-    "The fastest title-fight turnaround in UFC history (21 days in 2020)",
-    "Tied ( Brandon Moreno ) for third most title fight wins in UFC Flyweight division history (3)",
-    "Fight of the Night (Three times) vs. Alexandre Pantoja and Brandon Moreno 1 & 3",
-    "Performance of the Night (One time) vs. Joseph Benavidez",
-    "Tied ( Demetrious Johnson ) for second most finishes in UFC Flyweight division history (7) (behind Alexandre Pantoja )",
-    "Fastest submission in UFC Flyweight division history (1:57) (vs. Alex Perez )",
-    "Most knockdowns landed in UFC Flyweight division history (11)",
-    "Most submission attempts in UFC Flyweight division history (20)",
-    "Sixth most wins in UFC Flyweight division history (10)",
-    "Tied ( Tatsuro Taira & Kyoji Horiguchi ) for the sixth longest win streak in UFC Flyweight division history (5)",
-    "Tied ( John Lineker , Dustin Ortiz , Alex Perez & Joshua Van ) for third most knockouts in UFC Flyweight division history (4)",
-    "Shortest span between a trilogy in UFC history (406 days)",
-    "First trilogy in UFC history consisting of both fighters' three consecutive bouts",
-    "UFC Honors Awards 2020: President's Choice Fight of the Year Nominee vs. Brandon Moreno 1",
-    "2020: President's Choice Fight of the Year Nominee vs. Brandon Moreno 1",
-    "2020: Fighter of the Year ,  Ranked #2 Fight of the Year vs. Brandon Moreno 1  & Ranked #9 Submission of the Year vs. Joseph Benavidez 2",
-    "2022: Ranked #6 Fight of the Year vs. Brandon Moreno 3",
-    "MMA Junkie 2019 July Fight of the Month vs. Alexandre Pantoja  2020 December Fight of the Month vs. Brandon Moreno  2022 January Fight of the Month vs. Brandon Moreno",
-    "2019 July Fight of the Month vs. Alexandre Pantoja",
-    "2020 December Fight of the Month vs. Brandon Moreno",
-    "2022 January Fight of the Month vs. Brandon Moreno",
-    "MMA Mania 2020 Fight of the Year vs. Brandon Moreno  2020 Fighter of the Year",
-    "2020 Fight of the Year vs. Brandon Moreno",
-    "2020 Fighter of the Year",
-    "ESPN 2020 Male Fighter of the Year",
-    "2020 Male Fighter of the Year",
-    "The Athletic 2020 Fighter of the Year",
-    "2020 Fighter of the Year",
-    "MMA Fighting 2020 Fighter of the Year  2024 Second Team MMA All-Star",
-    "2020 Fighter of the Year",
-    "2024 Second Team MMA All-Star",
-    "Combat Press 2020 Male Fighter of the Year",
-    "2020 Male Fighter of the Year",
-    "Sherdog 2020 Fighter of the Year",
-    "2020 Fighter of the Year",
-    "The Body Lock MMA 2020 Male Fighter of the Year",
-    "2020 Male Fighter of the Year",
-    "World MMA Awards 2021 Fight of the Year vs. Brandon Moreno at UFC 256",
-    "2021 Fight of the Year vs. Brandon Moreno at UFC 256"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Flyweight Championship (Two times)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Two successful title defenses (first reign)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "The fastest title-fight turnaround in UFC history (21 days in 2020)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Brandon Moreno ) for third most title fight wins in UFC Flyweight division history (3)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Three times) vs. Alexandre Pantoja and Brandon Moreno 1 & 3"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Joseph Benavidez"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Demetrious Johnson ) for second most finishes in UFC Flyweight division history (7) (behind Alexandre Pantoja )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fastest submission in UFC Flyweight division history (1:57) (vs. Alex Perez )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most knockdowns landed in UFC Flyweight division history (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most submission attempts in UFC Flyweight division history (20)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Sixth most wins in UFC Flyweight division history (10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Tatsuro Taira & Kyoji Horiguchi ) for the sixth longest win streak in UFC Flyweight division history (5)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( John Lineker , Dustin Ortiz , Alex Perez & Joshua Van ) for third most knockouts in UFC Flyweight division history (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Shortest span between a trilogy in UFC history (406 days)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First trilogy in UFC history consisting of both fighters' three consecutive bouts"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: President's Choice Fight of the Year Nominee vs. Brandon Moreno 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Fighter of the Year , Ranked #2 Fight of the Year vs. Brandon Moreno 1 & Ranked #9 Submission of the Year vs. Joseph Benavidez 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Ranked #6 Fight of the Year vs. Brandon Moreno 3"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2019 July Fight of the Month vs. Alexandre Pantoja"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2020 December Fight of the Month vs. Brandon Moreno"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2022 January Fight of the Month vs. Brandon Moreno"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2020 Fight of the Year vs. Brandon Moreno"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2020 Fighter of the Year"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2020 Male Fighter of the Year"
+    },
+    {
+      "org": "The Athletic",
+      "texte": "2020 Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2020 Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2024 Second Team MMA All-Star"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2020 Male Fighter of the Year"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2020 Fighter of the Year"
+    },
+    {
+      "org": "The Body Lock MMA",
+      "texte": "2020 Male Fighter of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2021 Fight of the Year vs. Brandon Moreno at UFC 256"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2020 Fighter of the Year"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2020 Fighter of the Year"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2020 Male Fighter of the Year"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2020 UFC Fighter of the Year"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2020 #2 Ranked UFC Fight of the Year vs. Brandon Moreno"
+    },
+    {
+      "org": "MMA Weekly",
+      "texte": "2020 Fighter of the Year"
+    },
+    {
+      "org": "MMA Weekly",
+      "texte": "2020 Submission of the Year vs. Joseph Benavidez at UFC Fight Night: Figueiredo vs. Benavidez 2"
+    },
+    {
+      "org": "LowKick MMA",
+      "texte": "2020 Fighter of the Year"
+    },
+    {
+      "org": "MMA Sucka",
+      "texte": "2020 Fighter of the Year"
+    },
+    {
+      "org": "Brazilian jiu-jitsu",
+      "texte": "Brazilian Jiu-jitsu Northeast Brazil champion"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids mouche (2 fois)",
+      "2 défenses de titre à l'UFC",
+      "Combattant de l'année (2020)",
+      "Record UFC chez les poids mouche : knockdowns (11)",
+      "Record UFC chez les poids mouche : tentatives de soumission (20)",
+      "Bonus UFC : 1× Performance de la soirée, 3× Combat de la soirée"
+    ],
+    "en": [
+      "UFC Flyweight Champion (2×)",
+      "2 UFC title defenses",
+      "Fighter of the Year (2020)",
+      "UFC Flyweight record: most knockdowns (11)",
+      "UFC Flyweight record: most submission attempts (20)",
+      "UFC bonuses: 1× Performance of the Night, 3× Fight of the Night"
+    ]
+  },
   "image_commons": "Deiveson Figueiredo 2024.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Deiveson_Figueiredo",

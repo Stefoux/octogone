@@ -150,47 +150,321 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "UFC Hall of Fame ( Fight Wing , Class of 2026) vs. Joanna Jędrzejczyk 1 at UFC 248",
-    "Four successful title defenses (Overall) One successful title defense (First reign) Three successful title defenses (Second reign)",
-    "One successful title defense (First reign)",
-    "Three successful title defenses (Second reign)",
-    "Tied ( Joanna Jędrzejczyk ) for most title fight wins in UFC Women's Strawweight division history (6)",
-    "Second most UFC Women's Strawweight title bouts (8) (behind Joanna Jędrzejczyk )",
-    "First Chinese champion in UFC history",
-    "First Asian champion in UFC history",
-    "Fight of the Night (One time) vs. Joanna Jędrzejczyk 1",
-    "Tied ( Angela Hill ) for fourth most Post-Fight bonuses in UFC Women's Strawweight division history (5)",
-    "Tied for second most wins in UFC Women's Strawweight division history (10)",
-    "Largest striking differential in a bout in UFC Women's history (288:21) (vs. Amanda Lemos )",
-    "Most significant ground strikes landed in a UFC Women's Strawweight bout (96) (vs. Amanda Lemos )  Most total ground strikes landed in a UFC Women's Strawweight bout (225) (vs. Amanda Lemos )",
-    "Most total ground strikes landed in a UFC Women's Strawweight bout (225) (vs. Amanda Lemos )",
-    "Most total strikes landed in a UFC Women's Strawweight bout (296) (vs. Amanda Lemos )",
-    "Fourth most control time in UFC Women's Strawweight division history (56:56)",
-    "Second most top position time in UFC Women's Strawweight division history (51:54)",
-    "Fourth most top position percentage in UFC Women's Strawweight division history (29.8%)",
-    "Tied ( Angela Hill ) for fourth most knockdowns in UFC Women's Strawweight division history (3)",
-    "Third highest significant strike accuracy in UFC Women's Strawweight division history (53.4%)",
-    "Second highest striking differential in UFC Women's Strawweight division history (2.38)",
-    "Fifth most takedowns landed in UFC Women's Strawweight division history (26)  Fourth most strikes landed in UFC Women's Strawweight division history (1552)",
-    "Fourth most strikes landed in UFC Women's Strawweight division history (1552)",
-    "Fifth most strikes landed-per-minute in UFC Women's Strawweight division history (5.66)",
-    "2019: President's Choice Performance of the Year Nominee vs. Jéssica Andrade",
-    "2020: President's Choice Fight of the Year Winner vs. Joanna Jędrzejczyk 1",
-    "2018: Ranked #7 Newcomer of the Year",
-    "2019: Top 10 Fighter of the Year",
-    "2020: Fight of the Year vs. Joanna Jędrzejczyk 1",
-    "2022: Ranked #4 Fighter of the Year ,  Half-Year Awards: Best Knockout of the 1HY  & Ranked #4 Knockout of the Year vs. Joanna Jędrzejczyk 2",
-    "2024: Ranked #9 Fight of the Year vs. Yan Xiaonan",
-    "Kunlun Fight KLF Female Strawweight Champion (One time)  Two successful title defenses",
-    "KLF Female Strawweight Champion (One time)  Two successful title defenses",
-    "Two successful title defenses",
-    "Top Fighting Championship Top FC Strawweight Champion (One time)",
-    "Top FC Strawweight Champion (One time)",
-    "2020 March Fight of the Month vs. Joanna Jędrzejczyk at UFC 248",
-    "2020 Female Fighter of the Year",
-    "2020 Fight of the Year vs. Joanna Jędrzejczyk at UFC 248",
-    "June 2022 Knockout of the Month vs. Joanna Jędrzejczyk at UFC 248"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame ( Fight Wing , Class of 2026) vs. Joanna Jędrzejczyk 1 at UFC 248"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Women's Strawweight Championship (Two times, former)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Four successful title defenses (Overall)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "One successful title defense (First reign)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Three successful title defenses (Second reign)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Joanna Jędrzejczyk ) for most title fight wins in UFC Women's Strawweight division history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most UFC Women's Strawweight title bouts (8) (behind Joanna Jędrzejczyk )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First Chinese champion in UFC history"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First Asian champion in UFC history"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Joanna Jędrzejczyk 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Four times) vs. Jéssica Andrade , Joanna Jędrzejczyk 2, Carla Esparza & Amanda Lemos"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Angela Hill ) for fourth most Post-Fight bonuses in UFC Women's Strawweight division history (5)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied for second most wins in UFC Women's Strawweight division history (10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Largest striking differential in a bout in UFC Women's history (288:21) (vs. Amanda Lemos )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most significant ground strikes landed in a UFC Women's Strawweight bout (96) (vs. Amanda Lemos )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most total ground strikes landed in a UFC Women's Strawweight bout (225) (vs. Amanda Lemos )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most total strikes landed in a UFC Women's Strawweight bout (296) (vs. Amanda Lemos )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most control time in UFC Women's Strawweight division history (56:56)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most top position time in UFC Women's Strawweight division history (51:54)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most top position percentage in UFC Women's Strawweight division history (29.8%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Angela Hill ) for fourth most knockdowns in UFC Women's Strawweight division history (3)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third highest significant strike accuracy in UFC Women's Strawweight division history (53.4%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second highest striking differential in UFC Women's Strawweight division history (2.38)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth most takedowns landed in UFC Women's Strawweight division history (26)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most strikes landed in UFC Women's Strawweight division history (1552)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth most strikes landed-per-minute in UFC Women's Strawweight division history (5.66)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2019: President's Choice Performance of the Year Nominee vs. Jéssica Andrade"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: President's Choice Fight of the Year Winner vs. Joanna Jędrzejczyk 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: President's Choice Performance of the Year Winner vs. Joanna Jędrzejczyk 2 , Fan's Choice Knockout of the Year Nominee vs. Joanna Jędrzejczyk 2 & Fan's Choice Submission of the Year Nominee vs. Carla Esparza"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2018: Ranked #7 Newcomer of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2019: Top 10 Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Fight of the Year vs. Joanna Jędrzejczyk 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Ranked #4 Fighter of the Year , Half-Year Awards: Best Knockout of the 1HY & Ranked #4 Knockout of the Year vs. Joanna Jędrzejczyk 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: Ranked #9 Fight of the Year vs. Yan Xiaonan"
+    },
+    {
+      "org": "Kunlun Fight",
+      "texte": "KLF Female Strawweight Champion (One time)"
+    },
+    {
+      "org": "Kunlun Fight",
+      "texte": "Two successful title defenses"
+    },
+    {
+      "org": "Top Fighting Championship",
+      "texte": "Top FC Strawweight Champion (One time)"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2020 March Fight of the Month vs. Joanna Jędrzejczyk at UFC 248"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2020 Female Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2020 Fight of the Year vs. Joanna Jędrzejczyk at UFC 248"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "June 2022 Knockout of the Month vs. Joanna Jędrzejczyk at UFC 248"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "November 2022 Submission of the Month vs. Carla Esparza at UFC 281"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2022 Female Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2022 Comeback Fighter of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2019 – July 2020 Fight of the Year vs. Joanna Jędrzejczyk at UFC 248"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2024 Female Fighter of the Year"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "2020 MMA Match of the Year vs. Joanna Jędrzejczyk at UFC 248"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "Women's MMA MVP (2022, 2024)"
+    },
+    {
+      "org": "The Sporting News",
+      "texte": "2022 Female Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2020 Fight of the Year vs. Joanna Jędrzejczyk at UFC 248"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2022 First Team MMA All-Star"
+    },
+    {
+      "org": "The Athletic",
+      "texte": "2020 Fight of the Year vs. Joanna Jędrzejczyk at UFC 248"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2020 Fight of the Year vs. Joanna Jędrzejczyk at UFC 248"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2020 Fight of the Year vs. Joanna Jędrzejczyk at UFC 248"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2022 Female Fighter of the Year"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2020 Fight of the Year vs. Joanna Jędrzejczyk at UFC 248"
+    },
+    {
+      "org": "BT Sport",
+      "texte": "2020 Fight of the Year vs. Joanna Jędrzejczyk at UFC 248"
+    },
+    {
+      "org": "BT Sport",
+      "texte": "2022 Female Fighter of the Year"
+    },
+    {
+      "org": "MMA Weekly",
+      "texte": "2020 Fight of the Year vs. Joanna Jędrzejczyk at UFC 248"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2020 Fight of the Year vs. Joanna Jędrzejczyk at UFC 248"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2022 Female Fighter of the Year"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2019 Female Fighter of the Year"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2020 Fight of the Year vs. Joanna Jędrzejczyk at UFC 248"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2022 Female Fighter of the Year"
+    },
+    {
+      "org": "Yahoo! Sports",
+      "texte": "2019 Female Fighter of the Year"
+    },
+    {
+      "org": "Yahoo! Sports",
+      "texte": "2020 Fight of the Year vs. Joanna Jędrzejczyk at UFC 248"
+    },
+    {
+      "org": "Yahoo! Sports",
+      "texte": "2022 Female Fighter of the Year"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2019 Upset of the Year vs. Jéssica Andrade at UFC Fight Night: Andrade vs. Zhang"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2020 Fight of the Year vs. Joanna Jędrzejczyk at UFC 248"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2020 UFC Fight of the Year vs. Joanna Jędrzejczyk at UFC 248"
+    },
+    {
+      "org": "MMA Sucka",
+      "texte": "2020 Fight of the Year vs. Joanna Jędrzejczyk at UFC 248"
+    },
+    {
+      "org": "Slacky Awards",
+      "texte": "2023 Gameplan of the Year vs. Amanda Lemos at UFC 292"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Championne UFC des poids paille féminins (2 fois)",
+      "Hall of Fame de l'UFC, aile Combats (2026)",
+      "4 défenses de titre à l'UFC",
+      "Combattante de l'année (2019, 2020, 2022, 2024)",
+      "Combat de l'année (2020)",
+      "Bonus UFC : 4× Performance de la soirée, 1× Combat de la soirée"
+    ],
+    "en": [
+      "UFC Women's Strawweight Champion (2×)",
+      "UFC Hall of Fame, Fight Wing (2026)",
+      "4 UFC title defenses",
+      "Fighter of the Year (2019, 2020, 2022, 2024)",
+      "Fight of the Year (2020)",
+      "UFC bonuses: 4× Performance of the Night, 1× Fight of the Night"
+    ]
+  },
   "image_commons": "张伟丽.png",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Zhang_Weili",

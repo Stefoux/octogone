@@ -108,22 +108,59 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Performance of the Night (Four times) vs. Rashad Coulter , Greg Hardy , Augusto Sakai and Derrick Lewis",
-    "Fight of the Night (One time) vs. Ciryl Gane",
-    "Tied for fourth most consecutive knockouts in UFC history (5)",
-    "Longest losing streak in UFC Heavyweight division history (8)  Tied ( Tony Ferguson ) for the longest losing streak in UFC history (8)",
-    "Tied ( Tony Ferguson ) for the longest losing streak in UFC history (8)",
-    "UFC.com Awards 2022: Ranked #7 Fight of the Year vs. Ciryl Gane  & Ranked #8 Upset of the Year vs. Derrick Lewis",
-    "2022: Ranked #7 Fight of the Year vs. Ciryl Gane  & Ranked #8 Upset of the Year vs. Derrick Lewis",
-    "Australian Fighting Championship AFC Heavyweight Champion (One time)",
-    "AFC Heavyweight Champion (One time)",
-    "National Dreamtime Awards 2018 International Sportsperson of the Year",
-    "2018 International Sportsperson of the Year",
-    "MMAjunkie.com 2021 July Knockout of the Month vs. Greg Hardy",
-    "2021 July Knockout of the Month vs. Greg Hardy",
-    "MMA Fighting 2022 Third Team MMA All-Star",
-    "2022 Third Team MMA All-Star"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Four times) vs. Rashad Coulter , Greg Hardy , Augusto Sakai and Derrick Lewis"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Ciryl Gane"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied for fourth most consecutive knockouts in UFC history (5)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Longest losing streak in UFC Heavyweight division history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Tony Ferguson ) for the longest losing streak in UFC history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Ranked #7 Fight of the Year vs. Ciryl Gane & Ranked #8 Upset of the Year vs. Derrick Lewis"
+    },
+    {
+      "org": "Australian Fighting Championship",
+      "texte": "AFC Heavyweight Champion (One time)"
+    },
+    {
+      "org": "National Dreamtime Awards",
+      "texte": "2018 International Sportsperson of the Year"
+    },
+    {
+      "org": "MMAjunkie.com",
+      "texte": "2021 July Knockout of the Month vs. Greg Hardy"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2022 Third Team MMA All-Star"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 4× Performance de la soirée, 1× Combat de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 4× Performance of the Night, 1× Fight of the Night"
+    ]
+  },
   "image_commons": "Tai Tuivasa at UFC 234.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Tai_Tuivasa",

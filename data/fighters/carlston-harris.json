@@ -99,11 +99,23 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Ultimate Fighting Championship Performance of the Night (Two times) vs. Christian Aguilera and Jeremiah Wells",
-    "Performance of the Night (Two times) vs. Christian Aguilera and Jeremiah Wells",
-    "Brave Combat Federation Brave CF Welterweight Championship (One time)",
-    "Brave CF Welterweight Championship (One time)"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. Christian Aguilera and Jeremiah Wells"
+    },
+    {
+      "org": "Brave Combat Federation",
+      "texte": "Brave CF Welterweight Championship (One time)"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 2× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 2× Performance of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Carlston_Harris",

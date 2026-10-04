@@ -51,6 +51,31 @@ class Api:
             if r.status_code >= 300:
                 raise SystemExit(f"{table}: HTTP {r.status_code} {r.text[:500]}")
 
+    def select(self, table: str, columns: str) -> list[dict]:
+        out, offset = [], 0
+        while True:
+            r = self.s.get(f"{self.url}/rest/v1/{table}", params={"select": columns},
+                           headers={"Range-Unit": "items", "Range": f"{offset}-{offset + 999}"}, timeout=60)
+            if r.status_code >= 300:
+                raise SystemExit(f"{table}: HTTP {r.status_code} {r.text[:300]}")
+            rows = r.json()
+            out += rows
+            if len(rows) < 1000:
+                return out
+            offset += 1000
+
+    def soft_delete(self, table: str, ids: list[str]) -> None:
+        for i in range(0, len(ids), 100):
+            chunk = ids[i:i + 100]
+            r = self.s.patch(f"{self.url}/rest/v1/{table}", params={"id": f"in.({','.join(chunk)})"},
+                             json={"deleted": True}, headers={"Prefer": "return=minimal"}, timeout=60)
+            if r.status_code >= 300:
+                raise SystemExit(f"{table} (suppression): HTTP {r.status_code} {r.text[:300]}")
+
+    def remove_files(self, paths: list[str]) -> None:
+        if paths:
+            self.s.delete(f"{self.url}/storage/v1/object/cartes", json={"prefixes": paths}, timeout=60)
+
     def upload(self, path: str, data: bytes, mime: str) -> None:
         r = self.s.post(f"{self.url}/storage/v1/object/cartes/{path}", data=data,
                         headers={"Content-Type": mime, "x-upsert": "true", "Cache-Control": "max-age=604800"},
@@ -96,6 +121,7 @@ def fighter_row(f: dict, img: str | None) -> dict:
         "champion_actuel": bool(f.get("champion_actuel")), "ancien_champion": bool(f.get("ancien_champion")),
         "palmares": f.get("palmares") or {}, "stats_ufc": f.get("stats_ufc") or {}, "ufc": f.get("ufc") or {},
         "stats_jeu": f.get("stats_jeu") or {}, "accomplissements": f.get("accomplissements_en") or [],
+        "distinctions": f.get("distinctions") or {},
         "image_id": img, "sources": f.get("sources") or {}, "champs_sources": f.get("champs_sources") or {},
         "a_verifier": f.get("a_verifier") or [],
     }
@@ -187,7 +213,16 @@ def main() -> None:
             "focal_x": c.get("focal_x"), "focal_y": c.get("focal_y"), "visage": c.get("visage"),
         })
     api.upsert("images", img_rows)
-    print(f"images : {len(img_rows)}")
+    # Images qui ne sont plus d'actualité (combattant sans photo libre, photo remplacée) :
+    # suppression douce (répercutée sur les téléphones) + fichier retiré du stockage.
+    current = {r["id"] for r in img_rows}
+    stale = [r for r in api.select("images", "id,storage_path,deleted,type,importe_par")
+             if r["id"] not in current and not r["deleted"] and r["type"] == "portrait" and not r["importe_par"]]
+    if stale:
+        api.soft_delete("images", [r["id"] for r in stale])
+        if not args.sans_images:
+            api.remove_files([r["storage_path"] for r in stale])
+    print(f"images : {len(img_rows)}" + (f" ({len(stale)} retirées)" if stale else ""))
 
     # 3. Combattants avec leur portrait
     api.upsert("fighters", [fighter_row(f, img_of.get(f["id"])) for f in fighters])

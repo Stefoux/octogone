@@ -101,11 +101,23 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Ultimate Fighting Championship Performance of the Night (Two time) vs. Teemu Packalén and Khama Worthy",
-    "Performance of the Night (Two time) vs. Teemu Packalén and Khama Worthy",
-    "Brave Combat Federation BRAVE Combat Federation Lightweight Championship (One time)",
-    "BRAVE Combat Federation Lightweight Championship (One time)"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two time) vs. Teemu Packalén and Khama Worthy"
+    },
+    {
+      "org": "Brave Combat Federation",
+      "texte": "BRAVE Combat Federation Lightweight Championship (One time)"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 2× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 2× Performance of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Ottman_Azaitar",

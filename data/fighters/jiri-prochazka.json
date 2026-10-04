@@ -124,47 +124,199 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "UFC Light Heavyweight Championship (One time) First Czech champion in UFC history",
-    "First Czech champion in UFC history",
-    "Fight of the Night (Three times) vs. Dominick Reyes , Glover Teixeira and Khalil Rountree Jr.",
-    "Performance of the Night (Five times) vs. Volkan Oezdemir , Dominick Reyes , Aleksandar Rakić . Jamahal Hill and Khalil Rountree Jr.",
-    "2020: Fan's Choice Debut of the Year Nominee vs. Volkan Oezdemir",
-    "2021: President's Choice Fight of the Year Nominee vs. Dominick Reyes  & Fan's Choice Knockout of the Year Nominee vs. Dominick Reyes",
-    "2022: President's Choice Fight of the Year Nominee vs. Glover Teixeira  & Fan's Choice Submission of the Year Nominee vs. Glover Teixeira",
-    "2025: Fan's Choice Comeback of the Year Winner  & President's Choice Fight of the Year Nominee vs. Khalil Rountree Jr.",
-    "2020: Ranked #5 Newcomer of the Year",
-    "2021: Half-Year Awards: Best Fight of the 1HY,  Ranked #2 Knockout of the Year vs. Dominick Reyes  & Ranked #5 Fight of the Year vs. Dominick Reyes",
-    "2022: Fight of the Year vs. Glover Teixeira ,  Ranked #2 Submission of the Year vs. Glover Teixeira  & Ranked #9 Fighter of the Year",
-    "2025: Ranked #5 Fighter of the Year (Tied with Valentina Shevchenko )  & Ranked #2 Fight of the Year vs. Khalil Rountree Jr.",
-    "Rizin Fighting Federation RIZIN Light Heavyweight Championship (Inaugural; former) One successful title defense 2015 RIZIN World Grand Prix Runner Up",
-    "RIZIN Light Heavyweight Championship (Inaugural; former) One successful title defense",
-    "One successful title defense",
-    "2015 RIZIN World Grand Prix Runner Up",
-    "Gladiator Championship Fighting GCF Light Heavyweight Championship (Inaugural) One successful title defense",
-    "GCF Light Heavyweight Championship (Inaugural) One successful title defense",
-    "One successful title defense",
-    "The Sporting News 2022 Fight of the Year vs. Glover Teixeira at UFC 275",
-    "2022 Fight of the Year vs. Glover Teixeira at UFC 275",
-    "Cageside Press 2022 Fight of the Year vs. Glover Teixeira at UFC 275  2025 Comeback of the Year vs. Khalil Rountree Jr.  2025 Fight of the Year vs. Khalil Rountree Jr. , tied with Van vs. Royval",
-    "2022 Fight of the Year vs. Glover Teixeira at UFC 275",
-    "2025 Comeback of the Year vs. Khalil Rountree Jr.",
-    "2025 Fight of the Year vs. Khalil Rountree Jr. , tied with Van vs. Royval",
-    "Combat Press 2022 Fight of the Year vs. Glover Teixeira at UFC 275  2025 Fight of the Year vs. Khalil Rountree Jr. at UFC 320",
-    "2022 Fight of the Year vs. Glover Teixeira at UFC 275",
-    "2025 Fight of the Year vs. Khalil Rountree Jr. at UFC 320",
-    "ESPN 2021 Midyear MMA Awards: Best Finish of the 1HY vs. Dominick Reyes at UFC on ESPN: Reyes vs. Procházka  2022 Fight of the Year vs. Glover Teixeira at UFC 275",
-    "2021 Midyear MMA Awards: Best Finish of the 1HY vs. Dominick Reyes at UFC on ESPN: Reyes vs. Procházka",
-    "2022 Fight of the Year vs. Glover Teixeira at UFC 275",
-    "Bleacher Report 2022 UFC Fight of the Year vs. Glover Teixeira at UFC 275",
-    "2022 UFC Fight of the Year vs. Glover Teixeira at UFC 275",
-    "Fight Club News Awards 2013 Czech Fight of the Year vs. Martin Šolc on December 7",
-    "2013 Czech Fight of the Year vs. Martin Šolc on December 7",
-    "2021 May Knockout of the Month vs. Dominick Reyes at UFC on ESPN: Reyes vs. Procházka",
-    "2022 June Fight of the Month vs. Glover Teixeira at UFC 275",
-    "2022 Fight of the Year vs. Glover Teixeira at UFC 275",
-    "MMA Fighting 2022 Fight of the Year vs. Glover Teixeira at UFC 275  2025 Comeback of the Year vs. Khalil Rountree Jr. at UFC 320  2025 First Team MMA All-Star",
-    "2022 Fight of the Year vs. Glover Teixeira at UFC 275"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Light Heavyweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First Czech champion in UFC history"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Three times) vs. Dominick Reyes , Glover Teixeira and Khalil Rountree Jr."
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Five times) vs. Volkan Oezdemir , Dominick Reyes , Aleksandar Rakić . Jamahal Hill and Khalil Rountree Jr."
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Fan's Choice Debut of the Year Nominee vs. Volkan Oezdemir"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: President's Choice Fight of the Year Nominee vs. Dominick Reyes & Fan's Choice Knockout of the Year Nominee vs. Dominick Reyes"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: President's Choice Fight of the Year Nominee vs. Glover Teixeira & Fan's Choice Submission of the Year Nominee vs. Glover Teixeira"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2025: Fan's Choice Comeback of the Year Winner & President's Choice Fight of the Year Nominee vs. Khalil Rountree Jr."
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Ranked #5 Newcomer of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: Half-Year Awards: Best Fight of the 1HY, Ranked #2 Knockout of the Year vs. Dominick Reyes & Ranked #5 Fight of the Year vs. Dominick Reyes"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Fight of the Year vs. Glover Teixeira , Ranked #2 Submission of the Year vs. Glover Teixeira & Ranked #9 Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2025: Ranked #5 Fighter of the Year (Tied with Valentina Shevchenko ) & Ranked #2 Fight of the Year vs. Khalil Rountree Jr."
+    },
+    {
+      "org": "Rizin Fighting Federation",
+      "texte": "RIZIN Light Heavyweight Championship (Inaugural; former)"
+    },
+    {
+      "org": "Rizin Fighting Federation",
+      "texte": "One successful title defense"
+    },
+    {
+      "org": "Rizin Fighting Federation",
+      "texte": "2015 RIZIN World Grand Prix Runner Up"
+    },
+    {
+      "org": "Gladiator Championship Fighting",
+      "texte": "GCF Light Heavyweight Championship (Inaugural)"
+    },
+    {
+      "org": "Gladiator Championship Fighting",
+      "texte": "One successful title defense"
+    },
+    {
+      "org": "The Sporting News",
+      "texte": "2022 Fight of the Year vs. Glover Teixeira at UFC 275"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2022 Fight of the Year vs. Glover Teixeira at UFC 275"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2025 Comeback of the Year vs. Khalil Rountree Jr."
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2025 Fight of the Year vs. Khalil Rountree Jr. , tied with Van vs. Royval"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2022 Fight of the Year vs. Glover Teixeira at UFC 275"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2025 Fight of the Year vs. Khalil Rountree Jr. at UFC 320"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2021 Midyear MMA Awards: Best Finish of the 1HY vs. Dominick Reyes at UFC on ESPN: Reyes vs. Procházka"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2022 Fight of the Year vs. Glover Teixeira at UFC 275"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2022 UFC Fight of the Year vs. Glover Teixeira at UFC 275"
+    },
+    {
+      "org": "Fight Club News Awards",
+      "texte": "2013 Czech Fight of the Year vs. Martin Šolc on December 7"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2021 May Knockout of the Month vs. Dominick Reyes at UFC on ESPN: Reyes vs. Procházka"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2022 June Fight of the Month vs. Glover Teixeira at UFC 275"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2022 Fight of the Year vs. Glover Teixeira at UFC 275"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2022 Fight of the Year vs. Glover Teixeira at UFC 275"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2025 Comeback of the Year vs. Khalil Rountree Jr. at UFC 320"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2025 First Team MMA All-Star"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2022 Fight of the Year vs. Glover Teixeira at UFC 275"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2025 Fight of the Year vs. Khalil Rountree Jr. at UFC 320"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2022 Fight of the Year vs. Glover Teixeira at UFC 275"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2022 Fight of the Year vs. Glover Teixeira at UFC 275"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "2022 MMA Match of the Year vs. Glover Teixeira at UFC 275"
+    },
+    {
+      "org": "Yahoo! Sports",
+      "texte": "2022 Fight of the Year vs. Glover Teixeira at UFC 275"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2021 UFC Knockout of the Year vs. Dominick Reyes at UFC on ESPN: Reyes vs. Procházka"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2022 UFC Fight of the Year vs. Glover Teixeira at UFC 275"
+    },
+    {
+      "org": "LowKick MMA",
+      "texte": "2025 Fight of the Year vs. Khalil Rountree Jr. at UFC 320"
+    },
+    {
+      "org": "Czech Muay Thai Association",
+      "texte": "2011 Czech National Championships champion (−86.18 kg)"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids mi-lourds",
+      "Combat de l'année (2022, 2025)",
+      "Bonus UFC : 5× Performance de la soirée, 3× Combat de la soirée"
+    ],
+    "en": [
+      "UFC Light Heavyweight Champion",
+      "Fight of the Year (2022, 2025)",
+      "UFC bonuses: 5× Performance of the Night, 3× Fight of the Night"
+    ]
+  },
   "image_commons": "JiriProchazka2022.png",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Jiří_Procházka",

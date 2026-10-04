@@ -112,6 +112,14 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 5× Performance de la soirée, 2× Combat de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 5× Performance of the Night, 2× Fight of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Michel_Pereira",

@@ -113,27 +113,77 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Fight of the Night (Two times) vs. Iuri Alcantara and Petr Yan",
-    "Performance of the Night (Three times) vs. Marlon Moraes , Frankie Edgar and Deiveson Figueiredo",
-    "Second fastest flying-knee finish in UFC history (0:28) vs. Frankie Edgar",
-    "UFC Honors Awards 2021: President's Choice Fight of the Year Nominee vs. Petr Yan",
-    "2021: President's Choice Fight of the Year Nominee vs. Petr Yan",
-    "2019: Ranked #6 Submission of the Year vs. Mario Bautista",
-    "2021: Ranked #4 Fight of the Year vs. Petr Yan ,  Ranked #3 Knockout of the Year vs. Frankie Edgar  & Ranked #9 Fight of the Year vs. T.J. Dillashaw",
-    "Sparta Combat League SCL Featherweight Championship (one time; former)",
-    "SCL Featherweight Championship (one time; former)",
-    "MMA Junkie 2021 February Knockout of the Month vs. Frankie Edgar  2021 July Fight of the Month vs. TJ Dillashaw",
-    "2021 February Knockout of the Month vs. Frankie Edgar",
-    "2021 July Fight of the Month vs. TJ Dillashaw",
-    "Cageside Press 2021 Knockout of the Year vs. Frankie Edgar",
-    "2021 Knockout of the Year vs. Frankie Edgar",
-    "Combat Press 2021 Knockout of the Year vs. Frankie Edgar",
-    "2021 Knockout of the Year vs. Frankie Edgar",
-    "Bleacher Report 2019 Submission of the Year vs. Mario Bautista at UFC Fight Night 143",
-    "2019 Submission of the Year vs. Mario Bautista at UFC Fight Night 143",
-    "CBS Sports 2021 #3 Ranked UFC Knockout of the Year vs. Frankie Edgar",
-    "2021 #3 Ranked UFC Knockout of the Year vs. Frankie Edgar"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Two times) vs. Iuri Alcantara and Petr Yan"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Three times) vs. Marlon Moraes , Frankie Edgar and Deiveson Figueiredo"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second fastest flying-knee finish in UFC history (0:28) vs. Frankie Edgar"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: President's Choice Fight of the Year Nominee vs. Petr Yan"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2019: Ranked #6 Submission of the Year vs. Mario Bautista"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: Ranked #4 Fight of the Year vs. Petr Yan , Ranked #3 Knockout of the Year vs. Frankie Edgar & Ranked #9 Fight of the Year vs. T.J. Dillashaw"
+    },
+    {
+      "org": "Sparta Combat League",
+      "texte": "SCL Featherweight Championship (one time; former)"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2021 February Knockout of the Month vs. Frankie Edgar"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2021 July Fight of the Month vs. TJ Dillashaw"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2021 Knockout of the Year vs. Frankie Edgar"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2021 Knockout of the Year vs. Frankie Edgar"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2019 Submission of the Year vs. Mario Bautista at UFC Fight Night 143"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2021 #3 Ranked UFC Knockout of the Year vs. Frankie Edgar"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "KO de l'année (2021)",
+      "Bonus UFC : 3× Performance de la soirée, 2× Combat de la soirée"
+    ],
+    "en": [
+      "Knockout of the Year (2021)",
+      "UFC bonuses: 3× Performance of the Night, 2× Fight of the Night"
+    ]
+  },
   "image_commons": "UFC's Corey Sandhagen brings his fighting spirit to the 1st SOW (1) (cropped).jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Cory_Sandhagen",

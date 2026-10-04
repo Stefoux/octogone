@@ -129,47 +129,169 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "UFC Lightweight Championship (One time, former) First two-division champion with an undefeated record  Tenth multi-division champion in UFC history",
-    "First two-division champion with an undefeated record",
-    "Tenth multi-division champion in UFC history",
-    "UFC Featherweight Championship (One time) One successful title defense First Georgian champion in UFC history",
-    "One successful title defense",
-    "First Georgian champion in UFC history",
-    "Performance of the Night (Five times) vs. Jai Herbert , Bryce Mitchell , Alexander Volkanovski , Max Holloway and Charles Oliveira",
-    "Fight of the Night (Two times) vs. Josh Emmett and Justin Gaethje   $500,000 CRO Crypto.com UFC Freedom 250 bonus winner",
-    "$500,000 CRO Crypto.com UFC Freedom 250 bonus winner",
-    "Tied ( Chuck Liddell , Quinton Jackson , Josh Emmett , Cody Garbrandt & Montel Jackson ) for most consecutive fights with a knockdown landed in UFC history (7)",
-    "UFC Men's Pound-For-Pound No. 1 in 2025",
-    "Holds wins over three former UFC champions — vs. Alexander Volkanovski , Max Holloway and Charles Oliveira",
-    "2024: President's Choice Performance of the Year Nominee vs. Alexander Volkanovski  & President's Choice Performance of the Year Nominee vs. Max Holloway",
-    "2025: Fan's Choice Knockout of the Year Winner  & President's Choice Performance of the Year Nominee vs. Charles Oliveira",
-    "2020: Ranked #8 Newcomer of the Year",
-    "2022: Ranked #7 Knockout of the Year vs. Jai Herbert  & Ranked #9 Submission of the Year vs. Bryce Mitchell",
-    "2024: Fighter of the Year (Tied with Alex Pereira ) ,  Ranked #2 Knockout of the Year vs. Max Holloway & Ranked #6 Knockout of the Year vs. Alexander Volkanovski",
-    "2025: Ranked #4 Knockout of the Year vs. Charles Oliveira  & Half-Year Awards: Best Knockout of the 1HY vs. Charles Oliveira",
-    "Mix Fight Events MFE Featherweight Championship (One time)",
-    "MFE Featherweight Championship (One time)",
-    "The Sporting News 2024 Fighter of the Year",
-    "2024 Fighter of the Year",
-    "Forbes 2024 UFC Fighter of the Year",
-    "2024 UFC Fighter of the Year",
-    "Yahoo Sports / Uncrowned 2024 MMA Fighter of the Year  2025 #5 Ranked Knockout of the Year vs. Charles Oliveira at UFC 317",
-    "2024 MMA Fighter of the Year",
-    "2025 #5 Ranked Knockout of the Year vs. Charles Oliveira at UFC 317",
-    "Bleacher Report 2024 Fighter of the Year",
-    "2024 Fighter of the Year",
-    "Bloody Elbow 2024 Fighter of the Year",
-    "2024 Fighter of the Year",
-    "CBS Sports 2024 UFC Fighter of the Year",
-    "2024 UFC Fighter of the Year",
-    "MMA Junkie 2022 December Submission of the Month vs. Bryce Mitchell  2024 Male Fighter of the Year",
-    "2022 December Submission of the Month vs. Bryce Mitchell",
-    "2024 Male Fighter of the Year",
-    "BodySlam.net 2024 Male Fighter of the Year",
-    "2024 Male Fighter of the Year",
-    "MMA Fighting 2024 First Team MMA All-Star  2025 #3 Knockout of the Year vs. Charles Oliveira at UFC 317",
-    "2024 First Team MMA All-Star"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Lightweight Championship (One time, former)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First two-division champion with an undefeated record"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tenth multi-division champion in UFC history"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Featherweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "One successful title defense"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First Georgian champion in UFC history"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Five times) vs. Jai Herbert , Bryce Mitchell , Alexander Volkanovski , Max Holloway and Charles Oliveira"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Two times) vs. Josh Emmett and Justin Gaethje"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "$500,000 CRO Crypto.com UFC Freedom 250 bonus winner"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Chuck Liddell , Quinton Jackson , Josh Emmett , Cody Garbrandt & Montel Jackson ) for most consecutive fights with a knockdown landed in UFC history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Men's Pound-For-Pound No. 1 in 2025"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Holds wins over three former UFC champions — vs. Alexander Volkanovski , Max Holloway and Charles Oliveira"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: President's Choice Performance of the Year Nominee vs. Alexander Volkanovski & President's Choice Performance of the Year Nominee vs. Max Holloway"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2025: Fan's Choice Knockout of the Year Winner & President's Choice Performance of the Year Nominee vs. Charles Oliveira"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Ranked #8 Newcomer of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Ranked #7 Knockout of the Year vs. Jai Herbert & Ranked #9 Submission of the Year vs. Bryce Mitchell"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: Fighter of the Year (Tied with Alex Pereira ) , Ranked #2 Knockout of the Year vs. Max Holloway & Ranked #6 Knockout of the Year vs. Alexander Volkanovski"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2025: Ranked #4 Knockout of the Year vs. Charles Oliveira & Half-Year Awards: Best Knockout of the 1HY vs. Charles Oliveira"
+    },
+    {
+      "org": "Mix Fight Events",
+      "texte": "MFE Featherweight Championship (One time)"
+    },
+    {
+      "org": "The Sporting News",
+      "texte": "2024 Fighter of the Year"
+    },
+    {
+      "org": "Forbes",
+      "texte": "2024 UFC Fighter of the Year"
+    },
+    {
+      "org": "Yahoo Sports / Uncrowned",
+      "texte": "2024 MMA Fighter of the Year"
+    },
+    {
+      "org": "Yahoo Sports / Uncrowned",
+      "texte": "2025 #5 Ranked Knockout of the Year vs. Charles Oliveira at UFC 317"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2024 Fighter of the Year"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2024 Fighter of the Year"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2024 UFC Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2022 December Submission of the Month vs. Bryce Mitchell"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2024 Male Fighter of the Year"
+    },
+    {
+      "org": "BodySlam.net",
+      "texte": "2024 Male Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2024 First Team MMA All-Star"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2025 #3 Knockout of the Year vs. Charles Oliveira at UFC 317"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2024 Fighter of the Year"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2024 #4 Ranked Knockout of the Year vs. Alexander Volkanovski at UFC 298"
+    },
+    {
+      "org": "The Wrightway Sports Network",
+      "texte": "2025 Knockout of the Year vs. Charles Oliveira at UFC 317"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids légers",
+      "Champion UFC des poids plume",
+      "1 défense de titre à l'UFC",
+      "Combattant de l'année (2024)",
+      "KO de l'année (2025)",
+      "Bonus UFC : 5× Performance de la soirée, 2× Combat de la soirée"
+    ],
+    "en": [
+      "UFC Lightweight Champion",
+      "UFC Featherweight Champion",
+      "1 UFC title defense",
+      "Fighter of the Year (2024)",
+      "Knockout of the Year (2025)",
+      "UFC bonuses: 5× Performance of the Night, 2× Fight of the Night"
+    ]
+  },
   "image_commons": "Ilia Topuria in the Oval Office (while President Donald J. Trump is holding a meeting with UFC fighters).jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Ilia_Topuria",

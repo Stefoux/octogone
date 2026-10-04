@@ -102,15 +102,43 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Performance of the Night (One time) vs. Amanda Ribas",
-    "Tied ( Manon Fiorot , Carli Judice & Casey O'Neill ) for second most knockouts in UFC Women's Flyweight division history (3) (behind Valentina Shevchenko )",
-    "Tied ( Katlyn Cerminara ) for second most wins in UFC Women's Flyweight division history (9)",
-    "Tied ( Manon Fiorot ) for the third longest win streak in UFC Women's Flyweight division history (7)",
-    "UFC.com Awards 2018: Ranked #4 Newcomer of the Year",
-    "2018: Ranked #4 Newcomer of the Year",
-    "MMA Junkie 2025 Comeback Fighter of the Year",
-    "2025 Comeback Fighter of the Year"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Amanda Ribas"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Manon Fiorot , Carli Judice & Casey O'Neill ) for second most knockouts in UFC Women's Flyweight division history (3) (behind Valentina Shevchenko )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Katlyn Cerminara ) for second most wins in UFC Women's Flyweight division history (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Manon Fiorot ) for the third longest win streak in UFC Women's Flyweight division history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2018: Ranked #4 Newcomer of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2025 Comeback Fighter of the Year"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 1× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 1× Performance of the Night"
+    ]
+  },
   "image_commons": "Maycee Barber (cropped).png",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Maycee_Barber",

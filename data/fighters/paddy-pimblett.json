@@ -105,32 +105,89 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Fight of the Night (One time) vs. Justin Gaethje",
-    "Performance of the Night (Six times) vs. Luigi Vendramini , Rodrigo Vargas , Jordan Leavitt , King Green , Michael Chandler and Benoît Saint Denis",
-    "Second fastest D'Arche choke submission victory in UFC history (0:52) (vs. Benoît Saint Denis )",
-    "UFC Honors Awards 2021: Fan's Choice Debut of the Year Nominee vs. Luigi Vendramini  2024: Fan's Choice Submission of the Year Nominee vs. King Green",
-    "2021: Fan's Choice Debut of the Year Nominee vs. Luigi Vendramini",
-    "2024: Fan's Choice Submission of the Year Nominee vs. King Green",
-    "UFC.com Awards 2021: Ranked #9 Newcomer of the Year  2024: Ranked #2 Submission of the Year vs. King Green",
-    "2021: Ranked #9 Newcomer of the Year",
-    "2024: Ranked #2 Submission of the Year vs. King Green",
-    "Cage Warriors Fighting Championship CWFC Featherweight Championship (One time) One successful title defence",
-    "CWFC Featherweight Championship (One time) One successful title defence",
-    "One successful title defence",
-    "Full Contact Contender FCC Featherweight Championship (One time) One successful title defence",
-    "FCC Featherweight Championship (One time) One successful title defence",
-    "One successful title defence",
-    "World MMA Awards 2022 Breakthrough Fighter of the Year",
-    "2022 Breakthrough Fighter of the Year",
-    "Combat Press 2022 Breakout Fighter of the Year",
-    "2022 Breakout Fighter of the Year",
-    "MMA Mania 2024 #3 Ranked Submission of the Year vs. King Green at UFC 304",
-    "2024 #3 Ranked Submission of the Year vs. King Green at UFC 304",
-    "Bloody Elbow 2018 Submission of the Year vs. Alexis Savvidis at Cage Warriors 90",
-    "2018 Submission of the Year vs. Alexis Savvidis at Cage Warriors 90",
-    "MMA Junkie 2026 January Fight of the Month vs. Justin Gaethje",
-    "2026 January Fight of the Month vs. Justin Gaethje"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Justin Gaethje"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Six times) vs. Luigi Vendramini , Rodrigo Vargas , Jordan Leavitt , King Green , Michael Chandler and Benoît Saint Denis"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second fastest D'Arche choke submission victory in UFC history (0:52) (vs. Benoît Saint Denis )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: Fan's Choice Debut of the Year Nominee vs. Luigi Vendramini"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: Fan's Choice Submission of the Year Nominee vs. King Green"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: Ranked #9 Newcomer of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: Ranked #2 Submission of the Year vs. King Green"
+    },
+    {
+      "org": "Cage Warriors Fighting Championship",
+      "texte": "CWFC Featherweight Championship (One time)"
+    },
+    {
+      "org": "Cage Warriors Fighting Championship",
+      "texte": "One successful title defence"
+    },
+    {
+      "org": "Full Contact Contender",
+      "texte": "FCC Featherweight Championship (One time)"
+    },
+    {
+      "org": "Full Contact Contender",
+      "texte": "One successful title defence"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2022 Breakthrough Fighter of the Year"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2022 Breakout Fighter of the Year"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2024 #3 Ranked Submission of the Year vs. King Green at UFC 304"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2018 Submission of the Year vs. Alexis Savvidis at Cage Warriors 90"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2026 January Fight of the Month vs. Justin Gaethje"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Soumission de l'année (2018)",
+      "Bonus UFC : 6× Performance de la soirée, 1× Combat de la soirée"
+    ],
+    "en": [
+      "Submission of the Year (2018)",
+      "UFC bonuses: 6× Performance of the Night, 1× Fight of the Night"
+    ]
+  },
   "image_commons": "UFC Star Paddy The Baddy Pimblett tells his story (cropped).jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Paddy_Pimblett",

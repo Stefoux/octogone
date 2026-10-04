@@ -213,47 +213,341 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "Cage Rage Championships Cage Rage Middleweight Championship (One time, Final) Three successful title defenses",
-    "Cage Rage Middleweight Championship (One time, Final)",
-    "Three successful title defenses",
-    "Shooto Shooto Middleweight Championship (One time)",
-    "Shooto Middleweight Championship (One time)",
-    "UFC Hall of Fame ( Pioneer wing , Class of 2023)",
-    "UFC Hall of Fame ( Fight wing , Class of 2024) vs. Chael Sonnen 1 at UFC 117",
-    "Most successful title defenses in UFC Middleweight division history (10)",
-    "Second most consecutive title defenses in UFC history (10) (behind Demetrious Johnson )",
-    "Third most combined title defenses in UFC history (10)",
-    "Longest title reign in UFC history (2457 days)",
-    "Most wins in UFC Middleweight title fights (11) Tied ( Amanda Nunes & Valentina Shevchenko ) for fourth most wins in UFC title fights (11)",
-    "Tied ( Amanda Nunes & Valentina Shevchenko ) for fourth most wins in UFC title fights (11)",
-    "Most finishes in UFC title fights (9)",
-    "Most knockouts in UFC title fights (7)",
-    "Most knockdowns in UFC title fights (10)",
-    "Most UFC Middleweight title fights (13) Fifth most UFC title fights (13)",
-    "Fifth most UFC title fights (13)",
-    "Unified the UFC Middleweight and Pride World Welterweight Championships",
-    "Fight of the Night (Five times) vs. Dan Henderson , Forrest Griffin , Chael Sonnen 1, Michael Bisping , and Israel Adesanya",
-    "Most \"Knockout of the Night\" awards in UFC history (7)",
-    "Most Post-Fight bonuses in UFC Middleweight division history (12)",
-    "Tied ( Justin Gaethje ) for seventh most Post-Fight bonuses in UFC history (14)",
-    "Second longest win streak in UFC history (16) (behind Islam Makhachev )  Longest win streak in UFC Middleweight division history (13)  Longest finish streak in modern UFC history (8)",
-    "Longest win streak in UFC Middleweight division history (13)",
-    "Longest finish streak in modern UFC history (8)",
-    "Second most finishes in UFC Middleweight division history (11)  (behind Gerald Meerschaert )",
-    "Tied ( Anthony Johnson , Thiago Santos , Dustin Poirier & Drew Dober ) for fourth most knockouts in modern UFC history (11)",
-    "Tied ( Jeremy Stephens ) for second most knockdowns in UFC history (18)",
-    "Tied ( Maurício Rua ) for fourth most knockdowns landed in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (19)",
-    "Most main events in UFC history (21)",
-    "Tied ( Derek Brunson , Robert Whittaker & Brendan Allen ) for third most wins in UFC Middleweight division history (14)",
-    "Largest striking deficit in a comeback finish in a UFC Middleweight division bout (-60) (vs. Chael Sonnen 1)",
-    "Most leg kicks landed in a UFC Middleweight division bout (57) (vs. Thales Leites )",
-    "2006: Knockout of the Year vs. Rich Franklin 1  & Ranked #6 Knockout of the Year vs. Chris Leben",
-    "2007: Ranked #2 Fighter of the Year  & Ranked #9 Knockout of the Year vs. Rich Franklin 2",
-    "2008: Ranked #4 Fighter of the Year  & Ranked #3 Submission of the Year vs. Dan Henderson",
-    "2009: Knockout of the Year vs. Forrest Griffin  & Ranked #3 Fighter of the Year",
-    "2010: Submission of the Year  & Fight of the Year vs. Chael Sonnen 1",
-    "2011: Ranked #3 Fighter of the Year  & Ranked #5 Knockout of the Year vs. Vitor Belfort"
+    {
+      "org": "Cage Rage Championships",
+      "texte": "Cage Rage Middleweight Championship (One time, Final)"
+    },
+    {
+      "org": "Cage Rage Championships",
+      "texte": "Three successful title defenses"
+    },
+    {
+      "org": "Shooto",
+      "texte": "Shooto Middleweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame ( Pioneer wing , Class of 2023)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame ( Fight wing , Class of 2024) vs. Chael Sonnen 1 at UFC 117"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Middleweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Ten successful title defenses"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most successful title defenses in UFC Middleweight division history (10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most consecutive title defenses in UFC Middleweight division history (10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most consecutive title defenses in UFC history (10) (behind Demetrious Johnson )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most combined title defenses in UFC history (10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Longest title reign in UFC history (2457 days)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most wins in UFC Middleweight title fights (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Amanda Nunes & Valentina Shevchenko ) for fourth most wins in UFC title fights (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most finishes in UFC title fights (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most knockouts in UFC title fights (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most knockdowns in UFC title fights (10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most UFC Middleweight title fights (13)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth most UFC title fights (13)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Unified the UFC Middleweight and Pride World Welterweight Championships"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Five times) vs. Dan Henderson , Forrest Griffin , Chael Sonnen 1, Michael Bisping , and Israel Adesanya"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Knockout of the Night (Seven times) vs. Chris Leben , Rich Franklin (2), Nate Marquardt , Forrest Griffin , Vitor Belfort , and Chael Sonnen 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most \"Knockout of the Night\" awards in UFC history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Submission of the Night (Two times) vs. Dan Henderson and Chael Sonnen 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most Post-Fight bonuses in UFC Middleweight division history (12)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Justin Gaethje ) for seventh most Post-Fight bonuses in UFC history (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second longest win streak in UFC history (16) (behind Islam Makhachev )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Longest win streak in UFC Middleweight division history (13)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Longest finish streak in modern UFC history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most finishes in UFC Middleweight division history (11) (behind Gerald Meerschaert )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Uriah Hall & Thiago Santos ) for most knockouts in UFC Middleweight division history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Anthony Johnson , Thiago Santos , Dustin Poirier & Drew Dober ) for fourth most knockouts in modern UFC history (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Israel Adesanya ) for most knockdowns in UFC Middleweight division history (13)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Jeremy Stephens ) for second most knockdowns in UFC history (18)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Maurício Rua ) for fourth most knockdowns landed in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (19)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most main events in UFC history (21)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Derek Brunson , Robert Whittaker & Brendan Allen ) for third most wins in UFC Middleweight division history (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Largest striking deficit in a comeback finish in a UFC Middleweight division bout (-60) (vs. Chael Sonnen 1)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most leg kicks landed in a UFC Middleweight division bout (57) (vs. Thales Leites )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2006: Knockout of the Year vs. Rich Franklin 1 & Ranked #6 Knockout of the Year vs. Chris Leben"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2007: Ranked #2 Fighter of the Year & Ranked #9 Knockout of the Year vs. Rich Franklin 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2008: Ranked #4 Fighter of the Year & Ranked #3 Submission of the Year vs. Dan Henderson"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2009: Knockout of the Year vs. Forrest Griffin & Ranked #3 Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2010: Submission of the Year & Fight of the Year vs. Chael Sonnen 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2011: Ranked #3 Fighter of the Year & Ranked #5 Knockout of the Year vs. Vitor Belfort"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2012: Ranked #9 Fighter of the Year & Ranked #8 Fight of the Year vs. Chael Sonnen 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2013: Ranked #8 Fight of the Year vs. Chris Weidman 1"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2010 Fight of the Year vs. Chael Sonnen at UFC 117"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2010s Middleweight Fighter of the Decade"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2011 Knockout of the Year vs. Vitor Belfort on 5 February"
+    },
+    {
+      "org": "ESPN",
+      "texte": "#3 Ranked Men's MMA Fighter of the 21st Century"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2010 Best Comeback of the Year vs. Chael Sonnen"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2012 #5 Ranked Fighter of the Year"
+    },
+    {
+      "org": "Inside MMA",
+      "texte": "2011 KO Kick of the Year Bazzie Award vs. Vitor Belfort on 5 February"
+    },
+    {
+      "org": "MMA Live",
+      "texte": "2010 Fight of the Year vs. Chael Sonnen on 7 August"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2009 Beatdown of the Year vs. Forrest Griffin on 8 August"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2011 All-Violence 1st Team"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "Mixed Martial Arts Hall of Fame"
+    },
+    {
+      "org": "Spike Guys' Choice Awards",
+      "texte": "2008 Most Dangerous Man"
+    },
+    {
+      "org": "Sports Illustrated",
+      "texte": "2008 Fighter of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2008 Fighter of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2010 Fight of the Year vs. Chael Sonnen on 7 August"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2011 Knockout of the Year vs. Vitor Belfort on 5 February"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "Most Outstanding Fighter (2012)"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "MMA Most Valuable Fighter (2012)"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2007 Male Fighter of the Year"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2008 Male Fighter of the Year"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2008 Most Noteworthy Match of the Year vs. Dan Henderson at UFC 82"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2013 Most Noteworthy Match of the Year vs. Chris Weidman II at UFC 168"
+    },
+    {
+      "org": "FIGHT! Magazine",
+      "texte": "2007 Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2006 Middleweight Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2008 #9 Ranked UFC Knockout of the Year vs. James Irvin at UFC Fight Night: Silva vs. Irvin"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2012 #3 Ranked Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "#5 Ranked UFC Fighter of All Time"
+    },
+    {
+      "org": "FanSided",
+      "texte": "2000s MMA Fighter of the Decade"
+    },
+    {
+      "org": "Inside Pulse",
+      "texte": "2000s MMA Fighter of the Decade"
+    },
+    {
+      "org": "Cagewriters",
+      "texte": "2010 Finish of the Year vs. Chael Sonnen at UFC 117"
+    },
+    {
+      "org": "Rear Naked News",
+      "texte": "2008 Most Exciting Fighter"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids moyens",
+      "Hall of Fame de l'UFC (2023)",
+      "10 défenses de titre à l'UFC",
+      "Combattant de l'année (2007, 2008)",
+      "Record UFC chez les poids moyens : défenses de titre consécutives (10)",
+      "Bonus UFC : 5× Combat de la soirée, 7× KO de la soirée, 2× Soumission de la soirée"
+    ],
+    "en": [
+      "UFC Middleweight Champion",
+      "UFC Hall of Fame (2023)",
+      "10 UFC title defenses",
+      "Fighter of the Year (2007, 2008)",
+      "UFC Middleweight record: most consecutive title defenses (10)",
+      "UFC bonuses: 5× Fight of the Night, 7× Knockout of the Night, 2× Submission of the Night"
+    ]
+  },
   "image_commons": "Anderson Silva.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Anderson_Silva",

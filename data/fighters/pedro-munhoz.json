@@ -125,20 +125,63 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Performance of the Night (Three times) vs. Russell Doane , Justin Scoggins , and Rob Font",
-    "Fight of the Night (Four times) vs. Cody Garbrandt , Frankie Edgar , Jimmie Rivera , and Dominick Cruz     Third most Post-Fight bonuses in UFC Bantamweight division history (7)",
-    "Third most Post-Fight bonuses in UFC Bantamweight division history (7)",
-    "Second most bouts in UFC Bantamweight division history (22) (behind Marlon Vera )",
-    "Tied ( Marlon Vera ) for most decision bouts in UFC Bantamweight division history (14)",
-    "Second most significant strikes landed in UFC Bantamweight division history (1358) (behind Petr Yan )",
-    "Fourth most total fight time in UFC Bantamweight division history (4:12:12)",
-    "UFC.com Awards 2019: Ranked #5 Upset of the Year vs. Cody Garbrandt  & Ranked #8 Fight of the Year  2020: Ranked #8 Fight of the Year vs. Frankie Edgar",
-    "2019: Ranked #5 Upset of the Year vs. Cody Garbrandt  & Ranked #8 Fight of the Year",
-    "2020: Ranked #8 Fight of the Year vs. Frankie Edgar",
-    "Resurrection Fighting Alliance RFA Bantamweight Championship (One time) One successful title defense",
-    "RFA Bantamweight Championship (One time) One successful title defense",
-    "One successful title defense"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Three times) vs. Russell Doane , Justin Scoggins , and Rob Font"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Four times) vs. Cody Garbrandt , Frankie Edgar , Jimmie Rivera , and Dominick Cruz"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most Post-Fight bonuses in UFC Bantamweight division history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most bouts in UFC Bantamweight division history (22) (behind Marlon Vera )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Marlon Vera ) for most decision bouts in UFC Bantamweight division history (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most significant strikes landed in UFC Bantamweight division history (1358) (behind Petr Yan )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most total fight time in UFC Bantamweight division history (4:12:12)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2019: Ranked #5 Upset of the Year vs. Cody Garbrandt & Ranked #8 Fight of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Ranked #8 Fight of the Year vs. Frankie Edgar"
+    },
+    {
+      "org": "Resurrection Fighting Alliance",
+      "texte": "RFA Bantamweight Championship (One time)"
+    },
+    {
+      "org": "Resurrection Fighting Alliance",
+      "texte": "One successful title defense"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 3× Performance de la soirée, 4× Combat de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 3× Performance of the Night, 4× Fight of the Night"
+    ]
+  },
   "image_commons": "Dominick Cruz vs. Pedro Munhoz - UFC 269 weigh-in & staredown - YouTube - 0-49 (cropped).jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Pedro_Munhoz",

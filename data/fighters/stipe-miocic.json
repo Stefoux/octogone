@@ -164,47 +164,239 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "Three successful title defenses in his first reign Most consecutive title defenses in UFC Heavyweight division history (3)",
-    "Most consecutive title defenses in UFC Heavyweight division history (3)",
-    "One successful title defense in his second reign Most combined total defenses in UFC Heavyweight division history (4)",
-    "Most combined total defenses in UFC Heavyweight division history (4)",
-    "Tied ( Randy Couture ) for most wins in UFC Heavyweight title fights (6)",
-    "Tied ( Randy Couture & Tim Sylvia ) for most title bouts in UFC heavyweight history (9)",
-    "Most finishes in UFC heavyweight title fights (4)",
-    "Most knockouts in UFC heavyweight title fights (4)",
-    "Fight of the Night (Three times) vs. Stefan Struve , Junior dos Santos 1 and Alistair Overeem",
-    "Performance of the Night (Five times) vs. Fábio Maldonado , Andrei Arlovski , Fabrício Werdum , Junior dos Santos 2 and Daniel Cormier 2",
-    "Knockout of the Night (One time) vs. Philip De Fries  Most Post-Fight bonuses in UFC Heavyweight division history (9)",
-    "Most Post-Fight bonuses in UFC Heavyweight division history (9)",
-    "Second most head strikes landed in a fight (330) vs. Mark Hunt",
-    "Fourth most significant strikes landed in UFC Heavyweight division history (1007)",
-    "Third most total strikes landed in UFC Heavyweight division history (1579)",
-    "Tied ( Marcin Tybura & Alexander Volkov ) for sixth most wins in UFC Heavyweight division history (14)",
-    "Tied ( Randy Couture ) for fifth most takedowns landed in UFC Heavyweight history (25)",
-    "Tied ( Fabrício Werdum , Derrick Lewis , Francis Ngannou & Sergei Pavlovich ) for fifth longest win streak in UFC Heavyweight history (6)",
-    "Tied ( Andrei Arlovski & Alistair Overeem ) for fifth most knockouts in UFC Heavyweight history (9)",
-    "Tied ( Alistair Overeem ) for ninth most finishes in UFC Heavyweight history (9)",
-    "Tied for fourth most consecutive knockouts in UFC history (5)",
-    "Holds wins over five former UFC champions — vs. Andrei Arlovski , Fabricio Werdum , Junior dos Santos , Francis Ngannou and Daniel Cormier (x2)",
-    "UFC Honors Awards 2019: Fan's Choice Comeback of the Year Winner vs. Daniel Cormier 2",
-    "2019: Fan's Choice Comeback of the Year Winner vs. Daniel Cormier 2",
-    "2013: Ranked #4 Upset of the Year vs. Roy Nelson",
-    "2014: Ranked #3 Fight of the Year vs. Junior dos Santos 1",
-    "2016: Ranked #2 Fighter of the Year  & Ranked #5 Knockout of the Year vs. Fabricio Werdum",
-    "North American Allied Fight Series NAAFS Heavyweight Champion",
-    "NAAFS Heavyweight Champion",
-    "MMA Fighting 2010s #7 Ranked Fighter of the Decade",
-    "2010s #7 Ranked Fighter of the Decade",
-    "The Athletic 2010s Heavyweight Fighter of the Decade",
-    "2010s Heavyweight Fighter of the Decade",
-    "Bloody Elbow 2010s Heavyweight Fighter of the Decade",
-    "2010s Heavyweight Fighter of the Decade",
-    "CBS Sports 2016 UFC Fighter of the Year  2019 #4 Ranked UFC Fight of the Year vs. Daniel Cormier",
-    "2016 UFC Fighter of the Year",
-    "2019 #4 Ranked UFC Fight of the Year vs. Daniel Cormier",
-    "MMA Junkie 2014 December Fight of the Month vs. Junior dos Santos  2016 #3 Ranked Fighter of the Year  2019 Comeback Fighter of the Year",
-    "2014 December Fight of the Month vs. Junior dos Santos"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Heavyweight Championship (Two times)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Four successful title defenses overall"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Three successful title defenses in his first reign"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most consecutive title defenses in UFC Heavyweight division history (3)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "One successful title defense in his second reign"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most combined total defenses in UFC Heavyweight division history (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Randy Couture ) for most wins in UFC Heavyweight title fights (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Randy Couture & Tim Sylvia ) for most title bouts in UFC heavyweight history (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most finishes in UFC heavyweight title fights (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most knockouts in UFC heavyweight title fights (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Three times) vs. Stefan Struve , Junior dos Santos 1 and Alistair Overeem"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Five times) vs. Fábio Maldonado , Andrei Arlovski , Fabrício Werdum , Junior dos Santos 2 and Daniel Cormier 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Knockout of the Night (One time) vs. Philip De Fries"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most Post-Fight bonuses in UFC Heavyweight division history (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most head strikes landed in a fight (330) vs. Mark Hunt"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most significant strikes landed in UFC Heavyweight division history (1007)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most total strikes landed in UFC Heavyweight division history (1579)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Marcin Tybura & Alexander Volkov ) for sixth most wins in UFC Heavyweight division history (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Randy Couture ) for fifth most takedowns landed in UFC Heavyweight history (25)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Fabrício Werdum , Derrick Lewis , Francis Ngannou & Sergei Pavlovich ) for fifth longest win streak in UFC Heavyweight history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Andrei Arlovski & Alistair Overeem ) for fifth most knockouts in UFC Heavyweight history (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Alistair Overeem ) for ninth most finishes in UFC Heavyweight history (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied for fourth most consecutive knockouts in UFC history (5)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Holds wins over five former UFC champions — vs. Andrei Arlovski , Fabricio Werdum , Junior dos Santos , Francis Ngannou and Daniel Cormier (x2)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2019: Fan's Choice Comeback of the Year Winner vs. Daniel Cormier 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2013: Ranked #4 Upset of the Year vs. Roy Nelson"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2014: Ranked #3 Fight of the Year vs. Junior dos Santos 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2016: Ranked #2 Fighter of the Year & Ranked #5 Knockout of the Year vs. Fabricio Werdum"
+    },
+    {
+      "org": "North American Allied Fight Series",
+      "texte": "NAAFS Heavyweight Champion"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2010s #7 Ranked Fighter of the Decade"
+    },
+    {
+      "org": "The Athletic",
+      "texte": "2010s Heavyweight Fighter of the Decade"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2010s Heavyweight Fighter of the Decade"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2016 UFC Fighter of the Year"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2019 #4 Ranked UFC Fight of the Year vs. Daniel Cormier"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2014 December Fight of the Month vs. Junior dos Santos"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2016 #3 Ranked Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2019 Comeback Fighter of the Year"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2015 Beatdown of the Year vs. Mark Hunt"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2016 Male Fighter of the Year"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2021 Most Noteworthy Match of the Year vs. Francis Ngannou II at UFC 260"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "Two-time MMA Heavyweight Lineal Champion"
+    },
+    {
+      "org": "MMADNA.nl",
+      "texte": "2016 Fighter of the Year."
+    },
+    {
+      "org": "MMA Sucka",
+      "texte": "2019 Comeback of the Year vs. Daniel Cormier II"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2019 – July 2020 Comeback of the Year vs. Daniel Cormier at UFC 241"
+    },
+    {
+      "org": "Sports Illustrated",
+      "texte": "2016 #4 Ranked Fighter of the Year"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2014 #7 Ranked Fight of the Year vs. Junior dos Santos at UFC on Fox: dos Santos vs. Miocic"
+    },
+    {
+      "org": null,
+      "texte": "2009 Cleveland Golden Gloves Super Heavyweight Champion (201+ lbs)"
+    },
+    {
+      "org": null,
+      "texte": "2009 National Golden Gloves Super Heavyweight Quarterfinalist (201+ lbs)"
+    },
+    {
+      "org": null,
+      "texte": "Key to the City of Eastlake : June 7, 2016"
+    },
+    {
+      "org": null,
+      "texte": "Greater Cleveland Sports Awards Professional Athlete of the Year (2019)"
+    },
+    {
+      "org": null,
+      "texte": "International Sports Hall of Fame – Class of 2022"
+    },
+    {
+      "org": null,
+      "texte": "Greater Cleveland Sports Hall of Fame – Class of 2025"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids lourds (2 fois)",
+      "4 défenses de titre à l'UFC",
+      "Combattant de l'année (2016)",
+      "Record UFC chez les poids lourds : défenses de titre consécutives (3)",
+      "Bonus UFC : 5× Performance de la soirée, 3× Combat de la soirée, 1× KO de la soirée"
+    ],
+    "en": [
+      "UFC Heavyweight Champion (2×)",
+      "4 UFC title defenses",
+      "Fighter of the Year (2016)",
+      "UFC Heavyweight record: most consecutive title defenses (3)",
+      "UFC bonuses: 5× Performance of the Night, 3× Fight of the Night, 1× Knockout of the Night"
+    ]
+  },
   "image_commons": "Stipebrowns4.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Stipe_Miocic",

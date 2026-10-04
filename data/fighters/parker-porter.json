@@ -1,147 +1,133 @@
 {
   "id": "parker-porter",
   "nom": "Parker Porter",
-  "ufc_slug": "chase-sherman",
-  "wikipedia_titre": "Chase Sherman",
-  "surnom": "The Vanilla Gorilla",
+  "ufc_slug": "parker-porter",
+  "wikipedia_titre": "Parker Porter",
+  "surnom": null,
   "sexe": "M",
   "pays": "US",
   "categorie": "lourds",
-  "statut": "inactif",
-  "date_naissance": "1989-11-16",
-  "taille_cm": 193,
-  "allonge_cm": 198,
+  "statut": "actif",
+  "date_naissance": "1985-04-22",
+  "taille_cm": 183,
+  "allonge_cm": 190,
   "style": "MMA",
-  "lieu_naissance": "Biloxi, United States",
+  "lieu_naissance": "Hartford, United States",
   "palmares": {
-    "victoires": 18,
-    "defaites": 14,
+    "victoires": 14,
+    "defaites": 9,
     "nuls": 0,
     "sans_decision": 0,
-    "victoires_ko": 17,
-    "victoires_soumission": 0,
-    "victoires_decision": 1,
-    "defaites_ko": 4,
-    "defaites_soumission": 4,
-    "defaites_decision": 6
+    "victoires_ko": 6,
+    "victoires_soumission": 3,
+    "victoires_decision": 5,
+    "defaites_ko": 5,
+    "defaites_soumission": 3,
+    "defaites_decision": 0
   },
   "stats_ufc": {
-    "frappes_par_min": 6.04,
-    "precision_frappe_pct": 45,
-    "frappes_encaissees_par_min": 6.65,
+    "frappes_par_min": 6.55,
+    "precision_frappe_pct": 50,
+    "frappes_encaissees_par_min": 6.32,
     "defense_frappe_pct": 52.0,
-    "takedowns_par_15min": 0.09,
-    "precision_takedown_pct": 0,
-    "defense_takedown_pct": 74.0,
-    "soumissions_par_15min": 0.0,
-    "knockdowns_par_15min": 0.28,
-    "duree_moyenne_combat_s": 641,
-    "frappes_reussies": 969.0,
-    "takedowns_reussis": 0
+    "takedowns_par_15min": 1.35,
+    "precision_takedown_pct": 22,
+    "defense_takedown_pct": 67.0,
+    "soumissions_par_15min": 0.45,
+    "knockdowns_par_15min": 0.0,
+    "duree_moyenne_combat_s": 444,
+    "frappes_reussies": 436.0,
+    "takedowns_reussis": 5.0
   },
   "ufc": {
     "palmares_tableau": {
-      "victoires": 18,
-      "defaites": 14,
+      "victoires": 14,
+      "defaites": 9,
       "nuls": 0,
       "sans_decision": 0,
       "v": {
-        "ko": 17,
-        "soumission": 0,
-        "decision": 1,
+        "ko": 6,
+        "soumission": 3,
+        "decision": 5,
         "autre": 0
       },
       "d": {
-        "ko": 4,
-        "soumission": 4,
-        "decision": 6,
-        "autre": 0
+        "ko": 5,
+        "soumission": 3,
+        "decision": 0,
+        "autre": 1
       }
     },
     "combats_ufc_par_annee": {
-      "2016": 1,
-      "2017": 4,
-      "2018": 2,
-      "2020": 1,
-      "2021": 2,
-      "2022": 4,
-      "2023": 1
+      "2020": 2,
+      "2021": 1,
+      "2022": 2,
+      "2023": 3
     },
     "dernier_combat": {
-      "adversaire": "Anthony Smith",
-      "evenement": "Gamebred Bareknuckle MMA 9",
-      "date": "April 10, 2026",
+      "adversaire": "Junior Tafa",
+      "evenement": "UFC Fight Night: Holloway vs. The Korean Zombie",
+      "date": "August 26, 2023",
       "resultat": "Loss",
-      "methode": "Submission (rear-naked choke)"
+      "methode": "KO (punch)"
     },
-    "combats_ufc": 15,
+    "combats_ufc": 8,
     "victoires_ufc": 4,
-    "defaites_ufc": 11,
+    "defaites_ufc": 4,
     "victoires_decision_5_rounds": 0,
     "combats_5_rounds_gagnes": 0,
-    "bonus_fotn": 1,
-    "bonus_potn": 1,
+    "bonus_fotn": 0,
+    "bonus_potn": 0,
     "bonus_kotn": 0,
     "bonus_sotn": 0,
-    "combats_fotn": [
-      {
-        "adversaire": "Rashad Coulter",
-        "evenement": "UFC 211",
-        "date": "May 13, 2017"
-      }
-    ],
+    "combats_fotn": [],
     "titres": [],
     "technique_favorite": {
       "technique": "punches",
-      "finitions": 11
+      "finitions": 5
     },
     "premier_combat_ufc": {
-      "adversaire": "Justin Ledet",
-      "evenement": "UFC Fight Night: Rodríguez vs. Caceres",
-      "date": "August 6, 2016",
+      "adversaire": "Chris Daukaus",
+      "evenement": "UFC 252",
+      "date": "August 15, 2020",
       "resultat": "Loss",
-      "methode": "Decision (unanimous)"
+      "methode": "TKO (punches and knee)"
     }
   },
   "champion_actuel": false,
   "ancien_champion": false,
-  "accomplissements_en": [
-    "Ultimate Fighting Championship Fight of the Night (One time) vs. Rashad Coulter  Performance of the Night (One time) vs. Jared Vanderaa",
-    "Fight of the Night (One time) vs. Rashad Coulter",
-    "Performance of the Night (One time) vs. Jared Vanderaa",
-    "Bare Knuckle Fighting Championship BKFC Heavyweight Championship (one time; former) Police Gazette Heavyweight American Championship (one time; former)",
-    "BKFC Heavyweight Championship (one time; former)",
-    "Police Gazette Heavyweight American Championship (one time; former)"
-  ],
+  "accomplissements_en": [],
+  "distinctions": {
+    "fr": [],
+    "en": []
+  },
   "image_commons": null,
   "sources": {
-    "wikipedia": "https://en.wikipedia.org/wiki/Chase_Sherman",
-    "wikidata": "https://www.wikidata.org/wiki/Q30323445",
-    "ufc_com": "https://www.ufc.com/athlete/chase-sherman"
+    "wikipedia": "https://en.wikipedia.org/wiki/Parker_Porter",
+    "wikidata": "https://www.wikidata.org/wiki/Q105199300",
+    "ufc_com": "https://www.ufc.com/athlete/parker-porter"
   },
   "champs_sources": {
-    "surnom": "ufc_com",
     "pays": "wikidata",
     "categorie": "ufc_com",
     "palmares": "wikipedia_tableau",
     "stats_ufc": "ufc_com",
-    "ufc": "wikipedia_tableau",
-    "accomplissements_en": "wikipedia"
+    "ufc": "wikipedia_tableau"
   },
   "a_verifier": [],
   "ecarts_sources": {
-    "palmares": "wikipedia_tableau 18-14, wikipedia_infobox 18-14, ufc_com 16-12"
+    "palmares": "wikipedia_tableau 14-9, wikipedia_infobox 14-8, ufc_com 14-9"
   },
   "maj": "2026-10-04",
   "stats_jeu": {
-    "frappe": 69,
-    "puissance": 80,
-    "lutte": 49,
-    "soumission": 36,
-    "defense": 47,
-    "cardio": 57,
-    "menton": 59,
-    "globale": 57,
+    "frappe": 75,
+    "puissance": 56,
+    "lutte": 54,
+    "soumission": 54,
+    "defense": 49,
+    "cardio": 49,
+    "menton": 40,
+    "globale": 54,
     "style": "frappeur",
     "estimees": [],
     "formule_version": 1

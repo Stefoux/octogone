@@ -107,24 +107,83 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Fight of the Night (One time) vs. Raoni Barcelos",
-    "Performance of the Night (Three times) vs. Jay Perrin, Terence Mitchell and Ricky Turcios",
-    "Youngest fighter to win a UFC bout (18 years, 2 months)",
-    "Youngest fighter to win five UFC bouts (20 years, 5 months)",
-    "Youngest fighter to headline a UFC Fight Night card (21 years, 11 months)",
-    "Third highest control time percentage in UFC Bantamweight division history (37.6%)",
-    "Fourth highest top position percentage in UFC Bantamweight division history (47.7%)",
-    "Tied ( Tony Gravely ) for fifth most takedowns landed in UFC Bantamweight division history (33)",
-    "Tied ( Sean Sherk ) for fourth most takedowns landed in a bout (16) (vs. Rob Font )",
-    "Third most takedowns landed in a three round bout (16) (vs. Rob Font )",
-    "Highest takedown accuracy percentage in a UFC Bantamweight bout (88.9%) (vs. Rob Font )",
-    "UFC.com Awards 2022: Ranked #9 Newcomer of the Year",
-    "2022: Ranked #9 Newcomer of the Year",
-    "MMA Junkie 2022 Newcomer of the Year",
-    "2022 Newcomer of the Year",
-    "MMA Fighting 2022 Third Team MMA All-Star",
-    "2022 Third Team MMA All-Star"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Raoni Barcelos"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Three times) vs. Jay Perrin, Terence Mitchell and Ricky Turcios"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Youngest fighter to sign a UFC contract (17 years, 11 months)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Youngest fighter to win a UFC bout (18 years, 2 months)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Youngest fighter to win five UFC bouts (20 years, 5 months)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Youngest fighter to headline a UFC Fight Night card (21 years, 11 months)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third highest control time percentage in UFC Bantamweight division history (37.6%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth highest top position percentage in UFC Bantamweight division history (47.7%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Tony Gravely ) for fifth most takedowns landed in UFC Bantamweight division history (33)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most takedowns landed in a UFC Bantamweight bout (16) (vs. Rob Font )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Sean Sherk ) for fourth most takedowns landed in a bout (16) (vs. Rob Font )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most takedowns landed in a three round bout (16) (vs. Rob Font )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Highest takedown accuracy percentage in a UFC Bantamweight bout (88.9%) (vs. Rob Font )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Ranked #9 Newcomer of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2022 Newcomer of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2022 Third Team MMA All-Star"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 3× Performance de la soirée, 1× Combat de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 3× Performance of the Night, 1× Fight of the Night"
+    ]
+  },
   "image_commons": "Raúl Rosas Jr. 2024.png",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Raul_Rosas_Jr.",

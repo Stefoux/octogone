@@ -136,28 +136,97 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "UFC Hall of Fame (Pioneer wing, Class of 2019)",
-    "UFC Middleweight Championship (One time) Two successful title defenses Tied ( Dricus du Plessis ) for fourth most UFC middleweight title wins (3)",
-    "Two successful title defenses",
-    "Tied ( Dricus du Plessis ) for fourth most UFC middleweight title wins (3)",
-    "Knockout of the Night ( One time ) vs. Chuck Liddell",
-    "Fight of the Night ( Two times ) vs. Wanderlei Silva (x2)",
-    "Third highest striking differential in UFC Middleweight division history (2.4)",
-    "Fifth highest takedown defense percentage in UFC Middleweight division history (83.3%)",
-    "UFC Encyclopedia Awards Fight of the Night (Three times) vs. Evan Tanner 2, Nate Quarry and David Loiseau    Knockout of the Night (One time) vs. Nate Quarry",
-    "Fight of the Night (Three times) vs. Evan Tanner 2, Nate Quarry and David Loiseau",
-    "Knockout of the Night (One time) vs. Nate Quarry",
-    "2005: Ranked #5 Knockout of the Year vs. Nate Quarry  & Ranked #7 Fight of the Year vs. Evan Tanner 2",
-    "2006: Ranked #8 Fight of the Year vs. David Loiseau",
-    "2009: Ranked #4 Fight of the Year vs. Wanderlei Silva 1",
-    "2010: Ranked #8 Knockout of the Year vs. Chuck Liddell",
-    "FanSided 2000s #8 Ranked MMA Fighter of the Decade",
-    "2000s #8 Ranked MMA Fighter of the Decade",
-    "Sherdog Mixed Martial Arts Hall of Fame",
-    "Mixed Martial Arts Hall of Fame",
-    "MMA Fighting 2005 Middleweight Fighter of the Year",
-    "2005 Middleweight Fighter of the Year"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame (Pioneer wing, Class of 2019)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Middleweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Two successful title defenses"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Dricus du Plessis ) for fourth most UFC middleweight title wins (3)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Knockout of the Night ( One time ) vs. Chuck Liddell"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night ( Two times ) vs. Wanderlei Silva (x2)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third highest striking differential in UFC Middleweight division history (2.4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth highest takedown defense percentage in UFC Middleweight division history (83.3%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Encyclopedia Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Three times) vs. Evan Tanner 2, Nate Quarry and David Loiseau"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Knockout of the Night (One time) vs. Nate Quarry"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2005: Ranked #5 Knockout of the Year vs. Nate Quarry & Ranked #7 Fight of the Year vs. Evan Tanner 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2006: Ranked #8 Fight of the Year vs. David Loiseau"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2009: Ranked #4 Fight of the Year vs. Wanderlei Silva 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2010: Ranked #8 Knockout of the Year vs. Chuck Liddell"
+    },
+    {
+      "org": "FanSided",
+      "texte": "2000s #8 Ranked MMA Fighter of the Decade"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "Mixed Martial Arts Hall of Fame"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2005 Middleweight Fighter of the Year"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids moyens",
+      "Hall of Fame de l'UFC (2019)",
+      "2 défenses de titre à l'UFC",
+      "Bonus UFC : 3× Combat de la soirée, 1× KO de la soirée"
+    ],
+    "en": [
+      "UFC Middleweight Champion",
+      "UFC Hall of Fame (2019)",
+      "2 UFC title defenses",
+      "UFC bonuses: 3× Fight of the Night, 1× Knockout of the Night"
+    ]
+  },
   "image_commons": "RichFranklin2.png",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Rich_Franklin",

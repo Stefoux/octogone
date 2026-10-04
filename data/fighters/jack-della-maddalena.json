@@ -118,34 +118,93 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "UFC Welterweight Championship (One time) First Australian UFC Welterweight Champion",
-    "First Australian UFC Welterweight Champion",
-    "Performance of the Night (Four times) vs. Ramazan Emeev , Danny Roberts , Randy Brown and Gilbert Burns",
-    "Fight of the Night (Two times) vs. Bassil Hafez and Belal Muhammad",
-    "Tied ( Leon Edwards & Ian Machado Garry ) for the third longest win streak in UFC Welterweight division history (8)",
-    "UFC Honors Awards 2024: Fan's Choice Comeback of the Year Nominee vs. Gilbert Burns",
-    "2024: Fan's Choice Comeback of the Year Nominee vs. Gilbert Burns",
-    "UFC.com Awards 2022: Newcomer of the Year  2025: Ranked #4 Fight of the Year vs. Belal Muhammad",
-    "2022: Newcomer of the Year",
-    "2025: Ranked #4 Fight of the Year vs. Belal Muhammad",
-    "Eternal MMA Eternal MMA Welterweight Championship (One time) Four successful title defenses",
-    "Eternal MMA Welterweight Championship (One time) Four successful title defenses",
-    "Four successful title defenses",
-    "Reign Fighting Reign Fighting Welterweight Championship (One time)",
-    "Reign Fighting Welterweight Championship (One time)",
-    "ESPN 2022 UFC Men's Rookie of the Year",
-    "2022 UFC Men's Rookie of the Year",
-    "Cageside Press 2022 Newcomer of the Year tied with Jailton Almeida",
-    "2022 Newcomer of the Year tied with Jailton Almeida",
-    "Bleacher Report 2022 Best Fighter on the Rise",
-    "2022 Best Fighter on the Rise",
-    "GiveMeSport 2022 UFC Prospect of the Year",
-    "2022 UFC Prospect of the Year",
-    "LowKick MMA 2022 UFC Newcomer of the Year",
-    "2022 UFC Newcomer of the Year",
-    "MMA Fighting 2022 Third Team MMA All-Star",
-    "2022 Third Team MMA All-Star"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Welterweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First Australian UFC Welterweight Champion"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Four times) vs. Ramazan Emeev , Danny Roberts , Randy Brown and Gilbert Burns"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Two times) vs. Bassil Hafez and Belal Muhammad"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Leon Edwards & Ian Machado Garry ) for the third longest win streak in UFC Welterweight division history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: Fan's Choice Comeback of the Year Nominee vs. Gilbert Burns"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Newcomer of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2025: Ranked #4 Fight of the Year vs. Belal Muhammad"
+    },
+    {
+      "org": "Eternal MMA",
+      "texte": "Eternal MMA Welterweight Championship (One time)"
+    },
+    {
+      "org": "Eternal MMA",
+      "texte": "Four successful title defenses"
+    },
+    {
+      "org": "Reign Fighting",
+      "texte": "Reign Fighting Welterweight Championship (One time)"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2022 UFC Men's Rookie of the Year"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2022 Newcomer of the Year tied with Jailton Almeida"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2022 Best Fighter on the Rise"
+    },
+    {
+      "org": "GiveMeSport",
+      "texte": "2022 UFC Prospect of the Year"
+    },
+    {
+      "org": "LowKick MMA",
+      "texte": "2022 UFC Newcomer of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2022 Third Team MMA All-Star"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids mi-moyens",
+      "Bonus UFC : 4× Performance de la soirée, 2× Combat de la soirée"
+    ],
+    "en": [
+      "UFC Welterweight Champion",
+      "UFC bonuses: 4× Performance of the Night, 2× Fight of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Jack_Della_Maddalena",

@@ -117,47 +117,253 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "Tied ( Demetrious Johnson ) for fourth most takedowns landed in a UFC title fight (12 vs. Dricus du Plessis )",
-    "First Chechen-born fighter to win a UFC championship",
-    "Fight of the Night (One time) vs. Gilbert Burns",
-    "Performance of the Night (Six times) vs. John Phillips , Rhys McKee , Gerald Meerschaert , Li Jingliang , Robert Whittaker and Dricus du Plessis",
-    "Record for fastest consecutive wins in Modern UFC history (10 days)",
-    "Record for quickest three fight win streak in Modern UFC history (66 days)",
-    "Second most control time in a UFC fight (21:40 vs. Dricus du Plessis )",
-    "Third highest control time percentage in UFC Middleweight division history (60.6%)",
-    "Second highest top-position percentage in UFC Middleweight division history (57.6%)",
-    "Second highest takedown accuracy percentage in UFC Middleweight division history (60.4%)",
-    "Second most takedowns landed in a UFC middleweight fight (12 vs. Dricus du Plessis )",
-    "Holds wins over three former UFC champions — vs. Kamaru Usman , Robert Whittaker & Dricus du Plessis",
-    "Most total strikes landed in a UFC fight (529 vs. Dricus du Plessis )  [ c ]",
-    "Most total ground strikes landed in a UFC fight (517 vs. Dricus du Plessis )",
-    "Most total head strikes landed in a UFC fight (411 vs. Dricus du Plessis )",
-    "Second most total strikes attempted in a UFC fight (567 vs. Dricus du Plessis )",
-    "2020: Fan's Choice Debut of the Year Winner vs. John Phillips",
-    "2021: Fan's Choice Submission of the Year Nominee vs. Li Jingliang",
-    "2022: President's Choice Fight of the Year Winner vs. Gilbert Burns",
-    "2024: President's Choice Performance of the Year Nominee vs. Robert Whittaker",
-    "2020: Newcomer of the Year ,  Ranked #5 Fighter of the Year  & Ranked #5 Knockout of the Year vs. Gerald Meerschaert",
-    "2021: Ranked #9 Submission of the Year vs. Li Jingliang",
-    "2022: Ranked #2 Fight of the Year vs. Gilbert Burns",
-    "2024: Submission of the Year vs. Robert Whittaker",
-    "Crypto.com Fan Bonus of the Night vs. Gilbert Burns",
-    "Fan Bonus of the Night vs. Gilbert Burns",
-    "Brave Combat Federation Knockout of the Night (One time) vs. Ikram Aliskerov",
-    "Knockout of the Night (One time) vs. Ikram Aliskerov",
-    "Nordic MMA Awards – MMAviking.com 2018 Prospect of the Year  2020 Male fighter of the Year",
-    "2018 Prospect of the Year",
-    "2020 Male fighter of the Year",
-    "ESPN 2020 Breakout Fighter of the Year",
-    "2020 Breakout Fighter of the Year",
-    "2020 September Knockout of the Month vs. Gerald Meerschaert",
-    "2020 Newcomer of the Year",
-    "2024 Submission of the Year vs. Robert Whittaker at UFC 308",
-    "2024 October Submission of the Month vs. Robert Whittaker at UFC 308",
-    "MMA Fighting 2020 Breakout Fighter of the Year",
-    "2020 Breakout Fighter of the Year",
-    "Combat Press 2020 Breakthrough Fighter of the Year  2024 Submission of the Year vs. Robert Whittaker at UFC 308"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Middleweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Demetrious Johnson ) for fourth most takedowns landed in a UFC title fight (12 vs. Dricus du Plessis )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First Chechen-born fighter to win a UFC championship"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Gilbert Burns"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Six times) vs. John Phillips , Rhys McKee , Gerald Meerschaert , Li Jingliang , Robert Whittaker and Dricus du Plessis"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Record for fastest consecutive wins in Modern UFC history (10 days)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Record for quickest three fight win streak in Modern UFC history (66 days)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most control time in a UFC fight (21:40 vs. Dricus du Plessis )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third highest control time percentage in UFC Middleweight division history (60.6%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second highest top-position percentage in UFC Middleweight division history (57.6%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second highest takedown accuracy percentage in UFC Middleweight division history (60.4%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most takedowns landed in a UFC middleweight fight (12 vs. Dricus du Plessis )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Holds wins over three former UFC champions — vs. Kamaru Usman , Robert Whittaker & Dricus du Plessis"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Striking Records"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most total strikes landed in a UFC fight (529 vs. Dricus du Plessis )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most total ground strikes landed in a UFC fight (517 vs. Dricus du Plessis )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most total head strikes landed in a UFC fight (411 vs. Dricus du Plessis )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most total strikes attempted in a UFC fight (567 vs. Dricus du Plessis )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Fan's Choice Debut of the Year Winner vs. John Phillips"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: Fan's Choice Submission of the Year Nominee vs. Li Jingliang"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: President's Choice Fight of the Year Winner vs. Gilbert Burns"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: President's Choice Performance of the Year Nominee vs. Robert Whittaker"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Newcomer of the Year , Ranked #5 Fighter of the Year & Ranked #5 Knockout of the Year vs. Gerald Meerschaert"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: Ranked #9 Submission of the Year vs. Li Jingliang"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Ranked #2 Fight of the Year vs. Gilbert Burns"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: Submission of the Year vs. Robert Whittaker"
+    },
+    {
+      "org": "Crypto.com",
+      "texte": "Fan Bonus of the Night vs. Gilbert Burns"
+    },
+    {
+      "org": "Brave Combat Federation",
+      "texte": "Knockout of the Night (One time) vs. Ikram Aliskerov"
+    },
+    {
+      "org": "Nordic MMA Awards – MMAviking.com",
+      "texte": "2018 Prospect of the Year"
+    },
+    {
+      "org": "Nordic MMA Awards – MMAviking.com",
+      "texte": "2020 Male fighter of the Year"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2020 Breakout Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2020 September Knockout of the Month vs. Gerald Meerschaert"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2020 Newcomer of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2024 Submission of the Year vs. Robert Whittaker at UFC 308"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2024 October Submission of the Month vs. Robert Whittaker at UFC 308"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2020 Breakout Fighter of the Year"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2020 Breakthrough Fighter of the Year"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2024 Submission of the Year vs. Robert Whittaker at UFC 308"
+    },
+    {
+      "org": "BT Sport",
+      "texte": "2020 Breakthrough Fighter of the Year"
+    },
+    {
+      "org": "BodySlam.net",
+      "texte": "2024 Submission of the Year vs. Robert Whittaker"
+    },
+    {
+      "org": "Yahoo! Sports",
+      "texte": "2020 Prospect of the Year"
+    },
+    {
+      "org": "Yahoo! Sports",
+      "texte": "2024 Submission of the Year vs. Robert Whittaker at UFC 308"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2024 Submission of the Year vs. Robert Whittaker at UFC 308"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2020 Newcomer of the Year"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2020 Rising Star of the Year"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2021 Rising Star of the Year"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2024 Submission of the Year vs. Robert Whittaker"
+    },
+    {
+      "org": "LowKick MMA",
+      "texte": "2020 Prospect of the Year"
+    },
+    {
+      "org": "Ministry of Physical Culture and Sport of the Chechen Republic",
+      "texte": "2025 Athlete of the Year"
+    },
+    {
+      "org": "Swedish Wrestling Federation",
+      "texte": "2018 Swedish Championships champion, 92 kg"
+    },
+    {
+      "org": "Swedish Wrestling Federation",
+      "texte": "2016 Swedish Championships champion, 86 kg"
+    },
+    {
+      "org": "Swedish Wrestling Federation",
+      "texte": "2016 Solacup Championships champion, 86 kg"
+    },
+    {
+      "org": "Swedish Wrestling Federation",
+      "texte": "2015 Hammarslaget Championships champion, 86 kg"
+    },
+    {
+      "org": "Swedish Wrestling Federation",
+      "texte": "2015 Swedish Championships champion, 86 kg"
+    },
+    {
+      "org": "Swedish Wrestling Federation",
+      "texte": "2015 Lilla Mälarcupen Championships champion, 86 kg"
+    },
+    {
+      "org": "Real American Freestyle",
+      "texte": "Fastest pin in RAF history (0:44) (vs. Dillon Danis )"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids moyens",
+      "Combattant de l'année (2020)",
+      "Soumission de l'année (2024)",
+      "Bonus UFC : 6× Performance de la soirée, 1× Combat de la soirée, 1× KO de la soirée"
+    ],
+    "en": [
+      "UFC Middleweight Champion",
+      "Fighter of the Year (2020)",
+      "Submission of the Year (2024)",
+      "UFC bonuses: 6× Performance of the Night, 1× Fight of the Night, 1× Knockout of the Night"
+    ]
+  },
   "image_commons": "Khamzat Chimaev 2022.png",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Khamzat_Chimaev",

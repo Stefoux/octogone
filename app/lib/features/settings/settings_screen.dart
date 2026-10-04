@@ -42,7 +42,7 @@ class SettingsScreen extends ConsumerWidget {
             },
           ),
           const SizedBox(height: 24),
-          const Center(child: Text('Octogone · version 0.1 (phase 1)', style: TextStyle(color: Colors.white38))),
+          const Center(child: Text('Octogone · version 0.1.1 (phase 1)', style: TextStyle(color: Colors.white38))),
         ],
       ),
     );

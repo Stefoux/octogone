@@ -134,31 +134,99 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "UFC Hall of Fame (Modern Wing, Class of 2013) and (Fight Wing, Class of 2013) vs. Stephan Bonnar at The Ultimate Fighter 1 Finale",
-    "UFC Light Heavyweight Championship (One time)",
-    "The Ultimate Fighter: Light Heavyweight Tournament Winner",
-    "Fight of the Night (Five times) vs. Tito Ortiz 1 & 3, Quinton Jackson , Rashad Evans , and Anderson Silva",
-    "Submission of the Night (One time) vs. Maurício Rua 1",
-    "UFC Encyclopedia Awards Fight of the Night (Two times) vs. Stephan Bonnar 1 and Elvis Sinosic",
-    "Fight of the Night (Two times) vs. Stephan Bonnar 1 and Elvis Sinosic",
-    "2005: Fight of the Year vs. Stephan Bonnar 1",
-    "2006: Ranked #5 Fight of the Year vs. Tito Ortiz 1",
-    "2007: Submission of the Year vs. Mauricio Rua 1 ,  Ranked #2 Upset of the Year vs. Maurício Rua 1  & Ranked #6 Fighter of the Year",
-    "2008: Fight of the Year  & Ranked #5 Upset of the Year vs. Quinton Jackson",
-    "Heavy Sports 2000s Fight of the Decade vs. Stephan Bonnar at The Ultimate Fighter 1 Finale",
-    "2000s Fight of the Decade vs. Stephan Bonnar at The Ultimate Fighter 1 Finale",
-    "Wrestling Observer Newsletter 2005 Fight of the Year vs. Stephan Bonnar 1 on April 9 2008 Fight of the Year vs. Quinton Jackson on July 5",
-    "2005 Fight of the Year vs. Stephan Bonnar 1 on April 9",
-    "2008 Fight of the Year vs. Quinton Jackson on July 5",
-    "Fighting Spirit Magazine 2006 Fight of the Year vs. Tito Ortiz on April 15",
-    "2006 Fight of the Year vs. Tito Ortiz on April 15",
-    "Triumph United 2007 Upset of the Year vs. Maurício Rua on September 22",
-    "2007 Upset of the Year vs. Maurício Rua on September 22",
-    "Southern Nevada Sports Hall of Fame Class of 2018",
-    "Class of 2018",
-    "International Sports Hall of Fame Class of 2020",
-    "Class of 2020"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame (Modern Wing, Class of 2013) and (Fight Wing, Class of 2013) vs. Stephan Bonnar at The Ultimate Fighter 1 Finale"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Light Heavyweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "The Ultimate Fighter: Light Heavyweight Tournament Winner"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Five times) vs. Tito Ortiz 1 & 3, Quinton Jackson , Rashad Evans , and Anderson Silva"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Submission of the Night (One time) vs. Maurício Rua 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Encyclopedia Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Two times) vs. Stephan Bonnar 1 and Elvis Sinosic"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2005: Fight of the Year vs. Stephan Bonnar 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2006: Ranked #5 Fight of the Year vs. Tito Ortiz 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2007: Submission of the Year vs. Mauricio Rua 1 , Ranked #2 Upset of the Year vs. Maurício Rua 1 & Ranked #6 Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2008: Fight of the Year & Ranked #5 Upset of the Year vs. Quinton Jackson"
+    },
+    {
+      "org": "Heavy Sports",
+      "texte": "2000s Fight of the Decade vs. Stephan Bonnar at The Ultimate Fighter 1 Finale"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "2005 Fight of the Year vs. Stephan Bonnar 1 on April 9"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "2008 Fight of the Year vs. Quinton Jackson on July 5"
+    },
+    {
+      "org": "Fighting Spirit Magazine",
+      "texte": "2006 Fight of the Year vs. Tito Ortiz on April 15"
+    },
+    {
+      "org": "Triumph United",
+      "texte": "2007 Upset of the Year vs. Maurício Rua on September 22"
+    },
+    {
+      "org": "Southern Nevada Sports Hall of Fame",
+      "texte": "Class of 2018"
+    },
+    {
+      "org": "International Sports Hall of Fame",
+      "texte": "Class of 2020"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids mi-lourds",
+      "Hall of Fame de l'UFC, aile Combats (2013)",
+      "Vainqueur de The Ultimate Fighter: Light",
+      "Combat de l'année (2005, 2006, 2008)",
+      "Bonus UFC : 5× Combat de la soirée, 1× Soumission de la soirée"
+    ],
+    "en": [
+      "UFC Light Heavyweight Champion",
+      "UFC Hall of Fame, Fight Wing (2013)",
+      "The Ultimate Fighter: Light winner",
+      "Fight of the Year (2005, 2006, 2008)",
+      "UFC bonuses: 5× Fight of the Night, 1× Submission of the Night"
+    ]
+  },
   "image_commons": "USMC-100809-M-6457M-001 CROPPED.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Forrest_Griffin",

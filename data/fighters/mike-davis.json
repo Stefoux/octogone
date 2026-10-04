@@ -106,13 +106,27 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Island Fights Island Fights Lightweight Champion (one time; former)",
-    "Island Fights Lightweight Champion (one time; former)",
-    "Ultimate Fighting Championship Fight of the Night (One time) vs. Mason Jones",
-    "Fight of the Night (One time) vs. Mason Jones",
-    "MMAjunkie.com 2021 January Fight of the Month vs. Mason Jones",
-    "2021 January Fight of the Month vs. Mason Jones"
+    {
+      "org": "Island Fights",
+      "texte": "Island Fights Lightweight Champion (one time; former)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Mason Jones"
+    },
+    {
+      "org": "MMAjunkie.com",
+      "texte": "2021 January Fight of the Month vs. Mason Jones"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 1× Combat de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 1× Fight of the Night"
+    ]
+  },
   "image_commons": "Mike Davis at Vyralcon 2022 (3) (cropped).jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Mike_Davis_(fighter)",

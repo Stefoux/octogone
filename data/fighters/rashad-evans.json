@@ -125,41 +125,129 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "Gladiator Challenge GC Light Heavyweight Tournament Winner",
-    "GC Light Heavyweight Tournament Winner",
-    "UFC Hall of Fame ( Modern wing , Class of 2019)",
-    "UFC Light Heavyweight Championship (One time)",
-    "The Ultimate Fighter 2 Heavyweight Tournament Winner",
-    "Fight of the Night (Two times) vs. Forrest Griffin and Tito Ortiz 2",
-    "Knockout of the Night (Two times) vs. Sean Salmon and Chuck Liddell",
-    "UFC Encyclopedia Awards Fight of the Night (One time) vs. Brad Imes",
-    "Fight of the Night (One time) vs. Brad Imes",
-    "Tied ( Chuck Liddell & Magomed Ankalaev ) for fifth most wins in UFC Light Heavyweight division history (13)",
-    "Second most takedowns landed in UFC Light Heavyweight division history (50)",
-    "2005: Ranked #4 Fight of the Year vs. Brad Imes",
-    "2007: Ranked #4 Knockout of the Year vs. Sean Salmon",
-    "2008: Fighter of the Year ,  Knockout of the Year vs. Chuck Liddell  & Ranked #3 Upset of the Year vs. Chuck Liddell",
-    "2010: Ranked #9 Fighter of the Year",
-    "Sports Illustrated 2008 Knockout of the Year vs. Chuck Liddell at UFC 88",
-    "2008 Knockout of the Year vs. Chuck Liddell at UFC 88",
-    "Sherdog 2008 Fighter of the Year  2008 Knockout of the Year vs. Chuck Liddell at UFC 88  Mixed Martial Arts Hall of Fame",
-    "2008 Fighter of the Year",
-    "2008 Knockout of the Year vs. Chuck Liddell at UFC 88",
-    "Mixed Martial Arts Hall of Fame",
-    "Bloody Elbow 2008 Fighter of the Year  2008 #2 Ranked Breakout Fighter of the Year",
-    "2008 Fighter of the Year",
-    "2008 #2 Ranked Breakout Fighter of the Year",
-    "Rear Naked News 2008 Fighter of the Year",
-    "2008 Fighter of the Year",
-    "MMA Fighting 2008 UFC Knockout of the Year vs. Chuck Liddell at UFC 88",
-    "2008 UFC Knockout of the Year vs. Chuck Liddell at UFC 88",
-    "FIGHT! Magazine 2008 Knockout of the Year vs. Chuck Liddell at UFC 88",
-    "2008 Knockout of the Year vs. Chuck Liddell at UFC 88",
-    "Niagara Wheatfield High School 4th place New York State High School Wrestling Championships 145 lbs 1997, 171 lbs 1998",
-    "4th place New York State High School Wrestling Championships 145 lbs 1997, 171 lbs 1998",
-    "National Junior College Athletic Association Junior College National Champion 165 lb – out of Niagara County Community College (2000)",
-    "Junior College National Champion 165 lb – out of Niagara County Community College (2000)"
+    {
+      "org": "Gladiator Challenge",
+      "texte": "GC Light Heavyweight Tournament Winner"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame ( Modern wing , Class of 2019)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Light Heavyweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "The Ultimate Fighter 2 Heavyweight Tournament Winner"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Two times) vs. Forrest Griffin and Tito Ortiz 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Knockout of the Night (Two times) vs. Sean Salmon and Chuck Liddell"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Encyclopedia Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Brad Imes"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Chuck Liddell & Magomed Ankalaev ) for fifth most wins in UFC Light Heavyweight division history (13)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most takedowns landed in UFC Light Heavyweight division history (50)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2005: Ranked #4 Fight of the Year vs. Brad Imes"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2007: Ranked #4 Knockout of the Year vs. Sean Salmon"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2008: Fighter of the Year , Knockout of the Year vs. Chuck Liddell & Ranked #3 Upset of the Year vs. Chuck Liddell"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2010: Ranked #9 Fighter of the Year"
+    },
+    {
+      "org": "Sports Illustrated",
+      "texte": "2008 Knockout of the Year vs. Chuck Liddell at UFC 88"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2008 Fighter of the Year"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2008 Knockout of the Year vs. Chuck Liddell at UFC 88"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "Mixed Martial Arts Hall of Fame"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2008 Fighter of the Year"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2008 #2 Ranked Breakout Fighter of the Year"
+    },
+    {
+      "org": "Rear Naked News",
+      "texte": "2008 Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2008 UFC Knockout of the Year vs. Chuck Liddell at UFC 88"
+    },
+    {
+      "org": "FIGHT! Magazine",
+      "texte": "2008 Knockout of the Year vs. Chuck Liddell at UFC 88"
+    },
+    {
+      "org": "Niagara Wheatfield High School",
+      "texte": "4th place New York State High School Wrestling Championships 145 lbs 1997, 171 lbs 1998"
+    },
+    {
+      "org": "National Junior College Athletic Association",
+      "texte": "Junior College National Champion 165 lb – out of Niagara County Community College (2000)"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids mi-lourds",
+      "Hall of Fame de l'UFC (2019)",
+      "Vainqueur de The Ultimate Fighter 2",
+      "Combattant de l'année (2008)",
+      "KO de l'année (2008)",
+      "Bonus UFC : 2× Combat de la soirée, 2× KO de la soirée"
+    ],
+    "en": [
+      "UFC Light Heavyweight Champion",
+      "UFC Hall of Fame (2019)",
+      "The Ultimate Fighter 2 winner",
+      "Fighter of the Year (2008)",
+      "Knockout of the Year (2008)",
+      "UFC bonuses: 2× Fight of the Night, 2× Knockout of the Night"
+    ]
+  },
   "image_commons": "RashadEvans.png",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Rashad_Evans",

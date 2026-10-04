@@ -128,44 +128,153 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "First UFC champion to win a title by disqualification",
-    "Three successful title defenses",
-    "Tied ( Merab Dvalishvili ) for the most consecutive title defenses in UFC Bantamweight division history (3)",
-    "Tied ( Dominick Cruz , Renan Barão & Merab Dvalishvili ) for second most title fight wins in UFC Bantamweight division history (4)",
-    "Performance of the Night (One time) vs. Cory Sandhagen",
-    "Tied ( Marlon Vera ) for most wins in UFC Bantamweight division history (14)  Tied ( Dominick Cruz & Marlon Vera ) for most wins in UFC/WEC Bantamweight division history (14)",
-    "Tied ( Dominick Cruz & Marlon Vera ) for most wins in UFC/WEC Bantamweight division history (14)",
-    "Second longest win streak in UFC Bantamweight division history (9)",
-    "Sixth most total fight time in UFC Bantamweight division history (3:55:40)",
-    "Second most control time in UFC Bantamweight division history (1:09:10) (behind Merab Dvalishvili )",
-    "Third most total strikes landed in UFC Bantamweight division history (1670)",
-    "Tied ( Raphael Assunção ) for fourth most bouts in UFC Bantamweight division history (18)",
-    "Tied ( Kyung Ho Kang , Mario Bautista & Marlon Vera ) for third most submissions in UFC Bantamweight division history (4)",
-    "Tied ( Takeya Mizugaki ) for third most decision wins in UFC Bantamweight division history (7)",
-    "Fourth longest top-position time in UFC Bantamweight division history (46:36)",
-    "Fourth highest striking differential in UFC Bantamweight division history (2.25)",
-    "Third most submission attempts in UFC Bantamweight division history (13)",
-    "Tied ( Petr Yan ) for seventh most takedowns landed in UFC Bantamweight division history (32)",
-    "Holds wins over four former UFC champions — vs. Renan Barão , Petr Yan (twice), T.J. Dillashaw and Henry Cejudo",
-    "2015: Ranked #10 Submission of the Year vs. Takeya Mizugaki",
-    "2018: Ranked #3 Submission of the Year vs. Cody Stamann (Tied with Zabit Magomedsharipov )",
-    "2020: Half-Year Awards: Best Submission of the 1HY  & Ranked #3 Submission of the Year vs. Cory Sandhagen",
-    "2022: Ranked #7 Fighter of the Year  & Ranked #7 Upset of the Year vs. Petr Yan 2",
-    "Cage Fury Fighting Championships CFFC Bantamweight Championship (One time) Three successful title defenses",
-    "CFFC Bantamweight Championship (One time) Three successful title defenses",
-    "Three successful title defenses",
-    "Ring of Combat ROC Bantamweight Championship (One time)",
-    "ROC Bantamweight Championship (One time)",
-    "MMAJunkie.com 2018 Submission of the Year vs. Cody Stamann  2020 June Submission of the Month vs. Cory Sandhagen",
-    "2018 Submission of the Year vs. Cody Stamann",
-    "2020 June Submission of the Month vs. Cory Sandhagen",
-    "Cageside Press 2020 \"Submission of the Year\" vs. Cory Sandhagen , tied with Khabib Nurmagomedov and A.J. McKee",
-    "2020 \"Submission of the Year\" vs. Cory Sandhagen , tied with Khabib Nurmagomedov and A.J. McKee",
-    "World MMA Awards 2022 Comeback of the Year",
-    "2022 Comeback of the Year",
-    "MMA Fighting 2022 Second Team MMA All-Star",
-    "2022 Second Team MMA All-Star"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Bantamweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First UFC champion to win a title by disqualification"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Three successful title defenses"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Merab Dvalishvili ) for the most consecutive title defenses in UFC Bantamweight division history (3)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Dominick Cruz , Renan Barão & Merab Dvalishvili ) for second most title fight wins in UFC Bantamweight division history (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Cory Sandhagen"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Marlon Vera ) for most wins in UFC Bantamweight division history (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Dominick Cruz & Marlon Vera ) for most wins in UFC/WEC Bantamweight division history (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second longest win streak in UFC Bantamweight division history (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Sixth most total fight time in UFC Bantamweight division history (3:55:40)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most control time in UFC Bantamweight division history (1:09:10) (behind Merab Dvalishvili )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most total strikes landed in UFC Bantamweight division history (1670)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Raphael Assunção ) for fourth most bouts in UFC Bantamweight division history (18)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Kyung Ho Kang , Mario Bautista & Marlon Vera ) for third most submissions in UFC Bantamweight division history (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Takeya Mizugaki ) for third most decision wins in UFC Bantamweight division history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth longest top-position time in UFC Bantamweight division history (46:36)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth highest striking differential in UFC Bantamweight division history (2.25)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most submission attempts in UFC Bantamweight division history (13)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Petr Yan ) for seventh most takedowns landed in UFC Bantamweight division history (32)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Holds wins over four former UFC champions — vs. Renan Barão , Petr Yan (twice), T.J. Dillashaw and Henry Cejudo"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2015: Ranked #10 Submission of the Year vs. Takeya Mizugaki"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2018: Ranked #3 Submission of the Year vs. Cody Stamann (Tied with Zabit Magomedsharipov )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Half-Year Awards: Best Submission of the 1HY & Ranked #3 Submission of the Year vs. Cory Sandhagen"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Ranked #7 Fighter of the Year & Ranked #7 Upset of the Year vs. Petr Yan 2"
+    },
+    {
+      "org": "Cage Fury Fighting Championships",
+      "texte": "CFFC Bantamweight Championship (One time)"
+    },
+    {
+      "org": "Cage Fury Fighting Championships",
+      "texte": "Three successful title defenses"
+    },
+    {
+      "org": "Ring of Combat",
+      "texte": "ROC Bantamweight Championship (One time)"
+    },
+    {
+      "org": "MMAJunkie.com",
+      "texte": "2018 Submission of the Year vs. Cody Stamann"
+    },
+    {
+      "org": "MMAJunkie.com",
+      "texte": "2020 June Submission of the Month vs. Cory Sandhagen"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2020 \"Submission of the Year\" vs. Cory Sandhagen , tied with Khabib Nurmagomedov and A.J. McKee"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2022 Comeback of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2022 Second Team MMA All-Star"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids coq",
+      "3 défenses de titre à l'UFC",
+      "Soumission de l'année (2018)",
+      "Bonus UFC : 1× Performance de la soirée"
+    ],
+    "en": [
+      "UFC Bantamweight Champion",
+      "3 UFC title defenses",
+      "Submission of the Year (2018)",
+      "UFC bonuses: 1× Performance of the Night"
+    ]
+  },
   "image_commons": "Alijamain Sterling at UFC 228.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Aljamain_Sterling",

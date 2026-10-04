@@ -104,22 +104,73 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "UFC Women's Flyweight Championship (One time, current)",
-    "Fight of the Night (One time) vs. Jéssica Andrade",
-    "Performance of the Night (One time) vs. Tereza Bledá",
-    "Second longest win streak in UFC Women's Flyweight division history (9) (behind Valentina Shevchenko )",
-    "Highest striking differential in UFC Women's Flyweight division history (2.45)",
-    "Highest takedown defense percentage in UFC Women's Flyweight division history (90.3%)",
-    "Third most knockdowns-per-fifteen minutes in UFC Women's Flyweight division history (0.29)",
-    "Fifth highest significant strike defense percentage in UFC Women's Flyweight division history (66.3%)",
-    "Fifth lowest strikes absorbed-per-minute in UFC Women's Flyweight division history (2.36)",
-    "Holds wins over three former UFC champions — Jéssica Andrade , Alexa Grasso & Rose Namajunas",
-    "UFC.com Awards 2022: Ranked #7 Newcomer of the Year",
-    "2022: Ranked #7 Newcomer of the Year",
-    "Jungle Fight Jungle Fight Women's Flyweight Championship (One time) One successful title defense",
-    "Jungle Fight Women's Flyweight Championship (One time) One successful title defense",
-    "One successful title defense"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Women's Flyweight Championship (One time, current)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Jéssica Andrade"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Tereza Bledá"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second longest win streak in UFC Women's Flyweight division history (9) (behind Valentina Shevchenko )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Highest striking differential in UFC Women's Flyweight division history (2.45)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Highest takedown defense percentage in UFC Women's Flyweight division history (90.3%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most knockdowns-per-fifteen minutes in UFC Women's Flyweight division history (0.29)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth highest significant strike defense percentage in UFC Women's Flyweight division history (66.3%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth lowest strikes absorbed-per-minute in UFC Women's Flyweight division history (2.36)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Holds wins over three former UFC champions — Jéssica Andrade , Alexa Grasso & Rose Namajunas"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Ranked #7 Newcomer of the Year"
+    },
+    {
+      "org": "Jungle Fight",
+      "texte": "Jungle Fight Women's Flyweight Championship (One time)"
+    },
+    {
+      "org": "Jungle Fight",
+      "texte": "One successful title defense"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Championne UFC des poids mouche féminins",
+      "Bonus UFC : 1× Performance de la soirée, 1× Combat de la soirée"
+    ],
+    "en": [
+      "UFC Women's Flyweight Champion",
+      "UFC bonuses: 1× Performance of the Night, 1× Fight of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Natália_Silva_(fighter)",

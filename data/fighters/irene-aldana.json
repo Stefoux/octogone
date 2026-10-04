@@ -118,23 +118,63 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Fight of the Night (Three times) vs. Leslie Smith , Lucie Pudilová and Karol Rosa",
-    "Performance of the Night (Two times) vs. Ketlen Vieira and Macy Chiasson   Tied ( Amanda Nunes ) for third most Post-Fight bonuses in UFC Women's Bantamweight division history (4)",
-    "Tied ( Amanda Nunes ) for third most Post-Fight bonuses in UFC Women's Bantamweight division history (4)",
-    "Second most total fight time in UFC Women's Bantamweight division history (3:12:50)",
-    "Second most significant strikes landed in UFC Women's Bantamweight division history (1028)",
-    "Third most total strikes landed in UFC Women's Bantamweight division history (1174)",
-    "UFC.com Awards 2023: Ranked #3 Fight of the Year vs. Karol Rosa",
-    "2023: Ranked #3 Fight of the Year vs. Karol Rosa",
-    "Invicta Fighting Championships Performance of the Night (three times) vs. Peggy Morgan , Colleen Schneider , and Faith Van Duin",
-    "Performance of the Night (three times) vs. Peggy Morgan , Colleen Schneider , and Faith Van Duin",
-    "MMA Junkie 2019 December Knockout of the Month vs. Ketlen Vieira",
-    "2019 December Knockout of the Month vs. Ketlen Vieira",
-    "MMA Fighting 2023 Second Team MMA All-Star",
-    "2023 Second Team MMA All-Star",
-    "Bleacher Report 2023 #5 Ranked UFC Fight of the Year vs. Karol Rosa at UFC 296",
-    "2023 #5 Ranked UFC Fight of the Year vs. Karol Rosa at UFC 296"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Three times) vs. Leslie Smith , Lucie Pudilová and Karol Rosa"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. Ketlen Vieira and Macy Chiasson"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Amanda Nunes ) for third most Post-Fight bonuses in UFC Women's Bantamweight division history (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most total fight time in UFC Women's Bantamweight division history (3:12:50)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most significant strikes landed in UFC Women's Bantamweight division history (1028)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most total strikes landed in UFC Women's Bantamweight division history (1174)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: Ranked #3 Fight of the Year vs. Karol Rosa"
+    },
+    {
+      "org": "Invicta Fighting Championships",
+      "texte": "Performance of the Night (three times) vs. Peggy Morgan , Colleen Schneider , and Faith Van Duin"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2019 December Knockout of the Month vs. Ketlen Vieira"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2023 Second Team MMA All-Star"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2023 #5 Ranked UFC Fight of the Year vs. Karol Rosa at UFC 296"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 5× Performance de la soirée, 3× Combat de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 5× Performance of the Night, 3× Fight of the Night"
+    ]
+  },
   "image_commons": "Irene Aldana UFC 2023 02.png",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Irene_Aldana",

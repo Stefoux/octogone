@@ -105,37 +105,135 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Martial Arts History Museum Hall of Fame – Class of 2023",
-    "UFC Hall of Fame ( Pioneer Wing , Class of 2008) and ( Fight Wing , Class of 2016) vs. Pete Williams at UFC 17",
-    "UFC Heavyweight Championship (1 Time, first)",
-    "UFC 10 Tournament Champion",
-    "UFC 11 Tournament Champion",
-    "UFC Viewer's Choice Award",
-    "Fight of the Night (One time) vs. Maurício Rua",
-    "Fight of the Night (Three times) vs. Don Frye , Dan Severn and Maurice Smith",
-    "Knockout of the Night (One time) vs. Moti Horenstein",
-    "Submission of the Night (Two times) vs. Julian Sanchez and Dan Severn",
-    "UFC.com Awards 2009: Ranked #8 Loss of the Year vs. Maurício Rua  & Ranked #6 Upset of the Year vs. Stephan Bonnar",
-    "2009: Ranked #8 Loss of the Year vs. Maurício Rua  & Ranked #6 Upset of the Year vs. Stephan Bonnar",
-    "Pride 2000 Grand Prix Openweight Tournament Winner",
-    "Fastest win in PRIDE Fighting Championships History (0:02)",
-    "One of only two fighters to win Tournaments in both Pride FC and UFC",
-    "Wrestling Observer Newsletter Fight of the Year (1997) vs. Maurice Smith on July 27",
-    "Fight of the Year (1997) vs. Maurice Smith on July 27",
-    "World MMA Awards 2024 Lifetime Achievement Award  2024 Fighting Spirit of the Year for bravery - fearlessly rescuing family and loved ones from a burning building",
-    "2024 Lifetime Achievement Award",
-    "2024 Fighting Spirit of the Year for bravery - fearlessly rescuing family and loved ones from a burning building",
-    "1986 NCAA Division I Championships: (190 lbs 4th Place)",
-    "1988 NCAA Big Ten Championships: (190 lbs 1st Place)",
-    "1988 NCAA Division I Championships: (190 lbs 1st Place)",
-    "1990 Pan American Championships Freestyle Wrestling: (90 kg 1st Place)",
-    "1991 Pan American Championships Freestyle Wrestling: (100 kg 1st Place)",
-    "1991 Pan American Games Freestyle Wrestling: (100 kg 1st Place)",
-    "1991 U.S.A. National Freestyle Wrestling Championships: (100 kg 1st Place)",
-    "1991 FILA World Freestyle Wrestling Championships : (100 kg 2nd Place)",
-    "1992 Pan American Championships Freestyle Wrestling: (100 kg 1st place)",
-    "1992 Summer Olympics Freestyle Wrestling: (100 kg 7th Place)"
+    {
+      "org": null,
+      "texte": "Martial Arts History Museum Hall of Fame – Class of 2023"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame ( Pioneer Wing , Class of 2008) and ( Fight Wing , Class of 2016) vs. Pete Williams at UFC 17"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Heavyweight Championship (1 Time, first)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC 10 Tournament Champion"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC 11 Tournament Champion"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Viewer's Choice Award"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Maurício Rua"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Encyclopedia Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Three times) vs. Don Frye , Dan Severn and Maurice Smith"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Knockout of the Night (One time) vs. Moti Horenstein"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Submission of the Night (Two times) vs. Julian Sanchez and Dan Severn"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2009: Ranked #8 Loss of the Year vs. Maurício Rua & Ranked #6 Upset of the Year vs. Stephan Bonnar"
+    },
+    {
+      "org": "PRIDE Fighting Championships",
+      "texte": "Pride 2000 Grand Prix Openweight Tournament Winner"
+    },
+    {
+      "org": "PRIDE Fighting Championships",
+      "texte": "Fastest win in PRIDE Fighting Championships History (0:02)"
+    },
+    {
+      "org": "PRIDE Fighting Championships",
+      "texte": "One of only two fighters to win Tournaments in both Pride FC and UFC"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "Fight of the Year (1997) vs. Maurice Smith on July 27"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2024 Lifetime Achievement Award"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2024 Fighting Spirit of the Year for bravery - fearlessly rescuing family and loved ones from a burning building"
+    },
+    {
+      "org": null,
+      "texte": "1986 NCAA Division I Championships: (190 lbs 4th Place)"
+    },
+    {
+      "org": null,
+      "texte": "1988 NCAA Big Ten Championships: (190 lbs 1st Place)"
+    },
+    {
+      "org": null,
+      "texte": "1988 NCAA Division I Championships: (190 lbs 1st Place)"
+    },
+    {
+      "org": null,
+      "texte": "1990 Pan American Championships Freestyle Wrestling: (90 kg 1st Place)"
+    },
+    {
+      "org": null,
+      "texte": "1991 Pan American Championships Freestyle Wrestling: (100 kg 1st Place)"
+    },
+    {
+      "org": null,
+      "texte": "1991 Pan American Games Freestyle Wrestling: (100 kg 1st Place)"
+    },
+    {
+      "org": null,
+      "texte": "1991 U.S.A. National Freestyle Wrestling Championships: (100 kg 1st Place)"
+    },
+    {
+      "org": null,
+      "texte": "1991 FILA World Freestyle Wrestling Championships : (100 kg 2nd Place)"
+    },
+    {
+      "org": null,
+      "texte": "1992 Pan American Championships Freestyle Wrestling: (100 kg 1st place)"
+    },
+    {
+      "org": null,
+      "texte": "1992 Summer Olympics Freestyle Wrestling: (100 kg 7th Place)"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids lourds",
+      "Hall of Fame de l'UFC, aile Combats (2008)",
+      "Bonus UFC : 3× Combat de la soirée, 1× KO de la soirée, 2× Soumission de la soirée"
+    ],
+    "en": [
+      "UFC Heavyweight Champion",
+      "UFC Hall of Fame, Fight Wing (2008)",
+      "UFC bonuses: 3× Fight of the Night, 1× Knockout of the Night, 2× Submission of the Night"
+    ]
+  },
   "image_commons": "Mark Coleman pic.jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Mark_Coleman",

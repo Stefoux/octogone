@@ -154,41 +154,137 @@
   "champion_actuel": false,
   "ancien_champion": true,
   "accomplissements_en": [
-    "UFC Hall of Fame ( Modern Wing , Class of 2026)",
-    "Three successful title defenses (two during first reign, one during second reign)",
-    "Tied ( Aljamain Sterling , T.J. Dillashaw , Merab Dvalishvili ) for most title defenses in UFC Bantamweight division history (3)",
-    "Tied (Aljamain Sterling & Renan Barao ) for second most title fight wins in UFC Bantamweight division history (4)",
-    "Fight of the Night (Four times) vs. Urijah Faber , T.J. Dillashaw , Cody Garbrandt and Pedro Munhoz .",
-    "Performance of the Night (One time) vs. Takeya Mizugaki",
-    "Longest single title reign in UFC Bantamweight division history by number of days (1,117)",
-    "Longest combined title reign in UFC Bantamweight division history by number of days (1,465)",
-    "Most title wins in UFC/WEC Bantamweight division history (7)",
-    "Tied ( Aljamain Sterling & Marlon Vera ) for most wins in UFC/WEC Bantamweight division history (14)",
-    "Most takedowns landed in UFC/WEC Bantamweight division history (55)",
-    "UFC.com Awards 2011: Import of the Year ,  Ranked #10 Fighter of the Year  & Ranked #4 Fight of the Year vs. Urijah Faber 2  2016: Ranked #4 Fighter of the Year",
-    "2011: Import of the Year ,  Ranked #10 Fighter of the Year  & Ranked #4 Fight of the Year vs. Urijah Faber 2",
-    "2016: Ranked #4 Fighter of the Year",
-    "World Extreme Cagefighting WEC Bantamweight Championship (One time, final) Two successful title defenses Fight of the Night (One time) vs. Joseph Benavidez",
-    "WEC Bantamweight Championship (One time, final) Two successful title defenses",
-    "Two successful title defenses",
-    "Fight of the Night (One time) vs. Joseph Benavidez",
-    "Total Combat Total Combat Lightweight Championship (One time)  Total Combat Featherweight Championship (One time)",
-    "Total Combat Lightweight Championship (One time)",
-    "Total Combat Featherweight Championship (One time)",
-    "The Athletic 2010s Men's Bantamweight Fighter of the Decade",
-    "2010s Men's Bantamweight Fighter of the Decade",
-    "USA Today 2010 Fighter of the Year",
-    "2010 Fighter of the Year",
-    "Fight Matrix 2016 Comeback Fighter of the Year",
-    "2016 Comeback Fighter of the Year",
-    "World MMA Awards 2014 Comeback Fighter of the Year  2015 Analyst of the Year  2016 Analyst of the Year  2017 Analyst of the Year",
-    "2014 Comeback Fighter of the Year",
-    "2015 Analyst of the Year",
-    "2016 Analyst of the Year",
-    "2017 Analyst of the Year",
-    "CBS Sports 2016 #9 Ranked UFC Fight of the Year vs. T.J. Dillashaw",
-    "2016 #9 Ranked UFC Fight of the Year vs. T.J. Dillashaw"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame ( Modern Wing , Class of 2026)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Bantamweight Championship (Two times; inaugural)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Three successful title defenses (two during first reign, one during second reign)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Aljamain Sterling , T.J. Dillashaw , Merab Dvalishvili ) for most title defenses in UFC Bantamweight division history (3)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied (Aljamain Sterling & Renan Barao ) for second most title fight wins in UFC Bantamweight division history (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Four times) vs. Urijah Faber , T.J. Dillashaw , Cody Garbrandt and Pedro Munhoz ."
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Takeya Mizugaki"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Longest single title reign in UFC Bantamweight division history by number of days (1,117)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Longest combined title reign in UFC Bantamweight division history by number of days (1,465)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most title wins in UFC/WEC Bantamweight division history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Aljamain Sterling & Marlon Vera ) for most wins in UFC/WEC Bantamweight division history (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most takedowns landed in UFC/WEC Bantamweight division history (55)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2011: Import of the Year , Ranked #10 Fighter of the Year & Ranked #4 Fight of the Year vs. Urijah Faber 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2016: Ranked #4 Fighter of the Year"
+    },
+    {
+      "org": "World Extreme Cagefighting",
+      "texte": "WEC Bantamweight Championship (One time, final)"
+    },
+    {
+      "org": "World Extreme Cagefighting",
+      "texte": "Two successful title defenses"
+    },
+    {
+      "org": "World Extreme Cagefighting",
+      "texte": "Fight of the Night (One time) vs. Joseph Benavidez"
+    },
+    {
+      "org": "Total Combat",
+      "texte": "Total Combat Lightweight Championship (One time)"
+    },
+    {
+      "org": "Total Combat",
+      "texte": "Total Combat Featherweight Championship (One time)"
+    },
+    {
+      "org": "The Athletic",
+      "texte": "2010s Men's Bantamweight Fighter of the Decade"
+    },
+    {
+      "org": "USA Today",
+      "texte": "2010 Fighter of the Year"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2016 Comeback Fighter of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2014 Comeback Fighter of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2015 Analyst of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2016 Analyst of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2017 Analyst of the Year"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2016 #9 Ranked UFC Fight of the Year vs. T.J. Dillashaw"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids coq (2 fois)",
+      "Champion WEC des poids coq",
+      "Hall of Fame de l'UFC (2026)",
+      "3 défenses de titre à l'UFC",
+      "Combattant de l'année (2010)",
+      "Bonus UFC : 1× Performance de la soirée, 5× Combat de la soirée"
+    ],
+    "en": [
+      "UFC Bantamweight Champion (2×)",
+      "WEC Bantamweight Champion",
+      "UFC Hall of Fame (2026)",
+      "3 UFC title defenses",
+      "Fighter of the Year (2010)",
+      "UFC bonuses: 1× Performance of the Night, 5× Fight of the Night"
+    ]
+  },
   "image_commons": "Dom Cruz 2.png",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Dominick_Cruz",

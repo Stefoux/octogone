@@ -104,6 +104,14 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 4× Performance de la soirée, 1× Soumission de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 4× Performance of the Night, 1× Submission of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Marcin_Tybura",

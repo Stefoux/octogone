@@ -22,6 +22,10 @@ Fighter _fighter(String id, String nom, {String categorie = 'mi_lourds', bool ch
       'stats_ufc': {'frappes_par_min': 5.01, 'precision_frappe_pct': 61, 'duree_moyenne_combat_s': 642},
       'ufc': {'combats_ufc': 13, 'victoires_ufc': 10, 'defaites_ufc': 3},
       'sources': {'ufc_com': 'https://www.ufc.com/athlete/test'},
+      'distinctions': {
+        'fr': ['Champion UFC des poids mi-lourds (2 fois)', 'Bonus UFC : 6× Performance de la soirée'],
+        'en': ['UFC Light Heavyweight Champion (2×)', 'UFC bonuses: 6× Performance of the Night'],
+      },
       'a_verifier': aVerifier,
     });
 
@@ -92,6 +96,35 @@ void main() {
     expect(find.text('Champion'), findsOneWidget);
     expect(find.textContaining('À vérifier : allonge_cm'), findsOneWidget);
     expect(find.text('Palmarès 13-4'), findsOneWidget);
+  });
+
+  Future<void> openDetail(WidgetTester tester, Locale locale) async {
+    tester.view.physicalSize = const Size(1080, 6000);
+    tester.view.devicePixelRatio = 2;
+    tester.platformDispatcher.localeTestValue = locale;
+    addTearDown(tester.view.reset);
+    addTearDown(tester.platformDispatcher.clearLocaleTestValue);
+    await tester.pumpWidget(_wrap(const FighterDetailScreen(fighterId: 'alex-pereira')));
+    await tester.pumpAndSettle();
+  }
+
+  testWidgets('Distinctions en français, sans sources affichées', (tester) async {
+    await openDetail(tester, const Locale('fr', 'FR'));
+    expect(find.text('Distinctions'), findsOneWidget);
+    expect(find.text('Champion UFC des poids mi-lourds (2 fois)'), findsOneWidget);
+    expect(find.textContaining('Wikipedia'), findsNothing);
+    expect(find.text('Sources'), findsNothing);
+  });
+
+  testWidgets('Distinctions dans la langue du téléphone (anglais)', (tester) async {
+    await openDetail(tester, const Locale('en', 'US'));
+    expect(find.text('UFC Light Heavyweight Champion (2×)'), findsOneWidget);
+    expect(find.text('Champion UFC des poids mi-lourds (2 fois)'), findsNothing);
+  });
+
+  testWidgets('Langue non traduite : repli sur le français', (tester) async {
+    await openDetail(tester, const Locale('de', 'DE'));
+    expect(find.text('Champion UFC des poids mi-lourds (2 fois)'), findsOneWidget);
   });
 
   testWidgets('Édition : séries, parallèles et tirages', (tester) async {

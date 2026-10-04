@@ -124,30 +124,79 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Fight of the Night (Four times) vs. Marc Diakiese , Bobby Green , and Justin Gaethje (x2)",
-    "Performance of the Night (Four times) vs. Renato Moicano , Brad Riddell , Rafael dos Anjos and Manuel Torres",
-    "UFC Honors Awards 2023: President's Choice Fight of the Year Nominee vs. Justin Gaethje 1",
-    "2023: President's Choice Fight of the Year Nominee vs. Justin Gaethje 1",
-    "UFC.com Awards 2023: Ranked #7 Fight of the Year vs. Justin Gaethje 1",
-    "2023: Ranked #7 Fight of the Year vs. Justin Gaethje 1",
-    "Combat Press 2021 Breakout Fighter of the Year",
-    "2021 Breakout Fighter of the Year",
-    "MMA Junkie 2023 March Fight of the Month vs. Justin Gaethje  2025 March Fight of the Month vs. Justin Gaethje",
-    "2023 March Fight of the Month vs. Justin Gaethje",
-    "2025 March Fight of the Month vs. Justin Gaethje",
-    "Sherdog 2023 Round of the Year vs. Justin Gaethje",
-    "2023 Round of the Year vs. Justin Gaethje",
-    "Bleacher Report 2023 #3 Ranked UFC Fight of the Year vs. Justin Gaethje at UFC 286",
-    "2023 #3 Ranked UFC Fight of the Year vs. Justin Gaethje at UFC 286",
-    "Kyrgyz Muaythai Federation 3x Kyrgyzstan Muay Thai Champion (2007, 2008, and 2009)",
-    "3x Kyrgyzstan Muay Thai Champion (2007, 2008, and 2009)",
-    "International Federation of Muaythai Associations 2009 IFMA World Championships Junior 2011 Kazakhstan National Champion 2016 IFMA World Championships (B-class) -71 kg",
-    "2009 IFMA World Championships Junior",
-    "2011 Kazakhstan National Champion",
-    "2016 IFMA World Championships (B-class) -71 kg",
-    "World Muaythai Federation 2010 WMF Intercontinental -63.5 kg Champion",
-    "2010 WMF Intercontinental -63.5 kg Champion"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Four times) vs. Marc Diakiese , Bobby Green , and Justin Gaethje (x2)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Four times) vs. Renato Moicano , Brad Riddell , Rafael dos Anjos and Manuel Torres"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: President's Choice Fight of the Year Nominee vs. Justin Gaethje 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: Ranked #7 Fight of the Year vs. Justin Gaethje 1"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2021 Breakout Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2023 March Fight of the Month vs. Justin Gaethje"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2025 March Fight of the Month vs. Justin Gaethje"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2023 Round of the Year vs. Justin Gaethje"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2023 #3 Ranked UFC Fight of the Year vs. Justin Gaethje at UFC 286"
+    },
+    {
+      "org": "Kyrgyz Muaythai Federation",
+      "texte": "3x Kyrgyzstan Muay Thai Champion (2007, 2008, and 2009)"
+    },
+    {
+      "org": "International Federation of Muaythai Associations",
+      "texte": "2009 IFMA World Championships Junior"
+    },
+    {
+      "org": "International Federation of Muaythai Associations",
+      "texte": "2011 Kazakhstan National Champion"
+    },
+    {
+      "org": "International Federation of Muaythai Associations",
+      "texte": "2016 IFMA World Championships (B-class) -71 kg"
+    },
+    {
+      "org": "World Muaythai Federation",
+      "texte": "2010 WMF Intercontinental -63.5 kg Champion"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 4× Performance de la soirée, 4× Combat de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 4× Performance of the Night, 4× Fight of the Night"
+    ]
+  },
   "image_commons": "Fiziev 2023.png",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Rafael_Fiziev",

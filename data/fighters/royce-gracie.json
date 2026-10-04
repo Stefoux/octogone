@@ -97,41 +97,125 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "UFC Hall of Fame (Inaugural inductee, Pioneer Wing, class of 2003)",
-    "UFC 1 Tournament Championship",
-    "UFC 2 Tournament Championship",
-    "UFC 4 Tournament Championship",
-    "UFC 3 Tournament semi-finalist [ a ]",
-    "UFC Viewer's Choice Award",
-    "Fight of the Night (Four times) vs. Ken Shamrock 1, Minoki Ichihara, Kimo Leopoldo and Dan Severn",
-    "Submission of the Night (Four times) vs. Gerard Gordeau , Remco Pardoel , Kimo Leopoldo and Dan Severn",
-    "First tournament champion in UFC history",
-    "Longest finish streak in UFC history (11)",
-    "Most bouts won in tournaments in UFC history (11)",
-    "Most tournaments won in UFC history (3)",
-    "Most fights in a single night in UFC history (4) (tied with Patrick Smith )",
-    "Longest fight in UFC history (36 minutes) - vs. Ken Shamrock 2 at UFC 5",
-    "Longest submission streak in UFC history (6)",
-    "Tied ( Gilbert Burns ) for most armbar submission wins in UFC history (4)",
-    "Second highest submission finish rate in UFC history (10 submissions / 11 wins - 90.91%)",
-    "Greatest Submission in UFC's first 25 Years  - vs. Ken Shamrock 1",
-    "PRIDE Fighting Championships Longest fight in PRIDE history (90 minutes) - vs. Kazushi Sakuraba at PRIDE Grand Prix 2000 Finals",
-    "Longest fight in PRIDE history (90 minutes) - vs. Kazushi Sakuraba at PRIDE Grand Prix 2000 Finals",
-    "Fight Matrix Fighter of the Year (1993)",
-    "Fighter of the Year (1993)",
-    "Black Belt Magazine Competitor of the Year (1994)",
-    "Competitor of the Year (1994)",
-    "Wrestling Observer Newsletter Fight of the Year (2000) - vs. Kazushi Sakuraba on May 1",
-    "Fight of the Year (2000) - vs. Kazushi Sakuraba on May 1",
-    "World MMA Awards 2013 Lifetime Achievement",
-    "2013 Lifetime Achievement",
-    "Beckett Media Ranked #44 Greatest Athlete of All Time (2014)",
-    "Ranked #44 Greatest Athlete of All Time (2014)",
-    "International Sports Hall of Fame Class of 2016",
-    "Class of 2016",
-    "Martial Arts History Museum Hall of Fame Class of 2007",
-    "Class of 2007"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame (Inaugural inductee, Pioneer Wing, class of 2003)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC 1 Tournament Championship"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC 2 Tournament Championship"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC 4 Tournament Championship"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC 3 Tournament semi-finalist"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Viewer's Choice Award"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Encyclopedia Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Four times) vs. Ken Shamrock 1, Minoki Ichihara, Kimo Leopoldo and Dan Severn"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Submission of the Night (Four times) vs. Gerard Gordeau , Remco Pardoel , Kimo Leopoldo and Dan Severn"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First tournament champion in UFC history"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Longest finish streak in UFC history (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most bouts won in tournaments in UFC history (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most tournaments won in UFC history (3)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most fights in a single night in UFC history (4) (tied with Patrick Smith )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Longest fight in UFC history (36 minutes) - vs. Ken Shamrock 2 at UFC 5"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Longest submission streak in UFC history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Gilbert Burns ) for most armbar submission wins in UFC history (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second highest submission finish rate in UFC history (10 submissions / 11 wins - 90.91%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Greatest Submission in UFC's first 25 Years - vs. Ken Shamrock 1"
+    },
+    {
+      "org": "PRIDE Fighting Championships",
+      "texte": "Longest fight in PRIDE history (90 minutes) - vs. Kazushi Sakuraba at PRIDE Grand Prix 2000 Finals"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "Fighter of the Year (1993)"
+    },
+    {
+      "org": "Black Belt Magazine",
+      "texte": "Competitor of the Year (1994)"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "Fight of the Year (2000) - vs. Kazushi Sakuraba on May 1"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2013 Lifetime Achievement"
+    },
+    {
+      "org": "Beckett Media",
+      "texte": "Ranked #44 Greatest Athlete of All Time (2014)"
+    },
+    {
+      "org": "International Sports Hall of Fame",
+      "texte": "Class of 2016"
+    },
+    {
+      "org": "Martial Arts History Museum Hall of Fame",
+      "texte": "Class of 2007"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Hall of Fame de l'UFC (2003)",
+      "Bonus UFC : 4× Combat de la soirée, 4× Soumission de la soirée"
+    ],
+    "en": [
+      "UFC Hall of Fame (2003)",
+      "UFC bonuses: 4× Fight of the Night, 4× Submission of the Night"
+    ]
+  },
   "image_commons": "With Royce Gracie (cropped).jpg",
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Royce_Gracie",

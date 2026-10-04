@@ -116,30 +116,87 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Fight of the Night (Two times) vs. Yoel Romero and Robert Whittaker",
-    "Performance of the Night (One time) vs. Lyoto Machida",
-    "Tied ( Anderson Silva , Robert Whittaker & Brendan Allen ) for third most wins in UFC Middleweight division history (14)",
-    "Tied ( Nate Marquardt , Chris Leben & Brendan Allen ) for third most finishes in UFC Middleweight division history (9)",
-    "Tied ( Anderson Silva & Thales Leites ) for fifth most bouts in UFC Middleweight division history (21)",
-    "Tied ( Michael Bisping , Yoel Romero , Gregory Rodrigues & Chris Leben ) for fourth most knockouts in UFC Middleweight division history (7)",
-    "Tied ( Rafael Natal ) for third most takedowns in UFC Middleweight division history (36)",
-    "Fifth most control time in UFC Middleweight division history (1:09:34)",
-    "Fifth most top position time in UFC Middleweight division history (50:33)",
-    "UFC.com Awards 2016: Ranked #10 Fight of the Year vs. Robert Whittaker",
-    "2016: Ranked #10 Fight of the Year vs. Robert Whittaker",
-    "Sherdog 2017 Robbery of the Year vs. Anderson Silva",
-    "2017 Robbery of the Year vs. Anderson Silva",
-    "MMAJunkie.com 2017 Robbery of the Year vs. Anderson Silva",
-    "2017 Robbery of the Year vs. Anderson Silva",
-    "MMADNA.nl 2017 Robbery of the Year vs. Anderson Silva",
-    "2017 Robbery of the Year vs. Anderson Silva",
-    "National Collegiate Athletic Association NCAA Division II All-American out of University of North Carolina at Pembroke (2003, 2005, 2007)",
-    "NCAA Division II All-American out of University of North Carolina at Pembroke (2003, 2005, 2007)",
-    "North Carolina High School Athletic Association North Carolina 4A 215 lb 3rd place out of John T. Hoggard High School (2002)",
-    "North Carolina 4A 215 lb 3rd place out of John T. Hoggard High School (2002)",
-    "Young Alumnus of the Year 2014 ( UNC Pembroke )",
-    "UNC Pembroke Athletics Hall of Fame, Inducted 2016"
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Two times) vs. Yoel Romero and Robert Whittaker"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Lyoto Machida"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Anderson Silva , Robert Whittaker & Brendan Allen ) for third most wins in UFC Middleweight division history (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Nate Marquardt , Chris Leben & Brendan Allen ) for third most finishes in UFC Middleweight division history (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Anderson Silva & Thales Leites ) for fifth most bouts in UFC Middleweight division history (21)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Michael Bisping , Yoel Romero , Gregory Rodrigues & Chris Leben ) for fourth most knockouts in UFC Middleweight division history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Rafael Natal ) for third most takedowns in UFC Middleweight division history (36)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth most control time in UFC Middleweight division history (1:09:34)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth most top position time in UFC Middleweight division history (50:33)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2016: Ranked #10 Fight of the Year vs. Robert Whittaker"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2017 Robbery of the Year vs. Anderson Silva"
+    },
+    {
+      "org": "MMAJunkie.com",
+      "texte": "2017 Robbery of the Year vs. Anderson Silva"
+    },
+    {
+      "org": "MMADNA.nl",
+      "texte": "2017 Robbery of the Year vs. Anderson Silva"
+    },
+    {
+      "org": "National Collegiate Athletic Association",
+      "texte": "NCAA Division II All-American out of University of North Carolina at Pembroke (2003, 2005, 2007)"
+    },
+    {
+      "org": "North Carolina High School Athletic Association",
+      "texte": "North Carolina 4A 215 lb 3rd place out of John T. Hoggard High School (2002)"
+    },
+    {
+      "org": null,
+      "texte": "Young Alumnus of the Year 2014 ( UNC Pembroke )"
+    },
+    {
+      "org": null,
+      "texte": "UNC Pembroke Athletics Hall of Fame, Inducted 2016"
+    }
   ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 1× Performance de la soirée, 2× Combat de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 1× Performance of the Night, 2× Fight of the Night"
+    ]
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Derek_Brunson",

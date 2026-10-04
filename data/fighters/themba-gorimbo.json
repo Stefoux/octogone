@@ -97,12 +97,23 @@
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [
-    "Extreme Fighting Championship EFC Welterweight Champion (one time; former) One title defense",
-    "EFC Welterweight Champion (one time; former) One title defense",
-    "One title defense",
-    "World MMA Awards 2023 Fighting Spirit of the Year for charity – building a water pump in Zimbabwe and putting others ahead of himself",
-    "2023 Fighting Spirit of the Year for charity – building a water pump in Zimbabwe and putting others ahead of himself"
+    {
+      "org": "Extreme Fighting Championship",
+      "texte": "EFC Welterweight Champion (one time; former)"
+    },
+    {
+      "org": "Extreme Fighting Championship",
+      "texte": "One title defense"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2023 Fighting Spirit of the Year for charity – building a water pump in Zimbabwe and putting others ahead of himself"
+    }
   ],
+  "distinctions": {
+    "fr": [],
+    "en": []
+  },
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Themba_Gorimbo",
