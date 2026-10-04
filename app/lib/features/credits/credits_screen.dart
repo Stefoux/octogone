@@ -44,6 +44,7 @@ class CreditsScreen extends ConsumerWidget {
               trailing: const Icon(Icons.open_in_new, size: 18),
               onTap: () => launchUrl(Uri.parse(url), mode: LaunchMode.externalApplication),
             ),
+          ListTile(contentPadding: EdgeInsets.zero, title: Text(l.srcSoundsWho), subtitle: Text(l.srcSounds)),
           const SizedBox(height: 16),
           Text(l.photosCount(images.length), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 16)),
           const SizedBox(height: 4),

@@ -4,11 +4,22 @@
   "retry": "Réessayer",
   "loading": "Chargement…",
   "errorWithMessage": "Erreur : {message}",
-  "@errorWithMessage": {"placeholders": {"message": {"type": "String"}}},
+  "@errorWithMessage": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
   "toVerify": "À vérifier : {fields}",
-  "@toVerify": {"placeholders": {"fields": {"type": "String"}}},
+  "@toVerify": {
+    "placeholders": {
+      "fields": {
+        "type": "String"
+      }
+    }
+  },
   "missingConfig": "Configuration Supabase manquante.\n\nCompile avec :\nflutter run --dart-define-from-file=config/app.json\n\n(fichier généré par scripts/supabase_setup.sh)",
-
   "authTagline": "Cartes de combattants entre amis",
   "email": "Email",
   "password": "Mot de passe",
@@ -33,23 +44,48 @@
   "errRateLimit": "Trop de tentatives : réessaie dans quelques minutes.",
   "errNoInternet": "Pas de connexion internet.",
   "errUnexpected": "Erreur inattendue : {message}",
-  "@errUnexpected": {"placeholders": {"message": {"type": "String"}}},
-
+  "@errUnexpected": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
   "navHome": "Accueil",
   "navAlbum": "Album",
   "navFighters": "Combattants",
   "navFight": "Combat",
   "navProfile": "Profil",
-
   "helloUser": "Salut {pseudo} !",
-  "@helloUser": {"placeholders": {"pseudo": {"type": "String"}}},
+  "@helloUser": {
+    "placeholders": {
+      "pseudo": {
+        "type": "String"
+      }
+    }
+  },
   "sync": "Synchroniser",
   "syncRunning": "Synchronisation du contenu…",
   "syncOffline": "Hors ligne : contenu en cache",
   "syncUpToDate": "À jour ({date})",
-  "@syncUpToDate": {"placeholders": {"date": {"type": "String"}}},
+  "@syncUpToDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "syncUpToDateReceived": "À jour ({date}) · {count} éléments reçus",
-  "@syncUpToDateReceived": {"placeholders": {"date": {"type": "String"}, "count": {"type": "int"}}},
+  "@syncUpToDateReceived": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "syncWaiting": "En attente de synchronisation",
   "statFighters": "combattants",
   "statChampions": "champions",
@@ -65,11 +101,16 @@
   "welcomePackSub": "15 cartes offertes, dont des rares",
   "welcomePackOpen": "Ouvrir",
   "welcomePackReceived": "Tu as reçu {count} cartes !",
-  "@welcomePackReceived": {"placeholders": {"count": {"type": "int"}}},
+  "@welcomePackReceived": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "welcomePackAlready": "Pack de bienvenue déjà reçu",
   "effectsShowcase": "Vitrine des effets",
   "effectsShowcaseSub": "Toutes les raretés en aperçu",
-
   "fightersTitle": "Combattants",
   "searchFighters": "Rechercher un nom ou un surnom",
   "champions": "Champions",
@@ -80,7 +121,13 @@
   "unknownCountry": "Pays inconnu",
   "categoryToVerify": "Catégorie à vérifier",
   "recordLabel": "Palmarès {record}",
-  "@recordLabel": {"placeholders": {"record": {"type": "String"}}},
+  "@recordLabel": {
+    "placeholders": {
+      "record": {
+        "type": "String"
+      }
+    }
+  },
   "tagChampion": "Champion",
   "tagChampionF": "Championne",
   "tagFormerChampion": "Ancien champion",
@@ -101,40 +148,111 @@
   "knockdownsPer15": "Knockdowns / 15 min",
   "avgFightTime": "Durée moyenne d’un combat",
   "minutesSeconds": "{min} min {sec}",
-  "@minutesSeconds": {"placeholders": {"min": {"type": "int"}, "sec": {"type": "String"}}},
+  "@minutesSeconds": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "sec": {
+        "type": "String"
+      }
+    }
+  },
   "proRecord": "Palmarès professionnel",
   "wins": "Victoires",
   "losses": "Défaites",
   "draws": "Nuls",
   "noContests": "Sans décision",
   "methodBreakdown": "{total}  (KO {ko} · Sou. {sub} · Déc. {dec})",
-  "@methodBreakdown": {"placeholders": {"total": {"type": "String"}, "ko": {"type": "String"}, "sub": {"type": "String"}, "dec": {"type": "String"}}},
+  "@methodBreakdown": {
+    "placeholders": {
+      "total": {
+        "type": "String"
+      },
+      "ko": {
+        "type": "String"
+      },
+      "sub": {
+        "type": "String"
+      },
+      "dec": {
+        "type": "String"
+      }
+    }
+  },
   "ufcFights": "Combats à l’UFC",
   "ufcFightsValue": "{total} ({wins} V – {losses} D)",
-  "@ufcFightsValue": {"placeholders": {"total": {"type": "String"}, "wins": {"type": "String"}, "losses": {"type": "String"}}},
+  "@ufcFightsValue": {
+    "placeholders": {
+      "total": {
+        "type": "String"
+      },
+      "wins": {
+        "type": "String"
+      },
+      "losses": {
+        "type": "String"
+      }
+    }
+  },
   "bonusFotn": "Bonus « Combat de la soirée »",
   "bonusPotn": "Bonus « Performance de la soirée »",
   "fiveRoundDecisions": "Victoires par décision en 5 rounds",
   "distinctions": "Distinctions",
   "cardsCount": "Cartes ({count})",
-  "@cardsCount": {"placeholders": {"count": {"type": "int"}}},
-
+  "@cardsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "albumTitle": "Album",
   "realEditions": "Éditions réelles",
   "originalEditions": "Éditions originales",
   "noEditions": "Aucune édition en cache pour l’instant.",
   "editionCards": "{count} cartes",
-  "@editionCards": {"placeholders": {"count": {"type": "int"}}},
+  "@editionCards": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "originalCreation": "création originale",
   "releaseDate": "Sortie : {date}",
-  "@releaseDate": {"placeholders": {"date": {"type": "String"}}},
+  "@releaseDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
   "seriesCount": "{count} séries",
-  "@seriesCount": {"placeholders": {"count": {"type": "int"}}},
+  "@seriesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "parallels": "Parallèles",
   "numberedSeries": "numérotée /{n}",
-  "@numberedSeries": {"placeholders": {"n": {"type": "int"}}},
+  "@numberedSeries": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
   "oddsLabel": "cote {odds}",
-  "@oddsLabel": {"placeholders": {"odds": {"type": "String"}}},
+  "@oddsLabel": {
+    "placeholders": {
+      "odds": {
+        "type": "String"
+      }
+    }
+  },
   "checklistSources": "Sources de la checklist",
   "seriesBase": "Base",
   "seriesAutographs": "Autographes",
@@ -143,9 +261,30 @@
   "seriesCelebrations": "Célébrations",
   "seriesInsert": "Insert",
   "completion": "{owned}/{total} · {pct} %",
-  "@completion": {"placeholders": {"owned": {"type": "int"}, "total": {"type": "int"}, "pct": {"type": "int"}}},
+  "@completion": {
+    "placeholders": {
+      "owned": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      },
+      "pct": {
+        "type": "int"
+      }
+    }
+  },
   "pageOf": "Page {page}/{total}",
-  "@pageOf": {"placeholders": {"page": {"type": "int"}, "total": {"type": "int"}}},
+  "@pageOf": {
+    "placeholders": {
+      "page": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
   "filterAllRarities": "Toutes les raretés",
   "filterAllCategories": "Toutes les catégories",
   "filterOwnedOnly": "Possédées",
@@ -154,9 +293,14 @@
   "binderView": "Classeur",
   "notOwned": "Non possédée",
   "ownedCopies": "{count, plural, =1{1 exemplaire} other{{count} exemplaires}}",
-  "@ownedCopies": {"placeholders": {"count": {"type": "int"}}},
+  "@ownedCopies": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "emptySlot": "Emplacement vide",
-
   "cardFlipHint": "Touche la carte pour la retourner",
   "cardTiltHint": "Incline ton téléphone",
   "cardRecord": "Palmarès",
@@ -164,17 +308,46 @@
   "cardSignatureLocked": "Débloqué à partir d’Épique",
   "cardHighlights": "Faits marquants",
   "cardStatBonus": "Bonus de rareté +{n}",
-  "@cardStatBonus": {"placeholders": {"n": {"type": "int"}}},
+  "@cardStatBonus": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
   "cardSerial": "{serial}/{run}",
-  "@cardSerial": {"placeholders": {"serial": {"type": "int"}, "run": {"type": "int"}}},
+  "@cardSerial": {
+    "placeholders": {
+      "serial": {
+        "type": "int"
+      },
+      "run": {
+        "type": "int"
+      }
+    }
+  },
   "cardPrintRun": "Tirage /{run}",
-  "@cardPrintRun": {"placeholders": {"run": {"type": "int"}}},
+  "@cardPrintRun": {
+    "placeholders": {
+      "run": {
+        "type": "int"
+      }
+    }
+  },
   "cardRookie": "Recrue",
   "cardNumberInSeries": "{number}/{total}",
-  "@cardNumberInSeries": {"placeholders": {"number": {"type": "String"}, "total": {"type": "int"}}},
+  "@cardNumberInSeries": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
   "showcaseIntro": "Chaque rareté a son effet. Touche une carte pour l’ouvrir en grand, puis incline ton téléphone.",
   "showcasePreview": "Aperçu",
-
   "profileTitle": "Profil",
   "profileLoading": "Chargement du profil…",
   "profileOffline": "Profil indisponible hors ligne",
@@ -184,7 +357,6 @@
   "friendCodeCopied": "Code ami copié",
   "settings": "Réglages",
   "creditsAndSources": "Crédits et sources",
-
   "settingsTitle": "Réglages",
   "account": "Compte",
   "syncContent": "Synchroniser le contenu",
@@ -192,8 +364,13 @@
   "syncFailed": "Dernière tentative échouée (hors ligne ?)",
   "signOut": "Se déconnecter",
   "versionLabel": "Octogone · version {version}",
-  "@versionLabel": {"placeholders": {"version": {"type": "String"}}},
-
+  "@versionLabel": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
   "creditsTitle": "Crédits",
   "creditsDisclaimer": "Application personnelle, non commerciale et non officielle. Aucun logo officiel : les noms d’éditions apparaissent en texte et les cadres des cartes sont des créations originales.",
   "dataSources": "Sources des données",
@@ -205,23 +382,40 @@
   "srcPhotos": "Photos",
   "srcPhotosWho": "Wikimedia Commons (licences libres)",
   "srcFont": "Police Oswald (SIL Open Font License)",
+  "srcSounds": "Effets sonores",
+  "srcSoundsWho": "Synthétisés pour Octogone (aucun son externe)",
   "photosCount": "Photos ({count})",
-  "@photosCount": {"placeholders": {"count": {"type": "int"}}},
+  "@photosCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "noPhotos": "Aucune photo synchronisée.",
   "photoAuthor": "Auteur : {name}",
-  "@photoAuthor": {"placeholders": {"name": {"type": "String"}}},
+  "@photoAuthor": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "photoLicense": "Licence : {name}",
-  "@photoLicense": {"placeholders": {"name": {"type": "String"}}},
-
+  "@photoLicense": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "fightComing": "Le combat tactique arrive en phase 4.",
-
   "rarityCommune": "Commune",
   "rarityPeuCommune": "Peu commune",
   "rarityRare": "Rare",
   "rarityEpique": "Épique",
   "rarityLegendaire": "Légendaire",
   "rarityMythique": "Mythique",
-
   "effectAcier": "Acier d’Octogone",
   "effectNeon": "Néon Main Event",
   "effectFaceAFace": "Face-à-Face",
@@ -234,7 +428,6 @@
   "effectTrilogie": "Trilogie",
   "effectOctogoneNoir": "Octogone Noir",
   "effectMainLevee": "Main Levée",
-
   "wcPailleF": "Poids paille (F)",
   "wcMoucheF": "Poids mouche (F)",
   "wcCoqF": "Poids coq (F)",
@@ -247,7 +440,6 @@
   "wcMoyens": "Poids moyens",
   "wcMiLourds": "Poids mi-lourds",
   "wcLourds": "Poids lourds",
-
   "statFrappe": "Frappe",
   "statPuissance": "Puissance",
   "statLutte": "Lutte",
@@ -265,5 +457,136 @@
   "styleFrappeur": "Frappeur",
   "styleLutteur": "Lutteur",
   "styleGrappler": "Grappler",
-  "styleComplet": "Complet"
+  "styleComplet": "Complet",
+  "boosterOpen": "Ouvrir",
+  "boosterChooseCollections": "Choisir d’autres collections",
+  "boosterCollectionsTitle": "Collections",
+  "boosterCards": "{n} cartes",
+  "@boosterCards": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "boosterStandard": "Standard",
+  "boosterPremium": "Premium",
+  "boosterEvent": "Événement",
+  "boosterTestMode": "Mode test : boosters illimités",
+  "boosterFreeReady": "{count, plural, =1{1 booster gratuit prêt} other{{count} boosters gratuits prêts}}",
+  "@boosterFreeReady": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "boosterNextFree": "Prochain booster gratuit dans {time}",
+  "@boosterNextFree": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "boosterNoFree": "Plus de booster gratuit pour l’instant",
+  "boosterPayWithCoins": "Ouvrir ce booster pour {price} pièces ?",
+  "@boosterPayWithCoins": {
+    "placeholders": {
+      "price": {
+        "type": "int"
+      }
+    }
+  },
+  "boosterPrice": "{price} pièces",
+  "@boosterPrice": {
+    "placeholders": {
+      "price": {
+        "type": "int"
+      }
+    }
+  },
+  "boosterNotEnoughCoins": "Pas assez de pièces.",
+  "boosterUnavailable": "Ce booster n’est plus disponible.",
+  "boosterOdds": "Probabilités",
+  "boosterOddsPerPack": "{n} par booster",
+  "@boosterOddsPerPack": {
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "boosterOddsOneIn": "1 sur {n} boosters",
+  "@boosterOddsOneIn": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "boosterOddsPercent": "{pct} % des boosters",
+  "@boosterOddsPercent": {
+    "placeholders": {
+      "pct": {
+        "type": "int"
+      }
+    }
+  },
+  "boosterPity": "Au moins une Légendaire tous les {n} boosters.",
+  "@boosterPity": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "boosterPityLeft": "{count, plural, =1{Garantie au prochain booster au plus tard.} other{Garantie dans {count} boosters au plus tard.}}",
+  "@boosterPityLeft": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "boosterNumberedNote": "Les cartes numérotées (/50, 1/1…) n’existent qu’en nombre limité, pour tous les joueurs réunis.",
+  "boosterTearHint": "Glisse le doigt le long du haut pour déchirer",
+  "boosterTapToReveal": "Touche pour révéler",
+  "boosterTapForNext": "Touche pour la suivante",
+  "boosterRevealAll": "Tout révéler",
+  "boosterNew": "NOUVELLE",
+  "boosterOpenAnother": "Ouvrir un autre",
+  "boosterDone": "Terminé",
+  "boosterOpening": "Ouverture…",
+  "coins": "{n} pièces",
+  "@coins": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "confirm": "Confirmer",
+  "cancel": "Annuler",
+  "settingsSound": "Sons",
+  "settingsSoundSub": "Déchirure des boosters et révélation des cartes",
+  "durationHm": "{h} h {m} min",
+  "@durationHm": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      },
+      "m": {
+        "type": "int"
+      }
+    }
+  },
+  "durationM": "{m} min",
+  "@durationM": {
+    "placeholders": {
+      "m": {
+        "type": "int"
+      }
+    }
+  }
 }

@@ -2793,6 +2793,366 @@ class RivalriesCompanion extends UpdateCompanion<RivalryRow> {
   }
 }
 
+class $BoosterTypesTable extends BoosterTypes
+    with TableInfo<$BoosterTypesTable, BoosterTypeRow> {
+  @override
+  final GeneratedDatabase attachedDatabase;
+  final String? _alias;
+  $BoosterTypesTable(this.attachedDatabase, [this._alias]);
+  static const VerificationMeta _idMeta = const VerificationMeta('id');
+  @override
+  late final GeneratedColumn<String> id = GeneratedColumn<String>(
+    'id',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _payloadMeta = const VerificationMeta(
+    'payload',
+  );
+  @override
+  late final GeneratedColumn<String> payload = GeneratedColumn<String>(
+    'payload',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _updatedAtMeta = const VerificationMeta(
+    'updatedAt',
+  );
+  @override
+  late final GeneratedColumn<DateTime> updatedAt = GeneratedColumn<DateTime>(
+    'updated_at',
+    aliasedName,
+    false,
+    type: DriftSqlType.dateTime,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _editionIdMeta = const VerificationMeta(
+    'editionId',
+  );
+  @override
+  late final GeneratedColumn<String> editionId = GeneratedColumn<String>(
+    'edition_id',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _ordreMeta = const VerificationMeta('ordre');
+  @override
+  late final GeneratedColumn<int> ordre = GeneratedColumn<int>(
+    'ordre',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  @override
+  List<GeneratedColumn> get $columns => [
+    id,
+    payload,
+    updatedAt,
+    editionId,
+    ordre,
+  ];
+  @override
+  String get aliasedName => _alias ?? actualTableName;
+  @override
+  String get actualTableName => $name;
+  static const String $name = 'booster_types';
+  @override
+  VerificationContext validateIntegrity(
+    Insertable<BoosterTypeRow> instance, {
+    bool isInserting = false,
+  }) {
+    final context = VerificationContext();
+    final data = instance.toColumns(true);
+    if (data.containsKey('id')) {
+      context.handle(_idMeta, id.isAcceptableOrUnknown(data['id']!, _idMeta));
+    } else if (isInserting) {
+      context.missing(_idMeta);
+    }
+    if (data.containsKey('payload')) {
+      context.handle(
+        _payloadMeta,
+        payload.isAcceptableOrUnknown(data['payload']!, _payloadMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_payloadMeta);
+    }
+    if (data.containsKey('updated_at')) {
+      context.handle(
+        _updatedAtMeta,
+        updatedAt.isAcceptableOrUnknown(data['updated_at']!, _updatedAtMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_updatedAtMeta);
+    }
+    if (data.containsKey('edition_id')) {
+      context.handle(
+        _editionIdMeta,
+        editionId.isAcceptableOrUnknown(data['edition_id']!, _editionIdMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_editionIdMeta);
+    }
+    if (data.containsKey('ordre')) {
+      context.handle(
+        _ordreMeta,
+        ordre.isAcceptableOrUnknown(data['ordre']!, _ordreMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_ordreMeta);
+    }
+    return context;
+  }
+
+  @override
+  Set<GeneratedColumn> get $primaryKey => {id};
+  @override
+  BoosterTypeRow map(Map<String, dynamic> data, {String? tablePrefix}) {
+    final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
+    return BoosterTypeRow(
+      id: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}id'],
+      )!,
+      payload: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}payload'],
+      )!,
+      updatedAt: attachedDatabase.typeMapping.read(
+        DriftSqlType.dateTime,
+        data['${effectivePrefix}updated_at'],
+      )!,
+      editionId: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}edition_id'],
+      )!,
+      ordre: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}ordre'],
+      )!,
+    );
+  }
+
+  @override
+  $BoosterTypesTable createAlias(String alias) {
+    return $BoosterTypesTable(attachedDatabase, alias);
+  }
+}
+
+class BoosterTypeRow extends DataClass implements Insertable<BoosterTypeRow> {
+  final String id;
+  final String payload;
+  final DateTime updatedAt;
+  final String editionId;
+  final int ordre;
+  const BoosterTypeRow({
+    required this.id,
+    required this.payload,
+    required this.updatedAt,
+    required this.editionId,
+    required this.ordre,
+  });
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    map['id'] = Variable<String>(id);
+    map['payload'] = Variable<String>(payload);
+    map['updated_at'] = Variable<DateTime>(updatedAt);
+    map['edition_id'] = Variable<String>(editionId);
+    map['ordre'] = Variable<int>(ordre);
+    return map;
+  }
+
+  BoosterTypesCompanion toCompanion(bool nullToAbsent) {
+    return BoosterTypesCompanion(
+      id: Value(id),
+      payload: Value(payload),
+      updatedAt: Value(updatedAt),
+      editionId: Value(editionId),
+      ordre: Value(ordre),
+    );
+  }
+
+  factory BoosterTypeRow.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return BoosterTypeRow(
+      id: serializer.fromJson<String>(json['id']),
+      payload: serializer.fromJson<String>(json['payload']),
+      updatedAt: serializer.fromJson<DateTime>(json['updatedAt']),
+      editionId: serializer.fromJson<String>(json['editionId']),
+      ordre: serializer.fromJson<int>(json['ordre']),
+    );
+  }
+  @override
+  Map<String, dynamic> toJson({ValueSerializer? serializer}) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return <String, dynamic>{
+      'id': serializer.toJson<String>(id),
+      'payload': serializer.toJson<String>(payload),
+      'updatedAt': serializer.toJson<DateTime>(updatedAt),
+      'editionId': serializer.toJson<String>(editionId),
+      'ordre': serializer.toJson<int>(ordre),
+    };
+  }
+
+  BoosterTypeRow copyWith({
+    String? id,
+    String? payload,
+    DateTime? updatedAt,
+    String? editionId,
+    int? ordre,
+  }) => BoosterTypeRow(
+    id: id ?? this.id,
+    payload: payload ?? this.payload,
+    updatedAt: updatedAt ?? this.updatedAt,
+    editionId: editionId ?? this.editionId,
+    ordre: ordre ?? this.ordre,
+  );
+  BoosterTypeRow copyWithCompanion(BoosterTypesCompanion data) {
+    return BoosterTypeRow(
+      id: data.id.present ? data.id.value : this.id,
+      payload: data.payload.present ? data.payload.value : this.payload,
+      updatedAt: data.updatedAt.present ? data.updatedAt.value : this.updatedAt,
+      editionId: data.editionId.present ? data.editionId.value : this.editionId,
+      ordre: data.ordre.present ? data.ordre.value : this.ordre,
+    );
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('BoosterTypeRow(')
+          ..write('id: $id, ')
+          ..write('payload: $payload, ')
+          ..write('updatedAt: $updatedAt, ')
+          ..write('editionId: $editionId, ')
+          ..write('ordre: $ordre')
+          ..write(')'))
+        .toString();
+  }
+
+  @override
+  int get hashCode => Object.hash(id, payload, updatedAt, editionId, ordre);
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      (other is BoosterTypeRow &&
+          other.id == this.id &&
+          other.payload == this.payload &&
+          other.updatedAt == this.updatedAt &&
+          other.editionId == this.editionId &&
+          other.ordre == this.ordre);
+}
+
+class BoosterTypesCompanion extends UpdateCompanion<BoosterTypeRow> {
+  final Value<String> id;
+  final Value<String> payload;
+  final Value<DateTime> updatedAt;
+  final Value<String> editionId;
+  final Value<int> ordre;
+  final Value<int> rowid;
+  const BoosterTypesCompanion({
+    this.id = const Value.absent(),
+    this.payload = const Value.absent(),
+    this.updatedAt = const Value.absent(),
+    this.editionId = const Value.absent(),
+    this.ordre = const Value.absent(),
+    this.rowid = const Value.absent(),
+  });
+  BoosterTypesCompanion.insert({
+    required String id,
+    required String payload,
+    required DateTime updatedAt,
+    required String editionId,
+    required int ordre,
+    this.rowid = const Value.absent(),
+  }) : id = Value(id),
+       payload = Value(payload),
+       updatedAt = Value(updatedAt),
+       editionId = Value(editionId),
+       ordre = Value(ordre);
+  static Insertable<BoosterTypeRow> custom({
+    Expression<String>? id,
+    Expression<String>? payload,
+    Expression<DateTime>? updatedAt,
+    Expression<String>? editionId,
+    Expression<int>? ordre,
+    Expression<int>? rowid,
+  }) {
+    return RawValuesInsertable({
+      if (id != null) 'id': id,
+      if (payload != null) 'payload': payload,
+      if (updatedAt != null) 'updated_at': updatedAt,
+      if (editionId != null) 'edition_id': editionId,
+      if (ordre != null) 'ordre': ordre,
+      if (rowid != null) 'rowid': rowid,
+    });
+  }
+
+  BoosterTypesCompanion copyWith({
+    Value<String>? id,
+    Value<String>? payload,
+    Value<DateTime>? updatedAt,
+    Value<String>? editionId,
+    Value<int>? ordre,
+    Value<int>? rowid,
+  }) {
+    return BoosterTypesCompanion(
+      id: id ?? this.id,
+      payload: payload ?? this.payload,
+      updatedAt: updatedAt ?? this.updatedAt,
+      editionId: editionId ?? this.editionId,
+      ordre: ordre ?? this.ordre,
+      rowid: rowid ?? this.rowid,
+    );
+  }
+
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    if (id.present) {
+      map['id'] = Variable<String>(id.value);
+    }
+    if (payload.present) {
+      map['payload'] = Variable<String>(payload.value);
+    }
+    if (updatedAt.present) {
+      map['updated_at'] = Variable<DateTime>(updatedAt.value);
+    }
+    if (editionId.present) {
+      map['edition_id'] = Variable<String>(editionId.value);
+    }
+    if (ordre.present) {
+      map['ordre'] = Variable<int>(ordre.value);
+    }
+    if (rowid.present) {
+      map['rowid'] = Variable<int>(rowid.value);
+    }
+    return map;
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('BoosterTypesCompanion(')
+          ..write('id: $id, ')
+          ..write('payload: $payload, ')
+          ..write('updatedAt: $updatedAt, ')
+          ..write('editionId: $editionId, ')
+          ..write('ordre: $ordre, ')
+          ..write('rowid: $rowid')
+          ..write(')'))
+        .toString();
+  }
+}
+
 class $OwnedCardsTable extends OwnedCards
     with TableInfo<$OwnedCardsTable, OwnedCardRow> {
   @override
@@ -3393,6 +3753,7 @@ abstract class _$AppDatabase extends GeneratedDatabase {
   late final $ImagesTable images = $ImagesTable(this);
   late final $EventsTable events = $EventsTable(this);
   late final $RivalriesTable rivalries = $RivalriesTable(this);
+  late final $BoosterTypesTable boosterTypes = $BoosterTypesTable(this);
   late final $OwnedCardsTable ownedCards = $OwnedCardsTable(this);
   late final $SyncStateTable syncState = $SyncStateTable(this);
   @override
@@ -3408,6 +3769,7 @@ abstract class _$AppDatabase extends GeneratedDatabase {
     images,
     events,
     rivalries,
+    boosterTypes,
     ownedCards,
     syncState,
   ];
@@ -5001,6 +5363,215 @@ typedef $$RivalriesTableProcessedTableManager =
       RivalryRow,
       PrefetchHooks Function()
     >;
+typedef $$BoosterTypesTableCreateCompanionBuilder =
+    BoosterTypesCompanion Function({
+      required String id,
+      required String payload,
+      required DateTime updatedAt,
+      required String editionId,
+      required int ordre,
+      Value<int> rowid,
+    });
+typedef $$BoosterTypesTableUpdateCompanionBuilder =
+    BoosterTypesCompanion Function({
+      Value<String> id,
+      Value<String> payload,
+      Value<DateTime> updatedAt,
+      Value<String> editionId,
+      Value<int> ordre,
+      Value<int> rowid,
+    });
+
+class $$BoosterTypesTableFilterComposer
+    extends Composer<_$AppDatabase, $BoosterTypesTable> {
+  $$BoosterTypesTableFilterComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnFilters<String> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get payload => $composableBuilder(
+    column: $table.payload,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<DateTime> get updatedAt => $composableBuilder(
+    column: $table.updatedAt,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get editionId => $composableBuilder(
+    column: $table.editionId,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get ordre => $composableBuilder(
+    column: $table.ordre,
+    builder: (column) => ColumnFilters(column),
+  );
+}
+
+class $$BoosterTypesTableOrderingComposer
+    extends Composer<_$AppDatabase, $BoosterTypesTable> {
+  $$BoosterTypesTableOrderingComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnOrderings<String> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get payload => $composableBuilder(
+    column: $table.payload,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<DateTime> get updatedAt => $composableBuilder(
+    column: $table.updatedAt,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get editionId => $composableBuilder(
+    column: $table.editionId,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get ordre => $composableBuilder(
+    column: $table.ordre,
+    builder: (column) => ColumnOrderings(column),
+  );
+}
+
+class $$BoosterTypesTableAnnotationComposer
+    extends Composer<_$AppDatabase, $BoosterTypesTable> {
+  $$BoosterTypesTableAnnotationComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  GeneratedColumn<String> get id =>
+      $composableBuilder(column: $table.id, builder: (column) => column);
+
+  GeneratedColumn<String> get payload =>
+      $composableBuilder(column: $table.payload, builder: (column) => column);
+
+  GeneratedColumn<DateTime> get updatedAt =>
+      $composableBuilder(column: $table.updatedAt, builder: (column) => column);
+
+  GeneratedColumn<String> get editionId =>
+      $composableBuilder(column: $table.editionId, builder: (column) => column);
+
+  GeneratedColumn<int> get ordre =>
+      $composableBuilder(column: $table.ordre, builder: (column) => column);
+}
+
+class $$BoosterTypesTableTableManager
+    extends
+        RootTableManager<
+          _$AppDatabase,
+          $BoosterTypesTable,
+          BoosterTypeRow,
+          $$BoosterTypesTableFilterComposer,
+          $$BoosterTypesTableOrderingComposer,
+          $$BoosterTypesTableAnnotationComposer,
+          $$BoosterTypesTableCreateCompanionBuilder,
+          $$BoosterTypesTableUpdateCompanionBuilder,
+          (
+            BoosterTypeRow,
+            BaseReferences<_$AppDatabase, $BoosterTypesTable, BoosterTypeRow>,
+          ),
+          BoosterTypeRow,
+          PrefetchHooks Function()
+        > {
+  $$BoosterTypesTableTableManager(_$AppDatabase db, $BoosterTypesTable table)
+    : super(
+        TableManagerState(
+          db: db,
+          table: table,
+          createFilteringComposer: () =>
+              $$BoosterTypesTableFilterComposer($db: db, $table: table),
+          createOrderingComposer: () =>
+              $$BoosterTypesTableOrderingComposer($db: db, $table: table),
+          createComputedFieldComposer: () =>
+              $$BoosterTypesTableAnnotationComposer($db: db, $table: table),
+          updateCompanionCallback:
+              ({
+                Value<String> id = const Value.absent(),
+                Value<String> payload = const Value.absent(),
+                Value<DateTime> updatedAt = const Value.absent(),
+                Value<String> editionId = const Value.absent(),
+                Value<int> ordre = const Value.absent(),
+                Value<int> rowid = const Value.absent(),
+              }) => BoosterTypesCompanion(
+                id: id,
+                payload: payload,
+                updatedAt: updatedAt,
+                editionId: editionId,
+                ordre: ordre,
+                rowid: rowid,
+              ),
+          createCompanionCallback:
+              ({
+                required String id,
+                required String payload,
+                required DateTime updatedAt,
+                required String editionId,
+                required int ordre,
+                Value<int> rowid = const Value.absent(),
+              }) => BoosterTypesCompanion.insert(
+                id: id,
+                payload: payload,
+                updatedAt: updatedAt,
+                editionId: editionId,
+                ordre: ordre,
+                rowid: rowid,
+              ),
+          withReferenceMapper: (p0) => p0
+              .map(
+                (e) => (
+                  e.readTable<$BoosterTypesTable, BoosterTypeRow>(table),
+                  BaseReferences<
+                    _$AppDatabase,
+                    $BoosterTypesTable,
+                    BoosterTypeRow
+                  >(db, table, e),
+                ),
+              )
+              .toList(),
+          prefetchHooksCallback: null,
+        ),
+      );
+}
+
+typedef $$BoosterTypesTableProcessedTableManager =
+    ProcessedTableManager<
+      _$AppDatabase,
+      $BoosterTypesTable,
+      BoosterTypeRow,
+      $$BoosterTypesTableFilterComposer,
+      $$BoosterTypesTableOrderingComposer,
+      $$BoosterTypesTableAnnotationComposer,
+      $$BoosterTypesTableCreateCompanionBuilder,
+      $$BoosterTypesTableUpdateCompanionBuilder,
+      (
+        BoosterTypeRow,
+        BaseReferences<_$AppDatabase, $BoosterTypesTable, BoosterTypeRow>,
+      ),
+      BoosterTypeRow,
+      PrefetchHooks Function()
+    >;
 typedef $$OwnedCardsTableCreateCompanionBuilder = OwnedCardsCompanion Function({
   required String id,
   required String ownerId,
@@ -5382,6 +5953,8 @@ class $AppDatabaseManager {
       $$EventsTableTableManager(_db, _db.events);
   $$RivalriesTableTableManager get rivalries =>
       $$RivalriesTableTableManager(_db, _db.rivalries);
+  $$BoosterTypesTableTableManager get boosterTypes =>
+      $$BoosterTypesTableTableManager(_db, _db.boosterTypes);
   $$OwnedCardsTableTableManager get ownedCards =>
       $$OwnedCardsTableTableManager(_db, _db.ownedCards);
   $$SyncStateTableTableManager get syncState =>

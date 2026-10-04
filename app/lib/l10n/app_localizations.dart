@@ -1124,6 +1124,18 @@ abstract class AppLocalizations {
   /// **'Police Oswald (SIL Open Font License)'**
   String get srcFont;
 
+  /// No description provided for @srcSounds.
+  ///
+  /// In fr, this message translates to:
+  /// **'Effets sonores'**
+  String get srcSounds;
+
+  /// No description provided for @srcSoundsWho.
+  ///
+  /// In fr, this message translates to:
+  /// **'Synthétisés pour Octogone (aucun son externe)'**
+  String get srcSoundsWho;
+
   /// No description provided for @photosCount.
   ///
   /// In fr, this message translates to:
@@ -1441,6 +1453,228 @@ abstract class AppLocalizations {
   /// In fr, this message translates to:
   /// **'Complet'**
   String get styleComplet;
+
+  /// No description provided for @boosterOpen.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ouvrir'**
+  String get boosterOpen;
+
+  /// No description provided for @boosterChooseCollections.
+  ///
+  /// In fr, this message translates to:
+  /// **'Choisir d’autres collections'**
+  String get boosterChooseCollections;
+
+  /// No description provided for @boosterCollectionsTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Collections'**
+  String get boosterCollectionsTitle;
+
+  /// No description provided for @boosterCards.
+  ///
+  /// In fr, this message translates to:
+  /// **'{n} cartes'**
+  String boosterCards(int n);
+
+  /// No description provided for @boosterStandard.
+  ///
+  /// In fr, this message translates to:
+  /// **'Standard'**
+  String get boosterStandard;
+
+  /// No description provided for @boosterPremium.
+  ///
+  /// In fr, this message translates to:
+  /// **'Premium'**
+  String get boosterPremium;
+
+  /// No description provided for @boosterEvent.
+  ///
+  /// In fr, this message translates to:
+  /// **'Événement'**
+  String get boosterEvent;
+
+  /// No description provided for @boosterTestMode.
+  ///
+  /// In fr, this message translates to:
+  /// **'Mode test : boosters illimités'**
+  String get boosterTestMode;
+
+  /// No description provided for @boosterFreeReady.
+  ///
+  /// In fr, this message translates to:
+  /// **'{count, plural, =1{1 booster gratuit prêt} other{{count} boosters gratuits prêts}}'**
+  String boosterFreeReady(int count);
+
+  /// No description provided for @boosterNextFree.
+  ///
+  /// In fr, this message translates to:
+  /// **'Prochain booster gratuit dans {time}'**
+  String boosterNextFree(String time);
+
+  /// No description provided for @boosterNoFree.
+  ///
+  /// In fr, this message translates to:
+  /// **'Plus de booster gratuit pour l’instant'**
+  String get boosterNoFree;
+
+  /// No description provided for @boosterPayWithCoins.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ouvrir ce booster pour {price} pièces ?'**
+  String boosterPayWithCoins(int price);
+
+  /// No description provided for @boosterPrice.
+  ///
+  /// In fr, this message translates to:
+  /// **'{price} pièces'**
+  String boosterPrice(int price);
+
+  /// No description provided for @boosterNotEnoughCoins.
+  ///
+  /// In fr, this message translates to:
+  /// **'Pas assez de pièces.'**
+  String get boosterNotEnoughCoins;
+
+  /// No description provided for @boosterUnavailable.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ce booster n’est plus disponible.'**
+  String get boosterUnavailable;
+
+  /// No description provided for @boosterOdds.
+  ///
+  /// In fr, this message translates to:
+  /// **'Probabilités'**
+  String get boosterOdds;
+
+  /// No description provided for @boosterOddsPerPack.
+  ///
+  /// In fr, this message translates to:
+  /// **'{n} par booster'**
+  String boosterOddsPerPack(String n);
+
+  /// No description provided for @boosterOddsOneIn.
+  ///
+  /// In fr, this message translates to:
+  /// **'1 sur {n} boosters'**
+  String boosterOddsOneIn(int n);
+
+  /// No description provided for @boosterOddsPercent.
+  ///
+  /// In fr, this message translates to:
+  /// **'{pct} % des boosters'**
+  String boosterOddsPercent(int pct);
+
+  /// No description provided for @boosterPity.
+  ///
+  /// In fr, this message translates to:
+  /// **'Au moins une Légendaire tous les {n} boosters.'**
+  String boosterPity(int n);
+
+  /// No description provided for @boosterPityLeft.
+  ///
+  /// In fr, this message translates to:
+  /// **'{count, plural, =1{Garantie au prochain booster au plus tard.} other{Garantie dans {count} boosters au plus tard.}}'**
+  String boosterPityLeft(int count);
+
+  /// No description provided for @boosterNumberedNote.
+  ///
+  /// In fr, this message translates to:
+  /// **'Les cartes numérotées (/50, 1/1…) n’existent qu’en nombre limité, pour tous les joueurs réunis.'**
+  String get boosterNumberedNote;
+
+  /// No description provided for @boosterTearHint.
+  ///
+  /// In fr, this message translates to:
+  /// **'Glisse le doigt le long du haut pour déchirer'**
+  String get boosterTearHint;
+
+  /// No description provided for @boosterTapToReveal.
+  ///
+  /// In fr, this message translates to:
+  /// **'Touche pour révéler'**
+  String get boosterTapToReveal;
+
+  /// No description provided for @boosterTapForNext.
+  ///
+  /// In fr, this message translates to:
+  /// **'Touche pour la suivante'**
+  String get boosterTapForNext;
+
+  /// No description provided for @boosterRevealAll.
+  ///
+  /// In fr, this message translates to:
+  /// **'Tout révéler'**
+  String get boosterRevealAll;
+
+  /// No description provided for @boosterNew.
+  ///
+  /// In fr, this message translates to:
+  /// **'NOUVELLE'**
+  String get boosterNew;
+
+  /// No description provided for @boosterOpenAnother.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ouvrir un autre'**
+  String get boosterOpenAnother;
+
+  /// No description provided for @boosterDone.
+  ///
+  /// In fr, this message translates to:
+  /// **'Terminé'**
+  String get boosterDone;
+
+  /// No description provided for @boosterOpening.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ouverture…'**
+  String get boosterOpening;
+
+  /// No description provided for @coins.
+  ///
+  /// In fr, this message translates to:
+  /// **'{n} pièces'**
+  String coins(int n);
+
+  /// No description provided for @confirm.
+  ///
+  /// In fr, this message translates to:
+  /// **'Confirmer'**
+  String get confirm;
+
+  /// No description provided for @cancel.
+  ///
+  /// In fr, this message translates to:
+  /// **'Annuler'**
+  String get cancel;
+
+  /// No description provided for @settingsSound.
+  ///
+  /// In fr, this message translates to:
+  /// **'Sons'**
+  String get settingsSound;
+
+  /// No description provided for @settingsSoundSub.
+  ///
+  /// In fr, this message translates to:
+  /// **'Déchirure des boosters et révélation des cartes'**
+  String get settingsSoundSub;
+
+  /// No description provided for @durationHm.
+  ///
+  /// In fr, this message translates to:
+  /// **'{h} h {m} min'**
+  String durationHm(int h, int m);
+
+  /// No description provided for @durationM.
+  ///
+  /// In fr, this message translates to:
+  /// **'{m} min'**
+  String durationM(int m);
 }
 
 class _AppLocalizationsDelegate

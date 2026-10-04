@@ -292,6 +292,25 @@ def main() -> None:
         print(f"{e['nom']} : {len(series)} séries, {len(variants)} variantes, {len(cards)} cartes"
               + (f" ({missing} sans fiche combattant)" if missing else "")
               + (f", {removed} élément(s) retiré(s)" if removed else ""))
+    import_boosters(api)
+
+
+def import_boosters(api: "Api") -> None:
+    data = load_json(DATA / "boosters.json", {"boosters": []})["boosters"]
+    editions = {p.stem for p in (DATA / "editions").glob("*.json") if not p.name.startswith("_")}
+    rows = [{
+        "id": b["id"], "edition_id": b["edition_id"], "nom": b["nom"], "type": b["type"],
+        "nb_cartes": b["nb_cartes"], "prix_pieces": b["prix_pieces"], "en_vedette": b.get("en_vedette", False),
+        "actif": b.get("actif", True), "debut": b.get("debut"), "fin": b.get("fin"), "ordre": b.get("ordre", 0),
+        "visuel": b.get("visuel") or {}, "composition": b["composition"], "deleted": False,
+    } for b in data if b["edition_id"] in editions]
+    for b in rows:
+        n = sum(s.get("nb", 1) for s in b["composition"]["slots"])
+        if n != b["nb_cartes"]:
+            raise SystemExit(f"{b['id']} : {n} emplacements pour {b['nb_cartes']} cartes annoncées")
+    if rows:
+        api.upsert("booster_types", rows)
+    print(f"boosters : {len(rows)}")
 
 
 if __name__ == "__main__":

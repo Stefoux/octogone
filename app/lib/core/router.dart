@@ -9,6 +9,7 @@ import '../features/album/album_screen.dart';
 import '../features/album/binder_screen.dart';
 import '../features/auth/login_screen.dart';
 import '../features/auth/signup_screen.dart';
+import '../features/boosters/opening_screen.dart';
 import '../features/cards/card_detail_screen.dart';
 import '../features/combat/combat_screen.dart';
 import '../features/credits/credits_screen.dart';
@@ -55,6 +56,13 @@ final routerProvider = Provider<GoRouter>((ref) {
       GoRoute(path: '/reglages', builder: (_, _) => const SettingsScreen()),
       GoRoute(path: '/credits', builder: (_, _) => const CreditsScreen()),
       GoRoute(path: '/vitrine', builder: (_, _) => const ShowcaseScreen()),
+      GoRoute(
+        path: '/booster/:typeId',
+        builder: (_, s) => BoosterOpeningScreen(
+          typeId: Uri.decodeComponent(s.pathParameters['typeId']!),
+          payment: s.uri.queryParameters['paiement'] ?? 'gratuit',
+        ),
+      ),
       GoRoute(
         path: '/carte/:cardId',
         builder: (_, s) => CardDetailScreen(

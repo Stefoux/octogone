@@ -66,6 +66,12 @@ class Rivalries extends Table with _SyncedRow {
   TextColumn get fighterB => text()();
 }
 
+@DataClassName('BoosterTypeRow')
+class BoosterTypes extends Table with _SyncedRow {
+  TextColumn get editionId => text()();
+  IntColumn get ordre => integer()();
+}
+
 /// Exemplaires possédés par le joueur connecté (copie locale pour le hors ligne).
 @DataClassName('OwnedCardRow')
 class OwnedCards extends Table {
@@ -89,12 +95,13 @@ class SyncState extends Table {
   Set<Column<Object>> get primaryKey => {remoteTable};
 }
 
-@DriftDatabase(tables: [Fighters, Editions, SeriesTable, Cards, Variants, Images, Events, Rivalries, OwnedCards, SyncState])
+@DriftDatabase(
+    tables: [Fighters, Editions, SeriesTable, Cards, Variants, Images, Events, Rivalries, BoosterTypes, OwnedCards, SyncState])
 class AppDatabase extends _$AppDatabase {
   AppDatabase([QueryExecutor? executor]) : super(executor ?? _openConnection());
 
   @override
-  int get schemaVersion => 2;
+  int get schemaVersion => 3;
 
   @override
   MigrationStrategy get migration => MigrationStrategy(
@@ -102,6 +109,9 @@ class AppDatabase extends _$AppDatabase {
           if (from < 2) {
             await m.createTable(rivalries);
             await m.createTable(ownedCards);
+          }
+          if (from < 3) {
+            await m.createTable(boosterTypes);
           }
         },
       );

@@ -299,3 +299,39 @@ class OwnedCard {
   final String origine;
   final DateTime? obtenueLe;
 }
+
+class BoosterType {
+  BoosterType(Json j)
+      : id = j['id'] as String,
+        editionId = j['edition_id'] as String,
+        nom = j['nom'] as String,
+        type = j['type'] as String,
+        nbCartes = (j['nb_cartes'] as num).toInt(),
+        prixPieces = (j['prix_pieces'] as num?)?.toInt() ?? 0,
+        enVedette = j['en_vedette'] == true,
+        actif = j['actif'] != false,
+        debut = DateTime.tryParse(j['debut'] as String? ?? ''),
+        fin = DateTime.tryParse(j['fin'] as String? ?? ''),
+        ordre = (j['ordre'] as num?)?.toInt() ?? 0,
+        visuel = _map(j['visuel']),
+        composition = _map(j['composition']);
+
+  final String id;
+  final String editionId;
+  final String nom;
+  final String type;
+  final int nbCartes;
+  final int prixPieces;
+  final bool enVedette;
+  final bool actif;
+  final DateTime? debut;
+  final DateTime? fin;
+  final int ordre;
+  final Json visuel;
+  final Json composition;
+
+  bool get isPremium => type == 'premium';
+
+  bool availableAt(DateTime now) =>
+      actif && (debut == null || !debut!.isAfter(now)) && (fin == null || fin!.isAfter(now));
+}

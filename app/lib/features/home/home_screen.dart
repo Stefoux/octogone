@@ -1,154 +1,407 @@
+import 'dart:async';
+import 'dart:math' as math;
+
 import 'package:flutter/material.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:intl/intl.dart';
 
 import '../../core/l10n.dart';
 import '../../core/theme.dart';
 import '../../data/repositories/content_providers.dart';
+import '../../domain/models.dart';
+import '../../widgets/tilt_builder.dart';
 import '../auth/auth_providers.dart';
+import '../boosters/booster_flow.dart';
+import '../boosters/booster_pack.dart';
+import '../boosters/booster_service.dart';
 import 'welcome_pack.dart';
 
-class HomeScreen extends ConsumerWidget {
-  const HomeScreen({super.key});
+/// Accueil : le booster de la collection du moment occupe l'essentiel de
+/// l'écran (à la manière de TCG Pocket), avec l'état des boosters gratuits et
+/// l'accès aux autres collections en bas à droite.
+class HomeScreen extends ConsumerStatefulWidget {
+  const HomeScreen({super.key, this.useSensors = true});
+
+  final bool useSensors;
 
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
-    final l = context.l10n;
-    final profile = ref.watch(profileProvider).value;
-    final fighters = ref.watch(fightersProvider).value ?? const [];
-    final owned = ref.watch(ownedCardsProvider).value ?? const [];
-    final sync = ref.watch(syncControllerProvider);
-    final champions = fighters.where((f) => f.championActuel).length;
-
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(profile == null ? l.appTitle : l.helloUser(profile.pseudo)),
-        actions: [
-          IconButton(
-            tooltip: l.sync,
-            onPressed: sync.running ? null : () => ref.read(syncControllerProvider.notifier).sync(),
-            icon: sync.running
-                ? const SizedBox(width: 20, height: 20, child: CircularProgressIndicator(strokeWidth: 2))
-                : const Icon(Icons.sync),
-          ),
-        ],
-      ),
-      body: RefreshIndicator(
-        onRefresh: () => ref.read(syncControllerProvider.notifier).sync(),
-        child: ListView(
-          padding: const EdgeInsets.all(16),
-          children: [
-            _SyncCard(status: sync),
-            if (profile != null && !profile.welcomePackReceived) ...[
-              const SizedBox(height: 12),
-              const WelcomePackCard(),
-            ],
-            const SizedBox(height: 16),
-            Row(children: [
-              Expanded(child: _StatTile(icon: Icons.style, value: '${owned.length}', label: l.statMyCards)),
-              const SizedBox(width: 12),
-              Expanded(child: _StatTile(icon: Icons.people_alt, value: '${fighters.length}', label: l.statFighters)),
-              const SizedBox(width: 12),
-              Expanded(child: _StatTile(icon: Icons.emoji_events, value: '$champions', label: l.statChampions)),
-            ]),
-            const SizedBox(height: 16),
-            _ActionCard(
-              icon: Icons.collections_bookmark,
-              title: l.browseEditions,
-              subtitle: l.browseEditionsSub,
-              onTap: () => context.go('/album'),
-            ),
-            const SizedBox(height: 12),
-            _ActionCard(
-              icon: Icons.auto_awesome,
-              title: l.effectsShowcase,
-              subtitle: l.effectsShowcaseSub,
-              onTap: () => context.push('/vitrine'),
-            ),
-            const SizedBox(height: 12),
-            _ActionCard(
-              icon: Icons.people_alt,
-              title: l.allFighters,
-              subtitle: l.allFightersSub,
-              onTap: () => context.go('/combattants'),
-            ),
-            const SizedBox(height: 12),
-            _ActionCard(icon: Icons.card_giftcard, title: l.dailyBooster, subtitle: l.comingPhase3, enabled: false),
-          ],
-        ),
-      ),
-    );
-  }
+  ConsumerState<HomeScreen> createState() => _HomeScreenState();
 }
 
-class _SyncCard extends StatelessWidget {
-  const _SyncCard({required this.status});
-  final SyncStatus status;
+class _HomeScreenState extends ConsumerState<HomeScreen> {
+  final _pager = PageController(viewportFraction: 0.78);
+  int _page = 0;
+  String? _edition;
+
+  @override
+  void dispose() {
+    _pager.dispose();
+    super.dispose();
+  }
+
+  Future<void> _open(BoosterType b) async {
+    final payment = await choosePayment(context, ref, b);
+    if (payment == null || !mounted) return;
+    await context.push('/booster/${Uri.encodeComponent(b.id)}?paiement=$payment');
+    if (!mounted) return;
+    ref
+      ..invalidate(boosterStatusProvider)
+      ..invalidate(walletProvider);
+  }
 
   @override
   Widget build(BuildContext context) {
     final l = context.l10n;
-    final fmt = DateFormat.MMMd(Localizations.localeOf(context).toLanguageTag()).add_Hm();
-    final (icon, color, text) = status.running
-        ? (Icons.sync, AppColors.steel, l.syncRunning)
-        : status.error != null
-            ? (Icons.cloud_off, AppColors.warning, l.syncOffline)
-            : status.lastSync != null
-                ? (
-                    Icons.cloud_done,
-                    AppColors.success,
-                    status.received > 0
-                        ? l.syncUpToDateReceived(fmt.format(status.lastSync!), status.received)
-                        : l.syncUpToDate(fmt.format(status.lastSync!)),
-                  )
-                : (Icons.cloud_queue, AppColors.steel, l.syncWaiting);
-    return Card(
-      child: ListTile(leading: Icon(icon, color: color), title: Text(text, style: const TextStyle(fontSize: 14))),
+    final profile = ref.watch(profileProvider).value;
+    final boosters = ref.watch(currentBoostersProvider);
+    final types = ref.watch(boosterTypesProvider);
+
+    // Revenir sur le premier booster quand on change de collection
+    final edition = boosters.firstOrNull?.editionId;
+    if (edition != _edition) {
+      _edition = edition;
+      _page = 0;
+      if (_pager.hasClients) _pager.jumpToPage(0);
+    }
+    final current = boosters.isEmpty ? null : boosters[_page.clamp(0, boosters.length - 1)];
+
+    return Scaffold(
+      body: SafeArea(
+        child: Column(children: [
+          _HomeTopBar(pseudo: profile?.pseudo),
+          if (profile != null && !profile.welcomePackReceived)
+            const Padding(padding: EdgeInsets.fromLTRB(12, 0, 12, 4), child: WelcomePackCard()),
+          Expanded(
+            child: boosters.isEmpty
+                ? _EmptyBoosters(loading: types.isLoading)
+                : Column(children: [
+                    const SizedBox(height: 4),
+                    Text(
+                      boosters.first.nom.toUpperCase(),
+                      key: const Key('home-collection-title'),
+                      style: const TextStyle(fontFamily: 'Oswald', fontSize: 22, letterSpacing: 3, fontWeight: FontWeight.w700),
+                    ),
+                    Expanded(
+                      child: TiltBuilder(
+                        useSensors: widget.useSensors,
+                        builder: (context, tilt) => PageView.builder(
+                          key: const Key('home-boosters'),
+                          controller: _pager,
+                          itemCount: boosters.length,
+                          onPageChanged: (i) => setState(() => _page = i),
+                          itemBuilder: (context, i) => _PackSlide(
+                            booster: boosters[i],
+                            tilt: tilt,
+                            focused: i == _page,
+                            onTap: () => i == _page
+                                ? _open(boosters[i])
+                                : _pager.animateToPage(i, duration: 300.ms, curve: Curves.easeOut),
+                          ),
+                        ),
+                      ),
+                    ),
+                    if (boosters.length > 1) _Dots(count: boosters.length, index: _page),
+                    const SizedBox(height: 4),
+                    if (current != null) _PackCaption(booster: current),
+                    const Padding(padding: EdgeInsets.symmetric(horizontal: 16), child: _FreeStatus()),
+                  ]),
+          ),
+          Padding(
+            padding: const EdgeInsets.fromLTRB(16, 8, 16, 12),
+            child: Row(children: [
+              Expanded(
+                child: current == null
+                    ? const SizedBox()
+                    : FilledButton.icon(
+                        key: const Key('home-open'),
+                        onPressed: () => _open(current),
+                        icon: const Icon(Icons.bolt),
+                        label: Text(l.boosterOpen, overflow: TextOverflow.ellipsis),
+                        style: FilledButton.styleFrom(minimumSize: const Size.fromHeight(48)),
+                      ),
+              ),
+              const SizedBox(width: 10),
+              ConstrainedBox(
+                constraints: const BoxConstraints(maxWidth: 168),
+                child: OutlinedButton.icon(
+                  key: const Key('home-collections'),
+                  onPressed: () => showCollectionsSheet(context, ref),
+                  icon: const Icon(Icons.collections_bookmark_outlined, size: 18),
+                  label: Text(l.boosterChooseCollections, maxLines: 2, overflow: TextOverflow.ellipsis),
+                  style: OutlinedButton.styleFrom(
+                    minimumSize: const Size(0, 48),
+                    padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                  ),
+                ),
+              ),
+            ]),
+          ),
+        ]),
+      ),
     );
   }
 }
 
-class _StatTile extends StatelessWidget {
-  const _StatTile({required this.icon, required this.value, required this.label});
-  final IconData icon;
-  final String value;
-  final String label;
+class _HomeTopBar extends ConsumerWidget {
+  const _HomeTopBar({required this.pseudo});
+  final String? pseudo;
 
   @override
-  Widget build(BuildContext context) => Card(
-        child: Padding(
-          padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 8),
-          child: Column(children: [
-            Icon(icon, color: AppColors.gold),
-            const SizedBox(height: 6),
-            Text(value, style: const TextStyle(fontSize: 22, fontWeight: FontWeight.w900)),
-            Text(label, style: const TextStyle(color: AppColors.textMuted, fontSize: 12)),
+  Widget build(BuildContext context, WidgetRef ref) {
+    final l = context.l10n;
+    final coins = ref.watch(walletProvider).value;
+    final owned = ref.watch(ownedCardsProvider).value?.length ?? 0;
+    final sync = ref.watch(syncControllerProvider);
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(16, 6, 4, 6),
+      child: Row(children: [
+        Expanded(
+          child: Text(
+            pseudo == null ? l.appTitle : l.helloUser(pseudo!),
+            overflow: TextOverflow.ellipsis,
+            style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w800),
+          ),
+        ),
+        _Chip(icon: Icons.style, text: '$owned', tooltip: l.statMyCards),
+        const SizedBox(width: 6),
+        _Chip(icon: Icons.toll, text: coins == null ? '–' : '$coins', tooltip: l.coins(coins ?? 0), color: AppColors.gold),
+        IconButton(
+          tooltip: l.sync,
+          onPressed: sync.running ? null : () => ref.read(syncControllerProvider.notifier).sync(),
+          icon: sync.running
+              ? const SizedBox(width: 18, height: 18, child: CircularProgressIndicator(strokeWidth: 2))
+              : Icon(sync.error != null ? Icons.cloud_off : Icons.sync,
+                  color: sync.error != null ? AppColors.warning : null),
+        ),
+      ]),
+    );
+  }
+}
+
+class _Chip extends StatelessWidget {
+  const _Chip({required this.icon, required this.text, required this.tooltip, this.color});
+  final IconData icon;
+  final String text;
+  final String tooltip;
+  final Color? color;
+
+  @override
+  Widget build(BuildContext context) => Tooltip(
+        message: tooltip,
+        child: Container(
+          padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+          decoration: BoxDecoration(color: AppColors.surfaceHigh, borderRadius: BorderRadius.circular(20)),
+          child: Row(mainAxisSize: MainAxisSize.min, children: [
+            Icon(icon, size: 16, color: color ?? AppColors.textMuted),
+            const SizedBox(width: 5),
+            Text(text, style: const TextStyle(fontWeight: FontWeight.w700)),
           ]),
         ),
       );
 }
 
-class _ActionCard extends StatelessWidget {
-  const _ActionCard({required this.icon, required this.title, required this.subtitle, this.onTap, this.enabled = true});
-  final IconData icon;
-  final String title;
-  final String subtitle;
-  final VoidCallback? onTap;
-  final bool enabled;
+/// Un booster du carrousel : flotte doucement, s'incline avec le téléphone.
+class _PackSlide extends StatelessWidget {
+  const _PackSlide({required this.booster, required this.tilt, required this.focused, required this.onTap});
+  final BoosterType booster;
+  final Offset tilt;
+  final bool focused;
+  final VoidCallback onTap;
 
   @override
-  Widget build(BuildContext context) => Opacity(
-        opacity: enabled ? 1 : .5,
-        child: Card(
-          child: ListTile(
-            contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-            leading: Icon(icon, color: AppColors.gold, size: 32),
-            title: Text(title, style: const TextStyle(fontWeight: FontWeight.w700)),
-            subtitle: Text(subtitle),
-            trailing: enabled ? const Icon(Icons.chevron_right) : null,
-            onTap: enabled ? onTap : null,
+  Widget build(BuildContext context) {
+    final pack = BoosterPack(booster: booster, tilt: focused ? tilt : Offset.zero, animate: focused);
+    return LayoutBuilder(builder: (context, c) {
+      final h = math.min(c.maxHeight * 0.92, c.maxWidth / kPackAspect);
+      Widget child = SizedBox(height: h, width: h * kPackAspect, child: pack);
+      if (focused) {
+        child = Transform(
+          alignment: Alignment.center,
+          transform: Matrix4.identity()
+            ..setEntry(3, 2, 0.001)
+            ..rotateY(tilt.dx * 0.18)
+            ..rotateX(-tilt.dy * 0.12),
+          child: child,
+        )
+            .animate(onPlay: (ctl) => ctl.repeat(reverse: true))
+            .moveY(begin: -5, end: 5, duration: 2200.ms, curve: Curves.easeInOut);
+      }
+      return Center(
+        child: AnimatedScale(
+          scale: focused ? 1 : 0.86,
+          duration: 250.ms,
+          child: AnimatedOpacity(
+            opacity: focused ? 1 : 0.6,
+            duration: 250.ms,
+            child: GestureDetector(
+              key: Key('home-pack-${booster.id}'),
+              onTap: onTap,
+              child: DecoratedBox(
+                decoration: BoxDecoration(boxShadow: [
+                  if (focused)
+                    BoxShadow(
+                      color: _accent(booster).withValues(alpha: 0.35),
+                      blurRadius: 40,
+                      spreadRadius: -6,
+                    ),
+                ]),
+                child: child,
+              ),
+            ),
           ),
         ),
       );
+    });
+  }
+}
+
+Color _accent(BoosterType b) {
+  final s = b.visuel['accent'] as String?;
+  if (s == null || s.length != 7) return AppColors.gold;
+  return Color(int.parse('FF${s.substring(1)}', radix: 16));
+}
+
+class _Dots extends StatelessWidget {
+  const _Dots({required this.count, required this.index});
+  final int count;
+  final int index;
+
+  @override
+  Widget build(BuildContext context) => Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          for (var i = 0; i < count; i++)
+            AnimatedContainer(
+              duration: 200.ms,
+              margin: const EdgeInsets.symmetric(horizontal: 3),
+              width: i == index ? 18 : 7,
+              height: 7,
+              decoration: BoxDecoration(
+                color: i == index ? AppColors.gold : Colors.white24,
+                borderRadius: BorderRadius.circular(4),
+              ),
+            ),
+        ],
+      );
+}
+
+/// « Premium · 10 cartes · Probabilités »
+class _PackCaption extends ConsumerWidget {
+  const _PackCaption({required this.booster});
+  final BoosterType booster;
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final l = context.l10n;
+    final status = ref.watch(boosterStatusProvider).value;
+    final free = status != null && (status.testMode || (!booster.isPremium && status.charges > 0));
+    return Wrap(
+      alignment: WrapAlignment.center,
+      crossAxisAlignment: WrapCrossAlignment.center,
+      spacing: 6,
+      children: [
+        Text(
+          '${booster.isPremium ? l.boosterPremium : l.boosterStandard} · ${l.boosterCards(booster.nbCartes)}'
+          '${free ? '' : ' · ${l.boosterPrice(booster.prixPieces)}'}',
+          style: const TextStyle(color: AppColors.textMuted),
+        ),
+        TextButton(
+          key: const Key('home-odds'),
+          onPressed: () => showOddsSheet(context, ref, booster),
+          style: TextButton.styleFrom(
+            visualDensity: VisualDensity.compact,
+            padding: const EdgeInsets.symmetric(horizontal: 6),
+          ),
+          child: Text(l.boosterOdds),
+        ),
+      ],
+    );
+  }
+}
+
+/// État des boosters gratuits : mode test, recharges prêtes, compte à rebours.
+class _FreeStatus extends ConsumerStatefulWidget {
+  const _FreeStatus();
+
+  @override
+  ConsumerState<_FreeStatus> createState() => _FreeStatusState();
+}
+
+class _FreeStatusState extends ConsumerState<_FreeStatus> {
+  Timer? _timer;
+
+  @override
+  void initState() {
+    super.initState();
+    _timer = Timer.periodic(const Duration(seconds: 30), (_) {
+      if (!mounted) return;
+      final s = ref.read(boosterStatusProvider).value;
+      final left = s?.remaining(DateTime.now());
+      if (left != null && left == Duration.zero) {
+        ref.invalidate(boosterStatusProvider);
+      } else {
+        setState(() {});
+      }
+    });
+  }
+
+  @override
+  void dispose() {
+    _timer?.cancel();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final l = context.l10n;
+    final status = ref.watch(boosterStatusProvider);
+    final s = status.value;
+    if (s == null) return const SizedBox();
+    final left = s.remaining(DateTime.now());
+    final (icon, color, lines) = s.testMode
+        ? (Icons.all_inclusive, AppColors.gold, [l.boosterTestMode])
+        : (
+            Icons.card_giftcard,
+            s.charges > 0 ? AppColors.success : AppColors.textMuted,
+            [
+              if (s.charges > 0) l.boosterFreeReady(s.charges),
+              if (left != null && s.charges < s.capacity) l.boosterNextFree(formatDuration(l, left)),
+            ],
+          );
+    if (lines.isEmpty) return const SizedBox();
+    return Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+      Icon(icon, size: 16, color: color),
+      const SizedBox(width: 6),
+      Flexible(
+        child: Text(
+          lines.join(' · '),
+          key: const Key('home-free-status'),
+          textAlign: TextAlign.center,
+          style: TextStyle(fontSize: 12.5, color: color, height: 1.25),
+        ),
+      ),
+    ]);
+  }
+}
+
+class _EmptyBoosters extends StatelessWidget {
+  const _EmptyBoosters({required this.loading});
+  final bool loading;
+
+  @override
+  Widget build(BuildContext context) {
+    final l = context.l10n;
+    if (loading) return const Center(child: CircularProgressIndicator());
+    return Center(
+      child: Padding(
+        padding: const EdgeInsets.all(32),
+        child: Column(mainAxisSize: MainAxisSize.min, children: [
+          const Icon(Icons.cloud_sync, size: 48, color: AppColors.textMuted),
+          const SizedBox(height: 12),
+          Text(l.syncWaiting, textAlign: TextAlign.center, style: const TextStyle(color: AppColors.textMuted)),
+        ]),
+      ),
+    );
+  }
 }

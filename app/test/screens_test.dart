@@ -3,11 +3,15 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_riverpod/misc.dart' show Override;
 import 'package:flutter_test/flutter_test.dart';
 import 'package:octogone/core/l10n.dart';
+import 'package:octogone/core/sounds.dart';
 import 'package:octogone/core/theme.dart';
 import 'package:octogone/data/repositories/content_providers.dart';
 import 'package:octogone/domain/models.dart';
 import 'package:octogone/features/album/binder_screen.dart';
+import 'package:octogone/features/auth/auth_providers.dart';
 import 'package:octogone/features/auth/login_screen.dart';
+import 'package:octogone/features/boosters/booster_service.dart';
+import 'package:octogone/features/boosters/opening_screen.dart';
 import 'package:octogone/features/cards/card_back.dart';
 import 'package:octogone/features/cards/card_view.dart';
 import 'package:octogone/features/cards/holo_layer.dart';
@@ -15,6 +19,8 @@ import 'package:octogone/features/cards/interactive_card.dart';
 import 'package:octogone/features/cards/trading_card.dart';
 import 'package:octogone/features/fighters/fighter_detail_screen.dart';
 import 'package:octogone/features/fighters/fighters_screen.dart';
+import 'package:octogone/features/home/home_screen.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 Fighter _fighter(String id, String nom,
         {String categorie = 'mi_lourds', bool champion = false, List<String> aVerifier = const []}) =>
@@ -102,6 +108,106 @@ List<Override> _overrides({List<OwnedCard>? owned}) => [
       ownedCardsProvider.overrideWith((ref) => Stream.value(owned ?? _owned)),
       holoProgramProvider.overrideWith((ref) async => null),
     ];
+
+// --- Boosters ---------------------------------------------------------------
+
+const _slotsStandard = {
+  'slots': [
+    {'nb': 4, 'poids': {'commune': 100}},
+    {'nb': 1, 'poids': {'peu_commune': 75, 'rare': 22, 'epique': 3}},
+    {'nb': 1, 'poids': {'peu_commune': 50, 'rare': 33, 'epique': 12.5, 'legendaire': 4, 'mythique': 0.5}},
+  ],
+};
+
+BoosterType _booster(String edition, String nom, String type, {bool vedette = false}) => BoosterType({
+      'id': '$edition:$type',
+      'edition_id': edition,
+      'nom': nom,
+      'type': type,
+      'nb_cartes': type == 'premium' ? 10 : 6,
+      'prix_pieces': type == 'premium' ? 250 : 100,
+      'en_vedette': vedette,
+      'visuel': {'couleurs': ['#0E0F14', '#2A2416', '#E8B04A'], 'accent': '#E8B04A', 'motif': 'octogone'},
+      'composition': _slotsStandard,
+    });
+
+final _boosters = [
+  _booster('saison-2026', 'Saison 2026', 'standard', vedette: true),
+  _booster('saison-2026', 'Saison 2026', 'premium'),
+  _booster('ed', '2024 Topps Chrome UFC', 'standard'),
+];
+
+class _FakeBoosters implements BoosterService {
+  _FakeBoosters({this.testMode = false});
+  final bool testMode;
+  final opened = <(String, String)>[];
+
+  @override
+  Future<BoosterStatus> status() async => BoosterStatus(
+        testMode: testMode,
+        charges: 1,
+        capacity: 2,
+        nextIn: const Duration(hours: 3, minutes: 20),
+        pityThreshold: 40,
+        sinceLegendary: 12,
+        fetchedAt: DateTime.now(),
+      );
+
+  @override
+  Future<List<PulledCard>> open(String typeId, {String payment = 'gratuit'}) async {
+    opened.add((typeId, payment));
+    return [
+      PulledCard({'owned_id': 'n1', 'card_id': 'ed:2', 'variant_id': 'ed:BASE:base', 'rarete': 'commune', 'nouvelle': true}),
+      PulledCard({'owned_id': 'n2', 'card_id': 'ed:1', 'variant_id': 'ed:BASE:base', 'rarete': 'commune', 'nouvelle': false}),
+      PulledCard({
+        'owned_id': 'n3',
+        'card_id': 'ed:1',
+        'variant_id': 'ed:BASE:gold-refractor',
+        'rarete': 'epique',
+        'numero_serie': 7,
+        'tirage': 50,
+        'nouvelle': true,
+      }),
+    ];
+  }
+}
+
+class _IdleSync extends SyncController {
+  @override
+  SyncStatus build() => SyncStatus(lastSync: DateTime(2026, 10, 4));
+  @override
+  Future<void> sync() async {}
+}
+
+List<Override> _boosterOverrides(_FakeBoosters fake) => [
+      ..._overrides(),
+      boosterServiceProvider.overrideWithValue(fake),
+      boosterTypesProvider.overrideWith((ref) => Stream.value(_boosters)),
+      walletProvider.overrideWith((ref) async => 480),
+      profileProvider.overrideWith((ref) async => const Profile(
+            id: 'u1',
+            pseudo: 'Testeur',
+            friendCode: 'ABCD',
+            isAdmin: false,
+            adminMode: false,
+            welcomePackReceived: true,
+          )),
+      syncControllerProvider.overrideWith(_IdleSync.new),
+      soundFxProvider.overrideWithValue(SoundFx(enabled: false)),
+    ];
+
+/// Avance de plusieurs images (les animations en boucle empêchent pumpAndSettle).
+Future<void> _frames(WidgetTester tester, [int n = 8]) async {
+  for (var i = 0; i < n; i++) {
+    await tester.pump(const Duration(milliseconds: 100));
+  }
+}
+
+void _phoneScreen(WidgetTester tester) {
+  tester.view.physicalSize = const Size(1080, 2340);
+  tester.view.devicePixelRatio = 3;
+  addTearDown(tester.view.reset);
+}
 
 Widget _wrap(Widget child, {List<Override>? overrides, Locale? locale}) => ProviderScope(
       overrides: overrides ?? _overrides(),
@@ -252,5 +358,103 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.text('Gold Refractor /50'), findsOneWidget);
     expect(find.text('SuperFractor 1/1'), findsOneWidget);
+  });
+
+  testWidgets('Accueil : booster en vedette au centre, statut gratuit, autres collections', (tester) async {
+    SharedPreferences.setMockInitialValues({});
+    _phoneScreen(tester);
+    final fake = _FakeBoosters();
+    await tester.pumpWidget(_wrap(const HomeScreen(useSensors: false), overrides: _boosterOverrides(fake), locale: const Locale('fr')));
+    for (var i = 0; i < 5; i++) {
+      await tester.pump(const Duration(milliseconds: 100));
+    }
+    String title() => tester.widget<Text>(find.byKey(const Key('home-collection-title'))).data!;
+    expect(title(), 'SAISON 2026');
+    expect(find.byKey(const Key('home-pack-saison-2026:standard')), findsOneWidget);
+    expect(find.textContaining('Standard · 6 cartes'), findsOneWidget);
+    expect(find.text('1 booster gratuit prêt · Prochain booster gratuit dans 3 h 20 min'), findsOneWidget);
+    expect(find.text('480'), findsOneWidget);
+    expect(find.text('Choisir d’autres collections'), findsOneWidget);
+
+    // Bouton en bas à droite : liste des collections, puis bascule sur Topps Chrome
+    await tester.tap(find.byKey(const Key('home-collections')));
+    await _frames(tester);
+    expect(find.text('Collections'), findsOneWidget);
+    await tester.ensureVisible(find.text('2024 Topps Chrome UFC'));
+    await tester.pump();
+    await tester.tap(find.text('2024 Topps Chrome UFC'));
+    await _frames(tester);
+    expect(title(), '2024 TOPPS CHROME UFC');
+    expect(find.byKey(const Key('home-pack-ed:standard')), findsOneWidget);
+  });
+
+  testWidgets('Accueil : probabilités calculées depuis la composition', (tester) async {
+    SharedPreferences.setMockInitialValues({});
+    _phoneScreen(tester);
+    await tester.pumpWidget(
+        _wrap(const HomeScreen(useSensors: false), overrides: _boosterOverrides(_FakeBoosters()), locale: const Locale('fr')));
+    await tester.pump(const Duration(milliseconds: 300));
+    await tester.tap(find.byKey(const Key('home-odds')));
+    await _frames(tester);
+    expect(find.text('4 par booster'), findsOneWidget); // communes
+    expect(find.text('1 sur 200 boosters'), findsOneWidget); // mythique : 0,5 %
+    expect(find.text('Garantie dans 28 boosters au plus tard.'), findsOneWidget);
+  });
+
+  testWidgets('Ouverture : glisser pour déchirer, carte par carte, tout révéler, résumé', (tester) async {
+    _phoneScreen(tester);
+    final fake = _FakeBoosters(testMode: true);
+    await tester.pumpWidget(_wrap(
+      const BoosterOpeningScreen(typeId: 'saison-2026:standard', useSensors: false),
+      overrides: _boosterOverrides(fake),
+      locale: const Locale('fr'),
+    ));
+    await tester.pump(const Duration(milliseconds: 100));
+    expect(find.text('Glisse le doigt le long du haut pour déchirer'), findsOneWidget);
+
+    // Un petit glissement ne suffit pas
+    await tester.drag(find.byKey(const Key('booster-tear')), const Offset(60, 0));
+    await tester.pump();
+    expect(fake.opened, isEmpty);
+
+    await tester.drag(find.byKey(const Key('booster-tear')), const Offset(320, 0));
+    await tester.pump();
+    expect(fake.opened, [('saison-2026:standard', 'gratuit')]);
+    await tester.pump(const Duration(milliseconds: 800));
+    await tester.pump(const Duration(milliseconds: 100));
+    expect(find.text('1/3'), findsOneWidget);
+    expect(find.text('Touche pour révéler'), findsOneWidget);
+
+    // Première carte : commune, nouvelle
+    await tester.tap(find.byKey(const Key('booster-reveal')));
+    for (var i = 0; i < 8; i++) {
+      await tester.pump(const Duration(milliseconds: 100));
+    }
+    expect(find.text('COMMUNE'), findsOneWidget);
+    expect(find.text('NOUVELLE'), findsOneWidget);
+    expect(find.text('ZHANG WEILI'), findsOneWidget);
+
+    // Suivante
+    await tester.tap(find.byKey(const Key('booster-reveal')));
+    for (var i = 0; i < 5; i++) {
+      await tester.pump(const Duration(milliseconds: 100));
+    }
+    expect(find.text('2/3'), findsOneWidget);
+
+    await tester.tap(find.byKey(const Key('booster-reveal-all')));
+    for (var i = 0; i < 10; i++) {
+      await tester.pump(const Duration(milliseconds: 100));
+    }
+    expect(find.text('NOUVELLE'), findsNWidgets(2));
+    expect(find.text('Épique'), findsOneWidget);
+    expect(find.text('Ouvrir un autre'), findsOneWidget);
+    expect(find.text('Terminé'), findsOneWidget);
+
+    // Ouvrir un autre : retour au sachet (mode test : gratuit, sans confirmation)
+    await tester.tap(find.text('Ouvrir un autre'));
+    await tester.pump(const Duration(milliseconds: 300));
+    expect(find.text('Glisse le doigt le long du haut pour déchirer'), findsOneWidget);
+    await tester.pumpWidget(const SizedBox());
+    await tester.pump(const Duration(seconds: 1));
   });
 }

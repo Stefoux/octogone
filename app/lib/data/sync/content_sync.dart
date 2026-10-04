@@ -20,7 +20,9 @@ class ContentSync {
   static const pageSize = 1000;
 
   /// Ordre : les images d'abord (référencées par combattants et cartes).
-  static const tables = ['images', 'events', 'fighters', 'rivalries', 'editions', 'series', 'variants', 'cards'];
+  static const tables = [
+    'images', 'events', 'fighters', 'rivalries', 'editions', 'series', 'variants', 'cards', 'booster_types',
+  ];
 
   Future<Map<String, int>> syncAll() async {
     final report = <String, int>{};
@@ -210,6 +212,20 @@ class ContentSync {
                   updatedAt: updated,
                   fighterA: row['fighter_a'] as String,
                   fighterB: row['fighter_b'] as String,
+                ),
+                mode: InsertMode.insertOrReplace,
+              );
+      case 'booster_types':
+        deleted
+            ? b.deleteWhere(db.boosterTypes, (t) => t.id.equals(id))
+            : b.insert(
+                db.boosterTypes,
+                BoosterTypesCompanion.insert(
+                  id: id,
+                  payload: payload,
+                  updatedAt: updated,
+                  editionId: row['edition_id'] as String,
+                  ordre: (row['ordre'] as num?)?.toInt() ?? 0,
                 ),
                 mode: InsertMode.insertOrReplace,
               );

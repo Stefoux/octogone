@@ -2,11 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/l10n.dart';
+import '../../core/sounds.dart';
 import '../../data/repositories/content_providers.dart';
 import '../auth/auth_providers.dart';
 
 /// Version affichée (à garder alignée sur app/pubspec.yaml).
-const appVersion = '0.2.0';
+const appVersion = '0.3.0';
 
 class SettingsScreen extends ConsumerWidget {
   const SettingsScreen({super.key});
@@ -35,6 +36,14 @@ class SettingsScreen extends ConsumerWidget {
                 subtitle: Text(sync.error != null ? l.syncFailed : l.syncContentSub),
                 trailing: sync.running ? const SizedBox(width: 20, height: 20, child: CircularProgressIndicator(strokeWidth: 2)) : null,
                 onTap: sync.running ? null : () => ref.read(syncControllerProvider.notifier).sync(),
+              ),
+              const Divider(height: 1),
+              SwitchListTile(
+                secondary: const Icon(Icons.volume_up_outlined),
+                title: Text(l.settingsSound),
+                subtitle: Text(l.settingsSoundSub),
+                value: ref.watch(soundEnabledProvider),
+                onChanged: (v) => ref.read(soundEnabledProvider.notifier).set(v),
               ),
             ]),
           ),

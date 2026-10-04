@@ -586,6 +586,12 @@ class AppLocalizationsFr extends AppLocalizations {
   String get srcFont => 'Police Oswald (SIL Open Font License)';
 
   @override
+  String get srcSounds => 'Effets sonores';
+
+  @override
+  String get srcSoundsWho => 'Synthétisés pour Octogone (aucun son externe)';
+
+  @override
   String photosCount(int count) {
     return 'Photos ($count)';
   }
@@ -749,4 +755,155 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get styleComplet => 'Complet';
+
+  @override
+  String get boosterOpen => 'Ouvrir';
+
+  @override
+  String get boosterChooseCollections => 'Choisir d’autres collections';
+
+  @override
+  String get boosterCollectionsTitle => 'Collections';
+
+  @override
+  String boosterCards(int n) {
+    return '$n cartes';
+  }
+
+  @override
+  String get boosterStandard => 'Standard';
+
+  @override
+  String get boosterPremium => 'Premium';
+
+  @override
+  String get boosterEvent => 'Événement';
+
+  @override
+  String get boosterTestMode => 'Mode test : boosters illimités';
+
+  @override
+  String boosterFreeReady(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count boosters gratuits prêts',
+      one: '1 booster gratuit prêt',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String boosterNextFree(String time) {
+    return 'Prochain booster gratuit dans $time';
+  }
+
+  @override
+  String get boosterNoFree => 'Plus de booster gratuit pour l’instant';
+
+  @override
+  String boosterPayWithCoins(int price) {
+    return 'Ouvrir ce booster pour $price pièces ?';
+  }
+
+  @override
+  String boosterPrice(int price) {
+    return '$price pièces';
+  }
+
+  @override
+  String get boosterNotEnoughCoins => 'Pas assez de pièces.';
+
+  @override
+  String get boosterUnavailable => 'Ce booster n’est plus disponible.';
+
+  @override
+  String get boosterOdds => 'Probabilités';
+
+  @override
+  String boosterOddsPerPack(String n) {
+    return '$n par booster';
+  }
+
+  @override
+  String boosterOddsOneIn(int n) {
+    return '1 sur $n boosters';
+  }
+
+  @override
+  String boosterOddsPercent(int pct) {
+    return '$pct % des boosters';
+  }
+
+  @override
+  String boosterPity(int n) {
+    return 'Au moins une Légendaire tous les $n boosters.';
+  }
+
+  @override
+  String boosterPityLeft(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'Garantie dans $count boosters au plus tard.',
+      one: 'Garantie au prochain booster au plus tard.',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get boosterNumberedNote =>
+      'Les cartes numérotées (/50, 1/1…) n’existent qu’en nombre limité, pour tous les joueurs réunis.';
+
+  @override
+  String get boosterTearHint => 'Glisse le doigt le long du haut pour déchirer';
+
+  @override
+  String get boosterTapToReveal => 'Touche pour révéler';
+
+  @override
+  String get boosterTapForNext => 'Touche pour la suivante';
+
+  @override
+  String get boosterRevealAll => 'Tout révéler';
+
+  @override
+  String get boosterNew => 'NOUVELLE';
+
+  @override
+  String get boosterOpenAnother => 'Ouvrir un autre';
+
+  @override
+  String get boosterDone => 'Terminé';
+
+  @override
+  String get boosterOpening => 'Ouverture…';
+
+  @override
+  String coins(int n) {
+    return '$n pièces';
+  }
+
+  @override
+  String get confirm => 'Confirmer';
+
+  @override
+  String get cancel => 'Annuler';
+
+  @override
+  String get settingsSound => 'Sons';
+
+  @override
+  String get settingsSoundSub =>
+      'Déchirure des boosters et révélation des cartes';
+
+  @override
+  String durationHm(int h, int m) {
+    return '$h h $m min';
+  }
+
+  @override
+  String durationM(int m) {
+    return '$m min';
+  }
 }
