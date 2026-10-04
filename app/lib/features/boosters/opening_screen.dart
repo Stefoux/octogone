@@ -15,6 +15,8 @@ import '../../core/sounds.dart';
 import '../../core/theme.dart';
 import '../../data/repositories/content_providers.dart';
 import '../../domain/models.dart';
+import '../../widgets/arena_background.dart';
+import '../../widgets/rarity_backdrop.dart';
 import '../../widgets/tilt_builder.dart';
 import '../cards/card_backside.dart';
 import '../cards/card_view.dart';
@@ -228,15 +230,17 @@ class _BoosterOpeningScreenState extends ConsumerState<BoosterOpeningScreen> wit
     final accent = _accentOf(booster);
     return Scaffold(
       backgroundColor: AppColors.background,
-      body: Container(
-        decoration: BoxDecoration(
-          gradient: RadialGradient(
-            center: const Alignment(0, -0.1),
-            radius: 1.1,
-            colors: [accent.withValues(alpha: 0.22), AppColors.background],
-          ),
-        ),
-        child: SafeArea(
+      body: Stack(fit: StackFit.expand, children: [
+        // Fond : ambiance aux couleurs du booster, puis fond de la rareté de
+        // la carte une fois révélée
+        if (_phase == _Phase.reveal && _cards.isNotEmpty)
+          AnimatedBuilder(
+            animation: _flip,
+            builder: (context, _) => RarityBackdrop(rarete: _revealed ? _cards[_index].rarete : 'commune'),
+          )
+        else
+          ArenaBackground(intensity: 0.8, accent: accent),
+        SafeArea(
           child: Stack(children: [
             Column(children: [
               _TopBar(
@@ -258,7 +262,7 @@ class _BoosterOpeningScreenState extends ConsumerState<BoosterOpeningScreen> wit
             if (_celebrate) const Positioned.fill(child: ConfettiOverlay()),
           ]),
         ),
-      ),
+      ]),
       bottomNavigationBar: _phase == _Phase.summary
           ? SafeArea(
               child: Padding(

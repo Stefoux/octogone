@@ -13,6 +13,7 @@ import '../features/boosters/opening_screen.dart';
 import '../features/cards/card_detail_screen.dart';
 import '../features/combat/combat_screen.dart';
 import '../features/credits/credits_screen.dart';
+import '../features/entry/entry_screen.dart';
 import '../features/fighters/fighter_detail_screen.dart';
 import '../features/fighters/fighters_screen.dart';
 import '../features/home/home_screen.dart';
@@ -20,6 +21,7 @@ import '../features/profile/profile_screen.dart';
 import '../features/settings/settings_screen.dart';
 import '../features/shell/main_shell.dart';
 import '../features/showcase/showcase_screen.dart';
+import '../widgets/arena_background.dart';
 
 /// Rafraîchit go_router à chaque changement de session.
 class _AuthListenable extends ChangeNotifier {
@@ -41,9 +43,11 @@ final routerProvider = Provider<GoRouter>((ref) {
   ref.onDispose(listenable.dispose);
 
   return GoRouter(
-    initialLocation: '/accueil',
+    // Écran d'entrée à chaque lancement de l'app
+    initialLocation: '/entree',
     refreshListenable: listenable,
     redirect: (context, state) {
+      if (state.matchedLocation == '/entree') return null;
       final loggedIn = auth.currentSession != null;
       final onAuthPage = state.matchedLocation == '/connexion' || state.matchedLocation == '/inscription';
       if (!loggedIn && !onAuthPage) return '/connexion';
@@ -51,11 +55,15 @@ final routerProvider = Provider<GoRouter>((ref) {
       return null;
     },
     routes: [
-      GoRoute(path: '/connexion', builder: (_, _) => const LoginScreen()),
-      GoRoute(path: '/inscription', builder: (_, _) => const SignupScreen()),
-      GoRoute(path: '/reglages', builder: (_, _) => const SettingsScreen()),
-      GoRoute(path: '/credits', builder: (_, _) => const CreditsScreen()),
-      GoRoute(path: '/vitrine', builder: (_, _) => const ShowcaseScreen()),
+      GoRoute(
+        path: '/entree',
+        pageBuilder: (_, s) => NoTransitionPage(key: s.pageKey, child: const EntryScreen()),
+      ),
+      GoRoute(path: '/connexion', builder: (_, _) => const ArenaBackground(intensity: 0.7, child: LoginScreen())),
+      GoRoute(path: '/inscription', builder: (_, _) => const ArenaBackground(intensity: 0.7, child: SignupScreen())),
+      GoRoute(path: '/reglages', builder: (_, _) => const ArenaBackground(intensity: 0.12, child: SettingsScreen())),
+      GoRoute(path: '/credits', builder: (_, _) => const ArenaBackground(intensity: 0.12, child: CreditsScreen())),
+      GoRoute(path: '/vitrine', builder: (_, _) => const ArenaBackground(intensity: 0.12, child: ShowcaseScreen())),
       GoRoute(
         path: '/booster/:typeId',
         builder: (_, s) => BoosterOpeningScreen(
@@ -84,7 +92,9 @@ final routerProvider = Provider<GoRouter>((ref) {
               routes: [
                 GoRoute(
                   path: ':editionId',
-                  builder: (_, s) => BinderScreen(editionId: s.pathParameters['editionId']!),
+                  // Page empilée dans l'onglet : son propre fond (opaque) pendant la transition
+                  builder: (_, s) =>
+                      ArenaBackground(intensity: 0.12, child: BinderScreen(editionId: s.pathParameters['editionId']!)),
                 ),
               ],
             ),
@@ -96,7 +106,8 @@ final routerProvider = Provider<GoRouter>((ref) {
               routes: [
                 GoRoute(
                   path: ':id',
-                  builder: (_, s) => FighterDetailScreen(fighterId: s.pathParameters['id']!),
+                  builder: (_, s) =>
+                      ArenaBackground(intensity: 0.12, child: FighterDetailScreen(fighterId: s.pathParameters['id']!)),
                 ),
               ],
             ),

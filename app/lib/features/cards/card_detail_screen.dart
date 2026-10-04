@@ -7,6 +7,7 @@ import '../../core/l10n.dart';
 import '../../core/theme.dart';
 import '../../data/repositories/content_providers.dart';
 import '../../domain/models.dart';
+import '../../widgets/rarity_backdrop.dart';
 import 'card_view.dart';
 import 'interactive_card.dart';
 
@@ -31,34 +32,41 @@ class CardDetailScreen extends ConsumerWidget {
         : ref.watch(ownedCardsProvider).value?.firstWhereOrNull((o) => o.id == ownedId);
     final view = preview ?? buildCardView(ref, cardId: cardId, variantId: variantId, owned: owned);
 
-    return Scaffold(
-      appBar: AppBar(title: Text(view?.edition?.nom ?? '')),
-      body: view == null
-          ? const Center(child: CircularProgressIndicator())
-          : SafeArea(
-              child: Column(
-                children: [
-                  Expanded(
-                    child: InteractiveViewer(
-                      minScale: 1,
-                      maxScale: 3.5,
-                      child: Center(
-                        child: Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 36, vertical: 12),
-                          child: InteractiveCard(view: view),
+    // Fond propre à la rareté (la carte elle-même est inchangée)
+    return RarityBackdrop(
+      rarete: view?.variant.rarete ?? 'commune',
+      child: Scaffold(
+        backgroundColor: Colors.transparent,
+        appBar: AppBar(title: Text(view?.edition?.nom ?? '')),
+        body: view == null
+            ? const Center(child: CircularProgressIndicator())
+            : SafeArea(
+                child: Column(
+                  children: [
+                    Expanded(
+                      child: InteractiveViewer(
+                        minScale: 1,
+                        maxScale: 3.5,
+                        child: Center(
+                          child: Padding(
+                            padding: const EdgeInsets.symmetric(horizontal: 36, vertical: 12),
+                            child: InteractiveCard(view: view),
+                          ),
                         ),
                       ),
                     ),
-                  ),
-                  _Info(view: view, isPreview: preview != null),
-                  Padding(
-                    padding: const EdgeInsets.only(bottom: 12),
-                    child: Text('${l.cardFlipHint} · ${l.cardTiltHint}',
-                        style: const TextStyle(color: AppColors.textMuted, fontSize: 12)),
-                  ),
-                ],
+                    _Info(view: view, isPreview: preview != null),
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 12),
+                      child: Text(
+                        '${l.cardFlipHint} · ${l.cardTiltHint}',
+                        style: const TextStyle(color: AppColors.textMuted, fontSize: 12),
+                      ),
+                    ),
+                  ],
+                ),
               ),
-            ),
+      ),
     );
   }
 }
@@ -75,26 +83,33 @@ class _Info extends ConsumerWidget {
     final fighter = view.fighter;
     return Padding(
       padding: const EdgeInsets.fromLTRB(16, 4, 16, 8),
-      child: Column(children: [
-        Wrap(alignment: WrapAlignment.center, spacing: 8, runSpacing: 6, children: [
-          _Chip(text: variantLabel(l, view.effect, view.variant.nom), color: color),
-          _Chip(text: rarityLabel(l, view.variant.rarete), color: color),
-          if (view.printRun != null) _Chip(text: l.cardPrintRun(view.printRun!), color: AppColors.gold),
-          if (isPreview)
-            _Chip(text: l.showcasePreview, color: AppColors.steel)
-          else
-            _Chip(
-              text: view.ownedCount == 0 ? l.notOwned : l.ownedCopies(view.ownedCount),
-              color: view.ownedCount == 0 ? AppColors.textMuted : AppColors.success,
-            ),
-        ]),
-        if (fighter != null && !view.isDuel)
-          TextButton.icon(
-            onPressed: () => context.push('/combattants/${fighter.id}'),
-            icon: const Icon(Icons.person_outline, size: 18),
-            label: Text(fighter.nom),
+      child: Column(
+        children: [
+          Wrap(
+            alignment: WrapAlignment.center,
+            spacing: 8,
+            runSpacing: 6,
+            children: [
+              _Chip(text: variantLabel(l, view.effect, view.variant.nom), color: color),
+              _Chip(text: rarityLabel(l, view.variant.rarete), color: color),
+              if (view.printRun != null) _Chip(text: l.cardPrintRun(view.printRun!), color: AppColors.gold),
+              if (isPreview)
+                _Chip(text: l.showcasePreview, color: AppColors.steel)
+              else
+                _Chip(
+                  text: view.ownedCount == 0 ? l.notOwned : l.ownedCopies(view.ownedCount),
+                  color: view.ownedCount == 0 ? AppColors.textMuted : AppColors.success,
+                ),
+            ],
           ),
-      ]),
+          if (fighter != null && !view.isDuel)
+            TextButton.icon(
+              onPressed: () => context.push('/combattants/${fighter.id}'),
+              icon: const Icon(Icons.person_outline, size: 18),
+              label: Text(fighter.nom),
+            ),
+        ],
+      ),
     );
   }
 }
@@ -106,21 +121,26 @@ class _Chip extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => Container(
-        padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
-        decoration: BoxDecoration(
-          color: color.withValues(alpha: 0.14),
-          borderRadius: BorderRadius.circular(20),
-          border: Border.all(color: color.withValues(alpha: 0.55)),
-        ),
-        child: Text(text, style: TextStyle(color: color, fontWeight: FontWeight.w600, fontSize: 12)),
-      );
+    padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+    decoration: BoxDecoration(
+      color: color.withValues(alpha: 0.14),
+      borderRadius: BorderRadius.circular(20),
+      border: Border.all(color: color.withValues(alpha: 0.55)),
+    ),
+    child: Text(
+      text,
+      style: TextStyle(color: color, fontWeight: FontWeight.w600, fontSize: 12),
+    ),
+  );
 }
 
 /// Utilisé par la vitrine pour ouvrir une vue construite à la main.
 void openPreview(BuildContext context, CardView view) {
-  Navigator.of(context).push(MaterialPageRoute<void>(
-    builder: (_) => CardDetailScreen(cardId: view.card?.id ?? '', preview: view),
-  ));
+  Navigator.of(context).push(
+    MaterialPageRoute<void>(
+      builder: (_) => CardDetailScreen(cardId: view.card?.id ?? '', preview: view),
+    ),
+  );
 }
 
 /// Raccourci : la meilleure rareté possédée d'une carte (pour l'album).

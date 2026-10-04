@@ -25,10 +25,11 @@ class CreditsScreen extends ConsumerWidget {
       (l.srcChecklists, 'Checklist Insider', 'https://www.checklistinsider.com/'),
       (l.srcChecklistCheck, 'Checklist Center', 'https://www.checklistcenter.com/'),
       (l.srcPhotos, l.srcPhotosWho, 'https://commons.wikimedia.org/'),
-      (l.srcFont, 'Google Fonts', 'https://fonts.google.com/specimen/Oswald'),
+      (l.srcFont, 'Google Fonts', 'https://fonts.google.com/?query=Oswald+Barlow'),
     ];
 
     return Scaffold(
+      backgroundColor: Colors.transparent,
       appBar: AppBar(title: Text(l.creditsTitle)),
       body: ListView(
         padding: const EdgeInsets.all(16),

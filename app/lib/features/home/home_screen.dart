@@ -10,6 +10,7 @@ import '../../core/l10n.dart';
 import '../../core/theme.dart';
 import '../../data/repositories/content_providers.dart';
 import '../../domain/models.dart';
+import '../../widgets/pressable.dart';
 import '../../widgets/tilt_builder.dart';
 import '../auth/auth_providers.dart';
 import '../boosters/booster_flow.dart';
@@ -67,6 +68,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     final current = boosters.isEmpty ? null : boosters[_page.clamp(0, boosters.length - 1)];
 
     return Scaffold(
+      backgroundColor: Colors.transparent,
       body: SafeArea(
         child: Column(children: [
           _HomeTopBar(pseudo: profile?.pseudo),
@@ -76,12 +78,29 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
             child: boosters.isEmpty
                 ? _EmptyBoosters(loading: types.isLoading)
                 : Column(children: [
-                    const SizedBox(height: 4),
+                    const SizedBox(height: 2),
+                    if (boosters.first.enVedette)
+                      Text(
+                        l.homeFeatured.toUpperCase(),
+                        style: TextStyle(
+                          fontSize: 11.5,
+                          letterSpacing: 3,
+                          fontWeight: FontWeight.w600,
+                          color: AppColors.gold.withValues(alpha: 0.85),
+                        ),
+                      ).animate().fadeIn(duration: Motion.slow),
                     Text(
                       boosters.first.nom.toUpperCase(),
                       key: const Key('home-collection-title'),
-                      style: const TextStyle(fontFamily: 'Oswald', fontSize: 22, letterSpacing: 3, fontWeight: FontWeight.w700),
-                    ),
+                      style: const TextStyle(
+                        fontFamily: kDisplayFont,
+                        fontSize: 30,
+                        height: 1.1,
+                        letterSpacing: 2,
+                        fontWeight: FontWeight.w700,
+                        shadows: [Shadow(color: Colors.black, blurRadius: 16)],
+                      ),
+                    ).animate().fadeIn(duration: Motion.slow).slideY(begin: 0.25, end: 0, curve: Motion.curve),
                     Expanded(
                       child: TiltBuilder(
                         useSensors: widget.useSensors,
@@ -99,7 +118,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                                 : _pager.animateToPage(i, duration: 300.ms, curve: Curves.easeOut),
                           ),
                         ),
-                      ),
+                      ).animate().fadeIn(delay: 120.ms, duration: Motion.slow).scaleXY(begin: 0.92, end: 1, curve: Motion.curve),
                     ),
                     if (boosters.length > 1) _Dots(count: boosters.length, index: _page),
                     const SizedBox(height: 4),
@@ -108,7 +127,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                   ]),
           ),
           Padding(
-            padding: const EdgeInsets.fromLTRB(16, 8, 16, 12),
+            padding: const EdgeInsets.fromLTRB(16, 8, 16, 14),
             child: Row(children: [
               Expanded(
                 child: current == null
@@ -135,7 +154,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                   ),
                 ),
               ),
-            ]),
+            ]).animate().fadeIn(delay: 240.ms, duration: Motion.slow).slideY(begin: 0.4, end: 0, curve: Motion.curve),
           ),
         ]),
       ),
@@ -223,31 +242,52 @@ class _PackSlide extends StatelessWidget {
             ..rotateY(tilt.dx * 0.18)
             ..rotateX(-tilt.dy * 0.12),
           child: child,
-        )
-            .animate(onPlay: (ctl) => ctl.repeat(reverse: true))
-            .moveY(begin: -5, end: 5, duration: 2200.ms, curve: Curves.easeInOut);
+        );
+        if (!(MediaQuery.maybeDisableAnimationsOf(context) ?? false)) {
+          child = child
+              .animate(onPlay: (ctl) => ctl.repeat(reverse: true))
+              .moveY(begin: -5, end: 5, duration: 2200.ms, curve: Curves.easeInOut);
+        }
       }
+      final accent = _accent(booster);
       return Center(
         child: AnimatedScale(
           scale: focused ? 1 : 0.86,
-          duration: 250.ms,
+          duration: Motion.medium,
+          curve: Motion.curve,
           child: AnimatedOpacity(
-            opacity: focused ? 1 : 0.6,
-            duration: 250.ms,
-            child: GestureDetector(
+            opacity: focused ? 1 : 0.55,
+            duration: Motion.medium,
+            child: Pressable(
               key: Key('home-pack-${booster.id}'),
               onTap: onTap,
-              child: DecoratedBox(
-                decoration: BoxDecoration(boxShadow: [
-                  if (focused)
-                    BoxShadow(
-                      color: _accent(booster).withValues(alpha: 0.35),
-                      blurRadius: 40,
-                      spreadRadius: -6,
+              child: Stack(alignment: Alignment.center, clipBehavior: Clip.none, children: [
+                // Socle lumineux sous le sachet (ombre portée teintée)
+                if (focused)
+                  Positioned(
+                    bottom: -h * 0.04,
+                    child: IgnorePointer(
+                      child: Container(
+                        width: h * kPackAspect * 1.1,
+                        height: h * 0.09,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.all(Radius.elliptical(h, h * 0.09)),
+                          gradient: RadialGradient(colors: [
+                            accent.withValues(alpha: 0.45),
+                            accent.withValues(alpha: 0.12),
+                            Colors.transparent,
+                          ], stops: const [0, 0.5, 1]),
+                        ),
+                      ),
                     ),
-                ]),
-                child: child,
-              ),
+                  ),
+                DecoratedBox(
+                  decoration: BoxDecoration(boxShadow: [
+                    if (focused) BoxShadow(color: accent.withValues(alpha: 0.32), blurRadius: 44, spreadRadius: -8),
+                  ]),
+                  child: child,
+                ),
+              ]),
             ),
           ),
         ),

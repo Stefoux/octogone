@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 
 import '../../core/l10n.dart';
 import '../../core/theme.dart';
+import '../../widgets/octagon_emblem.dart';
 import 'auth_providers.dart';
 
 class LoginScreen extends ConsumerStatefulWidget {
@@ -46,6 +47,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
   Widget build(BuildContext context) {
     final l = context.l10n;
     return Scaffold(
+      backgroundColor: Colors.transparent,
       body: SafeArea(
         child: Center(
           child: SingleChildScrollView(
@@ -112,15 +114,19 @@ class _Brand extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        const Icon(Icons.sports_mma, size: 64, color: AppColors.gold),
-        const SizedBox(height: 12),
-        Text('OCTOGONE',
-            style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                  fontWeight: FontWeight.w900,
-                  letterSpacing: 6,
-                )),
+        const OctagonEmblem(size: 92, child: Icon(Icons.sports_mma, size: 34, color: AppColors.gold)),
+        const SizedBox(height: 18),
+        ShaderMask(
+          blendMode: BlendMode.srcIn,
+          shaderCallback: (r) => const LinearGradient(
+            colors: [AppColors.goldDeep, Color(0xFFF7E2AE), AppColors.gold],
+          ).createShader(r),
+          child: const Text('OCTOGONE',
+              style: TextStyle(fontFamily: kDisplayFont, fontSize: 38, fontWeight: FontWeight.w700, letterSpacing: 6)),
+        ),
         const SizedBox(height: 4),
-        Text(context.l10n.authTagline, style: const TextStyle(color: AppColors.textMuted)),
+        Text(context.l10n.authTagline,
+            style: const TextStyle(color: AppColors.textMuted, letterSpacing: 0.4, fontSize: 15, fontWeight: FontWeight.w500)),
       ],
     );
   }

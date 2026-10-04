@@ -54,6 +54,7 @@ class _SignupScreenState extends ConsumerState<SignupScreen> {
   Widget build(BuildContext context) {
     final l = context.l10n;
     return Scaffold(
+      backgroundColor: Colors.transparent,
       appBar: AppBar(
         title: Text(l.signupTitle),
         leading: IconButton(icon: const Icon(Icons.arrow_back), onPressed: () => context.go('/connexion')),

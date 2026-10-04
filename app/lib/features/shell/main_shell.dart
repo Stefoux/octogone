@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 
 import '../../core/l10n.dart';
 import '../../data/repositories/content_providers.dart';
+import '../../widgets/arena_background.dart';
 
 /// Barre de navigation principale + synchronisation du contenu au démarrage.
 class MainShell extends ConsumerStatefulWidget {
@@ -25,7 +26,11 @@ class _MainShellState extends ConsumerState<MainShell> {
   Widget build(BuildContext context) {
     final l = context.l10n;
     return Scaffold(
-      body: widget.shell,
+      // Ambiance commune à tous les onglets : forte sur l'accueil, discrète ailleurs
+      body: Stack(fit: StackFit.expand, children: [
+        ArenaBackground(intensity: widget.shell.currentIndex == 0 ? 1 : 0.12),
+        widget.shell,
+      ]),
       bottomNavigationBar: NavigationBar(
         selectedIndex: widget.shell.currentIndex,
         onDestinationSelected: (i) => widget.shell.goBranch(i, initialLocation: i == widget.shell.currentIndex),

@@ -34,6 +34,7 @@ class _FightersScreenState extends ConsumerState<FightersScreen> {
     final l = context.l10n;
     final fighters = ref.watch(fightersProvider);
     return Scaffold(
+      backgroundColor: Colors.transparent,
       appBar: AppBar(title: Text(l.fightersTitle)),
       body: Column(
         children: [

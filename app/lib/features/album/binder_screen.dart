@@ -55,7 +55,8 @@ class _BinderScreenState extends ConsumerState<BinderScreen> {
     final fighters = ref.watch(fightersByIdProvider);
 
     if (edition == null || series.isEmpty) {
-      return Scaffold(appBar: AppBar(), body: const Center(child: CircularProgressIndicator()));
+      return Scaffold(
+          backgroundColor: Colors.transparent, appBar: AppBar(), body: const Center(child: CircularProgressIndicator()));
     }
     final current = series.firstWhereOrNull((s) => s.id == _seriesId) ?? series.first;
     final inSeries = cards.where((c) => c.seriesId == current.id).toList();
@@ -81,6 +82,7 @@ class _BinderScreenState extends ConsumerState<BinderScreen> {
     final pages = (visible.length / 9).ceil().clamp(1, 1 << 20);
 
     return Scaffold(
+      backgroundColor: Colors.transparent,
       appBar: AppBar(
         title: Text(edition.nom),
         actions: [

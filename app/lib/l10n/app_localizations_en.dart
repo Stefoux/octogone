@@ -581,7 +581,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get srcPhotosWho => 'Wikimedia Commons (free licenses)';
 
   @override
-  String get srcFont => 'Oswald font (SIL Open Font License)';
+  String get srcFont => 'Oswald and Barlow fonts (SIL Open Font License)';
 
   @override
   String get srcSounds => 'Sound effects';
@@ -903,4 +903,10 @@ class AppLocalizationsEn extends AppLocalizations {
   String durationM(int m) {
     return '$m min';
   }
+
+  @override
+  String get entryCta => 'ENTER THE OCTAGON';
+
+  @override
+  String get homeFeatured => 'Featured collection';
 }

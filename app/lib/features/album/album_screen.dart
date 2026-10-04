@@ -16,6 +16,7 @@ class AlbumScreen extends ConsumerWidget {
     final l = context.l10n;
     final editions = ref.watch(editionsProvider);
     return Scaffold(
+      backgroundColor: Colors.transparent,
       appBar: AppBar(title: Text(l.albumTitle)),
       body: editions.when(
         loading: () => const Center(child: CircularProgressIndicator()),
@@ -60,9 +61,10 @@ class _Header extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => Padding(
-        padding: const EdgeInsets.fromLTRB(4, 12, 4, 8),
+        padding: const EdgeInsets.fromLTRB(4, 18, 4, 10),
         child: Text(text.toUpperCase(),
-            style: const TextStyle(color: AppColors.textMuted, letterSpacing: 1.5, fontWeight: FontWeight.w700)),
+            style: TextStyle(
+                color: AppColors.gold.withValues(alpha: 0.85), letterSpacing: 2.5, fontSize: 12, fontWeight: FontWeight.w600)),
       );
 }
 
@@ -82,7 +84,7 @@ class _EditionTile extends ConsumerWidget {
       padding: const EdgeInsets.only(bottom: 10),
       child: Card(
         child: InkWell(
-          borderRadius: BorderRadius.circular(16),
+          borderRadius: BorderRadius.circular(18),
           onTap: () => context.go('/album/${edition.id}'),
           child: Padding(
             padding: const EdgeInsets.all(14),
@@ -96,18 +98,19 @@ class _EditionTile extends ConsumerWidget {
                   gradient: LinearGradient(
                     colors: edition.familleCadre == 'chrome'
                         ? const [Color(0xFF8E9AAF), Color(0xFFE0E6EF), Color(0xFF6C7A91)]
-                        : const [Color(0xFF14161C), Color(0xFFE8B04A), Color(0xFF14161C)],
+                        : const [Color(0xFF0E0D0B), AppColors.gold, Color(0xFF0E0D0B)],
                     begin: Alignment.topLeft,
                     end: Alignment.bottomRight,
                   ),
                 ),
                 child: Text('${edition.annee}',
-                    style: const TextStyle(color: Colors.black, fontWeight: FontWeight.w900, fontSize: 12)),
+                    style: const TextStyle(color: Colors.black, fontFamily: kDisplayFont, fontWeight: FontWeight.w700, fontSize: 13)),
               ),
               const SizedBox(width: 14),
               Expanded(
                 child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                  Text(edition.nom, style: const TextStyle(fontWeight: FontWeight.w700, fontSize: 16)),
+                  Text(edition.nom,
+                      style: const TextStyle(fontFamily: kDisplayFont, fontWeight: FontWeight.w600, fontSize: 18, letterSpacing: 0.3)),
                   const SizedBox(height: 2),
                   Text(
                     edition.isReal ? l.editionCards(total) : '${l.editionCards(total)} · ${l.originalCreation}',

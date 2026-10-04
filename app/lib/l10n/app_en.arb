@@ -170,7 +170,7 @@
   "srcChecklistCheck": "Checklist cross-check",
   "srcPhotos": "Photos",
   "srcPhotosWho": "Wikimedia Commons (free licenses)",
-  "srcFont": "Oswald font (SIL Open Font License)",
+  "srcFont": "Oswald and Barlow fonts (SIL Open Font License)",
   "srcSounds": "Sound effects",
   "srcSoundsWho": "Synthesized for Octogone (no external sounds)",
   "photosCount": "Photos ({count})",
@@ -262,5 +262,7 @@
   "settingsSound": "Sounds",
   "settingsSoundSub": "Booster tearing and card reveals",
   "durationHm": "{h} h {m} min",
-  "durationM": "{m} min"
+  "durationM": "{m} min",
+  "entryCta": "ENTER THE OCTAGON",
+  "homeFeatured": "Featured collection"
 }

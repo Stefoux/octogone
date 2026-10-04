@@ -381,7 +381,7 @@
   "srcChecklistCheck": "Recoupement des checklists",
   "srcPhotos": "Photos",
   "srcPhotosWho": "Wikimedia Commons (licences libres)",
-  "srcFont": "Police Oswald (SIL Open Font License)",
+  "srcFont": "Polices Oswald et Barlow (SIL Open Font License)",
   "srcSounds": "Effets sonores",
   "srcSoundsWho": "Synthétisés pour Octogone (aucun son externe)",
   "photosCount": "Photos ({count})",
@@ -588,5 +588,7 @@
         "type": "int"
       }
     }
-  }
+  },
+  "entryCta": "ENTRER DANS L’OCTOGONE",
+  "homeFeatured": "Collection en vedette"
 }

@@ -18,6 +18,7 @@ class FighterDetailScreen extends ConsumerWidget {
     final l = context.l10n;
     final async = ref.watch(fighterProvider(fighterId));
     return Scaffold(
+      backgroundColor: Colors.transparent,
       appBar: AppBar(),
       body: async.when(
         loading: () => const Center(child: CircularProgressIndicator()),

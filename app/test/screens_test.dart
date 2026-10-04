@@ -13,12 +13,15 @@ import 'package:octogone/features/auth/login_screen.dart';
 import 'package:octogone/features/boosters/booster_service.dart';
 import 'package:octogone/features/boosters/opening_screen.dart';
 import 'package:octogone/features/cards/card_back.dart';
+import 'package:octogone/features/cards/card_backside.dart';
 import 'package:octogone/features/cards/card_view.dart';
 import 'package:octogone/features/cards/holo_layer.dart';
 import 'package:octogone/features/cards/interactive_card.dart';
 import 'package:octogone/features/cards/trading_card.dart';
 import 'package:octogone/features/fighters/fighter_detail_screen.dart';
+import 'package:octogone/features/entry/entry_screen.dart';
 import 'package:octogone/features/fighters/fighters_screen.dart';
+import 'package:octogone/widgets/rarity_backdrop.dart';
 import 'package:octogone/features/home/home_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -456,5 +459,60 @@ void main() {
     expect(find.text('Glisse le doigt le long du haut pour déchirer'), findsOneWidget);
     await tester.pumpWidget(const SizedBox());
     await tester.pump(const Duration(seconds: 1));
+  });
+
+  testWidgets('Écran d’entrée : titre lettre par lettre, cartes phares, tout l’écran pour entrer', (tester) async {
+    _phoneScreen(tester);
+    var entered = 0;
+    await tester.pumpWidget(_wrap(EntryScreen(useSensors: false, onEnter: () => entered++),
+        overrides: _boosterOverrides(_FakeBoosters()), locale: const Locale('fr')));
+    await tester.pump(const Duration(milliseconds: 100));
+    // Au début seul l'octogone se trace : le texte d'entrée n'est pas encore visible
+    final cta = find.text('ENTRER DANS L’OCTOGONE');
+    expect(cta, findsOneWidget);
+    double ctaOpacity() => tester.widget<Opacity>(find.ancestor(of: cta, matching: find.byType(Opacity)).first).opacity;
+    expect(ctaOpacity(), 0);
+    await _frames(tester, 32);
+    expect(ctaOpacity(), greaterThan(0.5));
+    for (final letter in ['O', 'C', 'T', 'G', 'N', 'E']) {
+      expect(find.text(letter), findsWidgets);
+    }
+    // Cartes absentes du cache de test : dos de carte autour de l'octogone
+    expect(find.byType(CardBackside), findsNWidgets(kPrestigeCards.length));
+
+    // Un toucher n'importe où (ici en haut à gauche) lance l'entrée
+    await tester.tapAt(const Offset(30, 120));
+    await _frames(tester, 10);
+    expect(entered, 1);
+    await tester.pumpWidget(const SizedBox());
+  });
+
+  testWidgets('Écran d’entrée : animations réduites, tout est affiché d’emblée', (tester) async {
+    _phoneScreen(tester);
+    var entered = 0;
+    await tester.pumpWidget(_wrap(
+      MediaQuery(
+        data: const MediaQueryData(size: Size(360, 780), disableAnimations: true),
+        child: EntryScreen(useSensors: false, onEnter: () => entered++),
+      ),
+      overrides: _boosterOverrides(_FakeBoosters()),
+      locale: const Locale('fr'),
+    ));
+    await tester.pump();
+    final cta = find.text('ENTRER DANS L’OCTOGONE');
+    expect(tester.widget<Opacity>(find.ancestor(of: cta, matching: find.byType(Opacity)).first).opacity, greaterThan(0.5));
+    await tester.tap(find.byKey(const Key('entry-enter')));
+    await tester.pump();
+    expect(entered, 1);
+  });
+
+  testWidgets('Fonds de rareté : chaque niveau s’affiche (commune à mythique)', (tester) async {
+    for (final r in ['commune', 'peu_commune', 'rare', 'epique', 'legendaire', 'mythique']) {
+      await tester.pumpWidget(MaterialApp(home: RarityBackdrop(rarete: r, child: Text(r))));
+      await tester.pump(const Duration(seconds: 1));
+      expect(find.text(r), findsOneWidget);
+      expect(tester.takeException(), isNull);
+    }
+    await tester.pumpWidget(const SizedBox());
   });
 }

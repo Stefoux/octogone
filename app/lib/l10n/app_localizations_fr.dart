@@ -583,7 +583,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get srcPhotosWho => 'Wikimedia Commons (licences libres)';
 
   @override
-  String get srcFont => 'Police Oswald (SIL Open Font License)';
+  String get srcFont => 'Polices Oswald et Barlow (SIL Open Font License)';
 
   @override
   String get srcSounds => 'Effets sonores';
@@ -906,4 +906,10 @@ class AppLocalizationsFr extends AppLocalizations {
   String durationM(int m) {
     return '$m min';
   }
+
+  @override
+  String get entryCta => 'ENTRER DANS L’OCTOGONE';
+
+  @override
+  String get homeFeatured => 'Collection en vedette';
 }

@@ -1121,7 +1121,7 @@ abstract class AppLocalizations {
   /// No description provided for @srcFont.
   ///
   /// In fr, this message translates to:
-  /// **'Police Oswald (SIL Open Font License)'**
+  /// **'Polices Oswald et Barlow (SIL Open Font License)'**
   String get srcFont;
 
   /// No description provided for @srcSounds.
@@ -1675,6 +1675,18 @@ abstract class AppLocalizations {
   /// In fr, this message translates to:
   /// **'{m} min'**
   String durationM(int m);
+
+  /// No description provided for @entryCta.
+  ///
+  /// In fr, this message translates to:
+  /// **'ENTRER DANS L’OCTOGONE'**
+  String get entryCta;
+
+  /// No description provided for @homeFeatured.
+  ///
+  /// In fr, this message translates to:
+  /// **'Collection en vedette'**
+  String get homeFeatured;
 }
 
 class _AppLocalizationsDelegate

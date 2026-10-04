@@ -3,7 +3,16 @@
 Chaque version publiée a sa release GitHub avec les APK Android (`scripts/release_android.sh`).
 Le texte d'une section sert de notes à la release correspondante.
 
-## 0.3.0
+## 0.3.1
+
+Direction artistique
+- Nouvel écran d'entrée à chaque lancement : l'octogone noir (motif de l'Octogone Noir) se trace puis tourne lentement, « OCTOGONE » apparaît lettre par lettre avec un reflet métallique, six cartes de prestige flottent autour (Ceinture d'Or, SuperFractor, Octogone Noir…) et s'inclinent avec le téléphone (ou la souris). Tout l'écran sert à entrer.
+- Fonds animés discrets : faisceaux de projecteurs, fumée, poussière dans la lumière, motif d'octogone et grain. Ambiance forte sur l'entrée et l'accueil, légère sur les écrans de lecture.
+- Fond propre à chaque rareté derrière la carte (fiche et ouverture de booster) : de plus en plus spectaculaire, jusqu'aux rayons et étincelles des Légendaires et à l'aura des Mythiques.
+- Nouvelle typographie (Oswald pour les titres, Barlow pour le texte), palette chaude et cohérente, boutons, barre de navigation et fiches retravaillés, accueil animé à l'ouverture.
+- Icône de l'app et écran de démarrage sombres (plus de flash blanc).
+- Les animations s'arrêtent si le téléphone demande de réduire les animations.
+
 
 Boosters (phase 3)
 - Nouvel accueil : le booster de la collection du moment occupe l'écran (Saison 2026 en vedette), Standard et Premium côte à côte, bouton « Choisir d'autres collections » en bas à droite (2024 Topps Chrome UFC disponible aussi).

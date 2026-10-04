@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../core/l10n.dart';
 import '../../core/theme.dart';
+import '../../widgets/octagon_emblem.dart';
 
 class CombatScreen extends StatelessWidget {
   const CombatScreen({super.key});
@@ -10,6 +11,7 @@ class CombatScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final l = context.l10n;
     return Scaffold(
+      backgroundColor: Colors.transparent,
       appBar: AppBar(title: Text(l.navFight)),
       body: Center(
         child: Padding(
@@ -17,9 +19,13 @@ class CombatScreen extends StatelessWidget {
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              const Icon(Icons.sports_mma, size: 64, color: AppColors.textMuted),
-              const SizedBox(height: 16),
-              Text(l.fightComing, textAlign: TextAlign.center),
+              const OctagonEmblem(size: 128, child: Icon(Icons.sports_mma, size: 46, color: AppColors.gold)),
+              const SizedBox(height: 24),
+              ConstrainedBox(
+                constraints: const BoxConstraints(maxWidth: 320),
+                child: Text(l.fightComing,
+                    textAlign: TextAlign.center, style: const TextStyle(color: AppColors.textMuted, fontSize: 15.5, height: 1.45)),
+              ),
             ],
           ),
         ),

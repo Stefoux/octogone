@@ -36,6 +36,7 @@ class ShowcaseScreen extends ConsumerWidget {
     final l = context.l10n;
     final samples = _buildSamples(ref);
     return Scaffold(
+      backgroundColor: Colors.transparent,
       appBar: AppBar(title: Text(l.effectsShowcase)),
       body: samples.isEmpty
           ? const Center(child: CircularProgressIndicator())
