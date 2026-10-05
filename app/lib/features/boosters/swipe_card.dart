@@ -42,6 +42,9 @@ class SwipeCard extends StatefulWidget {
 
 class SwipeCardState extends State<SwipeCard> with TickerProviderStateMixin {
   Offset _drag = Offset.zero;
+
+  /// Geste réel du doigt (sans le freinage), pour décider du départ.
+  Offset _raw = Offset.zero;
   late final AnimationController _back =
       AnimationController(vsync: this, duration: const Duration(milliseconds: 420))..addListener(_onBack);
   late final AnimationController _fly = AnimationController(vsync: this, duration: const Duration(milliseconds: 420));
@@ -50,8 +53,8 @@ class SwipeCardState extends State<SwipeCard> with TickerProviderStateMixin {
   AxisDirection? _dir;
 
   /// Distance (en pixels) ou vitesse (px/s) à partir de laquelle la carte part.
-  static const _distance = 80.0;
-  static const _velocity = 650.0;
+  static const _distance = 60.0;
+  static const _velocity = 550.0;
 
   bool get flying => _dir != null;
 
@@ -85,16 +88,19 @@ class SwipeCardState extends State<SwipeCard> with TickerProviderStateMixin {
     if (flying) return;
     _back.stop();
     // Freiné quand la carte ne peut pas encore partir
+    _raw += d.delta;
     setState(() => _drag += d.delta * (widget.canFling ? 1 : 0.25));
   }
 
   void _onEnd(DragEndDetails d) {
     if (flying) return;
     final v = d.velocity.pixelsPerSecond;
-    final moved = _drag.distance > _distance / (widget.canFling ? 1 : 4);
+    final raw = _raw;
+    _raw = Offset.zero;
+    final moved = raw.distance > _distance;
     final fast = v.distance > _velocity;
     if (moved || fast) {
-      final dir = _dominant(fast && v.distance > _drag.distance * 4 ? v : _drag);
+      final dir = _dominant(fast && v.distance > raw.distance * 4 ? v : raw);
       if (widget.canFling) {
         fling(dir);
         return;
