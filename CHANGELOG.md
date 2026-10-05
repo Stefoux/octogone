@@ -3,7 +3,19 @@
 Chaque version publiée a sa release GitHub avec les APK Android (`scripts/release_android.sh`).
 Le texte d'une section sert de notes à la release correspondante.
 
-## 0.3.2
+## 0.3.3
+
+Boosters
+- Nouveaux sachets photo : le Standard montre 5 combattants en V (le premier devant, les autres en retrait), le Premium le combattant phare avec ses ceintures dans un cadre doré gravé, noir et or, avec un reflet doré qui suit l'inclinaison.
+- Ouverture interactive : on fait passer les cartes en glissant dans n'importe quel sens ou en touchant. Chaque côté a son animation (lancée en tournoyant à gauche et à droite, envol en tournant vers le haut, chute vers le bas). Une carte encore cachée se retourne au premier geste.
+- Sons premium : déchirure métallisée, envol de carte, révélations de plus en plus puissantes selon la rareté (foule et cloche pour les Légendaires ; boom, gong, chœur et foule en délire pour les Mythiques).
+
+Ma vitrine
+- Expose jusqu'à 9 cartes, dont une place d'honneur. Ajout depuis un sélecteur (les plus rares d'abord), réorganisation par appui long et glisser-déposer, retrait en mode Modifier.
+- Les cartes rares sont mises en valeur (halo et socle de la couleur de leur rareté, liseré doré animé pour les Légendaires et Mythiques).
+- Sauvegardée sur le serveur, accessible depuis le Profil et depuis la fiche de chaque carte (« Exposer dans ma vitrine »).
+- L'aperçu des raretés s'appelle désormais « Galerie des effets ».
+
 
 Écran d'entrée et navigation
 - L'octogone multicolore est centré dans le grand octogone et tourne avec lui.
