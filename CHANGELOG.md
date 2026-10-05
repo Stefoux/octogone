@@ -3,7 +3,16 @@
 Chaque version publiée a sa release GitHub avec les APK Android (`scripts/release_android.sh`).
 Le texte d'une section sert de notes à la release correspondante.
 
-## 0.3.4
+## 0.3.5
+
+Économie (fin de la phase 3)
+- Menu : l'icône Profil de la barre du bas devient un menu qui glisse de la droite, avec Compte, Boutique et ton solde de pièces et de fragments.
+- Boutique : boosters à acheter en pièces et Atelier. Les pièces affichées sur l'accueil ouvrent aussi la Boutique.
+- Atelier : recycle tes doublons en fragments (tout d'un coup ou un par un depuis la fiche) et fabrique une carte précise avec des fragments. Barème exigeant : Commune 5, Peu commune 15, Rare 40, Épique 100, Légendaire 400 au recyclage ; la fabrication coûte 6 fois plus. Les cartes numérotées ne se recyclent ni ne se fabriquent, et tu peux protéger une carte.
+- Défis : 4 défis du jour et 3 de la semaine (ouvrir des boosters, révéler des raretés, obtenir des cartes nouvelles, recycler, fabriquer, modifier ta vitrine…), renouvelés à minuit et le lundi, avec une pastille sur l'accueil.
+- Succès : 17 objectifs permanents (boosters ouverts, cartes différentes, première Légendaire et Mythique, séries complètes, vitrine pleine…), dans le Compte.
+- Toutes les pièces et fragments gagnés ou dépensés sont tracés côté serveur.
+
 
 - Le logo de l'écran d'entrée (octogone noir aux anneaux multicolores, cadre en métal noir et liseré doré) est au centre du booster Standard, derrière les combattants.
 - Ce logo devient aussi l'icône de l'app (Android et iOS).

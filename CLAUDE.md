@@ -73,6 +73,9 @@ Points d'accroche :
 ### Niveaux
 De l'XP gagnée en combat et via des quêtes. Prévoir une table `profils_progression` (xp, niveau) mise à jour uniquement par des fonctions serveur : fin de combat, quête validée.
 
+### Économie déjà en place (phase 3 terminée, v0.3.5)
+- Les gains et dépenses passent par `_crediter` (journal `wallet_ledger`). Les événements de jeu passent par `_evenement(joueur, type, n)` : les défis s'y abonnent. Les combats y enverront `gagner_combat` (défis déjà prêts, inactifs).
+- Les futures récompenses d'XP pourront lire le journal ou ajouter une source.
+
 ### Reste du cahier des charges
-- **Phase 3 :** fragments et recyclage des doublons, défis quotidiens et hebdomadaires, succès, boutique.
 - **Phases suivantes :** 4 combat contre l'IA, 5 en ligne, 6 admin, 7 contenu complet, 8 builds (voir `docs/PLAN.md`).

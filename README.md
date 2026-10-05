@@ -88,6 +88,15 @@ Vérifier les probabilités et la concurrence sur le Supabase local :
 cd data/scripts && .venv/bin/python test_boosters_load.py --n 100000
 ```
 
+## Économie
+
+Tout se passe côté serveur et chaque mouvement de pièces ou de fragments est inscrit dans `wallet_ledger`.
+
+- **Atelier** (`20261007000200_atelier.sql`) : `recycler(ids)` (garde au moins un exemplaire de chaque variante ; jamais les numérotées, copies admin, cartes protégées ou exposées), `fabriquer(carte, variante)` (pas les numérotées ni les variantes spéciales, éligibilité respectée), `proteger(id, bool)`. Barème dans `economy_config.fragments`.
+- **Défis** (`data/defis.json`) : `nb_defis_jour` et `nb_defis_semaine` dans `economy_config` (4 et 3), un par type, renouvelés à minuit et le lundi (heure de Paris). La progression est comptée par `_evenement(joueur, type, quantité)`, appelé par les fonctions serveur ; récompense avec `recuperer_defi`.
+- **Succès** (`data/succes.json`) : progression calculée depuis les données du joueur (`_valeur_succes`), récompense avec `recuperer_succes`.
+- Les récompenses passent par `_crediter(joueur, source, pièces, fragments)`. Les combats de la phase 4 s'y brancheront, avec `plafond_combat_jour`.
+
 ## Versions
 
 Chaque version de l'app est publiée dans les [releases GitHub](https://github.com/Stefoux/octogone/releases) avec ses APK et son IPA (ajoutée par GitHub Actions une vingtaine de minutes après le tag). Pour publier : augmenter `version` dans `app/pubspec.yaml`, décrire la version dans [CHANGELOG.md](CHANGELOG.md), commiter, puis :
