@@ -7,7 +7,7 @@ import '../../data/repositories/content_providers.dart';
 import '../auth/auth_providers.dart';
 
 /// Version affichée (à garder alignée sur app/pubspec.yaml).
-const appVersion = '0.3.3';
+const appVersion = '0.3.4';
 
 class SettingsScreen extends ConsumerWidget {
   const SettingsScreen({super.key});

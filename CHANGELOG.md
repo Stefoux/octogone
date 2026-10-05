@@ -3,7 +3,11 @@
 Chaque version publiée a sa release GitHub avec les APK Android (`scripts/release_android.sh`).
 Le texte d'une section sert de notes à la release correspondante.
 
-## 0.3.3
+## 0.3.4
+
+- Le logo de l'écran d'entrée (octogone noir aux anneaux multicolores, cadre en métal noir et liseré doré) est au centre du booster Standard, derrière les combattants.
+- Ce logo devient aussi l'icône de l'app (Android et iOS).
+
 
 Boosters
 - Nouveaux sachets photo : le Standard montre 5 combattants en V (le premier devant, les autres en retrait), le Premium le combattant phare avec ses ceintures dans un cadre doré gravé, noir et or, avec un reflet doré qui suit l'inclinaison.

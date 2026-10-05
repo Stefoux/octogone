@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import '../../core/l10n.dart';
 import '../../core/theme.dart';
 import '../../domain/models.dart';
+import '../../widgets/octagon_emblem.dart';
 import '../cards/effects.dart';
 import '../cards/holo_layer.dart';
 
@@ -344,6 +345,14 @@ class PhotoPack extends StatelessWidget {
             ),
           ),
         ),
+      ),
+      // Logo de l'app au centre du V, derrière les combattants
+      Positioned(
+        left: cx - 64,
+        top: 150,
+        width: 128,
+        height: 128,
+        child: OctagonEmblem(size: 128, animate: animate, glow: true),
       ),
       bust(3, cx - d12 - d23, s, bottom1 - 2 * step, 0.7),
       bust(5, cx + d12 + d23, s, bottom1 - 2 * step, 0.7),

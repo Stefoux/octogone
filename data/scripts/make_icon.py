@@ -1,5 +1,6 @@
-"""Icône de l'app (Android + iOS) : octogone noir à bord doré et losange,
-comme l'emblème des boosters. Création originale, générée sans fichier externe.
+"""Icône de l'app (Android + iOS) : le logo de l'écran d'entrée (octogone
+noir, anneaux multicolores, cadre en métal noir, liseré doré). Création
+originale, générée sans fichier externe.
 
     .venv/bin/python make_icon.py
 """
@@ -31,30 +32,82 @@ def radial(size: int, inner: tuple, outer: tuple) -> Image.Image:
     return img
 
 
+def hsv(h: float) -> tuple[int, int, int]:
+    """Teinte de l'arc-en-ciel (saturation 0,7, comme le shader de l'app)."""
+    import colorsys
+    r, g, b = colorsys.hsv_to_rgb(h % 1.0, 0.7, 1.0)
+    return round(r * 255), round(g * 255), round(b * 255)
+
+
+def rainbow_ring(size: int, c: float, r: float, width: float, alpha: int) -> Image.Image:
+    """Anneau octogonal dont la couleur suit l'angle autour du centre (comme
+    les anneaux holographiques de l'écran d'entrée) : couronne pleine entre
+    deux octogones, coloriée par un dégradé conique (angles nets)."""
+    import numpy as np
+    yy, xx = np.mgrid[0:size, 0:size]
+    hue = (np.arctan2(yy - c, xx - c) / (2 * np.pi)) % 1.0
+    # hsv -> rgb vectorisé (s = 0,7, v = 1)
+    k = np.stack([(5 + hue * 6) % 6, (3 + hue * 6) % 6, (1 + hue * 6) % 6], axis=-1)
+    rgb = 1 - 0.7 * np.clip(np.minimum(k, 4 - k), 0, 1)
+    colour = Image.fromarray((rgb * 255).astype("uint8"), "RGB")
+    mask = Image.new("L", (size, size), 0)
+    md = ImageDraw.Draw(mask)
+    md.polygon(octagon(c, c, r + width / 2), fill=alpha)
+    md.polygon(octagon(c, c, r - width / 2), fill=0)
+    layer = colour.convert("RGBA")
+    layer.putalpha(mask)
+    return layer
+
+
 def build() -> Image.Image:
-    img = radial(S, (40, 33, 22), (11, 10, 8))
-    c = S / 2
+    """Logo de l'écran d'entrée : octogone noir, anneaux multicolores
+    concentriques, cadre en métal noir, liseré doré, halo doré."""
+    big = S * 2  # dessin en double résolution puis réduction (bords lisses)
+    img = radial(big, (40, 33, 22), (11, 10, 8))
+    c = big / 2
+    R = big * 0.42
     # Halo doré
-    glow = Image.new("RGBA", (S, S), (0, 0, 0, 0))
-    ImageDraw.Draw(glow).polygon(octagon(c, c, S * 0.40), fill=GOLD + (120,))
-    img.paste(glow.filter(ImageFilter.GaussianBlur(40)), (0, 0), glow.filter(ImageFilter.GaussianBlur(40)))
+    glow = Image.new("RGBA", (big, big), (0, 0, 0, 0))
+    ImageDraw.Draw(glow).polygon(octagon(c, c, R * 1.02), fill=GOLD + (110,))
+    glow = glow.filter(ImageFilter.GaussianBlur(big * 0.04))
+    img.paste(glow, (0, 0), glow)
     d = ImageDraw.Draw(img)
-    # Bord doré (trois anneaux pour un effet métal), puis octogone noir
-    d.polygon(octagon(c, c, S * 0.40), fill=GOLD_DEEP)
-    d.polygon(octagon(c, c, S * 0.385), fill=GOLD_LIGHT)
-    d.polygon(octagon(c, c, S * 0.37), fill=GOLD)
-    inner = radial(S, (34, 34, 34), (6, 6, 6))
-    mask = Image.new("L", (S, S), 0)
-    ImageDraw.Draw(mask).polygon(octagon(c, c, S * 0.345), fill=255)
+    # Liseré doré extérieur puis cadre en métal noir
+    d.polygon(octagon(c, c, R), fill=GOLD_LIGHT)
+    metal = Image.new("RGB", (big, big))
+    md = ImageDraw.Draw(metal)
+    for i in range(8):  # facettes du cadre, alternance sombre / reflet
+        a0 = math.pi / 8 + i * math.pi / 4
+        a1 = a0 + math.pi / 4
+        shade = 58 if i % 2 else 14
+        md.polygon([(c, c), (c + R * math.cos(a0), c + R * math.sin(a0)), (c + R * math.cos(a1), c + R * math.sin(a1))],
+                   fill=(shade, shade, shade))
+    mask = Image.new("L", (big, big), 0)
+    ImageDraw.Draw(mask).polygon(octagon(c, c, R * 0.985), fill=255)
+    img.paste(metal.filter(ImageFilter.GaussianBlur(big * 0.01)), (0, 0), mask)
+    # Intérieur noir mat
+    inner = radial(big, (32, 32, 32), (7, 7, 7))
+    mask = Image.new("L", (big, big), 0)
+    ImageDraw.Draw(mask).polygon(octagon(c, c, R * 0.93), fill=255)
     img.paste(inner, (0, 0), mask)
-    # Liseré intérieur
-    d.line(octagon(c, c, S * 0.29) + [octagon(c, c, S * 0.29)[0]], fill=GOLD_DEEP, width=6)
-    # Losange central
-    h, w = S * 0.17, S * 0.11
-    d.polygon([(c, c - h), (c + w, c), (c, c + h), (c - w, c)], fill=GOLD)
-    d.polygon([(c, c - h), (c + w, c), (c, c)], fill=GOLD_LIGHT)
-    d.polygon([(c, c + h), (c - w, c), (c, c)], fill=GOLD_DEEP)
-    return img
+    # Filet doré intérieur
+    d.line(octagon(c, c, R * 0.86) + [octagon(c, c, R * 0.86)[0]], fill=(156, 114, 36), width=round(big * 0.004))
+    # Anneaux multicolores (lueur puis trait)
+    for rr, w, a in ((0.714, 0.034, 255), (0.628, 0.02, 160)):
+        ring = rainbow_ring(big, c, R * rr, big * w, a)
+        halo = ring.filter(ImageFilter.GaussianBlur(big * 0.012))
+        img.paste(halo, (0, 0), halo)
+        img.paste(ring, (0, 0), ring)
+    # Paillettes
+    rng = __import__("random").Random(9)
+    for _ in range(45):
+        ang = rng.uniform(0, 2 * math.pi)
+        dist = R * 0.85 * math.sqrt(rng.random())  # répartition uniforme sur la surface
+        x, y = c + dist * math.cos(ang), c + dist * math.sin(ang)
+        rad = rng.uniform(big * 0.0015, big * 0.004)
+        col = hsv(ang / (2 * math.pi)) if rng.random() < 0.6 else (255, 244, 214)
+        d.ellipse([x - rad, y - rad, x + rad, y + rad], fill=col)
+    return img.resize((S, S), Image.LANCZOS)
 
 
 def foreground() -> Image.Image:

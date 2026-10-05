@@ -5,20 +5,34 @@ import '../features/cards/effects.dart';
 import '../features/cards/holo_layer.dart';
 import 'octagon.dart';
 
-/// Emblème de l'app : octogone noir au motif holographique de l'Octogone
-/// Noir, bord doré. [child] s'affiche au centre.
+/// Logo de l'app (celui de l'écran d'entrée) : octogone noir au motif
+/// holographique multicolore, cadre en métal noir et liseré doré.
+/// [child] s'affiche au centre ; [glow] ajoute le halo doré.
 class OctagonEmblem extends StatelessWidget {
-  const OctagonEmblem({super.key, required this.size, this.child, this.animate = true});
+  const OctagonEmblem({super.key, required this.size, this.child, this.animate = true, this.glow = false});
 
   final double size;
   final Widget? child;
   final bool animate;
+  final bool glow;
 
   @override
   Widget build(BuildContext context) {
     return SizedBox.square(
       dimension: size,
-      child: Stack(fit: StackFit.expand, alignment: Alignment.center, children: [
+      child: Stack(fit: StackFit.expand, alignment: Alignment.center, clipBehavior: Clip.none, children: [
+        if (glow)
+          Transform.scale(
+            scale: 1.5,
+            child: const DecoratedBox(
+              decoration: BoxDecoration(
+                gradient: RadialGradient(
+                  colors: [Color(0x47E2B04F), Color(0x0FE2B04F), Colors.transparent],
+                  stops: [0.35, 0.6, 1],
+                ),
+              ),
+            ),
+          ),
         ClipPath(
           clipper: const OctagonClipper(),
           child: Stack(fit: StackFit.expand, children: [
@@ -41,29 +55,45 @@ class OctagonEmblem extends StatelessWidget {
   }
 }
 
+/// Cadre identique à celui de l'écran d'entrée : bord en métal noir,
+/// liseré doré extérieur légèrement lumineux, filet doré intérieur.
 class _RimPainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     final c = size.center(Offset.zero);
     final r = size.shortestSide / 2;
+    canvas.drawPath(
+      octagonPath(c, r * 0.965),
+      Paint()
+        ..style = PaintingStyle.stroke
+        ..strokeWidth = r * 0.07
+        ..shader = const SweepGradient(
+          colors: [Color(0xFF050505), Color(0xFF3A3A3A), Color(0xFF0A0A0A), Color(0xFF4A4A4A), Color(0xFF050505)],
+        ).createShader(Rect.fromCircle(center: c, radius: r)),
+    );
+    canvas.drawPath(
+      octagonPath(c, r * 0.86),
+      Paint()
+        ..style = PaintingStyle.stroke
+        ..strokeWidth = 1
+        ..color = AppColors.gold.withValues(alpha: 0.35),
+    );
+    final edge = octagonPath(c, r - 1.2);
     canvas
       ..drawPath(
-        octagonPath(c, r - 1.5),
+        edge,
         Paint()
           ..style = PaintingStyle.stroke
-          ..strokeWidth = 3
-          ..shader = const LinearGradient(
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-            colors: [Color(0xFFF3D38A), AppColors.goldDeep, Color(0xFFF3D38A)],
-          ).createShader(Offset.zero & size),
+          ..strokeWidth = 5
+          ..color = AppColors.gold.withValues(alpha: 0.4)
+          ..maskFilter = const MaskFilter.blur(BlurStyle.normal, 4),
       )
       ..drawPath(
-        octagonPath(c, r * 0.84),
+        edge,
         Paint()
           ..style = PaintingStyle.stroke
-          ..strokeWidth = 1
-          ..color = AppColors.gold.withValues(alpha: 0.35),
+          ..strokeWidth = 2.2
+          ..color = const Color(0xFFF3D38A),
       );
   }
 
