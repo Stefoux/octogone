@@ -25,6 +25,7 @@ import '../cards/trading_card.dart';
 import 'booster_flow.dart';
 import 'booster_pack.dart';
 import 'booster_service.dart';
+import 'swipe_card.dart';
 
 enum _Phase { tear, waiting, reveal, summary }
 
@@ -51,7 +52,6 @@ class _BoosterOpeningScreenState extends ConsumerState<BoosterOpeningScreen> wit
   late String _payment = widget.payment;
   late final AnimationController _rip = AnimationController(vsync: this, duration: const Duration(milliseconds: 700));
   late final AnimationController _flip = AnimationController(vsync: this, duration: const Duration(milliseconds: 520));
-  late final AnimationController _out = AnimationController(vsync: this, duration: const Duration(milliseconds: 260));
   late final AnimationController _burst = AnimationController(vsync: this, duration: const Duration(milliseconds: 1100));
   late final AnimationController _pulse =
       AnimationController(vsync: this, duration: const Duration(milliseconds: 1100))..repeat(reverse: true);
@@ -61,11 +61,13 @@ class _BoosterOpeningScreenState extends ConsumerState<BoosterOpeningScreen> wit
   bool _suspense = false;
   bool _celebrate = false;
 
+  /// Carte du dessus ; nouvelle clé à chaque carte pour repartir de zéro.
+  GlobalKey<SwipeCardState> _swipeKey = GlobalKey();
+
   @override
   void dispose() {
     _rip.dispose();
     _flip.dispose();
-    _out.dispose();
     _burst.dispose();
     _pulse.dispose();
     super.dispose();
@@ -146,17 +148,24 @@ class _BoosterOpeningScreenState extends ConsumerState<BoosterOpeningScreen> wit
 
   bool get _revealed => _flip.value >= 0.5;
 
+  /// Toucher : révèle la carte, ou la fait passer si elle est déjà révélée.
   Future<void> _onTapCard() async {
     if (_phase != _Phase.reveal || _busy) return;
+    if (!_revealed) {
+      await _revealCurrent();
+    } else {
+      await _swipeKey.currentState?.fling(AxisDirection.left);
+    }
+  }
+
+  Future<void> _revealCurrent() async {
+    if (_busy || _revealed) return;
     _busy = true;
     try {
-      if (!_revealed) {
-        await _reveal();
-      } else {
-        await _next();
-      }
+      await _reveal();
     } finally {
       _busy = false;
+      if (mounted) setState(() {});
     }
   }
 
@@ -182,11 +191,12 @@ class _BoosterOpeningScreenState extends ConsumerState<BoosterOpeningScreen> wit
     await _flip.animateTo(1, curve: Curves.easeOut);
   }
 
-  Future<void> _next() async {
-    await _out.forward(from: 0);
+  /// La carte du dessus s'est envolée : on passe à la suivante.
+  void _advance() {
     if (!mounted) return;
     setState(() {
       _celebrate = false;
+      _swipeKey = GlobalKey();
       if (_index + 1 < _cards.length) {
         _index++;
       } else {
@@ -194,8 +204,12 @@ class _BoosterOpeningScreenState extends ConsumerState<BoosterOpeningScreen> wit
       }
     });
     _flip.reset();
-    _out.reset();
     _burst.reset();
+  }
+
+  void _onFlingStart(AxisDirection dir) {
+    unawaited(HapticFeedback.selectionClick());
+    unawaited(ref.read(soundFxProvider).swipe(dir));
   }
 
   void _revealAll() {
@@ -378,73 +392,79 @@ class _BoosterOpeningScreenState extends ConsumerState<BoosterOpeningScreen> wit
     final remaining = _cards.length - _index - 1;
     return LayoutBuilder(builder: (context, c) {
       final w = math.min(c.maxWidth * 0.74, (c.maxHeight - 120) * kCardAspect);
-      return GestureDetector(
-        key: const Key('booster-reveal'),
-        behavior: HitTestBehavior.opaque,
-        onTap: _onTapCard,
-        child: Column(children: [
+      final size = Size(w, w / kCardAspect);
+      final face = AnimatedBuilder(
+        animation: _flip,
+        builder: (context, _) {
+          final v = _flip.value;
+          final showFront = v >= 0.5;
+          final angle = showFront ? (v - 1) * math.pi : v * math.pi;
+          return Transform(
+            alignment: Alignment.center,
+            transform: Matrix4.identity()
+              ..setEntry(3, 2, 0.0012)
+              ..rotateY(angle),
+            child: showFront && view != null
+                ? TradingCard(view: view)
+                : (_suspense
+                    ? const CardBackside()
+                        .animate(onPlay: (c) => c.repeat(reverse: true))
+                        .shake(hz: 6, rotation: 0.02, duration: 400.ms)
+                    : const CardBackside()),
+          );
+        },
+      );
+      return Column(children: [
           Expanded(
-            child: Center(
-              child: SizedBox(
-                width: w,
-                height: w / kCardAspect,
-                child: Stack(clipBehavior: Clip.none, children: [
-                  // Pile des cartes restantes
-                  for (var i = math.min(remaining, 3); i >= 1; i--)
-                    Transform.translate(
-                      offset: Offset(i * 5.0, i * 6.0),
-                      child: const Opacity(opacity: 0.85, child: CardBackside()),
-                    ),
-                  // Lueur de rareté (avant et pendant la révélation)
-                  Positioned.fill(
-                    child: AnimatedBuilder(
-                      animation: Listenable.merge([_flip, _burst, _pulse]),
-                      builder: (context, _) => CustomPaint(
-                        painter: _GlowPainter(
-                          color: rarityColor,
-                          strength: _suspense
-                              ? 1.0
-                              : switch (_rank(card.rarete)) {
-                                  <= 0 => 0.0,
-                                  1 => 0.3,
-                                  _ => 0.45 + 0.25 * _pulse.value,
-                                },
-                          burst: _burst.value,
-                          rank: _rank(card.rarete),
+            child: Stack(fit: StackFit.expand, children: [
+              Center(
+                child: SizedBox.fromSize(
+                  size: size,
+                  child: Stack(clipBehavior: Clip.none, children: [
+                    // Pile des cartes restantes
+                    for (var i = math.min(remaining, 3); i >= 1; i--)
+                      Transform.translate(
+                        offset: Offset(i * 5.0, i * 6.0),
+                        child: const Opacity(opacity: 0.85, child: CardBackside()),
+                      ),
+                    // Lueur de rareté (avant et pendant la révélation)
+                    Positioned.fill(
+                      child: AnimatedBuilder(
+                        animation: Listenable.merge([_flip, _burst, _pulse]),
+                        builder: (context, _) => CustomPaint(
+                          painter: _GlowPainter(
+                            color: rarityColor,
+                            strength: _suspense
+                                ? 1.0
+                                : switch (_rank(card.rarete)) {
+                                    <= 0 => 0.0,
+                                    1 => 0.3,
+                                    _ => 0.45 + 0.25 * _pulse.value,
+                                  },
+                            burst: _burst.value,
+                            rank: _rank(card.rarete),
+                          ),
                         ),
                       ),
                     ),
-                  ),
-                  // Carte du dessus : dos puis recto
-                  AnimatedBuilder(
-                    animation: Listenable.merge([_flip, _out]),
-                    builder: (context, _) {
-                      final v = _flip.value;
-                      final showFront = v >= 0.5;
-                      final angle = showFront ? (v - 1) * math.pi : v * math.pi;
-                      final out = Curves.easeIn.transform(_out.value);
-                      return Transform.translate(
-                        offset: Offset(-out * c.maxWidth, 0),
-                        child: Transform(
-                          alignment: Alignment.center,
-                          transform: Matrix4.identity()
-                            ..setEntry(3, 2, 0.0012)
-                            ..rotateY(angle)
-                            ..rotateZ(-out * 0.3),
-                          child: showFront && view != null
-                              ? TradingCard(view: view)
-                              : (_suspense
-                                  ? const CardBackside()
-                                      .animate(onPlay: (c) => c.repeat(reverse: true))
-                                      .shake(hz: 6, rotation: 0.02, duration: 400.ms)
-                                  : const CardBackside()),
-                        ),
-                      );
-                    },
-                  ),
-                ]),
+                  ]),
+                ),
               ),
-            ),
+              // Carte du dessus : glisser dans n'importe quel sens ou toucher
+              AnimatedBuilder(
+                animation: _flip,
+                builder: (context, _) => SwipeCard(
+                  key: _swipeKey,
+                  cardSize: size,
+                  canFling: _revealed && !_busy,
+                  onTap: _onTapCard,
+                  onBlocked: (_) => _revealCurrent(),
+                  onFlingStart: _onFlingStart,
+                  onSwiped: (_) => _advance(),
+                  child: KeyedSubtree(key: const Key('booster-reveal'), child: face),
+                ),
+              ),
+            ]),
           ),
           SizedBox(
             height: 92,
@@ -457,8 +477,7 @@ class _BoosterOpeningScreenState extends ConsumerState<BoosterOpeningScreen> wit
                     ),
             ),
           ),
-        ]),
-      );
+        ]);
     });
   }
 

@@ -1595,13 +1595,13 @@ abstract class AppLocalizations {
   /// No description provided for @boosterTapToReveal.
   ///
   /// In fr, this message translates to:
-  /// **'Touche pour révéler'**
+  /// **'Touche ou glisse pour révéler'**
   String get boosterTapToReveal;
 
   /// No description provided for @boosterTapForNext.
   ///
   /// In fr, this message translates to:
-  /// **'Touche pour la suivante'**
+  /// **'Glisse ou touche pour la suivante'**
   String get boosterTapForNext;
 
   /// No description provided for @boosterRevealAll.

@@ -859,10 +859,10 @@ class AppLocalizationsFr extends AppLocalizations {
   String get boosterTearHint => 'Glisse le doigt le long du haut pour déchirer';
 
   @override
-  String get boosterTapToReveal => 'Touche pour révéler';
+  String get boosterTapToReveal => 'Touche ou glisse pour révéler';
 
   @override
-  String get boosterTapForNext => 'Touche pour la suivante';
+  String get boosterTapForNext => 'Glisse ou touche pour la suivante';
 
   @override
   String get boosterRevealAll => 'Tout révéler';

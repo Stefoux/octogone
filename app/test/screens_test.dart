@@ -141,8 +141,11 @@ final _boosters = [
 ];
 
 class _FakeBoosters implements BoosterService {
-  _FakeBoosters({this.testMode = false});
+  _FakeBoosters({this.testMode = false, this.count = 3});
   final bool testMode;
+
+  /// Nombre de cartes du booster (3 ou plus : des communes s'ajoutent devant).
+  final int count;
   final opened = <(String, String)>[];
 
   @override
@@ -160,6 +163,8 @@ class _FakeBoosters implements BoosterService {
   Future<List<PulledCard>> open(String typeId, {String payment = 'gratuit'}) async {
     opened.add((typeId, payment));
     return [
+      for (var i = 3; i < count; i++)
+        PulledCard({'owned_id': 'x$i', 'card_id': 'ed:2', 'variant_id': 'ed:BASE:base', 'rarete': 'commune', 'nouvelle': false}),
       PulledCard({'owned_id': 'n1', 'card_id': 'ed:2', 'variant_id': 'ed:BASE:base', 'rarete': 'commune', 'nouvelle': true}),
       PulledCard({'owned_id': 'n2', 'card_id': 'ed:1', 'variant_id': 'ed:BASE:base', 'rarete': 'commune', 'nouvelle': false}),
       PulledCard({
@@ -426,7 +431,7 @@ void main() {
     await tester.pump(const Duration(milliseconds: 800));
     await tester.pump(const Duration(milliseconds: 100));
     expect(find.text('1/3'), findsOneWidget);
-    expect(find.text('Touche pour révéler'), findsOneWidget);
+    expect(find.text('Touche ou glisse pour révéler'), findsOneWidget);
 
     // Première carte : commune, nouvelle
     await tester.tap(find.byKey(const Key('booster-reveal')));
@@ -437,11 +442,9 @@ void main() {
     expect(find.text('NOUVELLE'), findsOneWidget);
     expect(find.text('ZHANG WEILI'), findsOneWidget);
 
-    // Suivante
+    // Suivante : la carte révélée s'envole au toucher
     await tester.tap(find.byKey(const Key('booster-reveal')));
-    for (var i = 0; i < 5; i++) {
-      await tester.pump(const Duration(milliseconds: 100));
-    }
+    await _frames(tester, 7);
     expect(find.text('2/3'), findsOneWidget);
 
     await tester.tap(find.byKey(const Key('booster-reveal-all')));
@@ -530,5 +533,49 @@ void main() {
 
   test('Barre de navigation : icônes seules', () {
     expect(buildTheme().navigationBarTheme.labelBehavior, NavigationDestinationLabelBehavior.alwaysHide);
+  });
+
+  testWidgets('Ouverture : glisser dans les 4 directions fait passer la carte, une carte cachée se révèle d’abord',
+      (tester) async {
+    _phoneScreen(tester);
+    final fake = _FakeBoosters(testMode: true, count: 6);
+    await tester.pumpWidget(_wrap(
+      const BoosterOpeningScreen(typeId: 'saison-2026:standard', useSensors: false),
+      overrides: _boosterOverrides(fake),
+      locale: const Locale('fr'),
+    ));
+    await tester.pump(const Duration(milliseconds: 100));
+    await tester.drag(find.byKey(const Key('booster-tear')), const Offset(320, 0));
+    await _frames(tester, 10);
+    expect(find.text('1/6'), findsOneWidget);
+
+    final card = find.byKey(const Key('booster-reveal'));
+    // Face cachée : un glissement la retourne sans la faire passer
+    await tester.drag(card, const Offset(-260, 0));
+    await _frames(tester, 10);
+    expect(find.text('1/6'), findsOneWidget);
+    expect(find.text('COMMUNE'), findsOneWidget);
+
+    // Révélée : chaque direction fait passer à la suivante
+    var expected = 2;
+    for (final move in const [Offset(-300, 0), Offset(300, 0), Offset(0, -400), Offset(0, 400)]) {
+      await tester.drag(card, move);
+      await _frames(tester, 8);
+      expect(find.text('$expected/6'), findsOneWidget, reason: 'glissement $move');
+      // Révéler la suivante d'un toucher
+      await tester.tap(card);
+      await _frames(tester, 10);
+      expected++;
+    }
+    // Un petit glissement ne suffit pas : la carte revient en place
+    await tester.drag(card, const Offset(30, 0));
+    await _frames(tester, 8);
+    expect(find.text('5/6'), findsOneWidget);
+    // Toucher une carte révélée la fait passer aussi
+    await tester.tap(card);
+    await _frames(tester, 8);
+    expect(find.text('6/6'), findsOneWidget);
+    await tester.pumpWidget(const SizedBox());
+    await tester.pump(const Duration(seconds: 1));
   });
 }

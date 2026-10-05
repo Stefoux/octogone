@@ -857,10 +857,10 @@ class AppLocalizationsEn extends AppLocalizations {
   String get boosterTearHint => 'Swipe along the top to tear it open';
 
   @override
-  String get boosterTapToReveal => 'Tap to reveal';
+  String get boosterTapToReveal => 'Tap or swipe to reveal';
 
   @override
-  String get boosterTapForNext => 'Tap for the next one';
+  String get boosterTapForNext => 'Swipe or tap for the next one';
 
   @override
   String get boosterRevealAll => 'Reveal all';
