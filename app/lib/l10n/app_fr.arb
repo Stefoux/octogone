@@ -661,5 +661,11 @@
   "succesCount": "{done} débloqués sur {total}",
   "@succesCount": {"placeholders": {"done": {"type": "int"}, "total": {"type": "int"}}},
   "succesError": "Impossible de charger les succès.",
-  "succesErrNotDone": "Ce succès n’est pas encore atteint."
+  "succesErrNotDone": "Ce succès n’est pas encore atteint.",
+  "navMenu": "Menu",
+  "menuAccount": "Compte",
+  "menuShop": "Boutique",
+  "shopTitle": "Boutique",
+  "shopBoosters": "Boosters",
+  "shopFreeTest": "Gratuit (mode test)"
 }

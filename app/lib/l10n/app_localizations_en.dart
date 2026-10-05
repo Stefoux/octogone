@@ -1114,4 +1114,22 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get succesErrNotDone => 'This achievement isn’t reached yet.';
+
+  @override
+  String get navMenu => 'Menu';
+
+  @override
+  String get menuAccount => 'Account';
+
+  @override
+  String get menuShop => 'Shop';
+
+  @override
+  String get shopTitle => 'Shop';
+
+  @override
+  String get shopBoosters => 'Boosters';
+
+  @override
+  String get shopFreeTest => 'Free (test mode)';
 }

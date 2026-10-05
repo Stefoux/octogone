@@ -29,6 +29,8 @@ import 'package:octogone/features/defis/defis_screen.dart';
 import 'package:octogone/features/defis/defis_service.dart';
 import 'package:octogone/features/succes/succes_screen.dart';
 import 'package:octogone/features/succes/succes_service.dart';
+import 'package:octogone/features/boutique/boutique_screen.dart';
+import 'package:octogone/features/shell/main_shell.dart';
 import 'package:octogone/features/vitrine/vitrine_service.dart';
 import 'package:octogone/features/home/home_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -195,11 +197,11 @@ class _IdleSync extends SyncController {
   Future<void> sync() async {}
 }
 
-List<Override> _boosterOverrides(_FakeBoosters fake) => [
+List<Override> _boosterOverrides(_FakeBoosters fake, {Wallet wallet = const Wallet(pieces: 480, fragments: 120)}) => [
       ..._overrides(),
       boosterServiceProvider.overrideWithValue(fake),
       boosterTypesProvider.overrideWith((ref) => Stream.value(_boosters)),
-      walletProvider.overrideWith((ref) async => const Wallet(pieces: 480, fragments: 120)),
+      walletProvider.overrideWith((ref) async => wallet),
       profileProvider.overrideWith((ref) async => const Profile(
             id: 'u1',
             pseudo: 'Testeur',
@@ -935,5 +937,62 @@ void main() {
     expect(find.byIcon(Icons.check_circle), findsNWidgets(2));
     await tester.pumpWidget(const SizedBox());
     await tester.pump(const Duration(seconds: 5));
+  });
+
+  testWidgets('Boutique : boosters en pièces (selon le solde) et onglet Atelier', (tester) async {
+    SharedPreferences.setMockInitialValues({});
+    _bigScreen(tester);
+    await tester.pumpWidget(_wrap(
+      const BoutiqueScreen(),
+      overrides: [
+        ..._boosterOverrides(_FakeBoosters(), wallet: const Wallet(pieces: 180, fragments: 45)),
+        atelierServiceProvider.overrideWithValue(_FakeAtelier()),
+        fragmentRatesProvider.overrideWith((ref) async => FragmentRates.fallback),
+        vitrineStoreProvider.overrideWithValue(_MemoryVitrine()),
+      ],
+      locale: const Locale('fr'),
+    ));
+    await _frames(tester, 4);
+    expect(find.text('180'), findsOneWidget);
+    expect(find.text('45'), findsOneWidget);
+    // 180 pièces : le Standard (100) s'achète, pas le Premium (250)
+    ButtonStyleButton buy(String id) => tester.widget<ButtonStyleButton>(find.byKey(Key('shop-buy-$id')));
+    expect(buy('saison-2026:standard').onPressed, isNotNull);
+    expect(buy('saison-2026:premium').onPressed, isNull);
+    expect(find.text('Pas assez de pièces.'), findsWidgets);
+    await tester.tap(find.byKey(const Key('shop-tab-atelier')));
+    await _frames(tester, 6);
+    expect(find.text('45 fragments'), findsOneWidget);
+    await tester.pumpWidget(const SizedBox());
+  });
+
+  testWidgets('Menu : Compte, Boutique et les pièces qui ouvrent la Boutique', (tester) async {
+    var account = 0, shop = 0;
+    final key = GlobalKey<ScaffoldState>();
+    await tester.pumpWidget(_wrap(
+      Scaffold(key: key, endDrawer: MenuDrawer(onAccount: () => account++, onShop: () => shop++), body: const SizedBox()),
+      overrides: _boosterOverrides(_FakeBoosters()),
+      locale: const Locale('fr'),
+    ));
+    Future<void> openAndTap(String item) async {
+      key.currentState!.openEndDrawer();
+      await _frames(tester, 4);
+      await tester.tap(find.byKey(Key(item)));
+      await _frames(tester, 4);
+    }
+
+    key.currentState!.openEndDrawer();
+    await _frames(tester, 4);
+    expect(find.text('Compte'), findsOneWidget);
+    expect(find.text('Boutique'), findsOneWidget);
+    expect(find.text('480'), findsOneWidget);
+    // Le menu glisse depuis la droite
+    expect(tester.getTopRight(find.byType(Drawer)).dx, tester.view.physicalSize.width / tester.view.devicePixelRatio);
+    await tester.tap(find.byKey(const Key('menu-coins')));
+    await _frames(tester, 4);
+    await openAndTap('menu-shop');
+    await openAndTap('menu-account');
+    expect((account, shop), (1, 2));
+    await tester.pumpWidget(const SizedBox());
   });
 }

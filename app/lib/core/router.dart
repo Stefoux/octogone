@@ -12,6 +12,7 @@ import '../features/auth/signup_screen.dart';
 import '../features/boosters/opening_screen.dart';
 import '../features/cards/card_detail_screen.dart';
 import '../features/combat/combat_screen.dart';
+import '../features/boutique/boutique_screen.dart';
 import '../features/credits/credits_screen.dart';
 import '../features/defis/defis_screen.dart';
 import '../features/entry/entry_screen.dart';
@@ -68,6 +69,14 @@ final routerProvider = Provider<GoRouter>((ref) {
       GoRoute(path: '/credits', builder: (_, _) => const ArenaBackground(intensity: 0.12, child: CreditsScreen())),
       // Galerie des effets (aperçu de chaque rareté)
       GoRoute(path: '/galerie', builder: (_, _) => const ArenaBackground(intensity: 0.12, child: ShowcaseScreen())),
+      // Boutique (?onglet=atelier pour ouvrir l'Atelier)
+      GoRoute(
+        path: '/boutique',
+        builder: (_, s) => ArenaBackground(
+          intensity: 0.35,
+          child: BoutiqueScreen(initialTab: s.uri.queryParameters['onglet'] == 'atelier' ? 1 : 0),
+        ),
+      ),
       // Défis du jour et de la semaine
       GoRoute(path: '/defis', builder: (_, _) => const ArenaBackground(intensity: 0.35, child: DefisScreen())),
       // Succès

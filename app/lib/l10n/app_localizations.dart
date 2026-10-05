@@ -2029,6 +2029,42 @@ abstract class AppLocalizations {
   /// In fr, this message translates to:
   /// **'Ce succès n’est pas encore atteint.'**
   String get succesErrNotDone;
+
+  /// No description provided for @navMenu.
+  ///
+  /// In fr, this message translates to:
+  /// **'Menu'**
+  String get navMenu;
+
+  /// No description provided for @menuAccount.
+  ///
+  /// In fr, this message translates to:
+  /// **'Compte'**
+  String get menuAccount;
+
+  /// No description provided for @menuShop.
+  ///
+  /// In fr, this message translates to:
+  /// **'Boutique'**
+  String get menuShop;
+
+  /// No description provided for @shopTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Boutique'**
+  String get shopTitle;
+
+  /// No description provided for @shopBoosters.
+  ///
+  /// In fr, this message translates to:
+  /// **'Boosters'**
+  String get shopBoosters;
+
+  /// No description provided for @shopFreeTest.
+  ///
+  /// In fr, this message translates to:
+  /// **'Gratuit (mode test)'**
+  String get shopFreeTest;
 }
 
 class _AppLocalizationsDelegate

@@ -105,17 +105,19 @@ class _Header extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.fromLTRB(4, 10, 4, 10),
       child: Row(children: [
+        Text(title.toUpperCase(),
+            style: TextStyle(
+                color: AppColors.gold.withValues(alpha: 0.85), letterSpacing: 2.5, fontSize: 12, fontWeight: FontWeight.w600)),
+        const SizedBox(width: 12),
         Expanded(
-          flex: 2,
-          child: Text(title.toUpperCase(),
-              style: TextStyle(
-                  color: AppColors.gold.withValues(alpha: 0.85), letterSpacing: 2.5, fontSize: 12, fontWeight: FontWeight.w600)),
-        ),
-        Icon(Icons.schedule, size: 14, color: AppColors.textMuted.withValues(alpha: 0.8)),
-        const SizedBox(width: 4),
-        Flexible(
-          child: Text(l.defisRenewIn(time),
-              overflow: TextOverflow.ellipsis, style: const TextStyle(color: AppColors.textMuted, fontSize: 12.5)),
+          child: Row(mainAxisAlignment: MainAxisAlignment.end, children: [
+            Icon(Icons.schedule, size: 14, color: AppColors.textMuted.withValues(alpha: 0.8)),
+            const SizedBox(width: 4),
+            Flexible(
+              child: Text(l.defisRenewIn(time),
+                  overflow: TextOverflow.ellipsis, style: const TextStyle(color: AppColors.textMuted, fontSize: 12.5)),
+            ),
+          ]),
         ),
       ]),
     );

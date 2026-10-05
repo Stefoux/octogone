@@ -335,5 +335,11 @@
   "succesCount": "{done} of {total} unlocked",
   "@succesCount": {"placeholders": {"done": {"type": "int"}, "total": {"type": "int"}}},
   "succesError": "Could not load achievements.",
-  "succesErrNotDone": "This achievement isn’t reached yet."
+  "succesErrNotDone": "This achievement isn’t reached yet.",
+  "navMenu": "Menu",
+  "menuAccount": "Account",
+  "menuShop": "Shop",
+  "shopTitle": "Shop",
+  "shopBoosters": "Boosters",
+  "shopFreeTest": "Free (test mode)"
 }

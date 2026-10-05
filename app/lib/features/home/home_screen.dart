@@ -202,7 +202,15 @@ class _HomeTopBar extends ConsumerWidget {
         ),
         IconButton(
           tooltip: l.sync,
-          onPressed: sync.running ? null : () => ref.read(syncControllerProvider.notifier).sync(),
+          onPressed: sync.running
+              ? null
+              : () {
+                  ref
+                    ..invalidate(walletProvider)
+                    ..invalidate(defisProvider)
+                    ..invalidate(boosterStatusProvider);
+                  ref.read(syncControllerProvider.notifier).sync();
+                },
           icon: sync.running
               ? const SizedBox(width: 18, height: 18, child: CircularProgressIndicator(strokeWidth: 2))
               : Icon(sync.error != null ? Icons.cloud_off : Icons.sync,

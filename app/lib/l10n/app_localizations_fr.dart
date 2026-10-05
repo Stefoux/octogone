@@ -1119,4 +1119,22 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get succesErrNotDone => 'Ce succès n’est pas encore atteint.';
+
+  @override
+  String get navMenu => 'Menu';
+
+  @override
+  String get menuAccount => 'Compte';
+
+  @override
+  String get menuShop => 'Boutique';
+
+  @override
+  String get shopTitle => 'Boutique';
+
+  @override
+  String get shopBoosters => 'Boosters';
+
+  @override
+  String get shopFreeTest => 'Gratuit (mode test)';
 }
