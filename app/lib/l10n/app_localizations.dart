@@ -1939,6 +1939,72 @@ abstract class AppLocalizations {
   /// In fr, this message translates to:
   /// **'Cette rareté n’existe pas pour ce combattant.'**
   String get atelierErrNotEligible;
+
+  /// No description provided for @defisTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Défis'**
+  String get defisTitle;
+
+  /// No description provided for @defisToday.
+  ///
+  /// In fr, this message translates to:
+  /// **'Aujourd’hui'**
+  String get defisToday;
+
+  /// No description provided for @defisWeek.
+  ///
+  /// In fr, this message translates to:
+  /// **'Cette semaine'**
+  String get defisWeek;
+
+  /// No description provided for @defisRenewIn.
+  ///
+  /// In fr, this message translates to:
+  /// **'Renouvelés dans {time}'**
+  String defisRenewIn(String time);
+
+  /// No description provided for @defisClaim.
+  ///
+  /// In fr, this message translates to:
+  /// **'Récupérer'**
+  String get defisClaim;
+
+  /// No description provided for @defisClaimed.
+  ///
+  /// In fr, this message translates to:
+  /// **'Récupéré'**
+  String get defisClaimed;
+
+  /// No description provided for @defisClaimedSnack.
+  ///
+  /// In fr, this message translates to:
+  /// **'+{n} pièces'**
+  String defisClaimedSnack(int n);
+
+  /// No description provided for @defisError.
+  ///
+  /// In fr, this message translates to:
+  /// **'Impossible de charger les défis.'**
+  String get defisError;
+
+  /// No description provided for @defisErrAlready.
+  ///
+  /// In fr, this message translates to:
+  /// **'Récompense déjà récupérée.'**
+  String get defisErrAlready;
+
+  /// No description provided for @defisErrNotDone.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ce défi n’est pas encore accompli.'**
+  String get defisErrNotDone;
+
+  /// No description provided for @durationDh.
+  ///
+  /// In fr, this message translates to:
+  /// **'{d} j {h} h'**
+  String durationDh(int d, int h);
 }
 
 class _AppLocalizationsDelegate

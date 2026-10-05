@@ -1061,4 +1061,43 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get atelierErrNotEligible =>
       'This rarity doesn’t exist for this fighter.';
+
+  @override
+  String get defisTitle => 'Challenges';
+
+  @override
+  String get defisToday => 'Today';
+
+  @override
+  String get defisWeek => 'This week';
+
+  @override
+  String defisRenewIn(String time) {
+    return 'Renewed in $time';
+  }
+
+  @override
+  String get defisClaim => 'Claim';
+
+  @override
+  String get defisClaimed => 'Claimed';
+
+  @override
+  String defisClaimedSnack(int n) {
+    return '+$n coins';
+  }
+
+  @override
+  String get defisError => 'Could not load challenges.';
+
+  @override
+  String get defisErrAlready => 'Reward already claimed.';
+
+  @override
+  String get defisErrNotDone => 'This challenge isn’t complete yet.';
+
+  @override
+  String durationDh(int d, int h) {
+    return '$d d $h h';
+  }
 }

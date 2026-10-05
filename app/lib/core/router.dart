@@ -13,6 +13,7 @@ import '../features/boosters/opening_screen.dart';
 import '../features/cards/card_detail_screen.dart';
 import '../features/combat/combat_screen.dart';
 import '../features/credits/credits_screen.dart';
+import '../features/defis/defis_screen.dart';
 import '../features/entry/entry_screen.dart';
 import '../features/fighters/fighter_detail_screen.dart';
 import '../features/fighters/fighters_screen.dart';
@@ -66,6 +67,8 @@ final routerProvider = Provider<GoRouter>((ref) {
       GoRoute(path: '/credits', builder: (_, _) => const ArenaBackground(intensity: 0.12, child: CreditsScreen())),
       // Galerie des effets (aperçu de chaque rareté)
       GoRoute(path: '/galerie', builder: (_, _) => const ArenaBackground(intensity: 0.12, child: ShowcaseScreen())),
+      // Défis du jour et de la semaine
+      GoRoute(path: '/defis', builder: (_, _) => const ArenaBackground(intensity: 0.35, child: DefisScreen())),
       // Ma vitrine
       GoRoute(path: '/vitrine', builder: (_, _) => const ArenaBackground(intensity: 0.35, child: VitrineScreen())),
       GoRoute(

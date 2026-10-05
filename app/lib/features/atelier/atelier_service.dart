@@ -6,6 +6,7 @@ import '../../data/repositories/content_providers.dart';
 import '../../data/sync/content_sync.dart';
 import '../../domain/models.dart';
 import '../boosters/booster_service.dart';
+import '../defis/defis_service.dart';
 import '../vitrine/vitrine_service.dart';
 
 /// Barème des fragments (economy_config.fragments) : gain au recyclage par
@@ -105,7 +106,8 @@ class SupabaseAtelierService implements AtelierService {
     await ContentSync(ref.read(databaseProvider), _client).syncOwnedCards();
     ref
       ..invalidate(walletProvider)
-      ..invalidate(vitrineProvider);
+      ..invalidate(vitrineProvider)
+      ..invalidate(defisProvider);
   }
 
   @override

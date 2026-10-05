@@ -1,0 +1,221 @@
+{
+  "_doc": "Modèles de défis (importés dans defi_modeles). Chaque joueur reçoit chaque jour 4 défis quotidiens et chaque lundi 3 défis hebdomadaires, tirés parmi les modèles actifs (un par type). « type » = événement compté côté serveur : connexion, ouvrir_booster, ouvrir_premium, reveler_rare, reveler_epique, nouvelle_carte, recycler, fabriquer, vitrine, gagner_combat (phase 4, inactif). Récompense en pièces.",
+  "defis": [
+    {
+      "id": "jour-connexion",
+      "periode": "jour",
+      "type": "connexion",
+      "objectif": 1,
+      "pieces": 20,
+      "libelle": {
+        "fr": "Passer à l’Octogone",
+        "en": "Drop by the Octagon"
+      },
+      "actif": true
+    },
+    {
+      "id": "jour-boosters-2",
+      "periode": "jour",
+      "type": "ouvrir_booster",
+      "objectif": 2,
+      "pieces": 40,
+      "libelle": {
+        "fr": "Ouvrir 2 boosters",
+        "en": "Open 2 boosters"
+      },
+      "actif": true
+    },
+    {
+      "id": "jour-boosters-3",
+      "periode": "jour",
+      "type": "ouvrir_booster",
+      "objectif": 3,
+      "pieces": 55,
+      "libelle": {
+        "fr": "Ouvrir 3 boosters",
+        "en": "Open 3 boosters"
+      },
+      "actif": true
+    },
+    {
+      "id": "jour-rares-2",
+      "periode": "jour",
+      "type": "reveler_rare",
+      "objectif": 2,
+      "pieces": 45,
+      "libelle": {
+        "fr": "Révéler 2 cartes Rares ou mieux",
+        "en": "Reveal 2 Rare or better cards"
+      },
+      "actif": true
+    },
+    {
+      "id": "jour-epique-1",
+      "periode": "jour",
+      "type": "reveler_epique",
+      "objectif": 1,
+      "pieces": 60,
+      "libelle": {
+        "fr": "Révéler une carte Épique ou mieux",
+        "en": "Reveal an Epic or better card"
+      },
+      "actif": true
+    },
+    {
+      "id": "jour-nouvelles-4",
+      "periode": "jour",
+      "type": "nouvelle_carte",
+      "objectif": 4,
+      "pieces": 40,
+      "libelle": {
+        "fr": "Obtenir 4 cartes nouvelles",
+        "en": "Get 4 new cards"
+      },
+      "actif": true
+    },
+    {
+      "id": "jour-recycler-3",
+      "periode": "jour",
+      "type": "recycler",
+      "objectif": 3,
+      "pieces": 35,
+      "libelle": {
+        "fr": "Recycler 3 doublons",
+        "en": "Recycle 3 duplicates"
+      },
+      "actif": true
+    },
+    {
+      "id": "jour-fabriquer-1",
+      "periode": "jour",
+      "type": "fabriquer",
+      "objectif": 1,
+      "pieces": 50,
+      "libelle": {
+        "fr": "Fabriquer une carte",
+        "en": "Craft a card"
+      },
+      "actif": true
+    },
+    {
+      "id": "jour-vitrine-1",
+      "periode": "jour",
+      "type": "vitrine",
+      "objectif": 1,
+      "pieces": 30,
+      "libelle": {
+        "fr": "Modifier ta vitrine",
+        "en": "Update your showcase"
+      },
+      "actif": true
+    },
+    {
+      "id": "jour-combats-2",
+      "periode": "jour",
+      "type": "gagner_combat",
+      "objectif": 2,
+      "pieces": 60,
+      "libelle": {
+        "fr": "Gagner 2 combats",
+        "en": "Win 2 fights"
+      },
+      "actif": false
+    },
+    {
+      "id": "semaine-boosters-12",
+      "periode": "semaine",
+      "type": "ouvrir_booster",
+      "objectif": 12,
+      "pieces": 200,
+      "libelle": {
+        "fr": "Ouvrir 12 boosters",
+        "en": "Open 12 boosters"
+      },
+      "actif": true
+    },
+    {
+      "id": "semaine-premium-2",
+      "periode": "semaine",
+      "type": "ouvrir_premium",
+      "objectif": 2,
+      "pieces": 180,
+      "libelle": {
+        "fr": "Ouvrir 2 boosters Premium",
+        "en": "Open 2 Premium boosters"
+      },
+      "actif": true
+    },
+    {
+      "id": "semaine-rares-8",
+      "periode": "semaine",
+      "type": "reveler_rare",
+      "objectif": 8,
+      "pieces": 180,
+      "libelle": {
+        "fr": "Révéler 8 cartes Rares ou mieux",
+        "en": "Reveal 8 Rare or better cards"
+      },
+      "actif": true
+    },
+    {
+      "id": "semaine-epiques-3",
+      "periode": "semaine",
+      "type": "reveler_epique",
+      "objectif": 3,
+      "pieces": 220,
+      "libelle": {
+        "fr": "Révéler 3 cartes Épiques ou mieux",
+        "en": "Reveal 3 Epic or better cards"
+      },
+      "actif": true
+    },
+    {
+      "id": "semaine-nouvelles-20",
+      "periode": "semaine",
+      "type": "nouvelle_carte",
+      "objectif": 20,
+      "pieces": 200,
+      "libelle": {
+        "fr": "Obtenir 20 cartes nouvelles",
+        "en": "Get 20 new cards"
+      },
+      "actif": true
+    },
+    {
+      "id": "semaine-recycler-15",
+      "periode": "semaine",
+      "type": "recycler",
+      "objectif": 15,
+      "pieces": 170,
+      "libelle": {
+        "fr": "Recycler 15 doublons",
+        "en": "Recycle 15 duplicates"
+      },
+      "actif": true
+    },
+    {
+      "id": "semaine-fabriquer-3",
+      "periode": "semaine",
+      "type": "fabriquer",
+      "objectif": 3,
+      "pieces": 200,
+      "libelle": {
+        "fr": "Fabriquer 3 cartes",
+        "en": "Craft 3 cards"
+      },
+      "actif": true
+    },
+    {
+      "id": "semaine-combats-10",
+      "periode": "semaine",
+      "type": "gagner_combat",
+      "objectif": 10,
+      "pieces": 250,
+      "libelle": {
+        "fr": "Gagner 10 combats",
+        "en": "Win 10 fights"
+      },
+      "actif": false
+    }
+  ]
+}

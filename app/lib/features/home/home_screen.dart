@@ -16,6 +16,7 @@ import '../auth/auth_providers.dart';
 import '../boosters/booster_flow.dart';
 import '../boosters/booster_pack.dart';
 import '../boosters/booster_service.dart';
+import '../defis/defis_service.dart';
 import 'welcome_pack.dart';
 
 /// Accueil : le booster de la collection du moment occupe l'essentiel de
@@ -170,7 +171,6 @@ class _HomeTopBar extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final l = context.l10n;
     final coins = ref.watch(walletProvider).value?.pieces;
-    final owned = ref.watch(ownedCardsProvider).value?.length ?? 0;
     final sync = ref.watch(syncControllerProvider);
     return Padding(
       padding: const EdgeInsets.fromLTRB(16, 6, 4, 6),
@@ -182,9 +182,24 @@ class _HomeTopBar extends ConsumerWidget {
             style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w800),
           ),
         ),
-        _Chip(icon: Icons.style, text: '$owned', tooltip: l.statMyCards),
+        _Chip(
+          key: const Key('home-defis'),
+          icon: Icons.flag_outlined,
+          text: l.defisTitle,
+          tooltip: l.defisTitle,
+          color: AppColors.gold,
+          badge: ref.watch(defisClaimableProvider),
+          onTap: () => context.push('/defis'),
+        ),
         const SizedBox(width: 6),
-        _Chip(icon: Icons.toll, text: coins == null ? '–' : '$coins', tooltip: l.coins(coins ?? 0), color: AppColors.gold),
+        _Chip(
+          key: const Key('home-coins'),
+          icon: Icons.toll,
+          text: coins == null ? '–' : '$coins',
+          tooltip: l.coins(coins ?? 0),
+          color: AppColors.gold,
+          onTap: () => context.push('/boutique'),
+        ),
         IconButton(
           tooltip: l.sync,
           onPressed: sync.running ? null : () => ref.read(syncControllerProvider.notifier).sync(),
@@ -199,23 +214,46 @@ class _HomeTopBar extends ConsumerWidget {
 }
 
 class _Chip extends StatelessWidget {
-  const _Chip({required this.icon, required this.text, required this.tooltip, this.color});
+  const _Chip({super.key, required this.icon, required this.text, required this.tooltip, this.color, this.onTap, this.badge = 0});
   final IconData icon;
   final String text;
   final String tooltip;
   final Color? color;
+  final VoidCallback? onTap;
+
+  /// Pastille (nombre de récompenses à récupérer).
+  final int badge;
 
   @override
   Widget build(BuildContext context) => Tooltip(
         message: tooltip,
-        child: Container(
-          padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
-          decoration: BoxDecoration(color: AppColors.surfaceHigh, borderRadius: BorderRadius.circular(20)),
-          child: Row(mainAxisSize: MainAxisSize.min, children: [
-            Icon(icon, size: 16, color: color ?? AppColors.textMuted),
-            const SizedBox(width: 5),
-            Text(text, style: const TextStyle(fontWeight: FontWeight.w700)),
-          ]),
+        child: Material(
+          color: AppColors.surfaceHigh,
+          borderRadius: BorderRadius.circular(20),
+          child: InkWell(
+            borderRadius: BorderRadius.circular(20),
+            onTap: onTap,
+            child: Stack(clipBehavior: Clip.none, children: [
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+                child: Row(mainAxisSize: MainAxisSize.min, children: [
+                  Icon(icon, size: 16, color: color ?? AppColors.textMuted),
+                  const SizedBox(width: 5),
+                  Text(text, style: const TextStyle(fontWeight: FontWeight.w700)),
+                ]),
+              ),
+              if (badge > 0)
+                Positioned(
+                  top: -5,
+                  right: -4,
+                  child: Container(
+                    padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 1),
+                    decoration: BoxDecoration(color: AppColors.crimson, borderRadius: BorderRadius.circular(10)),
+                    child: Text('$badge', style: const TextStyle(fontSize: 10.5, fontWeight: FontWeight.w800)),
+                  ),
+                ),
+            ]),
+          ),
         ),
       );
 }

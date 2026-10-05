@@ -293,6 +293,7 @@ def main() -> None:
               + (f" ({missing} sans fiche combattant)" if missing else "")
               + (f", {removed} élément(s) retiré(s)" if removed else ""))
     import_boosters(api)
+    import_defis(api)
 
 
 def import_boosters(api: "Api") -> None:
@@ -311,6 +312,20 @@ def import_boosters(api: "Api") -> None:
     if rows:
         api.upsert("booster_types", rows)
     print(f"boosters : {len(rows)}")
+
+
+def import_defis(api: "Api") -> None:
+    data = load_json(DATA / "defis.json", {"defis": []})["defis"]
+    rows = [{
+        "id": d["id"], "periode": d["periode"], "type": d["type"], "objectif": d["objectif"],
+        "pieces": d["pieces"], "libelle": d["libelle"], "actif": d.get("actif", True),
+    } for d in data]
+    for d in rows:
+        if d["periode"] not in ("jour", "semaine") or not d["libelle"].get("fr") or not d["libelle"].get("en"):
+            raise SystemExit(f"défi invalide : {d['id']}")
+    if rows:
+        api.upsert("defi_modeles", rows)
+    print(f"défis : {len(rows)} ({sum(r['actif'] for r in rows)} actifs)")
 
 
 if __name__ == "__main__":

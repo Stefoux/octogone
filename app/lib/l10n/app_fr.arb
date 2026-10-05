@@ -642,5 +642,19 @@
   "atelierErrNotRecyclable": "Cette carte n’est pas recyclable (numérotée, protégée ou exposée).",
   "atelierErrKeepOne": "Il faut garder au moins un exemplaire de chaque carte.",
   "atelierErrNotCraftable": "Cette carte ne se fabrique pas.",
-  "atelierErrNotEligible": "Cette rareté n’existe pas pour ce combattant."
+  "atelierErrNotEligible": "Cette rareté n’existe pas pour ce combattant.",
+  "defisTitle": "Défis",
+  "defisToday": "Aujourd’hui",
+  "defisWeek": "Cette semaine",
+  "defisRenewIn": "Renouvelés dans {time}",
+  "@defisRenewIn": {"placeholders": {"time": {"type": "String"}}},
+  "defisClaim": "Récupérer",
+  "defisClaimed": "Récupéré",
+  "defisClaimedSnack": "+{n} pièces",
+  "@defisClaimedSnack": {"placeholders": {"n": {"type": "int"}}},
+  "defisError": "Impossible de charger les défis.",
+  "defisErrAlready": "Récompense déjà récupérée.",
+  "defisErrNotDone": "Ce défi n’est pas encore accompli.",
+  "durationDh": "{d} j {h} h",
+  "@durationDh": {"placeholders": {"d": {"type": "int"}, "h": {"type": "int"}}}
 }

@@ -24,6 +24,7 @@ import '../cards/decorations.dart';
 import '../cards/trading_card.dart';
 import 'booster_flow.dart';
 import 'booster_pack.dart';
+import '../defis/defis_service.dart';
 import 'booster_service.dart';
 import 'swipe_card.dart';
 
@@ -110,7 +111,8 @@ class _BoosterOpeningScreenState extends ConsumerState<BoosterOpeningScreen> wit
       if (!mounted) return;
       ref
         ..invalidate(boosterStatusProvider)
-        ..invalidate(walletProvider);
+        ..invalidate(walletProvider)
+        ..invalidate(defisProvider);
       setState(() {
         _cards = cards;
         _index = 0;

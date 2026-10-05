@@ -4,6 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../data/repositories/content_providers.dart';
+import '../defis/defis_service.dart';
 
 /// Nombre d'emplacements de la vitrine (le premier est la place d'honneur).
 const kVitrineSlots = 9;
@@ -74,6 +75,7 @@ class VitrineController extends AsyncNotifier<List<String?>> {
     try {
       await ref.read(vitrineStoreProvider).save(next);
       await _writeCache(next);
+      ref.invalidate(defisProvider);
     } catch (e) {
       state = AsyncData(previous);
       rethrow;

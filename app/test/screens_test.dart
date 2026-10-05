@@ -25,6 +25,8 @@ import 'package:octogone/widgets/rarity_backdrop.dart';
 import 'package:octogone/features/vitrine/vitrine_screen.dart';
 import 'package:octogone/features/atelier/atelier_service.dart';
 import 'package:octogone/features/atelier/atelier_widgets.dart';
+import 'package:octogone/features/defis/defis_screen.dart';
+import 'package:octogone/features/defis/defis_service.dart';
 import 'package:octogone/features/vitrine/vitrine_service.dart';
 import 'package:octogone/features/home/home_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -206,6 +208,7 @@ List<Override> _boosterOverrides(_FakeBoosters fake) => [
           )),
       syncControllerProvider.overrideWith(_IdleSync.new),
       soundFxProvider.overrideWithValue(SoundFx(enabled: false)),
+      defisServiceProvider.overrideWithValue(_FakeDefis(_defisSample)),
     ];
 
 /// Avance de plusieurs images (les animations en boucle empêchent pumpAndSettle).
@@ -278,6 +281,46 @@ OwnedCard _copy(String id, String card, String variant, {int? serial, bool locke
       'origine': 'booster',
       'obtenue_le': '2026-10-0${day}T10:00:00Z',
     });
+
+// --- Défis -------------------------------------------------------------------
+
+class _FakeDefis implements DefisService {
+  _FakeDefis(this.defis);
+  List<Defi> defis;
+  final claimed = <String>[];
+
+  @override
+  Future<List<Defi>> load() async => defis;
+
+  @override
+  Future<int> claim(String id) async {
+    claimed.add(id);
+    defis = [
+      for (final d in defis)
+        d.id == id ? _defi(d.id, d.periode, d.progression, d.objectif, d.pieces, recupere: true) : d,
+    ];
+    return 520;
+  }
+}
+
+Defi _defi(String id, String periode, int progression, int objectif, int pieces, {bool recupere = false}) => Defi({
+      'modele_id': id,
+      'periode': periode,
+      'type': id,
+      'objectif': objectif,
+      'pieces': pieces,
+      'libelle': {'fr': 'Défi $id', 'en': 'Challenge $id'},
+      'progression': progression,
+      'recupere': recupere,
+      'fin': DateTime.now().add(Duration(hours: periode == 'jour' ? 5 : 80)).toUtc().toIso8601String(),
+    });
+
+final _defisSample = [
+  _defi('connexion', 'jour', 1, 1, 20),
+  _defi('boosters', 'jour', 1, 3, 55),
+  _defi('rares', 'jour', 2, 2, 45, recupere: true),
+  _defi('semaine', 'semaine', 4, 12, 200),
+];
 
 Widget _wrap(Widget child, {List<Override>? overrides, Locale? locale}) => ProviderScope(
       overrides: overrides ?? _overrides(),
@@ -801,5 +844,41 @@ void main() {
     expect(find.text('Carte fabriquée et ajoutée à ta collection.'), findsOneWidget);
     await tester.pumpWidget(const SizedBox());
     await tester.pump(const Duration(seconds: 5));
+  });
+
+  testWidgets('Défis : du jour et de la semaine, progression, récupérer une récompense', (tester) async {
+    _bigScreen(tester);
+    final fake = _FakeDefis([..._defisSample]);
+    await tester.pumpWidget(_wrap(
+      const DefisScreen(),
+      overrides: [..._overrides(), defisServiceProvider.overrideWithValue(fake)],
+      locale: const Locale('fr'),
+    ));
+    await _frames(tester, 6);
+    expect(find.text('AUJOURD’HUI'), findsOneWidget);
+    expect(find.text('CETTE SEMAINE'), findsOneWidget);
+    expect(find.text('1/3'), findsOneWidget);
+    expect(find.text('4/12'), findsOneWidget);
+    expect(find.text('Récupéré'), findsOneWidget);
+    expect(find.textContaining('Renouvelés dans'), findsNWidgets(2));
+    await tester.tap(find.byKey(const Key('defi-claim-connexion')));
+    await _frames(tester, 4);
+    expect(fake.claimed, ['connexion']);
+    expect(find.text('+20 pièces'), findsOneWidget);
+    expect(find.text('Récupéré'), findsNWidgets(2));
+    await tester.pumpWidget(const SizedBox());
+    await tester.pump(const Duration(seconds: 5));
+  });
+
+  testWidgets('Accueil : pastille du nombre de défis à récupérer', (tester) async {
+    SharedPreferences.setMockInitialValues({});
+    _phoneScreen(tester);
+    await tester.pumpWidget(
+        _wrap(const HomeScreen(useSensors: false), overrides: _boosterOverrides(_FakeBoosters()), locale: const Locale('fr')));
+    await _frames(tester, 4);
+    final chip = find.byKey(const Key('home-defis'));
+    expect(find.descendant(of: chip, matching: find.text('Défis')), findsOneWidget);
+    expect(find.descendant(of: chip, matching: find.text('1')), findsOneWidget);
+    await tester.pumpWidget(const SizedBox());
   });
 }
