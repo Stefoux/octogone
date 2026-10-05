@@ -976,4 +976,94 @@ class AppLocalizationsFr extends AppLocalizations {
   String vitrineSaveError(String message) {
     return 'Impossible d’enregistrer la vitrine : $message';
   }
+
+  @override
+  String get atelierTitle => 'Atelier';
+
+  @override
+  String atelierFragments(int n) {
+    return '$n fragments';
+  }
+
+  @override
+  String get atelierRecycleAll => 'Recycler tous les doublons';
+
+  @override
+  String atelierRecycleAllSub(int count, int gain) {
+    return '$count doublons · +$gain fragments';
+  }
+
+  @override
+  String get atelierNoDuplicates => 'Aucun doublon à recycler pour l’instant.';
+
+  @override
+  String atelierRecycleConfirmTitle(int count) {
+    return 'Recycler $count doublons ?';
+  }
+
+  @override
+  String atelierRecycleConfirm(int gain) {
+    return 'Tu gagnes $gain fragments. Tu gardes au moins un exemplaire de chaque carte.';
+  }
+
+  @override
+  String atelierRecycled(int gain, int count) {
+    return '+$gain fragments ($count cartes recyclées)';
+  }
+
+  @override
+  String atelierRecycleOne(int gain) {
+    return 'Recycler un doublon (+$gain)';
+  }
+
+  @override
+  String get atelierRules =>
+      'Les cartes numérotées, protégées ou exposées dans la vitrine ne sont jamais recyclées.';
+
+  @override
+  String atelierCraft(int cost) {
+    return 'Fabriquer · $cost fragments';
+  }
+
+  @override
+  String get atelierCraftTitle => 'Fabriquer cette carte ?';
+
+  @override
+  String atelierCraftConfirm(int cost) {
+    return 'Elle coûte $cost fragments et rejoint ta collection.';
+  }
+
+  @override
+  String get atelierCrafted => 'Carte fabriquée et ajoutée à ta collection.';
+
+  @override
+  String get atelierProtect => 'Protéger';
+
+  @override
+  String get atelierProtected => 'Protégée';
+
+  @override
+  String get atelierCraftHelpTitle => 'Fabriquer une carte précise';
+
+  @override
+  String get atelierCraftHelp =>
+      'Ouvre une carte qui te manque dans l’Album, puis touche « Fabriquer ». Les cartes numérotées ne se fabriquent pas.';
+
+  @override
+  String get atelierErrFragments => 'Pas assez de fragments.';
+
+  @override
+  String get atelierErrNotRecyclable =>
+      'Cette carte n’est pas recyclable (numérotée, protégée ou exposée).';
+
+  @override
+  String get atelierErrKeepOne =>
+      'Il faut garder au moins un exemplaire de chaque carte.';
+
+  @override
+  String get atelierErrNotCraftable => 'Cette carte ne se fabrique pas.';
+
+  @override
+  String get atelierErrNotEligible =>
+      'Cette rareté n’existe pas pour ce combattant.';
 }

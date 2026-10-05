@@ -971,4 +971,94 @@ class AppLocalizationsEn extends AppLocalizations {
   String vitrineSaveError(String message) {
     return 'Could not save the showcase: $message';
   }
+
+  @override
+  String get atelierTitle => 'Workshop';
+
+  @override
+  String atelierFragments(int n) {
+    return '$n fragments';
+  }
+
+  @override
+  String get atelierRecycleAll => 'Recycle all duplicates';
+
+  @override
+  String atelierRecycleAllSub(int count, int gain) {
+    return '$count duplicates · +$gain fragments';
+  }
+
+  @override
+  String get atelierNoDuplicates => 'No duplicates to recycle yet.';
+
+  @override
+  String atelierRecycleConfirmTitle(int count) {
+    return 'Recycle $count duplicates?';
+  }
+
+  @override
+  String atelierRecycleConfirm(int gain) {
+    return 'You get $gain fragments. You always keep at least one copy of each card.';
+  }
+
+  @override
+  String atelierRecycled(int gain, int count) {
+    return '+$gain fragments ($count cards recycled)';
+  }
+
+  @override
+  String atelierRecycleOne(int gain) {
+    return 'Recycle a duplicate (+$gain)';
+  }
+
+  @override
+  String get atelierRules =>
+      'Numbered, protected or showcased cards are never recycled.';
+
+  @override
+  String atelierCraft(int cost) {
+    return 'Craft · $cost fragments';
+  }
+
+  @override
+  String get atelierCraftTitle => 'Craft this card?';
+
+  @override
+  String atelierCraftConfirm(int cost) {
+    return 'It costs $cost fragments and joins your collection.';
+  }
+
+  @override
+  String get atelierCrafted => 'Card crafted and added to your collection.';
+
+  @override
+  String get atelierProtect => 'Protect';
+
+  @override
+  String get atelierProtected => 'Protected';
+
+  @override
+  String get atelierCraftHelpTitle => 'Craft a specific card';
+
+  @override
+  String get atelierCraftHelp =>
+      'Open a card you are missing in the Album, then tap “Craft”. Numbered cards cannot be crafted.';
+
+  @override
+  String get atelierErrFragments => 'Not enough fragments.';
+
+  @override
+  String get atelierErrNotRecyclable =>
+      'This card can’t be recycled (numbered, protected or showcased).';
+
+  @override
+  String get atelierErrKeepOne =>
+      'You must keep at least one copy of each card.';
+
+  @override
+  String get atelierErrNotCraftable => 'This card can’t be crafted.';
+
+  @override
+  String get atelierErrNotEligible =>
+      'This rarity doesn’t exist for this fighter.';
 }

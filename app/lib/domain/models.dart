@@ -287,6 +287,7 @@ class OwnedCard {
         numeroSerie = (j['numero_serie'] as num?)?.toInt(),
         tirage = (j['tirage'] as num?)?.toInt(),
         copieAdmin = j['copie_admin'] == true,
+        verrouillee = j['verrouillee'] == true,
         origine = j['origine'] as String? ?? '',
         obtenueLe = DateTime.tryParse(j['obtenue_le'] as String? ?? '');
 
@@ -296,7 +297,13 @@ class OwnedCard {
   final int? numeroSerie;
   final int? tirage;
   final bool copieAdmin;
+
+  /// Protégée contre le recyclage.
+  final bool verrouillee;
   final String origine;
+
+  /// Exemplaire numéroté (/50, 1/1…) : ni recyclable ni fabricable.
+  bool get isNumbered => numeroSerie != null || tirage != null;
   final DateTime? obtenueLe;
 }
 

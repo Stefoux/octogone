@@ -147,13 +147,20 @@ final boosterTypesProvider = StreamProvider<List<BoosterType>>((ref) {
       ]);
 });
 
-/// Pièces du joueur.
-final walletProvider = FutureProvider<int?>((ref) async {
+/// Portefeuille du joueur : pièces et fragments.
+class Wallet {
+  const Wallet({required this.pieces, required this.fragments});
+  final int pieces;
+  final int fragments;
+}
+
+final walletProvider = FutureProvider<Wallet?>((ref) async {
   final client = ref.watch(supabaseProvider);
   final uid = client.auth.currentUser?.id;
   if (uid == null) return null;
-  final row = await client.from('wallets').select('pieces').eq('user_id', uid).maybeSingle();
-  return (row?['pieces'] as num?)?.toInt();
+  final row = await client.from('wallets').select('pieces, fragments').eq('user_id', uid).maybeSingle();
+  if (row == null) return null;
+  return Wallet(pieces: (row['pieces'] as num).toInt(), fragments: (row['fragments'] as num).toInt());
 });
 
 /// Collection affichée sur l'accueil (mémorisée sur l'appareil). Par défaut :

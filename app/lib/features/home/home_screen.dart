@@ -169,7 +169,7 @@ class _HomeTopBar extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final l = context.l10n;
-    final coins = ref.watch(walletProvider).value;
+    final coins = ref.watch(walletProvider).value?.pieces;
     final owned = ref.watch(ownedCardsProvider).value?.length ?? 0;
     final sync = ref.watch(syncControllerProvider);
     return Padding(

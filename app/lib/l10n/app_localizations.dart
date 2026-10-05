@@ -1801,6 +1801,144 @@ abstract class AppLocalizations {
   /// In fr, this message translates to:
   /// **'Impossible d’enregistrer la vitrine : {message}'**
   String vitrineSaveError(String message);
+
+  /// No description provided for @atelierTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Atelier'**
+  String get atelierTitle;
+
+  /// No description provided for @atelierFragments.
+  ///
+  /// In fr, this message translates to:
+  /// **'{n} fragments'**
+  String atelierFragments(int n);
+
+  /// No description provided for @atelierRecycleAll.
+  ///
+  /// In fr, this message translates to:
+  /// **'Recycler tous les doublons'**
+  String get atelierRecycleAll;
+
+  /// No description provided for @atelierRecycleAllSub.
+  ///
+  /// In fr, this message translates to:
+  /// **'{count} doublons · +{gain} fragments'**
+  String atelierRecycleAllSub(int count, int gain);
+
+  /// No description provided for @atelierNoDuplicates.
+  ///
+  /// In fr, this message translates to:
+  /// **'Aucun doublon à recycler pour l’instant.'**
+  String get atelierNoDuplicates;
+
+  /// No description provided for @atelierRecycleConfirmTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Recycler {count} doublons ?'**
+  String atelierRecycleConfirmTitle(int count);
+
+  /// No description provided for @atelierRecycleConfirm.
+  ///
+  /// In fr, this message translates to:
+  /// **'Tu gagnes {gain} fragments. Tu gardes au moins un exemplaire de chaque carte.'**
+  String atelierRecycleConfirm(int gain);
+
+  /// No description provided for @atelierRecycled.
+  ///
+  /// In fr, this message translates to:
+  /// **'+{gain} fragments ({count} cartes recyclées)'**
+  String atelierRecycled(int gain, int count);
+
+  /// No description provided for @atelierRecycleOne.
+  ///
+  /// In fr, this message translates to:
+  /// **'Recycler un doublon (+{gain})'**
+  String atelierRecycleOne(int gain);
+
+  /// No description provided for @atelierRules.
+  ///
+  /// In fr, this message translates to:
+  /// **'Les cartes numérotées, protégées ou exposées dans la vitrine ne sont jamais recyclées.'**
+  String get atelierRules;
+
+  /// No description provided for @atelierCraft.
+  ///
+  /// In fr, this message translates to:
+  /// **'Fabriquer · {cost} fragments'**
+  String atelierCraft(int cost);
+
+  /// No description provided for @atelierCraftTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Fabriquer cette carte ?'**
+  String get atelierCraftTitle;
+
+  /// No description provided for @atelierCraftConfirm.
+  ///
+  /// In fr, this message translates to:
+  /// **'Elle coûte {cost} fragments et rejoint ta collection.'**
+  String atelierCraftConfirm(int cost);
+
+  /// No description provided for @atelierCrafted.
+  ///
+  /// In fr, this message translates to:
+  /// **'Carte fabriquée et ajoutée à ta collection.'**
+  String get atelierCrafted;
+
+  /// No description provided for @atelierProtect.
+  ///
+  /// In fr, this message translates to:
+  /// **'Protéger'**
+  String get atelierProtect;
+
+  /// No description provided for @atelierProtected.
+  ///
+  /// In fr, this message translates to:
+  /// **'Protégée'**
+  String get atelierProtected;
+
+  /// No description provided for @atelierCraftHelpTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Fabriquer une carte précise'**
+  String get atelierCraftHelpTitle;
+
+  /// No description provided for @atelierCraftHelp.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ouvre une carte qui te manque dans l’Album, puis touche « Fabriquer ». Les cartes numérotées ne se fabriquent pas.'**
+  String get atelierCraftHelp;
+
+  /// No description provided for @atelierErrFragments.
+  ///
+  /// In fr, this message translates to:
+  /// **'Pas assez de fragments.'**
+  String get atelierErrFragments;
+
+  /// No description provided for @atelierErrNotRecyclable.
+  ///
+  /// In fr, this message translates to:
+  /// **'Cette carte n’est pas recyclable (numérotée, protégée ou exposée).'**
+  String get atelierErrNotRecyclable;
+
+  /// No description provided for @atelierErrKeepOne.
+  ///
+  /// In fr, this message translates to:
+  /// **'Il faut garder au moins un exemplaire de chaque carte.'**
+  String get atelierErrKeepOne;
+
+  /// No description provided for @atelierErrNotCraftable.
+  ///
+  /// In fr, this message translates to:
+  /// **'Cette carte ne se fabrique pas.'**
+  String get atelierErrNotCraftable;
+
+  /// No description provided for @atelierErrNotEligible.
+  ///
+  /// In fr, this message translates to:
+  /// **'Cette rareté n’existe pas pour ce combattant.'**
+  String get atelierErrNotEligible;
 }
 
 class _AppLocalizationsDelegate

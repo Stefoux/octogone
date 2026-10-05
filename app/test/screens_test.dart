@@ -23,6 +23,8 @@ import 'package:octogone/features/entry/entry_screen.dart';
 import 'package:octogone/features/fighters/fighters_screen.dart';
 import 'package:octogone/widgets/rarity_backdrop.dart';
 import 'package:octogone/features/vitrine/vitrine_screen.dart';
+import 'package:octogone/features/atelier/atelier_service.dart';
+import 'package:octogone/features/atelier/atelier_widgets.dart';
 import 'package:octogone/features/vitrine/vitrine_service.dart';
 import 'package:octogone/features/home/home_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -193,7 +195,7 @@ List<Override> _boosterOverrides(_FakeBoosters fake) => [
       ..._overrides(),
       boosterServiceProvider.overrideWithValue(fake),
       boosterTypesProvider.overrideWith((ref) => Stream.value(_boosters)),
-      walletProvider.overrideWith((ref) async => 480),
+      walletProvider.overrideWith((ref) async => const Wallet(pieces: 480, fragments: 120)),
       profileProvider.overrideWith((ref) async => const Profile(
             id: 'u1',
             pseudo: 'Testeur',
@@ -245,6 +247,37 @@ List<Override> _vitrineOverrides(_MemoryVitrine store) => [
       ..._overrides(owned: _vitrineOwned),
       vitrineStoreProvider.overrideWithValue(store),
     ];
+
+// --- Atelier -----------------------------------------------------------------
+
+class _FakeAtelier implements AtelierService {
+  final recycled = <List<String>>[];
+  final crafted = <(String, String)>[];
+  final protected = <(String, bool)>[];
+
+  @override
+  Future<RecycleResult> recycle(List<String> ownedIds) async {
+    recycled.add(ownedIds);
+    return RecycleResult(cards: ownedIds.length, gained: ownedIds.length * 5, fragments: 125);
+  }
+
+  @override
+  Future<void> craft(String cardId, String variantId) async => crafted.add((cardId, variantId));
+
+  @override
+  Future<void> protect(String ownedId, bool protect) async => protected.add((ownedId, protect));
+}
+
+OwnedCard _copy(String id, String card, String variant, {int? serial, bool locked = false, int day = 1}) => OwnedCard({
+      'id': id,
+      'card_id': card,
+      'variant_id': variant,
+      'numero_serie': serial,
+      'tirage': serial == null ? null : 50,
+      'verrouillee': locked,
+      'origine': 'booster',
+      'obtenue_le': '2026-10-0${day}T10:00:00Z',
+    });
 
 Widget _wrap(Widget child, {List<Override>? overrides, Locale? locale}) => ProviderScope(
       overrides: overrides ?? _overrides(),
@@ -681,6 +714,91 @@ void main() {
     await tester.tap(find.byKey(const Key('vitrine-toggle')));
     await _frames(tester, 3);
     expect(find.text('Vitrine pleine : retire d’abord une carte.'), findsOneWidget);
+    await tester.pumpWidget(const SizedBox());
+    await tester.pump(const Duration(seconds: 5));
+  });
+
+  test('Atelier : doublons recyclables (même règle que le serveur)', () {
+    final owned = [
+      _copy('a1', 'ed:2', 'ed:BASE:base', day: 1),
+      _copy('a2', 'ed:2', 'ed:BASE:base', day: 2),
+      _copy('a3', 'ed:2', 'ed:BASE:base', day: 3),
+      _copy('b1', 'ed:1', 'ed:BASE:base'), // exemplaire unique : jamais recyclé
+      _copy('c1', 'ed:1', 'ed:BASE:gold-refractor', serial: 3),
+      _copy('c2', 'ed:1', 'ed:BASE:gold-refractor', serial: 4), // numérotées : jamais
+      _copy('d1', 'ed:2', 'ed:BASE:superfractor', locked: true),
+      _copy('d2', 'ed:2', 'ed:BASE:superfractor'), // la protégée compte comme l'exemplaire gardé
+      _copy('e1', 'ed:1', 'ed:BASE:superfractor'),
+      _copy('e2', 'ed:1', 'ed:BASE:superfractor'), // exposée en vitrine : gardée
+    ];
+    final dupes = recyclableDuplicates(owned: owned, variants: _variants, exposed: {'e2'}, rates: FragmentRates.fallback);
+    expect(dupes.map((d) => d.owned.id).toSet(), {'a2', 'a3', 'd2', 'e1'});
+    expect(dupes.firstWhere((d) => d.owned.id == 'a2').gain, 5);
+    expect(dupes.firstWhere((d) => d.owned.id == 'd2').gain, 1600);
+    // Fabrication : numérotée impossible, base = 5 × 6
+    expect(FragmentRates.fallback.craftCost(_variants['ed:BASE:base']!), 30);
+    expect(FragmentRates.fallback.craftCost(_variants['ed:BASE:gold-refractor']!), isNull);
+  });
+
+  testWidgets('Atelier : recycler tous les doublons après confirmation', (tester) async {
+    SharedPreferences.setMockInitialValues({});
+    _phoneScreen(tester);
+    final fake = _FakeAtelier();
+    final owned = [_copy('a1', 'ed:2', 'ed:BASE:base', day: 1), _copy('a2', 'ed:2', 'ed:BASE:base', day: 2), _copy('a3', 'ed:2', 'ed:BASE:base', day: 3)];
+    await tester.pumpWidget(_wrap(
+      const Scaffold(body: AtelierView()),
+      overrides: [
+        ..._overrides(owned: owned),
+        atelierServiceProvider.overrideWithValue(fake),
+        fragmentRatesProvider.overrideWith((ref) async => FragmentRates.fallback),
+        walletProvider.overrideWith((ref) async => const Wallet(pieces: 480, fragments: 120)),
+        vitrineStoreProvider.overrideWithValue(_MemoryVitrine()),
+      ],
+      locale: const Locale('fr'),
+    ));
+    await _frames(tester, 3);
+    expect(find.text('120 fragments'), findsOneWidget);
+    expect(find.text('2 doublons · +10 fragments'), findsOneWidget);
+    await tester.tap(find.byKey(const Key('atelier-recycle-all')));
+    await _frames(tester, 4);
+    expect(find.text('Recycler 2 doublons ?'), findsOneWidget);
+    await tester.tap(find.byKey(const Key('atelier-confirm')));
+    await _frames(tester, 4);
+    expect(fake.recycled.single.toSet(), {'a2', 'a3'});
+    expect(find.text('+10 fragments (2 cartes recyclées)'), findsOneWidget);
+    await tester.pumpWidget(const SizedBox());
+    await tester.pump(const Duration(seconds: 5));
+  });
+
+  testWidgets('Atelier : fabriquer depuis la fiche (assez ou pas assez de fragments)', (tester) async {
+    SharedPreferences.setMockInitialValues({});
+    final fake = _FakeAtelier();
+    final view = CardView(card: _cards[1], variant: _variants['ed:BASE:base']!, fighters: [_fighters[1]], edition: _edition, series: _series);
+    Widget screen(int fragments) => _wrap(
+          Scaffold(body: Center(child: CardAtelierActions(view: view))),
+          overrides: [
+            ..._overrides(owned: const []),
+            atelierServiceProvider.overrideWithValue(fake),
+            fragmentRatesProvider.overrideWith((ref) async => FragmentRates.fallback),
+            walletProvider.overrideWith((ref) async => Wallet(pieces: 0, fragments: fragments)),
+            vitrineStoreProvider.overrideWithValue(_MemoryVitrine()),
+          ],
+          locale: const Locale('fr'),
+        );
+    await tester.pumpWidget(screen(10));
+    await _frames(tester, 2);
+    expect(find.text('Fabriquer · 30 fragments'), findsOneWidget);
+    expect(tester.widget<ButtonStyleButton>(find.byKey(const Key('atelier-craft'))).onPressed, isNull,
+        reason: '10 fragments < 30');
+    await tester.pumpWidget(const SizedBox());
+    await tester.pumpWidget(screen(100));
+    await _frames(tester, 2);
+    await tester.tap(find.byKey(const Key('atelier-craft')));
+    await _frames(tester, 3);
+    await tester.tap(find.byKey(const Key('atelier-confirm')));
+    await _frames(tester, 3);
+    expect(fake.crafted, [('ed:2', 'ed:BASE:base')]);
+    expect(find.text('Carte fabriquée et ajoutée à ta collection.'), findsOneWidget);
     await tester.pumpWidget(const SizedBox());
     await tester.pump(const Duration(seconds: 5));
   });
