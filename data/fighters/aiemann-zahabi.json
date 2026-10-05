@@ -1,0 +1,152 @@
+{
+  "id": "aiemann-zahabi",
+  "nom": "Aiemann Zahabi",
+  "ufc_slug": "aiemann-zahabi",
+  "wikipedia_titre": "Aiemann Zahabi",
+  "surnom": "Icemann",
+  "sexe": "M",
+  "pays": "CA",
+  "categorie": "coq",
+  "statut": "actif",
+  "date_naissance": "1987-11-19",
+  "taille_cm": 173,
+  "allonge_cm": 174,
+  "style": "AMM",
+  "lieu_naissance": "Laval, Canada",
+  "palmares": {
+    "victoires": 14,
+    "defaites": 3,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 6,
+    "victoires_soumission": 2,
+    "victoires_decision": 6,
+    "defaites_ko": 2,
+    "defaites_soumission": 0,
+    "defaites_decision": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.47,
+    "precision_frappe_pct": 48,
+    "frappes_encaissees_par_min": 4.11,
+    "defense_frappe_pct": 68.0,
+    "takedowns_par_15min": 0.12,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 84.0,
+    "soumissions_par_15min": 0.0,
+    "knockdowns_par_15min": 0.35,
+    "duree_moyenne_combat_s": 710,
+    "frappes_reussies": 582.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 14,
+      "defaites": 3,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 6,
+        "soumission": 2,
+        "decision": 6,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 0,
+        "decision": 1,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2017": 2,
+      "2019": 1,
+      "2021": 1,
+      "2022": 1,
+      "2023": 1,
+      "2024": 2,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Sean O'Malley",
+      "evenement": "UFC Freedom 250",
+      "date": "June 14, 2026",
+      "resultat": "Loss",
+      "methode": "TKO (punches)"
+    },
+    "combats_ufc": 11,
+    "victoires_ufc": 8,
+    "defaites_ufc": 3,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "ankle lock",
+      "finitions": 1
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Reginaldo Vieira",
+      "evenement": "UFC Fight Night: Lewis vs. Browne",
+      "date": "February 19, 2017",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Drako Rodriguez"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Highest significant strike defense in UFC Bantamweight division history (69.2%)"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 1× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 1× Performance of the Night"
+    ]
+  },
+  "image_commons": "UFC Freedom 250 Press Conference (9747954)(cropped).jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Aiemann_Zahabi",
+    "wikidata": "https://www.wikidata.org/wiki/Q30069975",
+    "ufc_com": "https://www.ufc.com/athlete/aiemann-zahabi"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 64,
+    "puissance": 60,
+    "lutte": 53,
+    "soumission": 44,
+    "defense": 74,
+    "cardio": 61,
+    "menton": 71,
+    "globale": 61,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

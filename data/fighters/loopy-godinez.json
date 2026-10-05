@@ -1,0 +1,199 @@
+{
+  "id": "loopy-godinez",
+  "nom": "Loopy Godinez",
+  "ufc_slug": "loopy-godinez",
+  "wikipedia_titre": "Loopy Godínez",
+  "surnom": null,
+  "sexe": "F",
+  "pays": "MX",
+  "categorie": "paille_f",
+  "statut": "actif",
+  "date_naissance": "1993-09-06",
+  "taille_cm": 157,
+  "allonge_cm": 155,
+  "style": null,
+  "lieu_naissance": "Aguascalientes, Mexique",
+  "palmares": {
+    "victoires": 14,
+    "defaites": 6,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 1,
+    "victoires_soumission": 2,
+    "victoires_decision": 11,
+    "defaites_ko": 0,
+    "defaites_soumission": 1,
+    "defaites_decision": 5
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.43,
+    "precision_frappe_pct": 49,
+    "frappes_encaissees_par_min": 3.94,
+    "defense_frappe_pct": 62.0,
+    "takedowns_par_15min": 2.99,
+    "precision_takedown_pct": 16,
+    "defense_takedown_pct": 77.0,
+    "soumissions_par_15min": 0.82,
+    "knockdowns_par_15min": 0.07,
+    "duree_moyenne_combat_s": 801,
+    "frappes_reussies": 887.0,
+    "takedowns_reussis": 15.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 14,
+      "defaites": 6,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 1,
+        "soumission": 2,
+        "decision": 11,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 1,
+        "decision": 5,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2021": 4,
+      "2022": 2,
+      "2023": 4,
+      "2024": 2,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Tatiana Suarez",
+      "evenement": "UFC 327",
+      "date": "April 11, 2026",
+      "resultat": "Loss",
+      "methode": "Submission (rear-naked choke)"
+    },
+    "combats_ufc": 15,
+    "victoires_ufc": 9,
+    "defaites_ufc": 6,
+    "victoires_decision_5_rounds": 2,
+    "combats_5_rounds_gagnes": 2,
+    "bonus_fotn": 0,
+    "bonus_potn": 2,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "rear-naked choke",
+      "finitions": 1
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Jessica Penne",
+      "evenement": "UFC on ESPN: Whittaker vs. Gastelum",
+      "date": "April 17, 2021",
+      "resultat": "Loss",
+      "methode": "Decision (split)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. Silvana Gómez Juárez and Elise Reed"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Record for fastest turnaround in Modern UFC history (7 days)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Record for shortest span between three fights in Modern UFC history (42 days)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Carla Esparza , Tatiana Suarez & Yan Xiaonan ) for the second longest win streak in UFC Women's Strawweight division history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Cláudia Gadelha & Virna Jandiroba ) for second most takedowns landed in UFC Women's Strawweight division history (36)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second highest significant strike defense percentage in UFC Women's Strawweight division history (64.1%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most submission attempts in UFC Women's Strawweight division history (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First and only woman to win four fights in a calendar year in UFC history"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: Ranked #6 Newcomer of the Year"
+    },
+    {
+      "org": "Legacy Fighting Alliance (LFA)",
+      "texte": "LFA Women's Strawweight Champion (one time; former)"
+    },
+    {
+      "org": "BTC Fight Promotions",
+      "texte": "BTC Strawweight Championship (One time)"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2023 Second Team MMA All-Star"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2025 Third Team MMA All-Star"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Championne LFA des poids paille féminins",
+      "Bonus UFC : 2× Performance de la soirée"
+    ],
+    "en": [
+      "LFA Women's Strawweight Champion",
+      "UFC bonuses: 2× Performance of the Night"
+    ]
+  },
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Loopy_Godínez",
+    "wikidata": "https://www.wikidata.org/wiki/Q108911599",
+    "ufc_com": "https://www.ufc.com/athlete/loopy-godinez"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 64,
+    "puissance": 37,
+    "lutte": 63,
+    "soumission": 54,
+    "defense": 70,
+    "cardio": 80,
+    "menton": 99,
+    "globale": 67,
+    "style": "lutteur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "id": "valter-walker",
+  "nom": "Valter Walker",
+  "ufc_slug": "valter-walker",
+  "wikipedia_titre": "Valter Walker",
+  "surnom": "The Clean Monster",
+  "sexe": "M",
+  "pays": "BR",
+  "autres_pays": [
+    "RU"
+  ],
+  "categorie": "lourds",
+  "statut": "actif",
+  "date_naissance": "1997-12-14",
+  "taille_cm": 198,
+  "allonge_cm": 199,
+  "style": "AMM",
+  "lieu_naissance": "State of Rio de Janeiro, Brésil",
+  "palmares": {
+    "victoires": 16,
+    "defaites": 1,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 6,
+    "victoires_soumission": 6,
+    "victoires_decision": 4,
+    "defaites_ko": 0,
+    "defaites_soumission": 0,
+    "defaites_decision": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": 1.92,
+    "precision_frappe_pct": 53,
+    "frappes_encaissees_par_min": 2.67,
+    "defense_frappe_pct": 43.0,
+    "takedowns_par_15min": 5.39,
+    "precision_takedown_pct": 31,
+    "defense_takedown_pct": 100.0,
+    "soumissions_par_15min": 3.59,
+    "knockdowns_par_15min": 0.0,
+    "duree_moyenne_combat_s": 251,
+    "frappes_reussies": 48.0,
+    "takedowns_reussis": 4.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 16,
+      "defaites": 1,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 6,
+        "soumission": 6,
+        "decision": 4,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 0,
+        "decision": 1,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2024": 2,
+      "2025": 3,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Thomas Petersen",
+      "evenement": "UFC Fight Night: Ankalaev vs. Guskov",
+      "date": "July 25, 2026",
+      "resultat": "Win",
+      "methode": "Submission (calf slicer)"
+    },
+    "combats_ufc": 6,
+    "victoires_ufc": 5,
+    "defaites_ufc": 1,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 2,
+    "bonus_fotn": 0,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "heel hook",
+      "finitions": 3
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Łukasz Brzeski",
+      "evenement": "UFC Fight Night: Allen vs. Curtis 2",
+      "date": "April 6, 2024",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Three times) vs. Kennedy Nzechukwu , Louie Sutherland and Thomas Petersen"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Rousimar Palhares ) for most heel hook submissions in UFC history (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most consecutive heel hook submissions in UFC history (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Demian Maia ) for the second longest submission streak in UFC history (5) (behind Royce Gracie )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most submission wins in UFC Heavyweight division history (5)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2025: Ranked #5 Submissions of the Year vs. Don'Tale Mayes , Kennedy Nzechukwu , and Louie Sutherland"
+    },
+    {
+      "org": "Titan FC",
+      "texte": "Heavyweight Championship (One time)"
+    },
+    {
+      "org": "MMA Series",
+      "texte": "Heavyweight Championship (One time)"
+    },
+    {
+      "org": "Arena Global MMA",
+      "texte": "Heavyweight Championship (One time)"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2025 #5 Ranked Submission of the Year vs. Kennedy Nzechukwu"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2025 #3 Ranked Breakthrough Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2025 #2 Ranked Submissions of the Year vs. Don'Tale Mayes , Kennedy Nzechukwu , and Louie Sutherland"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2025 Second Team MMA All-Star"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 3× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 3× Performance of the Night"
+    ]
+  },
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Valter_Walker",
+    "wikidata": "https://www.wikidata.org/wiki/Q133797811",
+    "ufc_com": "https://www.ufc.com/athlete/valter-walker"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 57,
+    "puissance": 54,
+    "lutte": 79,
+    "soumission": 79,
+    "defense": 61,
+    "cardio": 48,
+    "menton": 99,
+    "globale": 68,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

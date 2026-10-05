@@ -3,7 +3,7 @@
   "nom": "Josh Quinlan",
   "ufc_slug": "josh-quinlan",
   "surnom": "Bushido",
-  "sexe": null,
+  "sexe": "M",
   "pays": null,
   "categorie": "mi_moyens",
   "statut": null,
@@ -55,7 +55,8 @@
     "pays": "wikidata",
     "categorie": "ufc_com",
     "palmares": "ufc_com",
-    "stats_ufc": "ufc_com"
+    "stats_ufc": "ufc_com",
+    "sexe": "https://www.ufc.com/athlete/josh-quinlan"
   },
   "a_verifier": [
     "article Wikipedia introuvable",
@@ -63,7 +64,6 @@
     "palmares.defaites_ko",
     "palmares.defaites_soumission",
     "pays",
-    "sexe",
     "statut"
   ],
   "ecarts_sources": {},

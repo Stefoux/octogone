@@ -3,8 +3,8 @@
   "nom": "William Gomis",
   "ufc_slug": "william-gomis",
   "surnom": "Jaguar",
-  "sexe": null,
-  "pays": null,
+  "sexe": "M",
+  "pays": "FR",
   "categorie": "plume",
   "statut": "actif",
   "date_naissance": null,
@@ -52,18 +52,17 @@
   },
   "champs_sources": {
     "surnom": "ufc_com",
-    "pays": "wikidata",
+    "pays": "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
     "categorie": "ufc_com",
     "palmares": "ufc_com",
-    "stats_ufc": "ufc_com"
+    "stats_ufc": "ufc_com",
+    "sexe": "https://www.ufc.com/athlete/william-gomis"
   },
   "a_verifier": [
     "article Wikipedia introuvable",
     "palmares.defaites_decision",
     "palmares.defaites_ko",
-    "palmares.defaites_soumission",
-    "pays",
-    "sexe"
+    "palmares.defaites_soumission"
   ],
   "ecarts_sources": {},
   "maj": "2026-10-04",

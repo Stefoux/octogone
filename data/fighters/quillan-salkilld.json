@@ -1,0 +1,190 @@
+{
+  "id": "quillan-salkilld",
+  "nom": "Quillan Salkilld",
+  "ufc_slug": "quillan-salkilld",
+  "wikipedia_titre": "Quillan Salkilld",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "AU",
+  "categorie": "legers",
+  "statut": "actif",
+  "date_naissance": "1999-12-28",
+  "taille_cm": 183,
+  "allonge_cm": 190,
+  "style": "AMM",
+  "lieu_naissance": "Pinjarra, Australie",
+  "palmares": {
+    "victoires": 13,
+    "defaites": 1,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 5,
+    "victoires_soumission": 5,
+    "victoires_decision": 3,
+    "defaites_ko": 0,
+    "defaites_soumission": 1,
+    "defaites_decision": 0
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.73,
+    "precision_frappe_pct": 57,
+    "frappes_encaissees_par_min": 2.79,
+    "defense_frappe_pct": 46.0,
+    "takedowns_par_15min": 6.86,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 81.0,
+    "soumissions_par_15min": 1.03,
+    "knockdowns_par_15min": 1.03,
+    "duree_moyenne_combat_s": 375,
+    "frappes_reussies": 207.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 13,
+      "defaites": 1,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 5,
+        "soumission": 5,
+        "decision": 3,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 1,
+        "decision": 0,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2024": 1,
+      "2025": 3,
+      "2026": 3
+    },
+    "dernier_combat": {
+      "adversaire": "Mateusz Gamrot",
+      "evenement": "UFC Fight Night: Gamrot vs. Salkilld",
+      "date": "8 August 2026",
+      "resultat": "Win",
+      "methode": "Submission (rear-naked choke)"
+    },
+    "combats_ufc": 7,
+    "victoires_ufc": 7,
+    "defaites_ufc": 0,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 0,
+    "bonus_potn": 5,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "rear-naked choke",
+      "finitions": 3
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Gauge Young",
+      "evenement": "Dana White's Contender Series 70",
+      "date": "3 September 2024",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Five times) vs. Anshul Jubli , Nasrat Haqparast , Jamie Mullarkey , Beneil Dariush and Mateusz Gamrot"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second fastest knockout victory by a debuting UFC lightweight (0:19) (vs. Anshul Jubli )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2025: Fan's Choice Debut of the Year Winner vs. Anshul Jubli"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2025: Newcomer of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2025: Ranked #5 Knockout of the Year vs. Nasrat Haqparast"
+    },
+    {
+      "org": "Eternal MMA",
+      "texte": "Eternal MMA Lightweight Championship (One time)"
+    },
+    {
+      "org": "Eternal MMA",
+      "texte": "Two successful title defenses"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2025 UFC Knockout of the Year vs. Nasrat Haqparast at UFC 321"
+    },
+    {
+      "org": "Yahoo Sports",
+      "texte": "2025 #4 Ranked Breakthrough Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2025 October Knockout of the Month vs. Nasrat Haqparast at UFC 321"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2026 January Submission of the Month vs. Jamie Mullarkey at UFC 325"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 5× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 5× Performance of the Night"
+    ]
+  },
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Quillan_Salkilld",
+    "wikidata": "https://www.wikidata.org/wiki/Q134467028",
+    "ufc_com": "https://www.ufc.com/athlete/quillan-salkilld"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 72,
+    "puissance": 67,
+    "lutte": 72,
+    "soumission": 68,
+    "defense": 62,
+    "cardio": 53,
+    "menton": 99,
+    "globale": 70,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "id": "gregory-rodrigues",
+  "nom": "Gregory Rodrigues",
+  "ufc_slug": "gregory-rodrigues",
+  "wikipedia_titre": "Gregory Rodrigues",
+  "surnom": "Robocop",
+  "sexe": "M",
+  "pays": "BR",
+  "categorie": "moyens",
+  "statut": "actif",
+  "date_naissance": "1992-02-17",
+  "taille_cm": 190,
+  "allonge_cm": 190,
+  "style": "Grappling",
+  "lieu_naissance": "Brésil",
+  "palmares": {
+    "victoires": 20,
+    "defaites": 6,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 12,
+    "victoires_soumission": 3,
+    "victoires_decision": 5,
+    "defaites_ko": 4,
+    "defaites_soumission": 0,
+    "defaites_decision": 2
+  },
+  "stats_ufc": {
+    "frappes_par_min": 5.78,
+    "precision_frappe_pct": 53,
+    "frappes_encaissees_par_min": 4.57,
+    "defense_frappe_pct": 50.0,
+    "takedowns_par_15min": 1.57,
+    "precision_takedown_pct": 16,
+    "defense_takedown_pct": 85.0,
+    "soumissions_par_15min": 0.31,
+    "knockdowns_par_15min": 1.15,
+    "duree_moyenne_combat_s": 574,
+    "frappes_reussies": 830.0,
+    "takedowns_reussis": 7.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 20,
+      "defaites": 6,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 12,
+        "soumission": 3,
+        "decision": 5,
+        "autre": 0
+      },
+      "d": {
+        "ko": 4,
+        "soumission": 0,
+        "decision": 2,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2020": 1,
+      "2021": 2,
+      "2022": 3,
+      "2023": 2,
+      "2024": 2,
+      "2025": 3,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Anthony Hernandez",
+      "evenement": "UFC Fight Night: Hernandez vs. Rodrigues",
+      "date": "August 22, 2026",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 15,
+    "victoires_ufc": 11,
+    "defaites_ufc": 4,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 4,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Anthony Hernandez",
+        "evenement": "UFC Fight Night: Hernandez vs. Rodrigues",
+        "date": "August 22, 2026"
+      },
+      {
+        "adversaire": "Jared Cannonier",
+        "evenement": "UFC Fight Night: Cannonier vs. Rodrigues",
+        "date": "February 15, 2025"
+      },
+      {
+        "adversaire": "Chidi Njokuani",
+        "evenement": "UFC Fight Night: Sandhagen vs. Song",
+        "date": "September 17, 2022"
+      },
+      {
+        "adversaire": "Park Jun-yong",
+        "evenement": "UFC Fight Night: Costa vs. Vettori",
+        "date": "October 23, 2021"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 6
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Jordan Williams",
+      "evenement": "Dana White's Contender Series 33",
+      "date": "September 15, 2020",
+      "resultat": "Loss",
+      "methode": "KO (punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Four times) vs. Jun Yong Park , Chidi Njokuani , Jared Cannonier and Anthony Hernandez"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Three times) vs. Julian Marquez , Jack Hermansson and Brunno Ferreira 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Michael Bisping , Yoel Romero , Derek Brunson & Chris Leben ) for fourth most knockouts in UFC Middleweight division history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2022: Fan's Choice Comeback of the Year Nominee vs. Chidi Njokuani"
+    },
+    {
+      "org": "Legacy Fighting Alliance",
+      "texte": "LFA Middleweight Champion (One time)"
+    },
+    {
+      "org": "Legacy Fighting Alliance",
+      "texte": "LFA Middleweight Tournament"
+    },
+    {
+      "org": "SMASH Global",
+      "texte": "SMASH Global Middleweight Championship (One time)"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Champion LFA des poids moyens",
+      "Bonus UFC : 3× Performance de la soirée, 4× Combat de la soirée"
+    ],
+    "en": [
+      "LFA Middleweight Champion",
+      "UFC bonuses: 3× Performance of the Night, 4× Fight of the Night"
+    ]
+  },
+  "image_commons": "GregoryRodrigues.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Gregory_Rodrigues",
+    "wikidata": "https://www.wikidata.org/wiki/Q111027480",
+    "ufc_com": "https://www.ufc.com/athlete/gregory-rodrigues"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 75,
+    "puissance": 81,
+    "lutte": 59,
+    "soumission": 47,
+    "defense": 54,
+    "cardio": 61,
+    "menton": 55,
+    "globale": 62,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

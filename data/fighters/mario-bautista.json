@@ -1,0 +1,169 @@
+{
+  "id": "mario-bautista",
+  "nom": "Mario Bautista",
+  "ufc_slug": "mario-bautista",
+  "wikipedia_titre": "Mario Bautista",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "coq",
+  "statut": "actif",
+  "date_naissance": "1993-07-01",
+  "taille_cm": 175,
+  "allonge_cm": 183,
+  "style": "Style libre",
+  "lieu_naissance": "Winnemucca, États-Unis",
+  "palmares": {
+    "victoires": 18,
+    "defaites": 3,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 3,
+    "victoires_soumission": 7,
+    "victoires_decision": 8,
+    "defaites_ko": 1,
+    "defaites_soumission": 1,
+    "defaites_decision": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": 5.52,
+    "precision_frappe_pct": 50,
+    "frappes_encaissees_par_min": 4.17,
+    "defense_frappe_pct": 54.0,
+    "takedowns_par_15min": 2.49,
+    "precision_takedown_pct": 1,
+    "defense_takedown_pct": 57.0,
+    "soumissions_par_15min": 1.06,
+    "knockdowns_par_15min": 0.29,
+    "duree_moyenne_combat_s": 626,
+    "frappes_reussies": 864.0,
+    "takedowns_reussis": 1.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 18,
+      "defaites": 3,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 3,
+        "soumission": 7,
+        "decision": 8,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 1,
+        "decision": 1,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2019": 2,
+      "2020": 1,
+      "2021": 1,
+      "2022": 3,
+      "2023": 2,
+      "2024": 2,
+      "2025": 2,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Cory Sandhagen",
+      "evenement": "UFC 329",
+      "date": "July 11, 2026",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 15,
+    "victoires_ufc": 12,
+    "defaites_ufc": 3,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 1,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Son Jin-soo",
+        "evenement": "UFC on ESPN: dos Anjos vs. Edwards",
+        "date": "July 20, 2019"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "rear-naked choke",
+      "finitions": 4
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Cory Sandhagen",
+      "evenement": "UFC Fight Night: Cejudo vs. Dillashaw",
+      "date": "January 19, 2019",
+      "resultat": "Loss",
+      "methode": "Submission (armbar)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Three times) vs. Miles Johns , Benito Lopez and Vinicius Oliveira"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Son Jin-soo"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third longest win streak in UFC Bantamweight division history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Raphael Assunção , Petr Yan & Sean O'Malley ) for fifth most wins in UFC Bantamweight division history (12)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Kyung Ho Kang , Marlon Vera & Aljamain Sterling ) for third most submissions in UFC Bantamweight division history (4)"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 3× Performance de la soirée, 1× Combat de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 3× Performance of the Night, 1× Fight of the Night"
+    ]
+  },
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Mario_Bautista",
+    "wikidata": "https://www.wikidata.org/wiki/Q86954930",
+    "ufc_com": "https://www.ufc.com/athlete/mario-bautista"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 71,
+    "puissance": 44,
+    "lutte": 53,
+    "soumission": 70,
+    "defense": 61,
+    "cardio": 56,
+    "menton": 87,
+    "globale": 63,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

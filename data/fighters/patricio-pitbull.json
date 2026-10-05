@@ -1,0 +1,245 @@
+{
+  "id": "patricio-pitbull",
+  "nom": "Patricio Pitbull",
+  "ufc_slug": null,
+  "wikipedia_titre": "Patrício Pitbull",
+  "surnom": "Pitbull",
+  "sexe": "M",
+  "pays": "BR",
+  "categorie": "plume",
+  "statut": null,
+  "date_naissance": "1987-07-07",
+  "taille_cm": 165,
+  "allonge_cm": null,
+  "style": null,
+  "lieu_naissance": null,
+  "palmares": {
+    "victoires": 38,
+    "defaites": 9,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 13,
+    "victoires_soumission": 12,
+    "victoires_decision": 13,
+    "defaites_ko": 2,
+    "defaites_soumission": 1,
+    "defaites_decision": 6
+  },
+  "stats_ufc": {
+    "frappes_par_min": null,
+    "precision_frappe_pct": null,
+    "frappes_encaissees_par_min": null,
+    "defense_frappe_pct": null,
+    "takedowns_par_15min": null,
+    "precision_takedown_pct": null,
+    "defense_takedown_pct": null,
+    "soumissions_par_15min": null,
+    "knockdowns_par_15min": null,
+    "duree_moyenne_combat_s": null,
+    "frappes_reussies": null,
+    "takedowns_reussis": null
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 38,
+      "defaites": 9,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 13,
+        "soumission": 12,
+        "decision": 13,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 1,
+        "decision": 6,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2025": 2,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Choi Doo-ho",
+      "evenement": "UFC 331",
+      "date": "September 19, 2026",
+      "resultat": "Win",
+      "methode": "TKO (punches and elbows)"
+    },
+    "combats_ufc": 4,
+    "victoires_ufc": 2,
+    "defaites_ufc": 2,
+    "victoires_decision_5_rounds": 6,
+    "combats_5_rounds_gagnes": 7,
+    "bonus_fotn": 0,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "guillotine choke",
+      "finitions": 6
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Yair Rodríguez",
+      "evenement": "UFC 314",
+      "date": "April 12, 2025",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "Bellator Fighting Championships",
+      "texte": "Bellator Lightweight World Championship (one time; former)"
+    },
+    {
+      "org": "Bellator Fighting Championships",
+      "texte": "Bellator Featherweight World Championship (three times; final)"
+    },
+    {
+      "org": "Bellator Fighting Championships",
+      "texte": "Nine successful title defenses (Overall)"
+    },
+    {
+      "org": "Bellator Fighting Championships",
+      "texte": "Two successful title defenses (first reign)"
+    },
+    {
+      "org": "Bellator Fighting Championships",
+      "texte": "Five successful title defenses (second reign)"
+    },
+    {
+      "org": "Bellator Fighting Championships",
+      "texte": "Two successful title defense (third reign)"
+    },
+    {
+      "org": "Bellator Fighting Championships",
+      "texte": "Second simultaneous two-weight Champion in Bellator MMA history"
+    },
+    {
+      "org": "Bellator Fighting Championships",
+      "texte": "First fighter in Bellator history to have four separate championship reigns"
+    },
+    {
+      "org": "Bellator Fighting Championships",
+      "texte": "Most wins in Bellator history (24)"
+    },
+    {
+      "org": "Bellator Fighting Championships",
+      "texte": "Most wins in Bellator Featherweight division history (23)"
+    },
+    {
+      "org": "Bellator Fighting Championships",
+      "texte": "Most wins in Bellator title fights (15)"
+    },
+    {
+      "org": "Bellator Fighting Championships",
+      "texte": "Most title fights in Bellator history (18)"
+    },
+    {
+      "org": "Bellator Fighting Championships",
+      "texte": "Most fights in Bellator history (30)"
+    },
+    {
+      "org": "Bellator Fighting Championships",
+      "texte": "Most fights in Bellator Featherweight division history (28)"
+    },
+    {
+      "org": "Bellator Fighting Championships",
+      "texte": "Most finishes in Bellator history (15)"
+    },
+    {
+      "org": "Bellator Fighting Championships",
+      "texte": "Tied ( A. J. McKee ) for the most finishes in Bellator Featherweight division history (13)"
+    },
+    {
+      "org": "Bellator Fighting Championships",
+      "texte": "Most knockouts in Bellator Featherweight division history (8)"
+    },
+    {
+      "org": "Bellator Fighting Championships",
+      "texte": "Second most submission victories in Bellator Featherweight division (5)"
+    },
+    {
+      "org": "Bellator Fighting Championships",
+      "texte": "Bellator Season Nine Featherweight Tournament Winner"
+    },
+    {
+      "org": "Bellator Fighting Championships",
+      "texte": "Bellator Season Four Featherweight Tournament Winner"
+    },
+    {
+      "org": "Bellator Fighting Championships",
+      "texte": "Bellator Season Two Featherweight Tournament Runner-up"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2011 First Team MMA All-Star"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2015 Comeback of the Year vs. Daniel Weichel at Bellator 138"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2015 #3 Ranked Fight of the Year vs. Daniel Straus 3 at Bellator 145"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "November 2015 Fight of the Month vs. Daniel Straus 3 at Bellator 145"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Champion Bellator des poids légers et plume"
+    ],
+    "en": [
+      "Bellator Lightweight & Featherweight Champion"
+    ]
+  },
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Patrício_Pitbull",
+    "wikidata": "https://www.wikidata.org/wiki/Q7145945"
+  },
+  "champs_sources": {
+    "surnom": "wikipedia",
+    "pays": "wikidata",
+    "categorie": "wikipedia",
+    "palmares": "wikipedia_tableau",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "allonge_cm",
+    "fiche ufc.com introuvable",
+    "stats_ufc (absentes de la fiche ufc.com)",
+    "statut"
+  ],
+  "ecarts_sources": {},
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 65,
+    "puissance": 58,
+    "lutte": 65,
+    "soumission": 66,
+    "defense": 65,
+    "cardio": 84,
+    "menton": 82,
+    "globale": 69,
+    "style": "complet",
+    "estimees": [
+      "frappe",
+      "lutte",
+      "defense"
+    ],
+    "formule_version": 1
+  }
+}

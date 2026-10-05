@@ -1,0 +1,304 @@
+{
+  "id": "francis-ngannou",
+  "nom": "Francis Ngannou",
+  "ufc_slug": "francis-ngannou",
+  "wikipedia_titre": "Francis Ngannou",
+  "surnom": "The Predator",
+  "sexe": "M",
+  "pays": "CM",
+  "categorie": "lourds",
+  "statut": "inactif",
+  "date_naissance": "1986-09-05",
+  "taille_cm": 193,
+  "allonge_cm": 211,
+  "style": "Striker",
+  "lieu_naissance": "Batie, Cameroon",
+  "palmares": {
+    "victoires": 18,
+    "defaites": 3,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 13,
+    "victoires_soumission": 4,
+    "victoires_decision": 1,
+    "defaites_ko": 0,
+    "defaites_soumission": 0,
+    "defaites_decision": 3
+  },
+  "stats_ufc": {
+    "frappes_par_min": 2.33,
+    "precision_frappe_pct": 41,
+    "frappes_encaissees_par_min": 2.16,
+    "defense_frappe_pct": 42.0,
+    "takedowns_par_15min": 0.76,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 72.0,
+    "soumissions_par_15min": 0.31,
+    "knockdowns_par_15min": 1.22,
+    "duree_moyenne_combat_s": 421,
+    "frappes_reussies": 229.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 18,
+      "defaites": 3,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 13,
+        "soumission": 4,
+        "decision": 1,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 0,
+        "decision": 3,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2015": 1,
+      "2016": 3,
+      "2017": 2,
+      "2018": 3,
+      "2019": 2,
+      "2020": 1,
+      "2021": 1,
+      "2022": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Philipe Lins",
+      "evenement": "MVP MMA: Rousey vs. Carano",
+      "date": "16 May 2026",
+      "resultat": "Win",
+      "methode": "KO (punch)"
+    },
+    "combats_ufc": 14,
+    "victoires_ufc": 12,
+    "defaites_ufc": 2,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 0,
+    "bonus_potn": 7,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Heavyweight Championship",
+        "evenement": "UFC 260",
+        "date": "27 March 2021"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 8
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Luis Henrique",
+      "evenement": "UFC on Fox: dos Anjos vs. Cowboy 2",
+      "date": "19 December 2015",
+      "resultat": "Win",
+      "methode": "KO (punch)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Heavyweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "One successful title defense"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First Cameroon -born UFC champion"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Six times) vs. Anthony Hamilton , Andrei Arlovski , Curtis Blaydes , Junior dos Santos , Jairzinho Rozenstruik and Stipe Miocic"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Andrei Arlovski , Gabriel Gonzaga & Stefan Struve ) for third most finishes in UFC Heavyweight division history (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Terrance McKinney , Michał Oleksiejczuk , Joe Lauzon and Donald Cerrone ) for sixth most first-round finishes in UFC history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Cain Velasquez & Junior Dos Santos ) for second most knockouts in UFC Heavyweight division history (10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied for fourth most consecutive knockouts in UFC history (5)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Holds wins over five former UFC champions — vs. Andrei Arlovski , Cain Velasquez , Junior dos Santos , Stipe Miocic 2 and Ciryl Gane"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2016: Ranked #10 Submission of the Year vs. Anthony Hamilton"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2017: Knockout of the Year vs. Alistair Overeem"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: Ranked #6 Knockout of the Year vs. Stipe Miocic 2"
+    },
+    {
+      "org": "Professional Fighters League",
+      "texte": "PFL Super Fights Heavyweight Championship (One time, inaugural)"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2017 Knockout of the Year vs. Alistair Overeem"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2017 Knockout of the Year vs. Alistair Overeem"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2024 Non-UFC Male Fighter of the Year"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2017 UFC Knockout of the Year vs. Alistair Overeem"
+    },
+    {
+      "org": "Yahoo Sports",
+      "texte": "2017 Knockout of the Year vs. Alistair Overeem at UFC 218"
+    },
+    {
+      "org": "Pundit Arena",
+      "texte": "2017 Knockout of the Year vs. Alistair Overeem"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2017 Knockout of the Year vs. Alistair Overeem"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2017 Breakthrough Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2017 Knockout of the Year vs. Alistair Overeem"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2021 March Knockout of the Month vs. Stipe Miocic"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2024 Comeback Fighter of the Year"
+    },
+    {
+      "org": "MMADNA.nl",
+      "texte": "2017 Knockout of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2017 Knockout of the Year vs. Alistair Overeem at UFC 218"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2021 Most Noteworthy Match of the Year vs. Stipe Miocic at UFC 260"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2024 Comeback Fighter of the Year"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2017 Knockout of the Year vs. Alistair Overeem at UFC 218"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2024 Comeback Fighter of the Year"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2017 Knockout of the Year vs. Alistair Overeem at UFC 218"
+    },
+    {
+      "org": "MMA Sucka",
+      "texte": "2017 Knockout of the Year vs. Alistair Overeem at UFC 218"
+    },
+    {
+      "org": "Slacky Awards",
+      "texte": "2021 Gameplan of the Year vs. Stipe Miocic 2 at UFC 260"
+    },
+    {
+      "org": "Slacky Awards",
+      "texte": "World record for the hardest punch"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids lourds",
+      "Champion PFL des poids lourds",
+      "1 défense de titre à l'UFC",
+      "KO de l'année (2017)",
+      "Bonus UFC : 7× Performance de la soirée"
+    ],
+    "en": [
+      "UFC Heavyweight Champion",
+      "PFL Heavyweight Champion",
+      "1 UFC title defense",
+      "Knockout of the Year (2017)",
+      "UFC bonuses: 7× Performance of the Night"
+    ]
+  },
+  "image_commons": "Francis Ngannou 2023 (cropped).png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Francis_Ngannou",
+    "wikidata": "https://www.wikidata.org/wiki/Q23883298",
+    "ufc_com": "https://www.ufc.com/athlete/francis-ngannou"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "palmares (wikipedia_tableau 18-3, wikipedia_infobox 19-3, ufc_com 17-3)"
+  ],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 18-3, wikipedia_infobox 19-3, ufc_com 17-3"
+  },
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 46,
+    "puissance": 88,
+    "lutte": 51,
+    "soumission": 51,
+    "defense": 62,
+    "cardio": 53,
+    "menton": 99,
+    "globale": 64,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

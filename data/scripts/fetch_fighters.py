@@ -781,7 +781,11 @@ def build_fighter(name: str, overrides: dict, champions: dict[str, str]) -> dict
     if champ_div:
         f["champion_division"] = champ_div
         champs["champion_actuel"] = "ufc_com_rankings"
-    f["ancien_champion"] = any(t["action"] == "won" for t in derived.get("titres", []))
+    # Ancien champion : titre gagné au palmarès, ou titre UFC dans les
+    # « Championships and accomplishments » (certains palmarès formulent le
+    # titre autrement et échappaient à la première règle : Khabib, Oliveira…)
+    f["ancien_champion"] = any(t["action"] == "won" for t in derived.get("titres", [])) or any(
+        re.search(r"\bUFC [A-Za-z' ]*Champion\b", d) for d in (f.get("distinctions") or {}).get("en", []))
     f["accomplissements_en"] = accomp
     if accomp:
         champs["accomplissements_en"] = "wikipedia"

@@ -1,0 +1,84 @@
+{
+  "id": "michael-aljarouj",
+  "nom": "Michael Aljarouj",
+  "ufc_slug": "michael-aljarouj",
+  "surnom": "The Soldier",
+  "sexe": "M",
+  "pays": "FR",
+  "categorie": "mouche",
+  "statut": "actif",
+  "date_naissance": null,
+  "taille_cm": 165,
+  "allonge_cm": 168,
+  "style": "MMA",
+  "lieu_naissance": "Aleppo, Syria",
+  "palmares": {
+    "victoires": 13,
+    "defaites": 4,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 7,
+    "victoires_soumission": 3,
+    "victoires_decision": 3,
+    "defaites_ko": null,
+    "defaites_soumission": null,
+    "defaites_decision": null
+  },
+  "stats_ufc": {
+    "frappes_par_min": 0.67,
+    "precision_frappe_pct": 31,
+    "frappes_encaissees_par_min": 1.87,
+    "defense_frappe_pct": 43.0,
+    "takedowns_par_15min": 0.0,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 63.0,
+    "soumissions_par_15min": 1.0,
+    "knockdowns_par_15min": 0.0,
+    "duree_moyenne_combat_s": 900,
+    "frappes_reussies": 10.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {},
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [],
+  "distinctions": {
+    "fr": [],
+    "en": []
+  },
+  "image_commons": null,
+  "sources": {
+    "ufc_com": "https://www.ufc.com/athlete/michael-aljarouj"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
+    "categorie": "ufc_com",
+    "palmares": "ufc_com",
+    "stats_ufc": "ufc_com",
+    "sexe": "https://www.ufc.com/athlete/michael-aljarouj"
+  },
+  "a_verifier": [
+    "article Wikipedia introuvable",
+    "palmares.defaites_decision",
+    "palmares.defaites_ko",
+    "palmares.defaites_soumission"
+  ],
+  "ecarts_sources": {},
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 65,
+    "puissance": 65,
+    "lutte": 65,
+    "soumission": 65,
+    "defense": 65,
+    "cardio": 65,
+    "menton": 65,
+    "globale": 65,
+    "style": "complet",
+    "estimees": [
+      "menton"
+    ],
+    "formule_version": 1
+  }
+}

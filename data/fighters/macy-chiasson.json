@@ -1,0 +1,159 @@
+{
+  "id": "macy-chiasson",
+  "nom": "Macy Chiasson",
+  "ufc_slug": "macy-chiasson",
+  "wikipedia_titre": "Macy Chiasson",
+  "surnom": null,
+  "sexe": "F",
+  "pays": "US",
+  "categorie": "coq_f",
+  "statut": "actif",
+  "date_naissance": "1991-07-27",
+  "taille_cm": 180,
+  "allonge_cm": 183,
+  "style": "AMM",
+  "lieu_naissance": "États-Unis",
+  "palmares": {
+    "victoires": 10,
+    "defaites": 6,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 3,
+    "victoires_soumission": 3,
+    "victoires_decision": 4,
+    "defaites_ko": 1,
+    "defaites_soumission": 1,
+    "defaites_decision": 4
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.21,
+    "precision_frappe_pct": 46,
+    "frappes_encaissees_par_min": 2.76,
+    "defense_frappe_pct": 45.0,
+    "takedowns_par_15min": 1.87,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 63.0,
+    "soumissions_par_15min": 0.39,
+    "knockdowns_par_15min": 0.2,
+    "duree_moyenne_combat_s": 654,
+    "frappes_reussies": 490.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 10,
+      "defaites": 6,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 3,
+        "soumission": 3,
+        "decision": 4,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 1,
+        "decision": 4,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2018": 1,
+      "2019": 3,
+      "2020": 1,
+      "2021": 2,
+      "2022": 2,
+      "2024": 2,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Ailín Pérez",
+      "evenement": "UFC Fight Night: Moreno vs. Kavanagh",
+      "date": "February 28, 2026",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 14,
+    "victoires_ufc": 8,
+    "defaites_ufc": 6,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "rear-naked choke",
+      "finitions": 2
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Pannie Kianzad",
+      "evenement": "The Ultimate Fighter: Heavy Hitters Finale",
+      "date": "November 30, 2018",
+      "resultat": "Win",
+      "methode": "Submission (rear-naked choke)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Three times) vs. Sarah Moras , Pannie Kianzad and Mayra Bueno Silva"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "The Ultimate Fighter: Heavy Hitters Women's Featherweight winner."
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2024 First Team MMA All-Star"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Vainqueur de The Ultimate Fighter: Heavy Hitters Women's",
+      "Bonus UFC : 3× Performance de la soirée"
+    ],
+    "en": [
+      "The Ultimate Fighter: Heavy Hitters Women's winner",
+      "UFC bonuses: 3× Performance of the Night"
+    ]
+  },
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Macy_Chiasson",
+    "wikidata": "https://www.wikidata.org/wiki/Q57210892",
+    "ufc_com": "https://www.ufc.com/athlete/macy-chiasson"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 10-6, wikipedia_infobox 10-6, ufc_com 11-6"
+  },
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 55,
+    "puissance": 50,
+    "lutte": 53,
+    "soumission": 56,
+    "defense": 61,
+    "cardio": 57,
+    "menton": 85,
+    "globale": 60,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "id": "benoit-saint-denis",
+  "nom": "Benoît Saint Denis",
+  "ufc_slug": "benoit-saint-denis",
+  "wikipedia_titre": "Benoît Saint Denis",
+  "surnom": "God of War",
+  "sexe": "M",
+  "pays": "FR",
+  "categorie": "legers",
+  "statut": "actif",
+  "date_naissance": "1995-12-18",
+  "taille_cm": 180,
+  "allonge_cm": 185,
+  "style": "AMM",
+  "lieu_naissance": "Nîmes, France",
+  "palmares": {
+    "victoires": 17,
+    "defaites": 4,
+    "nuls": 0,
+    "sans_decision": 1,
+    "victoires_ko": 6,
+    "victoires_soumission": 11,
+    "victoires_decision": 0,
+    "defaites_ko": 2,
+    "defaites_soumission": 1,
+    "defaites_decision": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": 5.58,
+    "precision_frappe_pct": 58,
+    "frappes_encaissees_par_min": 4.09,
+    "defense_frappe_pct": 42.0,
+    "takedowns_par_15min": 4.15,
+    "precision_takedown_pct": 3,
+    "defense_takedown_pct": 72.0,
+    "soumissions_par_15min": 1.73,
+    "knockdowns_par_15min": 0.86,
+    "duree_moyenne_combat_s": 401,
+    "frappes_reussies": 484.0,
+    "takedowns_reussis": 2.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 17,
+      "defaites": 4,
+      "nuls": 0,
+      "sans_decision": 1,
+      "v": {
+        "ko": 6,
+        "soumission": 11,
+        "decision": 0,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 1,
+        "decision": 1,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2021": 1,
+      "2022": 2,
+      "2023": 3,
+      "2024": 2,
+      "2025": 3,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Paddy Pimblett",
+      "evenement": "UFC 329",
+      "date": "July 11, 2026",
+      "resultat": "Loss",
+      "methode": "Technical Submission (Peruvian necktie)"
+    },
+    "combats_ufc": 13,
+    "victoires_ufc": 9,
+    "defaites_ufc": 4,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 2,
+    "bonus_potn": 4,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Dustin Poirier",
+        "evenement": "UFC 299",
+        "date": "March 9, 2024"
+      },
+      {
+        "adversaire": "Thiago Moisés",
+        "evenement": "UFC Fight Night: Gane vs. Spivac",
+        "date": "September 2, 2023"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "arm-triangle choke",
+      "finitions": 3
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Elizeu Zaleski dos Santos",
+      "evenement": "UFC 267",
+      "date": "October 30, 2021",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Four times) vs. Gabriel Miranda, Matt Frevola , Maurício Ruffy and Beneil Dariush"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Month (One time) vs. Matt Frevola"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Two times) vs. Thiago Moisés and Dustin Poirier"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Month (One time) vs. Thiago Moisés"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Highest significant strike accuracy in UFC Lightweight division history (61.3%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth highest striking differential in UFC Lightweight division history (3.02)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Sixth highest control percentage in UFC Lightweight division history (54.4%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth highest top position percentage in UFC Lightweight division history (43.7%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most finishes in the UFC since 2022 (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First French fighter to compete and to win on a UFC card in France"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First French fighter to be ranked in the lightweight division"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fastest finish from a French fighter at UFC"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: President's Choice Fight of the Year Nominee vs. Dustin Poirier"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: Ranked #5 Fight of the Year vs. Dustin Poirier"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: Ranked #7 Fighter of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2024 Nominee, Breakthrough Fighter of the Year (nomination period spanned from July 1, 2023, and June 30, 2024)"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2024 Nominee, Fight of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2023 First Team MMA All-Star"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2025 First Team MMA All-Star"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "September, 2025, Submission of the Month vs. Maurício Ruffy"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2025 Fighter of the Year - Honorable Mention"
+    },
+    {
+      "org": "Brave Combat Federation",
+      "texte": "2020 Brave CF Submission of the Year"
+    },
+    {
+      "org": "Brave Combat Federation",
+      "texte": "Number 1 Contender, Super Lightweight division"
+    },
+    {
+      "org": "Staredown Fighting Championship",
+      "texte": "2019 SFC Welterweight Championship (one time)"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 4× Performance de la soirée, 2× Combat de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 4× Performance of the Night, 2× Fight of the Night"
+    ]
+  },
+  "image_commons": "Benoit Saint Denis 2023.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Benoît_Saint_Denis",
+    "wikidata": "https://www.wikidata.org/wiki/Q112241194",
+    "ufc_com": "https://www.ufc.com/athlete/benoit-saint-denis"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 79,
+    "puissance": 63,
+    "lutte": 66,
+    "soumission": 89,
+    "defense": 50,
+    "cardio": 45,
+    "menton": 74,
+    "globale": 67,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

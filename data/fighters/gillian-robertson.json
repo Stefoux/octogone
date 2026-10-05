@@ -1,0 +1,234 @@
+{
+  "id": "gillian-robertson",
+  "nom": "Gillian Robertson",
+  "ufc_slug": "gillian-robertson",
+  "wikipedia_titre": "Gillian Robertson",
+  "surnom": "The Savage",
+  "sexe": "F",
+  "pays": "CA",
+  "categorie": "paille_f",
+  "statut": "actif",
+  "date_naissance": "1995-05-17",
+  "taille_cm": 165,
+  "allonge_cm": 160,
+  "style": "AMM",
+  "lieu_naissance": "Niagara Falls, Canada",
+  "palmares": {
+    "victoires": 17,
+    "defaites": 9,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 3,
+    "victoires_soumission": 9,
+    "victoires_decision": 5,
+    "defaites_ko": 1,
+    "defaites_soumission": 1,
+    "defaites_decision": 7
+  },
+  "stats_ufc": {
+    "frappes_par_min": 2.63,
+    "precision_frappe_pct": 47,
+    "frappes_encaissees_par_min": 2.83,
+    "defense_frappe_pct": 57.0,
+    "takedowns_par_15min": 2.53,
+    "precision_takedown_pct": 3,
+    "defense_takedown_pct": 38.0,
+    "soumissions_par_15min": 0.78,
+    "knockdowns_par_15min": 0.0,
+    "duree_moyenne_combat_s": 661,
+    "frappes_reussies": 609.0,
+    "takedowns_reussis": 3.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 17,
+      "defaites": 9,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 3,
+        "soumission": 9,
+        "decision": 5,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 1,
+        "decision": 7,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2017": 1,
+      "2018": 2,
+      "2019": 3,
+      "2020": 3,
+      "2021": 2,
+      "2022": 2,
+      "2023": 2,
+      "2024": 3,
+      "2025": 1,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Mackenzie Dern",
+      "evenement": "UFC 330",
+      "date": "August 15, 2026",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 21,
+    "victoires_ufc": 14,
+    "defaites_ufc": 7,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 2,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "rear-naked choke",
+      "finitions": 5
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Emily Whitmire",
+      "evenement": "The Ultimate Fighter: A New World Champion Finale",
+      "date": "December 1, 2017",
+      "resultat": "Win",
+      "methode": "Submission (armbar)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. Piera Rodríguez and Polyana Viana"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most finishes in UFC Women's Flyweight division history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most submission wins in UFC Women's history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most submission wins in UFC Women's Flyweight division history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Amanda Nunes ) for most finishes in UFC Women's history (10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Ariane da Silva & JJ Aldrich ) for fourth most bouts in UFC Women's Flyweight division history (13)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most wins in UFC Women's history (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most takedowns landed in UFC Women's Flyweight division history (21)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Manon Fiorot , Erin Blanchfield & Miranda Maverick ) for fourth most wins in UFC Women's Flyweight division history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Highest top position percentage in UFC Women's Flyweight division history (41.9%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Highest top position percentage in UFC Women's Strawweight division history (50.8%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most control time in UFC Women's Flyweight division history (54:16) (behind Valentina Shevchenko )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Highest control time percentage in UFC Women's Flyweight division history (41.9%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second highest control time percentage in UFC Women's Strawweight division history (57.1%) (behind Tatiana Suarez )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most top position time in UFC Women's Flyweight division history (50:57) (behind Valentina Shevchenko )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Sixth most top position time in UFC Women's Strawweight division history (43:03)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Montana De La Rosa , Andrea Lee & Viviane Araújo ) for second most submission attempts in UFC Women's Flyweight division history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth highest significant strike defense percentage in UFC Women's Strawweight division history (63.4%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: Ranked #10 Submission of the Year vs. Piera Rodríguez"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2024 First Team MMA All-Star"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Record UFC chez les poids mouche féminins : finitions (7)",
+      "Record UFC chez les poids mouche féminins : victoires par soumission (6)",
+      "Bonus UFC : 2× Performance de la soirée"
+    ],
+    "en": [
+      "UFC Women's Flyweight record: most finishes (7)",
+      "UFC Women's Flyweight record: most submission wins (6)",
+      "UFC bonuses: 2× Performance of the Night"
+    ]
+  },
+  "image_commons": "Gillian Robertson.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Gillian_Robertson",
+    "wikidata": "https://www.wikidata.org/wiki/Q47523129",
+    "ufc_com": "https://www.ufc.com/athlete/gillian-robertson"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 53,
+    "puissance": 39,
+    "lutte": 47,
+    "soumission": 73,
+    "defense": 73,
+    "cardio": 57,
+    "menton": 88,
+    "globale": 61,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

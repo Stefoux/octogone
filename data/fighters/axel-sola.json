@@ -1,0 +1,164 @@
+{
+  "id": "axel-sola",
+  "nom": "Axel Sola",
+  "ufc_slug": "axel-sola",
+  "wikipedia_titre": "Axel Sola",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "FR",
+  "categorie": "legers",
+  "statut": "actif",
+  "date_naissance": "1997-09-17",
+  "taille_cm": 185,
+  "allonge_cm": 187,
+  "style": "Karate",
+  "lieu_naissance": "Nice, France",
+  "palmares": {
+    "victoires": 13,
+    "defaites": 1,
+    "nuls": 1,
+    "sans_decision": 0,
+    "victoires_ko": 7,
+    "victoires_soumission": 2,
+    "victoires_decision": 4,
+    "defaites_ko": 0,
+    "defaites_soumission": 0,
+    "defaites_decision": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.55,
+    "precision_frappe_pct": 51,
+    "frappes_encaissees_par_min": 4.52,
+    "defense_frappe_pct": 61.0,
+    "takedowns_par_15min": 1.79,
+    "precision_takedown_pct": 9,
+    "defense_takedown_pct": 67.0,
+    "soumissions_par_15min": 0.45,
+    "knockdowns_par_15min": 1.35,
+    "duree_moyenne_combat_s": 502,
+    "frappes_reussies": 152.0,
+    "takedowns_reussis": 1.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 13,
+      "defaites": 1,
+      "nuls": 1,
+      "sans_decision": 0,
+      "v": {
+        "ko": 7,
+        "soumission": 2,
+        "decision": 4,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 0,
+        "decision": 1,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2025": 1,
+      "2026": 3
+    },
+    "dernier_combat": {
+      "adversaire": "Farès Ziam",
+      "evenement": "UFC Fight Night: Hooker vs. Parnasse",
+      "date": "5 September 2026",
+      "resultat": "Win",
+      "methode": "KO (punch)"
+    },
+    "combats_ufc": 4,
+    "victoires_ufc": 3,
+    "defaites_ufc": 1,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 2,
+    "bonus_fotn": 2,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Mason Jones",
+        "evenement": "UFC Fight Night: Evloev vs. Murphy",
+        "date": "21 March 2026"
+      },
+      {
+        "adversaire": "Daguir Imavov",
+        "evenement": "Ares FC 22",
+        "date": "14 June 2024"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 4
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Rhys McKee",
+      "evenement": "UFC Fight Night: Imavov vs. Borralho",
+      "date": "6 September 2025",
+      "resultat": "Win",
+      "methode": "TKO (punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Mason Jones"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Farès Ziam"
+    },
+    {
+      "org": "Ares Fighting Championship",
+      "texte": "Ares FC Lightweight Championship (One time; former)"
+    },
+    {
+      "org": "Ares Fighting Championship",
+      "texte": "Four successful title defenses"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 3× Performance de la soirée, 2× Combat de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 3× Performance of the Night, 2× Fight of the Night"
+    ]
+  },
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Axel_Sola",
+    "wikidata": "https://www.wikidata.org/wiki/Q129357325",
+    "ufc_com": "https://www.ufc.com/athlete/axel-sola"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 66,
+    "puissance": 74,
+    "lutte": 57,
+    "soumission": 54,
+    "defense": 65,
+    "cardio": 59,
+    "menton": 99,
+    "globale": 68,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

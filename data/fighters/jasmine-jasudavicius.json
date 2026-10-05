@@ -1,0 +1,177 @@
+{
+  "id": "jasmine-jasudavicius",
+  "nom": "Jasmine Jasudavicius",
+  "ufc_slug": "jasmine-jasudavicius",
+  "wikipedia_titre": "Jasmine Jasudavicius",
+  "surnom": null,
+  "sexe": "F",
+  "pays": "CA",
+  "categorie": "mouche_f",
+  "statut": "actif",
+  "date_naissance": "1989-03-01",
+  "taille_cm": 170,
+  "allonge_cm": 173,
+  "style": "Bagarreur",
+  "lieu_naissance": "St. Catharines, Canada",
+  "palmares": {
+    "victoires": 15,
+    "defaites": 4,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 2,
+    "victoires_soumission": 4,
+    "victoires_decision": 9,
+    "defaites_ko": 1,
+    "defaites_soumission": 0,
+    "defaites_decision": 3
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.47,
+    "precision_frappe_pct": 44,
+    "frappes_encaissees_par_min": 3.46,
+    "defense_frappe_pct": 52.0,
+    "takedowns_par_15min": 2.63,
+    "precision_takedown_pct": 3,
+    "defense_takedown_pct": 75.0,
+    "soumissions_par_15min": 0.54,
+    "knockdowns_par_15min": 0.09,
+    "duree_moyenne_combat_s": 765,
+    "frappes_reussies": 575.0,
+    "takedowns_reussis": 2.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 15,
+      "defaites": 4,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 2,
+        "soumission": 4,
+        "decision": 9,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 0,
+        "decision": 3,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2021": 1,
+      "2022": 2,
+      "2023": 3,
+      "2024": 3,
+      "2025": 3,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Karine Silva",
+      "evenement": "UFC Fight Night: Burns vs. Malott",
+      "date": "April 18, 2026",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 13,
+    "victoires_ufc": 10,
+    "defaites_ufc": 3,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "rear-naked choke",
+      "finitions": 2
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Julia Polastri",
+      "evenement": "Dana White's Contender Series 39",
+      "date": "September 14, 2021",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Three times) vs. Priscila Cachoeira , Ariane da Silva and Jéssica Andrade"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Highest control time percentage in UFC Women's Flyweight division history (45.4%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most control time in UFC Women's Flyweight division history (1:01:51) (behind Valentina Shevchenko )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second highest top position percentage in UFC Women's Flyweight division history (behind Gillian Robertson ) (37.7%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Miranda Maverick ) for second most takedowns landed in UFC Women's Flyweight division history (23) (behind Valentina Shevchenko )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third lowest bottom position percentage in UFC Women's Flyweight division history (1.42%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most top position time in UFC Women's Flyweight division history (50:54)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Largest total strike differential in a UFC Women's bout (326:26) (vs. Priscila Cachoeira )"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2024 Second Team MMA All-Star"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 3× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 3× Performance of the Night"
+    ]
+  },
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Jasmine_Jasudavicius",
+    "wikidata": "https://www.wikidata.org/wiki/Q128115823",
+    "ufc_com": "https://www.ufc.com/athlete/jasmine-jasudavicius"
+  },
+  "champs_sources": {
+    "pays": "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 55,
+    "puissance": 40,
+    "lutte": 61,
+    "soumission": 56,
+    "defense": 64,
+    "cardio": 63,
+    "menton": 86,
+    "globale": 61,
+    "style": "lutteur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

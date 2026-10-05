@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_riverpod/misc.dart' show Override;
@@ -37,7 +38,11 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 Fighter _fighter(String id, String nom,
         {String categorie = 'mi_lourds', bool champion = false, List<String> aVerifier = const []}) =>
-    Fighter({
+    Fighter(_fighterJson(id, nom, categorie: categorie, champion: champion, aVerifier: aVerifier));
+
+Map<String, dynamic> _fighterJson(String id, String nom,
+        {String categorie = 'mi_lourds', bool champion = false, List<String> aVerifier = const []}) =>
+    {
       'id': id,
       'nom': nom,
       'surnom': 'Surnom $nom',
@@ -59,7 +64,7 @@ Fighter _fighter(String id, String nom,
         'en': ['UFC Light Heavyweight Champion (2×)', 'UFC bonuses: 6× Performance of the Night'],
       },
       'a_verifier': aVerifier,
-    });
+    };
 
 final _fighters = [
   _fighter('alex-pereira', 'Alex Pereira', champion: true, aVerifier: ['allonge_cm']),
@@ -105,9 +110,9 @@ final _owned = [
   OwnedCard({'id': 'o1', 'card_id': 'ed:1', 'variant_id': 'ed:BASE:gold-refractor', 'numero_serie': 12, 'tirage': 50, 'origine': 'booster'}),
 ];
 
-List<Override> _overrides({List<OwnedCard>? owned}) => [
+List<Override> _overrides({List<OwnedCard>? owned, Map<String, ImageRef>? images}) => [
       fightersProvider.overrideWith((ref) => Stream.value(_fighters)),
-      imagesProvider.overrideWith((ref) => Stream.value(const <String, ImageRef>{})),
+      imagesProvider.overrideWith((ref) => Stream.value(images ?? const <String, ImageRef>{})),
       editionsProvider.overrideWith((ref) => Stream.value([_edition])),
       seriesForEditionProvider.overrideWith((ref, id) => Stream.value([_series])),
       cardsForEditionProvider.overrideWith((ref, id) => Stream.value(_cards)),
@@ -994,5 +999,38 @@ void main() {
     await openAndTap('menu-account');
     expect((account, shop), (1, 2));
     await tester.pumpWidget(const SizedBox());
+  });
+
+  testWidgets('Photos selon la rareté : combat jusqu’à Épique, ceinture en Mythique, portrait sinon', (tester) async {
+    ImageRef img(String id, String type, List<String> raretes) => ImageRef({
+          'id': id,
+          'storage_path': 'photos/$id.webp',
+          'fighter_id': 'alex-pereira',
+          'type': type,
+          'raretes': raretes,
+        });
+    final images = {
+      'portrait': ImageRef({'id': 'portrait', 'storage_path': 'fighters/alex-pereira.webp', 'fighter_id': 'alex-pereira'}),
+      'combat': img('combat', 'action', ['commune', 'peu_commune', 'rare', 'epique']),
+      'ceinture': img('ceinture', 'ceinture', ['legendaire', 'mythique']),
+    };
+    final fighter = Fighter({..._fighterJson('alex-pereira', 'Alex Pereira'), 'image_id': 'portrait'});
+    Future<String> photoFor(String variant) async {
+      final view = CardView(card: _cards.first, variant: _variants[variant]!, fighters: [fighter], edition: _edition, series: _series);
+      await tester.pumpWidget(const SizedBox());
+      await tester.pumpWidget(_wrap(
+        Center(child: SizedBox(width: 300, child: TradingCard(view: view, animate: false))),
+        overrides: _overrides(images: {...images}),
+      ));
+      await tester.pump();
+      return tester.widget<CachedNetworkImage>(find.byType(CachedNetworkImage)).imageUrl;
+    }
+
+    expect(await photoFor('ed:BASE:base'), contains('photos/combat.webp'));
+    expect(await photoFor('ed:BASE:gold-refractor'), contains('photos/combat.webp'));
+    expect(await photoFor('ed:BASE:superfractor'), contains('photos/ceinture.webp'));
+    // Sans photo prévue pour la rareté : le portrait
+    images.remove('ceinture');
+    expect(await photoFor('ed:BASE:superfractor'), contains('fighters/alex-pereira.webp'));
   });
 }

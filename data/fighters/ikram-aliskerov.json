@@ -1,0 +1,192 @@
+{
+  "id": "ikram-aliskerov",
+  "nom": "Ikram Aliskerov",
+  "ufc_slug": "ikram-aliskerov",
+  "wikipedia_titre": "Ikram Aliskerov",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "RU",
+  "categorie": "moyens",
+  "statut": "actif",
+  "date_naissance": "1992-12-07",
+  "taille_cm": 183,
+  "allonge_cm": 193,
+  "style": "Sambo",
+  "lieu_naissance": "Makhachkala, Dagestan, Russie",
+  "palmares": {
+    "victoires": 18,
+    "defaites": 2,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 7,
+    "victoires_soumission": 5,
+    "victoires_decision": 6,
+    "defaites_ko": 2,
+    "defaites_soumission": 0,
+    "defaites_decision": 0
+  },
+  "stats_ufc": {
+    "frappes_par_min": 5.56,
+    "precision_frappe_pct": 61,
+    "frappes_encaissees_par_min": 4.01,
+    "defense_frappe_pct": 45.0,
+    "takedowns_par_15min": 3.82,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 100.0,
+    "soumissions_par_15min": 0.7,
+    "knockdowns_par_15min": 1.04,
+    "duree_moyenne_combat_s": 370,
+    "frappes_reussies": 240.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 18,
+      "defaites": 2,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 7,
+        "soumission": 5,
+        "decision": 6,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 0,
+        "decision": 0,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2022": 1,
+      "2023": 2,
+      "2024": 1,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Brunno Ferreira",
+      "evenement": "UFC Fight Night: Fiziev vs. Torres",
+      "date": "June 27, 2026",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 7,
+    "victoires_ufc": 6,
+    "defaites_ufc": 1,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "kimura",
+      "finitions": 3
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Mário Sousa",
+      "evenement": "Dana White's Contender Series 54",
+      "date": "September 13, 2022",
+      "resultat": "Win",
+      "methode": "Submission (kimura)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "Fédération Internationale de Sambo",
+      "texte": "World Championship -Sofia, Bulgaria (2016) at 90 kg"
+    },
+    {
+      "org": "Fédération Internationale de Sambo",
+      "texte": "World Cup-Moscow, Russia (2014) at 82 kg"
+    },
+    {
+      "org": "Fédération Internationale de Sambo",
+      "texte": "World Cup-Moscow, Russia (2015) at 90 kg"
+    },
+    {
+      "org": "World Combat Sambo Federation",
+      "texte": "World Championship-Moscow, Russia (2012) at 82 kg"
+    },
+    {
+      "org": "European Sambo Federation",
+      "texte": "European Championship -Minsk, Belarus (2017) at 82 kg"
+    },
+    {
+      "org": "European Combat Sambo Federation",
+      "texte": "European Championship-Chișinău, Moldova (2012) at 82 kg"
+    },
+    {
+      "org": "All-Russian Sambo Federation",
+      "texte": "Cup of Russia in Combat Sambo-Moscow, Russia (2013) at 82 kg"
+    },
+    {
+      "org": "All-Russian Sambo Federation",
+      "texte": "Russian Combat Sambo Championship-Nizhny Novgorod, Russia (2017) at 82 kg"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Warlley Alves"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: Fan's Choice Debut of the Year Nominee vs. Phil Hawes"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2023: Ranked #3 Newcomer of the Year"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 1× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 1× Performance of the Night"
+    ]
+  },
+  "image_commons": "Ikram Aliskerov 2024.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Ikram_Aliskerov",
+    "wikidata": "https://www.wikidata.org/wiki/Q25693551",
+    "ufc_com": "https://www.ufc.com/athlete/ikram-aliskerov"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 79,
+    "puissance": 67,
+    "lutte": 72,
+    "soumission": 60,
+    "defense": 55,
+    "cardio": 46,
+    "menton": 74,
+    "globale": 65,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

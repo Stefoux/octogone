@@ -1,0 +1,166 @@
+{
+  "id": "youssef-zalal",
+  "nom": "Youssef Zalal",
+  "ufc_slug": "youssef-zalal",
+  "wikipedia_titre": "Youssef Zalal",
+  "surnom": "The Moroccan Devil",
+  "sexe": "M",
+  "pays": "MA",
+  "categorie": "plume",
+  "statut": "actif",
+  "date_naissance": "1996-09-04",
+  "taille_cm": 178,
+  "allonge_cm": 183,
+  "style": "Style libre",
+  "lieu_naissance": "Casablanca, Maroc",
+  "palmares": {
+    "victoires": 18,
+    "defaites": 6,
+    "nuls": 1,
+    "sans_decision": 0,
+    "victoires_ko": 4,
+    "victoires_soumission": 10,
+    "victoires_decision": 4,
+    "defaites_ko": 0,
+    "defaites_soumission": 0,
+    "defaites_decision": 6
+  },
+  "stats_ufc": {
+    "frappes_par_min": 2.78,
+    "precision_frappe_pct": 51,
+    "frappes_encaissees_par_min": 1.79,
+    "defense_frappe_pct": 65.0,
+    "takedowns_par_15min": 1.84,
+    "precision_takedown_pct": 10,
+    "defense_takedown_pct": 56.0,
+    "soumissions_par_15min": 1.29,
+    "knockdowns_par_15min": 0.18,
+    "duree_moyenne_combat_s": 754,
+    "frappes_reussies": 454.0,
+    "takedowns_reussis": 6.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 18,
+      "defaites": 6,
+      "nuls": 1,
+      "sans_decision": 0,
+      "v": {
+        "ko": 4,
+        "soumission": 10,
+        "decision": 4,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 0,
+        "decision": 6,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2020": 4,
+      "2021": 2,
+      "2022": 1,
+      "2024": 3,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Aljamain Sterling",
+      "evenement": "UFC Fight Night: Sterling vs. Zalal",
+      "date": "April 25, 2026",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 13,
+    "victoires_ufc": 8,
+    "defaites_ufc": 4,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 2,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "rear-naked choke",
+      "finitions": 3
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Austin Lingo",
+      "evenement": "UFC 247",
+      "date": "February 8, 2020",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. Jarno Errens and Jack Shore"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Daniel Pineda , Chas Skelly , Makwan Amirkhani & Brian Ortega ) for second most submissions in UFC Featherweight division history (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Ranked #7 Newcomer of the Year"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2024 Comeback Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2024 Third Team MMA All-Star"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 2× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 2× Performance of the Night"
+    ]
+  },
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Youssef_Zalal",
+    "wikidata": "https://www.wikidata.org/wiki/Q97163112",
+    "ufc_com": "https://www.ufc.com/athlete/youssef-zalal"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 58,
+    "puissance": 46,
+    "lutte": 50,
+    "soumission": 81,
+    "defense": 86,
+    "cardio": 63,
+    "menton": 99,
+    "globale": 69,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

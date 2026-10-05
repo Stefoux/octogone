@@ -1,0 +1,197 @@
+{
+  "id": "aaron-pico",
+  "nom": "Aaron Pico",
+  "ufc_slug": "aaron-pico",
+  "wikipedia_titre": "Aaron Pico",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "plume",
+  "statut": "actif",
+  "date_naissance": "1996-09-23",
+  "taille_cm": 173,
+  "allonge_cm": 179,
+  "style": "Boxe",
+  "lieu_naissance": "Whittier, États-Unis",
+  "palmares": {
+    "victoires": 14,
+    "defaites": 5,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 9,
+    "victoires_soumission": 2,
+    "victoires_decision": 3,
+    "defaites_ko": 4,
+    "defaites_soumission": 1,
+    "defaites_decision": 0
+  },
+  "stats_ufc": {
+    "frappes_par_min": 6.16,
+    "precision_frappe_pct": 54,
+    "frappes_encaissees_par_min": 3.11,
+    "defense_frappe_pct": 45.0,
+    "takedowns_par_15min": 6.54,
+    "precision_takedown_pct": 12,
+    "defense_takedown_pct": null,
+    "soumissions_par_15min": 0.0,
+    "knockdowns_par_15min": 0.0,
+    "duree_moyenne_combat_s": 551,
+    "frappes_reussies": 113.0,
+    "takedowns_reussis": 2.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 14,
+      "defaites": 5,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 9,
+        "soumission": 2,
+        "decision": 3,
+        "autre": 0
+      },
+      "d": {
+        "ko": 4,
+        "soumission": 1,
+        "decision": 0,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2025": 1,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Patrício Pitbull",
+      "evenement": "UFC 327",
+      "date": "April 11, 2026",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 2,
+    "victoires_ufc": 1,
+    "defaites_ufc": 1,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 5
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Lerone Murphy",
+      "evenement": "UFC 319",
+      "date": "August 16, 2025",
+      "resultat": "Loss",
+      "methode": "KO (spinning back elbow)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "MMA Sucka",
+      "texte": "2018 Non-UFC Breakout Star of the Year"
+    },
+    {
+      "org": null,
+      "texte": "2016 US Olympic Team Trials Senior Men Freestyle 65 kg 2nd place"
+    },
+    {
+      "org": null,
+      "texte": "2016 Alexander Medved International Senior Men Freestyle 65 kg Bronze Medal"
+    },
+    {
+      "org": null,
+      "texte": "2015 Cerro Pelado International Senior Men Freestyle 65 kg Champion – Havana, Cuba"
+    },
+    {
+      "org": null,
+      "texte": "2014 Henri Deglane Challenge Senior Men Freestyle 65 kg Champion – Nice , France"
+    },
+    {
+      "org": null,
+      "texte": "2014 Soslan Andiyev Senior Men Freestyle 70 kg Bronze Medal – North Ossetia – Alania, Russia"
+    },
+    {
+      "org": null,
+      "texte": "2014 Grand Prix of Spain Senior Men Freestyle 65 kg Silver Medal – Madrid, Spain"
+    },
+    {
+      "org": null,
+      "texte": "2008 Desert Showdown Champ – Indio, CA"
+    },
+    {
+      "org": null,
+      "texte": "2008 California State PAL Champ – Oxnard, CA"
+    },
+    {
+      "org": null,
+      "texte": "2008 National PAL Champ – Tournament Outstanding Boxer Award– Oxnard, CA"
+    },
+    {
+      "org": null,
+      "texte": "2009 Desert Showdown Champ – Indio, CA"
+    },
+    {
+      "org": null,
+      "texte": "2009 National Junior Golden Gloves Championship Champ – Mesquite, NV Tournament Outstanding Boxer Award"
+    },
+    {
+      "org": null,
+      "texte": "2008 – CA State Pankration Championships Champ – Santa Ana, CA"
+    },
+    {
+      "org": null,
+      "texte": "2008 – National Pankration Championships Champ – Santa Ana, CA"
+    },
+    {
+      "org": null,
+      "texte": "2009 – CA State Pankration Championships Champ – Santa Ana, CA"
+    },
+    {
+      "org": null,
+      "texte": "2010 – Golden Cup European Pankration Champ – Kharkov, Ukraine"
+    }
+  ],
+  "distinctions": {
+    "fr": [],
+    "en": []
+  },
+  "image_commons": "Wrestler Aaron Pico 2014.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Aaron_Pico",
+    "wikidata": "https://www.wikidata.org/wiki/Q18786737",
+    "ufc_com": "https://www.ufc.com/athlete/aaron-pico"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 71,
+    "puissance": 66,
+    "lutte": 68,
+    "soumission": 54,
+    "defense": 62,
+    "cardio": 59,
+    "menton": 47,
+    "globale": 61,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

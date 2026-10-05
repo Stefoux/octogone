@@ -1,0 +1,149 @@
+{
+  "id": "rizvan-kuniev",
+  "nom": "Rizvan Kuniev",
+  "ufc_slug": "rizvan-kuniev",
+  "wikipedia_titre": "Rizvan Kuniev",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "RU",
+  "categorie": "lourds",
+  "statut": "actif",
+  "date_naissance": "1992-03-10",
+  "taille_cm": 193,
+  "allonge_cm": 193,
+  "style": null,
+  "lieu_naissance": "Makhachkala, Dagestan, Russie",
+  "palmares": {
+    "victoires": 14,
+    "defaites": 3,
+    "nuls": 1,
+    "sans_decision": 1,
+    "victoires_ko": 7,
+    "victoires_soumission": 2,
+    "victoires_decision": 5,
+    "defaites_ko": 0,
+    "defaites_soumission": 0,
+    "defaites_decision": 3
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.32,
+    "precision_frappe_pct": 55,
+    "frappes_encaissees_par_min": 2.22,
+    "defense_frappe_pct": 49.0,
+    "takedowns_par_15min": 0.79,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 94.0,
+    "soumissions_par_15min": 0.0,
+    "knockdowns_par_15min": 0.52,
+    "duree_moyenne_combat_s": 686,
+    "frappes_reussies": 247.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 14,
+      "defaites": 3,
+      "nuls": 1,
+      "sans_decision": 1,
+      "v": {
+        "ko": 7,
+        "soumission": 2,
+        "decision": 5,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 0,
+        "decision": 3,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2021": 1,
+      "2024": 1,
+      "2025": 1,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Tyrell Fortune",
+      "evenement": "UFC Fight Night: Ankalaev vs. Guskov",
+      "date": "July 25, 2026",
+      "resultat": "Win",
+      "methode": "TKO (knees)"
+    },
+    "combats_ufc": 5,
+    "victoires_ufc": 4,
+    "defaites_ufc": 1,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 1,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Tyrell Fortune",
+        "evenement": "UFC Fight Night: Ankalaev vs. Guskov",
+        "date": "July 25, 2026"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 4
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Edivan Mineiro Santos",
+      "evenement": "Dana White's Contender Series 41",
+      "date": "September 28, 2021",
+      "resultat": "Win",
+      "methode": "TKO (punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Tyrell Fortune"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 1× Combat de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 1× Fight of the Night"
+    ]
+  },
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Rizvan_Kuniev",
+    "wikidata": "https://www.wikidata.org/wiki/Q112990103",
+    "ufc_com": "https://www.ufc.com/athlete/rizvan-kuniev"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 68,
+    "puissance": 66,
+    "lutte": 60,
+    "soumission": 48,
+    "defense": 68,
+    "cardio": 60,
+    "menton": 99,
+    "globale": 67,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

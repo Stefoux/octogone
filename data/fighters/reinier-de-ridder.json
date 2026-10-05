@@ -1,0 +1,203 @@
+{
+  "id": "reinier-de-ridder",
+  "nom": "Reinier de Ridder",
+  "ufc_slug": "reinier-de-ridder",
+  "wikipedia_titre": "Reinier de Ridder",
+  "surnom": "RdR",
+  "sexe": "M",
+  "pays": "NL",
+  "categorie": "mi_lourds",
+  "statut": "actif",
+  "date_naissance": "1990-09-07",
+  "taille_cm": 193,
+  "allonge_cm": 198,
+  "style": "Jiu-Jitsu",
+  "lieu_naissance": "Tilburg, Pays-Bas",
+  "palmares": {
+    "victoires": 22,
+    "defaites": 4,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 6,
+    "victoires_soumission": 13,
+    "victoires_decision": 3,
+    "defaites_ko": 3,
+    "defaites_soumission": 0,
+    "defaites_decision": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.18,
+    "precision_frappe_pct": 55,
+    "frappes_encaissees_par_min": 2.26,
+    "defense_frappe_pct": 47.0,
+    "takedowns_par_15min": 2.44,
+    "precision_takedown_pct": 10,
+    "defense_takedown_pct": 40.0,
+    "soumissions_par_15min": 0.52,
+    "knockdowns_par_15min": 0.35,
+    "duree_moyenne_combat_s": 738,
+    "frappes_reussies": 274.0,
+    "takedowns_reussis": 5.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 22,
+      "defaites": 4,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 6,
+        "soumission": 13,
+        "decision": 3,
+        "autre": 0
+      },
+      "d": {
+        "ko": 3,
+        "soumission": 0,
+        "decision": 1,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2024": 1,
+      "2025": 4,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Roman Dolidze",
+      "evenement": "UFC Fight Night: Hernandez vs. Rodrigues",
+      "date": "August 22, 2026",
+      "resultat": "Win",
+      "methode": "TKO (punches)"
+    },
+    "combats_ufc": 7,
+    "victoires_ufc": 5,
+    "defaites_ufc": 2,
+    "victoires_decision_5_rounds": 2,
+    "combats_5_rounds_gagnes": 2,
+    "bonus_fotn": 0,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "rear-naked choke",
+      "finitions": 5
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Gerald Meerschaert",
+      "evenement": "UFC Fight Night: Magny vs. Prates",
+      "date": "November 9, 2024",
+      "resultat": "Win",
+      "methode": "Submission (arm-triangle choke)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Bo Nickal"
+    },
+    {
+      "org": "ONE Championship",
+      "texte": "ONE Middleweight World Championship (One time)"
+    },
+    {
+      "org": "ONE Championship",
+      "texte": "Two successful defenses"
+    },
+    {
+      "org": "ONE Championship",
+      "texte": "ONE Light Heavyweight World Championship (One time)"
+    },
+    {
+      "org": "ONE Championship",
+      "texte": "Performance of the Night (Two times) vs. Kiamrian Abbasov and Vitaly Bigdash"
+    },
+    {
+      "org": "ONE Championship",
+      "texte": "Submission of the Night (against Fan Rong at ONE Championship: Hero's Ascent )"
+    },
+    {
+      "org": "ONE Championship",
+      "texte": "Fight of the Night (against Leandro Ataides at ONE Championship: Warrior's Code )"
+    },
+    {
+      "org": "ONE Championship",
+      "texte": "Third double champion in ONE history"
+    },
+    {
+      "org": "ONE Championship",
+      "texte": "2020: Submission of the Year vs. Aung La Nsang"
+    },
+    {
+      "org": "ONE Championship",
+      "texte": "2022: Submission of the Year vs. Vitaly Bigdash at ONE 159"
+    },
+    {
+      "org": "ONE Championship",
+      "texte": "2024: Ranked #3 Fight of the Year vs. Anatoly Malykhin"
+    },
+    {
+      "org": "HIT Fighting Championship",
+      "texte": "HIT Middleweight Championship (One time)"
+    },
+    {
+      "org": "360 Promotion",
+      "texte": "360 Middleweight Championship (One time)"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "July 1, 2024 – December 31, 2025 Upset of the Year vs. Bo Nickal at UFC on ESPN: Sandhagen vs. Figueiredo"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2025 Second Team MMA All-Star"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Champion ONE des poids moyens et mi-lourds",
+      "Soumission de l'année (2020, 2022)",
+      "Bonus UFC : 3× Performance de la soirée"
+    ],
+    "en": [
+      "ONE Middleweight & Light Heavyweight Champion",
+      "Submission of the Year (2020, 2022)",
+      "UFC bonuses: 3× Performance of the Night"
+    ]
+  },
+  "image_commons": "Reinier post training 2.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Reinier_de_Ridder",
+    "wikidata": "https://www.wikidata.org/wiki/Q103783008",
+    "ufc_com": "https://www.ufc.com/athlete/reinier-de-ridder"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 64,
+    "puissance": 53,
+    "lutte": 50,
+    "soumission": 70,
+    "defense": 66,
+    "cardio": 75,
+    "menton": 66,
+    "globale": 63,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

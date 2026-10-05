@@ -1,0 +1,211 @@
+{
+  "id": "joaquin-buckley",
+  "nom": "Joaquin Buckley",
+  "ufc_slug": "joaquin-buckley",
+  "wikipedia_titre": "Joaquin Buckley",
+  "surnom": "New Mansa",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "mi_moyens",
+  "statut": "actif",
+  "date_naissance": "1994-04-27",
+  "taille_cm": 178,
+  "allonge_cm": 193,
+  "style": "Style libre",
+  "lieu_naissance": "États-Unis",
+  "palmares": {
+    "victoires": 21,
+    "defaites": 8,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 15,
+    "victoires_soumission": 0,
+    "victoires_decision": 6,
+    "defaites_ko": 4,
+    "defaites_soumission": 0,
+    "defaites_decision": 4
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.62,
+    "precision_frappe_pct": 36,
+    "frappes_encaissees_par_min": 3.1,
+    "defense_frappe_pct": 59.0,
+    "takedowns_par_15min": 1.43,
+    "precision_takedown_pct": 17,
+    "defense_takedown_pct": 70.0,
+    "soumissions_par_15min": 0.08,
+    "knockdowns_par_15min": 0.68,
+    "duree_moyenne_combat_s": 705,
+    "frappes_reussies": 723.0,
+    "takedowns_reussis": 7.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 21,
+      "defaites": 8,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 15,
+        "soumission": 0,
+        "decision": 6,
+        "autre": 0
+      },
+      "d": {
+        "ko": 4,
+        "soumission": 0,
+        "decision": 4,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2020": 3,
+      "2021": 2,
+      "2022": 4,
+      "2023": 2,
+      "2024": 4,
+      "2025": 1,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Sean Brady",
+      "evenement": "UFC 328",
+      "date": "May 9, 2026",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 17,
+    "victoires_ufc": 11,
+    "defaites_ufc": 6,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 1,
+    "bonus_potn": 5,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Kamaru Usman",
+        "evenement": "UFC on ESPN: Usman vs. Buckley",
+        "date": "June 14, 2025"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 8
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Kevin Holland",
+      "evenement": "UFC Fight Night: Lewis vs. Oleinik",
+      "date": "August 8, 2020",
+      "resultat": "Loss",
+      "methode": "TKO (punch)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Kamaru Usman"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Five times) vs. Impa Kasanganay , Jordan Wright , Albert Duraev, Antônio Arroyo and Stephen Thompson"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: President's Choice Performance of the Year Winner vs. Impa Kasanganay & Fan's Choice Knockout of the Year Winner vs. Impa Kasanganay"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Knockout of the Year vs. Impa Kasanganay & Ranked #2 Newcomer of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: Ranked #9 Fighter of the Year"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2024 Breakout Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2020 October Knockout of the Month vs. Impa Kasanganay"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2024 Breakout Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2024 Second Team MMA All-Star"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2024 #4 Ranked Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting , Bleacher Report , MMA Mania , MMA Junkie , Combat Press , Cageside Press , BT Sport , Sherdog , MMA Weekly , MMA Sucka , Bloody Elbow , CBS Sports , ESPN",
+      "texte": "2020 Knockout of the Year vs. Impa Kasanganay"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2021 Knockout of the Year vs. Impa Kasanganay at UFC Fight Night: Moraes vs. Sandhagen ^"
+    },
+    {
+      "org": "Real American Freestyle",
+      "texte": "Match of the Night (One time) vs. Tyron Woodley"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "KO de l'année (2020)",
+      "Bonus UFC : 5× Performance de la soirée, 1× Combat de la soirée"
+    ],
+    "en": [
+      "Knockout of the Year (2020)",
+      "UFC bonuses: 5× Performance of the Night, 1× Fight of the Night"
+    ]
+  },
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Joaquin_Buckley",
+    "wikidata": "https://www.wikidata.org/wiki/Q102221793",
+    "ufc_com": "https://www.ufc.com/athlete/joaquin-buckley"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 47,
+    "puissance": 81,
+    "lutte": 53,
+    "soumission": 36,
+    "defense": 73,
+    "cardio": 60,
+    "menton": 57,
+    "globale": 58,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

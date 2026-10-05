@@ -4,7 +4,7 @@
   "ufc_slug": null,
   "surnom": null,
   "sexe": null,
-  "pays": null,
+  "pays": "US",
   "categorie": null,
   "statut": null,
   "date_naissance": null,
@@ -49,7 +49,7 @@
   "image_commons": null,
   "sources": {},
   "champs_sources": {
-    "pays": "wikidata"
+    "pays": "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters"
   },
   "a_verifier": [
     "allonge_cm",
@@ -64,7 +64,6 @@
     "palmares.victoires_decision",
     "palmares.victoires_ko",
     "palmares.victoires_soumission",
-    "pays",
     "sexe",
     "stats_ufc (absentes de la fiche ufc.com)",
     "statut"

@@ -3,7 +3,7 @@
   "nom": "Gabriel Miranda",
   "ufc_slug": "gabriel-miranda",
   "surnom": "Fly",
-  "sexe": null,
+  "sexe": "M",
   "pays": null,
   "categorie": "plume",
   "statut": "inactif",
@@ -55,15 +55,15 @@
     "pays": "wikidata",
     "categorie": "ufc_com",
     "palmares": "ufc_com",
-    "stats_ufc": "ufc_com"
+    "stats_ufc": "ufc_com",
+    "sexe": "https://www.ufc.com/athlete/gabriel-miranda"
   },
   "a_verifier": [
     "article Wikipedia introuvable",
     "palmares.defaites_decision",
     "palmares.defaites_ko",
     "palmares.defaites_soumission",
-    "pays",
-    "sexe"
+    "pays"
   ],
   "ecarts_sources": {},
   "maj": "2026-10-04",

@@ -123,7 +123,7 @@
     }
   },
   "champion_actuel": false,
-  "ancien_champion": false,
+  "ancien_champion": true,
   "accomplissements_en": [
     {
       "org": "Pancrase Hybrid Wrestling",
@@ -252,7 +252,8 @@
     "palmares": "wikipedia_tableau",
     "stats_ufc": "ufc_com",
     "ufc": "wikipedia_tableau",
-    "accomplissements_en": "wikipedia"
+    "accomplissements_en": "wikipedia",
+    "ancien_champion": "https://en.wikipedia.org/wiki/Frank_Shamrock"
   },
   "a_verifier": [
     "allonge_cm",

@@ -1,0 +1,168 @@
+{
+  "id": "tagir-ulanbekov",
+  "nom": "Tagir Ulanbekov",
+  "ufc_slug": "tagir-ulanbekov",
+  "wikipedia_titre": "Tagir Ulanbekov",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "RU",
+  "categorie": "mouche",
+  "statut": "actif",
+  "date_naissance": "1991-07-08",
+  "taille_cm": 170,
+  "allonge_cm": 178,
+  "style": "Lutte",
+  "lieu_naissance": "Dagestan, Russie",
+  "palmares": {
+    "victoires": 17,
+    "defaites": 3,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 1,
+    "victoires_soumission": 8,
+    "victoires_decision": 8,
+    "defaites_ko": 0,
+    "defaites_soumission": 1,
+    "defaites_decision": 2
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.01,
+    "precision_frappe_pct": 48,
+    "frappes_encaissees_par_min": 3.44,
+    "defense_frappe_pct": 51.0,
+    "takedowns_par_15min": 2.73,
+    "precision_takedown_pct": 24,
+    "defense_takedown_pct": 63.0,
+    "soumissions_par_15min": 1.52,
+    "knockdowns_par_15min": 0.15,
+    "duree_moyenne_combat_s": 742,
+    "frappes_reussies": 298.0,
+    "takedowns_reussis": 11.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 17,
+      "defaites": 3,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 1,
+        "soumission": 8,
+        "decision": 8,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 1,
+        "decision": 2,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2020": 1,
+      "2021": 1,
+      "2022": 2,
+      "2023": 1,
+      "2025": 3
+    },
+    "dernier_combat": {
+      "adversaire": "Kyoji Horiguchi",
+      "evenement": "UFC Fight Night: Tsarukyan vs. Hooker",
+      "date": "November 22, 2025",
+      "resultat": "Loss",
+      "methode": "Technical Submission (rear-naked choke)"
+    },
+    "combats_ufc": 8,
+    "victoires_ufc": 6,
+    "defaites_ufc": 2,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 0,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "guillotine choke",
+      "finitions": 3
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Bruno Gustavo da Silva",
+      "evenement": "UFC Fight Night: Moraes vs. Sandhagen",
+      "date": "October 11, 2020",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "Fight Night Global",
+      "texte": "Fight Night Global Flyweight Championship (One time)"
+    },
+    {
+      "org": "Gorilla Fighting Championship (Now Eagle FC)",
+      "texte": "GF Flyweight Championship (One time)"
+    },
+    {
+      "org": "Gorilla Fighting Championship (Now Eagle FC)",
+      "texte": "Two successful title defences"
+    },
+    {
+      "org": "Russian Combat Sambo Federation (RCSF)",
+      "texte": "Russian Professional Combat Sambo Championship-Samara, Russia (2014) at 57 kg"
+    },
+    {
+      "org": "European Combat Sambo Federation (ECSF)",
+      "texte": "European Combat Sambo Championship-Kishinev, Moldova (2012) at 57 kg"
+    },
+    {
+      "org": "European Combat Sambo Federation (ECSF)",
+      "texte": "European Cup in Combat Sambo among Clubs-Yalta, Crimea (2012) at 57 kg representing SC Bazarganova"
+    },
+    {
+      "org": "European Combat Sambo Federation (ECSF)",
+      "texte": "Combat Sambo Eurasia Championship-Yalta, Crimea (2014) at 57 kg"
+    },
+    {
+      "org": "World Combat Sambo Federation (WCSF)",
+      "texte": "World Combat Sambo Championship-Moscow, Russia (2014) at 57 kg"
+    }
+  ],
+  "distinctions": {
+    "fr": [],
+    "en": []
+  },
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Tagir_Ulanbekov",
+    "wikidata": "https://www.wikidata.org/wiki/Q101229278",
+    "ufc_com": "https://www.ufc.com/athlete/tagir-ulanbekov"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 57,
+    "puissance": 41,
+    "lutte": 59,
+    "soumission": 78,
+    "defense": 63,
+    "cardio": 62,
+    "menton": 99,
+    "globale": 66,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

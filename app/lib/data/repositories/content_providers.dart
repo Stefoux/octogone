@@ -72,6 +72,20 @@ final imagesProvider = StreamProvider<Map<String, ImageRef>>((ref) {
       );
 });
 
+/// Photos de carte par combattant puis par rareté (fighter_id -> rareté -> image).
+final cardPhotosProvider = Provider<Map<String, Map<String, ImageRef>>>((ref) {
+  final out = <String, Map<String, ImageRef>>{};
+  for (final img in (ref.watch(imagesProvider).value ?? const <String, ImageRef>{}).values) {
+    final f = img.fighterId;
+    if (f == null || img.raretes.isEmpty) continue;
+    final byRarity = out.putIfAbsent(f, () => {});
+    for (final r in img.raretes) {
+      byRarity[r] = img;
+    }
+  }
+  return out;
+});
+
 final editionsProvider = StreamProvider<List<Edition>>((ref) {
   final db = ref.watch(databaseProvider);
   final q = db.select(db.editions)..orderBy([(t) => OrderingTerm.desc(t.annee)]);

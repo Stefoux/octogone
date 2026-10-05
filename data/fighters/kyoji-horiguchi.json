@@ -1,0 +1,198 @@
+{
+  "id": "kyoji-horiguchi",
+  "nom": "Kyoji Horiguchi",
+  "ufc_slug": "kyoji-horiguchi",
+  "wikipedia_titre": "Kyoji Horiguchi",
+  "surnom": "Karate Kid",
+  "sexe": "M",
+  "pays": "JP",
+  "categorie": "mouche",
+  "statut": "actif",
+  "date_naissance": "1990-10-12",
+  "taille_cm": 163,
+  "allonge_cm": 175,
+  "style": "AMM",
+  "lieu_naissance": "Takasaki, Japon",
+  "palmares": {
+    "victoires_ko": 15,
+    "victoires_soumission": 6,
+    "victoires_decision": 15,
+    "defaites_ko": 3,
+    "defaites_soumission": 1,
+    "defaites_decision": 2,
+    "nuls": 0,
+    "sans_decision": 1,
+    "victoires": 36,
+    "defaites": 6
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.64,
+    "precision_frappe_pct": 48,
+    "frappes_encaissees_par_min": 2.08,
+    "defense_frappe_pct": 64.0,
+    "takedowns_par_15min": 1.67,
+    "precision_takedown_pct": 36,
+    "defense_takedown_pct": 61.0,
+    "soumissions_par_15min": 0.1,
+    "knockdowns_par_15min": 0.59,
+    "duree_moyenne_combat_s": 833,
+    "frappes_reussies": 555.0,
+    "takedowns_reussis": 15.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 35,
+      "defaites": 6,
+      "nuls": 0,
+      "sans_decision": 1,
+      "v": {
+        "ko": 15,
+        "soumission": 5,
+        "decision": 15,
+        "autre": 0
+      },
+      "d": {
+        "ko": 3,
+        "soumission": 1,
+        "decision": 2,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2013": 1,
+      "2014": 2,
+      "2015": 3,
+      "2016": 2,
+      "2025": 1,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Manel Kape",
+      "evenement": "UFC Fight Night: Kape vs. Horiguchi",
+      "date": "June 20, 2026",
+      "resultat": "Loss",
+      "methode": "TKO (punches)"
+    },
+    "combats_ufc": 11,
+    "victoires_ufc": 9,
+    "defaites_ufc": 2,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 2,
+    "bonus_fotn": 0,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 12
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Dustin Pague",
+      "evenement": "UFC 166",
+      "date": "October 19, 2013",
+      "resultat": "Win",
+      "methode": "TKO (punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Tagir Ulanbekov"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Deiveson Figueiredo & Tatsuro Taira ) for the sixth longest win streak in UFC Flyweight division history (5)"
+    },
+    {
+      "org": "Rizin Fighting Federation",
+      "texte": "RIZIN Flyweight Championship (One time, current)"
+    },
+    {
+      "org": "Rizin Fighting Federation",
+      "texte": "One successful title defense"
+    },
+    {
+      "org": "Rizin Fighting Federation",
+      "texte": "RIZIN Bantamweight Championship (Two times)"
+    },
+    {
+      "org": "Rizin Fighting Federation",
+      "texte": "2017 RIZIN Bantamweight Grand Prix Championship"
+    },
+    {
+      "org": "Bellator MMA",
+      "texte": "Bellator Bantamweight World Championship (One time)"
+    },
+    {
+      "org": "Shooto",
+      "texte": "Shooto Bantamweight Championship (One time; former)"
+    },
+    {
+      "org": "Shooto",
+      "texte": "One successful title defense"
+    },
+    {
+      "org": "Shooto",
+      "texte": "Shooto 2010 Rookie Tournament winner"
+    },
+    {
+      "org": "MMA Sucka",
+      "texte": "2018 Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2025 Promo of the Year at UFC Fight Night: Tsarukyan vs. Hooker"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Champion RIZIN des poids mouche et coq",
+      "Champion Bellator des poids coq",
+      "Combattant de l'année (2018)",
+      "Bonus UFC : 1× Performance de la soirée"
+    ],
+    "en": [
+      "RIZIN Flyweight & Bantamweight Champion",
+      "Bellator Bantamweight Champion",
+      "Fighter of the Year (2018)",
+      "UFC bonuses: 1× Performance of the Night"
+    ]
+  },
+  "image_commons": "Kyoji Horiguchi 2017.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Kyoji_Horiguchi",
+    "wikidata": "https://www.wikidata.org/wiki/Q6451952",
+    "ufc_com": "https://www.ufc.com/athlete/kyoji-horiguchi"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_infobox",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 35-6, wikipedia_infobox 36-6, ufc_com 36-6"
+  },
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 60,
+    "puissance": 63,
+    "lutte": 57,
+    "soumission": 46,
+    "defense": 83,
+    "cardio": 74,
+    "menton": 72,
+    "globale": 65,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

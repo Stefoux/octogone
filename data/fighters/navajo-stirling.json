@@ -1,0 +1,178 @@
+{
+  "id": "navajo-stirling",
+  "nom": "Navajo Stirling",
+  "ufc_slug": "navajo-stirling",
+  "wikipedia_titre": "Navajo Stirling",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "NZ",
+  "categorie": "mi_lourds",
+  "statut": "actif",
+  "date_naissance": "1997-11-07",
+  "taille_cm": 193,
+  "allonge_cm": 201,
+  "style": "Kickboxing",
+  "lieu_naissance": "Upper Hutt, Nouvelle-Zélande",
+  "palmares": {
+    "victoires": 11,
+    "defaites": 0,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 7,
+    "victoires_soumission": 0,
+    "victoires_decision": 4,
+    "defaites_ko": 0,
+    "defaites_soumission": 0,
+    "defaites_decision": 0
+  },
+  "stats_ufc": {
+    "frappes_par_min": 6.47,
+    "precision_frappe_pct": 55,
+    "frappes_encaissees_par_min": 2.56,
+    "defense_frappe_pct": 58.0,
+    "takedowns_par_15min": 0.82,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 71.0,
+    "soumissions_par_15min": 0.0,
+    "knockdowns_par_15min": 0.62,
+    "duree_moyenne_combat_s": 624,
+    "frappes_reussies": 471.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 11,
+      "defaites": 0,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 7,
+        "soumission": 0,
+        "decision": 4,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 0,
+        "decision": 0,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2024": 2,
+      "2025": 2,
+      "2026": 3
+    },
+    "dernier_combat": {
+      "adversaire": "Jan Błachowicz",
+      "evenement": "UFC Fight Night: Medić vs. Rodriguez",
+      "date": "1 August 2026",
+      "resultat": "Win",
+      "methode": "TKO (elbows and punches)"
+    },
+    "combats_ufc": 7,
+    "victoires_ufc": 7,
+    "defaites_ufc": 0,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 0,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "elbows",
+      "finitions": 3
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Phillip Latu",
+      "evenement": "Dana White's Contender Series 71",
+      "date": "10 September 2024",
+      "resultat": "Win",
+      "methode": "KO (punch)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "King in the Ring",
+      "texte": "2020 King in the Ring 92 kg III Champion (eight-man tournament)"
+    },
+    {
+      "org": "King in the Ring",
+      "texte": "2021 King in the Ring 100 kg IV Champion (eight-man tournament)"
+    },
+    {
+      "org": "World Kickboxing Federation",
+      "texte": "WKBF World Professional Heavyweight K1 Championship"
+    },
+    {
+      "org": "World Kickboxing Network",
+      "texte": "WKN World Professional Heavyweight K1 Championship"
+    },
+    {
+      "org": "WBC MuayThai New Zealand",
+      "texte": "WBC New Zealand Professional Heavyweight Muay Thai Championship"
+    },
+    {
+      "org": "World Kickboxing Association MuayThai",
+      "texte": "WKA New Zealand Professional Heavyweight Muay Thai Championship"
+    },
+    {
+      "org": "New Zealand Muay Thai Federation",
+      "texte": "NZMF North Island Amateur Heavyweight Championship"
+    },
+    {
+      "org": "Hex Fight Series",
+      "texte": "Hex Fight Series Light Heavyweight Champion"
+    },
+    {
+      "org": "Shuriken Fight Series",
+      "texte": "Shuriken Fight Series Heavyweight Champion"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Jan Błachowicz"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 1× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 1× Performance of the Night"
+    ]
+  },
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Navajo_Stirling",
+    "wikidata": "https://www.wikidata.org/wiki/Q136816852",
+    "ufc_com": "https://www.ufc.com/athlete/navajo-stirling"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 78,
+    "puissance": 74,
+    "lutte": 53,
+    "soumission": 40,
+    "defense": 73,
+    "cardio": 64,
+    "menton": 99,
+    "globale": 69,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

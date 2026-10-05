@@ -1,0 +1,243 @@
+{
+  "id": "raoni-barcelos",
+  "nom": "Raoni Barcelos",
+  "ufc_slug": "raoni-barcelos",
+  "wikipedia_titre": "Raoni Barcelos",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "BR",
+  "categorie": "coq",
+  "statut": "actif",
+  "date_naissance": "1987-05-01",
+  "taille_cm": 171,
+  "allonge_cm": 170,
+  "style": "Jiu-Jitsu",
+  "lieu_naissance": "State of Rio de Janeiro, Brésil",
+  "palmares": {
+    "victoires": 22,
+    "defaites": 6,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 8,
+    "victoires_soumission": 3,
+    "victoires_decision": 11,
+    "defaites_ko": 2,
+    "defaites_soumission": 1,
+    "defaites_decision": 3
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.77,
+    "precision_frappe_pct": 52,
+    "frappes_encaissees_par_min": 4.34,
+    "defense_frappe_pct": 60.0,
+    "takedowns_par_15min": 2.88,
+    "precision_takedown_pct": 2,
+    "defense_takedown_pct": 86.0,
+    "soumissions_par_15min": 0.96,
+    "knockdowns_par_15min": 0.34,
+    "duree_moyenne_combat_s": 821,
+    "frappes_reussies": 1045.0,
+    "takedowns_reussis": 3.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 22,
+      "defaites": 6,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 8,
+        "soumission": 3,
+        "decision": 11,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 1,
+        "decision": 3,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2018": 2,
+      "2019": 2,
+      "2020": 1,
+      "2021": 1,
+      "2022": 2,
+      "2023": 2,
+      "2024": 1,
+      "2025": 3,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Raul Rosas Jr.",
+      "evenement": "UFC Fight Night: Rosas Jr. vs. Barcelos",
+      "date": "26 September 2026",
+      "resultat": "Loss",
+      "methode": "KO (slam)"
+    },
+    "combats_ufc": 16,
+    "victoires_ufc": 11,
+    "defaites_ufc": 5,
+    "victoires_decision_5_rounds": 2,
+    "combats_5_rounds_gagnes": 2,
+    "bonus_fotn": 4,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Raul Rosas Jr.",
+        "evenement": "UFC Fight Night: Rosas Jr. vs. Barcelos",
+        "date": "26 September 2026"
+      },
+      {
+        "adversaire": "Timur Valiev",
+        "evenement": "UFC Fight Night: Gane vs. Volkov",
+        "date": "26 June 2021"
+      },
+      {
+        "adversaire": "Khalid Taha",
+        "evenement": "UFC on ESPN: Santos vs. Teixeira",
+        "date": "7 November 2020"
+      },
+      {
+        "adversaire": "Kurt Holobaugh",
+        "evenement": "UFC Fight Night: dos Santos vs. Ivanov",
+        "date": "14 July 2018"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 5
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Kurt Holobaugh",
+      "evenement": "UFC Fight Night: dos Santos vs. Ivanov",
+      "date": "14 July 2018",
+      "resultat": "Win",
+      "methode": "KO (punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Four times) vs. Kurt Holobaugh , Khalid Taha , Timur Valiev and Raul Rosas Jr."
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most takedowns landed in UFC Bantamweight division history (39)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Rani Yahya ) for second most submission attempts in UFC Bantamweight division history (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2018: Ranked #9 Newcomer of the Year"
+    },
+    {
+      "org": "Resurrection Fighting Alliance",
+      "texte": "RFA Featherweight Championship (One time; former)"
+    },
+    {
+      "org": "Resurrection Fighting Alliance",
+      "texte": "Two successful title defenses"
+    },
+    {
+      "org": "Shooto Brazil",
+      "texte": "Shooto Brazil Featherweight Championship (one time; former)"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2025 Upset of the Year vs. Payton Talbott at UFC 311"
+    },
+    {
+      "org": "theScore",
+      "texte": "2025 Upset of the Year vs. Payton Talbott at UFC 311"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2025 Upset of the Year vs. Payton Talbott"
+    },
+    {
+      "org": null,
+      "texte": "5-time Brazilian Wrestling Champion"
+    },
+    {
+      "org": null,
+      "texte": "2-time South-American Wrestling Champion"
+    },
+    {
+      "org": null,
+      "texte": "Brazilian Nogi Champion (2009 black)"
+    },
+    {
+      "org": null,
+      "texte": "World Champion – IBJJF (2002 blue, 2003 blue, 2006 purple)"
+    },
+    {
+      "org": null,
+      "texte": "World Cup Champion – CBJJO (2005)"
+    },
+    {
+      "org": null,
+      "texte": "Brazilian National Champion (2004 & 2005 blue, 2006 purple)"
+    },
+    {
+      "org": null,
+      "texte": "Portuguese National Champion (2010)"
+    },
+    {
+      "org": null,
+      "texte": "Brazilian National Silver Medallist (2002, 2003)"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Champion Shooto des poids plume",
+      "Bonus UFC : 4× Combat de la soirée"
+    ],
+    "en": [
+      "Shooto Featherweight Champion",
+      "UFC bonuses: 4× Fight of the Night"
+    ]
+  },
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Raoni_Barcelos",
+    "wikidata": "https://www.wikidata.org/wiki/Q20028301",
+    "ufc_com": "https://www.ufc.com/athlete/raoni-barcelos"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 69,
+    "puissance": 56,
+    "lutte": 66,
+    "soumission": 56,
+    "defense": 66,
+    "cardio": 82,
+    "menton": 78,
+    "globale": 68,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

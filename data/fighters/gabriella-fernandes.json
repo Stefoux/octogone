@@ -1,0 +1,84 @@
+{
+  "id": "gabriella-fernandes",
+  "nom": "Gabriella Fernandes",
+  "ufc_slug": "gabriella-fernandes",
+  "surnom": "Gabi",
+  "sexe": "F",
+  "pays": "BR",
+  "categorie": "mouche_f",
+  "statut": "actif",
+  "date_naissance": null,
+  "taille_cm": 168,
+  "allonge_cm": 168,
+  "style": "Cogneur",
+  "lieu_naissance": "São Gonçalo, Brésil",
+  "palmares": {
+    "victoires": 11,
+    "defaites": 4,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 3,
+    "victoires_soumission": 3,
+    "victoires_decision": 5,
+    "defaites_ko": null,
+    "defaites_soumission": null,
+    "defaites_decision": null
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.51,
+    "precision_frappe_pct": 47,
+    "frappes_encaissees_par_min": 5.31,
+    "defense_frappe_pct": 53.0,
+    "takedowns_par_15min": 0.42,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 69.0,
+    "soumissions_par_15min": 0.21,
+    "knockdowns_par_15min": 0.21,
+    "duree_moyenne_combat_s": 720,
+    "frappes_reussies": 253.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {},
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [],
+  "distinctions": {
+    "fr": [],
+    "en": []
+  },
+  "image_commons": null,
+  "sources": {
+    "ufc_com": "https://www.ufc.com/athlete/gabriella-fernandes"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
+    "categorie": "ufc_com",
+    "palmares": "ufc_com",
+    "stats_ufc": "ufc_com",
+    "sexe": "https://www.ufc.com/athlete/gabriella-fernandes"
+  },
+  "a_verifier": [
+    "article Wikipedia introuvable",
+    "palmares.defaites_decision",
+    "palmares.defaites_ko",
+    "palmares.defaites_soumission"
+  ],
+  "ecarts_sources": {},
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 65,
+    "puissance": 65,
+    "lutte": 65,
+    "soumission": 65,
+    "defense": 65,
+    "cardio": 65,
+    "menton": 65,
+    "globale": 65,
+    "style": "complet",
+    "estimees": [
+      "menton"
+    ],
+    "formule_version": 1
+  }
+}

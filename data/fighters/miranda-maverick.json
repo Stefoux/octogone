@@ -1,0 +1,156 @@
+{
+  "id": "miranda-maverick",
+  "nom": "Miranda Maverick",
+  "ufc_slug": "miranda-maverick",
+  "wikipedia_titre": "Miranda Maverick",
+  "surnom": "Fear The",
+  "sexe": "F",
+  "pays": "US",
+  "categorie": "mouche_f",
+  "statut": "actif",
+  "date_naissance": "1997-07-01",
+  "taille_cm": 161,
+  "allonge_cm": 166,
+  "style": "Jiu-Jitsu",
+  "lieu_naissance": "Jefferson City, États-Unis",
+  "palmares": {
+    "victoires": 15,
+    "defaites": 6,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 1,
+    "victoires_soumission": 7,
+    "victoires_decision": 7,
+    "defaites_ko": 0,
+    "defaites_soumission": 0,
+    "defaites_decision": 6
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.22,
+    "precision_frappe_pct": 45,
+    "frappes_encaissees_par_min": 2.25,
+    "defense_frappe_pct": 62.0,
+    "takedowns_par_15min": 2.16,
+    "precision_takedown_pct": 14,
+    "defense_takedown_pct": 45.0,
+    "soumissions_par_15min": 0.38,
+    "knockdowns_par_15min": 0.0,
+    "duree_moyenne_combat_s": 797,
+    "frappes_reussies": 514.0,
+    "takedowns_reussis": 8.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 15,
+      "defaites": 6,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 1,
+        "soumission": 7,
+        "decision": 7,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 0,
+        "decision": 6,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2020": 1,
+      "2021": 3,
+      "2022": 2,
+      "2023": 2,
+      "2024": 3,
+      "2025": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Rose Namajunas",
+      "evenement": "UFC on ESPN: Usman vs. Buckley",
+      "date": "June 14, 2025",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 12,
+    "victoires_ufc": 8,
+    "defaites_ufc": 4,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 2,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "armbar",
+      "finitions": 3
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Liana Jojua",
+      "evenement": "UFC 254",
+      "date": "October 24, 2020",
+      "resultat": "Win",
+      "methode": "TKO (doctor stoppage)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Maycee Barber & Gillian Robertson ) for third most wins in UFC Women's Flyweight division history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Jasmine Jasudavicius ) for second most takedowns landed in UFC Women's Flyweight division history (23) (behind Valentina Shevchenko )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most top position time in UFC Women's Flyweight division history (38:31)"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 2× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 2× Performance of the Night"
+    ]
+  },
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Miranda_Maverick",
+    "wikidata": "https://www.wikidata.org/wiki/Q50309878",
+    "ufc_com": "https://www.ufc.com/athlete/miranda-maverick"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 15-6, wikipedia_infobox 15-6, ufc_com 17-6"
+  },
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 55,
+    "puissance": 37,
+    "lutte": 48,
+    "soumission": 64,
+    "defense": 80,
+    "cardio": 65,
+    "menton": 99,
+    "globale": 64,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

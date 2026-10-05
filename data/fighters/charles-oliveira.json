@@ -138,7 +138,7 @@
     }
   },
   "champion_actuel": false,
-  "ancien_champion": false,
+  "ancien_champion": true,
   "accomplissements_en": [
     {
       "org": null,
@@ -463,7 +463,8 @@
     "categorie": "ufc_com",
     "palmares": "wikipedia_infobox",
     "ufc": "wikipedia_tableau",
-    "accomplissements_en": "wikipedia"
+    "accomplissements_en": "wikipedia",
+    "ancien_champion": "https://en.wikipedia.org/wiki/Charles_Oliveira"
   },
   "a_verifier": [
     "stats_ufc (absentes de la fiche ufc.com)"

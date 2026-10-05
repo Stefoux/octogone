@@ -1,0 +1,179 @@
+{
+  "id": "nora-cornolle",
+  "nom": "Nora Cornolle",
+  "ufc_slug": "nora-cornolle",
+  "wikipedia_titre": "Nora Cornolle",
+  "surnom": null,
+  "sexe": "F",
+  "pays": "FR",
+  "categorie": "coq_f",
+  "statut": "actif",
+  "date_naissance": "1989-12-06",
+  "taille_cm": 170,
+  "allonge_cm": 170,
+  "style": "Muay Thaï",
+  "lieu_naissance": "Epinay sur Seine, France",
+  "palmares": {
+    "victoires": 10,
+    "defaites": 4,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 6,
+    "victoires_soumission": 2,
+    "victoires_decision": 2,
+    "defaites_ko": 0,
+    "defaites_soumission": 1,
+    "defaites_decision": 3
+  },
+  "stats_ufc": {
+    "frappes_par_min": 2.65,
+    "precision_frappe_pct": 55,
+    "frappes_encaissees_par_min": 1.95,
+    "defense_frappe_pct": 58.0,
+    "takedowns_par_15min": 0.91,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 50.0,
+    "soumissions_par_15min": 0.36,
+    "knockdowns_par_15min": 0.18,
+    "duree_moyenne_combat_s": 709,
+    "frappes_reussies": 219.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 10,
+      "defaites": 4,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 6,
+        "soumission": 2,
+        "decision": 2,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 1,
+        "decision": 3,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2023": 1,
+      "2024": 2,
+      "2025": 2,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Klaudia Syguła",
+      "evenement": "UFC Fight Night: Hooker vs. Parnasse",
+      "date": "September 5, 2026",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 7,
+    "victoires_ufc": 4,
+    "defaites_ufc": 3,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "rear-naked choke",
+      "finitions": 2
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Joselyne Edwards",
+      "evenement": "UFC Fight Night: Gane vs. Spivac",
+      "date": "September 2, 2023",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "Académie Française de Muay Thaï",
+      "texte": "2015 AFMT National B-class −63.5 kg Champion"
+    },
+    {
+      "org": "Académie Française de Muay Thaï",
+      "texte": "2016 AFMT National B-class −63.5 kg Champion"
+    },
+    {
+      "org": "Académie Française de Muay Thaï",
+      "texte": "2017 AFMT National A-class −60 kg Champion"
+    },
+    {
+      "org": "Fédération Française de Kickboxing, Muaythai et Disciplines Associées",
+      "texte": "2018 FFKMDA −61.2 kg Champion"
+    },
+    {
+      "org": "International Federation of Muaythai Associations",
+      "texte": "2017 IFMA European Championships -60 kg"
+    },
+    {
+      "org": "International Federation of Muaythai Associations",
+      "texte": "2018 IFMA Muaythai Open Cup in Antalya -60 kg"
+    },
+    {
+      "org": "International Federation of Muaythai Associations",
+      "texte": "2021 IFMA World Championships -63.5 kg"
+    },
+    {
+      "org": "International Federation of Muaythai Associations",
+      "texte": "2022 IFMA European Championships -63.5 kg"
+    },
+    {
+      "org": "International Federation of Muaythai Associations",
+      "texte": "2022 IFMA World Championships -63.5 kg"
+    },
+    {
+      "org": "World Games",
+      "texte": "2022 World Games Muay Thai -63.5 kg"
+    },
+    {
+      "org": "Arafura Games",
+      "texte": "2019 Arafura Games Muay Thai -63.5 kg"
+    }
+  ],
+  "distinctions": {
+    "fr": [],
+    "en": []
+  },
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Nora_Cornolle",
+    "wikidata": "https://www.wikidata.org/wiki/Q122819719",
+    "ufc_com": "https://www.ufc.com/athlete/nora-cornolle"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 61,
+    "puissance": 67,
+    "lutte": 47,
+    "soumission": 53,
+    "defense": 77,
+    "cardio": 61,
+    "menton": 99,
+    "globale": 66,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

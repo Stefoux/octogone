@@ -117,7 +117,7 @@
     }
   },
   "champion_actuel": false,
-  "ancien_champion": false,
+  "ancien_champion": true,
   "accomplissements_en": [
     {
       "org": "Ultimate Fighting Championship",
@@ -288,7 +288,8 @@
     "palmares": "wikipedia_infobox",
     "stats_ufc": "ufc_com",
     "ufc": "wikipedia_tableau",
-    "accomplissements_en": "wikipedia"
+    "accomplissements_en": "wikipedia",
+    "ancien_champion": "https://en.wikipedia.org/wiki/Jan_Błachowicz"
   },
   "a_verifier": [],
   "ecarts_sources": {

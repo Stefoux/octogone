@@ -1,0 +1,138 @@
+{
+  "id": "farid-basharat",
+  "nom": "Farid Basharat",
+  "ufc_slug": "farid-basharat",
+  "wikipedia_titre": "Farid Basharat",
+  "surnom": "Ferocious",
+  "sexe": "M",
+  "pays": "AF",
+  "autres_pays": [
+    "GB"
+  ],
+  "categorie": "coq",
+  "statut": "actif",
+  "date_naissance": "1997-08-02",
+  "taille_cm": 173,
+  "allonge_cm": 180,
+  "style": "AMM",
+  "lieu_naissance": "Paktia, Afghanistan",
+  "palmares": {
+    "victoires": 16,
+    "defaites": 0,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 1,
+    "victoires_soumission": 6,
+    "victoires_decision": 9,
+    "defaites_ko": 0,
+    "defaites_soumission": 0,
+    "defaites_decision": 0
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.46,
+    "precision_frappe_pct": 54,
+    "frappes_encaissees_par_min": 3.24,
+    "defense_frappe_pct": 61.0,
+    "takedowns_par_15min": 3.57,
+    "precision_takedown_pct": 4,
+    "defense_takedown_pct": 55.0,
+    "soumissions_par_15min": 0.27,
+    "knockdowns_par_15min": 0.0,
+    "duree_moyenne_combat_s": 819,
+    "frappes_reussies": 487.0,
+    "takedowns_reussis": 3.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 16,
+      "defaites": 0,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 1,
+        "soumission": 6,
+        "decision": 9,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 0,
+        "decision": 0,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2022": 1,
+      "2023": 2,
+      "2024": 2,
+      "2025": 1,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "John Garza",
+      "evenement": "UFC 329",
+      "date": "11 July 2026",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 8,
+    "victoires_ufc": 8,
+    "defaites_ufc": 0,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "rear-naked choke",
+      "finitions": 5
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Allan Begosso",
+      "evenement": "Dana White's Contender Series 45",
+      "date": "13 September 2022",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [],
+  "distinctions": {
+    "fr": [],
+    "en": []
+  },
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Farid_Basharat",
+    "wikidata": "https://www.wikidata.org/wiki/Q123849055",
+    "ufc_com": "https://www.ufc.com/athlete/farid-basharat"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 69,
+    "puissance": 39,
+    "lutte": 59,
+    "soumission": 58,
+    "defense": 72,
+    "cardio": 66,
+    "menton": 99,
+    "globale": 66,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

@@ -5,7 +5,7 @@
   "wikipedia_titre": "Melquizael Costa",
   "surnom": "The Dalmatian",
   "sexe": "M",
-  "pays": null,
+  "pays": "BR",
   "categorie": "plume",
   "statut": null,
   "date_naissance": "1996-09-14",
@@ -135,7 +135,7 @@
   },
   "champs_sources": {
     "surnom": "wikipedia",
-    "pays": "wikidata",
+    "pays": "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
     "categorie": "wikipedia",
     "palmares": "wikipedia_tableau",
     "ufc": "wikipedia_tableau",
@@ -144,7 +144,6 @@
   "a_verifier": [
     "allonge_cm",
     "fiche ufc.com introuvable",
-    "pays",
     "stats_ufc (absentes de la fiche ufc.com)",
     "statut"
   ],

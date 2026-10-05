@@ -1,0 +1,144 @@
+{
+  "id": "tom-nolan",
+  "nom": "Tom Nolan",
+  "ufc_slug": "tom-nolan",
+  "wikipedia_titre": "Tom Nolan (fighter)",
+  "surnom": "Big Train",
+  "sexe": "M",
+  "pays": "AU",
+  "categorie": "legers",
+  "statut": "actif",
+  "date_naissance": "2000-03-08",
+  "taille_cm": 190,
+  "allonge_cm": 185,
+  "style": null,
+  "lieu_naissance": "Australie",
+  "palmares": {
+    "victoires": 11,
+    "defaites": 1,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 5,
+    "victoires_soumission": 1,
+    "victoires_decision": 5,
+    "defaites_ko": 1,
+    "defaites_soumission": 0,
+    "defaites_decision": 0
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.84,
+    "precision_frappe_pct": 46,
+    "frappes_encaissees_par_min": 3.74,
+    "defense_frappe_pct": 49.0,
+    "takedowns_par_15min": 1.08,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 58.0,
+    "soumissions_par_15min": 1.35,
+    "knockdowns_par_15min": 0.54,
+    "duree_moyenne_combat_s": 475,
+    "frappes_reussies": 268.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 11,
+      "defaites": 1,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 5,
+        "soumission": 1,
+        "decision": 5,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 0,
+        "decision": 0,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2023": 1,
+      "2024": 3,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Farès Ziam",
+      "evenement": "UFC Fight Night: Muhammad vs. Bonfim",
+      "date": "June 6, 2026",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 7,
+    "victoires_ufc": 6,
+    "defaites_ufc": 1,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 3
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Bogdan Grad",
+      "evenement": "Dana White's Contender Series 57",
+      "date": "August 8, 2023",
+      "resultat": "Win",
+      "methode": "KO (punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Charlie Campbell"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 1× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 1× Performance of the Night"
+    ]
+  },
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Tom_Nolan_(fighter)",
+    "wikidata": "https://www.wikidata.org/wiki/Q138016466",
+    "ufc_com": "https://www.ufc.com/athlete/tom-nolan"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 64,
+    "puissance": 64,
+    "lutte": 50,
+    "soumission": 60,
+    "defense": 60,
+    "cardio": 51,
+    "menton": 82,
+    "globale": 62,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

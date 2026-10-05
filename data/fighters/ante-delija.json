@@ -1,0 +1,152 @@
+{
+  "id": "ante-delija",
+  "nom": "Ante Delija",
+  "ufc_slug": "ante-delija",
+  "wikipedia_titre": "Ante Delija",
+  "surnom": "Walking Trouble",
+  "sexe": "M",
+  "pays": "HR",
+  "categorie": "lourds",
+  "statut": "actif",
+  "date_naissance": "1990-08-07",
+  "taille_cm": 192,
+  "allonge_cm": 198,
+  "style": "AMM",
+  "lieu_naissance": "Dubrovnik, Croatie",
+  "palmares": {
+    "victoires": 26,
+    "defaites": 8,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 13,
+    "victoires_soumission": 6,
+    "victoires_decision": 7,
+    "defaites_ko": 4,
+    "defaites_soumission": 2,
+    "defaites_decision": 2
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.28,
+    "precision_frappe_pct": 38,
+    "frappes_encaissees_par_min": 3.95,
+    "defense_frappe_pct": 53.0,
+    "takedowns_par_15min": 0.0,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 75.0,
+    "soumissions_par_15min": 0.0,
+    "knockdowns_par_15min": 0.71,
+    "duree_moyenne_combat_s": 421,
+    "frappes_reussies": 90.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 26,
+      "defaites": 8,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 13,
+        "soumission": 6,
+        "decision": 7,
+        "autre": 0
+      },
+      "d": {
+        "ko": 4,
+        "soumission": 2,
+        "decision": 2,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Serghei Spivac",
+      "evenement": "UFC Fight Night: Strickland vs. Hernandez",
+      "date": "February 21, 2026",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 3,
+    "victoires_ufc": 1,
+    "defaites_ufc": 2,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 11
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Marcin Tybura",
+      "evenement": "UFC Fight Night: Imavov vs. Borralho",
+      "date": "September 6, 2025",
+      "resultat": "Win",
+      "methode": "KO (punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "Professional Fighters League",
+      "texte": "2022 PFL Heavyweight Championship"
+    },
+    {
+      "org": "Professional Fighters League",
+      "texte": "2021 PFL Heavyweight Championship Runner-up"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Marcin Tybura"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Champion PFL des poids lourds",
+      "Bonus UFC : 1× Performance de la soirée"
+    ],
+    "en": [
+      "PFL Heavyweight Champion",
+      "UFC bonuses: 1× Performance of the Night"
+    ]
+  },
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Ante_Delija",
+    "wikidata": "https://www.wikidata.org/wiki/Q85859508",
+    "ufc_com": "https://www.ufc.com/athlete/ante-delija"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 58,
+    "puissance": 67,
+    "lutte": 55,
+    "soumission": 54,
+    "defense": 63,
+    "cardio": 53,
+    "menton": 60,
+    "globale": 59,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

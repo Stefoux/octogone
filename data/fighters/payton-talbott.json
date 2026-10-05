@@ -1,0 +1,167 @@
+{
+  "id": "payton-talbott",
+  "nom": "Payton Talbott",
+  "ufc_slug": "payton-talbott",
+  "wikipedia_titre": "Payton Talbott",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "coq",
+  "statut": "actif",
+  "date_naissance": "1998-09-09",
+  "taille_cm": 178,
+  "allonge_cm": 179,
+  "style": null,
+  "lieu_naissance": "Las Vegas, États-Unis",
+  "palmares": {
+    "victoires": 12,
+    "defaites": 1,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 8,
+    "victoires_soumission": 1,
+    "victoires_decision": 3,
+    "defaites_ko": 0,
+    "defaites_soumission": 0,
+    "defaites_decision": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": 6.62,
+    "precision_frappe_pct": 57,
+    "frappes_encaissees_par_min": 3.41,
+    "defense_frappe_pct": 47.0,
+    "takedowns_par_15min": 0.78,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 78.0,
+    "soumissions_par_15min": 0.2,
+    "knockdowns_par_15min": 0.59,
+    "duree_moyenne_combat_s": 657,
+    "frappes_reussies": 507.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 12,
+      "defaites": 1,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 8,
+        "soumission": 1,
+        "decision": 3,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 0,
+        "decision": 1,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2023": 2,
+      "2024": 2,
+      "2025": 3,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Deiveson Figueiredo",
+      "evenement": "UFC 332",
+      "date": "October 3, 2026",
+      "resultat": "Win",
+      "methode": "TKO (punches)"
+    },
+    "combats_ufc": 8,
+    "victoires_ufc": 7,
+    "defaites_ufc": 1,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 2,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 6
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Reyes Cortez Jr.",
+      "evenement": "Dana White's Contender Series 57",
+      "date": "August 8, 2023",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. Cameron Saaiman and Yanis Ghemmouri"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third fastest knockout/finish in UFC Bantamweight division history (0:19) vs. Yanis Ghemmouri"
+    },
+    {
+      "org": "Urijah Faber's A1 Combat",
+      "texte": "A1 Combat Bantamweight Championship (One time)"
+    },
+    {
+      "org": "Urijah Faber's A1 Combat",
+      "texte": "Two successful title defenses"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2024 Third Team MMA All-Star"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2025 Most Improved Fighter"
+    },
+    {
+      "org": "King of the Cage",
+      "texte": "KOTC Amateur Bantamweight Championship (One time)"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 2× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 2× Performance of the Night"
+    ]
+  },
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Payton_Talbott",
+    "wikidata": "https://www.wikidata.org/wiki/Q125871461",
+    "ufc_com": "https://www.ufc.com/athlete/payton-talbott"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 81,
+    "puissance": 75,
+    "lutte": 55,
+    "soumission": 45,
+    "defense": 60,
+    "cardio": 58,
+    "menton": 99,
+    "globale": 68,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

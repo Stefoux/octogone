@@ -99,7 +99,7 @@ class _Photo extends StatelessWidget {
   final bool animate;
 
   Widget _portrait(Fighter? f) {
-    Widget img = FighterPortrait(imageId: f?.imageId, borderRadius: 0);
+    Widget img = FighterPortrait(imageId: f?.imageId, borderRadius: 0, fighterId: f?.id, rarete: view.variant.rarete);
     final filter = photoFilter(spec.photo);
     if (filter != null) img = ColorFiltered(colorFilter: filter, child: img);
     return img;

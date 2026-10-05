@@ -1,0 +1,168 @@
+{
+  "id": "daniel-rodriguez",
+  "nom": "Daniel Rodriguez",
+  "ufc_slug": "daniel-rodriguez",
+  "wikipedia_titre": "Daniel Rodriguez (fighter)",
+  "surnom": "D-Rod",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "mi_moyens",
+  "statut": "actif",
+  "date_naissance": "1986-12-31",
+  "taille_cm": 185,
+  "allonge_cm": 188,
+  "style": "Style libre",
+  "lieu_naissance": "Los Angeles, États-Unis",
+  "palmares": {
+    "victoires": 20,
+    "defaites": 6,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 9,
+    "victoires_soumission": 4,
+    "victoires_decision": 7,
+    "defaites_ko": 2,
+    "defaites_soumission": 1,
+    "defaites_decision": 3
+  },
+  "stats_ufc": {
+    "frappes_par_min": 7.19,
+    "precision_frappe_pct": 49,
+    "frappes_encaissees_par_min": 5.44,
+    "defense_frappe_pct": 57.0,
+    "takedowns_par_15min": 0.51,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 64.0,
+    "soumissions_par_15min": 0.08,
+    "knockdowns_par_15min": 0.59,
+    "duree_moyenne_combat_s": 668,
+    "frappes_reussies": 1279.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 20,
+      "defaites": 6,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 9,
+        "soumission": 4,
+        "decision": 7,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 1,
+        "decision": 3,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2019": 1,
+      "2020": 4,
+      "2021": 3,
+      "2022": 2,
+      "2023": 1,
+      "2024": 2,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Uroš Medić",
+      "evenement": "UFC Fight Night: Medić vs. Rodriguez",
+      "date": "August 1, 2026",
+      "resultat": "Loss",
+      "methode": "TKO (punches)"
+    },
+    "combats_ufc": 16,
+    "victoires_ufc": 11,
+    "defaites_ufc": 5,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 8
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Rico Farrington",
+      "evenement": "Dana White's Contender Series 22",
+      "date": "July 30, 2019",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "SMASH Global",
+      "texte": "SMASH Global Welterweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Tim Means"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Fan's Choice Comeback of the Year Nominee vs. Dwight Grant"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2020: Ranked #7 Upset of the Year vs. Tim Means"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 1× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 1× Performance of the Night"
+    ]
+  },
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Daniel_Rodriguez_(fighter)",
+    "wikidata": "https://www.wikidata.org/wiki/Q99500036",
+    "ufc_com": "https://www.ufc.com/athlete/daniel-rodriguez"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 78,
+    "puissance": 64,
+    "lutte": 47,
+    "soumission": 46,
+    "defense": 56,
+    "cardio": 58,
+    "menton": 77,
+    "globale": 61,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

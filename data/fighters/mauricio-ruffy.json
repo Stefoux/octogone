@@ -1,0 +1,211 @@
+{
+  "id": "mauricio-ruffy",
+  "nom": "Mauricio Ruffy",
+  "ufc_slug": "mauricio-ruffy",
+  "wikipedia_titre": "Maurício Ruffy",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "BR",
+  "categorie": "legers",
+  "statut": "actif",
+  "date_naissance": "1996-06-17",
+  "taille_cm": 180,
+  "allonge_cm": 190,
+  "style": "Cogneur",
+  "lieu_naissance": "State of São Paulo, Brésil",
+  "palmares": {
+    "victoires_ko": 13,
+    "victoires_soumission": 0,
+    "victoires_decision": 1,
+    "defaites_ko": 2,
+    "defaites_soumission": 1,
+    "defaites_decision": 0,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires": 14,
+    "defaites": 3
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.93,
+    "precision_frappe_pct": 57,
+    "frappes_encaissees_par_min": 3.66,
+    "defense_frappe_pct": 59.0,
+    "takedowns_par_15min": 0.0,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 88.0,
+    "soumissions_par_15min": 0.0,
+    "knockdowns_par_15min": 1.42,
+    "duree_moyenne_combat_s": 476,
+    "frappes_reussies": 249.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 13,
+      "defaites": 3,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 12,
+        "soumission": 0,
+        "decision": 1,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 1,
+        "decision": 0,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2023": 1,
+      "2024": 2,
+      "2025": 2,
+      "2026": 3
+    },
+    "dernier_combat": {
+      "adversaire": "Arman Tsarukyan",
+      "evenement": "UFC 331",
+      "date": "September 19, 2026",
+      "resultat": "Loss",
+      "methode": "KO (elbow)"
+    },
+    "combats_ufc": 8,
+    "victoires_ufc": 6,
+    "defaites_ufc": 2,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 7
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Raimond Magomedaliev",
+      "evenement": "Dana White's Contender Series 65",
+      "date": "October 3, 2023",
+      "resultat": "Win",
+      "methode": "TKO (punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Three times) vs. Jamie Mullarkey , King Green and Rafael Fiziev"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most knockdowns-per-minute in UFC Lightweight division history (2.61)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2025: President's Choice Performance of the Year Nominee & Fan's Choice Knockout of the Year Nominee vs. King Green"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: Ranked #4 Newcomer of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2025: Ranked #2 Knockout of the Year vs. King Green"
+    },
+    {
+      "org": "Centurion Fight Championship",
+      "texte": "CFC Welterweight Tournament"
+    },
+    {
+      "org": "Mega Fight Championship",
+      "texte": "MFC Super Lightweight Championship"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2025 Knockout of the Year vs. King Green at UFC 313"
+    },
+    {
+      "org": "theScore",
+      "texte": "2025 Knockout of the Year vs. King Green"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2025 Knockout of the Year vs. King Green at UFC 313"
+    },
+    {
+      "org": "LowKick MMA",
+      "texte": "2025 Knockout of the Year vs. King Green at UFC 313"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2025 #2 Ranked Knockout of the Year vs. King Green at UFC 313"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2025 #2 Ranked Knockout of the Year vs. King Green at UFC 313"
+    },
+    {
+      "org": "Uncrowned",
+      "texte": "2025 #3 Ranked Knockout of the Year vs. King Green at UFC 313"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2024–2025 Knockout of the Year vs. King Green at UFC 313"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "KO de l'année (2025)",
+      "Bonus UFC : 3× Performance de la soirée"
+    ],
+    "en": [
+      "Knockout of the Year (2025)",
+      "UFC bonuses: 3× Performance of the Night"
+    ]
+  },
+  "image_commons": "UFC Freedom 250 press conference at the Lincoln Memorial in Washington, D.C., Friday, June 12, 2026 - 22(cropped).jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Maurício_Ruffy",
+    "wikidata": "https://www.wikidata.org/wiki/Q131228114",
+    "ufc_com": "https://www.ufc.com/athlete/mauricio-ruffy"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_infobox",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 13-3, wikipedia_infobox 14-3, ufc_com 14-3"
+  },
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 69,
+    "puissance": 90,
+    "lutte": 55,
+    "soumission": 39,
+    "defense": 68,
+    "cardio": 50,
+    "menton": 71,
+    "globale": 63,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

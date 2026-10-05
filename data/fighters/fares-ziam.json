@@ -1,0 +1,164 @@
+{
+  "id": "fares-ziam",
+  "nom": "Farès Ziam",
+  "ufc_slug": "fares-ziam",
+  "wikipedia_titre": "Farès Ziam",
+  "surnom": "Smile Killer",
+  "sexe": "M",
+  "pays": "FR",
+  "categorie": "legers",
+  "statut": "actif",
+  "date_naissance": "1997-03-21",
+  "taille_cm": 185,
+  "allonge_cm": 190,
+  "style": "Kickboxer",
+  "lieu_naissance": "Vénissieux, Auvergne-Rhône-Alpes, France",
+  "palmares": {
+    "victoires": 18,
+    "defaites": 6,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 7,
+    "victoires_soumission": 4,
+    "victoires_decision": 7,
+    "defaites_ko": 1,
+    "defaites_soumission": 3,
+    "defaites_decision": 2
+  },
+  "stats_ufc": {
+    "frappes_par_min": 2.7,
+    "precision_frappe_pct": 52,
+    "frappes_encaissees_par_min": 1.63,
+    "defense_frappe_pct": 63.0,
+    "takedowns_par_15min": 1.84,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 71.0,
+    "soumissions_par_15min": 0.51,
+    "knockdowns_par_15min": 0.2,
+    "duree_moyenne_combat_s": 734,
+    "frappes_reussies": 396.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 18,
+      "defaites": 6,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 7,
+        "soumission": 4,
+        "decision": 7,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 3,
+        "decision": 2,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2019": 1,
+      "2020": 1,
+      "2021": 1,
+      "2022": 2,
+      "2023": 1,
+      "2024": 2,
+      "2025": 2,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Axel Sola",
+      "evenement": "UFC Fight Night: Hooker vs. Parnasse",
+      "date": "September 5, 2026",
+      "resultat": "Loss",
+      "methode": "KO (punch)"
+    },
+    "combats_ufc": 12,
+    "victoires_ufc": 8,
+    "defaites_ufc": 4,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "elbows",
+      "finitions": 3
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Don Madge",
+      "evenement": "UFC 242",
+      "date": "September 7, 2019",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Matt Frevola"
+    },
+    {
+      "org": "HIT Fighting Championship",
+      "texte": "HIT Lightweight Championship (one time)"
+    },
+    {
+      "org": "Lyon Fighting Championship",
+      "texte": "LFC Lightweight Championship (one time)"
+    },
+    {
+      "org": "MMAjunkie.com",
+      "texte": "2024 September Knockout of the Month vs. Matt Frevola"
+    },
+    {
+      "org": "International Sport Kickboxing Association",
+      "texte": "2015 ISKA K-1 European Light-middleweight (-72.5kg) Champion"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 1× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 1× Performance of the Night"
+    ]
+  },
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Farès_Ziam",
+    "wikidata": "https://www.wikidata.org/wiki/Q107210055",
+    "ufc_com": "https://www.ufc.com/athlete/fares-ziam"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 59,
+    "puissance": 56,
+    "lutte": 56,
+    "soumission": 54,
+    "defense": 85,
+    "cardio": 62,
+    "menton": 88,
+    "globale": 66,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

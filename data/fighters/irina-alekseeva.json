@@ -3,7 +3,7 @@
   "nom": "Irina Alekseeva",
   "ufc_slug": "irina-alekseeva",
   "surnom": "Russian Ronda",
-  "sexe": null,
+  "sexe": "F",
   "pays": null,
   "categorie": "coq_f",
   "statut": "inactif",
@@ -55,15 +55,15 @@
     "pays": "wikidata",
     "categorie": "ufc_com",
     "palmares": "ufc_com",
-    "stats_ufc": "ufc_com"
+    "stats_ufc": "ufc_com",
+    "sexe": "https://www.ufc.com/athlete/irina-alekseeva"
   },
   "a_verifier": [
     "article Wikipedia introuvable",
     "palmares.defaites_decision",
     "palmares.defaites_ko",
     "palmares.defaites_soumission",
-    "pays",
-    "sexe"
+    "pays"
   ],
   "ecarts_sources": {},
   "maj": "2026-10-04",

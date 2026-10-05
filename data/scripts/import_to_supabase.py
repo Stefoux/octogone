@@ -239,6 +239,9 @@ def main() -> None:
             api.remove_files([r["storage_path"] for r in stale])
     print(f"images : {len(img_rows)}" + (f" ({len(stale)} retirées)" if stale else ""))
 
+    # 2 bis. Photos de cartes selon la rareté (combat, célébration, ceinture)
+    import_card_photos(api, known, args.sans_images)
+
     # 3. Combattants avec leur portrait
     api.upsert("fighters", [fighter_row(f, img_of.get(f["id"])) for f in fighters])
 
@@ -313,6 +316,36 @@ def import_boosters(api: "Api") -> None:
     if rows:
         api.upsert("booster_types", rows)
     print(f"boosters : {len(rows)}")
+
+
+def import_card_photos(api: "Api", known: set[str], sans_images: bool) -> None:
+    """data/images/photos.json : une entrée par photo (combattant, type,
+    raretés illustrées, fichier, page source, légende). Les photos retirées du
+    fichier sont désactivées en base."""
+    photos = load_json(DATA / "images" / "photos.json", {"photos": []})["photos"]
+    rows = []
+    for ph in photos:
+        path = DATA / "images" / ph["fichier"]
+        if ph["fighter_id"] not in known or not path.exists() or not ph.get("raretes"):
+            continue
+        if not sans_images:
+            api.upload(ph["fichier"], path.read_bytes(), "image/webp")
+        rows.append({
+            "id": image_id(ph["fichier"]), "storage_path": ph["fichier"], "type": ph["type"],
+            "fighter_id": ph["fighter_id"], "raretes": ph["raretes"], "titre": ph.get("legende"),
+            "auteur": ph.get("credit"), "licence": "Photo officielle (usage privé)", "licence_url": None,
+            "source_url": ph.get("source_url"), "largeur": ph.get("largeur"), "hauteur": ph.get("hauteur"),
+            "focal_x": 0.5, "focal_y": 0.32, "visage": None, "deleted": False,
+        })
+    if rows:
+        api.upsert("images", rows)
+    current = {r["id"] for r in rows}
+    stale = [r for r in api.select("images", "id,storage_path,deleted,type,importe_par")
+             if r["id"] not in current and not r["deleted"] and r["type"] in ("action", "celebration", "ceinture")
+             and not r["importe_par"]]
+    if stale:
+        api.soft_delete("images", [r["id"] for r in stale])
+    print(f"photos de cartes : {len(rows)}" + (f" ({len(stale)} retirées)" if stale else ""))
 
 
 def import_defis(api: "Api") -> None:

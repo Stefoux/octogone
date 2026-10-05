@@ -1,0 +1,84 @@
+{
+  "id": "ramazan-temirov",
+  "nom": "Ramazan Temirov",
+  "ufc_slug": "ramazan-temirov",
+  "surnom": "Temurlan",
+  "sexe": "M",
+  "pays": "UZ",
+  "categorie": "mouche",
+  "statut": "actif",
+  "date_naissance": null,
+  "taille_cm": 163,
+  "allonge_cm": 160,
+  "style": "Striker",
+  "lieu_naissance": "Karshi, Uzbekistan",
+  "palmares": {
+    "victoires": 20,
+    "defaites": 3,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 12,
+    "victoires_soumission": 1,
+    "victoires_decision": 7,
+    "defaites_ko": null,
+    "defaites_soumission": null,
+    "defaites_decision": null
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.73,
+    "precision_frappe_pct": 41,
+    "frappes_encaissees_par_min": 3.65,
+    "defense_frappe_pct": 62.0,
+    "takedowns_par_15min": 0.68,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 100.0,
+    "soumissions_par_15min": 0.0,
+    "knockdowns_par_15min": 3.38,
+    "duree_moyenne_combat_s": 444,
+    "frappes_reussies": 105.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {},
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [],
+  "distinctions": {
+    "fr": [],
+    "en": []
+  },
+  "image_commons": null,
+  "sources": {
+    "ufc_com": "https://www.ufc.com/athlete/ramazan-temirov"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",
+    "categorie": "ufc_com",
+    "palmares": "ufc_com",
+    "stats_ufc": "ufc_com",
+    "sexe": "https://www.ufc.com/athlete/ramazan-temirov"
+  },
+  "a_verifier": [
+    "article Wikipedia introuvable",
+    "palmares.defaites_decision",
+    "palmares.defaites_ko",
+    "palmares.defaites_soumission"
+  ],
+  "ecarts_sources": {},
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 65,
+    "puissance": 65,
+    "lutte": 65,
+    "soumission": 65,
+    "defense": 65,
+    "cardio": 65,
+    "menton": 65,
+    "globale": 65,
+    "style": "complet",
+    "estimees": [
+      "menton"
+    ],
+    "formule_version": 1
+  }
+}

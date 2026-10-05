@@ -1,0 +1,189 @@
+{
+  "id": "yaroslav-amosov",
+  "nom": "Yaroslav Amosov",
+  "ufc_slug": "yaroslav-amosov",
+  "wikipedia_titre": "Yaroslav Amosov",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "UA",
+  "categorie": "mi_moyens",
+  "statut": "actif",
+  "date_naissance": "1993-09-09",
+  "taille_cm": 183,
+  "allonge_cm": 190,
+  "style": "Sambo",
+  "lieu_naissance": "Irpin, Ukraine",
+  "palmares": {
+    "victoires": 29,
+    "defaites": 1,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 8,
+    "victoires_soumission": 13,
+    "victoires_decision": 8,
+    "defaites_ko": 1,
+    "defaites_soumission": 0,
+    "defaites_decision": 0
+  },
+  "stats_ufc": {
+    "frappes_par_min": 2.65,
+    "precision_frappe_pct": 53,
+    "frappes_encaissees_par_min": 1.38,
+    "defense_frappe_pct": 61.0,
+    "takedowns_par_15min": 11.11,
+    "precision_takedown_pct": 8,
+    "defense_takedown_pct": null,
+    "soumissions_par_15min": 3.17,
+    "knockdowns_par_15min": 0.0,
+    "duree_moyenne_combat_s": 284,
+    "frappes_reussies": 25.0,
+    "takedowns_reussis": 1.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 29,
+      "defaites": 1,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 8,
+        "soumission": 13,
+        "decision": 8,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 0,
+        "decision": 0,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2025": 1,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Joel Álvarez",
+      "evenement": "UFC 328",
+      "date": "9 May 2026",
+      "resultat": "Win",
+      "methode": "Submission (arm-triangle choke)"
+    },
+    "combats_ufc": 2,
+    "victoires_ufc": 2,
+    "defaites_ufc": 0,
+    "victoires_decision_5_rounds": 2,
+    "combats_5_rounds_gagnes": 2,
+    "bonus_fotn": 0,
+    "bonus_potn": 1,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "anaconda choke",
+      "finitions": 4
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Neil Magny",
+      "evenement": "UFC on ESPN: Royval vs. Kape",
+      "date": "13 December 2025",
+      "resultat": "Win",
+      "methode": "Submission (anaconda choke)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Joel Álvarez"
+    },
+    {
+      "org": "Bellator MMA",
+      "texte": "Bellator Welterweight World Championship (One time, former)"
+    },
+    {
+      "org": "Bellator MMA",
+      "texte": "One successful title defence"
+    },
+    {
+      "org": "Bellator MMA",
+      "texte": "First Ukrainian-born champion in Bellator MMA history"
+    },
+    {
+      "org": "Tech-Krep FC",
+      "texte": "Tech-Krep FC Welterweight Championship (One time)"
+    },
+    {
+      "org": "Tech-Krep FC",
+      "texte": "Two successful title defenses"
+    },
+    {
+      "org": null,
+      "texte": "World Combat Sambo Championship Bronze Medalist in 2012 at 82kg"
+    },
+    {
+      "org": null,
+      "texte": "European Combat Sambo Championship Bronze Medalist in 2012 at 82kg"
+    },
+    {
+      "org": null,
+      "texte": "Combat Jiu-Jitsu World Cup Gold Medalist in 2013 at 92kg"
+    },
+    {
+      "org": null,
+      "texte": "World Combat Sambo Championship Gold Medalist in 2014 at 82kg"
+    },
+    {
+      "org": null,
+      "texte": "Combat Jiu-Jitsu World Championship Gold Medalist in 2014 at 84kg"
+    },
+    {
+      "org": null,
+      "texte": "Combat Sambo Eurasia Championship Gold Medalist in 2014 at 82kg"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Champion Bellator des poids mi-moyens",
+      "Bonus UFC : 1× Performance de la soirée"
+    ],
+    "en": [
+      "Bellator Welterweight Champion",
+      "UFC bonuses: 1× Performance of the Night"
+    ]
+  },
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Yaroslav_Amosov",
+    "wikidata": "https://www.wikidata.org/wiki/Q26255520",
+    "ufc_com": "https://www.ufc.com/athlete/yaroslav-amosov"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 29-1, wikipedia_infobox 30-1, ufc_com 29-1"
+  },
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 62,
+    "puissance": 56,
+    "lutte": 68,
+    "soumission": 75,
+    "defense": 74,
+    "cardio": 59,
+    "menton": 89,
+    "globale": 69,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

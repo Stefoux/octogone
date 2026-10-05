@@ -79,6 +79,8 @@ class ImageRef {
         licenceUrl = j['licence_url'] as String?,
         sourceUrl = j['source_url'] as String?,
         fighterId = j['fighter_id'] as String?,
+        type = j['type'] as String? ?? 'portrait',
+        raretes = [for (final r in (j['raretes'] as List?) ?? const []) r as String],
         focalX = (j['focal_x'] as num?)?.toDouble(),
         focalY = (j['focal_y'] as num?)?.toDouble();
 
@@ -90,6 +92,12 @@ class ImageRef {
   final String? licenceUrl;
   final String? sourceUrl;
   final String? fighterId;
+
+  /// portrait, action (combat), celebration, ceinture…
+  final String type;
+
+  /// Raretés de carte que cette photo illustre (vide pour un portrait).
+  final List<String> raretes;
   final double? focalX;
   final double? focalY;
 }

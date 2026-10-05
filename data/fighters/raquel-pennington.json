@@ -102,7 +102,7 @@
     }
   },
   "champion_actuel": false,
-  "ancien_champion": false,
+  "ancien_champion": true,
   "accomplissements_en": [
     {
       "org": "Ultimate Fighting Championship",
@@ -212,7 +212,8 @@
     "palmares": "wikipedia_tableau",
     "stats_ufc": "ufc_com",
     "ufc": "wikipedia_tableau",
-    "accomplissements_en": "wikipedia"
+    "accomplissements_en": "wikipedia",
+    "ancien_champion": "https://en.wikipedia.org/wiki/Raquel_Pennington"
   },
   "a_verifier": [],
   "ecarts_sources": {

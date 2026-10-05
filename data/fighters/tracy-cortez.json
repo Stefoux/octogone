@@ -1,0 +1,137 @@
+{
+  "id": "tracy-cortez",
+  "nom": "Tracy Cortez",
+  "ufc_slug": "tracy-cortez",
+  "wikipedia_titre": "Tracy Cortez",
+  "surnom": null,
+  "sexe": "F",
+  "pays": "US",
+  "categorie": "mouche_f",
+  "statut": "actif",
+  "date_naissance": "1993-12-12",
+  "taille_cm": 165,
+  "allonge_cm": 166,
+  "style": "AMM",
+  "lieu_naissance": "Phoenix, États-Unis",
+  "palmares": {
+    "victoires": 12,
+    "defaites": 4,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 1,
+    "victoires_soumission": 1,
+    "victoires_decision": 10,
+    "defaites_ko": 0,
+    "defaites_soumission": 2,
+    "defaites_decision": 2
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.95,
+    "precision_frappe_pct": 49,
+    "frappes_encaissees_par_min": 3.61,
+    "defense_frappe_pct": 53.0,
+    "takedowns_par_15min": 2.04,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 59.0,
+    "soumissions_par_15min": 0.29,
+    "knockdowns_par_15min": 0.0,
+    "duree_moyenne_combat_s": 928,
+    "frappes_reussies": 611.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 12,
+      "defaites": 4,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 1,
+        "soumission": 1,
+        "decision": 10,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 2,
+        "decision": 2,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2019": 2,
+      "2020": 1,
+      "2021": 1,
+      "2022": 1,
+      "2023": 1,
+      "2024": 1,
+      "2025": 2,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Wang Cong",
+      "evenement": "UFC 329",
+      "date": "July 11, 2026",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 10,
+    "victoires_ufc": 7,
+    "defaites_ufc": 3,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "rear-naked choke",
+      "finitions": 1
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Mariya Agapova",
+      "evenement": "Dana White's Contender Series 22",
+      "date": "July 30, 2019",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [],
+  "distinctions": {
+    "fr": [],
+    "en": []
+  },
+  "image_commons": "Tracy Cortez UFC.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Tracy_Cortez",
+    "wikidata": "https://www.wikidata.org/wiki/Q61983615",
+    "ufc_com": "https://www.ufc.com/athlete/tracy-cortez"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 62,
+    "puissance": 38,
+    "lutte": 53,
+    "soumission": 45,
+    "defense": 64,
+    "cardio": 70,
+    "menton": 99,
+    "globale": 62,
+    "style": "complet",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

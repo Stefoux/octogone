@@ -1,0 +1,175 @@
+{
+  "id": "josh-hokit",
+  "nom": "Josh Hokit",
+  "ufc_slug": "josh-hokit",
+  "wikipedia_titre": "Josh Hokit",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "lourds",
+  "statut": "actif",
+  "date_naissance": "1997-11-12",
+  "taille_cm": 185,
+  "allonge_cm": 187,
+  "style": "Lutte",
+  "lieu_naissance": "Bakersfield, États-Unis",
+  "palmares": {
+    "victoires": 10,
+    "defaites": 0,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 6,
+    "victoires_soumission": 3,
+    "victoires_decision": 1,
+    "defaites_ko": 0,
+    "defaites_soumission": 0,
+    "defaites_decision": 0
+  },
+  "stats_ufc": {
+    "frappes_par_min": 9.29,
+    "precision_frappe_pct": 65,
+    "frappes_encaissees_par_min": 5.28,
+    "defense_frappe_pct": 49.0,
+    "takedowns_par_15min": 3.73,
+    "precision_takedown_pct": 5,
+    "defense_takedown_pct": 78.0,
+    "soumissions_par_15min": 0.41,
+    "knockdowns_par_15min": 1.24,
+    "duree_moyenne_combat_s": 434,
+    "frappes_reussies": 336.0,
+    "takedowns_reussis": 1.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 10,
+      "defaites": 0,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 6,
+        "soumission": 3,
+        "decision": 1,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 0,
+        "decision": 0,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2025": 2,
+      "2026": 3
+    },
+    "dernier_combat": {
+      "adversaire": "Derrick Lewis",
+      "evenement": "UFC Freedom 250",
+      "date": "June 14, 2026",
+      "resultat": "Win",
+      "methode": "TKO (punches)"
+    },
+    "combats_ufc": 5,
+    "victoires_ufc": 5,
+    "defaites_ufc": 0,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 1,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Curtis Blaydes",
+        "evenement": "UFC 327",
+        "date": "April 11, 2026"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 4
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Guilherme Uriel",
+      "evenement": "Dana White's Contender Series 78",
+      "date": "August 19, 2025",
+      "resultat": "Win",
+      "methode": "TKO (elbows)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Curtis Blaydes"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Three times) vs. Max Gimenis, Denzel Freeman and Curtis Blaydes"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC heavyweight bout records"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most significant strikes landed in a three-round heavyweight bout (177) (vs. Curtis Blaydes )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most significant strikes landed in any heavyweight bout (177) (vs. Curtis Blaydes )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most significant head strikes landed (164) (vs. Curtis Blaydes )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most significant strikes attempted (293) (vs. Curtis Blaydes )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most distance strikes landed (146) (vs. Curtis Blaydes )"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 3× Performance de la soirée, 1× Combat de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 3× Performance of the Night, 1× Fight of the Night"
+    ]
+  },
+  "image_commons": "JoshHokit.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Josh_Hokit",
+    "wikidata": "https://www.wikidata.org/wiki/Q108055029",
+    "ufc_com": "https://www.ufc.com/athlete/josh-hokit"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 86,
+    "puissance": 77,
+    "lutte": 66,
+    "soumission": 58,
+    "defense": 53,
+    "cardio": 51,
+    "menton": 99,
+    "globale": 70,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

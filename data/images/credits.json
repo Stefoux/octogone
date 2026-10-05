@@ -3321,5 +3321,560 @@
     "licence": "CC0",
     "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "source_url": "https://commons.wikimedia.org/wiki/File:Parker_Porter_in_2025.jpg"
+  },
+  "aaron-pico": {
+    "fichier": "fighters/aaron-pico.webp",
+    "largeur": 160,
+    "hauteur": 214,
+    "focal_x": 0.5,
+    "focal_y": 0.7664,
+    "visage": {
+      "x": 0.3125,
+      "y": 0.6262,
+      "w": 0.375,
+      "h": 0.2804
+    },
+    "recadrage": "visage",
+    "fighter_id": "aaron-pico",
+    "titre": "File:Wrestler Aaron Pico 2014.png",
+    "auteur": "WrestlingSavesLives",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Wrestler_Aaron_Pico_2014.png"
+  },
+  "abus-magomedov": {
+    "fichier": "fighters/abus-magomedov.webp",
+    "largeur": 186,
+    "hauteur": 249,
+    "focal_x": 0.6021,
+    "focal_y": 0.3454,
+    "visage": {
+      "x": 0.414,
+      "y": 0.2048,
+      "w": 0.3763,
+      "h": 0.2811
+    },
+    "recadrage": "visage",
+    "fighter_id": "abus-magomedov",
+    "titre": "File:Abusupiyan Magomedov on Rue Saint-Honoré, Paris, 2026-02-13 (cropped).jpg",
+    "auteur": "Verisurma",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Abusupiyan_Magomedov_on_Rue_Saint-Honor%C3%A9,_Paris,_2026-02-13_(cropped).jpg"
+  },
+  "aiemann-zahabi": {
+    "fichier": "fighters/aiemann-zahabi.webp",
+    "largeur": 719,
+    "hauteur": 960,
+    "focal_x": 0.6995,
+    "focal_y": 0.4209,
+    "visage": {
+      "x": 0.5126,
+      "y": 0.2809,
+      "w": 0.3738,
+      "h": 0.2801
+    },
+    "recadrage": "visage",
+    "fighter_id": "aiemann-zahabi",
+    "titre": "File:UFC Freedom 250 Press Conference (9747954)(cropped).jpg",
+    "auteur": "U.S. Army photo by Sgt. 1st Class Brittany Primavera",
+    "licence": "Public domain",
+    "licence_url": null,
+    "source_url": "https://commons.wikimedia.org/wiki/File:UFC_Freedom_250_Press_Conference_(9747954)(cropped).jpg"
+  },
+  "amanda-ribas": {
+    "fichier": "fighters/amanda-ribas.webp",
+    "largeur": 719,
+    "hauteur": 960,
+    "focal_x": 0.511,
+    "focal_y": 0.2549,
+    "visage": {
+      "x": 0.2667,
+      "y": 0.0718,
+      "w": 0.4885,
+      "h": 0.3661
+    },
+    "recadrage": "visage",
+    "fighter_id": "amanda-ribas",
+    "titre": "File:VR5 1744 (52868673328) (cropped).jpg",
+    "auteur": "Web Summit Rio from Rio de Janeiro, Brazil",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Web_Summit_Rio_2023_-_6343_(52868673328)_(cropped).jpg"
+  },
+  "asu-almabayev": {
+    "fichier": "fighters/asu-almabayev.webp",
+    "largeur": 138,
+    "hauteur": 185,
+    "focal_x": 0.6594,
+    "focal_y": 0.4217,
+    "visage": {
+      "x": 0.471,
+      "y": 0.2811,
+      "w": 0.3768,
+      "h": 0.2811
+    },
+    "recadrage": "visage",
+    "fighter_id": "asu-almabayev",
+    "titre": "File:AsuAlmabayev.png",
+    "auteur": "Qazaq Stand Up",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:AsuAlmabayev.png"
+  },
+  "benoit-saint-denis": {
+    "fichier": "fighters/benoit-saint-denis.webp",
+    "largeur": 399,
+    "hauteur": 532,
+    "focal_x": 0.5,
+    "focal_y": 0.3373,
+    "visage": {
+      "x": 0.2431,
+      "y": 0.1447,
+      "w": 0.5138,
+      "h": 0.3853
+    },
+    "recadrage": "visage",
+    "fighter_id": "benoit-saint-denis",
+    "titre": "File:Benoit Saint Denis 2023.png",
+    "auteur": "ZACK",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Benoit_Saint_Denis_2023.png"
+  },
+  "carlos-prates": {
+    "fichier": "fighters/carlos-prates.webp",
+    "largeur": 702,
+    "hauteur": 937,
+    "focal_x": 0.5007,
+    "focal_y": 0.2854,
+    "visage": {
+      "x": 0.235,
+      "y": 0.0864,
+      "w": 0.5313,
+      "h": 0.3981
+    },
+    "recadrage": "visage",
+    "fighter_id": "carlos-prates",
+    "titre": "File:Carlos Prates 2026.jpg",
+    "auteur": "Sexto Round",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Carlos_Prates_2026.jpg"
+  },
+  "francis-ngannou": {
+    "fichier": "fighters/francis-ngannou.webp",
+    "largeur": 719,
+    "hauteur": 960,
+    "focal_x": 0.5,
+    "focal_y": 0.3127,
+    "visage": {
+      "x": 0.2369,
+      "y": 0.1156,
+      "w": 0.5262,
+      "h": 0.3942
+    },
+    "recadrage": "visage",
+    "fighter_id": "francis-ngannou",
+    "titre": "File:Francis Ngannou 2023 (cropped).png",
+    "auteur": "Mike Tyson",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Francis_Ngannou_2023_(cropped).png"
+  },
+  "gabriel-bonfim": {
+    "fichier": "fighters/gabriel-bonfim.webp",
+    "largeur": 427,
+    "hauteur": 570,
+    "focal_x": 0.5,
+    "focal_y": 0.4553,
+    "visage": {
+      "x": 0.0585,
+      "y": 0.1246,
+      "w": 0.8829,
+      "h": 0.6614
+    },
+    "recadrage": "visage",
+    "fighter_id": "gabriel-bonfim",
+    "titre": "File:Gabriel Bonfim 2025.jpg",
+    "auteur": "Sexto Round",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Gabriel_Bonfim_2025.jpg"
+  },
+  "gillian-robertson": {
+    "fichier": "fighters/gillian-robertson.webp",
+    "largeur": 282,
+    "hauteur": 376,
+    "focal_x": 0.5017,
+    "focal_y": 0.3976,
+    "visage": {
+      "x": 0.2163,
+      "y": 0.1835,
+      "w": 0.5709,
+      "h": 0.4282
+    },
+    "recadrage": "visage",
+    "fighter_id": "gillian-robertson",
+    "titre": "File:Gillian Robertson.png",
+    "auteur": "MM-eh",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Gillian_Robertson.png"
+  },
+  "gregory-rodrigues": {
+    "fichier": "fighters/gregory-rodrigues.webp",
+    "largeur": 641,
+    "hauteur": 854,
+    "focal_x": 0.5889,
+    "focal_y": 0.3097,
+    "visage": {
+      "x": 0.3307,
+      "y": 0.1159,
+      "w": 0.5164,
+      "h": 0.3876
+    },
+    "recadrage": "visage",
+    "fighter_id": "gregory-rodrigues",
+    "titre": "File:GregoryRodrigues.png",
+    "auteur": "Show Me The Money",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:GregoryRodrigues.png"
+  },
+  "ikram-aliskerov": {
+    "fichier": "fighters/ikram-aliskerov.webp",
+    "largeur": 466,
+    "hauteur": 622,
+    "focal_x": 0.5129,
+    "focal_y": 0.4663,
+    "visage": {
+      "x": 0.294,
+      "y": 0.3023,
+      "w": 0.4378,
+      "h": 0.328
+    },
+    "recadrage": "visage",
+    "fighter_id": "ikram-aliskerov",
+    "titre": "File:Ikram Aliskerov 2024.png",
+    "auteur": "Sexto Round",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ikram_Aliskerov_2024.png"
+  },
+  "jasmine-jasudavicius": {
+    "fichier": "fighters/jasmine-jasudavicius.webp",
+    "largeur": 448,
+    "hauteur": 597,
+    "focal_x": 0.6317,
+    "focal_y": 0.2831,
+    "visage": {
+      "x": 0.3817,
+      "y": 0.0955,
+      "w": 0.5,
+      "h": 0.3752
+    },
+    "recadrage": "visage",
+    "fighter_id": "jasmine-jasudavicius",
+    "titre": "File:Jasmine Jasudavicius 2023.png",
+    "auteur": "MM-eh",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jasmine_Jasudavicius_2023.png"
+  },
+  "jean-silva": {
+    "fichier": "fighters/jean-silva.webp",
+    "largeur": 200,
+    "hauteur": 267,
+    "focal_x": 0.5025,
+    "focal_y": 0.3464,
+    "visage": {
+      "x": 0.315,
+      "y": 0.206,
+      "w": 0.375,
+      "h": 0.2809
+    },
+    "recadrage": "visage",
+    "fighter_id": "jean-silva",
+    "titre": "File:Jean Silva (54451587575).jpg",
+    "auteur": "The White House",
+    "licence": "Public domain",
+    "licence_url": null,
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jean_Silva_(54451587575).jpg"
+  },
+  "josh-hokit": {
+    "fichier": "fighters/josh-hokit.webp",
+    "largeur": 375,
+    "hauteur": 501,
+    "focal_x": 0.488,
+    "focal_y": 0.2655,
+    "visage": {
+      "x": 0.24,
+      "y": 0.0798,
+      "w": 0.496,
+      "h": 0.3713
+    },
+    "recadrage": "visage",
+    "fighter_id": "josh-hokit",
+    "titre": "File:JoshHokit.jpg",
+    "auteur": "{From YouTube|1=vAd1ikaxclM=https://www.youtube.com/watch?v=vAd1ikaxclM",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:JoshHokit.jpg"
+  },
+  "kyoji-horiguchi": {
+    "fichier": "fighters/kyoji-horiguchi.webp",
+    "largeur": 492,
+    "hauteur": 656,
+    "focal_x": 0.501,
+    "focal_y": 0.2782,
+    "visage": {
+      "x": 0.185,
+      "y": 0.0412,
+      "w": 0.6321,
+      "h": 0.4741
+    },
+    "recadrage": "visage",
+    "fighter_id": "kyoji-horiguchi",
+    "titre": "File:Kyoji Horiguchi 2017.jpg",
+    "auteur": "Bruno Massami",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kyoji_Horiguchi_2017.jpg"
+  },
+  "luana-santos": {
+    "fichier": "fighters/luana-santos.webp",
+    "largeur": 720,
+    "hauteur": 960,
+    "focal_x": 0.6186,
+    "focal_y": 0.2215,
+    "visage": {
+      "x": 0.3908,
+      "y": 0.0506,
+      "w": 0.4557,
+      "h": 0.3418
+    },
+    "recadrage": "visage",
+    "fighter_id": "luana-santos",
+    "titre": "File:Luana Santos at the UFC by Maritza Sanchez 01.jpg",
+    "auteur": "Maritza Sanchez",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Luana_Santos_at_the_UFC_by_Maritza_Sanchez_01.jpg"
+  },
+  "mario-pinto": {
+    "fichier": "fighters/mario-pinto.webp",
+    "largeur": 720,
+    "hauteur": 960,
+    "focal_x": 0.5061,
+    "focal_y": 0.3004,
+    "visage": {
+      "x": 0.2575,
+      "y": 0.114,
+      "w": 0.4973,
+      "h": 0.3727
+    },
+    "recadrage": "visage",
+    "fighter_id": "mario-pinto",
+    "titre": "File:Mario Pinto Interview.png",
+    "auteur": "Laurencedotcomputer",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mario_Pinto_Interview.png"
+  },
+  "mauricio-ruffy": {
+    "fichier": "fighters/mauricio-ruffy.webp",
+    "largeur": 720,
+    "hauteur": 960,
+    "focal_x": 0.5271,
+    "focal_y": 0.3047,
+    "visage": {
+      "x": 0.2685,
+      "y": 0.1108,
+      "w": 0.5172,
+      "h": 0.3878
+    },
+    "recadrage": "visage",
+    "fighter_id": "mauricio-ruffy",
+    "titre": "File:UFC Freedom 250 press conference at the Lincoln Memorial in Washington, D.C., Friday, June 12, 2026 - 22(cropped).jpg",
+    "auteur": "The White House",
+    "licence": "Public domain",
+    "licence_url": null,
+    "source_url": "https://commons.wikimedia.org/wiki/File:UFC_Freedom_250_press_conference_at_the_Lincoln_Memorial_in_Washington,_D.C.,_Friday,_June_12,_2026_-_22(cropped).jpg"
+  },
+  "michael-page": {
+    "fichier": "fighters/michael-page.webp",
+    "largeur": 181,
+    "hauteur": 242,
+    "focal_x": 0.5028,
+    "focal_y": 0.3141,
+    "visage": {
+      "x": 0.3149,
+      "y": 0.1736,
+      "w": 0.3757,
+      "h": 0.281
+    },
+    "recadrage": "visage",
+    "fighter_id": "michael-page",
+    "titre": "File:Michael Venom Page.png",
+    "auteur": "Hrhr prph",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Michael_Venom_Page.png"
+  },
+  "norma-dumont": {
+    "fichier": "fighters/norma-dumont.webp",
+    "largeur": 427,
+    "hauteur": 570,
+    "focal_x": 0.5011,
+    "focal_y": 0.2387,
+    "visage": {
+      "x": 0.2927,
+      "y": 0.0825,
+      "w": 0.4169,
+      "h": 0.3123
+    },
+    "recadrage": "visage",
+    "fighter_id": "norma-dumont",
+    "titre": "File:Norma Dumont OF.jpg",
+    "auteur": "OnlyFans",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Norma_Dumont_OF.jpg"
+  },
+  "patricio-pitbull": {
+    "fichier": "fighters/patricio-pitbull.webp",
+    "largeur": 320,
+    "hauteur": 426,
+    "focal_x": 0.4749,
+    "focal_y": 0.4342,
+    "visage": {
+      "x": 0.0312,
+      "y": 0.1009,
+      "w": 0.8875,
+      "h": 0.6667
+    },
+    "recadrage": "visage",
+    "fighter_id": "patricio-pitbull",
+    "titre": "File:Freire 2023.png",
+    "auteur": "Sexto Round",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Freire_2023.png"
+  },
+  "reinier-de-ridder": {
+    "fichier": "fighters/reinier-de-ridder.webp",
+    "largeur": 495,
+    "hauteur": 660,
+    "focal_x": 0.5,
+    "focal_y": 0.3447,
+    "visage": {
+      "x": 0.3131,
+      "y": 0.2045,
+      "w": 0.3737,
+      "h": 0.2803
+    },
+    "recadrage": "visage",
+    "fighter_id": "reinier-de-ridder",
+    "titre": "File:Reinier post training 2.jpg",
+    "auteur": "ReinierdeRidder",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Reinier_post_training_2.jpg"
+  },
+  "salahdine-parnasse": {
+    "fichier": "fighters/salahdine-parnasse.webp",
+    "largeur": 377,
+    "hauteur": 503,
+    "focal_x": 0.5,
+    "focal_y": 0.2555,
+    "visage": {
+      "x": 0.313,
+      "y": 0.1153,
+      "w": 0.374,
+      "h": 0.2803
+    },
+    "recadrage": "visage",
+    "fighter_id": "salahdine-parnasse",
+    "titre": "File:ParnasseMMA2023.png",
+    "auteur": "ZACK",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:ParnasseMMA2023.png"
+  },
+  "steve-garcia": {
+    "fichier": "fighters/steve-garcia.webp",
+    "largeur": 639,
+    "hauteur": 853,
+    "focal_x": 0.5,
+    "focal_y": 0.3441,
+    "visage": {
+      "x": 0.313,
+      "y": 0.204,
+      "w": 0.374,
+      "h": 0.2802
+    },
+    "recadrage": "visage",
+    "fighter_id": "steve-garcia",
+    "titre": "File:UFC Freedom 250 press conference at the Lincoln Memorial in Washington, D.C., Friday, June 12, 2026 - 10(cropped).jpg",
+    "auteur": "The White House",
+    "licence": "Public domain",
+    "licence_url": null,
+    "source_url": "https://commons.wikimedia.org/wiki/File:UFC_Freedom_250_press_conference_at_the_Lincoln_Memorial_in_Washington,_D.C.,_Friday,_June_12,_2026_-_10(cropped).jpg"
+  },
+  "tracy-cortez": {
+    "fichier": "fighters/tracy-cortez.webp",
+    "largeur": 363,
+    "hauteur": 485,
+    "focal_x": 0.5013,
+    "focal_y": 0.1835,
+    "visage": {
+      "x": 0.314,
+      "y": 0.0433,
+      "w": 0.3747,
+      "h": 0.2804
+    },
+    "recadrage": "visage",
+    "fighter_id": "tracy-cortez",
+    "titre": "File:Tracy Cortez UFC.png",
+    "auteur": "We Fight All Night",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tracy_Cortez_UFC.png"
+  },
+  "tyrell-fortune": {
+    "fichier": "fighters/tyrell-fortune.webp",
+    "largeur": 720,
+    "hauteur": 960,
+    "focal_x": 0.5,
+    "focal_y": 0.35,
+    "visage": null,
+    "recadrage": "centre_haut",
+    "fighter_id": "tyrell-fortune",
+    "titre": "File:Bradley v Fortune Tournoi GPSO 2014 t135657 (cropped).jpg",
+    "auteur": "Marie-Lan Nguyen",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bradley_v_Fortune_Tournoi_GPSO_2014_t135657_(cropped).jpg"
+  },
+  "vitor-petrino": {
+    "fichier": "fighters/vitor-petrino.webp",
+    "largeur": 405,
+    "hauteur": 540,
+    "focal_x": 0.5642,
+    "focal_y": 0.3194,
+    "visage": {
+      "x": 0.2494,
+      "y": 0.0833,
+      "w": 0.6296,
+      "h": 0.4722
+    },
+    "recadrage": "visage",
+    "fighter_id": "vitor-petrino",
+    "titre": "File:Vitor Petrino.png",
+    "auteur": "Sexto Round",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Vitor_Petrino.png"
   }
 }

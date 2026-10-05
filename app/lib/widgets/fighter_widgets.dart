@@ -18,16 +18,31 @@ String flagEmoji(String? iso) {
 /// Portrait cadré sur le visage (point focal calculé à l'import), avec une
 /// silhouette originale si aucune image n'est disponible.
 class FighterPortrait extends ConsumerWidget {
-  const FighterPortrait({super.key, required this.imageId, this.borderRadius = 12, this.fit = BoxFit.cover});
+  const FighterPortrait({
+    super.key,
+    required this.imageId,
+    this.borderRadius = 12,
+    this.fit = BoxFit.cover,
+    this.fighterId,
+    this.rarete,
+  });
 
   final String? imageId;
   final double borderRadius;
   final BoxFit fit;
 
+  /// Sur une carte : la photo du combattant prévue pour cette rareté (combat,
+  /// célébration ou ceinture) remplace le portrait quand elle existe.
+  final String? fighterId;
+  final String? rarete;
+
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final images = ref.watch(imagesProvider).value ?? const {};
-    final img = imageId == null ? null : images[imageId];
+    final forRarity = fighterId == null || rarete == null
+        ? null
+        : ref.watch(cardPhotosProvider)[fighterId]?[rarete];
+    final img = forRarity ?? (imageId == null ? null : images[imageId]);
     final child = img == null
         ? const Silhouette()
         : CachedNetworkImage(

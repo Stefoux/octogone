@@ -1,0 +1,265 @@
+{
+  "id": "anthony-hernandez",
+  "nom": "Anthony Hernandez",
+  "ufc_slug": "anthony-hernandez",
+  "wikipedia_titre": "Anthony Hernandez",
+  "surnom": "Fluffy",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "moyens",
+  "statut": "actif",
+  "date_naissance": "1993-10-18",
+  "taille_cm": 183,
+  "allonge_cm": 190,
+  "style": "Cogneur",
+  "lieu_naissance": "Oakland, États-Unis",
+  "palmares": {
+    "victoires": 15,
+    "defaites": 4,
+    "nuls": 0,
+    "sans_decision": 1,
+    "victoires_ko": 3,
+    "victoires_soumission": 9,
+    "victoires_decision": 3,
+    "defaites_ko": 2,
+    "defaites_soumission": 1,
+    "defaites_decision": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.42,
+    "precision_frappe_pct": 60,
+    "frappes_encaissees_par_min": 3.69,
+    "defense_frappe_pct": 48.0,
+    "takedowns_par_15min": 5.25,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 68.0,
+    "soumissions_par_15min": 1.38,
+    "knockdowns_par_15min": 0.09,
+    "duree_moyenne_combat_s": 698,
+    "frappes_reussies": 720.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 15,
+      "defaites": 4,
+      "nuls": 0,
+      "sans_decision": 1,
+      "v": {
+        "ko": 3,
+        "soumission": 9,
+        "decision": 3,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 1,
+        "decision": 1,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2018": 1,
+      "2019": 2,
+      "2020": 1,
+      "2021": 1,
+      "2022": 2,
+      "2023": 1,
+      "2024": 2,
+      "2025": 2,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Gregory Rodrigues",
+      "evenement": "UFC Fight Night: Hernandez vs. Rodrigues",
+      "date": "August 22, 2026",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 14,
+    "victoires_ufc": 9,
+    "defaites_ufc": 4,
+    "victoires_decision_5_rounds": 1,
+    "combats_5_rounds_gagnes": 3,
+    "bonus_fotn": 1,
+    "bonus_potn": 4,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Gregory Rodrigues",
+        "evenement": "UFC Fight Night: Hernandez vs. Rodrigues",
+        "date": "August 22, 2026"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "guillotine choke",
+      "finitions": 5
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Jordan Wright",
+      "evenement": "Dana White's Contender Series 10",
+      "date": "June 19, 2018",
+      "resultat": "NC",
+      "methode": "NC (overturned)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Gregory Rodrigues"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Four times) vs. Rodolfo Vieira , Roman Kopylov , Michel Pereira and Roman Dolidze"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most takedowns landed in UFC Middleweight division history (57)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third highest significant strike accuracy percentage in UFC Middleweight division history (60.1%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Robert Whittaker & Yoel Romero ) for fifth longest win streak in UFC Middleweight division history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most submission attempts in UFC Middleweight division history (15)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most control time in UFC Middleweight division history (1:22:25) (behind Chael Sonnen )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Sixth most top position time in UFC Middleweight division history (55:33)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Records in a Middleweight Bout:"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most significant ground strikes landed (97) (vs. Michel Pereira )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most takedowns attempted (29) (vs. Michel Pereira )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Largest striking differential (+128) (vs. Michel Pereira )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Latest knockout (2:22 in R5) (vs. Michel Pereira )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: Fan's Choice Comeback of the Year Nominee vs. Rodolfo Vieira"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2021: Ranked #2 Submission of the Year , Ranked #2 Upset of the Year , & Half-Year Awards: Biggest Upset of the 1HY vs. Rodolfo Vieira"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: Ranked #6 Submission of the Year vs. Roman Kopylov"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2025: Ranked #4 Submission of the Year vs. Roman Dolidze"
+    },
+    {
+      "org": "Legacy Fighting Alliance",
+      "texte": "LFA Middleweight Championship"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2024 Beatdown of the Year vs. Michel Pereira at UFC Fight Night 245"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2025 Beatdown of the Year vs. Roman Dolidze at UFC on ESPN 72"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2025 Submission of the Year vs. Roman Dolidze"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2021 Submission of the Year vs. Rodolfo Vieira"
+    },
+    {
+      "org": "Jitsmagazine",
+      "texte": "2021 MMA Submission of the Year vs. Rodolfo Vieira"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2021 MMA Submission of the Year vs. Rodolfo Vieira"
+    },
+    {
+      "org": "MMA Sucka",
+      "texte": "2021 Submission of the Year vs. Rodolfo Vieira at UFC 258"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Champion LFA des poids moyens",
+      "Record UFC chez les poids moyens : takedowns réussis (57)",
+      "Soumission de l'année (2021, 2025)",
+      "Bonus UFC : 4× Performance de la soirée, 1× Combat de la soirée"
+    ],
+    "en": [
+      "LFA Middleweight Champion",
+      "UFC Middleweight record: most takedowns landed (57)",
+      "Submission of the Year (2021, 2025)",
+      "UFC bonuses: 4× Performance of the Night, 1× Fight of the Night"
+    ]
+  },
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Anthony_Hernandez",
+    "wikidata": "https://www.wikidata.org/wiki/Q96372195",
+    "ufc_com": "https://www.ufc.com/athlete/anthony-hernandez"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 75,
+    "puissance": 43,
+    "lutte": 69,
+    "soumission": 84,
+    "defense": 58,
+    "cardio": 67,
+    "menton": 73,
+    "globale": 67,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

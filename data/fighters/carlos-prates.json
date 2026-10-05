@@ -1,0 +1,236 @@
+{
+  "id": "carlos-prates",
+  "nom": "Carlos Prates",
+  "ufc_slug": "carlos-prates",
+  "wikipedia_titre": "Carlos Prates",
+  "surnom": "The Nightmare",
+  "sexe": "M",
+  "pays": "BR",
+  "categorie": "mi_moyens",
+  "statut": "actif",
+  "date_naissance": "1993-08-17",
+  "taille_cm": 185,
+  "allonge_cm": 198,
+  "style": "Cogneur",
+  "lieu_naissance": "State of São Paulo, Brésil",
+  "palmares": {
+    "victoires": 24,
+    "defaites": 7,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 19,
+    "victoires_soumission": 3,
+    "victoires_decision": 2,
+    "defaites_ko": 2,
+    "defaites_soumission": 3,
+    "defaites_decision": 2
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.41,
+    "precision_frappe_pct": 55,
+    "frappes_encaissees_par_min": 4.3,
+    "defense_frappe_pct": 48.0,
+    "takedowns_par_15min": 0.18,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 78.0,
+    "soumissions_par_15min": 0.0,
+    "knockdowns_par_15min": 2.33,
+    "duree_moyenne_combat_s": 558,
+    "frappes_reussies": 369.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 24,
+      "defaites": 7,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 19,
+        "soumission": 3,
+        "decision": 2,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 3,
+        "decision": 2,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2023": 1,
+      "2024": 4,
+      "2025": 3,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Jack Della Maddalena",
+      "evenement": "UFC Fight Night: Della Maddalena vs. Prates",
+      "date": "May 2, 2026",
+      "resultat": "Win",
+      "methode": "TKO (leg kicks and elbows)"
+    },
+    "combats_ufc": 9,
+    "victoires_ufc": 8,
+    "defaites_ufc": 1,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 7,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "body kick",
+      "finitions": 3
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Mitch Ramirez",
+      "evenement": "Dana White's Contender Series 60",
+      "date": "November 18, 2023",
+      "resultat": "Win",
+      "methode": "TKO (punch)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Seven times) vs. Trevin Giles , Charles Radtke, Li Jingliang , Neil Magny , Geoff Neal , Leon Edwards and Jack Della Maddalena"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Donald Cerrone , Ovince Saint Preux , Conor McGregor , Tom Aspinall & Song Yadong ) for fourth most Performance of the Night awards in UFC history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most knockdowns landed in UFC Welterweight division history (12) (behind Thiago Alves )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Seventh highest knockdown average per 15 minutes in UFC history (2.1)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third highest knockdown average per 15 minutes in UFC Welterweight division history (2.1)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Robbie Lawler & Neil Magny ) for fifth most knockouts in UFC Welterweight division history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: Fan's Choice Debut of the Year Winner vs. Trevin Giles"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: Newcomer of the Year , Ranked #3 Fighter of the Year & Ranked #9 Knockout of the Year vs. Li Jingliang"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2025: Ranked #3 Knockout of the Year vs. Geoff Neal"
+    },
+    {
+      "org": "Standout Fighting Tournament",
+      "texte": "SFT Welterweight Championship (One time)"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2024 Newcomer of the Year"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2024 Newcomer of the Year"
+    },
+    {
+      "org": "BodySlam.net",
+      "texte": "2024 Rookie of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2024 Rookie of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2024 First Team MMA All-Star"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2025 Second Team MMA All-Star"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2024 Best Newcomer"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2025 #5 Ranked Knockout of the Year vs. Geoff Neal at UFC 319"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2024 #3 Ranked Knockout of the Year vs. Charles Radtke at UFC on ESPN: Cannonier vs. Imavov"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2025 #3 Ranked Knockout of the Year vs. Geoff Neal at UFC 319"
+    },
+    {
+      "org": "Uncrowned",
+      "texte": "2025 #4 Ranked Knockout of the Year vs. Geoff Neal at UFC 319"
+    },
+    {
+      "org": "Standout Fighting Tournament",
+      "texte": "SFT Extreme Welterweight Championship (One time)"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 7× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 7× Performance of the Night"
+    ]
+  },
+  "image_commons": "Carlos Prates 2026.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Carlos_Prates",
+    "wikidata": "https://www.wikidata.org/wiki/Q131010375",
+    "ufc_com": "https://www.ufc.com/athlete/carlos-prates"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 70,
+    "puissance": 90,
+    "lutte": 52,
+    "soumission": 44,
+    "defense": 55,
+    "cardio": 54,
+    "menton": 79,
+    "globale": 63,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "id": "tyrell-fortune",
+  "nom": "Tyrell Fortune",
+  "ufc_slug": "tyrell-fortune",
+  "wikipedia_titre": "Tyrell Fortune",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "lourds",
+  "statut": "actif",
+  "date_naissance": "1990-07-04",
+  "taille_cm": 190,
+  "allonge_cm": 192,
+  "style": null,
+  "lieu_naissance": "Portland, États-Unis",
+  "palmares": {
+    "victoires": 18,
+    "defaites": 4,
+    "nuls": 0,
+    "sans_decision": 2,
+    "victoires_ko": 11,
+    "victoires_soumission": 1,
+    "victoires_decision": 5,
+    "defaites_ko": 2,
+    "defaites_soumission": 1,
+    "defaites_decision": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": 1.91,
+    "precision_frappe_pct": 49,
+    "frappes_encaissees_par_min": 4.31,
+    "defense_frappe_pct": 51.0,
+    "takedowns_par_15min": 1.72,
+    "precision_takedown_pct": 43,
+    "defense_takedown_pct": 100.0,
+    "soumissions_par_15min": 0.0,
+    "knockdowns_par_15min": 0.0,
+    "duree_moyenne_combat_s": 786,
+    "frappes_reussies": 50.0,
+    "takedowns_reussis": 3.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 18,
+      "defaites": 4,
+      "nuls": 0,
+      "sans_decision": 2,
+      "v": {
+        "ko": 11,
+        "soumission": 1,
+        "decision": 5,
+        "autre": 1
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 1,
+        "decision": 1,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Rizvan Kuniev",
+      "evenement": "UFC Fight Night: Ankalaev vs. Guskov",
+      "date": "July 25, 2026",
+      "resultat": "Loss",
+      "methode": "TKO (knees)"
+    },
+    "combats_ufc": 2,
+    "victoires_ufc": 1,
+    "defaites_ufc": 1,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 1,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Rizvan Kuniev",
+        "evenement": "UFC Fight Night: Ankalaev vs. Guskov",
+        "date": "July 25, 2026"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 7
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Marcin Tybura",
+      "evenement": "UFC Fight Night: Adesanya vs. Pyfer",
+      "date": "March 28, 2026",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Rizvan Kuniev"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 1× Combat de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 1× Fight of the Night"
+    ]
+  },
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Tyrell_Fortune",
+    "wikidata": "https://www.wikidata.org/wiki/Q30231735",
+    "ufc_com": "https://www.ufc.com/athlete/tyrell-fortune"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 18-4, wikipedia_infobox 17-4, ufc_com 18-4"
+  },
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 58,
+    "puissance": 65,
+    "lutte": 68,
+    "soumission": 52,
+    "defense": 61,
+    "cardio": 64,
+    "menton": 75,
+    "globale": 63,
+    "style": "lutteur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

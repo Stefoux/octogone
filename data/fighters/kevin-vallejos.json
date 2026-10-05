@@ -1,0 +1,166 @@
+{
+  "id": "kevin-vallejos",
+  "nom": "Kevin Vallejos",
+  "ufc_slug": "kevin-vallejos",
+  "wikipedia_titre": "Kevin Vallejos",
+  "surnom": "El Chino",
+  "sexe": "M",
+  "pays": "AR",
+  "categorie": "plume",
+  "statut": "actif",
+  "date_naissance": "2001-12-08",
+  "taille_cm": 170,
+  "allonge_cm": 173,
+  "style": "Cogneur",
+  "lieu_naissance": "Mar del Plata, Argentine",
+  "palmares": {
+    "victoires": 18,
+    "defaites": 1,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 13,
+    "victoires_soumission": 2,
+    "victoires_decision": 3,
+    "defaites_ko": 0,
+    "defaites_soumission": 0,
+    "defaites_decision": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": 6.12,
+    "precision_frappe_pct": 48,
+    "frappes_encaissees_par_min": 4.41,
+    "defense_frappe_pct": 57.0,
+    "takedowns_par_15min": 0.66,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 85.0,
+    "soumissions_par_15min": 0.0,
+    "knockdowns_par_15min": 1.65,
+    "duree_moyenne_combat_s": 456,
+    "frappes_reussies": 279.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 18,
+      "defaites": 1,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 13,
+        "soumission": 2,
+        "decision": 3,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 0,
+        "decision": 1,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2023": 1,
+      "2024": 1,
+      "2025": 3,
+      "2026": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Josh Emmett",
+      "evenement": "UFC Fight Night: Emmett vs. Vallejos",
+      "date": "14 March 2026",
+      "resultat": "Win",
+      "methode": "TKO (knees and punches)"
+    },
+    "combats_ufc": 6,
+    "victoires_ufc": 5,
+    "defaites_ufc": 1,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 2,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 6
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Jean Silva",
+      "evenement": "Dana White's Contender Series 61",
+      "date": "5 September 2023",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. Giga Chikadze and Josh Emmett"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2025: Ranked #3 Newcomer of the Year"
+    },
+    {
+      "org": "Samurai Fight House",
+      "texte": "SFH Bantamweight Champion"
+    },
+    {
+      "org": "Samurai Fight House",
+      "texte": "SFH Featherweight Champion"
+    },
+    {
+      "org": "Samurai Fight House",
+      "texte": "SFH Lightweight Champion"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Bonus UFC : 2× Performance de la soirée"
+    ],
+    "en": [
+      "UFC bonuses: 2× Performance of the Night"
+    ]
+  },
+  "image_commons": null,
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Kevin_Vallejos",
+    "wikidata": "https://www.wikidata.org/wiki/Q135207548",
+    "ufc_com": "https://www.ufc.com/athlete/kevin-vallejos"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 18-1, wikipedia_infobox 18-1, ufc_com 17-1"
+  },
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 71,
+    "puissance": 84,
+    "lutte": 57,
+    "soumission": 46,
+    "defense": 63,
+    "cardio": 51,
+    "menton": 99,
+    "globale": 67,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}

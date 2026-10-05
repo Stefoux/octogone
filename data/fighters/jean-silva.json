@@ -1,0 +1,225 @@
+{
+  "id": "jean-silva",
+  "nom": "Jean Silva",
+  "ufc_slug": "jean-silva-lord",
+  "wikipedia_titre": "Jean Silva",
+  "surnom": "Lord",
+  "sexe": "M",
+  "pays": "BR",
+  "categorie": "plume",
+  "statut": "actif",
+  "date_naissance": "1996-12-13",
+  "taille_cm": 170,
+  "allonge_cm": 175,
+  "style": "Cogneur",
+  "lieu_naissance": "Foz do Iguaçu, Brésil",
+  "palmares": {
+    "victoires": 18,
+    "defaites": 3,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 12,
+    "victoires_soumission": 4,
+    "victoires_decision": 2,
+    "defaites_ko": 1,
+    "defaites_soumission": 0,
+    "defaites_decision": 2
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.55,
+    "precision_frappe_pct": 52,
+    "frappes_encaissees_par_min": 4.29,
+    "defense_frappe_pct": 55.0,
+    "takedowns_par_15min": 1.19,
+    "precision_takedown_pct": 8,
+    "defense_takedown_pct": 79.0,
+    "soumissions_par_15min": 0.68,
+    "knockdowns_par_15min": 1.02,
+    "duree_moyenne_combat_s": 586,
+    "frappes_reussies": 400.0,
+    "takedowns_reussis": 1.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 18,
+      "defaites": 3,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 12,
+        "soumission": 4,
+        "decision": 2,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 0,
+        "decision": 2,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2023": 1,
+      "2024": 3,
+      "2025": 3,
+      "2026": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Jose Miguel Delgado",
+      "evenement": "UFC Fight Night: Silva vs. Delgado",
+      "date": "September 12, 2026",
+      "resultat": "Win",
+      "methode": "Submission (rear-naked choke)"
+    },
+    "combats_ufc": 9,
+    "victoires_ufc": 8,
+    "defaites_ufc": 1,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 2,
+    "bonus_potn": 3,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Diego Lopes",
+        "evenement": "UFC Fight Night: Lopes vs. Silva",
+        "date": "September 13, 2025"
+      },
+      {
+        "adversaire": "Drew Dober",
+        "evenement": "UFC on ESPN: Namajunas vs. Cortez",
+        "date": "July 13, 2024"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "guillotine choke",
+      "finitions": 2
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Kevin Vallejos",
+      "evenement": "Dana White's Contender Series 61",
+      "date": "September 5, 2023",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Two times) vs. Drew Dober and Diego Lopes"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Three times) vs. Melsik Baghdasaryan , Bryce Mitchell and Jose Miguel Delgado"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Honors Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: Fan's Choice Debut of the Year Nominee vs. Westin Wilson"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2025: President's Choice Fight of the Year Nominee vs. Diego Lopes & Fan's Choice Submission of the Year Nominee vs. Bryce Mitchell"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2024: Ranked #3 Newcomer of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2025: Ranked #2 Submission of the Year vs. Bryce Mitchell"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "July 1, 2024 – December 31, 2025 Submission of the Year vs. Bryce Mitchell at UFC 314"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2025 Submission of the Year vs. Bryce Mitchell at UFC 314"
+    },
+    {
+      "org": "theScore",
+      "texte": "2025 Submission of the Year vs. Bryce Mitchell"
+    },
+    {
+      "org": "LowKick MMA",
+      "texte": "2025 Submission of the Year vs. Bryce Mitchell at UFC 314"
+    },
+    {
+      "org": "The Wrightway Sports Network",
+      "texte": "2025 Submission of the Year vs. Bryce Mitchell at UFC 314"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2025 #2 Ranked Fight of the Year vs. Diego Lopes at UFC Fight Night: Lopes vs. Silva"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "2025 #4 Ranked Submission of the Year vs. Bryce Mitchell"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2025 #3 Ranked Submission of the Year vs. Bryce Mitchell"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2025 First Team MMA All-Star"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2025 Submission of the Year vs. Bryce Mitchell at UFC 314"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Soumission de l'année (2025)",
+      "Bonus UFC : 3× Performance de la soirée, 2× Combat de la soirée"
+    ],
+    "en": [
+      "Submission of the Year (2025)",
+      "UFC bonuses: 3× Performance of the Night, 2× Fight of the Night"
+    ]
+  },
+  "image_commons": "Jean Silva (54451587575).jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Jean_Silva",
+    "wikidata": "https://www.wikidata.org/wiki/Q127429178",
+    "ufc_com": "https://www.ufc.com/athlete/jean-silva-lord"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {},
+  "maj": "2026-10-05",
+  "stats_jeu": {
+    "frappe": 68,
+    "puissance": 81,
+    "lutte": 56,
+    "soumission": 57,
+    "defense": 61,
+    "cardio": 55,
+    "menton": 87,
+    "globale": 66,
+    "style": "frappeur",
+    "estimees": [],
+    "formule_version": 1
+  }
+}
