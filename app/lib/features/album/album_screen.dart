@@ -34,7 +34,7 @@ class AlbumScreen extends ConsumerWidget {
                   title: Text(l.effectsShowcase, style: const TextStyle(fontWeight: FontWeight.w700)),
                   subtitle: Text(l.effectsShowcaseSub),
                   trailing: const Icon(Icons.chevron_right),
-                  onTap: () => context.push('/vitrine'),
+                  onTap: () => context.push('/galerie'),
                 ),
               ),
               const SizedBox(height: 8),

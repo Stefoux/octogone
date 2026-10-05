@@ -8,6 +8,7 @@ import '../../core/theme.dart';
 import '../../data/repositories/content_providers.dart';
 import '../../domain/models.dart';
 import '../../widgets/rarity_backdrop.dart';
+import '../vitrine/vitrine_screen.dart';
 import 'card_view.dart';
 import 'interactive_card.dart';
 
@@ -102,6 +103,10 @@ class _Info extends ConsumerWidget {
                 ),
             ],
           ),
+          if (!isPreview && view.card != null) ...[
+            const SizedBox(height: 10),
+            VitrineToggleButton(cardId: view.card!.id, ownedId: view.owned?.id),
+          ],
           if (fighter != null && !view.isDuel)
             TextButton.icon(
               onPressed: () => context.push('/combattants/${fighter.id}'),

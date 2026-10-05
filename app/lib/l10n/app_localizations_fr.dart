@@ -198,7 +198,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get welcomePackAlready => 'Pack de bienvenue déjà reçu';
 
   @override
-  String get effectsShowcase => 'Vitrine des effets';
+  String get effectsShowcase => 'Galerie des effets';
 
   @override
   String get effectsShowcaseSub => 'Toutes les raretés en aperçu';
@@ -919,4 +919,61 @@ class AppLocalizationsFr extends AppLocalizations {
   @override
   String get srcPackPhotosWho =>
       'Photos officielles des combattants (usage privé)';
+
+  @override
+  String get vitrineTitle => 'Ma vitrine';
+
+  @override
+  String get vitrineSubtitle => 'Expose tes plus belles cartes.';
+
+  @override
+  String get vitrineEmpty =>
+      'Ta vitrine est vide. Touche un emplacement pour exposer une carte.';
+
+  @override
+  String get vitrineReorderHint =>
+      'Appui long puis glisse pour changer une carte de place.';
+
+  @override
+  String get vitrineHonor => 'Place d’honneur';
+
+  @override
+  String get vitrineEdit => 'Modifier';
+
+  @override
+  String get vitrineDone => 'Terminé';
+
+  @override
+  String get vitrinePickTitle => 'Choisir une carte';
+
+  @override
+  String get vitrinePickSearch => 'Rechercher un combattant';
+
+  @override
+  String get vitrinePickEmpty => 'Aucune carte à exposer.';
+
+  @override
+  String get vitrineAdd => 'Exposer dans ma vitrine';
+
+  @override
+  String get vitrineRemove => 'Retirer de ma vitrine';
+
+  @override
+  String get vitrineAdded => 'Carte exposée dans ta vitrine.';
+
+  @override
+  String get vitrineRemoved => 'Carte retirée de ta vitrine.';
+
+  @override
+  String get vitrineFull => 'Vitrine pleine : retire d’abord une carte.';
+
+  @override
+  String vitrineCount(int count, int total) {
+    return '$count/$total';
+  }
+
+  @override
+  String vitrineSaveError(String message) {
+    return 'Impossible d’enregistrer la vitrine : $message';
+  }
 }

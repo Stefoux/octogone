@@ -197,7 +197,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get welcomePackAlready => 'Welcome pack already received';
 
   @override
-  String get effectsShowcase => 'Effects showcase';
+  String get effectsShowcase => 'Effects gallery';
 
   @override
   String get effectsShowcaseSub => 'Preview every rarity';
@@ -915,4 +915,60 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get srcPackPhotosWho => 'Official fighter photos (private use)';
+
+  @override
+  String get vitrineTitle => 'My showcase';
+
+  @override
+  String get vitrineSubtitle => 'Show off your best cards.';
+
+  @override
+  String get vitrineEmpty =>
+      'Your showcase is empty. Tap a slot to display a card.';
+
+  @override
+  String get vitrineReorderHint => 'Long-press and drag to move a card.';
+
+  @override
+  String get vitrineHonor => 'Place of honour';
+
+  @override
+  String get vitrineEdit => 'Edit';
+
+  @override
+  String get vitrineDone => 'Done';
+
+  @override
+  String get vitrinePickTitle => 'Pick a card';
+
+  @override
+  String get vitrinePickSearch => 'Search a fighter';
+
+  @override
+  String get vitrinePickEmpty => 'No card to display.';
+
+  @override
+  String get vitrineAdd => 'Add to my showcase';
+
+  @override
+  String get vitrineRemove => 'Remove from my showcase';
+
+  @override
+  String get vitrineAdded => 'Card added to your showcase.';
+
+  @override
+  String get vitrineRemoved => 'Card removed from your showcase.';
+
+  @override
+  String get vitrineFull => 'Showcase full: remove a card first.';
+
+  @override
+  String vitrineCount(int count, int total) {
+    return '$count/$total';
+  }
+
+  @override
+  String vitrineSaveError(String message) {
+    return 'Could not save the showcase: $message';
+  }
 }

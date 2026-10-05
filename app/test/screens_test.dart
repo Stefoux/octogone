@@ -22,6 +22,8 @@ import 'package:octogone/features/fighters/fighter_detail_screen.dart';
 import 'package:octogone/features/entry/entry_screen.dart';
 import 'package:octogone/features/fighters/fighters_screen.dart';
 import 'package:octogone/widgets/rarity_backdrop.dart';
+import 'package:octogone/features/vitrine/vitrine_screen.dart';
+import 'package:octogone/features/vitrine/vitrine_service.dart';
 import 'package:octogone/features/home/home_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -216,6 +218,33 @@ void _phoneScreen(WidgetTester tester) {
   tester.view.devicePixelRatio = 3;
   addTearDown(tester.view.reset);
 }
+
+// --- Vitrine -----------------------------------------------------------------
+
+class _MemoryVitrine implements VitrineStore {
+  List<String?> slots = List<String?>.filled(kVitrineSlots, null);
+  int saves = 0;
+
+  @override
+  Future<List<String?>> load() async => [...slots];
+
+  @override
+  Future<void> save(List<String?> next) async {
+    saves++;
+    slots = [...next];
+  }
+}
+
+final _vitrineOwned = [
+  ..._owned,
+  OwnedCard({'id': 'o2', 'card_id': 'ed:2', 'variant_id': 'ed:BASE:base', 'origine': 'booster'}),
+  OwnedCard({'id': 'o3', 'card_id': 'ed:1', 'variant_id': 'ed:BASE:superfractor', 'numero_serie': 1, 'tirage': 1, 'origine': 'booster'}),
+];
+
+List<Override> _vitrineOverrides(_MemoryVitrine store) => [
+      ..._overrides(owned: _vitrineOwned),
+      vitrineStoreProvider.overrideWithValue(store),
+    ];
 
 Widget _wrap(Widget child, {List<Override>? overrides, Locale? locale}) => ProviderScope(
       overrides: overrides ?? _overrides(),
@@ -577,5 +606,82 @@ void main() {
     expect(find.text('6/6'), findsOneWidget);
     await tester.pumpWidget(const SizedBox());
     await tester.pump(const Duration(seconds: 1));
+  });
+
+  testWidgets('Vitrine : exposer via le sélecteur (plus rares d’abord), réorganiser, retirer', (tester) async {
+    SharedPreferences.setMockInitialValues({});
+    _phoneScreen(tester);
+    final store = _MemoryVitrine();
+    await tester.pumpWidget(_wrap(const VitrineScreen(), overrides: _vitrineOverrides(store), locale: const Locale('fr')));
+    await _frames(tester, 3);
+    expect(find.text('Ta vitrine est vide. Touche un emplacement pour exposer une carte.'), findsOneWidget);
+
+    // Place d'honneur : le sélecteur s'ouvre, la Mythique (SuperFractor) en premier
+    await tester.tap(find.byKey(const Key('vitrine-slot-0')));
+    await _frames(tester, 6);
+    expect(find.text('Choisir une carte'), findsOneWidget);
+    final first = tester.getTopLeft(find.byKey(const Key('pick-o3')));
+    final second = tester.getTopLeft(find.byKey(const Key('pick-o1')));
+    expect(first.dx < second.dx || first.dy < second.dy, isTrue, reason: 'Mythique avant Épique');
+    await tester.tap(find.byKey(const Key('pick-o3')));
+    await _frames(tester, 6);
+    expect(store.slots[0], 'o3');
+
+    // Deuxième emplacement : une carte déjà exposée n'est plus proposée
+    await tester.tap(find.byKey(const Key('vitrine-slot-1')));
+    await _frames(tester, 6);
+    expect(find.byKey(const Key('pick-o3')), findsNothing);
+    await tester.tap(find.byKey(const Key('pick-o2')));
+    await _frames(tester, 6);
+    expect(store.slots.sublist(0, 2), ['o3', 'o2']);
+
+    // Glisser-déposer : l'emplacement 1 vers la place d'honneur
+    final g = await tester.startGesture(tester.getCenter(find.byKey(const Key('vitrine-slot-1'))));
+    await tester.pump(const Duration(milliseconds: 700));
+    await g.moveTo(tester.getCenter(find.byKey(const Key('vitrine-slot-0'))));
+    await tester.pump(const Duration(milliseconds: 100));
+    await g.up();
+    await _frames(tester, 4);
+    expect(store.slots.sublist(0, 2), ['o2', 'o3']);
+
+    // Retirer en mode « Modifier »
+    await tester.tap(find.byKey(const Key('vitrine-edit')));
+    await _frames(tester, 2);
+    await tester.tap(find.byKey(const Key('vitrine-remove-1')));
+    await _frames(tester, 4);
+    expect(store.slots.sublist(0, 2), ['o2', null]);
+    await tester.pumpWidget(const SizedBox());
+  });
+
+  testWidgets('Vitrine : bouton de la fiche carte (exposer, retirer, vitrine pleine)', (tester) async {
+    SharedPreferences.setMockInitialValues({});
+    final store = _MemoryVitrine();
+    Widget button() => _wrap(
+          const Scaffold(body: Center(child: VitrineToggleButton(cardId: 'ed:1'))),
+          overrides: _vitrineOverrides(store),
+          locale: const Locale('fr'),
+        );
+    await tester.pumpWidget(button());
+    await _frames(tester, 2);
+    expect(find.text('Exposer dans ma vitrine'), findsOneWidget);
+    await tester.tap(find.byKey(const Key('vitrine-toggle')));
+    await _frames(tester, 3);
+    // Sans exemplaire précisé : le plus rare (SuperFractor) est exposé
+    expect(store.slots[0], 'o3');
+    expect(find.text('Retirer de ma vitrine'), findsOneWidget);
+    await tester.tap(find.byKey(const Key('vitrine-toggle')));
+    await _frames(tester, 3);
+    expect(store.slots.nonNulls, isEmpty);
+
+    // Vitrine pleine
+    store.slots = List<String?>.generate(kVitrineSlots, (i) => 'x$i');
+    await tester.pumpWidget(const SizedBox());
+    await tester.pumpWidget(button());
+    await _frames(tester, 2);
+    await tester.tap(find.byKey(const Key('vitrine-toggle')));
+    await _frames(tester, 3);
+    expect(find.text('Vitrine pleine : retire d’abord une carte.'), findsOneWidget);
+    await tester.pumpWidget(const SizedBox());
+    await tester.pump(const Duration(seconds: 5));
   });
 }

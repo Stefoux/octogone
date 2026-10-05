@@ -443,7 +443,7 @@ abstract class AppLocalizations {
   /// No description provided for @effectsShowcase.
   ///
   /// In fr, this message translates to:
-  /// **'Vitrine des effets'**
+  /// **'Galerie des effets'**
   String get effectsShowcase;
 
   /// No description provided for @effectsShowcaseSub.
@@ -1699,6 +1699,108 @@ abstract class AppLocalizations {
   /// In fr, this message translates to:
   /// **'Photos officielles des combattants (usage privé)'**
   String get srcPackPhotosWho;
+
+  /// No description provided for @vitrineTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ma vitrine'**
+  String get vitrineTitle;
+
+  /// No description provided for @vitrineSubtitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Expose tes plus belles cartes.'**
+  String get vitrineSubtitle;
+
+  /// No description provided for @vitrineEmpty.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ta vitrine est vide. Touche un emplacement pour exposer une carte.'**
+  String get vitrineEmpty;
+
+  /// No description provided for @vitrineReorderHint.
+  ///
+  /// In fr, this message translates to:
+  /// **'Appui long puis glisse pour changer une carte de place.'**
+  String get vitrineReorderHint;
+
+  /// No description provided for @vitrineHonor.
+  ///
+  /// In fr, this message translates to:
+  /// **'Place d’honneur'**
+  String get vitrineHonor;
+
+  /// No description provided for @vitrineEdit.
+  ///
+  /// In fr, this message translates to:
+  /// **'Modifier'**
+  String get vitrineEdit;
+
+  /// No description provided for @vitrineDone.
+  ///
+  /// In fr, this message translates to:
+  /// **'Terminé'**
+  String get vitrineDone;
+
+  /// No description provided for @vitrinePickTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Choisir une carte'**
+  String get vitrinePickTitle;
+
+  /// No description provided for @vitrinePickSearch.
+  ///
+  /// In fr, this message translates to:
+  /// **'Rechercher un combattant'**
+  String get vitrinePickSearch;
+
+  /// No description provided for @vitrinePickEmpty.
+  ///
+  /// In fr, this message translates to:
+  /// **'Aucune carte à exposer.'**
+  String get vitrinePickEmpty;
+
+  /// No description provided for @vitrineAdd.
+  ///
+  /// In fr, this message translates to:
+  /// **'Exposer dans ma vitrine'**
+  String get vitrineAdd;
+
+  /// No description provided for @vitrineRemove.
+  ///
+  /// In fr, this message translates to:
+  /// **'Retirer de ma vitrine'**
+  String get vitrineRemove;
+
+  /// No description provided for @vitrineAdded.
+  ///
+  /// In fr, this message translates to:
+  /// **'Carte exposée dans ta vitrine.'**
+  String get vitrineAdded;
+
+  /// No description provided for @vitrineRemoved.
+  ///
+  /// In fr, this message translates to:
+  /// **'Carte retirée de ta vitrine.'**
+  String get vitrineRemoved;
+
+  /// No description provided for @vitrineFull.
+  ///
+  /// In fr, this message translates to:
+  /// **'Vitrine pleine : retire d’abord une carte.'**
+  String get vitrineFull;
+
+  /// No description provided for @vitrineCount.
+  ///
+  /// In fr, this message translates to:
+  /// **'{count}/{total}'**
+  String vitrineCount(int count, int total);
+
+  /// No description provided for @vitrineSaveError.
+  ///
+  /// In fr, this message translates to:
+  /// **'Impossible d’enregistrer la vitrine : {message}'**
+  String vitrineSaveError(String message);
 }
 
 class _AppLocalizationsDelegate

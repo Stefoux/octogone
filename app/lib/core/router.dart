@@ -21,6 +21,7 @@ import '../features/profile/profile_screen.dart';
 import '../features/settings/settings_screen.dart';
 import '../features/shell/main_shell.dart';
 import '../features/showcase/showcase_screen.dart';
+import '../features/vitrine/vitrine_screen.dart';
 import '../widgets/arena_background.dart';
 
 /// Rafraîchit go_router à chaque changement de session.
@@ -63,7 +64,10 @@ final routerProvider = Provider<GoRouter>((ref) {
       GoRoute(path: '/inscription', builder: (_, _) => const ArenaBackground(intensity: 0.7, child: SignupScreen())),
       GoRoute(path: '/reglages', builder: (_, _) => const ArenaBackground(intensity: 0.12, child: SettingsScreen())),
       GoRoute(path: '/credits', builder: (_, _) => const ArenaBackground(intensity: 0.12, child: CreditsScreen())),
-      GoRoute(path: '/vitrine', builder: (_, _) => const ArenaBackground(intensity: 0.12, child: ShowcaseScreen())),
+      // Galerie des effets (aperçu de chaque rareté)
+      GoRoute(path: '/galerie', builder: (_, _) => const ArenaBackground(intensity: 0.12, child: ShowcaseScreen())),
+      // Ma vitrine
+      GoRoute(path: '/vitrine', builder: (_, _) => const ArenaBackground(intensity: 0.35, child: VitrineScreen())),
       GoRoute(
         path: '/booster/:typeId',
         builder: (_, s) => BoosterOpeningScreen(
