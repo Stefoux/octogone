@@ -5,6 +5,7 @@ import 'package:go_router/go_router.dart';
 
 import '../../core/l10n.dart';
 import '../../core/theme.dart';
+import '../succes/succes_screen.dart';
 import '../vitrine/vitrine_screen.dart';
 import '../auth/auth_providers.dart';
 
@@ -92,6 +93,8 @@ class ProfileScreen extends ConsumerWidget {
           ),
           const SizedBox(height: 16),
           const VitrinePreview(),
+          const SizedBox(height: 12),
+          const SuccesProfileTile(),
           const SizedBox(height: 16),
           Card(
             child: Column(children: [

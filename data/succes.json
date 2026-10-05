@@ -1,0 +1,192 @@
+{
+  "_doc": "Succès permanents (importés dans succes_modeles). La progression est calculée par le serveur à partir des données du joueur : boosters_ouverts, cartes_distinctes, legendaires, mythiques, series_completes (toutes les cartes d'une série, toute variante), vitrine (emplacements remplis), doublons_recycles, cartes_fabriquees, defis_recuperes. Récompense en pièces, à récupérer une fois.",
+  "succes": [
+    {
+      "id": "boosters-10",
+      "type": "boosters_ouverts",
+      "objectif": 10,
+      "pieces": 100,
+      "libelle": {
+        "fr": "Ouvrir 10 boosters",
+        "en": "Open 10 boosters"
+      },
+      "ordre": 10
+    },
+    {
+      "id": "boosters-100",
+      "type": "boosters_ouverts",
+      "objectif": 100,
+      "pieces": 400,
+      "libelle": {
+        "fr": "Ouvrir 100 boosters",
+        "en": "Open 100 boosters"
+      },
+      "ordre": 11
+    },
+    {
+      "id": "boosters-500",
+      "type": "boosters_ouverts",
+      "objectif": 500,
+      "pieces": 1000,
+      "libelle": {
+        "fr": "Ouvrir 500 boosters",
+        "en": "Open 500 boosters"
+      },
+      "ordre": 12
+    },
+    {
+      "id": "cartes-25",
+      "type": "cartes_distinctes",
+      "objectif": 25,
+      "pieces": 100,
+      "libelle": {
+        "fr": "Posséder 25 cartes différentes",
+        "en": "Own 25 different cards"
+      },
+      "ordre": 20
+    },
+    {
+      "id": "cartes-100",
+      "type": "cartes_distinctes",
+      "objectif": 100,
+      "pieces": 300,
+      "libelle": {
+        "fr": "Posséder 100 cartes différentes",
+        "en": "Own 100 different cards"
+      },
+      "ordre": 21
+    },
+    {
+      "id": "cartes-250",
+      "type": "cartes_distinctes",
+      "objectif": 250,
+      "pieces": 600,
+      "libelle": {
+        "fr": "Posséder 250 cartes différentes",
+        "en": "Own 250 different cards"
+      },
+      "ordre": 22
+    },
+    {
+      "id": "premiere-legendaire",
+      "type": "legendaires",
+      "objectif": 1,
+      "pieces": 250,
+      "libelle": {
+        "fr": "Obtenir une première Légendaire",
+        "en": "Get your first Legendary"
+      },
+      "ordre": 30
+    },
+    {
+      "id": "premiere-mythique",
+      "type": "mythiques",
+      "objectif": 1,
+      "pieces": 500,
+      "libelle": {
+        "fr": "Obtenir une première Mythique",
+        "en": "Get your first Mythic"
+      },
+      "ordre": 31
+    },
+    {
+      "id": "serie-1",
+      "type": "series_completes",
+      "objectif": 1,
+      "pieces": 300,
+      "libelle": {
+        "fr": "Compléter une série",
+        "en": "Complete a series"
+      },
+      "ordre": 40
+    },
+    {
+      "id": "serie-3",
+      "type": "series_completes",
+      "objectif": 3,
+      "pieces": 800,
+      "libelle": {
+        "fr": "Compléter 3 séries",
+        "en": "Complete 3 series"
+      },
+      "ordre": 41
+    },
+    {
+      "id": "vitrine-pleine",
+      "type": "vitrine",
+      "objectif": 9,
+      "pieces": 200,
+      "libelle": {
+        "fr": "Remplir ta vitrine",
+        "en": "Fill your showcase"
+      },
+      "ordre": 50
+    },
+    {
+      "id": "recycler-10",
+      "type": "doublons_recycles",
+      "objectif": 10,
+      "pieces": 100,
+      "libelle": {
+        "fr": "Recycler 10 doublons",
+        "en": "Recycle 10 duplicates"
+      },
+      "ordre": 60
+    },
+    {
+      "id": "recycler-100",
+      "type": "doublons_recycles",
+      "objectif": 100,
+      "pieces": 400,
+      "libelle": {
+        "fr": "Recycler 100 doublons",
+        "en": "Recycle 100 duplicates"
+      },
+      "ordre": 61
+    },
+    {
+      "id": "fabriquer-1",
+      "type": "cartes_fabriquees",
+      "objectif": 1,
+      "pieces": 80,
+      "libelle": {
+        "fr": "Fabriquer une première carte",
+        "en": "Craft your first card"
+      },
+      "ordre": 70
+    },
+    {
+      "id": "fabriquer-10",
+      "type": "cartes_fabriquees",
+      "objectif": 10,
+      "pieces": 300,
+      "libelle": {
+        "fr": "Fabriquer 10 cartes",
+        "en": "Craft 10 cards"
+      },
+      "ordre": 71
+    },
+    {
+      "id": "defis-10",
+      "type": "defis_recuperes",
+      "objectif": 10,
+      "pieces": 150,
+      "libelle": {
+        "fr": "Réussir 10 défis",
+        "en": "Complete 10 challenges"
+      },
+      "ordre": 80
+    },
+    {
+      "id": "defis-50",
+      "type": "defis_recuperes",
+      "objectif": 50,
+      "pieces": 500,
+      "libelle": {
+        "fr": "Réussir 50 défis",
+        "en": "Complete 50 challenges"
+      },
+      "ordre": 81
+    }
+  ]
+}

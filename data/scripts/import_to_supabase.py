@@ -294,6 +294,7 @@ def main() -> None:
               + (f", {removed} élément(s) retiré(s)" if removed else ""))
     import_boosters(api)
     import_defis(api)
+    import_succes(api)
 
 
 def import_boosters(api: "Api") -> None:
@@ -326,6 +327,17 @@ def import_defis(api: "Api") -> None:
     if rows:
         api.upsert("defi_modeles", rows)
     print(f"défis : {len(rows)} ({sum(r['actif'] for r in rows)} actifs)")
+
+
+def import_succes(api: "Api") -> None:
+    data = load_json(DATA / "succes.json", {"succes": []})["succes"]
+    rows = [{
+        "id": d["id"], "type": d["type"], "objectif": d["objectif"], "pieces": d["pieces"],
+        "libelle": d["libelle"], "ordre": d.get("ordre", 0), "actif": d.get("actif", True),
+    } for d in data]
+    if rows:
+        api.upsert("succes_modeles", rows)
+    print(f"succès : {len(rows)}")
 
 
 if __name__ == "__main__":

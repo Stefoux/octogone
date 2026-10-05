@@ -22,6 +22,7 @@ import '../features/profile/profile_screen.dart';
 import '../features/settings/settings_screen.dart';
 import '../features/shell/main_shell.dart';
 import '../features/showcase/showcase_screen.dart';
+import '../features/succes/succes_screen.dart';
 import '../features/vitrine/vitrine_screen.dart';
 import '../widgets/arena_background.dart';
 
@@ -69,6 +70,8 @@ final routerProvider = Provider<GoRouter>((ref) {
       GoRoute(path: '/galerie', builder: (_, _) => const ArenaBackground(intensity: 0.12, child: ShowcaseScreen())),
       // Défis du jour et de la semaine
       GoRoute(path: '/defis', builder: (_, _) => const ArenaBackground(intensity: 0.35, child: DefisScreen())),
+      // Succès
+      GoRoute(path: '/succes', builder: (_, _) => const ArenaBackground(intensity: 0.35, child: SuccesScreen())),
       // Ma vitrine
       GoRoute(path: '/vitrine', builder: (_, _) => const ArenaBackground(intensity: 0.35, child: VitrineScreen())),
       GoRoute(

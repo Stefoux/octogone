@@ -1105,4 +1105,18 @@ class AppLocalizationsFr extends AppLocalizations {
   String durationDh(int d, int h) {
     return '$d j $h h';
   }
+
+  @override
+  String get succesTitle => 'Succès';
+
+  @override
+  String succesCount(int done, int total) {
+    return '$done débloqués sur $total';
+  }
+
+  @override
+  String get succesError => 'Impossible de charger les succès.';
+
+  @override
+  String get succesErrNotDone => 'Ce succès n’est pas encore atteint.';
 }

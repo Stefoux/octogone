@@ -330,5 +330,10 @@
   "defisErrAlready": "Reward already claimed.",
   "defisErrNotDone": "This challenge isn’t complete yet.",
   "durationDh": "{d} d {h} h",
-  "@durationDh": {"placeholders": {"d": {"type": "int"}, "h": {"type": "int"}}}
+  "@durationDh": {"placeholders": {"d": {"type": "int"}, "h": {"type": "int"}}},
+  "succesTitle": "Achievements",
+  "succesCount": "{done} of {total} unlocked",
+  "@succesCount": {"placeholders": {"done": {"type": "int"}, "total": {"type": "int"}}},
+  "succesError": "Could not load achievements.",
+  "succesErrNotDone": "This achievement isn’t reached yet."
 }

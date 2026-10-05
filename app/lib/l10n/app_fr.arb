@@ -656,5 +656,10 @@
   "defisErrAlready": "Récompense déjà récupérée.",
   "defisErrNotDone": "Ce défi n’est pas encore accompli.",
   "durationDh": "{d} j {h} h",
-  "@durationDh": {"placeholders": {"d": {"type": "int"}, "h": {"type": "int"}}}
+  "@durationDh": {"placeholders": {"d": {"type": "int"}, "h": {"type": "int"}}},
+  "succesTitle": "Succès",
+  "succesCount": "{done} débloqués sur {total}",
+  "@succesCount": {"placeholders": {"done": {"type": "int"}, "total": {"type": "int"}}},
+  "succesError": "Impossible de charger les succès.",
+  "succesErrNotDone": "Ce succès n’est pas encore atteint."
 }

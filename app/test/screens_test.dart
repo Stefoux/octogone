@@ -27,6 +27,8 @@ import 'package:octogone/features/atelier/atelier_service.dart';
 import 'package:octogone/features/atelier/atelier_widgets.dart';
 import 'package:octogone/features/defis/defis_screen.dart';
 import 'package:octogone/features/defis/defis_service.dart';
+import 'package:octogone/features/succes/succes_screen.dart';
+import 'package:octogone/features/succes/succes_service.dart';
 import 'package:octogone/features/vitrine/vitrine_service.dart';
 import 'package:octogone/features/home/home_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -321,6 +323,34 @@ final _defisSample = [
   _defi('rares', 'jour', 2, 2, 45, recupere: true),
   _defi('semaine', 'semaine', 4, 12, 200),
 ];
+
+// --- Succès ------------------------------------------------------------------
+
+class _FakeSucces implements SuccesService {
+  _FakeSucces(this.list);
+  List<Succes> list;
+  final claimed = <String>[];
+
+  @override
+  Future<List<Succes>> load() async => list;
+
+  @override
+  Future<int> claim(String id) async {
+    claimed.add(id);
+    list = [for (final x in list) x.id == id ? _succes(x.id, x.type, x.progression, x.objectif, x.pieces, recupere: true) : x];
+    return 600;
+  }
+}
+
+Succes _succes(String id, String type, int progression, int objectif, int pieces, {bool recupere = false}) => Succes({
+      'succes_id': id,
+      'type': type,
+      'objectif': objectif,
+      'pieces': pieces,
+      'libelle': {'fr': 'Succès $id', 'en': 'Achievement $id'},
+      'progression': progression,
+      'recupere': recupere,
+    });
 
 Widget _wrap(Widget child, {List<Override>? overrides, Locale? locale}) => ProviderScope(
       overrides: overrides ?? _overrides(),
@@ -880,5 +910,30 @@ void main() {
     expect(find.descendant(of: chip, matching: find.text('Défis')), findsOneWidget);
     expect(find.descendant(of: chip, matching: find.text('1')), findsOneWidget);
     await tester.pumpWidget(const SizedBox());
+  });
+
+  testWidgets('Succès : progression, verrouillés, récupérer une récompense', (tester) async {
+    _bigScreen(tester);
+    final fake = _FakeSucces([
+      _succes('boosters-10', 'boosters_ouverts', 10, 10, 100),
+      _succes('cartes-100', 'cartes_distinctes', 42, 100, 300),
+      _succes('premiere-legendaire', 'legendaires', 1, 1, 250, recupere: true),
+    ]);
+    await tester.pumpWidget(_wrap(
+      const SuccesScreen(),
+      overrides: [..._overrides(), succesServiceProvider.overrideWithValue(fake)],
+      locale: const Locale('fr'),
+    ));
+    await _frames(tester, 6);
+    expect(find.text('2 débloqués sur 3'), findsOneWidget);
+    expect(find.text('42/100'), findsOneWidget);
+    expect(find.byIcon(Icons.lock_outline), findsOneWidget);
+    await tester.tap(find.byKey(const Key('succes-claim-boosters-10')));
+    await _frames(tester, 4);
+    expect(fake.claimed, ['boosters-10']);
+    expect(find.text('+100 pièces'), findsOneWidget);
+    expect(find.byIcon(Icons.check_circle), findsNWidgets(2));
+    await tester.pumpWidget(const SizedBox());
+    await tester.pump(const Duration(seconds: 5));
   });
 }

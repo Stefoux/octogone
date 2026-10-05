@@ -1100,4 +1100,18 @@ class AppLocalizationsEn extends AppLocalizations {
   String durationDh(int d, int h) {
     return '$d d $h h';
   }
+
+  @override
+  String get succesTitle => 'Achievements';
+
+  @override
+  String succesCount(int done, int total) {
+    return '$done of $total unlocked';
+  }
+
+  @override
+  String get succesError => 'Could not load achievements.';
+
+  @override
+  String get succesErrNotDone => 'This achievement isn’t reached yet.';
 }

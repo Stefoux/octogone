@@ -2005,6 +2005,30 @@ abstract class AppLocalizations {
   /// In fr, this message translates to:
   /// **'{d} j {h} h'**
   String durationDh(int d, int h);
+
+  /// No description provided for @succesTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Succès'**
+  String get succesTitle;
+
+  /// No description provided for @succesCount.
+  ///
+  /// In fr, this message translates to:
+  /// **'{done} débloqués sur {total}'**
+  String succesCount(int done, int total);
+
+  /// No description provided for @succesError.
+  ///
+  /// In fr, this message translates to:
+  /// **'Impossible de charger les succès.'**
+  String get succesError;
+
+  /// No description provided for @succesErrNotDone.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ce succès n’est pas encore atteint.'**
+  String get succesErrNotDone;
 }
 
 class _AppLocalizationsDelegate
