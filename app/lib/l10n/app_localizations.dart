@@ -1687,6 +1687,18 @@ abstract class AppLocalizations {
   /// In fr, this message translates to:
   /// **'Collection en vedette'**
   String get homeFeatured;
+
+  /// No description provided for @srcPackPhotos.
+  ///
+  /// In fr, this message translates to:
+  /// **'Photos des sachets'**
+  String get srcPackPhotos;
+
+  /// No description provided for @srcPackPhotosWho.
+  ///
+  /// In fr, this message translates to:
+  /// **'Photos officielles des combattants (usage privé)'**
+  String get srcPackPhotosWho;
 }
 
 class _AppLocalizationsDelegate

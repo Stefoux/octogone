@@ -1,5 +1,5 @@
 {
-  "_doc": "Types de boosters. composition.slots : chaque emplacement tire une rareté selon ses poids (relatifs), puis une variante de cette rareté dans la collection (pondérée par son tirage), puis une carte éligible. garantie : rareté minimale assurée dans le booster. Les probabilités affichées dans l'app (« 1 sur N boosters ») sont calculées à partir de ces poids. Modifiable par un admin (table booster_types).",
+  "_doc": "Types de boosters. composition.slots : chaque emplacement tire une rareté selon ses poids (relatifs), puis une variante de cette rareté dans la collection (pondérée par son tirage), puis une carte éligible. garantie : rareté minimale assurée dans le booster. Les probabilités affichées dans l'app (« 1 sur N boosters ») sont calculées à partir de ces poids. Modifiable par un admin (table booster_types). visuel.art : « v5 » (5 combattants en V, booster standard) ou « champion » (combattant phare, premium) ; photos dans app/assets/boosters (data/scripts/prepare_booster_art.py). Sans « art », visuel graphique d'origine.",
   "boosters": [
     {
       "id": "saison-2026:standard",
@@ -10,12 +10,42 @@
       "prix_pieces": 100,
       "en_vedette": true,
       "ordre": 1,
-      "visuel": {"couleurs": ["#0E0F14", "#2A2416", "#E8B04A"], "accent": "#E8B04A", "motif": "octogone"},
+      "visuel": {
+        "couleurs": [
+          "#0E0F14",
+          "#2A2416",
+          "#E8B04A"
+        ],
+        "accent": "#E8B04A",
+        "motif": "octogone",
+        "art": "v5"
+      },
       "composition": {
         "slots": [
-          {"nb": 4, "poids": {"commune": 100}},
-          {"nb": 1, "poids": {"peu_commune": 75, "rare": 22, "epique": 3}},
-          {"nb": 1, "poids": {"peu_commune": 50, "rare": 33, "epique": 12.5, "legendaire": 4, "mythique": 0.5}}
+          {
+            "nb": 4,
+            "poids": {
+              "commune": 100
+            }
+          },
+          {
+            "nb": 1,
+            "poids": {
+              "peu_commune": 75,
+              "rare": 22,
+              "epique": 3
+            }
+          },
+          {
+            "nb": 1,
+            "poids": {
+              "peu_commune": 50,
+              "rare": 33,
+              "epique": 12.5,
+              "legendaire": 4,
+              "mythique": 0.5
+            }
+          }
         ],
         "garantie": null
       }
@@ -29,13 +59,50 @@
       "prix_pieces": 250,
       "en_vedette": false,
       "ordre": 2,
-      "visuel": {"couleurs": ["#16080B", "#5A1420", "#E8B04A"], "accent": "#FF4D6D", "motif": "octogone"},
+      "visuel": {
+        "couleurs": [
+          "#16080B",
+          "#5A1420",
+          "#E8B04A"
+        ],
+        "accent": "#FF4D6D",
+        "motif": "octogone",
+        "art": "champion"
+      },
       "composition": {
         "slots": [
-          {"nb": 6, "poids": {"commune": 100}},
-          {"nb": 2, "poids": {"peu_commune": 70, "rare": 25, "epique": 5}},
-          {"nb": 1, "poids": {"rare": 70, "epique": 22, "legendaire": 7, "mythique": 1}},
-          {"nb": 1, "poids": {"rare": 50, "epique": 35, "legendaire": 12, "mythique": 3}}
+          {
+            "nb": 6,
+            "poids": {
+              "commune": 100
+            }
+          },
+          {
+            "nb": 2,
+            "poids": {
+              "peu_commune": 70,
+              "rare": 25,
+              "epique": 5
+            }
+          },
+          {
+            "nb": 1,
+            "poids": {
+              "rare": 70,
+              "epique": 22,
+              "legendaire": 7,
+              "mythique": 1
+            }
+          },
+          {
+            "nb": 1,
+            "poids": {
+              "rare": 50,
+              "epique": 35,
+              "legendaire": 12,
+              "mythique": 3
+            }
+          }
         ],
         "garantie": "rare"
       }
@@ -49,12 +116,42 @@
       "prix_pieces": 100,
       "en_vedette": false,
       "ordre": 3,
-      "visuel": {"couleurs": ["#5B6470", "#E4E8EE", "#8A94A3"], "accent": "#4F8DFF", "motif": "octogone"},
+      "visuel": {
+        "couleurs": [
+          "#5B6470",
+          "#E4E8EE",
+          "#8A94A3"
+        ],
+        "accent": "#4F8DFF",
+        "motif": "octogone",
+        "art": "v5"
+      },
       "composition": {
         "slots": [
-          {"nb": 4, "poids": {"commune": 100}},
-          {"nb": 1, "poids": {"peu_commune": 75, "rare": 22, "epique": 3}},
-          {"nb": 1, "poids": {"peu_commune": 50, "rare": 33, "epique": 12.5, "legendaire": 4, "mythique": 0.5}}
+          {
+            "nb": 4,
+            "poids": {
+              "commune": 100
+            }
+          },
+          {
+            "nb": 1,
+            "poids": {
+              "peu_commune": 75,
+              "rare": 22,
+              "epique": 3
+            }
+          },
+          {
+            "nb": 1,
+            "poids": {
+              "peu_commune": 50,
+              "rare": 33,
+              "epique": 12.5,
+              "legendaire": 4,
+              "mythique": 0.5
+            }
+          }
         ],
         "garantie": null
       }
@@ -68,13 +165,50 @@
       "prix_pieces": 250,
       "en_vedette": false,
       "ordre": 4,
-      "visuel": {"couleurs": ["#1B2230", "#8E9AAF", "#E4E8EE"], "accent": "#E8B04A", "motif": "octogone"},
+      "visuel": {
+        "couleurs": [
+          "#1B2230",
+          "#8E9AAF",
+          "#E4E8EE"
+        ],
+        "accent": "#E8B04A",
+        "motif": "octogone",
+        "art": "champion"
+      },
       "composition": {
         "slots": [
-          {"nb": 6, "poids": {"commune": 100}},
-          {"nb": 2, "poids": {"peu_commune": 70, "rare": 25, "epique": 5}},
-          {"nb": 1, "poids": {"rare": 70, "epique": 22, "legendaire": 7, "mythique": 1}},
-          {"nb": 1, "poids": {"rare": 50, "epique": 35, "legendaire": 12, "mythique": 3}}
+          {
+            "nb": 6,
+            "poids": {
+              "commune": 100
+            }
+          },
+          {
+            "nb": 2,
+            "poids": {
+              "peu_commune": 70,
+              "rare": 25,
+              "epique": 5
+            }
+          },
+          {
+            "nb": 1,
+            "poids": {
+              "rare": 70,
+              "epique": 22,
+              "legendaire": 7,
+              "mythique": 1
+            }
+          },
+          {
+            "nb": 1,
+            "poids": {
+              "rare": 50,
+              "epique": 35,
+              "legendaire": 12,
+              "mythique": 3
+            }
+          }
         ],
         "garantie": "rare"
       }

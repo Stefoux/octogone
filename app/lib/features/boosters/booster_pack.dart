@@ -3,6 +3,7 @@ import 'dart:math' as math;
 import 'package:flutter/material.dart';
 
 import '../../core/l10n.dart';
+import '../../core/theme.dart';
 import '../../domain/models.dart';
 import '../cards/effects.dart';
 import '../cards/holo_layer.dart';
@@ -56,7 +57,45 @@ class BoosterPack extends StatelessWidget {
       _ => l.boosterStandard,
     };
 
-    Widget pack = SizedBox(
+    // Visuel photo (combattants réels) si le type de booster en définit un
+    final art = booster.visuel['art'] as String?;
+    final caption = '${typeLabel.toUpperCase()} · ${l.boosterCards(booster.nbCartes).toUpperCase()}';
+    Widget pack = switch (art) {
+      'v5' => PhotoPack(
+          booster: booster,
+          palette: palette,
+          accent: accent,
+          tilt: tilt,
+          tearProgress: tearProgress,
+          animate: animate,
+          caption: caption,
+          champion: false,
+        ),
+      'champion' => PhotoPack(
+          booster: booster,
+          palette: palette,
+          accent: accent,
+          tilt: tilt,
+          tearProgress: tearProgress,
+          animate: animate,
+          caption: caption,
+          champion: true,
+        ),
+      _ => _classic(l, palette, accent, typeLabel),
+    };
+
+    if (part != PackPart.whole) {
+      pack = ClipRect(
+        clipper: _PartClipper(part),
+        child: pack,
+      );
+    }
+    return AspectRatio(aspectRatio: kPackAspect, child: FittedBox(child: pack));
+  }
+
+  /// Visuel graphique d'origine (sans photo) : repli si aucun visuel photo.
+  Widget _classic(AppLocalizations l, List<Color> palette, Color accent, String typeLabel) {
+    return SizedBox(
       width: kPackWidth,
       height: kPackHeight,
       child: Stack(children: [
@@ -135,15 +174,354 @@ class BoosterPack extends StatelessWidget {
         if (tearProgress > 0) Positioned.fill(child: CustomPaint(painter: _TearPainter(tearProgress))),
       ]),
     );
+  }
+}
 
-    if (part != PackPart.whole) {
-      pack = ClipRect(
-        clipper: _PartClipper(part),
-        child: pack,
+/// Sachet photo : 5 combattants en V (Standard) ou le combattant phare dans
+/// un cadre doré (Premium). Mêmes dimensions et même bande de déchirure que
+/// le sachet graphique.
+class PhotoPack extends StatelessWidget {
+  const PhotoPack({
+    super.key,
+    required this.booster,
+    required this.palette,
+    required this.accent,
+    required this.tilt,
+    required this.tearProgress,
+    required this.animate,
+    required this.caption,
+    required this.champion,
+  });
+
+  final BoosterType booster;
+  final List<Color> palette;
+  final Color accent;
+  final Offset tilt;
+  final double tearProgress;
+  final bool animate;
+  final String caption;
+  final bool champion;
+
+  static const _gold = [Color(0xFF8C6418), Color(0xFFF5D27A), Color(0xFFB98A2C), Color(0xFFFFF0B8), Color(0xFF8C6418)];
+
+  @override
+  Widget build(BuildContext context) {
+    final body = champion ? const [Color(0xFF050505), Color(0xFF15100A), Color(0xFF070707)] : palette;
+    return SizedBox(
+      width: kPackWidth,
+      height: kPackHeight,
+      child: Stack(children: [
+        Positioned.fill(child: CustomPaint(painter: _PhotoPouchPainter(body, champion ? const Color(0xFFE2B04F) : accent, champion))),
+        Positioned.fill(
+          child: ClipPath(
+            clipper: _PouchClipper(),
+            child: Stack(fit: StackFit.expand, children: [
+              if (champion) ..._championLayers() else ..._v5Layers(),
+              // Reflet qui suit l'inclinaison : doré et pailleté pour le Premium
+              HoloLayer(
+                spec: champion
+                    ? const EffectSpec(mode: 10, tint: Color(0xFFE2B04F), tintStrength: 0.5, intensity: 0.5, blend: BlendMode.screen)
+                    : const EffectSpec(mode: 11, intensity: 0.55, blend: BlendMode.screen),
+                tilt: tilt,
+                animate: animate,
+              ),
+            ]),
+          ),
+        ),
+        // Nom de la collection
+        Positioned(
+          top: 54,
+          left: 18,
+          right: 18,
+          child: Column(children: [
+            SizedBox(
+              height: 58,
+              child: FittedBox(
+                fit: BoxFit.scaleDown,
+                child: _goldOrWhite(
+                  Text(
+                    booster.nom.toUpperCase(),
+                    textAlign: TextAlign.center,
+                    style: const TextStyle(
+                      fontFamily: kDisplayFont,
+                      fontSize: 44,
+                      height: 1.0,
+                      fontWeight: FontWeight.w700,
+                      letterSpacing: 1,
+                      color: Colors.white,
+                      shadows: [Shadow(color: Colors.black87, blurRadius: 12, offset: Offset(0, 3))],
+                    ),
+                  ),
+                ),
+              ),
+            ),
+            if (!champion) ...[
+              const SizedBox(height: 4),
+              Text(caption,
+                  style: TextStyle(
+                      fontFamily: kDisplayFont,
+                      fontSize: 12.5,
+                      letterSpacing: 2.5,
+                      color: Colors.white.withValues(alpha: 0.8),
+                      shadows: const [Shadow(color: Colors.black, blurRadius: 6)])),
+            ],
+          ]),
+        ),
+        if (champion)
+          Positioned(
+            left: 0,
+            right: 0,
+            top: 414,
+            child: Center(child: _plate()),
+          ),
+        if (tearProgress > 0) Positioned.fill(child: CustomPaint(painter: _TearPainter(tearProgress))),
+      ]),
+    );
+  }
+
+  Widget _goldOrWhite(Widget text) => champion
+      ? ShaderMask(
+          blendMode: BlendMode.srcIn,
+          shaderCallback: (r) => const LinearGradient(
+            begin: Alignment.topCenter,
+            end: Alignment.bottomCenter,
+            colors: [Color(0xFFFFF0B8), Color(0xFFE2B04F), Color(0xFF9C7224)],
+          ).createShader(r),
+          child: text,
+        )
+      : text;
+
+  /// Disposition en V : 1 au centre (plus grand, plus bas, devant), 2 et 4
+  /// de part et d'autre un peu plus haut, 3 et 5 encore plus haut, derrière.
+  /// Chacun cache environ un tiers de la largeur de celui qui est derrière.
+  List<Widget> _v5Layers() {
+    const s = 108.0; // largeur des combattants 2 à 5
+    const s1 = s * 1.2;
+    const aspect = 0.8; // largeur / hauteur des bustes
+    const cx = kPackWidth / 2;
+    // Les bustes ont des marges transparentes de chaque côté : un recouvrement
+    // de la moitié de la boîte cache environ un tiers de la silhouette.
+    const hide = s * 0.5;
+    const d12 = s1 / 2 + s / 2 - hide;
+    const d23 = s - hide;
+    const bottom1 = 446.0;
+    const step = 68.0;
+    Widget bust(int n, double centerX, double width, double bottom, double light) {
+      final h = width / aspect;
+      return Positioned(
+        left: centerX - width / 2,
+        top: bottom - h,
+        width: width,
+        height: h,
+        child: ColorFiltered(
+          // Les combattants du fond sont un peu plus sombres (profondeur)
+          colorFilter: ColorFilter.matrix([
+            light, 0, 0, 0, 0, //
+            0, light, 0, 0, 0,
+            0, 0, light, 0, 0,
+            0, 0, 0, 1, 0,
+          ]),
+          child: Image.asset('assets/boosters/combattant-$n.png', fit: BoxFit.cover, filterQuality: FilterQuality.medium,
+              errorBuilder: (_, _, _) => const SizedBox()),
+        ),
       );
     }
-    return AspectRatio(aspectRatio: kPackAspect, child: FittedBox(child: pack));
+
+    return [
+      // Halo de projecteur derrière le groupe
+      Positioned(
+        left: -40,
+        right: -40,
+        top: 160,
+        height: 320,
+        child: DecoratedBox(
+          decoration: BoxDecoration(
+            gradient: RadialGradient(
+              center: const Alignment(0, 0.15),
+              radius: 0.75,
+              colors: [accent.withValues(alpha: 0.45), accent.withValues(alpha: 0.12), Colors.transparent],
+              stops: const [0, 0.5, 1],
+            ),
+          ),
+        ),
+      ),
+      bust(3, cx - d12 - d23, s, bottom1 - 2 * step, 0.7),
+      bust(5, cx + d12 + d23, s, bottom1 - 2 * step, 0.7),
+      bust(2, cx - d12, s, bottom1 - step, 0.86),
+      bust(4, cx + d12, s, bottom1 - step, 0.86),
+      bust(1, cx, s1, bottom1, 1.0),
+      // Fondu vers la bande sertie du bas
+      Positioned(
+        left: 0,
+        right: 0,
+        bottom: 0,
+        height: 90,
+        child: DecoratedBox(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topCenter,
+              end: Alignment.bottomCenter,
+              colors: [Colors.transparent, palette.first.withValues(alpha: 0.85)],
+            ),
+          ),
+        ),
+      ),
+    ];
   }
+
+  /// Premium : photo du champion dans un cadre doré gravé, fond noir.
+  List<Widget> _championLayers() {
+    const left = 26.0;
+    const top = 120.0;
+    const width = kPackWidth - 2 * left;
+    const height = 302.0;
+    return [
+      // Lueur dorée derrière le cadre
+      const Positioned(
+        left: -20,
+        right: -20,
+        top: 90,
+        height: 360,
+        child: DecoratedBox(
+          decoration: BoxDecoration(
+            gradient: RadialGradient(
+              radius: 0.7,
+              colors: [Color(0x55E2B04F), Color(0x11E2B04F), Colors.transparent],
+              stops: [0, 0.55, 1],
+            ),
+          ),
+        ),
+      ),
+      Positioned(
+        left: left,
+        top: top,
+        width: width,
+        height: height,
+        child: Container(
+          padding: const EdgeInsets.all(7),
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(6),
+            gradient: const LinearGradient(begin: Alignment.topLeft, end: Alignment.bottomRight, colors: _gold),
+            boxShadow: [BoxShadow(color: Colors.black.withValues(alpha: 0.7), blurRadius: 16, offset: const Offset(0, 8))],
+          ),
+          child: Stack(fit: StackFit.expand, children: [
+            Container(
+              decoration: BoxDecoration(border: Border.all(color: const Color(0xFF3A2A0E), width: 1.5)),
+              child: Image.asset('assets/boosters/champion.jpg',
+                  fit: BoxFit.cover,
+                  alignment: const Alignment(0, -0.35),
+                  filterQuality: FilterQuality.medium,
+                  errorBuilder: (_, _, _) => const ColoredBox(color: Colors.black)),
+            ),
+            // Vignettage et bas assombri pour la plaque
+            const DecoratedBox(
+              decoration: BoxDecoration(
+                gradient: RadialGradient(radius: 0.95, colors: [Colors.transparent, Color(0x99000000)], stops: [0.6, 1]),
+              ),
+            ),
+            const DecoratedBox(
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  begin: Alignment.topCenter,
+                  end: Alignment.bottomCenter,
+                  colors: [Colors.transparent, Color(0xCC000000)],
+                  stops: [0.7, 1],
+                ),
+              ),
+            ),
+            // Filet doré intérieur gravé
+            IgnorePointer(
+              child: Container(
+                margin: const EdgeInsets.all(5),
+                decoration: BoxDecoration(border: Border.all(color: const Color(0xAAF5D27A), width: 0.8)),
+              ),
+            ),
+          ]),
+        ),
+      ),
+      // Ornements dorés aux coins du cadre
+      for (final (x, y) in const [(left, top), (left + width, top), (left, top + height), (left + width, top + height)])
+        Positioned(
+          left: x - 9,
+          top: y - 9,
+          width: 18,
+          height: 18,
+          child: Transform.rotate(
+            angle: math.pi / 4,
+            child: Container(
+              decoration: BoxDecoration(
+                gradient: const LinearGradient(colors: [Color(0xFFFFF0B8), Color(0xFFB98A2C)]),
+                border: Border.all(color: const Color(0xFF5A4012), width: 1),
+              ),
+            ),
+          ),
+        ),
+    ];
+  }
+
+  Widget _plate() => Container(
+        padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 5),
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(3),
+          gradient: const LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: _gold),
+          border: Border.all(color: const Color(0xFF5A4012)),
+          boxShadow: [BoxShadow(color: const Color(0xFFE2B04F).withValues(alpha: 0.45), blurRadius: 14)],
+        ),
+        child: Text(caption,
+            style: const TextStyle(
+                fontFamily: kDisplayFont, fontSize: 14, fontWeight: FontWeight.w700, letterSpacing: 2.5, color: Color(0xFF1A1206))),
+      );
+}
+
+/// Corps du sachet photo : dégradé, bandes serties métal, contour.
+class _PhotoPouchPainter extends CustomPainter {
+  _PhotoPouchPainter(this.colors, this.accent, this.champion);
+  final List<Color> colors;
+  final Color accent;
+  final bool champion;
+
+  @override
+  void paint(Canvas canvas, Size size) {
+    final path = pouchPath(size);
+    final rect = Offset.zero & size;
+    canvas
+      ..drawShadow(path, Colors.black, 14, false)
+      ..drawPath(
+          path,
+          Paint()
+            ..shader = LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: colors)
+                .createShader(rect));
+    canvas
+      ..save()
+      ..clipPath(path);
+    final band = Paint()
+      ..shader = LinearGradient(
+        colors: champion
+            ? const [Color(0xFF8C6418), Color(0xFFF5D27A), Color(0xFFB98A2C), Color(0xFFFFF0B8), Color(0xFF8C6418)]
+            : [Colors.white.withValues(alpha: 0.32), Colors.white.withValues(alpha: 0.08), Colors.white.withValues(alpha: 0.28)],
+      ).createShader(rect);
+    canvas
+      ..drawRect(Rect.fromLTWH(0, 0, size.width, 34), band)
+      ..drawRect(Rect.fromLTWH(0, size.height - 34, size.width, 34), band);
+    final ridge = Paint()
+      ..color = Colors.black.withValues(alpha: champion ? 0.35 : 0.25)
+      ..strokeWidth = 1;
+    for (var x = 6.0; x < size.width; x += 5) {
+      canvas
+        ..drawLine(Offset(x, 4), Offset(x, 34), ridge)
+        ..drawLine(Offset(x, size.height - 34), Offset(x, size.height - 4), ridge);
+    }
+    canvas.restore();
+    canvas.drawPath(
+        path,
+        Paint()
+          ..style = PaintingStyle.stroke
+          ..strokeWidth = champion ? 3 : 2
+          ..color = champion ? accent.withValues(alpha: 0.9) : Colors.white.withValues(alpha: 0.35));
+  }
+
+  @override
+  bool shouldRepaint(covariant _PhotoPouchPainter old) => old.colors != colors || old.accent != accent;
 }
 
 /// Contour du sachet : corps légèrement arrondi, bandes serties crantées.

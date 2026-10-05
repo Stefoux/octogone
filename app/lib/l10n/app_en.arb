@@ -264,5 +264,7 @@
   "durationHm": "{h} h {m} min",
   "durationM": "{m} min",
   "entryCta": "ENTER THE OCTAGON",
-  "homeFeatured": "Featured collection"
+  "homeFeatured": "Featured collection",
+  "srcPackPhotos": "Booster pack photos",
+  "srcPackPhotosWho": "Official fighter photos (private use)"
 }

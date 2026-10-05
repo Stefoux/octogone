@@ -590,5 +590,7 @@
     }
   },
   "entryCta": "ENTRER DANS L’OCTOGONE",
-  "homeFeatured": "Collection en vedette"
+  "homeFeatured": "Collection en vedette",
+  "srcPackPhotos": "Photos des sachets",
+  "srcPackPhotosWho": "Photos officielles des combattants (usage privé)"
 }

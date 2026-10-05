@@ -44,6 +44,7 @@ Aucun fait n'est inventé : chaque combattant garde ses sources (`sources`, `cha
 | `fetch_images.py` | photos libres Wikimedia Commons, auteur et licence, recadrage visage/buste |
 | `build_original_editions.py` | éditions originales « Saison AAAA » (combattants ayant combattu cette année-là) |
 | `import_to_supabase.py` | envoi idempotent des JSON, des images et des boosters vers Supabase |
+| `prepare_booster_art.py` | photos des sachets : bustes recadrés d'après le visage (disposition en V) et photo du combattant phare ; déposer les originaux dans `data/images/boosters/originaux/` puis relancer |
 | `make_icon.py` | icône de l'app (Android et iOS), dessinée par script |
 | `make_sounds.py` | sons de l'app (déchirure, retournement, révélation par rareté), générés sans fichier externe |
 | `test_boosters_load.py` | simulation de boosters (probabilités) et ouvertures simultanées (numérotation) |
@@ -118,4 +119,4 @@ cd data/scripts && .venv/bin/python -m unittest test_scripts  # scripts de donn�
 
 ## Mentions
 
-Projet non officiel et non commercial. Aucun logo officiel : les noms d'éditions apparaissent en texte et les cadres de cartes sont des créations originales. Les photos proviennent de Wikimedia Commons sous licence libre ; les attributions sont affichées dans l'écran « Crédits » de l'app. Les sachets de boosters sont des visuels graphiques originaux (aucune photo de vrai paquet) et les sons sont synthétisés par `data/scripts/make_sounds.py`.
+Projet non officiel et non commercial. Aucun logo officiel : les noms d'éditions apparaissent en texte et les cadres de cartes sont des créations originales. Les photos proviennent de Wikimedia Commons sous licence libre ; les attributions sont affichées dans l'écran « Crédits » de l'app. Les sachets de boosters utilisent des photos officielles de combattants, pour un usage privé entre amis (aucune photo de vrai paquet) et les sons sont synthétisés par `data/scripts/make_sounds.py`.

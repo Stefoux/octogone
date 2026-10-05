@@ -909,4 +909,10 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get homeFeatured => 'Featured collection';
+
+  @override
+  String get srcPackPhotos => 'Booster pack photos';
+
+  @override
+  String get srcPackPhotosWho => 'Official fighter photos (private use)';
 }

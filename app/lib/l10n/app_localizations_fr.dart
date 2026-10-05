@@ -912,4 +912,11 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get homeFeatured => 'Collection en vedette';
+
+  @override
+  String get srcPackPhotos => 'Photos des sachets';
+
+  @override
+  String get srcPackPhotosWho =>
+      'Photos officielles des combattants (usage privé)';
 }
