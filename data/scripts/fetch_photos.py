@@ -49,6 +49,7 @@ MIN_SIDE = 600  # côté minimal (px) de la zone recadrée avant redimensionneme
 FACE_MATCH = 0.36  # seuil de similarité (cosinus SFace) pour « même personne »
 FACE_MATCH_NAMED = 0.28  # seuil quand la légende nomme le combattant et que ce visage se détache des autres
 FACE_MARGIN = 0.08
+MIN_FACE = 0.07  # hauteur minimale du visage, en part de la hauteur du cadre
 
 RARETES_COMBAT = ["commune", "peu_commune", "rare", "epique"]
 
@@ -58,8 +59,10 @@ ACTION = re.compile(
     r"\b(punch(es)?|kicks?|knees?|elbows?|strikes?|lands?|throws?|takes? down|takedown|grapples?|"
     r"attempts?|secures?|controls?|battles?|chokes?|submits?|slams?|clinch(es)?|wrestles?|"
     r"defends?|escapes?|dodges?|blocks?|trades?|exchanges?|works for|goes for|swings?)\b", re.I)
-CELEBRATION = re.compile(r"\b(celebrat\w*|reacts? after|reacts? to (his|her) (win|victory)|"
-                         r"victory|is declared the winner|has (his|her) hand raised)\b", re.I)
+CELEBRATION = re.compile(r"\b(celebrat\w*|victory|win\b|wins\b|defeat(ing|s)\b|is declared the winner|"
+                         r"has (his|her) hand raised|knock(ing|s)? out\b|knockout (over|against|of)\b|"
+                         r"submitting|submits\b|stopping\b|TKO (over|against|of)\b)", re.I)
+LOSS = re.compile(r"\b(loss|loses|lost|defeated by|after (his|her) defeat)\b", re.I)
 BELT = re.compile(r"\b(belt|championship title|title belt)\b", re.I)
 BELT_SCENE = re.compile(r"\b(poses?|celebrat\w*|holds?|is (presented|awarded)|receives?|with (the|his|her))\b", re.I)
 EXCLUDE = re.compile(r"\b(weighs? in|weigh-in|faces? off|face-?off|press conference|media day|portrait|"
@@ -95,9 +98,9 @@ def classify(caption: str) -> str | None:
     retenues : un texte alternatif vague ne prouve ni la scène ni le sujet."""
     if not caption or EXCLUDE.search(caption) or not re.search(r"\bduring\b.*\bUFC\b|\bUFC\b.*\bevent\b", caption):
         return None
-    if BELT.search(caption) and BELT_SCENE.search(caption):
-        return "ceinture"
-    if CELEBRATION.search(caption):
+    if BELT.search(caption) and BELT_SCENE.search(caption) and not re.search(r"\bBMF\b", caption):
+        return "ceinture"  # ceinture de champion UFC (pas la ceinture BMF)
+    if CELEBRATION.search(caption) and not LOSS.search(caption):
         return "celebration"
     if ACTION.search(caption) and re.search(r"\bfight\b|\bbout\b|\bround\b|\boctagon\b", caption, re.I):
         return "action"
@@ -143,8 +146,14 @@ def article_photos(url: str) -> list[tuple[str, str, str | None]]:
         m = re.search(r"\((?:Photo by )?([^)]*Zuffa[^)]*)\)", caption)
         if m:
             credit = m.group(1)
-        out.append((largest(src), caption, credit))
+        url = largest(src)
+        if PROMO.search(url) and not re.search(r"getty", url, re.I):
+            continue  # affiche ou visuel promo : la légende voisine ne la décrit pas
+        out.append((url, caption, credit))
     return out
+
+
+PROMO = re.compile(r"1200x1200|_ENG_|poster|EVENT-ART|key-?art|_SG_|thumbnail", re.I)
 
 
 def largest(src: str) -> str:
@@ -157,21 +166,31 @@ def largest(src: str) -> str:
 # --- Wikimedia Commons (seconde source, photos libres) -------------------------------
 
 COMMONS_API = "https://commons.wikimedia.org/w/api.php"
-C_ACTION = re.compile(r"\b(vs\.?|versus|fight(ing)?|bout|punch\w*|kick\w*|takedown|grappl\w*|strik\w*|in action)\b", re.I)
-C_CELEBRATION = re.compile(r"\b(celebrat\w*|victory|winner|wins|won|hand raised)\b", re.I)
+# Commons : descriptions libres, donc règles strictes. « Ultimate Fighting
+# Championship », « Fight Night », « World Tour »… ne prouvent pas une scène
+# de combat ; on les retire avant d'analyser.
+C_NOISE = re.compile(r"ultimate fighting championship|fight night|world tour|fight club|fighter|fighters", re.I)
+C_ACTION = re.compile(r"\b(punch\w*|kick\w*|strik(es|ing)|takedown|grappl\w*|in action|knee\w*|elbow\w*|"
+                      r"submission attempt|ground and pound)\b", re.I)
+C_CELEBRATION = re.compile(r"\b(celebrat\w*|hand raised|declared the winner)\b", re.I)
 C_BELT = re.compile(r"\b(belt|title)\b", re.I)
-C_EXCLUDE = re.compile(r"\b(weigh\w*|press|portrait|workout|face ?off|media|signing|meet|fan|seminar|interview|"
-                       r"headshot|training|gym|award|red carpet|premiere)\b", re.I)
+C_EXCLUDE = re.compile(r"\b(weigh\w*|press|portrait|workout|face ?off|media|signing|autograph\w*|meet|fans?|seminar|"
+                       r"interview|headshot|training|trains|gym|award|red carpet|premiere|poses?|posing|visit\w*|"
+                       r"camp|base|troops|marines?|army|navy|oval office|white house|foyer|tour|before|after the|"
+                       r"backstage|arriv\w*|ceremony|conference|event poster|promo\w*)\b", re.I)
 
 
 def classify_commons(text: str) -> str | None:
-    if not text or C_EXCLUDE.search(text):
+    if not text:
         return None
-    if C_BELT.search(text) and re.search(r"\bchampion|\bbelt\b", text, re.I):
+    clean = C_NOISE.sub(" ", text)
+    if C_EXCLUDE.search(clean):
+        return None
+    if C_BELT.search(clean) and re.search(r"\bchampion|\bbelt\b", clean, re.I) and C_CELEBRATION.search(clean):
         return "ceinture"
-    if C_CELEBRATION.search(text):
+    if C_CELEBRATION.search(clean):
         return "celebration"
-    if C_ACTION.search(text):
+    if C_ACTION.search(clean):
         return "action"
     return None
 
@@ -222,8 +241,8 @@ def try_commons(f: dict, wanted: list[str], ref: np.ndarray, res: Result) -> Non
             res.rejected.append(f"{kind} (Commons): visage non reconnu")
             continue
         crop = crop_card(img, scored[0][1], [b for _, b in scored[1:]])
-        if crop is None:
-            res.rejected.append(f"{kind} (Commons): résolution insuffisante")
+        if crop is None or scored[0][1][3] < crop.shape[0] * MIN_FACE:
+            res.rejected.append(f"{kind} (Commons): résolution insuffisante ou combattant trop loin")
             continue
         fichier = f"photos/{f['id']}-{kind}.webp"
         w, h = save_webp(crop, DATA / "images" / fichier)
@@ -389,28 +408,25 @@ def article_links(page: str) -> list[str]:
 
 
 def reference_face(f: dict, page: str | None) -> np.ndarray | None:
-    """Visage de référence : photo officielle de la fiche ufc.com, sinon le
-    portrait libre déjà dans l'app."""
-    candidates = []
-    if page:
-        b = BeautifulSoup(page, "lxml")
-        for img in b.select("img"):
-            src = img.get("src") or ""
-            if "athlete_bio_full_body" in src or "event_results_athlete_headshot" in src or "headshot" in src:
-                candidates.append(src if src.startswith("http") else UFC + src)
-    for url in candidates[:2]:
-        data = download(url)
-        img = decode(data) if data else None
-        if img is not None:
-            fs = faces(img)
-            if fs:
-                return max(fs, key=lambda x: x[0][2] * x[0][3])[1]
+    """Visage de référence : d'abord le portrait libre déjà dans le projet (aucun
+    accès réseau), sinon la photo officielle de la fiche ufc.com."""
     local = DATA / "images" / "fighters" / f"{f['id']}.webp"
     if local.exists():
         img = cv2.imread(str(local))
         fs = faces(img) if img is not None else []
         if fs:
             return max(fs, key=lambda x: x[0][2] * x[0][3])[1]
+    if page:
+        b = BeautifulSoup(page, "lxml")
+        for img_tag in b.select("img"):
+            src = img_tag.get("src") or ""
+            if "athlete_bio_full_body" in src or "headshot" in src:
+                data = download(src if src.startswith("http") else UFC + src)
+                img = decode(data) if data else None
+                fs = faces(img) if img is not None else []
+                if fs:
+                    return max(fs, key=lambda x: x[0][2] * x[0][3])[1]
+                break
     return None
 
 
@@ -421,7 +437,7 @@ class Result:
     rejected: list = field(default_factory=list)
 
 
-def process(f: dict, max_pages: int = 6) -> Result:
+def process(f: dict, max_pages: int = 6, skip: set[str] | None = None) -> Result:
     res = Result(f["id"])
     page = athlete_page(f)
     ref = reference_face(f, page)
@@ -430,6 +446,9 @@ def process(f: dict, max_pages: int = 6) -> Result:
         return res
     names = names_of(f)
     wanted = ["action", "celebration"] + (["ceinture"] if ever_champion(f) else [])
+    wanted = [w for w in wanted if w not in (skip or set())]
+    if not wanted:
+        return res
     if not page:
         res.rejected.append("fiche ufc.com introuvable : Commons seulement")
         try_commons(f, wanted, ref, res)
@@ -469,8 +488,18 @@ def page_url(f: dict) -> str:
     return f"{UFC}/athlete/{slug}"
 
 
+REJECTED = DATA / "images" / "photos_refusees.json"
+
+
+def rejected_urls() -> set[str]:
+    return set(json.loads(REJECTED.read_text(encoding="utf-8"))["images"]) if REJECTED.exists() else set()
+
+
 def try_photo(f: dict, kind: str, img_url: str, caption: str, credit: str | None, url: str,
               ref: np.ndarray, res: Result) -> dict | None:
+    if img_url in rejected_urls():
+        res.rejected.append(f"{kind}: refusée à la revue visuelle")
+        return None
     data = download(img_url)
     img = decode(data) if data else None
     if img is None:
@@ -488,6 +517,9 @@ def try_photo(f: dict, kind: str, img_url: str, caption: str, credit: str | None
     if crop is None:
         res.rejected.append(f"{kind}: résolution insuffisante ({img.shape[1]}×{img.shape[0]})")
         return None
+    if scored[0][1][3] < crop.shape[0] * MIN_FACE:
+        res.rejected.append(f"{kind}: combattant trop loin dans l'image")
+        return None
     fichier = f"photos/{f['id']}-{kind}.webp"
     w, h = save_webp(crop, DATA / "images" / fichier)
     return {
@@ -497,6 +529,82 @@ def try_photo(f: dict, kind: str, img_url: str, caption: str, credit: str | None
     }
 
 
+# --- Index de toutes les galeries ufc.com ------------------------------------------
+
+INDEX = CACHE / "photo_index.json"
+GALLERY_SKIP = re.compile(r"train|workout|media-day|weigh|portrait|performance-institute|behind|fan|"
+                          r"press|walkout|backstage|arrival|open-|hall-of-fame|ceremon|presser|embedded", re.I)
+
+
+def sitemap_galleries() -> list[str]:
+    root = fetch(f"{UFC}/sitemap.xml", delay=UFC_DELAY) or ""
+    out: set[str] = set()
+    for page in re.findall(r"<loc>([^<]+)</loc>", root):
+        xml = fetch(page.replace("&amp;", "&"), delay=UFC_DELAY) or ""
+        out.update(u for u in re.findall(r"<loc>([^<]+)</loc>", xml) if "/gallery/" in u)
+    return sorted(out)
+
+
+def build_index(limit: int | None = None) -> dict:
+    """Lit chaque galerie d'événement une fois et garde les photos de combat,
+    de célébration et de ceinture (légende d'agence complète)."""
+    idx = json.loads(INDEX.read_text(encoding="utf-8")) if INDEX.exists() else {"galeries": {}, "photos": []}
+    galleries = [g for g in sitemap_galleries() if not GALLERY_SKIP.search(g.rsplit("/", 1)[-1])]
+    todo = [g for g in galleries if g not in idx["galeries"]]
+    if limit:
+        todo = todo[:limit]  # par passages : chaque lancement reste court, l'index reprend où il en était
+    print(f"{len(galleries)} galeries d'événements, {len(todo)} à lire", flush=True)
+    for i, g in enumerate(todo, 1):
+        n = 0
+        for img_url, caption, credit in article_photos(g):
+            kind = classify(caption)
+            if kind:
+                idx["photos"].append({"galerie": g, "image": img_url, "legende": caption, "credit": credit, "type": kind})
+                n += 1
+        idx["galeries"][g] = n
+        if i % 10 == 0 or i == len(todo):
+            INDEX.write_text(json.dumps(idx, ensure_ascii=False) + "\n", encoding="utf-8")
+            print(f"  {i}/{len(todo)} galeries, {len(idx['photos'])} photos utiles", flush=True)
+    return idx
+
+
+def image_date(url: str) -> str:
+    m = re.search(r"/images/(?:image/)?(\d{4}-\d{2})/", url)
+    return m.group(1) if m else "0000-00"
+
+
+def process_indexed(f: dict, idx: dict, skip: set[str] | None = None) -> Result:
+    """Comme process(), mais en piochant dans l'index des galeries (photos les
+    plus récentes d'abord), puis dans Commons pour ce qui manque."""
+    res = Result(f["id"])
+    page = athlete_page(f)
+    ref = reference_face(f, page)
+    if ref is None:
+        res.rejected.append("aucun visage de référence (ni fiche ufc.com ni portrait)")
+        return res
+    names = names_of(f)
+    wanted = ["action", "celebration"] + (["ceinture"] if ever_champion(f) else [])
+    wanted = [w for w in wanted if w not in (skip or set())]
+    if not wanted:
+        return res
+    mine = sorted((p for p in idx["photos"] if p["type"] in wanted and subject_is(p["legende"], names)),
+                  key=lambda p: image_date(p["image"]), reverse=True)
+    tried: dict[str, int] = {}
+    for p in mine:
+        kind = p["type"]
+        if kind in res.photos or tried.get(kind, 0) >= 4:
+            continue
+        tried[kind] = tried.get(kind, 0) + 1
+        entry = try_photo(f, kind, p["image"], p["legende"], p.get("credit"), p["galerie"], ref, res)
+        if entry:
+            res.photos[kind] = entry
+        if all(t in res.photos for t in wanted):
+            break
+    if not all(t in res.photos for t in wanted):
+        try_commons(f, wanted, ref, res)
+    return res
+
+
 def raretes_for(kind: str, f: dict, photos: dict, belt_legendary: set[str]) -> list[str]:
     """Raretés illustrées par une photo, selon les règles validées :
     combat jusqu'à Épique (la célébration le remplace s'il manque) ;
@@ -504,7 +612,16 @@ def raretes_for(kind: str, f: dict, photos: dict, belt_legendary: set[str]) -> l
     Mythique = ceinture si déjà champion, sinon célébration."""
     champ = ever_champion(f)
     if kind == "action":
-        return list(RARETES_COMBAT)
+        r = list(RARETES_COMBAT)
+        # Image provisoire : sans célébration ni ceinture ni portrait, la photo de
+        # combat évite une silhouette sur les Légendaire et Mythique
+        portrait = (DATA / "images" / "fighters" / f"{f['id']}.webp").exists()
+        if not portrait and "celebration" not in photos:
+            if "ceinture" not in photos:
+                r += ["legendaire", "mythique"]
+            elif f["id"] not in belt_legendary:
+                r += ["legendaire"]
+        return r
     if kind == "ceinture":
         r = ["mythique"] if champ else []
         if f["id"] in belt_legendary:
@@ -526,18 +643,50 @@ def main() -> None:
     ap.add_argument("--combattants", nargs="*", default=[])
     ap.add_argument("--tous", action="store_true")
     ap.add_argument("--test-legendes", action="store_true")
+    ap.add_argument("--index", action="store_true", help="construire l'index des galeries ufc.com")
+    ap.add_argument("--depuis-index", action="store_true", help="choisir les photos dans l'index")
+    ap.add_argument("--max", type=int, default=None, help="nombre maximal de galeries (ou de combattants) par passage")
+    ap.add_argument("--manquants", action="store_true",
+                    help="refaire depuis l'index les combattants à qui il manque une photo (types manquants seulement)")
+    ap.add_argument("--complement", action="store_true",
+                    help="second passage : articles ufc.com pour les combattants à qui il manque une photo")
     args = ap.parse_args()
     if args.test_legendes:
         return test_legendes()
+    if args.index:
+        build_index(args.max)
+        return
+    idx = json.loads(INDEX.read_text(encoding="utf-8")) if args.depuis_index else None
     fighters = load_fighters()
     ids = list(fighters) if args.tous else args.combattants
     meta = json.loads(META.read_text(encoding="utf-8")) if META.exists() else {"photos": [], "manquantes": {}}
+    meta.setdefault("traites", [])
+    if args.tous and args.depuis_index:
+        # Par passages : on reprend après les combattants déjà traités
+        ids = [i for i in ids if i not in meta["traites"]]
+        if args.max:
+            ids = ids[:args.max]
+    if args.manquants:
+        have_any = {p["fighter_id"] for p in meta["photos"]}
+        ids = [i for i in fighters if i in meta.get("manquantes", {}) or i not in have_any]
+    if args.complement:
+        meta.setdefault("complement", [])
+        ids = [i for i in meta.get("manquantes", {}) if i not in meta["complement"]]
+        if args.max:
+            ids = ids[:args.max]
     by_key = {(p["fighter_id"], p["type"]): p for p in meta["photos"]}
     belt_path = DATA / "images" / "ceinture_legendaire.json"
     belt_legendary = set(json.loads(belt_path.read_text(encoding="utf-8"))["combattants"]) if belt_path.exists() else set()
     for i, fid in enumerate(ids, 1):
         f = fighters[fid]
-        res = process(f)
+        if args.complement:
+            have = {k for (x, k) in by_key if x == fid}
+            res = process(f, max_pages=2, skip=have)
+        elif args.manquants:
+            have = {k for (x, k) in by_key if x == fid}
+            res = process_indexed(f, idx, skip=have)
+        else:
+            res = process_indexed(f, idx) if idx is not None else process(f)
         for kind, entry in res.photos.items():
             by_key[(fid, kind)] = entry
         have = {k for (x, k) in by_key if x == fid}
@@ -553,6 +702,10 @@ def main() -> None:
         photos_f = {k: v for (x, k), v in by_key.items() if x == fid}
         for k, v in photos_f.items():
             v["raretes"] = raretes_for(k, f, photos_f, belt_legendary)
+        if idx is not None and fid not in meta["traites"]:
+            meta["traites"].append(fid)
+        if args.complement and fid not in meta["complement"]:
+            meta["complement"].append(fid)
         meta["photos"] = sorted(by_key.values(), key=lambda p: (p["fighter_id"], p["type"]))
         META.write_text(json.dumps(meta, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 

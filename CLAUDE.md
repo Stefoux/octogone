@@ -16,7 +16,8 @@ Jeu mobile de cartes de combattants (collection, boosters, combat tactique), Flu
 
 - Données réelles uniquement. Chaque fait garde sa source ; ce qui n'est pas trouvé va dans `a_verifier`. Ne rien inventer.
 - Photos des combattants : Wikimedia Commons, avec auteur et licence (écran Crédits).
-- Pas de logo officiel UFC / Topps sur les cartes. Exception décidée par l'utilisateur : les photos officielles des sachets de boosters (`data/images/boosters/`), pour l'usage privé.
+- Pas de logo officiel UFC / Topps dessiné par l'app. Photos officielles autorisées par l'utilisateur pour l'usage privé : sachets de boosters (`data/images/boosters/`) et photos de cartes selon la rareté (`data/images/photos/`, `data/scripts/fetch_photos.py`).
+- Photos de cartes : combat (Commune → Épique), célébration après victoire (Légendaire ; ceinture pour la liste `data/images/ceinture_legendaire.json`), ceinture si déjà champion sinon célébration (Mythique). Chaque photo est vérifiée par sa légende d'agence ET la reconnaissance faciale, puis revue visuellement ; les refus vont dans `data/images/photos_refusees.json`. Ne jamais retirer un filigrane. Respecter le crawl-delay de 15 s de ufc.com ; ne pas utiliser les sites qui interdisent les agents d'IA (mmafighting, mmajunkie).
 - UFCStats est protégé par une vérification anti-robot : ne pas la contourner, utiliser ufc.com.
 
 ## Commandes
@@ -48,7 +49,7 @@ cd data/scripts && .venv/bin/python -m unittest test_scripts
 - `app/lib/widgets/` : fonds animés (`ArenaBackground`, `RarityBackdrop`), octogone, inclinaison.
 - `packages/game_core/` : règles en Dart pur, compilables en JS pour le serveur.
 - `supabase/migrations/` et `supabase/tests/database/` : schéma, RLS, fonctions, tests.
-- `data/` : JSON sourcés et scripts Python (import, sons, icône, photos des sachets).
+- `data/` : JSON sourcés et scripts Python (import, sons, icône, photos des sachets, photos de cartes, roster élargi `editions/_ajouts_saison_2026.json`).
 
 ## Roadmap
 

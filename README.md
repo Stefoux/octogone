@@ -44,6 +44,8 @@ Aucun fait n'est inventé : chaque combattant garde ses sources (`sources`, `cha
 | `fetch_images.py` | photos libres Wikimedia Commons, auteur et licence, recadrage visage/buste |
 | `build_original_editions.py` | éditions originales « Saison AAAA » (combattants ayant combattu cette année-là) |
 | `import_to_supabase.py` | envoi idempotent des JSON, des images et des boosters vers Supabase |
+| `fetch_photos.py` | photos de cartes selon la rareté (galeries et articles ufc.com, Wikimedia Commons) : `--index` puis `--tous --depuis-index`, `--manquants`, `--complement` ; vérification par légende et reconnaissance faciale |
+| `completer_roster.py` | nationalité et sexe des fiches sans Wikidata (liste Wikipedia des combattants UFC actuels) |
 | `prepare_booster_art.py` | photos des sachets : bustes recadrés d'après le visage (disposition en V) et photo du combattant phare ; déposer les originaux dans `data/images/boosters/originaux/` puis relancer |
 | `make_icon.py` | icône de l'app (Android et iOS), dessinée par script |
 | `make_sounds.py` | sons de l'app (déchirure, retournement, révélation par rareté), générés sans fichier externe |

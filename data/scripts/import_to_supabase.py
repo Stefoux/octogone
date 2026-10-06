@@ -188,6 +188,9 @@ def edition_rows(e: dict, known_fighters: set[str], aliases: dict, ordre: int):
                 "sources": [s["source"]] if s.get("source") else [],
                 "a_verifier": [f"combattant absent : {m}" for m in missing],
             })
+    # Réactive une ligne retirée lors d'un import précédent (identifiant réutilisé)
+    for row in [edition, *series, *cards, *variants]:
+        row["deleted"] = False
     return edition, series, cards, variants
 
 

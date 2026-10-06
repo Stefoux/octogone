@@ -3,7 +3,17 @@
 Chaque version publiée a sa release GitHub avec les APK Android (`scripts/release_android.sh`).
 Le texte d'une section sert de notes à la release correspondante.
 
-## 0.3.5
+## 0.3.6
+
+Combattants
+- 84 nouveaux combattants : tous les classés UFC qui manquaient (top 15 de chaque catégorie, hommes et femmes), les Français sous contrat (Benoît Saint-Denis, Salahdine Parnasse, Nora Cornolle, Farès Ziam, Morgan Charrière, Oumar Sy…), Michael « Venom » Page, Reinier de Ridder et Francis Ngannou.
+- Saison 2026 passe à 213 cartes (numéros 130 à 213 pour les nouveaux ; les cartes existantes gardent leur numéro).
+- 11 anciens champions UFC sont désormais reconnus comme tels (Khabib, Oliveira, Błachowicz…) : ils ont accès à la Légendaire Ceinture d'Or.
+
+Photos des cartes
+- Photos officielles selon la rareté : en combat de la Commune à l'Épique, célébration après une victoire pour la Légendaire, ceinture ou célébration de titre pour les champions.
+- 450 photos vérifiées (légende d'agence, reconnaissance faciale, revue visuelle), recadrées au format carte, 52 Ko en moyenne.
+
 
 Économie (fin de la phase 3)
 - Menu : l'icône Profil de la barre du bas devient un menu qui glisse de la droite, avec Compte, Boutique et ton solde de pièces et de fragments.

@@ -1,0 +1,7 @@
+{
+  "_doc": "Photos écartées à la revue visuelle (combattant trop loin, mauvaise ceinture…) : fetch_photos.py ne les reprend jamais.",
+  "images": [
+    "https://ufc.com/images/2022-06/061822-Rodrigues-Walkoff-Knockout-UFC-Fight-Night-Kattar-Emmett.jpg",
+    "https://ufc.com/images/2024-04/GettyImages-2148564266.jpg"
+  ]
+}
