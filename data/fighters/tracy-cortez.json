@@ -96,6 +96,11 @@
       "date": "July 30, 2019",
       "resultat": "Win",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "mouche_f",
+      "rang": 9,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -109,7 +114,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Tracy_Cortez",
     "wikidata": "https://www.wikidata.org/wiki/Q61983615",
-    "ufc_com": "https://www.ufc.com/athlete/tracy-cortez"
+    "ufc_com": "https://www.ufc.com/athlete/tracy-cortez",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

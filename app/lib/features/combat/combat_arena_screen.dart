@@ -13,6 +13,7 @@ import '../../core/sounds.dart';
 import '../../core/theme.dart';
 import '../../widgets/fighter_widgets.dart';
 import '../cards/tactic_style.dart';
+import 'combat_modes.dart';
 import 'combat_session.dart';
 import 'combat_text.dart';
 import 'submission_game.dart';
@@ -79,6 +80,18 @@ class _CombatArenaScreenState extends ConsumerState<CombatArenaScreen> {
 
   SoundFx get _fx => ref.read(soundFxProvider);
 
+  /// Résultat rendu au mode qui a lancé le combat.
+  CombatOutcome? get _outcome {
+    final c = _c;
+    if (c == null || !c.finished) return null;
+    return CombatOutcome(
+      won: c.playerWon,
+      method: c.result?.method,
+      round: c.result?.round ?? c.engine.round,
+      gaveUp: c.gaveUp,
+    );
+  }
+
   // --- Minuteur ---------------------------------------------------------------
 
   void _startTimer() {
@@ -140,7 +153,7 @@ class _CombatArenaScreenState extends ConsumerState<CombatArenaScreen> {
     final l = context.l10n;
     final c = _c;
     if (c == null || c.finished) {
-      context.pop();
+      context.pop(_outcome);
       return;
     }
     final ok = await showDialog<bool>(
@@ -249,59 +262,71 @@ class _CombatArenaScreenState extends ConsumerState<CombatArenaScreen> {
   Widget build(BuildContext context) {
     final c = _c;
     if (c == null) {
-      return const Scaffold(backgroundColor: Colors.transparent, body: Center(child: CircularProgressIndicator()));
+      return const Scaffold(
+        backgroundColor: Colors.transparent,
+        body: Center(child: CircularProgressIndicator()),
+      );
     }
     return ListenableBuilder(
       listenable: c,
-      builder: (context, _) => Scaffold(
-        backgroundColor: Colors.transparent,
-        body: SafeArea(
-          child: Stack(
-            children: [
-              Column(
-                children: [
-                  _TopBar(c: c, onQuit: _quit, timerLeft: widget.setup.timer && !_busy && !c.finished ? _left : null),
-                  _FaceOff(c: c, hits: _hits, flash: _flash),
-                  Expanded(
-                    child: _Center(c: c, lines: _lines, reveal: _reveal),
-                  ),
-                  if (widget.setup.tactics.isNotEmpty)
-                    _TacticBar(c: c, tactics: widget.setup.tactics, enabled: !_busy, onUse: _onTactic),
-                  _Controls(c: c, mode: widget.setup.control, enabled: !_busy && !c.finished, onAction: _onAction),
-                ],
-              ),
-              if (_banner != null)
-                Center(
-                  key: ValueKey('banner-$_bannerId'),
-                  child:
-                      Text(
-                            _banner!,
-                            textAlign: TextAlign.center,
-                            style: const TextStyle(
-                              fontFamily: kDisplayFont,
-                              fontSize: 58,
-                              fontWeight: FontWeight.w700,
-                              letterSpacing: 3,
-                              color: AppColors.gold,
-                              shadows: [
-                                Shadow(color: Colors.black, blurRadius: 18),
-                                Shadow(color: AppColors.crimson, blurRadius: 30),
-                              ],
-                            ),
-                          )
-                          .animate()
-                          .scaleXY(begin: 2.2, end: 1, duration: 380.ms, curve: Curves.easeOutBack)
-                          .fadeIn(duration: 200.ms),
+      // Retour système pendant le combat : comme un abandon (avec confirmation)
+      builder: (context, _) => PopScope(
+        canPop: c.finished && _showResult,
+        onPopInvokedWithResult: (didPop, _) {
+          if (!didPop) _quit();
+        },
+        child: Scaffold(
+          backgroundColor: Colors.transparent,
+          body: SafeArea(
+            child: Stack(
+              children: [
+                Column(
+                  children: [
+                    _TopBar(c: c, onQuit: _quit, timerLeft: widget.setup.timer && !_busy && !c.finished ? _left : null),
+                    _FaceOff(c: c, hits: _hits, flash: _flash),
+                    Expanded(
+                      child: _Center(c: c, lines: _lines, reveal: _reveal),
+                    ),
+                    if (widget.setup.tactics.isNotEmpty)
+                      _TacticBar(c: c, tactics: widget.setup.tactics, enabled: !_busy, onUse: _onTactic),
+                    _Controls(c: c, mode: widget.setup.control, enabled: !_busy && !c.finished, onAction: _onAction),
+                  ],
                 ),
-              if (_showResult)
-                Positioned.fill(
-                  child: _ResultPanel(
-                    c: c,
-                    onRematch: () => context.pushReplacement('/arene', extra: widget.setup.rematch()),
-                    onBack: () => context.pop(),
+                if (_banner != null)
+                  Center(
+                    key: ValueKey('banner-$_bannerId'),
+                    child:
+                        Text(
+                              _banner!,
+                              textAlign: TextAlign.center,
+                              style: const TextStyle(
+                                fontFamily: kDisplayFont,
+                                fontSize: 58,
+                                fontWeight: FontWeight.w700,
+                                letterSpacing: 3,
+                                color: AppColors.gold,
+                                shadows: [
+                                  Shadow(color: Colors.black, blurRadius: 18),
+                                  Shadow(color: AppColors.crimson, blurRadius: 30),
+                                ],
+                              ),
+                            )
+                            .animate()
+                            .scaleXY(begin: 2.2, end: 1, duration: 380.ms, curve: Curves.easeOutBack)
+                            .fadeIn(duration: 200.ms),
                   ),
-                ),
-            ],
+                if (_showResult)
+                  Positioned.fill(
+                    child: _ResultPanel(
+                      c: c,
+                      onRematch: widget.setup.allowRematch
+                          ? () => context.pushReplacement('/arene', extra: widget.setup.rematch())
+                          : null,
+                      onBack: () => context.pop(_outcome),
+                    ),
+                  ),
+              ],
+            ),
           ),
         ),
       ),
@@ -340,6 +365,11 @@ class _TopBar extends StatelessWidget {
                     fontWeight: FontWeight.w700,
                   ),
                 ),
+                if (c.setup.modeLabel != null)
+                  Text(
+                    c.setup.modeLabel!.toUpperCase(),
+                    style: const TextStyle(fontSize: 11, letterSpacing: 1.4, color: AppColors.gold),
+                  ),
                 Text(
                   '${l.combatExchange(math.min(e.exchange, c.setup.config.exchangesPerRound), c.setup.config.exchangesPerRound)}'
                   ' · ${stanceLabel(l, e.stanceOf(0))}',
@@ -906,7 +936,9 @@ class _ActionWheel extends StatelessWidget {
 class _ResultPanel extends StatelessWidget {
   const _ResultPanel({required this.c, required this.onRematch, required this.onBack});
   final CombatController c;
-  final VoidCallback onRematch;
+
+  /// Revanche (combat rapide) ; null dans un mode, où « Continuer » rend le résultat.
+  final VoidCallback? onRematch;
   final VoidCallback onBack;
 
   @override
@@ -963,20 +995,28 @@ class _ResultPanel extends StatelessWidget {
               _Scorecards(result: r),
             ],
             const SizedBox(height: 28),
-            FilledButton.icon(
-              key: const Key('combat-rematch'),
-              style: FilledButton.styleFrom(minimumSize: const Size.fromHeight(50)),
-              onPressed: onRematch,
-              icon: const Icon(Icons.replay),
-              label: Text(l.combatRematch),
-            ),
-            const SizedBox(height: 10),
-            OutlinedButton(
-              key: const Key('combat-back'),
-              style: OutlinedButton.styleFrom(minimumSize: const Size.fromHeight(48)),
-              onPressed: onBack,
-              child: Text(l.combatBack),
-            ),
+            if (onRematch != null) ...[
+              FilledButton.icon(
+                key: const Key('combat-rematch'),
+                style: FilledButton.styleFrom(minimumSize: const Size.fromHeight(50)),
+                onPressed: onRematch,
+                icon: const Icon(Icons.replay),
+                label: Text(l.combatRematch),
+              ),
+              const SizedBox(height: 10),
+              OutlinedButton(
+                key: const Key('combat-back'),
+                style: OutlinedButton.styleFrom(minimumSize: const Size.fromHeight(48)),
+                onPressed: onBack,
+                child: Text(l.combatBack),
+              ),
+            ] else
+              FilledButton(
+                key: const Key('combat-continue'),
+                style: FilledButton.styleFrom(minimumSize: const Size.fromHeight(50)),
+                onPressed: onBack,
+                child: Text(l.modeContinue),
+              ),
           ],
         ),
       ),

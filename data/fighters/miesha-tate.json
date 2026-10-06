@@ -115,6 +115,11 @@
       "date": "April 13, 2013",
       "resultat": "Loss",
       "methode": "TKO (knees and elbow)"
+    },
+    "classement": {
+      "categorie": "coq_f",
+      "rang": 14,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -251,7 +256,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Miesha_Tate",
     "wikidata": "https://www.wikidata.org/wiki/Q1138101",
-    "ufc_com": "https://www.ufc.com/athlete/miesha-tate"
+    "ufc_com": "https://www.ufc.com/athlete/miesha-tate",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

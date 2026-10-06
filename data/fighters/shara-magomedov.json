@@ -103,6 +103,11 @@
       "date": "October 21, 2023",
       "resultat": "Win",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "moyens",
+      "rang": 15,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -161,7 +166,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Sharabutdin_Magomedov",
     "wikidata": "https://www.wikidata.org/wiki/Q123384660",
-    "ufc_com": "https://www.ufc.com/athlete/shara-magomedov"
+    "ufc_com": "https://www.ufc.com/athlete/shara-magomedov",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

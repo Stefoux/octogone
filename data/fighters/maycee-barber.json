@@ -97,6 +97,11 @@
       "date": "July 13, 2018",
       "resultat": "Win",
       "methode": "TKO (elbows)"
+    },
+    "classement": {
+      "categorie": "mouche_f",
+      "rang": 6,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -143,7 +148,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Maycee_Barber",
     "wikidata": "https://www.wikidata.org/wiki/Q58454724",
-    "ufc_com": "https://www.ufc.com/athlete/maycee-barber"
+    "ufc_com": "https://www.ufc.com/athlete/maycee-barber",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

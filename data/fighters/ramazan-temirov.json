@@ -38,7 +38,13 @@
     "frappes_reussies": 105.0,
     "takedowns_reussis": 0
   },
-  "ufc": {},
+  "ufc": {
+    "classement": {
+      "categorie": "mouche",
+      "rang": 10,
+      "date": "2026-10-05"
+    }
+  },
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [],
@@ -48,7 +54,8 @@
   },
   "image_commons": null,
   "sources": {
-    "ufc_com": "https://www.ufc.com/athlete/ramazan-temirov"
+    "ufc_com": "https://www.ufc.com/athlete/ramazan-temirov",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

@@ -107,6 +107,11 @@
       "date": "July 16, 2019",
       "resultat": "Win",
       "methode": "Submission (rear-naked choke)"
+    },
+    "classement": {
+      "categorie": "moyens",
+      "rang": 4,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -175,7 +180,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Brendan_Allen",
     "wikidata": "https://www.wikidata.org/wiki/Q96694248",
-    "ufc_com": "https://www.ufc.com/athlete/brendan-allen"
+    "ufc_com": "https://www.ufc.com/athlete/brendan-allen",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

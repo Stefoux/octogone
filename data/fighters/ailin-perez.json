@@ -38,7 +38,13 @@
     "frappes_reussies": 293.0,
     "takedowns_reussis": 1.0
   },
-  "ufc": {},
+  "ufc": {
+    "classement": {
+      "categorie": "coq_f",
+      "rang": 3,
+      "date": "2026-10-05"
+    }
+  },
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [],
@@ -48,7 +54,8 @@
   },
   "image_commons": null,
   "sources": {
-    "ufc_com": "https://www.ufc.com/athlete/ailin-perez"
+    "ufc_com": "https://www.ufc.com/athlete/ailin-perez",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

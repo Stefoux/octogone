@@ -135,6 +135,11 @@
       "date": "August 1, 2010",
       "resultat": "Win",
       "methode": "Submission (triangle armbar)"
+    },
+    "classement": {
+      "categorie": "legers",
+      "rang": 3,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -455,7 +460,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Charles_Oliveira",
     "wikidata": "https://www.wikidata.org/wiki/Q5081361",
-    "ufc_com": "https://www.ufc.com/athlete/charles-oliveira"
+    "ufc_com": "https://www.ufc.com/athlete/charles-oliveira",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

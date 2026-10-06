@@ -94,6 +94,11 @@
       "date": "September 14, 2021",
       "resultat": "Win",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "mouche_f",
+      "rang": 7,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -148,7 +153,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Jasmine_Jasudavicius",
     "wikidata": "https://www.wikidata.org/wiki/Q128115823",
-    "ufc_com": "https://www.ufc.com/athlete/jasmine-jasudavicius"
+    "ufc_com": "https://www.ufc.com/athlete/jasmine-jasudavicius",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",

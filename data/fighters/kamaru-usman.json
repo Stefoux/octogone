@@ -159,6 +159,11 @@
       "date": "July 12, 2015",
       "resultat": "Win",
       "methode": "Submission (arm-triangle choke)"
+    },
+    "classement": {
+      "categorie": "mi_moyens",
+      "rang": 9,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -443,7 +448,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Kamaru_Usman",
     "wikidata": "https://www.wikidata.org/wiki/Q21290332",
-    "ufc_com": "https://www.ufc.com/athlete/kamaru-usman"
+    "ufc_com": "https://www.ufc.com/athlete/kamaru-usman",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

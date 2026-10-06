@@ -90,6 +90,11 @@
       "date": "August 16, 2025",
       "resultat": "Loss",
       "methode": "KO (spinning back elbow)"
+    },
+    "classement": {
+      "categorie": "plume",
+      "rang": 11,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -168,7 +173,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Aaron_Pico",
     "wikidata": "https://www.wikidata.org/wiki/Q18786737",
-    "ufc_com": "https://www.ufc.com/athlete/aaron-pico"
+    "ufc_com": "https://www.ufc.com/athlete/aaron-pico",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

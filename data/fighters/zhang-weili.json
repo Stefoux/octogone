@@ -145,6 +145,11 @@
       "date": "August 4, 2018",
       "resultat": "Win",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "paille_f",
+      "rang": 1,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -469,7 +474,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Zhang_Weili",
     "wikidata": "https://www.wikidata.org/wiki/Q61949317",
-    "ufc_com": "https://www.ufc.com/athlete/zhang-weili"
+    "ufc_com": "https://www.ufc.com/athlete/zhang-weili",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

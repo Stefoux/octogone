@@ -92,6 +92,11 @@
       "date": "June 10, 2023",
       "resultat": "Win",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "mouche",
+      "rang": 12,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -130,7 +135,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Steve_Erceg",
     "wikidata": "https://www.wikidata.org/wiki/Q121354731",
-    "ufc_com": "https://www.ufc.com/athlete/steve-erceg"
+    "ufc_com": "https://www.ufc.com/athlete/steve-erceg",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

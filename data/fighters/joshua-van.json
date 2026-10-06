@@ -130,6 +130,11 @@
       "date": "June 24, 2023",
       "resultat": "Win",
       "methode": "Decision (split)"
+    },
+    "classement": {
+      "categorie": "mouche",
+      "rang": 0,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": true,
@@ -435,7 +440,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Joshua_Van",
     "wikidata": "https://www.wikidata.org/wiki/Q131411649",
-    "ufc_com": "https://www.ufc.com/athlete/joshua-van"
+    "ufc_com": "https://www.ufc.com/athlete/joshua-van",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

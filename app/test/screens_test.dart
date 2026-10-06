@@ -1,10 +1,12 @@
+import 'dart:convert';
+
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_riverpod/misc.dart' show Override;
 import 'package:flutter_test/flutter_test.dart';
 import 'package:game_core/game_core.dart'
-    show AiLevel, CombatAction, CombatEvent, CombatFormat, Rarity, Stance, TacticCard, TacticKind;
+    show AiLevel, CombatAction, CombatEvent, CombatFormat, FinishMethod, Rarity, Stance, TacticCard, TacticKind;
 import 'package:octogone/core/l10n.dart';
 import 'package:octogone/core/sounds.dart';
 import 'package:octogone/core/theme.dart';
@@ -17,6 +19,11 @@ import 'package:octogone/features/boosters/booster_service.dart';
 import 'package:octogone/features/boosters/opening_screen.dart';
 import 'package:octogone/features/cards/card_back.dart';
 import 'package:octogone/features/combat/combat_arena_screen.dart';
+import 'package:octogone/features/combat/combat_modes.dart';
+import 'package:octogone/features/combat/rivalries_screen.dart';
+import 'package:octogone/features/combat/route_screen.dart';
+import 'package:octogone/features/combat/soiree_screen.dart';
+import 'package:octogone/core/techniques.dart';
 import 'package:octogone/features/combat/combat_screen.dart';
 import 'package:octogone/features/combat/combat_session.dart';
 import 'package:octogone/features/combat/combat_setup_screen.dart';
@@ -118,7 +125,12 @@ final _owned = [
   OwnedCard({'id': 'o1', 'card_id': 'ed:1', 'variant_id': 'ed:BASE:gold-refractor', 'numero_serie': 12, 'tirage': 50, 'origine': 'booster'}),
 ];
 
-List<Override> _overrides({List<OwnedCard>? owned, Map<String, ImageRef>? images, List<Fighter>? fighters}) => [
+List<Override> _overrides({
+  List<OwnedCard>? owned,
+  Map<String, ImageRef>? images,
+  List<Fighter>? fighters,
+  List<Rivalry> rivalries = const [],
+}) => [
       fightersProvider.overrideWith((ref) => Stream.value(fighters ?? _fighters)),
       imagesProvider.overrideWith((ref) => Stream.value(images ?? const <String, ImageRef>{})),
       editionsProvider.overrideWith((ref) => Stream.value([_edition])),
@@ -129,7 +141,7 @@ List<Override> _overrides({List<OwnedCard>? owned, Map<String, ImageRef>? images
       allCardsProvider.overrideWith((ref) => Stream.value({for (final c in _cards) c.id: c})),
       allSeriesProvider.overrideWith((ref) => Stream.value({_series.id: _series})),
       allVariantsProvider.overrideWith((ref) => Stream.value(_variants)),
-      rivalriesProvider.overrideWith((ref) => Stream.value(const <Rivalry>[])),
+      rivalriesProvider.overrideWith((ref) => Stream.value(rivalries)),
       eventsProvider.overrideWith((ref) => Stream.value(const <String, EventInfo>{})),
       ownedCardsProvider.overrideWith((ref) => Stream.value(owned ?? _owned)),
       holoProgramProvider.overrideWith((ref) async => null),
@@ -1111,7 +1123,9 @@ void main() {
     await tester.pump(const Duration(seconds: 1));
     expect(find.text('COMBAT RAPIDE'), findsOneWidget);
     expect(find.text('ROUTE VERS LA CEINTURE'), findsOneWidget);
-    expect(find.text('Bientôt'), findsNWidgets(3));
+    expect(find.text('SOIRÉE'), findsOneWidget);
+    expect(find.text('SCÉNARIOS'), findsOneWidget);
+    expect(find.text('Bientôt'), findsNothing);
     await tester.pumpWidget(const SizedBox());
   });
 
@@ -1255,5 +1269,116 @@ void main() {
     final l = lookupAppLocalizations(const Locale('fr'));
     expect(eventText(l, const CombatEvent('knockdown', side: 1), ['Pereira', 'Prochazka']), 'Prochazka envoie Pereira au tapis !');
     expect(actionName(l, CombatAction.seRelever, Stance.clinch), 'Se dégager');
+  });
+
+  // --- Modes de jeu -------------------------------------------------------------
+
+  Fighter ranked(String id, String nom, int rang, {String cat = 'mi_lourds'}) => Fighter({
+        ..._fighterJson(id, nom, categorie: cat),
+        'ufc': {
+          'classement': {'categorie': cat, 'rang': rang, 'date': '2026-10-05'},
+        },
+      });
+
+  test('Route vers la ceinture : n°15, 10, 5, 3, 1 puis le champion, jamais soi-même', () {
+    final all = [for (var r = 0; r <= 15; r++) ranked('f$r', 'Classé $r', r)];
+    final outsider = _fighters.first; // Alex Pereira, mi-lourds, non classé ici
+    final rungs = buildRoute(all, outsider, Rarity.rare);
+    expect([for (final x in rungs) x.rank], [15, 10, 5, 3, 1, 0]);
+    expect(rungs.last.title, isTrue);
+    expect([for (final x in rungs) x.rarity], [Rarity.peuCommune, Rarity.peuCommune, Rarity.rare, Rarity.rare, Rarity.epique, Rarity.epique]);
+
+    final number10 = all[10];
+    expect([for (final x in buildRoute(all, number10, Rarity.rare)) x.rank], [15, 11, 5, 3, 1, 0]);
+    final champion = all[0];
+    expect([for (final x in buildRoute(all, champion, Rarity.rare)) x.rank], [15, 10, 5, 3, 1, 2]); // défense du titre
+
+    expect(buildRoute(all, _fighters[1], Rarity.rare), isEmpty, reason: 'pas de classement chez les mouches (F) ici');
+  });
+
+  test('Route : une défaite renvoie au début ; Soirée : 5 combats, bilan', () {
+    const route = RouteState(owned: 'o1', ladder: ['a', 'b', 'c', 'd', 'e', 'f'], rarities: [Rarity.commune, Rarity.commune, Rarity.commune, Rarity.commune, Rarity.commune, Rarity.commune], level: AiLevel.normal, format: CombatFormat.court, step: 3);
+    expect(route.after(const CombatOutcome(won: true)).step, 4);
+    final lost = route.after(const CombatOutcome(won: false));
+    expect((lost.step, lost.lastLost), (0, true));
+    expect(RouteState.fromJson(lost.toJson())!.toJson(), lost.toJson());
+    var soiree = const SoireeState(owned: ['1', '2', '3', '4', '5'], opponents: ['a', 'b', 'c', 'd', 'e']);
+    for (final w in [true, false, true, null, true]) {
+      soiree = soiree.record(CombatOutcome(won: w, method: FinishMethod.ko, round: 2));
+    }
+    expect((soiree.done, soiree.wins), (true, 3));
+    expect(SoireeState.fromJson(soiree.toJson())!.wins, 3);
+  });
+
+  test('Méthode d’un vrai combat dans la langue de l’app', () {
+    expect(fightMethodLabel('Submission (rear-naked choke)', 'fr'), 'Soumission (Étranglement arrière)');
+    expect(fightMethodLabel('Decision (unanimous)', 'fr'), 'Décision (unanime)');
+    expect(fightMethodLabel('TKO (doctor stoppage)', 'en'), 'TKO (doctor stoppage)');
+    expect(fightMethodLabel('Draw (majority)', 'fr'), 'Match nul (majoritaire)');
+    expect(fightMethodLabel('KO', 'fr'), 'KO');
+  });
+
+  testWidgets('Soirée en cours : 5 combats, résultats, combat suivant', (tester) async {
+    const state = SoireeState(
+      owned: ['o1', 'o1', 'o1', 'o1', 'o1'],
+      opponents: ['jiri-prochazka', 'jiri-prochazka', 'jiri-prochazka', 'jiri-prochazka', 'jiri-prochazka'],
+      results: [CombatOutcome(won: true, method: FinishMethod.ko, round: 1)],
+    );
+    SharedPreferences.setMockInitialValues({SoireeState.key: jsonEncode(state.toJson())});
+    _bigScreen(tester);
+    final rival = _fighter('jiri-prochazka', 'Jiri Prochazka');
+    await tester.pumpWidget(_wrap(const SoireeScreen(), overrides: _overrides(fighters: [..._fighters, rival]), locale: const Locale('fr')));
+    await _frames(tester);
+    expect(find.text('MAIN EVENT · 5 ROUNDS'), findsOneWidget);
+    expect(find.text('Victoire · KO'), findsOneWidget);
+    expect(find.text('À venir'), findsNWidgets(3));
+    expect(find.byKey(const Key('soiree-next')), findsOneWidget);
+    await tester.pumpWidget(const SizedBox());
+  });
+
+  testWidgets('Route : échelle des vrais classés, puis route en cours', (tester) async {
+    SharedPreferences.setMockInitialValues({});
+    _bigScreen(tester);
+    final all = [..._fighters, for (var r = 0; r <= 15; r++) ranked('f$r', 'Classé $r', r)];
+    await tester.pumpWidget(_wrap(const RouteScreen(), overrides: _overrides(fighters: all), locale: const Locale('fr')));
+    await _frames(tester);
+    expect(find.text('N°15'), findsOneWidget);
+    expect(find.text('Champion · Combat pour le titre'), findsOneWidget);
+    expect(find.textContaining('Classement officiel UFC du 5 octobre 2026'), findsOneWidget);
+    await tester.tap(find.byKey(const Key('route-start')));
+    await _frames(tester);
+    expect(find.byKey(const Key('route-fight')), findsOneWidget);
+    expect(find.text('Route · combat 1/6'), findsOneWidget);
+    await tester.pumpWidget(const SizedBox());
+  });
+
+  testWidgets('Scénarios : vraie rivalité, vrais combats traduits, jouable avec ma carte', (tester) async {
+    SharedPreferences.setMockInitialValues({});
+    _bigScreen(tester);
+    final rival = _fighter('jiri-prochazka', 'Jiri Prochazka');
+    final rivalry = Rivalry({
+      'id': 'alex-pereira--jiri-prochazka',
+      'fighter_a': 'alex-pereira',
+      'fighter_b': 'jiri-prochazka',
+      'nb_combats': 2,
+      'bilan': {'alex-pereira': 2, 'jiri-prochazka': 0},
+      'combats': [
+        {'date': '2023-11-11', 'evenement': 'UFC 295', 'vainqueur': 'alex-pereira', 'methode': 'TKO (punches)', 'round': 2},
+        {'date': '2025-06-28', 'evenement': 'UFC 317', 'vainqueur': 'alex-pereira', 'methode': 'KO (punches)', 'round': 3},
+      ],
+    });
+    final overrides = _overrides(fighters: [..._fighters, rival], rivalries: [rivalry]);
+    await tester.pumpWidget(_wrap(const RivalriesScreen(), overrides: overrides, locale: const Locale('fr')));
+    await _frames(tester);
+    expect(find.text('Alex Pereira  vs  Jiri Prochazka'), findsOneWidget);
+    expect(find.textContaining('Pereira 2-0 Prochazka'), findsOneWidget);
+    await tester.tap(find.byKey(const Key('rivalry-alex-pereira--jiri-prochazka')));
+    await _frames(tester);
+    expect(find.textContaining('KO technique (Rafale de poings)'), findsOneWidget);
+    final playA = tester.widget<FilledButton>(find.byKey(const Key('rivalry-play-alex-pereira')));
+    final playB = tester.widget<FilledButton>(find.byKey(const Key('rivalry-play-jiri-prochazka')));
+    expect(playA.onPressed, isNotNull, reason: 'je possède une carte d’Alex Pereira');
+    expect(playB.onPressed, isNull);
+    await tester.pumpWidget(const SizedBox());
   });
 }

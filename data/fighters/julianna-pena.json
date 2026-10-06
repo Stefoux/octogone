@@ -113,6 +113,11 @@
       "date": "November 30, 2013",
       "resultat": "Win",
       "methode": "TKO (punches)"
+    },
+    "classement": {
+      "categorie": "coq_f",
+      "rang": 1,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -231,7 +236,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Julianna_Peña",
     "wikidata": "https://www.wikidata.org/wiki/Q15987784",
-    "ufc_com": "https://www.ufc.com/athlete/julianna-pena"
+    "ufc_com": "https://www.ufc.com/athlete/julianna-pena",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

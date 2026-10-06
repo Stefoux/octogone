@@ -99,6 +99,11 @@
       "date": "June 18, 2022",
       "resultat": "Win",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "mouche_f",
+      "rang": 1,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -175,7 +180,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Natália_Silva_(fighter)",
     "wikidata": "https://www.wikidata.org/wiki/Q121898011",
-    "ufc_com": "https://www.ufc.com/athlete/natalia-silva"
+    "ufc_com": "https://www.ufc.com/athlete/natalia-silva",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

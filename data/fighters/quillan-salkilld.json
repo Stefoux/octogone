@@ -91,6 +91,11 @@
       "date": "3 September 2024",
       "resultat": "Win",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "legers",
+      "rang": 7,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -161,7 +166,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Quillan_Salkilld",
     "wikidata": "https://www.wikidata.org/wiki/Q134467028",
-    "ufc_com": "https://www.ufc.com/athlete/quillan-salkilld"
+    "ufc_com": "https://www.ufc.com/athlete/quillan-salkilld",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

@@ -108,6 +108,11 @@
       "date": "11 March 2017",
       "resultat": "Win",
       "methode": "TKO (punches)"
+    },
+    "classement": {
+      "categorie": "mi_lourds",
+      "rang": 6,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -184,7 +189,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Paulo_Costa",
     "wikidata": "https://www.wikidata.org/wiki/Q30108735",
-    "ufc_com": "https://www.ufc.com/athlete/paulo-costa"
+    "ufc_com": "https://www.ufc.com/athlete/paulo-costa",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

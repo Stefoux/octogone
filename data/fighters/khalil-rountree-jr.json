@@ -108,6 +108,11 @@
       "date": "July 8, 2016",
       "resultat": "Loss",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "mi_lourds",
+      "rang": 4,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -208,7 +213,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Khalil_Rountree_Jr.",
     "wikidata": "https://www.wikidata.org/wiki/Q31270277",
-    "ufc_com": "https://www.ufc.com/athlete/khalil-rountree-jr"
+    "ufc_com": "https://www.ufc.com/athlete/khalil-rountree-jr",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

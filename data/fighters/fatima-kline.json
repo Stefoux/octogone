@@ -91,6 +91,11 @@
       "date": "July 13, 2024",
       "resultat": "Loss",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "paille_f",
+      "rang": 7,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -121,7 +126,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Fatima_Kline",
     "wikidata": "https://www.wikidata.org/wiki/Q140051525",
-    "ufc_com": "https://www.ufc.com/athlete/fatima-kline"
+    "ufc_com": "https://www.ufc.com/athlete/fatima-kline",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

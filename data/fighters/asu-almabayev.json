@@ -92,6 +92,11 @@
       "date": "August 5, 2023",
       "resultat": "Win",
       "methode": "Submission (rear-naked choke)"
+    },
+    "classement": {
+      "categorie": "mouche",
+      "rang": 7,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -118,7 +123,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Asu_Almabayev",
     "wikidata": "https://www.wikidata.org/wiki/Q128803907",
-    "ufc_com": "https://www.ufc.com/athlete/assu-almabayev"
+    "ufc_com": "https://www.ufc.com/athlete/assu-almabayev",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

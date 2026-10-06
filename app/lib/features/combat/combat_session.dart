@@ -144,6 +144,8 @@ class CombatSetup {
     this.tactics = const [],
     this.control = ControlMode.cartes,
     this.timer = false,
+    this.modeLabel,
+    this.allowRematch = true,
   });
 
   final Contender player;
@@ -156,6 +158,12 @@ class CombatSetup {
   final ControlMode control;
   final bool timer;
   final int seed;
+
+  /// Mode de jeu affiché dans l'arène (« Soirée · combat 2/5 »…), null en combat rapide.
+  final String? modeLabel;
+
+  /// Revanche proposée à la fin (combat rapide) ; sinon « Continuer » rend le résultat au mode.
+  final bool allowRematch;
 
   CombatConfig get config => CombatConfig(seed: seed, format: format, titleFight: titleFight, openWeight: openWeight);
 
@@ -171,6 +179,8 @@ class CombatSetup {
     tactics: tactics,
     control: control,
     timer: timer,
+    modeLabel: modeLabel,
+    allowRematch: allowRematch,
   );
 
   static int newSeed() => math.Random.secure().nextInt(1 << 32);

@@ -92,6 +92,11 @@
       "date": "September 5, 2026",
       "resultat": "Win",
       "methode": "TKO (body kick and punches)"
+    },
+    "classement": {
+      "categorie": "legers",
+      "rang": 9,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -160,7 +165,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Salahdine_Parnasse",
     "wikidata": "https://www.wikidata.org/wiki/Q55392509",
-    "ufc_com": "https://www.ufc.com/athlete/salahdine-parnasse"
+    "ufc_com": "https://www.ufc.com/athlete/salahdine-parnasse",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

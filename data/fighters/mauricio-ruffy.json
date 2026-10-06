@@ -92,6 +92,11 @@
       "date": "October 3, 2023",
       "resultat": "Win",
       "methode": "TKO (punches)"
+    },
+    "classement": {
+      "categorie": "legers",
+      "rang": 8,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -180,7 +185,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Maurício_Ruffy",
     "wikidata": "https://www.wikidata.org/wiki/Q131228114",
-    "ufc_com": "https://www.ufc.com/athlete/mauricio-ruffy"
+    "ufc_com": "https://www.ufc.com/athlete/mauricio-ruffy",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

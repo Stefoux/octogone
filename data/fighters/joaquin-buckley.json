@@ -101,6 +101,11 @@
       "date": "August 8, 2020",
       "resultat": "Loss",
       "methode": "TKO (punch)"
+    },
+    "classement": {
+      "categorie": "mi_moyens",
+      "rang": 10,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -181,7 +186,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Joaquin_Buckley",
     "wikidata": "https://www.wikidata.org/wiki/Q102221793",
-    "ufc_com": "https://www.ufc.com/athlete/joaquin-buckley"
+    "ufc_com": "https://www.ufc.com/athlete/joaquin-buckley",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

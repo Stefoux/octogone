@@ -1256,7 +1256,8 @@ class AppLocalizationsFr extends AppLocalizations {
   String get combatScenarios => 'Scénarios';
 
   @override
-  String get combatScenariosSub => 'Des combats avec une situation imposée';
+  String get combatScenariosSub =>
+      'Rejoue les vraies rivalités, avec l’un ou l’autre combattant';
 
   @override
   String get combatSoon => 'Bientôt';
@@ -1612,4 +1613,139 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get settingsTimerSub => '15 s pour choisir chaque action, sinon Garde';
+
+  @override
+  String get modeContinue => 'Continuer';
+
+  @override
+  String get modeUpcoming => 'À venir';
+
+  @override
+  String get modeYou => 'Toi';
+
+  @override
+  String get soireeCompose =>
+      'Compose ta soirée avec 5 de tes combattants : chacun affronte un adversaire de sa catégorie.';
+
+  @override
+  String soireeBout(int n) {
+    return 'Combat $n';
+  }
+
+  @override
+  String get soireeMainEvent => 'Main event · 5 rounds';
+
+  @override
+  String get soireeStart => 'Lancer la soirée';
+
+  @override
+  String get soireeNext => 'Combat suivant';
+
+  @override
+  String soireeSummary(int wins) {
+    return '$wins victoire(s) sur 5';
+  }
+
+  @override
+  String get soireeNew => 'Nouvelle soirée';
+
+  @override
+  String get soireeQuit => 'Abandonner la soirée';
+
+  @override
+  String get soireeQuitConfirm => 'Abandonner cette soirée ? Elle sera perdue.';
+
+  @override
+  String soireeLabel(int n) {
+    return 'Soirée · combat $n/5';
+  }
+
+  @override
+  String get routeIntro =>
+      'Bats les vrais classés de ta catégorie jusqu’au combat pour le titre. Une défaite et tu repars du début.';
+
+  @override
+  String get routeNoRanking =>
+      'Pas de classement officiel pour cette catégorie : choisis un autre combattant.';
+
+  @override
+  String routeRank(int n) {
+    return 'N°$n';
+  }
+
+  @override
+  String get routeChampion => 'Champion';
+
+  @override
+  String get routeTitleFight => 'Combat pour le titre';
+
+  @override
+  String get routeTitleDefense => 'Défense du titre';
+
+  @override
+  String get routeStart => 'Commencer la route';
+
+  @override
+  String get routeFight => 'Combattre';
+
+  @override
+  String get routeLost => 'Défaite : retour au début de la route.';
+
+  @override
+  String get routeWon => 'Champion ! Tu as conquis la ceinture.';
+
+  @override
+  String get routeNew => 'Nouvelle route';
+
+  @override
+  String get routeQuit => 'Abandonner la route';
+
+  @override
+  String get routeQuitConfirm =>
+      'Abandonner cette route ? Ta progression sera perdue.';
+
+  @override
+  String routeSource(String date) {
+    return 'Classement officiel UFC du $date';
+  }
+
+  @override
+  String routeLabel(int n) {
+    return 'Route · combat $n/6';
+  }
+
+  @override
+  String get rivalriesIntro =>
+      'Les vraies rivalités de la base : rejoue-les avec l’un ou l’autre combattant.';
+
+  @override
+  String rivalryFights(int n) {
+    return '$n combats';
+  }
+
+  @override
+  String get rivalryLocked =>
+      'Il te faut une carte de l’un des deux combattants.';
+
+  @override
+  String rivalryPlayAs(String name) {
+    return 'Jouer avec $name';
+  }
+
+  @override
+  String get rivalryHistory => 'Les vrais combats';
+
+  @override
+  String get rivalryDraw => 'Nul';
+
+  @override
+  String get rivalryEmpty => 'Aucune rivalité disponible.';
+
+  @override
+  String get rivalryLabel => 'Rivalité';
+
+  @override
+  String rivalryWonWith(String name) {
+    return 'Gagnée avec $name';
+  }
 }

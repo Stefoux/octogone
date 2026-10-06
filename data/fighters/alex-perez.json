@@ -96,6 +96,11 @@
       "date": "August 8, 2017",
       "resultat": "Win",
       "methode": "Technical Submission (anaconda choke)"
+    },
+    "classement": {
+      "categorie": "mouche",
+      "rang": 15,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -134,7 +139,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Alex_Perez_(fighter)",
     "wikidata": "https://www.wikidata.org/wiki/Q48471390",
-    "ufc_com": "https://www.ufc.com/athlete/alex-perez"
+    "ufc_com": "https://www.ufc.com/athlete/alex-perez",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

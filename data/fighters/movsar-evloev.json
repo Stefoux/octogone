@@ -101,6 +101,11 @@
       "date": "April 20, 2019",
       "resultat": "Win",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "plume",
+      "rang": 1,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -165,7 +170,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Movsar_Evloev",
     "wikidata": "https://www.wikidata.org/wiki/Q47453148",
-    "ufc_com": "https://www.ufc.com/athlete/movsar-evloev"
+    "ufc_com": "https://www.ufc.com/athlete/movsar-evloev",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

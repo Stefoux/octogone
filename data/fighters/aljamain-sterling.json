@@ -123,6 +123,11 @@
       "date": "February 22, 2014",
       "resultat": "Win",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "plume",
+      "rang": 4,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -279,7 +284,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Aljamain_Sterling",
     "wikidata": "https://www.wikidata.org/wiki/Q17403242",
-    "ufc_com": "https://www.ufc.com/athlete/aljamain-sterling"
+    "ufc_com": "https://www.ufc.com/athlete/aljamain-sterling",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

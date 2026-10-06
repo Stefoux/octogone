@@ -124,6 +124,11 @@
       "date": "July 26, 2014",
       "resultat": "NC",
       "methode": "NC (overturned)"
+    },
+    "classement": {
+      "categorie": "plume",
+      "rang": 13,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -252,7 +257,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Brian_Ortega",
     "wikidata": "https://www.wikidata.org/wiki/Q4964959",
-    "ufc_com": "https://www.ufc.com/athlete/brian-ortega"
+    "ufc_com": "https://www.ufc.com/athlete/brian-ortega",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

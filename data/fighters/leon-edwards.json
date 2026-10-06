@@ -121,6 +121,11 @@
       "date": "8 November 2014",
       "resultat": "Loss",
       "methode": "Decision (split)"
+    },
+    "classement": {
+      "categorie": "mi_moyens",
+      "rang": 8,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -285,7 +290,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Leon_Edwards",
     "wikidata": "https://www.wikidata.org/wiki/Q19872938",
-    "ufc_com": "https://www.ufc.com/athlete/leon-edwards"
+    "ufc_com": "https://www.ufc.com/athlete/leon-edwards",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

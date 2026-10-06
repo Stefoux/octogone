@@ -15,6 +15,9 @@ import '../features/combat/combat_arena_screen.dart';
 import '../features/combat/combat_screen.dart';
 import '../features/combat/combat_session.dart';
 import '../features/combat/combat_setup_screen.dart';
+import '../features/combat/rivalries_screen.dart';
+import '../features/combat/route_screen.dart';
+import '../features/combat/soiree_screen.dart';
 import '../features/boutique/boutique_screen.dart';
 import '../features/credits/credits_screen.dart';
 import '../features/defis/defis_screen.dart';
@@ -144,7 +147,12 @@ final routerProvider = Provider<GoRouter>((ref) {
             GoRoute(
               path: '/combat',
               builder: (_, _) => const CombatScreen(),
-              routes: [GoRoute(path: 'rapide', builder: (_, _) => const CombatSetupScreen())],
+              routes: [
+                GoRoute(path: 'rapide', builder: (_, _) => const CombatSetupScreen()),
+                GoRoute(path: 'soiree', builder: (_, _) => const SoireeScreen()),
+                GoRoute(path: 'route', builder: (_, _) => const RouteScreen()),
+                GoRoute(path: 'rivalites', builder: (_, _) => const RivalriesScreen()),
+              ],
             ),
           ]),
           StatefulShellBranch(routes: [

@@ -99,6 +99,11 @@
       "date": "September 6, 2022",
       "resultat": "Win",
       "methode": "KO (punches)"
+    },
+    "classement": {
+      "categorie": "lourds",
+      "rang": 8,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -129,7 +134,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Vitor_Petrino",
     "wikidata": "https://www.wikidata.org/wiki/Q125798867",
-    "ufc_com": "https://www.ufc.com/athlete/vitor-petrino"
+    "ufc_com": "https://www.ufc.com/athlete/vitor-petrino",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "wikipedia",

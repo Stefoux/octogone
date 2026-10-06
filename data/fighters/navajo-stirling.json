@@ -91,6 +91,11 @@
       "date": "10 September 2024",
       "resultat": "Win",
       "methode": "KO (punch)"
+    },
+    "classement": {
+      "categorie": "mi_lourds",
+      "rang": 5,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -149,7 +154,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Navajo_Stirling",
     "wikidata": "https://www.wikidata.org/wiki/Q136816852",
-    "ufc_com": "https://www.ufc.com/athlete/navajo-stirling"
+    "ufc_com": "https://www.ufc.com/athlete/navajo-stirling",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

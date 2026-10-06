@@ -90,6 +90,11 @@
       "date": "April 12, 2025",
       "resultat": "Loss",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "plume",
+      "rang": 14,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -207,7 +212,8 @@
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Patrício_Pitbull",
-    "wikidata": "https://www.wikidata.org/wiki/Q7145945"
+    "wikidata": "https://www.wikidata.org/wiki/Q7145945",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "wikipedia",

@@ -100,6 +100,11 @@
       "date": "February 6, 2021",
       "resultat": "Loss",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "mouche",
+      "rang": 2,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -166,7 +171,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Manel_Kape",
     "wikidata": "https://www.wikidata.org/wiki/Q56886154",
-    "ufc_com": "https://www.ufc.com/athlete/manel-kape"
+    "ufc_com": "https://www.ufc.com/athlete/manel-kape",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

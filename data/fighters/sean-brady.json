@@ -96,6 +96,11 @@
       "date": "October 18, 2019",
       "resultat": "Win",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "mi_moyens",
+      "rang": 6,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -134,7 +139,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Sean_Brady_(fighter)",
     "wikidata": "https://www.wikidata.org/wiki/Q98780764",
-    "ufc_com": "https://www.ufc.com/athlete/sean-brady"
+    "ufc_com": "https://www.ufc.com/athlete/sean-brady",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

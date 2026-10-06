@@ -90,6 +90,11 @@
       "date": "13 December 2025",
       "resultat": "Win",
       "methode": "Submission (anaconda choke)"
+    },
+    "classement": {
+      "categorie": "mi_moyens",
+      "rang": 11,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -158,7 +163,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Yaroslav_Amosov",
     "wikidata": "https://www.wikidata.org/wiki/Q26255520",
-    "ufc_com": "https://www.ufc.com/athlete/yaroslav-amosov"
+    "ufc_com": "https://www.ufc.com/athlete/yaroslav-amosov",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

@@ -96,6 +96,11 @@
       "date": "August 20, 2019",
       "resultat": "Win",
       "methode": "TKO (punches and elbows)"
+    },
+    "classement": {
+      "categorie": "plume",
+      "rang": 10,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -150,7 +155,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Steve_Garcia",
     "wikidata": "https://www.wikidata.org/wiki/Q18043912",
-    "ufc_com": "https://www.ufc.com/athlete/steve-garcia"
+    "ufc_com": "https://www.ufc.com/athlete/steve-garcia",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

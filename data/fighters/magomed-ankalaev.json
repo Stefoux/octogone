@@ -105,6 +105,11 @@
       "date": "March 17, 2018",
       "resultat": "Loss",
       "methode": "Submission (triangle choke)"
+    },
+    "classement": {
+      "categorie": "mi_lourds",
+      "rang": 1,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -221,7 +226,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Magomed_Ankalaev",
     "wikidata": "https://www.wikidata.org/wiki/Q50278013",
-    "ufc_com": "https://www.ufc.com/athlete/magomed-ankalaev"
+    "ufc_com": "https://www.ufc.com/athlete/magomed-ankalaev",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

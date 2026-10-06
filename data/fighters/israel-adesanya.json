@@ -161,6 +161,11 @@
       "date": "11 February 2018",
       "resultat": "Win",
       "methode": "TKO (knees and punches)"
+    },
+    "classement": {
+      "categorie": "moyens",
+      "rang": 9,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -549,7 +554,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Israel_Adesanya",
     "wikidata": "https://www.wikidata.org/wiki/Q27050195",
-    "ufc_com": "https://www.ufc.com/athlete/israel-adesanya"
+    "ufc_com": "https://www.ufc.com/athlete/israel-adesanya",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

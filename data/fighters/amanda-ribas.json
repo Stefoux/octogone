@@ -101,6 +101,11 @@
       "date": "June 29, 2019",
       "resultat": "Win",
       "methode": "Submission (rear-naked choke)"
+    },
+    "classement": {
+      "categorie": "paille_f",
+      "rang": 13,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -118,7 +123,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Amanda_Ribas",
     "wikidata": "https://www.wikidata.org/wiki/Q85868632",
-    "ufc_com": "https://www.ufc.com/athlete/amanda-ribas"
+    "ufc_com": "https://www.ufc.com/athlete/amanda-ribas",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

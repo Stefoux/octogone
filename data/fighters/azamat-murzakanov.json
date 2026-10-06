@@ -94,6 +94,11 @@
       "date": "August 31, 2021",
       "resultat": "Win",
       "methode": "TKO (punches)"
+    },
+    "classement": {
+      "categorie": "mi_lourds",
+      "rang": 8,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -120,7 +125,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Azamat_Murzakanov",
     "wikidata": "https://www.wikidata.org/wiki/Q56000949",
-    "ufc_com": "https://www.ufc.com/athlete/azamat-murzakanov"
+    "ufc_com": "https://www.ufc.com/athlete/azamat-murzakanov",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

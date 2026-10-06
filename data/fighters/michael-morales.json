@@ -93,6 +93,11 @@
       "date": "September 21, 2021",
       "resultat": "Win",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "mi_moyens",
+      "rang": 3,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -155,7 +160,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Michael_Morales_(fighter)",
     "wikidata": "https://www.wikidata.org/wiki/Q115298767",
-    "ufc_com": "https://www.ufc.com/athlete/michael-morales"
+    "ufc_com": "https://www.ufc.com/athlete/michael-morales",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

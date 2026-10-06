@@ -93,6 +93,11 @@
       "date": "August 9, 2022",
       "resultat": "Win",
       "methode": "Submission (rear-naked choke)"
+    },
+    "classement": {
+      "categorie": "moyens",
+      "rang": 14,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -139,7 +144,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Bo_Nickal",
     "wikidata": "https://www.wikidata.org/wiki/Q86752584",
-    "ufc_com": "https://www.ufc.com/athlete/bo-nickal"
+    "ufc_com": "https://www.ufc.com/athlete/bo-nickal",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

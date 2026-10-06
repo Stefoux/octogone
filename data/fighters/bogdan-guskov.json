@@ -96,6 +96,11 @@
       "date": "2 September 2023",
       "resultat": "Loss",
       "methode": "Submission (rear-naked choke)"
+    },
+    "classement": {
+      "categorie": "mi_lourds",
+      "rang": 11,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -134,7 +139,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Bogdan_Guskov",
     "wikidata": "https://www.wikidata.org/wiki/Q85859462",
-    "ufc_com": "https://www.ufc.com/athlete/bogdan-guskov"
+    "ufc_com": "https://www.ufc.com/athlete/bogdan-guskov",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

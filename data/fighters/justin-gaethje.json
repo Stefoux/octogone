@@ -169,6 +169,11 @@
       "date": "July 7, 2017",
       "resultat": "Win",
       "methode": "TKO (punches and knees)"
+    },
+    "classement": {
+      "categorie": "legers",
+      "rang": 0,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": true,
@@ -640,7 +645,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Justin_Gaethje",
     "wikidata": "https://www.wikidata.org/wiki/Q15634226",
-    "ufc_com": "https://www.ufc.com/athlete/justin-gaethje"
+    "ufc_com": "https://www.ufc.com/athlete/justin-gaethje",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

@@ -94,6 +94,11 @@
       "date": "October 24, 2020",
       "resultat": "Win",
       "methode": "TKO (doctor stoppage)"
+    },
+    "classement": {
+      "categorie": "mouche_f",
+      "rang": 10,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -124,7 +129,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Miranda_Maverick",
     "wikidata": "https://www.wikidata.org/wiki/Q50309878",
-    "ufc_com": "https://www.ufc.com/athlete/miranda-maverick"
+    "ufc_com": "https://www.ufc.com/athlete/miranda-maverick",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

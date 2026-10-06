@@ -102,6 +102,11 @@
       "date": "January 19, 2019",
       "resultat": "Loss",
       "methode": "Submission (armbar)"
+    },
+    "classement": {
+      "categorie": "coq",
+      "rang": 5,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -140,7 +145,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Mario_Bautista",
     "wikidata": "https://www.wikidata.org/wiki/Q86954930",
-    "ufc_com": "https://www.ufc.com/athlete/mario-bautista"
+    "ufc_com": "https://www.ufc.com/athlete/mario-bautista",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

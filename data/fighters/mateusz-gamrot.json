@@ -116,6 +116,11 @@
       "date": "October 18, 2020",
       "resultat": "Loss",
       "methode": "Decision (split)"
+    },
+    "classement": {
+      "categorie": "legers",
+      "rang": 10,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -236,7 +241,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Mateusz_Gamrot",
     "wikidata": "https://www.wikidata.org/wiki/Q19521996",
-    "ufc_com": "https://www.ufc.com/athlete/mateusz-gamrot"
+    "ufc_com": "https://www.ufc.com/athlete/mateusz-gamrot",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

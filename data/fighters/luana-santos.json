@@ -92,6 +92,11 @@
       "date": "12 August 2023",
       "resultat": "Win",
       "methode": "TKO (punches)"
+    },
+    "classement": {
+      "categorie": "coq_f",
+      "rang": 7,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -105,7 +110,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Luana_Santos",
     "wikidata": "https://www.wikidata.org/wiki/Q122840468",
-    "ufc_com": "https://www.ufc.com/athlete/luana-santos"
+    "ufc_com": "https://www.ufc.com/athlete/luana-santos",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

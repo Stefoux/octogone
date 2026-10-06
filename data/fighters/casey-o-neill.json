@@ -93,6 +93,11 @@
       "date": "20 February 2021",
       "resultat": "Win",
       "methode": "TKO (punches)"
+    },
+    "classement": {
+      "categorie": "mouche_f",
+      "rang": 12,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -151,7 +156,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Casey_O'Neill",
     "wikidata": "https://www.wikidata.org/wiki/Q108779860",
-    "ufc_com": "https://www.ufc.com/athlete/casey-oneill"
+    "ufc_com": "https://www.ufc.com/athlete/casey-oneill",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

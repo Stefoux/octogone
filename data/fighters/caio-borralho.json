@@ -100,6 +100,11 @@
       "date": "September 28, 2021",
       "resultat": "Win",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "moyens",
+      "rang": 5,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -138,7 +143,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Caio_Borralho",
     "wikidata": "https://www.wikidata.org/wiki/Q120264548",
-    "ufc_com": "https://www.ufc.com/athlete/mario-souza-3"
+    "ufc_com": "https://www.ufc.com/athlete/mario-souza-3",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

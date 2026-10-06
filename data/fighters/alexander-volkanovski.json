@@ -169,6 +169,11 @@
       "date": "26 November 2016",
       "resultat": "Win",
       "methode": "TKO (punches)"
+    },
+    "classement": {
+      "categorie": "plume",
+      "rang": 0,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": true,
@@ -508,7 +513,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Alexander_Volkanovski",
     "wikidata": "https://www.wikidata.org/wiki/Q30123133",
-    "ufc_com": "https://www.ufc.com/athlete/alexander-volkanovski"
+    "ufc_com": "https://www.ufc.com/athlete/alexander-volkanovski",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

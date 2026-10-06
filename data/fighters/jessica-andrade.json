@@ -135,6 +135,11 @@
       "date": "July 27, 2013",
       "resultat": "Loss",
       "methode": "TKO (punches and elbows)"
+    },
+    "classement": {
+      "categorie": "paille_f",
+      "rang": 10,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -351,7 +356,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Jéssica_Andrade",
     "wikidata": "https://www.wikidata.org/wiki/Q15131640",
-    "ufc_com": "https://www.ufc.com/athlete/jessica-andrade"
+    "ufc_com": "https://www.ufc.com/athlete/jessica-andrade",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

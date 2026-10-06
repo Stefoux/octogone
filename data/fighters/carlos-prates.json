@@ -92,6 +92,11 @@
       "date": "November 18, 2023",
       "resultat": "Win",
       "methode": "TKO (punch)"
+    },
+    "classement": {
+      "categorie": "mi_moyens",
+      "rang": 2,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -206,7 +211,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Carlos_Prates",
     "wikidata": "https://www.wikidata.org/wiki/Q131010375",
-    "ufc_com": "https://www.ufc.com/athlete/carlos-prates"
+    "ufc_com": "https://www.ufc.com/athlete/carlos-prates",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

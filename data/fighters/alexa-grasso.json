@@ -118,6 +118,11 @@
       "date": "November 5, 2016",
       "resultat": "Win",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "mouche_f",
+      "rang": 2,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -284,7 +289,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Alexa_Grasso",
     "wikidata": "https://www.wikidata.org/wiki/Q19560601",
-    "ufc_com": "https://www.ufc.com/athlete/alexa-grasso"
+    "ufc_com": "https://www.ufc.com/athlete/alexa-grasso",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

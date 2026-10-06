@@ -94,6 +94,11 @@
       "date": "January 20, 2021",
       "resultat": "Win",
       "methode": "TKO (head kick and punches)"
+    },
+    "classement": {
+      "categorie": "mouche_f",
+      "rang": 3,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -136,7 +141,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Manon_Fiorot",
     "wikidata": "https://www.wikidata.org/wiki/Q106358942",
-    "ufc_com": "https://www.ufc.com/athlete/manon-fiorot"
+    "ufc_com": "https://www.ufc.com/athlete/manon-fiorot",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

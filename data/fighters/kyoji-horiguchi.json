@@ -94,6 +94,11 @@
       "date": "October 19, 2013",
       "resultat": "Win",
       "methode": "TKO (punches)"
+    },
+    "classement": {
+      "categorie": "mouche",
+      "rang": 5,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -166,7 +171,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Kyoji_Horiguchi",
     "wikidata": "https://www.wikidata.org/wiki/Q6451952",
-    "ufc_com": "https://www.ufc.com/athlete/kyoji-horiguchi"
+    "ufc_com": "https://www.ufc.com/athlete/kyoji-horiguchi",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

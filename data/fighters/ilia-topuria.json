@@ -124,6 +124,11 @@
       "date": "October 11, 2020",
       "resultat": "Win",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "legers",
+      "rang": 1,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -296,7 +301,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Ilia_Topuria",
     "wikidata": "https://www.wikidata.org/wiki/Q97185032",
-    "ufc_com": "https://www.ufc.com/athlete/ilia-topuria"
+    "ufc_com": "https://www.ufc.com/athlete/ilia-topuria",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

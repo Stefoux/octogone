@@ -118,6 +118,11 @@
       "date": "14 July 2018",
       "resultat": "Win",
       "methode": "KO (punches)"
+    },
+    "classement": {
+      "categorie": "coq",
+      "rang": 14,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -214,7 +219,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Raoni_Barcelos",
     "wikidata": "https://www.wikidata.org/wiki/Q20028301",
-    "ufc_com": "https://www.ufc.com/athlete/raoni-barcelos"
+    "ufc_com": "https://www.ufc.com/athlete/raoni-barcelos",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

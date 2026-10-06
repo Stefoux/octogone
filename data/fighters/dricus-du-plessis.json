@@ -138,6 +138,11 @@
       "date": "11 October 2020",
       "resultat": "Win",
       "methode": "KO (punches)"
+    },
+    "classement": {
+      "categorie": "moyens",
+      "rang": 2,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -276,7 +281,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Dricus_du_Plessis",
     "wikidata": "https://www.wikidata.org/wiki/Q48870794",
-    "ufc_com": "https://www.ufc.com/athlete/dricus-du-plessis"
+    "ufc_com": "https://www.ufc.com/athlete/dricus-du-plessis",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

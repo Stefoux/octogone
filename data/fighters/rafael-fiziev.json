@@ -119,6 +119,11 @@
       "date": "April 20, 2019",
       "resultat": "Loss",
       "methode": "TKO (spinning back kick and punches)"
+    },
+    "classement": {
+      "categorie": "legers",
+      "rang": 11,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -201,7 +206,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Rafael_Fiziev",
     "wikidata": "https://www.wikidata.org/wiki/Q75012682",
-    "ufc_com": "https://www.ufc.com/athlete/rafael-fiziev"
+    "ufc_com": "https://www.ufc.com/athlete/rafael-fiziev",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

@@ -113,6 +113,11 @@
       "date": "14 September 2021",
       "resultat": "Win",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "mi_moyens",
+      "rang": 4,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -209,7 +214,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Jack_Della_Maddalena",
     "wikidata": "https://www.wikidata.org/wiki/Q115433201",
-    "ufc_com": "https://www.ufc.com/athlete/jack-della-maddalena"
+    "ufc_com": "https://www.ufc.com/athlete/jack-della-maddalena",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

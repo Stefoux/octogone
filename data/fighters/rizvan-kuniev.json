@@ -98,6 +98,11 @@
       "date": "September 28, 2021",
       "resultat": "Win",
       "methode": "TKO (punches)"
+    },
+    "classement": {
+      "categorie": "lourds",
+      "rang": 7,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -120,7 +125,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Rizvan_Kuniev",
     "wikidata": "https://www.wikidata.org/wiki/Q112990103",
-    "ufc_com": "https://www.ufc.com/athlete/rizvan-kuniev"
+    "ufc_com": "https://www.ufc.com/athlete/rizvan-kuniev",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

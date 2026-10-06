@@ -117,6 +117,11 @@
       "date": "April 19, 2014",
       "resultat": "Win",
       "methode": "TKO (punches)"
+    },
+    "classement": {
+      "categorie": "lourds",
+      "rang": 13,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -227,7 +232,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Derrick_Lewis",
     "wikidata": "https://www.wikidata.org/wiki/Q17182975",
-    "ufc_com": "https://www.ufc.com/athlete/derrick-lewis"
+    "ufc_com": "https://www.ufc.com/athlete/derrick-lewis",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

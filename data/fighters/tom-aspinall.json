@@ -109,6 +109,11 @@
       "date": "26 July 2020",
       "resultat": "Win",
       "methode": "TKO (knee and punches)"
+    },
+    "classement": {
+      "categorie": "lourds",
+      "rang": 1,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -231,7 +236,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Tom_Aspinall",
     "wikidata": "https://www.wikidata.org/wiki/Q105612429",
-    "ufc_com": "https://www.ufc.com/athlete/tom-aspinall"
+    "ufc_com": "https://www.ufc.com/athlete/tom-aspinall",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

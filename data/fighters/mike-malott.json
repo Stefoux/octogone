@@ -94,6 +94,11 @@
       "date": "October 5, 2021",
       "resultat": "Win",
       "methode": "Submission (guillotine choke)"
+    },
+    "classement": {
+      "categorie": "mi_moyens",
+      "rang": 13,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -120,7 +125,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Mike_Malott",
     "wikidata": "https://www.wikidata.org/wiki/Q108332236",
-    "ufc_com": "https://www.ufc.com/athlete/mike-malott"
+    "ufc_com": "https://www.ufc.com/athlete/mike-malott",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

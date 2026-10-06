@@ -94,6 +94,11 @@
       "date": "June 5, 2021",
       "resultat": "Loss",
       "methode": "TKO (punches)"
+    },
+    "classement": {
+      "categorie": "paille_f",
+      "rang": 11,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -107,7 +112,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Tabatha_Ricci",
     "wikidata": "https://www.wikidata.org/wiki/Q112110663",
-    "ufc_com": "https://www.ufc.com/athlete/tabatha-ricci"
+    "ufc_com": "https://www.ufc.com/athlete/tabatha-ricci",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

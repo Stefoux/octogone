@@ -150,6 +150,11 @@
       "date": "January 28, 2017",
       "resultat": "Win",
       "methode": "Decision (split)"
+    },
+    "classement": {
+      "categorie": "mouche",
+      "rang": 1,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -326,7 +331,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Alexandre_Pantoja",
     "wikidata": "https://www.wikidata.org/wiki/Q27999203",
-    "ufc_com": "https://www.ufc.com/athlete/alexandre-pantoja"
+    "ufc_com": "https://www.ufc.com/athlete/alexandre-pantoja",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

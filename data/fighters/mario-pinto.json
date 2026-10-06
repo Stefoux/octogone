@@ -91,6 +91,11 @@
       "date": "October 8, 2024",
       "resultat": "Win",
       "methode": "KO (punches)"
+    },
+    "classement": {
+      "categorie": "lourds",
+      "rang": 14,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -125,7 +130,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Mario_Pinto",
     "wikidata": "https://www.wikidata.org/wiki/Q133819989",
-    "ufc_com": "https://www.ufc.com/athlete/mario-pinto"
+    "ufc_com": "https://www.ufc.com/athlete/mario-pinto",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

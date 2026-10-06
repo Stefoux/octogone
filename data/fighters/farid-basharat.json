@@ -96,6 +96,11 @@
       "date": "13 September 2022",
       "resultat": "Win",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "coq",
+      "rang": 13,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -109,7 +114,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Farid_Basharat",
     "wikidata": "https://www.wikidata.org/wiki/Q123849055",
-    "ufc_com": "https://www.ufc.com/athlete/farid-basharat"
+    "ufc_com": "https://www.ufc.com/athlete/farid-basharat",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

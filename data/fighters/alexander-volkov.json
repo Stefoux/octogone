@@ -105,6 +105,11 @@
       "date": "November 19, 2016",
       "resultat": "Win",
       "methode": "Decision (split)"
+    },
+    "classement": {
+      "categorie": "lourds",
+      "rang": 2,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -191,7 +196,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Alexander_Volkov_(fighter)",
     "wikidata": "https://www.wikidata.org/wiki/Q4123254",
-    "ufc_com": "https://www.ufc.com/athlete/alexander-volkov"
+    "ufc_com": "https://www.ufc.com/athlete/alexander-volkov",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

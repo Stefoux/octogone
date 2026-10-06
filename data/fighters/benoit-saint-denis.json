@@ -105,6 +105,11 @@
       "date": "October 30, 2021",
       "resultat": "Loss",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "legers",
+      "rang": 6,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -227,7 +232,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Benoît_Saint_Denis",
     "wikidata": "https://www.wikidata.org/wiki/Q112241194",
-    "ufc_com": "https://www.ufc.com/athlete/benoit-saint-denis"
+    "ufc_com": "https://www.ufc.com/athlete/benoit-saint-denis",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

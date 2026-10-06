@@ -93,6 +93,11 @@
       "date": "September 13, 2022",
       "resultat": "Win",
       "methode": "Submission (kimura)"
+    },
+    "classement": {
+      "categorie": "moyens",
+      "rang": 13,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -163,7 +168,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Ikram_Aliskerov",
     "wikidata": "https://www.wikidata.org/wiki/Q25693551",
-    "ufc_com": "https://www.ufc.com/athlete/ikram-aliskerov"
+    "ufc_com": "https://www.ufc.com/athlete/ikram-aliskerov",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

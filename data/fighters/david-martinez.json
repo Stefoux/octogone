@@ -38,7 +38,13 @@
     "frappes_reussies": 291.0,
     "takedowns_reussis": 0
   },
-  "ufc": {},
+  "ufc": {
+    "classement": {
+      "categorie": "coq",
+      "rang": 8,
+      "date": "2026-10-05"
+    }
+  },
   "champion_actuel": false,
   "ancien_champion": false,
   "accomplissements_en": [],
@@ -48,7 +54,8 @@
   },
   "image_commons": null,
   "sources": {
-    "ufc_com": "https://www.ufc.com/athlete/david-martinez"
+    "ufc_com": "https://www.ufc.com/athlete/david-martinez",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "https://en.wikipedia.org/wiki/List_of_current_UFC_fighters",

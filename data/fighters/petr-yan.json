@@ -132,6 +132,11 @@
       "date": "23 June 2018",
       "resultat": "Win",
       "methode": "KO (punches)"
+    },
+    "classement": {
+      "categorie": "coq",
+      "rang": 0,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": true,
@@ -309,7 +314,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Petr_Yan",
     "wikidata": "https://www.wikidata.org/wiki/Q54218657",
-    "ufc_com": "https://www.ufc.com/athlete/petr-yan"
+    "ufc_com": "https://www.ufc.com/athlete/petr-yan",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

@@ -121,6 +121,11 @@
       "date": "January 3, 2015",
       "resultat": "Loss",
       "methode": "KO (punches)"
+    },
+    "classement": {
+      "categorie": "moyens",
+      "rang": 11,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -175,7 +180,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Jared_Cannonier",
     "wikidata": "https://www.wikidata.org/wiki/Q27957217",
-    "ufc_com": "https://www.ufc.com/athlete/jared-cannonier"
+    "ufc_com": "https://www.ufc.com/athlete/jared-cannonier",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

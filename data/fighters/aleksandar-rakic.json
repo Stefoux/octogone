@@ -100,6 +100,11 @@
       "date": "2 September 2017",
       "resultat": "Win",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "lourds",
+      "rang": 15,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -138,7 +143,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Aleksandar_Rakić",
     "wikidata": "https://www.wikidata.org/wiki/Q48869757",
-    "ufc_com": "https://www.ufc.com/athlete/aleksandar-rakic"
+    "ufc_com": "https://www.ufc.com/athlete/aleksandar-rakic",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

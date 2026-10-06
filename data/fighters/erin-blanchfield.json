@@ -93,6 +93,11 @@
       "date": "September 18, 2021",
       "resultat": "Win",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "mouche_f",
+      "rang": 4,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -163,7 +168,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Erin_Blanchfield",
     "wikidata": "https://www.wikidata.org/wiki/Q72704755",
-    "ufc_com": "https://www.ufc.com/athlete/erin-blanchfield"
+    "ufc_com": "https://www.ufc.com/athlete/erin-blanchfield",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

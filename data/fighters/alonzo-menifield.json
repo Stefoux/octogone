@@ -109,6 +109,11 @@
       "date": "July 25, 2017",
       "resultat": "Win",
       "methode": "TKO (eye injury)"
+    },
+    "classement": {
+      "categorie": "mi_lourds",
+      "rang": 14,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -135,7 +140,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Alonzo_Menifield",
     "wikidata": "https://www.wikidata.org/wiki/Q96103548",
-    "ufc_com": "https://www.ufc.com/athlete/alonzo-menifield"
+    "ufc_com": "https://www.ufc.com/athlete/alonzo-menifield",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

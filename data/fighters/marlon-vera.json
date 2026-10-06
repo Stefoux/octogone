@@ -117,6 +117,11 @@
       "date": "November 15, 2014",
       "resultat": "Loss",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "coq",
+      "rang": 10,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -239,7 +244,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Marlon_Vera",
     "wikidata": "https://www.wikidata.org/wiki/Q18704247",
-    "ufc_com": "https://www.ufc.com/athlete/marlon-vera"
+    "ufc_com": "https://www.ufc.com/athlete/marlon-vera",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

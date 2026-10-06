@@ -99,6 +99,11 @@
       "date": "November 30, 2013",
       "resultat": "Win",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "coq_f",
+      "rang": 3,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -203,7 +208,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Raquel_Pennington",
     "wikidata": "https://www.wikidata.org/wiki/Q15987788",
-    "ufc_com": "https://www.ufc.com/athlete/raquel-pennington"
+    "ufc_com": "https://www.ufc.com/athlete/raquel-pennington",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

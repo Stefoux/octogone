@@ -40,3 +40,36 @@ String? techniqueLabel(String? technique, String lang) {
   // Technique rare non traduite : nom d'origine, avec majuscule.
   return technique[0].toUpperCase() + technique.substring(1);
 }
+
+const _methods = <String, (String, String)>{
+  'decision': ('Décision', 'Decision'),
+  'tko': ('KO technique', 'TKO'),
+  'ko': ('KO', 'KO'),
+  'submission': ('Soumission', 'Submission'),
+  'technical submission': ('Soumission technique', 'Technical submission'),
+  'draw': ('Match nul', 'Draw'),
+  'nc': ('Sans décision', 'No contest'),
+  'dq': ('Disqualification', 'Disqualification'),
+};
+
+const _methodDetails = <String, (String, String)>{
+  'unanimous': ('unanime', 'unanimous'),
+  'split': ('partagée', 'split'),
+  'majority': ('majoritaire', 'majority'),
+  'doctor stoppage': ('arrêt du médecin', 'doctor stoppage'),
+  'retirement': ('abandon au coin', 'retirement'),
+};
+
+/// Méthode d'un vrai combat (« Submission (rear-naked choke) », données
+/// Wikipedia) dans la langue de l'app ; ce qui n'est pas connu reste tel quel.
+String fightMethodLabel(String raw, String lang) {
+  final m = RegExp(r'^([^(]+?)\s*(?:\((.+)\))?$').firstMatch(raw.trim());
+  if (m == null) return raw;
+  final kind = _methods[m.group(1)!.toLowerCase()];
+  final head = kind == null ? m.group(1)! : (lang == 'en' ? kind.$2 : kind.$1);
+  final detail = m.group(2);
+  if (detail == null) return head;
+  final d = _methodDetails[detail.toLowerCase()];
+  final tail = d != null ? (lang == 'en' ? d.$2 : d.$1) : techniqueLabel(detail, lang)!;
+  return '$head ($tail)';
+}

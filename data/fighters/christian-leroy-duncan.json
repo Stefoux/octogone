@@ -92,6 +92,11 @@
       "date": "March 18, 2023",
       "resultat": "Win",
       "methode": "TKO (knee injury)"
+    },
+    "classement": {
+      "categorie": "moyens",
+      "rang": 10,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -132,7 +137,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Christian_Leroy_Duncan",
     "wikidata": "https://www.wikidata.org/wiki/Q136762489",
-    "ufc_com": "https://www.ufc.com/athlete/christian-leroy-duncan"
+    "ufc_com": "https://www.ufc.com/athlete/christian-leroy-duncan",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

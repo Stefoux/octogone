@@ -91,6 +91,11 @@
       "date": "May 18, 2024",
       "resultat": "Win",
       "methode": "Submission (guillotine choke)"
+    },
+    "classement": {
+      "categorie": "mouche_f",
+      "rang": 8,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -133,7 +138,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Wang_Cong",
     "wikidata": "https://www.wikidata.org/wiki/Q70863806",
-    "ufc_com": "https://www.ufc.com/athlete/wang-cong"
+    "ufc_com": "https://www.ufc.com/athlete/wang-cong",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

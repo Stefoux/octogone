@@ -108,6 +108,11 @@
       "date": "January 27, 2018",
       "resultat": "Win",
       "methode": "TKO (punches)"
+    },
+    "classement": {
+      "categorie": "coq",
+      "rang": 6,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -188,7 +193,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Cory_Sandhagen",
     "wikidata": "https://www.wikidata.org/wiki/Q60769310",
-    "ufc_com": "https://www.ufc.com/athlete/cory-sandhagen"
+    "ufc_com": "https://www.ufc.com/athlete/cory-sandhagen",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

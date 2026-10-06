@@ -108,6 +108,11 @@
       "date": "July 16, 2017",
       "resultat": "Loss",
       "methode": "TKO (punches)"
+    },
+    "classement": {
+      "categorie": "paille_f",
+      "rang": 12,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -174,7 +179,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Amanda_Lemos",
     "wikidata": "https://www.wikidata.org/wiki/Q98684485",
-    "ufc_com": "https://www.ufc.com/athlete/amanda-lemos"
+    "ufc_com": "https://www.ufc.com/athlete/amanda-lemos",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

@@ -96,6 +96,11 @@
       "date": "November 30, 2018",
       "resultat": "Win",
       "methode": "Submission (rear-naked choke)"
+    },
+    "classement": {
+      "categorie": "coq_f",
+      "rang": 8,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -128,7 +133,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Macy_Chiasson",
     "wikidata": "https://www.wikidata.org/wiki/Q57210892",
-    "ufc_com": "https://www.ufc.com/athlete/macy-chiasson"
+    "ufc_com": "https://www.ufc.com/athlete/macy-chiasson",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

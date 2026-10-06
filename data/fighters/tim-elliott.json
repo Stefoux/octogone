@@ -117,6 +117,11 @@
       "date": "May 5, 2012",
       "resultat": "Loss",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "mouche",
+      "rang": 11,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -217,7 +222,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Tim_Elliott",
     "wikidata": "https://www.wikidata.org/wiki/Q7803464",
-    "ufc_com": "https://www.ufc.com/athlete/tim-elliott"
+    "ufc_com": "https://www.ufc.com/athlete/tim-elliott",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

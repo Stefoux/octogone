@@ -96,6 +96,11 @@
       "date": "April 27, 2019",
       "resultat": "Loss",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "paille_f",
+      "rang": 3,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -162,7 +167,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Virna_Jandiroba",
     "wikidata": "https://www.wikidata.org/wiki/Q56434195",
-    "ufc_com": "https://www.ufc.com/athlete/virna-jandiroba"
+    "ufc_com": "https://www.ufc.com/athlete/virna-jandiroba",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

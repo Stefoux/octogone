@@ -92,6 +92,11 @@
       "date": "August 8, 2023",
       "resultat": "Win",
       "methode": "KO (punches)"
+    },
+    "classement": {
+      "categorie": "legers",
+      "rang": 14,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -114,7 +119,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Tom_Nolan_(fighter)",
     "wikidata": "https://www.wikidata.org/wiki/Q138016466",
-    "ufc_com": "https://www.ufc.com/athlete/tom-nolan"
+    "ufc_com": "https://www.ufc.com/athlete/tom-nolan",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

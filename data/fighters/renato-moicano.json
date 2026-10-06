@@ -105,6 +105,11 @@
       "date": "December 20, 2014",
       "resultat": "Win",
       "methode": "Submission (rear-naked choke)"
+    },
+    "classement": {
+      "categorie": "legers",
+      "rang": 12,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -122,7 +127,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Renato_Moicano",
     "wikidata": "https://www.wikidata.org/wiki/Q24258839",
-    "ufc_com": "https://www.ufc.com/athlete/renato-moicano"
+    "ufc_com": "https://www.ufc.com/athlete/renato-moicano",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "wikipedia",

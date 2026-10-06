@@ -103,6 +103,11 @@
       "date": "August 31, 2019",
       "resultat": "Win",
       "methode": "Decision (split)"
+    },
+    "classement": {
+      "categorie": "paille_f",
+      "rang": 15,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -145,7 +150,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Mizuki_Inoue",
     "wikidata": "https://www.wikidata.org/wiki/Q6884821",
-    "ufc_com": "https://www.ufc.com/athlete/mizuki-inoue"
+    "ufc_com": "https://www.ufc.com/athlete/mizuki-inoue",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

@@ -98,6 +98,11 @@
       "date": "January 21, 2023",
       "resultat": "Loss",
       "methode": "Submission (face crank)"
+    },
+    "classement": {
+      "categorie": "plume",
+      "rang": 12,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -131,7 +136,8 @@
   "image_commons": null,
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Melquizael_Costa",
-    "wikidata": "https://www.wikidata.org/wiki/Q126947204"
+    "wikidata": "https://www.wikidata.org/wiki/Q126947204",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "wikipedia",

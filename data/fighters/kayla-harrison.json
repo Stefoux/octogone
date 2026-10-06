@@ -98,6 +98,11 @@
       "date": "April 13, 2024",
       "resultat": "Win",
       "methode": "Submission (rear-naked choke)"
+    },
+    "classement": {
+      "categorie": "coq_f",
+      "rang": 0,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": true,
@@ -601,7 +606,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Kayla_Harrison",
     "wikidata": "https://www.wikidata.org/wiki/Q2358331",
-    "ufc_com": "https://www.ufc.com/athlete/kayla-harrison"
+    "ufc_com": "https://www.ufc.com/athlete/kayla-harrison",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

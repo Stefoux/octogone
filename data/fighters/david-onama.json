@@ -99,6 +99,11 @@
       "date": "October 23, 2021",
       "resultat": "Loss",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "plume",
+      "rang": 15,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -129,7 +134,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/David_Onama",
     "wikidata": "https://www.wikidata.org/wiki/Q113004679",
-    "ufc_com": "https://www.ufc.com/athlete/david-onama"
+    "ufc_com": "https://www.ufc.com/athlete/david-onama",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

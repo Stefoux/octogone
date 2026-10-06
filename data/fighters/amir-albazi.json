@@ -94,6 +94,11 @@
       "date": "July 18, 2020",
       "resultat": "Win",
       "methode": "Submission (triangle choke)"
+    },
+    "classement": {
+      "categorie": "mouche",
+      "rang": 9,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -116,7 +121,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Amir_Albazi",
     "wikidata": "https://www.wikidata.org/wiki/Q78095043",
-    "ufc_com": "https://www.ufc.com/athlete/amir-albazi"
+    "ufc_com": "https://www.ufc.com/athlete/amir-albazi",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

@@ -98,6 +98,11 @@
       "date": "December 1, 2017",
       "resultat": "Win",
       "methode": "Submission (armbar)"
+    },
+    "classement": {
+      "categorie": "paille_f",
+      "rang": 5,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -204,7 +209,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Gillian_Robertson",
     "wikidata": "https://www.wikidata.org/wiki/Q47523129",
-    "ufc_com": "https://www.ufc.com/athlete/gillian-robertson"
+    "ufc_com": "https://www.ufc.com/athlete/gillian-robertson",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

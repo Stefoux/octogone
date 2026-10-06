@@ -95,6 +95,11 @@
       "date": "November 24, 2018",
       "resultat": "Loss",
       "methode": "TKO (punches)"
+    },
+    "classement": {
+      "categorie": "lourds",
+      "rang": 3,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -153,7 +158,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Sergei_Pavlovich",
     "wikidata": "https://www.wikidata.org/wiki/Q72386202",
-    "ufc_com": "https://www.ufc.com/athlete/sergei-pavlovich"
+    "ufc_com": "https://www.ufc.com/athlete/sergei-pavlovich",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

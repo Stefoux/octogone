@@ -95,6 +95,11 @@
       "date": "July 8, 2016",
       "resultat": "Win",
       "methode": "Submission (brabo choke)"
+    },
+    "classement": {
+      "categorie": "paille_f",
+      "rang": 2,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -207,7 +212,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Tatiana_Suarez",
     "wikidata": "https://www.wikidata.org/wiki/Q7688105",
-    "ufc_com": "https://www.ufc.com/athlete/tatiana-suarez"
+    "ufc_com": "https://www.ufc.com/athlete/tatiana-suarez",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

@@ -97,6 +97,11 @@
       "date": "13 August 2024",
       "resultat": "Win",
       "methode": "KO (punch)"
+    },
+    "classement": {
+      "categorie": "mouche",
+      "rang": 6,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -123,7 +128,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Lone'er_Kavanagh",
     "wikidata": "https://www.wikidata.org/wiki/Q138011225",
-    "ufc_com": "https://www.ufc.com/athlete/loneer-kavanagh"
+    "ufc_com": "https://www.ufc.com/athlete/loneer-kavanagh",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

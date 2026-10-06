@@ -94,6 +94,11 @@
       "date": "January 16, 2021",
       "resultat": "Win",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "coq_f",
+      "rang": 2,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -132,7 +137,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Joselyne_Edwards",
     "wikidata": "https://www.wikidata.org/wiki/Q109186905",
-    "ufc_com": "https://www.ufc.com/athlete/joselyne-edwards"
+    "ufc_com": "https://www.ufc.com/athlete/joselyne-edwards",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

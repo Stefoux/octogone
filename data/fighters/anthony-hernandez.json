@@ -103,6 +103,11 @@
       "date": "June 19, 2018",
       "resultat": "NC",
       "methode": "NC (overturned)"
+    },
+    "classement": {
+      "categorie": "moyens",
+      "rang": 8,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -235,7 +240,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Anthony_Hernandez",
     "wikidata": "https://www.wikidata.org/wiki/Q96372195",
-    "ufc_com": "https://www.ufc.com/athlete/anthony-hernandez"
+    "ufc_com": "https://www.ufc.com/athlete/anthony-hernandez",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

@@ -95,6 +95,11 @@
       "date": "March 28, 2026",
       "resultat": "Win",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "lourds",
+      "rang": 12,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -117,7 +122,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Tyrell_Fortune",
     "wikidata": "https://www.wikidata.org/wiki/Q30231735",
-    "ufc_com": "https://www.ufc.com/athlete/tyrell-fortune"
+    "ufc_com": "https://www.ufc.com/athlete/tyrell-fortune",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

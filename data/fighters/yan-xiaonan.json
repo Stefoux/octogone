@@ -98,6 +98,11 @@
       "date": "November 25, 2017",
       "resultat": "Win",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "paille_f",
+      "rang": 6,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -140,7 +145,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Yan_Xiaonan",
     "wikidata": "https://www.wikidata.org/wiki/Q27951758",
-    "ufc_com": "https://www.ufc.com/athlete/yan-xiaonan"
+    "ufc_com": "https://www.ufc.com/athlete/yan-xiaonan",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

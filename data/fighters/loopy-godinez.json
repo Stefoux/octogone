@@ -94,6 +94,11 @@
       "date": "April 17, 2021",
       "resultat": "Loss",
       "methode": "Decision (split)"
+    },
+    "classement": {
+      "categorie": "paille_f",
+      "rang": 8,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -170,7 +175,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Loopy_Godínez",
     "wikidata": "https://www.wikidata.org/wiki/Q108911599",
-    "ufc_com": "https://www.ufc.com/athlete/loopy-godinez"
+    "ufc_com": "https://www.ufc.com/athlete/loopy-godinez",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

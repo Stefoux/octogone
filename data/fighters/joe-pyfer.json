@@ -94,6 +94,11 @@
       "date": "August 11, 2020",
       "resultat": "Loss",
       "methode": "TKO (elbow injury)"
+    },
+    "classement": {
+      "categorie": "moyens",
+      "rang": 6,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -136,7 +141,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Joe_Pyfer",
     "wikidata": "https://www.wikidata.org/wiki/Q124447415",
-    "ufc_com": "https://www.ufc.com/athlete/joe-pyfer"
+    "ufc_com": "https://www.ufc.com/athlete/joe-pyfer",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

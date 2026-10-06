@@ -117,6 +117,11 @@
       "date": "28 June 2014",
       "resultat": "Win",
       "methode": "TKO (elbows)"
+    },
+    "classement": {
+      "categorie": "legers",
+      "rang": 13,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -233,7 +238,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Dan_Hooker",
     "wikidata": "https://www.wikidata.org/wiki/Q19946041",
-    "ufc_com": "https://www.ufc.com/athlete/dan-hooker"
+    "ufc_com": "https://www.ufc.com/athlete/dan-hooker",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

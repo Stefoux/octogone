@@ -107,6 +107,11 @@
       "date": "February 23, 2013",
       "resultat": "Win",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "mi_moyens",
+      "rang": 15,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -253,7 +258,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Neil_Magny",
     "wikidata": "https://www.wikidata.org/wiki/Q15987654",
-    "ufc_com": "https://www.ufc.com/athlete/neil-magny"
+    "ufc_com": "https://www.ufc.com/athlete/neil-magny",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

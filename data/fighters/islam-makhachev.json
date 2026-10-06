@@ -158,6 +158,11 @@
       "date": "23 May 2015",
       "resultat": "Win",
       "methode": "Submission (rear-naked choke)"
+    },
+    "classement": {
+      "categorie": "mi_moyens",
+      "rang": 0,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": true,
@@ -499,7 +504,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Islam_Makhachev",
     "wikidata": "https://www.wikidata.org/wiki/Q18637676",
-    "ufc_com": "https://www.ufc.com/athlete/islam-makhachev"
+    "ufc_com": "https://www.ufc.com/athlete/islam-makhachev",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

@@ -102,6 +102,11 @@
       "date": "August 31, 2019",
       "resultat": "Win",
       "methode": "Decision (split)"
+    },
+    "classement": {
+      "categorie": "coq_f",
+      "rang": 10,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -164,7 +169,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Karol_Rosa",
     "wikidata": "https://www.wikidata.org/wiki/Q105359215",
-    "ufc_com": "https://www.ufc.com/athlete/karol-rosa"
+    "ufc_com": "https://www.ufc.com/athlete/karol-rosa",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

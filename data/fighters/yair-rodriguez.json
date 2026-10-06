@@ -133,6 +133,11 @@
       "date": "November 15, 2014",
       "resultat": "Win",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "plume",
+      "rang": 6,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -277,7 +282,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Yair_Rodríguez",
     "wikidata": "https://www.wikidata.org/wiki/Q19668247",
-    "ufc_com": "https://www.ufc.com/athlete/yair-rodriguez"
+    "ufc_com": "https://www.ufc.com/athlete/yair-rodriguez",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

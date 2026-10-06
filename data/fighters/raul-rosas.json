@@ -102,6 +102,11 @@
       "date": "September 20, 2022",
       "resultat": "Win",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "coq",
+      "rang": 11,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -188,7 +193,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Raul_Rosas_Jr.",
     "wikidata": "https://www.wikidata.org/wiki/Q124527491",
-    "ufc_com": "https://www.ufc.com/athlete/raul-rosas-jr"
+    "ufc_com": "https://www.ufc.com/athlete/raul-rosas-jr",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

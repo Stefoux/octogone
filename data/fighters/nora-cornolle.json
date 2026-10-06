@@ -92,6 +92,11 @@
       "date": "September 2, 2023",
       "resultat": "Win",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "coq_f",
+      "rang": 13,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -150,7 +155,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Nora_Cornolle",
     "wikidata": "https://www.wikidata.org/wiki/Q122819719",
-    "ufc_com": "https://www.ufc.com/athlete/nora-cornolle"
+    "ufc_com": "https://www.ufc.com/athlete/nora-cornolle",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

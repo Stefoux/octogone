@@ -2261,7 +2261,7 @@ abstract class AppLocalizations {
   /// No description provided for @combatScenariosSub.
   ///
   /// In fr, this message translates to:
-  /// **'Des combats avec une situation imposée'**
+  /// **'Rejoue les vraies rivalités, avec l’un ou l’autre combattant'**
   String get combatScenariosSub;
 
   /// No description provided for @combatSoon.
@@ -2851,6 +2851,228 @@ abstract class AppLocalizations {
   /// In fr, this message translates to:
   /// **'15 s pour choisir chaque action, sinon Garde'**
   String get settingsTimerSub;
+
+  /// No description provided for @modeContinue.
+  ///
+  /// In fr, this message translates to:
+  /// **'Continuer'**
+  String get modeContinue;
+
+  /// No description provided for @modeUpcoming.
+  ///
+  /// In fr, this message translates to:
+  /// **'À venir'**
+  String get modeUpcoming;
+
+  /// No description provided for @modeYou.
+  ///
+  /// In fr, this message translates to:
+  /// **'Toi'**
+  String get modeYou;
+
+  /// No description provided for @soireeCompose.
+  ///
+  /// In fr, this message translates to:
+  /// **'Compose ta soirée avec 5 de tes combattants : chacun affronte un adversaire de sa catégorie.'**
+  String get soireeCompose;
+
+  /// No description provided for @soireeBout.
+  ///
+  /// In fr, this message translates to:
+  /// **'Combat {n}'**
+  String soireeBout(int n);
+
+  /// No description provided for @soireeMainEvent.
+  ///
+  /// In fr, this message translates to:
+  /// **'Main event · 5 rounds'**
+  String get soireeMainEvent;
+
+  /// No description provided for @soireeStart.
+  ///
+  /// In fr, this message translates to:
+  /// **'Lancer la soirée'**
+  String get soireeStart;
+
+  /// No description provided for @soireeNext.
+  ///
+  /// In fr, this message translates to:
+  /// **'Combat suivant'**
+  String get soireeNext;
+
+  /// No description provided for @soireeSummary.
+  ///
+  /// In fr, this message translates to:
+  /// **'{wins} victoire(s) sur 5'**
+  String soireeSummary(int wins);
+
+  /// No description provided for @soireeNew.
+  ///
+  /// In fr, this message translates to:
+  /// **'Nouvelle soirée'**
+  String get soireeNew;
+
+  /// No description provided for @soireeQuit.
+  ///
+  /// In fr, this message translates to:
+  /// **'Abandonner la soirée'**
+  String get soireeQuit;
+
+  /// No description provided for @soireeQuitConfirm.
+  ///
+  /// In fr, this message translates to:
+  /// **'Abandonner cette soirée ? Elle sera perdue.'**
+  String get soireeQuitConfirm;
+
+  /// No description provided for @soireeLabel.
+  ///
+  /// In fr, this message translates to:
+  /// **'Soirée · combat {n}/5'**
+  String soireeLabel(int n);
+
+  /// No description provided for @routeIntro.
+  ///
+  /// In fr, this message translates to:
+  /// **'Bats les vrais classés de ta catégorie jusqu’au combat pour le titre. Une défaite et tu repars du début.'**
+  String get routeIntro;
+
+  /// No description provided for @routeNoRanking.
+  ///
+  /// In fr, this message translates to:
+  /// **'Pas de classement officiel pour cette catégorie : choisis un autre combattant.'**
+  String get routeNoRanking;
+
+  /// No description provided for @routeRank.
+  ///
+  /// In fr, this message translates to:
+  /// **'N°{n}'**
+  String routeRank(int n);
+
+  /// No description provided for @routeChampion.
+  ///
+  /// In fr, this message translates to:
+  /// **'Champion'**
+  String get routeChampion;
+
+  /// No description provided for @routeTitleFight.
+  ///
+  /// In fr, this message translates to:
+  /// **'Combat pour le titre'**
+  String get routeTitleFight;
+
+  /// No description provided for @routeTitleDefense.
+  ///
+  /// In fr, this message translates to:
+  /// **'Défense du titre'**
+  String get routeTitleDefense;
+
+  /// No description provided for @routeStart.
+  ///
+  /// In fr, this message translates to:
+  /// **'Commencer la route'**
+  String get routeStart;
+
+  /// No description provided for @routeFight.
+  ///
+  /// In fr, this message translates to:
+  /// **'Combattre'**
+  String get routeFight;
+
+  /// No description provided for @routeLost.
+  ///
+  /// In fr, this message translates to:
+  /// **'Défaite : retour au début de la route.'**
+  String get routeLost;
+
+  /// No description provided for @routeWon.
+  ///
+  /// In fr, this message translates to:
+  /// **'Champion ! Tu as conquis la ceinture.'**
+  String get routeWon;
+
+  /// No description provided for @routeNew.
+  ///
+  /// In fr, this message translates to:
+  /// **'Nouvelle route'**
+  String get routeNew;
+
+  /// No description provided for @routeQuit.
+  ///
+  /// In fr, this message translates to:
+  /// **'Abandonner la route'**
+  String get routeQuit;
+
+  /// No description provided for @routeQuitConfirm.
+  ///
+  /// In fr, this message translates to:
+  /// **'Abandonner cette route ? Ta progression sera perdue.'**
+  String get routeQuitConfirm;
+
+  /// No description provided for @routeSource.
+  ///
+  /// In fr, this message translates to:
+  /// **'Classement officiel UFC du {date}'**
+  String routeSource(String date);
+
+  /// No description provided for @routeLabel.
+  ///
+  /// In fr, this message translates to:
+  /// **'Route · combat {n}/6'**
+  String routeLabel(int n);
+
+  /// No description provided for @rivalriesIntro.
+  ///
+  /// In fr, this message translates to:
+  /// **'Les vraies rivalités de la base : rejoue-les avec l’un ou l’autre combattant.'**
+  String get rivalriesIntro;
+
+  /// No description provided for @rivalryFights.
+  ///
+  /// In fr, this message translates to:
+  /// **'{n} combats'**
+  String rivalryFights(int n);
+
+  /// No description provided for @rivalryLocked.
+  ///
+  /// In fr, this message translates to:
+  /// **'Il te faut une carte de l’un des deux combattants.'**
+  String get rivalryLocked;
+
+  /// No description provided for @rivalryPlayAs.
+  ///
+  /// In fr, this message translates to:
+  /// **'Jouer avec {name}'**
+  String rivalryPlayAs(String name);
+
+  /// No description provided for @rivalryHistory.
+  ///
+  /// In fr, this message translates to:
+  /// **'Les vrais combats'**
+  String get rivalryHistory;
+
+  /// No description provided for @rivalryDraw.
+  ///
+  /// In fr, this message translates to:
+  /// **'Nul'**
+  String get rivalryDraw;
+
+  /// No description provided for @rivalryEmpty.
+  ///
+  /// In fr, this message translates to:
+  /// **'Aucune rivalité disponible.'**
+  String get rivalryEmpty;
+
+  /// No description provided for @rivalryLabel.
+  ///
+  /// In fr, this message translates to:
+  /// **'Rivalité'**
+  String get rivalryLabel;
+
+  /// No description provided for @rivalryWonWith.
+  ///
+  /// In fr, this message translates to:
+  /// **'Gagnée avec {name}'**
+  String rivalryWonWith(String name);
 }
 
 class _AppLocalizationsDelegate

@@ -119,6 +119,11 @@
       "date": "July 12, 2020",
       "resultat": "Win",
       "methode": "KO (punch)"
+    },
+    "classement": {
+      "categorie": "mi_lourds",
+      "rang": 2,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -321,7 +326,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Jiří_Procházka",
     "wikidata": "https://www.wikidata.org/wiki/Q27917811",
-    "ufc_com": "https://www.ufc.com/athlete/jiri-prochazka"
+    "ufc_com": "https://www.ufc.com/athlete/jiri-prochazka",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

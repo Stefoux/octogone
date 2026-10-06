@@ -94,6 +94,11 @@
       "date": "November 6, 2021",
       "resultat": "Win",
       "methode": "KO (punches)"
+    },
+    "classement": {
+      "categorie": "mi_moyens",
+      "rang": 1,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -136,7 +141,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Ian_Machado_Garry",
     "wikidata": "https://www.wikidata.org/wiki/Q109657967",
-    "ufc_com": "https://www.ufc.com/athlete/ian-garry"
+    "ufc_com": "https://www.ufc.com/athlete/ian-garry",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

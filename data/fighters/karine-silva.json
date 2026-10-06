@@ -94,6 +94,11 @@
       "date": "October 26, 2021",
       "resultat": "Win",
       "methode": "Submission (guillotine choke)"
+    },
+    "classement": {
+      "categorie": "mouche_f",
+      "rang": 11,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -124,7 +129,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Karine_Silva",
     "wikidata": "https://www.wikidata.org/wiki/Q121898004",
-    "ufc_com": "https://www.ufc.com/athlete/karine-silva"
+    "ufc_com": "https://www.ufc.com/athlete/karine-silva",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

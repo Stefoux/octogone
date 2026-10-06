@@ -96,6 +96,11 @@
       "date": "May 4, 2019",
       "resultat": "Loss",
       "methode": "TKO (punches)"
+    },
+    "classement": {
+      "categorie": "lourds",
+      "rang": 9,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -134,7 +139,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Serghei_Spivac",
     "wikidata": "https://www.wikidata.org/wiki/Q74099016",
-    "ufc_com": "https://www.ufc.com/athlete/serghei-spivac"
+    "ufc_com": "https://www.ufc.com/athlete/serghei-spivac",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

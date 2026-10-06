@@ -128,6 +128,11 @@
       "date": "July 18, 2017",
       "resultat": "Win",
       "methode": "KO (punch)"
+    },
+    "classement": {
+      "categorie": "coq",
+      "rang": 2,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -246,7 +251,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Sean_O'Malley_(fighter)",
     "wikidata": "https://www.wikidata.org/wiki/Q45189135",
-    "ufc_com": "https://www.ufc.com/athlete/sean-omalley"
+    "ufc_com": "https://www.ufc.com/athlete/sean-omalley",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

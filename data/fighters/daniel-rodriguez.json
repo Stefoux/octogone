@@ -96,6 +96,11 @@
       "date": "July 30, 2019",
       "resultat": "Win",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "mi_moyens",
+      "rang": 14,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -138,7 +143,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Daniel_Rodriguez_(fighter)",
     "wikidata": "https://www.wikidata.org/wiki/Q99500036",
-    "ufc_com": "https://www.ufc.com/athlete/daniel-rodriguez"
+    "ufc_com": "https://www.ufc.com/athlete/daniel-rodriguez",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

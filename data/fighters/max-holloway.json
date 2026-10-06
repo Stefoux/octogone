@@ -168,6 +168,11 @@
       "date": "February 4, 2012",
       "resultat": "Loss",
       "methode": "Submission (triangle armbar)"
+    },
+    "classement": {
+      "categorie": "legers",
+      "rang": 4,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -676,7 +681,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Max_Holloway",
     "wikidata": "https://www.wikidata.org/wiki/Q6794874",
-    "ufc_com": "https://www.ufc.com/athlete/max-holloway"
+    "ufc_com": "https://www.ufc.com/athlete/max-holloway",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

@@ -105,6 +105,11 @@
       "date": "April 10, 2016",
       "resultat": "Loss",
       "methode": "TKO (doctor stoppage)"
+    },
+    "classement": {
+      "categorie": "lourds",
+      "rang": 5,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -209,7 +214,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Curtis_Blaydes",
     "wikidata": "https://www.wikidata.org/wiki/Q28709155",
-    "ufc_com": "https://www.ufc.com/athlete/curtis-blaydes"
+    "ufc_com": "https://www.ufc.com/athlete/curtis-blaydes",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

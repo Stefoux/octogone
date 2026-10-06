@@ -121,6 +121,11 @@
       "date": "March 15, 2014",
       "resultat": "Win",
       "methode": "Submission (rear-naked choke)"
+    },
+    "classement": {
+      "categorie": "moyens",
+      "rang": 0,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": true,
@@ -336,7 +341,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Sean_Strickland",
     "wikidata": "https://www.wikidata.org/wiki/Q17180973",
-    "ufc_com": "https://www.ufc.com/athlete/sean-strickland"
+    "ufc_com": "https://www.ufc.com/athlete/sean-strickland",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

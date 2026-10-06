@@ -135,6 +135,11 @@
       "date": "October 1, 2016",
       "resultat": "Win",
       "methode": "Submission (guillotine choke)"
+    },
+    "classement": {
+      "categorie": "mouche",
+      "rang": 8,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -329,7 +334,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Brandon_Moreno",
     "wikidata": "https://www.wikidata.org/wiki/Q27957350",
-    "ufc_com": "https://www.ufc.com/athlete/brandon-moreno"
+    "ufc_com": "https://www.ufc.com/athlete/brandon-moreno",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

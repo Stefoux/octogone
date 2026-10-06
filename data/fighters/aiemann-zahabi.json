@@ -96,6 +96,11 @@
       "date": "February 19, 2017",
       "resultat": "Win",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "coq",
+      "rang": 7,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -122,7 +127,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Aiemann_Zahabi",
     "wikidata": "https://www.wikidata.org/wiki/Q30069975",
-    "ufc_com": "https://www.ufc.com/athlete/aiemann-zahabi"
+    "ufc_com": "https://www.ufc.com/athlete/aiemann-zahabi",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

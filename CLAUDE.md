@@ -19,6 +19,7 @@ Jeu mobile de cartes de combattants (collection, boosters, combat tactique), Flu
 - Pas de logo officiel UFC / Topps dessiné par l'app. Photos officielles autorisées par l'utilisateur pour l'usage privé : sachets de boosters (`data/images/boosters/`) et photos de cartes selon la rareté (`data/images/photos/`, `data/scripts/fetch_photos.py`).
 - Photos de cartes : combat (Commune → Épique), célébration après victoire (Légendaire ; ceinture pour la liste `data/images/ceinture_legendaire.json`), ceinture si déjà champion sinon célébration (Mythique). Chaque photo est vérifiée par sa légende d'agence ET la reconnaissance faciale, puis revue visuellement ; les refus vont dans `data/images/photos_refusees.json`. Ne jamais retirer un filigrane. Respecter le crawl-delay de 15 s de ufc.com ; ne pas utiliser les sites qui interdisent les agents d'IA (mmafighting, mmajunkie).
 - UFCStats est protégé par une vérification anti-robot : ne pas la contourner, utiliser ufc.com.
+- Classements officiels (champion + 15 classés par catégorie) : `data/scripts/fetch_rankings.py` lit ufc.com/rankings (bloc officiel seulement) et les range dans `ufc.classement` de chaque fiche (`rang` 0 = champion, date, source). Ils servent à la Route vers la ceinture.
 - Cartes Tactique (bonus de combat) : créations originales, édition `data/editions/tactique.json` (type `tactique`, cartes sans combattant, effet dans `cards.tactique` = clé de `TacticKind`, une variante par rareté de Commune à Légendaire). 1 carte Tactique en plus par booster (`composition.tactique` dans `data/boosters.json`, hors garantie et anti-malchance), 3 cartes de départ par joueur (`recevoir_tactiques_depart`), fabricables à l'Atelier.
 
 ## Commandes
@@ -46,7 +47,7 @@ cd data/scripts && .venv/bin/python -m unittest test_scripts
   - `fighters` ;
   - `vitrine` ;
   - `collection` : sélecteur de cartes ;
-  - `combat` : modes, préparation, arène (face-à-face, cartes ou roue, commentaires FR/EN, mini-jeux de soumission, résultat et cartes des juges). `CombatController` s'appuie sur `CombatDriver` (game_core), qui fait jouer l'IA à des moments fixes pour que le serveur puisse rejouer le journal (`CombatDriver.replay`) ;
+  - `combat` : modes (combat rapide, Soirée de 5 cartes, Route vers la ceinture sur les vrais classements, Scénarios des vraies rivalités ; progression sur l'appareil, `combat_modes.dart`), préparation, arène (face-à-face, cartes ou roue, commentaires FR/EN, mini-jeux de soumission, résultat et cartes des juges). `CombatController` s'appuie sur `CombatDriver` (game_core), qui fait jouer l'IA à des moments fixes pour que le serveur puisse rejouer le journal (`CombatDriver.replay`) ;
   - `profile`, `settings`, `credits`.
 - `app/lib/widgets/` : fonds animés (`ArenaBackground`, `RarityBackdrop`), octogone, inclinaison.
 - `packages/game_core/` : règles en Dart pur, compilables en JS pour le serveur. `lib/src/combat/` : moteur de combat déterministe (graine xorshift32), IA en 3 niveaux, cartes Tactique ; réglages d'équilibrage en tête de `engine.dart`, validés avec `dart run bin/simulate_fights.dart ../../data/fighters 10000` (rapport dans `docs/equilibrage_combat.json`).

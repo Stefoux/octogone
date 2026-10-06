@@ -95,6 +95,11 @@
       "date": "29 February 2020",
       "resultat": "Loss",
       "methode": "KO (punch)"
+    },
+    "classement": {
+      "categorie": "coq_f",
+      "rang": 5,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -151,7 +156,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Norma_Dumont",
     "wikidata": "https://www.wikidata.org/wiki/Q106950074",
-    "ufc_com": "https://www.ufc.com/athlete/norma-dumont"
+    "ufc_com": "https://www.ufc.com/athlete/norma-dumont",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

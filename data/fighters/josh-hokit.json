@@ -96,6 +96,11 @@
       "date": "August 19, 2025",
       "resultat": "Win",
       "methode": "TKO (elbows)"
+    },
+    "classement": {
+      "categorie": "lourds",
+      "rang": 4,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -146,7 +151,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Josh_Hokit",
     "wikidata": "https://www.wikidata.org/wiki/Q108055029",
-    "ufc_com": "https://www.ufc.com/athlete/josh-hokit"
+    "ufc_com": "https://www.ufc.com/athlete/josh-hokit",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

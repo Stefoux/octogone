@@ -94,6 +94,11 @@
       "date": "April 6, 2024",
       "resultat": "Loss",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "lourds",
+      "rang": 11,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -168,7 +173,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Valter_Walker",
     "wikidata": "https://www.wikidata.org/wiki/Q133797811",
-    "ufc_com": "https://www.ufc.com/athlete/valter-walker"
+    "ufc_com": "https://www.ufc.com/athlete/valter-walker",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

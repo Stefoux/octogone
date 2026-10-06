@@ -126,6 +126,11 @@
       "date": "May 30, 2020",
       "resultat": "Win",
       "methode": "Submission (arm-triangle choke)"
+    },
+    "classement": {
+      "categorie": "mouche",
+      "rang": 3,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -342,7 +347,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Brandon_Royval",
     "wikidata": "https://www.wikidata.org/wiki/Q102225197",
-    "ufc_com": "https://www.ufc.com/athlete/brandon-royval"
+    "ufc_com": "https://www.ufc.com/athlete/brandon-royval",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

@@ -104,6 +104,11 @@
       "date": "November 25, 2017",
       "resultat": "Win",
       "methode": "Submission (guillotine choke)"
+    },
+    "classement": {
+      "categorie": "coq",
+      "rang": 3,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -158,7 +163,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Song_Yadong",
     "wikidata": "https://www.wikidata.org/wiki/Q56809033",
-    "ufc_com": "https://www.ufc.com/athlete/song-yadong"
+    "ufc_com": "https://www.ufc.com/athlete/song-yadong",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

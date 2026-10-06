@@ -90,6 +90,11 @@
       "date": "September 6, 2025",
       "resultat": "Win",
       "methode": "KO (punches)"
+    },
+    "classement": {
+      "categorie": "lourds",
+      "rang": 10,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -122,7 +127,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Ante_Delija",
     "wikidata": "https://www.wikidata.org/wiki/Q85859508",
-    "ufc_com": "https://www.ufc.com/athlete/ante-delija"
+    "ufc_com": "https://www.ufc.com/athlete/ante-delija",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

@@ -114,6 +114,11 @@
       "date": "31 August 2021",
       "resultat": "Loss",
       "methode": "Technical Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "plume",
+      "rang": 2,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -210,7 +215,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Diego_Lopes_(fighter)",
     "wikidata": "https://www.wikidata.org/wiki/Q124217612",
-    "ufc_com": "https://www.ufc.com/athlete/diego-lopes"
+    "ufc_com": "https://www.ufc.com/athlete/diego-lopes",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

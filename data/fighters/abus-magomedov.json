@@ -96,6 +96,11 @@
       "date": "September 3, 2022",
       "resultat": "Win",
       "methode": "TKO (front kick and punches)"
+    },
+    "classement": {
+      "categorie": "moyens",
+      "rang": 12,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -130,7 +135,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Abusupiyan_Magomedov",
     "wikidata": "https://www.wikidata.org/wiki/Q66132201",
-    "ufc_com": "https://www.ufc.com/athlete/abus-magomedov"
+    "ufc_com": "https://www.ufc.com/athlete/abus-magomedov",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

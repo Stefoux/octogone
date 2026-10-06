@@ -103,6 +103,11 @@
       "date": "September 5, 2023",
       "resultat": "Win",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "plume",
+      "rang": 5,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -195,7 +200,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Jean_Silva",
     "wikidata": "https://www.wikidata.org/wiki/Q127429178",
-    "ufc_com": "https://www.ufc.com/athlete/jean-silva-lord"
+    "ufc_com": "https://www.ufc.com/athlete/jean-silva-lord",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

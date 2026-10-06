@@ -137,6 +137,11 @@
       "date": "15 December 2012",
       "resultat": "Win",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "mi_lourds",
+      "rang": 12,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -311,7 +316,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Robert_Whittaker_(fighter)",
     "wikidata": "https://www.wikidata.org/wiki/Q4845777",
-    "ufc_com": "https://www.ufc.com/athlete/robert-whittaker"
+    "ufc_com": "https://www.ufc.com/athlete/robert-whittaker",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

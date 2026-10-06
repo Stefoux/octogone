@@ -116,6 +116,11 @@
       "date": "September 15, 2020",
       "resultat": "Loss",
       "methode": "KO (punches)"
+    },
+    "classement": {
+      "categorie": "moyens",
+      "rang": 7,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -168,7 +173,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Gregory_Rodrigues",
     "wikidata": "https://www.wikidata.org/wiki/Q111027480",
-    "ufc_com": "https://www.ufc.com/athlete/gregory-rodrigues"
+    "ufc_com": "https://www.ufc.com/athlete/gregory-rodrigues",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

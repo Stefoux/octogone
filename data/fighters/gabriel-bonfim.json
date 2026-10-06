@@ -99,6 +99,11 @@
       "date": "September 6, 2022",
       "resultat": "Win",
       "methode": "Submission (Von Flue choke)"
+    },
+    "classement": {
+      "categorie": "mi_moyens",
+      "rang": 5,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -135,7 +140,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Gabriel_Bonfim",
     "wikidata": "https://www.wikidata.org/wiki/Q121590551",
-    "ufc_com": "https://www.ufc.com/athlete/gabriel-bonfim"
+    "ufc_com": "https://www.ufc.com/athlete/gabriel-bonfim",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

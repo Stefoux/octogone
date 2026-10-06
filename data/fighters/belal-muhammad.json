@@ -118,6 +118,11 @@
       "date": "July 7, 2016",
       "resultat": "Loss",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "mi_moyens",
+      "rang": 7,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -214,7 +219,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Belal_Muhammad",
     "wikidata": "https://www.wikidata.org/wiki/Q27068531",
-    "ufc_com": "https://www.ufc.com/athlete/belal-muhammad"
+    "ufc_com": "https://www.ufc.com/athlete/belal-muhammad",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

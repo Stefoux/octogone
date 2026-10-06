@@ -101,6 +101,11 @@
       "date": "4 November 2020",
       "resultat": "Win",
       "methode": "KO (punches)"
+    },
+    "classement": {
+      "categorie": "mi_lourds",
+      "rang": 0,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": true,
@@ -174,7 +179,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Carlos_Ulberg",
     "wikidata": "https://www.wikidata.org/wiki/Q105361122",
-    "ufc_com": "https://www.ufc.com/athlete/carlos-ulberg"
+    "ufc_com": "https://www.ufc.com/athlete/carlos-ulberg",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

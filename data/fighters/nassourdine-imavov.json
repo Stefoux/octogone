@@ -103,6 +103,11 @@
       "date": "4 October 2020",
       "resultat": "Win",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "moyens",
+      "rang": 3,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -137,7 +142,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Nassourdine_Imavov",
     "wikidata": "https://www.wikidata.org/wiki/Q107641405",
-    "ufc_com": "https://www.ufc.com/athlete/nassourdine-imavov"
+    "ufc_com": "https://www.ufc.com/athlete/nassourdine-imavov",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

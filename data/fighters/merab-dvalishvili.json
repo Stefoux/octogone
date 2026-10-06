@@ -142,6 +142,11 @@
       "date": "December 9, 2017",
       "resultat": "Loss",
       "methode": "Decision (split)"
+    },
+    "classement": {
+      "categorie": "coq",
+      "rang": 1,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -406,7 +411,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Merab_Dvalishvili",
     "wikidata": "https://www.wikidata.org/wiki/Q48471377",
-    "ufc_com": "https://www.ufc.com/athlete/merab-dvalishvili"
+    "ufc_com": "https://www.ufc.com/athlete/merab-dvalishvili",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

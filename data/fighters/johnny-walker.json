@@ -97,6 +97,11 @@
       "date": "August 11, 2018",
       "resultat": "Win",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "mi_lourds",
+      "rang": 13,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -139,7 +144,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Johnny_Walker_(fighter)",
     "wikidata": "https://www.wikidata.org/wiki/Q61478503",
-    "ufc_com": "https://www.ufc.com/athlete/johnny-walker"
+    "ufc_com": "https://www.ufc.com/athlete/johnny-walker",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

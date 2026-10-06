@@ -92,6 +92,11 @@
       "date": "April 29, 2023",
       "resultat": "Win",
       "methode": "Submission (rear-naked choke)"
+    },
+    "classement": {
+      "categorie": "coq",
+      "rang": 15,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -126,7 +131,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Marcus_McGhee",
     "wikidata": "https://www.wikidata.org/wiki/Q132431664",
-    "ufc_com": "https://www.ufc.com/athlete/marcus-mcghee"
+    "ufc_com": "https://www.ufc.com/athlete/marcus-mcghee",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

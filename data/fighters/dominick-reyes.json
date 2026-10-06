@@ -103,6 +103,11 @@
       "date": "June 25, 2017",
       "resultat": "Win",
       "methode": "TKO (punches)"
+    },
+    "classement": {
+      "categorie": "mi_lourds",
+      "rang": 10,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -161,7 +166,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Dominick_Reyes",
     "wikidata": "https://www.wikidata.org/wiki/Q30323656",
-    "ufc_com": "https://www.ufc.com/athlete/dominick-reyes"
+    "ufc_com": "https://www.ufc.com/athlete/dominick-reyes",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

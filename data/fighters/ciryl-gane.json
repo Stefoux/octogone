@@ -118,6 +118,11 @@
       "date": "August 10, 2019",
       "resultat": "Win",
       "methode": "Submission (arm-triangle choke)"
+    },
+    "classement": {
+      "categorie": "lourds",
+      "rang": 0,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": true,
@@ -227,7 +232,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Ciryl_Gane",
     "wikidata": "https://www.wikidata.org/wiki/Q79372882",
-    "ufc_com": "https://www.ufc.com/athlete/ciryl-gane"
+    "ufc_com": "https://www.ufc.com/athlete/ciryl-gane",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

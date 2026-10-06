@@ -124,6 +124,11 @@
       "date": "March 3, 2018",
       "resultat": "Win",
       "methode": "Decision (split)"
+    },
+    "classement": {
+      "categorie": "paille_f",
+      "rang": 0,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": true,
@@ -221,7 +226,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Mackenzie_Dern",
     "wikidata": "https://www.wikidata.org/wiki/Q21005601",
-    "ufc_com": "https://www.ufc.com/athlete/mackenzie-dern"
+    "ufc_com": "https://www.ufc.com/athlete/mackenzie-dern",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

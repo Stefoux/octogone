@@ -100,6 +100,11 @@
       "date": "January 20, 2021",
       "resultat": "Win",
       "methode": "Technical Submission (rear-naked choke)"
+    },
+    "classement": {
+      "categorie": "coq",
+      "rang": 4,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -182,7 +187,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Umar_Nurmagomedov",
     "wikidata": "https://www.wikidata.org/wiki/Q56315142",
-    "ufc_com": "https://www.ufc.com/athlete/umar-nurmagomedov"
+    "ufc_com": "https://www.ufc.com/athlete/umar-nurmagomedov",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

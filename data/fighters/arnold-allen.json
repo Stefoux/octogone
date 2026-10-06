@@ -99,6 +99,11 @@
       "date": "20 June 2015",
       "resultat": "Win",
       "methode": "Submission (guillotine choke)"
+    },
+    "classement": {
+      "categorie": "plume",
+      "rang": 7,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -137,7 +142,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Arnold_Allen",
     "wikidata": "https://www.wikidata.org/wiki/Q23007609",
-    "ufc_com": "https://www.ufc.com/athlete/arnold-allen"
+    "ufc_com": "https://www.ufc.com/athlete/arnold-allen",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

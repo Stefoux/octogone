@@ -108,6 +108,11 @@
       "date": "April 20, 2019",
       "resultat": "Loss",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "legers",
+      "rang": 2,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -154,7 +159,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Arman_Tsarukyan",
     "wikidata": "https://www.wikidata.org/wiki/Q61996306",
-    "ufc_com": "https://www.ufc.com/athlete/arman-tsarukyan"
+    "ufc_com": "https://www.ufc.com/athlete/arman-tsarukyan",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

@@ -104,6 +104,11 @@
       "date": "May 14, 2022",
       "resultat": "Win",
       "methode": "Decision (unanimous)"
+    },
+    "classement": {
+      "categorie": "mouche",
+      "rang": 4,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -188,7 +193,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Tatsuro_Taira",
     "wikidata": "https://www.wikidata.org/wiki/Q108109936",
-    "ufc_com": "https://www.ufc.com/athlete/tatsuro-taira"
+    "ufc_com": "https://www.ufc.com/athlete/tatsuro-taira",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

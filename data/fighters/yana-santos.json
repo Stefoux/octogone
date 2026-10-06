@@ -95,6 +95,11 @@
       "date": "March 3, 2018",
       "resultat": "Loss",
       "methode": "TKO (punches)"
+    },
+    "classement": {
+      "categorie": "coq_f",
+      "rang": 6,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -151,7 +156,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Yana_Santos",
     "wikidata": "https://www.wikidata.org/wiki/Q8048201",
-    "ufc_com": "https://www.ufc.com/athlete/yana-kunitskaya"
+    "ufc_com": "https://www.ufc.com/athlete/yana-kunitskaya",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "pays": "wikidata",

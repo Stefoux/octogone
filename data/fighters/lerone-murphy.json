@@ -101,6 +101,11 @@
       "date": "7 September 2019",
       "resultat": "Draw",
       "methode": "Draw (split)"
+    },
+    "classement": {
+      "categorie": "plume",
+      "rang": 3,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -177,7 +182,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Lerone_Murphy",
     "wikidata": "https://www.wikidata.org/wiki/Q104966783",
-    "ufc_com": "https://www.ufc.com/athlete/lerone-murphy"
+    "ufc_com": "https://www.ufc.com/athlete/lerone-murphy",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

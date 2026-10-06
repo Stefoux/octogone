@@ -112,6 +112,11 @@
       "date": "16 July 2020",
       "resultat": "Win",
       "methode": "Submission (brabo choke)"
+    },
+    "classement": {
+      "categorie": "moyens",
+      "rang": 1,
+      "date": "2026-10-05"
     }
   },
   "champion_actuel": false,
@@ -368,7 +373,8 @@
   "sources": {
     "wikipedia": "https://en.wikipedia.org/wiki/Khamzat_Chimaev",
     "wikidata": "https://www.wikidata.org/wiki/Q76476288",
-    "ufc_com": "https://www.ufc.com/athlete/khamzat-chimaev"
+    "ufc_com": "https://www.ufc.com/athlete/khamzat-chimaev",
+    "classement": "https://www.ufc.com/rankings"
   },
   "champs_sources": {
     "surnom": "ufc_com",

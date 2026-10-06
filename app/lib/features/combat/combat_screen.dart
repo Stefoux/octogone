@@ -15,9 +15,9 @@ class CombatScreen extends StatelessWidget {
     final l = context.l10n;
     final modes = [
       (Icons.flash_on, l.combatQuick, l.combatQuickSub, '/combat/rapide'),
-      (Icons.nightlife, l.combatEvening, l.combatEveningSub, null),
-      (Icons.emoji_events, l.combatRoad, l.combatRoadSub, null),
-      (Icons.movie_filter, l.combatScenarios, l.combatScenariosSub, null),
+      (Icons.nightlife, l.combatEvening, l.combatEveningSub, '/combat/soiree'),
+      (Icons.emoji_events, l.combatRoad, l.combatRoadSub, '/combat/route'),
+      (Icons.movie_filter, l.combatScenarios, l.combatScenariosSub, '/combat/rivalites'),
     ];
     return Scaffold(
       backgroundColor: Colors.transparent,
@@ -37,7 +37,7 @@ class CombatScreen extends StatelessWidget {
                 icon: m.$1,
                 title: m.$2,
                 subtitle: m.$3,
-                onTap: m.$4 == null ? null : () => context.push(m.$4!),
+                onTap: () => context.push(m.$4),
               ),
             ).animate(delay: (70 * i).ms).fadeIn(duration: Motion.medium).slideY(begin: 0.08, end: 0),
         ],
