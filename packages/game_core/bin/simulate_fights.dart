@@ -47,11 +47,7 @@ void main(List<String> args) {
     }
     Map<String, dynamic> card(Map<String, dynamic> f) {
       final r = Rarity.values[rng.weighted(rarityWeights)];
-      return {
-        ...f,
-        'rarete': r.key,
-        'technique': ((f['ufc'] as Map?)?['technique_favorite'] as Map?)?['technique'],
-      };
+      return {...f, 'rarete': r.key, 'technique': ((f['ufc'] as Map?)?['technique_favorite'] as Map?)?['technique']};
     }
 
     final ra = CombatFighter.fromJson(card(a));
@@ -98,12 +94,15 @@ void main(List<String> args) {
     final lo = rng.nextInt(5);
     final hi = lo + 1 + rng.nextInt(5 - lo);
     Map<String, dynamic> withR(int r) => {
-          ...f,
-          'rarete': Rarity.values[r].key,
-          'technique': ((f['ufc'] as Map?)?['technique_favorite'] as Map?)?['technique'],
-        };
-    final r = simulateFight(CombatConfig(seed: 500000 + i, format: i.isEven ? CombatFormat.complet : CombatFormat.court),
-        CombatFighter.fromJson(withR(hi)), CombatFighter.fromJson(withR(lo)));
+      ...f,
+      'rarete': Rarity.values[r].key,
+      'technique': ((f['ufc'] as Map?)?['technique_favorite'] as Map?)?['technique'],
+    };
+    final r = simulateFight(
+      CombatConfig(seed: 500000 + i, format: i.isEven ? CombatFormat.complet : CombatFormat.court),
+      CombatFighter.fromJson(withR(hi)),
+      CombatFighter.fromJson(withR(lo)),
+    );
     if (r.winner == null) continue;
     final g = pure.putIfAbsent(hi - lo, () => [0, 0]);
     g[1]++;
@@ -111,7 +110,9 @@ void main(List<String> args) {
   }
 
   // Niveaux d'IA : combattants tirés au hasard, chaque niveau joue les deux coins
+  // (et à combattant égal : le même contre lui-même)
   final levels = <String, List<int>>{};
+  final levelsEqual = <String, List<int>>{};
   for (final pair in [
     [AiLevel.normal, AiLevel.facile],
     [AiLevel.difficile, AiLevel.normal],
@@ -119,17 +120,25 @@ void main(List<String> args) {
   ]) {
     final key = '${pair[0].name} contre ${pair[1].name}';
     final g = levels.putIfAbsent(key, () => [0, 0]);
+    final ge = levelsEqual.putIfAbsent(key, () => [0, 0]);
     for (var i = 0; i < n ~/ 8; i++) {
       final cls = classes[rng.nextInt(classes.length)];
       final pool = byClass[cls]!;
       final fa = CombatFighter.fromJson({...pool[rng.nextInt(pool.length)], 'rarete': 'commune'});
       final fb = CombatFighter.fromJson({...pool[rng.nextInt(pool.length)], 'rarete': 'commune'});
       final swap = i.isOdd;
-      final r = simulateFight(CombatConfig(seed: 900000 + i), swap ? fb : fa, swap ? fa : fb,
-          redLevel: swap ? pair[1] : pair[0], blueLevel: swap ? pair[0] : pair[1]);
-      if (r.winner == null) continue;
-      g[1]++;
-      if (r.winner == (swap ? 1 : 0)) g[0]++;
+      for (final (g, opp) in [(g, fb), (ge, fa)]) {
+        final r = simulateFight(
+          CombatConfig(seed: 900000 + i),
+          swap ? opp : fa,
+          swap ? fa : opp,
+          redLevel: swap ? pair[1] : pair[0],
+          blueLevel: swap ? pair[0] : pair[1],
+        );
+        if (r.winner == null) continue;
+        g[1]++;
+        if (r.winner == (swap ? 1 : 0)) g[0]++;
+      }
     }
   }
 
@@ -137,10 +146,13 @@ void main(List<String> args) {
   final total = finishes.values.fold<int>(0, (a, b) => a + b);
   final ko = (finishes['ko'] ?? 0) + (finishes['tko'] ?? 0);
   final sub = finishes['soumission'] ?? 0;
-  final dec = (finishes['decisionUnanime'] ?? 0) + (finishes['decisionPartagee'] ?? 0) + (finishes['decisionMajoritaire'] ?? 0);
+  final dec =
+      (finishes['decisionUnanime'] ?? 0) + (finishes['decisionPartagee'] ?? 0) + (finishes['decisionMajoritaire'] ?? 0);
   final draw = finishes['nul'] ?? 0;
   stdout.writeln('$n combats simulés (${fighters.length} combattants, ${classes.length} catégories)');
-  stdout.writeln('Fins : KO/TKO ${pct(ko, total)} · soumission ${pct(sub, total)} · décision ${pct(dec, total)} · nul ${pct(draw, total)}');
+  stdout.writeln(
+    'Fins : KO/TKO ${pct(ko, total)} · soumission ${pct(sub, total)} · décision ${pct(dec, total)} · nul ${pct(draw, total)}',
+  );
   stdout.writeln('Durée moyenne : ${(exchanges / n).toStringAsFixed(1)} échanges ; finish par round : $rounds');
   stdout.writeln('Styles (victoires du premier) :');
   for (final e in (styleWins.entries.toList()..sort((a, b) => a.key.compareTo(b.key)))) {
@@ -156,22 +168,31 @@ void main(List<String> args) {
   }
   stdout.writeln('Note globale (victoires du mieux noté, selon l’écart) :');
   for (final k in (overallGap.keys.toList()..sort())) {
-    stdout.writeln('  ${k == 20 ? '20+' : '$k-${k + 4}'} pts : ${pct(overallGap[k]![0], overallGap[k]![1])} (${overallGap[k]![1]} combats)');
+    stdout.writeln(
+      '  ${k == 20 ? '20+' : '$k-${k + 4}'} pts : ${pct(overallGap[k]![0], overallGap[k]![1])} (${overallGap[k]![1]} combats)',
+    );
   }
   stdout.writeln('Niveaux d’IA (victoires du premier) :');
   for (final e in levels.entries) {
     stdout.writeln('  ${e.key} : ${pct(e.value[0], e.value[1])} (${e.value[1]} combats)');
   }
+  stdout.writeln('Niveaux d’IA à combattant égal (le même des deux côtés) :');
+  for (final e in levelsEqual.entries) {
+    stdout.writeln('  ${e.key} : ${pct(e.value[0], e.value[1])} (${e.value[1]} combats)');
+  }
   if (jsonOut != null) {
-    File(jsonOut).writeAsStringSync(const JsonEncoder.withIndent('  ').convert({
-      'combats': n,
-      'fins': finishes,
-      'styles': {for (final e in styleWins.entries) e.key: e.value},
-      'rarete': {for (final e in rarityGap.entries) '${e.key}': e.value},
-      'note': {for (final e in overallGap.entries) '${e.key}': e.value},
-      'echanges_moyens': exchanges / n,
-      'niveaux_ia': levels,
-      'rarete_seule': {for (final e in pure.entries) '${e.key}': e.value},
-    }));
+    File(jsonOut).writeAsStringSync(
+      const JsonEncoder.withIndent('  ').convert({
+        'combats': n,
+        'fins': finishes,
+        'styles': {for (final e in styleWins.entries) e.key: e.value},
+        'rarete': {for (final e in rarityGap.entries) '${e.key}': e.value},
+        'note': {for (final e in overallGap.entries) '${e.key}': e.value},
+        'echanges_moyens': exchanges / n,
+        'niveaux_ia': levels,
+        'niveaux_ia_egaux': levelsEqual,
+        'rarete_seule': {for (final e in pure.entries) '${e.key}': e.value},
+      }),
+    );
   }
 }

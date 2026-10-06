@@ -18,7 +18,7 @@ enum CombatAction {
   garde('garde', ActionKind.defense, cost: -3, base: 1),
   esquive('esquive', ActionKind.defense, cost: 3, base: 1),
   groundAndPound('ground_and_pound', ActionKind.frappe, cost: 8, base: 0.58, damage: 15, heavy: true),
-  soumission('soumission', ActionKind.soumission, cost: 9, base: 0.38),
+  soumission('soumission', ActionKind.soumission, cost: 9, base: 0.46),
   seRelever('se_relever', ActionKind.degagement, cost: 6, base: 0.45),
   controle('controle', ActionKind.controle, cost: 3, base: 0.72),
   signature('signature', ActionKind.signature, cost: 0, base: 0.72, damage: 28, heavy: true);

@@ -12,8 +12,7 @@ GameStats _stats({int fr = 60, int pu = 60, int lu = 60, int so = 60, int de = 6
       StatKind.menton: me,
     });
 
-CombatFighter _f(String id, GameStats s,
-        {Rarity rarity = Rarity.commune, String cat = 'legers', String? technique}) =>
+CombatFighter _f(String id, GameStats s, {Rarity rarity = Rarity.commune, String cat = 'legers', String? technique}) =>
     CombatFighter(
       id: id,
       name: id,
@@ -101,8 +100,7 @@ void main() {
           final a = step['a'] as List;
           replay.play(CombatAction.fromKey(a[0] as String), CombatAction.fromKey(a[1] as String));
         case 'soumission':
-          replay.resolveSubmission(
-              attackerSkill: (step['a'] as int) / 1000, defenderSkill: (step['d'] as int) / 1000);
+          replay.resolveSubmission(attackerSkill: (step['a'] as int) / 1000, defenderSkill: (step['d'] as int) / 1000);
       }
     }
     expect(replay.result!.toJson(), e.result!.toJson());
@@ -133,8 +131,10 @@ void main() {
     e.useTactic(0, const TacticCard(TacticKind.pressionTotale, Rarity.commune));
     expect(e.sides[1].stamina, 90);
     expect(e.canUseTactic(0, TacticKind.coinDuCoach), isFalse, reason: '2 cartes au plus');
-    expect(const TacticCard(TacticKind.coinDuCoach, Rarity.legendaire).amount,
-        greaterThan(const TacticCard(TacticKind.coinDuCoach, Rarity.commune).amount));
+    expect(
+      const TacticCard(TacticKind.coinDuCoach, Rarity.legendaire).amount,
+      greaterThan(const TacticCard(TacticKind.coinDuCoach, Rarity.commune).amount),
+    );
   });
 
   test('Soumission : en attente du mini-jeu, puis finie ou échappée', () {
@@ -149,6 +149,7 @@ void main() {
       e.play(CombatAction.soumission, CombatAction.seRelever);
       if (e.pending != null) {
         sawPending = true;
+        expect(e.exchange, 1, reason: 'l’échange se termine après le mini-jeu');
         expect(() => e.play(CombatAction.garde, CombatAction.garde), throwsStateError);
         e.resolveSubmission(attackerSkill: 1, defenderSkill: 0);
         expect(e.pending, isNull);
@@ -161,8 +162,13 @@ void main() {
     final equal = _f('a', _stats()), equal2 = _f('b', _stats());
     var hard = 0, n = 0;
     for (var seed = 1; seed <= 200; seed++) {
-      final r = simulateFight(CombatConfig(seed: seed, format: CombatFormat.court), equal, equal2,
-          redLevel: AiLevel.difficile, blueLevel: AiLevel.facile);
+      final r = simulateFight(
+        CombatConfig(seed: seed, format: CombatFormat.court),
+        equal,
+        equal2,
+        redLevel: AiLevel.difficile,
+        blueLevel: AiLevel.facile,
+      );
       if (r.winner == 0) hard++;
       if (r.winner != null) n++;
     }
@@ -174,7 +180,23 @@ void main() {
     final heavy = _f('lourd', _stats(), cat: 'lourds');
     final same = CombatEngine(const CombatConfig(seed: 1), heavy, light);
     final open = CombatEngine(const CombatConfig(seed: 1, openWeight: true), heavy, light);
-    expect(open.damageEstimate(0, CombatAction.frappePuissante, CombatAction.frappeRapide),
-        greaterThan(same.damageEstimate(0, CombatAction.frappePuissante, CombatAction.frappeRapide)));
+    expect(
+      open.damageEstimate(0, CombatAction.frappePuissante, CombatAction.frappeRapide),
+      greaterThan(same.damageEstimate(0, CombatAction.frappePuissante, CombatAction.frappeRapide)),
+    );
+  });
+
+  test('Chance de finish : bornée, plus forte sur un adversaire très touché, arrêts de l’arbitre', () {
+    final e = CombatEngine(const CombatConfig(seed: 8), striker, wrestler);
+    final fresh = e.finishChance(0, CombatAction.frappePuissante, CombatAction.frappeRapide);
+    e.sides[1].health = 25;
+    final hurt = e.finishChance(0, CombatAction.frappePuissante, CombatAction.frappeRapide);
+    expect(fresh, inInclusiveRange(0, 1));
+    expect(hurt, greaterThan(fresh));
+    expect(e.finishChance(0, CombatAction.garde, CombatAction.garde), 0);
+    final methods = <FinishMethod>{
+      for (var seed = 1; seed <= 300; seed++) simulateFight(CombatConfig(seed: seed), striker, wrestler).method,
+    };
+    expect(methods, containsAll([FinishMethod.ko, FinishMethod.tko]));
   });
 }

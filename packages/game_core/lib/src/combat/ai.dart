@@ -39,32 +39,39 @@ class HabitProfile {
   }
 
   /// Probabilité estimée que le joueur choisisse chaque action de [options].
-  Map<CombatAction, double> predict(Stance stance, List<CombatAction> options) {
+  /// [prior] : tendance connue du combattant (son style), avant toute habitude.
+  Map<CombatAction, double> predict(Stance stance, List<CombatAction> options, {Map<CombatAction, double>? prior}) {
     final m = counts[stance.name] ?? const {};
-    final raw = {for (final a in options) a: 1.0 + (m[a.key] ?? 0) * 2};
+    final priorTotal = prior == null ? 0.0 : options.fold<double>(0, (t, a) => t + (prior[a] ?? 0));
+    double base(CombatAction a) =>
+        prior == null || priorTotal == 0 ? 1.0 : (prior[a] ?? 0) / priorTotal * options.length;
+    final raw = {for (final a in options) a: base(a) + (m[a.key] ?? 0) * 2};
     final total = raw.values.fold<double>(0, (a, b) => a + b);
     return {for (final e in raw.entries) e.key: e.value / total};
   }
 
   Map<String, dynamic> toJson() => {
-        for (final e in counts.entries)
-          e.key: {for (final c in e.value.entries) c.key: (c.value * 100).round() / 100},
-      };
+    for (final e in counts.entries) e.key: {for (final c in e.value.entries) c.key: (c.value * 100).round() / 100},
+  };
 
   static HabitProfile fromJson(Map<String, dynamic>? j) => HabitProfile({
-        for (final e in (j ?? const {}).entries)
-          e.key: {
-            for (final c in (e.value as Map).entries) c.key as String: (c.value as num).toDouble(),
-          },
-      });
+    for (final e in (j ?? const {}).entries)
+      e.key: {for (final c in (e.value as Map).entries) c.key as String: (c.value as num).toDouble()},
+  });
 
   HabitProfile copy() => HabitProfile({for (final e in counts.entries) e.key: Map.of(e.value)});
 }
 
 class CombatAi {
   CombatAi(this.level, this.side, {required int seed, HabitProfile? habits})
-      : habits = habits?.copy() ?? HabitProfile(),
-        _rng = CombatRng(seed ^ 0x5bd1e995 ^ (side * 0x27d4eb2d));
+    : habits = habits?.copy() ?? HabitProfile(),
+      _rng = CombatRng(seed ^ 0x5bd1e995 ^ (side * 0x27d4eb2d));
+
+  /// Valeur d'un finish pour le niveau difficile (en points de dégâts).
+  static const finishValue = 40.0;
+
+  /// Coût de la passivité (Garde, Esquive) pour le niveau difficile.
+  static const passivityCost = 3.0;
 
   final AiLevel level;
   final int side;
@@ -91,7 +98,7 @@ class CombatAi {
       case AiLevel.difficile:
         final values = [for (final a in options) _expectedValue(e, a)];
         // Le plus souvent le meilleur choix, parfois un autre (imprévisible)
-        if (_rng.nextDouble() < 0.78) {
+        if (_rng.nextDouble() < 0.88) {
           var best = 0;
           for (var i = 1; i < values.length; i++) {
             if (values[i] > values[best]) best = i;
@@ -138,7 +145,12 @@ class CombatAi {
   double _expectedValue(CombatEngine e, CombatAction a) {
     final oppStance = e.stanceOf(_opp);
     final oppOptions = [...stanceActions[oppStance]!, CombatAction.garde];
-    final predicted = habits.predict(oppStance, oppOptions);
+    final oppFighter = e.fighters[_opp];
+    final predicted = habits.predict(
+      oppStance,
+      oppOptions,
+      prior: {for (final b in oppOptions) b: b == CombatAction.garde ? 1.0 : oppFighter.cardWeight(b, oppStance)},
+    );
     final me = e.sides[_me];
     final opp = e.sides[_opp];
     var total = 0.0;
@@ -146,6 +158,8 @@ class CombatAi {
       final b = entry.key;
       total += entry.value * (_gain(e, _me, a, b) - _gain(e, _opp, b, a));
     }
+    // Rester passif ne marque rien auprès des juges
+    if (!a.offensive) total -= passivityCost;
     if (me.stamina < 20 && a.cost > 6) total -= 3;
     if (opp.health < 35 && a.heavy) total += 2;
     return total;
@@ -164,19 +178,22 @@ class CombatAi {
     }
     final p = e.successChance(side, x, y);
     final aggression = 0.6;
-    if (x.damage > 0) {
+    // Un finish vaut le combat entier
+    final finish = finishValue * e.finishChance(side, x, y);
+    final isSub =
+        x == CombatAction.soumission || (x == CombatAction.signature && f.signatureKind == SignatureKind.soumission);
+    if (x.damage > 0 && !isSub) {
       final dmg = e.damageEstimate(side, x, y).toDouble();
-      return aggression + p * (dmg + 1.5 + (x.heavy ? 2 : 0));
+      return aggression + p * (dmg + 1.5 + (x.heavy ? 2 : 0) + finish);
     }
     final positional = switch (x) {
       CombatAction.takedown => 5 + (f.style == FighterStyle.frappeur ? 0 : 5),
       CombatAction.clinch => 1 + (f.style == FighterStyle.frappeur ? 0 : 3),
       CombatAction.controle => 4.0,
-      CombatAction.soumission => 3 + 25 * (0.22 + (f[StatKind.soumission] - 60) / 120).clamp(0.05, 0.6),
       CombatAction.seRelever => f.style == FighterStyle.frappeur ? 7.0 : 3.0,
-      _ => 2.0,
+      _ => 3.0,
     };
-    return aggression + p * positional;
+    return aggression + p * (positional + finish);
   }
 
   /// Carte Tactique à jouer maintenant (ou null), parmi [cards].
@@ -223,10 +240,7 @@ CombatResult simulateFight(
   List<TacticCard> blueTactics = const [],
 }) {
   final e = CombatEngine(config, red, blue);
-  final ais = [
-    CombatAi(redLevel, 0, seed: config.seed),
-    CombatAi(blueLevel, 1, seed: config.seed),
-  ];
+  final ais = [CombatAi(redLevel, 0, seed: config.seed), CombatAi(blueLevel, 1, seed: config.seed)];
   final tactics = [redTactics, blueTactics];
   var guard = 0;
   while (!e.finished && guard++ < 500) {

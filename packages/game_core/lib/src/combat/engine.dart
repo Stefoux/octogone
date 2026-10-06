@@ -46,15 +46,19 @@ class CombatConfig {
   int get rounds => titleFight ? 5 : 3;
   int get exchangesPerRound => format.exchanges;
 
-  Map<String, dynamic> toJson() =>
-      {'seed': seed, 'format': format.name, 'titre': titleFight, 'poids_libre': openWeight};
+  Map<String, dynamic> toJson() => {
+    'seed': seed,
+    'format': format.name,
+    'titre': titleFight,
+    'poids_libre': openWeight,
+  };
 
   static CombatConfig fromJson(Map<String, dynamic> j) => CombatConfig(
-        seed: (j['seed'] as num).toInt(),
-        format: CombatFormat.values.byName(j['format'] as String? ?? 'complet'),
-        titleFight: j['titre'] == true,
-        openWeight: j['poids_libre'] == true,
-      );
+    seed: (j['seed'] as num).toInt(),
+    format: CombatFormat.values.byName(j['format'] as String? ?? 'complet'),
+    titleFight: j['titre'] == true,
+    openWeight: j['poids_libre'] == true,
+  );
 }
 
 /// Ce qui se passe pendant un échange (traduit en commentaires par l'app).
@@ -72,7 +76,8 @@ class CombatEvent {
   final String? detail;
 
   @override
-  String toString() => '$type${side == null ? '' : '[$side]'}${action == null ? '' : ' ${action!.key}'}'
+  String toString() =>
+      '$type${side == null ? '' : '[$side]'}${action == null ? '' : ' ${action!.key}'}'
       '${value == null ? '' : ' $value'}${detail == null ? '' : ' ($detail)'}';
 }
 
@@ -101,12 +106,17 @@ class CombatResult {
   (int, int) judgeTotal(int judge) => scorecards[judge].fold((0, 0), (a, r) => (a.$1 + r.$1, a.$2 + r.$2));
 
   Map<String, dynamic> toJson() => {
-        'vainqueur': winner,
-        'methode': method.name,
-        'round': round,
-        'echange': exchange,
-        'juges': [for (final j in scorecards) [for (final r in j) [r.$1, r.$2]]],
-      };
+    'vainqueur': winner,
+    'methode': method.name,
+    'round': round,
+    'echange': exchange,
+    'juges': [
+      for (final j in scorecards)
+        [
+          for (final r in j) [r.$1, r.$2],
+        ],
+    ],
+  };
 }
 
 /// État d'un combattant pendant le combat.
@@ -149,11 +159,41 @@ class PendingSubmission {
   final bool signature;
 }
 
+// Réglages d'équilibrage (simulations de `bin/simulate_fights.dart`, validés
+// sur 10 000 combats : ≈ 35 % KO/TKO, 20 % soumissions, 43 % décisions).
+
+/// Dégâts : multiplicateur global.
+const _damageScale = 1.2;
+
+/// Knockdown : chance de base sur une frappe lourde ; KO qui suit un knockdown.
+const _knockdownBase = 0.06, _koBase = 0.44;
+
+/// Arrêt de l'arbitre sous [_stopThreshold] de santé (frappe lourde / légère).
+const _stopThreshold = 0.4, _stopHeavy = 2.8, _stopLight = 1.4;
+
+/// Ground and pound : poids de la puissance et de la lutte.
+const _gnpPower = 0.45, _gnpWrestling = 0.45;
+
+/// Soumission : chance de base, défense par la lutte, malus depuis le dos,
+/// défense propre aux lutteurs.
+const _submissionBase = 0.62, _subWrestlingDefense = 0.4, _subFromBottom = 0.16, _subWrestlerDefense = 0.18;
+
+/// Lutteur : bonus d'enchaînement (takedown, contrôle, clinch) et malus pour
+/// se relever sous lui.
+const _wrestlerChain = 0.08, _wrestlerPin = 0.06;
+
+/// Coût d'endurance d'une action : coût × (base − pente × cardio).
+const _cardioCostBase = 2.2, _cardioCostSlope = 1.4;
+
+/// Fatigue : malus de réussite qui croît sous [_fatigueThreshold] d'endurance,
+/// jusqu'à [_fatigueMax].
+const _fatigueThreshold = 70, _fatigueMax = 0.22;
+
 class CombatEngine {
   CombatEngine(this.config, CombatFighter red, CombatFighter blue)
-      : fighters = [red, blue],
-        sides = [_side(red), _side(blue)],
-        _rng = CombatRng(config.seed) {
+    : fighters = [red, blue],
+      sides = [_side(red), _side(blue)],
+      _rng = CombatRng(config.seed) {
     for (var s = 0; s < 2; s++) {
       _drawHand(s, Stance.debout);
     }
@@ -191,10 +231,10 @@ class CombatEngine {
   // --- Situation et cartes ----------------------------------------------------
 
   Stance stanceOf(int side) => switch (position) {
-        Position.debout => Stance.debout,
-        Position.clinch => Stance.clinch,
-        Position.sol => top == side ? Stance.dessus : Stance.dessous,
-      };
+    Position.debout => Stance.debout,
+    Position.clinch => Stance.clinch,
+    Position.sol => top == side ? Stance.dessus : Stance.dessous,
+  };
 
   void _drawHand(int side, Stance stance) {
     final hand = sides[side].hands.putIfAbsent(stance, () => []);
@@ -222,10 +262,10 @@ class CombatEngine {
 
   /// Actions jouables : la main, la Garde (toujours), le coup signature.
   List<CombatAction> available(int side) => [
-        ...{...hand(side)},
-        CombatAction.garde,
-        if (signatureReady(side)) CombatAction.signature,
-      ];
+    ...{...hand(side)},
+    CombatAction.garde,
+    if (signatureReady(side)) CombatAction.signature,
+  ];
 
   bool canUseTactic(int side, TacticKind kind) =>
       !finished &&
@@ -280,11 +320,10 @@ class CombatEngine {
     return a / b;
   }
 
+  /// Malus de fatigue (0 à [_fatigueMax]) : croît dès que l'endurance passe sous [_fatigueThreshold].
   double _fatigue(int side) {
     final st = sides[side].stamina;
-    if (st < 10) return 0.20;
-    if (st < 25) return 0.10;
-    return 0;
+    return st >= _fatigueThreshold ? 0 : (_fatigueThreshold - st) / _fatigueThreshold * _fatigueMax;
   }
 
   double _edge(int i, int j, CombatAction a) {
@@ -321,6 +360,12 @@ class CombatEngine {
     var p = a.base + matchup(a, b, stanceOf(i)) + _edge(i, j, a) - _fatigue(i) + me.dodgeFocus;
     p += 0.01 * fighters[i].rarity.index;
     if (fighters[i].style == FighterStyle.complet) p += 0.03; // lecture du combat
+    // Lutteur : enchaînements de lutte, et dur à décoller une fois dessus
+    if (fighters[i].style == FighterStyle.lutteur &&
+        (a == CombatAction.takedown || a == CombatAction.controle || a == CombatAction.clinch)) {
+      p += _wrestlerChain;
+    }
+    if (a == CombatAction.seRelever && fighters[j].style == FighterStyle.lutteur) p -= _wrestlerPin;
     if (me.focusTurns > 0) p += me.focusPct;
     return p.clamp(0.05, 0.95);
   }
@@ -330,11 +375,14 @@ class CombatEngine {
     double power;
     if (strikeKind == CombatAction.frappeRapide) {
       power = 0.7 + 0.6 * _s(i, StatKind.frappe);
+    } else if (strikeKind == CombatAction.groundAndPound) {
+      // Au sol, la lutte compte autant que la puissance (pression, angles)
+      power = 0.55 + _gnpPower * _s(i, StatKind.puissance) + _gnpWrestling * _s(i, StatKind.lutte);
     } else {
       power = 0.55 + 0.9 * _s(i, StatKind.puissance);
     }
     final chin = 1.3 - 0.6 * _s(j, StatKind.menton);
-    var d = a.damage * power * chin;
+    var d = a.damage * power * chin * _damageScale;
     if (b == CombatAction.garde) d *= 0.6;
     if (config.openWeight) {
       final r = _sizeRatio(i);
@@ -344,19 +392,13 @@ class CombatEngine {
     final other = sides[j];
     if (me.boostTurns > 0) d *= 1 + me.boostPct;
     if (other.shieldTurns > 0) d *= 1 - other.shieldPct;
-    final st = me.stamina;
-    if (st < 10) {
-      d *= 0.7;
-    } else if (st < 25) {
-      d *= 0.85;
-    }
+    d *= 1 - _fatigue(i) * 1.4;
     final out = d.round();
     return out < 1 ? 1 : out;
   }
 
   /// Chance de réussite de l'action [a] de [side] face à [b] (sans tirage) : pour l'IA.
-  double successChance(int side, CombatAction a, CombatAction b) =>
-      a.offensive ? _chance(side, 1 - side, a, b) : 0;
+  double successChance(int side, CombatAction a, CombatAction b) => a.offensive ? _chance(side, 1 - side, a, b) : 0;
 
   /// Dégâts estimés d'une frappe réussie (sans tirage) : pour l'IA.
   int damageEstimate(int side, CombatAction a, CombatAction b) => _damage(side, 1 - side, a, b);
@@ -365,8 +407,7 @@ class CombatEngine {
 
   void _newRoundStats() => _rounds.add(_RoundStats());
 
-  void _gainMomentum(int side, int amount) =>
-      sides[side].momentum = (sides[side].momentum + amount).clamp(0, 100);
+  void _gainMomentum(int side, int amount) => sides[side].momentum = (sides[side].momentum + amount).clamp(0, 100);
 
   /// Joue un échange : action de rouge (0) et de bleu (1).
   /// [skillRed] / [skillBlue] ne servent qu'aux soumissions automatiques
@@ -380,14 +421,21 @@ class CombatEngine {
         throw ArgumentError('Action ${acts[s].key} non disponible pour le combattant $s');
       }
     }
-    log.add({'t': 'echange', 'a': [red.key, blue.key]});
+    log.add({
+      't': 'echange',
+      'a': [red.key, blue.key],
+    });
     final ev = <CombatEvent>[];
     final stances = [stanceOf(0), stanceOf(1)];
 
     // 1. Endurance et cartes jouées (remplacées)
     for (var s = 0; s < 2; s++) {
       final a = acts[s];
-      sides[s].stamina = (sides[s].stamina - a.cost).clamp(0, 100);
+      // Un bon cardio use moins d'endurance par action
+      final cost = a.cost > 0
+          ? (a.cost * (_cardioCostBase - _cardioCostSlope * _s(s, StatKind.cardio))).round()
+          : a.cost;
+      sides[s].stamina = (sides[s].stamina - cost).clamp(0, 100);
       final hand = sides[s].hands[stances[s]]!;
       final idx = hand.indexOf(a);
       if (idx >= 0) {
@@ -399,7 +447,7 @@ class CombatEngine {
         ev.add(CombatEvent('signature', side: s, detail: fighters[s].signatureKind.name));
       }
       if (a.offensive) _rs.aggression[s]++;
-      if (_fatigue(s) > 0 && a.offensive) ev.add(CombatEvent('fatigue', side: s));
+      if (_fatigue(s) > 0.08 && a.offensive) ev.add(CombatEvent('fatigue', side: s));
     }
 
     // 2. Réussite de chaque action offensive
@@ -421,7 +469,8 @@ class CombatEngine {
       final a = acts[s];
       final o = 1 - s;
       final b = acts[o];
-      final strike = a.kind == ActionKind.frappe ||
+      final strike =
+          a.kind == ActionKind.frappe ||
           (a == CombatAction.signature && fighters[s].signatureKind == SignatureKind.frappe);
       if (!strike) continue;
       if (success[s]) {
@@ -437,6 +486,7 @@ class CombatEngine {
           sides[o].health = 0;
           _finish(s, a == CombatAction.groundAndPound ? FinishMethod.tko : FinishMethod.ko, ev);
         }
+        if (!finished) _stoppageCheck(s, o, a, ev);
       } else {
         if (b == CombatAction.esquive) {
           ev.add(CombatEvent('esquive', side: o, action: a));
@@ -471,29 +521,94 @@ class CombatEngine {
     }
 
     if (!finished) _resolvePosition(acts, stances, success, rolls, ev);
-    if (!finished) _endExchange(ev);
+    // Soumission engagée : l'échange se termine après le mini-jeu
+    if (!finished && pending == null) _endExchange(ev);
     return ev;
   }
 
-  void _knockdownCheck(int s, int o, int dmg, CombatAction a, List<CombatEvent> ev) {
-    final menton = _s(o, StatKind.menton);
-    final hurt = 1 + (sides[o].maxHealth - sides[o].health) / 120;
-    var kd = 0.04 + dmg / 45 * (1.3 - menton) * hurt;
+  /// Chance de knockdown sur une frappe lourde de [dmg] dégâts ([health] :
+  /// santé de [o] après le coup).
+  double _knockdownChance(int o, int dmg, CombatAction a, int health) {
+    final hurt = 1 + (sides[o].maxHealth - health) / 120;
+    var kd = _knockdownBase + dmg / 45 * (1.3 - _s(o, StatKind.menton)) * hurt;
     if (a == CombatAction.signature) kd *= 1.8;
     if (a == CombatAction.groundAndPound) kd *= 0.6;
-    if (_rng.nextDouble() < kd.clamp(0, 0.6)) {
+    return kd.clamp(0, 0.6);
+  }
+
+  /// Chance que le knockdown finisse le combat.
+  double _koChance(int o, int health) =>
+      (_koBase + (1 - health / sides[o].maxHealth) * 0.6 - _s(o, StatKind.menton) * 0.15).clamp(0.05, 0.85);
+
+  /// Arrêt de l'arbitre : un combattant très touché qui encaisse encore.
+  double _stoppageChance(int o, CombatAction a, int health) {
+    final left = health / sides[o].maxHealth;
+    if (left >= _stopThreshold) return 0;
+    var p = (_stopThreshold - left) * (a.heavy ? _stopHeavy : _stopLight);
+    if (a == CombatAction.groundAndPound) p *= 1.3; // l'arbitre arrête plus vite au sol
+    return p.clamp(0, 0.55);
+  }
+
+  void _knockdownCheck(int s, int o, int dmg, CombatAction a, List<CombatEvent> ev) {
+    if (_rng.nextDouble() < _knockdownChance(o, dmg, a, sides[o].health)) {
       _rs.knockdowns[s]++;
       _gainMomentum(s, 20);
       ev.add(CombatEvent('knockdown', side: s, action: a));
-      final ko = 0.32 + (1 - sides[o].health / sides[o].maxHealth) * 0.6 - menton * 0.15;
-      if (_rng.nextDouble() < ko.clamp(0.05, 0.85)) {
+      if (_rng.nextDouble() < _koChance(o, sides[o].health)) {
         _finish(s, a == CombatAction.groundAndPound ? FinishMethod.tko : FinishMethod.ko, ev);
       }
     }
   }
 
-  void _resolvePosition(List<CombatAction> acts, List<Stance> stances, List<bool> success, List<double> rolls,
-      List<CombatEvent> ev) {
+  void _stoppageCheck(int s, int o, CombatAction a, List<CombatEvent> ev) {
+    final p = _stoppageChance(o, a, sides[o].health);
+    if (p > 0 && _rng.nextDouble() < p) _finish(s, FinishMethod.tko, ev);
+  }
+
+  /// Chance de finir la soumission engagée par [s] selon la réussite des
+  /// mini-jeux ([a] attaque, [d] défense, au millième).
+  double _submissionChance(int s, {required bool signature, required double a, required double d}) {
+    final o = 1 - s;
+    var chance =
+        _submissionBase +
+        (_s(s, StatKind.soumission) - _s(o, StatKind.soumission)) * 0.8 -
+        (_s(o, StatKind.lutte) - _s(s, StatKind.lutte)).clamp(0.0, 1.0) * _subWrestlingDefense +
+        (signature ? 0.15 : 0) +
+        (1 - sides[o].stamina / 100) * 0.15 +
+        (1 - sides[o].health / sides[o].maxHealth) * 0.10 +
+        0.35 * (a - 0.5) -
+        0.35 * (d - 0.5);
+    // Depuis le dos, une soumission est plus dure à finir ; un lutteur contrôle
+    // les positions et s'en sort mieux
+    if (stanceOf(s) == Stance.dessous) chance -= _subFromBottom;
+    if (fighters[o].style == FighterStyle.lutteur) chance -= _subWrestlerDefense;
+    return chance.clamp(0.03, 0.85);
+  }
+
+  /// Chance que l'action [a] de [side], si elle passe face à [b], finisse le
+  /// combat (KO, arrêt, soumission avec des mini-jeux moyens) : pour l'IA.
+  double finishChance(int side, CombatAction a, CombatAction b) {
+    final o = 1 - side;
+    final f = fighters[side];
+    final isSub =
+        a == CombatAction.soumission || (a == CombatAction.signature && f.signatureKind == SignatureKind.soumission);
+    if (isSub) return _submissionChance(side, signature: a == CombatAction.signature, a: 0.5, d: 0.5);
+    if (a.damage == 0) return 0;
+    final dmg = _damage(side, o, a, b);
+    final health = sides[o].health - dmg;
+    if (health <= 0) return 1;
+    var p = 0.0;
+    if (a.heavy) p = _knockdownChance(o, dmg, a, health) * _koChance(o, health);
+    return p + (1 - p) * _stoppageChance(o, a, health);
+  }
+
+  void _resolvePosition(
+    List<CombatAction> acts,
+    List<Stance> stances,
+    List<bool> success,
+    List<double> rolls,
+    List<CombatEvent> ev,
+  ) {
     // Contrôle
     final pinned = [false, false];
     for (var s = 0; s < 2; s++) {
@@ -512,7 +627,8 @@ class CombatEngine {
     // Soumissions (y compris la signature soumission)
     for (var s = 0; s < 2; s++) {
       final a = acts[s];
-      final isSub = a == CombatAction.soumission ||
+      final isSub =
+          a == CombatAction.soumission ||
           (a == CombatAction.signature && fighters[s].signatureKind == SignatureKind.soumission);
       if (!isSub) continue;
       _rs.subAttempts[s]++;
@@ -526,9 +642,7 @@ class CombatEngine {
       }
     }
     // Takedowns
-    final td = [
-      for (var s = 0; s < 2; s++) acts[s] == CombatAction.takedown && success[s],
-    ];
+    final td = [for (var s = 0; s < 2; s++) acts[s] == CombatAction.takedown && success[s]];
     for (var s = 0; s < 2; s++) {
       if (acts[s] == CombatAction.takedown && !success[s]) ev.add(CombatEvent('takedown_rate', side: s));
     }
@@ -552,8 +666,8 @@ class CombatEngine {
     // Se relever / se dégager
     for (var s = 0; s < 2; s++) {
       if (acts[s] != CombatAction.seRelever) continue;
-      final ok = (success[s] || stances[s] == Stance.dessus || sides[s].escapeReady) &&
-          !(pinned[s] && !sides[s].escapeReady);
+      final ok =
+          (success[s] || stances[s] == Stance.dessus || sides[s].escapeReady) && !(pinned[s] && !sides[s].escapeReady);
       if (ok && position != Position.debout) {
         if (sides[s].escapeReady) sides[s].escapeReady = false;
         ev.add(CombatEvent(position == Position.clinch ? 'separe' : 'releve', side: s));
@@ -590,15 +704,14 @@ class CombatEngine {
     final s = p.attacker;
     final o = 1 - s;
     final ev = <CombatEvent>[];
-    var chance = 0.36 +
-        (_s(s, StatKind.soumission) - _s(o, StatKind.soumission)) * 0.8 +
-        (p.signature ? 0.15 : 0) +
-        (1 - sides[o].stamina / 100) * 0.15 +
-        (1 - sides[o].health / sides[o].maxHealth) * 0.10 +
-        0.35 * ((a * 1000).round() / 1000 - 0.5) -
-        0.35 * ((d * 1000).round() / 1000 - 0.5);
+    final chance = _submissionChance(
+      s,
+      signature: p.signature,
+      a: (a * 1000).round() / 1000,
+      d: (d * 1000).round() / 1000,
+    );
     pending = null;
-    if (_rng.nextDouble() < chance.clamp(0.03, 0.85)) {
+    if (_rng.nextDouble() < chance) {
       ev.add(CombatEvent('soumission_reussie', side: s));
       _finish(s, FinishMethod.soumission, ev);
     } else {
@@ -669,7 +782,8 @@ class CombatEngine {
     final lo = winner == 0 ? b : a;
     final dmgGap = (r.damage[winner] - r.damage[1 - winner]).abs();
     // 10-8 : domination nette (knockdown et large avance, ou écart écrasant)
-    final dominant = (r.knockdowns[winner] >= 2 && hi > lo * 2.0) ||
+    final dominant =
+        (r.knockdowns[winner] >= 2 && hi > lo * 2.0) ||
         (r.knockdowns[winner] >= 1 && dmgGap >= 35 && hi > lo * 2.8) ||
         (dmgGap >= 55 && hi > lo * 3.0);
     final loser = dominant ? 8 : 9;
@@ -677,8 +791,8 @@ class CombatEngine {
   }
 
   List<List<(int, int)>> _scorecards() => [
-        for (var j = 0; j < 3; j++) [for (final r in _rounds) _scoreRound(r, j)],
-      ];
+    for (var j = 0; j < 3; j++) [for (final r in _rounds) _scoreRound(r, j)],
+  ];
 
   void _decision(List<CombatEvent> ev) {
     final cards = _scorecards();
@@ -716,13 +830,7 @@ class CombatEngine {
   }
 
   void _finish(int winner, FinishMethod method, List<CombatEvent> ev) {
-    result = CombatResult(
-      winner: winner,
-      method: method,
-      round: round,
-      exchange: exchange,
-      scorecards: _scorecards(),
-    );
+    result = CombatResult(winner: winner, method: method, round: round, exchange: exchange, scorecards: _scorecards());
     ev.add(CombatEvent(method == FinishMethod.soumission ? 'fin_soumission' : method.name, side: winner));
   }
 }
