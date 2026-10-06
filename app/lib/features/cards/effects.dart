@@ -95,6 +95,15 @@ EffectSpec effectFor(String effet, {String? couleur, String frameFamily = 'origi
           decoration: Decoration2.museumPlaque, frame: _brass);
     case 'trilogie':
       return const EffectSpec(mode: 2, blend: BlendMode.screen, frame: _gold, intensity: 0.55);
+    // --- cartes Tactique (mêmes rendus que les raretés originales) ---
+    case 'tactique_peu_commune':
+      return effectFor('acier');
+    case 'tactique_rare':
+      return effectFor('neon');
+    case 'tactique_epique':
+      return effectFor('onde_de_choc');
+    case 'tactique_legendaire':
+      return effectFor('superfractor');
     case 'octogone_noir':
       return const EffectSpec(mode: 9, blend: BlendMode.screen, animated: true, photo: PhotoFilter.noir, frame: _black);
     default:
@@ -128,6 +137,7 @@ ColorFilter? photoFilter(PhotoFilter f) => switch (f) {
 /// Cadre par défaut d'une famille d'édition.
 List<Color> frameColors(String family) => switch (family) {
       'chrome' => const [Color(0xFF6B7480), Color(0xFFE4E8EE), Color(0xFF8A94A3), Color(0xFFF4F6F9), Color(0xFF6B7480)],
+      'tactique' => const [Color(0xFF1B2333), Color(0xFF55627A), Color(0xFF232C40), Color(0xFF6B7891), Color(0xFF1B2333)],
       'papier' => const [Color(0xFFD9CDB2), Color(0xFFF2EAD8), Color(0xFFD9CDB2), Color(0xFFF2EAD8), Color(0xFFD9CDB2)],
       _ => const [Color(0xFF14161C), Color(0xFF2E3240), Color(0xFF14161C), Color(0xFF353A4A), Color(0xFF14161C)],
     };

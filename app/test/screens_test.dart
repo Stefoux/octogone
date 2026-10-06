@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_riverpod/misc.dart' show Override;
 import 'package:flutter_test/flutter_test.dart';
+import 'package:game_core/game_core.dart' show TacticKind;
 import 'package:octogone/core/l10n.dart';
 import 'package:octogone/core/sounds.dart';
 import 'package:octogone/core/theme.dart';
@@ -135,6 +136,11 @@ const _slotsStandard = {
     {'nb': 1, 'poids': {'peu_commune': 75, 'rare': 22, 'epique': 3}},
     {'nb': 1, 'poids': {'peu_commune': 50, 'rare': 33, 'epique': 12.5, 'legendaire': 4, 'mythique': 0.5}},
   ],
+  'tactique': {
+    'nb': 1,
+    'edition': 'tactique',
+    'poids': {'commune': 60, 'rare': 30, 'epique': 10},
+  },
 };
 
 BoosterType _booster(String edition, String nom, String type, {bool vedette = false}) => BoosterType({
@@ -202,18 +208,21 @@ class _IdleSync extends SyncController {
   Future<void> sync() async {}
 }
 
-List<Override> _boosterOverrides(_FakeBoosters fake, {Wallet wallet = const Wallet(pieces: 480, fragments: 120)}) => [
+List<Override> _boosterOverrides(_FakeBoosters fake,
+        {Wallet wallet = const Wallet(pieces: 480, fragments: 120), bool tacticStarterReceived = true}) =>
+    [
       ..._overrides(),
       boosterServiceProvider.overrideWithValue(fake),
       boosterTypesProvider.overrideWith((ref) => Stream.value(_boosters)),
       walletProvider.overrideWith((ref) async => wallet),
-      profileProvider.overrideWith((ref) async => const Profile(
+      profileProvider.overrideWith((ref) async => Profile(
             id: 'u1',
             pseudo: 'Testeur',
             friendCode: 'ABCD',
             isAdmin: false,
             adminMode: false,
             welcomePackReceived: true,
+            tacticStarterReceived: tacticStarterReceived,
           )),
       syncControllerProvider.overrideWith(_IdleSync.new),
       soundFxProvider.overrideWithValue(SoundFx(enabled: false)),
@@ -549,6 +558,59 @@ void main() {
     expect(find.text('4 par booster'), findsOneWidget); // communes
     expect(find.text('1 sur 200 boosters'), findsOneWidget); // mythique : 0,5 %
     expect(find.text('Garantie dans 28 boosters au plus tard.'), findsOneWidget);
+    expect(find.text('Carte Tactique en plus (1 par booster)'), findsOneWidget);
+    expect(find.text('60 % des boosters'), findsOneWidget); // Tactique commune
+    expect(find.text('1 sur 10 boosters'), findsOneWidget); // Tactique épique
+  });
+
+  testWidgets('Accueil : cartes Tactique offertes tant qu’elles ne sont pas reçues', (tester) async {
+    SharedPreferences.setMockInitialValues({});
+    _phoneScreen(tester);
+    await tester.pumpWidget(_wrap(const HomeScreen(useSensors: false),
+        overrides: _boosterOverrides(_FakeBoosters(), tacticStarterReceived: false), locale: const Locale('fr')));
+    await _frames(tester, 4);
+    expect(find.text('Cartes Tactique offertes'), findsOneWidget);
+    expect(find.text('3 bonus de combat pour bien commencer'), findsOneWidget);
+    await tester.pumpWidget(const SizedBox());
+  });
+
+  testWidgets('Carte Tactique : visuel dessiné, effet à sa rareté, verso avec chaque rareté', (tester) async {
+    final edition = Edition({
+      'id': 'tactique',
+      'nom': 'Cartes Tactique',
+      'annee': 2026,
+      'type': 'tactique',
+      'famille_cadre': 'tactique',
+      'sources': <String>[],
+    });
+    final series = CardSeries({'id': 'tactique:BASE', 'edition_id': 'tactique', 'code': 'BASE', 'nom': 'Tactique', 'type': 'base', 'nb_cartes': 8});
+    final card = CardDef({
+      'id': 'tactique:7',
+      'edition_id': 'tactique',
+      'series_id': 'tactique:BASE',
+      'numero': '7',
+      'ordre': 6,
+      'fighter_ids': <String>[],
+      'nom_imprime': 'Plan de match',
+      'tactique': 'plan_de_match',
+    });
+    final rare = Variant({'id': 'tactique:BASE:rare', 'series_id': 'tactique:BASE', 'edition_id': 'tactique', 'nom': 'Rare', 'rarete': 'rare', 'effet': 'tactique_rare', 'reel': false});
+    final view = CardView(card: card, variant: rare, fighters: const [], edition: edition, series: series, seriesTotal: 8);
+    expect(view.tactic?.kind, TacticKind.planDeMatch);
+
+    await tester.pumpWidget(_wrap(Center(child: SizedBox(width: 300, child: TradingCard(view: view))), locale: const Locale('fr')));
+    await tester.pump();
+    expect(find.text('PLAN DE MATCH'), findsOneWidget);
+    expect(find.text('TACTIQUE'), findsOneWidget);
+    expect(find.text('+14 % de réussite pendant 2 échanges'), findsOneWidget);
+    expect(find.text('RARE'), findsOneWidget);
+    expect(find.text('7/8'), findsOneWidget);
+
+    await tester.pumpWidget(_wrap(Center(child: SizedBox(width: 300, child: CardBack(view: view))), locale: const Locale('en')));
+    await tester.pump();
+    expect(find.text('GAME PLAN'), findsOneWidget);
+    expect(find.text('+8% success for 2 exchanges'), findsOneWidget); // Commune
+    expect(find.text('+18% success for 2 exchanges'), findsOneWidget); // Légendaire
   });
 
   testWidgets('Ouverture : glisser pour déchirer, carte par carte, tout révéler, résumé', (tester) async {

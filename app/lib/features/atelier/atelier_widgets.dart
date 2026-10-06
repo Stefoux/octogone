@@ -256,7 +256,7 @@ class _DuplicateRow extends ConsumerWidget {
         const SizedBox(width: 12),
         Expanded(
           child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-            Text(view?.fighter?.nom ?? view?.card?.nomImprime ?? '', style: const TextStyle(fontWeight: FontWeight.w600)),
+            Text(view == null ? '' : cardTitle(l, view), style: const TextStyle(fontWeight: FontWeight.w600)),
             Text(rarityLabel(l, first.rarete),
                 style: TextStyle(color: AppColors.rarity[first.rarete], fontSize: 12.5, fontWeight: FontWeight.w600)),
           ]),

@@ -1132,4 +1132,99 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get shopFreeTest => 'Free (test mode)';
+
+  @override
+  String get tacticLabel => 'Tactic';
+
+  @override
+  String get tacticCardsTitle => 'Tactic cards';
+
+  @override
+  String get tacticSecondSouffle => 'Second Wind';
+
+  @override
+  String get tacticCoinDuCoach => 'Corner Advice';
+
+  @override
+  String get tacticFouleEnDelire => 'Roaring Crowd';
+
+  @override
+  String get tacticMachoireAcier => 'Iron Chin';
+
+  @override
+  String get tacticInstinctTueur => 'Killer Instinct';
+
+  @override
+  String get tacticSortieDeCrise => 'Escape Plan';
+
+  @override
+  String get tacticPlanDeMatch => 'Game Plan';
+
+  @override
+  String get tacticPressionTotale => 'Full Pressure';
+
+  @override
+  String tacticEffectSecondSouffle(int n) {
+    return '+$n stamina';
+  }
+
+  @override
+  String tacticEffectCoinDuCoach(int n) {
+    return '+$n health';
+  }
+
+  @override
+  String tacticEffectFouleEnDelire(int n) {
+    return '+$n momentum';
+  }
+
+  @override
+  String tacticEffectMachoireAcier(int n) {
+    return '−$n% damage taken for 2 exchanges';
+  }
+
+  @override
+  String tacticEffectInstinctTueur(int n) {
+    return '+$n% damage dealt for 2 exchanges';
+  }
+
+  @override
+  String tacticEffectSortieDeCrise(int n) {
+    return 'Your next get-up or escape attempt succeeds, +$n stamina';
+  }
+
+  @override
+  String tacticEffectPlanDeMatch(int n) {
+    return '+$n% success for 2 exchanges';
+  }
+
+  @override
+  String tacticEffectPressionTotale(int n) {
+    return 'Opponent loses $n stamina';
+  }
+
+  @override
+  String get tacticRule =>
+      'Fight boosts: up to 2 Tactic cards per fight, once each. The card stays in your collection.';
+
+  @override
+  String get tacticByRarity => 'Effect by rarity';
+
+  @override
+  String get tacticStarter => 'Free Tactic cards';
+
+  @override
+  String get tacticStarterSub => '3 fight boosts to get you started';
+
+  @override
+  String get tacticStarterAlready => 'Tactic cards already received';
+
+  @override
+  String get tacticStarterUnavailable =>
+      'Tactic cards not available yet: try again later.';
+
+  @override
+  String boosterOddsTactic(int n) {
+    return 'Extra Tactic card ($n per pack)';
+  }
 }

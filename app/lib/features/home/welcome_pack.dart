@@ -26,6 +26,65 @@ Future<List<OwnedCard>> claimWelcomePack(WidgetRef ref) async {
   return [for (final r in rows) OwnedCard((r as Map).cast<String, dynamic>())];
 }
 
+/// Réclame les 3 cartes Tactique de départ (fonction serveur
+/// recevoir_tactiques_depart), puis met à jour la copie locale.
+Future<List<OwnedCard>> claimTacticStarter(WidgetRef ref) async {
+  final client = ref.read(supabaseProvider);
+  final rows = await client.rpc<List<dynamic>>('recevoir_tactiques_depart');
+  await ContentSync(ref.read(databaseProvider), client).syncOwnedCards();
+  ref.invalidate(profileProvider);
+  return [for (final r in rows) OwnedCard((r as Map).cast<String, dynamic>())];
+}
+
+/// Carte d'accueil « Cartes Tactique offertes » (tant qu'elles n'ont pas été reçues).
+class TacticStarterCard extends ConsumerStatefulWidget {
+  const TacticStarterCard({super.key});
+
+  @override
+  ConsumerState<TacticStarterCard> createState() => _TacticStarterCardState();
+}
+
+class _TacticStarterCardState extends ConsumerState<TacticStarterCard> {
+  bool _busy = false;
+
+  Future<void> _open() async {
+    final l = context.l10n;
+    setState(() => _busy = true);
+    try {
+      final cards = await claimTacticStarter(ref);
+      if (!mounted) return;
+      unawaited(HapticFeedback.heavyImpact());
+      await showDialog<void>(context: context, builder: (_) => _RevealDialog(cards: cards, title: l.tacticCardsTitle));
+    } on PostgrestException catch (e) {
+      if (!mounted) return;
+      final msg = switch (e.code) {
+        'P0001' => l.tacticStarterAlready,
+        'P0003' => l.tacticStarterUnavailable,
+        _ => l.errorWithMessage(e.message),
+      };
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(msg)));
+      ref.invalidate(profileProvider);
+    } catch (e) {
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(authErrorMessage(l, e))));
+    } finally {
+      if (mounted) setState(() => _busy = false);
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final l = context.l10n;
+    return _GiftTile(
+      icon: Icons.style,
+      title: l.tacticStarter,
+      subtitle: l.tacticStarterSub,
+      busy: _busy,
+      onOpen: _open,
+    );
+  }
+}
+
 /// Carte d'accueil « Pack de bienvenue » (tant qu'il n'a pas été ouvert).
 class WelcomePackCard extends ConsumerStatefulWidget {
   const WelcomePackCard({super.key});
@@ -61,6 +120,34 @@ class _WelcomePackCardState extends ConsumerState<WelcomePackCard> {
   @override
   Widget build(BuildContext context) {
     final l = context.l10n;
+    return _GiftTile(
+      icon: Icons.card_giftcard,
+      title: l.welcomePack,
+      subtitle: l.welcomePackSub,
+      busy: _busy,
+      onOpen: _open,
+    );
+  }
+}
+
+/// Bandeau cadeau de l'accueil (pack de bienvenue, cartes Tactique offertes).
+class _GiftTile extends StatelessWidget {
+  const _GiftTile({
+    required this.icon,
+    required this.title,
+    required this.subtitle,
+    required this.busy,
+    required this.onOpen,
+  });
+  final IconData icon;
+  final String title;
+  final String subtitle;
+  final bool busy;
+  final VoidCallback onOpen;
+
+  @override
+  Widget build(BuildContext context) {
+    final l = context.l10n;
     return Card(
       clipBehavior: Clip.antiAlias,
       child: Container(
@@ -73,14 +160,14 @@ class _WelcomePackCardState extends ConsumerState<WelcomePackCard> {
         ),
         child: ListTile(
           contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
-          leading: const Icon(Icons.card_giftcard, color: AppColors.gold, size: 34)
+          leading: Icon(icon, color: AppColors.gold, size: 34)
               .animate(onPlay: (c) => c.repeat(reverse: true))
               .scaleXY(begin: 1, end: 1.12, duration: 900.ms),
-          title: Text(l.welcomePack, style: const TextStyle(fontWeight: FontWeight.w800)),
-          subtitle: Text(l.welcomePackSub),
+          title: Text(title, style: const TextStyle(fontWeight: FontWeight.w800)),
+          subtitle: Text(subtitle),
           trailing: FilledButton(
-            onPressed: _busy ? null : _open,
-            child: _busy
+            onPressed: busy ? null : onOpen,
+            child: busy
                 ? const SizedBox(width: 18, height: 18, child: CircularProgressIndicator(strokeWidth: 2))
                 : Text(l.welcomePackOpen),
           ),
@@ -93,8 +180,11 @@ class _WelcomePackCardState extends ConsumerState<WelcomePackCard> {
 /// Révélation simple des cartes reçues (l'animation complète de booster
 /// arrive en phase 3).
 class _RevealDialog extends ConsumerWidget {
-  const _RevealDialog({required this.cards});
+  const _RevealDialog({required this.cards, this.title});
   final List<OwnedCard> cards;
+
+  /// Titre (par défaut : « Tu as reçu N cartes ! »).
+  final String? title;
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -110,7 +200,7 @@ class _RevealDialog extends ConsumerWidget {
       child: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(mainAxisSize: MainAxisSize.min, children: [
-          Text(l.welcomePackReceived(cards.length),
+          Text(title ?? l.welcomePackReceived(cards.length),
               style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w800)),
           const SizedBox(height: 12),
           Flexible(

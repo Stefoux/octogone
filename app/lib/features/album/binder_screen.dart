@@ -390,7 +390,7 @@ class _EmptySlot extends StatelessWidget {
           Text(card.numero,
               style: const TextStyle(fontFamily: 'Oswald', fontSize: 18, fontWeight: FontWeight.w700, color: AppColors.textMuted)),
           const SizedBox(height: 4),
-          Text(card.nomImprime,
+          Text(card.tactique != null ? tacticName(context.l10n, card.tactique!) : card.nomImprime,
               textAlign: TextAlign.center,
               maxLines: 2,
               overflow: TextOverflow.ellipsis,
@@ -454,7 +454,9 @@ class _Checklist extends StatelessWidget {
                 SizedBox(width: 64, child: Text(c.numero, style: const TextStyle(color: AppColors.textMuted))),
                 Expanded(
                   child: Text.rich(TextSpan(children: [
-                    TextSpan(text: c.nomImprime, style: const TextStyle(fontWeight: FontWeight.w600)),
+                    TextSpan(
+                        text: c.tactique != null ? tacticName(l, c.tactique!) : c.nomImprime,
+                        style: const TextStyle(fontWeight: FontWeight.w600)),
                     if (c.sousTitre != null)
                       TextSpan(text: '  « ${c.sousTitre} »', style: const TextStyle(color: AppColors.textMuted)),
                   ])),

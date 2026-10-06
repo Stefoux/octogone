@@ -22,6 +22,7 @@ class Profile {
     required this.isAdmin,
     required this.adminMode,
     required this.welcomePackReceived,
+    this.tacticStarterReceived = true,
   });
   final String id;
   final String pseudo;
@@ -29,6 +30,9 @@ class Profile {
   final bool isAdmin;
   final bool adminMode;
   final bool welcomePackReceived;
+
+  /// Cartes Tactique de départ déjà reçues.
+  final bool tacticStarterReceived;
 }
 
 final profileProvider = FutureProvider<Profile?>((ref) async {
@@ -36,7 +40,7 @@ final profileProvider = FutureProvider<Profile?>((ref) async {
   if (session == null) return null;
   final client = ref.watch(supabaseProvider);
   final uid = session.user.id;
-  final p = await client.from('profiles').select('id, pseudo, friend_code, admin_mode, pack_bienvenue_le').eq('id', uid).single();
+  final p = await client.from('profiles').select('id, pseudo, friend_code, admin_mode, pack_bienvenue_le, tactiques_depart_le').eq('id', uid).single();
   final role = await client.from('user_roles').select('role').eq('user_id', uid).maybeSingle();
   return Profile(
     id: uid,
@@ -45,6 +49,7 @@ final profileProvider = FutureProvider<Profile?>((ref) async {
     adminMode: p['admin_mode'] == true,
     isAdmin: role?['role'] == 'admin',
     welcomePackReceived: p['pack_bienvenue_le'] != null,
+    tacticStarterReceived: p['tactiques_depart_le'] != null,
   );
 });
 

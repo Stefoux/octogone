@@ -582,7 +582,10 @@ class _CardInfo extends StatelessWidget {
       const SizedBox(height: 2),
       Text(
         [
-          if (view.effect != 'base') variantLabel(l, view.effect, view.variant.nom),
+          if (view.tactic != null)
+            l.tacticLabel
+          else if (view.effect != 'base')
+            variantLabel(l, view.effect, view.variant.nom),
           if (card.numeroSerie != null && card.tirage != null) l.cardSerial(card.numeroSerie!, card.tirage!),
         ].join(' · '),
         style: const TextStyle(color: AppColors.textMuted),

@@ -2,6 +2,7 @@ import 'package:collection/collection.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:game_core/game_core.dart';
 
+import '../../core/l10n.dart';
 import '../../data/repositories/content_providers.dart';
 import '../../domain/models.dart';
 
@@ -38,6 +39,13 @@ class CardView {
   final int ownedCount;
 
   Fighter? get fighter => fighters.firstOrNull;
+
+  /// Carte Tactique jouée en combat (null pour une carte de combattant).
+  TacticCard? get tactic {
+    final k = card?.tactique;
+    return k == null ? null : TacticCard(k, rarity, ownedId: owned?.id);
+  }
+
   String get effect => variant.effet;
   Rarity get rarity => Rarity.fromKey(variant.rarete);
   bool get isDuel => fighters.length >= 2;
@@ -63,6 +71,12 @@ class CardView {
     if (int.tryParse(n) != null && seriesTotal != null) return '$n/$seriesTotal';
     return n;
   }
+}
+
+/// Nom court d'une carte : combattant, effet Tactique (traduit) ou nom imprimé.
+String cardTitle(AppLocalizations l, CardView v) {
+  final t = v.tactic;
+  return v.fighter?.nom ?? (t != null ? tacticName(l, t.kind) : v.card?.nomImprime) ?? '';
 }
 
 /// Variante de base d'une série (« `<series_id>:base` »).

@@ -129,6 +129,35 @@ def fighter_row(f: dict, img: str | None) -> dict:
     }
 
 
+def tactic_rows(e: dict, edition: dict):
+    """Édition Tactique : cartes sans combattant (une par effet), une variante par rareté."""
+    series, cards, variants = [], [], []
+    for si, s in enumerate(e["series"]):
+        sid = f"{e['id']}:{s['code']}"
+        series.append({
+            "id": sid, "edition_id": e["id"], "code": s["code"], "nom": s["nom"], "type": s["type"],
+            "insert_type": None, "nb_cartes": len(s["cartes"]), "cote": None, "exclusivite": None, "tirage": None,
+            "notes": [], "source": None, "ordre": si,
+        })
+        for ri, r in enumerate(e["raretes"]):
+            variants.append({
+                "id": f"{sid}:base" if r["rarete"] == "commune" else f"{sid}:{r['rarete']}",
+                "edition_id": e["id"], "series_id": sid, "nom": r["nom"], "rarete": r["rarete"],
+                "effet": r["effet"], "couleur": None, "tirage": None, "cote": None, "exclusivite": None,
+                "reel": False, "eligibilite": None, "bonus_stats": 0, "coup_signature": False, "ordre": ri,
+            })
+        for ci, c in enumerate(s["cartes"]):
+            cards.append({
+                "id": f"{e['id']}:{c['numero']}", "edition_id": e["id"], "series_id": sid,
+                "numero": c["numero"], "ordre": si * 10000 + ci, "fighter_ids": [],
+                "nom_imprime": c["nom_imprime"], "sous_titre": None, "mentions": [], "event_id": None,
+                "tactique": c["tactique"], "texte_verso": c.get("texte_verso"), "sources": [], "a_verifier": [],
+            })
+    for row in [edition, *series, *cards, *variants]:
+        row["deleted"] = False
+    return edition, series, cards, variants
+
+
 def edition_rows(e: dict, known_fighters: set[str], aliases: dict, ordre: int):
     real = e["type"] == "reelle"
     edition = {
@@ -137,6 +166,8 @@ def edition_rows(e: dict, known_fighters: set[str], aliases: dict, ordre: int):
         "date_sortie": e.get("date_sortie"), "description": e.get("description"),
         "sources": e.get("sources") or [], "a_verifier": e.get("a_verifier") or [], "ordre": ordre,
     }
+    if e["type"] == "tactique":
+        return tactic_rows(e, edition)
     series, cards, variants = [], [], []
     for si, s in enumerate(e["series"]):
         sid = f"{e['id']}:{s['code']}"
@@ -314,6 +345,11 @@ def import_boosters(api: "Api") -> None:
     } for b in data if b["edition_id"] in editions]
     for b in rows:
         n = sum(s.get("nb", 1) for s in b["composition"]["slots"])
+        tac = b["composition"].get("tactique")
+        if tac:
+            if tac.get("edition") not in editions:
+                raise SystemExit(f"{b['id']} : édition Tactique inconnue ({tac.get('edition')})")
+            n += tac.get("nb", 1)
         if n != b["nb_cartes"]:
             raise SystemExit(f"{b['id']} : {n} emplacements pour {b['nb_cartes']} cartes annoncées")
     if rows:

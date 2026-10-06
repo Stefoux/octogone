@@ -38,4 +38,23 @@ void main() {
     expect(o.oneIn(Rarity.mythique), isNull);
     expect(o.atLeastOne[Rarity.commune], 1);
   });
+
+  test('carte Tactique en plus : probabilités à part, sans toucher aux combattants', () {
+    final withTactic = {
+      ...standard,
+      'tactique': {
+        'nb': 1,
+        'edition': 'tactique',
+        'poids': {'commune': 62, 'peu_commune': 25, 'rare': 10, 'epique': 2.5, 'legendaire': 0.5},
+      },
+    };
+    final o = PackOdds.fromComposition(withTactic);
+    expect(o.cards, PackOdds.fromComposition(standard).cards);
+    expect(o.oneIn(Rarity.legendaire), PackOdds.fromComposition(standard).oneIn(Rarity.legendaire));
+    expect(o.tactics, isNotNull);
+    expect(o.tactics!.cards, 1);
+    expect(o.tactics!.atLeastOne[Rarity.commune], closeTo(0.62, 1e-9));
+    expect(o.tactics!.oneIn(Rarity.legendaire), 200);
+    expect(PackOdds.fromComposition(standard).tactics, isNull);
+  });
 }

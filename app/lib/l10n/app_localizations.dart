@@ -2065,6 +2065,156 @@ abstract class AppLocalizations {
   /// In fr, this message translates to:
   /// **'Gratuit (mode test)'**
   String get shopFreeTest;
+
+  /// No description provided for @tacticLabel.
+  ///
+  /// In fr, this message translates to:
+  /// **'Tactique'**
+  String get tacticLabel;
+
+  /// No description provided for @tacticCardsTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Cartes Tactique'**
+  String get tacticCardsTitle;
+
+  /// No description provided for @tacticSecondSouffle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Second souffle'**
+  String get tacticSecondSouffle;
+
+  /// No description provided for @tacticCoinDuCoach.
+  ///
+  /// In fr, this message translates to:
+  /// **'Coin du coach'**
+  String get tacticCoinDuCoach;
+
+  /// No description provided for @tacticFouleEnDelire.
+  ///
+  /// In fr, this message translates to:
+  /// **'Foule en délire'**
+  String get tacticFouleEnDelire;
+
+  /// No description provided for @tacticMachoireAcier.
+  ///
+  /// In fr, this message translates to:
+  /// **'Mâchoire d\'acier'**
+  String get tacticMachoireAcier;
+
+  /// No description provided for @tacticInstinctTueur.
+  ///
+  /// In fr, this message translates to:
+  /// **'Instinct de tueur'**
+  String get tacticInstinctTueur;
+
+  /// No description provided for @tacticSortieDeCrise.
+  ///
+  /// In fr, this message translates to:
+  /// **'Sortie de crise'**
+  String get tacticSortieDeCrise;
+
+  /// No description provided for @tacticPlanDeMatch.
+  ///
+  /// In fr, this message translates to:
+  /// **'Plan de match'**
+  String get tacticPlanDeMatch;
+
+  /// No description provided for @tacticPressionTotale.
+  ///
+  /// In fr, this message translates to:
+  /// **'Pression totale'**
+  String get tacticPressionTotale;
+
+  /// No description provided for @tacticEffectSecondSouffle.
+  ///
+  /// In fr, this message translates to:
+  /// **'+{n} d’endurance'**
+  String tacticEffectSecondSouffle(int n);
+
+  /// No description provided for @tacticEffectCoinDuCoach.
+  ///
+  /// In fr, this message translates to:
+  /// **'+{n} de santé'**
+  String tacticEffectCoinDuCoach(int n);
+
+  /// No description provided for @tacticEffectFouleEnDelire.
+  ///
+  /// In fr, this message translates to:
+  /// **'+{n} de momentum'**
+  String tacticEffectFouleEnDelire(int n);
+
+  /// No description provided for @tacticEffectMachoireAcier.
+  ///
+  /// In fr, this message translates to:
+  /// **'−{n} % de dégâts reçus pendant 2 échanges'**
+  String tacticEffectMachoireAcier(int n);
+
+  /// No description provided for @tacticEffectInstinctTueur.
+  ///
+  /// In fr, this message translates to:
+  /// **'+{n} % de dégâts infligés pendant 2 échanges'**
+  String tacticEffectInstinctTueur(int n);
+
+  /// No description provided for @tacticEffectSortieDeCrise.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ta prochaine tentative pour te relever ou te dégager réussit, +{n} d’endurance'**
+  String tacticEffectSortieDeCrise(int n);
+
+  /// No description provided for @tacticEffectPlanDeMatch.
+  ///
+  /// In fr, this message translates to:
+  /// **'+{n} % de réussite pendant 2 échanges'**
+  String tacticEffectPlanDeMatch(int n);
+
+  /// No description provided for @tacticEffectPressionTotale.
+  ///
+  /// In fr, this message translates to:
+  /// **'L’adversaire perd {n} d’endurance'**
+  String tacticEffectPressionTotale(int n);
+
+  /// No description provided for @tacticRule.
+  ///
+  /// In fr, this message translates to:
+  /// **'Bonus de combat : 2 cartes Tactique au plus par combat, une fois chacune. La carte reste dans ta collection.'**
+  String get tacticRule;
+
+  /// No description provided for @tacticByRarity.
+  ///
+  /// In fr, this message translates to:
+  /// **'Effet selon la rareté'**
+  String get tacticByRarity;
+
+  /// No description provided for @tacticStarter.
+  ///
+  /// In fr, this message translates to:
+  /// **'Cartes Tactique offertes'**
+  String get tacticStarter;
+
+  /// No description provided for @tacticStarterSub.
+  ///
+  /// In fr, this message translates to:
+  /// **'3 bonus de combat pour bien commencer'**
+  String get tacticStarterSub;
+
+  /// No description provided for @tacticStarterAlready.
+  ///
+  /// In fr, this message translates to:
+  /// **'Cartes Tactique déjà reçues'**
+  String get tacticStarterAlready;
+
+  /// No description provided for @tacticStarterUnavailable.
+  ///
+  /// In fr, this message translates to:
+  /// **'Cartes Tactique pas encore disponibles : réessaie plus tard.'**
+  String get tacticStarterUnavailable;
+
+  /// No description provided for @boosterOddsTactic.
+  ///
+  /// In fr, this message translates to:
+  /// **'Carte Tactique en plus ({n} par booster)'**
+  String boosterOddsTactic(int n);
 }
 
 class _AppLocalizationsDelegate

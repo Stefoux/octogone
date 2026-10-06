@@ -8,6 +8,7 @@ import '../../core/theme.dart';
 import '../../widgets/fighter_widgets.dart';
 import 'card_view.dart';
 import 'effects.dart';
+import 'tactic_style.dart';
 import 'trading_card.dart' show kCardAspect, kCardHeight, kCardWidth;
 
 const _display = 'Oswald';
@@ -48,7 +49,9 @@ class CardBack extends StatelessWidget {
               padding: const EdgeInsets.fromLTRB(14, 12, 14, 10),
               child: DefaultTextStyle(
                 style: const TextStyle(color: Colors.white, fontSize: 12),
-                child: view.isDuel
+                child: view.tactic != null
+                    ? _TacticBack(view: view, tactic: view.tactic!)
+                    : view.isDuel
                     ? _DuelBack(view: view)
                     : view.event != null
                     ? _EventBack(view: view)
@@ -111,6 +114,81 @@ class _Header extends StatelessWidget {
         ),
     ],
   );
+}
+
+/// Verso d'une carte Tactique : effet à chaque rareté et règle d'usage.
+class _TacticBack extends StatelessWidget {
+  const _TacticBack({required this.view, required this.tactic});
+  final CardView view;
+  final TacticCard tactic;
+
+  @override
+  Widget build(BuildContext context) {
+    final l = context.l10n;
+    final accent = tacticColor(tactic.kind);
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        _Header(
+          title: tacticName(l, tactic.kind),
+          subtitle: l.tacticCardsTitle,
+          trailing: view.numberLabel,
+        ),
+        const SizedBox(height: 10),
+        Text(
+          l.tacticByRarity.toUpperCase(),
+          style: TextStyle(
+            fontFamily: _display,
+            fontSize: 12,
+            letterSpacing: 1.4,
+            color: accent,
+          ),
+        ),
+        const SizedBox(height: 6),
+        for (final r in Rarity.values.where((r) => r != Rarity.mythique))
+          Container(
+            margin: const EdgeInsets.only(bottom: 4),
+            padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+            decoration: BoxDecoration(
+              color: r == view.rarity
+                  ? accent.withValues(alpha: 0.18)
+                  : Colors.white.withValues(alpha: 0.04),
+              borderRadius: BorderRadius.circular(6),
+              border: Border.all(
+                color: r == view.rarity
+                    ? accent
+                    : Colors.white.withValues(alpha: 0.08),
+              ),
+            ),
+            child: Row(
+              children: [
+                SizedBox(
+                  width: 78,
+                  child: Text(
+                    rarityLabel(l, r.key),
+                    style: TextStyle(
+                      fontWeight: FontWeight.w700,
+                      color: AppColors.rarity[r.key],
+                    ),
+                  ),
+                ),
+                Expanded(
+                  child: Text(
+                    tacticEffect(l, TacticCard(tactic.kind, r)),
+                    style: const TextStyle(fontSize: 11.5),
+                  ),
+                ),
+              ],
+            ),
+          ),
+        const Spacer(),
+        Text(
+          l.tacticRule,
+          style: const TextStyle(color: AppColors.textMuted, fontSize: 11),
+        ),
+      ],
+    );
+  }
 }
 
 class _FighterBack extends StatelessWidget {

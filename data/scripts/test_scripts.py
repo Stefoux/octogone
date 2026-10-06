@@ -150,5 +150,38 @@ class DistinctionTests(unittest.TestCase):
         self.assertEqual(len(d["fr"]), len(d["en"]))
 
 
+class TacticEditionTests(unittest.TestCase):
+    """Édition Tactique : une carte par effet de game_core, une variante par rareté."""
+
+    def test_rows(self):
+        import json
+        import re
+        from pathlib import Path
+
+        from import_to_supabase import edition_rows
+
+        root = Path(__file__).resolve().parents[2]
+        e = json.loads((root / "data" / "editions" / "tactique.json").read_text(encoding="utf-8"))
+        edition, series, cards, variants = edition_rows(e, set(), {}, 0)
+        dart = (root / "packages" / "game_core" / "lib" / "src" / "combat" / "tactics.dart").read_text(encoding="utf-8")
+        keys = re.findall(r"^  \w+\('([a-z_]+)'\)[,;]", dart, re.M)
+        self.assertEqual(len(keys), 8)
+        self.assertEqual([c["tactique"] for c in cards], keys)
+        self.assertTrue(all(c["fighter_ids"] == [] for c in cards))
+        self.assertEqual(edition["type"], "tactique")
+        self.assertEqual([v["rarete"] for v in variants], ["commune", "peu_commune", "rare", "epique", "legendaire"])
+        self.assertEqual(variants[0]["id"], "tactique:BASE:base")
+
+    def test_boosters(self):
+        import json
+        from pathlib import Path
+
+        root = Path(__file__).resolve().parents[2]
+        for b in json.loads((root / "data" / "boosters.json").read_text(encoding="utf-8"))["boosters"]:
+            tac = b["composition"]["tactique"]
+            self.assertEqual(tac["edition"], "tactique")
+            self.assertEqual(b["nb_cartes"], sum(s["nb"] for s in b["composition"]["slots"]) + tac["nb"])
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -1,12 +1,12 @@
 {
-  "_doc": "Types de boosters. composition.slots : chaque emplacement tire une rareté selon ses poids (relatifs), puis une variante de cette rareté dans la collection (pondérée par son tirage), puis une carte éligible. garantie : rareté minimale assurée dans le booster. Les probabilités affichées dans l'app (« 1 sur N boosters ») sont calculées à partir de ces poids. Modifiable par un admin (table booster_types). visuel.art : « v5 » (5 combattants en V, booster standard) ou « champion » (combattant phare, premium) ; photos dans app/assets/boosters (data/scripts/prepare_booster_art.py). Sans « art », visuel graphique d'origine.",
+  "_doc": "Types de boosters. composition.slots : chaque emplacement tire une rareté selon ses poids (relatifs), puis une variante de cette rareté dans la collection (pondérée par son tirage), puis une carte éligible. garantie : rareté minimale assurée dans le booster. Les probabilités affichées dans l'app (« 1 sur N boosters ») sont calculées à partir de ces poids. Modifiable par un admin (table booster_types). visuel.art : « v5 » (5 combattants en V, booster standard) ou « champion » (combattant phare, premium) ; photos dans app/assets/boosters (data/scripts/prepare_booster_art.py). Sans « art », visuel graphique d'origine. composition.tactique : carte(s) Tactique en plus des cartes de combattants ({nb, edition, poids}), révélées en premier ; la garantie et l'anti-malchance ne portent que sur les combattants.",
   "boosters": [
     {
       "id": "saison-2026:standard",
       "edition_id": "saison-2026",
       "nom": "Saison 2026",
       "type": "standard",
-      "nb_cartes": 6,
+      "nb_cartes": 7,
       "prix_pieces": 100,
       "en_vedette": true,
       "ordre": 1,
@@ -47,7 +47,18 @@
             }
           }
         ],
-        "garantie": null
+        "garantie": null,
+        "tactique": {
+          "nb": 1,
+          "edition": "tactique",
+          "poids": {
+            "commune": 62,
+            "peu_commune": 25,
+            "rare": 10,
+            "epique": 2.5,
+            "legendaire": 0.5
+          }
+        }
       }
     },
     {
@@ -55,7 +66,7 @@
       "edition_id": "saison-2026",
       "nom": "Saison 2026",
       "type": "premium",
-      "nb_cartes": 10,
+      "nb_cartes": 11,
       "prix_pieces": 250,
       "en_vedette": false,
       "ordre": 2,
@@ -104,7 +115,18 @@
             }
           }
         ],
-        "garantie": "rare"
+        "garantie": "rare",
+        "tactique": {
+          "nb": 1,
+          "edition": "tactique",
+          "poids": {
+            "commune": 40,
+            "peu_commune": 32,
+            "rare": 19,
+            "epique": 7,
+            "legendaire": 2
+          }
+        }
       }
     },
     {
@@ -112,7 +134,7 @@
       "edition_id": "2024-topps-chrome-ufc",
       "nom": "2024 Topps Chrome UFC",
       "type": "standard",
-      "nb_cartes": 6,
+      "nb_cartes": 7,
       "prix_pieces": 100,
       "en_vedette": false,
       "ordre": 3,
@@ -153,7 +175,18 @@
             }
           }
         ],
-        "garantie": null
+        "garantie": null,
+        "tactique": {
+          "nb": 1,
+          "edition": "tactique",
+          "poids": {
+            "commune": 62,
+            "peu_commune": 25,
+            "rare": 10,
+            "epique": 2.5,
+            "legendaire": 0.5
+          }
+        }
       }
     },
     {
@@ -161,7 +194,7 @@
       "edition_id": "2024-topps-chrome-ufc",
       "nom": "2024 Topps Chrome UFC",
       "type": "premium",
-      "nb_cartes": 10,
+      "nb_cartes": 11,
       "prix_pieces": 250,
       "en_vedette": false,
       "ordre": 4,
@@ -210,7 +243,18 @@
             }
           }
         ],
-        "garantie": "rare"
+        "garantie": "rare",
+        "tactique": {
+          "nb": 1,
+          "edition": "tactique",
+          "poids": {
+            "commune": 40,
+            "peu_commune": 32,
+            "rare": 19,
+            "epique": 7,
+            "legendaire": 2
+          }
+        }
       }
     }
   ]

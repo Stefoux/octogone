@@ -1,5 +1,8 @@
+import 'dart:math' as math;
+
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:game_core/game_core.dart';
 import 'package:intl/intl.dart';
 
 import '../../core/l10n.dart';
@@ -10,6 +13,7 @@ import 'card_view.dart';
 import 'decorations.dart';
 import 'effects.dart';
 import 'holo_layer.dart';
+import 'tactic_style.dart';
 
 /// Dimensions logiques d'une carte (format 2,5 × 3,5 pouces). Tout est dessiné
 /// dans ce repère puis mis à l'échelle : miniature d'album ou plein écran,
@@ -56,6 +60,7 @@ class _CardFront extends ConsumerWidget {
     final spec = effectFor(view.effect, couleur: view.variant.couleur, frameFamily: view.frameFamily);
     final frame = spec.frame ?? frameColors(view.frameFamily);
     final seed = (view.card?.id ?? view.variant.id).hashCode;
+    final tactic = view.tactic;
 
     return Container(
       decoration: BoxDecoration(
@@ -74,9 +79,12 @@ class _CardFront extends ConsumerWidget {
           fit: StackFit.expand,
           children: [
             const ColoredBox(color: Color(0xFF0B0C10)),
-            _Photo(view: view, spec: spec, animate: animate),
+            if (tactic != null)
+              _TacticArt(view: view, tactic: tactic)
+            else
+              _Photo(view: view, spec: spec, animate: animate),
             if (spec.decoration == Decoration2.cracks) CracksOverlay(seed: seed),
-            _BottomInfo(view: view, spec: spec),
+            if (tactic == null) _BottomInfo(view: view, spec: spec),
             HoloLayer(spec: spec, tilt: tilt, animate: animate),
             if (spec.decoration == Decoration2.confetti) ConfettiOverlay(animate: animate, seed: seed),
             if (spec.decoration == Decoration2.neon) NeonOutline(animate: animate),
@@ -86,6 +94,149 @@ class _CardFront extends ConsumerWidget {
       ),
     );
   }
+}
+
+// -----------------------------------------------------------------------------
+// Carte Tactique : visuel dessiné (pictogramme dans un octogone), nom, effet
+// -----------------------------------------------------------------------------
+
+class _TacticArt extends StatelessWidget {
+  const _TacticArt({required this.view, required this.tactic});
+  final CardView view;
+  final TacticCard tactic;
+
+  @override
+  Widget build(BuildContext context) {
+    final l = context.l10n;
+    final accent = tacticColor(tactic.kind);
+    return Stack(fit: StackFit.expand, children: [
+      CustomPaint(painter: _TacticPainter(accent)),
+      Positioned(
+        left: 0,
+        right: 0,
+        top: 62,
+        child: Center(
+          child: Icon(tacticIcon(tactic.kind), size: 78, color: accent, shadows: [
+            Shadow(color: accent.withValues(alpha: 0.9), blurRadius: 18),
+            const Shadow(color: Colors.black, blurRadius: 4, offset: Offset(0, 2)),
+          ]),
+        ),
+      ),
+      Positioned(
+        left: 10,
+        top: 12,
+        child: Container(
+          padding: const EdgeInsets.symmetric(horizontal: 7, vertical: 2),
+          decoration: BoxDecoration(
+            color: Colors.black.withValues(alpha: 0.6),
+            borderRadius: BorderRadius.circular(4),
+            border: Border.all(color: accent.withValues(alpha: 0.8)),
+          ),
+          child: Text(l.tacticLabel.toUpperCase(),
+              style: TextStyle(
+                  fontFamily: _display, fontSize: 11, letterSpacing: 2, fontWeight: FontWeight.w700, color: accent)),
+        ),
+      ),
+      Positioned(
+        left: 0,
+        right: 0,
+        bottom: 0,
+        child: Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 14),
+            child: FittedBox(
+              fit: BoxFit.scaleDown,
+              child: Text(tacticName(l, tactic.kind).toUpperCase(),
+                  style: const TextStyle(
+                    fontFamily: _display,
+                    fontSize: 28,
+                    fontWeight: FontWeight.w700,
+                    letterSpacing: 1,
+                    color: Colors.white,
+                    shadows: [Shadow(color: Colors.black, blurRadius: 6, offset: Offset(0, 2))],
+                  )),
+            ),
+          ),
+          const SizedBox(height: 6),
+          Container(
+            margin: const EdgeInsets.symmetric(horizontal: 14),
+            padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
+            decoration: BoxDecoration(
+              color: Colors.black.withValues(alpha: 0.55),
+              borderRadius: BorderRadius.circular(8),
+              border: Border.all(color: accent.withValues(alpha: 0.55)),
+            ),
+            child: Text(tacticEffect(l, tactic),
+                textAlign: TextAlign.center,
+                maxLines: 3,
+                overflow: TextOverflow.ellipsis,
+                style: const TextStyle(fontSize: 15, height: 1.25, fontWeight: FontWeight.w600, color: Colors.white)),
+          ),
+          const SizedBox(height: 10),
+          _Footer(view: view),
+        ]),
+      ),
+    ]);
+  }
+}
+
+class _TacticPainter extends CustomPainter {
+  _TacticPainter(this.accent);
+  final Color accent;
+
+  Path _octagon(Offset c, double r) {
+    final p = Path();
+    for (var i = 0; i < 8; i++) {
+      final a = math.pi / 8 + i * math.pi / 4;
+      final pt = c + Offset(math.cos(a), math.sin(a)) * r;
+      i == 0 ? p.moveTo(pt.dx, pt.dy) : p.lineTo(pt.dx, pt.dy);
+    }
+    return p..close();
+  }
+
+  @override
+  void paint(Canvas canvas, Size size) {
+    final rect = Offset.zero & size;
+    canvas.drawRect(
+      rect,
+      Paint()
+        ..shader = RadialGradient(
+          center: const Alignment(0, -0.35),
+          radius: 0.95,
+          colors: [Color.lerp(accent, Colors.black, 0.45)!, const Color(0xFF0B0C10)],
+        ).createShader(rect),
+    );
+    // Motif d'octogones
+    final grid = Paint()
+      ..style = PaintingStyle.stroke
+      ..strokeWidth = 1
+      ..color = accent.withValues(alpha: 0.12);
+    const r = 22.0;
+    for (var y = -r; y < size.height + r; y += r * 1.7) {
+      for (var x = -r; x < size.width + r; x += r * 1.7) {
+        canvas.drawPath(_octagon(Offset(x + ((y ~/ (r * 1.7)).isOdd ? r * 0.85 : 0), y), r * 0.8), grid);
+      }
+    }
+    // Grand octogone central
+    final c = Offset(size.width / 2, 101);
+    canvas
+      ..drawPath(_octagon(c, 74), Paint()..color = Colors.black.withValues(alpha: 0.55))
+      ..drawPath(
+          _octagon(c, 74),
+          Paint()
+            ..style = PaintingStyle.stroke
+            ..strokeWidth = 3
+            ..color = accent)
+      ..drawPath(
+          _octagon(c, 64),
+          Paint()
+            ..style = PaintingStyle.stroke
+            ..strokeWidth = 1
+            ..color = accent.withValues(alpha: 0.5));
+  }
+
+  @override
+  bool shouldRepaint(covariant _TacticPainter oldDelegate) => oldDelegate.accent != accent;
 }
 
 // -----------------------------------------------------------------------------
@@ -390,8 +541,9 @@ class _Footer extends StatelessWidget {
   Widget build(BuildContext context) {
     final l = context.l10n;
     final edition = view.edition;
-    final variantName =
-        view.effect == 'base' ? null : variantLabel(l, view.effect, view.variant.nom);
+    final variantName = view.tactic != null
+        ? rarityLabel(l, view.variant.rarete)
+        : (view.effect == 'base' ? null : variantLabel(l, view.effect, view.variant.nom));
     final serial = view.serial != null && view.printRun != null
         ? l.cardSerial(view.serial!, view.printRun!)
         : (view.printRun != null ? '/${view.printRun}' : null);

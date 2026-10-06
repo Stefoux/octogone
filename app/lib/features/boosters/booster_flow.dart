@@ -81,6 +81,28 @@ Future<void> showOddsSheet(BuildContext context, WidgetRef ref, BoosterType b) {
                   Text(_oddsText(l, odds, r), style: const TextStyle(color: AppColors.textMuted)),
                 ]),
               ),
+          if (odds.tactics case final t?) ...[
+            const SizedBox(height: 10),
+            Row(children: [
+              const Icon(Icons.style, size: 16, color: AppColors.gold),
+              const SizedBox(width: 10),
+              Expanded(
+                child: Text(l.boosterOddsTactic(t.cards),
+                    style: const TextStyle(fontWeight: FontWeight.w700, color: AppColors.gold)),
+              ),
+            ]),
+            for (final r in Rarity.values)
+              if ((t.atLeastOne[r] ?? 0) > 0)
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(26, 4, 0, 4),
+                  child: Row(children: [
+                    Icon(Icons.diamond, size: 14, color: AppColors.rarity[r.key]),
+                    const SizedBox(width: 10),
+                    Expanded(child: Text(rarityLabel(l, r.key))),
+                    Text(_oddsText(l, t, r), style: const TextStyle(color: AppColors.textMuted)),
+                  ]),
+                ),
+          ],
           const Divider(height: 24),
           if (status != null) ...[
             Text(l.boosterPity(status.pityThreshold)),

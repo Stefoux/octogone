@@ -74,7 +74,9 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
         child: Column(children: [
           _HomeTopBar(pseudo: profile?.pseudo),
           if (profile != null && !profile.welcomePackReceived)
-            const Padding(padding: EdgeInsets.fromLTRB(12, 0, 12, 4), child: WelcomePackCard()),
+            const Padding(padding: EdgeInsets.fromLTRB(12, 0, 12, 4), child: WelcomePackCard())
+          else if (profile != null && !profile.tacticStarterReceived)
+            const Padding(padding: EdgeInsets.fromLTRB(12, 0, 12, 4), child: TacticStarterCard()),
           Expanded(
             child: boosters.isEmpty
                 ? _EmptyBoosters(loading: types.isLoading)

@@ -23,7 +23,8 @@ class AlbumScreen extends ConsumerWidget {
         error: (e, _) => Center(child: Text(l.errorWithMessage('$e'))),
         data: (list) {
           final real = list.where((e) => e.isReal).toList();
-          final originals = list.where((e) => !e.isReal).toList();
+          final originals = list.where((e) => !e.isReal && !e.isTactic).toList();
+          final tactics = list.where((e) => e.isTactic).toList();
           return ListView(
             padding: const EdgeInsets.all(16),
             children: [
@@ -46,6 +47,10 @@ class AlbumScreen extends ConsumerWidget {
               if (real.isNotEmpty) ...[
                 _Header(l.realEditions),
                 for (final e in real) _EditionTile(edition: e),
+              ],
+              if (tactics.isNotEmpty) ...[
+                _Header(l.tacticCardsTitle),
+                for (final e in tactics) _EditionTile(edition: e),
               ],
             ],
           );
@@ -96,15 +101,20 @@ class _EditionTile extends ConsumerWidget {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(6),
                   gradient: LinearGradient(
-                    colors: edition.familleCadre == 'chrome'
-                        ? const [Color(0xFF8E9AAF), Color(0xFFE0E6EF), Color(0xFF6C7A91)]
-                        : const [Color(0xFF0E0D0B), AppColors.gold, Color(0xFF0E0D0B)],
+                    colors: switch (edition.familleCadre) {
+                      'chrome' => const [Color(0xFF8E9AAF), Color(0xFFE0E6EF), Color(0xFF6C7A91)],
+                      'tactique' => const [Color(0xFF1B2333), Color(0xFF6B7891), Color(0xFF1B2333)],
+                      _ => const [Color(0xFF0E0D0B), AppColors.gold, Color(0xFF0E0D0B)],
+                    },
                     begin: Alignment.topLeft,
                     end: Alignment.bottomRight,
                   ),
                 ),
-                child: Text('${edition.annee}',
-                    style: const TextStyle(color: Colors.black, fontFamily: kDisplayFont, fontWeight: FontWeight.w700, fontSize: 13)),
+                child: edition.isTactic
+                    ? const Icon(Icons.style, color: Colors.white, size: 26)
+                    : Text('${edition.annee}',
+                        style: const TextStyle(
+                            color: Colors.black, fontFamily: kDisplayFont, fontWeight: FontWeight.w700, fontSize: 13)),
               ),
               const SizedBox(width: 14),
               Expanded(

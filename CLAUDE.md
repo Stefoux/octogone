@@ -19,6 +19,7 @@ Jeu mobile de cartes de combattants (collection, boosters, combat tactique), Flu
 - Pas de logo officiel UFC / Topps dessiné par l'app. Photos officielles autorisées par l'utilisateur pour l'usage privé : sachets de boosters (`data/images/boosters/`) et photos de cartes selon la rareté (`data/images/photos/`, `data/scripts/fetch_photos.py`).
 - Photos de cartes : combat (Commune → Épique), célébration après victoire (Légendaire ; ceinture pour la liste `data/images/ceinture_legendaire.json`), ceinture si déjà champion sinon célébration (Mythique). Chaque photo est vérifiée par sa légende d'agence ET la reconnaissance faciale, puis revue visuellement ; les refus vont dans `data/images/photos_refusees.json`. Ne jamais retirer un filigrane. Respecter le crawl-delay de 15 s de ufc.com ; ne pas utiliser les sites qui interdisent les agents d'IA (mmafighting, mmajunkie).
 - UFCStats est protégé par une vérification anti-robot : ne pas la contourner, utiliser ufc.com.
+- Cartes Tactique (bonus de combat) : créations originales, édition `data/editions/tactique.json` (type `tactique`, cartes sans combattant, effet dans `cards.tactique` = clé de `TacticKind`, une variante par rareté de Commune à Légendaire). 1 carte Tactique en plus par booster (`composition.tactique` dans `data/boosters.json`, hors garantie et anti-malchance), 3 cartes de départ par joueur (`recevoir_tactiques_depart`), fabricables à l'Atelier.
 
 ## Commandes
 
@@ -40,14 +41,14 @@ cd data/scripts && .venv/bin/python -m unittest test_scripts
   - `entry` : écran d'entrée ;
   - `home` ;
   - `boosters` : sachets, ouverture, glissement ;
-  - `cards` : rendu des cartes et effets holographiques ;
+  - `cards` : rendu des cartes et effets holographiques (cartes Tactique : visuel dessiné, `tactic_style.dart`) ;
   - `album` ;
   - `fighters` ;
   - `vitrine` ;
   - `collection` : sélecteur de cartes ;
   - `profile`, `settings`, `credits`.
 - `app/lib/widgets/` : fonds animés (`ArenaBackground`, `RarityBackdrop`), octogone, inclinaison.
-- `packages/game_core/` : règles en Dart pur, compilables en JS pour le serveur.
+- `packages/game_core/` : règles en Dart pur, compilables en JS pour le serveur. `lib/src/combat/` : moteur de combat déterministe (graine xorshift32), IA en 3 niveaux, cartes Tactique ; réglages d'équilibrage en tête de `engine.dart`, validés avec `dart run bin/simulate_fights.dart ../../data/fighters 10000` (rapport dans `docs/equilibrage_combat.json`).
 - `supabase/migrations/` et `supabase/tests/database/` : schéma, RLS, fonctions, tests.
 - `data/` : JSON sourcés et scripts Python (import, sons, icône, photos des sachets, photos de cartes, roster élargi `editions/_ajouts_saison_2026.json`).
 

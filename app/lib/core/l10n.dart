@@ -84,6 +84,34 @@ String rarityLabel(AppLocalizations l, String rarete) => switch (rarete) {
       _ => rarete,
     };
 
+/// Nom d'une carte Tactique.
+String tacticName(AppLocalizations l, TacticKind k) => switch (k) {
+      TacticKind.secondSouffle => l.tacticSecondSouffle,
+      TacticKind.coinDuCoach => l.tacticCoinDuCoach,
+      TacticKind.fouleEnDelire => l.tacticFouleEnDelire,
+      TacticKind.machoireDAcier => l.tacticMachoireAcier,
+      TacticKind.instinctDeTueur => l.tacticInstinctTueur,
+      TacticKind.sortieDeCrise => l.tacticSortieDeCrise,
+      TacticKind.planDeMatch => l.tacticPlanDeMatch,
+      TacticKind.pressionTotale => l.tacticPressionTotale,
+    };
+
+/// Effet d'une carte Tactique à sa rareté (« +40 d'endurance »).
+String tacticEffect(AppLocalizations l, TacticCard c) {
+  final a = c.amount;
+  final n = a is double ? (a * 100).round() : a.toInt();
+  return switch (c.kind) {
+    TacticKind.secondSouffle => l.tacticEffectSecondSouffle(n),
+    TacticKind.coinDuCoach => l.tacticEffectCoinDuCoach(n),
+    TacticKind.fouleEnDelire => l.tacticEffectFouleEnDelire(n),
+    TacticKind.machoireDAcier => l.tacticEffectMachoireAcier(n),
+    TacticKind.instinctDeTueur => l.tacticEffectInstinctTueur(n),
+    TacticKind.sortieDeCrise => l.tacticEffectSortieDeCrise(n),
+    TacticKind.planDeMatch => l.tacticEffectPlanDeMatch(n),
+    TacticKind.pressionTotale => l.tacticEffectPressionTotale(n),
+  };
+}
+
 /// Nom affiché d'une variante : raretés originales traduites, parallèles réels
 /// (noms propres : « Gold Refractor »…) laissés tels quels.
 String variantLabel(AppLocalizations l, String effet, String fallback) => switch (effet) {
@@ -99,6 +127,10 @@ String variantLabel(AppLocalizations l, String effet, String fallback) => switch
       'trilogie' => l.effectTrilogie,
       'octogone_noir' => l.effectOctogoneNoir,
       'main_levee' => l.effectMainLevee,
+      'tactique_peu_commune' => l.rarityPeuCommune,
+      'tactique_rare' => l.rarityRare,
+      'tactique_epique' => l.rarityEpique,
+      'tactique_legendaire' => l.rarityLegendaire,
       _ => fallback,
     };
 

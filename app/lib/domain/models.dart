@@ -127,6 +127,7 @@ class Edition {
   final List<String> aVerifier;
 
   bool get isReal => type == 'reelle';
+  bool get isTactic => type == 'tactique';
 }
 
 class CardSeries {
@@ -175,7 +176,8 @@ class CardDef {
         sousTitre = j['sous_titre'] as String?,
         mentions = _strings(j['mentions']),
         imageId = j['image_id'] as String?,
-        eventId = j['event_id'] as String?;
+        eventId = j['event_id'] as String?,
+        tactique = TacticKind.fromKey(j['tactique'] as String?);
 
   final String id;
   final String editionId;
@@ -188,6 +190,9 @@ class CardDef {
   final List<String> mentions;
   final String? imageId;
   final String? eventId;
+
+  /// Effet d'une carte Tactique (null pour une carte de combattant).
+  final TacticKind? tactique;
 
   bool get isRookie => mentions.contains('RC');
 }

@@ -1,0 +1,36 @@
+{
+  "id": "tactique",
+  "nom": "Cartes Tactique",
+  "annee": 2026,
+  "type": "tactique",
+  "famille_cadre": "tactique",
+  "date_sortie": null,
+  "description": "Créations originales : bonus de combat (2 au plus par combat, une fois chacune). L'effet se renforce avec la rareté (valeurs dans game_core, TacticCard.amount). 1 carte Tactique par booster, 3 cartes de départ par joueur, fabricables à l'Atelier.",
+  "sources": [],
+  "a_verifier": [],
+  "raretes": [
+    {"rarete": "commune", "nom": "Commune", "effet": "base"},
+    {"rarete": "peu_commune", "nom": "Peu commune", "effet": "tactique_peu_commune"},
+    {"rarete": "rare", "nom": "Rare", "effet": "tactique_rare"},
+    {"rarete": "epique", "nom": "Épique", "effet": "tactique_epique"},
+    {"rarete": "legendaire", "nom": "Légendaire", "effet": "tactique_legendaire"}
+  ],
+  "series": [
+    {
+      "code": "BASE",
+      "nom": "Tactique",
+      "type": "base",
+      "nb_cartes": 8,
+      "cartes": [
+        {"numero": "1", "nom_imprime": "Second souffle", "tactique": "second_souffle", "texte_verso": "Regain d'endurance."},
+        {"numero": "2", "nom_imprime": "Coin du coach", "tactique": "coin_du_coach", "texte_verso": "Santé récupérée."},
+        {"numero": "3", "nom_imprime": "Foule en délire", "tactique": "foule_en_delire", "texte_verso": "Momentum gagné."},
+        {"numero": "4", "nom_imprime": "Mâchoire d'acier", "tactique": "machoire_acier", "texte_verso": "Dégâts reçus réduits pendant 2 échanges."},
+        {"numero": "5", "nom_imprime": "Instinct de tueur", "tactique": "instinct_tueur", "texte_verso": "Dégâts infligés augmentés pendant 2 échanges."},
+        {"numero": "6", "nom_imprime": "Sortie de crise", "tactique": "sortie_de_crise", "texte_verso": "La prochaine tentative pour se relever ou se dégager réussit, et un peu d'endurance revient."},
+        {"numero": "7", "nom_imprime": "Plan de match", "tactique": "plan_de_match", "texte_verso": "Précision accrue pendant 2 échanges."},
+        {"numero": "8", "nom_imprime": "Pression totale", "tactique": "pression_totale", "texte_verso": "L'adversaire perd de l'endurance."}
+      ]
+    }
+  ]
+}

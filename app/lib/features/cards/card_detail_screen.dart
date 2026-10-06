@@ -92,7 +92,10 @@ class _Info extends ConsumerWidget {
             spacing: 8,
             runSpacing: 6,
             children: [
-              _Chip(text: variantLabel(l, view.effect, view.variant.nom), color: color),
+              _Chip(
+                text: view.tactic != null ? l.tacticLabel : variantLabel(l, view.effect, view.variant.nom),
+                color: color,
+              ),
               _Chip(text: rarityLabel(l, view.variant.rarete), color: color),
               if (view.printRun != null) _Chip(text: l.cardPrintRun(view.printRun!), color: AppColors.gold),
               if (isPreview)

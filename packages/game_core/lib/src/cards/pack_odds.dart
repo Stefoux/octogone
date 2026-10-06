@@ -8,7 +8,7 @@ import 'rarity.dart';
 /// Composition : `{"slots": [{"nb": 4, "poids": {"commune": 100}}, …], "garantie": "rare"}`.
 /// Chaque emplacement tire une rareté selon des poids relatifs.
 class PackOdds {
-  PackOdds._(this.perPack, this.atLeastOne, this.cards);
+  PackOdds._(this.perPack, this.atLeastOne, this.cards, [this.tactics]);
 
   /// Nombre moyen de cartes de chaque rareté par booster.
   final Map<Rarity, double> perPack;
@@ -16,8 +16,11 @@ class PackOdds {
   /// Probabilité d'avoir au moins une carte de cette rareté dans un booster.
   final Map<Rarity, double> atLeastOne;
 
-  /// Nombre de cartes du booster.
+  /// Nombre de cartes de combattants du booster.
   final int cards;
+
+  /// Carte(s) Tactique en plus (composition.tactique), ou null.
+  final PackOdds? tactics;
 
   factory PackOdds.fromComposition(Map<String, dynamic> composition) {
     final perPack = {for (final r in Rarity.values) r: 0.0};
@@ -36,10 +39,12 @@ class PackOdds {
         none[r] = none[r]! * math.pow(1 - p, nb);
       }
     }
+    final tactic = composition['tactique'];
     return PackOdds._(
       perPack,
       {for (final r in Rarity.values) r: 1 - none[r]!},
       cards,
+      tactic is Map ? PackOdds.fromComposition({'slots': [tactic]}) : null,
     );
   }
 

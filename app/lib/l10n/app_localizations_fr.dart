@@ -1137,4 +1137,99 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get shopFreeTest => 'Gratuit (mode test)';
+
+  @override
+  String get tacticLabel => 'Tactique';
+
+  @override
+  String get tacticCardsTitle => 'Cartes Tactique';
+
+  @override
+  String get tacticSecondSouffle => 'Second souffle';
+
+  @override
+  String get tacticCoinDuCoach => 'Coin du coach';
+
+  @override
+  String get tacticFouleEnDelire => 'Foule en délire';
+
+  @override
+  String get tacticMachoireAcier => 'Mâchoire d\'acier';
+
+  @override
+  String get tacticInstinctTueur => 'Instinct de tueur';
+
+  @override
+  String get tacticSortieDeCrise => 'Sortie de crise';
+
+  @override
+  String get tacticPlanDeMatch => 'Plan de match';
+
+  @override
+  String get tacticPressionTotale => 'Pression totale';
+
+  @override
+  String tacticEffectSecondSouffle(int n) {
+    return '+$n d’endurance';
+  }
+
+  @override
+  String tacticEffectCoinDuCoach(int n) {
+    return '+$n de santé';
+  }
+
+  @override
+  String tacticEffectFouleEnDelire(int n) {
+    return '+$n de momentum';
+  }
+
+  @override
+  String tacticEffectMachoireAcier(int n) {
+    return '−$n % de dégâts reçus pendant 2 échanges';
+  }
+
+  @override
+  String tacticEffectInstinctTueur(int n) {
+    return '+$n % de dégâts infligés pendant 2 échanges';
+  }
+
+  @override
+  String tacticEffectSortieDeCrise(int n) {
+    return 'Ta prochaine tentative pour te relever ou te dégager réussit, +$n d’endurance';
+  }
+
+  @override
+  String tacticEffectPlanDeMatch(int n) {
+    return '+$n % de réussite pendant 2 échanges';
+  }
+
+  @override
+  String tacticEffectPressionTotale(int n) {
+    return 'L’adversaire perd $n d’endurance';
+  }
+
+  @override
+  String get tacticRule =>
+      'Bonus de combat : 2 cartes Tactique au plus par combat, une fois chacune. La carte reste dans ta collection.';
+
+  @override
+  String get tacticByRarity => 'Effet selon la rareté';
+
+  @override
+  String get tacticStarter => 'Cartes Tactique offertes';
+
+  @override
+  String get tacticStarterSub => '3 bonus de combat pour bien commencer';
+
+  @override
+  String get tacticStarterAlready => 'Cartes Tactique déjà reçues';
+
+  @override
+  String get tacticStarterUnavailable =>
+      'Cartes Tactique pas encore disponibles : réessaie plus tard.';
+
+  @override
+  String boosterOddsTactic(int n) {
+    return 'Carte Tactique en plus ($n par booster)';
+  }
 }
