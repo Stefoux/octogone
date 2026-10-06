@@ -1,0 +1,27 @@
+# Photos des cartes : bilan
+
+- Photos officielles : 450 pour 267 combattants sur 336.
+
+## Sans aucune photo officielle (69) — portrait ou silhouette conservé
+
+Abus Magomedov, Andrei Arlovski, Antônio Rodrigo Nogueira, Bas Rutten, Blagoy Ivanov, Brock Lesnar, Bryce Mitchell, Caio Borralho, Calvin Kattar, Chan Sung Jung, Christian Leroy Duncan, Chuck Liddell, Colby Covington, Da'Mon Blackshear, Dan Hooker, David Onama, Delphine Benouaich, Don Frye, Donald Cerrone, Eduarda Moura, Forrest Griffin, Frank Mir, Frank Shamrock, Gabriella Fernandes, Gregory Rodrigues, Jair Rozenstruik, Jan Błachowicz, Jean Silva, Jens Pulver, Johnny Walker, Jonny Parsons, Josh Hokit, Joshua Culibao, Junior Tafa, Junior dos Santos, Katlyn Cerminara, Ken Shamrock, Lone'er Kavanagh, Lyoto Machida, Malcolm Gordon, Marcos Rogério de Lima, Mark Coleman, Matt Hughes, Matt Serra, Matthieu Letho Duclos, Maurício Rua, Melissa Croden, Melquizael Conceição, Michael Aljarouj, Mizuki Inoue, Noah Gugnon, Ottman Azaitar, Patricio Pitbull, Paulo Costa, Payton Talbott, Rashad Evans, Raul Rosas, Reinier de Ridder, Rich Franklin, Royce Gracie, Shayilan Nuerdanbieke, Tatsuro Taira, Tito Ortiz, Tyron Woodley, Urijah Faber, Val Woodburn, Wang Cong, Yair Rodríguez, Yaroslav Amosov
+
+## Sans photo de combat (40) — la célébration sert de Commune à Épique
+
+Alexandre Pantoja, Benoît Saint Denis, Bia Mesquita, Bo Nickal, Bogdan Guskov, Carlos Prates, Dan Henderson, Daniel Cormier, Derek Brunson, Diego Lopes, Elves Brener, Fatima Kline, Georges St-Pierre, Glover Teixeira, Ian Machado Garry, Irina Alekseeva, Islam Makhachev, Jamall Emmers, Jamie Pickett, Joe Pyfer, Josh Emmett, Julianna Peña, Kevin Vallejos, Khabib Nurmagomedov, Khamzat Chimaev, Lerone Murphy, Marlon Vera, Michael Bisping, Montserrat Conejo, Nikita Krylov, Paddy Pimblett, Pedro Munhoz, Quillan Salkilld, Salahdine Parnasse, Stipe Miocic, Sumudaerji, Tagir Ulanbekov, Tyrell Fortune, Valter Walker, Zhang Weili
+
+## Sans célébration ni ceinture (48) — Légendaire et Mythique gardent l'ancien portrait (ou la photo de combat en provisoire)
+
+Aaron Pico, Angela Hill, Beneil Dariush, Brandon Royval, Brian Ortega, Chael Sonnen, Conor McGregor, Daniel Rodriguez, Dominick Reyes, Duško Todorović, Farid Basharat, Gabriel Miranda, Giga Chikadze, Gilbert Burns, Jack Hermansson, Jack Shore, Jiří Procházka, Josh Quinlan, Joshua Van, Ketlen Vieira, Khalil Rountree Jr., Luana Carolina, Macy Chiasson, Magomed Ankalaev, Marcin Tybura, Michael Chandler, Movsar Evloev, Nora Cornolle, Norma Dumont, Pannie Kianzad, Petr Yan, Ramazan Temirov, Regina Tarin, Rizvan Kuniev, Robbie Lawler, Seungwoo Choi, Shara Magomedov, Shavkat Rakhmonov, Sodiq Yusuff, Tai Tuivasa, Tom Nolan, Tony Ferguson, Tracy Cortez, Umar Nurmagomedov, Virna Jandiroba, Waldo Cortes Acosta, Yana Santos, Youssef Zalal
+
+## Champions avec la ceinture à l'image (29)
+
+Alexander Volkanovski, Alexandre Pantoja, Amanda Nunes (photo ceinture), Brandon Moreno, Ciryl Gane, Daniel Cormier, Deiveson Figueiredo, Dricus du Plessis, Francis Ngannou, Georges St-Pierre, Glover Teixeira, Henry Cejudo, Ilia Topuria, Islam Makhachev, Joanna Jędrzejczyk (photo ceinture), Justin Gaethje (photo ceinture), Kamaru Usman, Kayla Harrison, Khabib Nurmagomedov, Khamzat Chimaev, Leon Edwards, Mackenzie Dern, Max Holloway, Michael Bisping (photo ceinture), Raquel Pennington, Sean Strickland, Stipe Miocic, Tom Aspinall, Zhang Weili
+
+## Champions sans photo de ceinture (57)
+
+Alex Pereira, Alexa Grasso, Aljamain Sterling, Anderson Silva, Andrei Arlovski, Antônio Rodrigo Nogueira, Bas Rutten, Belal Muhammad, Brock Lesnar, Carla Esparza, Carlos Ulberg, Charles Oliveira, Chris Weidman, Chuck Liddell, Cody Garbrandt, Colby Covington, Conor McGregor, Dominick Cruz, Dustin Poirier, Forrest Griffin, Frank Mir, Frank Shamrock, Frankie Edgar, Holly Holm, Israel Adesanya, Jack Della Maddalena, Jamahal Hill, Jan Błachowicz, Jens Pulver, Jessica Andrade, Jiří Procházka, Jon Jones, Joshua Van, Julianna Peña, Junior dos Santos, Lyoto Machida, Magomed Ankalaev, Mark Coleman, Matt Hughes, Matt Serra, Maurício Rua, Merab Dvalishvili, Miesha Tate, Natália Silva, Petr Yan, Rafael dos Anjos, Rashad Evans, Rich Franklin, Robbie Lawler, Robert Whittaker, Rose Namajunas, Sean O'Malley, Tito Ortiz, Tony Ferguson, Tyron Woodley, Valentina Shevchenko, Yair Rodríguez
+
+## Liste « ceinture sur la Légendaire » validée (64)
+
+Alex Pereira, Alexa Grasso, Alexander Volkanovski, Alexandre Pantoja, Aljamain Sterling, Amanda Nunes, Anderson Silva, Andrei Arlovski, Antônio Rodrigo Nogueira, Bas Rutten, Brock Lesnar, Carlos Ulberg, Charles Oliveira, Chris Weidman, Chuck Liddell, Ciryl Gane, Conor McGregor, Daniel Cormier, Deiveson Figueiredo, Dominick Cruz, Dricus du Plessis, Forrest Griffin, Francis Ngannou, Frank Shamrock, Frankie Edgar, Georges St-Pierre, Henry Cejudo, Ilia Topuria, Islam Makhachev, Israel Adesanya, Jan Błachowicz, Jens Pulver, Joanna Jędrzejczyk, Jon Jones, Joshua Van, Junior dos Santos, Justin Gaethje, Kamaru Usman, Kayla Harrison, Khabib Nurmagomedov, Leon Edwards, Lyoto Machida, Mackenzie Dern, Mark Coleman, Matt Hughes, Matt Serra, Maurício Rua, Max Holloway, Merab Dvalishvili, Michael Bisping, Petr Yan, Rafael dos Anjos, Rashad Evans, Rich Franklin, Robbie Lawler, Rose Namajunas, Sean O'Malley, Sean Strickland, Stipe Miocic, Tito Ortiz, Tom Aspinall, Tyron Woodley, Valentina Shevchenko, Zhang Weili
