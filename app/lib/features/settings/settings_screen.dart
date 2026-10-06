@@ -5,6 +5,7 @@ import '../../core/l10n.dart';
 import '../../core/sounds.dart';
 import '../../data/repositories/content_providers.dart';
 import '../auth/auth_providers.dart';
+import '../combat/combat_session.dart';
 
 /// Version affichée (à garder alignée sur app/pubspec.yaml).
 const appVersion = '0.3.6';
@@ -45,6 +46,15 @@ class SettingsScreen extends ConsumerWidget {
                 subtitle: Text(l.settingsSoundSub),
                 value: ref.watch(soundEnabledProvider),
                 onChanged: (v) => ref.read(soundEnabledProvider.notifier).set(v),
+              ),
+              const Divider(height: 1),
+              SwitchListTile(
+                key: const Key('settings-timer'),
+                secondary: const Icon(Icons.timer_outlined),
+                title: Text(l.settingsTimer),
+                subtitle: Text(l.settingsTimerSub),
+                value: ref.watch(combatPrefsProvider).timer,
+                onChanged: (v) => ref.read(combatPrefsProvider.notifier).update((p) => p.copyWith(timer: v)),
               ),
             ]),
           ),

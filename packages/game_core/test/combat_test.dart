@@ -67,6 +67,19 @@ void main() {
     expect(() => e.play(CombatAction.soumission, CombatAction.garde), throwsArgumentError);
   });
 
+  test('Main : jamais plus de 2 exemplaires d’une carte (dessous, on peut toujours se relever)', () {
+    final grappler = _f('grappler', _stats(lu: 50, so: 99, ca: 30));
+    for (var seed = 1; seed <= 300; seed++) {
+      final e = CombatEngine(CombatConfig(seed: seed), striker, grappler);
+      e.position = Position.sol;
+      e.top = 0;
+      final hand = e.hand(1);
+      expect(hand, hasLength(4));
+      expect(hand.where((a) => a == CombatAction.soumission).length, lessThanOrEqualTo(2));
+      expect(hand, contains(CombatAction.seRelever));
+    }
+  });
+
   test('Matrice : le Takedown passe sous la Frappe puissante, la Frappe rapide le sanctionne', () {
     final e = CombatEngine(const CombatConfig(seed: 1), wrestler, striker);
     final vsPower = e.successChance(0, CombatAction.takedown, CombatAction.frappePuissante);

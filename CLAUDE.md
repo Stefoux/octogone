@@ -46,6 +46,7 @@ cd data/scripts && .venv/bin/python -m unittest test_scripts
   - `fighters` ;
   - `vitrine` ;
   - `collection` : sélecteur de cartes ;
+  - `combat` : modes, préparation, arène (face-à-face, cartes ou roue, commentaires FR/EN, mini-jeux de soumission, résultat et cartes des juges). `CombatController` s'appuie sur `CombatDriver` (game_core), qui fait jouer l'IA à des moments fixes pour que le serveur puisse rejouer le journal (`CombatDriver.replay`) ;
   - `profile`, `settings`, `credits`.
 - `app/lib/widgets/` : fonds animés (`ArenaBackground`, `RarityBackdrop`), octogone, inclinaison.
 - `packages/game_core/` : règles en Dart pur, compilables en JS pour le serveur. `lib/src/combat/` : moteur de combat déterministe (graine xorshift32), IA en 3 niveaux, cartes Tactique ; réglages d'équilibrage en tête de `engine.dart`, validés avec `dart run bin/simulate_fights.dart ../../data/fighters 10000` (rapport dans `docs/equilibrage_combat.json`).

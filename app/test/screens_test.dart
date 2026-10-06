@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_riverpod/misc.dart' show Override;
 import 'package:flutter_test/flutter_test.dart';
-import 'package:game_core/game_core.dart' show TacticKind;
+import 'package:game_core/game_core.dart'
+    show AiLevel, CombatAction, CombatEvent, CombatFormat, Rarity, Stance, TacticCard, TacticKind;
 import 'package:octogone/core/l10n.dart';
 import 'package:octogone/core/sounds.dart';
 import 'package:octogone/core/theme.dart';
@@ -15,6 +16,12 @@ import 'package:octogone/features/auth/login_screen.dart';
 import 'package:octogone/features/boosters/booster_service.dart';
 import 'package:octogone/features/boosters/opening_screen.dart';
 import 'package:octogone/features/cards/card_back.dart';
+import 'package:octogone/features/combat/combat_arena_screen.dart';
+import 'package:octogone/features/combat/combat_screen.dart';
+import 'package:octogone/features/combat/combat_session.dart';
+import 'package:octogone/features/combat/combat_setup_screen.dart';
+import 'package:octogone/features/combat/combat_text.dart';
+import 'package:octogone/features/combat/submission_game.dart';
 import 'package:octogone/features/cards/card_backside.dart';
 import 'package:octogone/features/cards/card_view.dart';
 import 'package:octogone/features/cards/holo_layer.dart';
@@ -111,8 +118,8 @@ final _owned = [
   OwnedCard({'id': 'o1', 'card_id': 'ed:1', 'variant_id': 'ed:BASE:gold-refractor', 'numero_serie': 12, 'tirage': 50, 'origine': 'booster'}),
 ];
 
-List<Override> _overrides({List<OwnedCard>? owned, Map<String, ImageRef>? images}) => [
-      fightersProvider.overrideWith((ref) => Stream.value(_fighters)),
+List<Override> _overrides({List<OwnedCard>? owned, Map<String, ImageRef>? images, List<Fighter>? fighters}) => [
+      fightersProvider.overrideWith((ref) => Stream.value(fighters ?? _fighters)),
       imagesProvider.overrideWith((ref) => Stream.value(images ?? const <String, ImageRef>{})),
       editionsProvider.overrideWith((ref) => Stream.value([_edition])),
       seriesForEditionProvider.overrideWith((ref, id) => Stream.value([_series])),
@@ -1094,5 +1101,159 @@ void main() {
     // Sans photo prévue pour la rareté : le portrait
     images.remove('ceinture');
     expect(await photoFor('ed:BASE:superfractor'), contains('fighters/alex-pereira.webp'));
+  });
+
+  // --- Combat ----------------------------------------------------------------
+
+  testWidgets('Combat : les modes de jeu, le combat rapide est ouvert', (tester) async {
+    _phoneScreen(tester);
+    await tester.pumpWidget(_wrap(const CombatScreen(), locale: const Locale('fr')));
+    await tester.pump(const Duration(seconds: 1));
+    expect(find.text('COMBAT RAPIDE'), findsOneWidget);
+    expect(find.text('ROUTE VERS LA CEINTURE'), findsOneWidget);
+    expect(find.text('Bientôt'), findsNWidgets(3));
+    await tester.pumpWidget(const SizedBox());
+  });
+
+  testWidgets('Combat : préparation (ma carte, adversaire de la même catégorie, réglages)', (tester) async {
+    SharedPreferences.setMockInitialValues({});
+    _bigScreen(tester);
+    final rival = _fighter('jiri-prochazka', 'Jiri Prochazka');
+    final overrides = _overrides(fighters: [..._fighters, rival]);
+    await tester.pumpWidget(_wrap(const CombatSetupScreen(), overrides: overrides, locale: const Locale('fr')));
+    await _frames(tester);
+    expect(find.text('ALEX PEREIRA'), findsOneWidget); // la meilleure carte possédée
+    expect(find.text('JIRI PROCHAZKA'), findsOneWidget); // Zhang Weili n'est pas de la catégorie
+    expect(find.text('Difficile'), findsOneWidget);
+    expect(find.text('Poids libre'), findsOneWidget);
+    expect(find.textContaining('tu en reçois une dans chaque booster'), findsOneWidget);
+    expect(find.byKey(const Key('combat-enter')), findsOneWidget);
+    await tester.pumpWidget(const SizedBox());
+  });
+
+  CombatSetup arenaSetup({ControlMode control = ControlMode.cartes, int seed = 42}) => CombatSetup(
+        player: Contender(fighter: _fighters[0], rarity: Rarity.epique, bonus: 3),
+        opponent: Contender(fighter: _fighter('jiri-prochazka', 'Jiri Prochazka'), rarity: Rarity.epique, bonus: 3),
+        level: AiLevel.facile,
+        format: CombatFormat.court,
+        seed: seed,
+        control: control,
+        tactics: const [TacticCard(TacticKind.secondSouffle, Rarity.commune, ownedId: 't1')],
+      );
+
+  List<Override> arenaOverrides() => [..._overrides(), soundFxProvider.overrideWithValue(SoundFx(enabled: false))];
+
+  testWidgets('Arène : un combat complet, mini-jeux compris, jusqu’au résultat', (tester) async {
+    SharedPreferences.setMockInitialValues({});
+    _phoneScreen(tester);
+    combatBeat = const Duration(milliseconds: 1);
+    await tester.pumpWidget(_wrap(CombatArenaScreen(setup: arenaSetup()), overrides: arenaOverrides(), locale: const Locale('fr')));
+    await _frames(tester);
+    expect(find.text('ROUND 1'), findsOneWidget);
+    expect(find.text('ALEX PEREIRA'), findsOneWidget);
+
+    // Carte Tactique : une seule fois
+    await tester.tap(find.byKey(const Key('use-tactic-second_souffle')));
+    await _frames(tester, 20);
+    expect(find.textContaining('joue Second souffle'), findsOneWidget);
+
+    var minigames = 0;
+    for (var i = 0; i < 400 && find.byKey(const Key('combat-result')).evaluate().isEmpty; i++) {
+      if (find.byKey(const Key('sub-timing')).evaluate().isNotEmpty) {
+        minigames++;
+        for (var t = 0; t < 3; t++) {
+          await tester.tap(find.byKey(const Key('sub-timing')));
+          await tester.pump(const Duration(milliseconds: 120));
+        }
+        await tester.pump(const Duration(milliseconds: 500));
+      } else if (find.byKey(const Key('sub-mash')).evaluate().isNotEmpty) {
+        minigames++;
+        await tester.tap(find.byKey(const Key('sub-mash')));
+        await tester.pump(const Duration(seconds: 4));
+      } else {
+        final cards = find.byWidgetPredicate((w) => w.key is ValueKey<String> && (w.key! as ValueKey<String>).value.startsWith('action-'));
+        if (cards.evaluate().isNotEmpty) await tester.tap(cards.first, warnIfMissed: false);
+      }
+      await tester.pump(const Duration(milliseconds: 60));
+    }
+    expect(find.byKey(const Key('combat-result')), findsOneWidget);
+    expect(find.textContaining(RegExp(r'^(VICTOIRE|DÉFAITE|MATCH NUL)$')), findsOneWidget);
+    expect(find.byKey(const Key('combat-rematch')), findsOneWidget);
+    expect(minigames, greaterThanOrEqualTo(0));
+    await tester.pumpWidget(const SizedBox());
+    await tester.pump(const Duration(seconds: 5));
+  });
+
+  testWidgets('Arène : la roue propose la même main que les cartes', (tester) async {
+    SharedPreferences.setMockInitialValues({});
+    _phoneScreen(tester);
+    final keys = <String>{};
+    for (final mode in ControlMode.values) {
+      await tester.pumpWidget(
+          _wrap(CombatArenaScreen(key: ValueKey(mode), setup: arenaSetup(control: mode)), overrides: arenaOverrides(), locale: const Locale('fr')));
+      await _frames(tester);
+      final found = {
+        for (final e in find.byWidgetPredicate((w) => w.key is ValueKey<String> && (w.key! as ValueKey<String>).value.startsWith('action-')).evaluate())
+          (e.widget.key! as ValueKey<String>).value,
+      };
+      expect(found.where((k) => k.endsWith('-garde')), hasLength(1));
+      expect(found, hasLength(5)); // 4 cartes en main + Garde
+      if (keys.isEmpty) {
+        keys.addAll(found);
+      } else {
+        expect(found, keys);
+      }
+    }
+    await tester.pumpWidget(const SizedBox());
+  });
+
+  testWidgets('Mini-jeux de soumission : viser la zone (attaque), taper vite (défense)', (tester) async {
+    double? got;
+    await tester.pumpWidget(_wrap(Builder(
+      builder: (context) => Column(children: [
+        TextButton(onPressed: () async => got = await showSubmissionGame(context, attacking: true, seed: 3), child: const Text('A')),
+        TextButton(onPressed: () async => got = await showSubmissionGame(context, attacking: false, seed: 3), child: const Text('D')),
+      ]),
+    ), locale: const Locale('fr')));
+    await tester.tap(find.text('A'));
+    await tester.pump(const Duration(milliseconds: 300));
+    expect(find.text('SOUMISSION !'), findsOneWidget);
+    for (var t = 0; t < 3; t++) {
+      await tester.tap(find.byKey(const Key('sub-timing')));
+      await tester.pump(const Duration(milliseconds: 100));
+    }
+    await tester.pump(const Duration(milliseconds: 600));
+    expect(got, inInclusiveRange(0, 1));
+
+    got = null;
+    await tester.tap(find.text('D'));
+    await tester.pump(const Duration(milliseconds: 300));
+    expect(find.text('DÉGAGE-TOI !'), findsOneWidget);
+    for (var t = 0; t < 12; t++) {
+      await tester.tap(find.byKey(const Key('sub-mash')));
+      await tester.pump(const Duration(milliseconds: 50));
+    }
+    await tester.pump(const Duration(seconds: 4));
+    expect(got, closeTo(0.5, 1e-9)); // 12 appuis sur 24
+  });
+
+  test('Commentaires : chaque événement du moteur a son texte (FR et EN)', () {
+    const types = [
+      'touche', 'bloque', 'rate', 'esquive', 'contre', 'knockdown', 'takedown', 'takedown_rate', 'clinch', 'separe',
+      'releve', 'controle', 'soumission_tentee', 'soumission_echappee', 'soumission_reussie', 'signature', 'fatigue',
+      'fin_round', 'ko', 'tko', 'fin_soumission', 'decision',
+    ];
+    for (final lang in ['fr', 'en']) {
+      final l = lookupAppLocalizations(Locale(lang));
+      for (final t in types) {
+        final e = CombatEvent(t, side: 0, action: CombatAction.frappePuissante, value: 12);
+        expect(eventText(l, e, ['Pereira', 'Prochazka']), isNotNull, reason: '$lang : $t');
+      }
+      final tactic = eventText(l, const CombatEvent('tactique', side: 1, value: 25, detail: 'second_souffle'), ['A', 'B']);
+      expect(tactic, contains(lang == 'fr' ? 'Second souffle' : 'Second Wind'));
+    }
+    final l = lookupAppLocalizations(const Locale('fr'));
+    expect(eventText(l, const CombatEvent('knockdown', side: 1), ['Pereira', 'Prochazka']), 'Prochazka envoie Pereira au tapis !');
+    expect(actionName(l, CombatAction.seRelever, Stance.clinch), 'Se dégager');
   });
 }

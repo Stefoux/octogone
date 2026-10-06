@@ -11,7 +11,10 @@ import '../features/auth/login_screen.dart';
 import '../features/auth/signup_screen.dart';
 import '../features/boosters/opening_screen.dart';
 import '../features/cards/card_detail_screen.dart';
+import '../features/combat/combat_arena_screen.dart';
 import '../features/combat/combat_screen.dart';
+import '../features/combat/combat_session.dart';
+import '../features/combat/combat_setup_screen.dart';
 import '../features/boutique/boutique_screen.dart';
 import '../features/credits/credits_screen.dart';
 import '../features/defis/defis_screen.dart';
@@ -90,6 +93,12 @@ final routerProvider = Provider<GoRouter>((ref) {
           payment: s.uri.queryParameters['paiement'] ?? 'gratuit',
         ),
       ),
+      // Arène (plein écran, sans barre de navigation)
+      GoRoute(
+        path: '/arene',
+        redirect: (_, s) => s.extra is CombatSetup ? null : '/combat',
+        builder: (_, s) => ArenaBackground(intensity: 0.5, child: CombatArenaScreen(setup: s.extra! as CombatSetup)),
+      ),
       GoRoute(
         path: '/carte/:cardId',
         builder: (_, s) => CardDetailScreen(
@@ -132,7 +141,11 @@ final routerProvider = Provider<GoRouter>((ref) {
             ),
           ]),
           StatefulShellBranch(routes: [
-            GoRoute(path: '/combat', builder: (_, _) => const CombatScreen()),
+            GoRoute(
+              path: '/combat',
+              builder: (_, _) => const CombatScreen(),
+              routes: [GoRoute(path: 'rapide', builder: (_, _) => const CombatSetupScreen())],
+            ),
           ]),
           StatefulShellBranch(routes: [
             GoRoute(path: '/profil', builder: (_, _) => const ProfileScreen()),

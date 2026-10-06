@@ -180,7 +180,7 @@ const _submissionBase = 0.62, _subWrestlingDefense = 0.4, _subFromBottom = 0.16,
 
 /// Lutteur : bonus d'enchaînement (takedown, contrôle, clinch) et malus pour
 /// se relever sous lui.
-const _wrestlerChain = 0.08, _wrestlerPin = 0.06;
+const _wrestlerChain = 0.11, _wrestlerPin = 0.06;
 
 /// Coût d'endurance d'une action : coût × (base − pente × cardio).
 const _cardioCostBase = 2.2, _cardioCostSlope = 1.4;
@@ -194,9 +194,7 @@ class CombatEngine {
     : fighters = [red, blue],
       sides = [_side(red), _side(blue)],
       _rng = CombatRng(config.seed) {
-    for (var s = 0; s < 2; s++) {
-      _drawHand(s, Stance.debout);
-    }
+    _refillHands();
     _newRoundStats();
   }
 
@@ -236,10 +234,34 @@ class CombatEngine {
     Position.sol => top == side ? Stance.dessus : Stance.dessous,
   };
 
+  /// Au plus 2 exemplaires d'une même carte en main (sinon on peut se
+  /// retrouver dessous sans aucune carte pour se relever).
+  static const maxCopies = 2;
+
   void _drawHand(int side, Stance stance) {
     final hand = sides[side].hands.putIfAbsent(stance, () => []);
     while (hand.length < handSize) {
-      hand.add(fighters[side].drawCard(stance, _rng));
+      hand.add(_drawCard(side, stance, hand));
+    }
+  }
+
+  CombatAction _drawCard(int side, Stance stance, List<CombatAction> hand) {
+    final options = stanceActions[stance]!;
+    final weights = [
+      for (final a in options)
+        hand.where((h) => h == a).length >= maxCopies ? 0.0 : fighters[side].cardWeight(a, stance),
+    ];
+    if (weights.every((w) => w <= 0)) return fighters[side].drawCard(stance, _rng);
+    return options[_rng.weighted(weights)];
+  }
+
+  /// Complète les mains des deux combattants pour leur situation actuelle,
+  /// toujours dans le même ordre : le tirage ne dépend pas de qui regarde sa
+  /// main en premier (l'IA, l'affichage), donc le serveur retrouve les mêmes
+  /// cartes en rejouant le journal.
+  void _refillHands() {
+    for (var s = 0; s < 2; s++) {
+      _drawHand(s, stanceOf(s));
     }
   }
 
@@ -440,7 +462,7 @@ class CombatEngine {
       final idx = hand.indexOf(a);
       if (idx >= 0) {
         hand.removeAt(idx);
-        hand.add(fighters[s].drawCard(stances[s], _rng));
+        hand.add(_drawCard(s, stances[s], hand));
       }
       if (a == CombatAction.signature) {
         sides[s].momentum = 0;
@@ -523,6 +545,7 @@ class CombatEngine {
     if (!finished) _resolvePosition(acts, stances, success, rolls, ev);
     // Soumission engagée : l'échange se termine après le mini-jeu
     if (!finished && pending == null) _endExchange(ev);
+    if (!finished) _refillHands();
     return ev;
   }
 
@@ -724,6 +747,7 @@ class CombatEngine {
         ev.add(CombatEvent('releve', side: o));
       }
       _endExchange(ev);
+      if (!finished) _refillHands();
     }
     return ev;
   }

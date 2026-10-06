@@ -7,6 +7,8 @@ cloche, gong) réservée aux grandes raretés.
 - flip : retournement de carte
 - swipe : envol d'une carte (panoramique et hauteur réglés dans l'app)
 - reveal_<rareté> : intensité croissante de la Commune à la Mythique
+- combat : coup_leger, coup_lourd, bloque, rate, chute (takedown, knockdown),
+  cloche (fin de round), foule (knockdown, coup signature), victoire
 
 Sortie : app/assets/sounds/*.wav (stéréo, 44 100 Hz, 16 bits).
 Tout est déterministe (graines fixes) : relancer le script redonne les mêmes
@@ -433,11 +435,85 @@ def reveal_mythique() -> np.ndarray:
     return finish(reverb(buf, 3.2, 0.32, 11, 0.5), 0.97, 0.8, drive=2.6)
 
 
+# --- Sons de combat ---------------------------------------------------------------
+
+def coup_leger() -> np.ndarray:
+    """Coup rapide : claquement sec du gant, corps bref."""
+    buf = buffer(0.35)
+    place(buf, whoosh(0.08, 900, 3000, 101), 0, 0.35)
+    place(buf, click(0.03, 102, 1800), 0.06, 0.9)
+    place(buf, body(0.12, 103, 1100, 0.025), 0.06, 1.0)
+    place(buf, sub_drop(0.15, 140, 80, 0.04, 1.6), 0.06, 0.6)
+    return finish(reverb(buf, 0.4, 0.1, 12), 0.6, 0.05, drive=1.8)
+
+
+def coup_lourd() -> np.ndarray:
+    """Frappe puissante : souffle, impact grave et lourd."""
+    buf = buffer(0.7)
+    place(buf, whoosh(0.18, 400, 2200, 111), 0, 0.5)
+    place(buf, click(0.04, 112, 1500), 0.15, 1.0)
+    place(buf, body(0.25, 113, 700, 0.05), 0.15, 1.1)
+    place(buf, sub_drop(0.45, 120, 45, 0.12, 2.4), 0.15, 1.2)
+    return finish(reverb(buf, 0.6, 0.14, 13), 0.85, 0.1, drive=2.2)
+
+
+def bloque() -> np.ndarray:
+    """Coup bloqué : impact étouffé sur les avant-bras."""
+    buf = buffer(0.3)
+    place(buf, body(0.15, 121, 500, 0.03), 0, 1.0)
+    place(buf, sub_drop(0.15, 100, 60, 0.04, 1.2), 0, 0.5)
+    return finish(reverb(buf, 0.3, 0.08, 14), 0.45, 0.05, drive=1.3)
+
+
+def rate() -> np.ndarray:
+    """Coup dans le vide."""
+    buf = buffer(0.3)
+    place(buf, whoosh(0.25, 700, 3500, 131), 0, 1.0)
+    return finish(reverb(buf, 0.4, 0.1, 15), 0.4, 0.05)
+
+
+def chute() -> np.ndarray:
+    """Takedown ou knockdown : corps qui tombe sur le tapis."""
+    buf = buffer(0.8)
+    place(buf, whoosh(0.2, 300, 1200, 141), 0, 0.4)
+    place(buf, sub_drop(0.5, 90, 35, 0.14, 2.6), 0.18, 1.3)
+    place(buf, body(0.3, 142, 400, 0.07), 0.18, 1.1)
+    place(buf, filt(noise(0.05, 143), "bandpass", (700, 2500)) * np.exp(-axis(0.05) / 0.01), 0.18, 0.5)
+    return finish(reverb(buf, 0.7, 0.15, 16), 0.85, 0.1, drive=2.2)
+
+
+def cloche() -> np.ndarray:
+    """Cloche du ring : deux coups."""
+    buf = buffer(2.2)
+    place(buf, bell(1180, 1.8, 151, 0.9), 0, 0.8)
+    place(buf, bell(1180, 1.8, 152, 0.9), 0.32, 0.8)
+    return finish(reverb(buf, 1.2, 0.2, 17, 0.6), 0.7, 0.3)
+
+
+def foule() -> np.ndarray:
+    """La foule réagit (knockdown, coup signature)."""
+    buf = buffer(2.2)
+    place(buf, crowd(2.1, 0.6, 161, swell=0.35), 0, 1.0)
+    return finish(reverb(buf, 1.4, 0.25, 18), 0.6, 0.6)
+
+
+def victoire() -> np.ndarray:
+    """Fin du combat : gong, cloche, foule en délire."""
+    buf = buffer(4.0)
+    place(buf, sub_drop(1.2, 100, 34, 0.35, 2.4), 0, 1.0)
+    place(buf, gong(110, 3.4, 171), 0.0, 0.6)
+    place(buf, bell(1180, 2.0, 172, 1.0), 0.05, 0.35)
+    place(buf, crowd(3.8, 1.0, 173, swell=0.5), 0.05, 0.9)
+    return finish(reverb(buf, 2.4, 0.28, 19, 0.5), 0.9, 0.6, drive=2.2)
+
+
 def main() -> None:
     for name, fn in (("rip", rip), ("flip", flip), ("swipe", swipe),
                      ("reveal_commune", reveal_commune), ("reveal_peu_commune", reveal_peu_commune),
                      ("reveal_rare", reveal_rare), ("reveal_epique", reveal_epique),
-                     ("reveal_legendaire", reveal_legendaire), ("reveal_mythique", reveal_mythique)):
+                     ("reveal_legendaire", reveal_legendaire), ("reveal_mythique", reveal_mythique),
+                     ("coup_leger", coup_leger), ("coup_lourd", coup_lourd), ("bloque", bloque), ("rate", rate),
+                     ("chute", chute), ("cloche", cloche), ("foule", foule), ("victoire", victoire)):
         write(name, fn())
     for p in sorted(OUT.glob("*.wav")):
         with wave.open(str(p)) as w:

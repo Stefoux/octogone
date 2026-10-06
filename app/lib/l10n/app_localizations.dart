@@ -2215,6 +2215,642 @@ abstract class AppLocalizations {
   /// In fr, this message translates to:
   /// **'Carte Tactique en plus ({n} par booster)'**
   String boosterOddsTactic(int n);
+
+  /// No description provided for @combatQuick.
+  ///
+  /// In fr, this message translates to:
+  /// **'Combat rapide'**
+  String get combatQuick;
+
+  /// No description provided for @combatQuickSub.
+  ///
+  /// In fr, this message translates to:
+  /// **'Un combat contre l’IA, réglé à ta façon'**
+  String get combatQuickSub;
+
+  /// No description provided for @combatEvening.
+  ///
+  /// In fr, this message translates to:
+  /// **'Soirée'**
+  String get combatEvening;
+
+  /// No description provided for @combatEveningSub.
+  ///
+  /// In fr, this message translates to:
+  /// **'5 combats d’affilée'**
+  String get combatEveningSub;
+
+  /// No description provided for @combatRoad.
+  ///
+  /// In fr, this message translates to:
+  /// **'Route vers la ceinture'**
+  String get combatRoad;
+
+  /// No description provided for @combatRoadSub.
+  ///
+  /// In fr, this message translates to:
+  /// **'Gravis le classement jusqu’au combat pour le titre'**
+  String get combatRoadSub;
+
+  /// No description provided for @combatScenarios.
+  ///
+  /// In fr, this message translates to:
+  /// **'Scénarios'**
+  String get combatScenarios;
+
+  /// No description provided for @combatScenariosSub.
+  ///
+  /// In fr, this message translates to:
+  /// **'Des combats avec une situation imposée'**
+  String get combatScenariosSub;
+
+  /// No description provided for @combatSoon.
+  ///
+  /// In fr, this message translates to:
+  /// **'Bientôt'**
+  String get combatSoon;
+
+  /// No description provided for @combatSetupTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Préparation'**
+  String get combatSetupTitle;
+
+  /// No description provided for @combatYourFighter.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ton combattant'**
+  String get combatYourFighter;
+
+  /// No description provided for @combatPickFighter.
+  ///
+  /// In fr, this message translates to:
+  /// **'Choisir un combattant'**
+  String get combatPickFighter;
+
+  /// No description provided for @combatNoFighter.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ouvre des boosters pour obtenir des combattants.'**
+  String get combatNoFighter;
+
+  /// No description provided for @combatOpponent.
+  ///
+  /// In fr, this message translates to:
+  /// **'Adversaire'**
+  String get combatOpponent;
+
+  /// No description provided for @combatReroll.
+  ///
+  /// In fr, this message translates to:
+  /// **'Autre adversaire'**
+  String get combatReroll;
+
+  /// No description provided for @combatChooseOpponent.
+  ///
+  /// In fr, this message translates to:
+  /// **'Choisir l’adversaire'**
+  String get combatChooseOpponent;
+
+  /// No description provided for @combatLevel.
+  ///
+  /// In fr, this message translates to:
+  /// **'Niveau de l’IA'**
+  String get combatLevel;
+
+  /// No description provided for @combatLevelFacile.
+  ///
+  /// In fr, this message translates to:
+  /// **'Facile'**
+  String get combatLevelFacile;
+
+  /// No description provided for @combatLevelNormal.
+  ///
+  /// In fr, this message translates to:
+  /// **'Normal'**
+  String get combatLevelNormal;
+
+  /// No description provided for @combatLevelDifficile.
+  ///
+  /// In fr, this message translates to:
+  /// **'Difficile'**
+  String get combatLevelDifficile;
+
+  /// No description provided for @combatFormat.
+  ///
+  /// In fr, this message translates to:
+  /// **'Format'**
+  String get combatFormat;
+
+  /// No description provided for @combatFormatCourt.
+  ///
+  /// In fr, this message translates to:
+  /// **'Court'**
+  String get combatFormatCourt;
+
+  /// No description provided for @combatFormatComplet.
+  ///
+  /// In fr, this message translates to:
+  /// **'Complet'**
+  String get combatFormatComplet;
+
+  /// No description provided for @combatFormatDetail.
+  ///
+  /// In fr, this message translates to:
+  /// **'{rounds} rounds de {n} échanges'**
+  String combatFormatDetail(int rounds, int n);
+
+  /// No description provided for @combatWeight.
+  ///
+  /// In fr, this message translates to:
+  /// **'Catégorie'**
+  String get combatWeight;
+
+  /// No description provided for @combatSameClass.
+  ///
+  /// In fr, this message translates to:
+  /// **'Même catégorie'**
+  String get combatSameClass;
+
+  /// No description provided for @combatOpenWeight.
+  ///
+  /// In fr, this message translates to:
+  /// **'Poids libre'**
+  String get combatOpenWeight;
+
+  /// No description provided for @combatOpenWeightNote.
+  ///
+  /// In fr, this message translates to:
+  /// **'Le plus léger encaisse plus et lutte moins bien.'**
+  String get combatOpenWeightNote;
+
+  /// No description provided for @combatControl.
+  ///
+  /// In fr, this message translates to:
+  /// **'Commandes'**
+  String get combatControl;
+
+  /// No description provided for @combatControlCards.
+  ///
+  /// In fr, this message translates to:
+  /// **'Cartes'**
+  String get combatControlCards;
+
+  /// No description provided for @combatControlWheel.
+  ///
+  /// In fr, this message translates to:
+  /// **'Roue'**
+  String get combatControlWheel;
+
+  /// No description provided for @combatTactics.
+  ///
+  /// In fr, this message translates to:
+  /// **'Cartes Tactique (2 au plus)'**
+  String get combatTactics;
+
+  /// No description provided for @combatNoTactics.
+  ///
+  /// In fr, this message translates to:
+  /// **'Aucune carte Tactique : tu en reçois une dans chaque booster.'**
+  String get combatNoTactics;
+
+  /// No description provided for @combatEnter.
+  ///
+  /// In fr, this message translates to:
+  /// **'Entrer dans la cage'**
+  String get combatEnter;
+
+  /// No description provided for @combatRound.
+  ///
+  /// In fr, this message translates to:
+  /// **'Round {r}'**
+  String combatRound(int r);
+
+  /// No description provided for @combatExchange.
+  ///
+  /// In fr, this message translates to:
+  /// **'Échange {e}/{n}'**
+  String combatExchange(int e, int n);
+
+  /// No description provided for @combatHealth.
+  ///
+  /// In fr, this message translates to:
+  /// **'Santé'**
+  String get combatHealth;
+
+  /// No description provided for @combatStamina.
+  ///
+  /// In fr, this message translates to:
+  /// **'Endurance'**
+  String get combatStamina;
+
+  /// No description provided for @combatMomentum.
+  ///
+  /// In fr, this message translates to:
+  /// **'Momentum'**
+  String get combatMomentum;
+
+  /// No description provided for @combatYourMove.
+  ///
+  /// In fr, this message translates to:
+  /// **'À toi de jouer'**
+  String get combatYourMove;
+
+  /// No description provided for @combatSignatureReady.
+  ///
+  /// In fr, this message translates to:
+  /// **'Coup signature prêt !'**
+  String get combatSignatureReady;
+
+  /// No description provided for @combatStanceDebout.
+  ///
+  /// In fr, this message translates to:
+  /// **'Debout'**
+  String get combatStanceDebout;
+
+  /// No description provided for @combatStanceClinch.
+  ///
+  /// In fr, this message translates to:
+  /// **'Clinch'**
+  String get combatStanceClinch;
+
+  /// No description provided for @combatStanceDessus.
+  ///
+  /// In fr, this message translates to:
+  /// **'Au sol, dessus'**
+  String get combatStanceDessus;
+
+  /// No description provided for @combatStanceDessous.
+  ///
+  /// In fr, this message translates to:
+  /// **'Au sol, dessous'**
+  String get combatStanceDessous;
+
+  /// No description provided for @combatQuit.
+  ///
+  /// In fr, this message translates to:
+  /// **'Abandonner'**
+  String get combatQuit;
+
+  /// No description provided for @combatQuitConfirm.
+  ///
+  /// In fr, this message translates to:
+  /// **'Abandonner ce combat ? Il compte comme une défaite.'**
+  String get combatQuitConfirm;
+
+  /// No description provided for @combatTimeUp.
+  ///
+  /// In fr, this message translates to:
+  /// **'Temps écoulé : Garde'**
+  String get combatTimeUp;
+
+  /// No description provided for @actFrappeRapide.
+  ///
+  /// In fr, this message translates to:
+  /// **'Frappe rapide'**
+  String get actFrappeRapide;
+
+  /// No description provided for @actFrappePuissante.
+  ///
+  /// In fr, this message translates to:
+  /// **'Frappe puissante'**
+  String get actFrappePuissante;
+
+  /// No description provided for @actCoupDePied.
+  ///
+  /// In fr, this message translates to:
+  /// **'Coup de pied'**
+  String get actCoupDePied;
+
+  /// No description provided for @actTakedown.
+  ///
+  /// In fr, this message translates to:
+  /// **'Takedown'**
+  String get actTakedown;
+
+  /// No description provided for @actClinch.
+  ///
+  /// In fr, this message translates to:
+  /// **'Clinch'**
+  String get actClinch;
+
+  /// No description provided for @actGarde.
+  ///
+  /// In fr, this message translates to:
+  /// **'Garde'**
+  String get actGarde;
+
+  /// No description provided for @actEsquive.
+  ///
+  /// In fr, this message translates to:
+  /// **'Esquive'**
+  String get actEsquive;
+
+  /// No description provided for @actGroundAndPound.
+  ///
+  /// In fr, this message translates to:
+  /// **'Ground and pound'**
+  String get actGroundAndPound;
+
+  /// No description provided for @actSoumission.
+  ///
+  /// In fr, this message translates to:
+  /// **'Soumission'**
+  String get actSoumission;
+
+  /// No description provided for @actSeRelever.
+  ///
+  /// In fr, this message translates to:
+  /// **'Se relever'**
+  String get actSeRelever;
+
+  /// No description provided for @actSeDegager.
+  ///
+  /// In fr, this message translates to:
+  /// **'Se dégager'**
+  String get actSeDegager;
+
+  /// No description provided for @actControle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Contrôle'**
+  String get actControle;
+
+  /// No description provided for @actSignature.
+  ///
+  /// In fr, this message translates to:
+  /// **'Coup signature'**
+  String get actSignature;
+
+  /// No description provided for @evTouche.
+  ///
+  /// In fr, this message translates to:
+  /// **'{a} place : {action} ({n})'**
+  String evTouche(String a, String action, int n);
+
+  /// No description provided for @evBloque.
+  ///
+  /// In fr, this message translates to:
+  /// **'{b} bloque : {action}'**
+  String evBloque(String b, String action);
+
+  /// No description provided for @evBloqueTouche.
+  ///
+  /// In fr, this message translates to:
+  /// **'{b} bloque mais encaisse {n}'**
+  String evBloqueTouche(String b, int n);
+
+  /// No description provided for @evRate.
+  ///
+  /// In fr, this message translates to:
+  /// **'{a} manque : {action}'**
+  String evRate(String a, String action);
+
+  /// No description provided for @evEsquive.
+  ///
+  /// In fr, this message translates to:
+  /// **'{a} esquive !'**
+  String evEsquive(String a);
+
+  /// No description provided for @evContre.
+  ///
+  /// In fr, this message translates to:
+  /// **'Contre de {a} ! ({n})'**
+  String evContre(String a, int n);
+
+  /// No description provided for @evKnockdown.
+  ///
+  /// In fr, this message translates to:
+  /// **'{a} envoie {b} au tapis !'**
+  String evKnockdown(String a, String b);
+
+  /// No description provided for @evTakedown.
+  ///
+  /// In fr, this message translates to:
+  /// **'Takedown de {a} !'**
+  String evTakedown(String a);
+
+  /// No description provided for @evTakedownRate.
+  ///
+  /// In fr, this message translates to:
+  /// **'{a} rate son takedown'**
+  String evTakedownRate(String a);
+
+  /// No description provided for @evClinch.
+  ///
+  /// In fr, this message translates to:
+  /// **'{a} engage le clinch'**
+  String evClinch(String a);
+
+  /// No description provided for @evSepare.
+  ///
+  /// In fr, this message translates to:
+  /// **'{a} se dégage'**
+  String evSepare(String a);
+
+  /// No description provided for @evReleve.
+  ///
+  /// In fr, this message translates to:
+  /// **'{a} se relève'**
+  String evReleve(String a);
+
+  /// No description provided for @evControle.
+  ///
+  /// In fr, this message translates to:
+  /// **'{a} contrôle au sol'**
+  String evControle(String a);
+
+  /// No description provided for @evSoumissionTentee.
+  ///
+  /// In fr, this message translates to:
+  /// **'{a} tente une soumission !'**
+  String evSoumissionTentee(String a);
+
+  /// No description provided for @evSoumissionEchappee.
+  ///
+  /// In fr, this message translates to:
+  /// **'{a} s’échappe !'**
+  String evSoumissionEchappee(String a);
+
+  /// No description provided for @evSoumissionReussie.
+  ///
+  /// In fr, this message translates to:
+  /// **'{b} abandonne !'**
+  String evSoumissionReussie(String b);
+
+  /// No description provided for @evSignature.
+  ///
+  /// In fr, this message translates to:
+  /// **'Coup signature de {a} !'**
+  String evSignature(String a);
+
+  /// No description provided for @evFatigue.
+  ///
+  /// In fr, this message translates to:
+  /// **'{a} accuse la fatigue'**
+  String evFatigue(String a);
+
+  /// No description provided for @evTactique.
+  ///
+  /// In fr, this message translates to:
+  /// **'{a} joue {tactic}'**
+  String evTactique(String a, String tactic);
+
+  /// No description provided for @evFinRound.
+  ///
+  /// In fr, this message translates to:
+  /// **'Fin du round {n}'**
+  String evFinRound(int n);
+
+  /// No description provided for @evKo.
+  ///
+  /// In fr, this message translates to:
+  /// **'KO ! {a} l’emporte'**
+  String evKo(String a);
+
+  /// No description provided for @evTko.
+  ///
+  /// In fr, this message translates to:
+  /// **'Arrêt de l’arbitre ! {a} l’emporte'**
+  String evTko(String a);
+
+  /// No description provided for @evFinSoumission.
+  ///
+  /// In fr, this message translates to:
+  /// **'Soumission ! {a} l’emporte'**
+  String evFinSoumission(String a);
+
+  /// No description provided for @evDecision.
+  ///
+  /// In fr, this message translates to:
+  /// **'Décision des juges'**
+  String get evDecision;
+
+  /// No description provided for @methodKo.
+  ///
+  /// In fr, this message translates to:
+  /// **'KO'**
+  String get methodKo;
+
+  /// No description provided for @methodTko.
+  ///
+  /// In fr, this message translates to:
+  /// **'KO technique'**
+  String get methodTko;
+
+  /// No description provided for @methodSoumission.
+  ///
+  /// In fr, this message translates to:
+  /// **'Soumission'**
+  String get methodSoumission;
+
+  /// No description provided for @methodDecisionUnanime.
+  ///
+  /// In fr, this message translates to:
+  /// **'Décision unanime'**
+  String get methodDecisionUnanime;
+
+  /// No description provided for @methodDecisionPartagee.
+  ///
+  /// In fr, this message translates to:
+  /// **'Décision partagée'**
+  String get methodDecisionPartagee;
+
+  /// No description provided for @methodDecisionMajoritaire.
+  ///
+  /// In fr, this message translates to:
+  /// **'Décision majoritaire'**
+  String get methodDecisionMajoritaire;
+
+  /// No description provided for @methodNul.
+  ///
+  /// In fr, this message translates to:
+  /// **'Match nul'**
+  String get methodNul;
+
+  /// No description provided for @combatWin.
+  ///
+  /// In fr, this message translates to:
+  /// **'Victoire'**
+  String get combatWin;
+
+  /// No description provided for @combatLoss.
+  ///
+  /// In fr, this message translates to:
+  /// **'Défaite'**
+  String get combatLoss;
+
+  /// No description provided for @combatDraw.
+  ///
+  /// In fr, this message translates to:
+  /// **'Match nul'**
+  String get combatDraw;
+
+  /// No description provided for @combatResultLine.
+  ///
+  /// In fr, this message translates to:
+  /// **'{method} · round {r}'**
+  String combatResultLine(String method, int r);
+
+  /// No description provided for @combatJudges.
+  ///
+  /// In fr, this message translates to:
+  /// **'Cartes des juges'**
+  String get combatJudges;
+
+  /// No description provided for @combatJudge.
+  ///
+  /// In fr, this message translates to:
+  /// **'Juge {n}'**
+  String combatJudge(int n);
+
+  /// No description provided for @combatRematch.
+  ///
+  /// In fr, this message translates to:
+  /// **'Revanche'**
+  String get combatRematch;
+
+  /// No description provided for @combatBack.
+  ///
+  /// In fr, this message translates to:
+  /// **'Retour'**
+  String get combatBack;
+
+  /// No description provided for @subAttackTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Soumission !'**
+  String get subAttackTitle;
+
+  /// No description provided for @subAttackHint.
+  ///
+  /// In fr, this message translates to:
+  /// **'Touche quand le curseur passe dans la zone verte (3 fois)'**
+  String get subAttackHint;
+
+  /// No description provided for @subDefendTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Dégage-toi !'**
+  String get subDefendTitle;
+
+  /// No description provided for @subDefendHint.
+  ///
+  /// In fr, this message translates to:
+  /// **'Tape le plus vite possible'**
+  String get subDefendHint;
+
+  /// No description provided for @settingsTimer.
+  ///
+  /// In fr, this message translates to:
+  /// **'Minuteur de combat'**
+  String get settingsTimer;
+
+  /// No description provided for @settingsTimerSub.
+  ///
+  /// In fr, this message translates to:
+  /// **'15 s pour choisir chaque action, sinon Garde'**
+  String get settingsTimerSub;
 }
 
 class _AppLocalizationsDelegate

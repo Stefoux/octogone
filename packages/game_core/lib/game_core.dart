@@ -5,6 +5,7 @@ library;
 export 'src/cards/pack_odds.dart';
 export 'src/combat/actions.dart';
 export 'src/combat/ai.dart';
+export 'src/combat/driver.dart';
 export 'src/combat/engine.dart';
 export 'src/combat/fighter.dart';
 export 'src/combat/rng.dart';

@@ -1227,4 +1227,380 @@ class AppLocalizationsEn extends AppLocalizations {
   String boosterOddsTactic(int n) {
     return 'Extra Tactic card ($n per pack)';
   }
+
+  @override
+  String get combatQuick => 'Quick fight';
+
+  @override
+  String get combatQuickSub => 'One fight against the AI, set up your way';
+
+  @override
+  String get combatEvening => 'Fight night';
+
+  @override
+  String get combatEveningSub => '5 fights in a row';
+
+  @override
+  String get combatRoad => 'Road to the belt';
+
+  @override
+  String get combatRoadSub => 'Climb the rankings up to a title fight';
+
+  @override
+  String get combatScenarios => 'Scenarios';
+
+  @override
+  String get combatScenariosSub => 'Fights that start from a set situation';
+
+  @override
+  String get combatSoon => 'Soon';
+
+  @override
+  String get combatSetupTitle => 'Fight prep';
+
+  @override
+  String get combatYourFighter => 'Your fighter';
+
+  @override
+  String get combatPickFighter => 'Pick a fighter';
+
+  @override
+  String get combatNoFighter => 'Open packs to get fighters.';
+
+  @override
+  String get combatOpponent => 'Opponent';
+
+  @override
+  String get combatReroll => 'Another opponent';
+
+  @override
+  String get combatChooseOpponent => 'Choose the opponent';
+
+  @override
+  String get combatLevel => 'AI level';
+
+  @override
+  String get combatLevelFacile => 'Easy';
+
+  @override
+  String get combatLevelNormal => 'Normal';
+
+  @override
+  String get combatLevelDifficile => 'Hard';
+
+  @override
+  String get combatFormat => 'Format';
+
+  @override
+  String get combatFormatCourt => 'Short';
+
+  @override
+  String get combatFormatComplet => 'Full';
+
+  @override
+  String combatFormatDetail(int rounds, int n) {
+    return '$rounds rounds of $n exchanges';
+  }
+
+  @override
+  String get combatWeight => 'Weight class';
+
+  @override
+  String get combatSameClass => 'Same class';
+
+  @override
+  String get combatOpenWeight => 'Open weight';
+
+  @override
+  String get combatOpenWeightNote =>
+      'The lighter fighter takes more damage and wrestles worse.';
+
+  @override
+  String get combatControl => 'Controls';
+
+  @override
+  String get combatControlCards => 'Cards';
+
+  @override
+  String get combatControlWheel => 'Wheel';
+
+  @override
+  String get combatTactics => 'Tactic cards (up to 2)';
+
+  @override
+  String get combatNoTactics => 'No Tactic cards: you get one in every pack.';
+
+  @override
+  String get combatEnter => 'Enter the cage';
+
+  @override
+  String combatRound(int r) {
+    return 'Round $r';
+  }
+
+  @override
+  String combatExchange(int e, int n) {
+    return 'Exchange $e/$n';
+  }
+
+  @override
+  String get combatHealth => 'Health';
+
+  @override
+  String get combatStamina => 'Stamina';
+
+  @override
+  String get combatMomentum => 'Momentum';
+
+  @override
+  String get combatYourMove => 'Your move';
+
+  @override
+  String get combatSignatureReady => 'Signature move ready!';
+
+  @override
+  String get combatStanceDebout => 'Standing';
+
+  @override
+  String get combatStanceClinch => 'Clinch';
+
+  @override
+  String get combatStanceDessus => 'On top';
+
+  @override
+  String get combatStanceDessous => 'On the bottom';
+
+  @override
+  String get combatQuit => 'Give up';
+
+  @override
+  String get combatQuitConfirm => 'Give up this fight? It counts as a loss.';
+
+  @override
+  String get combatTimeUp => 'Time’s up: Guard';
+
+  @override
+  String get actFrappeRapide => 'Quick strike';
+
+  @override
+  String get actFrappePuissante => 'Power strike';
+
+  @override
+  String get actCoupDePied => 'Kick';
+
+  @override
+  String get actTakedown => 'Takedown';
+
+  @override
+  String get actClinch => 'Clinch';
+
+  @override
+  String get actGarde => 'Guard';
+
+  @override
+  String get actEsquive => 'Slip';
+
+  @override
+  String get actGroundAndPound => 'Ground and pound';
+
+  @override
+  String get actSoumission => 'Submission';
+
+  @override
+  String get actSeRelever => 'Get up';
+
+  @override
+  String get actSeDegager => 'Break away';
+
+  @override
+  String get actControle => 'Control';
+
+  @override
+  String get actSignature => 'Signature move';
+
+  @override
+  String evTouche(String a, String action, int n) {
+    return '$a lands: $action ($n)';
+  }
+
+  @override
+  String evBloque(String b, String action) {
+    return '$b blocks: $action';
+  }
+
+  @override
+  String evBloqueTouche(String b, int n) {
+    return '$b blocks but takes $n';
+  }
+
+  @override
+  String evRate(String a, String action) {
+    return '$a misses: $action';
+  }
+
+  @override
+  String evEsquive(String a) {
+    return '$a slips it!';
+  }
+
+  @override
+  String evContre(String a, int n) {
+    return '$a counters! ($n)';
+  }
+
+  @override
+  String evKnockdown(String a, String b) {
+    return '$a drops $b!';
+  }
+
+  @override
+  String evTakedown(String a) {
+    return 'Takedown by $a!';
+  }
+
+  @override
+  String evTakedownRate(String a) {
+    return '$a misses the takedown';
+  }
+
+  @override
+  String evClinch(String a) {
+    return '$a ties up in the clinch';
+  }
+
+  @override
+  String evSepare(String a) {
+    return '$a breaks away';
+  }
+
+  @override
+  String evReleve(String a) {
+    return '$a gets back up';
+  }
+
+  @override
+  String evControle(String a) {
+    return '$a controls on the ground';
+  }
+
+  @override
+  String evSoumissionTentee(String a) {
+    return '$a goes for a submission!';
+  }
+
+  @override
+  String evSoumissionEchappee(String a) {
+    return '$a escapes!';
+  }
+
+  @override
+  String evSoumissionReussie(String b) {
+    return '$b taps out!';
+  }
+
+  @override
+  String evSignature(String a) {
+    return '$a’s signature move!';
+  }
+
+  @override
+  String evFatigue(String a) {
+    return '$a is tiring';
+  }
+
+  @override
+  String evTactique(String a, String tactic) {
+    return '$a plays $tactic';
+  }
+
+  @override
+  String evFinRound(int n) {
+    return 'End of round $n';
+  }
+
+  @override
+  String evKo(String a) {
+    return 'KO! $a wins';
+  }
+
+  @override
+  String evTko(String a) {
+    return 'Referee stoppage! $a wins';
+  }
+
+  @override
+  String evFinSoumission(String a) {
+    return 'Submission! $a wins';
+  }
+
+  @override
+  String get evDecision => 'Judges’ decision';
+
+  @override
+  String get methodKo => 'KO';
+
+  @override
+  String get methodTko => 'TKO';
+
+  @override
+  String get methodSoumission => 'Submission';
+
+  @override
+  String get methodDecisionUnanime => 'Unanimous decision';
+
+  @override
+  String get methodDecisionPartagee => 'Split decision';
+
+  @override
+  String get methodDecisionMajoritaire => 'Majority decision';
+
+  @override
+  String get methodNul => 'Draw';
+
+  @override
+  String get combatWin => 'Victory';
+
+  @override
+  String get combatLoss => 'Defeat';
+
+  @override
+  String get combatDraw => 'Draw';
+
+  @override
+  String combatResultLine(String method, int r) {
+    return '$method · round $r';
+  }
+
+  @override
+  String get combatJudges => 'Judges’ scorecards';
+
+  @override
+  String combatJudge(int n) {
+    return 'Judge $n';
+  }
+
+  @override
+  String get combatRematch => 'Rematch';
+
+  @override
+  String get combatBack => 'Back';
+
+  @override
+  String get subAttackTitle => 'Submission!';
+
+  @override
+  String get subAttackHint =>
+      'Tap when the cursor is in the green zone (3 times)';
+
+  @override
+  String get subDefendTitle => 'Escape!';
+
+  @override
+  String get subDefendHint => 'Tap as fast as you can';
+
+  @override
+  String get settingsTimer => 'Fight timer';
+
+  @override
+  String get settingsTimerSub => '15 s to choose each action, otherwise Guard';
 }

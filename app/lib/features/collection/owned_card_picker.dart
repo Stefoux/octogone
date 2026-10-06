@@ -17,20 +17,24 @@ Future<OwnedCard?> pickOwnedCard(
   BuildContext context, {
   required String title,
   Set<String> exclude = const {},
+  bool Function(CardView view)? where,
 }) {
   return showModalBottomSheet<OwnedCard>(
     context: context,
     showDragHandle: true,
     isScrollControlled: true,
     constraints: BoxConstraints(maxHeight: MediaQuery.sizeOf(context).height * 0.88),
-    builder: (_) => _Picker(title: title, exclude: exclude),
+    builder: (_) => _Picker(title: title, exclude: exclude, where: where),
   );
 }
 
 class _Picker extends ConsumerStatefulWidget {
-  const _Picker({required this.title, required this.exclude});
+  const _Picker({required this.title, required this.exclude, this.where});
   final String title;
   final Set<String> exclude;
+
+  /// Filtre (ex. combat : cartes d'un seul combattant).
+  final bool Function(CardView view)? where;
 
   @override
   ConsumerState<_Picker> createState() => _PickerState();
@@ -48,6 +52,7 @@ class _PickerState extends ConsumerState<_Picker> {
       for (final o in owned)
         if (!widget.exclude.contains(o.id)) ?buildCardView(ref, cardId: o.cardId, owned: o),
     ]
+        .where((v) => widget.where?.call(v) ?? true)
         .where((v) => q.isEmpty || v.fighters.any((f) => f.nom.toLowerCase().contains(q)) ||
             (v.card?.nomImprime.toLowerCase().contains(q) ?? false))
         .sorted((a, b) {
