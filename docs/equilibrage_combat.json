@@ -1,0 +1,119 @@
+{
+  "combats": 10000,
+  "fins": {
+    "decisionUnanime": 5378,
+    "soumission": 1525,
+    "tko": 127,
+    "ko": 2287,
+    "nul": 218,
+    "decisionMajoritaire": 174,
+    "decisionPartagee": 291
+  },
+  "styles": {
+    "complet vs grappler": [
+      390,
+      792
+    ],
+    "complet vs frappeur": [
+      506,
+      1039
+    ],
+    "frappeur vs grappler": [
+      364,
+      706
+    ],
+    "grappler vs lutteur": [
+      56,
+      102
+    ],
+    "frappeur vs lutteur": [
+      102,
+      189
+    ],
+    "complet vs lutteur": [
+      94,
+      175
+    ]
+  },
+  "rarete": {
+    "3": [
+      614,
+      1034
+    ],
+    "4": [
+      278,
+      445
+    ],
+    "1": [
+      1584,
+      3039
+    ],
+    "2": [
+      928,
+      1759
+    ],
+    "5": [
+      57,
+      95
+    ]
+  },
+  "note": {
+    "10": [
+      683,
+      1004
+    ],
+    "0": [
+      2651,
+      4780
+    ],
+    "5": [
+      1874,
+      3036
+    ],
+    "15": [
+      146,
+      216
+    ],
+    "20": [
+      24,
+      30
+    ]
+  },
+  "echanges_moyens": 9.7588,
+  "niveaux_ia": {
+    "normal contre facile": [
+      728,
+      1229
+    ],
+    "difficile contre normal": [
+      665,
+      1226
+    ],
+    "difficile contre facile": [
+      758,
+      1236
+    ]
+  },
+  "rarete_seule": {
+    "1": [
+      1210,
+      2215
+    ],
+    "2": [
+      719,
+      1248
+    ],
+    "4": [
+      286,
+      434
+    ],
+    "3": [
+      455,
+      773
+    ],
+    "5": [
+      123,
+      188
+    ]
+  }
+}

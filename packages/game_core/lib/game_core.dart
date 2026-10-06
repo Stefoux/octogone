@@ -3,6 +3,12 @@
 library;
 
 export 'src/cards/pack_odds.dart';
+export 'src/combat/actions.dart';
+export 'src/combat/ai.dart';
+export 'src/combat/engine.dart';
+export 'src/combat/fighter.dart';
+export 'src/combat/rng.dart';
+export 'src/combat/tactics.dart';
 export 'src/cards/rarity.dart';
 export 'src/model/fighter_record.dart';
 export 'src/model/weight_class.dart';
