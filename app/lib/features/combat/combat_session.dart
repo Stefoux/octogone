@@ -146,6 +146,8 @@ class CombatSetup {
     this.timer = false,
     this.modeLabel,
     this.allowRematch = true,
+    this.mode = 'rapide',
+    this.combatId,
   });
 
   final Contender player;
@@ -165,6 +167,30 @@ class CombatSetup {
   /// Revanche proposée à la fin (combat rapide) ; sinon « Continuer » rend le résultat au mode.
   final bool allowRematch;
 
+  /// Mode côté serveur : rapide, soiree, route, rivalite.
+  final String mode;
+
+  /// Combat enregistré par le serveur (graine tirée par lui) ; null hors ligne.
+  final String? combatId;
+
+  /// Même combat avec la graine et l'identifiant donnés par le serveur.
+  CombatSetup withServer({required String id, required int seed}) => CombatSetup(
+    player: player,
+    opponent: opponent,
+    level: level,
+    format: format,
+    seed: seed,
+    openWeight: openWeight,
+    titleFight: titleFight,
+    tactics: tactics,
+    control: control,
+    timer: timer,
+    modeLabel: modeLabel,
+    allowRematch: allowRematch,
+    mode: mode,
+    combatId: id,
+  );
+
   CombatConfig get config => CombatConfig(seed: seed, format: format, titleFight: titleFight, openWeight: openWeight);
 
   /// Même combat, nouvelle graine (revanche).
@@ -181,6 +207,7 @@ class CombatSetup {
     timer: timer,
     modeLabel: modeLabel,
     allowRematch: allowRematch,
+    mode: mode,
   );
 
   static int newSeed() => math.Random.secure().nextInt(1 << 32);
@@ -213,19 +240,23 @@ Fighter? randomOpponent(List<Fighter> pool, Fighter player, math.Random rng) {
 /// Déroulé d'un combat dans l'app : moteur + IA (game_core), journal des
 /// événements pour l'affichage.
 class CombatController extends ChangeNotifier {
-  CombatController(this.setup, {HabitProfile? habits})
-    : driver = CombatDriver(
-        setup.config,
-        setup.player.toCombat(),
-        setup.opponent.toCombat(),
-        level: setup.level,
-        habits: habits,
-      ) {
+  CombatController(this.setup, {HabitProfile? habits}) : habitsSnapshot = habits?.toJson() {
+    // L'IA joue avec exactement les habitudes envoyées au serveur (JSON)
+    driver = CombatDriver(
+      setup.config,
+      setup.player.toCombat(),
+      setup.opponent.toCombat(),
+      level: setup.level,
+      habits: habitsSnapshot == null ? null : HabitProfile.fromJson(habitsSnapshot),
+    );
     _absorb();
   }
 
   final CombatSetup setup;
-  final CombatDriver driver;
+  late final CombatDriver driver;
+
+  /// Habitudes du joueur au début du combat (jointes au journal envoyé au serveur).
+  final Map<String, dynamic>? habitsSnapshot;
 
   /// Tous les événements depuis le début.
   final List<CombatEvent> feed = [];

@@ -10,6 +10,7 @@ Jeu mobile de cartes de combattants (collection, boosters, combat tactique), Flu
 - Ne jamais committer : `.env`, `.env.test.local`, `app/config/*.json`, `app/android/key.properties`, `*.jks`. Le secret GitHub `APP_CONFIG_JSON` ne contient que l'URL et la clé publique.
 - Ne pas créer de compte sur le projet Supabase cloud. Les comptes de test vivent sur le Supabase local (`.env.test.local`).
 - Toute la logique sensible est côté serveur, dans des fonctions Postgres en transaction : ouverture de booster, numérotation, vitrine, etc. L'app n'écrit jamais directement dans les tables de jeu.
+- Combats : le serveur tire la graine (`commencer_combat`) ; à la fin, l'Edge Function `valider-combat` rejoue le journal avec game_core compilé en JavaScript et crédite la récompense (`_terminer_combat`, service uniquement). Après toute modification des règles de combat : `scripts/build_game_core_js.sh` (régénère `supabase/functions/valider-combat/game_core.js`), le test de parité `packages/game_core/test/js_parity_test.dart`, puis `supabase functions deploy valider-combat` au moment de la release.
 - L'app suit la langue du téléphone (FR / EN, repli FR). Chaque texte passe par `app/lib/l10n/app_fr.arb` et `app_en.arb`.
 
 ## Données
@@ -28,6 +29,8 @@ Jeu mobile de cartes de combattants (collection, boosters, combat tactique), Flu
 cd app && flutter analyze && flutter test            # app
 cd packages/game_core && dart test                   # règles partagées (stats, raretés, probabilités)
 supabase test db                                     # pgTAP (Supabase local dans Docker)
+scripts/build_game_core_js.sh                        # règles de combat -> JS pour l'Edge Function
+supabase functions serve                             # Edge Functions en local (valider-combat)
 cd data/scripts && .venv/bin/python -m unittest test_scripts
 ```
 

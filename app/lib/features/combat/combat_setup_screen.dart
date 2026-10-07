@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:math' as math;
 
 import 'package:collection/collection.dart';
@@ -12,6 +13,7 @@ import '../../data/repositories/content_providers.dart';
 import '../../domain/models.dart';
 import '../cards/trading_card.dart';
 import '../collection/owned_card_picker.dart';
+import 'combat_service.dart';
 import 'combat_session.dart';
 import 'combat_widgets.dart';
 
@@ -169,7 +171,7 @@ class _CombatSetupScreenState extends ConsumerState<CombatSetupScreen> {
                   ),
                   onPressed: opponent == null
                       ? null
-                      : () {
+                      : () async {
                           final setup = CombatSetup(
                             player: Contender(
                               fighter: mine.fighter!,
@@ -190,7 +192,8 @@ class _CombatSetupScreenState extends ConsumerState<CombatSetupScreen> {
                             timer: prefs.timer,
                             seed: CombatSetup.newSeed(),
                           );
-                          context.push('/arene', extra: setup);
+                          final ready = await ref.read(combatServiceProvider).prepare(setup);
+                          if (context.mounted) unawaited(context.push('/arene', extra: ready));
                         },
                 ),
               ],

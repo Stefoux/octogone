@@ -881,5 +881,13 @@
   "rivalryEmpty": "Aucune rivalité disponible.",
   "rivalryLabel": "Rivalité",
   "rivalryWonWith": "Gagnée avec {name}",
-  "@rivalryWonWith": {"placeholders": {"name": {"type": "String"}}}
+  "@rivalryWonWith": {"placeholders": {"name": {"type": "String"}}},
+  "rewardCoins": "+{n} pièces",
+  "@rewardCoins": {"placeholders": {"n": {"type": "int"}}},
+  "rewardCapped": "Plafond de pièces du jour atteint",
+  "rewardPending": "Récompense en attente : envoi dès le retour du réseau",
+  "rewardOffline": "Combat hors ligne : sans récompense",
+  "rewardRefused": "Combat non validé par le serveur",
+  "rewardChecking": "Vérification du combat…",
+  "combatHistory": "Derniers combats"
 }

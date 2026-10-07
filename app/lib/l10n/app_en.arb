@@ -509,5 +509,12 @@
   "rivalryDraw": "Draw",
   "rivalryEmpty": "No rivalry available.",
   "rivalryLabel": "Rivalry",
-  "rivalryWonWith": "Won as {name}"
+  "rivalryWonWith": "Won as {name}",
+  "rewardCoins": "+{n} coins",
+  "rewardCapped": "Daily coin cap reached",
+  "rewardPending": "Reward pending: sent when you're back online",
+  "rewardOffline": "Offline fight: no reward",
+  "rewardRefused": "Fight not validated by the server",
+  "rewardChecking": "Checking the fight…",
+  "combatHistory": "Recent fights"
 }

@@ -8,6 +8,7 @@ export 'src/combat/ai.dart';
 export 'src/combat/driver.dart';
 export 'src/combat/engine.dart';
 export 'src/combat/fighter.dart';
+export 'src/combat/replay_api.dart';
 export 'src/combat/rng.dart';
 export 'src/combat/tactics.dart';
 export 'src/cards/rarity.dart';

@@ -14,6 +14,7 @@ import '../../core/theme.dart';
 import '../../widgets/fighter_widgets.dart';
 import '../cards/tactic_style.dart';
 import 'combat_modes.dart';
+import 'combat_service.dart';
 import 'combat_session.dart';
 import 'combat_text.dart';
 import 'submission_game.dart';
@@ -56,6 +57,9 @@ class _CombatArenaScreenState extends ConsumerState<CombatArenaScreen> {
   Timer? _timer;
   int _left = kCombatTimerSeconds;
   bool _showResult = false;
+
+  /// Récompense validée par le serveur (null pendant l'envoi).
+  CombatReward? _reward;
 
   @override
   void initState() {
@@ -169,6 +173,8 @@ class _CombatArenaScreenState extends ConsumerState<CombatArenaScreen> {
     if (ok == true && mounted) {
       _timer?.cancel();
       c.giveUp();
+      final id = widget.setup.combatId;
+      if (id != null) unawaited(ref.read(combatServiceProvider).abandon(id));
       setState(() => _showResult = true);
     }
   }
@@ -177,8 +183,18 @@ class _CombatArenaScreenState extends ConsumerState<CombatArenaScreen> {
     _timer?.cancel();
     final c = _c!;
     if (widget.setup.level == AiLevel.difficile) unawaited(HabitStore.save(c.driver.ai.habits));
+    unawaited(
+      ref.read(combatServiceProvider).finish(widget.setup, c).then((r) {
+        if (mounted) setState(() => _reward = r);
+      }),
+    );
     await _pause(2.5);
     if (mounted) setState(() => _showResult = true);
+  }
+
+  Future<void> _rematch() async {
+    final next = await ref.read(combatServiceProvider).prepare(widget.setup.rematch());
+    if (mounted) context.pushReplacement('/arene', extra: next);
   }
 
   Future<void> _pause(double beats) =>
@@ -319,9 +335,9 @@ class _CombatArenaScreenState extends ConsumerState<CombatArenaScreen> {
                   Positioned.fill(
                     child: _ResultPanel(
                       c: c,
-                      onRematch: widget.setup.allowRematch
-                          ? () => context.pushReplacement('/arene', extra: widget.setup.rematch())
-                          : null,
+                      reward: c.gaveUp ? null : _reward,
+                      sending: !c.gaveUp && _reward == null,
+                      onRematch: widget.setup.allowRematch ? _rematch : null,
                       onBack: () => context.pop(_outcome),
                     ),
                   ),
@@ -934,8 +950,16 @@ class _ActionWheel extends StatelessWidget {
 // -----------------------------------------------------------------------------
 
 class _ResultPanel extends StatelessWidget {
-  const _ResultPanel({required this.c, required this.onRematch, required this.onBack});
+  const _ResultPanel({
+    required this.c,
+    required this.onRematch,
+    required this.onBack,
+    this.reward,
+    this.sending = false,
+  });
   final CombatController c;
+  final CombatReward? reward;
+  final bool sending;
 
   /// Revanche (combat rapide) ; null dans un mode, où « Continuer » rend le résultat.
   final VoidCallback? onRematch;
@@ -979,6 +1003,8 @@ class _ResultPanel extends StatelessWidget {
               textAlign: TextAlign.center,
               style: const TextStyle(color: AppColors.textMuted),
             ),
+            const SizedBox(height: 14),
+            _RewardLine(reward: reward, sending: sending),
             if (r != null && r.scorecards.isNotEmpty && r.scorecards.first.isNotEmpty) ...[
               const SizedBox(height: 24),
               Text(
@@ -1064,6 +1090,59 @@ class _Scorecards extends StatelessWidget {
             ],
           ),
       ],
+    );
+  }
+}
+
+/// Récompense du combat (pièces) ou état de la vérification serveur.
+class _RewardLine extends StatelessWidget {
+  const _RewardLine({required this.reward, required this.sending});
+  final CombatReward? reward;
+  final bool sending;
+
+  @override
+  Widget build(BuildContext context) {
+    final l = context.l10n;
+    final r = reward;
+    if (r == null) {
+      if (!sending) return const SizedBox.shrink();
+      return Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          const SizedBox(width: 14, height: 14, child: CircularProgressIndicator(strokeWidth: 2)),
+          const SizedBox(width: 8),
+          Text(l.rewardChecking, style: const TextStyle(color: AppColors.textMuted)),
+        ],
+      );
+    }
+    if (r.status == 'valide') {
+      return Column(
+        key: const Key('combat-reward'),
+        children: [
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              const Icon(Icons.toll, color: AppColors.gold),
+              const SizedBox(width: 6),
+              Text(
+                l.rewardCoins(r.coins),
+                style: const TextStyle(fontFamily: kDisplayFont, fontSize: 24, color: AppColors.gold),
+              ),
+            ],
+          ).animate().scaleXY(begin: 0.6, end: 1, curve: Curves.easeOutBack, duration: 400.ms),
+          if (r.capped) Text(l.rewardCapped, style: const TextStyle(fontSize: 12, color: AppColors.textMuted)),
+        ],
+      );
+    }
+    final text = switch (r.status) {
+      'attente' => l.rewardPending,
+      'horsligne' => l.rewardOffline,
+      _ => l.rewardRefused,
+    };
+    return Text(
+      text,
+      textAlign: TextAlign.center,
+      style: const TextStyle(color: AppColors.textMuted),
     );
   }
 }

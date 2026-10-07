@@ -11,6 +11,7 @@ import '../../domain/models.dart';
 import '../../widgets/fighter_widgets.dart';
 import '../cards/card_view.dart';
 import 'combat_modes.dart';
+import 'combat_service.dart';
 import 'combat_session.dart';
 import 'combat_widgets.dart';
 
@@ -115,8 +116,11 @@ class RivalriesScreen extends ConsumerWidget {
       seed: CombatSetup.newSeed(),
       modeLabel: context.l10n.rivalryLabel,
       allowRematch: false,
+      mode: 'rivalite',
     );
-    final outcome = await context.push<CombatOutcome>('/arene', extra: setup);
+    final ready = await ref.read(combatServiceProvider).prepare(setup);
+    if (!context.mounted) return;
+    final outcome = await context.push<CombatOutcome>('/arene', extra: ready);
     if (outcome?.won == true) await ref.read(rivalryProgressProvider.notifier).won(r.id, side);
   }
 }

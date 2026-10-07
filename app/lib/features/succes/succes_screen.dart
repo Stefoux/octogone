@@ -21,6 +21,10 @@ IconData _icon(String type) => switch (type) {
       'doublons_recycles' => Icons.recycling,
       'cartes_fabriquees' => Icons.construction,
       'defis_recuperes' => Icons.flag_outlined,
+      'combats_gagnes' => Icons.sports_mma,
+      'combats_ko' => Icons.flash_on,
+      'combats_soumission' => Icons.link,
+      'combats_difficile' => Icons.psychology_outlined,
       _ => Icons.emoji_events_outlined,
     };
 

@@ -18,6 +18,7 @@ import '../cards/card_view.dart';
 import '../cards/trading_card.dart';
 import '../collection/owned_card_picker.dart';
 import 'combat_modes.dart';
+import 'combat_service.dart';
 import 'combat_session.dart';
 import 'combat_widgets.dart';
 
@@ -72,8 +73,11 @@ class _RouteScreenState extends ConsumerState<RouteScreen> {
       seed: CombatSetup.newSeed(),
       modeLabel: l.routeLabel(step + 1),
       allowRematch: false,
+      mode: 'route',
     );
-    final outcome = await context.push<CombatOutcome>('/arene', extra: setup);
+    final ready = await ref.read(combatServiceProvider).prepare(setup);
+    if (!mounted) return;
+    final outcome = await context.push<CombatOutcome>('/arene', extra: ready);
     if (outcome == null || !mounted) return;
     final next = r.after(outcome);
     await _save(next);

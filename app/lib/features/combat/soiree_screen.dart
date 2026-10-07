@@ -14,6 +14,7 @@ import '../cards/card_view.dart';
 import '../cards/trading_card.dart';
 import '../collection/owned_card_picker.dart';
 import 'combat_modes.dart';
+import 'combat_service.dart';
 import 'combat_session.dart';
 import 'combat_text.dart';
 import 'combat_widgets.dart';
@@ -97,8 +98,11 @@ class _SoireeScreenState extends ConsumerState<SoireeScreen> {
       seed: CombatSetup.newSeed(),
       modeLabel: context.l10n.soireeLabel(i + 1),
       allowRematch: false,
+      mode: 'soiree',
     );
-    final outcome = await context.push<CombatOutcome>('/arene', extra: setup);
+    final ready = await ref.read(combatServiceProvider).prepare(setup);
+    if (!mounted) return;
+    final outcome = await context.push<CombatOutcome>('/arene', extra: ready);
     if (outcome == null || !mounted) return;
     await _save(s.record(outcome));
   }

@@ -1737,4 +1737,27 @@ class AppLocalizationsEn extends AppLocalizations {
   String rivalryWonWith(String name) {
     return 'Won as $name';
   }
+
+  @override
+  String rewardCoins(int n) {
+    return '+$n coins';
+  }
+
+  @override
+  String get rewardCapped => 'Daily coin cap reached';
+
+  @override
+  String get rewardPending => 'Reward pending: sent when you\'re back online';
+
+  @override
+  String get rewardOffline => 'Offline fight: no reward';
+
+  @override
+  String get rewardRefused => 'Fight not validated by the server';
+
+  @override
+  String get rewardChecking => 'Checking the fight…';
+
+  @override
+  String get combatHistory => 'Recent fights';
 }

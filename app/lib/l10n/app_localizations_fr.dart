@@ -1748,4 +1748,28 @@ class AppLocalizationsFr extends AppLocalizations {
   String rivalryWonWith(String name) {
     return 'Gagnée avec $name';
   }
+
+  @override
+  String rewardCoins(int n) {
+    return '+$n pièces';
+  }
+
+  @override
+  String get rewardCapped => 'Plafond de pièces du jour atteint';
+
+  @override
+  String get rewardPending =>
+      'Récompense en attente : envoi dès le retour du réseau';
+
+  @override
+  String get rewardOffline => 'Combat hors ligne : sans récompense';
+
+  @override
+  String get rewardRefused => 'Combat non validé par le serveur';
+
+  @override
+  String get rewardChecking => 'Vérification du combat…';
+
+  @override
+  String get combatHistory => 'Derniers combats';
 }

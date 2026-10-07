@@ -119,7 +119,7 @@
         "fr": "Gagner 2 combats",
         "en": "Win 2 fights"
       },
-      "actif": false
+      "actif": true
     },
     {
       "id": "semaine-boosters-12",
@@ -215,7 +215,7 @@
         "fr": "Gagner 10 combats",
         "en": "Win 10 fights"
       },
-      "actif": false
+      "actif": true
     }
   ]
 }

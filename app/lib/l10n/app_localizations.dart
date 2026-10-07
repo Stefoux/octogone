@@ -3073,6 +3073,48 @@ abstract class AppLocalizations {
   /// In fr, this message translates to:
   /// **'Gagnée avec {name}'**
   String rivalryWonWith(String name);
+
+  /// No description provided for @rewardCoins.
+  ///
+  /// In fr, this message translates to:
+  /// **'+{n} pièces'**
+  String rewardCoins(int n);
+
+  /// No description provided for @rewardCapped.
+  ///
+  /// In fr, this message translates to:
+  /// **'Plafond de pièces du jour atteint'**
+  String get rewardCapped;
+
+  /// No description provided for @rewardPending.
+  ///
+  /// In fr, this message translates to:
+  /// **'Récompense en attente : envoi dès le retour du réseau'**
+  String get rewardPending;
+
+  /// No description provided for @rewardOffline.
+  ///
+  /// In fr, this message translates to:
+  /// **'Combat hors ligne : sans récompense'**
+  String get rewardOffline;
+
+  /// No description provided for @rewardRefused.
+  ///
+  /// In fr, this message translates to:
+  /// **'Combat non validé par le serveur'**
+  String get rewardRefused;
+
+  /// No description provided for @rewardChecking.
+  ///
+  /// In fr, this message translates to:
+  /// **'Vérification du combat…'**
+  String get rewardChecking;
+
+  /// No description provided for @combatHistory.
+  ///
+  /// In fr, this message translates to:
+  /// **'Derniers combats'**
+  String get combatHistory;
 }
 
 class _AppLocalizationsDelegate

@@ -20,6 +20,7 @@ import 'package:octogone/features/boosters/opening_screen.dart';
 import 'package:octogone/features/cards/card_back.dart';
 import 'package:octogone/features/combat/combat_arena_screen.dart';
 import 'package:octogone/features/combat/combat_modes.dart';
+import 'package:octogone/features/combat/combat_service.dart';
 import 'package:octogone/features/combat/rivalries_screen.dart';
 import 'package:octogone/features/combat/route_screen.dart';
 import 'package:octogone/features/combat/soiree_screen.dart';
@@ -1119,13 +1120,26 @@ void main() {
 
   testWidgets('Combat : les modes de jeu, le combat rapide est ouvert', (tester) async {
     _phoneScreen(tester);
-    await tester.pumpWidget(_wrap(const CombatScreen(), locale: const Locale('fr')));
+    final rival = _fighter('jiri-prochazka', 'Jiri Prochazka');
+    await tester.pumpWidget(
+      _wrap(
+        const CombatScreen(),
+        overrides: [
+          ..._overrides(fighters: [..._fighters, rival]),
+          combatServiceProvider.overrideWithValue(_FakeCombats()),
+        ],
+        locale: const Locale('fr'),
+      ),
+    );
     await tester.pump(const Duration(seconds: 1));
     expect(find.text('COMBAT RAPIDE'), findsOneWidget);
     expect(find.text('ROUTE VERS LA CEINTURE'), findsOneWidget);
     expect(find.text('SOIRÉE'), findsOneWidget);
     expect(find.text('SCÉNARIOS'), findsOneWidget);
     expect(find.text('Bientôt'), findsNothing);
+    await tester.scrollUntilVisible(find.text('DERNIERS COMBATS'), 200);
+    expect(find.text('Jiri Prochazka'), findsOneWidget);
+    expect(find.text('Combat rapide · KO'), findsOneWidget);
     await tester.pumpWidget(const SizedBox());
   });
 
@@ -1155,13 +1169,24 @@ void main() {
         tactics: const [TacticCard(TacticKind.secondSouffle, Rarity.commune, ownedId: 't1')],
       );
 
-  List<Override> arenaOverrides() => [..._overrides(), soundFxProvider.overrideWithValue(SoundFx(enabled: false))];
+  List<Override> arenaOverrides({_FakeCombats? combats}) => [
+    ..._overrides(),
+    soundFxProvider.overrideWithValue(SoundFx(enabled: false)),
+    combatServiceProvider.overrideWithValue(combats ?? _FakeCombats()),
+  ];
 
   testWidgets('Arène : un combat complet, mini-jeux compris, jusqu’au résultat', (tester) async {
     SharedPreferences.setMockInitialValues({});
     _phoneScreen(tester);
     combatBeat = const Duration(milliseconds: 1);
-    await tester.pumpWidget(_wrap(CombatArenaScreen(setup: arenaSetup()), overrides: arenaOverrides(), locale: const Locale('fr')));
+    final combats = _FakeCombats();
+    await tester.pumpWidget(
+      _wrap(
+        CombatArenaScreen(setup: arenaSetup().withServer(id: 'combat-1', seed: 42)),
+        overrides: arenaOverrides(combats: combats),
+        locale: const Locale('fr'),
+      ),
+    );
     await _frames(tester);
     expect(find.text('ROUND 1'), findsOneWidget);
     expect(find.text('ALEX PEREIRA'), findsOneWidget);
@@ -1194,6 +1219,10 @@ void main() {
     expect(find.textContaining(RegExp(r'^(VICTOIRE|DÉFAITE|MATCH NUL)$')), findsOneWidget);
     expect(find.byKey(const Key('combat-rematch')), findsOneWidget);
     expect(minigames, greaterThanOrEqualTo(0));
+    // Journal envoyé au serveur avec les habitudes et les cartes Tactique ; récompense affichée
+    await _frames(tester);
+    expect(combats.finished, ['combat-1']);
+    expect(find.text('+50 pièces'), findsOneWidget);
     await tester.pumpWidget(const SizedBox());
     await tester.pump(const Duration(seconds: 5));
   });
@@ -1381,4 +1410,38 @@ void main() {
     expect(playB.onPressed, isNull);
     await tester.pumpWidget(const SizedBox());
   });
+}
+
+/// Serveur de combats factice : graine fixe, récompense de 50 pièces, historique.
+class _FakeCombats extends CombatService {
+  final finished = <String>[];
+
+  @override
+  Future<({String id, int seed})?> start(CombatSetup setup) async => (id: 'combat-x', seed: 7);
+
+  @override
+  Future<CombatReward> finish(CombatSetup setup, CombatController c) async {
+    finished.add(setup.combatId!);
+    expect(c.engine.log, isNotEmpty);
+    return const CombatReward(status: 'valide', coins: 50);
+  }
+
+  @override
+  Future<void> abandon(String id) async {}
+
+  @override
+  Future<void> flush() async {}
+
+  @override
+  Future<List<CombatRecord>> history({int limit = 10}) async => [
+    CombatRecord({
+      'cree_le': '2026-10-07T10:00:00Z',
+      'mode': 'rapide',
+      'adversaire': 'jiri-prochazka',
+      'statut': 'valide',
+      'vainqueur': 0,
+      'methode': 'ko',
+      'pieces': 75,
+    }),
+  ];
 }

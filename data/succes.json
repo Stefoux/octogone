@@ -1,5 +1,5 @@
 {
-  "_doc": "Succès permanents (importés dans succes_modeles). La progression est calculée par le serveur à partir des données du joueur : boosters_ouverts, cartes_distinctes, legendaires, mythiques, series_completes (toutes les cartes d'une série, toute variante), vitrine (emplacements remplis), doublons_recycles, cartes_fabriquees, defis_recuperes. Récompense en pièces, à récupérer une fois.",
+  "_doc": "Succès permanents (importés dans succes_modeles). La progression est calculée par le serveur à partir des données du joueur : boosters_ouverts, cartes_distinctes, legendaires, mythiques, series_completes (toutes les cartes d'une série, toute variante), vitrine (emplacements remplis), doublons_recycles, cartes_fabriquees, defis_recuperes, combats_gagnes (combats validés par le serveur), combats_ko (KO et KO technique), combats_soumission, combats_difficile (victoires contre l'IA difficile). Récompense en pièces, à récupérer une fois.",
   "succes": [
     {
       "id": "boosters-10",
@@ -187,6 +187,72 @@
         "en": "Complete 50 challenges"
       },
       "ordre": 81
+    },
+    {
+      "id": "combats-1",
+      "type": "combats_gagnes",
+      "objectif": 1,
+      "pieces": 50,
+      "libelle": {
+        "fr": "Gagner un premier combat",
+        "en": "Win a first fight"
+      },
+      "ordre": 90
+    },
+    {
+      "id": "combats-10",
+      "type": "combats_gagnes",
+      "objectif": 10,
+      "pieces": 150,
+      "libelle": {
+        "fr": "Gagner 10 combats",
+        "en": "Win 10 fights"
+      },
+      "ordre": 91
+    },
+    {
+      "id": "combats-50",
+      "type": "combats_gagnes",
+      "objectif": 50,
+      "pieces": 500,
+      "libelle": {
+        "fr": "Gagner 50 combats",
+        "en": "Win 50 fights"
+      },
+      "ordre": 92
+    },
+    {
+      "id": "combats-ko-10",
+      "type": "combats_ko",
+      "objectif": 10,
+      "pieces": 200,
+      "libelle": {
+        "fr": "Gagner 10 combats par KO",
+        "en": "Win 10 fights by KO"
+      },
+      "ordre": 93
+    },
+    {
+      "id": "combats-soumission-10",
+      "type": "combats_soumission",
+      "objectif": 10,
+      "pieces": 200,
+      "libelle": {
+        "fr": "Gagner 10 combats par soumission",
+        "en": "Win 10 fights by submission"
+      },
+      "ordre": 94
+    },
+    {
+      "id": "combats-difficile-10",
+      "type": "combats_difficile",
+      "objectif": 10,
+      "pieces": 300,
+      "libelle": {
+        "fr": "Battre 10 fois l'IA difficile",
+        "en": "Beat the hard AI 10 times"
+      },
+      "ordre": 95
     }
   ]
 }
