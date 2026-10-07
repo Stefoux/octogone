@@ -7,7 +7,7 @@ Chaque phase se termine par : `flutter analyze` sans erreur, tests, build APK et
 | 1 | Fondations | Monorepo, schéma Supabase + RLS, auth email/pseudo, données réelles (252 combattants, 2024 Topps Chrome UFC, Saison 2026), pipeline d'images Commons, cache Drift | terminée (v0.1.1) |
 | 2 | Cartes et album | Recto/verso, familles de cadres, raretés et parallèles en shaders, inclinaison, classeur, vitrine, pack de bienvenue, FR/EN | terminée (v0.2.0) |
 | 3 | Boosters et économie | Ouverture serveur (fonction Postgres transactionnelle), numérotation globale, anti-malchance, animations, pièces, défis, fragments | terminée (v0.3.5) : boosters, sachets photo, ouverture au glissement, vitrine, fragments (recyclage, fabrication), défis, succès, boutique |
-| 4 | Combat contre l'IA | Moteur `game_core`, IA 3 niveaux, modes, hors ligne, équilibrage sur 10 000 combats | à faire |
+| 4 | Combat contre l'IA | Moteur `game_core`, IA 3 niveaux, modes, hors ligne, équilibrage sur 10 000 combats | terminée (v0.4.0) : moteur tactique déterministe, IA en 3 niveaux, cartes Tactique, arène (cartes ou roue), mini-jeux de soumission, Combat rapide, Soirée, Route vers la ceinture (classements officiels), Scénarios (rivalités réelles), vérification serveur par rejeu (Edge Function), récompenses, file hors ligne |
 | 5 | En ligne | Amis, combats temps réel arbitrés serveur, défis asynchrones, échanges atomiques | à faire |
 | 6 | Admin | Rôle en base, mode admin, panneau, import galerie, tests d'accès | à faire |
 | 7 | Contenu complet | 100+ combattants, 2e édition réelle, Moments Historiques (dont UFC Freedom 250), Célébrations, inserts originaux, saisons | à faire |

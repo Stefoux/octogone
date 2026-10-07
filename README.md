@@ -97,7 +97,14 @@ Tout se passe côté serveur et chaque mouvement de pièces ou de fragments est 
 - **Atelier** (`20261007000200_atelier.sql`) : `recycler(ids)` (garde au moins un exemplaire de chaque variante ; jamais les numérotées, copies admin, cartes protégées ou exposées), `fabriquer(carte, variante)` (pas les numérotées ni les variantes spéciales, éligibilité respectée), `proteger(id, bool)`. Barème dans `economy_config.fragments`.
 - **Défis** (`data/defis.json`) : `nb_defis_jour` et `nb_defis_semaine` dans `economy_config` (4 et 3), un par type, renouvelés à minuit et le lundi (heure de Paris). La progression est comptée par `_evenement(joueur, type, quantité)`, appelé par les fonctions serveur ; récompense avec `recuperer_defi`.
 - **Succès** (`data/succes.json`) : progression calculée depuis les données du joueur (`_valeur_succes`), récompense avec `recuperer_succes`.
-- Les récompenses passent par `_crediter(joueur, source, pièces, fragments)`. Les combats de la phase 4 s'y brancheront, avec `plafond_combat_jour`.
+- Les récompenses passent par `_crediter(joueur, source, pièces, fragments)`.
+
+## Combat
+
+- **Moteur** (`packages/game_core/lib/src/combat/`) : combat tactique au tour par tour, déterministe (graine xorshift32), IA en 3 niveaux, cartes Tactique ; réglages d'équilibrage en tête de `engine.dart`, rapport sur 10 000 combats avec `dart run bin/simulate_fights.dart ../../data/fighters 10000` (`docs/equilibrage_combat.json`).
+- **Vérification** : `commencer_combat` tire la graine côté serveur ; à la fin, l'Edge Function `valider-combat` rejoue le journal avec game_core compilé en JavaScript (`scripts/build_game_core_js.sh`) et `_terminer_combat` crédite la récompense : victoire 25 / 50 / 90 pièces selon l'IA, +50 % sur un finish, défaite 5, plafond quotidien `plafond_combat_jour`. Un journal truqué est refusé ; sans réseau, l'envoi est retenté plus tard.
+- **Modes** : Combat rapide, Soirée (5 de ses cartes), Route vers la ceinture (classements officiels ufc.com, `data/scripts/fetch_rankings.py`), Scénarios (rivalités réelles de `data/rivalries.json`).
+- **Cartes Tactique** : édition `data/editions/tactique.json`, 1 par booster, 3 cartes de départ par joueur.
 
 ## Versions
 
@@ -122,7 +129,7 @@ Limites d'un Apple ID gratuit : 3 apps installées de cette façon en même temp
 ## Tests
 
 ```bash
-cd packages/game_core && dart test        # formule des stats
+cd packages/game_core && dart test        # règles : stats, probabilités, combat, parité Dart / JavaScript
 cd app && flutter analyze && flutter test  # analyse + widget tests
 supabase start && supabase test db         # policies RLS, boosters (Supabase local dans Docker)
 cd data/scripts && .venv/bin/python -m unittest test_scripts  # scripts de données

@@ -3,6 +3,26 @@
 Chaque version publiée a sa release GitHub avec les APK Android (`scripts/release_android.sh`).
 Le texte d'une section sert de notes à la release correspondante.
 
+## 0.4.0
+
+Combat contre l'IA (phase 4)
+- Nouvel onglet Combat avec quatre modes : Combat rapide, Soirée (5 de tes cartes, le 5e combat en main event de 5 rounds), Route vers la ceinture (les vrais classés UFC de ta catégorie, du n°15 au champion ; une défaite et tu repars du début) et Scénarios (les vraies rivalités de la base à rejouer, avec le vrai bilan).
+- Combat tactique au tour par tour : à chaque échange, toi et l'IA choisissez une action en secret (frappes, coup de pied, takedown, clinch, garde, esquive, ground and pound, soumission, se relever, contrôle), puis révélation simultanée. Ta main de 4 cartes dépend du profil du combattant : un frappeur reçoit plus de coups, un lutteur plus de takedowns.
+- Choix avant le combat : niveau de l'IA (facile, normal, difficile, qui apprend tes habitudes), format court ou complet, même catégorie ou poids libre, commandes en cartes ou en roue.
+- Arène animée : face-à-face avec les photos de la rareté jouée, jauges de santé, d'endurance et de momentum, coups signature dès l'Épique, knockdowns, arrêts de l'arbitre, commentaires, sons de combat et vibrations. Minuteur de 15 s optionnel dans les Réglages.
+- Mini-jeux de soumission : viser la zone au bon moment pour attaquer, taper le plus vite possible pour se dégager.
+- Fin de combat : KO, KO technique, soumission ou décision des 3 juges, avec leurs cartes de pointage.
+- Équilibrage vérifié sur 10 000 combats simulés : environ 35 % de KO, 20 % de soumissions, 43 % de décisions ; aucun style ne domine, la rareté aide sans garantir la victoire.
+
+Cartes Tactique
+- Nouvelle famille de cartes : 8 bonus de combat (Second souffle, Coin du coach, Foule en délire, Mâchoire d'acier, Instinct de tueur, Sortie de crise, Plan de match, Pression totale), de Commune à Légendaire, plus forts selon la rareté. 2 au plus par combat, une fois chacune ; la carte reste dans ta collection.
+- Une carte Tactique en plus dans chaque booster (7 cartes en Standard, 11 en Premium), 3 cartes offertes à chaque joueur, fabricables à l'Atelier.
+
+Récompenses
+- Chaque combat est vérifié par le serveur avant d'être récompensé : victoire 25, 50 ou 90 pièces selon le niveau de l'IA, +50 % sur un KO ou une soumission, 5 pièces pour une défaite, dans la limite de 600 pièces par jour. Hors ligne, la récompense est envoyée au retour du réseau.
+- Défis « Gagner des combats » activés et 6 nouveaux succès de combat. Tes derniers combats sont listés dans l'onglet Combat.
+
+
 ## 0.3.6
 
 Combattants

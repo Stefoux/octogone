@@ -8,7 +8,7 @@ import '../auth/auth_providers.dart';
 import '../combat/combat_session.dart';
 
 /// Version affichée (à garder alignée sur app/pubspec.yaml).
-const appVersion = '0.3.6';
+const appVersion = '0.4.0';
 
 class SettingsScreen extends ConsumerWidget {
   const SettingsScreen({super.key});
