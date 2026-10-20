@@ -4116,5 +4116,20 @@
     "licence": "CC BY 2.0",
     "licence_url": "https://creativecommons.org/licenses/by/2.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Wanderlei_Cesar_Silva_(2006)_retusche.jpg"
+  },
+  "maurice-smith": {
+    "fichier": "fighters/maurice-smith.webp",
+    "largeur": 100,
+    "hauteur": 133,
+    "focal_x": 0.5,
+    "focal_y": 0.35,
+    "visage": null,
+    "recadrage": "centre_haut",
+    "fighter_id": "maurice-smith",
+    "titre": "File:Maurice Smith 1999.jpg",
+    "auteur": "Cys127",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Maurice_Smith_1999.jpg"
   }
 }
