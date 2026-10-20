@@ -14,12 +14,12 @@
   "style": "Gracie jiu-jitsu",
   "lieu_naissance": "Rio de Janeiro, Brésil",
   "palmares": {
-    "victoires": 8,
+    "victoires": 15,
     "defaites": 2,
     "nuls": 3,
     "sans_decision": 0,
     "victoires_ko": 2,
-    "victoires_soumission": 4,
+    "victoires_soumission": 11,
     "victoires_decision": 2,
     "defaites_ko": 2,
     "defaites_soumission": 0,
@@ -41,13 +41,13 @@
   },
   "ufc": {
     "palmares_tableau": {
-      "victoires": 8,
+      "victoires": 15,
       "defaites": 2,
       "nuls": 3,
       "sans_decision": 0,
       "v": {
         "ko": 2,
-        "soumission": 4,
+        "soumission": 11,
         "decision": 2,
         "autre": 0
       },
@@ -59,8 +59,8 @@
       }
     },
     "combats_ufc_par_annee": {
-      "1993": 1,
-      "1994": 3,
+      "1993": 3,
+      "1994": 8,
       "1995": 1,
       "2006": 1
     },
@@ -71,8 +71,8 @@
       "resultat": "Win",
       "methode": "TKO (knee and punches)"
     },
-    "combats_ufc": 6,
-    "victoires_ufc": 4,
+    "combats_ufc": 13,
+    "victoires_ufc": 11,
     "defaites_ufc": 1,
     "victoires_decision_5_rounds": 0,
     "combats_5_rounds_gagnes": 0,
@@ -83,15 +83,15 @@
     "combats_fotn": [],
     "titres": [],
     "technique_favorite": {
-      "technique": "knee",
-      "finitions": 1
+      "technique": "armbar",
+      "finitions": 3
     },
     "premier_combat_ufc": {
-      "adversaire": "Gerard Gordeau",
+      "adversaire": "Art Jimmerson",
       "evenement": "UFC 1",
       "date": "November 12, 1993",
       "resultat": "Win",
-      "methode": "Submission (rear-naked choke)"
+      "methode": "Submission (smother choke)"
     }
   },
   "champion_actuel": false,
@@ -231,27 +231,26 @@
   },
   "a_verifier": [
     "allonge_cm",
-    "palmares (wikipedia_tableau 8-2, wikipedia_infobox 15-2, ufc_com 13-2)",
     "stats_ufc (absentes de la fiche ufc.com)"
   ],
   "ecarts_sources": {
-    "palmares": "wikipedia_tableau 8-2, wikipedia_infobox 15-2, ufc_com 13-2"
+    "palmares": "wikipedia_tableau 15-2, wikipedia_infobox 15-2, ufc_com 13-2"
   },
-  "maj": "2026-10-04",
+  "maj": "2026-10-20",
   "stats_jeu": {
-    "precision": 75,
-    "puissance": 47,
-    "vitesse": 75,
-    "takedown": 75,
-    "controle": 50,
-    "soumission": 75,
-    "menton": 68,
-    "esquive": 75,
-    "defenseTd": 75,
-    "categorie_frappe": 66,
-    "categorie_lutte": 67,
-    "categorie_defense": 73,
-    "globale": 69,
+    "precision": 87,
+    "puissance": 35,
+    "vitesse": 87,
+    "takedown": 87,
+    "controle": 34,
+    "soumission": 99,
+    "menton": 80,
+    "esquive": 87,
+    "defenseTd": 87,
+    "categorie_frappe": 70,
+    "categorie_lutte": 73,
+    "categorie_defense": 85,
+    "globale": 76,
     "style": "complet",
     "estimees": [
       "precision",

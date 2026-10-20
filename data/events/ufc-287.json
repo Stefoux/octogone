@@ -1,0 +1,29 @@
+{
+  "id": "ufc-287",
+  "nom": "UFC 287",
+  "date": "2023-04-08",
+  "lieu": "Kaseya Center",
+  "ville": "Miami, Florida",
+  "pays": "US",
+  "resultat": "Israel Adesanya bat Alex Pereira par KO (coups de poing) à 4:21 du 2e round.",
+  "resultat_en": "Israel Adesanya defeats Alex Pereira by KO (punches) at 4:21 of round 2.",
+  "contexte": "Battu par Alex Pereira deux fois en kickboxing puis à l'UFC 281, Israel Adesanya le met KO au 2e round et reprend la ceinture des moyens.",
+  "contexte_en": "Beaten by Alex Pereira twice in kickboxing and then at UFC 281, Israel Adesanya knocked him out in round 2 to regain the middleweight title.",
+  "tirage": null,
+  "resultats": [
+    {
+      "vainqueur": "Israel Adesanya",
+      "perdant": "Alex Pereira",
+      "methode": "KO (coups de poing)",
+      "round": 2,
+      "temps": "4:21"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/UFC_287",
+    "https://en.wikipedia.org/wiki/Israel_Adesanya",
+    "https://en.wikipedia.org/wiki/Alex_Pereira"
+  ],
+  "a_verifier": [],
+  "genere_par": "fetch_moments.py"
+}

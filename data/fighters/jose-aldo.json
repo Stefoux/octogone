@@ -1,0 +1,448 @@
+{
+  "id": "jose-aldo",
+  "nom": "José Aldo",
+  "ufc_slug": "jose-aldo",
+  "wikipedia_titre": "José Aldo",
+  "surnom": "Junior",
+  "sexe": "M",
+  "pays": "BR",
+  "categorie": "plume",
+  "statut": "retraite",
+  "date_naissance": "1986-09-09",
+  "taille_cm": 170,
+  "allonge_cm": 178,
+  "style": "Jiu-Jitsu",
+  "lieu_naissance": "Manaus, Brésil",
+  "palmares": {
+    "victoires": 32,
+    "defaites": 10,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 17,
+    "victoires_soumission": 1,
+    "victoires_decision": 14,
+    "defaites_ko": 4,
+    "defaites_soumission": 1,
+    "defaites_decision": 5
+  },
+  "stats_ufc": {
+    "frappes_par_min": null,
+    "precision_frappe_pct": null,
+    "frappes_encaissees_par_min": null,
+    "defense_frappe_pct": null,
+    "takedowns_par_15min": null,
+    "precision_takedown_pct": null,
+    "defense_takedown_pct": null,
+    "soumissions_par_15min": null,
+    "knockdowns_par_15min": null,
+    "duree_moyenne_combat_s": null,
+    "frappes_reussies": null,
+    "takedowns_reussis": null
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 32,
+      "defaites": 10,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 17,
+        "soumission": 1,
+        "decision": 14,
+        "autre": 0
+      },
+      "d": {
+        "ko": 4,
+        "soumission": 1,
+        "decision": 5,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2011": 2,
+      "2012": 1,
+      "2013": 2,
+      "2014": 2,
+      "2015": 1,
+      "2016": 1,
+      "2017": 2,
+      "2018": 1,
+      "2019": 3,
+      "2020": 2,
+      "2021": 2,
+      "2022": 1,
+      "2024": 2,
+      "2025": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Aiemann Zahabi",
+      "evenement": "UFC 315",
+      "date": "10 May 2025",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 23,
+    "victoires_ufc": 14,
+    "defaites_ufc": 9,
+    "victoires_decision_5_rounds": 8,
+    "combats_5_rounds_gagnes": 9,
+    "bonus_fotn": 4,
+    "bonus_potn": 2,
+    "bonus_kotn": 3,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Max Holloway",
+        "evenement": "UFC 212",
+        "date": "3 June 2017"
+      },
+      {
+        "adversaire": "Chad Mendes",
+        "evenement": "UFC 179",
+        "date": "25 October 2014"
+      },
+      {
+        "adversaire": "Frankie Edgar",
+        "evenement": "UFC 156",
+        "date": "2 February 2013"
+      },
+      {
+        "adversaire": "Mark Hominick",
+        "evenement": "UFC 129",
+        "date": "30 April 2011"
+      }
+    ],
+    "titres": [
+      {
+        "action": "won",
+        "interim": true,
+        "titre": "UFC Featherweight Championship",
+        "evenement": "UFC 200",
+        "date": "9 July 2016"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Featherweight Championship",
+        "evenement": "UFC 179",
+        "date": "25 October 2014"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Featherweight Championship",
+        "evenement": "UFC 169",
+        "date": "1 February 2014"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Featherweight Championship",
+        "evenement": "UFC 163",
+        "date": "3 August 2013"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Featherweight Championship",
+        "evenement": "UFC 156",
+        "date": "2 February 2013"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Featherweight Championship",
+        "evenement": "UFC 142",
+        "date": "14 January 2012"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Featherweight Championship",
+        "evenement": "UFC 136",
+        "date": "8 October 2011"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Featherweight Championship",
+        "evenement": "UFC 129",
+        "date": "30 April 2011"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 9
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Mark Hominick",
+      "evenement": "UFC 129",
+      "date": "30 April 2011",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame (Modern wing, Class of 2023)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Featherweight Championship (Two times, inaugural)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Seven successful title defenses (first reign)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Interim UFC Featherweight Champion (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most successful title defenses in UFC featherweight history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most consecutive title defenses in UFC featherweight history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Alexander Volkanovski ) for most title fight wins in UFC Featherweight division history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most title fight wins in UFC/WEC combined featherweight division history (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most title fights in UFC Featherweight history (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Four times) vs. Mark Hominick , Frankie Edgar , Chad Mendes , and Max Holloway"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Two times) vs. Jeremy Stephens and Renato Moicano"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied for sixth most unanimous decision wins in UFC history (10)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Max Holloway ) for most finishes in UFC/WEC Featherweight division history (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2011: Ranked #2 Import of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2014: Ranked #2 Fight of the Year vs. Chad Mendes 2"
+    },
+    {
+      "org": "World Extreme Cagefighting",
+      "texte": "WEC Featherweight Champion (One time; final)"
+    },
+    {
+      "org": "World Extreme Cagefighting",
+      "texte": "Two successful title defenses"
+    },
+    {
+      "org": "World Extreme Cagefighting",
+      "texte": "Youngest champion in WEC history (23 years, 70 days)"
+    },
+    {
+      "org": "World Extreme Cagefighting",
+      "texte": "Knockout of the Night (Three times) vs. Rolando Perez , Cub Swanson , and Mike Brown"
+    },
+    {
+      "org": "World Extreme Cagefighting",
+      "texte": "Most consecutive wins in WEC history (Eight)"
+    },
+    {
+      "org": "BJPenn.com",
+      "texte": "2010s #9 Ranked Fighter of the Decade"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2009 Fighter of the Year"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2010 All-Violence Second Team"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "Mixed Martial Arts Hall of Fame"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2021 Comeback Fighter of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2010 Charles \"Mask\" Lewis Fighter of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2014 Fight of the Year vs. Chad Mendes 2 at UFC 179"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2009 Fighter of the Year"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2014 Fight of the Year vs. Chad Mendes 2 at UFC 179"
+    },
+    {
+      "org": "Inside MMA",
+      "texte": "2009 Breakthrough Fighter of the Year Bazzie Award"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2009 Fighter of the Year"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2009 Breakout Fighter of the Year"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2014 Fight of the Year vs. Chad Mendes 2 at UFC 179"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2014 Fight of the Year vs. Chad Mendes 2 at UFC 179"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2014 October Fight of the Month vs. Chad Mendes 2"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2010s #9 Ranked Fighter of the Decade"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "Feud of the Year (2015) vs. Conor McGregor"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2014 Male Fighter of the Year"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2017 Most Noteworthy Match of the Year vs. Max Holloway II at UFC 218"
+    },
+    {
+      "org": "MixedMartialArts.com",
+      "texte": "2009 Fighter of the Year"
+    },
+    {
+      "org": "Inside Fights",
+      "texte": "2009 Breakout Fighter of the Year"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2013 #6 Ranked Fighter of the Year"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2014 #5 Ranked Fighter of the Year"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2014 #2 Ranked Fight of the Year vs. Chad Mendes 2 at UFC 179"
+    },
+    {
+      "org": "Yahoo Sports",
+      "texte": "2014 #2 Ranked Fight of the Year vs. Chad Mendes 2 at UFC 179"
+    },
+    {
+      "org": "CBJJ World Championships",
+      "texte": "2001 World Championship Bronze Medalist (blue belt)"
+    },
+    {
+      "org": "CBJJ Brazilian Championships",
+      "texte": "2003 Brazilian National Champion (purple belt)"
+    },
+    {
+      "org": "CBJJO Copa Del Mundo",
+      "texte": "2004 World Cup Champion (brown belt)"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids plume (2 fois)",
+      "Champion WEC des poids plume",
+      "Hall of Fame de l'UFC (2023)",
+      "7 défenses de titre à l'UFC",
+      "Combattant de l'année (2009, 2014)",
+      "Bonus UFC : 2× Performance de la soirée, 4× Combat de la soirée, 3× KO de la soirée"
+    ],
+    "en": [
+      "UFC Featherweight Champion (2×)",
+      "WEC Featherweight Champion",
+      "UFC Hall of Fame (2023)",
+      "7 UFC title defenses",
+      "Fighter of the Year (2009, 2014)",
+      "UFC bonuses: 2× Performance of the Night, 4× Fight of the Night, 3× Knockout of the Night"
+    ]
+  },
+  "image_commons": "José Aldo, UFC 189 World Tour London (2) (cropped).jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/José_Aldo",
+    "wikidata": "https://www.wikidata.org/wiki/Q512119",
+    "ufc_com": "https://www.ufc.com/athlete/jose-aldo"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "stats_ufc (absentes de la fiche ufc.com)"
+  ],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 32-10, wikipedia_infobox 0-0, ufc_com 32-10"
+  },
+  "maj": "2026-10-20",
+  "stats_jeu": {
+    "precision": 82,
+    "puissance": 94,
+    "vitesse": 82,
+    "takedown": 82,
+    "controle": 81,
+    "soumission": 41,
+    "menton": 73,
+    "esquive": 82,
+    "defenseTd": 82,
+    "categorie_frappe": 86,
+    "categorie_lutte": 68,
+    "categorie_defense": 79,
+    "globale": 81,
+    "style": "frappeur",
+    "estimees": [
+      "precision",
+      "vitesse",
+      "takedown",
+      "esquive",
+      "defenseTd"
+    ],
+    "formule_version": 2
+  }
+}

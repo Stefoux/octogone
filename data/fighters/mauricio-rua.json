@@ -14,16 +14,16 @@
   "style": "Muay Thaï",
   "lieu_naissance": "Curitiba, Brésil",
   "palmares": {
+    "victoires": 27,
+    "defaites": 14,
+    "nuls": 1,
+    "sans_decision": 0,
     "victoires_ko": 21,
     "victoires_soumission": 1,
     "victoires_decision": 5,
     "defaites_ko": 7,
     "defaites_soumission": 3,
-    "defaites_decision": 4,
-    "nuls": 1,
-    "sans_decision": 0,
-    "victoires": 27,
-    "defaites": 14
+    "defaites_decision": 4
   },
   "stats_ufc": {
     "frappes_par_min": null,
@@ -41,12 +41,12 @@
   },
   "ufc": {
     "palmares_tableau": {
-      "victoires": 25,
+      "victoires": 27,
       "defaites": 14,
       "nuls": 1,
       "sans_decision": 0,
       "v": {
-        "ko": 19,
+        "ko": 21,
         "soumission": 1,
         "decision": 5,
         "autre": 0
@@ -124,7 +124,7 @@
     ],
     "technique_favorite": {
       "technique": "punches",
-      "finitions": 12
+      "finitions": 14
     },
     "premier_combat_ufc": {
       "adversaire": "Forrest Griffin",
@@ -296,17 +296,15 @@
     "surnom": "ufc_com",
     "pays": "wikidata",
     "categorie": "ufc_com",
-    "palmares": "wikipedia_infobox",
+    "palmares": "wikipedia_tableau",
     "ufc": "wikipedia_tableau",
     "accomplissements_en": "wikipedia"
   },
   "a_verifier": [
     "stats_ufc (absentes de la fiche ufc.com)"
   ],
-  "ecarts_sources": {
-    "palmares": "wikipedia_tableau 25-14, wikipedia_infobox 27-14, ufc_com 27-14"
-  },
-  "maj": "2026-10-04",
+  "ecarts_sources": {},
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 72,
     "puissance": 99,

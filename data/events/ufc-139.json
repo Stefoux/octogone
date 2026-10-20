@@ -1,0 +1,29 @@
+{
+  "id": "ufc-139",
+  "nom": "UFC 139",
+  "date": "2011-11-19",
+  "lieu": "HP Pavilion",
+  "ville": "San Jose, California",
+  "pays": "US",
+  "resultat": "Dan Henderson bat Maurício Rua par décision unanime après 5 rounds.",
+  "resultat_en": "Dan Henderson defeats Maurício Rua by unanimous decision after 5 rounds.",
+  "contexte": "Cinq rounds entre Dan Henderson et Maurício Rua, gagnés aux points par Henderson : combat de la soirée, décrit par beaucoup comme l'un des plus grands de l'histoire de l'UFC.",
+  "contexte_en": "Five rounds between Dan Henderson and Maurício Rua, won on points by Henderson: Fight of the Night, described by many as one of the greatest fights in UFC history.",
+  "tirage": null,
+  "resultats": [
+    {
+      "vainqueur": "Dan Henderson",
+      "perdant": "Maurício Rua",
+      "methode": "décision unanime",
+      "round": 5,
+      "temps": "5:00"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/UFC_139",
+    "https://en.wikipedia.org/wiki/Dan_Henderson",
+    "https://en.wikipedia.org/wiki/Maurício_Rua"
+  ],
+  "a_verifier": [],
+  "genere_par": "fetch_moments.py"
+}

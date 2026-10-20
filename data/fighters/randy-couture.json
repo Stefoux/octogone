@@ -1,0 +1,468 @@
+{
+  "id": "randy-couture",
+  "nom": "Randy Couture",
+  "ufc_slug": "randy-couture",
+  "wikipedia_titre": "Randy Couture",
+  "surnom": "The Natural",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "mi_lourds",
+  "statut": "retraite",
+  "date_naissance": "1963-06-22",
+  "taille_cm": 188,
+  "allonge_cm": 190,
+  "style": "Greco-Roman wrestling",
+  "lieu_naissance": "États-Unis",
+  "palmares": {
+    "victoires": 19,
+    "defaites": 11,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 7,
+    "victoires_soumission": 4,
+    "victoires_decision": 8,
+    "defaites_ko": 7,
+    "defaites_soumission": 3,
+    "defaites_decision": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": null,
+    "precision_frappe_pct": null,
+    "frappes_encaissees_par_min": null,
+    "defense_frappe_pct": null,
+    "takedowns_par_15min": null,
+    "precision_takedown_pct": null,
+    "defense_takedown_pct": null,
+    "soumissions_par_15min": null,
+    "knockdowns_par_15min": null,
+    "duree_moyenne_combat_s": null,
+    "frappes_reussies": null,
+    "takedowns_reussis": null
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 19,
+      "defaites": 11,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 7,
+        "soumission": 4,
+        "decision": 8,
+        "autre": 0
+      },
+      "d": {
+        "ko": 7,
+        "soumission": 3,
+        "decision": 1,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "1997": 4,
+      "2000": 1,
+      "2001": 2,
+      "2002": 2,
+      "2003": 2,
+      "2004": 2,
+      "2005": 2,
+      "2006": 1,
+      "2007": 2,
+      "2008": 1,
+      "2009": 2,
+      "2010": 2,
+      "2011": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Lyoto Machida",
+      "evenement": "UFC 129",
+      "date": "April 30, 2011",
+      "resultat": "Loss",
+      "methode": "KO (front kick)"
+    },
+    "combats_ufc": 24,
+    "victoires_ufc": 16,
+    "defaites_ufc": 8,
+    "victoires_decision_5_rounds": 3,
+    "combats_5_rounds_gagnes": 3,
+    "bonus_fotn": 2,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Antônio Rodrigo Nogueira",
+        "evenement": "UFC 102",
+        "date": "August 29, 2009"
+      },
+      {
+        "adversaire": "Gabriel Gonzaga",
+        "evenement": "UFC 74",
+        "date": "August 25, 2007"
+      }
+    ],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Heavyweight Championship",
+        "evenement": "UFC 74",
+        "date": "August 25, 2007"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Heavyweight Championship",
+        "evenement": "UFC 68",
+        "date": "March 3, 2007"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 49",
+        "date": "August 21, 2004"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 44",
+        "date": "September 26, 2003"
+      },
+      {
+        "action": "won",
+        "interim": true,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 43",
+        "date": "June 6, 2003"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Heavyweight Championship",
+        "evenement": "UFC 34",
+        "date": "November 2, 2001"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Heavyweight Championship",
+        "evenement": "UFC 31",
+        "date": "May 4, 2001"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Heavyweight Championship",
+        "evenement": "UFC 28",
+        "date": "November 17, 2000"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Heavyweight Championship",
+        "evenement": "UFC Japan: Ultimate Japan",
+        "date": "December 21, 1997"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 6
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Tony Halme",
+      "evenement": "UFC 13",
+      "date": "May 30, 1997",
+      "resultat": "Win",
+      "methode": "Submission (rear-naked choke)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    {
+      "org": "Pan American Games",
+      "texte": "Pan American Championship Greco-Roman Seniors 90 kg – second place (June 13, 1990)"
+    },
+    {
+      "org": "Pan American Games",
+      "texte": "Pan American Championship Greco-Roman Seniors 90 kg – winner (January 1, 1991)"
+    },
+    {
+      "org": "Pan American Games",
+      "texte": "Pan American Championship Greco-Roman Seniors 90 kg – second place (January 1, 1992)"
+    },
+    {
+      "org": "Pan American Games",
+      "texte": "Pan American Championship Greco-Roman Seniors 97 kg – third place (May 21, 1997)"
+    },
+    {
+      "org": "Pan American Games",
+      "texte": "Pan American Championship Greco-Roman Seniors 97 kg – second place (March 24, 1998)"
+    },
+    {
+      "org": "Pan American Games",
+      "texte": "Pan American Games Greco-Roman Seniors 90 kg – winner (August 6, 1991)"
+    },
+    {
+      "org": "FILA Wrestling World Championships",
+      "texte": "FILA test tournament Greco-Roman Seniors 97 kg – third place (March 14, 1998)"
+    },
+    {
+      "org": "FILA Wrestling World Championships",
+      "texte": "FILA World Cup Greco-Roman Seniors 90 kg – third place (November 9, 1991)"
+    },
+    {
+      "org": "FILA Wrestling World Championships",
+      "texte": "FILA World Cup Greco-Roman Seniors 90 kg – third place (November 21, 1992)"
+    },
+    {
+      "org": "National Collegiate Athletic Association",
+      "texte": "NCAA Division I All-American (1990, 1991, 1992)"
+    },
+    {
+      "org": "National Collegiate Athletic Association",
+      "texte": "NCAA Division I 190 lb/86.4 kg – 6th place out of Oklahoma State University (1990)"
+    },
+    {
+      "org": "National Collegiate Athletic Association",
+      "texte": "NCAA Division I 190 lb/86.4 kg – Runner-up out of Oklahoma State University (1991)"
+    },
+    {
+      "org": "National Collegiate Athletic Association",
+      "texte": "NCAA Division I 190 lb/86.4 kg – Runner-up out of Oklahoma State University (1992)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame ( Pioneer Wing , Class of 2006)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC 13 Heavyweight Tournament Champion"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Heavyweight Championship (3 times)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Three successful title defenses overall"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Two successful title defenses (second reign)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "One successful title defense (third reign)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Light Heavyweight Championship (Two times)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Interim UFC Light Heavyweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First multi-divisional champion in UFC history"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First & only fighter that was a multi-divisional champion that won back the title after losing it (2x at Heavyweight & 1x at Light Heavyweight)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Georges St-Pierre ) for second most championship fights in UFC history (15)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most championship reigns in UFC history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Tim Sylvia & Stipe Miocic ) for most heavyweight title bouts in UFC history (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Oldest fighter to be a champion in UFC history (45 years, 4 months; 16,583 days)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Oldest fighter to win a championship in UFC history (43 years 255 days)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Matt Hughes , Chuck Liddell & T.J. Dillashaw ) for third most knockouts in UFC title fights (5)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Oldest fighter to defend a championship successfully (44 years Old)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Viewer's Choice Award"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Two times) vs. Gabriel Gonzaga and Antônio Rodrigo Nogueira"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Encyclopedia Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Eight times) vs. Vitor Belfort 1, Kevin Randleman , Pedro Rizzo , Josh Barnett , Ricco Rodriguez , Chuck Liddell 1, Tito Ortiz and Chuck Liddell 3"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Tito Ortiz ) for most Encyclopedia Fight of the Night Awards (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Submission of the Night (One time) vs. Mike van Arsdale"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most PPV main event bouts in UFC history (18)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Oldest fighter to win a bout in UFC history (47 years, 68 days)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2007: Ranked #3 Fighter of the Year , Ranked #9 Upset of the Year vs. Tim Sylvia & Ranked #9 Fight of the Year vs. Tim Sylvia"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2009: Ranked #2 Fight of the Year vs. Antônio Rodrigo Nogueira"
+    },
+    {
+      "org": "ESPN",
+      "texte": "#7 Ranked Men's MMA Fighter of the 21st Century"
+    },
+    {
+      "org": "Black Belt Magazine",
+      "texte": "1997 Full-Contact Competitor of the Year"
+    },
+    {
+      "org": "Black Belt Magazine",
+      "texte": "Black Belt Magazine Hall of Famer"
+    },
+    {
+      "org": "George Tragos/Lou Thesz Professional Wrestling Hall of Fame",
+      "texte": "2013 George Tragos Award"
+    },
+    {
+      "org": "Martial Arts History Museum Hall of Fame",
+      "texte": "Class of 2008"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2003 Light Heavyweight Fighter of the Year"
+    },
+    {
+      "org": "Inside Fights",
+      "texte": "2009 Fight of the Year – vs. Antônio Rodrigo Nogueira on August 29"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "2001 Fight of the Year vs. Pedro Rizzo on May 4"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "2003 Most Outstanding Fighter"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "2007 MMA Most Valuable Fighter"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "MMA Most Valuable Fighter of the Decade (2000s)"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2010 Outstanding Contribution to MMA Award"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "1997 Rookie of the Year"
+    },
+    {
+      "org": "United States Athletics Hall of Fame",
+      "texte": "Class of 2025"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids lourds (3 fois)",
+      "Champion UFC des poids mi-lourds (2 fois)",
+      "Hall of Fame de l'UFC (2006)",
+      "3 défenses de titre à l'UFC",
+      "Combat de l'année (2001, 2009)",
+      "Bonus UFC : 8× Combat de la soirée, 1× Soumission de la soirée"
+    ],
+    "en": [
+      "UFC Heavyweight Champion (3×)",
+      "UFC Light Heavyweight Champion (2×)",
+      "UFC Hall of Fame (2006)",
+      "3 UFC title defenses",
+      "Fight of the Year (2001, 2009)",
+      "UFC bonuses: 8× Fight of the Night, 1× Submission of the Night"
+    ]
+  },
+  "image_commons": "Randy Couture by Gage Skidmore.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Randy_Couture",
+    "wikidata": "https://www.wikidata.org/wiki/Q352733",
+    "ufc_com": "https://www.ufc.com/athlete/randy-couture"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "stats_ufc (absentes de la fiche ufc.com)"
+  ],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 19-11, wikipedia_infobox 0-0, ufc_com 19-11"
+  },
+  "maj": "2026-10-20",
+  "stats_jeu": {
+    "precision": 85,
+    "puissance": 68,
+    "vitesse": 85,
+    "takedown": 85,
+    "controle": 78,
+    "soumission": 61,
+    "menton": 41,
+    "esquive": 85,
+    "defenseTd": 85,
+    "categorie_frappe": 79,
+    "categorie_lutte": 75,
+    "categorie_defense": 70,
+    "globale": 76,
+    "style": "complet",
+    "estimees": [
+      "precision",
+      "vitesse",
+      "takedown",
+      "esquive",
+      "defenseTd"
+    ],
+    "formule_version": 2
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ufc-194",
+  "nom": "UFC 194",
+  "date": "2015-12-12",
+  "lieu": "MGM Grand Garden Arena",
+  "ville": "Las Vegas, Nevada",
+  "pays": "US",
+  "resultat": "Conor McGregor bat José Aldo par KO (coup de poing) à 0:13 du 1er round.",
+  "resultat_en": "Conor McGregor defeats José Aldo by KO (punch) at 0:13 of round 1.",
+  "contexte": "Le combat dure 13 secondes : la fin la plus rapide de l'histoire des combats pour un titre UFC. Conor McGregor unifie la ceinture des poids plumes.",
+  "contexte_en": "The fight lasted 13 seconds, the fastest finish in UFC title fight history. Conor McGregor unified the featherweight title.",
+  "tirage": null,
+  "resultats": [
+    {
+      "vainqueur": "Conor McGregor",
+      "perdant": "José Aldo",
+      "methode": "KO (coup de poing)",
+      "round": 1,
+      "temps": "0:13"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/UFC_194",
+    "https://en.wikipedia.org/wiki/Conor_McGregor",
+    "https://en.wikipedia.org/wiki/José_Aldo"
+  ],
+  "a_verifier": [],
+  "genere_par": "fetch_moments.py"
+}

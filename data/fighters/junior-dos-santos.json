@@ -14,11 +14,11 @@
   "style": null,
   "lieu_naissance": null,
   "palmares": {
-    "victoires": 22,
+    "victoires": 23,
     "defaites": 11,
     "nuls": 0,
     "sans_decision": 0,
-    "victoires_ko": 15,
+    "victoires_ko": 16,
     "victoires_soumission": 1,
     "victoires_decision": 6,
     "defaites_ko": 9,
@@ -41,12 +41,12 @@
   },
   "ufc": {
     "palmares_tableau": {
-      "victoires": 22,
+      "victoires": 23,
       "defaites": 11,
       "nuls": 0,
       "sans_decision": 0,
       "v": {
-        "ko": 15,
+        "ko": 16,
         "soumission": 1,
         "decision": 6,
         "autre": 0
@@ -283,26 +283,23 @@
   "a_verifier": [
     "allonge_cm",
     "fiche ufc.com introuvable",
-    "palmares (wikipedia_tableau 22-11, wikipedia_infobox 23-11)",
     "stats_ufc (absentes de la fiche ufc.com)",
     "statut"
   ],
-  "ecarts_sources": {
-    "palmares": "wikipedia_tableau 22-11, wikipedia_infobox 23-11"
-  },
-  "maj": "2026-10-04",
+  "ecarts_sources": {},
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 84,
     "puissance": 99,
     "vitesse": 84,
     "takedown": 84,
-    "controle": 58,
+    "controle": 56,
     "soumission": 41,
     "menton": 41,
     "esquive": 84,
     "defenseTd": 84,
     "categorie_frappe": 89,
-    "categorie_lutte": 61,
+    "categorie_lutte": 60,
     "categorie_defense": 70,
     "globale": 79,
     "style": "frappeur",

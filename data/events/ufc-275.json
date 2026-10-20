@@ -1,0 +1,29 @@
+{
+  "id": "ufc-275",
+  "nom": "UFC 275",
+  "date": "2022-06-12",
+  "lieu": "Singapore Indoor Stadium",
+  "ville": "Kallang",
+  "pays": "SG",
+  "resultat": "Jiří Procházka bat Glover Teixeira par soumission (étranglement arrière) à 4:32 du 5e round.",
+  "resultat_en": "Jiří Procházka defeats Glover Teixeira by Submission (rear-naked choke) at 4:32 of round 5.",
+  "contexte": "À Singapour, Jiří Procházka soumet Glover Teixeira à 28 secondes de la fin du 5e round et devient champion des mi-lourds : combat de la soirée.",
+  "contexte_en": "In Singapore, Jiří Procházka submitted Glover Teixeira with 28 seconds left in round 5 to become light heavyweight champion: Fight of the Night.",
+  "tirage": null,
+  "resultats": [
+    {
+      "vainqueur": "Jiří Procházka",
+      "perdant": "Glover Teixeira",
+      "methode": "soumission (étranglement arrière)",
+      "round": 5,
+      "temps": "4:32"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/UFC_275",
+    "https://en.wikipedia.org/wiki/Jiří_Procházka",
+    "https://en.wikipedia.org/wiki/Glover_Teixeira"
+  ],
+  "a_verifier": [],
+  "genere_par": "fetch_moments.py"
+}

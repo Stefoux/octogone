@@ -1,0 +1,29 @@
+{
+  "id": "ufc-278",
+  "nom": "UFC 278",
+  "date": "2022-08-20",
+  "lieu": "Vivint Arena",
+  "ville": "Salt Lake City, Utah",
+  "pays": "US",
+  "resultat": "Leon Edwards bat Kamaru Usman par KO (coup de pied à la tête) à 4:04 du 5e round.",
+  "resultat_en": "Leon Edwards defeats Kamaru Usman by KO (head kick) at 4:04 of round 5.",
+  "contexte": "À moins d'une minute de la fin du combat, Leon Edwards met KO Kamaru Usman d'un coup de pied à la tête et lui prend la ceinture des mi-moyens.",
+  "contexte_en": "With less than a minute left in the fight, Leon Edwards knocked out Kamaru Usman with a head kick to take his welterweight title.",
+  "tirage": null,
+  "resultats": [
+    {
+      "vainqueur": "Leon Edwards",
+      "perdant": "Kamaru Usman",
+      "methode": "KO (coup de pied à la tête)",
+      "round": 5,
+      "temps": "4:04"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/UFC_278",
+    "https://en.wikipedia.org/wiki/Leon_Edwards",
+    "https://en.wikipedia.org/wiki/Kamaru_Usman"
+  ],
+  "a_verifier": [],
+  "genere_par": "fetch_moments.py"
+}

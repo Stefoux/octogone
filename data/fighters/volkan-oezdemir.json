@@ -17,16 +17,16 @@
   "style": "Cogneur",
   "lieu_naissance": "Fribourg, Suisse",
   "palmares": {
+    "victoires": 21,
+    "defaites": 8,
+    "nuls": 0,
+    "sans_decision": 0,
     "victoires_ko": 14,
     "victoires_soumission": 2,
     "victoires_decision": 5,
     "defaites_ko": 2,
     "defaites_soumission": 2,
-    "defaites_decision": 4,
-    "nuls": 0,
-    "sans_decision": 0,
-    "victoires": 21,
-    "defaites": 8
+    "defaites_decision": 4
   },
   "stats_ufc": {
     "frappes_par_min": 4.99,
@@ -44,12 +44,12 @@
   },
   "ufc": {
     "palmares_tableau": {
-      "victoires": 19,
+      "victoires": 21,
       "defaites": 8,
       "nuls": 0,
       "sans_decision": 0,
       "v": {
-        "ko": 12,
+        "ko": 14,
         "soumission": 2,
         "decision": 5,
         "autre": 0
@@ -92,7 +92,7 @@
     "titres": [],
     "technique_favorite": {
       "technique": "punches",
-      "finitions": 7
+      "finitions": 9
     },
     "premier_combat_ufc": {
       "adversaire": "Ovince Saint Preux",
@@ -176,16 +176,14 @@
     "surnom": "ufc_com",
     "pays": "wikidata",
     "categorie": "ufc_com",
-    "palmares": "wikipedia_infobox",
+    "palmares": "wikipedia_tableau",
     "stats_ufc": "ufc_com",
     "ufc": "wikipedia_tableau",
     "accomplissements_en": "wikipedia"
   },
   "a_verifier": [],
-  "ecarts_sources": {
-    "palmares": "wikipedia_tableau 19-8, wikipedia_infobox 21-8, ufc_com 21-8"
-  },
-  "maj": "2026-10-04",
+  "ecarts_sources": {},
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 62,
     "puissance": 88,

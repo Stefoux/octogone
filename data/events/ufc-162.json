@@ -1,0 +1,29 @@
+{
+  "id": "ufc-162",
+  "nom": "UFC 162",
+  "date": "2013-07-06",
+  "lieu": "MGM Grand Garden Arena",
+  "ville": "Las Vegas, Nevada",
+  "pays": "US",
+  "resultat": "Chris Weidman bat Anderson Silva par KO (coups de poing) à 1:18 du 2e round.",
+  "resultat_en": "Chris Weidman defeats Anderson Silva by KO (punches) at 1:18 of round 2.",
+  "contexte": "Chris Weidman met KO Anderson Silva au 2e round : fin de son règne de sept ans sur les poids moyens et de sa série de 16 victoires à l'UFC.",
+  "contexte_en": "Chris Weidman knocked out Anderson Silva in round 2, ending his seven-year middleweight reign and his 16-fight UFC winning streak.",
+  "tirage": null,
+  "resultats": [
+    {
+      "vainqueur": "Chris Weidman",
+      "perdant": "Anderson Silva",
+      "methode": "KO (coups de poing)",
+      "round": 2,
+      "temps": "1:18"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/UFC_162",
+    "https://en.wikipedia.org/wiki/Chris_Weidman",
+    "https://en.wikipedia.org/wiki/Anderson_Silva"
+  ],
+  "a_verifier": [],
+  "genere_par": "fetch_moments.py"
+}

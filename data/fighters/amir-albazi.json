@@ -14,16 +14,16 @@
   "style": "Jiu-Jitsu",
   "lieu_naissance": "Baghdad, Irak",
   "palmares": {
+    "victoires": 17,
+    "defaites": 3,
+    "nuls": 0,
+    "sans_decision": 0,
     "victoires_ko": 5,
     "victoires_soumission": 9,
     "victoires_decision": 3,
     "defaites_ko": 0,
     "defaites_soumission": 0,
-    "defaites_decision": 3,
-    "nuls": 0,
-    "sans_decision": 0,
-    "victoires": 17,
-    "defaites": 3
+    "defaites_decision": 3
   },
   "stats_ufc": {
     "frappes_par_min": 2.47,
@@ -41,13 +41,13 @@
   },
   "ufc": {
     "palmares_tableau": {
-      "victoires": 16,
+      "victoires": 17,
       "defaites": 3,
       "nuls": 0,
       "sans_decision": 0,
       "v": {
         "ko": 5,
-        "soumission": 8,
+        "soumission": 9,
         "decision": 3,
         "autre": 0
       },
@@ -86,7 +86,7 @@
     "titres": [],
     "technique_favorite": {
       "technique": "rear-naked choke",
-      "finitions": 4
+      "finitions": 5
     },
     "premier_combat_ufc": {
       "adversaire": "Malcolm Gordon",
@@ -128,16 +128,14 @@
     "surnom": "ufc_com",
     "pays": "wikidata",
     "categorie": "ufc_com",
-    "palmares": "wikipedia_infobox",
+    "palmares": "wikipedia_tableau",
     "stats_ufc": "ufc_com",
     "ufc": "wikipedia_tableau",
     "accomplissements_en": "wikipedia"
   },
   "a_verifier": [],
-  "ecarts_sources": {
-    "palmares": "wikipedia_tableau 16-3, wikipedia_infobox 17-3, ufc_com 17-3"
-  },
-  "maj": "2026-10-04",
+  "ecarts_sources": {},
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 37,
     "puissance": 56,

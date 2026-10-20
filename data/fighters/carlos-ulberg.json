@@ -90,7 +90,15 @@
         "date": "6 March 2021"
       }
     ],
-    "titres": [],
+    "titres": [
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 327",
+        "date": "11 April 2026"
+      }
+    ],
     "technique_favorite": {
       "technique": "punches",
       "finitions": 8
@@ -110,7 +118,7 @@
   },
   "champion_actuel": true,
   "champion_division": "Poids mi-lourds",
-  "ancien_champion": false,
+  "ancien_champion": true,
   "accomplissements_en": [
     {
       "org": "Ultimate Fighting Championships",
@@ -196,7 +204,7 @@
   "ecarts_sources": {
     "palmares": "wikipedia_tableau 14-1, wikipedia_infobox 14-1, ufc_com 15-1"
   },
-  "maj": "2026-10-04",
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 93,
     "puissance": 99,

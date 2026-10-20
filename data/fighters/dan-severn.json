@@ -1,0 +1,355 @@
+{
+  "id": "dan-severn",
+  "nom": "Dan Severn",
+  "ufc_slug": "dan-severn",
+  "wikipedia_titre": "Dan Severn",
+  "surnom": "The Beast",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "lourds",
+  "statut": "retraite",
+  "date_naissance": "1958-06-08",
+  "taille_cm": 188,
+  "allonge_cm": null,
+  "style": "Wrestling",
+  "lieu_naissance": "Coldwater, United States",
+  "palmares": {
+    "victoires": 101,
+    "defaites": 19,
+    "nuls": 7,
+    "sans_decision": 0,
+    "victoires_ko": 24,
+    "victoires_soumission": 53,
+    "victoires_decision": 24,
+    "defaites_ko": 4,
+    "defaites_soumission": 8,
+    "defaites_decision": 7
+  },
+  "stats_ufc": {
+    "frappes_par_min": null,
+    "precision_frappe_pct": null,
+    "frappes_encaissees_par_min": null,
+    "defense_frappe_pct": null,
+    "takedowns_par_15min": null,
+    "precision_takedown_pct": null,
+    "defense_takedown_pct": null,
+    "soumissions_par_15min": null,
+    "knockdowns_par_15min": null,
+    "duree_moyenne_combat_s": null,
+    "frappes_reussies": null,
+    "takedowns_reussis": null
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 101,
+      "defaites": 19,
+      "nuls": 7,
+      "sans_decision": 0,
+      "v": {
+        "ko": 24,
+        "soumission": 53,
+        "decision": 24,
+        "autre": 0
+      },
+      "d": {
+        "ko": 4,
+        "soumission": 8,
+        "decision": 7,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "1994": 3,
+      "1995": 4,
+      "1996": 1,
+      "1997": 1,
+      "2000": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Alex Rozman",
+      "evenement": "Blue Blood MMA",
+      "date": "April 28, 2012",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 10,
+    "victoires_ufc": 6,
+    "defaites_ufc": 4,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 0,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Superfight Championship",
+        "evenement": "UFC 9",
+        "date": "May 17, 1996"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "keylock",
+      "finitions": 14
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Anthony Macias",
+      "evenement": "UFC 4",
+      "date": "December 16, 1994",
+      "resultat": "Win",
+      "methode": "Submission (choke)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    {
+      "org": null,
+      "texte": "Arizona State University wrestling Hall of Famer"
+    },
+    {
+      "org": null,
+      "texte": "1980 Summer Olympic team alternate"
+    },
+    {
+      "org": null,
+      "texte": "13 National AAU wrestling championships from 1982 to 1994"
+    },
+    {
+      "org": null,
+      "texte": "1984 Summer Olympic team alternate"
+    },
+    {
+      "org": null,
+      "texte": "1985 Canada Cup Gold Medalist"
+    },
+    {
+      "org": null,
+      "texte": "1988 Summer Olympic team alternate"
+    },
+    {
+      "org": "Martial Arts History Museum Hall of Fame",
+      "texte": "Class of 2011"
+    },
+    {
+      "org": "In Judo",
+      "texte": "5th degree black belt"
+    },
+    {
+      "org": "In Jiu-jitsu",
+      "texte": "2nd degree black belt"
+    },
+    {
+      "org": "World Extreme Cagefighting",
+      "texte": "Headlined and Won the main event of WEC 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC 5 Tournament Championship"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Ultimate Ultimate 1995 Tournament Championship"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Superfight Championship (One time, last)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC 4 Tournament Runner-up"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame ( Pioneer Wing , Class of 2005)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Viewer's Choice Award"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Encyclopedia Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Three times) vs. Royce Gracie , Paul Varelans and Mark Coleman"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First fighter to ever be awarded a UFC title belt"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Triple Crown Champion (The first in UFC history)"
+    },
+    {
+      "org": "The Danger Zone",
+      "texte": "Undefeated in Danger Zone single bout competition"
+    },
+    {
+      "org": "Elite-1 MMA",
+      "texte": "Elite-1 MMA Heavyweight Championship (one time)"
+    },
+    {
+      "org": "Continental Freefighting Alliance",
+      "texte": "CFA Super Heavyweight Championship (one time)"
+    },
+    {
+      "org": "Gladiator Challenge",
+      "texte": "Gladiator Challenge Superfight Heavyweight Championship (one time)"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "Mixed Martial Arts Hall of Fame"
+    },
+    {
+      "org": "Atlantic Terror Championship Wrestling",
+      "texte": "ATCW Heavyweight Championship (1 time)"
+    },
+    {
+      "org": "Canada National Wrestling Alliance",
+      "texte": "MPW Tag Team Championship (1 time) - with Massive Damage"
+    },
+    {
+      "org": "Cauliflower Alley Club",
+      "texte": "Lou Thesz Award (2010)"
+    },
+    {
+      "org": "Dynamic Wrestling Alliance",
+      "texte": "DWA Heavyweight Championship (1 time)"
+    },
+    {
+      "org": "George Tragos/Lou Thesz Professional Wrestling Hall of Fame",
+      "texte": "Frank Gotch Award (2002)"
+    },
+    {
+      "org": "George Tragos/Lou Thesz Professional Wrestling Hall of Fame",
+      "texte": "George Tragos Award (2012)"
+    },
+    {
+      "org": "George Tragos/Lou Thesz Professional Wrestling Hall of Fame",
+      "texte": "Class of 2018"
+    },
+    {
+      "org": "Great American Mat Endeavors",
+      "texte": "GAME Heavyweight Championship (1 time)"
+    },
+    {
+      "org": "Great American Mat Endeavors",
+      "texte": "GAME Strong Style Heavyweight Championship (1 time)"
+    },
+    {
+      "org": "Global Wrestling Alliance",
+      "texte": "GWA Heavyweight Championship (3 times)"
+    },
+    {
+      "org": "Legends Pro Wrestling",
+      "texte": "LPW Hall of Fame (Class of 2012)"
+    },
+    {
+      "org": "Monster Pro Wrestling",
+      "texte": "MPW Tag Team Championships (1 time) - with Massive Damage"
+    },
+    {
+      "org": "National Championship Wrestling",
+      "texte": "NCW Heavyweight Championship (1 time)"
+    },
+    {
+      "org": "National Wrestling Alliance",
+      "texte": "NWA World Heavyweight Championship ( 2 times )"
+    },
+    {
+      "org": "National Wrestling Alliance",
+      "texte": "NWA United Kingdom Heavyweight Championship ( 1 time )"
+    },
+    {
+      "org": "National Wrestling Alliance",
+      "texte": "NWA Hall of Fame (2010)"
+    },
+    {
+      "org": "Northern States Wrestling Alliance",
+      "texte": "NSWA Heavyweight Championship (1 time)"
+    },
+    {
+      "org": "Price of Glory Wrestling",
+      "texte": "POGW Heavyweight Championship (1 time)"
+    },
+    {
+      "org": "Pro Wrestling All-Stars Of Detroit",
+      "texte": "Denny Kass Memorial Battle Royal (2016)"
+    },
+    {
+      "org": "Pro Wrestling Illustrated",
+      "texte": "Ranked No. 35 of the top 500 singles wrestlers in the \" PWI 500 \" in 1995"
+    },
+    {
+      "org": "Pro Wrestling Illustrated",
+      "texte": "Ranked No. 252 of the top 500 singles wrestlers of the \"PWI Years\" in 2003"
+    },
+    {
+      "org": "WAR Wrestling",
+      "texte": "WAR Hall of Fame (2017)"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Hall of Fame de l'UFC (2005)",
+      "Bonus UFC : 3× Combat de la soirée"
+    ],
+    "en": [
+      "UFC Hall of Fame (2005)",
+      "UFC bonuses: 3× Fight of the Night"
+    ]
+  },
+  "image_commons": "Dan \"The Beast\" Severn 2016.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Dan_Severn",
+    "wikidata": "https://www.wikidata.org/wiki/Q2268766",
+    "ufc_com": "https://www.ufc.com/athlete/dan-severn"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "allonge_cm",
+    "palmares (wikipedia_tableau 101-19, wikipedia_infobox 0-0, ufc_com 70-13)",
+    "stats_ufc (absentes de la fiche ufc.com)"
+  ],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 101-19, wikipedia_infobox 0-0, ufc_com 70-13"
+  },
+  "maj": "2026-10-20",
+  "stats_jeu": {
+    "precision": 79,
+    "puissance": 68,
+    "vitesse": 79,
+    "takedown": 79,
+    "controle": 54,
+    "soumission": 99,
+    "menton": 83,
+    "esquive": 79,
+    "defenseTd": 79,
+    "categorie_frappe": 75,
+    "categorie_lutte": 77,
+    "categorie_defense": 80,
+    "globale": 78,
+    "style": "complet",
+    "estimees": [
+      "precision",
+      "vitesse",
+      "takedown",
+      "esquive",
+      "defenseTd"
+    ],
+    "formule_version": 2
+  }
+}

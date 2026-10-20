@@ -1,0 +1,29 @@
+{
+  "id": "ufc-126",
+  "nom": "UFC 126",
+  "date": "2011-02-05",
+  "lieu": "Mandalay Bay Events Center",
+  "ville": "Las Vegas, Nevada",
+  "pays": "US",
+  "resultat": "Anderson Silva bat Vitor Belfort par KO (coup de pied de face et coups de poing) à 3:25 du 1er round.",
+  "resultat_en": "Anderson Silva defeats Vitor Belfort by KO (front kick and punches) at 3:25 of round 1.",
+  "contexte": "Anderson Silva défend sa ceinture des moyens contre Vitor Belfort et le met KO d'un coup de pied de face, élu KO de la soirée.",
+  "contexte_en": "Anderson Silva defended his middleweight title against Vitor Belfort, knocking him out with a front kick that earned Knockout of the Night.",
+  "tirage": null,
+  "resultats": [
+    {
+      "vainqueur": "Anderson Silva",
+      "perdant": "Vitor Belfort",
+      "methode": "KO (coup de pied de face et coups de poing)",
+      "round": 1,
+      "temps": "3:25"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/UFC_126",
+    "https://en.wikipedia.org/wiki/Anderson_Silva",
+    "https://en.wikipedia.org/wiki/Vitor_Belfort"
+  ],
+  "a_verifier": [],
+  "genere_par": "fetch_moments.py"
+}

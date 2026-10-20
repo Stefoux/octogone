@@ -14,11 +14,11 @@
   "style": "Striker",
   "lieu_naissance": "Batie, Cameroon",
   "palmares": {
-    "victoires": 18,
+    "victoires": 19,
     "defaites": 3,
     "nuls": 0,
     "sans_decision": 0,
-    "victoires_ko": 13,
+    "victoires_ko": 14,
     "victoires_soumission": 4,
     "victoires_decision": 1,
     "defaites_ko": 0,
@@ -41,12 +41,12 @@
   },
   "ufc": {
     "palmares_tableau": {
-      "victoires": 18,
+      "victoires": 19,
       "defaites": 3,
       "nuls": 0,
       "sans_decision": 0,
       "v": {
-        "ko": 13,
+        "ko": 14,
         "soumission": 4,
         "decision": 1,
         "autre": 0
@@ -86,6 +86,13 @@
     "bonus_sotn": 0,
     "combats_fotn": [],
     "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Heavyweight Championship",
+        "evenement": "UFC 270",
+        "date": "22 January 2022"
+      },
       {
         "action": "won",
         "interim": false,
@@ -281,20 +288,18 @@
     "ufc": "wikipedia_tableau",
     "accomplissements_en": "wikipedia"
   },
-  "a_verifier": [
-    "palmares (wikipedia_tableau 18-3, wikipedia_infobox 19-3, ufc_com 17-3)"
-  ],
+  "a_verifier": [],
   "ecarts_sources": {
-    "palmares": "wikipedia_tableau 18-3, wikipedia_infobox 19-3, ufc_com 17-3"
+    "palmares": "wikipedia_tableau 19-3, wikipedia_infobox 19-3, ufc_com 17-3"
   },
-  "maj": "2026-10-05",
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 52,
     "puissance": 99,
     "vitesse": 48,
     "takedown": 44,
     "controle": 41,
-    "soumission": 57,
+    "soumission": 56,
     "menton": 99,
     "esquive": 72,
     "defenseTd": 81,

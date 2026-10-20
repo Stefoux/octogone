@@ -102,6 +102,13 @@
         "date": "May 9, 2020"
       },
       {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Bantamweight Championship",
+        "evenement": "UFC 238",
+        "date": "June 8, 2019"
+      },
+      {
         "action": "defended",
         "interim": false,
         "titre": "UFC Flyweight Championship",
@@ -327,7 +334,7 @@
   },
   "a_verifier": [],
   "ecarts_sources": {},
-  "maj": "2026-10-04",
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 67,
     "puissance": 73,

@@ -1,0 +1,251 @@
+{
+  "id": "maurice-smith",
+  "nom": "Maurice Smith",
+  "ufc_slug": "maurice-smith",
+  "wikipedia_titre": "Maurice Smith (fighter)",
+  "surnom": "Mo",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "lourds",
+  "statut": "inactif",
+  "date_naissance": "1961-12-13",
+  "taille_cm": 188,
+  "allonge_cm": null,
+  "style": "Kickboxing",
+  "lieu_naissance": "Seattle, États-Unis",
+  "palmares": {
+    "victoires_ko": null,
+    "victoires_soumission": null,
+    "victoires_decision": null,
+    "defaites_ko": null,
+    "defaites_soumission": null,
+    "defaites_decision": null,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires": 0,
+    "defaites": 0
+  },
+  "stats_ufc": {
+    "frappes_par_min": null,
+    "precision_frappe_pct": null,
+    "frappes_encaissees_par_min": null,
+    "defense_frappe_pct": null,
+    "takedowns_par_15min": null,
+    "precision_takedown_pct": null,
+    "defense_takedown_pct": null,
+    "soumissions_par_15min": null,
+    "knockdowns_par_15min": null,
+    "duree_moyenne_combat_s": null,
+    "frappes_reussies": null,
+    "takedowns_reussis": null
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 13,
+      "defaites": 14,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 8,
+        "soumission": 2,
+        "decision": 3,
+        "autre": 0
+      },
+      "d": {
+        "ko": 0,
+        "soumission": 10,
+        "decision": 4,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "1997": 3,
+      "1999": 2,
+      "2000": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Matt Kovacs",
+      "evenement": "CWC 9: Cage Warrior Combat 9",
+      "date": "November 2, 2013",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 7,
+    "victoires_ufc": 4,
+    "defaites_ufc": 3,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 2,
+    "bonus_fotn": 0,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Heavyweight Championship",
+        "evenement": "UFC 15",
+        "date": "October 17, 1997"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Heavyweight Championship",
+        "evenement": "UFC 14",
+        "date": "July 27, 1997"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "head kick",
+      "finitions": 2
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Mark Coleman",
+      "evenement": "UFC 14",
+      "date": "July 27, 1997",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    {
+      "org": "K-1",
+      "texte": "2001 K-1 World Grand Prix Preliminary USA winner"
+    },
+    {
+      "org": "K-1",
+      "texte": "K-1 World Grand Prix '93 Tournament Semifinalist"
+    },
+    {
+      "org": "International Sport Karate Association",
+      "texte": "I.S.K.A. World Muay Thai Heavyweight Champion (1996)"
+    },
+    {
+      "org": "World Kickboxing Association",
+      "texte": "W.K.A. World Kickboxing Heavyweight Champion (1983)"
+    },
+    {
+      "org": "World Kickboxing Association",
+      "texte": "W.K.A. World Muay Thai Heavyweight Champion (1994)"
+    },
+    {
+      "org": "Other",
+      "texte": "W.K.C. Light-Heavyweight World Champion (1983)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame (Pioneer wing, Class of 2017)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Heavyweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "One successful title defense"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Encyclopedia Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Mark Coleman"
+    },
+    {
+      "org": "Extreme Fighting",
+      "texte": "Extreme Fighting Heavyweight Championship 3 Marcus \"Conan\" Silveira"
+    },
+    {
+      "org": "Extreme Fighting",
+      "texte": "Extreme Fighting Heavyweight Championship 4 Murakami Kazanari"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "1997 Most Outstanding Fighter"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "1997 Fight of the Year vs. Mark Coleman on July 27"
+    },
+    {
+      "org": "Black Belt Magazine",
+      "texte": "2001 Full-Contact Fighter of the Year"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids lourds",
+      "Hall of Fame de l'UFC (2017)",
+      "1 défense de titre à l'UFC",
+      "Combat de l'année (1997)",
+      "Bonus UFC : 1× Combat de la soirée"
+    ],
+    "en": [
+      "UFC Heavyweight Champion",
+      "UFC Hall of Fame (2017)",
+      "1 UFC title defense",
+      "Fight of the Year (1997)",
+      "UFC bonuses: 1× Fight of the Night"
+    ]
+  },
+  "image_commons": "Maurice Smith 1999.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Maurice_Smith_(fighter)",
+    "wikidata": "https://www.wikidata.org/wiki/Q2698144",
+    "ufc_com": "https://www.ufc.com/athlete/maurice-smith"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_infobox",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "allonge_cm",
+    "palmares.defaites_decision",
+    "palmares.defaites_ko",
+    "palmares.defaites_soumission",
+    "palmares.victoires_decision",
+    "palmares.victoires_ko",
+    "palmares.victoires_soumission",
+    "stats_ufc (absentes de la fiche ufc.com)"
+  ],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 13-14, wikipedia_infobox 0-0, ufc_com 0-0"
+  },
+  "maj": "2026-10-20",
+  "stats_jeu": {
+    "precision": 77,
+    "puissance": 77,
+    "vitesse": 77,
+    "takedown": 77,
+    "controle": 77,
+    "soumission": 77,
+    "menton": 77,
+    "esquive": 77,
+    "defenseTd": 77,
+    "categorie_frappe": 77,
+    "categorie_lutte": 77,
+    "categorie_defense": 77,
+    "globale": 77,
+    "style": "complet",
+    "estimees": [
+      "precision",
+      "puissance",
+      "vitesse",
+      "takedown",
+      "controle",
+      "soumission",
+      "menton",
+      "esquive",
+      "defenseTd"
+    ],
+    "formule_version": 2
+  }
+}

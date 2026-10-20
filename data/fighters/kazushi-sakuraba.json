@@ -1,0 +1,267 @@
+{
+  "id": "kazushi-sakuraba",
+  "nom": "Kazushi Sakuraba",
+  "ufc_slug": "kazushi-sakuraba",
+  "wikipedia_titre": "Kazushi Sakuraba",
+  "surnom": null,
+  "sexe": "M",
+  "pays": "JP",
+  "categorie": "lourds",
+  "statut": "inactif",
+  "date_naissance": "1969-07-14",
+  "taille_cm": 183,
+  "allonge_cm": null,
+  "style": "Catch WrestlingShoot Wrestling",
+  "lieu_naissance": "Japan",
+  "palmares": {
+    "victoires": 26,
+    "defaites": 17,
+    "nuls": 1,
+    "sans_decision": 2,
+    "victoires_ko": 4,
+    "victoires_soumission": 19,
+    "victoires_decision": 3,
+    "defaites_ko": 10,
+    "defaites_soumission": 3,
+    "defaites_decision": 4
+  },
+  "stats_ufc": {
+    "frappes_par_min": 1.26,
+    "precision_frappe_pct": 41,
+    "frappes_encaissees_par_min": 2.03,
+    "defense_frappe_pct": 52.0,
+    "takedowns_par_15min": 1.26,
+    "precision_takedown_pct": 0,
+    "defense_takedown_pct": 49.0,
+    "soumissions_par_15min": 1.74,
+    "knockdowns_par_15min": 0.24,
+    "duree_moyenne_combat_s": 499,
+    "frappes_reussies": 314.0,
+    "takedowns_reussis": 0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 26,
+      "defaites": 17,
+      "nuls": 1,
+      "sans_decision": 2,
+      "v": {
+        "ko": 4,
+        "soumission": 19,
+        "decision": 3,
+        "autre": 0
+      },
+      "d": {
+        "ko": 10,
+        "soumission": 3,
+        "decision": 4,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "1997": 2
+    },
+    "dernier_combat": {
+      "adversaire": "Shinya Aoki",
+      "evenement": "Rizin World Grand Prix 2015: Part 1 - Saraba",
+      "date": "December 29, 2015",
+      "resultat": "Loss",
+      "methode": "TKO (corner stoppage)"
+    },
+    "combats_ufc": 2,
+    "victoires_ufc": 1,
+    "defaites_ufc": 0,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 1,
+    "bonus_fotn": 0,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "armbar",
+      "finitions": 8
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Marcus Silveira",
+      "evenement": "UFC Japan: Ultimate Japan",
+      "date": "December 21, 1997",
+      "resultat": "NC",
+      "methode": "NC (premature stoppage)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": null,
+      "texte": "National championship runner-up (high school)"
+    },
+    {
+      "org": null,
+      "texte": "East Japan freshman championship"
+    },
+    {
+      "org": null,
+      "texte": "All Japan university wrestling championships (fourth place)"
+    },
+    {
+      "org": "Pride Fighting Championships",
+      "texte": "2000 Pride Openweight Grand Prix semi-finalist"
+    },
+    {
+      "org": "Pride Fighting Championships",
+      "texte": "Longest fight in Pride FC history – Pride Grand Prix 2000 Finals (90:00)"
+    },
+    {
+      "org": "Pride Fighting Championships",
+      "texte": "Tied ( Antônio Rodrigo Nogueira ) for most submission wins in PRIDE FC history (11)"
+    },
+    {
+      "org": "Pride Fighting Championships",
+      "texte": "Most total fight time in PRIDE FC history (7 hours 15 mins)"
+    },
+    {
+      "org": "Pride Fighting Championships",
+      "texte": "Tied ( Wanderlei Silva ) for second most decision wins in PRIDE FC history (6)"
+    },
+    {
+      "org": "Pride Fighting Championships",
+      "texte": "Tied ( Igor Vovchanchyn ) for second Most bouts in PRIDE FC history (27) (behind Wanderlei Silva )"
+    },
+    {
+      "org": "Pride Fighting Championships",
+      "texte": "Tied ( Igor Vovchanchyn & Mirko Cro Cop ) for second most wins in PRIDE FC history (18) (behind Wanderlei Silva )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame (Pioneer wing, Class of 2017)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Japan Heavyweight Tournament winner"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First Asian tournament winner in UFC history"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First Japanese tournament winner in UFC history"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Encyclopedia Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (one time) vs. Marcus Silveira"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "Mixed Martial Arts Hall of Fame"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "Wrestling Observer Newsletter Hall of Fame ( Class of 2004 )"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "2001 Best Box Office Draw"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "2001 Feud of the Year (vs. Wanderlei Silva )"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "2000 Best Shootfighter"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "2000 Best Shoot Match (vs. Royce Gracie )"
+    },
+    {
+      "org": "Tokyo Sports",
+      "texte": "Most Valuable Player (2000)"
+    },
+    {
+      "org": "Tokyo Sports",
+      "texte": "Outstanding Performance (1999)"
+    },
+    {
+      "org": "Kingdom",
+      "texte": "Kingdom One Million Yen Tournament (1997)"
+    },
+    {
+      "org": "Nikkan Sports",
+      "texte": "Outstanding Performance Award (1999)"
+    },
+    {
+      "org": "Nikkan Sports",
+      "texte": "Wrestler of the Year (2000)"
+    },
+    {
+      "org": "Pro Wrestling Illustrated",
+      "texte": "Ranked No. 238 of the top 500 singles wrestlers in the PWI 500 in 2017"
+    },
+    {
+      "org": "Pro Wrestling Noah",
+      "texte": "GHC Tag Team Championship ( 1 time ) – with Takashi Sugiura"
+    },
+    {
+      "org": "Tokyo Sports",
+      "texte": "Best Tag Team Award (2020) – with Takashi Sugiura"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Hall of Fame de l'UFC (2017)",
+      "Bonus UFC : 1× Combat de la soirée"
+    ],
+    "en": [
+      "UFC Hall of Fame (2017)",
+      "UFC bonuses: 1× Fight of the Night"
+    ]
+  },
+  "image_commons": "Kazushi Sakuraba 2015.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Kazushi_Sakuraba",
+    "wikidata": "https://www.wikidata.org/wiki/Q1154771",
+    "ufc_com": "https://www.ufc.com/athlete/kazushi-sakuraba"
+  },
+  "champs_sources": {
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "allonge_cm"
+  ],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 26-17, wikipedia_infobox 0-0, ufc_com 26-17"
+  },
+  "maj": "2026-10-20",
+  "stats_jeu": {
+    "precision": 54,
+    "puissance": 52,
+    "vitesse": 46,
+    "takedown": 52,
+    "controle": 50,
+    "soumission": 81,
+    "menton": 30,
+    "esquive": 70,
+    "defenseTd": 52,
+    "categorie_frappe": 51,
+    "categorie_lutte": 61,
+    "categorie_defense": 51,
+    "globale": 57,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 2
+  }
+}

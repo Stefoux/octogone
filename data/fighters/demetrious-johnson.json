@@ -1,0 +1,656 @@
+{
+  "id": "demetrious-johnson",
+  "nom": "Demetrious Johnson",
+  "ufc_slug": "demetrious-johnson",
+  "wikipedia_titre": "Demetrious Johnson",
+  "surnom": "Mighty Mouse",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "mouche",
+  "statut": "inactif",
+  "date_naissance": "1986-08-13",
+  "taille_cm": 160,
+  "allonge_cm": 168,
+  "style": null,
+  "lieu_naissance": "Madisonville, United States",
+  "palmares": {
+    "victoires": 25,
+    "defaites": 4,
+    "nuls": 1,
+    "sans_decision": 0,
+    "victoires_ko": 5,
+    "victoires_soumission": 8,
+    "victoires_decision": 12,
+    "defaites_ko": 1,
+    "defaites_soumission": 0,
+    "defaites_decision": 3
+  },
+  "stats_ufc": {
+    "frappes_par_min": 3.43,
+    "precision_frappe_pct": 55,
+    "frappes_encaissees_par_min": 1.66,
+    "defense_frappe_pct": 67.0,
+    "takedowns_par_15min": 3.35,
+    "precision_takedown_pct": 50,
+    "defense_takedown_pct": 66.0,
+    "soumissions_par_15min": 0.52,
+    "knockdowns_par_15min": 0.16,
+    "duree_moyenne_combat_s": 1076,
+    "frappes_reussies": 1291.0,
+    "takedowns_reussis": 74.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 25,
+      "defaites": 4,
+      "nuls": 1,
+      "sans_decision": 0,
+      "v": {
+        "ko": 5,
+        "soumission": 8,
+        "decision": 12,
+        "autre": 0
+      },
+      "d": {
+        "ko": 1,
+        "soumission": 0,
+        "decision": 3,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2011": 3,
+      "2012": 3,
+      "2013": 3,
+      "2014": 2,
+      "2015": 2,
+      "2016": 2,
+      "2017": 2,
+      "2018": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Adriano Moraes",
+      "evenement": "ONE Fight Night 10",
+      "date": "May 5, 2023",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 18,
+    "victoires_ufc": 15,
+    "defaites_ufc": 2,
+    "victoires_decision_5_rounds": 6,
+    "combats_5_rounds_gagnes": 10,
+    "bonus_fotn": 3,
+    "bonus_potn": 5,
+    "bonus_kotn": 1,
+    "bonus_sotn": 1,
+    "combats_fotn": [
+      {
+        "adversaire": "Henry Cejudo",
+        "evenement": "UFC 227",
+        "date": "August 4, 2018"
+      },
+      {
+        "adversaire": "John Dodson",
+        "evenement": "UFC on Fox: Johnson vs. Dodson",
+        "date": "January 26, 2013"
+      },
+      {
+        "adversaire": "Ian McCall",
+        "evenement": "UFC on FX: Alves vs. Kampmann",
+        "date": "March 3, 2012"
+      }
+    ],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Flyweight Championship",
+        "evenement": "UFC 216",
+        "date": "October 7, 2017"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Flyweight Championship",
+        "evenement": "UFC on Fox: Johnson vs. Reis",
+        "date": "April 15, 2017"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Flyweight Championship",
+        "evenement": "The Ultimate Fighter: Tournament of Champions Finale",
+        "date": "December 3, 2016"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Flyweight Championship",
+        "evenement": "UFC 197",
+        "date": "April 23, 2016"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Flyweight Championship",
+        "evenement": "UFC 191",
+        "date": "September 5, 2015"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Flyweight Championship",
+        "evenement": "UFC 186",
+        "date": "April 25, 2015"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Flyweight Championship",
+        "evenement": "UFC 178",
+        "date": "September 27, 2014"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Flyweight Championship",
+        "evenement": "UFC 174",
+        "date": "June 14, 2014"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Flyweight Championship",
+        "evenement": "UFC on Fox: Johnson vs. Benavidez 2",
+        "date": "December 14, 2013"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Flyweight Championship",
+        "evenement": "UFC on Fox: Johnson vs. Moraga",
+        "date": "July 27, 2013"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Flyweight Championship",
+        "evenement": "UFC on Fox: Johnson vs. Dodson",
+        "date": "January 26, 2013"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Flyweight Tournament and the inaugural UFC Flyweight Championship",
+        "evenement": "UFC 152",
+        "date": "September 22, 2012"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "armbar",
+      "finitions": 4
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Norifumi Yamamoto",
+      "evenement": "UFC 126",
+      "date": "February 5, 2011",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    {
+      "org": "ONE Championship",
+      "texte": "ONE Hall of Fame (inaugural inductee, 2024)"
+    },
+    {
+      "org": "ONE Championship",
+      "texte": "ONE Flyweight Championship (One time, former)"
+    },
+    {
+      "org": "ONE Championship",
+      "texte": "One successful title defense"
+    },
+    {
+      "org": "ONE Championship",
+      "texte": "2019 ONE Flyweight World Grand Prix Champion"
+    },
+    {
+      "org": "ONE Championship",
+      "texte": "Performance of the Night (One time) vs. Adriano Moraes"
+    },
+    {
+      "org": "ONE Championship",
+      "texte": "2022 MMA Knockout of the Year vs. Adriano Moraes at ONE on Prime Video 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame ( Modern Wing , Class of 2026)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Flyweight Championship (One time, inaugural)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Eleven successful title defenses"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most consecutive title defenses in UFC history (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most consecutive title defenses in UFC flyweight division history (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most successful title defenses in UFC history (11) (behind Jon Jones )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Longest title reign in UFC Flyweight division history (2142 days)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most wins in UFC flyweight title fights (12)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most wins in UFC title fights (12)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most UFC flyweight title fights (13)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most UFC title fights (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most submissions in UFC title fights (5)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most finishes in UFC title fights (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Flyweight Championship Tournament Winner"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Three times) vs. Ian McCall , John Dodson , and Henry Cejudo"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Knockout of the Night (One time) vs. Joseph Benavidez"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Submission of the Night (One time) vs. John Moraga"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Four times) vs. Kyoji Horiguchi , Henry Cejudo , Wilson Reis , and Ray Borg"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second fighter on UFC roster to be awarded bonus payments in all four possible categories (Fight, Knockout, Performance & Submission of the Night awards)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most post-fight bonuses in UFC Flyweight division history (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most consecutive wins in UFC Flyweight division history (13)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Jon Jones , Georges St-Pierre , Max Holloway & Khabib Nurmagomedov ) for fifth longest win streak in UFC history (13)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth longest unbeaten streak in UFC history (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Joseph Benavidez ) for second most wins in UFC Flyweight division history (13) (behind Alexandre Pantoja )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Deiveson Figueiredo ) for second most finishes in UFC Flyweight division history (7) (behind Alexandre Pantoja )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second for most submission wins in UFC Flyweight division history (5) (behind Alexandre Pantoja )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most total fight time in UFC Flyweight division history (4:39:12) (behind Brandon Moreno )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Longest average fight-time in UFC Flyweight division history (18:37)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second longest average fight time in UFC history (18:34)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most control time in UFC Flyweight division history (1:26:54)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most significant strikes landed in UFC Flyweight division history (1059) (behind Brandon Moreno )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second highest significant strike percentage in UFC Flyweight division history (57.2%) (behind Joshua Van )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third highest significant strike differential in UFC Flyweight division history (2.01)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Highest significant strike defense percentage in UFC Flyweight division history (68.4%)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth fewest number of strikes absorbed per minute in UFC Flyweight division history (1.78)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fourth most total strikes landed in UFC Flyweight division history (1678)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most takedowns landed in UFC Flyweight division history (58)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth most takedowns landed in UFC history (74)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third & tied ( Khamzat Chimaev ) for fourth most takedowns landed in a UFC title fight (14 vs. Kyoji Horiguchi & 12 vs. John Moraga )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Royce Gracie ) for most armbar submission wins in UFC history (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Sixth most bouts in UFC Flyweight division history (15)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Latest submission and finish in UFC history (4:59 in R5) vs. Kyoji Horiguchi"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2011: Half-Year Awards: Best Newcomer of the 1HY & Ranked #7 Upset of the Year vs. Miguel Torres"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2012: Ranked #3 Fighter of the Year & Ranked #7 Fight of the Year vs. Joseph Benavidez 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2013: Ranked #2 Fighter of the Year , Ranked #7 Fight of the Year vs. John Dodson & Ranked #10 Knockout of the Year vs. Joseph Benavidez 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2015: Ranked #7 Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2017: Submission of the Year vs. Ray Borg , Ranked #3 Fighter of the Year & Ranked #8 Submission of the Year vs. Wilson Reis"
+    },
+    {
+      "org": "Business Insider",
+      "texte": "2010s #40 Ranked Most Dominant Athlete of the Decade"
+    },
+    {
+      "org": "The Athletic",
+      "texte": "2010s Men's Flyweight Fighter of the Decade"
+    },
+    {
+      "org": "BJPenn.com",
+      "texte": "2010s #6 Ranked Fighter of the Decade"
+    },
+    {
+      "org": "MMA Sucka",
+      "texte": "2017 Submission of the Year vs. Ray Borg at UFC 216"
+    },
+    {
+      "org": "MMA Sucka",
+      "texte": "2010s Fighter of the Decade"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2017 Fighter of the Year"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2017 Submission of the Year vs. Ray Borg at UFC 216"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2010s Flyweight Fighter of the Decade"
+    },
+    {
+      "org": "MMA Weekly",
+      "texte": "2013 Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2015 #3 Ranked Submission of the Year vs. Kyoji Horiguchi at UFC 186"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2015 April Submission of the Month vs. Kyoji Horiguchi at UFC 186"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2017 Submission of the Year vs. Ray Borg at UFC 216"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2017 October Submission of the Month vs. Ray Borg at UFC 216"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2022 August Knockout of the Month vs. Adriano Moraes at ONE on Prime Video 1"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2010s #2 Ranked Fighter of the Decade"
+    },
+    {
+      "org": "Inside MMA",
+      "texte": "2012 Breakthrough Fighter of the Year"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2013 All-Violence First Team"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2017 Submission of the Year vs. Ray Borg at UFC 216"
+    },
+    {
+      "org": "ESPY Awards",
+      "texte": "2017 Fighter of The Year"
+    },
+    {
+      "org": "Fox Sports",
+      "texte": "2013 Fighter of the Year"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2013 Male Fighter of the Year"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2017 Male Fighter of the Year tied with Max Holloway"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2018 Most Noteworthy Match of the Year vs. Henry Cejudo II at UFC 227"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "UFC/MMA 'Fighter of the Year' 2017 – Top 5 List No. 3"
+    },
+    {
+      "org": "MMA Mania",
+      "texte": "UFC/MMA 'Submission of the Year' 2017 – Top 5 List No. 1 vs. Ray Borg at UFC 216"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2012 #8 Ranked Fighter of the Year"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2013 Fighter of the Year"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2014 #8 Ranked Fighter of the Year"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2017 Fighter of the Year"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2017 Submission of the Year vs. Ray Borg at UFC 216"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2017 Submission of the Year vs. Ray Borg at UFC 216"
+    },
+    {
+      "org": "ESPN",
+      "texte": "#4 Ranked Men's MMA Fighter of the 21st Century"
+    },
+    {
+      "org": "Sports Illustrated",
+      "texte": "2017 Fighter of the Year"
+    },
+    {
+      "org": "Yahoo Sports",
+      "texte": "2017 Submission of the Year vs. Ray Borg at UFC 216"
+    },
+    {
+      "org": "Pundit Arena",
+      "texte": "2017 Submission of the Year vs. Ray Borg at UFC 216"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2017 Submission of the Year vs. Ray Borg at UFC 216"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2010s #4 Ranked Fighter of the Decade"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "#4 Ranked UFC Fighter of All Time"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "2017 Most Outstanding Fighter of the Year"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2017 Submission of the Year vs. Ray Borg at UFC 216"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2017 #2 Ranked UFC Fighter of the Year"
+    },
+    {
+      "org": "CBS Sports",
+      "texte": "2026 #1 Ranked American fighter in UFC history"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2017 Submission of the Year vs. Ray Borg at UFC 216"
+    },
+    {
+      "org": "Cageside Press",
+      "texte": "2017 Submission of the Year vs. Ray Borg at UFC 216"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids mouche",
+      "Champion ONE des poids mouche",
+      "Hall of Fame de l'UFC (2026)",
+      "11 défenses de titre à l'UFC",
+      "Combattant de l'année (2013, 2017)",
+      "Bonus UFC : 5× Performance de la soirée, 3× Combat de la soirée, 1× KO de la soirée, 1× Soumission de la soirée"
+    ],
+    "en": [
+      "UFC Flyweight Champion",
+      "ONE Flyweight Champion",
+      "UFC Hall of Fame (2026)",
+      "11 UFC title defenses",
+      "Fighter of the Year (2013, 2017)",
+      "UFC bonuses: 5× Performance of the Night, 3× Fight of the Night, 1× Knockout of the Night, 1× Submission of the Night"
+    ]
+  },
+  "image_commons": "Demetrious Johnson 2024.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Demetrious_Johnson",
+    "wikidata": "https://www.wikidata.org/wiki/Q2698272",
+    "ufc_com": "https://www.ufc.com/athlete/demetrious-johnson"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "palmares (wikipedia_tableau 25-4, wikipedia_infobox 0-0, ufc_com 27-3)"
+  ],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 25-4, wikipedia_infobox 0-0, ufc_com 27-3"
+  },
+  "maj": "2026-10-20",
+  "stats_jeu": {
+    "precision": 89,
+    "puissance": 50,
+    "vitesse": 64,
+    "takedown": 92,
+    "controle": 96,
+    "soumission": 69,
+    "menton": 99,
+    "esquive": 99,
+    "defenseTd": 73,
+    "categorie_frappe": 68,
+    "categorie_lutte": 86,
+    "categorie_defense": 90,
+    "globale": 85,
+    "style": "lutteur",
+    "estimees": [],
+    "formule_version": 2
+  }
+}

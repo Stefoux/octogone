@@ -1,0 +1,287 @@
+{
+  "source": "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+  "source_officielle": "https://www.ufc.com/honors/ufc-hall-of-fame",
+  "date": "2026-10-20",
+  "membres": [
+    {
+      "nom": "Royce Gracie",
+      "aile": "pionniers",
+      "date_intronisation": "November 21, 2003",
+      "id": "royce-gracie",
+      "en_base": true
+    },
+    {
+      "nom": "Ken Shamrock",
+      "aile": "pionniers",
+      "date_intronisation": "November 21, 2003",
+      "id": "ken-shamrock",
+      "en_base": true
+    },
+    {
+      "nom": "Dan Severn",
+      "aile": "pionniers",
+      "date_intronisation": "April 16, 2005",
+      "id": "dan-severn",
+      "en_base": true
+    },
+    {
+      "nom": "Randy Couture",
+      "aile": "pionniers",
+      "date_intronisation": "June 24, 2006",
+      "id": "randy-couture",
+      "en_base": true
+    },
+    {
+      "nom": "Mark Coleman",
+      "aile": "pionniers",
+      "date_intronisation": "March 1, 2008",
+      "id": "mark-coleman",
+      "en_base": true
+    },
+    {
+      "nom": "Chuck Liddell",
+      "aile": "pionniers",
+      "date_intronisation": "July 11, 2009",
+      "id": "chuck-liddell",
+      "en_base": true
+    },
+    {
+      "nom": "Matt Hughes",
+      "aile": "pionniers",
+      "date_intronisation": "May 29, 2010",
+      "id": "matt-hughes",
+      "en_base": true
+    },
+    {
+      "nom": "Tito Ortiz",
+      "aile": "pionniers",
+      "date_intronisation": "July 7, 2012",
+      "id": "tito-ortiz",
+      "en_base": true
+    },
+    {
+      "nom": "Pat Miletich",
+      "aile": "pionniers",
+      "date_intronisation": "July 5, 2014",
+      "id": "pat-miletich",
+      "en_base": true
+    },
+    {
+      "nom": "Bas Rutten",
+      "aile": "pionniers",
+      "date_intronisation": "July 11, 2015",
+      "id": "bas-rutten",
+      "en_base": true
+    },
+    {
+      "nom": "Antônio Rodrigo Nogueira",
+      "aile": "pionniers",
+      "date_intronisation": "July 10, 2016",
+      "id": "antonio-rodrigo-nogueira",
+      "en_base": true
+    },
+    {
+      "nom": "Maurice Smith",
+      "aile": "pionniers",
+      "date_intronisation": "July 6, 2017",
+      "id": "maurice-smith",
+      "en_base": true
+    },
+    {
+      "nom": "Kazushi Sakuraba",
+      "aile": "pionniers",
+      "date_intronisation": "July 6, 2017",
+      "id": "kazushi-sakuraba",
+      "en_base": true
+    },
+    {
+      "nom": "Matt Serra",
+      "aile": "pionniers",
+      "date_intronisation": "July 5, 2018",
+      "id": "matt-serra",
+      "en_base": true
+    },
+    {
+      "nom": "Rich Franklin",
+      "aile": "pionniers",
+      "date_intronisation": "July 5, 2019",
+      "id": "rich-franklin",
+      "en_base": true
+    },
+    {
+      "nom": "Kevin Randleman",
+      "aile": "pionniers",
+      "date_intronisation": "September 23, 2021",
+      "id": "kevin-randleman",
+      "en_base": true
+    },
+    {
+      "nom": "Jens Pulver",
+      "aile": "pionniers",
+      "date_intronisation": "July 6, 2023",
+      "id": "jens-pulver",
+      "en_base": true
+    },
+    {
+      "nom": "Anderson Silva",
+      "aile": "pionniers",
+      "date_intronisation": "July 6, 2023",
+      "id": "anderson-silva",
+      "en_base": true
+    },
+    {
+      "nom": "Wanderlei Silva",
+      "aile": "pionniers",
+      "date_intronisation": "June 27, 2024",
+      "id": "wanderlei-silva",
+      "en_base": true
+    },
+    {
+      "nom": "Vitor Belfort",
+      "aile": "pionniers",
+      "date_intronisation": "June 26, 2025",
+      "id": "vitor-belfort",
+      "en_base": true
+    },
+    {
+      "nom": "Mark Kerr",
+      "aile": "pionniers",
+      "date_intronisation": "June 26, 2025",
+      "id": "mark-kerr",
+      "en_base": true
+    },
+    {
+      "nom": "Forrest Griffin",
+      "aile": "moderne",
+      "date_intronisation": "July 6, 2013",
+      "id": "forrest-griffin",
+      "en_base": true
+    },
+    {
+      "nom": "B.J. Penn",
+      "aile": "moderne",
+      "date_intronisation": "July 11, 2015",
+      "id": "b-j-penn",
+      "en_base": true
+    },
+    {
+      "nom": "Urijah Faber",
+      "aile": "moderne",
+      "date_intronisation": "July 6, 2017",
+      "id": "urijah-faber",
+      "en_base": true
+    },
+    {
+      "nom": "Ronda Rousey",
+      "aile": "moderne",
+      "date_intronisation": "July 5, 2018",
+      "id": "ronda-rousey",
+      "en_base": true
+    },
+    {
+      "nom": "Rashad Evans",
+      "aile": "moderne",
+      "date_intronisation": "July 5, 2019",
+      "id": "rashad-evans",
+      "en_base": true
+    },
+    {
+      "nom": "Michael Bisping",
+      "aile": "moderne",
+      "date_intronisation": "July 5, 2019",
+      "id": "michael-bisping",
+      "en_base": true
+    },
+    {
+      "nom": "Georges St-Pierre",
+      "aile": "moderne",
+      "date_intronisation": "September 23, 2021",
+      "id": "georges-st-pierre",
+      "en_base": true
+    },
+    {
+      "nom": "Daniel Cormier",
+      "aile": "moderne",
+      "date_intronisation": "June 30, 2022",
+      "id": "daniel-cormier",
+      "en_base": true
+    },
+    {
+      "nom": "Khabib Nurmagomedov",
+      "aile": "moderne",
+      "date_intronisation": "June 30, 2022",
+      "id": "khabib-nurmagomedov",
+      "en_base": true
+    },
+    {
+      "nom": "Donald Cerrone",
+      "aile": "moderne",
+      "date_intronisation": "July 6, 2023",
+      "id": "donald-cerrone",
+      "en_base": true
+    },
+    {
+      "nom": "José Aldo",
+      "aile": "moderne",
+      "date_intronisation": "July 6, 2023",
+      "id": "jose-aldo",
+      "en_base": true
+    },
+    {
+      "nom": "Maurício Rua",
+      "aile": "moderne",
+      "date_intronisation": "June 27, 2024",
+      "id": "mauricio-rua",
+      "en_base": true
+    },
+    {
+      "nom": "Joanna Jędrzejczyk",
+      "aile": "moderne",
+      "date_intronisation": "June 27, 2024",
+      "id": "joanna-jedrzejczyk",
+      "en_base": true
+    },
+    {
+      "nom": "Frankie Edgar",
+      "aile": "moderne",
+      "date_intronisation": "June 27, 2024",
+      "id": "frankie-edgar",
+      "en_base": true
+    },
+    {
+      "nom": "Robbie Lawler",
+      "aile": "moderne",
+      "date_intronisation": "June 26, 2025",
+      "id": "robbie-lawler",
+      "en_base": true
+    },
+    {
+      "nom": "Amanda Nunes",
+      "aile": "moderne",
+      "date_intronisation": "June 26, 2025",
+      "id": "amanda-nunes",
+      "en_base": true
+    },
+    {
+      "nom": "Dominick Cruz",
+      "aile": "moderne",
+      "date_intronisation": "July 9, 2026",
+      "id": "dominick-cruz",
+      "en_base": true
+    },
+    {
+      "nom": "Demetrious Johnson",
+      "aile": "moderne",
+      "date_intronisation": "July 9, 2026",
+      "id": "demetrious-johnson",
+      "en_base": true
+    },
+    {
+      "nom": "Chris Weidman",
+      "aile": "moderne",
+      "date_intronisation": "July 9, 2026",
+      "id": "chris-weidman",
+      "en_base": true
+    }
+  ]
+}

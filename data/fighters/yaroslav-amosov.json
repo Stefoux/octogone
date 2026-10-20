@@ -14,11 +14,11 @@
   "style": "Sambo",
   "lieu_naissance": "Irpin, Ukraine",
   "palmares": {
-    "victoires": 29,
+    "victoires": 30,
     "defaites": 1,
     "nuls": 0,
     "sans_decision": 0,
-    "victoires_ko": 8,
+    "victoires_ko": 9,
     "victoires_soumission": 13,
     "victoires_decision": 8,
     "defaites_ko": 1,
@@ -41,12 +41,12 @@
   },
   "ufc": {
     "palmares_tableau": {
-      "victoires": 29,
+      "victoires": 30,
       "defaites": 1,
       "nuls": 0,
       "sans_decision": 0,
       "v": {
-        "ko": 8,
+        "ko": 9,
         "soumission": 13,
         "decision": 8,
         "autre": 0
@@ -176,12 +176,12 @@
   },
   "a_verifier": [],
   "ecarts_sources": {
-    "palmares": "wikipedia_tableau 29-1, wikipedia_infobox 30-1, ufc_com 29-1"
+    "palmares": "wikipedia_tableau 30-1, wikipedia_infobox 30-1, ufc_com 29-1"
   },
-  "maj": "2026-10-05",
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 72,
-    "puissance": 58,
+    "puissance": 59,
     "vitesse": 57,
     "takedown": 72,
     "controle": 68,
@@ -189,7 +189,7 @@
     "menton": 99,
     "esquive": 81,
     "defenseTd": 96,
-    "categorie_frappe": 62,
+    "categorie_frappe": 63,
     "categorie_lutte": 74,
     "categorie_defense": 92,
     "globale": 78,

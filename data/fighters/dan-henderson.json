@@ -14,16 +14,16 @@
   "style": "Greco-Roman wrestling",
   "lieu_naissance": "Downey, États-Unis",
   "palmares": {
+    "victoires": 32,
+    "defaites": 15,
+    "nuls": 0,
+    "sans_decision": 0,
     "victoires_ko": 17,
     "victoires_soumission": 1,
     "victoires_decision": 14,
     "defaites_ko": 3,
     "defaites_soumission": 4,
-    "defaites_decision": 8,
-    "nuls": 0,
-    "sans_decision": 0,
-    "victoires": 32,
-    "defaites": 15
+    "defaites_decision": 8
   },
   "stats_ufc": {
     "frappes_par_min": null,
@@ -41,14 +41,14 @@
   },
   "ufc": {
     "palmares_tableau": {
-      "victoires": 26,
+      "victoires": 32,
       "defaites": 15,
       "nuls": 0,
       "sans_decision": 0,
       "v": {
-        "ko": 14,
+        "ko": 17,
         "soumission": 1,
-        "decision": 11,
+        "decision": 14,
         "autre": 0
       },
       "d": {
@@ -59,7 +59,7 @@
       }
     },
     "combats_ufc_par_annee": {
-      "1998": 1,
+      "1998": 2,
       "2007": 1,
       "2008": 2,
       "2009": 2,
@@ -76,8 +76,8 @@
       "resultat": "Loss",
       "methode": "Decision (unanimous)"
     },
-    "combats_ufc": 17,
-    "victoires_ufc": 8,
+    "combats_ufc": 18,
+    "victoires_ufc": 9,
     "defaites_ufc": 9,
     "victoires_decision_5_rounds": 1,
     "combats_5_rounds_gagnes": 1,
@@ -110,14 +110,14 @@
     "titres": [],
     "technique_favorite": {
       "technique": "punches",
-      "finitions": 8
+      "finitions": 9
     },
     "premier_combat_ufc": {
-      "adversaire": "Carlos Newton",
+      "adversaire": "Allan Goes",
       "evenement": "UFC 17",
       "date": "May 15, 1998",
       "resultat": "Win",
-      "methode": "Decision (split)"
+      "methode": "Decision (unanimous)"
     }
   },
   "champion_actuel": false,
@@ -440,31 +440,29 @@
     "surnom": "ufc_com",
     "pays": "wikidata",
     "categorie": "ufc_com",
-    "palmares": "wikipedia_infobox",
+    "palmares": "wikipedia_tableau",
     "ufc": "wikipedia_tableau",
     "accomplissements_en": "wikipedia"
   },
   "a_verifier": [
     "stats_ufc (absentes de la fiche ufc.com)"
   ],
-  "ecarts_sources": {
-    "palmares": "wikipedia_tableau 26-15, wikipedia_infobox 32-15, ufc_com 32-15"
-  },
-  "maj": "2026-10-04",
+  "ecarts_sources": {},
+  "maj": "2026-10-20",
   "stats_jeu": {
-    "precision": 65,
+    "precision": 67,
     "puissance": 85,
-    "vitesse": 65,
-    "takedown": 65,
+    "vitesse": 67,
+    "takedown": 67,
     "controle": 72,
-    "soumission": 32,
-    "menton": 78,
-    "esquive": 65,
-    "defenseTd": 65,
-    "categorie_frappe": 72,
-    "categorie_lutte": 56,
-    "categorie_defense": 69,
-    "globale": 69,
+    "soumission": 33,
+    "menton": 79,
+    "esquive": 67,
+    "defenseTd": 67,
+    "categorie_frappe": 73,
+    "categorie_lutte": 57,
+    "categorie_defense": 71,
+    "globale": 70,
     "style": "frappeur",
     "estimees": [
       "precision",

@@ -3876,5 +3876,245 @@
     "licence": "CC BY 4.0",
     "licence_url": "https://creativecommons.org/licenses/by/4.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Vitor_Petrino.png"
+  },
+  "b-j-penn": {
+    "fichier": "fighters/b-j-penn.webp",
+    "largeur": 147,
+    "hauteur": 196,
+    "focal_x": 0.5,
+    "focal_y": 0.3495,
+    "visage": {
+      "x": 0.3129,
+      "y": 0.2092,
+      "w": 0.3741,
+      "h": 0.2806
+    },
+    "recadrage": "visage",
+    "fighter_id": "b-j-penn",
+    "titre": "File:US Army 51883 Ultimate Fighting Champion motivates wounded warriors cropped.jpg",
+    "auteur": "Vanessa M. Forloine, Hickam Air Force Base Public Affairs",
+    "licence": "Public domain",
+    "licence_url": null,
+    "source_url": "https://commons.wikimedia.org/wiki/File:US_Army_51883_Ultimate_Fighting_Champion_motivates_wounded_warriors_cropped.jpg"
+  },
+  "dan-severn": {
+    "fichier": "fighters/dan-severn.webp",
+    "largeur": 480,
+    "hauteur": 640,
+    "focal_x": 0.5011,
+    "focal_y": 0.2945,
+    "visage": {
+      "x": 0.2667,
+      "y": 0.1187,
+      "w": 0.4688,
+      "h": 0.3516
+    },
+    "recadrage": "visage",
+    "fighter_id": "dan-severn",
+    "titre": "File:Dan \"The Beast\" Severn 2016.jpg",
+    "auteur": "Mike Kalasnik",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Dan_%22The_Beast%22_Severn_2016.jpg"
+  },
+  "demetrious-johnson": {
+    "fichier": "fighters/demetrious-johnson.webp",
+    "largeur": 461,
+    "hauteur": 615,
+    "focal_x": 0.5011,
+    "focal_y": 0.4503,
+    "visage": {
+      "x": 0.1128,
+      "y": 0.1593,
+      "w": 0.7766,
+      "h": 0.5821
+    },
+    "recadrage": "visage",
+    "fighter_id": "demetrious-johnson",
+    "titre": "File:Demetrious Johnson 2024.png",
+    "auteur": "Onlyfans",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Demetrious_Johnson_2024.png"
+  },
+  "jose-aldo": {
+    "fichier": "fighters/jose-aldo.webp",
+    "largeur": 720,
+    "hauteur": 960,
+    "focal_x": 0.3885,
+    "focal_y": 0.3399,
+    "visage": {
+      "x": 0.0604,
+      "y": 0.0938,
+      "w": 0.6562,
+      "h": 0.4922
+    },
+    "recadrage": "visage",
+    "fighter_id": "jose-aldo",
+    "titre": "File:José Aldo, UFC 189 World Tour London (2) (cropped).jpg",
+    "auteur": "Andrius Petrucenia on Flickr (Original version) UCinternational (Crop)",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jos%C3%A9_Aldo,_UFC_189_World_Tour_London_(2)_(cropped).jpg"
+  },
+  "kazushi-sakuraba": {
+    "fichier": "fighters/kazushi-sakuraba.webp",
+    "largeur": 353,
+    "hauteur": 471,
+    "focal_x": 0.5495,
+    "focal_y": 0.1847,
+    "visage": {
+      "x": 0.3626,
+      "y": 0.0446,
+      "w": 0.3739,
+      "h": 0.2803
+    },
+    "recadrage": "visage",
+    "fighter_id": "kazushi-sakuraba",
+    "titre": "File:Kazushi Sakuraba 2015.jpg",
+    "auteur": "ゾーヒョー",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kazushi_Sakuraba_2015.jpg"
+  },
+  "kevin-randleman": {
+    "fichier": "fighters/kevin-randleman.webp",
+    "largeur": 720,
+    "hauteur": 960,
+    "focal_x": 0.5068,
+    "focal_y": 0.3583,
+    "visage": {
+      "x": 0.1313,
+      "y": 0.0766,
+      "w": 0.751,
+      "h": 0.5633
+    },
+    "recadrage": "visage",
+    "fighter_id": "kevin-randleman",
+    "titre": "File:Kevin Randleman.jpg",
+    "auteur": "Larry Burton on Picasa Web Albums",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kevin_Randleman.jpg"
+  },
+  "mark-kerr": {
+    "fichier": "fighters/mark-kerr.webp",
+    "largeur": 516,
+    "hauteur": 689,
+    "focal_x": 0.501,
+    "focal_y": 0.3447,
+    "visage": {
+      "x": 0.314,
+      "y": 0.2046,
+      "w": 0.374,
+      "h": 0.2801
+    },
+    "recadrage": "visage",
+    "fighter_id": "mark-kerr",
+    "titre": "File:Mark Kerr at TIFF 2025 02.jpg",
+    "auteur": "Gabriel Hutchinson",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mark_Kerr_at_TIFF_2025_02.jpg"
+  },
+  "pat-miletich": {
+    "fichier": "fighters/pat-miletich.webp",
+    "largeur": 285,
+    "hauteur": 380,
+    "focal_x": 0.5983,
+    "focal_y": 0.1829,
+    "visage": {
+      "x": 0.4,
+      "y": 0.0342,
+      "w": 0.3965,
+      "h": 0.2974
+    },
+    "recadrage": "visage",
+    "fighter_id": "pat-miletich",
+    "titre": "File:PatMiletich.png",
+    "auteur": "Pat Miletich",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:PatMiletich.png"
+  },
+  "randy-couture": {
+    "fichier": "fighters/randy-couture.webp",
+    "largeur": 720,
+    "hauteur": 960,
+    "focal_x": 0.4692,
+    "focal_y": 0.3939,
+    "visage": {
+      "x": 0.2139,
+      "y": 0.2024,
+      "w": 0.5106,
+      "h": 0.3829
+    },
+    "recadrage": "visage",
+    "fighter_id": "randy-couture",
+    "titre": "File:Randy Couture by Gage Skidmore.jpg",
+    "auteur": "Gage Skidmore",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Randy_Couture_by_Gage_Skidmore.jpg"
+  },
+  "ronda-rousey": {
+    "fichier": "fighters/ronda-rousey.webp",
+    "largeur": 720,
+    "hauteur": 960,
+    "focal_x": 0.5041,
+    "focal_y": 0.2797,
+    "visage": {
+      "x": 0.276,
+      "y": 0.1086,
+      "w": 0.4562,
+      "h": 0.3422
+    },
+    "recadrage": "visage",
+    "fighter_id": "ronda-rousey",
+    "titre": "File:Rousey HOF 2018 (cropped).jpg",
+    "auteur": "Shared Account",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Rousey_HOF_2018_(cropped).jpg"
+  },
+  "vitor-belfort": {
+    "fichier": "fighters/vitor-belfort.webp",
+    "largeur": 248,
+    "hauteur": 331,
+    "focal_x": 0.502,
+    "focal_y": 0.3549,
+    "visage": {
+      "x": 0.1653,
+      "y": 0.1027,
+      "w": 0.6734,
+      "h": 0.5045
+    },
+    "recadrage": "visage",
+    "fighter_id": "vitor-belfort",
+    "titre": "File:Vitor belfort cropped.jpg",
+    "auteur": "https://www.flickr.com/photos/tiagoluiz/",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Vitor_belfort_cropped.jpg"
+  },
+  "wanderlei-silva": {
+    "fichier": "fighters/wanderlei-silva.webp",
+    "largeur": 719,
+    "hauteur": 960,
+    "focal_x": 0.5,
+    "focal_y": 0.3412,
+    "visage": {
+      "x": 0.2746,
+      "y": 0.1724,
+      "w": 0.4507,
+      "h": 0.3377
+    },
+    "recadrage": "visage",
+    "fighter_id": "wanderlei-silva",
+    "titre": "File:Wanderlei Cesar Silva (2006) retusche.jpg",
+    "auteur": "LeeBrimelow, derivative work Lämpel",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Wanderlei_Cesar_Silva_(2006)_retusche.jpg"
   }
 }

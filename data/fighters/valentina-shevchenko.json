@@ -163,6 +163,13 @@
         "titre": "UFC Women's Flyweight Championship",
         "evenement": "UFC 238",
         "date": "June 8, 2019"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Women's Flyweight Championship",
+        "evenement": "UFC 231",
+        "date": "December 8, 2018"
       }
     ],
     "technique_favorite": {
@@ -660,7 +667,7 @@
   },
   "a_verifier": [],
   "ecarts_sources": {},
-  "maj": "2026-10-04",
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 87,
     "puissance": 60,

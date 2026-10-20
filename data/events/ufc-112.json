@@ -1,0 +1,29 @@
+{
+  "id": "ufc-112",
+  "nom": "UFC 112",
+  "date": "2010-04-10",
+  "lieu": "Concert Arena, Yas Island",
+  "ville": "Abu Dhabi",
+  "pays": "AE",
+  "resultat": "Frankie Edgar bat B.J. Penn par décision unanime après 5 rounds.",
+  "resultat_en": "Frankie Edgar defeats B.J. Penn by unanimous decision after 5 rounds.",
+  "contexte": "Premier gala de l'UFC au Moyen-Orient et premier en plein air, à Abu Dhabi : Frankie Edgar détrône B.J. Penn aux points et devient champion des poids légers.",
+  "contexte_en": "The UFC's first event in the Middle East and its first held outdoors, in Abu Dhabi: Frankie Edgar dethroned B.J. Penn on points to become lightweight champion.",
+  "tirage": null,
+  "resultats": [
+    {
+      "vainqueur": "Frankie Edgar",
+      "perdant": "B.J. Penn",
+      "methode": "décision unanime",
+      "round": 5,
+      "temps": "5:00"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/UFC_112",
+    "https://en.wikipedia.org/wiki/Frankie_Edgar",
+    "https://en.wikipedia.org/wiki/B.J._Penn"
+  ],
+  "a_verifier": [],
+  "genere_par": "fetch_moments.py"
+}

@@ -152,6 +152,13 @@
       },
       {
         "action": "won",
+        "interim": false,
+        "titre": "UFC Featherweight Championship",
+        "evenement": "UFC 212",
+        "date": "June 3, 2017"
+      },
+      {
+        "action": "won",
         "interim": true,
         "titre": "UFC Featherweight Championship",
         "evenement": "UFC 206",
@@ -697,7 +704,7 @@
   "ecarts_sources": {
     "palmares": "wikipedia_tableau 28-9, wikipedia_infobox 28-9, ufc_com 27-9"
   },
-  "maj": "2026-10-04",
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 70,
     "puissance": 77,

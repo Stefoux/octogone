@@ -14,11 +14,11 @@
   "style": "AMM",
   "lieu_naissance": "Guadalajara, Mexique",
   "palmares": {
-    "victoires": 17,
+    "victoires": 18,
     "defaites": 5,
     "nuls": 1,
     "sans_decision": 0,
-    "victoires_ko": 4,
+    "victoires_ko": 5,
     "victoires_soumission": 2,
     "victoires_decision": 11,
     "defaites_ko": 0,
@@ -41,12 +41,12 @@
   },
   "ufc": {
     "palmares_tableau": {
-      "victoires": 17,
+      "victoires": 18,
       "defaites": 5,
       "nuls": 1,
       "sans_decision": 0,
       "v": {
-        "ko": 4,
+        "ko": 5,
         "soumission": 2,
         "decision": 11,
         "autre": 0
@@ -302,21 +302,21 @@
   },
   "a_verifier": [],
   "ecarts_sources": {
-    "palmares": "wikipedia_tableau 17-5, wikipedia_infobox 17-5, ufc_com 18-5"
+    "palmares": "wikipedia_tableau 18-5, wikipedia_infobox 17-5, ufc_com 18-5"
   },
-  "maj": "2026-10-04",
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 51,
-    "puissance": 51,
+    "puissance": 54,
     "vitesse": 74,
     "takedown": 40,
-    "controle": 60,
+    "controle": 58,
     "soumission": 53,
     "menton": 99,
     "esquive": 81,
     "defenseTd": 57,
-    "categorie_frappe": 59,
-    "categorie_lutte": 51,
+    "categorie_frappe": 60,
+    "categorie_lutte": 50,
     "categorie_defense": 79,
     "globale": 64,
     "style": "frappeur",

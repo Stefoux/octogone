@@ -88,7 +88,15 @@
         "date": "September 7, 2024"
       }
     ],
-    "titres": [],
+    "titres": [
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Women's Flyweight Championship",
+        "evenement": "UFC 332",
+        "date": "October 3, 2026"
+      }
+    ],
     "technique_favorite": {
       "technique": "armbar",
       "finitions": 6
@@ -196,7 +204,7 @@
   "ecarts_sources": {
     "palmares": "wikipedia_tableau 21-5, wikipedia_infobox 21-5, ufc_com 20-5"
   },
-  "maj": "2026-10-04",
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 63,
     "puissance": 56,

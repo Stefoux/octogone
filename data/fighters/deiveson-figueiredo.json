@@ -117,6 +117,13 @@
         "titre": "UFC Flyweight Championship",
         "evenement": "UFC 255",
         "date": "November 21, 2020"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Flyweight Championship",
+        "evenement": "UFC Fight Night: Figueiredo vs. Benavidez 2",
+        "date": "July 19, 2020"
       }
     ],
     "technique_favorite": {
@@ -350,7 +357,7 @@
   "ecarts_sources": {
     "palmares": "wikipedia_tableau 25-8, wikipedia_infobox 25-8, ufc_com 25-7"
   },
-  "maj": "2026-10-04",
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 86,
     "puissance": 73,

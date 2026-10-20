@@ -14,16 +14,16 @@
   "style": "AMM",
   "lieu_naissance": "Lisbon, Portugal",
   "palmares": {
+    "victoires": 13,
+    "defaites": 0,
+    "nuls": 0,
+    "sans_decision": 0,
     "victoires_ko": 8,
     "victoires_soumission": 1,
     "victoires_decision": 4,
     "defaites_ko": 0,
     "defaites_soumission": 0,
-    "defaites_decision": 0,
-    "nuls": 0,
-    "sans_decision": 0,
-    "victoires": 13,
-    "defaites": 0
+    "defaites_decision": 0
   },
   "stats_ufc": {
     "frappes_par_min": 3.68,
@@ -41,14 +41,14 @@
   },
   "ufc": {
     "palmares_tableau": {
-      "victoires": 11,
+      "victoires": 13,
       "defaites": 0,
       "nuls": 0,
       "sans_decision": 0,
       "v": {
-        "ko": 7,
+        "ko": 8,
         "soumission": 1,
-        "decision": 3,
+        "decision": 4,
         "autre": 0
       },
       "d": {
@@ -136,16 +136,14 @@
   "champs_sources": {
     "pays": "wikidata",
     "categorie": "ufc_com",
-    "palmares": "wikipedia_infobox",
+    "palmares": "wikipedia_tableau",
     "stats_ufc": "ufc_com",
     "ufc": "wikipedia_tableau",
     "accomplissements_en": "wikipedia"
   },
   "a_verifier": [],
-  "ecarts_sources": {
-    "palmares": "wikipedia_tableau 11-0, wikipedia_infobox 13-0, ufc_com 13-0"
-  },
-  "maj": "2026-10-05",
+  "ecarts_sources": {},
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 97,
     "puissance": 78,

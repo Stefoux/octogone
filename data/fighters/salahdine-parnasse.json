@@ -17,16 +17,16 @@
   "style": "MMA",
   "lieu_naissance": "Aubervilliers, France",
   "palmares": {
+    "victoires": 24,
+    "defaites": 2,
+    "nuls": 0,
+    "sans_decision": 0,
     "victoires_ko": 9,
     "victoires_soumission": 7,
     "victoires_decision": 8,
     "defaites_ko": 1,
     "defaites_soumission": 0,
-    "defaites_decision": 1,
-    "nuls": 0,
-    "sans_decision": 0,
-    "victoires": 24,
-    "defaites": 2
+    "defaites_decision": 1
   },
   "stats_ufc": {
     "frappes_par_min": 4.65,
@@ -44,14 +44,14 @@
   },
   "ufc": {
     "palmares_tableau": {
-      "victoires": 22,
+      "victoires": 24,
       "defaites": 2,
       "nuls": 0,
       "sans_decision": 0,
       "v": {
         "ko": 9,
-        "soumission": 6,
-        "decision": 7,
+        "soumission": 7,
+        "decision": 8,
         "autre": 0
       },
       "d": {
@@ -84,7 +84,7 @@
     "titres": [],
     "technique_favorite": {
       "technique": "rear-naked choke",
-      "finitions": 4
+      "finitions": 5
     },
     "premier_combat_ufc": {
       "adversaire": "Dan Hooker",
@@ -172,16 +172,14 @@
     "surnom": "ufc_com",
     "pays": "wikidata",
     "categorie": "ufc_com",
-    "palmares": "wikipedia_infobox",
+    "palmares": "wikipedia_tableau",
     "stats_ufc": "ufc_com",
     "ufc": "wikipedia_tableau",
     "accomplissements_en": "wikipedia"
   },
   "a_verifier": [],
-  "ecarts_sources": {
-    "palmares": "wikipedia_tableau 22-2, wikipedia_infobox 24-2, ufc_com 24-2"
-  },
-  "maj": "2026-10-05",
+  "ecarts_sources": {},
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 80,
     "puissance": 71,

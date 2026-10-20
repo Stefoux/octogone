@@ -14,13 +14,13 @@
   "style": null,
   "lieu_naissance": null,
   "palmares": {
-    "victoires": 28,
+    "victoires": 34,
     "defaites": 10,
     "nuls": 1,
     "sans_decision": 1,
     "victoires_ko": 3,
-    "victoires_soumission": 18,
-    "victoires_decision": 7,
+    "victoires_soumission": 21,
+    "victoires_decision": 10,
     "defaites_ko": 3,
     "defaites_soumission": 2,
     "defaites_decision": 5
@@ -41,14 +41,14 @@
   },
   "ufc": {
     "palmares_tableau": {
-      "victoires": 28,
+      "victoires": 34,
       "defaites": 10,
       "nuls": 1,
       "sans_decision": 1,
       "v": {
         "ko": 3,
-        "soumission": 18,
-        "decision": 7,
+        "soumission": 21,
+        "decision": 10,
         "autre": 0
       },
       "d": {
@@ -108,7 +108,7 @@
     ],
     "technique_favorite": {
       "technique": "armbar",
-      "finitions": 9
+      "finitions": 10
     },
     "premier_combat_ufc": {
       "adversaire": "Heath Herring",
@@ -301,28 +301,25 @@
   "a_verifier": [
     "allonge_cm",
     "fiche ufc.com introuvable",
-    "palmares (wikipedia_tableau 28-10, wikipedia_infobox 34-10)",
     "stats_ufc (absentes de la fiche ufc.com)",
     "statut"
   ],
-  "ecarts_sources": {
-    "palmares": "wikipedia_tableau 28-10, wikipedia_infobox 34-10"
-  },
-  "maj": "2026-10-04",
+  "ecarts_sources": {},
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 70,
     "puissance": 41,
     "vitesse": 70,
     "takedown": 70,
-    "controle": 55,
+    "controle": 60,
     "soumission": 99,
-    "menton": 82,
+    "menton": 84,
     "esquive": 70,
     "defenseTd": 70,
     "categorie_frappe": 60,
-    "categorie_lutte": 75,
-    "categorie_defense": 74,
-    "globale": 72,
+    "categorie_lutte": 76,
+    "categorie_defense": 75,
+    "globale": 73,
     "style": "grappler",
     "estimees": [
       "precision",

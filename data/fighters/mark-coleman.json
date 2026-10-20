@@ -14,16 +14,16 @@
   "style": "Freestyle wrestling",
   "lieu_naissance": "Fremont, États-Unis",
   "palmares": {
+    "victoires": 16,
+    "defaites": 10,
+    "nuls": 0,
+    "sans_decision": 0,
     "victoires_ko": 7,
     "victoires_soumission": 5,
     "victoires_decision": 4,
     "defaites_ko": 3,
     "defaites_soumission": 5,
-    "defaites_decision": 2,
-    "nuls": 0,
-    "sans_decision": 0,
-    "victoires": 16,
-    "defaites": 10
+    "defaites_decision": 2
   },
   "stats_ufc": {
     "frappes_par_min": null,
@@ -41,14 +41,14 @@
   },
   "ufc": {
     "palmares_tableau": {
-      "victoires": 11,
+      "victoires": 16,
       "defaites": 10,
       "nuls": 0,
       "sans_decision": 0,
       "v": {
-        "ko": 5,
-        "soumission": 3,
-        "decision": 3,
+        "ko": 7,
+        "soumission": 5,
+        "decision": 4,
         "autre": 0
       },
       "d": {
@@ -59,7 +59,7 @@
       }
     },
     "combats_ufc_par_annee": {
-      "1996": 2,
+      "1996": 5,
       "1997": 2,
       "1998": 1,
       "1999": 1,
@@ -73,8 +73,8 @@
       "resultat": "Loss",
       "methode": "Submission (rear-naked choke)"
     },
-    "combats_ufc": 9,
-    "victoires_ufc": 4,
+    "combats_ufc": 12,
+    "victoires_ufc": 7,
     "defaites_ufc": 5,
     "victoires_decision_5_rounds": 0,
     "combats_5_rounds_gagnes": 0,
@@ -95,11 +95,11 @@
       "finitions": 1
     },
     "premier_combat_ufc": {
-      "adversaire": "Don Frye",
+      "adversaire": "Moti Horenstein",
       "evenement": "UFC 10",
       "date": "July 12, 1996",
       "resultat": "Win",
-      "methode": "TKO (headbutts)"
+      "methode": "TKO (submission to punches)"
     }
   },
   "champion_actuel": false,
@@ -244,7 +244,7 @@
     "surnom": "ufc_com",
     "pays": "wikidata",
     "categorie": "ufc_com",
-    "palmares": "wikipedia_infobox",
+    "palmares": "wikipedia_tableau",
     "ufc": "wikipedia_tableau",
     "accomplissements_en": "wikipedia",
     "ancien_champion": "https://en.wikipedia.org/wiki/Mark_Coleman"
@@ -253,24 +253,22 @@
     "allonge_cm",
     "stats_ufc (absentes de la fiche ufc.com)"
   ],
-  "ecarts_sources": {
-    "palmares": "wikipedia_tableau 11-10, wikipedia_infobox 16-10, ufc_com 16-10"
-  },
-  "maj": "2026-10-04",
+  "ecarts_sources": {},
+  "maj": "2026-10-20",
   "stats_jeu": {
-    "precision": 70,
-    "puissance": 71,
-    "vitesse": 70,
-    "takedown": 70,
+    "precision": 78,
+    "puissance": 72,
+    "vitesse": 78,
+    "takedown": 78,
     "controle": 55,
     "soumission": 70,
-    "menton": 74,
-    "esquive": 70,
-    "defenseTd": 70,
-    "categorie_frappe": 70,
-    "categorie_lutte": 65,
-    "categorie_defense": 71,
-    "globale": 70,
+    "menton": 75,
+    "esquive": 78,
+    "defenseTd": 78,
+    "categorie_frappe": 76,
+    "categorie_lutte": 68,
+    "categorie_defense": 77,
+    "globale": 75,
     "style": "frappeur",
     "estimees": [
       "precision",

@@ -1,0 +1,29 @@
+{
+  "id": "ufc-69",
+  "nom": "UFC 69",
+  "date": "2007-04-07",
+  "lieu": "Toyota Center",
+  "ville": "Houston, Texas",
+  "pays": "US",
+  "resultat": "Matt Serra bat Georges St-Pierre par TKO (coups de poing) à 3:25 du 1er round.",
+  "resultat_en": "Matt Serra defeats Georges St-Pierre by TKO (punches) at 3:25 of round 1.",
+  "contexte": "Georges St-Pierre était favori à 7 contre 1 : la victoire de Matt Serra, qui lui prend la ceinture des mi-moyens, reste l'une des plus grandes surprises de l'histoire du MMA.",
+  "contexte_en": "Georges St-Pierre was a 7-1 favorite: Matt Serra's win, which took his welterweight title, remains one of the biggest upsets in MMA history.",
+  "tirage": null,
+  "resultats": [
+    {
+      "vainqueur": "Matt Serra",
+      "perdant": "Georges St-Pierre",
+      "methode": "TKO (coups de poing)",
+      "round": 1,
+      "temps": "3:25"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/UFC_69",
+    "https://en.wikipedia.org/wiki/Matt_Serra",
+    "https://en.wikipedia.org/wiki/Georges_St-Pierre"
+  ],
+  "a_verifier": [],
+  "genere_par": "fetch_moments.py"
+}

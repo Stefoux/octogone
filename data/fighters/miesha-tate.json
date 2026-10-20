@@ -14,16 +14,16 @@
   "style": "Grappling",
   "lieu_naissance": "Tacoma, États-Unis",
   "palmares": {
+    "victoires": 20,
+    "defaites": 10,
+    "nuls": 0,
+    "sans_decision": 0,
     "victoires_ko": 4,
     "victoires_soumission": 8,
     "victoires_decision": 8,
     "defaites_ko": 2,
     "defaites_soumission": 3,
-    "defaites_decision": 5,
-    "nuls": 0,
-    "sans_decision": 0,
-    "victoires": 20,
-    "defaites": 10
+    "defaites_decision": 5
   },
   "stats_ufc": {
     "frappes_par_min": 2.62,
@@ -41,14 +41,14 @@
   },
   "ufc": {
     "palmares_tableau": {
-      "victoires": 18,
+      "victoires": 20,
       "defaites": 10,
       "nuls": 0,
       "sans_decision": 0,
       "v": {
         "ko": 4,
         "soumission": 8,
-        "decision": 6,
+        "decision": 8,
         "autre": 0
       },
       "d": {
@@ -79,7 +79,7 @@
     "victoires_ufc": 7,
     "defaites_ufc": 7,
     "victoires_decision_5_rounds": 0,
-    "combats_5_rounds_gagnes": 2,
+    "combats_5_rounds_gagnes": 3,
     "bonus_fotn": 2,
     "bonus_potn": 3,
     "bonus_kotn": 0,
@@ -263,16 +263,14 @@
     "surnom": "ufc_com",
     "pays": "wikidata",
     "categorie": "ufc_com",
-    "palmares": "wikipedia_infobox",
+    "palmares": "wikipedia_tableau",
     "stats_ufc": "ufc_com",
     "ufc": "wikipedia_tableau",
     "accomplissements_en": "wikipedia"
   },
   "a_verifier": [],
-  "ecarts_sources": {
-    "palmares": "wikipedia_tableau 18-10, wikipedia_infobox 20-10, ufc_com 20-10"
-  },
-  "maj": "2026-10-04",
+  "ecarts_sources": {},
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 58,
     "puissance": 46,

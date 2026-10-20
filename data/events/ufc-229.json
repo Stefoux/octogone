@@ -1,0 +1,29 @@
+{
+  "id": "ufc-229",
+  "nom": "UFC 229",
+  "date": "2018-10-06",
+  "lieu": "T-Mobile Arena",
+  "ville": "Paradise, Nevada",
+  "pays": "US",
+  "resultat": "Khabib Nurmagomedov bat Conor McGregor par soumission (torsion de la nuque) à 3:03 du 4e round.",
+  "resultat_en": "Khabib Nurmagomedov defeats Conor McGregor by Submission (neck crank) at 3:03 of round 4.",
+  "contexte": "Khabib Nurmagomedov soumet Conor McGregor au 4e round et reste invaincu. Le gala devient le pay-per-view de MMA le plus vendu de l'histoire : 2,4 millions d'achats.",
+  "contexte_en": "Khabib Nurmagomedov submitted Conor McGregor in round 4 to stay unbeaten. The event became the best-selling MMA pay-per-view ever: 2.4 million buys.",
+  "tirage": null,
+  "resultats": [
+    {
+      "vainqueur": "Khabib Nurmagomedov",
+      "perdant": "Conor McGregor",
+      "methode": "soumission (torsion de la nuque)",
+      "round": 4,
+      "temps": "3:03"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/UFC_229",
+    "https://en.wikipedia.org/wiki/Khabib_Nurmagomedov",
+    "https://en.wikipedia.org/wiki/Conor_McGregor"
+  ],
+  "a_verifier": [],
+  "genere_par": "fetch_moments.py"
+}

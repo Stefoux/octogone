@@ -146,6 +146,13 @@
         "titre": "UFC Lightweight Championship",
         "evenement": "UFC 284",
         "date": "12 February 2023"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Lightweight Championship",
+        "evenement": "UFC 280",
+        "date": "22 October 2022"
       }
     ],
     "technique_favorite": {
@@ -518,7 +525,7 @@
   },
   "a_verifier": [],
   "ecarts_sources": {},
-  "maj": "2026-10-04",
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 99,
     "puissance": 55,

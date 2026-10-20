@@ -120,6 +120,13 @@
         "titre": "UFC Bantamweight Championship",
         "evenement": "UFC 267",
         "date": "30 October 2021"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Bantamweight Championship",
+        "evenement": "UFC 251",
+        "date": "12 July 2020"
       }
     ],
     "technique_favorite": {
@@ -329,7 +336,7 @@
   },
   "a_verifier": [],
   "ecarts_sources": {},
-  "maj": "2026-10-04",
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 91,
     "puissance": 71,

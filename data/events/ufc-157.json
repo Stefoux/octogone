@@ -1,0 +1,28 @@
+{
+  "id": "ufc-157",
+  "nom": "UFC 157",
+  "date": "2013-02-23",
+  "lieu": "Honda Center",
+  "ville": "Anaheim, California",
+  "pays": "US",
+  "resultat": "Ronda Rousey bat Liz Carmouche par soumission (clé de bras) à 4:49 du 1er round.",
+  "resultat_en": "Ronda Rousey defeats Liz Carmouche by Submission (armbar) at 4:49 of round 1.",
+  "contexte": "Premier combat féminin de l'histoire de l'UFC : Ronda Rousey défend son titre des coqs face à Liz Carmouche et gagne par clé de bras au 1er round.",
+  "contexte_en": "The first women's fight in UFC history: Ronda Rousey defended her bantamweight title against Liz Carmouche with a first-round armbar.",
+  "tirage": null,
+  "resultats": [
+    {
+      "vainqueur": "Ronda Rousey",
+      "perdant": "Liz Carmouche",
+      "methode": "soumission (clé de bras)",
+      "round": 1,
+      "temps": "4:49"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/UFC_157",
+    "https://en.wikipedia.org/wiki/Ronda_Rousey"
+  ],
+  "a_verifier": [],
+  "genere_par": "fetch_moments.py"
+}

@@ -131,6 +131,13 @@
         "titre": "UFC Light Heavyweight Championship",
         "evenement": "UFC 192",
         "date": "October 3, 2015"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 187",
+        "date": "May 23, 2015"
       }
     ],
     "technique_favorite": {
@@ -568,7 +575,7 @@
   },
   "a_verifier": [],
   "ecarts_sources": {},
-  "maj": "2026-10-04",
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 83,
     "puissance": 71,

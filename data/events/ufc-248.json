@@ -1,0 +1,29 @@
+{
+  "id": "ufc-248",
+  "nom": "UFC 248",
+  "date": "2020-03-07",
+  "lieu": "T-Mobile Arena",
+  "ville": "Paradise, Nevada",
+  "pays": "US",
+  "resultat": "Zhang Weili bat Joanna Jędrzejczyk par décision partagée après 5 rounds.",
+  "resultat_en": "Zhang Weili defeats Joanna Jędrzejczyk by split decision after 5 rounds.",
+  "contexte": "Zhang Weili conserve son titre des poids pailles face à l'ancienne championne Joanna Jędrzejczyk, par décision partagée : un combat considéré par beaucoup comme le plus grand de l'histoire du MMA féminin.",
+  "contexte_en": "Zhang Weili kept her strawweight title against former champion Joanna Jędrzejczyk by split decision, in what many called the greatest fight in women's MMA history.",
+  "tirage": null,
+  "resultats": [
+    {
+      "vainqueur": "Zhang Weili",
+      "perdant": "Joanna Jędrzejczyk",
+      "methode": "décision partagée",
+      "round": 5,
+      "temps": "5:00"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/UFC_248",
+    "https://en.wikipedia.org/wiki/Zhang_Weili",
+    "https://en.wikipedia.org/wiki/Joanna_Jędrzejczyk"
+  ],
+  "a_verifier": [],
+  "genere_par": "fetch_moments.py"
+}

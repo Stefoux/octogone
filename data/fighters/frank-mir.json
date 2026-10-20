@@ -99,6 +99,13 @@
         "titre": "UFC Heavyweight Championship",
         "evenement": "UFC 92",
         "date": "December 27, 2008"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Heavyweight Championship",
+        "evenement": "UFC 48",
+        "date": "June 19, 2004"
       }
     ],
     "technique_favorite": {
@@ -300,7 +307,7 @@
   "ecarts_sources": {
     "palmares": "wikipedia_tableau 19-13, wikipedia_infobox 19-13, ufc_com 18-11"
   },
-  "maj": "2026-10-04",
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 81,
     "puissance": 56,

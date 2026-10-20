@@ -1,0 +1,29 @@
+{
+  "id": "ufc-281",
+  "nom": "UFC 281",
+  "date": "2022-11-12",
+  "lieu": "Madison Square Garden",
+  "ville": "New York City, New York",
+  "pays": "US",
+  "resultat": "Alex Pereira bat Israel Adesanya par TKO (coups de poing) à 2:01 du 5e round.",
+  "resultat_en": "Alex Pereira defeats Israel Adesanya by TKO (punches) at 2:01 of round 5.",
+  "contexte": "Les deux hommes s'étaient déjà affrontés deux fois en kickboxing. Au Madison Square Garden, Alex Pereira arrête Israel Adesanya au 5e round et prend la ceinture des moyens.",
+  "contexte_en": "The two had already met twice in kickboxing. At Madison Square Garden, Alex Pereira stopped Israel Adesanya in round 5 to take the middleweight title.",
+  "tirage": null,
+  "resultats": [
+    {
+      "vainqueur": "Alex Pereira",
+      "perdant": "Israel Adesanya",
+      "methode": "TKO (coups de poing)",
+      "round": 5,
+      "temps": "2:01"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/UFC_281",
+    "https://en.wikipedia.org/wiki/Alex_Pereira",
+    "https://en.wikipedia.org/wiki/Israel_Adesanya"
+  ],
+  "a_verifier": [],
+  "genere_par": "fetch_moments.py"
+}

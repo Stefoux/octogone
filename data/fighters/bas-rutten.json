@@ -81,7 +81,15 @@
     "bonus_kotn": 0,
     "bonus_sotn": 0,
     "combats_fotn": [],
-    "titres": [],
+    "titres": [
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Heavyweight Championship",
+        "evenement": "UFC 20",
+        "date": "7 May 1999"
+      }
+    ],
     "technique_favorite": {
       "technique": "rear-naked choke",
       "finitions": 3
@@ -185,7 +193,7 @@
   "ecarts_sources": {
     "palmares": "wikipedia_tableau 28-4, wikipedia_infobox 28-4, ufc_com 0-0"
   },
-  "maj": "2026-10-04",
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 86,
     "puissance": 78,

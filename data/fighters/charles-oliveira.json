@@ -15,16 +15,16 @@
   "style": "Jiu-Jitsu",
   "lieu_naissance": "State of São Paulo, Brésil",
   "palmares": {
+    "victoires": 37,
+    "defaites": 11,
+    "nuls": 0,
+    "sans_decision": 1,
     "victoires_ko": 10,
     "victoires_soumission": 22,
     "victoires_decision": 5,
     "defaites_ko": 5,
     "defaites_soumission": 4,
-    "defaites_decision": 2,
-    "nuls": 0,
-    "sans_decision": 1,
-    "victoires": 37,
-    "defaites": 11
+    "defaites_decision": 2
   },
   "stats_ufc": {
     "frappes_par_min": null,
@@ -42,13 +42,13 @@
   },
   "ufc": {
     "palmares_tableau": {
-      "victoires": 33,
+      "victoires": 37,
       "defaites": 11,
       "nuls": 0,
       "sans_decision": 1,
       "v": {
-        "ko": 8,
-        "soumission": 20,
+        "ko": 10,
+        "soumission": 22,
         "decision": 5,
         "autre": 0
       },
@@ -123,11 +123,18 @@
         "titre": "UFC Lightweight Championship",
         "evenement": "UFC 269",
         "date": "December 11, 2021"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Lightweight Championship",
+        "evenement": "UFC 262",
+        "date": "May 15, 2021"
       }
     ],
     "technique_favorite": {
       "technique": "rear-naked choke",
-      "finitions": 7
+      "finitions": 9
     },
     "premier_combat_ufc": {
       "adversaire": "Darren Elkins",
@@ -467,7 +474,7 @@
     "surnom": "ufc_com",
     "pays": "wikidata",
     "categorie": "ufc_com",
-    "palmares": "wikipedia_infobox",
+    "palmares": "wikipedia_tableau",
     "ufc": "wikipedia_tableau",
     "accomplissements_en": "wikipedia",
     "ancien_champion": "https://en.wikipedia.org/wiki/Charles_Oliveira"
@@ -475,10 +482,8 @@
   "a_verifier": [
     "stats_ufc (absentes de la fiche ufc.com)"
   ],
-  "ecarts_sources": {
-    "palmares": "wikipedia_tableau 33-11, wikipedia_infobox 37-11, ufc_com 37-11"
-  },
-  "maj": "2026-10-04",
+  "ecarts_sources": {},
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 85,
     "puissance": 64,

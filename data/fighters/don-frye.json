@@ -14,12 +14,12 @@
   "style": null,
   "lieu_naissance": "Sierra Vista, United States",
   "palmares": {
-    "victoires": 14,
+    "victoires": 20,
     "defaites": 9,
     "nuls": 1,
     "sans_decision": 1,
-    "victoires_ko": 4,
-    "victoires_soumission": 8,
+    "victoires_ko": 8,
+    "victoires_soumission": 10,
     "victoires_decision": 1,
     "defaites_ko": 5,
     "defaites_soumission": 2,
@@ -41,13 +41,13 @@
   },
   "ufc": {
     "palmares_tableau": {
-      "victoires": 14,
+      "victoires": 20,
       "defaites": 9,
       "nuls": 1,
       "sans_decision": 1,
       "v": {
-        "ko": 4,
-        "soumission": 8,
+        "ko": 8,
+        "soumission": 10,
         "decision": 1,
         "autre": 1
       },
@@ -59,7 +59,7 @@
       }
     },
     "combats_ufc_par_annee": {
-      "1996": 3
+      "1996": 7
     },
     "dernier_combat": {
       "adversaire": "Ruben Villareal",
@@ -68,8 +68,8 @@
       "resultat": "Loss",
       "methode": "KO (punch)"
     },
-    "combats_ufc": 3,
-    "victoires_ufc": 2,
+    "combats_ufc": 7,
+    "victoires_ufc": 6,
     "defaites_ufc": 1,
     "victoires_decision_5_rounds": 0,
     "combats_5_rounds_gagnes": 0,
@@ -84,11 +84,11 @@
       "finitions": 4
     },
     "premier_combat_ufc": {
-      "adversaire": "Gary Goodridge",
+      "adversaire": "Thomas Ramirez",
       "evenement": "UFC 8",
       "date": "February 16, 1996",
       "resultat": "Win",
-      "methode": "Submission (position)"
+      "methode": "KO (punch)"
     }
   },
   "champion_actuel": false,
@@ -203,27 +203,26 @@
     "accomplissements_en": "wikipedia"
   },
   "a_verifier": [
-    "allonge_cm",
-    "palmares (wikipedia_tableau 14-9, wikipedia_infobox 20-9, ufc_com 11-1)"
+    "allonge_cm"
   ],
   "ecarts_sources": {
-    "palmares": "wikipedia_tableau 14-9, wikipedia_infobox 20-9, ufc_com 11-1"
+    "palmares": "wikipedia_tableau 20-9, wikipedia_infobox 20-9, ufc_com 11-1"
   },
-  "maj": "2026-10-04",
+  "maj": "2026-10-20",
   "stats_jeu": {
-    "precision": 88,
-    "puissance": 56,
-    "vitesse": 53,
-    "takedown": 47,
-    "controle": 45,
-    "soumission": 71,
-    "menton": 34,
-    "esquive": 54,
-    "defenseTd": 46,
-    "categorie_frappe": 66,
-    "categorie_lutte": 54,
+    "precision": 99,
+    "puissance": 62,
+    "vitesse": 50,
+    "takedown": 41,
+    "controle": 38,
+    "soumission": 73,
+    "menton": 43,
+    "esquive": 51,
+    "defenseTd": 40,
+    "categorie_frappe": 70,
+    "categorie_lutte": 51,
     "categorie_defense": 45,
-    "globale": 58,
+    "globale": 60,
     "style": "frappeur",
     "estimees": [],
     "formule_version": 2

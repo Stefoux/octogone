@@ -1,0 +1,29 @@
+{
+  "id": "ufc-193",
+  "nom": "UFC 193",
+  "date": "2015-11-15",
+  "lieu": "Docklands Stadium",
+  "ville": "Melbourne",
+  "pays": "AU",
+  "resultat": "Holly Holm bat Ronda Rousey par KO (coup de pied à la tête et coups de poing) à 0:59 du 2e round.",
+  "resultat_en": "Holly Holm defeats Ronda Rousey by KO (head kick and punches) at 0:59 of round 2.",
+  "contexte": "Devant 56 214 spectateurs à Melbourne, record de l'UFC à l'époque, Holly Holm met KO Ronda Rousey d'un coup de pied à la tête : KO de l'année.",
+  "contexte_en": "In front of 56,214 fans in Melbourne, a UFC record at the time, Holly Holm knocked out Ronda Rousey with a head kick: Knockout of the Year.",
+  "tirage": null,
+  "resultats": [
+    {
+      "vainqueur": "Holly Holm",
+      "perdant": "Ronda Rousey",
+      "methode": "KO (coup de pied à la tête et coups de poing)",
+      "round": 2,
+      "temps": "0:59"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/UFC_193",
+    "https://en.wikipedia.org/wiki/Holly_Holm",
+    "https://en.wikipedia.org/wiki/Ronda_Rousey"
+  ],
+  "a_verifier": [],
+  "genere_par": "fetch_moments.py"
+}

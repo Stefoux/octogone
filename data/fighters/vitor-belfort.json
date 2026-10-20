@@ -1,0 +1,286 @@
+{
+  "id": "vitor-belfort",
+  "nom": "Vitor Belfort",
+  "ufc_slug": "vitor-belfort",
+  "wikipedia_titre": "Vitor Belfort",
+  "surnom": "The Phenom",
+  "sexe": "M",
+  "pays": "BR",
+  "categorie": "moyens",
+  "statut": "inactif",
+  "date_naissance": "1977-04-01",
+  "taille_cm": 183,
+  "allonge_cm": 188,
+  "style": null,
+  "lieu_naissance": "Rio de Janeiro, Brésil",
+  "palmares": {
+    "victoires": 26,
+    "defaites": 14,
+    "nuls": 0,
+    "sans_decision": 1,
+    "victoires_ko": 18,
+    "victoires_soumission": 3,
+    "victoires_decision": 5,
+    "defaites_ko": 7,
+    "defaites_soumission": 2,
+    "defaites_decision": 5
+  },
+  "stats_ufc": {
+    "frappes_par_min": null,
+    "precision_frappe_pct": null,
+    "frappes_encaissees_par_min": null,
+    "defense_frappe_pct": null,
+    "takedowns_par_15min": null,
+    "precision_takedown_pct": null,
+    "defense_takedown_pct": null,
+    "soumissions_par_15min": null,
+    "knockdowns_par_15min": null,
+    "duree_moyenne_combat_s": null,
+    "frappes_reussies": null,
+    "takedowns_reussis": null
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 26,
+      "defaites": 14,
+      "nuls": 0,
+      "sans_decision": 1,
+      "v": {
+        "ko": 18,
+        "soumission": 3,
+        "decision": 5,
+        "autre": 0
+      },
+      "d": {
+        "ko": 7,
+        "soumission": 2,
+        "decision": 5,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "1997": 5,
+      "1998": 1,
+      "2002": 1,
+      "2003": 1,
+      "2004": 2,
+      "2005": 1,
+      "2009": 1,
+      "2011": 2,
+      "2012": 2,
+      "2013": 3,
+      "2015": 2,
+      "2016": 2,
+      "2017": 2,
+      "2018": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Lyoto Machida",
+      "evenement": "UFC 224",
+      "date": "12 May 2018",
+      "resultat": "Loss",
+      "methode": "KO (front kick)"
+    },
+    "combats_ufc": 26,
+    "victoires_ufc": 15,
+    "defaites_ufc": 10,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 1,
+    "bonus_kotn": 5,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 46",
+        "date": "31 January 2004"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "punches",
+      "finitions": 11
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Tra Telligman",
+      "evenement": "UFC 12",
+      "date": "7 February 1997",
+      "resultat": "Win",
+      "methode": "TKO (cut)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame ( Pioneer wing , Class of 2025)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Light Heavyweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC 12 Heavyweight Tournament Championship"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Knockout of the Night (Five times) vs. Rich Franklin , Yoshihiro Akiyama , Michael Bisping , Luke Rockhold and Dan Henderson 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (One time) vs. Dan Henderson 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Encyclopedia Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Three times) vs. Randy Couture 1, Chuck Liddell and Tito Ortiz"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Knockout of the Night (Four times) vs. Scott Ferrozzo , Tank Abbott , Wanderlei Silva and Marvin Eastman"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most Encyclopedia Knockout of the Night Awards (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most combined Encyclopedia/Official Knockout of the Night Awards in UFC history (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Max Holloway ) for third most knockouts in UFC history (12)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Jim Miller ) for most first-round finishes in UFC history (13)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Terrance McKinney ) for second most sub-minute finishes in UFC history (4) (behind Anthony Johnson )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most first-round knockouts in UFC history (11)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "One of five fighters ( Jared Cannonier , Conor McGregor , Robert Whittaker & Max Holloway ) to have knockout victories in three different weight classes"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Anderson Silva & Vicente Luque ) for seventh most finishes in UFC history (14)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Youngest UFC tournament winner (19 years, 313 days)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second youngest fighter to win five UFC bouts (21 years) (behind Raul Rosas Jr. )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2005: Ranked #3 Fight of the Year vs. Tito Ortiz"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2013: Ranked #3 Fighter of the Year , Half-Year Awards: Best Fighter of the 1HY, Ranked #2 Knockout of the Year vs. Dan Henderson 2 & Ranked #6 Knockout of the Year vs. Luke Rockhold"
+    },
+    {
+      "org": "Cage Rage Championships",
+      "texte": "Cage Rage World Light heavyweight Championship (1 time)"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2013 Knockout of the Year vs. Luke Rockhold at UFC on FX: Belfort vs. Rockhold"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2013 All-Violence First Team"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2013 #2 Ranked Fighter of the Year"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2013 #3 Ranked Fighter of the Year"
+    },
+    {
+      "org": "ADCC Submission Wrestling World Championship",
+      "texte": "ADCC 2001 Absolute division – Bronze medal"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids mi-lourds",
+      "Hall of Fame de l'UFC (2025)",
+      "KO de l'année (2013)",
+      "Bonus UFC : 1× Performance de la soirée, 3× Combat de la soirée, 5× KO de la soirée"
+    ],
+    "en": [
+      "UFC Light Heavyweight Champion",
+      "UFC Hall of Fame (2025)",
+      "Knockout of the Year (2013)",
+      "UFC bonuses: 1× Performance of the Night, 3× Fight of the Night, 5× Knockout of the Night"
+    ]
+  },
+  "image_commons": "Vitor belfort cropped.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Vitor_Belfort",
+    "wikidata": "https://www.wikidata.org/wiki/Q458716",
+    "ufc_com": "https://www.ufc.com/athlete/vitor-belfort"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "stats_ufc (absentes de la fiche ufc.com)"
+  ],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 26-14, wikipedia_infobox 0-0, ufc_com 26-14"
+  },
+  "maj": "2026-10-20",
+  "stats_jeu": {
+    "precision": 80,
+    "puissance": 99,
+    "vitesse": 80,
+    "takedown": 80,
+    "controle": 47,
+    "soumission": 50,
+    "menton": 43,
+    "esquive": 80,
+    "defenseTd": 80,
+    "categorie_frappe": 86,
+    "categorie_lutte": 59,
+    "categorie_defense": 68,
+    "globale": 77,
+    "style": "frappeur",
+    "estimees": [
+      "precision",
+      "vitesse",
+      "takedown",
+      "esquive",
+      "defenseTd"
+    ],
+    "formule_version": 2
+  }
+}

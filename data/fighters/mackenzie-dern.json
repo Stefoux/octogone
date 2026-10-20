@@ -112,6 +112,13 @@
         "titre": "UFC Women's Strawweight Championship",
         "evenement": "UFC 330",
         "date": "August 15, 2026"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Women's Strawweight Championship",
+        "evenement": "UFC 321",
+        "date": "October 25, 2025"
       }
     ],
     "technique_favorite": {
@@ -133,7 +140,7 @@
   },
   "champion_actuel": true,
   "champion_division": "Poids paille féminins",
-  "ancien_champion": false,
+  "ancien_champion": true,
   "accomplissements_en": [
     {
       "org": "Ultimate Fighting Championship",
@@ -240,7 +247,7 @@
   },
   "a_verifier": [],
   "ecarts_sources": {},
-  "maj": "2026-10-04",
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 54,
     "puissance": 44,

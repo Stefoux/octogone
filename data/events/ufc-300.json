@@ -1,0 +1,29 @@
+{
+  "id": "ufc-300",
+  "nom": "UFC 300",
+  "date": "2024-04-13",
+  "lieu": "T-Mobile Arena",
+  "ville": "Paradise, Nevada",
+  "pays": "US",
+  "resultat": "Max Holloway bat Justin Gaethje par KO (coup de poing) à 4:59 du 5e round.",
+  "resultat_en": "Max Holloway defeats Justin Gaethje by KO (punch) at 4:59 of round 5.",
+  "contexte": "Pour la ceinture symbolique « BMF », Max Holloway met KO Justin Gaethje à une seconde de la fin du 5e round : la fin la plus tardive de l'histoire de l'UFC, à égalité.",
+  "contexte_en": "For the symbolic \"BMF\" title, Max Holloway knocked out Justin Gaethje with one second left in round 5: tied for the latest finish in UFC history.",
+  "tirage": null,
+  "resultats": [
+    {
+      "vainqueur": "Max Holloway",
+      "perdant": "Justin Gaethje",
+      "methode": "KO (coup de poing)",
+      "round": 5,
+      "temps": "4:59"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/UFC_300",
+    "https://en.wikipedia.org/wiki/Max_Holloway",
+    "https://en.wikipedia.org/wiki/Justin_Gaethje"
+  ],
+  "a_verifier": [],
+  "genere_par": "fetch_moments.py"
+}

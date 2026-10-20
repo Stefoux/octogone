@@ -14,16 +14,16 @@
   "style": "Grappling",
   "lieu_naissance": "Brésil",
   "palmares": {
+    "victoires": 32,
+    "defaites": 18,
+    "nuls": 0,
+    "sans_decision": 0,
     "victoires_ko": 5,
     "victoires_soumission": 11,
     "victoires_decision": 16,
     "defaites_ko": 6,
     "defaites_soumission": 0,
-    "defaites_decision": 12,
-    "nuls": 0,
-    "sans_decision": 0,
-    "victoires": 32,
-    "defaites": 18
+    "defaites_decision": 12
   },
   "stats_ufc": {
     "frappes_par_min": null,
@@ -41,13 +41,13 @@
   },
   "ufc": {
     "palmares_tableau": {
-      "victoires": 31,
+      "victoires": 32,
       "defaites": 18,
       "nuls": 0,
       "sans_decision": 0,
       "v": {
         "ko": 5,
-        "soumission": 10,
+        "soumission": 11,
         "decision": 16,
         "autre": 0
       },
@@ -128,7 +128,7 @@
     ],
     "technique_favorite": {
       "technique": "rear-naked choke",
-      "finitions": 3
+      "finitions": 4
     },
     "premier_combat_ufc": {
       "adversaire": "Jeremy Stephens",
@@ -291,17 +291,15 @@
   "champs_sources": {
     "pays": "wikidata",
     "categorie": "ufc_com",
-    "palmares": "wikipedia_infobox",
+    "palmares": "wikipedia_tableau",
     "ufc": "wikipedia_tableau",
     "accomplissements_en": "wikipedia"
   },
   "a_verifier": [
     "stats_ufc (absentes de la fiche ufc.com)"
   ],
-  "ecarts_sources": {
-    "palmares": "wikipedia_tableau 31-18, wikipedia_infobox 32-18, ufc_com 32-18"
-  },
-  "maj": "2026-10-04",
+  "ecarts_sources": {},
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 79,
     "puissance": 46,

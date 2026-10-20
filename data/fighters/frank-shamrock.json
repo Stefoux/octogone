@@ -14,13 +14,13 @@
   "style": null,
   "lieu_naissance": "Santa Monica, United States",
   "palmares": {
-    "victoires": 22,
+    "victoires": 23,
     "defaites": 10,
     "nuls": 2,
     "sans_decision": 0,
     "victoires_ko": 4,
     "victoires_soumission": 12,
-    "victoires_decision": 4,
+    "victoires_decision": 5,
     "defaites_ko": 4,
     "defaites_soumission": 2,
     "defaites_decision": 2
@@ -41,14 +41,14 @@
   },
   "ufc": {
     "palmares_tableau": {
-      "victoires": 22,
+      "victoires": 23,
       "defaites": 10,
       "nuls": 2,
       "sans_decision": 0,
       "v": {
         "ko": 4,
         "soumission": 12,
-        "decision": 4,
+        "decision": 5,
         "autre": 2
       },
       "d": {
@@ -256,24 +256,23 @@
     "ancien_champion": "https://en.wikipedia.org/wiki/Frank_Shamrock"
   },
   "a_verifier": [
-    "allonge_cm",
-    "palmares (wikipedia_tableau 22-10, wikipedia_infobox 23-10, ufc_com 0-0)"
+    "allonge_cm"
   ],
   "ecarts_sources": {
-    "palmares": "wikipedia_tableau 22-10, wikipedia_infobox 23-10, ufc_com 0-0"
+    "palmares": "wikipedia_tableau 23-10, wikipedia_infobox 23-10, ufc_com 0-0"
   },
-  "maj": "2026-10-04",
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 79,
-    "puissance": 61,
+    "puissance": 60,
     "vitesse": 78,
     "takedown": 46,
-    "controle": 48,
-    "soumission": 87,
+    "controle": 49,
+    "soumission": 86,
     "menton": 67,
     "esquive": 70,
     "defenseTd": 44,
-    "categorie_frappe": 73,
+    "categorie_frappe": 72,
     "categorie_lutte": 60,
     "categorie_defense": 60,
     "globale": 67,

@@ -1,0 +1,236 @@
+{
+  "id": "pat-miletich",
+  "nom": "Pat Miletich",
+  "ufc_slug": "pat-miletich",
+  "wikipedia_titre": "Pat Miletich",
+  "surnom": "The Croatian Sensation",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "moyens",
+  "statut": "inactif",
+  "date_naissance": "1966-03-09",
+  "taille_cm": 178,
+  "allonge_cm": null,
+  "style": null,
+  "lieu_naissance": "Davenport, États-Unis",
+  "palmares": {
+    "victoires": 29,
+    "defaites": 8,
+    "nuls": 2,
+    "sans_decision": 0,
+    "victoires_ko": 7,
+    "victoires_soumission": 16,
+    "victoires_decision": 6,
+    "defaites_ko": 4,
+    "defaites_soumission": 3,
+    "defaites_decision": 1
+  },
+  "stats_ufc": {
+    "frappes_par_min": null,
+    "precision_frappe_pct": null,
+    "frappes_encaissees_par_min": null,
+    "defense_frappe_pct": null,
+    "takedowns_par_15min": null,
+    "precision_takedown_pct": null,
+    "defense_takedown_pct": null,
+    "soumissions_par_15min": null,
+    "knockdowns_par_15min": null,
+    "duree_moyenne_combat_s": null,
+    "frappes_reussies": null,
+    "takedowns_reussis": null
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 29,
+      "defaites": 8,
+      "nuls": 2,
+      "sans_decision": 0,
+      "v": {
+        "ko": 7,
+        "soumission": 16,
+        "decision": 6,
+        "autre": 0
+      },
+      "d": {
+        "ko": 4,
+        "soumission": 3,
+        "decision": 1,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "1998": 3,
+      "1999": 2,
+      "2000": 2,
+      "2001": 2,
+      "2002": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Mike Jackson",
+      "evenement": "Caged Aggression 36",
+      "date": "October 14, 2023",
+      "resultat": "Loss",
+      "methode": "TKO (retirement)"
+    },
+    "combats_ufc": 10,
+    "victoires_ufc": 8,
+    "defaites_ufc": 2,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Welterweight Championship",
+        "evenement": "UFC 29",
+        "date": "December 16, 2000"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Welterweight Championship",
+        "evenement": "UFC 26",
+        "date": "June 9, 2000"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Welterweight Championship",
+        "evenement": "UFC 21",
+        "date": "July 16, 1999"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Welterweight Championship",
+        "evenement": "UFC 18",
+        "date": "January 8, 1999"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "rear-naked choke",
+      "finitions": 7
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Townsend Saunders",
+      "evenement": "UFC 16",
+      "date": "March 13, 1998",
+      "resultat": "Win",
+      "methode": "Decision (split)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame ( Pioneer Wing , Class of 2014)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Welterweight Championship (One time, first)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Four successful title defenses"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC 16 Welterweight Tournament Winner"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Viewers Choice Award"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Encyclopedia Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Knockout of the Night (One time) vs. Shonie Carter"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Submission of the Night (One time) vs. John Alessio"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "Mixed Martial Arts Hall of Fame"
+    },
+    {
+      "org": "George Tragos/Lou Thesz Professional Wrestling Hall of Fame",
+      "texte": "George Tragos Award (2011)"
+    },
+    {
+      "org": "Resurrection Fighting Alliance & AXS TV",
+      "texte": "Lifetime Achievement Award"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids mi-moyens",
+      "Hall of Fame de l'UFC (2014)",
+      "4 défenses de titre à l'UFC",
+      "Bonus UFC : 1× KO de la soirée, 1× Soumission de la soirée"
+    ],
+    "en": [
+      "UFC Welterweight Champion",
+      "UFC Hall of Fame (2014)",
+      "4 UFC title defenses",
+      "UFC bonuses: 1× Knockout of the Night, 1× Submission of the Night"
+    ]
+  },
+  "image_commons": "PatMiletich.png",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Pat_Miletich",
+    "wikidata": "https://www.wikidata.org/wiki/Q2703880",
+    "ufc_com": "https://www.ufc.com/athlete/pat-miletich"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "allonge_cm",
+    "palmares (wikipedia_tableau 29-8, wikipedia_infobox 0-0, ufc_com 27-5)",
+    "stats_ufc (absentes de la fiche ufc.com)"
+  ],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 29-8, wikipedia_infobox 0-0, ufc_com 27-5"
+  },
+  "maj": "2026-10-20",
+  "stats_jeu": {
+    "precision": 91,
+    "puissance": 58,
+    "vitesse": 91,
+    "takedown": 91,
+    "controle": 51,
+    "soumission": 99,
+    "menton": 70,
+    "esquive": 91,
+    "defenseTd": 91,
+    "categorie_frappe": 80,
+    "categorie_lutte": 80,
+    "categorie_defense": 84,
+    "globale": 81,
+    "style": "complet",
+    "estimees": [
+      "precision",
+      "vitesse",
+      "takedown",
+      "esquive",
+      "defenseTd"
+    ],
+    "formule_version": 2
+  }
+}

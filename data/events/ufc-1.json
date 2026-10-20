@@ -1,0 +1,28 @@
+{
+  "id": "ufc-1",
+  "nom": "UFC 1",
+  "date": "1993-11-12",
+  "lieu": "McNichols Sports Arena",
+  "ville": "Denver, Colorado",
+  "pays": "US",
+  "resultat": "Royce Gracie bat Gerard Gordeau par soumission (étranglement arrière) à 1:44 du 1er round.",
+  "resultat_en": "Royce Gracie defeats Gerard Gordeau by Submission (rear-naked choke) at 1:44 of round 1.",
+  "contexte": "Premier événement de l'histoire de l'UFC : un tournoi à huit, sans catégories de poids. Royce Gracie gagne ses trois combats de la soirée par soumission.",
+  "contexte_en": "The first event in UFC history: an eight-man tournament with no weight classes. Royce Gracie won all three of his fights that night by submission.",
+  "tirage": null,
+  "resultats": [
+    {
+      "vainqueur": "Royce Gracie",
+      "perdant": "Gerard Gordeau",
+      "methode": "soumission (étranglement arrière)",
+      "round": 1,
+      "temps": "1:44"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/UFC_1",
+    "https://en.wikipedia.org/wiki/Royce_Gracie"
+  ],
+  "a_verifier": [],
+  "genere_par": "fetch_moments.py"
+}

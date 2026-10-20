@@ -95,7 +95,15 @@
         "date": "August 6, 2022"
       }
     ],
-    "titres": [],
+    "titres": [
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 283",
+        "date": "January 21, 2023"
+      }
+    ],
     "technique_favorite": {
       "technique": "punches",
       "finitions": 3
@@ -242,7 +250,7 @@
   },
   "a_verifier": [],
   "ecarts_sources": {},
-  "maj": "2026-10-04",
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 79,
     "puissance": 78,

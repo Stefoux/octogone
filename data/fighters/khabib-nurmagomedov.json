@@ -18,16 +18,16 @@
   "style": "Combat Sambo",
   "lieu_naissance": "Dagestan Republic, Russia",
   "palmares": {
+    "victoires": 29,
+    "defaites": 0,
+    "nuls": 0,
+    "sans_decision": 0,
     "victoires_ko": 8,
     "victoires_soumission": 11,
     "victoires_decision": 10,
     "defaites_ko": 0,
     "defaites_soumission": 0,
-    "defaites_decision": 0,
-    "nuls": 0,
-    "sans_decision": 0,
-    "victoires": 29,
-    "defaites": 0
+    "defaites_decision": 0
   },
   "stats_ufc": {
     "frappes_par_min": 4.1,
@@ -45,14 +45,14 @@
   },
   "ufc": {
     "palmares_tableau": {
-      "victoires": 26,
+      "victoires": 29,
       "defaites": 0,
       "nuls": 0,
       "sans_decision": 0,
       "v": {
-        "ko": 7,
+        "ko": 8,
         "soumission": 11,
-        "decision": 8,
+        "decision": 10,
         "autre": 0
       },
       "d": {
@@ -94,8 +94,29 @@
         "action": "defended",
         "interim": false,
         "titre": "UFC Lightweight Championship",
+        "evenement": "UFC 254",
+        "date": "24 October 2020"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Lightweight Championship",
+        "evenement": "UFC 242",
+        "date": "7 September 2019"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Lightweight Championship",
         "evenement": "UFC 229",
         "date": "6 October 2018"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Lightweight Championship",
+        "evenement": "UFC 223",
+        "date": "7 April 2018"
       }
     ],
     "technique_favorite": {
@@ -384,17 +405,15 @@
     "surnom": "ufc_com",
     "pays": "wikidata",
     "categorie": "ufc_com",
-    "palmares": "wikipedia_infobox",
+    "palmares": "wikipedia_tableau",
     "stats_ufc": "ufc_com",
     "ufc": "wikipedia_tableau",
     "accomplissements_en": "wikipedia",
     "ancien_champion": "https://en.wikipedia.org/wiki/Khabib_Nurmagomedov"
   },
   "a_verifier": [],
-  "ecarts_sources": {
-    "palmares": "wikipedia_tableau 26-0, wikipedia_infobox 29-0, ufc_com 29-0"
-  },
-  "maj": "2026-10-04",
+  "ecarts_sources": {},
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 73,
     "puissance": 58,

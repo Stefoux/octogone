@@ -1,0 +1,28 @@
+{
+  "id": "ufc-68",
+  "nom": "UFC 68",
+  "date": "2007-03-03",
+  "lieu": "Nationwide Arena",
+  "ville": "Columbus, Ohio",
+  "pays": "US",
+  "resultat": "Randy Couture bat Tim Sylvia par décision unanime après 5 rounds.",
+  "resultat_en": "Randy Couture defeats Tim Sylvia by unanimous decision after 5 rounds.",
+  "contexte": "Sorti d'une retraite d'un an, Randy Couture revient chez les lourds et bat le champion Tim Sylvia aux points pour reprendre la ceinture.",
+  "contexte_en": "Coming out of a 12-month retirement, Randy Couture returned to heavyweight and beat champion Tim Sylvia on points to win the title.",
+  "tirage": null,
+  "resultats": [
+    {
+      "vainqueur": "Randy Couture",
+      "perdant": "Tim Sylvia",
+      "methode": "décision unanime",
+      "round": 5,
+      "temps": "5:00"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/UFC_68",
+    "https://en.wikipedia.org/wiki/Randy_Couture"
+  ],
+  "a_verifier": [],
+  "genere_par": "fetch_moments.py"
+}

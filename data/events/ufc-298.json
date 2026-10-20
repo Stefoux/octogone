@@ -1,0 +1,29 @@
+{
+  "id": "ufc-298",
+  "nom": "UFC 298",
+  "date": "2024-02-17",
+  "lieu": "Honda Center",
+  "ville": "Anaheim, California",
+  "pays": "US",
+  "resultat": "Ilia Topuria bat Alexander Volkanovski par KO (coup de poing) à 3:32 du 2e round.",
+  "resultat_en": "Ilia Topuria defeats Alexander Volkanovski by KO (punch) at 3:32 of round 2.",
+  "contexte": "Invaincu, Ilia Topuria met KO Alexander Volkanovski au 2e round et devient champion des poids plumes.",
+  "contexte_en": "Unbeaten Ilia Topuria knocked out Alexander Volkanovski in round 2 to become featherweight champion.",
+  "tirage": null,
+  "resultats": [
+    {
+      "vainqueur": "Ilia Topuria",
+      "perdant": "Alexander Volkanovski",
+      "methode": "KO (coup de poing)",
+      "round": 2,
+      "temps": "3:32"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/UFC_298",
+    "https://en.wikipedia.org/wiki/Ilia_Topuria",
+    "https://en.wikipedia.org/wiki/Alexander_Volkanovski"
+  ],
+  "a_verifier": [],
+  "genere_par": "fetch_moments.py"
+}

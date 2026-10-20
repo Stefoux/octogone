@@ -51,10 +51,10 @@ class CardBack extends StatelessWidget {
                 style: const TextStyle(color: Colors.white, fontSize: 12),
                 child: view.tactic != null
                     ? _TacticBack(view: view, tactic: view.tactic!)
-                    : view.isDuel
-                    ? _DuelBack(view: view)
                     : view.event != null
                     ? _EventBack(view: view)
+                    : view.isDuel
+                    ? _DuelBack(view: view)
                     : _FighterBack(view: view),
               ),
             ),

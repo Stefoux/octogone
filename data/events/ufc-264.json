@@ -1,0 +1,29 @@
+{
+  "id": "ufc-264",
+  "nom": "UFC 264",
+  "date": "2021-07-10",
+  "lieu": "T-Mobile Arena",
+  "ville": "Paradise, Nevada",
+  "pays": "US",
+  "resultat": "Dustin Poirier bat Conor McGregor par TKO (arrêt médical) à la fin du 1er round.",
+  "resultat_en": "Dustin Poirier defeats Conor McGregor by TKO (doctor stoppage) at the end of round 1.",
+  "contexte": "Troisième combat entre les deux hommes : à la fin du 1er round, Conor McGregor se fracture le tibia, le médecin arrête le combat et Dustin Poirier l'emporte.",
+  "contexte_en": "Their third fight: at the end of round 1 Conor McGregor broke his tibia, the ringside doctor stopped the bout and Dustin Poirier won.",
+  "tirage": null,
+  "resultats": [
+    {
+      "vainqueur": "Dustin Poirier",
+      "perdant": "Conor McGregor",
+      "methode": "TKO (arrêt médical)",
+      "round": 1,
+      "temps": "5:00"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/UFC_264",
+    "https://en.wikipedia.org/wiki/Dustin_Poirier",
+    "https://en.wikipedia.org/wiki/Conor_McGregor"
+  ],
+  "a_verifier": [],
+  "genere_par": "fetch_moments.py"
+}

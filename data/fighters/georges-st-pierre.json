@@ -135,6 +135,13 @@
         "action": "defended",
         "interim": false,
         "titre": "UFC Welterweight Championship",
+        "evenement": "UFC 154",
+        "date": "November 17, 2012"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Welterweight Championship",
         "evenement": "UFC 129",
         "date": "April 30, 2011"
       },
@@ -172,6 +179,13 @@
         "titre": "UFC Welterweight Championship",
         "evenement": "UFC 87",
         "date": "August 9, 2008"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Welterweight Championship",
+        "evenement": "UFC 83",
+        "date": "April 19, 2008"
       },
       {
         "action": "won",
@@ -671,7 +685,7 @@
   },
   "a_verifier": [],
   "ecarts_sources": {},
-  "maj": "2026-10-04",
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 86,
     "puissance": 63,

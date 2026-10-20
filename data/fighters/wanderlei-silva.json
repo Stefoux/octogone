@@ -1,0 +1,412 @@
+{
+  "id": "wanderlei-silva",
+  "nom": "Wanderlei Silva",
+  "ufc_slug": "wanderlei-silva",
+  "wikipedia_titre": "Wanderlei Silva",
+  "surnom": "The Axe Murderer",
+  "sexe": "M",
+  "pays": "BR",
+  "categorie": "mi_lourds",
+  "statut": "retraite",
+  "date_naissance": "1976-07-03",
+  "taille_cm": 180,
+  "allonge_cm": null,
+  "style": null,
+  "lieu_naissance": "Curitiba, Brésil",
+  "palmares": {
+    "victoires": 35,
+    "defaites": 14,
+    "nuls": 1,
+    "sans_decision": 1,
+    "victoires_ko": 27,
+    "victoires_soumission": 1,
+    "victoires_decision": 7,
+    "defaites_ko": 7,
+    "defaites_soumission": 0,
+    "defaites_decision": 7
+  },
+  "stats_ufc": {
+    "frappes_par_min": null,
+    "precision_frappe_pct": null,
+    "frappes_encaissees_par_min": null,
+    "defense_frappe_pct": null,
+    "takedowns_par_15min": null,
+    "precision_takedown_pct": null,
+    "defense_takedown_pct": null,
+    "soumissions_par_15min": null,
+    "knockdowns_par_15min": null,
+    "duree_moyenne_combat_s": null,
+    "frappes_reussies": null,
+    "takedowns_reussis": null
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 35,
+      "defaites": 14,
+      "nuls": 1,
+      "sans_decision": 1,
+      "v": {
+        "ko": 27,
+        "soumission": 1,
+        "decision": 7,
+        "autre": 0
+      },
+      "d": {
+        "ko": 7,
+        "soumission": 0,
+        "decision": 7,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "1998": 1,
+      "1999": 1,
+      "2000": 1,
+      "2007": 1,
+      "2008": 2,
+      "2009": 1,
+      "2010": 1,
+      "2011": 2,
+      "2012": 1,
+      "2013": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Quinton Jackson",
+      "evenement": "Bellator 206",
+      "date": "29 September 2018",
+      "resultat": "Loss",
+      "methode": "TKO (punches)"
+    },
+    "combats_ufc": 12,
+    "victoires_ufc": 5,
+    "defaites_ufc": 7,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 5,
+    "bonus_potn": 0,
+    "bonus_kotn": 2,
+    "bonus_sotn": 0,
+    "combats_fotn": [
+      {
+        "adversaire": "Brian Stann",
+        "evenement": "UFC on Fuel TV: Silva vs. Stann",
+        "date": "3 March 2013"
+      },
+      {
+        "adversaire": "Rich Franklin",
+        "evenement": "UFC 147",
+        "date": "23 June 2012"
+      },
+      {
+        "adversaire": "Cung Le",
+        "evenement": "UFC 139",
+        "date": "20 November 2011"
+      },
+      {
+        "adversaire": "Rich Franklin",
+        "evenement": "UFC 99",
+        "date": "13 June 2009"
+      },
+      {
+        "adversaire": "Chuck Liddell",
+        "evenement": "UFC 79",
+        "date": "29 December 2007"
+      }
+    ],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "knee",
+      "finitions": 5
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Vitor Belfort",
+      "evenement": "UFC Brazil",
+      "date": "16 October 1998",
+      "resultat": "Loss",
+      "methode": "TKO (punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame ( Pioneer Wing , Class of 2024)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night ( Five times ) vs. Chuck Liddell , Rich Franklin 1, Cung Le , Rich Franklin 2, and Brian Stann"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Knockout of the Night ( Two times ) vs. Keith Jardine and Brian Stann"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Encyclopedia Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Tito Ortiz"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Knockout of the Night (One time) vs. Tony Petarra"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most knockouts in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (19)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most knockdowns in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (27)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Donald Cerrone & Jim Miller ) for third most finishes in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (20) (behind Mirko Cro Cop & Charles Oliveira )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most wins in Zuffa, LLC ( UFC , Pride , WEC , Strikeforce ) history (27) (behind Donald Cerrone & Jim Miller )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2007: Ranked #3 Fight of the Year vs. Chuck Liddell"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2008: Ranked #7 Knockout of the Year vs. Keith Jardine"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2009: Ranked #6 Loss of the Year vs. Rich Franklin 1 & Ranked #4 Fight of the Year vs. Rich Franklin 1"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2011: Ranked #10 Knockout of the Year vs. Cung Le (Tied with Anthony Johnson ) , Ranked #9 Upset of the Year vs. Cung Le & Ranked #8 Fight of the Year vs. Cung Le"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2013: Ranked #8 Knockout of the Year & Ranked #2 Fight of the Year vs. Brian Stann"
+    },
+    {
+      "org": "Pride Fighting Championships",
+      "texte": "Pride Middleweight Championship ( One time, first )"
+    },
+    {
+      "org": "Pride Fighting Championships",
+      "texte": "Four successful title defenses"
+    },
+    {
+      "org": "Pride Fighting Championships",
+      "texte": "Most successful title defenses in PRIDE FC history (4)"
+    },
+    {
+      "org": "Pride Fighting Championships",
+      "texte": "Most successful title defenses in the history of PRIDE FC Middleweight division (4)"
+    },
+    {
+      "org": "Pride Fighting Championships",
+      "texte": "Most consecutive successful titles defenses in PRIDE FC history (4)"
+    },
+    {
+      "org": "Pride Fighting Championships",
+      "texte": "Most consecutive successful title defenses in the history of PRIDE FC Middleweight division (4)"
+    },
+    {
+      "org": "Pride Fighting Championships",
+      "texte": "Longest title reign in PRIDE FC history (1939 days)"
+    },
+    {
+      "org": "Pride Fighting Championships",
+      "texte": "2003 Pride Middleweight World Grand Prix Championship"
+    },
+    {
+      "org": "Pride Fighting Championships",
+      "texte": "2005 Pride Middleweight World Grand Prix Semi-finalist"
+    },
+    {
+      "org": "Pride Fighting Championships",
+      "texte": "2006 Pride Openweight World Grand Prix Semi-finalist"
+    },
+    {
+      "org": "Pride Fighting Championships",
+      "texte": "Saku Championship belt winner"
+    },
+    {
+      "org": "Pride Fighting Championships",
+      "texte": "First fighter in Pride Fighting Championships history to win a Pride Championship and Pride Grand Prix"
+    },
+    {
+      "org": "Pride Fighting Championships",
+      "texte": "Most wins in PRIDE FC history (22)"
+    },
+    {
+      "org": "Pride Fighting Championships",
+      "texte": "Longest undefeated streak in PRIDE FC history (20)"
+    },
+    {
+      "org": "Pride Fighting Championships",
+      "texte": "Most knockouts in PRIDE FC history (15)"
+    },
+    {
+      "org": "Pride Fighting Championships",
+      "texte": "Most knockdowns landed in PRIDE FC history (18)"
+    },
+    {
+      "org": "Pride Fighting Championships",
+      "texte": "Tied ( Mirko Cro Cop ) for most finishes in PRIDE FC history (16)"
+    },
+    {
+      "org": "Pride Fighting Championships",
+      "texte": "Most bouts in PRIDE FC history (28)"
+    },
+    {
+      "org": "Pride Fighting Championships",
+      "texte": "Fourth most total fight time in PRIDE FC history (4 hours 40 mins)"
+    },
+    {
+      "org": "Pride Fighting Championships",
+      "texte": "Most significant strikes in PRIDE FC history (720)"
+    },
+    {
+      "org": "International Vale Tudo Championship",
+      "texte": "IVC Light heavyweight Championship (One time)"
+    },
+    {
+      "org": "FanSided",
+      "texte": "2000s #9 Ranked MMA Fighter of the Decade"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "2001 Feud of the Year vs. Kazushi Sakuraba"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "2001 Most Outstanding Fighter"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "2003 Fight of the Year vs. Hidehiko Yoshida on 9 November"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "2004 Fight of the Year vs. Quinton Jackson on 31 October"
+    },
+    {
+      "org": "Wrestling Observer Newsletter",
+      "texte": "2004 Most Outstanding Fighter"
+    },
+    {
+      "org": "Sports Illustrated",
+      "texte": "2004 Knockout of the Decade vs. Quinton Jackson on 31 October 2004"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2004 Light heavyweight of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2004 Fight of the Year vs. Quinton Jackson 2 at Pride 28"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2008 #3 Ranked UFC Knockout of the Year vs. Keith Jardine at UFC 84"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2013 Best Fight of the Half-Year vs. Brian Stann"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "2004 Fighter of the Year"
+    },
+    {
+      "org": "Sherdog",
+      "texte": "Mixed Martial Arts Hall of Fame"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2008 Fight of the Year vs. Chuck Liddell at UFC 79"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2008 Knockout of the Year vs. Keith Jardine at UFC 84"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2018 Lifetime Achievement"
+    },
+    {
+      "org": "Yahoo Sports",
+      "texte": "2007 Fight of the Year vs. Chuck Liddell at UFC 79"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Champion Pride des poids moyens",
+      "Hall of Fame de l'UFC (2024)",
+      "Combattant de l'année (2004)",
+      "Combat de l'année (2003, 2004, 2007)",
+      "Bonus UFC : 5× Combat de la soirée, 2× KO de la soirée"
+    ],
+    "en": [
+      "Pride Middleweight Champion",
+      "UFC Hall of Fame (2024)",
+      "Fighter of the Year (2004)",
+      "Fight of the Year (2003, 2004, 2007)",
+      "UFC bonuses: 5× Fight of the Night, 2× Knockout of the Night"
+    ]
+  },
+  "image_commons": "Wanderlei Cesar Silva (2006) retusche.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Wanderlei_Silva",
+    "wikidata": "https://www.wikidata.org/wiki/Q458749",
+    "ufc_com": "https://www.ufc.com/athlete/wanderlei-silva"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "allonge_cm",
+    "palmares (wikipedia_tableau 35-14, wikipedia_infobox 0-0, ufc_com 35-12)",
+    "stats_ufc (absentes de la fiche ufc.com)"
+  ],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 35-14, wikipedia_infobox 0-0, ufc_com 35-12"
+  },
+  "maj": "2026-10-20",
+  "stats_jeu": {
+    "precision": 61,
+    "puissance": 99,
+    "vitesse": 61,
+    "takedown": 61,
+    "controle": 41,
+    "soumission": 33,
+    "menton": 40,
+    "esquive": 61,
+    "defenseTd": 61,
+    "categorie_frappe": 74,
+    "categorie_lutte": 45,
+    "categorie_defense": 54,
+    "globale": 64,
+    "style": "frappeur",
+    "estimees": [
+      "precision",
+      "vitesse",
+      "takedown",
+      "esquive",
+      "defenseTd"
+    ],
+    "formule_version": 2
+  }
+}

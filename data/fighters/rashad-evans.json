@@ -14,13 +14,13 @@
   "style": "Wrestling",
   "lieu_naissance": "Niagara Falls, États-Unis",
   "palmares": {
-    "victoires": 18,
+    "victoires": 20,
     "defaites": 8,
     "nuls": 1,
     "sans_decision": 0,
     "victoires_ko": 8,
-    "victoires_soumission": 0,
-    "victoires_decision": 10,
+    "victoires_soumission": 1,
+    "victoires_decision": 11,
     "defaites_ko": 3,
     "defaites_soumission": 0,
     "defaites_decision": 5
@@ -41,14 +41,14 @@
   },
   "ufc": {
     "palmares_tableau": {
-      "victoires": 18,
+      "victoires": 20,
       "defaites": 8,
       "nuls": 1,
       "sans_decision": 0,
       "v": {
         "ko": 8,
-        "soumission": 0,
-        "decision": 10,
+        "soumission": 1,
+        "decision": 11,
         "autre": 0
       },
       "d": {
@@ -263,24 +263,23 @@
     "accomplissements_en": "wikipedia"
   },
   "a_verifier": [
-    "palmares (wikipedia_tableau 18-8, wikipedia_infobox 20-8, ufc_com 24-8)",
     "stats_ufc (absentes de la fiche ufc.com)"
   ],
   "ecarts_sources": {
-    "palmares": "wikipedia_tableau 18-8, wikipedia_infobox 20-8, ufc_com 24-8"
+    "palmares": "wikipedia_tableau 20-8, wikipedia_infobox 20-8, ufc_com 24-8"
   },
-  "maj": "2026-10-04",
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 82,
-    "puissance": 76,
+    "puissance": 72,
     "vitesse": 82,
     "takedown": 82,
-    "controle": 97,
+    "controle": 96,
     "soumission": 41,
-    "menton": 78,
+    "menton": 80,
     "esquive": 82,
     "defenseTd": 82,
-    "categorie_frappe": 80,
+    "categorie_frappe": 79,
     "categorie_lutte": 73,
     "categorie_defense": 81,
     "globale": 79,

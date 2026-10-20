@@ -124,6 +124,20 @@
         "date": "1 February 2026"
       },
       {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Featherweight Championship",
+        "evenement": "UFC 314",
+        "date": "12 April 2025"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Featherweight Championship",
+        "evenement": "UFC 290",
+        "date": "8 July 2023"
+      },
+      {
         "action": "defended",
         "interim": false,
         "titre": "UFC Featherweight Championship",
@@ -528,7 +542,7 @@
   },
   "a_verifier": [],
   "ecarts_sources": {},
-  "maj": "2026-10-04",
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 97,
     "puissance": 79,

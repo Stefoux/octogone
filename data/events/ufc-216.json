@@ -1,0 +1,28 @@
+{
+  "id": "ufc-216",
+  "nom": "UFC 216",
+  "date": "2017-10-07",
+  "lieu": "T-Mobile Arena",
+  "ville": "Paradise, Nevada",
+  "pays": "US",
+  "resultat": "Demetrious Johnson bat Ray Borg par soumission (clé de bras) à 3:15 du 5e round.",
+  "resultat_en": "Demetrious Johnson defeats Ray Borg by Submission (armbar) at 3:15 of round 5.",
+  "contexte": "Demetrious Johnson soumet Ray Borg par clé de bras au 5e round : 11e défense de titre d'affilée, record de l'UFC, et soumission de l'année.",
+  "contexte_en": "Demetrious Johnson submitted Ray Borg with an armbar in round 5: his 11th consecutive title defense, a UFC record, and Submission of the Year.",
+  "tirage": null,
+  "resultats": [
+    {
+      "vainqueur": "Demetrious Johnson",
+      "perdant": "Ray Borg",
+      "methode": "soumission (clé de bras)",
+      "round": 5,
+      "temps": "3:15"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/UFC_216",
+    "https://en.wikipedia.org/wiki/Demetrious_Johnson"
+  ],
+  "a_verifier": [],
+  "genere_par": "fetch_moments.py"
+}

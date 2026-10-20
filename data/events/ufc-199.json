@@ -1,0 +1,28 @@
+{
+  "id": "ufc-199",
+  "nom": "UFC 199",
+  "date": "2016-06-04",
+  "lieu": "The Forum",
+  "ville": "Inglewood, California",
+  "pays": "US",
+  "resultat": "Michael Bisping bat Luke Rockhold par KO (coups de poing) à 3:36 du 1er round.",
+  "resultat_en": "Michael Bisping defeats Luke Rockhold by KO (punches) at 3:36 of round 1.",
+  "contexte": "Appelé pour remplacer Chris Weidman, Michael Bisping met KO le champion Luke Rockhold au 1er round et devient le premier champion britannique de l'UFC.",
+  "contexte_en": "Called in to replace Chris Weidman, Michael Bisping knocked out champion Luke Rockhold in round 1 to become the first British UFC champion.",
+  "tirage": null,
+  "resultats": [
+    {
+      "vainqueur": "Michael Bisping",
+      "perdant": "Luke Rockhold",
+      "methode": "KO (coups de poing)",
+      "round": 1,
+      "temps": "3:36"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/UFC_199",
+    "https://en.wikipedia.org/wiki/Michael_Bisping"
+  ],
+  "a_verifier": [],
+  "genere_par": "fetch_moments.py"
+}

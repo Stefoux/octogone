@@ -121,6 +121,13 @@
       {
         "action": "won",
         "interim": false,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 295",
+        "date": "11 November 2023"
+      },
+      {
+        "action": "won",
+        "interim": false,
         "titre": "UFC Middleweight Championship",
         "evenement": "UFC 281",
         "date": "12 November 2022"
@@ -463,7 +470,7 @@
   },
   "a_verifier": [],
   "ecarts_sources": {},
-  "maj": "2026-10-04",
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 99,
     "puissance": 99,

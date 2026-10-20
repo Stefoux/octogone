@@ -1,0 +1,29 @@
+{
+  "id": "ufc-128",
+  "nom": "UFC 128",
+  "date": "2011-03-19",
+  "lieu": "Prudential Center",
+  "ville": "Newark, New Jersey",
+  "pays": "US",
+  "resultat": "Jon Jones bat Maurício Rua par TKO (coups de poing et genoux) à 2:37 du 3e round.",
+  "resultat_en": "Jon Jones defeats Maurício Rua by TKO (punches and knees) at 2:37 of round 3.",
+  "contexte": "À 23 ans, Jon Jones arrête Maurício « Shogun » Rua au 3e round et devient le plus jeune champion de l'histoire de l'UFC.",
+  "contexte_en": "At 23, Jon Jones stopped Maurício \"Shogun\" Rua in the third round to become the youngest champion in UFC history.",
+  "tirage": null,
+  "resultats": [
+    {
+      "vainqueur": "Jon Jones",
+      "perdant": "Maurício Rua",
+      "methode": "TKO (coups de poing et genoux)",
+      "round": 3,
+      "temps": "2:37"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/UFC_128",
+    "https://en.wikipedia.org/wiki/Jon_Jones",
+    "https://en.wikipedia.org/wiki/Maurício_Rua"
+  ],
+  "a_verifier": [],
+  "genere_par": "fetch_moments.py"
+}

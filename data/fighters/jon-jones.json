@@ -122,6 +122,13 @@
         "date": "November 16, 2024"
       },
       {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Heavyweight Championship",
+        "evenement": "UFC 285",
+        "date": "March 4, 2023"
+      },
+      {
         "action": "defended",
         "interim": false,
         "titre": "UFC Light Heavyweight Championship",
@@ -141,6 +148,13 @@
         "titre": "UFC Light Heavyweight Championship",
         "evenement": "UFC 235",
         "date": "March 2, 2019"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 232",
+        "date": "December 29, 2018"
       },
       {
         "action": "won",
@@ -744,7 +758,7 @@
   },
   "a_verifier": [],
   "ecarts_sources": {},
-  "maj": "2026-10-04",
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 99,
     "puissance": 69,

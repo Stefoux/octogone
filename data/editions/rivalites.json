@@ -5,7 +5,7 @@
   "type": "originale",
   "famille_cadre": "original",
   "date_sortie": null,
-  "description": "Les 78 rivalités réelles de la base (au moins deux combats entre les mêmes combattants), en cartes Face-à-Face ; bilan et combats tirés du palmarès Wikipedia de chacun.",
+  "description": "Les 103 rivalités réelles de la base (au moins deux combats entre les mêmes combattants), en cartes Face-à-Face ; bilan et combats tirés du palmarès Wikipedia de chacun.",
   "sources": [],
   "a_verifier": [],
   "raretes": [
@@ -46,7 +46,7 @@
       "code": "BASE",
       "nom": "Rivalités",
       "type": "base",
-      "nb_cartes": 78,
+      "nb_cartes": 103,
       "cartes": [
         {
           "numero": "1",
@@ -109,6 +109,42 @@
         },
         {
           "numero": "6",
+          "nom_imprime": "B.J. Penn vs Frankie Edgar",
+          "combattants": [
+            "b-j-penn",
+            "frankie-edgar"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/B.J._Penn",
+            "https://en.wikipedia.org/wiki/Frankie_Edgar"
+          ]
+        },
+        {
+          "numero": "7",
+          "nom_imprime": "B.J. Penn vs Matt Hughes",
+          "combattants": [
+            "b-j-penn",
+            "matt-hughes"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/B.J._Penn",
+            "https://en.wikipedia.org/wiki/Matt_Hughes_(fighter)"
+          ]
+        },
+        {
+          "numero": "8",
+          "nom_imprime": "Chuck Liddell vs Randy Couture",
+          "combattants": [
+            "chuck-liddell",
+            "randy-couture"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Chuck_Liddell",
+            "https://en.wikipedia.org/wiki/Randy_Couture"
+          ]
+        },
+        {
+          "numero": "9",
           "nom_imprime": "Chuck Liddell vs Tito Ortiz",
           "combattants": [
             "chuck-liddell",
@@ -120,7 +156,7 @@
           ]
         },
         {
-          "numero": "7",
+          "numero": "10",
           "nom_imprime": "Conor McGregor vs Dustin Poirier",
           "combattants": [
             "conor-mcgregor",
@@ -132,7 +168,7 @@
           ]
         },
         {
-          "numero": "8",
+          "numero": "11",
           "nom_imprime": "Daniel Cormier vs Stipe Miocic",
           "combattants": [
             "daniel-cormier",
@@ -144,7 +180,7 @@
           ]
         },
         {
-          "numero": "9",
+          "numero": "12",
           "nom_imprime": "Dominick Cruz vs Urijah Faber",
           "combattants": [
             "dominick-cruz",
@@ -156,7 +192,7 @@
           ]
         },
         {
-          "numero": "10",
+          "numero": "13",
           "nom_imprime": "Dustin Poirier vs Max Holloway",
           "combattants": [
             "dustin-poirier",
@@ -168,7 +204,7 @@
           ]
         },
         {
-          "numero": "11",
+          "numero": "14",
           "nom_imprime": "Forrest Griffin vs Tito Ortiz",
           "combattants": [
             "forrest-griffin",
@@ -180,7 +216,7 @@
           ]
         },
         {
-          "numero": "12",
+          "numero": "15",
           "nom_imprime": "Georges St-Pierre vs Matt Hughes",
           "combattants": [
             "georges-st-pierre",
@@ -192,7 +228,7 @@
           ]
         },
         {
-          "numero": "13",
+          "numero": "16",
           "nom_imprime": "Kamaru Usman vs Leon Edwards",
           "combattants": [
             "kamaru-usman",
@@ -204,7 +240,19 @@
           ]
         },
         {
-          "numero": "14",
+          "numero": "17",
+          "nom_imprime": "Kazushi Sakuraba vs Wanderlei Silva",
+          "combattants": [
+            "kazushi-sakuraba",
+            "wanderlei-silva"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Kazushi_Sakuraba",
+            "https://en.wikipedia.org/wiki/Wanderlei_Silva"
+          ]
+        },
+        {
+          "numero": "18",
           "nom_imprime": "Ken Shamrock vs Royce Gracie",
           "combattants": [
             "ken-shamrock",
@@ -216,7 +264,7 @@
           ]
         },
         {
-          "numero": "15",
+          "numero": "19",
           "nom_imprime": "Ken Shamrock vs Tito Ortiz",
           "combattants": [
             "ken-shamrock",
@@ -228,7 +276,19 @@
           ]
         },
         {
-          "numero": "16",
+          "numero": "20",
+          "nom_imprime": "Randy Couture vs Vitor Belfort",
+          "combattants": [
+            "randy-couture",
+            "vitor-belfort"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Randy_Couture",
+            "https://en.wikipedia.org/wiki/Vitor_Belfort"
+          ]
+        },
+        {
+          "numero": "21",
           "nom_imprime": "Alex Pereira vs Israel Adesanya",
           "combattants": [
             "alex-pereira",
@@ -240,7 +300,7 @@
           ]
         },
         {
-          "numero": "17",
+          "numero": "22",
           "nom_imprime": "Alex Pereira vs Jiří Procházka",
           "combattants": [
             "alex-pereira",
@@ -252,7 +312,7 @@
           ]
         },
         {
-          "numero": "18",
+          "numero": "23",
           "nom_imprime": "Alex Pereira vs Magomed Ankalaev",
           "combattants": [
             "alex-pereira",
@@ -264,7 +324,7 @@
           ]
         },
         {
-          "numero": "19",
+          "numero": "24",
           "nom_imprime": "Alexa Grasso vs Maycee Barber",
           "combattants": [
             "alexa-grasso",
@@ -276,7 +336,7 @@
           ]
         },
         {
-          "numero": "20",
+          "numero": "25",
           "nom_imprime": "Alexander Volkanovski vs Diego Lopes",
           "combattants": [
             "alexander-volkanovski",
@@ -288,7 +348,7 @@
           ]
         },
         {
-          "numero": "21",
+          "numero": "26",
           "nom_imprime": "Alexander Volkanovski vs Islam Makhachev",
           "combattants": [
             "alexander-volkanovski",
@@ -300,7 +360,7 @@
           ]
         },
         {
-          "numero": "22",
+          "numero": "27",
           "nom_imprime": "Alexander Volkov vs Ciryl Gane",
           "combattants": [
             "alexander-volkov",
@@ -312,7 +372,7 @@
           ]
         },
         {
-          "numero": "23",
+          "numero": "28",
           "nom_imprime": "Alexandr Romanov vs Rodrigo Nascimento",
           "combattants": [
             "alexandr-romanov",
@@ -323,7 +383,7 @@
           ]
         },
         {
-          "numero": "24",
+          "numero": "29",
           "nom_imprime": "Alexandre Pantoja vs Brandon Moreno",
           "combattants": [
             "alexandre-pantoja",
@@ -335,7 +395,7 @@
           ]
         },
         {
-          "numero": "25",
+          "numero": "30",
           "nom_imprime": "Alexandre Pantoja vs Brandon Royval",
           "combattants": [
             "alexandre-pantoja",
@@ -347,7 +407,7 @@
           ]
         },
         {
-          "numero": "26",
+          "numero": "31",
           "nom_imprime": "Alexandre Pantoja vs Joshua Van",
           "combattants": [
             "alexandre-pantoja",
@@ -359,7 +419,7 @@
           ]
         },
         {
-          "numero": "27",
+          "numero": "32",
           "nom_imprime": "Aljamain Sterling vs Petr Yan",
           "combattants": [
             "aljamain-sterling",
@@ -371,7 +431,7 @@
           ]
         },
         {
-          "numero": "28",
+          "numero": "33",
           "nom_imprime": "Amanda Nunes vs Julianna Peña",
           "combattants": [
             "amanda-nunes",
@@ -383,7 +443,7 @@
           ]
         },
         {
-          "numero": "29",
+          "numero": "34",
           "nom_imprime": "Amanda Nunes vs Valentina Shevchenko",
           "combattants": [
             "amanda-nunes",
@@ -395,7 +455,7 @@
           ]
         },
         {
-          "numero": "30",
+          "numero": "35",
           "nom_imprime": "Anderson Silva vs Chael Sonnen",
           "combattants": [
             "anderson-silva",
@@ -407,7 +467,7 @@
           ]
         },
         {
-          "numero": "31",
+          "numero": "36",
           "nom_imprime": "Anderson Silva vs Chris Weidman",
           "combattants": [
             "anderson-silva",
@@ -419,7 +479,7 @@
           ]
         },
         {
-          "numero": "32",
+          "numero": "37",
           "nom_imprime": "Anderson Silva vs Rich Franklin",
           "combattants": [
             "anderson-silva",
@@ -431,7 +491,31 @@
           ]
         },
         {
-          "numero": "33",
+          "numero": "38",
+          "nom_imprime": "Ante Delija vs Marcin Tybura",
+          "combattants": [
+            "ante-delija",
+            "marcin-tybura"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Ante_Delija",
+            "https://en.wikipedia.org/wiki/Marcin_Tybura"
+          ]
+        },
+        {
+          "numero": "39",
+          "nom_imprime": "Anthony Hernandez vs Brendan Allen",
+          "combattants": [
+            "anthony-hernandez",
+            "brendan-allen"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Anthony_Hernandez",
+            "https://en.wikipedia.org/wiki/Brendan_Allen"
+          ]
+        },
+        {
+          "numero": "40",
           "nom_imprime": "Antônio Rodrigo Nogueira vs Frank Mir",
           "combattants": [
             "antonio-rodrigo-nogueira",
@@ -443,7 +527,31 @@
           ]
         },
         {
-          "numero": "34",
+          "numero": "41",
+          "nom_imprime": "B.J. Penn vs Georges St-Pierre",
+          "combattants": [
+            "b-j-penn",
+            "georges-st-pierre"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/B.J._Penn",
+            "https://en.wikipedia.org/wiki/Georges_St-Pierre"
+          ]
+        },
+        {
+          "numero": "42",
+          "nom_imprime": "B.J. Penn vs Jens Pulver",
+          "combattants": [
+            "b-j-penn",
+            "jens-pulver"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/B.J._Penn",
+            "https://en.wikipedia.org/wiki/Jens_Pulver"
+          ]
+        },
+        {
+          "numero": "43",
           "nom_imprime": "Bas Rutten vs Frank Shamrock",
           "combattants": [
             "bas-rutten",
@@ -455,7 +563,7 @@
           ]
         },
         {
-          "numero": "35",
+          "numero": "44",
           "nom_imprime": "Belal Muhammad vs Leon Edwards",
           "combattants": [
             "belal-muhammad",
@@ -467,7 +575,7 @@
           ]
         },
         {
-          "numero": "36",
+          "numero": "45",
           "nom_imprime": "Belal Muhammad vs Vicente Luque",
           "combattants": [
             "belal-muhammad",
@@ -479,7 +587,7 @@
           ]
         },
         {
-          "numero": "37",
+          "numero": "46",
           "nom_imprime": "Brandon Moreno vs Brandon Royval",
           "combattants": [
             "brandon-moreno",
@@ -491,7 +599,7 @@
           ]
         },
         {
-          "numero": "38",
+          "numero": "47",
           "nom_imprime": "Brandon Moreno vs Kai Kara-France",
           "combattants": [
             "brandon-moreno",
@@ -503,7 +611,7 @@
           ]
         },
         {
-          "numero": "39",
+          "numero": "48",
           "nom_imprime": "Brian Ortega vs Yair Rodríguez",
           "combattants": [
             "brian-ortega",
@@ -515,7 +623,7 @@
           ]
         },
         {
-          "numero": "40",
+          "numero": "49",
           "nom_imprime": "Brock Lesnar vs Frank Mir",
           "combattants": [
             "brock-lesnar",
@@ -527,7 +635,18 @@
           ]
         },
         {
-          "numero": "41",
+          "numero": "50",
+          "nom_imprime": "Brunno Ferreira vs Gregory Rodrigues",
+          "combattants": [
+            "brunno-ferreira",
+            "gregory-rodrigues"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Gregory_Rodrigues"
+          ]
+        },
+        {
+          "numero": "51",
           "nom_imprime": "Carla Esparza vs Rose Namajunas",
           "combattants": [
             "carla-esparza",
@@ -539,7 +658,7 @@
           ]
         },
         {
-          "numero": "42",
+          "numero": "52",
           "nom_imprime": "Charles Oliveira vs Max Holloway",
           "combattants": [
             "charles-oliveira",
@@ -551,7 +670,7 @@
           ]
         },
         {
-          "numero": "43",
+          "numero": "53",
           "nom_imprime": "Charles Oliveira vs Michael Chandler",
           "combattants": [
             "charles-oliveira",
@@ -563,7 +682,7 @@
           ]
         },
         {
-          "numero": "44",
+          "numero": "54",
           "nom_imprime": "Colby Covington vs Kamaru Usman",
           "combattants": [
             "colby-covington",
@@ -575,7 +694,7 @@
           ]
         },
         {
-          "numero": "45",
+          "numero": "55",
           "nom_imprime": "Conor McGregor vs Max Holloway",
           "combattants": [
             "conor-mcgregor",
@@ -587,7 +706,19 @@
           ]
         },
         {
-          "numero": "46",
+          "numero": "56",
+          "nom_imprime": "Cory Sandhagen vs Mario Bautista",
+          "combattants": [
+            "cory-sandhagen",
+            "mario-bautista"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Cory_Sandhagen",
+            "https://en.wikipedia.org/wiki/Mario_Bautista"
+          ]
+        },
+        {
+          "numero": "57",
           "nom_imprime": "Curtis Blaydes vs Tom Aspinall",
           "combattants": [
             "curtis-blaydes",
@@ -599,7 +730,7 @@
           ]
         },
         {
-          "numero": "47",
+          "numero": "58",
           "nom_imprime": "Dan Henderson vs Maurício Rua",
           "combattants": [
             "dan-henderson",
@@ -611,7 +742,7 @@
           ]
         },
         {
-          "numero": "48",
+          "numero": "59",
           "nom_imprime": "Dan Henderson vs Michael Bisping",
           "combattants": [
             "dan-henderson",
@@ -623,7 +754,43 @@
           ]
         },
         {
-          "numero": "49",
+          "numero": "60",
+          "nom_imprime": "Dan Henderson vs Vitor Belfort",
+          "combattants": [
+            "dan-henderson",
+            "vitor-belfort"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Dan_Henderson",
+            "https://en.wikipedia.org/wiki/Vitor_Belfort"
+          ]
+        },
+        {
+          "numero": "61",
+          "nom_imprime": "Dan Henderson vs Wanderlei Silva",
+          "combattants": [
+            "dan-henderson",
+            "wanderlei-silva"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Dan_Henderson",
+            "https://en.wikipedia.org/wiki/Wanderlei_Silva"
+          ]
+        },
+        {
+          "numero": "62",
+          "nom_imprime": "Dan Severn vs Ken Shamrock",
+          "combattants": [
+            "dan-severn",
+            "ken-shamrock"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Dan_Severn",
+            "https://en.wikipedia.org/wiki/Ken_Shamrock"
+          ]
+        },
+        {
+          "numero": "63",
           "nom_imprime": "Daniel Cormier vs Jon Jones",
           "combattants": [
             "daniel-cormier",
@@ -635,7 +802,19 @@
           ]
         },
         {
-          "numero": "50",
+          "numero": "64",
+          "nom_imprime": "Demetrious Johnson vs Henry Cejudo",
+          "combattants": [
+            "demetrious-johnson",
+            "henry-cejudo"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Demetrious_Johnson",
+            "https://en.wikipedia.org/wiki/Henry_Cejudo"
+          ]
+        },
+        {
+          "numero": "65",
           "nom_imprime": "Don Frye vs Mark Coleman",
           "combattants": [
             "don-frye",
@@ -647,7 +826,7 @@
           ]
         },
         {
-          "numero": "51",
+          "numero": "66",
           "nom_imprime": "Donald Cerrone vs Rafael dos Anjos",
           "combattants": [
             "donald-cerrone",
@@ -659,7 +838,7 @@
           ]
         },
         {
-          "numero": "52",
+          "numero": "67",
           "nom_imprime": "Dricus du Plessis vs Sean Strickland",
           "combattants": [
             "dricus-du-plessis",
@@ -671,7 +850,7 @@
           ]
         },
         {
-          "numero": "53",
+          "numero": "68",
           "nom_imprime": "Dustin Poirier vs Justin Gaethje",
           "combattants": [
             "dustin-poirier",
@@ -683,7 +862,19 @@
           ]
         },
         {
-          "numero": "54",
+          "numero": "69",
+          "nom_imprime": "Erin Blanchfield vs Tracy Cortez",
+          "combattants": [
+            "erin-blanchfield",
+            "tracy-cortez"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Erin_Blanchfield",
+            "https://en.wikipedia.org/wiki/Tracy_Cortez"
+          ]
+        },
+        {
+          "numero": "70",
           "nom_imprime": "Forrest Griffin vs Maurício Rua",
           "combattants": [
             "forrest-griffin",
@@ -695,7 +886,31 @@
           ]
         },
         {
-          "numero": "55",
+          "numero": "71",
+          "nom_imprime": "Francis Ngannou vs Stipe Miocic",
+          "combattants": [
+            "francis-ngannou",
+            "stipe-miocic"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Francis_Ngannou",
+            "https://en.wikipedia.org/wiki/Stipe_Miocic"
+          ]
+        },
+        {
+          "numero": "72",
+          "nom_imprime": "Frankie Edgar vs José Aldo",
+          "combattants": [
+            "frankie-edgar",
+            "jose-aldo"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Frankie_Edgar",
+            "https://en.wikipedia.org/wiki/José_Aldo"
+          ]
+        },
+        {
+          "numero": "73",
           "nom_imprime": "Georges St-Pierre vs Matt Serra",
           "combattants": [
             "georges-st-pierre",
@@ -707,7 +922,7 @@
           ]
         },
         {
-          "numero": "56",
+          "numero": "74",
           "nom_imprime": "Holly Holm vs Raquel Pennington",
           "combattants": [
             "holly-holm",
@@ -719,7 +934,7 @@
           ]
         },
         {
-          "numero": "57",
+          "numero": "75",
           "nom_imprime": "Israel Adesanya vs Marvin Vettori",
           "combattants": [
             "israel-adesanya",
@@ -731,7 +946,7 @@
           ]
         },
         {
-          "numero": "58",
+          "numero": "76",
           "nom_imprime": "Israel Adesanya vs Robert Whittaker",
           "combattants": [
             "israel-adesanya",
@@ -743,7 +958,19 @@
           ]
         },
         {
-          "numero": "59",
+          "numero": "77",
+          "nom_imprime": "Jacqueline Cavalcanti vs Nora Cornolle",
+          "combattants": [
+            "jacqueline-cavalcanti",
+            "nora-cornolle"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Jacqueline_Cavalcanti",
+            "https://en.wikipedia.org/wiki/Nora_Cornolle"
+          ]
+        },
+        {
+          "numero": "78",
           "nom_imprime": "Jens Pulver vs Urijah Faber",
           "combattants": [
             "jens-pulver",
@@ -755,7 +982,7 @@
           ]
         },
         {
-          "numero": "60",
+          "numero": "79",
           "nom_imprime": "Jessica Andrade vs Raquel Pennington",
           "combattants": [
             "jessica-andrade",
@@ -767,7 +994,7 @@
           ]
         },
         {
-          "numero": "61",
+          "numero": "80",
           "nom_imprime": "Jessica Andrade vs Rose Namajunas",
           "combattants": [
             "jessica-andrade",
@@ -779,7 +1006,7 @@
           ]
         },
         {
-          "numero": "62",
+          "numero": "81",
           "nom_imprime": "Joanna Jędrzejczyk vs Rose Namajunas",
           "combattants": [
             "joanna-jedrzejczyk",
@@ -791,7 +1018,7 @@
           ]
         },
         {
-          "numero": "63",
+          "numero": "82",
           "nom_imprime": "Joanna Jędrzejczyk vs Zhang Weili",
           "combattants": [
             "joanna-jedrzejczyk",
@@ -803,7 +1030,7 @@
           ]
         },
         {
-          "numero": "64",
+          "numero": "83",
           "nom_imprime": "Johnny Walker vs Magomed Ankalaev",
           "combattants": [
             "johnny-walker",
@@ -815,7 +1042,19 @@
           ]
         },
         {
-          "numero": "65",
+          "numero": "84",
+          "nom_imprime": "José Aldo vs Max Holloway",
+          "combattants": [
+            "jose-aldo",
+            "max-holloway"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/José_Aldo",
+            "https://en.wikipedia.org/wiki/Max_Holloway"
+          ]
+        },
+        {
+          "numero": "85",
           "nom_imprime": "Junior dos Santos vs Stipe Miocic",
           "combattants": [
             "junior-dos-santos",
@@ -827,7 +1066,7 @@
           ]
         },
         {
-          "numero": "66",
+          "numero": "86",
           "nom_imprime": "Justin Gaethje vs Rafael Fiziev",
           "combattants": [
             "justin-gaethje",
@@ -839,7 +1078,31 @@
           ]
         },
         {
-          "numero": "67",
+          "numero": "87",
+          "nom_imprime": "Kazushi Sakuraba vs Royce Gracie",
+          "combattants": [
+            "kazushi-sakuraba",
+            "royce-gracie"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Kazushi_Sakuraba",
+            "https://en.wikipedia.org/wiki/Royce_Gracie"
+          ]
+        },
+        {
+          "numero": "88",
+          "nom_imprime": "Kyoji Horiguchi vs Manel Kape",
+          "combattants": [
+            "kyoji-horiguchi",
+            "manel-kape"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Kyoji_Horiguchi",
+            "https://en.wikipedia.org/wiki/Manel_Kape"
+          ]
+        },
+        {
+          "numero": "89",
           "nom_imprime": "Lyoto Machida vs Maurício Rua",
           "combattants": [
             "lyoto-machida",
@@ -851,7 +1114,7 @@
           ]
         },
         {
-          "numero": "68",
+          "numero": "90",
           "nom_imprime": "Mackenzie Dern vs Virna Jandiroba",
           "combattants": [
             "mackenzie-dern",
@@ -863,7 +1126,19 @@
           ]
         },
         {
-          "numero": "69",
+          "numero": "91",
+          "nom_imprime": "Macy Chiasson vs Pannie Kianzad",
+          "combattants": [
+            "macy-chiasson",
+            "pannie-kianzad"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Macy_Chiasson",
+            "https://en.wikipedia.org/wiki/Pannie_Kianzad"
+          ]
+        },
+        {
+          "numero": "92",
           "nom_imprime": "Marcin Tybura vs Serghei Spivac",
           "combattants": [
             "marcin-tybura",
@@ -875,7 +1150,7 @@
           ]
         },
         {
-          "numero": "70",
+          "numero": "93",
           "nom_imprime": "Mark Coleman vs Maurício Rua",
           "combattants": [
             "mark-coleman",
@@ -887,7 +1162,7 @@
           ]
         },
         {
-          "numero": "71",
+          "numero": "94",
           "nom_imprime": "Marlon Vera vs Sean O'Malley",
           "combattants": [
             "marlon-vera",
@@ -899,7 +1174,7 @@
           ]
         },
         {
-          "numero": "72",
+          "numero": "95",
           "nom_imprime": "Marvin Vettori vs Roman Dolidze",
           "combattants": [
             "marvin-vettori",
@@ -911,7 +1186,7 @@
           ]
         },
         {
-          "numero": "73",
+          "numero": "96",
           "nom_imprime": "Maurício Rua vs Paul Craig",
           "combattants": [
             "mauricio-rua",
@@ -923,7 +1198,7 @@
           ]
         },
         {
-          "numero": "74",
+          "numero": "97",
           "nom_imprime": "Merab Dvalishvili vs Petr Yan",
           "combattants": [
             "merab-dvalishvili",
@@ -935,7 +1210,7 @@
           ]
         },
         {
-          "numero": "75",
+          "numero": "98",
           "nom_imprime": "Merab Dvalishvili vs Sean O'Malley",
           "combattants": [
             "merab-dvalishvili",
@@ -947,7 +1222,19 @@
           ]
         },
         {
-          "numero": "76",
+          "numero": "99",
+          "nom_imprime": "Miesha Tate vs Ronda Rousey",
+          "combattants": [
+            "miesha-tate",
+            "ronda-rousey"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Miesha_Tate",
+            "https://en.wikipedia.org/wiki/Ronda_Rousey"
+          ]
+        },
+        {
+          "numero": "100",
           "nom_imprime": "Rashad Evans vs Tito Ortiz",
           "combattants": [
             "rashad-evans",
@@ -959,7 +1246,19 @@
           ]
         },
         {
-          "numero": "77",
+          "numero": "101",
+          "nom_imprime": "Rich Franklin vs Wanderlei Silva",
+          "combattants": [
+            "rich-franklin",
+            "wanderlei-silva"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Rich_Franklin",
+            "https://en.wikipedia.org/wiki/Wanderlei_Silva"
+          ]
+        },
+        {
+          "numero": "102",
           "nom_imprime": "Rose Namajunas vs Zhang Weili",
           "combattants": [
             "rose-namajunas",
@@ -971,7 +1270,7 @@
           ]
         },
         {
-          "numero": "78",
+          "numero": "103",
           "nom_imprime": "Stephen Thompson vs Tyron Woodley",
           "combattants": [
             "stephen-thompson",

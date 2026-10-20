@@ -73,9 +73,11 @@ class CardView {
   }
 }
 
-/// Nom court d'une carte : combattant, effet Tactique (traduit) ou nom imprimé.
+/// Nom court d'une carte : combattant, duel (« A vs B »), effet Tactique
+/// (traduit) ou nom imprimé.
 String cardTitle(AppLocalizations l, CardView v) {
   final t = v.tactic;
+  if (v.isDuel) return v.card?.nomImprime ?? '${v.fighters[0].nom} vs ${v.fighters[1].nom}';
   return v.fighter?.nom ?? (t != null ? tacticName(l, t.kind) : v.card?.nomImprime) ?? '';
 }
 

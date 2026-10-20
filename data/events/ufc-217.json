@@ -1,0 +1,29 @@
+{
+  "id": "ufc-217",
+  "nom": "UFC 217",
+  "date": "2017-11-04",
+  "lieu": "Madison Square Garden",
+  "ville": "New York City, New York",
+  "pays": "US",
+  "resultat": "Georges St-Pierre bat Michael Bisping par soumission technique (étranglement arrière) à 4:23 du 3e round.",
+  "resultat_en": "Georges St-Pierre defeats Michael Bisping by Technical submission (rear-naked choke) at 4:23 of round 3.",
+  "contexte": "De retour après quatre ans d'absence, Georges St-Pierre monte chez les moyens et soumet Michael Bisping : il devient le quatrième combattant titré dans deux catégories à l'UFC.",
+  "contexte_en": "Back after four years away, Georges St-Pierre moved up to middleweight and submitted Michael Bisping, becoming the fourth fighter to win UFC titles in two weight classes.",
+  "tirage": null,
+  "resultats": [
+    {
+      "vainqueur": "Georges St-Pierre",
+      "perdant": "Michael Bisping",
+      "methode": "soumission technique (étranglement arrière)",
+      "round": 3,
+      "temps": "4:23"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/UFC_217",
+    "https://en.wikipedia.org/wiki/Georges_St-Pierre",
+    "https://en.wikipedia.org/wiki/Michael_Bisping"
+  ],
+  "a_verifier": [],
+  "genere_par": "fetch_moments.py"
+}

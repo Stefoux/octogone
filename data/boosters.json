@@ -304,6 +304,98 @@
         ],
         "garantie": "epique"
       }
+    },
+    {
+      "id": "hall-of-fame:premium_plus",
+      "edition_id": "hall-of-fame",
+      "nom": "Hall of Fame",
+      "type": "premium_plus",
+      "nb_cartes": 5,
+      "prix_pieces": 500,
+      "en_vedette": false,
+      "ordre": 12,
+      "visuel": {
+        "couleurs": [
+          "#0B0F1A",
+          "#2B3550",
+          "#C9D3E8"
+        ],
+        "accent": "#C9D3E8",
+        "motif": "octogone"
+      },
+      "composition": {
+        "slots": [
+          {
+            "nb": 2,
+            "poids": {
+              "peu_commune": 60,
+              "rare": 40
+            }
+          },
+          {
+            "nb": 2,
+            "poids": {
+              "rare": 65,
+              "epique": 35
+            }
+          },
+          {
+            "nb": 1,
+            "poids": {
+              "epique": 72,
+              "legendaire": 24,
+              "mythique": 4
+            }
+          }
+        ],
+        "garantie": "epique"
+      }
+    },
+    {
+      "id": "moments-iconiques:premium_plus",
+      "edition_id": "moments-iconiques",
+      "nom": "Moments iconiques",
+      "type": "premium_plus",
+      "nb_cartes": 5,
+      "prix_pieces": 500,
+      "en_vedette": false,
+      "ordre": 13,
+      "visuel": {
+        "couleurs": [
+          "#140F08",
+          "#4A3418",
+          "#E8B970"
+        ],
+        "accent": "#E8B970",
+        "motif": "octogone"
+      },
+      "composition": {
+        "slots": [
+          {
+            "nb": 2,
+            "poids": {
+              "peu_commune": 60,
+              "rare": 40
+            }
+          },
+          {
+            "nb": 2,
+            "poids": {
+              "rare": 65,
+              "epique": 35
+            }
+          },
+          {
+            "nb": 1,
+            "poids": {
+              "epique": 72,
+              "legendaire": 24,
+              "mythique": 4
+            }
+          }
+        ],
+        "garantie": "epique"
+      }
     }
   ]
 }

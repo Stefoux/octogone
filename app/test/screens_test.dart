@@ -671,6 +671,79 @@ void main() {
     expect(find.text('+18% success for 2 exchanges'), findsOneWidget); // Légendaire
   });
 
+  testWidgets('Carte Moment : face-à-face daté au recto, verso de l\'événement (FR / EN)', (tester) async {
+    final edition = Edition({
+      'id': 'moments-iconiques',
+      'nom': 'Moments iconiques',
+      'annee': 2026,
+      'type': 'originale',
+      'famille_cadre': 'original',
+      'sources': <String>[],
+    });
+    final series = CardSeries({
+      'id': 'moments-iconiques:BASE',
+      'edition_id': 'moments-iconiques',
+      'code': 'BASE',
+      'nom': 'Moments iconiques',
+      'type': 'base',
+      'nb_cartes': 34,
+    });
+    final card = CardDef({
+      'id': 'moments-iconiques:1',
+      'edition_id': 'moments-iconiques',
+      'series_id': 'moments-iconiques:BASE',
+      'numero': '1',
+      'ordre': 0,
+      'fighter_ids': ['alex-pereira', 'zhang-weili'],
+      'nom_imprime': 'Alex Pereira vs Zhang Weili',
+      'event_id': 'ufc-test',
+    });
+    final event = EventInfo({
+      'id': 'ufc-test',
+      'nom': 'UFC 281',
+      'date': '2022-11-12',
+      'lieu': 'Madison Square Garden',
+      'resultat': 'Alex Pereira bat Zhang Weili par TKO.',
+      'contexte': 'Contexte vérifié.',
+      'resultats': {'resultat_en': 'Alex Pereira defeats Zhang Weili by TKO.', 'contexte_en': 'Verified context.'},
+    });
+    final rare = Variant({
+      'id': 'moments-iconiques:BASE:neon',
+      'series_id': 'moments-iconiques:BASE',
+      'edition_id': 'moments-iconiques',
+      'nom': 'Néon Main Event',
+      'rarete': 'rare',
+      'effet': 'neon',
+      'reel': false,
+    });
+    final view = CardView(
+      card: card,
+      variant: rare,
+      fighters: _fighters,
+      edition: edition,
+      series: series,
+      event: event,
+      seriesTotal: 34,
+    );
+    expect(cardTitle(lookupAppLocalizations(const Locale('fr')), view), 'Alex Pereira vs Zhang Weili');
+
+    await tester.pumpWidget(_wrap(Center(child: SizedBox(width: 300, child: TradingCard(view: view))), locale: const Locale('fr')));
+    await tester.pump();
+    expect(find.text('PEREIRA  VS  WEILI'), findsOneWidget);
+    expect(find.text('UFC 281 · 2022'), findsOneWidget);
+
+    await tester.pumpWidget(_wrap(Center(child: SizedBox(width: 300, child: CardBack(view: view))), locale: const Locale('fr')));
+    await tester.pump();
+    expect(find.text('UFC 281'), findsOneWidget);
+    expect(find.text('Alex Pereira bat Zhang Weili par TKO.'), findsOneWidget);
+    expect(find.text('Contexte vérifié.'), findsOneWidget);
+
+    await tester.pumpWidget(_wrap(Center(child: SizedBox(width: 300, child: CardBack(view: view))), locale: const Locale('en')));
+    await tester.pump();
+    expect(find.text('Alex Pereira defeats Zhang Weili by TKO.'), findsOneWidget);
+    expect(find.text('Verified context.'), findsOneWidget);
+  });
+
   testWidgets('Ouverture : glisser pour déchirer, carte par carte, tout révéler, résumé', (tester) async {
     _phoneScreen(tester);
     final fake = _FakeBoosters(testMode: true);

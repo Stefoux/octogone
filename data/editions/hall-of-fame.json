@@ -1,0 +1,575 @@
+{
+  "id": "hall-of-fame",
+  "nom": "Hall of Fame",
+  "annee": 2026,
+  "type": "originale",
+  "famille_cadre": "original",
+  "date_sortie": null,
+  "description": "Les 40 combattants intronisés au Hall of Fame de l'UFC présents dans la base (ailes des pionniers et moderne, liste officielle sourcée).",
+  "sources": [
+    "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame"
+  ],
+  "a_verifier": [],
+  "raretes": [
+    {
+      "rarete": "commune",
+      "nom": "Base",
+      "effet": "base"
+    },
+    {
+      "rarete": "peu_commune",
+      "nom": "Acier d'Octogone",
+      "effet": "acier"
+    },
+    {
+      "rarete": "rare",
+      "nom": "Néon Main Event",
+      "effet": "neon"
+    },
+    {
+      "rarete": "epique",
+      "nom": "Cicatrice",
+      "effet": "cicatrice"
+    },
+    {
+      "rarete": "legendaire",
+      "nom": "Héritage",
+      "effet": "heritage"
+    },
+    {
+      "rarete": "mythique",
+      "nom": "Octogone Noir",
+      "effet": "octogone_noir",
+      "tirage": 5
+    }
+  ],
+  "series": [
+    {
+      "code": "BASE",
+      "nom": "Hall of Fame",
+      "type": "base",
+      "nb_cartes": 40,
+      "cartes": [
+        {
+          "numero": "1",
+          "nom_imprime": "Royce Gracie",
+          "combattants": [
+            "royce-gracie"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/Royce_Gracie",
+            "https://www.ufc.com/athlete/royce-gracie"
+          ]
+        },
+        {
+          "numero": "2",
+          "nom_imprime": "Ken Shamrock",
+          "combattants": [
+            "ken-shamrock"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/Ken_Shamrock",
+            "https://www.ufc.com/athlete/ken-shamrock"
+          ]
+        },
+        {
+          "numero": "3",
+          "nom_imprime": "Dan Severn",
+          "combattants": [
+            "dan-severn"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/Dan_Severn",
+            "https://www.ufc.com/athlete/dan-severn"
+          ]
+        },
+        {
+          "numero": "4",
+          "nom_imprime": "Randy Couture",
+          "combattants": [
+            "randy-couture"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/Randy_Couture",
+            "https://www.ufc.com/athlete/randy-couture"
+          ]
+        },
+        {
+          "numero": "5",
+          "nom_imprime": "Mark Coleman",
+          "combattants": [
+            "mark-coleman"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/Mark_Coleman",
+            "https://www.ufc.com/athlete/mark-coleman"
+          ]
+        },
+        {
+          "numero": "6",
+          "nom_imprime": "Chuck Liddell",
+          "combattants": [
+            "chuck-liddell"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/Chuck_Liddell",
+            "https://www.ufc.com/athlete/chuck-liddell"
+          ]
+        },
+        {
+          "numero": "7",
+          "nom_imprime": "Matt Hughes",
+          "combattants": [
+            "matt-hughes"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/Matt_Hughes_(fighter)",
+            "https://www.ufc.com/athlete/matt-hughes"
+          ]
+        },
+        {
+          "numero": "8",
+          "nom_imprime": "Tito Ortiz",
+          "combattants": [
+            "tito-ortiz"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/Tito_Ortiz",
+            "https://www.ufc.com/athlete/tito-ortiz"
+          ]
+        },
+        {
+          "numero": "9",
+          "nom_imprime": "Pat Miletich",
+          "combattants": [
+            "pat-miletich"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/Pat_Miletich",
+            "https://www.ufc.com/athlete/pat-miletich"
+          ]
+        },
+        {
+          "numero": "10",
+          "nom_imprime": "Bas Rutten",
+          "combattants": [
+            "bas-rutten"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/Bas_Rutten",
+            "https://www.ufc.com/athlete/bas-rutten"
+          ]
+        },
+        {
+          "numero": "11",
+          "nom_imprime": "Antônio Rodrigo Nogueira",
+          "combattants": [
+            "antonio-rodrigo-nogueira"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/Antônio_Rodrigo_Nogueira"
+          ]
+        },
+        {
+          "numero": "12",
+          "nom_imprime": "Maurice Smith",
+          "combattants": [
+            "maurice-smith"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/Maurice_Smith_(fighter)",
+            "https://www.ufc.com/athlete/maurice-smith"
+          ]
+        },
+        {
+          "numero": "13",
+          "nom_imprime": "Kazushi Sakuraba",
+          "combattants": [
+            "kazushi-sakuraba"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/Kazushi_Sakuraba",
+            "https://www.ufc.com/athlete/kazushi-sakuraba"
+          ]
+        },
+        {
+          "numero": "14",
+          "nom_imprime": "Matt Serra",
+          "combattants": [
+            "matt-serra"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/Matt_Serra",
+            "https://www.ufc.com/athlete/matt-serra"
+          ]
+        },
+        {
+          "numero": "15",
+          "nom_imprime": "Rich Franklin",
+          "combattants": [
+            "rich-franklin"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/Rich_Franklin",
+            "https://www.ufc.com/athlete/rich-franklin"
+          ]
+        },
+        {
+          "numero": "16",
+          "nom_imprime": "Kevin Randleman",
+          "combattants": [
+            "kevin-randleman"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/Kevin_Randleman",
+            "https://www.ufc.com/athlete/kevin-randleman"
+          ]
+        },
+        {
+          "numero": "17",
+          "nom_imprime": "Jens Pulver",
+          "combattants": [
+            "jens-pulver"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/Jens_Pulver",
+            "https://www.ufc.com/athlete/jens-pulver"
+          ]
+        },
+        {
+          "numero": "18",
+          "nom_imprime": "Anderson Silva",
+          "combattants": [
+            "anderson-silva"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/Anderson_Silva",
+            "https://www.ufc.com/athlete/anderson-silva"
+          ]
+        },
+        {
+          "numero": "19",
+          "nom_imprime": "Wanderlei Silva",
+          "combattants": [
+            "wanderlei-silva"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/Wanderlei_Silva",
+            "https://www.ufc.com/athlete/wanderlei-silva"
+          ]
+        },
+        {
+          "numero": "20",
+          "nom_imprime": "Vitor Belfort",
+          "combattants": [
+            "vitor-belfort"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/Vitor_Belfort",
+            "https://www.ufc.com/athlete/vitor-belfort"
+          ]
+        },
+        {
+          "numero": "21",
+          "nom_imprime": "Mark Kerr",
+          "combattants": [
+            "mark-kerr"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/Mark_Kerr_(fighter)",
+            "https://www.ufc.com/athlete/mark-kerr"
+          ]
+        },
+        {
+          "numero": "22",
+          "nom_imprime": "Forrest Griffin",
+          "combattants": [
+            "forrest-griffin"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/Forrest_Griffin",
+            "https://www.ufc.com/athlete/forrest-griffin"
+          ]
+        },
+        {
+          "numero": "23",
+          "nom_imprime": "B.J. Penn",
+          "combattants": [
+            "b-j-penn"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/B.J._Penn",
+            "https://www.ufc.com/athlete/bj-penn"
+          ]
+        },
+        {
+          "numero": "24",
+          "nom_imprime": "Urijah Faber",
+          "combattants": [
+            "urijah-faber"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/Urijah_Faber",
+            "https://www.ufc.com/athlete/urijah-faber"
+          ]
+        },
+        {
+          "numero": "25",
+          "nom_imprime": "Ronda Rousey",
+          "combattants": [
+            "ronda-rousey"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/Ronda_Rousey",
+            "https://www.ufc.com/athlete/ronda-rousey"
+          ]
+        },
+        {
+          "numero": "26",
+          "nom_imprime": "Rashad Evans",
+          "combattants": [
+            "rashad-evans"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/Rashad_Evans",
+            "https://www.ufc.com/athlete/rashad-evans"
+          ]
+        },
+        {
+          "numero": "27",
+          "nom_imprime": "Michael Bisping",
+          "combattants": [
+            "michael-bisping"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/Michael_Bisping",
+            "https://www.ufc.com/athlete/michael-bisping"
+          ]
+        },
+        {
+          "numero": "28",
+          "nom_imprime": "Georges St-Pierre",
+          "combattants": [
+            "georges-st-pierre"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/Georges_St-Pierre",
+            "https://www.ufc.com/athlete/georges-st-pierre"
+          ]
+        },
+        {
+          "numero": "29",
+          "nom_imprime": "Daniel Cormier",
+          "combattants": [
+            "daniel-cormier"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/Daniel_Cormier",
+            "https://www.ufc.com/athlete/daniel-cormier"
+          ]
+        },
+        {
+          "numero": "30",
+          "nom_imprime": "Khabib Nurmagomedov",
+          "combattants": [
+            "khabib-nurmagomedov"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/Khabib_Nurmagomedov",
+            "https://www.ufc.com/athlete/khabib-nurmagomedov"
+          ]
+        },
+        {
+          "numero": "31",
+          "nom_imprime": "Donald Cerrone",
+          "combattants": [
+            "donald-cerrone"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/Donald_Cerrone",
+            "https://www.ufc.com/athlete/donald-cerrone"
+          ]
+        },
+        {
+          "numero": "32",
+          "nom_imprime": "José Aldo",
+          "combattants": [
+            "jose-aldo"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/José_Aldo",
+            "https://www.ufc.com/athlete/jose-aldo"
+          ]
+        },
+        {
+          "numero": "33",
+          "nom_imprime": "Maurício Rua",
+          "combattants": [
+            "mauricio-rua"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/Maurício_Rua",
+            "https://www.ufc.com/athlete/mauricio-rua"
+          ]
+        },
+        {
+          "numero": "34",
+          "nom_imprime": "Joanna Jędrzejczyk",
+          "combattants": [
+            "joanna-jedrzejczyk"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/Joanna_Jędrzejczyk",
+            "https://www.ufc.com/athlete/joanna-jedrzejczyk"
+          ]
+        },
+        {
+          "numero": "35",
+          "nom_imprime": "Frankie Edgar",
+          "combattants": [
+            "frankie-edgar"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/Frankie_Edgar",
+            "https://www.ufc.com/athlete/frankie-edgar"
+          ]
+        },
+        {
+          "numero": "36",
+          "nom_imprime": "Robbie Lawler",
+          "combattants": [
+            "robbie-lawler"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/Robbie_Lawler",
+            "https://www.ufc.com/athlete/robbie-lawler"
+          ]
+        },
+        {
+          "numero": "37",
+          "nom_imprime": "Amanda Nunes",
+          "combattants": [
+            "amanda-nunes"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/Amanda_Nunes",
+            "https://www.ufc.com/athlete/amanda-nunes"
+          ]
+        },
+        {
+          "numero": "38",
+          "nom_imprime": "Dominick Cruz",
+          "combattants": [
+            "dominick-cruz"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/Dominick_Cruz",
+            "https://www.ufc.com/athlete/dominick-cruz"
+          ]
+        },
+        {
+          "numero": "39",
+          "nom_imprime": "Demetrious Johnson",
+          "combattants": [
+            "demetrious-johnson"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/Demetrious_Johnson",
+            "https://www.ufc.com/athlete/demetrious-johnson"
+          ]
+        },
+        {
+          "numero": "40",
+          "nom_imprime": "Chris Weidman",
+          "combattants": [
+            "chris-weidman"
+          ],
+          "mentions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/UFC_Hall_of_Fame",
+            "https://en.wikipedia.org/wiki/Chris_Weidman",
+            "https://www.ufc.com/athlete/chris-weidman"
+          ]
+        }
+      ]
+    }
+  ]
+}

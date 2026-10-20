@@ -447,7 +447,10 @@ class _BottomInfo extends StatelessWidget {
           alignment: Alignment.centerLeft,
           child: Text('${_last(a.nom)}  vs  ${_last(b.nom)}'.toUpperCase(), style: nameStyle),
         ),
-        if (view.rivalry != null)
+        if (view.event != null)
+          Text(_eventLine(view.event!),
+              style: const TextStyle(color: AppColors.gold, fontSize: 13, fontWeight: FontWeight.w600))
+        else if (view.rivalry != null)
           Text('${view.rivalry!.nbCombats} × · ${view.rivalry!.scoreFor(a.id)}',
               style: const TextStyle(color: AppColors.gold, fontSize: 13, fontWeight: FontWeight.w600)),
       ]);
@@ -458,7 +461,15 @@ class _BottomInfo extends StatelessWidget {
           alignment: Alignment.centerLeft,
           child: Text((f?.nom ?? view.card?.nomImprime ?? '').toUpperCase(), style: nameStyle),
         ),
-        if (f?.surnom != null || view.card?.sousTitre != null)
+        if (view.event != null)
+          Text(_eventLine(view.event!),
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+              style: TextStyle(
+                  color: spec.decoration == Decoration2.goldPlate ? const Color(0xFF5E420F) : AppColors.gold,
+                  fontSize: 13,
+                  fontWeight: FontWeight.w600))
+        else if (f?.surnom != null || view.card?.sousTitre != null)
           Text('« ${view.card?.sousTitre ?? f!.surnom} »',
               maxLines: 1,
               overflow: TextOverflow.ellipsis,
@@ -495,7 +506,9 @@ class _BottomInfo extends StatelessWidget {
               Text(date.toUpperCase(),
                   style: const TextStyle(fontFamily: _display, fontSize: 11, letterSpacing: 1.6, color: Color(0xFF4A3718))),
             const SizedBox(height: 4),
-            Text((f?.nom ?? '').toUpperCase(),
+            Text(
+                (view.isDuel ? '${_last(view.fighters[0].nom)} vs ${_last(view.fighters[1].nom)}' : f?.nom ?? '')
+                    .toUpperCase(),
                 style: const TextStyle(fontFamily: _display, fontSize: 17, fontWeight: FontWeight.w700, color: Color(0xFF2A1D08))),
           ]),
         );
@@ -531,6 +544,12 @@ class _BottomInfo extends StatelessWidget {
   }
 
   static String _last(String name) => name.split(' ').last;
+
+  /// « UFC 194 · 2015 » : événement d'une carte Moment.
+  static String _eventLine(EventInfo ev) {
+    final year = ev.date == null ? null : DateTime.tryParse(ev.date!)?.year;
+    return [ev.nom, ?year?.toString()].join(' · ');
+  }
 }
 
 class _Footer extends StatelessWidget {

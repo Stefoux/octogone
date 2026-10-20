@@ -1,0 +1,464 @@
+{
+  "id": "b-j-penn",
+  "nom": "B.J. Penn",
+  "ufc_slug": "bj-penn",
+  "wikipedia_titre": "B.J. Penn",
+  "surnom": "The Prodigy",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "legers",
+  "statut": "inactif",
+  "date_naissance": "1978-12-13",
+  "taille_cm": 175,
+  "allonge_cm": 178,
+  "style": "Brazilian Jiu-Jitsu",
+  "lieu_naissance": "Kailua, États-Unis",
+  "palmares": {
+    "victoires": 16,
+    "defaites": 14,
+    "nuls": 2,
+    "sans_decision": 0,
+    "victoires_ko": 7,
+    "victoires_soumission": 6,
+    "victoires_decision": 3,
+    "defaites_ko": 4,
+    "defaites_soumission": 1,
+    "defaites_decision": 9
+  },
+  "stats_ufc": {
+    "frappes_par_min": null,
+    "precision_frappe_pct": null,
+    "frappes_encaissees_par_min": null,
+    "defense_frappe_pct": null,
+    "takedowns_par_15min": null,
+    "precision_takedown_pct": null,
+    "defense_takedown_pct": null,
+    "soumissions_par_15min": null,
+    "knockdowns_par_15min": null,
+    "duree_moyenne_combat_s": null,
+    "frappes_reussies": null,
+    "takedowns_reussis": null
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 16,
+      "defaites": 14,
+      "nuls": 2,
+      "sans_decision": 0,
+      "v": {
+        "ko": 7,
+        "soumission": 6,
+        "decision": 3,
+        "autre": 0
+      },
+      "d": {
+        "ko": 4,
+        "soumission": 1,
+        "decision": 9,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2001": 3,
+      "2002": 3,
+      "2003": 1,
+      "2004": 1,
+      "2006": 2,
+      "2007": 1,
+      "2008": 2,
+      "2009": 3,
+      "2010": 3,
+      "2011": 2,
+      "2012": 1,
+      "2014": 1,
+      "2017": 2,
+      "2018": 1,
+      "2019": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Clay Guida",
+      "evenement": "UFC 237",
+      "date": "May 11, 2019",
+      "resultat": "Loss",
+      "methode": "Decision (unanimous)"
+    },
+    "combats_ufc": 27,
+    "victoires_ufc": 12,
+    "defaites_ufc": 13,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 2,
+    "bonus_fotn": 2,
+    "bonus_potn": 0,
+    "bonus_kotn": 1,
+    "bonus_sotn": 2,
+    "combats_fotn": [
+      {
+        "adversaire": "Nick Diaz",
+        "evenement": "UFC 137",
+        "date": "October 29, 2011"
+      },
+      {
+        "adversaire": "Matt Hughes",
+        "evenement": "UFC 63",
+        "date": "September 23, 2006"
+      }
+    ],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Lightweight Championship",
+        "evenement": "UFC 107",
+        "date": "December 12, 2009"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Lightweight Championship",
+        "evenement": "UFC 101",
+        "date": "August 8, 2009"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Lightweight Championship",
+        "evenement": "UFC 84",
+        "date": "May 24, 2008"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Lightweight Championship",
+        "evenement": "UFC 80",
+        "date": "January 19, 2008"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Welterweight Championship",
+        "evenement": "UFC 46",
+        "date": "January 31, 2004"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "rear-naked choke",
+      "finitions": 5
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Joey Gilbert",
+      "evenement": "UFC 31",
+      "date": "May 4, 2001",
+      "resultat": "Win",
+      "methode": "TKO (punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame ( Modern Wing , Class of 2015)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Lightweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Three successful title defenses"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Benson Henderson , Frankie Edgar and Khabib Nurmagomedov ) for the second most consecutive Lightweight title defenses in UFC history (3)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most title bouts in UFC Lightweight division history (8)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Islam Makhachev ) for most finishes in UFC Lightweight title bouts (4)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Justin Gaethje ) for most knockouts in UFC Lightweight title bouts (2)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Welterweight Championship (One time)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC 41 Lightweight Tournament Co-Champion (drew with Caol Uno in the finale)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second Multi-Divisional Champion in UFC History"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First fighter to win both the UFC Lightweight Championship and UFC Welterweight Championship"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Unofficially Unified the UFC Lightweight Championship"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Two times) vs. Matt Hughes II, Nick Diaz"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Knockout of the Night (One time) vs. Matt Hughes III"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Submission of the Night (Two times) vs. Joe Stevenson , Kenny Florian"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Encyclopedia Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Two times) vs. Georges St-Pierre I and Jens Pulver"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Submission of the Night (One time) vs. Matt Hughes I"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Knockout of the Night (One time) vs. Caol Uno"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third most consecutive losses in UFC history (7) (behind Tony Ferguson & Tai Tuivasa )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2006: Ranked #2 Fight of the Year vs. Georges St. Pierre 1 & Ranked #7 Fight of the Year vs. Matt Hughes 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2007: Ranked #7 Submission of the Year vs. Jens Pulver"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2008: Ranked #8 Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2009: Ranked #4 Fighter of the Year"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2010: Ranked #3 Knockout of the Year vs. Matt Hughes 3"
+    },
+    {
+      "org": "K-1 Fighting Network",
+      "texte": "Rumble on the Rock Lightweight Championship (One time)"
+    },
+    {
+      "org": "K-1 Fighting Network",
+      "texte": "K-1 World Grand Prix Hawaii Superfight Winner"
+    },
+    {
+      "org": "ESPN",
+      "texte": "#9 Ranked Men's MMA Fighter of the 21st Century"
+    },
+    {
+      "org": "FanSided",
+      "texte": "2000s #4 Ranked MMA Fighter of the Decade"
+    },
+    {
+      "org": "Sports Illustrated (SI.com)",
+      "texte": "2000s Fighter of the Decade (Top Ten)"
+    },
+    {
+      "org": "Sports Illustrated (SI.com)",
+      "texte": "UFC's Greatest Fight (First Place) vs. Matt Hughes on September 23, 2006"
+    },
+    {
+      "org": "Sports Illustrated (SI.com)",
+      "texte": "UFC's Greatest Fight (Eighth Place) vs. Georges St-Pierre on March 4, 2006"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "Lightweight Fighter of the Year (2003)"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "Welterweight Fighter of the Year (2004)"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "Welterweight Fighter of the Year Runner-Up (2006)"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "Rookie of the Year (2001)"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "Fighter of the Year (2004)"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "Most Noteworthy Match of Year (2002) vs. Jens Pulver on January 11, 2002"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "Most Noteworthy Match of Year (2009) vs. Georges St-Pierre on January 31, 2009"
+    },
+    {
+      "org": "Fight! Magazine",
+      "texte": "2000s Fighter of the Decade (Top Five)"
+    },
+    {
+      "org": "Fight! Magazine",
+      "texte": "Mixed Martial Arts Lifetime Achievement Award"
+    },
+    {
+      "org": "Fight! Magazine",
+      "texte": "Submission of the Year (2009) vs. Kenny Florian on August 8, 2009"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2000s Lightweight Fighter of the Decade"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "MMA's Greatest Lightweight of All Time"
+    },
+    {
+      "org": "Black Belt Magazine",
+      "texte": "Black Belt Magazine Hall of Fame"
+    },
+    {
+      "org": "Black Belt Magazine",
+      "texte": "NHB Fighter of the Year (2008)"
+    },
+    {
+      "org": "Eurosport Fight Club",
+      "texte": "Full-Contact Fighter of the Year (2004)"
+    },
+    {
+      "org": "Eurosport Fight Club",
+      "texte": "Fight of the Year (2006) vs. Matt Hughes on September 23, 2006"
+    },
+    {
+      "org": "Sherdog Awards",
+      "texte": "Mixed Martial Arts Hall of Fame"
+    },
+    {
+      "org": "Sherdog Awards",
+      "texte": "Fighter of the Year – Honorable Mention (2004)"
+    },
+    {
+      "org": "Sherdog Awards",
+      "texte": "Beatdown of the Year (2008) vs. Joe Stevenson on January 19, 2008"
+    },
+    {
+      "org": "Bloody Elbow",
+      "texte": "2009 Performance of the Year vs. Diego Sanchez at UFC 107"
+    },
+    {
+      "org": "International Brazilian Jiu-Jitsu Federation",
+      "texte": "2000 World Jiu-Jitsu Championship Gold Medal; black belt division"
+    },
+    {
+      "org": "International Brazilian Jiu-Jitsu Federation",
+      "texte": "First American to win gold in the black belt category"
+    },
+    {
+      "org": "International Brazilian Jiu-Jitsu Federation",
+      "texte": "1998 World Jiu-Jitsu Championship Silver Medal; blue belt division"
+    },
+    {
+      "org": "International Brazilian Jiu-Jitsu Federation",
+      "texte": "1999 World Jiu-Jitsu Championship Bronze Medal; brown belt division"
+    },
+    {
+      "org": "International Brazilian Jiu-Jitsu Federation",
+      "texte": "2000 CBJJ Brazilian Team Championships – Marrom Preta Leve: Nova Uniao"
+    },
+    {
+      "org": "Other",
+      "texte": "Grapplers Quest Lightweight Championship Superfight Winner"
+    },
+    {
+      "org": "Other",
+      "texte": "1997 Joe Moreira Tournament – Blue belt , 1st place"
+    },
+    {
+      "org": "Other",
+      "texte": "1999 Copa Pacific Tournament – Gold medal"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids légers",
+      "Champion UFC des poids mi-moyens",
+      "Hall of Fame de l'UFC (2015)",
+      "3 défenses de titre à l'UFC",
+      "Bonus UFC : 2× Combat de la soirée, 1× KO de la soirée, 2× Soumission de la soirée"
+    ],
+    "en": [
+      "UFC Lightweight Champion",
+      "UFC Welterweight Champion",
+      "UFC Hall of Fame (2015)",
+      "3 UFC title defenses",
+      "UFC bonuses: 2× Fight of the Night, 1× Knockout of the Night, 2× Submission of the Night"
+    ]
+  },
+  "image_commons": "US Army 51883 Ultimate Fighting Champion motivates wounded warriors cropped.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/B.J._Penn",
+    "wikidata": "https://www.wikidata.org/wiki/Q402779",
+    "ufc_com": "https://www.ufc.com/athlete/bj-penn"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "stats_ufc (absentes de la fiche ufc.com)"
+  ],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 16-14, wikipedia_infobox 0-0, ufc_com 16-14"
+  },
+  "maj": "2026-10-20",
+  "stats_jeu": {
+    "precision": 72,
+    "puissance": 73,
+    "vitesse": 72,
+    "takedown": 72,
+    "controle": 45,
+    "soumission": 79,
+    "menton": 67,
+    "esquive": 72,
+    "defenseTd": 72,
+    "categorie_frappe": 72,
+    "categorie_lutte": 65,
+    "categorie_defense": 70,
+    "globale": 70,
+    "style": "frappeur",
+    "estimees": [
+      "precision",
+      "vitesse",
+      "takedown",
+      "esquive",
+      "defenseTd"
+    ],
+    "formule_version": 2
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ufc-207",
+  "nom": "UFC 207",
+  "date": "2016-12-30",
+  "lieu": "T-Mobile Arena",
+  "ville": "Paradise, Nevada",
+  "pays": "US",
+  "resultat": "Amanda Nunes bat Ronda Rousey par TKO (coups de poing) à 0:48 du 1er round.",
+  "resultat_en": "Amanda Nunes defeats Ronda Rousey by TKO (punches) at 0:48 of round 1.",
+  "contexte": "Pour le retour de Ronda Rousey après sa défaite contre Holly Holm, Amanda Nunes conserve sa ceinture des coqs en 48 secondes.",
+  "contexte_en": "For Ronda Rousey's return after her loss to Holly Holm, Amanda Nunes kept her bantamweight title in 48 seconds.",
+  "tirage": null,
+  "resultats": [
+    {
+      "vainqueur": "Amanda Nunes",
+      "perdant": "Ronda Rousey",
+      "methode": "TKO (coups de poing)",
+      "round": 1,
+      "temps": "0:48"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/UFC_207",
+    "https://en.wikipedia.org/wiki/Amanda_Nunes",
+    "https://en.wikipedia.org/wiki/Ronda_Rousey"
+  ],
+  "a_verifier": [],
+  "genere_par": "fetch_moments.py"
+}

@@ -14,16 +14,16 @@
   "style": "Kickboxing",
   "lieu_naissance": "Corée du Sud",
   "palmares": {
+    "victoires": 17,
+    "defaites": 8,
+    "nuls": 0,
+    "sans_decision": 0,
     "victoires_ko": 6,
     "victoires_soumission": 8,
     "victoires_decision": 3,
     "defaites_ko": 5,
     "defaites_soumission": 0,
-    "defaites_decision": 3,
-    "nuls": 0,
-    "sans_decision": 0,
-    "victoires": 17,
-    "defaites": 8
+    "defaites_decision": 3
   },
   "stats_ufc": {
     "frappes_par_min": null,
@@ -41,13 +41,13 @@
   },
   "ufc": {
     "palmares_tableau": {
-      "victoires": 14,
+      "victoires": 17,
       "defaites": 8,
       "nuls": 0,
       "sans_decision": 0,
       "v": {
         "ko": 6,
-        "soumission": 5,
+        "soumission": 8,
         "decision": 3,
         "autre": 0
       },
@@ -110,8 +110,8 @@
     ],
     "titres": [],
     "technique_favorite": {
-      "technique": "punches",
-      "finitions": 4
+      "technique": "triangle choke",
+      "finitions": 2
     },
     "premier_combat_ufc": {
       "adversaire": "Leonard Garcia",
@@ -261,17 +261,15 @@
     "surnom": "ufc_com",
     "pays": "wikidata",
     "categorie": "ufc_com",
-    "palmares": "wikipedia_infobox",
+    "palmares": "wikipedia_tableau",
     "ufc": "wikipedia_tableau",
     "accomplissements_en": "wikipedia"
   },
   "a_verifier": [
     "stats_ufc (absentes de la fiche ufc.com)"
   ],
-  "ecarts_sources": {
-    "palmares": "wikipedia_tableau 14-8, wikipedia_infobox 17-8, ufc_com 17-8"
-  },
-  "maj": "2026-10-04",
+  "ecarts_sources": {},
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 71,
     "puissance": 57,

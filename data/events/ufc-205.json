@@ -1,0 +1,28 @@
+{
+  "id": "ufc-205",
+  "nom": "UFC 205",
+  "date": "2016-11-12",
+  "lieu": "Madison Square Garden",
+  "ville": "New York City",
+  "pays": "US",
+  "resultat": "Conor McGregor bat Eddie Alvarez par TKO (coups de poing) à 3:04 du 2e round.",
+  "resultat_en": "Conor McGregor defeats Eddie Alvarez by TKO (punches) at 3:04 of round 2.",
+  "contexte": "Premier gala de l'UFC à New York, au Madison Square Garden : Conor McGregor bat Eddie Alvarez et devient le premier combattant de l'UFC à détenir deux ceintures en même temps.",
+  "contexte_en": "The UFC's first event in New York City, at Madison Square Garden: Conor McGregor beat Eddie Alvarez to become the first fighter in UFC history to hold titles in two divisions at once.",
+  "tirage": null,
+  "resultats": [
+    {
+      "vainqueur": "Conor McGregor",
+      "perdant": "Eddie Alvarez",
+      "methode": "TKO (coups de poing)",
+      "round": 2,
+      "temps": "3:04"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/UFC_205",
+    "https://en.wikipedia.org/wiki/Conor_McGregor"
+  ],
+  "a_verifier": [],
+  "genere_par": "fetch_moments.py"
+}

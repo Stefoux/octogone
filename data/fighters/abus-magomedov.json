@@ -19,7 +19,7 @@
   "palmares": {
     "victoires": 29,
     "defaites": 7,
-    "nuls": 0,
+    "nuls": 1,
     "sans_decision": 0,
     "victoires_ko": 14,
     "victoires_soumission": 8,
@@ -46,7 +46,7 @@
     "palmares_tableau": {
       "victoires": 29,
       "defaites": 7,
-      "nuls": 0,
+      "nuls": 1,
       "sans_decision": 0,
       "v": {
         "ko": 14,
@@ -148,7 +148,7 @@
   },
   "a_verifier": [],
   "ecarts_sources": {},
-  "maj": "2026-10-05",
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 67,
     "puissance": 73,

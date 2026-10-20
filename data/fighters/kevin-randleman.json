@@ -1,0 +1,245 @@
+{
+  "id": "kevin-randleman",
+  "nom": "Kevin Randleman",
+  "ufc_slug": "kevin-randleman",
+  "wikipedia_titre": "Kevin Randleman",
+  "surnom": "The Monster",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "mi_lourds",
+  "statut": "inactif",
+  "date_naissance": "1971-08-10",
+  "taille_cm": 178,
+  "allonge_cm": null,
+  "style": "Wrestling",
+  "lieu_naissance": "États-Unis",
+  "palmares": {
+    "victoires": 17,
+    "defaites": 16,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 9,
+    "victoires_soumission": 0,
+    "victoires_decision": 8,
+    "defaites_ko": 4,
+    "defaites_soumission": 8,
+    "defaites_decision": 4
+  },
+  "stats_ufc": {
+    "frappes_par_min": null,
+    "precision_frappe_pct": null,
+    "frappes_encaissees_par_min": null,
+    "defense_frappe_pct": null,
+    "takedowns_par_15min": null,
+    "precision_takedown_pct": null,
+    "defense_takedown_pct": null,
+    "soumissions_par_15min": null,
+    "knockdowns_par_15min": null,
+    "duree_moyenne_combat_s": null,
+    "frappes_reussies": null,
+    "takedowns_reussis": null
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 17,
+      "defaites": 16,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 9,
+        "soumission": 0,
+        "decision": 8,
+        "autre": 0
+      },
+      "d": {
+        "ko": 4,
+        "soumission": 8,
+        "decision": 4,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "1999": 3,
+      "2000": 2,
+      "2001": 1,
+      "2002": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Baga Agaev",
+      "evenement": "FEFoMP - Mayor's Cup 2011",
+      "date": "May 7, 2011",
+      "resultat": "Loss",
+      "methode": "Submission (armbar)"
+    },
+    "combats_ufc": 7,
+    "victoires_ufc": 4,
+    "defaites_ufc": 3,
+    "victoires_decision_5_rounds": 2,
+    "combats_5_rounds_gagnes": 2,
+    "bonus_fotn": 0,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Heavyweight Championship",
+        "evenement": "UFC 26",
+        "date": "June 9, 2000"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Heavyweight Championship",
+        "evenement": "UFC 23",
+        "date": "November 19, 1999"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "knee",
+      "finitions": 1
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Maurice Smith",
+      "evenement": "UFC 19",
+      "date": "March 5, 1999",
+      "resultat": "Win",
+      "methode": "Decision (unanimous)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame (Pioneer Wing, Class of 2020)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Heavyweight Championship (One time; former)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "One successful title defense"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Road To The Heavyweight Title Tournament Runner-Up (1999)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Encyclopedia Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (One time) vs. Randy Couture"
+    },
+    {
+      "org": "Universal Vale Tudo Fighting",
+      "texte": "UVTF 4 Tournament Champion"
+    },
+    {
+      "org": "Universal Vale Tudo Fighting",
+      "texte": "UVTF 6 Tournament Finalist"
+    },
+    {
+      "org": "Brazil Open",
+      "texte": "Brazil Open '97 Heavyweight Tournament Runner-Up"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "Knockout of the Year (2004) vs. Mirko Cro Cop on April 25"
+    },
+    {
+      "org": "FIGHT! Magazine",
+      "texte": "Knockout of the Year (2004) vs. Mirko Cro Cop on April 25"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "Most Lopsided Upset of the Year (2004)"
+    },
+    {
+      "org": "National Collegiate Athletic Association",
+      "texte": "NCAA Division I 177 lb – Champion out of Ohio State University (1992, 1993)"
+    },
+    {
+      "org": "National Collegiate Athletic Association",
+      "texte": "NCAA Division I 167 lb – Runner-up out of Ohio State University (1991)"
+    },
+    {
+      "org": "National Collegiate Athletic Association",
+      "texte": "NCAA Division I All-American out of Ohio State University (1991, 1992, 1993)"
+    },
+    {
+      "org": "National Collegiate Athletic Association",
+      "texte": "Ohio State University Wrestler of the Century (20th Century)"
+    },
+    {
+      "org": "Big Ten Conference",
+      "texte": "Big Ten 177 lb – Champion out of Ohio State University (1991, 1992, 1993)"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Champion UFC des poids lourds",
+      "Hall of Fame de l'UFC (2020)",
+      "1 défense de titre à l'UFC",
+      "Bonus UFC : 1× Combat de la soirée"
+    ],
+    "en": [
+      "UFC Heavyweight Champion",
+      "UFC Hall of Fame (2020)",
+      "1 UFC title defense",
+      "UFC bonuses: 1× Fight of the Night"
+    ]
+  },
+  "image_commons": "Kevin Randleman.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Kevin_Randleman",
+    "wikidata": "https://www.wikidata.org/wiki/Q1336425",
+    "ufc_com": "https://www.ufc.com/athlete/kevin-randleman"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "allonge_cm",
+    "palmares (wikipedia_tableau 17-16, wikipedia_infobox 0-0, ufc_com 10-5)",
+    "stats_ufc (absentes de la fiche ufc.com)"
+  ],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 17-16, wikipedia_infobox 0-0, ufc_com 10-5"
+  },
+  "maj": "2026-10-20",
+  "stats_jeu": {
+    "precision": 77,
+    "puissance": 80,
+    "vitesse": 77,
+    "takedown": 77,
+    "controle": 80,
+    "soumission": 40,
+    "menton": 66,
+    "esquive": 77,
+    "defenseTd": 77,
+    "categorie_frappe": 78,
+    "categorie_lutte": 66,
+    "categorie_defense": 73,
+    "globale": 75,
+    "style": "frappeur",
+    "estimees": [
+      "precision",
+      "vitesse",
+      "takedown",
+      "esquive",
+      "defenseTd"
+    ],
+    "formule_version": 2
+  }
+}

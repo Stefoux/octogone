@@ -100,6 +100,13 @@
     ],
     "titres": [
       {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Lightweight Championship",
+        "evenement": "UFC 317",
+        "date": "June 28, 2025"
+      },
+      {
         "action": "defended",
         "interim": false,
         "titre": "UFC Featherweight Championship",
@@ -315,7 +322,7 @@
   },
   "a_verifier": [],
   "ecarts_sources": {},
-  "maj": "2026-10-04",
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 74,
     "puissance": 82,

@@ -17,11 +17,11 @@
   "style": null,
   "lieu_naissance": "Russia",
   "palmares": {
-    "victoires": 25,
+    "victoires": 27,
     "defaites": 3,
     "nuls": 0,
     "sans_decision": 0,
-    "victoires_ko": 12,
+    "victoires_ko": 14,
     "victoires_soumission": 1,
     "victoires_decision": 12,
     "defaites_ko": 0,
@@ -44,12 +44,12 @@
   },
   "ufc": {
     "palmares_tableau": {
-      "victoires": 25,
+      "victoires": 27,
       "defaites": 3,
       "nuls": 0,
       "sans_decision": 0,
       "v": {
-        "ko": 12,
+        "ko": 14,
         "soumission": 1,
         "decision": 12,
         "autre": 0
@@ -99,7 +99,7 @@
     "titres": [],
     "technique_favorite": {
       "technique": "punches",
-      "finitions": 9
+      "finitions": 11
     },
     "premier_combat_ufc": {
       "adversaire": "Alex Gorgees",
@@ -146,24 +146,22 @@
     "ufc": "wikipedia_tableau",
     "accomplissements_en": "wikipedia"
   },
-  "a_verifier": [
-    "palmares (wikipedia_tableau 25-3, wikipedia_infobox 27-3, ufc_com 24-3)"
-  ],
+  "a_verifier": [],
   "ecarts_sources": {
-    "palmares": "wikipedia_tableau 25-3, wikipedia_infobox 27-3, ufc_com 24-3"
+    "palmares": "wikipedia_tableau 27-3, wikipedia_infobox 27-3, ufc_com 24-3"
   },
-  "maj": "2026-10-04",
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 51,
-    "puissance": 64,
+    "puissance": 67,
     "vitesse": 55,
     "takedown": 41,
-    "controle": 53,
+    "controle": 51,
     "soumission": 36,
     "menton": 99,
     "esquive": 82,
     "defenseTd": 69,
-    "categorie_frappe": 57,
+    "categorie_frappe": 58,
     "categorie_lutte": 43,
     "categorie_defense": 83,
     "globale": 63,

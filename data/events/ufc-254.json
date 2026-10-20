@@ -1,0 +1,29 @@
+{
+  "id": "ufc-254",
+  "nom": "UFC 254",
+  "date": "2020-10-24",
+  "lieu": "du Forum",
+  "ville": "Abu Dhabi",
+  "pays": "AE",
+  "resultat": "Khabib Nurmagomedov bat Justin Gaethje par soumission technique (étranglement en triangle) à 1:34 du 2e round.",
+  "resultat_en": "Khabib Nurmagomedov defeats Justin Gaethje by Technical Submission (triangle choke) at 1:34 of round 2.",
+  "contexte": "Khabib Nurmagomedov soumet Justin Gaethje par triangle au 2e round, puis annonce sa retraite dans l'octogone, invaincu en 29 combats.",
+  "contexte_en": "Khabib Nurmagomedov submitted Justin Gaethje with a triangle choke in round 2, then announced his retirement in the cage, unbeaten in 29 fights.",
+  "tirage": null,
+  "resultats": [
+    {
+      "vainqueur": "Khabib Nurmagomedov",
+      "perdant": "Justin Gaethje",
+      "methode": "soumission technique (étranglement en triangle)",
+      "round": 2,
+      "temps": "1:34"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/UFC_254",
+    "https://en.wikipedia.org/wiki/Khabib_Nurmagomedov",
+    "https://en.wikipedia.org/wiki/Justin_Gaethje"
+  ],
+  "a_verifier": [],
+  "genere_par": "fetch_moments.py"
+}

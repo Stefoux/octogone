@@ -1,0 +1,29 @@
+{
+  "id": "ufc-306",
+  "nom": "UFC 306",
+  "date": "2024-09-14",
+  "lieu": "Sphere",
+  "ville": "Paradise, Nevada",
+  "pays": "US",
+  "resultat": "Merab Dvalishvili bat Sean O'Malley par décision unanime après 5 rounds.",
+  "resultat_en": "Merab Dvalishvili defeats Sean O'Malley by unanimous decision after 5 rounds.",
+  "contexte": "Au Sphere, près de Las Vegas, Merab Dvalishvili bat Sean O'Malley aux points et devient champion des poids coqs.",
+  "contexte_en": "At Sphere, near Las Vegas, Merab Dvalishvili beat Sean O'Malley on points to become bantamweight champion.",
+  "tirage": null,
+  "resultats": [
+    {
+      "vainqueur": "Merab Dvalishvili",
+      "perdant": "Sean O'Malley",
+      "methode": "décision unanime",
+      "round": 5,
+      "temps": "5:00"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/UFC_306",
+    "https://en.wikipedia.org/wiki/Merab_Dvalishvili",
+    "https://en.wikipedia.org/wiki/Sean_O'Malley_(fighter)"
+  ],
+  "a_verifier": [],
+  "genere_par": "fetch_moments.py"
+}

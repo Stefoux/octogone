@@ -112,6 +112,13 @@
     "titres": [
       {
         "action": "won",
+        "interim": false,
+        "titre": "UFC Flyweight Championship",
+        "evenement": "UFC 283",
+        "date": "January 21, 2023"
+      },
+      {
+        "action": "won",
         "interim": true,
         "titre": "UFC Flyweight Championship",
         "evenement": "UFC 277",
@@ -348,7 +355,7 @@
   },
   "a_verifier": [],
   "ecarts_sources": {},
-  "maj": "2026-10-04",
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 59,
     "puissance": 50,

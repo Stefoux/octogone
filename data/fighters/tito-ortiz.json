@@ -14,11 +14,11 @@
   "style": null,
   "lieu_naissance": "Huntington Beach, États-Unis",
   "palmares": {
-    "victoires": 20,
+    "victoires": 21,
     "defaites": 12,
     "nuls": 1,
     "sans_decision": 0,
-    "victoires_ko": 9,
+    "victoires_ko": 10,
     "victoires_soumission": 5,
     "victoires_decision": 6,
     "defaites_ko": 5,
@@ -41,12 +41,12 @@
   },
   "ufc": {
     "palmares_tableau": {
-      "victoires": 20,
+      "victoires": 21,
       "defaites": 12,
       "nuls": 1,
       "sans_decision": 0,
       "v": {
-        "ko": 9,
+        "ko": 10,
         "soumission": 5,
         "decision": 6,
         "autre": 0
@@ -59,7 +59,7 @@
       }
     },
     "combats_ufc_par_annee": {
-      "1997": 1,
+      "1997": 2,
       "1999": 3,
       "2000": 2,
       "2001": 3,
@@ -82,8 +82,8 @@
       "resultat": "Win",
       "methode": "Submission (rear-naked choke)"
     },
-    "combats_ufc": 25,
-    "victoires_ufc": 13,
+    "combats_ufc": 26,
+    "victoires_ufc": 14,
     "defaites_ufc": 11,
     "victoires_decision_5_rounds": 2,
     "combats_5_rounds_gagnes": 2,
@@ -148,6 +148,13 @@
         "titre": "UFC Light Heavyweight Championship",
         "evenement": "UFC 29",
         "date": "December 16, 2000"
+      },
+      {
+        "action": "won",
+        "interim": false,
+        "titre": "UFC Light Heavyweight Championship",
+        "evenement": "UFC 25",
+        "date": "April 14, 2000"
       }
     ],
     "technique_favorite": {
@@ -155,11 +162,11 @@
       "finitions": 2
     },
     "premier_combat_ufc": {
-      "adversaire": "Guy Mezger",
+      "adversaire": "Wes Albritton",
       "evenement": "UFC 13",
       "date": "May 30, 1997",
-      "resultat": "Loss",
-      "methode": "Submission (guillotine choke)"
+      "resultat": "Win",
+      "methode": "TKO (punches)"
     }
   },
   "champion_actuel": false,
@@ -351,27 +358,26 @@
   },
   "a_verifier": [
     "allonge_cm",
-    "palmares (wikipedia_tableau 20-12, wikipedia_infobox 21-12, ufc_com 0-0)",
     "stats_ufc (absentes de la fiche ufc.com)"
   ],
   "ecarts_sources": {
-    "palmares": "wikipedia_tableau 20-12, wikipedia_infobox 21-12, ufc_com 0-0"
+    "palmares": "wikipedia_tableau 21-12, wikipedia_infobox 21-12, ufc_com 0-0"
   },
-  "maj": "2026-10-04",
+  "maj": "2026-10-20",
   "stats_jeu": {
-    "precision": 77,
-    "puissance": 78,
-    "vitesse": 77,
-    "takedown": 77,
-    "controle": 62,
-    "soumission": 66,
-    "menton": 55,
-    "esquive": 77,
-    "defenseTd": 77,
-    "categorie_frappe": 77,
+    "precision": 78,
+    "puissance": 82,
+    "vitesse": 78,
+    "takedown": 78,
+    "controle": 60,
+    "soumission": 65,
+    "menton": 56,
+    "esquive": 78,
+    "defenseTd": 78,
+    "categorie_frappe": 79,
     "categorie_lutte": 68,
-    "categorie_defense": 70,
-    "globale": 74,
+    "categorie_defense": 71,
+    "globale": 75,
     "style": "frappeur",
     "estimees": [
       "precision",

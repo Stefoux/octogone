@@ -1,0 +1,691 @@
+{
+  "id": "ronda-rousey",
+  "nom": "Ronda Rousey",
+  "ufc_slug": "ronda-rousey",
+  "wikipedia_titre": "Ronda Rousey",
+  "surnom": "Rowdy",
+  "sexe": "F",
+  "pays": "US",
+  "categorie": "coq_f",
+  "statut": "retraite",
+  "date_naissance": "1987-02-01",
+  "taille_cm": 168,
+  "allonge_cm": 173,
+  "style": "Judo",
+  "lieu_naissance": "Riverside, United States",
+  "palmares": {
+    "victoires": 13,
+    "defaites": 2,
+    "nuls": 0,
+    "sans_decision": 0,
+    "victoires_ko": 3,
+    "victoires_soumission": 10,
+    "victoires_decision": 0,
+    "defaites_ko": 2,
+    "defaites_soumission": 0,
+    "defaites_decision": 0
+  },
+  "stats_ufc": {
+    "frappes_par_min": 4.17,
+    "precision_frappe_pct": 53,
+    "frappes_encaissees_par_min": 4.14,
+    "defense_frappe_pct": 44.0,
+    "takedowns_par_15min": 6.26,
+    "precision_takedown_pct": 42,
+    "defense_takedown_pct": 50.0,
+    "soumissions_par_15min": 4.82,
+    "knockdowns_par_15min": 0.96,
+    "duree_moyenne_combat_s": 156,
+    "frappes_reussies": 130.0,
+    "takedowns_reussis": 8.0
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 13,
+      "defaites": 2,
+      "nuls": 0,
+      "sans_decision": 0,
+      "v": {
+        "ko": 3,
+        "soumission": 10,
+        "decision": 0,
+        "autre": 0
+      },
+      "d": {
+        "ko": 2,
+        "soumission": 0,
+        "decision": 0,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "2013": 2,
+      "2014": 2,
+      "2015": 3,
+      "2016": 1
+    },
+    "dernier_combat": {
+      "adversaire": "Gina Carano",
+      "evenement": "MVP MMA: Rousey vs. Carano",
+      "date": "May 16, 2026",
+      "resultat": "Win",
+      "methode": "Submission (armbar)"
+    },
+    "combats_ufc": 8,
+    "victoires_ufc": 6,
+    "defaites_ufc": 2,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 2,
+    "bonus_potn": 4,
+    "bonus_kotn": 0,
+    "bonus_sotn": 1,
+    "combats_fotn": [
+      {
+        "adversaire": "Holly Holm",
+        "evenement": "UFC 193",
+        "date": "November 15, 2015"
+      },
+      {
+        "adversaire": "Miesha Tate",
+        "evenement": "UFC 168",
+        "date": "December 28, 2013"
+      }
+    ],
+    "titres": [
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Women's Bantamweight Championship",
+        "evenement": "UFC 190",
+        "date": "August 1, 2015"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Women's Bantamweight Championship",
+        "evenement": "UFC 184",
+        "date": "February 28, 2015"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Women's Bantamweight Championship",
+        "evenement": "UFC 175",
+        "date": "July 5, 2014"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Women's Bantamweight Championship",
+        "evenement": "UFC 170",
+        "date": "February 22, 2014"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Women's Bantamweight Championship",
+        "evenement": "UFC 168",
+        "date": "December 28, 2013"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Women's Bantamweight Championship",
+        "evenement": "UFC 157",
+        "date": "February 23, 2013"
+      }
+    ],
+    "technique_favorite": {
+      "technique": "armbar",
+      "finitions": 9
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Liz Carmouche",
+      "evenement": "UFC 157",
+      "date": "February 23, 2013",
+      "resultat": "Win",
+      "methode": "Submission (armbar)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": true,
+  "accomplissements_en": [
+    {
+      "org": "International Judo Federation",
+      "texte": "2008 World Cup Senior Gold Medalist"
+    },
+    {
+      "org": "International Judo Federation",
+      "texte": "2008 Belgian Ladies Open Senior Bronze Medalist"
+    },
+    {
+      "org": "International Judo Federation",
+      "texte": "2007 Jigoro Kano Cup Senior Silver Medalist"
+    },
+    {
+      "org": "International Judo Federation",
+      "texte": "2007 Finnish Open Senior Gold Medalist"
+    },
+    {
+      "org": "International Judo Federation",
+      "texte": "2007 World Judo Championships Senior Silver Medalist"
+    },
+    {
+      "org": "International Judo Federation",
+      "texte": "2007 German Open Senior Bronze Medalist"
+    },
+    {
+      "org": "International Judo Federation",
+      "texte": "2007 Pan American Games Senior Gold Medalist"
+    },
+    {
+      "org": "International Judo Federation",
+      "texte": "2007 Pan American Championships Senior Bronze Medalist"
+    },
+    {
+      "org": "International Judo Federation",
+      "texte": "2007 World Cup Senior Gold Medalist"
+    },
+    {
+      "org": "International Judo Federation",
+      "texte": "2007 British Open Senior Gold Medalist"
+    },
+    {
+      "org": "International Judo Federation",
+      "texte": "2006 Finnish Open Senior Bronze Medalist"
+    },
+    {
+      "org": "International Judo Federation",
+      "texte": "2006 Swedish Open Senior Gold Medalist"
+    },
+    {
+      "org": "International Judo Federation",
+      "texte": "2006 World Judo Championships Junior Bronze Medalist"
+    },
+    {
+      "org": "International Judo Federation",
+      "texte": "2006 Rendez-Vous Senior Gold Medalist"
+    },
+    {
+      "org": "International Judo Federation",
+      "texte": "2006 Pan American Championships Senior Silver Medalist"
+    },
+    {
+      "org": "International Judo Federation",
+      "texte": "2006 World Cup Senior Gold Medalist"
+    },
+    {
+      "org": "International Judo Federation",
+      "texte": "2006 Belgian Ladies Open Senior Gold Medalist"
+    },
+    {
+      "org": "International Judo Federation",
+      "texte": "2005 Ontario Open Senior Gold Medalist"
+    },
+    {
+      "org": "International Judo Federation",
+      "texte": "2005 Rendez-Vous Senior Gold Medalist"
+    },
+    {
+      "org": "International Judo Federation",
+      "texte": "2005 Pan American Championships Senior Gold Medalist"
+    },
+    {
+      "org": "International Judo Federation",
+      "texte": "2004 Ontario Open Senior Gold Medalist"
+    },
+    {
+      "org": "International Judo Federation",
+      "texte": "2004 Ontario Open Junior Gold Medalist"
+    },
+    {
+      "org": "International Judo Federation",
+      "texte": "2004 World Judo Championships Junior Gold Medalist"
+    },
+    {
+      "org": "International Judo Federation",
+      "texte": "2004 Rendez-Vous Senior Bronze Medalist"
+    },
+    {
+      "org": "International Judo Federation",
+      "texte": "2004 Pan American Championships Senior Gold Medalist"
+    },
+    {
+      "org": "International Judo Federation",
+      "texte": "2003 Rendez-Vous Senior Gold Medalist"
+    },
+    {
+      "org": "International Judo Federation",
+      "texte": "2001 Coupe Canada Senior Cup Gold Medalist"
+    },
+    {
+      "org": "Summer Olympic Games",
+      "texte": "2008 Summer Olympics Senior Bronze Medalist"
+    },
+    {
+      "org": "USA Judo",
+      "texte": "USA Senior National Championship (2004, 2005, 2006, 2007, 2008, 2010)"
+    },
+    {
+      "org": "USA Judo",
+      "texte": "USA Senior Olympic Team Trials Winner (2004, 2008)"
+    },
+    {
+      "org": "USA Judo",
+      "texte": "2007 US Open Senior Gold Medalist"
+    },
+    {
+      "org": "USA Judo",
+      "texte": "2006 US Open Senior Gold Medalist"
+    },
+    {
+      "org": "USA Judo",
+      "texte": "2006 USA Fall Classic Senior Gold Medalist"
+    },
+    {
+      "org": "USA Judo",
+      "texte": "2006 US Open Junior Gold Medalist"
+    },
+    {
+      "org": "USA Judo",
+      "texte": "2005 US Open Senior Gold Medalist"
+    },
+    {
+      "org": "USA Judo",
+      "texte": "2005 US Open Junior Silver Medalist"
+    },
+    {
+      "org": "USA Judo",
+      "texte": "2004 US Open Senior Bronze Medalist"
+    },
+    {
+      "org": "USA Judo",
+      "texte": "2003 US Open Senior Silver Medalist"
+    },
+    {
+      "org": "USA Judo",
+      "texte": "2003 USA Fall Classic Senior Gold Medalist"
+    },
+    {
+      "org": "USA Judo",
+      "texte": "2002 US Open Junior Gold Medalist"
+    },
+    {
+      "org": null,
+      "texte": "International Sports Hall of Fame (Class of 2018)"
+    },
+    {
+      "org": null,
+      "texte": "Martial Arts History Museum Hall of Fame (Class of 2018)"
+    },
+    {
+      "org": null,
+      "texte": "Business Insider Most Dominant Athlete Alive (2015)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Hall of Fame ( Modern Wing , Class of 2018)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First female inductee"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC Women's Bantamweight Championship (One time, inaugural)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Six successful title defenses"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most consecutive title defenses in UFC Women's Bantamweight division history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most title defenses in UFC Women's history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most title fight wins in UFC Women's Bantamweight division history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most finishes in UFC Women's Bantamweight division title fights (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Longest title fight finish streak in UFC history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second fastest finish in a title fight in UFC history (0:14 vs Cat Zingano)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fastest finish in a UFC Women's Bantamweight division title fight (0:14 vs Cat Zingano)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fastest women's title fight victory in UFC history (0:14 vs Cat Zingano)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Amanda Nunes ) for most knockouts in UFC Women's Bantamweight division title fights (3)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Third fastest knockout in a UFC title fight (0:16 vs Alexis Davis)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fastest knockout in a UFC Women's Bantamweight division title fight (0:16 vs Alexis Davis)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most submissions in UFC Women's Bantamweight division title fights (3)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fastest submission in a UFC title fight (0:14 vs Cat Zingano)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fastest submission in a UFC Bantamweight division history title fight (0:14 vs Cat Zingano)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( B.J. Penn , Matt Hughes & Khabib Nurmagomedov ) for third most submissions in UFC title fights (3)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second shortest time for three consecutive title defenses in UFC history (189 days) (behind Alex Pereira )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First female UFC Champion"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "First Olympic medalist to win a UFC championship"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fight of the Night (Twice) vs. Miesha Tate and Holly Holm"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Submission of the Night (One time) vs. Miesha Tate"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Performance of the Night (Four times) vs. Cat Zingano , Sara McMann , Alexis Davis and Bethe Correia"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Mackenzie Dern ) for second most Post-Fight bonuses in UFC Women's history (7) (behind Jéssica Andrade )"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most Post-Fight bonuses in UFC Women's Bantamweight division history (7)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fastest finish in UFC Women's Bantamweight division history (0:14 vs Cat Zingano)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second fastest finish in UFC Women's Bantamweight division history (0:16 vs Alexis Davis)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fifth fastest finish in UFC Women's Bantamweight division history (0:34 vs Bethe Correia)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fastest knockout in UFC Bantamweight division history (0:16 vs Alexis Davis)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Tied ( Beatriz Mesquita ) for most submissions in UFC Women's Bantamweight division history (3)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Fastest submission in UFC Bantamweight division history (0:14 vs Cat Zingano)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most armbar finishes in UFC/WEC/Pride/Strikeforce history (9)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Most consecutive armbar finishes in UFC/WEC/Pride/Strikeforce history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Won the first ever women's fight in UFC history"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Shortest average fight time in UFC Women's Bantamweight division history (3:06)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second most finishes in UFC Women's Bantamweight division history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Second longest win streak in UFC Women's Bantamweight division history (6)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Highest number of knockdowns per fifteen minutes in UFC Women's Bantamweight division history (1.21)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "Highest number of submissions per fifteen minutes in UFC Women's Bantamweight division history (3.03)"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "UFC.com Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2013: Import of the Year , Half-Year Awards: Best Newcomer of the 1HY, Ranked #4 Submission of the Year vs. Liz Carmouche & Ranked #9 Fight of the Year vs. Miesha Tate 2"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2014: Ranked #2 Fighter of the Year & Half-Year Awards: Best Fighter of the 1HY"
+    },
+    {
+      "org": "Ultimate Fighting Championship",
+      "texte": "2015: Submission of the Year vs. Cat Zingano"
+    },
+    {
+      "org": "Strikeforce",
+      "texte": "Strikeforce Women's Bantamweight Championship (One time; last)"
+    },
+    {
+      "org": "Strikeforce",
+      "texte": "One successful title defense"
+    },
+    {
+      "org": "Strikeforce",
+      "texte": "2× Female Submission of the Year (2011, 2012)"
+    },
+    {
+      "org": "BJPenn.com",
+      "texte": "2010s #3 Ranked Fighter of the Decade"
+    },
+    {
+      "org": "ESPN",
+      "texte": "2× Best Female Athlete ESPY Award (2014, 2015)"
+    },
+    {
+      "org": "ESPN",
+      "texte": "Best Fighter ESPY Award (2015)"
+    },
+    {
+      "org": "ESPN",
+      "texte": "First Mixed Martial Artist to win an ESPY Award"
+    },
+    {
+      "org": "ESPN",
+      "texte": "Submission of the Year (2012, vs. Miesha Tate at Strikeforce: Tate vs. Rousey )"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2014 #3 Ranked Fighter of the Year"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2015 Submission of the Year vs. Cat Zingano at UFC 184"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2015 February Submission of the Month vs. Cat Zingano"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2015 August Knockout of the Month vs. Bethe Correia"
+    },
+    {
+      "org": "MMA Junkie",
+      "texte": "2010s #7 Ranked Fighter of the Decade"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "3× Female Fighter of the Year (2012, 2013, 2014)"
+    },
+    {
+      "org": "World MMA Awards",
+      "texte": "2015 Submission of the Year vs. Cat Zingano at UFC 184"
+    },
+    {
+      "org": "Wrestling Observer Newsletter awards",
+      "texte": "2× Best Box Office Draw (2014, 2015)"
+    },
+    {
+      "org": "Wrestling Observer Newsletter awards",
+      "texte": "2× Mixed Martial Arts Most Valuable (2014, 2015)"
+    },
+    {
+      "org": "Wrestling Observer Newsletter awards",
+      "texte": "Most Outstanding Fighter of the Year (2014)"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2012 #3 Ranked Fighter of the Year"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2013 Female Fighter of the Year"
+    },
+    {
+      "org": "Bleacher Report",
+      "texte": "2014 #4 Ranked Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2012 Fighter of the Year"
+    },
+    {
+      "org": "MMA Fighting",
+      "texte": "2012 Submission of the Year vs. Miesha Tate at Strikeforce: Tate vs. Rousey"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2011 Female Rookie of the Year"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2012 Female Fighter of the Year"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2013 Female Fighter of the Year"
+    },
+    {
+      "org": "Fight Matrix",
+      "texte": "2014 Female Fighter of the Year"
+    },
+    {
+      "org": "Inside MMA",
+      "texte": "2011 Female Fighter of the Year Bazzie Award"
+    },
+    {
+      "org": "Inside MMA",
+      "texte": "2012 Female Fighter of the Year Bazzie Award"
+    },
+    {
+      "org": "Inside MMA",
+      "texte": "2013 Female Fighter of the Year Bazzie Award"
+    },
+    {
+      "org": "Inside MMA",
+      "texte": "2014 Female Fighter of the Year Bazzie Award"
+    },
+    {
+      "org": "Combat Press",
+      "texte": "2015 Submission of the Year vs. Cat Zingano at UFC 184"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Championne UFC des poids coq féminins",
+      "Championne Strikeforce des poids coq féminins",
+      "Hall of Fame de l'UFC (2018)",
+      "6 défenses de titre à l'UFC",
+      "Combattante de l'année (2011, 2012, 2013, 2014)",
+      "Bonus UFC : 4× Performance de la soirée, 2× Combat de la soirée, 1× Soumission de la soirée"
+    ],
+    "en": [
+      "UFC Women's Bantamweight Champion",
+      "Strikeforce Women's Bantamweight Champion",
+      "UFC Hall of Fame (2018)",
+      "6 UFC title defenses",
+      "Fighter of the Year (2011, 2012, 2013, 2014)",
+      "UFC bonuses: 4× Performance of the Night, 2× Fight of the Night, 1× Submission of the Night"
+    ]
+  },
+  "image_commons": "Rousey HOF 2018 (cropped).jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Ronda_Rousey",
+    "wikidata": "https://www.wikidata.org/wiki/Q242201",
+    "ufc_com": "https://www.ufc.com/athlete/ronda-rousey"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "stats_ufc": "ufc_com",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 13-2, wikipedia_infobox 13-2, ufc_com 12-2"
+  },
+  "maj": "2026-10-20",
+  "stats_jeu": {
+    "precision": 80,
+    "puissance": 65,
+    "vitesse": 72,
+    "takedown": 95,
+    "controle": 69,
+    "soumission": 99,
+    "menton": 80,
+    "esquive": 58,
+    "defenseTd": 52,
+    "categorie_frappe": 72,
+    "categorie_lutte": 88,
+    "categorie_defense": 63,
+    "globale": 78,
+    "style": "grappler",
+    "estimees": [],
+    "formule_version": 2
+  }
+}

@@ -14,16 +14,16 @@
   "style": "Kickboxing",
   "lieu_naissance": "États-Unis",
   "palmares": {
+    "victoires": 34,
+    "defaites": 24,
+    "nuls": 0,
+    "sans_decision": 2,
     "victoires_ko": 17,
     "victoires_soumission": 3,
     "victoires_decision": 14,
     "defaites_ko": 12,
     "defaites_soumission": 3,
-    "defaites_decision": 9,
-    "nuls": 0,
-    "sans_decision": 2,
-    "victoires": 34,
-    "defaites": 24
+    "defaites_decision": 9
   },
   "stats_ufc": {
     "frappes_par_min": null,
@@ -41,13 +41,13 @@
   },
   "ufc": {
     "palmares_tableau": {
-      "victoires": 33,
+      "victoires": 34,
       "defaites": 24,
       "nuls": 0,
       "sans_decision": 2,
       "v": {
         "ko": 17,
-        "soumission": 2,
+        "soumission": 3,
         "decision": 14,
         "autre": 0
       },
@@ -329,17 +329,15 @@
     "surnom": "ufc_com",
     "pays": "wikidata",
     "categorie": "ufc_com",
-    "palmares": "wikipedia_infobox",
+    "palmares": "wikipedia_tableau",
     "ufc": "wikipedia_tableau",
     "accomplissements_en": "wikipedia"
   },
   "a_verifier": [
     "stats_ufc (absentes de la fiche ufc.com)"
   ],
-  "ecarts_sources": {
-    "palmares": "wikipedia_tableau 33-24, wikipedia_infobox 34-24, ufc_com 34-24"
-  },
-  "maj": "2026-10-04",
+  "ecarts_sources": {},
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 78,
     "puissance": 92,

@@ -1,0 +1,29 @@
+{
+  "id": "ufc-226",
+  "nom": "UFC 226",
+  "date": "2018-07-07",
+  "lieu": "T-Mobile Arena",
+  "ville": "Paradise, Nevada",
+  "pays": "US",
+  "resultat": "Daniel Cormier bat Stipe Miocic par KO (coups de poing) à 4:33 du 1er round.",
+  "resultat_en": "Daniel Cormier defeats Stipe Miocic by KO (punches) at 4:33 of round 1.",
+  "contexte": "Champion des mi-lourds, Daniel Cormier met KO Stipe Miocic au 1er round et devient le deuxième combattant à détenir deux ceintures en même temps, après Conor McGregor.",
+  "contexte_en": "Light heavyweight champion Daniel Cormier knocked out Stipe Miocic in round 1 to become only the second fighter to hold titles in two divisions at once, after Conor McGregor.",
+  "tirage": null,
+  "resultats": [
+    {
+      "vainqueur": "Daniel Cormier",
+      "perdant": "Stipe Miocic",
+      "methode": "KO (coups de poing)",
+      "round": 1,
+      "temps": "4:33"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/UFC_226",
+    "https://en.wikipedia.org/wiki/Daniel_Cormier",
+    "https://en.wikipedia.org/wiki/Stipe_Miocic"
+  ],
+  "a_verifier": [],
+  "genere_par": "fetch_moments.py"
+}

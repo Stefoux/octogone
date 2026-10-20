@@ -7,7 +7,8 @@
   data/rivalries.json (2 combats ou plus entre les mêmes combattants) ;
 - hall-of-fame.json : les intronisés de data/hall_of_fame.json présents dans
   la base (liste officielle sourcée, voir fetch_hall_of_fame.py) ;
-- moments-iconiques.json : les moments de data/moments/*.json (chacun sourcé).
+- moments-iconiques.json : les moments vérifiés de data/moments.json (voir
+  fetch_moments.py : chaque fait du verso est retrouvé dans sa source).
 
 Chaque édition a sa propre échelle de raretés (« raretes »), sans règle
 d'éligibilité : toutes ses cartes y ont droit.
@@ -126,14 +127,11 @@ def build_hall_of_fame(fighters: dict[str, dict]) -> dict | None:
 
 
 def build_moments(fighters: dict[str, dict]) -> dict | None:
-    moments = []
-    for p in sorted((DATA / "moments").glob("*.json")):
-        m = json.loads(p.read_text(encoding="utf-8"))
-        if all(f in fighters for f in m["combattants"]):
-            moments.append(m)
-    if not moments:
+    data = load_json(DATA / "moments.json", None)
+    if not data:
         return None
-    moments.sort(key=lambda m: m["date"])
+    moments = sorted((m for m in data["moments"] if all(f in fighters for f in m["combattants"])),
+                     key=lambda m: m["date"])
     cartes = [{
         "numero": str(i + 1),
         "nom_imprime": m["titre"],
@@ -144,7 +142,8 @@ def build_moments(fighters: dict[str, dict]) -> dict | None:
     } for i, m in enumerate(moments)]
     return edition(
         "moments-iconiques", "Moments iconiques",
-        f"{len(cartes)} grands moments de l'histoire de l'UFC, chacun sourcé (date, événement, résultat).",
+        f"{len(cartes)} grands moments de l'histoire de l'UFC, de l'UFC 1 à nos jours : résultat tiré du palmarès "
+        "Wikipedia du vainqueur, faits du verso vérifiés dans l'article de l'événement ou des combattants.",
         ladder(("moment", "Moment Historique")), cartes, [], "Moments iconiques",
     )
 

@@ -1,0 +1,28 @@
+{
+  "id": "ufc-232",
+  "nom": "UFC 232",
+  "date": "2018-12-29",
+  "lieu": "The Forum",
+  "ville": "Inglewood, California",
+  "pays": "US",
+  "resultat": "Amanda Nunes bat Cris Cyborg par KO (coup de poing) à 0:51 du 1er round.",
+  "resultat_en": "Amanda Nunes defeats Cris Cyborg by KO (punch) at 0:51 of round 1.",
+  "contexte": "Amanda Nunes met KO Cris Cyborg en 51 secondes et devient la première femme championne dans deux catégories en même temps.",
+  "contexte_en": "Amanda Nunes knocked out Cris Cyborg in 51 seconds to become the first woman to hold titles in two divisions simultaneously.",
+  "tirage": null,
+  "resultats": [
+    {
+      "vainqueur": "Amanda Nunes",
+      "perdant": "Cris Cyborg",
+      "methode": "KO (coup de poing)",
+      "round": 1,
+      "temps": "0:51"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/UFC_232",
+    "https://en.wikipedia.org/wiki/Amanda_Nunes"
+  ],
+  "a_verifier": [],
+  "genere_par": "fetch_moments.py"
+}

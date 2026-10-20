@@ -5,7 +5,7 @@
   "type": "originale",
   "famille_cadre": "original",
   "date_sortie": null,
-  "description": "Les champions UFC de la base : 11 champions actuels (classement officiel ufc.com), puis 75 anciens champions (titres relevés dans le palmarès Wikipedia de chacun).",
+  "description": "Les champions UFC de la base : 11 champions actuels (classement officiel ufc.com), puis 86 anciens champions (titres relevés dans le palmarès Wikipedia de chacun).",
   "sources": [
     "https://www.ufc.com/rankings"
   ],
@@ -48,7 +48,7 @@
       "code": "BASE",
       "nom": "Champions",
       "type": "base",
-      "nb_cartes": 86,
+      "nb_cartes": 97,
       "cartes": [
         {
           "numero": "1",
@@ -271,6 +271,17 @@
         },
         {
           "numero": "20",
+          "nom_imprime": "B.J. Penn",
+          "combattants": [
+            "b-j-penn"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/B.J._Penn",
+            "https://www.ufc.com/athlete/bj-penn"
+          ]
+        },
+        {
+          "numero": "21",
           "nom_imprime": "Bas Rutten",
           "combattants": [
             "bas-rutten"
@@ -281,7 +292,7 @@
           ]
         },
         {
-          "numero": "21",
+          "numero": "22",
           "nom_imprime": "Belal Muhammad",
           "combattants": [
             "belal-muhammad"
@@ -292,7 +303,7 @@
           ]
         },
         {
-          "numero": "22",
+          "numero": "23",
           "nom_imprime": "Brandon Moreno",
           "combattants": [
             "brandon-moreno"
@@ -303,7 +314,7 @@
           ]
         },
         {
-          "numero": "23",
+          "numero": "24",
           "nom_imprime": "Brock Lesnar",
           "combattants": [
             "brock-lesnar"
@@ -314,7 +325,7 @@
           ]
         },
         {
-          "numero": "24",
+          "numero": "25",
           "nom_imprime": "Carla Esparza",
           "combattants": [
             "carla-esparza"
@@ -325,7 +336,7 @@
           ]
         },
         {
-          "numero": "25",
+          "numero": "26",
           "nom_imprime": "Charles Oliveira",
           "combattants": [
             "charles-oliveira"
@@ -336,7 +347,7 @@
           ]
         },
         {
-          "numero": "26",
+          "numero": "27",
           "nom_imprime": "Chris Weidman",
           "combattants": [
             "chris-weidman"
@@ -347,7 +358,7 @@
           ]
         },
         {
-          "numero": "27",
+          "numero": "28",
           "nom_imprime": "Chuck Liddell",
           "combattants": [
             "chuck-liddell"
@@ -358,7 +369,7 @@
           ]
         },
         {
-          "numero": "28",
+          "numero": "29",
           "nom_imprime": "Cody Garbrandt",
           "combattants": [
             "cody-garbrandt"
@@ -369,7 +380,7 @@
           ]
         },
         {
-          "numero": "29",
+          "numero": "30",
           "nom_imprime": "Colby Covington",
           "combattants": [
             "colby-covington"
@@ -380,7 +391,7 @@
           ]
         },
         {
-          "numero": "30",
+          "numero": "31",
           "nom_imprime": "Conor McGregor",
           "combattants": [
             "conor-mcgregor"
@@ -391,7 +402,18 @@
           ]
         },
         {
-          "numero": "31",
+          "numero": "32",
+          "nom_imprime": "Dan Severn",
+          "combattants": [
+            "dan-severn"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Dan_Severn",
+            "https://www.ufc.com/athlete/dan-severn"
+          ]
+        },
+        {
+          "numero": "33",
           "nom_imprime": "Daniel Cormier",
           "combattants": [
             "daniel-cormier"
@@ -402,7 +424,7 @@
           ]
         },
         {
-          "numero": "32",
+          "numero": "34",
           "nom_imprime": "Deiveson Figueiredo",
           "combattants": [
             "deiveson-figueiredo"
@@ -413,7 +435,18 @@
           ]
         },
         {
-          "numero": "33",
+          "numero": "35",
+          "nom_imprime": "Demetrious Johnson",
+          "combattants": [
+            "demetrious-johnson"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Demetrious_Johnson",
+            "https://www.ufc.com/athlete/demetrious-johnson"
+          ]
+        },
+        {
+          "numero": "36",
           "nom_imprime": "Dominick Cruz",
           "combattants": [
             "dominick-cruz"
@@ -424,7 +457,7 @@
           ]
         },
         {
-          "numero": "34",
+          "numero": "37",
           "nom_imprime": "Dricus du Plessis",
           "combattants": [
             "dricus-du-plessis"
@@ -435,7 +468,7 @@
           ]
         },
         {
-          "numero": "35",
+          "numero": "38",
           "nom_imprime": "Dustin Poirier",
           "combattants": [
             "dustin-poirier"
@@ -446,7 +479,7 @@
           ]
         },
         {
-          "numero": "36",
+          "numero": "39",
           "nom_imprime": "Forrest Griffin",
           "combattants": [
             "forrest-griffin"
@@ -457,7 +490,7 @@
           ]
         },
         {
-          "numero": "37",
+          "numero": "40",
           "nom_imprime": "Francis Ngannou",
           "combattants": [
             "francis-ngannou"
@@ -468,7 +501,7 @@
           ]
         },
         {
-          "numero": "38",
+          "numero": "41",
           "nom_imprime": "Frank Mir",
           "combattants": [
             "frank-mir"
@@ -479,7 +512,7 @@
           ]
         },
         {
-          "numero": "39",
+          "numero": "42",
           "nom_imprime": "Frank Shamrock",
           "combattants": [
             "frank-shamrock"
@@ -490,7 +523,7 @@
           ]
         },
         {
-          "numero": "40",
+          "numero": "43",
           "nom_imprime": "Frankie Edgar",
           "combattants": [
             "frankie-edgar"
@@ -501,7 +534,7 @@
           ]
         },
         {
-          "numero": "41",
+          "numero": "44",
           "nom_imprime": "Georges St-Pierre",
           "combattants": [
             "georges-st-pierre"
@@ -512,7 +545,7 @@
           ]
         },
         {
-          "numero": "42",
+          "numero": "45",
           "nom_imprime": "Glover Teixeira",
           "combattants": [
             "glover-teixeira"
@@ -523,7 +556,7 @@
           ]
         },
         {
-          "numero": "43",
+          "numero": "46",
           "nom_imprime": "Henry Cejudo",
           "combattants": [
             "henry-cejudo"
@@ -534,7 +567,7 @@
           ]
         },
         {
-          "numero": "44",
+          "numero": "47",
           "nom_imprime": "Holly Holm",
           "combattants": [
             "holly-holm"
@@ -545,7 +578,7 @@
           ]
         },
         {
-          "numero": "45",
+          "numero": "48",
           "nom_imprime": "Ilia Topuria",
           "combattants": [
             "ilia-topuria"
@@ -556,7 +589,7 @@
           ]
         },
         {
-          "numero": "46",
+          "numero": "49",
           "nom_imprime": "Israel Adesanya",
           "combattants": [
             "israel-adesanya"
@@ -567,7 +600,7 @@
           ]
         },
         {
-          "numero": "47",
+          "numero": "50",
           "nom_imprime": "Jack Della Maddalena",
           "combattants": [
             "jack-della-maddalena"
@@ -578,7 +611,7 @@
           ]
         },
         {
-          "numero": "48",
+          "numero": "51",
           "nom_imprime": "Jamahal Hill",
           "combattants": [
             "jamahal-hill"
@@ -589,7 +622,7 @@
           ]
         },
         {
-          "numero": "49",
+          "numero": "52",
           "nom_imprime": "Jan Błachowicz",
           "combattants": [
             "jan-blachowicz"
@@ -600,7 +633,7 @@
           ]
         },
         {
-          "numero": "50",
+          "numero": "53",
           "nom_imprime": "Jens Pulver",
           "combattants": [
             "jens-pulver"
@@ -611,7 +644,7 @@
           ]
         },
         {
-          "numero": "51",
+          "numero": "54",
           "nom_imprime": "Jessica Andrade",
           "combattants": [
             "jessica-andrade"
@@ -622,7 +655,7 @@
           ]
         },
         {
-          "numero": "52",
+          "numero": "55",
           "nom_imprime": "Jiří Procházka",
           "combattants": [
             "jiri-prochazka"
@@ -633,7 +666,7 @@
           ]
         },
         {
-          "numero": "53",
+          "numero": "56",
           "nom_imprime": "Joanna Jędrzejczyk",
           "combattants": [
             "joanna-jedrzejczyk"
@@ -644,7 +677,7 @@
           ]
         },
         {
-          "numero": "54",
+          "numero": "57",
           "nom_imprime": "Jon Jones",
           "combattants": [
             "jon-jones"
@@ -655,7 +688,18 @@
           ]
         },
         {
-          "numero": "55",
+          "numero": "58",
+          "nom_imprime": "José Aldo",
+          "combattants": [
+            "jose-aldo"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/José_Aldo",
+            "https://www.ufc.com/athlete/jose-aldo"
+          ]
+        },
+        {
+          "numero": "59",
           "nom_imprime": "Julianna Peña",
           "combattants": [
             "julianna-pena"
@@ -666,7 +710,7 @@
           ]
         },
         {
-          "numero": "56",
+          "numero": "60",
           "nom_imprime": "Junior dos Santos",
           "combattants": [
             "junior-dos-santos"
@@ -676,7 +720,7 @@
           ]
         },
         {
-          "numero": "57",
+          "numero": "61",
           "nom_imprime": "Kamaru Usman",
           "combattants": [
             "kamaru-usman"
@@ -687,7 +731,29 @@
           ]
         },
         {
-          "numero": "58",
+          "numero": "62",
+          "nom_imprime": "Ken Shamrock",
+          "combattants": [
+            "ken-shamrock"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Ken_Shamrock",
+            "https://www.ufc.com/athlete/ken-shamrock"
+          ]
+        },
+        {
+          "numero": "63",
+          "nom_imprime": "Kevin Randleman",
+          "combattants": [
+            "kevin-randleman"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Kevin_Randleman",
+            "https://www.ufc.com/athlete/kevin-randleman"
+          ]
+        },
+        {
+          "numero": "64",
           "nom_imprime": "Khabib Nurmagomedov",
           "combattants": [
             "khabib-nurmagomedov"
@@ -698,7 +764,7 @@
           ]
         },
         {
-          "numero": "59",
+          "numero": "65",
           "nom_imprime": "Khamzat Chimaev",
           "combattants": [
             "khamzat-chimaev"
@@ -709,7 +775,7 @@
           ]
         },
         {
-          "numero": "60",
+          "numero": "66",
           "nom_imprime": "Leon Edwards",
           "combattants": [
             "leon-edwards"
@@ -720,7 +786,7 @@
           ]
         },
         {
-          "numero": "61",
+          "numero": "67",
           "nom_imprime": "Lyoto Machida",
           "combattants": [
             "lyoto-machida"
@@ -731,7 +797,7 @@
           ]
         },
         {
-          "numero": "62",
+          "numero": "68",
           "nom_imprime": "Magomed Ankalaev",
           "combattants": [
             "magomed-ankalaev"
@@ -742,7 +808,7 @@
           ]
         },
         {
-          "numero": "63",
+          "numero": "69",
           "nom_imprime": "Mark Coleman",
           "combattants": [
             "mark-coleman"
@@ -753,7 +819,7 @@
           ]
         },
         {
-          "numero": "64",
+          "numero": "70",
           "nom_imprime": "Matt Hughes",
           "combattants": [
             "matt-hughes"
@@ -764,7 +830,7 @@
           ]
         },
         {
-          "numero": "65",
+          "numero": "71",
           "nom_imprime": "Matt Serra",
           "combattants": [
             "matt-serra"
@@ -775,7 +841,18 @@
           ]
         },
         {
-          "numero": "66",
+          "numero": "72",
+          "nom_imprime": "Maurice Smith",
+          "combattants": [
+            "maurice-smith"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Maurice_Smith_(fighter)",
+            "https://www.ufc.com/athlete/maurice-smith"
+          ]
+        },
+        {
+          "numero": "73",
           "nom_imprime": "Maurício Rua",
           "combattants": [
             "mauricio-rua"
@@ -786,7 +863,7 @@
           ]
         },
         {
-          "numero": "67",
+          "numero": "74",
           "nom_imprime": "Max Holloway",
           "combattants": [
             "max-holloway"
@@ -797,7 +874,7 @@
           ]
         },
         {
-          "numero": "68",
+          "numero": "75",
           "nom_imprime": "Merab Dvalishvili",
           "combattants": [
             "merab-dvalishvili"
@@ -808,7 +885,7 @@
           ]
         },
         {
-          "numero": "69",
+          "numero": "76",
           "nom_imprime": "Michael Bisping",
           "combattants": [
             "michael-bisping"
@@ -819,7 +896,7 @@
           ]
         },
         {
-          "numero": "70",
+          "numero": "77",
           "nom_imprime": "Miesha Tate",
           "combattants": [
             "miesha-tate"
@@ -830,7 +907,7 @@
           ]
         },
         {
-          "numero": "71",
+          "numero": "78",
           "nom_imprime": "Natália Silva",
           "combattants": [
             "natalia-silva"
@@ -841,7 +918,18 @@
           ]
         },
         {
-          "numero": "72",
+          "numero": "79",
+          "nom_imprime": "Pat Miletich",
+          "combattants": [
+            "pat-miletich"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Pat_Miletich",
+            "https://www.ufc.com/athlete/pat-miletich"
+          ]
+        },
+        {
+          "numero": "80",
           "nom_imprime": "Rafael dos Anjos",
           "combattants": [
             "rafael-dos-anjos"
@@ -852,7 +940,18 @@
           ]
         },
         {
-          "numero": "73",
+          "numero": "81",
+          "nom_imprime": "Randy Couture",
+          "combattants": [
+            "randy-couture"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Randy_Couture",
+            "https://www.ufc.com/athlete/randy-couture"
+          ]
+        },
+        {
+          "numero": "82",
           "nom_imprime": "Raquel Pennington",
           "combattants": [
             "raquel-pennington"
@@ -863,7 +962,7 @@
           ]
         },
         {
-          "numero": "74",
+          "numero": "83",
           "nom_imprime": "Rashad Evans",
           "combattants": [
             "rashad-evans"
@@ -874,7 +973,7 @@
           ]
         },
         {
-          "numero": "75",
+          "numero": "84",
           "nom_imprime": "Rich Franklin",
           "combattants": [
             "rich-franklin"
@@ -885,7 +984,7 @@
           ]
         },
         {
-          "numero": "76",
+          "numero": "85",
           "nom_imprime": "Robbie Lawler",
           "combattants": [
             "robbie-lawler"
@@ -896,7 +995,7 @@
           ]
         },
         {
-          "numero": "77",
+          "numero": "86",
           "nom_imprime": "Robert Whittaker",
           "combattants": [
             "robert-whittaker"
@@ -907,7 +1006,18 @@
           ]
         },
         {
-          "numero": "78",
+          "numero": "87",
+          "nom_imprime": "Ronda Rousey",
+          "combattants": [
+            "ronda-rousey"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Ronda_Rousey",
+            "https://www.ufc.com/athlete/ronda-rousey"
+          ]
+        },
+        {
+          "numero": "88",
           "nom_imprime": "Rose Namajunas",
           "combattants": [
             "rose-namajunas"
@@ -918,7 +1028,7 @@
           ]
         },
         {
-          "numero": "79",
+          "numero": "89",
           "nom_imprime": "Sean O'Malley",
           "combattants": [
             "sean-o-malley"
@@ -929,7 +1039,7 @@
           ]
         },
         {
-          "numero": "80",
+          "numero": "90",
           "nom_imprime": "Stipe Miocic",
           "combattants": [
             "stipe-miocic"
@@ -940,7 +1050,7 @@
           ]
         },
         {
-          "numero": "81",
+          "numero": "91",
           "nom_imprime": "Tito Ortiz",
           "combattants": [
             "tito-ortiz"
@@ -951,7 +1061,7 @@
           ]
         },
         {
-          "numero": "82",
+          "numero": "92",
           "nom_imprime": "Tom Aspinall",
           "combattants": [
             "tom-aspinall"
@@ -962,7 +1072,7 @@
           ]
         },
         {
-          "numero": "83",
+          "numero": "93",
           "nom_imprime": "Tony Ferguson",
           "combattants": [
             "tony-ferguson"
@@ -973,7 +1083,7 @@
           ]
         },
         {
-          "numero": "84",
+          "numero": "94",
           "nom_imprime": "Tyron Woodley",
           "combattants": [
             "tyron-woodley"
@@ -984,7 +1094,18 @@
           ]
         },
         {
-          "numero": "85",
+          "numero": "95",
+          "nom_imprime": "Vitor Belfort",
+          "combattants": [
+            "vitor-belfort"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Vitor_Belfort",
+            "https://www.ufc.com/athlete/vitor-belfort"
+          ]
+        },
+        {
+          "numero": "96",
           "nom_imprime": "Yair Rodríguez",
           "combattants": [
             "yair-rodriguez"
@@ -995,7 +1116,7 @@
           ]
         },
         {
-          "numero": "86",
+          "numero": "97",
           "nom_imprime": "Zhang Weili",
           "combattants": [
             "zhang-weili"

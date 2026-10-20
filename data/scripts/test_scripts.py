@@ -2,7 +2,7 @@
 import unittest
 
 from distinctions import build as build_distinctions
-from fetch_fighters import derive_from_record, division_key, wiki_division
+from fetch_fighters import derive_from_record, division_key, record_table, wiki_division
 from import_checklist import parse_card, parse_meta, parse_parallels
 from rarity_rules import effect_for, odds_packs, parallel_rarity, series_rarity, stat_bonus
 
@@ -83,6 +83,32 @@ class FighterTests(unittest.TestCase):
         self.assertEqual(d["technique_favorite"], {"technique": "rear-naked choke", "finitions": 1})
         self.assertEqual(d["combats_ufc_par_annee"], {"2024": 1, "2026": 1})
         self.assertEqual(d["palmares_tableau"]["victoires"], 2)
+
+    def test_title_wordings(self):
+        def fight(notes):
+            return {"resultat": "Win", "record": "1–0", "adversaire": "X", "methode": "KO (punch)",
+                    "evenement": "UFC 1", "date": "2000", "round": 1, "temps": "1:00", "notes": notes}
+        d = derive_from_record([fight("Won the vacant UFC Heavyweight Championship."),
+                                fight("Won and unified the UFC Featherweight Championship."),
+                                fight("Defended and unified the UFC Lightweight Championship.")])
+        self.assertEqual([t["action"] for t in d["titres"]], ["won", "won", "defended"])
+        self.assertEqual(d["titres"][0]["titre"], "UFC Heavyweight Championship")
+
+    def test_record_table_rowspan(self):
+        # Tournoi : deux combats le même soir, événement et date fusionnés (rowspan)
+        html = """<table class="wikitable"><tr><th>Res.</th><th>Record</th><th>Opponent</th><th>Method</th>
+          <th>Event</th><th>Date</th><th>Round</th><th>Time</th><th>Notes</th></tr>
+          <tr><td>Win</td><td>2–0</td><td>Gerard Gordeau</td><td>Submission (rear-naked choke)</td>
+              <td rowspan="2">UFC 1</td><td rowspan="2">November 12, 1993</td><td>1</td><td>1:44</td>
+              <td>Won the UFC 1 Tournament.</td></tr>
+          <tr><td>Win</td><td>1–0</td><td>Ken Shamrock</td><td>Submission (rear-naked choke)</td>
+              <td>1</td><td>0:57</td><td>Semifinal.</td></tr></table>"""
+        rows = record_table(html)
+        self.assertEqual(len(rows), 2)
+        self.assertEqual(rows[1]["adversaire"], "Ken Shamrock")
+        self.assertEqual(rows[1]["evenement"], "UFC 1")
+        self.assertEqual(rows[1]["date"], "November 12, 1993")
+        self.assertEqual(rows[1]["temps"], "0:57")
 
 
 class DistinctionTests(unittest.TestCase):
@@ -200,6 +226,46 @@ class ParallelesHorsJeuTests(unittest.TestCase):
         self.assertFalse([n for n in noms if "efractor" in n or n == "X-Fractor"])
         self.assertIn("SuperFractor", noms)
         self.assertTrue(any(n.startswith("Base") for n in noms))
+
+
+class MomentsTests(unittest.TestCase):
+    """Moments iconiques : textes de résultat, lieux, et données vérifiées (preuves, sources)."""
+
+    def test_result_texts(self):
+        from fetch_moments import method_fr, place, result_texts
+
+        self.assertEqual(method_fr("Technical Submission (triangle choke)"), "soumission technique (étranglement en triangle)")
+        self.assertEqual(method_fr("Decision (split)"), "décision partagée")
+        row = {"methode": "KO (punch)", "round": 1, "temps": "0:13"}
+        fr, en, _ = result_texts("Conor McGregor", "José Aldo", row)
+        self.assertEqual(fr, "Conor McGregor bat José Aldo par KO (coup de poing) à 0:13 du 1er round.")
+        self.assertEqual(en, "Conor McGregor defeats José Aldo by KO (punch) at 0:13 of round 1.")
+        fr, en, _ = result_texts("A", "B", {"methode": "TKO (doctor stoppage)", "round": 1, "temps": "5:00"})
+        self.assertEqual(fr, "A bat B par TKO (arrêt médical) à la fin du 1er round.")
+        fr, en, _ = result_texts("A", "B", {"methode": "Decision (unanimous)", "round": 5, "temps": "5:00"})
+        self.assertEqual((fr, en), ("A bat B par décision unanime après 5 rounds.",
+                                    "A defeats B by unanimous decision after 5 rounds."))
+        self.assertEqual(place("Paradise, Nevada, United States"), ("Paradise, Nevada", "US"))
+        self.assertEqual(place("Denver, Colorado"), ("Denver, Colorado", "US"))
+        self.assertEqual(place("Abu Dhabi, United Arab Emirates"), ("Abu Dhabi", "AE"))
+        with self.assertRaises(ValueError):
+            place("Tokyo, Japon")
+
+    def test_data(self):
+        import json
+        from pathlib import Path
+
+        data = Path(__file__).resolve().parents[1]
+        moments = json.loads((data / "moments.json").read_text(encoding="utf-8"))["moments"]
+        selection = json.loads((data / "moments_selection.json").read_text(encoding="utf-8"))["moments"]
+        self.assertEqual(len(moments), len(selection))
+        for m in moments:
+            self.assertTrue(m["preuves"] and m["sources"] and m["texte"] and m["texte_en"], m["id"])
+            self.assertTrue(all(p["source"].startswith("https://") for p in m["preuves"]), m["id"])
+            self.assertTrue((data / "events" / f"{m['event_id']}.json").exists(), m["id"])
+            for f in m["combattants"]:
+                self.assertTrue((data / "fighters" / f"{f}.json").exists(), f)
+        self.assertEqual(len({m["event_id"] for m in moments}), len(moments))
 
 
 if __name__ == "__main__":

@@ -1,0 +1,29 @@
+{
+  "id": "ufc-243",
+  "nom": "UFC 243",
+  "date": "2019-10-06",
+  "lieu": "Marvel Stadium",
+  "ville": "Melbourne",
+  "pays": "AU",
+  "resultat": "Israel Adesanya bat Robert Whittaker par KO (coups de poing) à 3:33 du 2e round.",
+  "resultat_en": "Israel Adesanya defeats Robert Whittaker by KO (punches) at 3:33 of round 2.",
+  "contexte": "Devant 57 127 spectateurs à Melbourne, record d'affluence de l'UFC, Israel Adesanya met KO Robert Whittaker et unifie la ceinture des moyens.",
+  "contexte_en": "In front of 57,127 fans in Melbourne, a UFC attendance record, Israel Adesanya knocked out Robert Whittaker to unify the middleweight title.",
+  "tirage": null,
+  "resultats": [
+    {
+      "vainqueur": "Israel Adesanya",
+      "perdant": "Robert Whittaker",
+      "methode": "KO (coups de poing)",
+      "round": 2,
+      "temps": "3:33"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/UFC_243",
+    "https://en.wikipedia.org/wiki/Israel_Adesanya",
+    "https://en.wikipedia.org/wiki/Robert_Whittaker_(fighter)"
+  ],
+  "a_verifier": [],
+  "genere_par": "fetch_moments.py"
+}

@@ -1,0 +1,243 @@
+{
+  "id": "mark-kerr",
+  "nom": "Mark Kerr",
+  "ufc_slug": "mark-kerr",
+  "wikipedia_titre": "Mark Kerr (fighter)",
+  "surnom": "The Titan",
+  "sexe": "M",
+  "pays": "US",
+  "categorie": "lourds",
+  "statut": "inactif",
+  "date_naissance": "1968-12-21",
+  "taille_cm": 183,
+  "allonge_cm": null,
+  "style": "Wrestling",
+  "lieu_naissance": "Phoenix, États-Unis",
+  "palmares": {
+    "victoires": 15,
+    "defaites": 11,
+    "nuls": 0,
+    "sans_decision": 1,
+    "victoires_ko": 4,
+    "victoires_soumission": 7,
+    "victoires_decision": 2,
+    "defaites_ko": 6,
+    "defaites_soumission": 3,
+    "defaites_decision": 2
+  },
+  "stats_ufc": {
+    "frappes_par_min": null,
+    "precision_frappe_pct": null,
+    "frappes_encaissees_par_min": null,
+    "defense_frappe_pct": null,
+    "takedowns_par_15min": null,
+    "precision_takedown_pct": null,
+    "defense_takedown_pct": null,
+    "soumissions_par_15min": null,
+    "knockdowns_par_15min": null,
+    "duree_moyenne_combat_s": null,
+    "frappes_reussies": null,
+    "takedowns_reussis": null
+  },
+  "ufc": {
+    "palmares_tableau": {
+      "victoires": 15,
+      "defaites": 11,
+      "nuls": 0,
+      "sans_decision": 1,
+      "v": {
+        "ko": 4,
+        "soumission": 7,
+        "decision": 2,
+        "autre": 2
+      },
+      "d": {
+        "ko": 6,
+        "soumission": 3,
+        "decision": 2,
+        "autre": 0
+      }
+    },
+    "combats_ufc_par_annee": {
+      "1997": 4
+    },
+    "dernier_combat": {
+      "adversaire": "Muhammed Lawal",
+      "evenement": "M-1 Global: Breakthrough",
+      "date": "August 28, 2009",
+      "resultat": "Loss",
+      "methode": "TKO (punches)"
+    },
+    "combats_ufc": 4,
+    "victoires_ufc": 4,
+    "defaites_ufc": 0,
+    "victoires_decision_5_rounds": 0,
+    "combats_5_rounds_gagnes": 0,
+    "bonus_fotn": 0,
+    "bonus_potn": 0,
+    "bonus_kotn": 0,
+    "bonus_sotn": 0,
+    "combats_fotn": [],
+    "titres": [],
+    "technique_favorite": {
+      "technique": "kimura",
+      "finitions": 2
+    },
+    "premier_combat_ufc": {
+      "adversaire": "Moti Horenstein",
+      "evenement": "UFC 14",
+      "date": "July 27, 1997",
+      "resultat": "Win",
+      "methode": "TKO (punches)"
+    }
+  },
+  "champion_actuel": false,
+  "ancien_champion": false,
+  "accomplissements_en": [
+    {
+      "org": "National Collegiate Athletic Association",
+      "texte": "NCAA Division I Champion - 1992 at 190 lb out of Syracuse University"
+    },
+    {
+      "org": "Eastern Intercollegiate Wrestling Association",
+      "texte": "Champion - 1989, 1991, 1992 at 190 lb out of Syracuse University"
+    },
+    {
+      "org": "Eastern Intercollegiate Wrestling Association",
+      "texte": "Runner-up - 1988 at 190 lb out of Syracuse University"
+    },
+    {
+      "org": "Eastern Intercollegiate Wrestling Association",
+      "texte": "Fletcher Award - 1991, 1992 for scoring the most team points"
+    },
+    {
+      "org": "United World Wrestling (FILA)",
+      "texte": "1992 World Cup - Silver medalist at 100 kg"
+    },
+    {
+      "org": "United World Wrestling (FILA)",
+      "texte": "1994 World Cup - Gold medalist at 100 kg"
+    },
+    {
+      "org": "United World Wrestling (FILA)",
+      "texte": "1995 Pan American Games - Silver medalist at 100 kg"
+    },
+    {
+      "org": "USA Wrestling",
+      "texte": "1993 World Team Trials - Winner at 100 kg"
+    },
+    {
+      "org": "USA Wrestling",
+      "texte": "1994 World Team Trials - Winner at 100 kg"
+    },
+    {
+      "org": "USA Wrestling",
+      "texte": "1994 Senior Freestyle Championship - Winner at 100 kg"
+    },
+    {
+      "org": "Ultimate Fighting Championship (UFC)",
+      "texte": "UFC Hall of Fame ( Pioneer wing , Class of 2025)"
+    },
+    {
+      "org": "Ultimate Fighting Championship (UFC)",
+      "texte": "UFC 14 Heavyweight Tournament Champion"
+    },
+    {
+      "org": "Ultimate Fighting Championship (UFC)",
+      "texte": "UFC 15 Heavyweight Tournament Champion"
+    },
+    {
+      "org": "Ultimate Fighting Championship (UFC)",
+      "texte": "UFC Encyclopedia Awards"
+    },
+    {
+      "org": "Ultimate Fighting Championship (UFC)",
+      "texte": "Knockout of the Night (Two times) vs. Moti Horenstein and Greg Stott"
+    },
+    {
+      "org": "Ultimate Fighting Championship (UFC)",
+      "texte": "Submission of the Night (One time) vs. Dwayne Cason"
+    },
+    {
+      "org": "World Vale Tudo Championship",
+      "texte": "WVC 3 Heavyweight Tournament Champion"
+    },
+    {
+      "org": "ADCC World Championships",
+      "texte": "Champion - 1999 at +99 kg"
+    },
+    {
+      "org": "ADCC World Championships",
+      "texte": "Champion - 2000 at +99 kg"
+    },
+    {
+      "org": "ADCC World Championships",
+      "texte": "Champion - 2000 at Absolute"
+    },
+    {
+      "org": "ADCC World Championships",
+      "texte": "Superfight Champion , defeated Mario Sperry"
+    },
+    {
+      "org": "ADCC World Championships",
+      "texte": "ADCC Hall of Fame - 2022, inaugural class"
+    }
+  ],
+  "distinctions": {
+    "fr": [
+      "Hall of Fame de l'UFC (2025)",
+      "Bonus UFC : 2× KO de la soirée, 1× Soumission de la soirée"
+    ],
+    "en": [
+      "UFC Hall of Fame (2025)",
+      "UFC bonuses: 2× Knockout of the Night, 1× Submission of the Night"
+    ]
+  },
+  "image_commons": "Mark Kerr at TIFF 2025 02.jpg",
+  "sources": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Mark_Kerr_(fighter)",
+    "wikidata": "https://www.wikidata.org/wiki/Q1369125",
+    "ufc_com": "https://www.ufc.com/athlete/mark-kerr"
+  },
+  "champs_sources": {
+    "surnom": "ufc_com",
+    "pays": "wikidata",
+    "categorie": "ufc_com",
+    "palmares": "wikipedia_tableau",
+    "ufc": "wikipedia_tableau",
+    "accomplissements_en": "wikipedia"
+  },
+  "a_verifier": [
+    "allonge_cm",
+    "palmares (wikipedia_tableau 15-11, wikipedia_infobox 0-0, ufc_com 13-3)",
+    "stats_ufc (absentes de la fiche ufc.com)"
+  ],
+  "ecarts_sources": {
+    "palmares": "wikipedia_tableau 15-11, wikipedia_infobox 0-0, ufc_com 13-3"
+  },
+  "maj": "2026-10-20",
+  "stats_jeu": {
+    "precision": 94,
+    "puissance": 52,
+    "vitesse": 94,
+    "takedown": 94,
+    "controle": 42,
+    "soumission": 75,
+    "menton": 31,
+    "esquive": 94,
+    "defenseTd": 94,
+    "categorie_frappe": 80,
+    "categorie_lutte": 70,
+    "categorie_defense": 73,
+    "globale": 76,
+    "style": "frappeur",
+    "estimees": [
+      "precision",
+      "vitesse",
+      "takedown",
+      "esquive",
+      "defenseTd"
+    ],
+    "formule_version": 2
+  }
+}

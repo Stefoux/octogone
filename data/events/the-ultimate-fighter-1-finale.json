@@ -1,0 +1,28 @@
+{
+  "id": "the-ultimate-fighter-1-finale",
+  "nom": "The Ultimate Fighter 1 Finale",
+  "date": "2005-04-09",
+  "lieu": null,
+  "ville": null,
+  "pays": null,
+  "resultat": "Forrest Griffin bat Stephan Bonnar par décision unanime après 3 rounds.",
+  "resultat_en": "Forrest Griffin defeats Stephan Bonnar by unanimous decision after 3 rounds.",
+  "contexte": "Finale de la première saison de The Ultimate Fighter, première diffusion en direct de l'UFC hors pay-per-view. Griffin gagne aux points ; Bonnar et lui reçoivent tous deux un contrat.",
+  "contexte_en": "The final of the first season of The Ultimate Fighter, the UFC's first live broadcast outside pay-per-view. Griffin won on points; he and Bonnar were both given contracts.",
+  "tirage": null,
+  "resultats": [
+    {
+      "vainqueur": "Forrest Griffin",
+      "perdant": "Stephan Bonnar",
+      "methode": "décision unanime",
+      "round": 3,
+      "temps": "5:00"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/The_Ultimate_Fighter_1",
+    "https://en.wikipedia.org/wiki/Forrest_Griffin"
+  ],
+  "a_verifier": [],
+  "genere_par": "fetch_moments.py"
+}

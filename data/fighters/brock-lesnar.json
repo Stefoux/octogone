@@ -87,6 +87,20 @@
     "combats_fotn": [],
     "titres": [
       {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Heavyweight Championship",
+        "evenement": "UFC 116",
+        "date": "July 3, 2010"
+      },
+      {
+        "action": "defended",
+        "interim": false,
+        "titre": "UFC Heavyweight Championship",
+        "evenement": "UFC 100",
+        "date": "July 11, 2009"
+      },
+      {
         "action": "won",
         "interim": false,
         "titre": "UFC Heavyweight Championship",
@@ -369,7 +383,7 @@
   "ecarts_sources": {
     "palmares": "wikipedia_tableau 5-3, wikipedia_infobox 5-3, ufc_com 6-3"
   },
-  "maj": "2026-10-04",
+  "maj": "2026-10-20",
   "stats_jeu": {
     "precision": 73,
     "puissance": 77,

@@ -1,0 +1,28 @@
+{
+  "id": "ufc-fight-night-nogueira-vs-davis",
+  "nom": "UFC Fight Night: Nogueira vs. Davis",
+  "date": "2011-03-26",
+  "lieu": "KeyArena",
+  "ville": "Seattle, Washington",
+  "pays": "US",
+  "resultat": "Chan Sung Jung bat Leonard Garcia par soumission (twister) à 4:59 du 2e round.",
+  "resultat_en": "Chan Sung Jung defeats Leonard Garcia by Submission (twister) at 4:59 of round 2.",
+  "contexte": "Pour sa revanche, « The Korean Zombie » soumet Leonard Garcia par twister dans la dernière seconde du 2e round : la première victoire par twister de l'histoire de l'UFC.",
+  "contexte_en": "In a rematch, \"The Korean Zombie\" submitted Leonard Garcia with a twister in the final second of round 2: the first twister finish in UFC history.",
+  "tirage": null,
+  "resultats": [
+    {
+      "vainqueur": "Chan Sung Jung",
+      "perdant": "Leonard Garcia",
+      "methode": "soumission (twister)",
+      "round": 2,
+      "temps": "4:59"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Nogueira_vs._Davis",
+    "https://en.wikipedia.org/wiki/The_Korean_Zombie"
+  ],
+  "a_verifier": [],
+  "genere_par": "fetch_moments.py"
+}

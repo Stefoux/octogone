@@ -232,6 +232,30 @@ def to_int(v) -> int | None:
     return int(m.group()) if m else None
 
 
+def table_rows(trs) -> list[list[str]]:
+    """Cellules de chaque ligne ; une cellule fusionnée sur plusieurs lignes
+    (rowspan : même soirée de tournoi, même lieu…) est recopiée sur chacune."""
+    rows, pending = [], {}  # colonne -> (texte, lignes restantes)
+    for tr in trs:
+        tds = tr.find_all(["td", "th"], recursive=False)
+        cells, col, i = [], 0, 0
+        while i < len(tds) or col in pending:
+            if col in pending:
+                txt, left = pending.pop(col)
+                if left > 1:
+                    pending[col] = (txt, left - 1)
+            else:
+                txt = tds[i].get_text(" ", strip=True)
+                span = to_int(tds[i].get("rowspan")) or 1
+                if span > 1:
+                    pending[col] = (txt, span - 1)
+                i += 1
+            cells.append(txt)
+            col += 1
+        rows.append(cells)
+    return rows
+
+
 def record_table(html: str) -> list[dict]:
     """Tableau « Mixed martial arts record » -> liste de combats."""
     soup = BeautifulSoup(html, "lxml")
@@ -241,8 +265,7 @@ def record_table(html: str) -> list[dict]:
         if not headers or "Res." not in headers[0] or "Method" not in " ".join(headers):
             continue
         idx = {h: i for i, h in enumerate(headers)}
-        for tr in table.select("tr")[1:]:
-            cells = [td.get_text(" ", strip=True) for td in tr.find_all(["td", "th"])]
+        for cells in table_rows(table.select("tr")[1:]):
             if len(cells) < len(headers) - 1:
                 continue
             def col(name):
@@ -349,7 +372,9 @@ def derive_from_record(fights: list[dict]) -> dict:
 
     titles = []
     for f in fights:
-        m = re.search(r"(Won|Defended|Retained) the (interim )?(UFC [A-Za-z' ]+Championship)", f["notes"])
+        # « Won the vacant… », « Won and unified the… », « Defended and unified the… »
+        m = re.search(r"(Won|Defended|Retained)(?: and unified)? the (?:vacant )?(interim )?(UFC [A-Za-z' ]+Championship)",
+                      f["notes"])
         if m and f["resultat"].lower().startswith("win"):
             titles.append({"action": m.group(1).lower(), "interim": bool(m.group(2)), "titre": m.group(3).strip(),
                            "evenement": f["evenement"], "date": f["date"]})
@@ -781,10 +806,11 @@ def build_fighter(name: str, overrides: dict, champions: dict[str, str]) -> dict
     if champ_div:
         f["champion_division"] = champ_div
         champs["champion_actuel"] = "ufc_com_rankings"
-    # Ancien champion : titre gagné au palmarès, ou titre UFC dans les
-    # « Championships and accomplishments » (certains palmarès formulent le
-    # titre autrement et échappaient à la première règle : Khabib, Oliveira…)
-    f["ancien_champion"] = any(t["action"] == "won" for t in derived.get("titres", [])) or any(
+    # Ancien champion : titre gagné ou défendu au palmarès (un titre attribué
+    # sans combat, comme celui de Ronda Rousey, n'apparaît qu'en défense), ou
+    # titre UFC dans les « Championships and accomplishments » (certains
+    # palmarès formulent le titre autrement : Khabib, Oliveira…)
+    f["ancien_champion"] = bool(derived.get("titres")) or any(
         re.search(r"\bUFC [A-Za-z' ]*Champion\b", d) for d in (f.get("distinctions") or {}).get("en", []))
     f["accomplissements_en"] = accomp
     if accomp:
@@ -798,9 +824,12 @@ def build_fighter(name: str, overrides: dict, champions: dict[str, str]) -> dict
     f["ecarts_sources"] = ecarts_sources
     f["maj"] = dt.date.today().isoformat()
     # Conserver les éventuels ajouts manuels sourcés
-    for k in ("corrections", "notes", "image"):
+    for k in ("corrections", "notes", "image", "stats_jeu"):
         if k in prev:
             f[k] = prev[k]
+    # … et ce qu'écrivent les autres scripts (classement : fetch_rankings.py)
+    if "classement" in (prev.get("ufc") or {}):
+        f.setdefault("ufc", {})["classement"] = prev["ufc"]["classement"]
     save_json(path, f)
     return f
 

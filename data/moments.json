@@ -1,0 +1,958 @@
+{
+  "source": "moments_selection.json",
+  "moments": [
+    {
+      "id": "ufc-1",
+      "titre": "Royce Gracie vs Gerard Gordeau",
+      "combattants": [
+        "royce-gracie"
+      ],
+      "event_id": "ufc-1",
+      "date": "1993-11-12",
+      "texte": "Premier événement de l'histoire de l'UFC : un tournoi à huit, sans catégories de poids. Royce Gracie gagne ses trois combats de la soirée par soumission.",
+      "texte_en": "The first event in UFC history: an eight-man tournament with no weight classes. Royce Gracie won all three of his fights that night by submission.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/UFC_1",
+        "https://en.wikipedia.org/wiki/Royce_Gracie"
+      ],
+      "preuves": [
+        {
+          "extrait": "was the first mixed martial arts event by the Ultimate Fighting Championship",
+          "source": "https://en.wikipedia.org/wiki/UFC_1"
+        },
+        {
+          "extrait": "eight-man tournament",
+          "source": "https://en.wikipedia.org/wiki/UFC_1"
+        },
+        {
+          "extrait": "no weight classes",
+          "source": "https://en.wikipedia.org/wiki/UFC_1"
+        },
+        {
+          "extrait": "Won the UFC 1 Tournament",
+          "source": "https://en.wikipedia.org/wiki/Royce_Gracie"
+        }
+      ]
+    },
+    {
+      "id": "the-ultimate-fighter-1-finale",
+      "titre": "Forrest Griffin vs Stephan Bonnar",
+      "combattants": [
+        "forrest-griffin"
+      ],
+      "event_id": "the-ultimate-fighter-1-finale",
+      "date": "2005-04-09",
+      "texte": "Finale de la première saison de The Ultimate Fighter, première diffusion en direct de l'UFC hors pay-per-view. Griffin gagne aux points ; Bonnar et lui reçoivent tous deux un contrat.",
+      "texte_en": "The final of the first season of The Ultimate Fighter, the UFC's first live broadcast outside pay-per-view. Griffin won on points; he and Bonnar were both given contracts.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/The_Ultimate_Fighter_1",
+        "https://en.wikipedia.org/wiki/Forrest_Griffin"
+      ],
+      "preuves": [
+        {
+          "extrait": "first live UFC broadcast on non-pay-per-view television",
+          "source": "https://en.wikipedia.org/wiki/The_Ultimate_Fighter_1"
+        },
+        {
+          "extrait": "Both fighters were subsequently awarded UFC contracts",
+          "source": "https://en.wikipedia.org/wiki/The_Ultimate_Fighter_1"
+        }
+      ]
+    },
+    {
+      "id": "ufc-68",
+      "titre": "Randy Couture vs Tim Sylvia",
+      "combattants": [
+        "randy-couture"
+      ],
+      "event_id": "ufc-68",
+      "date": "2007-03-03",
+      "texte": "Sorti d'une retraite d'un an, Randy Couture revient chez les lourds et bat le champion Tim Sylvia aux points pour reprendre la ceinture.",
+      "texte_en": "Coming out of a 12-month retirement, Randy Couture returned to heavyweight and beat champion Tim Sylvia on points to win the title.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/UFC_68",
+        "https://en.wikipedia.org/wiki/Randy_Couture"
+      ],
+      "preuves": [
+        {
+          "extrait": "coming out of a 12-month retirement",
+          "source": "https://en.wikipedia.org/wiki/UFC_68"
+        },
+        {
+          "extrait": "Return to Heavyweight",
+          "source": "https://en.wikipedia.org/wiki/Randy_Couture"
+        },
+        {
+          "extrait": "Won the UFC Heavyweight Championship",
+          "source": "https://en.wikipedia.org/wiki/Randy_Couture"
+        }
+      ]
+    },
+    {
+      "id": "ufc-69",
+      "titre": "Matt Serra vs Georges St-Pierre",
+      "combattants": [
+        "matt-serra",
+        "georges-st-pierre"
+      ],
+      "event_id": "ufc-69",
+      "date": "2007-04-07",
+      "texte": "Georges St-Pierre était favori à 7 contre 1 : la victoire de Matt Serra, qui lui prend la ceinture des mi-moyens, reste l'une des plus grandes surprises de l'histoire du MMA.",
+      "texte_en": "Georges St-Pierre was a 7-1 favorite: Matt Serra's win, which took his welterweight title, remains one of the biggest upsets in MMA history.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/UFC_69",
+        "https://en.wikipedia.org/wiki/Matt_Serra",
+        "https://en.wikipedia.org/wiki/Georges_St-Pierre"
+      ],
+      "preuves": [
+        {
+          "extrait": "7-1 favorite",
+          "source": "https://en.wikipedia.org/wiki/UFC_69"
+        },
+        {
+          "extrait": "major upset in MMA history",
+          "source": "https://en.wikipedia.org/wiki/UFC_69"
+        },
+        {
+          "extrait": "Won the UFC Welterweight Championship",
+          "source": "https://en.wikipedia.org/wiki/Matt_Serra"
+        }
+      ]
+    },
+    {
+      "id": "ufc-112",
+      "titre": "Frankie Edgar vs B.J. Penn",
+      "combattants": [
+        "frankie-edgar",
+        "b-j-penn"
+      ],
+      "event_id": "ufc-112",
+      "date": "2010-04-10",
+      "texte": "Premier gala de l'UFC au Moyen-Orient et premier en plein air, à Abu Dhabi : Frankie Edgar détrône B.J. Penn aux points et devient champion des poids légers.",
+      "texte_en": "The UFC's first event in the Middle East and its first held outdoors, in Abu Dhabi: Frankie Edgar dethroned B.J. Penn on points to become lightweight champion.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/UFC_112",
+        "https://en.wikipedia.org/wiki/Frankie_Edgar",
+        "https://en.wikipedia.org/wiki/B.J._Penn"
+      ],
+      "preuves": [
+        {
+          "extrait": "the first held in the Middle East",
+          "source": "https://en.wikipedia.org/wiki/UFC_112"
+        },
+        {
+          "extrait": "first UFC event to be held outdoors",
+          "source": "https://en.wikipedia.org/wiki/UFC_112"
+        },
+        {
+          "extrait": "Won the UFC Lightweight Championship",
+          "source": "https://en.wikipedia.org/wiki/Frankie_Edgar"
+        }
+      ]
+    },
+    {
+      "id": "ufc-126",
+      "titre": "Anderson Silva vs Vitor Belfort",
+      "combattants": [
+        "anderson-silva",
+        "vitor-belfort"
+      ],
+      "event_id": "ufc-126",
+      "date": "2011-02-05",
+      "texte": "Anderson Silva défend sa ceinture des moyens contre Vitor Belfort et le met KO d'un coup de pied de face, élu KO de la soirée.",
+      "texte_en": "Anderson Silva defended his middleweight title against Vitor Belfort, knocking him out with a front kick that earned Knockout of the Night.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/UFC_126",
+        "https://en.wikipedia.org/wiki/Anderson_Silva",
+        "https://en.wikipedia.org/wiki/Vitor_Belfort"
+      ],
+      "preuves": [
+        {
+          "extrait": "Defended the UFC Middleweight Championship",
+          "source": "https://en.wikipedia.org/wiki/Anderson_Silva"
+        },
+        {
+          "extrait": "front kick",
+          "source": "https://en.wikipedia.org/wiki/UFC_126"
+        },
+        {
+          "extrait": "Knockout of the Night",
+          "source": "https://en.wikipedia.org/wiki/UFC_126"
+        }
+      ]
+    },
+    {
+      "id": "ufc-128",
+      "titre": "Jon Jones vs Maurício Rua",
+      "combattants": [
+        "jon-jones",
+        "mauricio-rua"
+      ],
+      "event_id": "ufc-128",
+      "date": "2011-03-19",
+      "texte": "À 23 ans, Jon Jones arrête Maurício « Shogun » Rua au 3e round et devient le plus jeune champion de l'histoire de l'UFC.",
+      "texte_en": "At 23, Jon Jones stopped Maurício \"Shogun\" Rua in the third round to become the youngest champion in UFC history.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/UFC_128",
+        "https://en.wikipedia.org/wiki/Jon_Jones",
+        "https://en.wikipedia.org/wiki/Maurício_Rua"
+      ],
+      "preuves": [
+        {
+          "extrait": "youngest champion in UFC history",
+          "source": "https://en.wikipedia.org/wiki/Jon_Jones"
+        },
+        {
+          "extrait": "Won the UFC Light Heavyweight Championship",
+          "source": "https://en.wikipedia.org/wiki/Jon_Jones"
+        }
+      ]
+    },
+    {
+      "id": "ufc-fight-night-nogueira-vs-davis",
+      "titre": "Chan Sung Jung vs Leonard Garcia",
+      "combattants": [
+        "chan-sung-jung"
+      ],
+      "event_id": "ufc-fight-night-nogueira-vs-davis",
+      "date": "2011-03-26",
+      "texte": "Pour sa revanche, « The Korean Zombie » soumet Leonard Garcia par twister dans la dernière seconde du 2e round : la première victoire par twister de l'histoire de l'UFC.",
+      "texte_en": "In a rematch, \"The Korean Zombie\" submitted Leonard Garcia with a twister in the final second of round 2: the first twister finish in UFC history.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Nogueira_vs._Davis",
+        "https://en.wikipedia.org/wiki/The_Korean_Zombie"
+      ],
+      "preuves": [
+        {
+          "extrait": "avenge the original loss",
+          "source": "https://en.wikipedia.org/wiki/The_Korean_Zombie"
+        },
+        {
+          "extrait": "in the final second of the second round",
+          "source": "https://en.wikipedia.org/wiki/The_Korean_Zombie"
+        },
+        {
+          "extrait": "first time in the history of the UFC that a twister submission finished an opponent",
+          "source": "https://en.wikipedia.org/wiki/The_Korean_Zombie"
+        }
+      ]
+    },
+    {
+      "id": "ufc-139",
+      "titre": "Dan Henderson vs Maurício Rua",
+      "combattants": [
+        "dan-henderson",
+        "mauricio-rua"
+      ],
+      "event_id": "ufc-139",
+      "date": "2011-11-19",
+      "texte": "Cinq rounds entre Dan Henderson et Maurício Rua, gagnés aux points par Henderson : combat de la soirée, décrit par beaucoup comme l'un des plus grands de l'histoire de l'UFC.",
+      "texte_en": "Five rounds between Dan Henderson and Maurício Rua, won on points by Henderson: Fight of the Night, described by many as one of the greatest fights in UFC history.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/UFC_139",
+        "https://en.wikipedia.org/wiki/Dan_Henderson",
+        "https://en.wikipedia.org/wiki/Maurício_Rua"
+      ],
+      "preuves": [
+        {
+          "extrait": "Fight of the Night",
+          "source": "https://en.wikipedia.org/wiki/UFC_139"
+        },
+        {
+          "extrait": "was described by many as one of the greatest fights in UFC history",
+          "source": "https://en.wikipedia.org/wiki/Dan_Henderson"
+        }
+      ]
+    },
+    {
+      "id": "ufc-157",
+      "titre": "Ronda Rousey vs Liz Carmouche",
+      "combattants": [
+        "ronda-rousey"
+      ],
+      "event_id": "ufc-157",
+      "date": "2013-02-23",
+      "texte": "Premier combat féminin de l'histoire de l'UFC : Ronda Rousey défend son titre des coqs face à Liz Carmouche et gagne par clé de bras au 1er round.",
+      "texte_en": "The first women's fight in UFC history: Ronda Rousey defended her bantamweight title against Liz Carmouche with a first-round armbar.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/UFC_157",
+        "https://en.wikipedia.org/wiki/Ronda_Rousey"
+      ],
+      "preuves": [
+        {
+          "extrait": "first-ever women's fight in UFC history",
+          "source": "https://en.wikipedia.org/wiki/UFC_157"
+        },
+        {
+          "extrait": "Defended the UFC Women's Bantamweight Championship",
+          "source": "https://en.wikipedia.org/wiki/Ronda_Rousey"
+        }
+      ]
+    },
+    {
+      "id": "ufc-162",
+      "titre": "Chris Weidman vs Anderson Silva",
+      "combattants": [
+        "chris-weidman",
+        "anderson-silva"
+      ],
+      "event_id": "ufc-162",
+      "date": "2013-07-06",
+      "texte": "Chris Weidman met KO Anderson Silva au 2e round : fin de son règne de sept ans sur les poids moyens et de sa série de 16 victoires à l'UFC.",
+      "texte_en": "Chris Weidman knocked out Anderson Silva in round 2, ending his seven-year middleweight reign and his 16-fight UFC winning streak.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/UFC_162",
+        "https://en.wikipedia.org/wiki/Chris_Weidman",
+        "https://en.wikipedia.org/wiki/Anderson_Silva"
+      ],
+      "preuves": [
+        {
+          "extrait": "ended Silva's 16-fight winning streak inside the UFC and his seven-year reign as the champion",
+          "source": "https://en.wikipedia.org/wiki/Chris_Weidman"
+        },
+        {
+          "extrait": "Won the UFC Middleweight Championship",
+          "source": "https://en.wikipedia.org/wiki/Chris_Weidman"
+        }
+      ]
+    },
+    {
+      "id": "ufc-193",
+      "titre": "Holly Holm vs Ronda Rousey",
+      "combattants": [
+        "holly-holm",
+        "ronda-rousey"
+      ],
+      "event_id": "ufc-193",
+      "date": "2015-11-15",
+      "texte": "Devant 56 214 spectateurs à Melbourne, record de l'UFC à l'époque, Holly Holm met KO Ronda Rousey d'un coup de pied à la tête : KO de l'année.",
+      "texte_en": "In front of 56,214 fans in Melbourne, a UFC record at the time, Holly Holm knocked out Ronda Rousey with a head kick: Knockout of the Year.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/UFC_193",
+        "https://en.wikipedia.org/wiki/Holly_Holm",
+        "https://en.wikipedia.org/wiki/Ronda_Rousey"
+      ],
+      "preuves": [
+        {
+          "extrait": "most attended UFC event in the history of the company at the time, with 56,214",
+          "source": "https://en.wikipedia.org/wiki/UFC_193"
+        },
+        {
+          "extrait": "Knockout of the Year",
+          "source": "https://en.wikipedia.org/wiki/Holly_Holm"
+        },
+        {
+          "extrait": "Won the UFC Women's Bantamweight Championship",
+          "source": "https://en.wikipedia.org/wiki/Holly_Holm"
+        }
+      ]
+    },
+    {
+      "id": "ufc-194",
+      "titre": "Conor McGregor vs José Aldo",
+      "combattants": [
+        "conor-mcgregor",
+        "jose-aldo"
+      ],
+      "event_id": "ufc-194",
+      "date": "2015-12-12",
+      "texte": "Le combat dure 13 secondes : la fin la plus rapide de l'histoire des combats pour un titre UFC. Conor McGregor unifie la ceinture des poids plumes.",
+      "texte_en": "The fight lasted 13 seconds, the fastest finish in UFC title fight history. Conor McGregor unified the featherweight title.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/UFC_194",
+        "https://en.wikipedia.org/wiki/Conor_McGregor",
+        "https://en.wikipedia.org/wiki/José_Aldo"
+      ],
+      "preuves": [
+        {
+          "extrait": "The bout lasted 13 seconds",
+          "source": "https://en.wikipedia.org/wiki/UFC_194"
+        },
+        {
+          "extrait": "fastest finish in UFC title fight history",
+          "source": "https://en.wikipedia.org/wiki/UFC_194"
+        },
+        {
+          "extrait": "Won and unified the UFC Featherweight Championship",
+          "source": "https://en.wikipedia.org/wiki/Conor_McGregor"
+        }
+      ]
+    },
+    {
+      "id": "ufc-199",
+      "titre": "Michael Bisping vs Luke Rockhold",
+      "combattants": [
+        "michael-bisping"
+      ],
+      "event_id": "ufc-199",
+      "date": "2016-06-04",
+      "texte": "Appelé pour remplacer Chris Weidman, Michael Bisping met KO le champion Luke Rockhold au 1er round et devient le premier champion britannique de l'UFC.",
+      "texte_en": "Called in to replace Chris Weidman, Michael Bisping knocked out champion Luke Rockhold in round 1 to become the first British UFC champion.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/UFC_199",
+        "https://en.wikipedia.org/wiki/Michael_Bisping"
+      ],
+      "preuves": [
+        {
+          "extrait": "Weidman pulled out",
+          "source": "https://en.wikipedia.org/wiki/UFC_199"
+        },
+        {
+          "extrait": "first British",
+          "source": "https://en.wikipedia.org/wiki/Michael_Bisping"
+        },
+        {
+          "extrait": "Won the UFC Middleweight Championship",
+          "source": "https://en.wikipedia.org/wiki/Michael_Bisping"
+        }
+      ]
+    },
+    {
+      "id": "ufc-205",
+      "titre": "Conor McGregor vs Eddie Alvarez",
+      "combattants": [
+        "conor-mcgregor"
+      ],
+      "event_id": "ufc-205",
+      "date": "2016-11-12",
+      "texte": "Premier gala de l'UFC à New York, au Madison Square Garden : Conor McGregor bat Eddie Alvarez et devient le premier combattant de l'UFC à détenir deux ceintures en même temps.",
+      "texte_en": "The UFC's first event in New York City, at Madison Square Garden: Conor McGregor beat Eddie Alvarez to become the first fighter in UFC history to hold titles in two divisions at once.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/UFC_205",
+        "https://en.wikipedia.org/wiki/Conor_McGregor"
+      ],
+      "preuves": [
+        {
+          "extrait": "first UFC event hosted in New York City",
+          "source": "https://en.wikipedia.org/wiki/UFC_205"
+        },
+        {
+          "extrait": "first fighter in the promotion's history to hold titles in two divisions simultaneously",
+          "source": "https://en.wikipedia.org/wiki/UFC_205"
+        }
+      ]
+    },
+    {
+      "id": "ufc-207",
+      "titre": "Amanda Nunes vs Ronda Rousey",
+      "combattants": [
+        "amanda-nunes",
+        "ronda-rousey"
+      ],
+      "event_id": "ufc-207",
+      "date": "2016-12-30",
+      "texte": "Pour le retour de Ronda Rousey après sa défaite contre Holly Holm, Amanda Nunes conserve sa ceinture des coqs en 48 secondes.",
+      "texte_en": "For Ronda Rousey's return after her loss to Holly Holm, Amanda Nunes kept her bantamweight title in 48 seconds.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/UFC_207",
+        "https://en.wikipedia.org/wiki/Amanda_Nunes",
+        "https://en.wikipedia.org/wiki/Ronda_Rousey"
+      ],
+      "preuves": [
+        {
+          "extrait": "Defended the UFC Women's Bantamweight Championship",
+          "source": "https://en.wikipedia.org/wiki/Amanda_Nunes"
+        }
+      ]
+    },
+    {
+      "id": "ufc-216",
+      "titre": "Demetrious Johnson vs Ray Borg",
+      "combattants": [
+        "demetrious-johnson"
+      ],
+      "event_id": "ufc-216",
+      "date": "2017-10-07",
+      "texte": "Demetrious Johnson soumet Ray Borg par clé de bras au 5e round : 11e défense de titre d'affilée, record de l'UFC, et soumission de l'année.",
+      "texte_en": "Demetrious Johnson submitted Ray Borg with an armbar in round 5: his 11th consecutive title defense, a UFC record, and Submission of the Year.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/UFC_216",
+        "https://en.wikipedia.org/wiki/Demetrious_Johnson"
+      ],
+      "preuves": [
+        {
+          "extrait": "Broke the UFC record for the most consecutive title defenses (11)",
+          "source": "https://en.wikipedia.org/wiki/Demetrious_Johnson"
+        },
+        {
+          "extrait": "Submission of the Year",
+          "source": "https://en.wikipedia.org/wiki/Demetrious_Johnson"
+        }
+      ]
+    },
+    {
+      "id": "ufc-217",
+      "titre": "Georges St-Pierre vs Michael Bisping",
+      "combattants": [
+        "georges-st-pierre",
+        "michael-bisping"
+      ],
+      "event_id": "ufc-217",
+      "date": "2017-11-04",
+      "texte": "De retour après quatre ans d'absence, Georges St-Pierre monte chez les moyens et soumet Michael Bisping : il devient le quatrième combattant titré dans deux catégories à l'UFC.",
+      "texte_en": "Back after four years away, Georges St-Pierre moved up to middleweight and submitted Michael Bisping, becoming the fourth fighter to win UFC titles in two weight classes.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/UFC_217",
+        "https://en.wikipedia.org/wiki/Georges_St-Pierre",
+        "https://en.wikipedia.org/wiki/Michael_Bisping"
+      ],
+      "preuves": [
+        {
+          "extrait": "fought for the first time in four years",
+          "source": "https://en.wikipedia.org/wiki/UFC_217"
+        },
+        {
+          "extrait": "fourth fighter to win titles in different weight classes",
+          "source": "https://en.wikipedia.org/wiki/UFC_217"
+        },
+        {
+          "extrait": "Middleweight debut",
+          "source": "https://en.wikipedia.org/wiki/Georges_St-Pierre"
+        },
+        {
+          "extrait": "Won the UFC Middleweight Championship",
+          "source": "https://en.wikipedia.org/wiki/Georges_St-Pierre"
+        }
+      ]
+    },
+    {
+      "id": "ufc-226",
+      "titre": "Daniel Cormier vs Stipe Miocic",
+      "combattants": [
+        "daniel-cormier",
+        "stipe-miocic"
+      ],
+      "event_id": "ufc-226",
+      "date": "2018-07-07",
+      "texte": "Champion des mi-lourds, Daniel Cormier met KO Stipe Miocic au 1er round et devient le deuxième combattant à détenir deux ceintures en même temps, après Conor McGregor.",
+      "texte_en": "Light heavyweight champion Daniel Cormier knocked out Stipe Miocic in round 1 to become only the second fighter to hold titles in two divisions at once, after Conor McGregor.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/UFC_226",
+        "https://en.wikipedia.org/wiki/Daniel_Cormier",
+        "https://en.wikipedia.org/wiki/Stipe_Miocic"
+      ],
+      "preuves": [
+        {
+          "extrait": "second fighter to be champion in two divisions simultaneously",
+          "source": "https://en.wikipedia.org/wiki/UFC_226"
+        },
+        {
+          "extrait": "Return to Heavyweight",
+          "source": "https://en.wikipedia.org/wiki/Daniel_Cormier"
+        },
+        {
+          "extrait": "Won the UFC Heavyweight Championship",
+          "source": "https://en.wikipedia.org/wiki/Daniel_Cormier"
+        }
+      ]
+    },
+    {
+      "id": "ufc-229",
+      "titre": "Khabib Nurmagomedov vs Conor McGregor",
+      "combattants": [
+        "khabib-nurmagomedov",
+        "conor-mcgregor"
+      ],
+      "event_id": "ufc-229",
+      "date": "2018-10-06",
+      "texte": "Khabib Nurmagomedov soumet Conor McGregor au 4e round et reste invaincu. Le gala devient le pay-per-view de MMA le plus vendu de l'histoire : 2,4 millions d'achats.",
+      "texte_en": "Khabib Nurmagomedov submitted Conor McGregor in round 4 to stay unbeaten. The event became the best-selling MMA pay-per-view ever: 2.4 million buys.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/UFC_229",
+        "https://en.wikipedia.org/wiki/Khabib_Nurmagomedov",
+        "https://en.wikipedia.org/wiki/Conor_McGregor"
+      ],
+      "preuves": [
+        {
+          "extrait": "most-bought UFC (and MMA) pay-per-view of all time with a buyrate of 2.4 million",
+          "source": "https://en.wikipedia.org/wiki/UFC_229"
+        },
+        {
+          "extrait": "Defended the UFC Lightweight Championship",
+          "source": "https://en.wikipedia.org/wiki/Khabib_Nurmagomedov"
+        }
+      ]
+    },
+    {
+      "id": "ufc-232",
+      "titre": "Amanda Nunes vs Cris Cyborg",
+      "combattants": [
+        "amanda-nunes"
+      ],
+      "event_id": "ufc-232",
+      "date": "2018-12-29",
+      "texte": "Amanda Nunes met KO Cris Cyborg en 51 secondes et devient la première femme championne dans deux catégories en même temps.",
+      "texte_en": "Amanda Nunes knocked out Cris Cyborg in 51 seconds to become the first woman to hold titles in two divisions simultaneously.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/UFC_232",
+        "https://en.wikipedia.org/wiki/Amanda_Nunes"
+      ],
+      "preuves": [
+        {
+          "extrait": "first woman to be champion in two divisions simultaneously",
+          "source": "https://en.wikipedia.org/wiki/UFC_232"
+        },
+        {
+          "extrait": "Won the UFC Women's Featherweight Championship",
+          "source": "https://en.wikipedia.org/wiki/Amanda_Nunes"
+        }
+      ]
+    },
+    {
+      "id": "ufc-243",
+      "titre": "Israel Adesanya vs Robert Whittaker",
+      "combattants": [
+        "israel-adesanya",
+        "robert-whittaker"
+      ],
+      "event_id": "ufc-243",
+      "date": "2019-10-06",
+      "texte": "Devant 57 127 spectateurs à Melbourne, record d'affluence de l'UFC, Israel Adesanya met KO Robert Whittaker et unifie la ceinture des moyens.",
+      "texte_en": "In front of 57,127 fans in Melbourne, a UFC attendance record, Israel Adesanya knocked out Robert Whittaker to unify the middleweight title.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/UFC_243",
+        "https://en.wikipedia.org/wiki/Israel_Adesanya",
+        "https://en.wikipedia.org/wiki/Robert_Whittaker_(fighter)"
+      ],
+      "preuves": [
+        {
+          "extrait": "broke the attendance record for a UFC event with a total of 57,127",
+          "source": "https://en.wikipedia.org/wiki/UFC_243"
+        },
+        {
+          "extrait": "Won and unified the UFC Middleweight Championship",
+          "source": "https://en.wikipedia.org/wiki/Israel_Adesanya"
+        }
+      ]
+    },
+    {
+      "id": "ufc-248",
+      "titre": "Zhang Weili vs Joanna Jędrzejczyk",
+      "combattants": [
+        "zhang-weili",
+        "joanna-jedrzejczyk"
+      ],
+      "event_id": "ufc-248",
+      "date": "2020-03-07",
+      "texte": "Zhang Weili conserve son titre des poids pailles face à l'ancienne championne Joanna Jędrzejczyk, par décision partagée : un combat considéré par beaucoup comme le plus grand de l'histoire du MMA féminin.",
+      "texte_en": "Zhang Weili kept her strawweight title against former champion Joanna Jędrzejczyk by split decision, in what many called the greatest fight in women's MMA history.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/UFC_248",
+        "https://en.wikipedia.org/wiki/Zhang_Weili",
+        "https://en.wikipedia.org/wiki/Joanna_Jędrzejczyk"
+      ],
+      "preuves": [
+        {
+          "extrait": "faced former strawweight champion Joanna Jędrzejczyk",
+          "source": "https://en.wikipedia.org/wiki/Zhang_Weili"
+        },
+        {
+          "extrait": "considered by many pundits as the greatest fight in women's MMA history",
+          "source": "https://en.wikipedia.org/wiki/Zhang_Weili"
+        },
+        {
+          "extrait": "Defended the UFC Women's Strawweight Championship",
+          "source": "https://en.wikipedia.org/wiki/Zhang_Weili"
+        }
+      ]
+    },
+    {
+      "id": "ufc-254",
+      "titre": "Khabib Nurmagomedov vs Justin Gaethje",
+      "combattants": [
+        "khabib-nurmagomedov",
+        "justin-gaethje"
+      ],
+      "event_id": "ufc-254",
+      "date": "2020-10-24",
+      "texte": "Khabib Nurmagomedov soumet Justin Gaethje par triangle au 2e round, puis annonce sa retraite dans l'octogone, invaincu en 29 combats.",
+      "texte_en": "Khabib Nurmagomedov submitted Justin Gaethje with a triangle choke in round 2, then announced his retirement in the cage, unbeaten in 29 fights.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/UFC_254",
+        "https://en.wikipedia.org/wiki/Khabib_Nurmagomedov",
+        "https://en.wikipedia.org/wiki/Justin_Gaethje"
+      ],
+      "preuves": [
+        {
+          "extrait": "he announced his retirement from mixed martial arts",
+          "source": "https://en.wikipedia.org/wiki/UFC_254"
+        },
+        {
+          "extrait": "Defended and unified the UFC Lightweight Championship",
+          "source": "https://en.wikipedia.org/wiki/Khabib_Nurmagomedov"
+        }
+      ]
+    },
+    {
+      "id": "ufc-264",
+      "titre": "Dustin Poirier vs Conor McGregor",
+      "combattants": [
+        "dustin-poirier",
+        "conor-mcgregor"
+      ],
+      "event_id": "ufc-264",
+      "date": "2021-07-10",
+      "texte": "Troisième combat entre les deux hommes : à la fin du 1er round, Conor McGregor se fracture le tibia, le médecin arrête le combat et Dustin Poirier l'emporte.",
+      "texte_en": "Their third fight: at the end of round 1 Conor McGregor broke his tibia, the ringside doctor stopped the bout and Dustin Poirier won.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/UFC_264",
+        "https://en.wikipedia.org/wiki/Dustin_Poirier",
+        "https://en.wikipedia.org/wiki/Conor_McGregor"
+      ],
+      "preuves": [
+        {
+          "extrait": "McGregor suffering a broken tibia",
+          "source": "https://en.wikipedia.org/wiki/Dustin_Poirier"
+        },
+        {
+          "extrait": "ringside doctor stopped the bout",
+          "source": "https://en.wikipedia.org/wiki/Dustin_Poirier"
+        }
+      ]
+    },
+    {
+      "id": "ufc-275",
+      "titre": "Jiří Procházka vs Glover Teixeira",
+      "combattants": [
+        "jiri-prochazka",
+        "glover-teixeira"
+      ],
+      "event_id": "ufc-275",
+      "date": "2022-06-12",
+      "texte": "À Singapour, Jiří Procházka soumet Glover Teixeira à 28 secondes de la fin du 5e round et devient champion des mi-lourds : combat de la soirée.",
+      "texte_en": "In Singapore, Jiří Procházka submitted Glover Teixeira with 28 seconds left in round 5 to become light heavyweight champion: Fight of the Night.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/UFC_275",
+        "https://en.wikipedia.org/wiki/Jiří_Procházka",
+        "https://en.wikipedia.org/wiki/Glover_Teixeira"
+      ],
+      "preuves": [
+        {
+          "extrait": "Won the UFC Light Heavyweight Championship",
+          "source": "https://en.wikipedia.org/wiki/Jiří_Procházka"
+        },
+        {
+          "extrait": "Fight of the Night",
+          "source": "https://en.wikipedia.org/wiki/UFC_275"
+        }
+      ]
+    },
+    {
+      "id": "ufc-278",
+      "titre": "Leon Edwards vs Kamaru Usman",
+      "combattants": [
+        "leon-edwards",
+        "kamaru-usman"
+      ],
+      "event_id": "ufc-278",
+      "date": "2022-08-20",
+      "texte": "À moins d'une minute de la fin du combat, Leon Edwards met KO Kamaru Usman d'un coup de pied à la tête et lui prend la ceinture des mi-moyens.",
+      "texte_en": "With less than a minute left in the fight, Leon Edwards knocked out Kamaru Usman with a head kick to take his welterweight title.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/UFC_278",
+        "https://en.wikipedia.org/wiki/Leon_Edwards",
+        "https://en.wikipedia.org/wiki/Kamaru_Usman"
+      ],
+      "preuves": [
+        {
+          "extrait": "Won the UFC Welterweight Championship",
+          "source": "https://en.wikipedia.org/wiki/Leon_Edwards"
+        },
+        {
+          "extrait": "head kick",
+          "source": "https://en.wikipedia.org/wiki/UFC_278"
+        }
+      ]
+    },
+    {
+      "id": "ufc-281",
+      "titre": "Alex Pereira vs Israel Adesanya",
+      "combattants": [
+        "alex-pereira",
+        "israel-adesanya"
+      ],
+      "event_id": "ufc-281",
+      "date": "2022-11-12",
+      "texte": "Les deux hommes s'étaient déjà affrontés deux fois en kickboxing. Au Madison Square Garden, Alex Pereira arrête Israel Adesanya au 5e round et prend la ceinture des moyens.",
+      "texte_en": "The two had already met twice in kickboxing. At Madison Square Garden, Alex Pereira stopped Israel Adesanya in round 5 to take the middleweight title.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/UFC_281",
+        "https://en.wikipedia.org/wiki/Alex_Pereira",
+        "https://en.wikipedia.org/wiki/Israel_Adesanya"
+      ],
+      "preuves": [
+        {
+          "extrait": "previously met twice in kickboxing",
+          "source": "https://en.wikipedia.org/wiki/UFC_281"
+        },
+        {
+          "extrait": "Won the UFC Middleweight Championship",
+          "source": "https://en.wikipedia.org/wiki/Alex_Pereira"
+        }
+      ]
+    },
+    {
+      "id": "ufc-285",
+      "titre": "Jon Jones vs Ciryl Gane",
+      "combattants": [
+        "jon-jones",
+        "ciryl-gane"
+      ],
+      "event_id": "ufc-285",
+      "date": "2023-03-04",
+      "texte": "Pour ses débuts chez les lourds, Jon Jones soumet Ciryl Gane par guillotine au 1er round et remporte la ceinture vacante.",
+      "texte_en": "In his heavyweight debut, Jon Jones submitted Ciryl Gane with a guillotine choke in round 1 to win the vacant title.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/UFC_285",
+        "https://en.wikipedia.org/wiki/Jon_Jones",
+        "https://en.wikipedia.org/wiki/Ciryl_Gane"
+      ],
+      "preuves": [
+        {
+          "extrait": "Heavyweight debut",
+          "source": "https://en.wikipedia.org/wiki/Jon_Jones"
+        },
+        {
+          "extrait": "Won the vacant UFC Heavyweight Championship",
+          "source": "https://en.wikipedia.org/wiki/Jon_Jones"
+        }
+      ]
+    },
+    {
+      "id": "ufc-287",
+      "titre": "Israel Adesanya vs Alex Pereira",
+      "combattants": [
+        "israel-adesanya",
+        "alex-pereira"
+      ],
+      "event_id": "ufc-287",
+      "date": "2023-04-08",
+      "texte": "Battu par Alex Pereira deux fois en kickboxing puis à l'UFC 281, Israel Adesanya le met KO au 2e round et reprend la ceinture des moyens.",
+      "texte_en": "Beaten by Alex Pereira twice in kickboxing and then at UFC 281, Israel Adesanya knocked him out in round 2 to regain the middleweight title.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/UFC_287",
+        "https://en.wikipedia.org/wiki/Israel_Adesanya",
+        "https://en.wikipedia.org/wiki/Alex_Pereira"
+      ],
+      "preuves": [
+        {
+          "extrait": "Pereira captured the title by fifth-round knockout",
+          "source": "https://en.wikipedia.org/wiki/UFC_287"
+        },
+        {
+          "extrait": "previously met twice in kickboxing",
+          "source": "https://en.wikipedia.org/wiki/UFC_287"
+        },
+        {
+          "extrait": "Won the UFC Middleweight Championship",
+          "source": "https://en.wikipedia.org/wiki/Israel_Adesanya"
+        }
+      ]
+    },
+    {
+      "id": "ufc-298",
+      "titre": "Ilia Topuria vs Alexander Volkanovski",
+      "combattants": [
+        "ilia-topuria",
+        "alexander-volkanovski"
+      ],
+      "event_id": "ufc-298",
+      "date": "2024-02-17",
+      "texte": "Invaincu, Ilia Topuria met KO Alexander Volkanovski au 2e round et devient champion des poids plumes.",
+      "texte_en": "Unbeaten Ilia Topuria knocked out Alexander Volkanovski in round 2 to become featherweight champion.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/UFC_298",
+        "https://en.wikipedia.org/wiki/Ilia_Topuria",
+        "https://en.wikipedia.org/wiki/Alexander_Volkanovski"
+      ],
+      "preuves": [
+        {
+          "extrait": "Won the UFC Featherweight Championship",
+          "source": "https://en.wikipedia.org/wiki/Ilia_Topuria"
+        }
+      ]
+    },
+    {
+      "id": "ufc-300",
+      "titre": "Max Holloway vs Justin Gaethje",
+      "combattants": [
+        "max-holloway",
+        "justin-gaethje"
+      ],
+      "event_id": "ufc-300",
+      "date": "2024-04-13",
+      "texte": "Pour la ceinture symbolique « BMF », Max Holloway met KO Justin Gaethje à une seconde de la fin du 5e round : la fin la plus tardive de l'histoire de l'UFC, à égalité.",
+      "texte_en": "For the symbolic \"BMF\" title, Max Holloway knocked out Justin Gaethje with one second left in round 5: tied for the latest finish in UFC history.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/UFC_300",
+        "https://en.wikipedia.org/wiki/Max_Holloway",
+        "https://en.wikipedia.org/wiki/Justin_Gaethje"
+      ],
+      "preuves": [
+        {
+          "extrait": "Tied for latest finish in UFC history",
+          "source": "https://en.wikipedia.org/wiki/UFC_300"
+        },
+        {
+          "extrait": "Won the symbolic UFC \"BMF\" title",
+          "source": "https://en.wikipedia.org/wiki/Max_Holloway"
+        }
+      ]
+    },
+    {
+      "id": "ufc-306",
+      "titre": "Merab Dvalishvili vs Sean O'Malley",
+      "combattants": [
+        "merab-dvalishvili",
+        "sean-o-malley"
+      ],
+      "event_id": "ufc-306",
+      "date": "2024-09-14",
+      "texte": "Au Sphere, près de Las Vegas, Merab Dvalishvili bat Sean O'Malley aux points et devient champion des poids coqs.",
+      "texte_en": "At Sphere, near Las Vegas, Merab Dvalishvili beat Sean O'Malley on points to become bantamweight champion.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/UFC_306",
+        "https://en.wikipedia.org/wiki/Merab_Dvalishvili",
+        "https://en.wikipedia.org/wiki/Sean_O'Malley_(fighter)"
+      ],
+      "preuves": [
+        {
+          "extrait": "at Sphere in Paradise, Nevada , part of the Las Vegas Valley",
+          "source": "https://en.wikipedia.org/wiki/UFC_306"
+        },
+        {
+          "extrait": "Won the UFC Bantamweight Championship",
+          "source": "https://en.wikipedia.org/wiki/Merab_Dvalishvili"
+        }
+      ]
+    },
+    {
+      "id": "ufc-freedom-250",
+      "titre": "Justin Gaethje vs Ilia Topuria",
+      "combattants": [
+        "justin-gaethje",
+        "ilia-topuria"
+      ],
+      "event_id": "ufc-freedom-250",
+      "date": "2026-06-14",
+      "texte": "Sur la pelouse sud de la Maison-Blanche, premier événement sportif professionnel organisé à la résidence présidentielle, Justin Gaethje bat Ilia Topuria et unifie la ceinture des poids légers.",
+      "texte_en": "On the South Lawn of the White House, the first professional sporting event staged at the presidential residence, Justin Gaethje beat Ilia Topuria to unify the lightweight title.",
+      "sources": [
+        "https://www.ufc.com/news/ufc-freedom-250-results-highlights-interviews",
+        "https://en.wikipedia.org/wiki/UFC_Freedom_250",
+        "https://en.wikipedia.org/wiki/Justin_Gaethje",
+        "https://en.wikipedia.org/wiki/Ilia_Topuria"
+      ],
+      "preuves": [
+        {
+          "extrait": "The South Lawn of the White House held the first professional sporting event staged at the presidential residence",
+          "source": "https://en.wikipedia.org/wiki/UFC_Freedom_250"
+        },
+        {
+          "extrait": "Won and unified the UFC Lightweight Championship",
+          "source": "https://en.wikipedia.org/wiki/Justin_Gaethje"
+        }
+      ]
+    }
+  ]
+}

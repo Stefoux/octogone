@@ -14,12 +14,12 @@
   "style": "Shootfighting",
   "lieu_naissance": "États-Unis",
   "palmares": {
-    "victoires": 24,
+    "victoires": 28,
     "defaites": 17,
     "nuls": 2,
     "sans_decision": 0,
-    "victoires_ko": 2,
-    "victoires_soumission": 19,
+    "victoires_ko": 3,
+    "victoires_soumission": 22,
     "victoires_decision": 3,
     "defaites_ko": 11,
     "defaites_soumission": 4,
@@ -41,13 +41,13 @@
   },
   "ufc": {
     "palmares_tableau": {
-      "victoires": 24,
+      "victoires": 28,
       "defaites": 17,
       "nuls": 2,
       "sans_decision": 0,
       "v": {
-        "ko": 2,
-        "soumission": 19,
+        "ko": 3,
+        "soumission": 22,
         "decision": 3,
         "autre": 0
       },
@@ -59,8 +59,8 @@
       }
     },
     "combats_ufc_par_annee": {
-      "1993": 1,
-      "1994": 1,
+      "1993": 2,
+      "1994": 2,
       "1995": 3,
       "1996": 2,
       "2002": 1,
@@ -75,8 +75,8 @@
       "resultat": "Loss",
       "methode": "TKO (knee and punches)"
     },
-    "combats_ufc": 12,
-    "victoires_ufc": 4,
+    "combats_ufc": 14,
+    "victoires_ufc": 6,
     "defaites_ufc": 6,
     "victoires_decision_5_rounds": 0,
     "combats_5_rounds_gagnes": 0,
@@ -95,19 +95,19 @@
       }
     ],
     "technique_favorite": {
-      "technique": "rear-naked choke",
+      "technique": "arm-triangle choke",
       "finitions": 4
     },
     "premier_combat_ufc": {
-      "adversaire": "Royce Gracie",
+      "adversaire": "Patrick Smith",
       "evenement": "UFC 1",
       "date": "November 12, 1993",
-      "resultat": "Loss",
-      "methode": "Submission (rear-naked choke)"
+      "resultat": "Win",
+      "methode": "Submission (heel hook)"
     }
   },
   "champion_actuel": false,
-  "ancien_champion": false,
+  "ancien_champion": true,
   "accomplissements_en": [
     {
       "org": "George Tragos/Lou Thesz Professional Wrestling Hall of Fame",
@@ -296,27 +296,26 @@
   },
   "a_verifier": [
     "allonge_cm",
-    "palmares (wikipedia_tableau 24-17, wikipedia_infobox 28-17, ufc_com 26-11)",
     "stats_ufc (absentes de la fiche ufc.com)"
   ],
   "ecarts_sources": {
-    "palmares": "wikipedia_tableau 24-17, wikipedia_infobox 28-17, ufc_com 26-11"
+    "palmares": "wikipedia_tableau 28-17, wikipedia_infobox 28-17, ufc_com 26-11"
   },
-  "maj": "2026-10-04",
+  "maj": "2026-10-20",
   "stats_jeu": {
-    "precision": 56,
-    "puissance": 31,
-    "vitesse": 56,
-    "takedown": 56,
-    "controle": 32,
+    "precision": 69,
+    "puissance": 40,
+    "vitesse": 69,
+    "takedown": 69,
+    "controle": 39,
     "soumission": 99,
-    "menton": 31,
-    "esquive": 56,
-    "defenseTd": 56,
-    "categorie_frappe": 48,
-    "categorie_lutte": 62,
-    "categorie_defense": 48,
-    "globale": 56,
+    "menton": 39,
+    "esquive": 69,
+    "defenseTd": 69,
+    "categorie_frappe": 59,
+    "categorie_lutte": 69,
+    "categorie_defense": 59,
+    "globale": 65,
     "style": "grappler",
     "estimees": [
       "precision",
