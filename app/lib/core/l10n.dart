@@ -90,6 +90,14 @@ String styleLabel(AppLocalizations l, FighterStyle s) => switch (s) {
       FighterStyle.complet => l.styleComplet,
     };
 
+/// Type d'un booster : Standard, Premium, Premium+, Événement.
+String boosterTypeLabel(AppLocalizations l, String type) => switch (type) {
+      'premium' => l.boosterPremium,
+      'premium_plus' => l.boosterPremiumPlus,
+      'evenement' => l.boosterEvent,
+      _ => l.boosterStandard,
+    };
+
 String rarityLabel(AppLocalizations l, String rarete) => switch (rarete) {
       'commune' => l.rarityCommune,
       'peu_commune' => l.rarityPeuCommune,

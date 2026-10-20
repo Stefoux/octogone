@@ -912,5 +912,6 @@
   "statEsquive": "Esquive",
   "statEsquiveShort": "ESQ",
   "statDefenseTd": "Défense TD",
-  "statDefenseTdShort": "DTD"
+  "statDefenseTdShort": "DTD",
+  "boosterPremiumPlus": "Premium+"
 }

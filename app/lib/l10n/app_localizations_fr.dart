@@ -1841,4 +1841,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get statDefenseTdShort => 'DTD';
+
+  @override
+  String get boosterPremiumPlus => 'Premium+';
 }

@@ -52,11 +52,7 @@ class BoosterPack extends StatelessWidget {
     ];
     final palette = colors.length >= 2 ? colors : const [Color(0xFF14161C), Color(0xFF2E3240), Color(0xFFE8B04A)];
     final accent = _hex(booster.visuel['accent'] as String?, const Color(0xFFE8B04A));
-    final typeLabel = switch (booster.type) {
-      'premium' => l.boosterPremium,
-      'evenement' => l.boosterEvent,
-      _ => l.boosterStandard,
-    };
+    final typeLabel = boosterTypeLabel(l, booster.type);
 
     // Visuel photo (combattants réels) si le type de booster en définit un
     final art = booster.visuel['art'] as String?;

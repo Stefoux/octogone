@@ -1,0 +1,988 @@
+{
+  "id": "rivalites",
+  "nom": "Rivalités",
+  "annee": 2026,
+  "type": "originale",
+  "famille_cadre": "original",
+  "date_sortie": null,
+  "description": "Les 78 rivalités réelles de la base (au moins deux combats entre les mêmes combattants), en cartes Face-à-Face ; bilan et combats tirés du palmarès Wikipedia de chacun.",
+  "sources": [],
+  "a_verifier": [],
+  "raretes": [
+    {
+      "rarete": "commune",
+      "nom": "Base",
+      "effet": "base"
+    },
+    {
+      "rarete": "peu_commune",
+      "nom": "Acier d'Octogone",
+      "effet": "acier"
+    },
+    {
+      "rarete": "rare",
+      "nom": "Face-à-Face",
+      "effet": "face_a_face"
+    },
+    {
+      "rarete": "epique",
+      "nom": "Onde de Choc",
+      "effet": "onde_de_choc"
+    },
+    {
+      "rarete": "legendaire",
+      "nom": "Héritage",
+      "effet": "heritage"
+    },
+    {
+      "rarete": "mythique",
+      "nom": "Octogone Noir",
+      "effet": "octogone_noir",
+      "tirage": 5
+    }
+  ],
+  "series": [
+    {
+      "code": "BASE",
+      "nom": "Rivalités",
+      "type": "base",
+      "nb_cartes": 78,
+      "cartes": [
+        {
+          "numero": "1",
+          "nom_imprime": "Brandon Moreno vs Deiveson Figueiredo",
+          "combattants": [
+            "brandon-moreno",
+            "deiveson-figueiredo"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Brandon_Moreno",
+            "https://en.wikipedia.org/wiki/Deiveson_Figueiredo"
+          ]
+        },
+        {
+          "numero": "2",
+          "nom_imprime": "Alexa Grasso vs Valentina Shevchenko",
+          "combattants": [
+            "alexa-grasso",
+            "valentina-shevchenko"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Alexa_Grasso",
+            "https://en.wikipedia.org/wiki/Valentina_Shevchenko"
+          ]
+        },
+        {
+          "numero": "3",
+          "nom_imprime": "Alexander Volkanovski vs Max Holloway",
+          "combattants": [
+            "alexander-volkanovski",
+            "max-holloway"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Alexander_Volkanovski",
+            "https://en.wikipedia.org/wiki/Max_Holloway"
+          ]
+        },
+        {
+          "numero": "4",
+          "nom_imprime": "Antônio Rodrigo Nogueira vs Dan Henderson",
+          "combattants": [
+            "antonio-rodrigo-nogueira",
+            "dan-henderson"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Antônio_Rodrigo_Nogueira",
+            "https://en.wikipedia.org/wiki/Dan_Henderson"
+          ]
+        },
+        {
+          "numero": "5",
+          "nom_imprime": "Antônio Rodrigo Nogueira vs Maurício Rua",
+          "combattants": [
+            "antonio-rodrigo-nogueira",
+            "mauricio-rua"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Maurício_Rua"
+          ]
+        },
+        {
+          "numero": "6",
+          "nom_imprime": "Chuck Liddell vs Tito Ortiz",
+          "combattants": [
+            "chuck-liddell",
+            "tito-ortiz"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Chuck_Liddell",
+            "https://en.wikipedia.org/wiki/Tito_Ortiz"
+          ]
+        },
+        {
+          "numero": "7",
+          "nom_imprime": "Conor McGregor vs Dustin Poirier",
+          "combattants": [
+            "conor-mcgregor",
+            "dustin-poirier"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Conor_McGregor",
+            "https://en.wikipedia.org/wiki/Dustin_Poirier"
+          ]
+        },
+        {
+          "numero": "8",
+          "nom_imprime": "Daniel Cormier vs Stipe Miocic",
+          "combattants": [
+            "daniel-cormier",
+            "stipe-miocic"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Daniel_Cormier",
+            "https://en.wikipedia.org/wiki/Stipe_Miocic"
+          ]
+        },
+        {
+          "numero": "9",
+          "nom_imprime": "Dominick Cruz vs Urijah Faber",
+          "combattants": [
+            "dominick-cruz",
+            "urijah-faber"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Dominick_Cruz",
+            "https://en.wikipedia.org/wiki/Urijah_Faber"
+          ]
+        },
+        {
+          "numero": "10",
+          "nom_imprime": "Dustin Poirier vs Max Holloway",
+          "combattants": [
+            "dustin-poirier",
+            "max-holloway"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Dustin_Poirier",
+            "https://en.wikipedia.org/wiki/Max_Holloway"
+          ]
+        },
+        {
+          "numero": "11",
+          "nom_imprime": "Forrest Griffin vs Tito Ortiz",
+          "combattants": [
+            "forrest-griffin",
+            "tito-ortiz"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Forrest_Griffin",
+            "https://en.wikipedia.org/wiki/Tito_Ortiz"
+          ]
+        },
+        {
+          "numero": "12",
+          "nom_imprime": "Georges St-Pierre vs Matt Hughes",
+          "combattants": [
+            "georges-st-pierre",
+            "matt-hughes"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Georges_St-Pierre",
+            "https://en.wikipedia.org/wiki/Matt_Hughes_(fighter)"
+          ]
+        },
+        {
+          "numero": "13",
+          "nom_imprime": "Kamaru Usman vs Leon Edwards",
+          "combattants": [
+            "kamaru-usman",
+            "leon-edwards"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Kamaru_Usman",
+            "https://en.wikipedia.org/wiki/Leon_Edwards"
+          ]
+        },
+        {
+          "numero": "14",
+          "nom_imprime": "Ken Shamrock vs Royce Gracie",
+          "combattants": [
+            "ken-shamrock",
+            "royce-gracie"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Ken_Shamrock",
+            "https://en.wikipedia.org/wiki/Royce_Gracie"
+          ]
+        },
+        {
+          "numero": "15",
+          "nom_imprime": "Ken Shamrock vs Tito Ortiz",
+          "combattants": [
+            "ken-shamrock",
+            "tito-ortiz"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Ken_Shamrock",
+            "https://en.wikipedia.org/wiki/Tito_Ortiz"
+          ]
+        },
+        {
+          "numero": "16",
+          "nom_imprime": "Alex Pereira vs Israel Adesanya",
+          "combattants": [
+            "alex-pereira",
+            "israel-adesanya"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Alex_Pereira",
+            "https://en.wikipedia.org/wiki/Israel_Adesanya"
+          ]
+        },
+        {
+          "numero": "17",
+          "nom_imprime": "Alex Pereira vs Jiří Procházka",
+          "combattants": [
+            "alex-pereira",
+            "jiri-prochazka"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Alex_Pereira",
+            "https://en.wikipedia.org/wiki/Jiří_Procházka"
+          ]
+        },
+        {
+          "numero": "18",
+          "nom_imprime": "Alex Pereira vs Magomed Ankalaev",
+          "combattants": [
+            "alex-pereira",
+            "magomed-ankalaev"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Alex_Pereira",
+            "https://en.wikipedia.org/wiki/Magomed_Ankalaev"
+          ]
+        },
+        {
+          "numero": "19",
+          "nom_imprime": "Alexa Grasso vs Maycee Barber",
+          "combattants": [
+            "alexa-grasso",
+            "maycee-barber"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Alexa_Grasso",
+            "https://en.wikipedia.org/wiki/Maycee_Barber"
+          ]
+        },
+        {
+          "numero": "20",
+          "nom_imprime": "Alexander Volkanovski vs Diego Lopes",
+          "combattants": [
+            "alexander-volkanovski",
+            "diego-lopes"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Alexander_Volkanovski",
+            "https://en.wikipedia.org/wiki/Diego_Lopes_(fighter)"
+          ]
+        },
+        {
+          "numero": "21",
+          "nom_imprime": "Alexander Volkanovski vs Islam Makhachev",
+          "combattants": [
+            "alexander-volkanovski",
+            "islam-makhachev"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Alexander_Volkanovski",
+            "https://en.wikipedia.org/wiki/Islam_Makhachev"
+          ]
+        },
+        {
+          "numero": "22",
+          "nom_imprime": "Alexander Volkov vs Ciryl Gane",
+          "combattants": [
+            "alexander-volkov",
+            "ciryl-gane"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Alexander_Volkov_(fighter)",
+            "https://en.wikipedia.org/wiki/Ciryl_Gane"
+          ]
+        },
+        {
+          "numero": "23",
+          "nom_imprime": "Alexandr Romanov vs Rodrigo Nascimento",
+          "combattants": [
+            "alexandr-romanov",
+            "rodrigo-nascimento"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Alexander_Romanov_(fighter)"
+          ]
+        },
+        {
+          "numero": "24",
+          "nom_imprime": "Alexandre Pantoja vs Brandon Moreno",
+          "combattants": [
+            "alexandre-pantoja",
+            "brandon-moreno"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Alexandre_Pantoja",
+            "https://en.wikipedia.org/wiki/Brandon_Moreno"
+          ]
+        },
+        {
+          "numero": "25",
+          "nom_imprime": "Alexandre Pantoja vs Brandon Royval",
+          "combattants": [
+            "alexandre-pantoja",
+            "brandon-royval"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Alexandre_Pantoja",
+            "https://en.wikipedia.org/wiki/Brandon_Royval"
+          ]
+        },
+        {
+          "numero": "26",
+          "nom_imprime": "Alexandre Pantoja vs Joshua Van",
+          "combattants": [
+            "alexandre-pantoja",
+            "joshua-van"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Alexandre_Pantoja",
+            "https://en.wikipedia.org/wiki/Joshua_Van"
+          ]
+        },
+        {
+          "numero": "27",
+          "nom_imprime": "Aljamain Sterling vs Petr Yan",
+          "combattants": [
+            "aljamain-sterling",
+            "petr-yan"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Aljamain_Sterling",
+            "https://en.wikipedia.org/wiki/Petr_Yan"
+          ]
+        },
+        {
+          "numero": "28",
+          "nom_imprime": "Amanda Nunes vs Julianna Peña",
+          "combattants": [
+            "amanda-nunes",
+            "julianna-pena"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Amanda_Nunes",
+            "https://en.wikipedia.org/wiki/Julianna_Peña"
+          ]
+        },
+        {
+          "numero": "29",
+          "nom_imprime": "Amanda Nunes vs Valentina Shevchenko",
+          "combattants": [
+            "amanda-nunes",
+            "valentina-shevchenko"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Amanda_Nunes",
+            "https://en.wikipedia.org/wiki/Valentina_Shevchenko"
+          ]
+        },
+        {
+          "numero": "30",
+          "nom_imprime": "Anderson Silva vs Chael Sonnen",
+          "combattants": [
+            "anderson-silva",
+            "chael-sonnen"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Anderson_Silva",
+            "https://en.wikipedia.org/wiki/Chael_Sonnen"
+          ]
+        },
+        {
+          "numero": "31",
+          "nom_imprime": "Anderson Silva vs Chris Weidman",
+          "combattants": [
+            "anderson-silva",
+            "chris-weidman"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Anderson_Silva",
+            "https://en.wikipedia.org/wiki/Chris_Weidman"
+          ]
+        },
+        {
+          "numero": "32",
+          "nom_imprime": "Anderson Silva vs Rich Franklin",
+          "combattants": [
+            "anderson-silva",
+            "rich-franklin"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Anderson_Silva",
+            "https://en.wikipedia.org/wiki/Rich_Franklin"
+          ]
+        },
+        {
+          "numero": "33",
+          "nom_imprime": "Antônio Rodrigo Nogueira vs Frank Mir",
+          "combattants": [
+            "antonio-rodrigo-nogueira",
+            "frank-mir"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Antônio_Rodrigo_Nogueira",
+            "https://en.wikipedia.org/wiki/Frank_Mir"
+          ]
+        },
+        {
+          "numero": "34",
+          "nom_imprime": "Bas Rutten vs Frank Shamrock",
+          "combattants": [
+            "bas-rutten",
+            "frank-shamrock"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Bas_Rutten",
+            "https://en.wikipedia.org/wiki/Frank_Shamrock"
+          ]
+        },
+        {
+          "numero": "35",
+          "nom_imprime": "Belal Muhammad vs Leon Edwards",
+          "combattants": [
+            "belal-muhammad",
+            "leon-edwards"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Belal_Muhammad",
+            "https://en.wikipedia.org/wiki/Leon_Edwards"
+          ]
+        },
+        {
+          "numero": "36",
+          "nom_imprime": "Belal Muhammad vs Vicente Luque",
+          "combattants": [
+            "belal-muhammad",
+            "vicente-luque"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Belal_Muhammad",
+            "https://en.wikipedia.org/wiki/Vicente_Luque"
+          ]
+        },
+        {
+          "numero": "37",
+          "nom_imprime": "Brandon Moreno vs Brandon Royval",
+          "combattants": [
+            "brandon-moreno",
+            "brandon-royval"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Brandon_Moreno",
+            "https://en.wikipedia.org/wiki/Brandon_Royval"
+          ]
+        },
+        {
+          "numero": "38",
+          "nom_imprime": "Brandon Moreno vs Kai Kara-France",
+          "combattants": [
+            "brandon-moreno",
+            "kai-kara-france"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Brandon_Moreno",
+            "https://en.wikipedia.org/wiki/Kai_Kara-France"
+          ]
+        },
+        {
+          "numero": "39",
+          "nom_imprime": "Brian Ortega vs Yair Rodríguez",
+          "combattants": [
+            "brian-ortega",
+            "yair-rodriguez"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Brian_Ortega",
+            "https://en.wikipedia.org/wiki/Yair_Rodríguez"
+          ]
+        },
+        {
+          "numero": "40",
+          "nom_imprime": "Brock Lesnar vs Frank Mir",
+          "combattants": [
+            "brock-lesnar",
+            "frank-mir"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Brock_Lesnar",
+            "https://en.wikipedia.org/wiki/Frank_Mir"
+          ]
+        },
+        {
+          "numero": "41",
+          "nom_imprime": "Carla Esparza vs Rose Namajunas",
+          "combattants": [
+            "carla-esparza",
+            "rose-namajunas"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Carla_Esparza",
+            "https://en.wikipedia.org/wiki/Rose_Namajunas"
+          ]
+        },
+        {
+          "numero": "42",
+          "nom_imprime": "Charles Oliveira vs Max Holloway",
+          "combattants": [
+            "charles-oliveira",
+            "max-holloway"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Charles_Oliveira",
+            "https://en.wikipedia.org/wiki/Max_Holloway"
+          ]
+        },
+        {
+          "numero": "43",
+          "nom_imprime": "Charles Oliveira vs Michael Chandler",
+          "combattants": [
+            "charles-oliveira",
+            "michael-chandler"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Charles_Oliveira",
+            "https://en.wikipedia.org/wiki/Michael_Chandler"
+          ]
+        },
+        {
+          "numero": "44",
+          "nom_imprime": "Colby Covington vs Kamaru Usman",
+          "combattants": [
+            "colby-covington",
+            "kamaru-usman"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Colby_Covington",
+            "https://en.wikipedia.org/wiki/Kamaru_Usman"
+          ]
+        },
+        {
+          "numero": "45",
+          "nom_imprime": "Conor McGregor vs Max Holloway",
+          "combattants": [
+            "conor-mcgregor",
+            "max-holloway"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Conor_McGregor",
+            "https://en.wikipedia.org/wiki/Max_Holloway"
+          ]
+        },
+        {
+          "numero": "46",
+          "nom_imprime": "Curtis Blaydes vs Tom Aspinall",
+          "combattants": [
+            "curtis-blaydes",
+            "tom-aspinall"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Curtis_Blaydes",
+            "https://en.wikipedia.org/wiki/Tom_Aspinall"
+          ]
+        },
+        {
+          "numero": "47",
+          "nom_imprime": "Dan Henderson vs Maurício Rua",
+          "combattants": [
+            "dan-henderson",
+            "mauricio-rua"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Dan_Henderson",
+            "https://en.wikipedia.org/wiki/Maurício_Rua"
+          ]
+        },
+        {
+          "numero": "48",
+          "nom_imprime": "Dan Henderson vs Michael Bisping",
+          "combattants": [
+            "dan-henderson",
+            "michael-bisping"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Dan_Henderson",
+            "https://en.wikipedia.org/wiki/Michael_Bisping"
+          ]
+        },
+        {
+          "numero": "49",
+          "nom_imprime": "Daniel Cormier vs Jon Jones",
+          "combattants": [
+            "daniel-cormier",
+            "jon-jones"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Daniel_Cormier",
+            "https://en.wikipedia.org/wiki/Jon_Jones"
+          ]
+        },
+        {
+          "numero": "50",
+          "nom_imprime": "Don Frye vs Mark Coleman",
+          "combattants": [
+            "don-frye",
+            "mark-coleman"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Don_Frye",
+            "https://en.wikipedia.org/wiki/Mark_Coleman"
+          ]
+        },
+        {
+          "numero": "51",
+          "nom_imprime": "Donald Cerrone vs Rafael dos Anjos",
+          "combattants": [
+            "donald-cerrone",
+            "rafael-dos-anjos"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Donald_Cerrone",
+            "https://en.wikipedia.org/wiki/Rafael_dos_Anjos"
+          ]
+        },
+        {
+          "numero": "52",
+          "nom_imprime": "Dricus du Plessis vs Sean Strickland",
+          "combattants": [
+            "dricus-du-plessis",
+            "sean-strickland"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Dricus_du_Plessis",
+            "https://en.wikipedia.org/wiki/Sean_Strickland"
+          ]
+        },
+        {
+          "numero": "53",
+          "nom_imprime": "Dustin Poirier vs Justin Gaethje",
+          "combattants": [
+            "dustin-poirier",
+            "justin-gaethje"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Dustin_Poirier",
+            "https://en.wikipedia.org/wiki/Justin_Gaethje"
+          ]
+        },
+        {
+          "numero": "54",
+          "nom_imprime": "Forrest Griffin vs Maurício Rua",
+          "combattants": [
+            "forrest-griffin",
+            "mauricio-rua"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Forrest_Griffin",
+            "https://en.wikipedia.org/wiki/Maurício_Rua"
+          ]
+        },
+        {
+          "numero": "55",
+          "nom_imprime": "Georges St-Pierre vs Matt Serra",
+          "combattants": [
+            "georges-st-pierre",
+            "matt-serra"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Georges_St-Pierre",
+            "https://en.wikipedia.org/wiki/Matt_Serra"
+          ]
+        },
+        {
+          "numero": "56",
+          "nom_imprime": "Holly Holm vs Raquel Pennington",
+          "combattants": [
+            "holly-holm",
+            "raquel-pennington"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Holly_Holm",
+            "https://en.wikipedia.org/wiki/Raquel_Pennington"
+          ]
+        },
+        {
+          "numero": "57",
+          "nom_imprime": "Israel Adesanya vs Marvin Vettori",
+          "combattants": [
+            "israel-adesanya",
+            "marvin-vettori"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Israel_Adesanya",
+            "https://en.wikipedia.org/wiki/Marvin_Vettori"
+          ]
+        },
+        {
+          "numero": "58",
+          "nom_imprime": "Israel Adesanya vs Robert Whittaker",
+          "combattants": [
+            "israel-adesanya",
+            "robert-whittaker"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Israel_Adesanya",
+            "https://en.wikipedia.org/wiki/Robert_Whittaker_(fighter)"
+          ]
+        },
+        {
+          "numero": "59",
+          "nom_imprime": "Jens Pulver vs Urijah Faber",
+          "combattants": [
+            "jens-pulver",
+            "urijah-faber"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Jens_Pulver",
+            "https://en.wikipedia.org/wiki/Urijah_Faber"
+          ]
+        },
+        {
+          "numero": "60",
+          "nom_imprime": "Jessica Andrade vs Raquel Pennington",
+          "combattants": [
+            "jessica-andrade",
+            "raquel-pennington"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Jéssica_Andrade",
+            "https://en.wikipedia.org/wiki/Raquel_Pennington"
+          ]
+        },
+        {
+          "numero": "61",
+          "nom_imprime": "Jessica Andrade vs Rose Namajunas",
+          "combattants": [
+            "jessica-andrade",
+            "rose-namajunas"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Jéssica_Andrade",
+            "https://en.wikipedia.org/wiki/Rose_Namajunas"
+          ]
+        },
+        {
+          "numero": "62",
+          "nom_imprime": "Joanna Jędrzejczyk vs Rose Namajunas",
+          "combattants": [
+            "joanna-jedrzejczyk",
+            "rose-namajunas"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Joanna_Jędrzejczyk",
+            "https://en.wikipedia.org/wiki/Rose_Namajunas"
+          ]
+        },
+        {
+          "numero": "63",
+          "nom_imprime": "Joanna Jędrzejczyk vs Zhang Weili",
+          "combattants": [
+            "joanna-jedrzejczyk",
+            "zhang-weili"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Joanna_Jędrzejczyk",
+            "https://en.wikipedia.org/wiki/Zhang_Weili"
+          ]
+        },
+        {
+          "numero": "64",
+          "nom_imprime": "Johnny Walker vs Magomed Ankalaev",
+          "combattants": [
+            "johnny-walker",
+            "magomed-ankalaev"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Johnny_Walker_(fighter)",
+            "https://en.wikipedia.org/wiki/Magomed_Ankalaev"
+          ]
+        },
+        {
+          "numero": "65",
+          "nom_imprime": "Junior dos Santos vs Stipe Miocic",
+          "combattants": [
+            "junior-dos-santos",
+            "stipe-miocic"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Junior_dos_Santos",
+            "https://en.wikipedia.org/wiki/Stipe_Miocic"
+          ]
+        },
+        {
+          "numero": "66",
+          "nom_imprime": "Justin Gaethje vs Rafael Fiziev",
+          "combattants": [
+            "justin-gaethje",
+            "rafael-fiziev"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Justin_Gaethje",
+            "https://en.wikipedia.org/wiki/Rafael_Fiziev"
+          ]
+        },
+        {
+          "numero": "67",
+          "nom_imprime": "Lyoto Machida vs Maurício Rua",
+          "combattants": [
+            "lyoto-machida",
+            "mauricio-rua"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Lyoto_Machida",
+            "https://en.wikipedia.org/wiki/Maurício_Rua"
+          ]
+        },
+        {
+          "numero": "68",
+          "nom_imprime": "Mackenzie Dern vs Virna Jandiroba",
+          "combattants": [
+            "mackenzie-dern",
+            "virna-jandiroba"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Mackenzie_Dern",
+            "https://en.wikipedia.org/wiki/Virna_Jandiroba"
+          ]
+        },
+        {
+          "numero": "69",
+          "nom_imprime": "Marcin Tybura vs Serghei Spivac",
+          "combattants": [
+            "marcin-tybura",
+            "serghei-spivac"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Marcin_Tybura",
+            "https://en.wikipedia.org/wiki/Serghei_Spivac"
+          ]
+        },
+        {
+          "numero": "70",
+          "nom_imprime": "Mark Coleman vs Maurício Rua",
+          "combattants": [
+            "mark-coleman",
+            "mauricio-rua"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Mark_Coleman",
+            "https://en.wikipedia.org/wiki/Maurício_Rua"
+          ]
+        },
+        {
+          "numero": "71",
+          "nom_imprime": "Marlon Vera vs Sean O'Malley",
+          "combattants": [
+            "marlon-vera",
+            "sean-o-malley"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Marlon_Vera",
+            "https://en.wikipedia.org/wiki/Sean_O'Malley_(fighter)"
+          ]
+        },
+        {
+          "numero": "72",
+          "nom_imprime": "Marvin Vettori vs Roman Dolidze",
+          "combattants": [
+            "marvin-vettori",
+            "roman-dolidze"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Marvin_Vettori",
+            "https://en.wikipedia.org/wiki/Roman_Dolidze"
+          ]
+        },
+        {
+          "numero": "73",
+          "nom_imprime": "Maurício Rua vs Paul Craig",
+          "combattants": [
+            "mauricio-rua",
+            "paul-craig"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Maurício_Rua",
+            "https://en.wikipedia.org/wiki/Paul_Craig"
+          ]
+        },
+        {
+          "numero": "74",
+          "nom_imprime": "Merab Dvalishvili vs Petr Yan",
+          "combattants": [
+            "merab-dvalishvili",
+            "petr-yan"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Merab_Dvalishvili",
+            "https://en.wikipedia.org/wiki/Petr_Yan"
+          ]
+        },
+        {
+          "numero": "75",
+          "nom_imprime": "Merab Dvalishvili vs Sean O'Malley",
+          "combattants": [
+            "merab-dvalishvili",
+            "sean-o-malley"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Merab_Dvalishvili",
+            "https://en.wikipedia.org/wiki/Sean_O'Malley_(fighter)"
+          ]
+        },
+        {
+          "numero": "76",
+          "nom_imprime": "Rashad Evans vs Tito Ortiz",
+          "combattants": [
+            "rashad-evans",
+            "tito-ortiz"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Rashad_Evans",
+            "https://en.wikipedia.org/wiki/Tito_Ortiz"
+          ]
+        },
+        {
+          "numero": "77",
+          "nom_imprime": "Rose Namajunas vs Zhang Weili",
+          "combattants": [
+            "rose-namajunas",
+            "zhang-weili"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Rose_Namajunas",
+            "https://en.wikipedia.org/wiki/Zhang_Weili"
+          ]
+        },
+        {
+          "numero": "78",
+          "nom_imprime": "Stephen Thompson vs Tyron Woodley",
+          "combattants": [
+            "stephen-thompson",
+            "tyron-woodley"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Stephen_Thompson_(fighter)",
+            "https://en.wikipedia.org/wiki/Tyron_Woodley"
+          ]
+        }
+      ]
+    }
+  ]
+}

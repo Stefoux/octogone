@@ -158,6 +158,42 @@ def tactic_rows(e: dict, edition: dict):
     return edition, series, cards, variants
 
 
+def ladder_rows(e: dict, edition: dict, known_fighters: set[str]):
+    """Édition originale à échelle de raretés propre (packs Premium+) : une
+    variante par entrée de « raretes », sans règle d'éligibilité (toutes les
+    cartes de l'édition y ont droit)."""
+    series, cards, variants = [], [], []
+    for si, s in enumerate(e["series"]):
+        sid = f"{e['id']}:{s['code']}"
+        series.append({
+            "id": sid, "edition_id": e["id"], "code": s["code"], "nom": s["nom"], "type": s["type"],
+            "insert_type": s.get("insert_type"), "nb_cartes": len(s["cartes"]), "cote": None, "exclusivite": None,
+            "tirage": None, "notes": s.get("notes") or [], "source": s.get("source"), "ordre": si,
+        })
+        for ri, r in enumerate(e["raretes"]):
+            variants.append({
+                "id": f"{sid}:base" if r["rarete"] == "commune" else f"{sid}:{r['effet']}",
+                "edition_id": e["id"], "series_id": sid, "nom": r["nom"], "rarete": r["rarete"],
+                "effet": r["effet"], "couleur": None, "tirage": r.get("tirage"), "cote": None, "exclusivite": None,
+                "reel": False, "eligibilite": None, "bonus_stats": r.get("bonus_stats", stat_bonus(r["rarete"])),
+                "coup_signature": r["rarete"] in ("epique", "legendaire", "mythique"), "ordre": ri,
+            })
+        for ci, c in enumerate(s["cartes"]):
+            ids = c["combattants"]
+            missing = [i for i in ids if i not in known_fighters]
+            cards.append({
+                "id": f"{e['id']}:{c['numero']}", "edition_id": e["id"], "series_id": sid,
+                "numero": c["numero"], "ordre": si * 10000 + ci, "fighter_ids": ids,
+                "nom_imprime": c["nom_imprime"], "sous_titre": c.get("sous_titre"), "mentions": c.get("mentions") or [],
+                "event_id": c.get("event_id"), "texte_verso": c.get("texte_verso"),
+                "sources": c.get("sources") or ([s["source"]] if s.get("source") else []),
+                "a_verifier": [f"combattant absent : {m}" for m in missing],
+            })
+    for row in [edition, *series, *cards, *variants]:
+        row["deleted"] = False
+    return edition, series, cards, variants
+
+
 def edition_rows(e: dict, known_fighters: set[str], aliases: dict, ordre: int):
     real = e["type"] == "reelle"
     edition = {
@@ -168,6 +204,8 @@ def edition_rows(e: dict, known_fighters: set[str], aliases: dict, ordre: int):
     }
     if e["type"] == "tactique":
         return tactic_rows(e, edition)
+    if e.get("raretes"):
+        return ladder_rows(e, edition, known_fighters)
     series, cards, variants = [], [], []
     for si, s in enumerate(e["series"]):
         sid = f"{e['id']}:{s['code']}"

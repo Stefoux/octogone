@@ -389,7 +389,8 @@ class BoosterType {
   final Json visuel;
   final Json composition;
 
-  bool get isPremium => type == 'premium';
+  /// Premium ou Premium+ (pas de booster gratuit, visuel premium).
+  bool get isPremium => type == 'premium' || type == 'premium_plus';
 
   bool availableAt(DateTime now) =>
       actif && (debut == null || !debut!.isAfter(now)) && (fin == null || fin!.isAfter(now));

@@ -1,0 +1,1011 @@
+{
+  "id": "champions",
+  "nom": "Champions",
+  "annee": 2026,
+  "type": "originale",
+  "famille_cadre": "original",
+  "date_sortie": null,
+  "description": "Les champions UFC de la base : 11 champions actuels (classement officiel ufc.com), puis 75 anciens champions (titres relevés dans le palmarès Wikipedia de chacun).",
+  "sources": [
+    "https://www.ufc.com/rankings"
+  ],
+  "a_verifier": [],
+  "raretes": [
+    {
+      "rarete": "commune",
+      "nom": "Base",
+      "effet": "base"
+    },
+    {
+      "rarete": "peu_commune",
+      "nom": "Acier d'Octogone",
+      "effet": "acier"
+    },
+    {
+      "rarete": "rare",
+      "nom": "Néon Main Event",
+      "effet": "neon"
+    },
+    {
+      "rarete": "epique",
+      "nom": "Onde de Choc",
+      "effet": "onde_de_choc"
+    },
+    {
+      "rarete": "legendaire",
+      "nom": "Ceinture d'Or",
+      "effet": "ceinture_or"
+    },
+    {
+      "rarete": "mythique",
+      "nom": "Octogone Noir",
+      "effet": "octogone_noir",
+      "tirage": 5
+    }
+  ],
+  "series": [
+    {
+      "code": "BASE",
+      "nom": "Champions",
+      "type": "base",
+      "nb_cartes": 86,
+      "cartes": [
+        {
+          "numero": "1",
+          "nom_imprime": "Ciryl Gane",
+          "combattants": [
+            "ciryl-gane"
+          ],
+          "sources": [
+            "https://www.ufc.com/rankings",
+            "https://en.wikipedia.org/wiki/Ciryl_Gane",
+            "https://www.ufc.com/athlete/ciryl-gane"
+          ]
+        },
+        {
+          "numero": "2",
+          "nom_imprime": "Carlos Ulberg",
+          "combattants": [
+            "carlos-ulberg"
+          ],
+          "sources": [
+            "https://www.ufc.com/rankings",
+            "https://en.wikipedia.org/wiki/Carlos_Ulberg",
+            "https://www.ufc.com/athlete/carlos-ulberg"
+          ]
+        },
+        {
+          "numero": "3",
+          "nom_imprime": "Sean Strickland",
+          "combattants": [
+            "sean-strickland"
+          ],
+          "sources": [
+            "https://www.ufc.com/rankings",
+            "https://en.wikipedia.org/wiki/Sean_Strickland",
+            "https://www.ufc.com/athlete/sean-strickland"
+          ]
+        },
+        {
+          "numero": "4",
+          "nom_imprime": "Islam Makhachev",
+          "combattants": [
+            "islam-makhachev"
+          ],
+          "sources": [
+            "https://www.ufc.com/rankings",
+            "https://en.wikipedia.org/wiki/Islam_Makhachev",
+            "https://www.ufc.com/athlete/islam-makhachev"
+          ]
+        },
+        {
+          "numero": "5",
+          "nom_imprime": "Justin Gaethje",
+          "combattants": [
+            "justin-gaethje"
+          ],
+          "sources": [
+            "https://www.ufc.com/rankings",
+            "https://en.wikipedia.org/wiki/Justin_Gaethje",
+            "https://www.ufc.com/athlete/justin-gaethje"
+          ]
+        },
+        {
+          "numero": "6",
+          "nom_imprime": "Alexander Volkanovski",
+          "combattants": [
+            "alexander-volkanovski"
+          ],
+          "sources": [
+            "https://www.ufc.com/rankings",
+            "https://en.wikipedia.org/wiki/Alexander_Volkanovski",
+            "https://www.ufc.com/athlete/alexander-volkanovski"
+          ]
+        },
+        {
+          "numero": "7",
+          "nom_imprime": "Petr Yan",
+          "combattants": [
+            "petr-yan"
+          ],
+          "sources": [
+            "https://www.ufc.com/rankings",
+            "https://en.wikipedia.org/wiki/Petr_Yan",
+            "https://www.ufc.com/athlete/petr-yan"
+          ]
+        },
+        {
+          "numero": "8",
+          "nom_imprime": "Joshua Van",
+          "combattants": [
+            "joshua-van"
+          ],
+          "sources": [
+            "https://www.ufc.com/rankings",
+            "https://en.wikipedia.org/wiki/Joshua_Van",
+            "https://www.ufc.com/athlete/joshua-van"
+          ]
+        },
+        {
+          "numero": "9",
+          "nom_imprime": "Kayla Harrison",
+          "combattants": [
+            "kayla-harrison"
+          ],
+          "sources": [
+            "https://www.ufc.com/rankings",
+            "https://en.wikipedia.org/wiki/Kayla_Harrison",
+            "https://www.ufc.com/athlete/kayla-harrison"
+          ]
+        },
+        {
+          "numero": "10",
+          "nom_imprime": "Valentina Shevchenko",
+          "combattants": [
+            "valentina-shevchenko"
+          ],
+          "sources": [
+            "https://www.ufc.com/rankings",
+            "https://en.wikipedia.org/wiki/Valentina_Shevchenko",
+            "https://www.ufc.com/athlete/valentina-shevchenko"
+          ]
+        },
+        {
+          "numero": "11",
+          "nom_imprime": "Mackenzie Dern",
+          "combattants": [
+            "mackenzie-dern"
+          ],
+          "sources": [
+            "https://www.ufc.com/rankings",
+            "https://en.wikipedia.org/wiki/Mackenzie_Dern",
+            "https://www.ufc.com/athlete/mackenzie-dern"
+          ]
+        },
+        {
+          "numero": "12",
+          "nom_imprime": "Alex Pereira",
+          "combattants": [
+            "alex-pereira"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Alex_Pereira",
+            "https://www.ufc.com/athlete/alex-pereira"
+          ]
+        },
+        {
+          "numero": "13",
+          "nom_imprime": "Alexa Grasso",
+          "combattants": [
+            "alexa-grasso"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Alexa_Grasso",
+            "https://www.ufc.com/athlete/alexa-grasso"
+          ]
+        },
+        {
+          "numero": "14",
+          "nom_imprime": "Alexandre Pantoja",
+          "combattants": [
+            "alexandre-pantoja"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Alexandre_Pantoja",
+            "https://www.ufc.com/athlete/alexandre-pantoja"
+          ]
+        },
+        {
+          "numero": "15",
+          "nom_imprime": "Aljamain Sterling",
+          "combattants": [
+            "aljamain-sterling"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Aljamain_Sterling",
+            "https://www.ufc.com/athlete/aljamain-sterling"
+          ]
+        },
+        {
+          "numero": "16",
+          "nom_imprime": "Amanda Nunes",
+          "combattants": [
+            "amanda-nunes"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Amanda_Nunes",
+            "https://www.ufc.com/athlete/amanda-nunes"
+          ]
+        },
+        {
+          "numero": "17",
+          "nom_imprime": "Anderson Silva",
+          "combattants": [
+            "anderson-silva"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Anderson_Silva",
+            "https://www.ufc.com/athlete/anderson-silva"
+          ]
+        },
+        {
+          "numero": "18",
+          "nom_imprime": "Andrei Arlovski",
+          "combattants": [
+            "andrei-arlovski"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Andrei_Arlovski",
+            "https://www.ufc.com/athlete/andrei-arlovski"
+          ]
+        },
+        {
+          "numero": "19",
+          "nom_imprime": "Antônio Rodrigo Nogueira",
+          "combattants": [
+            "antonio-rodrigo-nogueira"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Antônio_Rodrigo_Nogueira"
+          ]
+        },
+        {
+          "numero": "20",
+          "nom_imprime": "Bas Rutten",
+          "combattants": [
+            "bas-rutten"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Bas_Rutten",
+            "https://www.ufc.com/athlete/bas-rutten"
+          ]
+        },
+        {
+          "numero": "21",
+          "nom_imprime": "Belal Muhammad",
+          "combattants": [
+            "belal-muhammad"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Belal_Muhammad",
+            "https://www.ufc.com/athlete/belal-muhammad"
+          ]
+        },
+        {
+          "numero": "22",
+          "nom_imprime": "Brandon Moreno",
+          "combattants": [
+            "brandon-moreno"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Brandon_Moreno",
+            "https://www.ufc.com/athlete/brandon-moreno"
+          ]
+        },
+        {
+          "numero": "23",
+          "nom_imprime": "Brock Lesnar",
+          "combattants": [
+            "brock-lesnar"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Brock_Lesnar",
+            "https://www.ufc.com/athlete/brock-lesnar"
+          ]
+        },
+        {
+          "numero": "24",
+          "nom_imprime": "Carla Esparza",
+          "combattants": [
+            "carla-esparza"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Carla_Esparza",
+            "https://www.ufc.com/athlete/carla-esparza"
+          ]
+        },
+        {
+          "numero": "25",
+          "nom_imprime": "Charles Oliveira",
+          "combattants": [
+            "charles-oliveira"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Charles_Oliveira",
+            "https://www.ufc.com/athlete/charles-oliveira"
+          ]
+        },
+        {
+          "numero": "26",
+          "nom_imprime": "Chris Weidman",
+          "combattants": [
+            "chris-weidman"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Chris_Weidman",
+            "https://www.ufc.com/athlete/chris-weidman"
+          ]
+        },
+        {
+          "numero": "27",
+          "nom_imprime": "Chuck Liddell",
+          "combattants": [
+            "chuck-liddell"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Chuck_Liddell",
+            "https://www.ufc.com/athlete/chuck-liddell"
+          ]
+        },
+        {
+          "numero": "28",
+          "nom_imprime": "Cody Garbrandt",
+          "combattants": [
+            "cody-garbrandt"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Cody_Garbrandt",
+            "https://www.ufc.com/athlete/cody-garbrandt"
+          ]
+        },
+        {
+          "numero": "29",
+          "nom_imprime": "Colby Covington",
+          "combattants": [
+            "colby-covington"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Colby_Covington",
+            "https://www.ufc.com/athlete/colby-covington"
+          ]
+        },
+        {
+          "numero": "30",
+          "nom_imprime": "Conor McGregor",
+          "combattants": [
+            "conor-mcgregor"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Conor_McGregor",
+            "https://www.ufc.com/athlete/conor-mcgregor"
+          ]
+        },
+        {
+          "numero": "31",
+          "nom_imprime": "Daniel Cormier",
+          "combattants": [
+            "daniel-cormier"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Daniel_Cormier",
+            "https://www.ufc.com/athlete/daniel-cormier"
+          ]
+        },
+        {
+          "numero": "32",
+          "nom_imprime": "Deiveson Figueiredo",
+          "combattants": [
+            "deiveson-figueiredo"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Deiveson_Figueiredo",
+            "https://www.ufc.com/athlete/deiveson-figueiredo"
+          ]
+        },
+        {
+          "numero": "33",
+          "nom_imprime": "Dominick Cruz",
+          "combattants": [
+            "dominick-cruz"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Dominick_Cruz",
+            "https://www.ufc.com/athlete/dominick-cruz"
+          ]
+        },
+        {
+          "numero": "34",
+          "nom_imprime": "Dricus du Plessis",
+          "combattants": [
+            "dricus-du-plessis"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Dricus_du_Plessis",
+            "https://www.ufc.com/athlete/dricus-du-plessis"
+          ]
+        },
+        {
+          "numero": "35",
+          "nom_imprime": "Dustin Poirier",
+          "combattants": [
+            "dustin-poirier"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Dustin_Poirier",
+            "https://www.ufc.com/athlete/dustin-poirier"
+          ]
+        },
+        {
+          "numero": "36",
+          "nom_imprime": "Forrest Griffin",
+          "combattants": [
+            "forrest-griffin"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Forrest_Griffin",
+            "https://www.ufc.com/athlete/forrest-griffin"
+          ]
+        },
+        {
+          "numero": "37",
+          "nom_imprime": "Francis Ngannou",
+          "combattants": [
+            "francis-ngannou"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Francis_Ngannou",
+            "https://www.ufc.com/athlete/francis-ngannou"
+          ]
+        },
+        {
+          "numero": "38",
+          "nom_imprime": "Frank Mir",
+          "combattants": [
+            "frank-mir"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Frank_Mir",
+            "https://www.ufc.com/athlete/frank-mir"
+          ]
+        },
+        {
+          "numero": "39",
+          "nom_imprime": "Frank Shamrock",
+          "combattants": [
+            "frank-shamrock"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Frank_Shamrock",
+            "https://www.ufc.com/athlete/frank-shamrock"
+          ]
+        },
+        {
+          "numero": "40",
+          "nom_imprime": "Frankie Edgar",
+          "combattants": [
+            "frankie-edgar"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Frankie_Edgar",
+            "https://www.ufc.com/athlete/frankie-edgar"
+          ]
+        },
+        {
+          "numero": "41",
+          "nom_imprime": "Georges St-Pierre",
+          "combattants": [
+            "georges-st-pierre"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Georges_St-Pierre",
+            "https://www.ufc.com/athlete/georges-st-pierre"
+          ]
+        },
+        {
+          "numero": "42",
+          "nom_imprime": "Glover Teixeira",
+          "combattants": [
+            "glover-teixeira"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Glover_Teixeira",
+            "https://www.ufc.com/athlete/glover-teixeira"
+          ]
+        },
+        {
+          "numero": "43",
+          "nom_imprime": "Henry Cejudo",
+          "combattants": [
+            "henry-cejudo"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Henry_Cejudo",
+            "https://www.ufc.com/athlete/henry-cejudo"
+          ]
+        },
+        {
+          "numero": "44",
+          "nom_imprime": "Holly Holm",
+          "combattants": [
+            "holly-holm"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Holly_Holm",
+            "https://www.ufc.com/athlete/holly-holm"
+          ]
+        },
+        {
+          "numero": "45",
+          "nom_imprime": "Ilia Topuria",
+          "combattants": [
+            "ilia-topuria"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Ilia_Topuria",
+            "https://www.ufc.com/athlete/ilia-topuria"
+          ]
+        },
+        {
+          "numero": "46",
+          "nom_imprime": "Israel Adesanya",
+          "combattants": [
+            "israel-adesanya"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Israel_Adesanya",
+            "https://www.ufc.com/athlete/israel-adesanya"
+          ]
+        },
+        {
+          "numero": "47",
+          "nom_imprime": "Jack Della Maddalena",
+          "combattants": [
+            "jack-della-maddalena"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Jack_Della_Maddalena",
+            "https://www.ufc.com/athlete/jack-della-maddalena"
+          ]
+        },
+        {
+          "numero": "48",
+          "nom_imprime": "Jamahal Hill",
+          "combattants": [
+            "jamahal-hill"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Jamahal_Hill",
+            "https://www.ufc.com/athlete/jamahal-hill"
+          ]
+        },
+        {
+          "numero": "49",
+          "nom_imprime": "Jan Błachowicz",
+          "combattants": [
+            "jan-blachowicz"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Jan_Błachowicz",
+            "https://www.ufc.com/athlete/jan-blachowicz"
+          ]
+        },
+        {
+          "numero": "50",
+          "nom_imprime": "Jens Pulver",
+          "combattants": [
+            "jens-pulver"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Jens_Pulver",
+            "https://www.ufc.com/athlete/jens-pulver"
+          ]
+        },
+        {
+          "numero": "51",
+          "nom_imprime": "Jessica Andrade",
+          "combattants": [
+            "jessica-andrade"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Jéssica_Andrade",
+            "https://www.ufc.com/athlete/jessica-andrade"
+          ]
+        },
+        {
+          "numero": "52",
+          "nom_imprime": "Jiří Procházka",
+          "combattants": [
+            "jiri-prochazka"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Jiří_Procházka",
+            "https://www.ufc.com/athlete/jiri-prochazka"
+          ]
+        },
+        {
+          "numero": "53",
+          "nom_imprime": "Joanna Jędrzejczyk",
+          "combattants": [
+            "joanna-jedrzejczyk"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Joanna_Jędrzejczyk",
+            "https://www.ufc.com/athlete/joanna-jedrzejczyk"
+          ]
+        },
+        {
+          "numero": "54",
+          "nom_imprime": "Jon Jones",
+          "combattants": [
+            "jon-jones"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Jon_Jones",
+            "https://www.ufc.com/athlete/jon-jones"
+          ]
+        },
+        {
+          "numero": "55",
+          "nom_imprime": "Julianna Peña",
+          "combattants": [
+            "julianna-pena"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Julianna_Peña",
+            "https://www.ufc.com/athlete/julianna-pena"
+          ]
+        },
+        {
+          "numero": "56",
+          "nom_imprime": "Junior dos Santos",
+          "combattants": [
+            "junior-dos-santos"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Junior_dos_Santos"
+          ]
+        },
+        {
+          "numero": "57",
+          "nom_imprime": "Kamaru Usman",
+          "combattants": [
+            "kamaru-usman"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Kamaru_Usman",
+            "https://www.ufc.com/athlete/kamaru-usman"
+          ]
+        },
+        {
+          "numero": "58",
+          "nom_imprime": "Khabib Nurmagomedov",
+          "combattants": [
+            "khabib-nurmagomedov"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Khabib_Nurmagomedov",
+            "https://www.ufc.com/athlete/khabib-nurmagomedov"
+          ]
+        },
+        {
+          "numero": "59",
+          "nom_imprime": "Khamzat Chimaev",
+          "combattants": [
+            "khamzat-chimaev"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Khamzat_Chimaev",
+            "https://www.ufc.com/athlete/khamzat-chimaev"
+          ]
+        },
+        {
+          "numero": "60",
+          "nom_imprime": "Leon Edwards",
+          "combattants": [
+            "leon-edwards"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Leon_Edwards",
+            "https://www.ufc.com/athlete/leon-edwards"
+          ]
+        },
+        {
+          "numero": "61",
+          "nom_imprime": "Lyoto Machida",
+          "combattants": [
+            "lyoto-machida"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Lyoto_Machida",
+            "https://www.ufc.com/athlete/lyoto-machida"
+          ]
+        },
+        {
+          "numero": "62",
+          "nom_imprime": "Magomed Ankalaev",
+          "combattants": [
+            "magomed-ankalaev"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Magomed_Ankalaev",
+            "https://www.ufc.com/athlete/magomed-ankalaev"
+          ]
+        },
+        {
+          "numero": "63",
+          "nom_imprime": "Mark Coleman",
+          "combattants": [
+            "mark-coleman"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Mark_Coleman",
+            "https://www.ufc.com/athlete/mark-coleman"
+          ]
+        },
+        {
+          "numero": "64",
+          "nom_imprime": "Matt Hughes",
+          "combattants": [
+            "matt-hughes"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Matt_Hughes_(fighter)",
+            "https://www.ufc.com/athlete/matt-hughes"
+          ]
+        },
+        {
+          "numero": "65",
+          "nom_imprime": "Matt Serra",
+          "combattants": [
+            "matt-serra"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Matt_Serra",
+            "https://www.ufc.com/athlete/matt-serra"
+          ]
+        },
+        {
+          "numero": "66",
+          "nom_imprime": "Maurício Rua",
+          "combattants": [
+            "mauricio-rua"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Maurício_Rua",
+            "https://www.ufc.com/athlete/mauricio-rua"
+          ]
+        },
+        {
+          "numero": "67",
+          "nom_imprime": "Max Holloway",
+          "combattants": [
+            "max-holloway"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Max_Holloway",
+            "https://www.ufc.com/athlete/max-holloway"
+          ]
+        },
+        {
+          "numero": "68",
+          "nom_imprime": "Merab Dvalishvili",
+          "combattants": [
+            "merab-dvalishvili"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Merab_Dvalishvili",
+            "https://www.ufc.com/athlete/merab-dvalishvili"
+          ]
+        },
+        {
+          "numero": "69",
+          "nom_imprime": "Michael Bisping",
+          "combattants": [
+            "michael-bisping"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Michael_Bisping",
+            "https://www.ufc.com/athlete/michael-bisping"
+          ]
+        },
+        {
+          "numero": "70",
+          "nom_imprime": "Miesha Tate",
+          "combattants": [
+            "miesha-tate"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Miesha_Tate",
+            "https://www.ufc.com/athlete/miesha-tate"
+          ]
+        },
+        {
+          "numero": "71",
+          "nom_imprime": "Natália Silva",
+          "combattants": [
+            "natalia-silva"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Natália_Silva_(fighter)",
+            "https://www.ufc.com/athlete/natalia-silva"
+          ]
+        },
+        {
+          "numero": "72",
+          "nom_imprime": "Rafael dos Anjos",
+          "combattants": [
+            "rafael-dos-anjos"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Rafael_dos_Anjos",
+            "https://www.ufc.com/athlete/rafael-dos-anjos"
+          ]
+        },
+        {
+          "numero": "73",
+          "nom_imprime": "Raquel Pennington",
+          "combattants": [
+            "raquel-pennington"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Raquel_Pennington",
+            "https://www.ufc.com/athlete/raquel-pennington"
+          ]
+        },
+        {
+          "numero": "74",
+          "nom_imprime": "Rashad Evans",
+          "combattants": [
+            "rashad-evans"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Rashad_Evans",
+            "https://www.ufc.com/athlete/rashad-evans"
+          ]
+        },
+        {
+          "numero": "75",
+          "nom_imprime": "Rich Franklin",
+          "combattants": [
+            "rich-franklin"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Rich_Franklin",
+            "https://www.ufc.com/athlete/rich-franklin"
+          ]
+        },
+        {
+          "numero": "76",
+          "nom_imprime": "Robbie Lawler",
+          "combattants": [
+            "robbie-lawler"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Robbie_Lawler",
+            "https://www.ufc.com/athlete/robbie-lawler"
+          ]
+        },
+        {
+          "numero": "77",
+          "nom_imprime": "Robert Whittaker",
+          "combattants": [
+            "robert-whittaker"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Robert_Whittaker_(fighter)",
+            "https://www.ufc.com/athlete/robert-whittaker"
+          ]
+        },
+        {
+          "numero": "78",
+          "nom_imprime": "Rose Namajunas",
+          "combattants": [
+            "rose-namajunas"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Rose_Namajunas",
+            "https://www.ufc.com/athlete/rose-namajunas"
+          ]
+        },
+        {
+          "numero": "79",
+          "nom_imprime": "Sean O'Malley",
+          "combattants": [
+            "sean-o-malley"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Sean_O'Malley_(fighter)",
+            "https://www.ufc.com/athlete/sean-omalley"
+          ]
+        },
+        {
+          "numero": "80",
+          "nom_imprime": "Stipe Miocic",
+          "combattants": [
+            "stipe-miocic"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Stipe_Miocic",
+            "https://www.ufc.com/athlete/stipe-miocic"
+          ]
+        },
+        {
+          "numero": "81",
+          "nom_imprime": "Tito Ortiz",
+          "combattants": [
+            "tito-ortiz"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Tito_Ortiz",
+            "https://www.ufc.com/athlete/tito-ortiz"
+          ]
+        },
+        {
+          "numero": "82",
+          "nom_imprime": "Tom Aspinall",
+          "combattants": [
+            "tom-aspinall"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Tom_Aspinall",
+            "https://www.ufc.com/athlete/tom-aspinall"
+          ]
+        },
+        {
+          "numero": "83",
+          "nom_imprime": "Tony Ferguson",
+          "combattants": [
+            "tony-ferguson"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Tony_Ferguson",
+            "https://www.ufc.com/athlete/tony-ferguson"
+          ]
+        },
+        {
+          "numero": "84",
+          "nom_imprime": "Tyron Woodley",
+          "combattants": [
+            "tyron-woodley"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Tyron_Woodley",
+            "https://www.ufc.com/athlete/tyron-woodley"
+          ]
+        },
+        {
+          "numero": "85",
+          "nom_imprime": "Yair Rodríguez",
+          "combattants": [
+            "yair-rodriguez"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Yair_Rodríguez",
+            "https://www.ufc.com/athlete/yair-rodriguez"
+          ]
+        },
+        {
+          "numero": "86",
+          "nom_imprime": "Zhang Weili",
+          "combattants": [
+            "zhang-weili"
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/Zhang_Weili",
+            "https://www.ufc.com/athlete/zhang-weili"
+          ]
+        }
+      ]
+    }
+  ]
+}

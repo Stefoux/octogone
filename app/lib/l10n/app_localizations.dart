@@ -3253,6 +3253,12 @@ abstract class AppLocalizations {
   /// In fr, this message translates to:
   /// **'DTD'**
   String get statDefenseTdShort;
+
+  /// No description provided for @boosterPremiumPlus.
+  ///
+  /// In fr, this message translates to:
+  /// **'Premium+'**
+  String get boosterPremiumPlus;
 }
 
 class _AppLocalizationsDelegate

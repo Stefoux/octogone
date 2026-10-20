@@ -169,7 +169,7 @@ Future<void> showCollectionsSheet(BuildContext context, WidgetRef ref) {
                             const SizedBox(height: 4),
                             Text(
                               entry.value
-                                  .map((b) => '${b.isPremium ? l.boosterPremium : l.boosterStandard} · ${l.boosterCards(b.nbCartes)}')
+                                  .map((b) => '${boosterTypeLabel(l, b.type)} · ${l.boosterCards(b.nbCartes)}')
                                   .join('\n'),
                               style: const TextStyle(color: AppColors.textMuted, fontSize: 13),
                             ),

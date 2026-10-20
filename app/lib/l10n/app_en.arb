@@ -539,5 +539,6 @@
   "statEsquive": "Evasion",
   "statEsquiveShort": "EVA",
   "statDefenseTd": "TD defense",
-  "statDefenseTdShort": "TDD"
+  "statDefenseTdShort": "TDD",
+  "boosterPremiumPlus": "Premium+"
 }

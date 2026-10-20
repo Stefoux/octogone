@@ -390,7 +390,7 @@ class _PackCaption extends ConsumerWidget {
       spacing: 6,
       children: [
         Text(
-          '${booster.isPremium ? l.boosterPremium : l.boosterStandard} · ${l.boosterCards(booster.nbCartes)}'
+          '${boosterTypeLabel(l, booster.type)} · ${l.boosterCards(booster.nbCartes)}'
           '${free ? '' : ' · ${l.boosterPrice(booster.prixPieces)}'}',
           style: const TextStyle(color: AppColors.textMuted),
         ),

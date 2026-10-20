@@ -134,7 +134,7 @@ class _BoostersShop extends ConsumerWidget {
                     const SizedBox(width: 14),
                     Expanded(
                       child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                        Text(b.isPremium ? l.boosterPremium : l.boosterStandard,
+                        Text(boosterTypeLabel(l, b.type),
                             style: const TextStyle(fontFamily: kDisplayFont, fontSize: 20, fontWeight: FontWeight.w600)),
                         Text(l.boosterCards(b.nbCartes), style: const TextStyle(color: AppColors.textMuted)),
                         const SizedBox(height: 10),

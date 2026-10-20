@@ -1,5 +1,5 @@
 {
-  "_doc": "Types de boosters. composition.slots : chaque emplacement tire une rareté selon ses poids (relatifs), puis une variante de cette rareté dans la collection (pondérée par son tirage), puis une carte éligible. garantie : rareté minimale assurée dans le booster. Les probabilités affichées dans l'app (« 1 sur N boosters ») sont calculées à partir de ces poids. Modifiable par un admin (table booster_types). visuel.art : « v5 » (5 combattants en V, booster standard) ou « champion » (combattant phare, premium) ; photos dans app/assets/boosters (data/scripts/prepare_booster_art.py). Sans « art », visuel graphique d'origine. composition.tactique (facultatif) : carte(s) Tactique en plus ({nb, edition, poids}) ; plus utilisé : les cartes Tactique se gagnent en combat et avec les défis (economy_config.recompenses_tactique).",
+  "_doc": "Types de boosters. composition.slots : chaque emplacement tire une rareté selon ses poids (relatifs), puis une variante de cette rareté dans la collection (pondérée par son tirage), puis une carte éligible. garantie : rareté minimale assurée dans le booster. Les probabilités affichées dans l'app (« 1 sur N boosters ») sont calculées à partir de ces poids. Modifiable par un admin (table booster_types). visuel.art : « v5 » (5 combattants en V, booster standard) ou « champion » (combattant phare, premium) ; photos dans app/assets/boosters (data/scripts/prepare_booster_art.py). Sans « art », visuel graphique d'origine. composition.tactique (facultatif) : carte(s) Tactique en plus ({nb, edition, poids}) ; plus utilisé : les cartes Tactique se gagnent en combat et avec les défis (economy_config.recompenses_tactique). Packs Premium+ (type premium_plus) : 5 cartes, Épique garantie, Légendaire environ 1 pack sur 4, Mythique 1 sur 25, 500 pièces ; une édition par pack (data/scripts/build_pack_editions.py).",
   "boosters": [
     {
       "id": "saison-2026:standard",
@@ -211,6 +211,98 @@
           }
         ],
         "garantie": "rare"
+      }
+    },
+    {
+      "id": "champions:premium_plus",
+      "edition_id": "champions",
+      "nom": "Champions",
+      "type": "premium_plus",
+      "nb_cartes": 5,
+      "prix_pieces": 500,
+      "en_vedette": false,
+      "ordre": 10,
+      "visuel": {
+        "couleurs": [
+          "#1A1405",
+          "#5C4511",
+          "#F2C14E"
+        ],
+        "accent": "#F2C14E",
+        "motif": "octogone"
+      },
+      "composition": {
+        "slots": [
+          {
+            "nb": 2,
+            "poids": {
+              "peu_commune": 60,
+              "rare": 40
+            }
+          },
+          {
+            "nb": 2,
+            "poids": {
+              "rare": 65,
+              "epique": 35
+            }
+          },
+          {
+            "nb": 1,
+            "poids": {
+              "epique": 72,
+              "legendaire": 24,
+              "mythique": 4
+            }
+          }
+        ],
+        "garantie": "epique"
+      }
+    },
+    {
+      "id": "rivalites:premium_plus",
+      "edition_id": "rivalites",
+      "nom": "Rivalités",
+      "type": "premium_plus",
+      "nb_cartes": 5,
+      "prix_pieces": 500,
+      "en_vedette": false,
+      "ordre": 11,
+      "visuel": {
+        "couleurs": [
+          "#14060A",
+          "#5A1420",
+          "#FF4D6D"
+        ],
+        "accent": "#FF4D6D",
+        "motif": "octogone"
+      },
+      "composition": {
+        "slots": [
+          {
+            "nb": 2,
+            "poids": {
+              "peu_commune": 60,
+              "rare": 40
+            }
+          },
+          {
+            "nb": 2,
+            "poids": {
+              "rare": 65,
+              "epique": 35
+            }
+          },
+          {
+            "nb": 1,
+            "poids": {
+              "epique": 72,
+              "legendaire": 24,
+              "mythique": 4
+            }
+          }
+        ],
+        "garantie": "epique"
       }
     }
   ]

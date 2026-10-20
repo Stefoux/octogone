@@ -1830,4 +1830,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get statDefenseTdShort => 'TDD';
+
+  @override
+  String get boosterPremiumPlus => 'Premium+';
 }
