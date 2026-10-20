@@ -186,7 +186,10 @@ def edition_rows(e: dict, known_fighters: set[str], aliases: dict, ordre: int):
             "eligibilite": None, "bonus_stats": stat_bonus(base_r),
             "coup_signature": base_r in ("epique", "legendaire", "mythique"), "ordre": 0,
         })
+        hors_jeu = (e.get("paralleles_hors_jeu") or {}).get("motifs") or []
         for pi, par in enumerate(s.get("paralleles") or [], 1):
+            if any(m.lower() in par["nom"].lower() for m in hors_jeu):
+                continue  # parallèle réel retiré du jeu (reste dans la checklist)
             r = max_rarity(base_r, parallel_rarity(par.get("tirage")))
             effet, couleur = effect_for(par["nom"])
             variants.append({

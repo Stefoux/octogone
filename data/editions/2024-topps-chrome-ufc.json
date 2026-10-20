@@ -19,6 +19,13 @@
     "cartes_trouvees": 770,
     "ecarts": []
   },
+  "paralleles_hors_jeu": {
+    "motifs": [
+      "Refractor",
+      "X-Fractor"
+    ],
+    "note": "Parallèles retirés du jeu le 20 octobre 2026 (choix de jeu) : ils restent dans la checklist réelle ci-dessous mais ne sont plus importés. La Base de chaque série et la SuperFractor 1/1 restent."
+  },
   "series": [
     {
       "code": "BASE",

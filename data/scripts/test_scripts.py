@@ -184,5 +184,23 @@ class TacticEditionTests(unittest.TestCase):
             self.assertEqual(sum(s["nb"] for s in b["composition"]["slots"]), 5)
 
 
+class ParallelesHorsJeuTests(unittest.TestCase):
+    """2024 Topps Chrome : plus aucun Refractor ni X-Fractor importé ; Base et SuperFractor restent."""
+
+    def test_topps(self):
+        import json
+        from pathlib import Path
+
+        from import_to_supabase import edition_rows
+
+        root = Path(__file__).resolve().parents[2]
+        e = json.loads((root / "data" / "editions" / "2024-topps-chrome-ufc.json").read_text(encoding="utf-8"))
+        _, _, _, variants = edition_rows(e, set(), {}, 0)
+        noms = {v["nom"] for v in variants}
+        self.assertFalse([n for n in noms if "efractor" in n or n == "X-Fractor"])
+        self.assertIn("SuperFractor", noms)
+        self.assertTrue(any(n.startswith("Base") for n in noms))
+
+
 if __name__ == "__main__":
     unittest.main()
