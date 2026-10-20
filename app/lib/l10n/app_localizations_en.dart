@@ -1767,4 +1767,37 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get rewardTacticHint => 'It\'s been added to your collection.';
+
+  @override
+  String get fightersAllClasses => 'All weight classes';
+
+  @override
+  String get fightersSort => 'Sort';
+
+  @override
+  String get fightersSortRanking => 'Ranking';
+
+  @override
+  String get fightersSortOverall => 'Rating';
+
+  @override
+  String get fightersSortName => 'Name';
+
+  @override
+  String get fightersSortCountry => 'Country';
+
+  @override
+  String get fightersStyle => 'Style';
+
+  @override
+  String get fightersAllStyles => 'All styles';
+
+  @override
+  String get fightersMine => 'My fighters';
+
+  @override
+  String get fightersSeeAll => 'See all';
+
+  @override
+  String get fightersNoMatch => 'No fighter matches.';
 }

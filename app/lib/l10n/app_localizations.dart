@@ -3127,6 +3127,72 @@ abstract class AppLocalizations {
   /// In fr, this message translates to:
   /// **'Elle est rangée dans ta collection.'**
   String get rewardTacticHint;
+
+  /// No description provided for @fightersAllClasses.
+  ///
+  /// In fr, this message translates to:
+  /// **'Toutes les catégories'**
+  String get fightersAllClasses;
+
+  /// No description provided for @fightersSort.
+  ///
+  /// In fr, this message translates to:
+  /// **'Tri'**
+  String get fightersSort;
+
+  /// No description provided for @fightersSortRanking.
+  ///
+  /// In fr, this message translates to:
+  /// **'Classement'**
+  String get fightersSortRanking;
+
+  /// No description provided for @fightersSortOverall.
+  ///
+  /// In fr, this message translates to:
+  /// **'Note'**
+  String get fightersSortOverall;
+
+  /// No description provided for @fightersSortName.
+  ///
+  /// In fr, this message translates to:
+  /// **'Nom'**
+  String get fightersSortName;
+
+  /// No description provided for @fightersSortCountry.
+  ///
+  /// In fr, this message translates to:
+  /// **'Pays'**
+  String get fightersSortCountry;
+
+  /// No description provided for @fightersStyle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Style'**
+  String get fightersStyle;
+
+  /// No description provided for @fightersAllStyles.
+  ///
+  /// In fr, this message translates to:
+  /// **'Tous les styles'**
+  String get fightersAllStyles;
+
+  /// No description provided for @fightersMine.
+  ///
+  /// In fr, this message translates to:
+  /// **'Mes combattants'**
+  String get fightersMine;
+
+  /// No description provided for @fightersSeeAll.
+  ///
+  /// In fr, this message translates to:
+  /// **'Tout voir'**
+  String get fightersSeeAll;
+
+  /// No description provided for @fightersNoMatch.
+  ///
+  /// In fr, this message translates to:
+  /// **'Aucun combattant ne correspond.'**
+  String get fightersNoMatch;
 }
 
 class _AppLocalizationsDelegate

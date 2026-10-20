@@ -30,14 +30,7 @@ class CombatOutcome {
 
 /// Classement officiel d'un combattant (ufc.com/rankings, voir
 /// data/scripts/fetch_rankings.py) : catégorie et rang (0 = champion).
-({WeightClass categorie, int rang, String? date})? rankingOf(Fighter f) {
-  final c = f.ufc['classement'];
-  if (c is! Map) return null;
-  final w = WeightClass.fromKey(c['categorie'] as String?);
-  final r = (c['rang'] as num?)?.toInt();
-  if (w == null || r == null) return null;
-  return (categorie: w, rang: r, date: c['date'] as String?);
-}
+({WeightClass categorie, int rang, String? date})? rankingOf(Fighter f) => f.classement;
 
 /// Un échelon de la Route vers la ceinture.
 @immutable

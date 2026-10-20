@@ -518,5 +518,16 @@
   "rewardChecking": "Checking the fight…",
   "combatHistory": "Recent fights",
   "rewardTacticTitle": "Tactic card won!",
-  "rewardTacticHint": "It's been added to your collection."
+  "rewardTacticHint": "It's been added to your collection.",
+  "fightersAllClasses": "All weight classes",
+  "fightersSort": "Sort",
+  "fightersSortRanking": "Ranking",
+  "fightersSortOverall": "Rating",
+  "fightersSortName": "Name",
+  "fightersSortCountry": "Country",
+  "fightersStyle": "Style",
+  "fightersAllStyles": "All styles",
+  "fightersMine": "My fighters",
+  "fightersSeeAll": "See all",
+  "fightersNoMatch": "No fighter matches."
 }

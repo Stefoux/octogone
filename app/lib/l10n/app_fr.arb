@@ -891,5 +891,16 @@
   "rewardChecking": "Vérification du combat…",
   "combatHistory": "Derniers combats",
   "rewardTacticTitle": "Carte Tactique gagnée !",
-  "rewardTacticHint": "Elle est rangée dans ta collection."
+  "rewardTacticHint": "Elle est rangée dans ta collection.",
+  "fightersAllClasses": "Toutes les catégories",
+  "fightersSort": "Tri",
+  "fightersSortRanking": "Classement",
+  "fightersSortOverall": "Note",
+  "fightersSortName": "Nom",
+  "fightersSortCountry": "Pays",
+  "fightersStyle": "Style",
+  "fightersAllStyles": "Tous les styles",
+  "fightersMine": "Mes combattants",
+  "fightersSeeAll": "Tout voir",
+  "fightersNoMatch": "Aucun combattant ne correspond."
 }

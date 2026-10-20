@@ -444,19 +444,48 @@ void main() {
     expect(find.text('Se connecter'), findsOneWidget);
   });
 
-  testWidgets('Combattants : liste, recherche et filtre champions', (tester) async {
-    await tester.pumpWidget(_wrap(const FightersScreen(), locale: const Locale('fr')));
-    await tester.pumpAndSettle();
-    expect(find.text('Alex Pereira'), findsOneWidget);
-    expect(find.text('Zhang Weili'), findsOneWidget);
+  testWidgets('Combattants : une rangée par catégorie, recherche, tout voir, mes combattants, classement', (tester) async {
+    _bigScreen(tester);
+    Fighter ranked(String id, String nom, int rang) => Fighter({
+      ..._fighterJson(id, nom),
+      'ufc': {
+        'classement': {'categorie': 'mi_lourds', 'rang': rang, 'date': '2026-10-05'},
+      },
+    });
+    final fighters = [..._fighters, ranked('carlos-ulberg', 'Carlos Ulberg', 0), ranked('jiri-prochazka', 'Jiri Prochazka', 2)];
+    await tester.pumpWidget(_wrap(const FightersScreen(), overrides: _overrides(fighters: fighters), locale: const Locale('fr')));
+    await _frames(tester);
+    expect(find.byKey(const Key('fighters-row-mi_lourds')), findsOneWidget);
+    expect(find.byKey(const Key('fighters-row-mouche_f')), findsOneWidget);
+    // Classement : le champion d'abord, puis les classés, puis les autres
+    final dx = [
+      for (final n in ['Carlos Ulberg', 'Jiri Prochazka', 'Alex Pereira']) tester.getTopLeft(find.textContaining(n)).dx,
+    ];
+    expect(dx, orderedEquals([...dx]..sort()));
+    expect(find.text('#2'), findsOneWidget);
+    expect(find.byIcon(Icons.emoji_events), findsOneWidget);
+
     await tester.enterText(find.byKey(const Key('fighters-search')), 'zhang');
-    await tester.pumpAndSettle();
-    expect(find.text('Alex Pereira'), findsNothing);
+    await _frames(tester);
+    expect(find.textContaining('Alex Pereira'), findsNothing);
+    expect(find.byKey(const Key('fighters-row-mi_lourds')), findsNothing);
     await tester.enterText(find.byKey(const Key('fighters-search')), '');
-    await tester.tap(find.text('Champions'));
-    await tester.pumpAndSettle();
-    expect(find.text('Alex Pereira'), findsOneWidget);
-    expect(find.text('Zhang Weili'), findsNothing);
+    await _frames(tester);
+
+    // Mes combattants : seule la carte d'Alex Pereira est possédée
+    await tester.tap(find.byKey(const Key('fighters-mine')));
+    await _frames(tester);
+    expect(find.textContaining('Alex Pereira'), findsOneWidget);
+    expect(find.textContaining('Jiri Prochazka'), findsNothing);
+    await tester.tap(find.byKey(const Key('fighters-mine')));
+    await _frames(tester);
+
+    // Tout voir : la catégorie en grille
+    await tester.tap(find.descendant(of: find.byKey(const Key('fighters-row-mi_lourds')), matching: find.text('Tout voir')));
+    await _frames(tester);
+    expect(find.byKey(const Key('fighters-row-mi_lourds')), findsNothing);
+    expect(find.textContaining('Carlos Ulberg'), findsOneWidget);
+    expect(find.textContaining('Zhang Weili'), findsNothing);
   });
 
   testWidgets('Fiche combattant : stats, distinctions dans la langue, pas de sources', (tester) async {

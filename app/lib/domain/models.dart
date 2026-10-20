@@ -67,6 +67,16 @@ class Fighter {
   }
 
   bool get retired => statut == 'retraite';
+
+  /// Classement officiel UFC (ufc.com/rankings) : catégorie et rang (0 = champion).
+  ({WeightClass categorie, int rang, String? date})? get classement {
+    final c = ufc['classement'];
+    if (c is! Map) return null;
+    final w = WeightClass.fromKey(c['categorie'] as String?);
+    final r = (c['rang'] as num?)?.toInt();
+    if (w == null || r == null) return null;
+    return (categorie: w, rang: r, date: c['date'] as String?);
+  }
 }
 
 class ImageRef {
