@@ -2411,7 +2411,7 @@ abstract class AppLocalizations {
   /// No description provided for @combatNoTactics.
   ///
   /// In fr, this message translates to:
-  /// **'Aucune carte Tactique : tu en reçois une dans chaque booster.'**
+  /// **'Aucune carte Tactique : gagne-en en combat et avec les défis.'**
   String get combatNoTactics;
 
   /// No description provided for @combatEnter.
@@ -3115,6 +3115,18 @@ abstract class AppLocalizations {
   /// In fr, this message translates to:
   /// **'Derniers combats'**
   String get combatHistory;
+
+  /// No description provided for @rewardTacticTitle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Carte Tactique gagnée !'**
+  String get rewardTacticTitle;
+
+  /// No description provided for @rewardTacticHint.
+  ///
+  /// In fr, this message translates to:
+  /// **'Elle est rangée dans ta collection.'**
+  String get rewardTacticHint;
 }
 
 class _AppLocalizationsDelegate

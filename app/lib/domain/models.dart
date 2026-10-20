@@ -320,6 +320,35 @@ class OwnedCard {
   final DateTime? obtenueLe;
 }
 
+/// Carte gagnée en récompense (combat, défi, succès) : {owned_id, card_id,
+/// variant_id, rarete}, renvoyée par le serveur.
+class RewardCard {
+  RewardCard(Json j)
+      : ownedId = j['owned_id'] as String,
+        cardId = j['card_id'] as String,
+        variantId = j['variant_id'] as String,
+        rarete = j['rarete'] as String? ?? 'commune';
+
+  final String ownedId;
+  final String cardId;
+  final String variantId;
+  final String rarete;
+
+  static RewardCard? fromJson(Object? j) => j is Map ? RewardCard(j.cast<String, dynamic>()) : null;
+
+  OwnedCard get owned => OwnedCard({'id': ownedId, 'card_id': cardId, 'variant_id': variantId, 'origine': 'recompense'});
+}
+
+/// Récompense récupérée (défi, succès) : nouveau solde et carte éventuelle.
+class ClaimResult {
+  const ClaimResult({required this.pieces, this.card});
+  final int pieces;
+  final RewardCard? card;
+
+  static ClaimResult fromJson(Map<String, dynamic> j) =>
+      ClaimResult(pieces: (j['pieces'] as num?)?.toInt() ?? 0, card: RewardCard.fromJson(j['carte']));
+}
+
 class BoosterType {
   BoosterType(Json j)
       : id = j['id'] as String,

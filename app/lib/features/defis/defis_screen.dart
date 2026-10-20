@@ -8,6 +8,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../core/l10n.dart';
 import '../../core/theme.dart';
 import 'defis_service.dart';
+import '../../domain/models.dart';
+import '../cards/reward_card_dialog.dart';
 
 /// Défis du jour et de la semaine : progression, récompenses à récupérer.
 class DefisScreen extends ConsumerStatefulWidget {
@@ -30,11 +32,13 @@ class _DefisScreenState extends ConsumerState<DefisScreen> {
   Future<void> _claim(Defi d) async {
     final l = context.l10n;
     final messenger = ScaffoldMessenger.of(context);
+    RewardCard? won;
     setState(() => _busy.add(d.id));
     try {
-      await ref.read(defisServiceProvider).claim(d.id);
+      final r = await ref.read(defisServiceProvider).claim(d.id);
       unawaited(HapticFeedback.mediumImpact());
       messenger.showSnackBar(SnackBar(content: Text(l.defisClaimedSnack(d.pieces))));
+      won = r.card;
     } on DefiException catch (e) {
       messenger.showSnackBar(SnackBar(
         content: Text(switch (e.kind) {
@@ -49,6 +53,7 @@ class _DefisScreenState extends ConsumerState<DefisScreen> {
       ref.invalidate(defisProvider);
       if (mounted) setState(() => _busy.remove(d.id));
     }
+    if (won != null && mounted) await showRewardCard(context, won);
   }
 
   @override

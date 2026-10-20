@@ -1329,7 +1329,8 @@ class AppLocalizationsEn extends AppLocalizations {
   String get combatTactics => 'Tactic cards (up to 2)';
 
   @override
-  String get combatNoTactics => 'No Tactic cards: you get one in every pack.';
+  String get combatNoTactics =>
+      'No Tactic cards: win them in fights and challenges.';
 
   @override
   String get combatEnter => 'Enter the cage';
@@ -1760,4 +1761,10 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get combatHistory => 'Recent fights';
+
+  @override
+  String get rewardTacticTitle => 'Tactic card won!';
+
+  @override
+  String get rewardTacticHint => 'It\'s been added to your collection.';
 }

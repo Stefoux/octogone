@@ -10,6 +10,8 @@ import '../../core/l10n.dart';
 import '../../core/theme.dart';
 import '../defis/defis_service.dart' show DefiError, DefiException;
 import 'succes_service.dart';
+import '../../domain/models.dart';
+import '../cards/reward_card_dialog.dart';
 
 IconData _icon(String type) => switch (type) {
       'boosters_ouverts' => Icons.inventory_2_outlined,
@@ -48,11 +50,13 @@ class _SuccesScreenState extends ConsumerState<SuccesScreen> {
   Future<void> _claim(Succes s) async {
     final l = context.l10n;
     final messenger = ScaffoldMessenger.of(context);
+    RewardCard? won;
     setState(() => _busy.add(s.id));
     try {
-      await ref.read(succesServiceProvider).claim(s.id);
+      final r = await ref.read(succesServiceProvider).claim(s.id);
       unawaited(HapticFeedback.heavyImpact());
       messenger.showSnackBar(SnackBar(content: Text(l.defisClaimedSnack(s.pieces))));
+      won = r.card;
     } on DefiException catch (e) {
       messenger.showSnackBar(SnackBar(
         content: Text(switch (e.kind) {
@@ -67,6 +71,7 @@ class _SuccesScreenState extends ConsumerState<SuccesScreen> {
       ref.invalidate(succesProvider);
       if (mounted) setState(() => _busy.remove(s.id));
     }
+    if (won != null && mounted) await showRewardCard(context, won);
   }
 
   @override

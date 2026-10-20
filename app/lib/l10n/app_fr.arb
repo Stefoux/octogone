@@ -735,7 +735,7 @@
   "combatControlCards": "Cartes",
   "combatControlWheel": "Roue",
   "combatTactics": "Cartes Tactique (2 au plus)",
-  "combatNoTactics": "Aucune carte Tactique : tu en reçois une dans chaque booster.",
+  "combatNoTactics": "Aucune carte Tactique : gagne-en en combat et avec les défis.",
   "combatEnter": "Entrer dans la cage",
   "combatRound": "Round {r}",
   "@combatRound": {"placeholders": {"r": {"type": "int"}}},
@@ -889,5 +889,7 @@
   "rewardOffline": "Combat hors ligne : sans récompense",
   "rewardRefused": "Combat non validé par le serveur",
   "rewardChecking": "Vérification du combat…",
-  "combatHistory": "Derniers combats"
+  "combatHistory": "Derniers combats",
+  "rewardTacticTitle": "Carte Tactique gagnée !",
+  "rewardTacticHint": "Elle est rangée dans ta collection."
 }

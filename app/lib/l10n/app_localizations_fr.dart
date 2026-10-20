@@ -1337,7 +1337,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get combatNoTactics =>
-      'Aucune carte Tactique : tu en reçois une dans chaque booster.';
+      'Aucune carte Tactique : gagne-en en combat et avec les défis.';
 
   @override
   String get combatEnter => 'Entrer dans la cage';
@@ -1772,4 +1772,10 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get combatHistory => 'Derniers combats';
+
+  @override
+  String get rewardTacticTitle => 'Carte Tactique gagnée !';
+
+  @override
+  String get rewardTacticHint => 'Elle est rangée dans ta collection.';
 }

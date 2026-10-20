@@ -178,9 +178,10 @@ class TacticEditionTests(unittest.TestCase):
 
         root = Path(__file__).resolve().parents[2]
         for b in json.loads((root / "data" / "boosters.json").read_text(encoding="utf-8"))["boosters"]:
-            tac = b["composition"]["tactique"]
-            self.assertEqual(tac["edition"], "tactique")
-            self.assertEqual(b["nb_cartes"], sum(s["nb"] for s in b["composition"]["slots"]) + tac["nb"])
+            # Boosters de 5 cartes, sans carte Tactique (gagnées en jouant)
+            self.assertNotIn("tactique", b["composition"])
+            self.assertEqual(b["nb_cartes"], 5)
+            self.assertEqual(sum(s["nb"] for s in b["composition"]["slots"]), 5)
 
 
 if __name__ == "__main__":

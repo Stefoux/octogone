@@ -331,13 +331,16 @@ class _FakeDefis implements DefisService {
   Future<List<Defi>> load() async => defis;
 
   @override
-  Future<int> claim(String id) async {
+  Future<ClaimResult> claim(String id) async {
     claimed.add(id);
     defis = [
       for (final d in defis)
         d.id == id ? _defi(d.id, d.periode, d.progression, d.objectif, d.pieces, recupere: true) : d,
     ];
-    return 520;
+    return ClaimResult(
+      pieces: 520,
+      card: RewardCard({'owned_id': 'r2', 'card_id': 'ed:1', 'variant_id': 'ed:BASE:base', 'rarete': 'commune'}),
+    );
   }
 }
 
@@ -371,10 +374,10 @@ class _FakeSucces implements SuccesService {
   Future<List<Succes>> load() async => list;
 
   @override
-  Future<int> claim(String id) async {
+  Future<ClaimResult> claim(String id) async {
     claimed.add(id);
     list = [for (final x in list) x.id == id ? _succes(x.id, x.type, x.progression, x.objectif, x.pieces, recupere: true) : x];
-    return 600;
+    return const ClaimResult(pieces: 600);
   }
 }
 
@@ -985,6 +988,7 @@ void main() {
     expect(fake.claimed, ['connexion']);
     expect(find.text('+20 pièces'), findsOneWidget);
     expect(find.text('Récupéré'), findsNWidgets(2));
+    expect(find.text('Carte Tactique gagnée !'), findsOneWidget); // une carte par défi récupéré
     await tester.pumpWidget(const SizedBox());
     await tester.pump(const Duration(seconds: 5));
   });
@@ -1154,7 +1158,7 @@ void main() {
     expect(find.text('JIRI PROCHAZKA'), findsOneWidget); // Zhang Weili n'est pas de la catégorie
     expect(find.text('Difficile'), findsOneWidget);
     expect(find.text('Poids libre'), findsOneWidget);
-    expect(find.textContaining('tu en reçois une dans chaque booster'), findsOneWidget);
+    expect(find.textContaining('gagne-en en combat et avec les défis'), findsOneWidget);
     expect(find.byKey(const Key('combat-enter')), findsOneWidget);
     await tester.pumpWidget(const SizedBox());
   });
@@ -1179,7 +1183,9 @@ void main() {
     SharedPreferences.setMockInitialValues({});
     _phoneScreen(tester);
     combatBeat = const Duration(milliseconds: 1);
-    final combats = _FakeCombats();
+    final combats = _FakeCombats(
+      card: RewardCard({'owned_id': 'r1', 'card_id': 'ed:1', 'variant_id': 'ed:BASE:base', 'rarete': 'commune'}),
+    );
     await tester.pumpWidget(
       _wrap(
         CombatArenaScreen(setup: arenaSetup().withServer(id: 'combat-1', seed: 42)),
@@ -1223,6 +1229,7 @@ void main() {
     await _frames(tester);
     expect(combats.finished, ['combat-1']);
     expect(find.text('+50 pièces'), findsOneWidget);
+    expect(find.text('Carte Tactique gagnée !'), findsOneWidget);
     await tester.pumpWidget(const SizedBox());
     await tester.pump(const Duration(seconds: 5));
   });
@@ -1414,7 +1421,11 @@ void main() {
 
 /// Serveur de combats factice : graine fixe, récompense de 50 pièces, historique.
 class _FakeCombats extends CombatService {
+  _FakeCombats({this.card});
   final finished = <String>[];
+
+  /// Carte Tactique gagnée (si le serveur en donne une).
+  final RewardCard? card;
 
   @override
   Future<({String id, int seed})?> start(CombatSetup setup) async => (id: 'combat-x', seed: 7);
@@ -1423,7 +1434,7 @@ class _FakeCombats extends CombatService {
   Future<CombatReward> finish(CombatSetup setup, CombatController c) async {
     finished.add(setup.combatId!);
     expect(c.engine.log, isNotEmpty);
-    return const CombatReward(status: 'valide', coins: 50);
+    return CombatReward(status: 'valide', coins: 50, card: card);
   }
 
   @override

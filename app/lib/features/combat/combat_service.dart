@@ -6,6 +6,8 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
 import '../../data/repositories/content_providers.dart';
+import '../../data/sync/content_sync.dart';
+import '../../domain/models.dart';
 import '../boosters/booster_service.dart';
 import '../defis/defis_service.dart';
 import '../succes/succes_service.dart';
@@ -14,7 +16,7 @@ import 'combat_session.dart';
 /// Récompense d'un combat après vérification par le serveur.
 @immutable
 class CombatReward {
-  const CombatReward({required this.status, this.coins = 0, this.capped = false});
+  const CombatReward({required this.status, this.coins = 0, this.capped = false, this.card});
 
   /// valide, refuse, attente (hors ligne : envoyé plus tard), horsligne
   /// (combat commencé sans réseau : pas de récompense).
@@ -23,6 +25,9 @@ class CombatReward {
 
   /// Plafond quotidien atteint (gain réduit).
   final bool capped;
+
+  /// Carte Tactique gagnée (victoire, 1 fois sur 2).
+  final RewardCard? card;
 
   static const pending = CombatReward(status: 'attente');
   static const offline = CombatReward(status: 'horsligne');
@@ -122,10 +127,13 @@ class SupabaseCombatService extends CombatService {
       ..invalidate(defisProvider)
       ..invalidate(succesProvider)
       ..invalidate(combatHistoryProvider);
+    final card = RewardCard.fromJson(data['carte']);
+    if (card != null) await ContentSync(ref.read(databaseProvider), _client).syncOwnedCards();
     return CombatReward(
       status: data['statut'] as String? ?? 'refuse',
       coins: (data['pieces'] as num?)?.toInt() ?? 0,
       capped: data['plafond'] == true,
+      card: card,
     );
   }
 

@@ -2,6 +2,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
 import '../../data/repositories/content_providers.dart';
+import '../../data/sync/content_sync.dart';
+import '../../domain/models.dart';
 import '../boosters/booster_service.dart';
 import '../defis/defis_service.dart' show DefiError, DefiException;
 
@@ -33,8 +35,8 @@ class Succes {
 abstract class SuccesService {
   Future<List<Succes>> load();
 
-  /// Récupère la récompense ; renvoie le nouveau solde de pièces.
-  Future<int> claim(String id);
+  /// Récupère la récompense : nouveau solde et carte Tactique gagnée.
+  Future<ClaimResult> claim(String id);
 }
 
 class SupabaseSuccesService implements SuccesService {
@@ -48,11 +50,15 @@ class SupabaseSuccesService implements SuccesService {
   }
 
   @override
-  Future<int> claim(String id) async {
+  Future<ClaimResult> claim(String id) async {
     try {
-      final pieces = await ref.read(supabaseProvider).rpc<int>('recuperer_succes', params: {'p_id': id});
+      final client = ref.read(supabaseProvider);
+      final r = ClaimResult.fromJson(
+        (await client.rpc<Map<String, dynamic>>('reclamer_succes', params: {'p_id': id})).cast<String, dynamic>(),
+      );
       ref.invalidate(walletProvider);
-      return pieces;
+      if (r.card != null) await ContentSync(ref.read(databaseProvider), client).syncOwnedCards();
+      return r;
     } on PostgrestException catch (e) {
       throw DefiException(
         switch (e.code) {

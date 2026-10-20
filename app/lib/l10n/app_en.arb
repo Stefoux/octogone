@@ -399,7 +399,7 @@
   "combatControlCards": "Cards",
   "combatControlWheel": "Wheel",
   "combatTactics": "Tactic cards (up to 2)",
-  "combatNoTactics": "No Tactic cards: you get one in every pack.",
+  "combatNoTactics": "No Tactic cards: win them in fights and challenges.",
   "combatEnter": "Enter the cage",
   "combatRound": "Round {r}",
   "combatExchange": "Exchange {e}/{n}",
@@ -516,5 +516,7 @@
   "rewardOffline": "Offline fight: no reward",
   "rewardRefused": "Fight not validated by the server",
   "rewardChecking": "Checking the fight…",
-  "combatHistory": "Recent fights"
+  "combatHistory": "Recent fights",
+  "rewardTacticTitle": "Tactic card won!",
+  "rewardTacticHint": "It's been added to your collection."
 }

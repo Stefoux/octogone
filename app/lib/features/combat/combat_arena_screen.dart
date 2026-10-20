@@ -11,8 +11,11 @@ import 'package:go_router/go_router.dart';
 import '../../core/l10n.dart';
 import '../../core/sounds.dart';
 import '../../core/theme.dart';
+import '../../domain/models.dart';
 import '../../widgets/fighter_widgets.dart';
+import '../cards/card_view.dart';
 import '../cards/tactic_style.dart';
+import '../cards/trading_card.dart';
 import 'combat_modes.dart';
 import 'combat_service.dart';
 import 'combat_session.dart';
@@ -1131,6 +1134,7 @@ class _RewardLine extends StatelessWidget {
             ],
           ).animate().scaleXY(begin: 0.6, end: 1, curve: Curves.easeOutBack, duration: 400.ms),
           if (r.capped) Text(l.rewardCapped, style: const TextStyle(fontSize: 12, color: AppColors.textMuted)),
+          if (r.card != null) _WonCard(card: r.card!),
         ],
       );
     }
@@ -1146,3 +1150,31 @@ class _RewardLine extends StatelessWidget {
     );
   }
 }
+
+/// Carte Tactique gagnée à la fin du combat.
+class _WonCard extends ConsumerWidget {
+  const _WonCard({required this.card});
+  final RewardCard card;
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final l = context.l10n;
+    final view = buildCardView(ref, cardId: card.cardId, variantId: card.variantId, owned: card.owned);
+    return Padding(
+      key: const Key('combat-won-card'),
+      padding: const EdgeInsets.only(top: 12),
+      child: Column(
+        children: [
+          Text(l.rewardTacticTitle, style: const TextStyle(fontWeight: FontWeight.w700, color: AppColors.gold)),
+          const SizedBox(height: 8),
+          if (view != null)
+            SizedBox(width: 110, child: KeyedSubtree(child: TradingCard(view: view, animate: false)))
+                .animate()
+                .flipH(begin: -0.5, end: 0, duration: 500.ms)
+                .fadeIn(),
+        ],
+      ),
+    );
+  }
+}
+
