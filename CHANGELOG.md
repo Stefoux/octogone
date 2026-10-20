@@ -3,6 +3,33 @@
 Chaque version publiée a sa release GitHub avec les APK Android (`scripts/release_android.sh`).
 Le texte d'une section sert de notes à la release correspondante.
 
+## 0.5.0
+
+À lire avant de mettre à jour : cette version change les stats de jeu et les règles de combat. Mets l'app à jour sur tous les téléphones, sinon un combat joué avec la v0.4.0 est refusé par le serveur.
+
+Boosters
+- Tous les boosters passent à 5 cartes : Standard 80 pièces, Premium 200 pièces (une Rare au moins). Les cartes Tactique n'y sont plus.
+- Les cartes Tactique se gagnent en jouant : une victoire en combat sur deux (rareté selon le niveau de l'IA, jusqu'à la Légendaire en Difficile et dans la Route), une carte pour chaque défi récupéré, une Épique pour les succès de combat.
+
+Nouveaux packs Premium+ (500 pièces, 5 cartes, une Épique garantie, Légendaire environ 1 fois sur 4, Mythique environ 1 fois sur 25)
+- Champions : les 97 champions UFC de la base, actuels puis anciens.
+- Rivalités : 103 cartes Face-à-Face, une par vraie rivalité (au moins deux combats entre les mêmes combattants).
+- Hall of Fame : les 40 intronisés de la liste officielle (ailes des pionniers et moderne). 13 combattants ajoutés à la base (Randy Couture, Wanderlei Silva, Vitor Belfort, B.J. Penn, Ronda Rousey, José Aldo, Demetrious Johnson…).
+- Moments iconiques : 34 grands moments de l'UFC 1 à l'UFC Freedom 250, avec la date, la salle, le résultat et le contexte au verso. Chaque fait est vérifié dans l'article Wikipedia de l'événement ou des combattants.
+
+Refractor
+- Tous les Refractor de 2024 Topps Chrome (X-Fractor compris) sortent du jeu ; restent la Base de chaque série et la SuperFractor 1/1. Les exemplaires que tu possédais sont supprimés et remboursés en fragments, selon leur rareté.
+
+Stats de jeu v2
+- 3 catégories de 3 sous-stats : Frappe (précision, puissance, vitesse), Lutte (takedown, contrôle, soumission), Défense (menton, esquive, défense des takedowns). Le cardio disparaît.
+- Notes en lettres de S à D avec des + et des − ; la note globale reste un nombre. Les notes sont plus étalées : les champions et les classés ressortent, les débutants non.
+- Combat rééquilibré sur 10 000 combats simulés : environ 36 % de KO, 17 % de soumissions, 45 % de décisions.
+
+Combattants
+- Nouvel onglet : une rangée par catégorie (champion, classés, autres), filtres par catégorie, tri, mes combattants et style.
+- Palmarès corrigés : les combats de tournoi (plusieurs combats le même soir) étaient oubliés dans certains bilans, comme Khabib (29-0), Royce Gracie ou Randy Couture.
+
+
 ## 0.4.0
 
 Combat contre l'IA (phase 4)
