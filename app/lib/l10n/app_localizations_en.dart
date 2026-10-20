@@ -716,9 +716,6 @@ class AppLocalizationsEn extends AppLocalizations {
   String get statDefense => 'Defense';
 
   @override
-  String get statCardio => 'Cardio';
-
-  @override
   String get statMenton => 'Chin';
 
   @override
@@ -735,9 +732,6 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get statDefenseShort => 'DEF';
-
-  @override
-  String get statCardioShort => 'CAR';
 
   @override
   String get statMentonShort => 'CHN';
@@ -1800,4 +1794,40 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get fightersNoMatch => 'No fighter matches.';
+
+  @override
+  String get statPrecision => 'Accuracy';
+
+  @override
+  String get statPrecisionShort => 'ACC';
+
+  @override
+  String get statVitesse => 'Speed';
+
+  @override
+  String get statVitesseShort => 'SPD';
+
+  @override
+  String get statTakedown => 'Takedown';
+
+  @override
+  String get statTakedownShort => 'TKD';
+
+  @override
+  String get statControle => 'Control';
+
+  @override
+  String get statControleShort => 'CTL';
+
+  @override
+  String get statEsquive => 'Evasion';
+
+  @override
+  String get statEsquiveShort => 'EVA';
+
+  @override
+  String get statDefenseTd => 'TD defense';
+
+  @override
+  String get statDefenseTdShort => 'TDD';
 }

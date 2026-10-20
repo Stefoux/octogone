@@ -3,16 +3,18 @@ import 'dart:convert';
 import 'package:game_core/game_core.dart';
 import 'package:test/test.dart';
 
-GameStats _stats({int fr = 60, int pu = 60, int lu = 60, int so = 60, int de = 60, int ca = 60, int me = 60}) =>
-    GameStats({
-      StatKind.frappe: fr,
-      StatKind.puissance: pu,
-      StatKind.lutte: lu,
-      StatKind.soumission: so,
-      StatKind.defense: de,
-      StatKind.cardio: ca,
-      StatKind.menton: me,
-    });
+/// fr : précision et vitesse ; lu : takedown, contrôle, défense TD ; de : esquive.
+GameStats _stats({int fr = 60, int pu = 60, int lu = 60, int so = 60, int de = 60, int me = 60}) => GameStats({
+  StatKind.precision: fr,
+  StatKind.vitesse: fr,
+  StatKind.puissance: pu,
+  StatKind.takedown: lu,
+  StatKind.controle: lu,
+  StatKind.defenseTd: lu,
+  StatKind.soumission: so,
+  StatKind.esquive: de,
+  StatKind.menton: me,
+});
 
 CombatFighter _f(String id, GameStats s, {Rarity rarity = Rarity.rare}) => CombatFighter(
       id: id,

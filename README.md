@@ -50,7 +50,7 @@ Aucun fait n'est inventé : chaque combattant garde ses sources (`sources`, `cha
 | `make_icon.py` | icône de l'app (Android et iOS), dessinée par script |
 | `make_sounds.py` | sons de l'app (déchirure, retournement, révélation par rareté), générés sans fichier externe |
 | `test_boosters_load.py` | simulation de boosters (probabilités) et ouvertures simultanées (numérotation) |
-| `packages/game_core/bin/compute_stats.dart` | stats de jeu 0-99 (formule documentée dans `lib/src/stats/stat_formula.dart`) |
+| `packages/game_core/bin/compute_stats.dart` | stats de jeu v2 : Frappe (précision, puissance, vitesse), Lutte (takedown, contrôle, soumission), Défense (menton, esquive, défense TD), 30 à 99, affichées en lettres S à D ; formule documentée dans `lib/src/stats/stat_formula.dart` |
 
 Ajouter une édition réelle :
 

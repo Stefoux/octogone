@@ -94,8 +94,7 @@ class _Body extends ConsumerWidget {
           title: l.gameStats,
           trailing: OverallBadge(value: stats.overall, size: 36),
           children: [
-            for (final k in StatKind.values)
-              StatBar(label: statLabel(l, k), value: stats[k], estimated: stats.estimated.contains(k)),
+            for (final c in StatCategory.values) StatCategoryBlock(stats: stats, category: c),
             const SizedBox(height: 6),
             Text(l.gameStatsNote, style: const TextStyle(color: AppColors.textMuted, fontSize: 12)),
           ],

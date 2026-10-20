@@ -127,16 +127,21 @@
   "ecarts_sources": {},
   "maj": "2026-10-04",
   "stats_jeu": {
-    "frappe": 70,
-    "puissance": 51,
-    "lutte": 65,
-    "soumission": 48,
-    "defense": 73,
-    "cardio": 59,
-    "menton": 83,
-    "globale": 64,
+    "precision": 83,
+    "puissance": 47,
+    "vitesse": 66,
+    "takedown": 73,
+    "controle": 85,
+    "soumission": 42,
+    "menton": 91,
+    "esquive": 77,
+    "defenseTd": 52,
+    "categorie_frappe": 65,
+    "categorie_lutte": 67,
+    "categorie_defense": 73,
+    "globale": 69,
     "style": "complet",
     "estimees": [],
-    "formule_version": 1
+    "formule_version": 2
   }
 }

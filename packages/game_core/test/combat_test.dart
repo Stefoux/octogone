@@ -1,16 +1,18 @@
 import 'package:game_core/game_core.dart';
 import 'package:test/test.dart';
 
-GameStats _stats({int fr = 60, int pu = 60, int lu = 60, int so = 60, int de = 60, int ca = 60, int me = 60}) =>
-    GameStats({
-      StatKind.frappe: fr,
-      StatKind.puissance: pu,
-      StatKind.lutte: lu,
-      StatKind.soumission: so,
-      StatKind.defense: de,
-      StatKind.cardio: ca,
-      StatKind.menton: me,
-    });
+/// fr : précision et vitesse ; lu : takedown, contrôle, défense TD ; de : esquive.
+GameStats _stats({int fr = 60, int pu = 60, int lu = 60, int so = 60, int de = 60, int me = 60}) => GameStats({
+  StatKind.precision: fr,
+  StatKind.vitesse: fr,
+  StatKind.puissance: pu,
+  StatKind.takedown: lu,
+  StatKind.controle: lu,
+  StatKind.defenseTd: lu,
+  StatKind.soumission: so,
+  StatKind.esquive: de,
+  StatKind.menton: me,
+});
 
 CombatFighter _f(String id, GameStats s, {Rarity rarity = Rarity.commune, String cat = 'legers', String? technique}) =>
     CombatFighter(
@@ -68,7 +70,7 @@ void main() {
   });
 
   test('Main : jamais plus de 2 exemplaires d’une carte (dessous, on peut toujours se relever)', () {
-    final grappler = _f('grappler', _stats(lu: 50, so: 99, ca: 30));
+    final grappler = _f('grappler', _stats(lu: 50, so: 99));
     for (var seed = 1; seed <= 300; seed++) {
       final e = CombatEngine(CombatConfig(seed: seed), striker, grappler);
       e.position = Position.sol;
@@ -84,7 +86,7 @@ void main() {
     final e = CombatEngine(const CombatConfig(seed: 1), wrestler, striker);
     final vsPower = e.successChance(0, CombatAction.takedown, CombatAction.frappePuissante);
     final vsQuick = e.successChance(0, CombatAction.takedown, CombatAction.frappeRapide);
-    expect(vsPower, greaterThan(vsQuick + 0.3));
+    expect(vsPower, greaterThan(vsQuick + 0.2));
     final powerVsGuard = e.successChance(1, CombatAction.frappePuissante, CombatAction.garde);
     final powerVsQuick = e.successChance(1, CombatAction.frappePuissante, CombatAction.frappeRapide);
     expect(powerVsGuard, lessThan(powerVsQuick));

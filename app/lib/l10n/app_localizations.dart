@@ -1376,12 +1376,6 @@ abstract class AppLocalizations {
   /// **'Défense'**
   String get statDefense;
 
-  /// No description provided for @statCardio.
-  ///
-  /// In fr, this message translates to:
-  /// **'Cardio'**
-  String get statCardio;
-
   /// No description provided for @statMenton.
   ///
   /// In fr, this message translates to:
@@ -1417,12 +1411,6 @@ abstract class AppLocalizations {
   /// In fr, this message translates to:
   /// **'DÉF'**
   String get statDefenseShort;
-
-  /// No description provided for @statCardioShort.
-  ///
-  /// In fr, this message translates to:
-  /// **'CAR'**
-  String get statCardioShort;
 
   /// No description provided for @statMentonShort.
   ///
@@ -3193,6 +3181,78 @@ abstract class AppLocalizations {
   /// In fr, this message translates to:
   /// **'Aucun combattant ne correspond.'**
   String get fightersNoMatch;
+
+  /// No description provided for @statPrecision.
+  ///
+  /// In fr, this message translates to:
+  /// **'Précision'**
+  String get statPrecision;
+
+  /// No description provided for @statPrecisionShort.
+  ///
+  /// In fr, this message translates to:
+  /// **'PRÉ'**
+  String get statPrecisionShort;
+
+  /// No description provided for @statVitesse.
+  ///
+  /// In fr, this message translates to:
+  /// **'Vitesse'**
+  String get statVitesse;
+
+  /// No description provided for @statVitesseShort.
+  ///
+  /// In fr, this message translates to:
+  /// **'VIT'**
+  String get statVitesseShort;
+
+  /// No description provided for @statTakedown.
+  ///
+  /// In fr, this message translates to:
+  /// **'Takedown'**
+  String get statTakedown;
+
+  /// No description provided for @statTakedownShort.
+  ///
+  /// In fr, this message translates to:
+  /// **'TKD'**
+  String get statTakedownShort;
+
+  /// No description provided for @statControle.
+  ///
+  /// In fr, this message translates to:
+  /// **'Contrôle'**
+  String get statControle;
+
+  /// No description provided for @statControleShort.
+  ///
+  /// In fr, this message translates to:
+  /// **'CTL'**
+  String get statControleShort;
+
+  /// No description provided for @statEsquive.
+  ///
+  /// In fr, this message translates to:
+  /// **'Esquive'**
+  String get statEsquive;
+
+  /// No description provided for @statEsquiveShort.
+  ///
+  /// In fr, this message translates to:
+  /// **'ESQ'**
+  String get statEsquiveShort;
+
+  /// No description provided for @statDefenseTd.
+  ///
+  /// In fr, this message translates to:
+  /// **'Défense TD'**
+  String get statDefenseTd;
+
+  /// No description provided for @statDefenseTdShort.
+  ///
+  /// In fr, this message translates to:
+  /// **'DTD'**
+  String get statDefenseTdShort;
 }
 
 class _AppLocalizationsDelegate

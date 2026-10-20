@@ -79,45 +79,46 @@ class CombatFighter {
   /// menton plus de cartes de défense et d'esquive.
   double cardWeight(CombatAction a, Stance stance) {
     double s(StatKind k) => this[k] / 99.0;
+    final frappe = (s(StatKind.precision) + s(StatKind.vitesse)) / 2;
     final style = this.style;
     final striker = style == FighterStyle.frappeur ? 1.0 : 0.0;
     final wrestler = style == FighterStyle.lutteur ? 1.0 : 0.0;
     final grappler = style == FighterStyle.grappler ? 1.0 : 0.0;
     // Complet : à l'aise partout, sa main mélange coups et lutte
     final complete = style == FighterStyle.complet ? 0.5 : 0.0;
-    final durable = ((this[StatKind.menton] + this[StatKind.defense]) / 2 - 55) / 30;
+    final durable = ((this[StatKind.menton] + this[StatKind.esquive]) / 2 - 55) / 30;
     switch (stance) {
       case Stance.debout:
         return switch (a) {
-          CombatAction.frappeRapide => 1.4 + 1.6 * s(StatKind.frappe) + 0.8 * striker + complete,
+          CombatAction.frappeRapide => 1.4 + 1.6 * frappe + 0.8 * striker + complete,
           CombatAction.frappePuissante => 0.8 + 1.8 * s(StatKind.puissance) + 0.8 * striker + complete,
-          CombatAction.coupDePied => 0.8 + 1.2 * s(StatKind.frappe) + 0.6 * striker,
-          CombatAction.takedown => 0.4 + 2.2 * s(StatKind.lutte) + 1.2 * wrestler + 0.6 * grappler + complete,
-          CombatAction.clinch => 0.6 + 1.2 * s(StatKind.lutte) + 0.6 * wrestler + 0.4 * grappler,
+          CombatAction.coupDePied => 0.8 + 1.2 * frappe + 0.6 * striker,
+          CombatAction.takedown => 0.4 + 2.2 * s(StatKind.takedown) + 1.2 * wrestler + 0.6 * grappler + complete,
+          CombatAction.clinch => 0.6 + 1.2 * s(StatKind.controle) + 0.6 * wrestler + 0.4 * grappler,
           CombatAction.esquive => 0.9 + (durable > 0 ? durable : 0) * 1.2,
           _ => 0,
         };
       case Stance.clinch:
         return switch (a) {
-          CombatAction.frappeRapide => 1.2 + 1.0 * s(StatKind.frappe),
+          CombatAction.frappeRapide => 1.2 + 1.0 * frappe,
           CombatAction.frappePuissante => 0.8 + 1.4 * s(StatKind.puissance) + 0.4 * striker,
-          CombatAction.takedown => 0.6 + 2.0 * s(StatKind.lutte) + 0.8 * wrestler,
+          CombatAction.takedown => 0.6 + 2.0 * s(StatKind.takedown) + 0.8 * wrestler,
           CombatAction.seRelever => 1.0 + 0.8 * striker,
-          CombatAction.controle => 0.6 + 1.4 * s(StatKind.lutte) + 0.6 * wrestler,
+          CombatAction.controle => 0.6 + 1.4 * s(StatKind.controle) + 0.6 * wrestler,
           _ => 0,
         };
       case Stance.dessus:
         return switch (a) {
           CombatAction.groundAndPound => 1.0 + 1.6 * s(StatKind.puissance) + 0.6 * wrestler,
-          CombatAction.soumission => 0.5 + 2.2 * s(StatKind.soumission) + 1.2 * grappler,
-          CombatAction.controle => 0.8 + 1.4 * s(StatKind.lutte) + 0.6 * wrestler,
+          CombatAction.soumission => 0.5 + 2.2 * s(StatKind.soumission) + 0.6 * grappler,
+          CombatAction.controle => 0.8 + 1.4 * s(StatKind.controle) + 0.6 * wrestler,
           CombatAction.seRelever => 0.4 + 0.8 * striker,
           _ => 0,
         };
       case Stance.dessous:
         return switch (a) {
-          CombatAction.soumission => 0.6 + 2.0 * s(StatKind.soumission) + 1.0 * grappler,
-          CombatAction.seRelever => 1.4 + 1.2 * s(StatKind.lutte) + 0.4 * s(StatKind.cardio),
+          CombatAction.soumission => 0.6 + 2.0 * s(StatKind.soumission) + 0.4 * grappler,
+          CombatAction.seRelever => 1.4 + 1.2 * s(StatKind.defenseTd) + 0.4 * 0.62,
           _ => 0,
         };
     }

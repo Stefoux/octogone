@@ -61,7 +61,7 @@ void main() {
     test('sans aucune donnée : valeurs neutres marquées estimées', () {
       final s = StatFormula.compute(const RealStats());
       expect(s.estimated, containsAll(StatKind.values));
-      expect(s[StatKind.frappe], 65); // 30 + 69 × 0,5 arrondi
+      expect(s[StatKind.precision], 65); // 30 + 69 × 0,5 arrondi
     });
 
     test('un KO éclair unique ne donne pas une puissance maximale', () {
@@ -78,7 +78,7 @@ void main() {
       const solide = RealStats(wins: 20, losses: 2, lossesKo: 0, ufcFights: 1);
       const fragile = RealStats(wins: 20, losses: 8, lossesKo: 6, ufcFights: 1);
       expect(StatFormula.compute(solide)[StatKind.menton], 99);
-      expect(StatFormula.compute(fragile)[StatKind.menton], lessThan(45));
+      expect(StatFormula.compute(fragile)[StatKind.menton], lessThan(40));
     });
 
     test('profil de frappeur vs lutteur', () {
@@ -100,7 +100,7 @@ void main() {
 
     test('bonus de rareté plafonné à 99', () {
       final s = GameStats({for (final k in StatKind.values) k: 97});
-      expect(s.withBonus(6)[StatKind.cardio], 99);
+      expect(s.withBonus(6)[StatKind.defenseTd], 99);
     });
 
     test('lecture du JSON de data/fighters', () {
@@ -113,6 +113,51 @@ void main() {
       expect(r.totalFights, 17);
       final s = StatFormula.compute(r);
       expect(GameStats.fromJson(s.toJson()).values, s.values);
+    });
+  });
+
+  group('Stats v2', () {
+    test('3 catégories de 3 sous-stats, sans cardio', () {
+      expect(StatKind.values, hasLength(9));
+      for (final c in StatCategory.values) {
+        expect(c.kinds, hasLength(3));
+      }
+      expect(StatKind.values.map((k) => k.name), isNot(contains('cardio')));
+    });
+
+    test('lettres S à D avec + et -', () {
+      expect([95, 90, 89, 85, 80, 79, 73, 70, 69, 65, 60, 59, 52, 40].map(StatFormula.grade).toList(),
+          ['S', 'S', 'A+', 'A', 'A-', 'B+', 'B', 'B-', 'C+', 'C', 'C-', 'D+', 'D', 'D-']);
+    });
+
+    test('note globale : meilleure attaque, Défense, autre attaque', () {
+      final s = GameStats({
+        StatKind.precision: 90, StatKind.puissance: 90, StatKind.vitesse: 90, // Frappe 90
+        StatKind.takedown: 50, StatKind.controle: 50, StatKind.soumission: 50, // Lutte 50
+        StatKind.menton: 80, StatKind.esquive: 80, StatKind.defenseTd: 80, // Défense 80
+      });
+      expect(s.category(StatCategory.frappe), 90);
+      expect(s.overall, (90 * 0.55 + 80 * 0.3 + 50 * 0.15).round());
+      expect(s.style, FighterStyle.frappeur);
+    });
+
+    test('niveau réel : un champion se détache d\'un inconnu aux mêmes stats', () {
+      const base = RealStats(strikesLandedPerMin: 4.5, strikingAccuracyPct: 50, wins: 15, losses: 4, ufcFights: 10, ufcWins: 7);
+      const champion = RealStats(
+          strikesLandedPerMin: 4.5, strikingAccuracyPct: 50, wins: 15, losses: 4, ufcFights: 10, ufcWins: 7, championNow: true);
+      const classe = RealStats(
+          strikesLandedPerMin: 4.5, strikingAccuracyPct: 50, wins: 15, losses: 4, ufcFights: 10, ufcWins: 7, rank: 12);
+      final a = StatFormula.compute(base).overall;
+      final b = StatFormula.compute(champion).overall;
+      final c = StatFormula.compute(classe).overall;
+      expect(b - a, greaterThanOrEqualTo(9));
+      expect(c, inExclusiveRange(a, b));
+    });
+
+    test('stats manquantes : estimées d\'après le taux de victoires à l\'UFC', () {
+      const gagnant = RealStats(ufcFights: 30, ufcWins: 24);
+      const perdant = RealStats(ufcFights: 10, ufcWins: 3);
+      expect(StatFormula.compute(gagnant)[StatKind.precision], greaterThan(StatFormula.compute(perdant)[StatKind.precision]));
     });
   });
 

@@ -67,7 +67,7 @@ cd data/scripts && .venv/bin/python -m unittest test_scripts
 Points d'accroche :
 - **Référencer les exemplaires possédés** (`owned_cards.id`), comme `vitrine_slots`. Une table `deck_slots`, écrite par une fonction `set_deck(...)` qui vérifie la propriété, sur le modèle de `set_vitrine`.
 - **Choisir les cartes** avec `pickOwnedCard` (`app/lib/features/collection/owned_card_picker.dart`), avec un filtre par type de carte.
-- **Le moteur de combat** va dans `packages/game_core`, en Dart pur, pour être partagé app / serveur. Les stats de jeu existent déjà (`StatFormula`).
+- **Le moteur de combat** va dans `packages/game_core`, en Dart pur, pour être partagé app / serveur. Les stats de jeu existent déjà (`StatFormula` v2 : 3 catégories de 3 sous-stats, lettres S à D).
 
 ### Échange de cartes entre joueurs
 Un exemplaire change de propriétaire (`owned_cards.owner_id`) dans une fonction serveur transactionnelle, avec une proposition et une acceptation des deux côtés.

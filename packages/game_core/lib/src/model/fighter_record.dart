@@ -24,6 +24,14 @@ class RealStats {
     this.lossesKo,
     this.ufcFights,
     this.fiveRoundDecisionWins,
+    this.lossesSubmission,
+    this.ufcWins,
+    this.takedownsLanded,
+    this.koBonuses,
+    this.submissionBonuses,
+    this.championNow = false,
+    this.formerChampion = false,
+    this.rank,
   });
 
   /// Frappes significatives réussies par minute (ufc.com « Sig. Str. Landed »).
@@ -67,6 +75,25 @@ class RealStats {
   /// Victoires par décision au bout de 5 rounds.
   final int? fiveRoundDecisionWins;
 
+  final int? lossesSubmission;
+
+  /// Victoires à l'UFC.
+  final int? ufcWins;
+
+  /// Takedowns réussis à l'UFC (total).
+  final int? takedownsLanded;
+
+  /// Bonus « KO de la soirée » et « soumission de la soirée ».
+  final int? koBonuses;
+  final int? submissionBonuses;
+
+  /// Champion UFC actuel, ancien champion.
+  final bool championNow;
+  final bool formerChampion;
+
+  /// Classement officiel ufc.com (0 = champion, 1 à 15), null si non classé.
+  final int? rank;
+
   int? get totalFights =>
       wins == null || losses == null ? null : wins! + losses! + (draws ?? 0);
 
@@ -98,6 +125,14 @@ class RealStats {
       lossesKo: i(p['defaites_ko']),
       ufcFights: i(u['combats_ufc']),
       fiveRoundDecisionWins: i(u['victoires_decision_5_rounds']),
+      lossesSubmission: i(p['defaites_soumission']),
+      ufcWins: i(u['victoires_ufc']),
+      takedownsLanded: i(s['takedowns_reussis']),
+      koBonuses: i(u['bonus_kotn']),
+      submissionBonuses: i(u['bonus_sotn']),
+      championNow: j['champion_actuel'] == true,
+      formerChampion: j['ancien_champion'] == true,
+      rank: i((u['classement'] as Map?)?['rang']),
     );
   }
 }

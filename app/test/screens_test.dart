@@ -38,6 +38,7 @@ import 'package:octogone/features/cards/trading_card.dart';
 import 'package:octogone/features/fighters/fighter_detail_screen.dart';
 import 'package:octogone/features/entry/entry_screen.dart';
 import 'package:octogone/features/fighters/fighters_screen.dart';
+import 'package:octogone/widgets/fighter_widgets.dart';
 import 'package:octogone/widgets/rarity_backdrop.dart';
 import 'package:octogone/features/vitrine/vitrine_screen.dart';
 import 'package:octogone/features/atelier/atelier_service.dart';
@@ -492,9 +493,13 @@ void main() {
     _bigScreen(tester);
     await tester.pumpWidget(_wrap(const FighterDetailScreen(fighterId: 'alex-pereira'), locale: const Locale('fr')));
     await tester.pumpAndSettle();
-    for (final label in ['Frappe', 'Puissance', 'Lutte', 'Soumission', 'Défense', 'Cardio', 'Menton']) {
+    // 3 catégories (en lettres) de 3 sous-stats, sans cardio
+    for (final label in ['FRAPPE', 'LUTTE', 'DÉFENSE', 'Précision', 'Puissance', 'Vitesse', 'Takedown', 'Contrôle',
+        'Soumission', 'Menton', 'Esquive', 'Défense TD']) {
       expect(find.text(label), findsOneWidget);
     }
+    expect(find.text('Cardio'), findsNothing);
+    expect(find.byType(GradeBadge), findsNWidgets(12));
     expect(find.text('Champion UFC des poids mi-lourds (2 fois)'), findsOneWidget);
     expect(find.textContaining('À vérifier : allonge_cm'), findsOneWidget);
     expect(find.text('Sources'), findsNothing);
@@ -503,7 +508,8 @@ void main() {
     await tester.pumpWidget(_wrap(const FighterDetailScreen(fighterId: 'alex-pereira'), locale: const Locale('en')));
     await tester.pumpAndSettle();
     expect(find.text('UFC Light Heavyweight Champion (2×)'), findsOneWidget);
-    expect(find.text('Striking'), findsOneWidget);
+    expect(find.text('STRIKING'), findsOneWidget);
+    expect(find.text('Accuracy'), findsOneWidget);
   });
 
   testWidgets('Recto : nom, numéro dans la série, numéro de série, note avec bonus', (tester) async {

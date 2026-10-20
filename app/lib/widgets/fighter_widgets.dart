@@ -1,6 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:game_core/game_core.dart';
 
 import '../core/config.dart';
 import '../core/l10n.dart';
@@ -91,20 +92,89 @@ class _SilhouettePainter extends CustomPainter {
   bool shouldRepaint(covariant CustomPainter oldDelegate) => false;
 }
 
-/// Barre de stat 0-99.
+/// Couleur d'une note (lettre) : S or, A vert, B acier, C bleu-gris, D rouge.
+Color gradeColor(int v) => v >= 90
+    ? AppColors.gold
+    : v >= 80
+        ? AppColors.success
+        : v >= 70
+            ? const Color(0xFF7FB3D5)
+            : v >= 60
+                ? AppColors.steel
+                : AppColors.crimson;
+
+/// Lettre d'une stat (S, A+, A, A-… D-).
+class GradeBadge extends StatelessWidget {
+  const GradeBadge({super.key, required this.value, this.size = 26, this.estimated = false});
+  final int value;
+  final double size;
+  final bool estimated;
+
+  @override
+  Widget build(BuildContext context) {
+    final c = gradeColor(value);
+    return Container(
+      constraints: BoxConstraints(minWidth: size * 1.25),
+      height: size,
+      alignment: Alignment.center,
+      padding: EdgeInsets.symmetric(horizontal: size * 0.18),
+      decoration: BoxDecoration(
+        color: c.withValues(alpha: 0.16),
+        borderRadius: BorderRadius.circular(size * 0.28),
+        border: Border.all(color: c.withValues(alpha: estimated ? 0.35 : 0.8)),
+      ),
+      child: Text(
+        estimated ? '~${StatFormula.grade(value)}' : StatFormula.grade(value),
+        style: TextStyle(fontFamily: kDisplayFont, fontWeight: FontWeight.w700, fontSize: size * 0.56, color: c),
+      ),
+    );
+  }
+}
+
+/// Une catégorie de stats (Frappe, Lutte, Défense) : sa lettre et ses trois
+/// sous-stats, chacune avec sa barre et sa lettre.
+class StatCategoryBlock extends StatelessWidget {
+  const StatCategoryBlock({super.key, required this.stats, required this.category});
+  final GameStats stats;
+  final StatCategory category;
+
+  @override
+  Widget build(BuildContext context) {
+    final l = context.l10n;
+    final v = stats.category(category);
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 10),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          Row(
+            children: [
+              Expanded(
+                child: Text(
+                  categoryLabel(l, category).toUpperCase(),
+                  style: const TextStyle(fontFamily: kDisplayFont, fontSize: 16, letterSpacing: 1.2),
+                ),
+              ),
+              GradeBadge(value: v, size: 28),
+            ],
+          ),
+          const SizedBox(height: 4),
+          for (final k in category.kinds)
+            StatBar(label: statLabel(l, k), value: stats[k], estimated: stats.estimated.contains(k)),
+        ],
+      ),
+    );
+  }
+}
+
+/// Barre de stat 0-99, avec sa lettre.
 class StatBar extends StatelessWidget {
   const StatBar({super.key, required this.label, required this.value, this.estimated = false});
   final String label;
   final int value;
   final bool estimated;
 
-  Color get _color => value >= 85
-      ? AppColors.gold
-      : value >= 70
-          ? AppColors.success
-          : value >= 55
-              ? AppColors.steel
-              : AppColors.crimson;
+  Color get _color => gradeColor(value);
 
   @override
   Widget build(BuildContext context) {
@@ -125,11 +195,7 @@ class StatBar extends StatelessWidget {
             ),
           ),
           const SizedBox(width: 10),
-          SizedBox(
-            width: 36,
-            child: Text(estimated ? '~$value' : '$value',
-                textAlign: TextAlign.right, style: const TextStyle(fontWeight: FontWeight.w700)),
-          ),
+          GradeBadge(value: value, size: 22, estimated: estimated),
         ],
       ),
     );

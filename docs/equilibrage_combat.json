@@ -1,133 +1,133 @@
 {
   "combats": 10000,
   "fins": {
-    "decisionUnanime": 3931,
-    "soumission": 2047,
-    "tko": 467,
-    "ko": 3065,
-    "nul": 165,
-    "decisionMajoritaire": 138,
-    "decisionPartagee": 187
+    "decisionUnanime": 4215,
+    "soumission": 1727,
+    "ko": 3101,
+    "tko": 487,
+    "decisionMajoritaire": 146,
+    "nul": 168,
+    "decisionPartagee": 156
   },
   "styles": {
-    "complet vs grappler": [
-      411,
-      795
-    ],
     "complet vs frappeur": [
-      515,
-      1060
+      367,
+      721
+    ],
+    "complet vs grappler": [
+      87,
+      162
     ],
     "frappeur vs grappler": [
-      375,
-      701
-    ],
-    "grappler vs lutteur": [
-      62,
-      109
+      166,
+      330
     ],
     "frappeur vs lutteur": [
-      92,
-      190
+      106,
+      198
+    ],
+    "grappler vs lutteur": [
+      30,
+      50
     ],
     "complet vs lutteur": [
-      105,
-      180
+      52,
+      98
     ]
   },
   "rarete": {
     "3": [
-      609,
-      1035
+      584,
+      1032
     ],
     "4": [
-      279,
-      448
+      278,
+      443
     ],
     "1": [
-      1626,
-      3078
+      1676,
+      3060
     ],
     "2": [
-      932,
-      1762
+      928,
+      1764
     ],
     "5": [
-      58,
-      94
+      64,
+      96
     ]
   },
   "note": {
-    "10": [
-      682,
-      1011
-    ],
-    "0": [
-      2634,
-      4817
+    "15": [
+      811,
+      1118
     ],
     "5": [
-      1816,
-      3047
+      1782,
+      2904
     ],
-    "15": [
-      158,
-      217
+    "10": [
+      1170,
+      1768
+    ],
+    "0": [
+      1467,
+      2818
     ],
     "20": [
-      27,
-      30
+      663,
+      842
     ]
   },
-  "echanges_moyens": 8.4213,
+  "echanges_moyens": 8.6227,
   "niveaux_ia": {
     "normal contre facile": [
-      700,
-      1227
+      713,
+      1238
     ],
     "difficile contre normal": [
-      715,
+      727,
       1243
     ],
     "difficile contre facile": [
-      763,
-      1242
+      765,
+      1237
     ]
   },
   "niveaux_ia_egaux": {
     "normal contre facile": [
-      700,
-      1231
+      702,
+      1228
     ],
     "difficile contre normal": [
-      734,
-      1245
+      723,
+      1238
     ],
     "difficile contre facile": [
-      792,
-      1231
+      803,
+      1243
     ]
   },
   "rarete_seule": {
     "1": [
-      1271,
-      2230
-    ],
-    "2": [
-      730,
-      1252
+      1252,
+      2235
     ],
     "4": [
-      291,
-      435
+      282,
+      426
     ],
     "3": [
-      470,
-      789
+      461,
+      786
+    ],
+    "2": [
+      719,
+      1249
     ],
     "5": [
-      129,
-      191
+      118,
+      189
     ]
   }
 }

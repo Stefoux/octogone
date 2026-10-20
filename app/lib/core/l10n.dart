@@ -48,23 +48,39 @@ String weightClassShort(AppLocalizations l, WeightClass w) {
 }
 
 String statLabel(AppLocalizations l, StatKind k) => switch (k) {
-      StatKind.frappe => l.statFrappe,
+      StatKind.precision => l.statPrecision,
       StatKind.puissance => l.statPuissance,
-      StatKind.lutte => l.statLutte,
+      StatKind.vitesse => l.statVitesse,
+      StatKind.takedown => l.statTakedown,
+      StatKind.controle => l.statControle,
       StatKind.soumission => l.statSoumission,
-      StatKind.defense => l.statDefense,
-      StatKind.cardio => l.statCardio,
       StatKind.menton => l.statMenton,
+      StatKind.esquive => l.statEsquive,
+      StatKind.defenseTd => l.statDefenseTd,
     };
 
 String statShort(AppLocalizations l, StatKind k) => switch (k) {
-      StatKind.frappe => l.statFrappeShort,
+      StatKind.precision => l.statPrecisionShort,
       StatKind.puissance => l.statPuissanceShort,
-      StatKind.lutte => l.statLutteShort,
+      StatKind.vitesse => l.statVitesseShort,
+      StatKind.takedown => l.statTakedownShort,
+      StatKind.controle => l.statControleShort,
       StatKind.soumission => l.statSoumissionShort,
-      StatKind.defense => l.statDefenseShort,
-      StatKind.cardio => l.statCardioShort,
       StatKind.menton => l.statMentonShort,
+      StatKind.esquive => l.statEsquiveShort,
+      StatKind.defenseTd => l.statDefenseTdShort,
+    };
+
+String categoryLabel(AppLocalizations l, StatCategory c) => switch (c) {
+      StatCategory.frappe => l.statFrappe,
+      StatCategory.lutte => l.statLutte,
+      StatCategory.defense => l.statDefense,
+    };
+
+String categoryShort(AppLocalizations l, StatCategory c) => switch (c) {
+      StatCategory.frappe => l.statFrappeShort,
+      StatCategory.lutte => l.statLutteShort,
+      StatCategory.defense => l.statDefenseShort,
     };
 
 String styleLabel(AppLocalizations l, FighterStyle s) => switch (s) {

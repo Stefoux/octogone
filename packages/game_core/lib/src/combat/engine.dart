@@ -7,6 +7,8 @@
 /// redonne exactement le même combat (vérification serveur).
 library;
 
+import 'dart:math' as math;
+
 import '../stats/stat_formula.dart';
 import 'actions.dart';
 import 'fighter.dart';
@@ -159,11 +161,12 @@ class PendingSubmission {
   final bool signature;
 }
 
-// Réglages d'équilibrage (simulations de `bin/simulate_fights.dart`, validés
-// sur 10 000 combats : ≈ 35 % KO/TKO, 20 % soumissions, 43 % décisions).
+// Réglages d'équilibrage (simulations de `bin/simulate_fights.dart` sur
+// 10 000 combats, stats v2 : ≈ 36 % KO/TKO, 17 % soumissions, 45 % décisions ;
+// styles entre 45 et 55 % à niveau égal).
 
 /// Dégâts : multiplicateur global.
-const _damageScale = 1.2;
+const _damageScale = 1.08;
 
 /// Knockdown : chance de base sur une frappe lourde ; KO qui suit un knockdown.
 const _knockdownBase = 0.06, _koBase = 0.44;
@@ -176,13 +179,15 @@ const _gnpPower = 0.45, _gnpWrestling = 0.45;
 
 /// Soumission : chance de base, défense par la lutte, malus depuis le dos,
 /// défense propre aux lutteurs.
-const _submissionBase = 0.62, _subWrestlingDefense = 0.4, _subFromBottom = 0.16, _subWrestlerDefense = 0.18;
+const _subSkill = 0.6;
+const _submissionBase = 0.78, _subWrestlingDefense = 0.3, _subFromBottom = 0.16, _subWrestlerDefense = 0.2;
 
 /// Lutteur : bonus d'enchaînement (takedown, contrôle, clinch) et malus pour
 /// se relever sous lui.
-const _wrestlerChain = 0.11, _wrestlerPin = 0.06;
+const _wrestlerChain = 0.21, _wrestlerPin = 0.06;
 
-/// Coût d'endurance d'une action : coût × (base − pente × cardio).
+/// Coût d'endurance d'une action : coût × (base − pente × cardio), le cardio
+/// étant le même pour tous depuis les stats v2 ([_cardio]).
 const _cardioCostBase = 2.2, _cardioCostSlope = 1.4;
 
 /// Fatigue : malus de réussite qui croît sous [_fatigueThreshold] d'endurance,
@@ -333,6 +338,24 @@ class CombatEngine {
 
   double _s(int side, StatKind k) => fighters[side][k] / 99.0;
 
+  // Stats de jeu vues par le moteur (0..1), à partir des 9 sous-stats.
+  /// Frappe : précision et vitesse.
+  double _frappe(int i) => (_s(i, StatKind.precision) + _s(i, StatKind.vitesse)) / 2;
+  double _puissance(int i) => _s(i, StatKind.puissance);
+  double _takedown(int i) => _s(i, StatKind.takedown);
+  double _controle(int i) => _s(i, StatKind.controle);
+  double _soumission(int i) => _s(i, StatKind.soumission);
+  double _menton(int i) => _s(i, StatKind.menton);
+  double _esquive(int i) => _s(i, StatKind.esquive);
+  double _defenseTd(int i) => _s(i, StatKind.defenseTd);
+
+  /// Défense en soumission : sa propre science du sol, ou une bonne lutte
+  /// défensive (contrôle et défense de takedown), la meilleure des deux.
+  double _subDefense(int i) => math.max(_soumission(i), (_controle(i) + _defenseTd(i)) / 2);
+
+  /// Le cardio ne fait plus partie des stats : même endurance pour tous.
+  static const _cardio = 0.62;
+
   /// Rapport de poids (poids libre) : > 1 si [side] est plus lourd.
   double _sizeRatio(int side) {
     if (!config.openWeight) return 1;
@@ -351,24 +374,24 @@ class CombatEngine {
   double _edge(int i, int j, CombatAction a) {
     switch (a) {
       case CombatAction.frappeRapide:
-        return (_s(i, StatKind.frappe) - _s(j, StatKind.defense)) * 0.5;
+        return (_frappe(i) - _esquive(j)) * 0.5;
       case CombatAction.frappePuissante:
       case CombatAction.coupDePied:
       case CombatAction.groundAndPound:
-        return ((_s(i, StatKind.frappe) + _s(i, StatKind.puissance)) / 2 - _s(j, StatKind.defense)) * 0.5;
+        return ((_frappe(i) + _puissance(i)) / 2 - _esquive(j)) * 0.5;
       case CombatAction.takedown:
       case CombatAction.clinch:
-        return (_s(i, StatKind.lutte) - _s(j, StatKind.lutte)) * 0.6 + (_sizeRatio(i) - 1) * 0.4;
+        return (_takedown(i) - _defenseTd(j)) * 0.6 + (_sizeRatio(i) - 1) * 0.4;
       case CombatAction.soumission:
-        return (_s(i, StatKind.soumission) - _s(j, StatKind.soumission)) * 0.5;
+        return (_soumission(i) - _subDefense(j)) * 0.5;
       case CombatAction.controle:
-        return (_s(i, StatKind.lutte) - _s(j, StatKind.lutte)) * 0.5 + (_sizeRatio(i) - 1) * 0.3;
+        return (_controle(i) - _controle(j)) * 0.5 + (_sizeRatio(i) - 1) * 0.3;
       case CombatAction.seRelever:
-        return ((_s(i, StatKind.lutte) * 0.6 + _s(i, StatKind.cardio) * 0.4) - _s(j, StatKind.lutte)) * 0.5;
+        return ((_defenseTd(i) * 0.6 + _cardio * 0.4) - _controle(j)) * 0.5;
       case CombatAction.signature:
         return fighters[i].signatureKind == SignatureKind.frappe
-            ? ((_s(i, StatKind.frappe) + _s(i, StatKind.puissance)) / 2 - _s(j, StatKind.defense)) * 0.5
-            : (_s(i, StatKind.soumission) - _s(j, StatKind.soumission)) * 0.5;
+            ? ((_frappe(i) + _puissance(i)) / 2 - _esquive(j)) * 0.5
+            : (_soumission(i) - _subDefense(j)) * 0.5;
       default:
         return 0;
     }
@@ -396,14 +419,14 @@ class CombatEngine {
     final strikeKind = a == CombatAction.signature ? CombatAction.frappePuissante : a;
     double power;
     if (strikeKind == CombatAction.frappeRapide) {
-      power = 0.7 + 0.6 * _s(i, StatKind.frappe);
+      power = 0.7 + 0.6 * _frappe(i);
     } else if (strikeKind == CombatAction.groundAndPound) {
       // Au sol, la lutte compte autant que la puissance (pression, angles)
-      power = 0.55 + _gnpPower * _s(i, StatKind.puissance) + _gnpWrestling * _s(i, StatKind.lutte);
+      power = 0.55 + _gnpPower * _puissance(i) + _gnpWrestling * _controle(i);
     } else {
-      power = 0.55 + 0.9 * _s(i, StatKind.puissance);
+      power = 0.55 + 0.9 * _puissance(i);
     }
-    final chin = 1.3 - 0.6 * _s(j, StatKind.menton);
+    final chin = 1.3 - 0.6 * _menton(j);
     var d = a.damage * power * chin * _damageScale;
     if (b == CombatAction.garde) d *= 0.6;
     if (config.openWeight) {
@@ -455,7 +478,7 @@ class CombatEngine {
       final a = acts[s];
       // Un bon cardio use moins d'endurance par action
       final cost = a.cost > 0
-          ? (a.cost * (_cardioCostBase - _cardioCostSlope * _s(s, StatKind.cardio))).round()
+          ? (a.cost * (_cardioCostBase - _cardioCostSlope * _cardio)).round()
           : a.cost;
       sides[s].stamina = (sides[s].stamina - cost).clamp(0, 100);
       final hand = sides[s].hands[stances[s]]!;
@@ -526,9 +549,9 @@ class CombatEngine {
           b == CombatAction.garde &&
           (a == CombatAction.frappePuissante || a == CombatAction.signature) &&
           stances[o] != Stance.dessous) {
-        final p = (0.35 + (fighters[o][StatKind.frappe] - fighters[s][StatKind.frappe]) / 200).clamp(0.1, 0.7);
+        final p = (0.35 + (_frappe(o) - _frappe(s)) * 99 / 200).clamp(0.1, 0.7);
         if (_rng.nextDouble() < p) {
-          final dmg = (10 * (0.7 + 0.6 * _s(o, StatKind.frappe)) * (1.3 - 0.6 * _s(s, StatKind.menton))).round();
+          final dmg = (10 * (0.7 + 0.6 * _frappe(o)) * (1.3 - 0.6 * _menton(s))).round();
           sides[s].health -= dmg;
           _rs.damage[o] += dmg;
           _rs.landed[o]++;
@@ -553,7 +576,7 @@ class CombatEngine {
   /// santé de [o] après le coup).
   double _knockdownChance(int o, int dmg, CombatAction a, int health) {
     final hurt = 1 + (sides[o].maxHealth - health) / 120;
-    var kd = _knockdownBase + dmg / 45 * (1.3 - _s(o, StatKind.menton)) * hurt;
+    var kd = _knockdownBase + dmg / 45 * (1.3 - _menton(o)) * hurt;
     if (a == CombatAction.signature) kd *= 1.8;
     if (a == CombatAction.groundAndPound) kd *= 0.6;
     return kd.clamp(0, 0.6);
@@ -561,7 +584,7 @@ class CombatEngine {
 
   /// Chance que le knockdown finisse le combat.
   double _koChance(int o, int health) =>
-      (_koBase + (1 - health / sides[o].maxHealth) * 0.6 - _s(o, StatKind.menton) * 0.15).clamp(0.05, 0.85);
+      (_koBase + (1 - health / sides[o].maxHealth) * 0.6 - _menton(o) * 0.15).clamp(0.05, 0.85);
 
   /// Arrêt de l'arbitre : un combattant très touché qui encaisse encore.
   double _stoppageChance(int o, CombatAction a, int health) {
@@ -594,8 +617,8 @@ class CombatEngine {
     final o = 1 - s;
     var chance =
         _submissionBase +
-        (_s(s, StatKind.soumission) - _s(o, StatKind.soumission)) * 0.8 -
-        (_s(o, StatKind.lutte) - _s(s, StatKind.lutte)).clamp(0.0, 1.0) * _subWrestlingDefense +
+        (_soumission(s) - _subDefense(o)) * _subSkill -
+        (_controle(o) - _controle(s)).clamp(0.0, 1.0) * _subWrestlingDefense +
         (signature ? 0.15 : 0) +
         (1 - sides[o].stamina / 100) * 0.15 +
         (1 - sides[o].health / sides[o].maxHealth) * 0.10 +
@@ -673,8 +696,8 @@ class CombatEngine {
       int winner;
       if (td[0] && td[1]) {
         // Échange de takedowns : le meilleur lutteur finit dessus
-        final m0 = _s(0, StatKind.lutte) + (1 - rolls[0]) * 0.3;
-        final m1 = _s(1, StatKind.lutte) + (1 - rolls[1]) * 0.3;
+        final m0 = _takedown(0) + (1 - rolls[0]) * 0.3;
+        final m1 = _takedown(1) + (1 - rolls[1]) * 0.3;
         winner = m0 >= m1 ? 0 : 1;
       } else {
         winner = td[0] ? 0 : 1;
@@ -773,7 +796,7 @@ class CombatEngine {
       top = null;
       for (var s = 0; s < 2; s++) {
         final me = sides[s];
-        me.stamina = (me.stamina + 15 + (25 * _s(s, StatKind.cardio)).round()).clamp(0, 100);
+        me.stamina = (me.stamina + 15 + (25 * _cardio).round()).clamp(0, 100);
         me.health = (me.health + 4).clamp(0, me.maxHealth);
       }
       _newRoundStats();

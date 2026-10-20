@@ -226,12 +226,8 @@ class _FighterBack extends StatelessWidget {
             Expanded(
               child: Column(
                 children: [
-                  for (final k in StatKind.values)
-                    _StatLine(
-                      label: statShort(l, k),
-                      value: boosted[k],
-                      bonus: boosted[k] - base[k],
-                    ),
+                  for (final c in StatCategory.values)
+                    _CategoryLine(stats: boosted, category: c),
                 ],
               ),
             ),
@@ -496,71 +492,50 @@ class _EventBack extends StatelessWidget {
   }
 }
 
-class _StatLine extends StatelessWidget {
-  const _StatLine({
-    required this.label,
-    required this.value,
-    required this.bonus,
-  });
-  final String label;
-  final int value;
-  final int bonus;
+/// Une catégorie au verso : sa lettre, et les lettres de ses trois sous-stats.
+class _CategoryLine extends StatelessWidget {
+  const _CategoryLine({required this.stats, required this.category});
+  final GameStats stats;
+  final StatCategory category;
 
   @override
   Widget build(BuildContext context) {
-    final color = value >= 85
-        ? AppColors.gold
-        : value >= 70
-        ? AppColors.success
-        : value >= 55
-        ? AppColors.steel
-        : AppColors.crimson;
+    final l = context.l10n;
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 1.5),
+      padding: const EdgeInsets.symmetric(vertical: 3),
       child: Row(
         children: [
           SizedBox(
-            width: 30,
+            width: 32,
             child: Text(
-              label,
-              style: const TextStyle(
-                fontFamily: _display,
-                fontSize: 11,
-                color: AppColors.textMuted,
-              ),
+              categoryShort(l, category),
+              style: const TextStyle(fontFamily: _display, fontSize: 12, color: AppColors.textMuted),
             ),
           ),
+          GradeBadge(value: stats.category(category), size: 22),
+          const SizedBox(width: 8),
           Expanded(
-            child: ClipRRect(
-              borderRadius: BorderRadius.circular(3),
-              child: LinearProgressIndicator(
-                value: value / 99,
-                minHeight: 6,
-                backgroundColor: Colors.white10,
-                valueColor: AlwaysStoppedAnimation(color),
-              ),
-            ),
-          ),
-          SizedBox(
-            width: 44,
-            child: Text.rich(
-              TextSpan(
-                children: [
-                  TextSpan(
-                    text: '$value',
-                    style: const TextStyle(fontWeight: FontWeight.w700),
-                  ),
-                  if (bonus > 0)
-                    TextSpan(
-                      text: ' +$bonus',
-                      style: const TextStyle(
-                        color: AppColors.success,
-                        fontSize: 9.5,
+            child: FittedBox(
+              fit: BoxFit.scaleDown,
+              alignment: Alignment.centerLeft,
+              child: Text.rich(
+                TextSpan(
+                  children: [
+                    for (final (i, k) in category.kinds.indexed) ...[
+                      if (i > 0) const TextSpan(text: '  ·  ', style: TextStyle(color: Colors.white24)),
+                      TextSpan(
+                        text: '${statShort(l, k)} ',
+                        style: const TextStyle(color: AppColors.textMuted),
                       ),
-                    ),
-                ],
+                      TextSpan(
+                        text: StatFormula.grade(stats[k]),
+                        style: TextStyle(fontWeight: FontWeight.w800, color: gradeColor(stats[k])),
+                      ),
+                    ],
+                  ],
+                ),
+                style: const TextStyle(fontFamily: _display, fontSize: 11),
               ),
-              textAlign: TextAlign.right,
             ),
           ),
         ],
